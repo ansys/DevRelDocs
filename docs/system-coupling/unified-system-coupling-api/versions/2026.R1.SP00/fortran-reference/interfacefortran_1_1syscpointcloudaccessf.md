@@ -11,20 +11,22 @@ Provide function interface for access to point cloud.
 
 ## Members
 
-* [syscpointcloudaccessf](interfacefortran_1_1syscpointcloudaccessf.md#interfacefortran_1_1syscpointcloudaccessf_1aa2c72be1290bb23ad80da1acf9e26856)
+* [syscpointcloudaccessf](interfacefortran_1_1syscpointcloudaccessf.md#interfacefortran_1_1syscpointcloudaccessf_1a1efb7f7b79df0a16cfb47649590b665d)
 
 ## Public functions
 
-<a id="interfacefortran_1_1syscpointcloudaccessf_1aa2c72be1290bb23ad80da1acf9e26856"></a>
+<a id="interfacefortran_1_1syscpointcloudaccessf_1a1efb7f7b79df0a16cfb47649590b665d"></a>
 ### Function syscpointcloudaccessf
 
 ![][public]
 
+
 ```fortran
-type(syscpointcloudf) function syscpointcloudaccessf(regionName)
+type(syscpointcloudf) function syscpointcloudaccessf(regionname)
 ```
 
-Provide a function protototype for access to point cloud.
+
+Provide a function prototype for access to point cloud.
 
 **Parameters**:
 
@@ -34,7 +36,7 @@ Provide a function protototype for access to point cloud.
 
 **Parameters**:
 
-* regionNameregionName
+* regionnamecharacter(len=syscstrlen), intent(in)
 
 **Return type**: type([syscpointcloudf](structfortran_1_1syscpointcloudf.md#structfortran_1_1syscpointcloudf)) function
 

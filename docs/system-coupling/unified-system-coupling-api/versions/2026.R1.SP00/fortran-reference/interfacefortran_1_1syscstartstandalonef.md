@@ -20,9 +20,11 @@ Provide a function interface to start in standalone mode.
 
 ![][public]
 
+
 ```fortran
 type(syscerrorf) function syscstartstandaloneparallelf(communicator)
 ```
+
 
 Provide a function to start standalone mode in parallel.
 
@@ -42,7 +44,7 @@ Note that if the MPI communicator is <code>MPI_COMM_WORLD</code>, then it is not
 
 **Parameters**:
 
-* communicatorcommunicator
+* communicatorinteger(kind=4), intent(in)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

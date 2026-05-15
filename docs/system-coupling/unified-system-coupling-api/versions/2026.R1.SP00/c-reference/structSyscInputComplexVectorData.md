@@ -28,11 +28,13 @@ Input complex vector data provides read-and-write access to complex vector data.
 
 ![][public]
 
-**Definition**: `syscInputComplexVectorData.h` (line 242)
+**Definition**: `syscInputComplexVectorData.h` (line 30)
+
 
 ```
 enum SyscPrimitiveType SyscInputComplexVectorData::primitiveType
 ```
+
 
 
 
@@ -49,9 +51,11 @@ Primitive type.
 
 **Definition**: `syscInputComplexVectorData.h` (line 31)
 
+
 ```
 void* SyscInputComplexVectorData::data1
 ```
+
 
 
 
@@ -68,9 +72,11 @@ First data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 32)
 
+
 ```
 void* SyscInputComplexVectorData::data2
 ```
+
 
 
 
@@ -87,9 +93,11 @@ Second data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 33)
 
+
 ```
 void* SyscInputComplexVectorData::data3
 ```
+
 
 
 
@@ -106,9 +114,11 @@ Third data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 34)
 
+
 ```
 void* SyscInputComplexVectorData::data4
 ```
+
 
 
 
@@ -125,9 +135,11 @@ Fourth data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 35)
 
+
 ```
 void* SyscInputComplexVectorData::data5
 ```
+
 
 
 
@@ -144,9 +156,11 @@ Fifth data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 36)
 
+
 ```
 void* SyscInputComplexVectorData::data6
 ```
+
 
 
 
@@ -163,9 +177,11 @@ Sixth data pointer.
 
 **Definition**: `syscInputComplexVectorData.h` (line 37)
 
+
 ```
 size_t SyscInputComplexVectorData::size
 ```
+
 
 
 
@@ -180,11 +196,13 @@ Data size.
 
 ![][public]
 
-**Definition**: `syscInputComplexVectorData.h` (line 37)
+**Definition**: `syscInputComplexVectorData.h` (line 38)
+
 
 ```
 enum SyscDimension SyscInputComplexVectorData::dimension
 ```
+
 
 
 

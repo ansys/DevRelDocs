@@ -24,18 +24,9 @@
 * <string>
 * <vector>
 
+
 ```mermaid
 graph LR
-3["SystemCouplingParticipant/DataTransfer.hpp"]
-
-5["string"]
-
-4["SystemCouplingParticipant/Region.hpp"]
-
-6["vector"]
-
-2["SystemCouplingParticipant/LibraryType.hpp"]
-
 1["CouplingInterface.hpp"]
 click 1 "CouplingInterface_8hpp.md#CouplingInterface_8hpp"
 1 --> 2
@@ -44,9 +35,21 @@ click 1 "CouplingInterface_8hpp.md#CouplingInterface_8hpp"
 1 --> 5
 1 --> 6
 
+3["SystemCouplingParticipant/DataTransfer.hpp"]
+
+2["SystemCouplingParticipant/LibraryType.hpp"]
+
+4["SystemCouplingParticipant/Region.hpp"]
+
+5["string"]
+
+6["vector"]
+
 ```
 
+
 ## Source
+
 
 ```cpp
 /*
@@ -104,7 +107,8 @@ private:
 }  // namespace sysc
 ```
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
+
 [private]: https://img.shields.io/badge/-private-red (private)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

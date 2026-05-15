@@ -13,12 +13,14 @@ The C interface closely follows the C++ interface, and is implemented as a wrapp
 
 **Definition**: `syscCommonTypes.h` (line 26)
 
+
 ```
 enum SyscLocation {
   SyscNode = 0,
   SyscElement = 1
 }
 ```
+
 
 Provide an enum for variable mesh locations.
 
@@ -47,12 +49,14 @@ Data on elements.
 
 **Definition**: `syscCommonTypes.h` (line 32)
 
+
 ```
 enum SyscTensorType {
   SyscScalar = 0,
   SyscVector = 1
 }
 ```
+
 
 Provide an enum for variable tensor type.
 
@@ -81,12 +85,14 @@ Vector
 
 **Definition**: `syscCommonTypes.h` (line 38)
 
+
 ```
 enum SyscTopology {
   SyscSurface = 2,
   SyscVolume = 3
 }
 ```
+
 
 Provide an enum for region topologies.
 
@@ -115,12 +121,14 @@ Volume topology.
 
 **Definition**: `syscCommonTypes.h` (line 44)
 
+
 ```
 enum SyscRegionDiscretizationType {
   SyscMeshRegion = 0,
   SyscPointCloudRegion = 1
 }
 ```
+
 
 Provide an enum for region mesh type.
 
@@ -149,12 +157,14 @@ Point cloud region discretization.
 
 **Definition**: `syscCommonTypes.h` (line 50)
 
+
 ```
 enum SyscInterfaceSide {
   SyscInterfaceSide_One = 1,
   SyscInterfaceSide_Two = 2
 }
 ```
+
 
 Provide enum for coupling interface side.
 
@@ -183,12 +193,14 @@ Provide enum for coupling interface side.
 
 **Definition**: `syscCommonTypes.h` (line 56)
 
+
 ```
 enum SyscDimension {
   SyscD2 = 2,
   SyscD3 = 3
 }
 ```
+
 
 Provide enum for system coupling dimension.
 
@@ -217,12 +229,14 @@ Provide enum for system coupling dimension.
 
 **Definition**: `syscCommonTypes.h` (line 62)
 
+
 ```
 enum SyscTimeIntegration {
   SyscImplicit = 0,
   SyscExplicit = 1
 }
 ```
+
 
 Provide an enum for time integration.
 
@@ -251,6 +265,7 @@ Provide an enum for time integration.
 
 **Definition**: `syscCommonTypes.h` (line 91)
 
+
 ```
 enum SyscQuantityType {
   SyscUnspecified = 0,
@@ -264,6 +279,7 @@ enum SyscQuantityType {
   SyscElectricalConductivity = 8
 }
 ```
+
 
 Provide an enum for supported quantity types.
 
@@ -341,12 +357,14 @@ Quantity type provides information about the physical meaning of the variable. T
 
 **Definition**: `syscCommonTypes.h` (line 103)
 
+
 ```
 enum SyscDataType {
   SyscDataType_Real = 0,
   SyscDataType_Complex = 1
 }
 ```
+
 
 
 
@@ -375,6 +393,7 @@ enum SyscDataType {
 
 **Definition**: `syscCommonTypes.h` (line 109)
 
+
 ```
 enum SyscConvergenceStatus {
   SyscDiverging = -1,
@@ -384,6 +403,7 @@ enum SyscConvergenceStatus {
   SyscNotEvaluated = 3
 }
 ```
+
 
 Provide enum for participant's solver convergence status.
 
@@ -433,12 +453,15 @@ Provide enum for participant's solver convergence status.
 
 **Definition**: `syscCommonTypes.h` (line 118)
 
+
 ```
 enum SyscAnalysisType {
   SyscSteady = 0,
-  SyscTransient = 1
+  SyscTransient = 1,
+  SyscMapping = 2
 }
 ```
+
 
 Provide an enum for coupled analysis type.
 
@@ -460,12 +483,20 @@ Steady analysis type.
 
 Transient (unsteady) analysis type.
 
+<a id="group__SyscParticipantLibraryCAPI_1gga7d5b3786948265c902f7231abe6d79b5a1904a183df3f1043ce29bb16c2ac85d3"></a>
+#### Enumerator SyscMapping
+
+
+
+Mapping analysis type.
+
 <a id="group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c"></a>
 ### Enumeration type SyscPrimitiveType
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 147)
+**Definition**: `syscCommonTypes.h` (line 148)
+
 
 ```
 enum SyscPrimitiveType {
@@ -477,6 +508,7 @@ enum SyscPrimitiveType {
   SyscUnsignedInt64 = 5
 }
 ```
+
 
 Provide an enum for supported primitive types.
 
@@ -531,7 +563,8 @@ Unsigned 64-bit integer.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 156)
+**Definition**: `syscCommonTypes.h` (line 157)
+
 
 ```
 enum SyscParticipantType {
@@ -553,6 +586,7 @@ enum SyscParticipantType {
   SyscROCKY = 15
 }
 ```
+
 
 
 
@@ -679,6 +713,7 @@ enum SyscParticipantType {
 
 **Definition**: `syscElementTypes.h` (line 238)
 
+
 ```
 enum SyscElementTypes {
   SyscTri3 = 5,
@@ -697,6 +732,7 @@ enum SyscElementTypes {
   SyscPolyhedron = 19
 }
 ```
+
 
 Provide an enum for element types.
 
@@ -809,11 +845,13 @@ Arbitrary polyhedron.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 134)
+**Definition**: `syscCommonTypes.h` (line 135)
+
 
 ```
 typedef struct SyscSolutionControl SyscSolutionControl
 ```
+
 
 Provide a structure containing solution control.
 
@@ -821,18 +859,20 @@ Provide a structure containing solution control.
 
 
 
-**Return type**: struct [SyscSolutionControl](structSyscSolutionControl.md#structSyscSolutionControl)
+**Return type**: struct SyscSolutionControl
 
 <a id="group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b"></a>
 ### Typedef SyscOpaqueDataAccess
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 175)
+**Definition**: `syscCommonTypes.h` (line 176)
+
 
 ```
 typedef void* SyscOpaqueDataAccess
 ```
+
 
 
 
@@ -847,15 +887,18 @@ Declare an opaque pointer type.
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 197)
+**Definition**: `syscCommonTypes.h` (line 198)
+
 
 ```
 typedef struct SyscSetupInfo SyscSetupInfo
 ```
 
+
 Provide a structure for System Coupling setup information.
 
 To create and/or initialize the [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetSetupInfo</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+
 
 
 
@@ -867,22 +910,25 @@ SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady);
 
 
 
-**Return type**: struct [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: struct SyscSetupInfo
 
 <a id="group__SyscParticipantLibraryCAPI_1ga97036eb61b15d6efd5f9602bd19bb562"></a>
 ### Typedef SyscSetupFileInfo
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 297)
+**Definition**: `syscCommonTypes.h` (line 298)
+
 
 ```
 typedef struct SyscSetupFileInfo SyscSetupFileInfo
 ```
 
+
 Provide a structure for writing System Coupling setup files.
 
 To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+
 
 
 
@@ -894,18 +940,20 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 
 
-**Return type**: struct [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo)
+**Return type**: struct SyscSetupFileInfo
 
 <a id="group__SyscParticipantLibraryCAPI_1gacab0987c6f6f3da0ae499505c3f67d9e"></a>
 ### Typedef SyscResultsInfo
 
 ![][public]
 
-**Definition**: `syscCommonTypes.h` (line 316)
+**Definition**: `syscCommonTypes.h` (line 317)
+
 
 ```
 typedef struct SyscResultsInfo SyscResultsInfo
 ```
+
 
 Provide a structure for writing results files.
 
@@ -913,7 +961,7 @@ Provide a structure for writing results files.
 
 
 
-**Return type**: struct [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo)
+**Return type**: struct SyscResultsInfo
 
 <a id="group__SyscParticipantLibraryCAPI_1ga828a191dd9fffcb117c398848b9ad10b"></a>
 ### Typedef SyscCouplingInterface
@@ -922,9 +970,11 @@ Provide a structure for writing results files.
 
 **Definition**: `syscCouplingInterface.h` (line 47)
 
+
 ```
 typedef struct SyscCouplingInterface SyscCouplingInterface
 ```
+
 
 Provide a struct for a coupling interface.
 
@@ -946,13 +996,14 @@ To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterf
 
 
 
+
 ```
 SyscCouplingInterface reg = syscGetCouplingInterface("FSI"); 
 ```
 
 
 
-**Return type**: struct [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+**Return type**: struct SyscCouplingInterface
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8e23d76b7478495ca52b0e1f719607fc"></a>
 ### Typedef SyscDataTransfer
@@ -961,9 +1012,11 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 **Definition**: `syscDataTransfer.h` (line 33)
 
+
 ```
 typedef struct SyscDataTransfer SyscDataTransfer
 ```
+
 
 Provide a struct for a data transfer.
 
@@ -971,7 +1024,7 @@ Data transfer specifies the source and target variables for mapping.
 
 
 
-**Return type**: struct [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: struct SyscDataTransfer
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaf3788ac706a730edbf6093c7e543681"></a>
 ### Typedef SyscInputScalarDataAccess
@@ -980,9 +1033,11 @@ Data transfer specifies the source and target variables for mapping.
 
 **Definition**: `syscFunctionTypes.h` (line 39)
 
+
 ```
 typedef SyscInputScalarData(* SyscInputScalarDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input scalar data.
 
@@ -999,9 +1054,11 @@ Provide function prototype for access to input scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 46)
 
+
 ```
 typedef SyscInputScalarData(* SyscInputScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input scalar data with opaque pointer.
 
@@ -1018,9 +1075,11 @@ Provide function prototype for access to input scalar data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 54)
 
+
 ```
 typedef SyscInputScalarData(* SyscInputScalarDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone input scalar data.
 
@@ -1037,9 +1096,11 @@ Provide function prototype for access to multi-zone input scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 63)
 
+
 ```
 typedef SyscInputVectorData(* SyscInputVectorDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input vector data.
 
@@ -1056,9 +1117,11 @@ Provide function prototype for access to input vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 70)
 
+
 ```
 typedef SyscInputVectorData(* SyscInputVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input vector data with opaque pointer.
 
@@ -1075,9 +1138,11 @@ Provide function prototype for access to input vector data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 78)
 
+
 ```
 typedef SyscInputVectorData(* SyscInputVectorDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone input vector data.
 
@@ -1094,9 +1159,11 @@ Provide function prototype for access to multi-zone input vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 87)
 
+
 ```
 typedef SyscOutputScalarData(* SyscOutputScalarDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output scalar data.
 
@@ -1113,9 +1180,11 @@ Provide function prototype for access to output scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 94)
 
+
 ```
 typedef SyscOutputScalarData(* SyscOutputScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output scalar data with opaque pointer.
 
@@ -1132,9 +1201,11 @@ Provide function prototype for access to output scalar data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 102)
 
+
 ```
 typedef SyscOutputScalarData(* SyscOutputScalarDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone output scalar data.
 
@@ -1151,9 +1222,11 @@ Provide function prototype for access to multi-zone output scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 111)
 
+
 ```
 typedef SyscOutputVectorData(* SyscOutputVectorDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output vector data.
 
@@ -1170,9 +1243,11 @@ Provide function prototype for access to output vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 118)
 
+
 ```
 typedef SyscOutputVectorData(* SyscOutputVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output vector data with opaque pointer.
 
@@ -1189,9 +1264,11 @@ Provide function prototype for access to output vector data with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 126)
 
+
 ```
 typedef SyscOutputVectorData(* SyscOutputVectorDataMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone output vector data.
 
@@ -1208,9 +1285,11 @@ Provide function prototype for access to multi-zone output vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 135)
 
+
 ```
 typedef SyscInputComplexScalarData(* SyscInputComplexScalarDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input complex scalar data.
 
@@ -1227,9 +1306,11 @@ Provide function prototype for access to input complex scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 142)
 
+
 ```
 typedef SyscInputComplexScalarData(* SyscInputComplexScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input complex scalar data with opaque pointer.
 
@@ -1246,9 +1327,11 @@ Provide function prototype for access to input complex scalar data with opaque p
 
 **Definition**: `syscFunctionTypes.h` (line 150)
 
+
 ```
 typedef SyscInputComplexVectorData(* SyscInputComplexVectorDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input complex vector data.
 
@@ -1265,9 +1348,11 @@ Provide function prototype for access to input complex vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 157)
 
+
 ```
 typedef SyscInputComplexVectorData(* SyscInputComplexVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to input complex vector data with opaque pointer.
 
@@ -1284,9 +1369,11 @@ Provide function prototype for access to input complex vector data with opaque p
 
 **Definition**: `syscFunctionTypes.h` (line 165)
 
+
 ```
 typedef SyscOutputComplexScalarData(* SyscOutputComplexScalarDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output complex scalar data.
 
@@ -1303,9 +1390,11 @@ Provide function prototype for access to output complex scalar data.
 
 **Definition**: `syscFunctionTypes.h` (line 172)
 
+
 ```
 typedef SyscOutputComplexScalarData(* SyscOutputComplexScalarDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output complex scalar data with opaque pointer.
 
@@ -1322,9 +1411,11 @@ Provide function prototype for access to output complex scalar data with opaque 
 
 **Definition**: `syscFunctionTypes.h` (line 180)
 
+
 ```
 typedef SyscOutputComplexVectorData(* SyscOutputComplexVectorDataAccess) (const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output complex vector data.
 
@@ -1341,9 +1432,11 @@ Provide function prototype for access to output complex vector data.
 
 **Definition**: `syscFunctionTypes.h` (line 187)
 
+
 ```
 typedef SyscOutputComplexVectorData(* SyscOutputComplexVectorDataAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, const char *variableName)
 ```
+
 
 Provide function prototype for access to output complex vector data with opaque pointer.
 
@@ -1360,9 +1453,11 @@ Provide function prototype for access to output complex vector data with opaque 
 
 **Definition**: `syscFunctionTypes.h` (line 195)
 
+
 ```
 typedef SyscSurfaceMesh(* SyscSurfMeshAccess) (const char *regionName)
 ```
+
 
 Provide function prototype for access to surface mesh.
 
@@ -1379,9 +1474,11 @@ Provide function prototype for access to surface mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 201)
 
+
 ```
 typedef SyscSurfaceMesh(* SyscSurfaceMeshAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
+
 
 Provide function prototype for access to surface mesh with opaque pointer.
 
@@ -1398,9 +1495,11 @@ Provide function prototype for access to surface mesh with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 206)
 
+
 ```
 typedef SyscSurfaceMesh(* SyscSurfaceMeshMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone surface mesh.
 
@@ -1417,9 +1516,11 @@ Provide function prototype for access to multi-zone surface mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 214)
 
+
 ```
 typedef SyscVolumeMesh(* SyscVolumeMeshAccess) (const char *regionName)
 ```
+
 
 Provide function prototype for access to volume mesh.
 
@@ -1436,9 +1537,11 @@ Provide function prototype for access to volume mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 220)
 
+
 ```
 typedef SyscVolumeMesh(* SyscVolumeMeshAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
+
 
 Provide function prototype for access to volume mesh with opaque pointer.
 
@@ -1455,9 +1558,11 @@ Provide function prototype for access to volume mesh with opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 225)
 
+
 ```
 typedef SyscVolumeMesh(* SyscVolumeMeshMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone volume mesh.
 
@@ -1474,9 +1579,11 @@ Provide function prototype for access to multi-zone volume mesh.
 
 **Definition**: `syscFunctionTypes.h` (line 233)
 
+
 ```
 typedef SyscPointCloud(* SyscPointCloudAccess) (const char *regionName)
 ```
+
 
 Provide function prototype for access to point cloud.
 
@@ -1493,9 +1600,11 @@ Provide function prototype for access to point cloud.
 
 **Definition**: `syscFunctionTypes.h` (line 239)
 
+
 ```
 typedef SyscPointCloud(* SyscPointCloudAccessWithPointer) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
+
 
 Provide function prototype for access to point cloud with an opaque pointer.
 
@@ -1512,9 +1621,11 @@ Provide function prototype for access to point cloud with an opaque pointer.
 
 **Definition**: `syscFunctionTypes.h` (line 244)
 
+
 ```
 typedef SyscPointCloud(* SyscPointCloudMultiZoneAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName, uint16_t zoneIndex)
 ```
+
 
 Provide function prototype for access to multi-zone point cloud.
 
@@ -1531,9 +1642,11 @@ Provide function prototype for access to multi-zone point cloud.
 
 **Definition**: `syscFunctionTypes.h` (line 252)
 
+
 ```
 typedef uint16_t(* SyscZoneCountAccess) (SyscOpaqueDataAccess opaqueDataAccess, const char *regionName)
 ```
+
 
 Provide function prototype for access to zone count.
 
@@ -1543,16 +1656,18 @@ Provide function prototype for access to zone count.
 
 **Return type**: uint16_t(*
 
-<a id="group__SyscParticipantLibraryCAPI_1ga6d3934571a8dcc03e2ecbe724a808c1b"></a>
+<a id="group__SyscParticipantLibraryCAPI_1ga800a36e5223ab1f89d2207333fb4f959"></a>
 ### Typedef SyscRestartPointCreation
 
 ![][public]
 
 **Definition**: `syscFunctionTypes.h` (line 263)
 
+
 ```
-typedef const char*(* SyscRestartPointCreation) ()
+typedef const char *(* SyscRestartPointCreation) ()
 ```
+
 
 Provide function prototype for creating restart points.
 
@@ -1569,9 +1684,11 @@ This function may be called only during outputs update, and is expected to retur
 
 **Definition**: `syscParameter.h` (line 29)
 
+
 ```
 typedef struct SyscParameter SyscParameter
 ```
+
 
 Provide a struct for a System Coupling parameter.
 
@@ -1579,7 +1696,7 @@ Provide a struct for a System Coupling parameter.
 
 
 
-**Return type**: struct [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: struct SyscParameter
 
 <a id="group__SyscParticipantLibraryCAPI_1gac5687e76cd2c5d1249d8b3ac43ff29b4"></a>
 ### Typedef SyscRegion
@@ -1588,9 +1705,11 @@ Provide a struct for a System Coupling parameter.
 
 **Definition**: `syscRegion.h` (line 47)
 
+
 ```
 typedef struct SyscRegion SyscRegion
 ```
+
 
 Provide a struct for a System Coupling region.
 
@@ -1606,13 +1725,14 @@ To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegio
 
 
 
+
 ```
 SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 ```
 
 
 
-**Return type**: struct [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: struct SyscRegion
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7a8d294476240d2f3844a608e71efe29"></a>
 ### Typedef SyscVariable
@@ -1621,13 +1741,16 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 **Definition**: `syscVariable.h` (line 45)
 
+
 ```
 typedef struct SyscVariable SyscVariable
 ```
 
+
 Provide a struct for a System Coupling variable.
 
 To create and/or initialize the [SyscVariable](structSyscVariable.md#structSyscVariable) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetVariable</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+
 
 
 
@@ -1640,7 +1763,7 @@ SyscVariable var = syscGetVariableTE(
 
 
 
-**Return type**: struct [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: struct SyscVariable
 
 ## Functions
 
@@ -1649,9 +1772,11 @@ SyscVariable var = syscGetVariableTE(
 
 ![][public]
 
+
 ```
 SyscRealAttribute syscGetRealAttribute(const char *name, double value, SyscDimensionality dimensionality)
 ```
+
 
 Create a real-valued attribute.
 
@@ -1676,9 +1801,11 @@ Create a real-valued attribute.
 
 ![][public]
 
+
 ```
 SyscRealAttribute syscGetRealAttributeVDM(const char *name, double value, SyscDimensionality dimensionality, int modifiable)
 ```
+
 
 Create a real-valued attribute.
 
@@ -1700,14 +1827,117 @@ Create a real-valued attribute.
 
 **Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
 
+<a id="group__SyscParticipantLibraryCAPI_1gac4c28a276819a5f6abd81d3b1448d9c9"></a>
+### Function syscGetRealAttributeBounds
+
+![][public]
+
+
+```
+SyscRealAttribute syscGetRealAttributeBounds(const char *name, double value, SyscDimensionality dimensionality, int modifiable, double lowerBound, double upperBound)
+```
+
+
+Create a real-valued attribute.
+
+**Parameters**:
+
+* **name**: - attribute name.
+* **value**: - attribute value.
+* **dimensionality**: - attribute dimensionality.
+* **modifiable**: - attribute is modifiable.
+* **lowerBound**: - attribute lower bound.
+* **upperBound**: - attribute upper bound.
+
+
+
+**Parameters**:
+
+* const char * **name**
+* double **value**
+* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* int **modifiable**
+* double **lowerBound**
+* double **upperBound**
+
+**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+
+<a id="group__SyscParticipantLibraryCAPI_1ga982541fc4b4624b14f1b033e0348b26a"></a>
+### Function syscGetRealAttributeLB
+
+![][public]
+
+
+```
+SyscRealAttribute syscGetRealAttributeLB(const char *name, double value, SyscDimensionality dimensionality, int modifiable, double lowerBound)
+```
+
+
+Create a real-valued attribute.
+
+**Parameters**:
+
+* **name**: - attribute name.
+* **value**: - attribute value.
+* **dimensionality**: - attribute dimensionality.
+* **modifiable**: - attribute is modifiable.
+* **lowerBound**: - attribute lower bound.
+
+
+
+**Parameters**:
+
+* const char * **name**
+* double **value**
+* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* int **modifiable**
+* double **lowerBound**
+
+**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+
+<a id="group__SyscParticipantLibraryCAPI_1gaa0dd0654f5cc1441edf161e179f530eb"></a>
+### Function syscGetRealAttributeUB
+
+![][public]
+
+
+```
+SyscRealAttribute syscGetRealAttributeUB(const char *name, double value, SyscDimensionality dimensionality, int modifiable, double upperBound)
+```
+
+
+Create a real-valued attribute.
+
+**Parameters**:
+
+* **name**: - attribute name.
+* **value**: - attribute value.
+* **dimensionality**: - attribute dimensionality.
+* **modifiable**: - attribute is modifiable.
+* **upperBound**: - attribute upper bound.
+
+
+
+**Parameters**:
+
+* const char * **name**
+* double **value**
+* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* int **modifiable**
+* double **upperBound**
+
+**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+
 <a id="group__SyscParticipantLibraryCAPI_1gaf6d02a55f607a7af07039957b21ab511"></a>
 ### Function syscGetIntegerAttribute
 
 ![][public]
 
+
 ```
 SyscIntegerAttribute syscGetIntegerAttribute(const char *name, long long int value)
 ```
+
 
 Create an integer-valued attribute.
 
@@ -1730,9 +1960,11 @@ Create an integer-valued attribute.
 
 ![][public]
 
+
 ```
 SyscIntegerAttribute syscGetIntegerAttributeVM(const char *name, long long int value, int modifiable)
 ```
+
 
 Create an integer-valued attribute.
 
@@ -1752,14 +1984,111 @@ Create an integer-valued attribute.
 
 **Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
 
+<a id="group__SyscParticipantLibraryCAPI_1gaa83ae2839ef394b34af5949c40a4e60c"></a>
+### Function syscGetIntegerAttributeBounds
+
+![][public]
+
+
+```
+SyscIntegerAttribute syscGetIntegerAttributeBounds(const char *name, long long int value, int modifiable, long long int lowerBound, long long int upperBound)
+```
+
+
+Create an integer-valued attribute.
+
+**Parameters**:
+
+* **name**: - attribute name.
+* **value**: - attribute value.
+* **modifiable**: - attribute is modifiable.
+* **lowerBound**: - attribute lower bound.
+* **upperBound**: - attribute upper bound.
+
+
+
+**Parameters**:
+
+* const char * **name**
+* long long int **value**
+* int **modifiable**
+* long long int **lowerBound**
+* long long int **upperBound**
+
+**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+
+<a id="group__SyscParticipantLibraryCAPI_1ga8c622398624d6aa557656df497b86ddb"></a>
+### Function syscGetIntegerAttributeLB
+
+![][public]
+
+
+```
+SyscIntegerAttribute syscGetIntegerAttributeLB(const char *name, long long int value, int modifiable, long long int lowerBound)
+```
+
+
+Create an integer-valued attribute.
+
+**Parameters**:
+
+* **name**: - attribute name.
+* **value**: - attribute value.
+* **modifiable**: - attribute is modifiable.
+* **lowerBound**: - attribute lower bound.
+
+
+
+**Parameters**:
+
+* const char * **name**
+* long long int **value**
+* int **modifiable**
+* long long int **lowerBound**
+
+**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+
+<a id="group__SyscParticipantLibraryCAPI_1gab6167fd4ff37c4eff9d6fd20738a26bf"></a>
+### Function syscGetIntegerAttributeUB
+
+![][public]
+
+
+```
+SyscIntegerAttribute syscGetIntegerAttributeUB(const char *name, long long int value, int modifiable, long long int upperBound)
+```
+
+
+Create an integer-valued attribute.
+
+**Parameters**:
+
+* **name**: - attribute name.
+* **value**: - attribute value.
+* **modifiable**: - attribute is modifiable.
+* **upperBound**: - attribute upper bound.
+
+
+
+**Parameters**:
+
+* const char * **name**
+* long long int **value**
+* int **modifiable**
+* long long int **upperBound**
+
+**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+
 <a id="group__SyscParticipantLibraryCAPI_1ga22ab81fcb82b1eb1b58bac1dd3fbcf0d"></a>
 ### Function syscGetDimensionality
 
 ![][public]
 
+
 ```
 SyscDimensionality syscGetDimensionality()
 ```
+
 
 Get dimensionality.
 
@@ -1774,9 +2103,11 @@ Get dimensionality.
 
 ![][public]
 
+
 ```
 SyscError syscGetSyscError(int retcode, const char *message)
 ```
+
 
 Provide a function to return [SyscError](structSyscError.md#structSyscError) struct.
 
@@ -1796,9 +2127,11 @@ Provide a function to return [SyscError](structSyscError.md#structSyscError) str
 
 ![][public]
 
+
 ```
 SyscSetupInfo syscGetSetupInfo()
 ```
+
 
 Create a setup info struct.
 
@@ -1813,9 +2146,11 @@ Analysis type will be set to steady. Restarts supported flag will be set to fals
 
 ![][public]
 
+
 ```
 SyscSetupInfo syscGetSetupInfoA(enum SyscAnalysisType analysisType)
 ```
+
 
 Create a setup info struct.
 
@@ -1838,9 +2173,11 @@ Restarts supported flag will be set to false.
 
 ![][public]
 
+
 ```
 SyscSetupInfo syscGetSetupInfoAR(enum SyscAnalysisType analysisType, int restartsSupported)
 ```
+
 
 Create a setup info struct.
 
@@ -1863,9 +2200,11 @@ Create a setup info struct.
 
 ![][public]
 
+
 ```
 SyscSetupInfo syscGetSetupInfoARD(enum SyscAnalysisType analysisType, int restartsSupported, enum SyscDimension dimension)
 ```
+
 
 Create a setup info struct.
 
@@ -1890,9 +2229,11 @@ Create a setup info struct.
 
 ![][public]
 
+
 ```
 SyscSetupInfo syscGetSetupInfoARDT(enum SyscAnalysisType analysisType, int restartsSupported, enum SyscDimension dimension, enum SyscTimeIntegration timeIntegration)
 ```
+
 
 Create a setup info struct.
 
@@ -1919,9 +2260,11 @@ Create a setup info struct.
 
 ![][public]
 
+
 ```
 SyscSetupInfo syscGetSetupInfoARDTP(enum SyscAnalysisType analysisType, int restartsSupported, enum SyscDimension dimension, enum SyscTimeIntegration timeIntegration, enum SyscParticipantType participantType)
 ```
+
 
 Create a setup info struct.
 
@@ -1950,9 +2293,11 @@ Create a setup info struct.
 
 ![][public]
 
+
 ```
 SyscSetupFileInfo syscGetSetupFileInfo(const char *setupFileName)
 ```
+
 
 Provide a function to create SetupFileInfo struct.
 
@@ -1975,9 +2320,11 @@ Restarts supported flag will be set to false.
 
 ![][public]
 
+
 ```
 SyscResultsInfo syscGetResultsInfo(const char *baseFileName)
 ```
+
 
 Provide a function to create SetupFileInfo struct.
 
@@ -1998,9 +2345,11 @@ Provide a function to create SetupFileInfo struct.
 
 ![][public]
 
+
 ```
 SyscCouplingInterface syscGetCouplingInterface(const char *name)
 ```
+
 
 Create a coupling interface.
 
@@ -2021,9 +2370,11 @@ Create a coupling interface.
 
 ![][public]
 
+
 ```
 SyscError syscAddSideOneRegion(const SyscCouplingInterface couplingInterface, const SyscRegion region)
 ```
+
 
 Add region to side one of the interface.
 
@@ -2071,9 +2422,11 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 ![][public]
 
+
 ```
 SyscError syscAddSideTwoRegion(const SyscCouplingInterface couplingInterface, const SyscRegion region)
 ```
+
 
 Add region to side two of the interface.
 
@@ -2121,9 +2474,11 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 ![][public]
 
+
 ```
 SyscError syscAddDataTransfer(SyscCouplingInterface couplingInterface, SyscDataTransfer dataTransfer)
 ```
+
 
 Add the data transfer to the coupling interface.
 
@@ -2143,9 +2498,11 @@ Add the data transfer to the coupling interface.
 
 ![][public]
 
+
 ```
 size_t syscCouplingInterfaceGetNumDataTransfers(SyscCouplingInterface couplingInterface)
 ```
+
 
 Get number of data transfer for a given coupling interface.
 
@@ -2164,9 +2521,11 @@ Get number of data transfer for a given coupling interface.
 
 ![][public]
 
+
 ```
 size_t syscCouplingInterfaceGetNumSideOneRegions(SyscCouplingInterface couplingInterface)
 ```
+
 
 Get number of side one regions for a given coupling interface.
 
@@ -2185,9 +2544,11 @@ Get number of side one regions for a given coupling interface.
 
 ![][public]
 
+
 ```
 size_t syscCouplingInterfaceGetNumSideTwoRegions(SyscCouplingInterface couplingInterface)
 ```
+
 
 Get number of side two regions for a given coupling interface.
 
@@ -2206,9 +2567,11 @@ Get number of side two regions for a given coupling interface.
 
 ![][public]
 
+
 ```
 SyscDataTransfer syscCouplingInterfaceGetDataTransfer(SyscCouplingInterface couplingInterface, size_t index)
 ```
+
 
 Get the data transfer at specified index for a given coupling interface.
 
@@ -2228,9 +2591,11 @@ Get the data transfer at specified index for a given coupling interface.
 
 ![][public]
 
+
 ```
 SyscRegion syscCouplingInterfaceGetSideOneRegion(SyscCouplingInterface couplingInterface, size_t index)
 ```
+
 
 Get the side one region at specified index for a given coupling interface.
 
@@ -2250,9 +2615,11 @@ Get the side one region at specified index for a given coupling interface.
 
 ![][public]
 
+
 ```
 SyscRegion syscCouplingInterfaceGetSideTwoRegion(SyscCouplingInterface couplingInterface, size_t index)
 ```
+
 
 Get the side two region at specified index for a given coupling interface.
 
@@ -2272,9 +2639,11 @@ Get the side two region at specified index for a given coupling interface.
 
 ![][public]
 
+
 ```
 SyscDataTransfer syscGetDataTransfer(SyscVariable sideOneVariable, SyscVariable sideTwoVariable, enum SyscInterfaceSide targetSide)
 ```
+
 
 Create a data transfer using side{One|Two}Variable.
 
@@ -2299,9 +2668,11 @@ Create a data transfer using side{One|Two}Variable.
 
 ![][public]
 
+
 ```
 SyscDataTransfer syscGetDataTransferST(SyscVariable sourceVariable, SyscVariable targetVariable, enum SyscInterfaceSide targetSide)
 ```
+
 
 Create a data transfer using {source|target}Variable.
 
@@ -2326,9 +2697,11 @@ Create a data transfer using {source|target}Variable.
 
 ![][public]
 
+
 ```
 SyscInputComplexScalarData syscGetInputComplexScalarData()
 ```
+
 
 Create an empty input copmlex scalar data access struct.
 
@@ -2343,9 +2716,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscInputComplexScalarData syscGetInputComplexScalarDataSplitDouble(double *const dataReal, double *const dataImag, size_t dataSize)
 ```
+
 
 Create a complex input scalar data access struct.
 
@@ -2370,9 +2745,11 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexScalarData syscGetInputComplexScalarDataSplitFloat(float *const dataReal, float *const dataImag, size_t dataSize)
 ```
+
 
 Create a complex input scalar data access struct.
 
@@ -2397,9 +2774,11 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexScalarData syscGetInputComplexScalarDataCompactDouble(double *const data, size_t dataSize)
 ```
+
 
 Create a complex input scalar data access struct.
 
@@ -2422,9 +2801,11 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexScalarData syscGetInputComplexScalarDataCompactFloat(float *const data, size_t dataSize)
 ```
+
 
 Create a complex input scalar data access struct.
 
@@ -2447,9 +2828,11 @@ Create a complex input scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputComplexVectorData()
 ```
+
 
 Create an empty input complex vector data access struct.
 
@@ -2464,9 +2847,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataDouble(double *const data, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2489,9 +2874,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataFloat(float *const data, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2514,9 +2901,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputSplitComplexCompactVectorDataDouble(double *const dataReal, double *const dataImag, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2541,9 +2930,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputSplitComplexCompactVectorDataFloat(float *const dataReal, float *const dataImag, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2568,9 +2959,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputCompactComplexSplitVectorDataDouble(double *const data1, double *const data2, double *const data3, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2597,9 +2990,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputCompactComplexSplitVectorDataFloat(float *const data1, float *const data2, float *const data3, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2626,9 +3021,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputSplitComplexSplitVectorDataDouble(double *const data1Real, double *const data1Imag, double *const data2Real, double *const data2Imag, double *const data3Real, double *const data3Imag, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2661,9 +3058,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputSplitComplexSplitVectorDataFloat(float *const data1Real, float *const data1Imag, float *const data2Real, float *const data2Imag, float *const data3Real, float *const data3Imag, size_t dataSize)
 ```
+
 
 Create a 3D complex input vector data access struct.
 
@@ -2696,9 +3095,11 @@ Create a 3D complex input vector data access struct.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataDoubleDim(double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create a complex input vector data access struct based on dimension.
 
@@ -2723,9 +3124,11 @@ Create a complex input vector data access struct based on dimension.
 
 ![][public]
 
+
 ```
 SyscInputComplexVectorData syscGetInputCompactComplexCompactVectorDataFloatDim(float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create a complex input vector data access struct based on dimension.
 
@@ -2745,14 +3148,143 @@ Create a complex input vector data access struct based on dimension.
 
 **Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
 
+<a id="group__SyscParticipantLibraryCAPI_1ga1a21004d5965100d25754dc2ed0ef73b"></a>
+### Function syscGetInputIntegerData
+
+![][public]
+
+
+```
+SyscInputIntegerData syscGetInputIntegerData()
+```
+
+
+Create an integer data access struct.
+
+Primitive type will default to 64-bit signed integer. Data size will be set to zero. Data pointer will be set to null.
+
+
+
+**Return type**: [SyscInputIntegerData](structSyscInputIntegerData.md#structSyscInputIntegerData)
+
+<a id="group__SyscParticipantLibraryCAPI_1ga89f1f12bf6e2c97cad4c9542b7ffced0"></a>
+### Function syscGetInputIntegerDataInt32
+
+![][public]
+
+
+```
+SyscInputIntegerData syscGetInputIntegerDataInt32(int32_t *const data, size_t dataSize)
+```
+
+
+Create an integer data access struct.
+
+**Parameters**:
+
+* **data**: - pointer to the signed (32-bit) array of data.
+* **dataSize**: - number of elements in the array.
+
+
+
+**Parameters**:
+
+* int32_t *const **data**
+* size_t **dataSize**
+
+**Return type**: [SyscInputIntegerData](structSyscInputIntegerData.md#structSyscInputIntegerData)
+
+<a id="group__SyscParticipantLibraryCAPI_1ga9e6520bef4b9090c53482e0efab666d9"></a>
+### Function syscGetInputIntegerDataInt64
+
+![][public]
+
+
+```
+SyscInputIntegerData syscGetInputIntegerDataInt64(int64_t *const data, size_t dataSize)
+```
+
+
+Create an integer data access struct.
+
+**Parameters**:
+
+* **data**: - pointer to the 64-bit array of integer data.
+* **dataSize**: - number of elements in the array.
+
+
+
+**Parameters**:
+
+* int64_t *const **data**
+* size_t **dataSize**
+
+**Return type**: [SyscInputIntegerData](structSyscInputIntegerData.md#structSyscInputIntegerData)
+
+<a id="group__SyscParticipantLibraryCAPI_1gafe52826809bd746c073a4d6d0df8f899"></a>
+### Function syscGetInputIntegerDataUInt16
+
+![][public]
+
+
+```
+SyscInputIntegerData syscGetInputIntegerDataUInt16(uint16_t *const data, size_t dataSize)
+```
+
+
+Create an input integer data access struct.
+
+**Parameters**:
+
+* **data**: - pointer to the 16-bit array of unsigned integer data.
+* **dataSize**: - number of elements in the array.
+
+
+
+**Parameters**:
+
+* uint16_t *const **data**
+* size_t **dataSize**
+
+**Return type**: [SyscInputIntegerData](structSyscInputIntegerData.md#structSyscInputIntegerData)
+
+<a id="group__SyscParticipantLibraryCAPI_1ga1336ea16cf502554714f26e62b1d324c"></a>
+### Function syscGetInputIntegerDataUInt64
+
+![][public]
+
+
+```
+SyscInputIntegerData syscGetInputIntegerDataUInt64(uint64_t *const data, size_t dataSize)
+```
+
+
+Create an integer data access struct.
+
+**Parameters**:
+
+* **data**: - pointer to the 64-bit array of unsigned integer data.
+* **dataSize**: - number of elements in the array.
+
+
+
+**Parameters**:
+
+* uint64_t *const **data**
+* size_t **dataSize**
+
+**Return type**: [SyscInputIntegerData](structSyscInputIntegerData.md#structSyscInputIntegerData)
+
 <a id="group__SyscParticipantLibraryCAPI_1ga4f26c699d6b93f7d62ad88e69822e1e2"></a>
 ### Function syscGetInputScalarData
 
 ![][public]
 
+
 ```
 SyscInputScalarData syscGetInputScalarData()
 ```
+
 
 Create an input scalar data access struct.
 
@@ -2767,9 +3299,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscInputScalarData syscGetInputScalarDataDouble(double *const data, size_t dataSize)
 ```
+
 
 Create an input scalar data access struct.
 
@@ -2792,9 +3326,11 @@ Create an input scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscInputScalarData syscGetInputScalarDataFloat(float *const data, size_t dataSize)
 ```
+
 
 Create an input scalar data access struct.
 
@@ -2817,9 +3353,11 @@ Create an input scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorData()
 ```
+
 
 Create an input vector data access struct.
 
@@ -2834,9 +3372,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorDataCompactDouble(double *const data, size_t dataSize)
 ```
+
 
 Create an 3D input vector data access struct with compact storage.
 
@@ -2859,9 +3399,11 @@ Create an 3D input vector data access struct with compact storage.
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorDataCompactFloat(float *const data, size_t dataSize)
 ```
+
 
 Create an 3D input vector data access struct with compact storage.
 
@@ -2884,9 +3426,11 @@ Create an 3D input vector data access struct with compact storage.
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorDataSplitDouble(double *const data0, double *const data1, double *const data2, size_t dataSize)
 ```
+
 
 Create an 3D input vector data access struct with split storage.
 
@@ -2913,9 +3457,11 @@ Create an 3D input vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorDataSplitFloat(float *const data0, float *const data1, float *const data2, size_t dataSize)
 ```
+
 
 Create an 3D input vector data access struct with split storage.
 
@@ -2942,9 +3488,11 @@ Create an 3D input vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorDataCompactDoubleDim(double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create an input vector data access struct with compact storage based on dimension.
 
@@ -2969,9 +3517,11 @@ Create an input vector data access struct with compact storage based on dimensio
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInputVectorDataCompactFloatDim(float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create an input vector data access struct with compact storage based on dimension.
 
@@ -2996,9 +3546,11 @@ Create an input vector data access struct with compact storage based on dimensio
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInput2DVectorDataSplitDouble(double *const data0, double *const data1, size_t dataSize)
 ```
+
 
 Create an 2D input vector data access struct with split storage.
 
@@ -3023,9 +3575,11 @@ Create an 2D input vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscInputVectorData syscGetInput2DVectorDataSplitFloat(float *const data0, float *const data1, size_t dataSize)
 ```
+
 
 Create an 2D input vector data access struct with split storage.
 
@@ -3050,9 +3604,11 @@ Create an 2D input vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscNodeData syscGetNodeData()
 ```
+
 
 Create a mesh node data access struct.
 
@@ -3067,9 +3623,11 @@ Returns an empty mesh node data access struct. All member will be assigned defau
 
 ![][public]
 
+
 ```
 SyscNodeData syscGetNodeDataIC(SyscOutputIntegerData nodeIds, SyscOutputVectorData nodeCoords)
 ```
+
 
 Create a mesh node data access struct, given node ids and node coords in same order.
 
@@ -3089,9 +3647,11 @@ Create a mesh node data access struct, given node ids and node coords in same or
 
 ![][public]
 
+
 ```
 SyscNodeData syscGetNodeDataC(SyscOutputVectorData nodeCoords)
 ```
+
 
 Creates a mesh node data access struct, given node coordinates in ascending node ids order.
 
@@ -3110,9 +3670,11 @@ Creates a mesh node data access struct, given node coordinates in ascending node
 
 ![][public]
 
+
 ```
 SyscElementTypeData syscGetElementTypeDataEmpty()
 ```
+
 
 Create an empty mesh element type data access struct.
 
@@ -3127,9 +3689,11 @@ Returns an empty mesh element type data access struct. All member will be assign
 
 ![][public]
 
+
 ```
 SyscElementTypeData syscGetElementTypeData(SyscOutputIntegerData elemTypes)
 ```
+
 
 Create an mesh element type data access struct, given element types.
 
@@ -3148,9 +3712,11 @@ Create an mesh element type data access struct, given element types.
 
 ![][public]
 
+
 ```
 SyscElementNodeCountData syscGetElementNodeCountDataEmpty()
 ```
+
 
 Create an empty mesh element node count data access struct.
 
@@ -3165,9 +3731,11 @@ Returns an empty mesh element node count data access struct. All member will be 
 
 ![][public]
 
+
 ```
 SyscElementNodeCountData syscGetElementNodeCountData(SyscOutputIntegerData elemNodeCount)
 ```
+
 
 Create an mesh element node count data access struct, given element node counts.
 
@@ -3186,9 +3754,11 @@ Create an mesh element node count data access struct, given element node counts.
 
 ![][public]
 
+
 ```
 SyscElementNodeConnectivityData syscGetElementNodeConnectivityDataEmpty()
 ```
+
 
 Create an empty element-to-node connectivity data access struct.
 
@@ -3203,9 +3773,11 @@ Returns an empty element-to-node connectivity data access struct. All member wil
 
 ![][public]
 
+
 ```
 SyscElementNodeConnectivityData syscGetElementNodeConnectivityData(SyscOutputIntegerData elemNodeIds)
 ```
+
 
 Create an element-to-node connectivity data access struct, given element node ids.
 
@@ -3224,9 +3796,11 @@ Create an element-to-node connectivity data access struct, given element node id
 
 ![][public]
 
+
 ```
 SyscFaceCellConnectivityData syscGetFaceCellConnectivityDataEmpty()
 ```
+
 
 Create empty face-to-cell connectivity.
 
@@ -3241,9 +3815,11 @@ Create empty face-to-cell connectivity.
 
 ![][public]
 
+
 ```
 SyscFaceCellConnectivityData syscGetFaceCellConnectivityData(SyscOutputIntegerData cell0Ids, SyscOutputIntegerData cell1Ids)
 ```
+
 
 Create face-to-cell connectivity given cell0 and cell1 arrays.
 
@@ -3263,9 +3839,11 @@ Create face-to-cell connectivity given cell0 and cell1 arrays.
 
 ![][public]
 
+
 ```
 SyscCellIdData syscGetCellIdDataEmpty()
 ```
+
 
 Create empty cell id data.
 
@@ -3280,9 +3858,11 @@ Create empty cell id data.
 
 ![][public]
 
+
 ```
 SyscCellIdData syscGetCellIdData(SyscOutputIntegerData cellIds)
 ```
+
 
 Create cell id data given cell ids array.
 
@@ -3301,9 +3881,11 @@ Create cell id data given cell ids array.
 
 ![][public]
 
+
 ```
 SyscElementIdData syscGetElementIdDataEmpty()
 ```
+
 
 Create empty element id data.
 
@@ -3318,9 +3900,11 @@ Create empty element id data.
 
 ![][public]
 
+
 ```
 SyscElementIdData syscGetElementIdData(SyscOutputIntegerData elementIds)
 ```
+
 
 Create cell id data given cell ids array.
 
@@ -3339,9 +3923,11 @@ Create cell id data given cell ids array.
 
 ![][public]
 
+
 ```
 SyscFaceData syscGetFaceDataEmpty()
 ```
+
 
 Create empty face data.
 
@@ -3356,9 +3942,11 @@ Create empty face data.
 
 ![][public]
 
+
 ```
 SyscFaceData syscGetFaceDataITCNF(SyscElementIdData faceIds, SyscElementTypeData faceTypes, SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivity)
 ```
+
 
 Create face data given face ids, types, node counts, node-to-face connectivity, face-to-cell connectivity.
 
@@ -3381,9 +3969,11 @@ Create face data given face ids, types, node counts, node-to-face connectivity, 
 
 ![][public]
 
+
 ```
 SyscFaceData syscGetFaceDataICNF(SyscElementIdData faceIds, SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivity)
 ```
+
 
 Create face data given face ids, types, node-to-face connectivity, face-to-cell connectivity.
 
@@ -3405,9 +3995,11 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 ![][public]
 
+
 ```
 SyscFaceData syscGetFaceDataITN(SyscElementIdData faceIds, SyscElementTypeData faceTypes, SyscElementNodeConnectivityData faceNodeConnectivity)
 ```
+
 
 Create face data given face ids, types, node-to-face connectivity, face-to-cell connectivity.
 
@@ -3428,9 +4020,11 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 ![][public]
 
+
 ```
 SyscFaceData syscGetFaceDataCN(SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity)
 ```
+
 
 Create face data given face node counts, node-to-face connectivity.
 
@@ -3450,9 +4044,11 @@ Create face data given face node counts, node-to-face connectivity.
 
 ![][public]
 
+
 ```
 SyscCellData syscGetCellDataEmpty()
 ```
+
 
 Create empty cell data.
 
@@ -3467,9 +4063,11 @@ Create empty cell data.
 
 ![][public]
 
+
 ```
 SyscCellData syscGetCellDataITN(SyscElementIdData cellIds, SyscElementTypeData cellTypes, SyscElementNodeConnectivityData cellNodeConnectivity)
 ```
+
 
 Create cell data given cell ids, types, cell-to-node connectivity.
 
@@ -3490,9 +4088,11 @@ Create cell data given cell ids, types, cell-to-node connectivity.
 
 ![][public]
 
+
 ```
 SyscCellData syscGetCellDataI(SyscElementIdData cellIds)
 ```
+
 
 Create cell data given cell ids.
 
@@ -3511,9 +4111,11 @@ Create cell data given cell ids.
 
 ![][public]
 
+
 ```
 SyscCellData syscGetCellDataTN(SyscElementTypeData cellTypes, SyscElementNodeConnectivityData cellNodeConnectivity)
 ```
+
 
 Create cell data given cell types, cell-to-node connectivity.
 
@@ -3533,9 +4135,11 @@ Create cell data given cell types, cell-to-node connectivity.
 
 ![][public]
 
+
 ```
 SyscOutputComplexScalarData syscGetOutputComplexScalarData()
 ```
+
 
 Create an empty output complex scalar data access struct.
 
@@ -3550,9 +4154,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataSplitDouble(const double *const dataReal, const double *const dataImag, size_t dataSize)
 ```
+
 
 Create a complex output scalar data access struct.
 
@@ -3577,9 +4183,11 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataSplitFloat(const float *const dataReal, const float *const dataImag, size_t dataSize)
 ```
+
 
 Create a complex output scalar data access struct.
 
@@ -3604,9 +4212,11 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataCompactDouble(const double *const data, size_t dataSize)
 ```
+
 
 Create a complex output scalar data access struct.
 
@@ -3629,9 +4239,11 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexScalarData syscGetOutputComplexScalarDataCompactFloat(const float *const data, size_t dataSize)
 ```
+
 
 Create a complex output scalar data access struct.
 
@@ -3654,9 +4266,11 @@ Create a complex output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputComplexVectorData()
 ```
+
 
 Create an empty output complex vector data access struct.
 
@@ -3671,9 +4285,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataDouble(const double *const data, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3696,9 +4312,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataFloat(const float *const data, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3721,9 +4339,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputSplitComplexCompactVectorDataDouble(const double *const dataReal, const double *const dataImag, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3748,9 +4368,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputSplitComplexCompactVectorDataFloat(const float *const dataReal, const float *const dataImag, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3775,9 +4397,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputCompactComplexSplitVectorDataDouble(const double *const data1, const double *const data2, const double *const data3, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3804,9 +4428,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputCompactComplexSplitVectorDataFloat(const float *const data1, const float *const data2, const float *const data3, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3833,9 +4459,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputSplitComplexSplitVectorDataDouble(const double *const data1Real, const double *const data1Imag, const double *const data2Real, const double *const data2Imag, const double *const data3Real, const double *const data3Imag, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3868,9 +4496,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputSplitComplexSplitVectorDataFloat(const float *const data1Real, const float *const data1Imag, const float *const data2Real, const float *const data2Imag, const float *const data3Real, const float *const data3Imag, size_t dataSize)
 ```
+
 
 Create a 3D complex output vector data access struct.
 
@@ -3903,9 +4533,11 @@ Create a 3D complex output vector data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataDoubleDim(const double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create a complex output vector data access struct based on dimension.
 
@@ -3930,9 +4562,11 @@ Create a complex output vector data access struct based on dimension.
 
 ![][public]
 
+
 ```
 SyscOutputComplexVectorData syscGetOutputCompactComplexCompactVectorDataFloatDim(const float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create a complex output vector data access struct based on dimension.
 
@@ -3957,9 +4591,11 @@ Create a complex output vector data access struct based on dimension.
 
 ![][public]
 
+
 ```
 SyscOutputIntegerData syscGetOutputIntegerData()
 ```
+
 
 Create an output integer data access struct.
 
@@ -3974,9 +4610,11 @@ Primitive type will default to 64-bit signed integer. Data size will be set to z
 
 ![][public]
 
+
 ```
 SyscOutputIntegerData syscGetOutputIntegerDataInt32(const int32_t *const data, size_t dataSize)
 ```
+
 
 Create an output integer data access struct.
 
@@ -3999,9 +4637,11 @@ Create an output integer data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputIntegerData syscGetOutputIntegerDataInt64(const int64_t *const data, size_t dataSize)
 ```
+
 
 Create an output integer data access struct.
 
@@ -4024,9 +4664,11 @@ Create an output integer data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputIntegerData syscGetOutputIntegerDataUInt16(const uint16_t *const data, size_t dataSize)
 ```
+
 
 Create an output integer data access struct.
 
@@ -4049,9 +4691,11 @@ Create an output integer data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputIntegerData syscGetOutputIntegerDataUInt64(const uint64_t *const data, size_t dataSize)
 ```
+
 
 Create an output integer data access struct.
 
@@ -4074,9 +4718,11 @@ Create an output integer data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarData()
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4091,9 +4737,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarDataDouble(const double *const data, size_t dataSize)
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4116,9 +4764,11 @@ Create an output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarDataFloat(const float *const data, size_t dataSize)
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4141,9 +4791,11 @@ Create an output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarDataInt32(const int32_t *const data, size_t dataSize)
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4166,9 +4818,11 @@ Create an output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarDataInt64(const int64_t *const data, size_t dataSize)
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4191,9 +4845,11 @@ Create an output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarDataUInt16(const uint16_t *const data, size_t dataSize)
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4216,9 +4872,11 @@ Create an output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputScalarData syscGetOutputScalarDataUInt64(const uint64_t *const data, size_t dataSize)
 ```
+
 
 Create an output scalar data access struct.
 
@@ -4241,9 +4899,11 @@ Create an output scalar data access struct.
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorData()
 ```
+
 
 Create an output vector data access struct.
 
@@ -4258,9 +4918,11 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorDataCompactDouble(const double *const data, size_t dataSize)
 ```
+
 
 Create an 3D output vector data access struct with compact storage.
 
@@ -4283,9 +4945,11 @@ Create an 3D output vector data access struct with compact storage.
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorDataCompactFloat(const float *const data, size_t dataSize)
 ```
+
 
 Create an 3D output vector data access struct with compact storage.
 
@@ -4308,9 +4972,11 @@ Create an 3D output vector data access struct with compact storage.
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorDataSplitDouble(const double *const data0, const double *const data1, const double *const data2, size_t dataSize)
 ```
+
 
 Create an 3D output vector data access struct with split storage.
 
@@ -4337,9 +5003,11 @@ Create an 3D output vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorDataSplitFloat(const float *const data0, const float *const data1, const float *const data2, size_t dataSize)
 ```
+
 
 Create an 3D output vector data access struct with split storage.
 
@@ -4366,9 +5034,11 @@ Create an 3D output vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorDataCompactDoubleDim(const double *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create an output vector data access struct with compact storage based on dimension.
 
@@ -4393,9 +5063,11 @@ Create an output vector data access struct with compact storage based on dimensi
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutputVectorDataCompactFloatDim(const float *const data, size_t dataSize, enum SyscDimension dimension)
 ```
+
 
 Create an output vector data access struct with compact storage based on dimension.
 
@@ -4420,9 +5092,11 @@ Create an output vector data access struct with compact storage based on dimensi
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutput2DVectorDataSplitDouble(const double *const data0, const double *const data1, size_t dataSize)
 ```
+
 
 Create a 2D output vector data access struct with split storage.
 
@@ -4447,9 +5121,11 @@ Create a 2D output vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscOutputVectorData syscGetOutput2DVectorDataSplitFloat(const float *const data0, const float *const data1, size_t dataSize)
 ```
+
 
 Create an output vector data access struct with split storage.
 
@@ -4474,9 +5150,11 @@ Create an output vector data access struct with split storage.
 
 ![][public]
 
+
 ```
 SyscParameter syscGetParameter(const char *name)
 ```
+
 
 Create parameter to be used in a coupled analysis.
 
@@ -4499,9 +5177,11 @@ Display name will default to the same as name.
 
 ![][public]
 
+
 ```
 SyscParameter syscGetParameterD(const char *name, const char *displayName)
 ```
+
 
 Create parameter to be used in a coupled analysis.
 
@@ -4524,9 +5204,11 @@ Create parameter to be used in a coupled analysis.
 
 ![][public]
 
+
 ```
 SyscPointCloud syscGetPointCloudEmpty()
 ```
+
 
 Create a point cloud access struct.
 
@@ -4541,9 +5223,11 @@ Returns a struct representing empty point cloud. All member will be assigned def
 
 ![][public]
 
+
 ```
 SyscPointCloud syscGetPointCloud(SyscOutputIntegerData nodeIds, SyscOutputVectorData nodeCoords)
 ```
+
 
 Create a point cloud access struct.
 
@@ -4566,9 +5250,11 @@ Create a point cloud access struct.
 
 ![][public]
 
+
 ```
 SyscRegion syscGetRegion(const char *name)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -4603,9 +5289,11 @@ Region mesh type will default to mesh.
 
 ![][public]
 
+
 ```
 SyscRegion syscGetRegionT(const char *name, enum SyscTopology topology)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -4636,9 +5324,11 @@ Region mesh type will default to mesh.
 
 ![][public]
 
+
 ```
 SyscRegion syscGetRegionDT(const char *name, const char *displayName, enum SyscTopology topology)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -4665,9 +5355,11 @@ Region mesh type will default to mesh.
 
 ![][public]
 
+
 ```
 SyscRegion syscGetRegionTM(const char *name, enum SyscTopology topology, enum SyscRegionDiscretizationType regionDiscretizationType)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -4694,9 +5386,11 @@ Display names will be same as name.
 
 ![][public]
 
+
 ```
 SyscRegion syscGetRegionDTM(const char *name, const char *displayName, enum SyscTopology topology, enum SyscRegionDiscretizationType regionDiscretizationType)
 ```
+
 
 Create region to be used in a coupled analysis.
 
@@ -4723,9 +5417,11 @@ Create region to be used in a coupled analysis.
 
 ![][public]
 
+
 ```
 SyscError syscAddInputVariable(const SyscRegion region, const SyscVariable variable)
 ```
+
 
 Provide a function to add an input variable to the region.
 
@@ -4779,9 +5475,11 @@ If the region discretization type is point cloud, then the location of the varia
 
 ![][public]
 
+
 ```
 SyscError syscAddOutputVariable(const SyscRegion region, const SyscVariable variable)
 ```
+
 
 Provide a function to add an output variable to the region.
 
@@ -4835,9 +5533,11 @@ If the region discretization type is point cloud, then the location of the varia
 
 ![][public]
 
+
 ```
 size_t syscGetNumInputVariables(const SyscRegion region)
 ```
+
 
 Provide a function to return the number of input variables.
 
@@ -4863,9 +5563,11 @@ Number of input variables for the region.
 
 ![][public]
 
+
 ```
 SyscVariable syscGetInputVariable(const SyscRegion region, size_t index)
 ```
+
 
 Return an input variable.
 
@@ -4893,9 +5595,11 @@ Variable at specified index.
 
 ![][public]
 
+
 ```
 size_t syscGetNumOutputVariables(const SyscRegion region)
 ```
+
 
 Provide a function to return the number of output variables.
 
@@ -4921,9 +5625,11 @@ Number of output variables for the region.
 
 ![][public]
 
+
 ```
 SyscVariable syscGetOutputVariable(const SyscRegion region, size_t index)
 ```
+
 
 Return an output variable.
 
@@ -4951,9 +5657,11 @@ Variable at specified index.
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMesh()
 ```
+
 
 Create a surface mesh access struct.
 
@@ -4968,9 +5676,11 @@ Returns a struct representing empty surface mesh. All member will be assigned de
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshNF(SyscNodeData nodes, SyscFaceData faces)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -4993,9 +5703,11 @@ Create a surface mesh access struct.
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshNTCI(SyscNodeData nodes, SyscElementTypeData elemTypes, SyscElementNodeCountData elemNodeCounts, SyscElementNodeConnectivityData elemNodeConnectivity)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -5029,9 +5741,11 @@ Both element types and element node counts are provided.
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshNCI(SyscNodeData nodes, SyscElementNodeCountData elemNodeCounts, SyscElementNodeConnectivityData elemNodeConnectivity)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -5063,9 +5777,11 @@ Element node counts are provided, element types are deduced from element node co
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshNCIF(SyscNodeData nodes, SyscElementNodeCountData elemNodeCounts, SyscElementNodeConnectivityData elemNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivty)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -5099,9 +5815,11 @@ Element node counts are provided, element types are deduced from element node co
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshNTI(SyscNodeData nodes, SyscElementTypeData elemTypes, SyscElementNodeConnectivityData elemNodeConnectivity)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -5133,9 +5851,11 @@ Element types are provided, element node counts are deduced from element types.
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshA(SyscOutputScalarData nodeIds, SyscOutputVectorData nodeCoords, SyscOutputScalarData elemNodeCounts, SyscOutputScalarData elemNodeIds)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -5169,9 +5889,11 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 ![][public]
 
+
 ```
 SyscSurfaceMesh syscGetSurfaceMeshB(SyscOutputVectorData nodeCoords, SyscOutputScalarData elemNodeCounts, SyscOutputScalarData elemNodeIds)
 ```
+
 
 Create a surface mesh access struct.
 
@@ -5203,9 +5925,11 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 ![][public]
 
+
 ```
 SyscError syscStartStandaloneParallel(const size_t mpiCommunicator)
 ```
+
 
 Provide a function to start standalone mode in parallel.
 
@@ -5234,9 +5958,11 @@ Note that if the MPI communicator is MPI_COMM_WORLD, then it is not necessary to
 
 ![][public]
 
+
 ```
 SyscError syscConnect(const char *scHost, const unsigned short scPort, const char *participantName, const char *buildInformation)
 ```
+
 
 Provide a function to establish connection to System Coupling.
 
@@ -5275,9 +6001,11 @@ A participant must have obtained the host and port information from System Coupl
 
 ![][public]
 
+
 ```
 SyscError syscConnectParallel(const char *scHost, const unsigned short scPort, const char *participantName, const size_t communicator, const char *buildInformation)
 ```
+
 
 Provide a function to establish connection to System Coupling in parallel.
 
@@ -5306,9 +6034,11 @@ Note that if the MPI communicator is MPI_COMM_WORLD, then it is not necessary to
 
 ![][public]
 
+
 ```
 SyscError syscConnectUseStruct(SyscParticipantInfo participantInfo)
 ```
+
 
 Provide a function to establish connection to System Coupling in serial using a C structure.
 
@@ -5334,9 +6064,11 @@ Provide a function to establish connection to System Coupling in serial using a 
 
 ![][public]
 
+
 ```
 SyscError syscConnectParallelUseStruct(SyscParticipantInfo participantInfo, const size_t communicator)
 ```
+
 
 Provide a function to establish connection to System Coupling in parallel using a C structure.
 
@@ -5364,9 +6096,11 @@ Provide a function to establish connection to System Coupling in parallel using 
 
 ![][public]
 
+
 ```
 SyscError syscAddRegion(const SyscRegion region)
 ```
+
 
 Provide a function to add a region that could be used in a coupled analysis.
 
@@ -5397,9 +6131,11 @@ If the region name contains invalid characters, then a runtime error will be thr
 
 ![][public]
 
+
 ```
 SyscError syscAddInputParameter(const SyscParameter parameter)
 ```
+
 
 Provide a method to add an input parameter that could be used in a coupled analysis.
 
@@ -5445,9 +6181,11 @@ If the parameter name contains invalid characters, a runtime error will be throw
 
 ![][public]
 
+
 ```
 SyscError syscAddOutputParameter(const SyscParameter parameter)
 ```
+
 
 Provide a method to add an output parameter that could be used in a coupled analysis.
 
@@ -5493,9 +6231,11 @@ If the parameter name contains invalid characters, a runtime error will be throw
 
 ![][public]
 
+
 ```
 size_t syscGetNumInputParameters()
 ```
+
 
 Provide a method to get the number of input parameters.
 
@@ -5512,9 +6252,11 @@ Number of input parameters.
 
 ![][public]
 
+
 ```
 size_t syscGetNumOutputParameters()
 ```
+
 
 Provide a method to get the number of output parameters.
 
@@ -5531,9 +6273,11 @@ Number of output parameters.
 
 ![][public]
 
+
 ```
 SyscParameter syscGetAddedInputParameter(size_t index)
 ```
+
 
 Provide a function to return input parameter information.
 
@@ -5559,9 +6303,11 @@ Input parameter information at specified index.
 
 ![][public]
 
+
 ```
 SyscParameter syscGetAddedOutputParameter(size_t index)
 ```
+
 
 Provide a function to return input parameter information.
 
@@ -5587,9 +6333,11 @@ Output parameter information at specified index.
 
 ![][public]
 
+
 ```
 size_t syscGetNumRealAttributes()
 ```
+
 
 Provide a function to get the number of real attributes.
 
@@ -5606,9 +6354,11 @@ Number of real attributes.
 
 ![][public]
 
+
 ```
 size_t syscGetNumIntegerAttributes()
 ```
+
 
 Provide a function to get the number of integer attributes.
 
@@ -5625,9 +6375,11 @@ Number of integer attributes.
 
 ![][public]
 
+
 ```
 SyscRealAttribute syscGetAddedRealAttribute(size_t index)
 ```
+
 
 Provide a function to return real attribute information.
 
@@ -5653,9 +6405,11 @@ Real attribute information at specified index.
 
 ![][public]
 
+
 ```
 SyscIntegerAttribute syscGetAddedIntegerAttribute(size_t index)
 ```
+
 
 Provide a function to return integer attribute information.
 
@@ -5681,9 +6435,11 @@ Integer attribute information at specified index.
 
 ![][public]
 
+
 ```
 SyscError syscAddRealAttribute(const SyscRealAttribute attribute)
 ```
+
 
 Provide a method to add a real attribute that could be used in a coupled analysis.
 
@@ -5729,9 +6485,11 @@ If the attribute name contains invalid characters, a runtime error will be throw
 
 ![][public]
 
+
 ```
 SyscError syscAddIntegerAttribute(const SyscIntegerAttribute attribute)
 ```
+
 
 Provide a method to add an integer attribute that could be used in a coupled analysis.
 
@@ -5777,9 +6535,11 @@ If the attribute name contains invalid characters, a runtime error will be throw
 
 ![][public]
 
+
 ```
 double syscGetParameterValue(const char *parameterName, SyscError *errorCode)
 ```
+
 
 Provide a function to get a Parameter value.
 
@@ -5802,9 +6562,11 @@ Provide a function to get a Parameter value.
 
 ![][public]
 
+
 ```
 SyscError syscSetParameterValue(const char *parameterName, double value)
 ```
+
 
 Provide a function to set a Parameter value.
 
@@ -5827,9 +6589,11 @@ Provide a function to set a Parameter value.
 
 ![][public]
 
+
 ```
 double syscGetRealAttributeValue(const char *attributeName, SyscError *errorCode)
 ```
+
 
 Provide a function to get a RealAttribute value.
 
@@ -5852,9 +6616,11 @@ Provide a function to get a RealAttribute value.
 
 ![][public]
 
+
 ```
 int64_t syscGetIntegerAttributeValue(const char *attributeName, SyscError *errorCode)
 ```
+
 
 Provide a function to get an IntegerAttribute value.
 
@@ -5877,9 +6643,11 @@ Provide a function to get an IntegerAttribute value.
 
 ![][public]
 
+
 ```
 SyscError syscAddCouplingInterface(const SyscCouplingInterface couplingInterface)
 ```
+
 
 Provide a function to add a coupling interface.
 
@@ -5916,9 +6684,11 @@ See [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInt
 
 ![][public]
 
+
 ```
 SyscError syscAddCouplingInterfaceA(const SyscCouplingInterface couplingInterface, int autoGenerateDataTransfers)
 ```
+
 
 Provide a function to add a coupling interface.
 
@@ -5956,9 +6726,11 @@ See [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInt
 
 ![][public]
 
+
 ```
 SyscError syscCompleteSetup(const SyscSetupInfo setupInfo)
 ```
+
 
 Provide a function to notify System Coupling that setup can be completed.
 
@@ -5992,15 +6764,17 @@ Once the setup is complete, any subsequent call to complete the setup will have 
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputScalarDataAccess(SyscInputScalarDataAccess dataAccess)
 ```
+
 
 Provide a function to register input scalar data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscInputScalarDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaaf3788ac706a730edbf6093c7e543681) prototype.
 
 
 
@@ -6015,16 +6789,18 @@ Provide a function to register input scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputScalarDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscInputScalarDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register input scalar data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscInputScalarDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad41922f1a4f5abb891d5a913ba5fcccf) prototype.
 
 
 
@@ -6040,15 +6816,17 @@ Provide a function to register input scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputScalarDataMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscInputScalarDataMultiZoneAccess dataAccess)
 ```
+
 
 Provide a function to register input scalar data multi-zone access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscInputScalarDataMultiZoneAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga844dc6322bd6e4eabc2d3d2d9e69bdb1) prototype.
 
 
 
@@ -6064,15 +6842,17 @@ Provide a function to register input scalar data multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputVectorDataAccess(SyscInputVectorDataAccess dataAccess)
 ```
+
 
 Provide a function to register input vector data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscInputVectorDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga8d5f53de4e65a4bacef0f25ba8b46483) prototype.
 
 
 
@@ -6087,16 +6867,18 @@ Provide a function to register input vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputVectorDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscInputVectorDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register input vector data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscInputVectorDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae7c6372393f3ec720b8d6d1535fcf9b3) prototype.
 
 
 
@@ -6112,15 +6894,17 @@ Provide a function to register input vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputVectorDataMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscInputVectorDataMultiZoneAccess dataAccess)
 ```
+
 
 Provide a function to register input vector data multi-zone access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscInputVectorDataMultiZoneAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae2e92f1b7ae911c36bf3606c60a01511) prototype.
 
 
 
@@ -6136,15 +6920,17 @@ Provide a function to register input vector data multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputScalarDataAccess(SyscOutputScalarDataAccess dataAccess)
 ```
+
 
 Provide a function to register output scalar data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputScalarDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabd35283796cae3d3dbc851ac66b8564f) prototype.
 
 
 
@@ -6159,16 +6945,18 @@ Provide a function to register output scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputScalarDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscOutputScalarDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register output scalar data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputScalarDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab378ed75ffd9b081ad7eccf8107a5542) prototype.
 
 
 
@@ -6184,15 +6972,17 @@ Provide a function to register output scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputScalarDataMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscOutputScalarDataMultiZoneAccess dataAccess)
 ```
+
 
 Provide a function to register output scalar data multi-zone access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputScalarDataMultiZoneAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7767f728d880014dfbd853bbb8e0eb07) prototype.
 
 
 
@@ -6208,15 +6998,17 @@ Provide a function to register output scalar data multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputVectorDataAccess(SyscOutputVectorDataAccess dataAccess)
 ```
+
 
 Provide a function to register output vector data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputVectorDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae99c8cb78199403b9e74217557be206a) prototype.
 
 
 
@@ -6231,16 +7023,18 @@ Provide a function to register output vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputVectorDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscOutputVectorDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register output vector data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputVectorDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab30cbe5478bf769c81f5c0a07e885afd) prototype.
 
 
 
@@ -6256,15 +7050,17 @@ Provide a function to register output vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputVectorDataMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscOutputVectorDataMultiZoneAccess dataAccess)
 ```
+
 
 Provide a function to register output vector data multi-zone access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputVectorDataMultiZoneAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1d6d5d9fa806ac5820d9a6ed85811804) prototype.
 
 
 
@@ -6280,15 +7076,17 @@ Provide a function to register output vector data multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputComplexScalarDataAccess(SyscInputComplexScalarDataAccess dataAccess)
 ```
+
 
 Provide a function to register input complex scalar data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscInputComplexScalarDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab388f936f3a73b9b480a792c401a95a1) prototype.
 
 
 
@@ -6303,16 +7101,18 @@ Provide a function to register input complex scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputComplexScalarDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscInputComplexScalarDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register input complex scalar data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscInputComplexScalarDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7a0c5889de7b17b59d44595d7636747e) prototype.
 
 
 
@@ -6328,15 +7128,17 @@ Provide a function to register input complex scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputComplexVectorDataAccess(SyscInputComplexVectorDataAccess dataAccess)
 ```
+
 
 Provide a function to register input complex vector data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscInputComplexVectorDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gace54794852b48d8725b930f1aed89c4d) prototype.
 
 
 
@@ -6351,16 +7153,18 @@ Provide a function to register input complex vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterInputComplexVectorDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscInputComplexVectorDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register input complex vector data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscInputComplexVectorDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscInputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga68dcce877e8cc69f13bee845c76f1b4d) prototype.
 
 
 
@@ -6376,15 +7180,17 @@ Provide a function to register input complex vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputComplexScalarDataAccess(SyscOutputComplexScalarDataAccess dataAccess)
 ```
+
 
 Provide a function to register output complex scalar data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputComplexScalarDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17d96c2c29a44374309efafdfb8fef62) prototype.
 
 
 
@@ -6399,16 +7205,18 @@ Provide a function to register output complex scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputComplexScalarDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscOutputComplexScalarDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register output complex scalar data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputComplexScalarDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71ac4910edd87d8d62e871001258c698) prototype.
 
 
 
@@ -6424,15 +7232,17 @@ Provide a function to register output complex scalar data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputComplexVectorDataAccess(SyscOutputComplexVectorDataAccess dataAccess)
 ```
+
 
 Provide a function to register output complex vector data access.
 
 **Parameters**:
 
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputComplexVectorDataAccess prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga65a0f3a119f2cec715ac89798f16a97c) prototype.
 
 
 
@@ -6447,16 +7257,18 @@ Provide a function to register output complex vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterOutputComplexVectorDataAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscOutputComplexVectorDataAccessWithPointer dataAccess)
 ```
+
 
 Provide a function to register output complex vector data access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **dataAccess**: - a pointer to the function that conforms to SyscOutputComplexVectorDataAccessWithPointer prototype.
+* **dataAccess**: - a pointer to the function that conforms to [SyscOutputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga18e31a00d833843895c731e69ca006b0) prototype.
 
 
 
@@ -6472,15 +7284,17 @@ Provide a function to register output complex vector data access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterSurfMeshAccess(SyscSurfMeshAccess meshAccess)
 ```
+
 
 Provide a function to register surface mesh access.
 
 **Parameters**:
 
-* **meshAccess**: - a pointer to the function that conforms to SyscSurfMeshAccess prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscSurfMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71e4eb102d00dd0a211f6dc2f4d24222) prototype.
 
 
 
@@ -6495,16 +7309,18 @@ Provide a function to register surface mesh access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterSurfaceMeshAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscSurfaceMeshAccessWithPointer meshAccess)
 ```
+
 
 Provide a function to register surface mesh access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **meshAccess**: - a pointer to the function that conforms to SyscSurfaceMeshAccessWithPointer prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscSurfaceMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafbfb299099d65e3f232bb67a04d1a8e9) prototype.
 
 
 
@@ -6520,16 +7336,18 @@ Provide a function to register surface mesh access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterSurfaceMeshMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscSurfaceMeshMultiZoneAccess meshAccess)
 ```
+
 
 Provide a function to register surface mesh multi-zone access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **meshAccess**: - a pointer to the function that conforms to SyscSurfaceMeshMultiZoneAccess prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscSurfaceMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga9ffe052c4c28ff40b4a14b32cd9f227c) prototype.
 
 
 
@@ -6545,15 +7363,17 @@ Provide a function to register surface mesh multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterVolumeMeshAccess(SyscVolumeMeshAccess meshAccess)
 ```
+
 
 Provide a function to register volume mesh access.
 
 **Parameters**:
 
-* **meshAccess**: - a pointer to the function that conforms to SyscVolumeMeshAccess prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscVolumeMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad0ff77c2af045d3294b149219123a084) prototype.
 
 
 
@@ -6568,16 +7388,18 @@ Provide a function to register volume mesh access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterVolumeMeshAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscVolumeMeshAccessWithPointer meshAccess)
 ```
+
 
 Provide a function to register volume mesh access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **meshAccess**: - a pointer to the function that conforms to SyscVolumeMeshAccessWithPointer prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscVolumeMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gadcb6262e27485836632696e52cf80fb9) prototype.
 
 
 
@@ -6593,16 +7415,18 @@ Provide a function to register volume mesh access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterVolumeMeshMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscVolumeMeshMultiZoneAccess meshAccess)
 ```
+
 
 Provide a function to register volume mesh multi-zone access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **meshAccess**: - a pointer to the function that conforms to SyscVolumeMeshMultiZoneAccess prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscVolumeMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaf381b799bec1baf9f3ab727b61458b59) prototype.
 
 
 
@@ -6618,15 +7442,17 @@ Provide a function to register volume mesh multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterPointCloudAccess(SyscPointCloudAccess pointCloudAccess)
 ```
+
 
 Provide a function to register point cloud access.
 
 **Parameters**:
 
-* **pointCloudAccess**: - a pointer to the function that conforms to SyscPointCloudAccess prototype.
+* **pointCloudAccess**: - a pointer to the function that conforms to [SyscPointCloudAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae999907f608779e525e34f60d2803038) prototype.
 
 
 
@@ -6641,16 +7467,18 @@ Provide a function to register point cloud access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterPointCloudAccessWithPointer(SyscOpaqueDataAccess opaqueDataAccess, SyscPointCloudAccessWithPointer pointCloudAccess)
 ```
+
 
 Provide a function to register point cloud access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **pointCloudAccess**: - a pointer to the function that conforms to SyscPointCloudAccessWithPointer prototype.
+* **pointCloudAccess**: - a pointer to the function that conforms to [SyscPointCloudAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafa62fd6d86905625ae071dea4749a8df) prototype.
 
 
 
@@ -6666,16 +7494,18 @@ Provide a function to register point cloud access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterPointCloudMultiZoneAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscPointCloudMultiZoneAccess pointCloudAccess)
 ```
+
 
 Provide a function to register point cloud multi-zone access.
 
 **Parameters**:
 
 * **opaqueDataAccess**: - a pointer to an address in memory. This pointer will be passed into the callback function.
-* **meshAccess**: - a pointer to the function that conforms to SyscPointCloudMultiZoneAccess prototype.
+* **meshAccess**: - a pointer to the function that conforms to [SyscPointCloudMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac4a0788f14f0d473372f07638e9dceaa) prototype.
 
 
 
@@ -6691,9 +7521,11 @@ Provide a function to register point cloud multi-zone access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterZoneCountAccess(SyscOpaqueDataAccess opaqueDataAccess, SyscZoneCountAccess zoneCountAccess)
 ```
+
 
 Provide a function to register zone count access.
 
@@ -6713,21 +7545,23 @@ Provide a function to register zone count access.
 
 ![][public]
 
+
 ```
 SyscError syscRegisterRestartPointCreation(SyscRestartPointCreation restartPointCreation)
 ```
+
 
 Provide a function to register restart point creation callback.
 
 **Parameters**:
 
-* **restartPointCreation**: - a pointer to the function that conforms to SyscRestartPointCreation function prototype. See SyscRestartPointCreation for details.
+* **restartPointCreation**: - a pointer to the function that conforms to [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga800a36e5223ab1f89d2207333fb4f959) function prototype. See [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga800a36e5223ab1f89d2207333fb4f959) for details.
 
 
 
 **Parameters**:
 
-* [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga6d3934571a8dcc03e2ecbe724a808c1b) **restartPointCreation**
+* [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga800a36e5223ab1f89d2207333fb4f959) **restartPointCreation**
 
 **Return type**: [SyscError](structSyscError.md#structSyscError)
 
@@ -6736,9 +7570,11 @@ Provide a function to register restart point creation callback.
 
 ![][public]
 
+
 ```
 SyscError syscInitializeAnalysis()
 ```
+
 
 Provide a function to notify System Coupling that analysis initialization can be completed.
 
@@ -6759,9 +7595,11 @@ If this function is called before the coupled analysis is complete, it will auto
 
 ![][public]
 
+
 ```
 int syscDoIteration()
 ```
+
 
 Provide a function to check whether to do a coupling iteration.
 
@@ -6776,9 +7614,11 @@ This function returns 1 (true) if another coupling iteration is required, otherw
 
 ![][public]
 
+
 ```
 int syscDoTimeStep()
 ```
+
 
 Provide a function to check whether to do a coupling time step.
 
@@ -6805,9 +7645,11 @@ This function only makes sense for transient analysis. It will always return fal
 
 ![][public]
 
+
 ```
 SyscTimeStep syscGetCurrentTimeStep()
 ```
+
 
 Provide a function to get current time step.
 
@@ -6828,9 +7670,11 @@ A default value (time step number 0, start time 0.0, time step size 0.0) is retu
 
 ![][public]
 
+
 ```
 SyscError syscUpdateInputs()
 ```
+
 
 Provide a function to update the participants input variables.
 
@@ -6857,9 +7701,11 @@ When doing same-participant mapping only (without cosimulation), this function s
 
 ![][public]
 
+
 ```
 SyscError syscUpdateOutputs(const enum SyscConvergenceStatus convStatus)
 ```
+
 
 Provide a function to update the participants output variables.
 
@@ -6878,9 +7724,11 @@ This function must be called from inside the coupled analysis loop. It tells Sys
 
 ![][public]
 
+
 ```
 SyscError syscDisconnect()
 ```
+
 
 Provide a function to end the analysis and disconnect from System Coupling.
 
@@ -6895,9 +7743,11 @@ Provide a function to end the analysis and disconnect from System Coupling.
 
 ![][public]
 
+
 ```
 void syscFatalError(const char *errorMessage)
 ```
+
 
 Provide a function to notify System Coupling about a fatal error.
 
@@ -6916,9 +7766,11 @@ Provide a function to notify System Coupling about a fatal error.
 
 ![][public]
 
+
 ```
 void syscNonFatalError(const char *errorMessage)
 ```
+
 
 Provide a function to notify System Coupling about a non fatal error.
 
@@ -6937,9 +7789,11 @@ Provide a function to notify System Coupling about a non fatal error.
 
 ![][public]
 
+
 ```
 SyscError syscCheckSurfaceMeshValidity(SyscSurfaceMesh mesh)
 ```
+
 
 Provide a function to perform simple mesh validity checks.
 
@@ -6973,9 +7827,11 @@ Return value is [SyscError](structSyscError.md#structSyscError) struct. If mesh 
 
 ![][public]
 
+
 ```
 int syscWriteSetupFile(const SyscSetupFileInfo setupFileInfo)
 ```
+
 
 Provide a function to write the setup file.
 
@@ -7006,9 +7862,11 @@ It will return true (1) if the setup file was successfully written, and false (0
 
 ![][public]
 
+
 ```
 SyscError syscWriteResults(const SyscResultsInfo resultsInfo)
 ```
+
 
 Write results to a file.
 
@@ -7027,9 +7885,11 @@ Write results to a file.
 
 ![][public]
 
+
 ```
 size_t syscGetNumRegions()
 ```
+
 
 Provide a function to return the number of added regions.
 
@@ -7046,9 +7906,11 @@ Number of regions.
 
 ![][public]
 
+
 ```
 SyscRegion syscGetAddedRegion(size_t index)
 ```
+
 
 Provide a function to return added region given the region index.
 
@@ -7074,9 +7936,11 @@ Region at specified index.
 
 ![][public]
 
+
 ```
 SyscSolutionControl syscGetSolutionControl()
 ```
+
 
 Get solution control.
 
@@ -7091,9 +7955,11 @@ Get solution control.
 
 ![][public]
 
+
 ```
 size_t syscGetNumCouplingInterfaces()
 ```
+
 
 Provide a function to return the number of added coupling interfaces.
 
@@ -7110,9 +7976,11 @@ Number of coupling interfaces.
 
 ![][public]
 
+
 ```
 SyscCouplingInterface syscGetAddedCouplingInterface(size_t index)
 ```
+
 
 
 
@@ -7131,9 +7999,11 @@ SyscCouplingInterface syscGetAddedCouplingInterface(size_t index)
 
 ![][public]
 
+
 ```
 SyscVariable syscGetVariable(const char *name)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -7180,9 +8050,11 @@ Quantity type will default to unspecified.
 
 ![][public]
 
+
 ```
 SyscVariable syscGetVariableDTELQD(const char *name, const char *displayName, enum SyscTensorType tensorType, int isExtensive, enum SyscLocation location, enum SyscQuantityType quantityType, enum SyscDataType dataType)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -7215,9 +8087,11 @@ Create variable to be used in a coupled analysis.
 
 ![][public]
 
+
 ```
 SyscVariable syscGetVariableTE(const char *name, enum SyscTensorType tensorType, int isExtensive, enum SyscLocation location)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -7252,9 +8126,11 @@ Quantity type will default to unspecified.
 
 ![][public]
 
+
 ```
 SyscVariable syscGetVariableTEQ(const char *name, const char *displayName, enum SyscTensorType tensorType, int isExtensive, enum SyscLocation location, enum SyscQuantityType quantityType)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -7285,9 +8161,11 @@ Create variable to be used in a coupled analysis.
 
 ![][public]
 
+
 ```
 SyscVariable syscGetVariableQ(const char *name, const char *displayName, enum SyscLocation location, enum SyscQuantityType quantityType)
 ```
+
 
 Create variable to be used in a coupled analysis.
 
@@ -7304,6 +8182,7 @@ The variable tensor type and is extensive properties will be inferred from the q
 
 
 
+
 ```
 Quantity Type                     Tensor Type      Is Extensive
 ----------------------------------------------------------------
@@ -7314,6 +8193,7 @@ Heat Rate                         Scalar           True
 Heat Transfer Coefficient         Scalar           False
 Convection Reference Temperature  Scalar           False
 ```
+
 
 
 
@@ -7337,9 +8217,11 @@ If any other quantity type is specified, tensor type will be set to scalar and i
 
 ![][public]
 
+
 ```
 SyscError syscVariableAddRealAttribute(SyscVariable variable, SyscRealAttribute attribute)
 ```
+
 
 Add real-valued attribute to the variable.
 
@@ -7359,9 +8241,11 @@ Add real-valued attribute to the variable.
 
 ![][public]
 
+
 ```
 SyscError syscVariableAddIntegerAttribute(SyscVariable variable, SyscIntegerAttribute attribute)
 ```
+
 
 Add integer-valued attribute to the variable.
 
@@ -7381,9 +8265,11 @@ Add integer-valued attribute to the variable.
 
 ![][public]
 
+
 ```
 size_t syscVariableGetNumRealAttributes(SyscVariable variable)
 ```
+
 
 Get number of real-valued attributes.
 
@@ -7402,9 +8288,11 @@ Get number of real-valued attributes.
 
 ![][public]
 
+
 ```
 size_t syscVariableGetNumIntegerAttributes(SyscVariable variable)
 ```
+
 
 Get number of integer-valued attributes.
 
@@ -7423,9 +8311,11 @@ Get number of integer-valued attributes.
 
 ![][public]
 
+
 ```
 SyscRealAttribute syscVariableGetRealAttribute(SyscVariable variable, size_t index)
 ```
+
 
 Return the real-valued attribute at the given index.
 
@@ -7445,9 +8335,11 @@ Return the real-valued attribute at the given index.
 
 ![][public]
 
+
 ```
 SyscIntegerAttribute syscVariableGetIntegerAttribute(SyscVariable variable, size_t index)
 ```
+
 
 Return the integer-valued attribute at the given index.
 
@@ -7467,9 +8359,11 @@ Return the integer-valued attribute at the given index.
 
 ![][public]
 
+
 ```
 SyscVolumeMesh syscGetVolumeMeshEmpty()
 ```
+
 
 Create an empty volume mesh access struct.
 
@@ -7484,9 +8378,11 @@ Returns a struct representing empty volume mesh. All member will be assigned def
 
 ![][public]
 
+
 ```
 SyscVolumeMesh syscGetVolumeMeshNFC(SyscNodeData nodes, SyscFaceData faces, SyscCellData cells)
 ```
+
 
 Create a volume mesh access struct.
 
@@ -7511,9 +8407,11 @@ Create a volume mesh access struct.
 
 ![][public]
 
+
 ```
 SyscVolumeMesh syscGetVolumeMeshElementBased(SyscNodeData nodes, SyscElementTypeData cellTypes, SyscElementNodeConnectivityData cellNodeConnectivity)
 ```
+
 
 Create an element-based volume mesh access struct.
 
@@ -7538,9 +8436,11 @@ Create an element-based volume mesh access struct.
 
 ![][public]
 
+
 ```
 SyscVolumeMesh syscGetVolumeMeshFaceBased(SyscNodeData nodes, SyscElementNodeCountData faceNodeCounts, SyscElementNodeConnectivityData faceNodeConnectivity, SyscFaceCellConnectivityData faceCellConnectivity, SyscCellIdData cellIds)
 ```
+
 
 Create a face-based volume mesh access struct.
 
@@ -7571,9 +8471,11 @@ Create a face-based volume mesh access struct.
 
 ![][public]
 
+
 ```
 #define SYSC_STRING_LENGTH 256
 ```
+
 
 Define maximum string length.
 

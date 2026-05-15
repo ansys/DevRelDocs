@@ -12,8 +12,8 @@
 ## Members
 
 * [syscgetcelldataf](interfacefortran_1_1syscgetcelldataf.md#interfacefortran_1_1syscgetcelldataf_1a48f9b149e7123172299ff88f71b26b80)
-* [syscgetfacedataf\_i](interfacefortran_1_1syscgetcelldataf.md#interfacefortran_1_1syscgetcelldataf_1a650453591ca50d309f6262a1e63963e9)
-* [syscgetfacedataf\_tn](interfacefortran_1_1syscgetcelldataf.md#interfacefortran_1_1syscgetcelldataf_1ad82b8c8ff9ebbc59c102d46490dadf91)
+* [syscgetfacedataf\_i](interfacefortran_1_1syscgetcelldataf.md#interfacefortran_1_1syscgetcelldataf_1a46932060f6bbf635304ef73ad88bb37c)
+* [syscgetfacedataf\_tn](interfacefortran_1_1syscgetcelldataf.md#interfacefortran_1_1syscgetcelldataf_1af3ef8a0138a0e70ed0e1643de3ca051a)
 
 ## Public functions
 
@@ -21,6 +21,7 @@
 ### Function syscgetcelldataf
 
 ![][public]
+
 
 ```fortran
 type(sysccelldataf) function syscgetcelldataf()
@@ -32,16 +33,19 @@ type(sysccelldataf) function syscgetcelldataf()
 
 
 
+
 **Return type**: type([sysccelldataf](structfortran_1_1sysccelldataf.md#structfortran_1_1sysccelldataf)) function
 
-<a id="interfacefortran_1_1syscgetcelldataf_1a650453591ca50d309f6262a1e63963e9"></a>
+<a id="interfacefortran_1_1syscgetcelldataf_1a46932060f6bbf635304ef73ad88bb37c"></a>
 ### Function syscgetfacedataf\_i
 
 ![][public]
 
+
 ```fortran
-type(sysccelldataf) function syscgetfacedataf_i(cellIds)
+type(sysccelldataf) function syscgetfacedataf_i(cellids)
 ```
+
 
 
 
@@ -51,18 +55,20 @@ type(sysccelldataf) function syscgetfacedataf_i(cellIds)
 
 **Parameters**:
 
-* cellIdscellIds
+* cellidstype([syscelementiddataf](structfortran_1_1syscelementiddataf.md#structfortran_1_1syscelementiddataf)), intent(in)
 
 **Return type**: type([sysccelldataf](structfortran_1_1sysccelldataf.md#structfortran_1_1sysccelldataf)) function
 
-<a id="interfacefortran_1_1syscgetcelldataf_1ad82b8c8ff9ebbc59c102d46490dadf91"></a>
+<a id="interfacefortran_1_1syscgetcelldataf_1af3ef8a0138a0e70ed0e1643de3ca051a"></a>
 ### Function syscgetfacedataf\_tn
 
 ![][public]
 
+
 ```fortran
-type(sysccelldataf) function syscgetfacedataf_tn(cellTypes, cellNodeConnectivity)
+type(sysccelldataf) function syscgetfacedataf_tn(celltypes, cellnodeconnectivity)
 ```
+
 
 
 
@@ -72,8 +78,8 @@ type(sysccelldataf) function syscgetfacedataf_tn(cellTypes, cellNodeConnectivity
 
 **Parameters**:
 
-* cellTypescellTypes
-* cellNodeConnectivitycellNodeConnectivity
+* celltypestype([syscelementtypedataf](structfortran_1_1syscelementtypedataf.md#structfortran_1_1syscelementtypedataf)), intent(in)
+* cellnodeconnectivitytype([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)), intent(in)
 
 **Return type**: type([sysccelldataf](structfortran_1_1sysccelldataf.md#structfortran_1_1sysccelldataf)) function
 

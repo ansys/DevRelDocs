@@ -11,18 +11,20 @@
 
 ## Members
 
-* [outputscalardataaccessintf](interfacefortran_1_1outputscalardataaccessintf.md#interfacefortran_1_1outputscalardataaccessintf_1ad9d29dff44dd3e364e3a1d4c8d0842a0)
+* [outputscalardataaccessintf](interfacefortran_1_1outputscalardataaccessintf.md#interfacefortran_1_1outputscalardataaccessintf_1ae84f937763199bed5354e7c3a8090831)
 
 ## Public functions
 
-<a id="interfacefortran_1_1outputscalardataaccessintf_1ad9d29dff44dd3e364e3a1d4c8d0842a0"></a>
+<a id="interfacefortran_1_1outputscalardataaccessintf_1ae84f937763199bed5354e7c3a8090831"></a>
 ### Function outputscalardataaccessintf
 
 ![][public]
 
+
 ```fortran
-type(syscerrorf) function outputscalardataaccessintf(regionName, variableName, outputScalarData)
+type(syscerrorf) function outputscalardataaccessintf(regionname, variablename, outputscalardata)
 ```
+
 
 
 
@@ -32,9 +34,9 @@ type(syscerrorf) function outputscalardataaccessintf(regionName, variableName, o
 
 **Parameters**:
 
-* regionNameregionName
-* variableNamevariableName
-* outputScalarDataoutputScalarData
+* regionnamecharacter(len=syscstrlen), intent(in)
+* variablenamecharacter(len=syscstrlen), intent(in)
+* outputscalardatatype([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)), intent(out)
 
 **Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
 

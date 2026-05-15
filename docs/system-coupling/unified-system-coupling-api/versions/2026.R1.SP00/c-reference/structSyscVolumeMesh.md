@@ -13,6 +13,7 @@ To create and/or initialize [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscV
 
 
 
+
 ```
 SyscVolumeMesh mesh = syscGetFaceBasedVolumeMesh(
     nodeCoords, elemNodeCounts, elemNodeIds);
@@ -36,9 +37,11 @@ SyscVolumeMesh mesh = syscGetFaceBasedVolumeMesh(
 
 **Definition**: `syscVolumeMesh.h` (line 44)
 
+
 ```
 SyscNodeData SyscVolumeMesh::nodes
 ```
+
 
 Mesh nodes.
 
@@ -55,9 +58,11 @@ Mesh nodes.
 
 **Definition**: `syscVolumeMesh.h` (line 47)
 
+
 ```
 SyscFaceData SyscVolumeMesh::faces
 ```
+
 
 Mesh faces.
 
@@ -74,9 +79,11 @@ Mesh faces.
 
 **Definition**: `syscVolumeMesh.h` (line 50)
 
+
 ```
 SyscCellData SyscVolumeMesh::cells
 ```
+
 
 Mesh cells.
 
@@ -93,9 +100,11 @@ Mesh cells.
 
 **Definition**: `syscVolumeMesh.h` (line 53)
 
+
 ```
 int64_t SyscVolumeMesh::connectivityStamp
 ```
+
 
 Mesh connectivity stamp. Update whenever re-meshing happens.
 
@@ -112,9 +121,11 @@ Mesh connectivity stamp. Update whenever re-meshing happens.
 
 **Definition**: `syscVolumeMesh.h` (line 57)
 
+
 ```
 int64_t SyscVolumeMesh::coordinatesStamp
 ```
+
 
 Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
@@ -131,9 +142,11 @@ Nodal coordinates stamp. Update whenever nodal coordinates get updated.
 
 **Definition**: `syscVolumeMesh.h` (line 60)
 
+
 ```
 int64_t SyscVolumeMesh::partitioningStamp
 ```
+
 
 Partitioning stamp. Update whenever the mesh is re-partitioned.
 
