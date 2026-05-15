@@ -1,21 +1,28 @@
 # Overview
 
-This toolset synchronizes the membership of a Microsoft Entra ID (formerly
-Azure Active Directory) security group to an Ansys ID Portal account or
-group. It is intended to allow an organization to manage Ansys product
-access through their existing identity management processes in Entra ID,
-without needing to maintain membership separately in the Ansys ID Portal.
+This documentation is aimed at **administrators** who manage organizations in the Ansys ID Portal: users, groups, and access to Ansys products and licenses.
 
-Two scripts are provided that perform identical synchronization:
+You can organize people and control access through **accounts** and **groups**:
+
+- **Accounts** represent your organization and define access to Ansys entitlements.
+- **Groups** allow finer-grained control—for example for specific products, license pools, or features.
+
+The Portal can integrate with **external identity providers** so user access stays aligned with your organization’s directory or identity system. How each integration behaves depends on the provider and configuration; many patterns are **one-way**, so changes made outside the Portal can replace manual membership updates on the next sync.
+
+Automation that calls the **Ansys ID Portal API** typically authenticates with a **Personal Access Token (PAT)** for a user who belongs to the target account and holds an ASC or Customer Administrator role. PATs are created and managed in the Ansys ID Portal (for example at [id.ansys.com](https://id.ansys.com/)). For PAT details, see the [PAT authentication guide](../../docs/ansys-id-sso/pat-authentication-guide). For broader identity and single sign-on topics, see the Ansys ID SSO documentation.
+
+---
+
+## Microsoft Entra ID membership sync
+
+The scripts in this guide synchronize the membership of a Microsoft Entra ID (formerly Azure Active Directory) security group to an Ansys ID Portal account or group. They let an organization drive Ansys product access from existing identity workflows in Entra ID, without maintaining the same membership separately in the Ansys ID Portal.
+
+Two scripts perform the same synchronization:
 
   - [sync_entra_to_ansys.py](https://github.com/ansys/DevRelPublic/blob/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.py)  -- Python, runs on Linux or Windows
   - [sync_entra_to_ansys.ps1](https://github.com/ansys/DevRelPublic/blob/main/Downloads/Ansys-ID-Portal/sync_entra_to_ansys.ps1) -- PowerShell, runs on Windows only
 
-Choose whichever is most appropriate for your environment and automation
-toolchain. Both scripts require the same prerequisites and accept the same
-logical parameters.
-
----
+Use whichever fits your environment and automation toolchain. Both scripts share the same prerequisites and accept the same logical parameters.
 
 ## How synchronization works
 
