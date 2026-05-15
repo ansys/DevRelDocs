@@ -14,21 +14,46 @@ Delegate the run to an Operator instantiated by the name in input (forwards all 
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin -1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_name |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>-1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [operator_name](#input_-1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_-1"></a>
+### operator_name (Pin -1)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| any |[`any`](../../core-concepts/dpf-types.md#any) | inputs |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [any](#output_0) |[`any`](../../core-concepts/dpf-types.md#any) |
+
+
+<a id="output_0"></a>
+### any (Pin 0)
+
+- **Expected type(s):** [`any`](../../core-concepts/dpf-types.md#any)
+
+inputs
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

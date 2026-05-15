@@ -14,24 +14,73 @@ Prepares a workflow able to map data from an input mesh to a target mesh.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  source_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh where the source data is defined. |
-| <strong>Pin 1</strong>|  target_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) | Target mesh. Can be a meshed region or a node coordinates field. Providing node coordinates field is only allowed for non-conservative mapping. |
-| <strong>Pin 6</strong>|  target_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Scoping that restricts the interpolation to a given set of nodes/elements in the target mesh. |
-| <strong>Pin 10</strong>|  options_data_tree |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | DataTree that contains a 'mapping_options' subtree with the mapping options, and a 'data_definition' subtree with 'dimensionality' int and 'location' string attributes that are required by the 'prepare mechanical native mapping' operator (see documentation of this operator to know more about the supported options). |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [source_mesh](#input_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong>|  [target_mesh](#input_1) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>6</strong>|  [target_scoping](#input_6) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>10</strong>|  [options_data_tree](#input_10) |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+
+
+<a id="input_0"></a>
+### source_mesh (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Mesh where the source data is defined.
+
+<a id="input_1"></a>
+### target_mesh (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
+
+Target mesh. Can be a meshed region or a node coordinates field. Providing node coordinates field is only allowed for non-conservative mapping.
+
+<a id="input_6"></a>
+### target_scoping (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Scoping that restricts the interpolation to a given set of nodes/elements in the target mesh.
+
+<a id="input_10"></a>
+### options_data_tree (Pin 10)
+
+- **Required:** No
+- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+DataTree that contains a 'mapping_options' subtree with the mapping options, and a 'data_definition' subtree with 'dimensionality' int and 'location' string attributes that are required by the 'prepare mechanical native mapping' operator (see documentation of this operator to know more about the supported options).
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| mapping_workflow |[`workflow`](../../core-concepts/dpf-types.md#workflow) | Workflow with input pin 'source_data'; optionally 'source_mesh', 'target_mesh', 'target_scoping', and 'options_data_tree'; and output pins 'target_data','unmapped_nodes_data','outside_nodes_data','mapping_error_codes', 'source_mesh_id' and 'target_mesh_id. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mapping_workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+
+
+<a id="output_0"></a>
+### mapping_workflow (Pin 0)
+
+- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+
+Workflow with input pin 'source_data'; optionally 'source_mesh', 'target_mesh', 'target_scoping', and 'options_data_tree'; and output pins 'target_data','unmapped_nodes_data','outside_nodes_data','mapping_error_codes', 'source_mesh_id' and 'target_mesh_id.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

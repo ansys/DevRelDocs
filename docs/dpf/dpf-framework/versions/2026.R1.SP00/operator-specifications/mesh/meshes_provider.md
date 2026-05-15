@@ -26,28 +26,108 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  time_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types) | Time/frequency set IDs required in output. |
-| <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | result file container allowed to be kept open to cache data |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data sources describing one or more result files.<br><br>**Error conditions when `permissive` config is disabled:**<br>- Throws `std::runtime_error` with message "StreamProvider: empty namespace for result key '<key>'" if a result file has no namespace.<br>- Throws `std::runtime_error` with message "StreamProvider: operator <namespace>::stream_provider not found." if the namespace is not supported.<br>- If all result files are invalid, throws an error even in permissive mode. |
-| <strong>Pin 14</strong>|  read_cyclic |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) | if 1, cyclic symmetry is ignored. If 2, cyclic expansion is done (default is 1). |
-| <strong>Pin 25</strong>|  region_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | region id (integer) or vector of region ids (vector) or region scoping (scoping) of the model (region corresponds to zone for Fluid results or part for LSDyna results). |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [time_scoping](#input_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>14</strong>|  [read_cyclic](#input_14) |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>25</strong>|  [region_scoping](#input_25) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### time_scoping (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Time/frequency set IDs required in output.
+
+<a id="input_3"></a>
+### streams_container (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+result file container allowed to be kept open to cache data
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+Data sources describing one or more result files.
+
+**Error conditions when `permissive` config is disabled:**
+- Throws `std::runtime_error` with message "StreamProvider: empty namespace for result key '<key>'" if a result file has no namespace.
+- Throws `std::runtime_error` with message "StreamProvider: operator <namespace>::stream_provider not found." if the namespace is not supported.
+- If all result files are invalid, throws an error even in permissive mode.
+
+<a id="input_14"></a>
+### read_cyclic (Pin 14)
+
+- **Required:** No
+- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+if 1, cyclic symmetry is ignored. If 2, cyclic expansion is done (default is 1).
+
+<a id="input_25"></a>
+### region_scoping (Pin 25)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+region id (integer) or vector of region ids (vector) or region scoping (scoping) of the model (region corresponds to zone for Fluid results or part for LSDyna results).
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| meshes |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [meshes](#output_0) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+
+
+<a id="output_0"></a>
+### meshes (Pin 0)
+
+- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### num_threads
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### permissive
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, warning checks (like unit or data sizes) won't be done.
+
+### run_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
+
 
 ## Scripting
 

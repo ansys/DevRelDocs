@@ -1,5 +1,7 @@
 # Operator Specifications
 
+This section provides comprehensive specification documentation for all DPF operators, organized by functional category.
+
 - [Averaging operators](averaging/averaging_category.md)
 
 

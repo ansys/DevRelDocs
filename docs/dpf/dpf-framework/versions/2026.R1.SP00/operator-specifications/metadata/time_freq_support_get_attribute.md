@@ -14,24 +14,73 @@ Uses the TimeFreqSupport APIs to return a given attribute of the scoping in inpu
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_support |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  property_name |[`string`](../../core-concepts/dpf-types.md#standard-types) | Supported property names are: "time_freqs", "imaginary_freqs", "frequency_tolerance", "set_id", "cummulative_index", "sets_freqs", "step_id_from_harmonic_index". |
-| <strong>Pin 2</strong>|  property_identifier |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping) | Additional pin for properties "set_id" and "cummulative_index": the step id, for "sets_freqs": the sets scoping, for "step_id_from_harmonic_index" : the harmonic index. |
-| <strong>Pin 3</strong>|  property_identifier_2 |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Additional pin for properties "set_id" and "cummulative_index": the substep id (if none, last substep is considered). |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [time_freq_support](#input_0) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [property_name](#input_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [property_identifier](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>3</strong>|  [property_identifier_2](#input_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### time_freq_support (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+
+
+<a id="input_1"></a>
+### property_name (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Supported property names are: "time_freqs", "imaginary_freqs", "frequency_tolerance", "set_id", "cummulative_index", "sets_freqs", "step_id_from_harmonic_index".
+
+<a id="input_2"></a>
+### property_identifier (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Additional pin for properties "set_id" and "cummulative_index": the step id, for "sets_freqs": the sets scoping, for "step_id_from_harmonic_index" : the harmonic index.
+
+<a id="input_3"></a>
+### property_identifier_2 (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Additional pin for properties "set_id" and "cummulative_index": the substep id (if none, last substep is considered).
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| property |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`scoping`](../../core-concepts/dpf-types.md#scoping) | Returns a double for property: "frequency_tolerance", a single-value Scoping for properties for "set_id" and "cummulative_index", an int for "step_id_from_harmonic_index" and a Field otherwise. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [property](#output_0) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="output_0"></a>
+### property (Pin 0)
+
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Returns a double for property: "frequency_tolerance", a single-value Scoping for properties for "set_id" and "cummulative_index", an int for "step_id_from_harmonic_index" and a Field otherwise.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

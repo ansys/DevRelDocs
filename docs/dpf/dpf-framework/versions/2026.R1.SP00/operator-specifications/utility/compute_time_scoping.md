@@ -14,25 +14,81 @@ Computes the time frequency scoping (made of set IDs) necessary to interpolate o
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_values |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) | List of frequencies or times needed. To specify load steps, put a field (and not a list) in input with a scoping located on "TimeFreq_steps". |
-| <strong>Pin 2</strong>|  step |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 4</strong>|  interpolation_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 1:ramped' or 2:stepped', default is ramped |
-| <strong>Pin 8</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_support |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [time_freq_values](#input_0) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+| <strong>2</strong>|  [step](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong>|  [interpolation_type](#input_4) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>8</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [time_freq_support](#input_8) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+
+
+<a id="input_0"></a>
+### time_freq_values (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+List of frequencies or times needed. To specify load steps, put a field (and not a list) in input with a scoping located on "TimeFreq_steps".
+
+<a id="input_2"></a>
+### step (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_4"></a>
+### interpolation_type (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+1:ramped' or 2:stepped', default is ramped
+
+<a id="input_8"></a>
+### time_freq_support (Pin 8)
+
+- **Required:** Yes
+- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | time_scoping |
-|  **Pin 1**| field |[`field`](../../core-concepts/dpf-types.md#field) | time_freq_values |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [scoping](#output_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **1**| [field](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### scoping (Pin 0)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+time_scoping
+
+<a id="output_1"></a>
+### field (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+time_freq_values
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

@@ -14,27 +14,96 @@ Create a local image of an existing remote operator (identified by an id and an 
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_to_send |[`int32`](../../core-concepts/dpf-types.md#standard-types) | local workflow to push to a remote or id of a remote workflow |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_pin |[`int32`](../../core-concepts/dpf-types.md#standard-types) | pin number of the output to name |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_to_remote |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |  |
-| <strong>Pin 4</strong>|  data_sources_to_remote |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |  |
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_name |[`string`](../../core-concepts/dpf-types.md#standard-types) | output's name of the workflow to return |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [operator_to_send](#input_0) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [output_pin](#input_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [streams_to_remote](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong>|  [data_sources_to_remote](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [output_name](#input_5) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### operator_to_send (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+local workflow to push to a remote or id of a remote workflow
+
+<a id="input_1"></a>
+### output_pin (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+pin number of the output to name
+
+<a id="input_3"></a>
+### streams_to_remote (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+
+
+<a id="input_4"></a>
+### data_sources_to_remote (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+
+
+<a id="input_5"></a>
+### output_name (Pin 5)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+output's name of the workflow to return
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| remote_workflow |[`workflow`](../../core-concepts/dpf-types.md#workflow) | remote workflow containing an image of the remote workflow and the protocols streams |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [remote_workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+
+
+<a id="output_0"></a>
+### remote_workflow (Pin 0)
+
+- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+
+remote workflow containing an image of the remote workflow and the protocols streams
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### num_threads
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### run_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
+
 
 ## Scripting
 

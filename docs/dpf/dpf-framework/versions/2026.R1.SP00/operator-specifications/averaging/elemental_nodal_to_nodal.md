@@ -14,27 +14,99 @@ Transforms an Elemental Nodal field into a Nodal field using an averaging proces
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field or fields container with only one field is expected |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | average only on these entities |
-| <strong>Pin 2</strong>|  should_average |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Each nodal value is divided by the number of elements linked to this node (default is true for discrete quantities). |
-| <strong>Pin 4</strong>|  extend_to_mid_nodes |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Compute mid nodes (when available) by averaging the neighbour primary nodes. |
-| <strong>Pin 5</strong>|  extend_weights_to_mid_nodes |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Extends weights to mid nodes (when available). Default is false. |
-| <strong>Pin 7</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field](#input_0) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>2</strong>|  [should_average](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong>|  [extend_to_mid_nodes](#input_4) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong>|  [extend_weights_to_mid_nodes](#input_5) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong>|  [mesh](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+field or fields container with only one field is expected
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+average only on these entities
+
+<a id="input_2"></a>
+### should_average (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Each nodal value is divided by the number of elements linked to this node (default is true for discrete quantities).
+
+<a id="input_4"></a>
+### extend_to_mid_nodes (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Compute mid nodes (when available) by averaging the neighbour primary nodes.
+
+<a id="input_5"></a>
+### extend_weights_to_mid_nodes (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Extends weights to mid nodes (when available). Default is false.
+
+<a id="input_7"></a>
+### mesh (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
-|  **Pin 1**| weight |[`property_field`](../../core-concepts/dpf-types.md#property-field) | Provides the number of times it was found in the elemental nodal field, for each node. Can be used to average later. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **1**| [weight](#output_1) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="output_1"></a>
+### weight (Pin 1)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+Provides the number of times it was found in the elemental nodal field, for each node. Can be used to average later.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

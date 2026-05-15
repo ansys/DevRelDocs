@@ -14,22 +14,55 @@ Writes a json file or string from a DataTree
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_tree |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |  |
-| <strong>Pin 1</strong>|  path |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_tree](#input_0) |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>1</strong>|  [path](#input_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### data_tree (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+
+
+<a id="input_1"></a>
+### path (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [data_sources](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_0"></a>
+### data_sources (Pin 0)
+
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

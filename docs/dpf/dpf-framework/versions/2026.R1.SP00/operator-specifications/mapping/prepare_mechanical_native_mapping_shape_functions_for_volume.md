@@ -14,45 +14,256 @@ Prepare mapping of source data from source mesh to target mesh by operating the 
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  source_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Source mesh |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  target_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) | Target mesh. Can be a meshed region or a node coordinates field. Providing node coordinates field is only allowed for non-conservative mapping. |
-| <strong>Pin 3</strong>|  target_mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Target mesh scoping. If used, ensure to give only the elements where results are expected into source mesh input to have optimized computation. |
-| <strong>Pin 4</strong>|  unit |[`string`](../../core-concepts/dpf-types.md#standard-types) | Unit of the result to map |
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  location |[`string`](../../core-concepts/dpf-types.md#standard-types) | Location of the result to map |
-| <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dimensionality |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Dimensionality of the result to map (for example it will be 3 for a displacement along (x, y, z) axes). |
-| <strong>Pin 7</strong>|  e_shell_layers |[`int32`](../../core-concepts/dpf-types.md#standard-types) | EShellLayers enum value if field has shell layers |
-| <strong>Pin 8</strong>|  html_report_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | Path for html report (for example 'my_disk/my_report.html'). If set, an html report will be generated and exported to the html file. If not set, nothing will be generated. |
-| <strong>Pin 9</strong>|  threads_user_requested |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of threads to be used to parallelize apply operations. |
-| <strong>Pin 10</strong>|  scale |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Default is 50 |
-| <strong>Pin 11</strong>|  edge_tolerance |[`double`](../../core-concepts/dpf-types.md#standard-types) | Default is 0.02 |
-| <strong>Pin 12</strong>|  conservative |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Default is false |
-| <strong>Pin 13</strong>|  ignore_outside_nodes |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Default is false |
-| <strong>Pin 100</strong>|  is_element_centroidal_data_mapping |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Default is 'false'. Set to 'true' if the source elemental data is representing as element centroidal nodal data |
-| <strong>Pin 101</strong>|  projection_options |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | Default is empty. This data tree contains 2D projection options for mapping 2D to 3D |
-| <strong>Pin 102</strong>|  dynamic_coordinate_system |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | Default is empty. This data tree contains the dynamic coordinate system for performing rigid body transformation on the source mesh |
-| <strong>Pin 103</strong>|  source_dimension |[`string`](../../core-concepts/dpf-types.md#standard-types) | Default is empty string. The string contains either "2D" or "3D" which specifies the source dimension |
-| <strong>Pin 104</strong>|  wb_external_data_info |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) | Default is empty. This data tree contains the Rigid & Analytical transformations specified in the workbench external data system |
-| <strong>Pin 105</strong>|  target_dimension |[`string`](../../core-concepts/dpf-types.md#standard-types) | Default is empty string. The string contains either "2D" or "3D" which specifies the target dimension |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [source_mesh](#input_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [target_mesh](#input_1) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>3</strong>|  [target_mesh_scoping](#input_3) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>4</strong>|  [unit](#input_4) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [location](#input_5) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [dimensionality](#input_6) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong>|  [e_shell_layers](#input_7) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>8</strong>|  [html_report_path](#input_8) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>9</strong>|  [threads_user_requested](#input_9) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>10</strong>|  [scale](#input_10) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>11</strong>|  [edge_tolerance](#input_11) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>12</strong>|  [conservative](#input_12) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>13</strong>|  [ignore_outside_nodes](#input_13) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>100</strong>|  [is_element_centroidal_data_mapping](#input_100) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>101</strong>|  [projection_options](#input_101) |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>102</strong>|  [dynamic_coordinate_system](#input_102) |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>103</strong>|  [source_dimension](#input_103) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>104</strong>|  [wb_external_data_info](#input_104) |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>105</strong>|  [target_dimension](#input_105) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### source_mesh (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Source mesh
+
+<a id="input_1"></a>
+### target_mesh (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
+
+Target mesh. Can be a meshed region or a node coordinates field. Providing node coordinates field is only allowed for non-conservative mapping.
+
+<a id="input_3"></a>
+### target_mesh_scoping (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Target mesh scoping. If used, ensure to give only the elements where results are expected into source mesh input to have optimized computation.
+
+<a id="input_4"></a>
+### unit (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Unit of the result to map
+
+<a id="input_5"></a>
+### location (Pin 5)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Location of the result to map
+
+<a id="input_6"></a>
+### dimensionality (Pin 6)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Dimensionality of the result to map (for example it will be 3 for a displacement along (x, y, z) axes).
+
+<a id="input_7"></a>
+### e_shell_layers (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+EShellLayers enum value if field has shell layers
+
+<a id="input_8"></a>
+### html_report_path (Pin 8)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Path for html report (for example 'my_disk/my_report.html'). If set, an html report will be generated and exported to the html file. If not set, nothing will be generated.
+
+<a id="input_9"></a>
+### threads_user_requested (Pin 9)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of threads to be used to parallelize apply operations.
+
+<a id="input_10"></a>
+### scale (Pin 10)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is 50
+
+<a id="input_11"></a>
+### edge_tolerance (Pin 11)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is 0.02
+
+<a id="input_12"></a>
+### conservative (Pin 12)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is false
+
+<a id="input_13"></a>
+### ignore_outside_nodes (Pin 13)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is false
+
+<a id="input_100"></a>
+### is_element_centroidal_data_mapping (Pin 100)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is 'false'. Set to 'true' if the source elemental data is representing as element centroidal nodal data
+
+<a id="input_101"></a>
+### projection_options (Pin 101)
+
+- **Required:** No
+- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+Default is empty. This data tree contains 2D projection options for mapping 2D to 3D
+
+<a id="input_102"></a>
+### dynamic_coordinate_system (Pin 102)
+
+- **Required:** No
+- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+Default is empty. This data tree contains the dynamic coordinate system for performing rigid body transformation on the source mesh
+
+<a id="input_103"></a>
+### source_dimension (Pin 103)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is empty string. The string contains either "2D" or "3D" which specifies the source dimension
+
+<a id="input_104"></a>
+### wb_external_data_info (Pin 104)
+
+- **Required:** No
+- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+Default is empty. This data tree contains the Rigid & Analytical transformations specified in the workbench external data system
+
+<a id="input_105"></a>
+### target_dimension (Pin 105)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is empty string. The string contains either "2D" or "3D" which specifies the target dimension
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| source_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Source mesh |
-|  **Pin 1**| source_mesh_id |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Source mesh id |
-|  **Pin 2**| target_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Target mesh |
-|  **Pin 3**| target_mesh_id |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Target mesh id |
-|  **Pin 4**| mapping_manager_data | |  |
-|  **Pin 6**| target_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Target scoping |
-|  **Pin 7**| prepare_output | | A Map containing the outputs of the mapping as a key value pair |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [source_mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **1**| [source_mesh_id](#output_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **2**| [target_mesh](#output_2) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **3**| [target_mesh_id](#output_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **4**| [mapping_manager_data](#output_4) | |
+|  **6**| [target_scoping](#output_6) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **7**| [prepare_output](#output_7) | |
+
+
+<a id="output_0"></a>
+### source_mesh (Pin 0)
+
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Source mesh
+
+<a id="output_1"></a>
+### source_mesh_id (Pin 1)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Source mesh id
+
+<a id="output_2"></a>
+### target_mesh (Pin 2)
+
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Target mesh
+
+<a id="output_3"></a>
+### target_mesh_id (Pin 3)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Target mesh id
+
+<a id="output_4"></a>
+### mapping_manager_data (Pin 4)
+
+- **Expected type(s):** 
+
+
+
+<a id="output_6"></a>
+### target_scoping (Pin 6)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Target scoping
+
+<a id="output_7"></a>
+### prepare_output (Pin 7)
+
+- **Expected type(s):** 
+
+A Map containing the outputs of the mapping as a key value pair
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

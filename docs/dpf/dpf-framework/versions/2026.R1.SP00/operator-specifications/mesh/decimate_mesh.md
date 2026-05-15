@@ -14,23 +14,64 @@ Decimate a meshed region
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh to decimate |
-| <strong>Pin 1</strong>|  preservation_ratio |[`double`](../../core-concepts/dpf-types.md#standard-types) | Target ratio of elements to preserve, the actual number of elements preserved might differ. Default value is 0.5. |
-| <strong>Pin 2</strong>|  aggressiveness |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Quality measure for the resulting decimated mesh. Lower aggresiveness will provide a higher quality mesh with the tradeoff of higher execution time. Value range is 0 to 150, default is 0. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mesh](#input_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong>|  [preservation_ratio](#input_1) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong>|  [aggressiveness](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### mesh (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Mesh to decimate
+
+<a id="input_1"></a>
+### preservation_ratio (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Target ratio of elements to preserve, the actual number of elements preserved might differ. Default value is 0.5.
+
+<a id="input_2"></a>
+### aggressiveness (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Quality measure for the resulting decimated mesh. Lower aggresiveness will provide a higher quality mesh with the tradeoff of higher execution time. Value range is 0 to 150, default is 0.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Decimated mesh with triangle elements |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+
+
+<a id="output_0"></a>
+### mesh (Pin 0)
+
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Decimated mesh with triangle elements
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

@@ -14,24 +14,72 @@ Expand the mesh.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 7</strong>|  sector_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |  |
-| <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |  |
-| <strong>Pin 18</strong>|  sectors_to_expand |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | sectors to expand (start at 0), for multistage: use scopings container with 'stage' label. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>7</strong>|  [sector_meshed_region](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>16</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [cyclic_support](#input_16) |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |
+| <strong>18</strong>|  [sectors_to_expand](#input_18) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+
+
+<a id="input_7"></a>
+### sector_meshed_region (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+
+
+<a id="input_16"></a>
+### cyclic_support (Pin 16)
+
+- **Required:** Yes
+- **Expected type(s):** [`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support)
+
+
+
+<a id="input_18"></a>
+### sectors_to_expand (Pin 18)
+
+- **Required:** No
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | expanded meshed region. |
-|  **Pin 1**| cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) | input cyclic support modified in place containing the new expanded meshed regions. |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [meshed_region](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **1**| [cyclic_support](#output_1) |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |
+
+
+<a id="output_0"></a>
+### meshed_region (Pin 0)
+
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+expanded meshed region.
+
+<a id="output_1"></a>
+### cyclic_support (Pin 1)
+
+- **Expected type(s):** [`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support)
+
+input cyclic support modified in place containing the new expanded meshed regions.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

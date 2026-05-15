@@ -21,28 +21,104 @@ This operator supports the following keys ([file formats](../../index.md#overvie
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams containing the result file. |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | data sources containing the result file. |
-| <strong>Pin 7</strong>|  sector_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | mesh of the first sector. |
-| <strong>Pin 15</strong>|  expanded_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | if this pin is set, expanding the mesh is not necessary. |
-| <strong>Pin 18</strong>|  sectors_to_expand |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | sectors to expand (start at 0), for multistage: use scopings container with 'stage' label. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>3</strong>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>7</strong>|  [sector_meshed_region](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>15</strong>|  [expanded_meshed_region](#input_15) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>18</strong>|  [sectors_to_expand](#input_18) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_3"></a>
+### streams_container (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Streams containing the result file.
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+data sources containing the result file.
+
+<a id="input_7"></a>
+### sector_meshed_region (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+mesh of the first sector.
+
+<a id="input_15"></a>
+### expanded_meshed_region (Pin 15)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+if this pin is set, expanding the mesh is not necessary.
+
+<a id="input_18"></a>
+### sectors_to_expand (Pin 18)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |  |
-|  **Pin 1**| sector_meshes |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [cyclic_support](#output_0) |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |
+|  **1**| [sector_meshes](#output_1) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+
+
+<a id="output_0"></a>
+### cyclic_support (Pin 0)
+
+- **Expected type(s):** [`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support)
+
+
+
+<a id="output_1"></a>
+### sector_meshes (Pin 1)
+
+- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### num_threads
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### run_in_parallel
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
+
 
 ## Scripting
 

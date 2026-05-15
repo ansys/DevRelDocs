@@ -14,24 +14,72 @@ The band pass filter returns all the values above (but not equal to) the minimum
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_support |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  min_threshold |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) | A minimum threshold scalar or a field containing one value is expected. |
-| <strong>Pin 2</strong>|  max_threshold |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) | A maximum threshold scalar or a field containing one value is expected. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [time_freq_support](#input_0) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [min_threshold](#input_1) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong>|  [max_threshold](#input_2) |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="input_0"></a>
+### time_freq_support (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+
+
+<a id="input_1"></a>
+### min_threshold (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field)
+
+A minimum threshold scalar or a field containing one value is expected.
+
+<a id="input_2"></a>
+### max_threshold (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field)
+
+A maximum threshold scalar or a field containing one value is expected.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| time_freq_support |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |  |
-|  **Pin 1**| scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [time_freq_support](#output_0) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+|  **1**| [scoping](#output_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="output_0"></a>
+### time_freq_support (Pin 0)
+
+- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+
+
+<a id="output_1"></a>
+### scoping (Pin 1)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

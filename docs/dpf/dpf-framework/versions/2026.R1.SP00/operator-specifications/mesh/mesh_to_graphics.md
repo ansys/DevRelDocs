@@ -14,25 +14,80 @@ Generate tessellation for input mesh
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-| <strong>Pin 2</strong>|  node_normals |[`bool`](../../core-concepts/dpf-types.md#standard-types) | average element normals for node normals (default no, use element normals for node normals) |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>1</strong>|  [mesh_scoping](#input_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>2</strong>|  [node_normals](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mesh](#input_7) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="input_2"></a>
+### node_normals (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+average element normals for node normals (default no, use element normals for node normals)
+
+<a id="input_7"></a>
+### mesh (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| nodes |[`field`](../../core-concepts/dpf-types.md#field) | node coordinates |
-|  **Pin 1**| normals |[`field`](../../core-concepts/dpf-types.md#field) | node normals |
-|  **Pin 2**| connectivity |[`property_field`](../../core-concepts/dpf-types.md#property-field) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [nodes](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **1**| [normals](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **2**| [connectivity](#output_2) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+
+
+<a id="output_0"></a>
+### nodes (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+node coordinates
+
+<a id="output_1"></a>
+### normals (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+node normals
+
+<a id="output_2"></a>
+### connectivity (Pin 2)
+
+- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

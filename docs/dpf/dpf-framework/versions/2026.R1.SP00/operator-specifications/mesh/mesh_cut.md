@@ -14,25 +14,82 @@ Extracts a skin of the mesh in triangles in a new meshed region.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field) | Field containing the values for the iso-surface computation. The mesh can be retrieved from this field's support or through pin 2. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  iso_value |[`double`](../../core-concepts/dpf-types.md#standard-types) | iso value |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  closed_surface |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 1: closed surface, 0: iso surface. |
-| <strong>Pin 3</strong>|  mesh |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh to compute the iso-surface from. Used when not given through the support of the field in pin 0. |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  slice_surfaces |[`bool`](../../core-concepts/dpf-types.md#standard-types) | True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [field](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [iso_value](#input_1) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [closed_surface](#input_2) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong>|  [mesh](#input_3) |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [slice_surfaces](#input_4) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Field containing the values for the iso-surface computation. The mesh can be retrieved from this field's support or through pin 2.
+
+<a id="input_1"></a>
+### iso_value (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+iso value
+
+<a id="input_2"></a>
+### closed_surface (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+1: closed surface, 0: iso surface.
+
+<a id="input_3"></a>
+### mesh (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Mesh to compute the iso-surface from. Used when not given through the support of the field in pin 0.
+
+<a id="input_4"></a>
+### slice_surfaces (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 2**| mesh |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **2**| [mesh](#output_2) |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+
+
+<a id="output_2"></a>
+### mesh (Pin 2)
+
+- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

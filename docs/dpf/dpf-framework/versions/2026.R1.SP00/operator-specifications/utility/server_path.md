@@ -14,21 +14,46 @@ Returns the platform-specific path to a folder in the Dpf server
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  subpath |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Subpath of the Dpf server. Supported values: 0 (default): root of the server, 1: "dpf/bin/platform", 2: "aisol/bin(dll)/platform", 3: "dpf/plugins", 4: "dpf/workflows". |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong>|  [subpath](#input_0) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### subpath (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Subpath of the Dpf server. Supported values: 0 (default): root of the server, 1: "dpf/bin/platform", 2: "aisol/bin(dll)/platform", 3: "dpf/plugins", 4: "dpf/workflows".
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| path |[`string`](../../core-concepts/dpf-types.md#standard-types) | Path to the requested folder in the Dpf server |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [path](#output_0) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_0"></a>
+### path (Pin 0)
+
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Path to the requested folder in the Dpf server
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 

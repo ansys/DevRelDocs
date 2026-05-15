@@ -14,25 +14,82 @@ Compute the modal participation factor for a given vector field V, defined as  s
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  v_real |[`field`](../../core-concepts/dpf-types.md#field) | real part of field V |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  v_imag |[`field`](../../core-concepts/dpf-types.md#field) | imag part of field V |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mode_shapes |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 3</strong>|  ponderation |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 4</strong>|  force_label_space |[`label_space`](../../core-concepts/dpf-types.md#label-space) | If set, will force a label space for output result. |
+| Pin number | Name | Expected type(s) |
+|-------|-------|------------------|
+| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [v_real](#input_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [v_imag](#input_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [mode_shapes](#input_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong>|  [ponderation](#input_3) |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>4</strong>|  [force_label_space](#input_4) |[`label_space`](../../core-concepts/dpf-types.md#label-space) |
+
+
+<a id="input_0"></a>
+### v_real (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+real part of field V
+
+<a id="input_1"></a>
+### v_imag (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+imag part of field V
+
+<a id="input_2"></a>
+### mode_shapes (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="input_3"></a>
+### ponderation (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_4"></a>
+### force_label_space (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`label_space`](../../core-concepts/dpf-types.md#label-space)
+
+If set, will force a label space for output result.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| output |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [output](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### output (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+### mutex
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
 
