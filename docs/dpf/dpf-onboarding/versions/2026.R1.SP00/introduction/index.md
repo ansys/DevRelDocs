@@ -1,4 +1,4 @@
-# Introduction
+# About this chapter
 
 Welcome to the introduction chapter of the DPF Learning Path. It provides an overview of Ansys' **Data Processing Framework (DPF)**, its architecture, and its core functionalities. By the end of this section, you will have a solid understanding of what DPF is, how it works, and why it is a powerful tool for simulation data processing.
 

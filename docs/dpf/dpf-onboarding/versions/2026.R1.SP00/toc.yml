@@ -1,6 +1,6 @@
 - name: Introduction
   href: index.md
-- name: Introduction to DPF
+- name: DPF overview
   items:
   - name: About this chapter
     href: introduction/index.md
