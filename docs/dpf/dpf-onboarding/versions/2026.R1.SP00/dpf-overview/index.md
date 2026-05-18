@@ -23,3 +23,9 @@ This section sets the foundation for understanding the advanced topics covered i
   <a class="link-btn previous" href="..\index.md">DPF overview</a>
   <a class="link-btn next" href="what-is-dpf.md">What is DPF</a>
 </motion>
+
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="../index.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="what-is-dpf.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

@@ -59,3 +59,9 @@ By the end of this chapter, you will have a fully functional DPF environment rea
   <a class="link-btn previous" href="..\..\dpf-overview\key-takeaways.md">Key takeaways</a>
   <a class="link-btn next" href="how-to-install-dpf.md">Installing DPF</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="../../dpf-overview/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="how-to-install-dpf.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

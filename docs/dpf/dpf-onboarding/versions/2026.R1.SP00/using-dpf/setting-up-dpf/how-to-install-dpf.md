@@ -154,3 +154,9 @@ After completing the installation, proceed to the next section to configure lice
   <a class="link-btn previous" href="index.md">About this chapter</a>
   <a class="link-btn next" href="licensing.md">Configuring licensing</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="index.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="licensing.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

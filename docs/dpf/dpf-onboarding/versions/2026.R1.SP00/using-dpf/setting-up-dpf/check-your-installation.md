@@ -218,3 +218,9 @@ In the next chapter, **DPF data fundamentals**, you'll learn about the core conc
   <a class="link-btn previous" href="licensing.md">Configuring licensing</a>
   <a class="link-btn next" href="key-takeaways.md">Key takeaways</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="licensing.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

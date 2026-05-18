@@ -107,3 +107,8 @@ Before moving to the next chapter:
 <div class="btn-footer">
   <a class="link-btn previous" href="how-to-interact-with-data.md">How to interact with data in DPF</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="how-to-interact-with-data.md" class="nav-btn nav-btn-prev">← Previous page</a>
+</div>

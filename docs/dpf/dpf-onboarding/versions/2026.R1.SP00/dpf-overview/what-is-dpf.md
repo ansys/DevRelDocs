@@ -71,3 +71,9 @@ The "Framework" in DPF refers to how it's structured to be extensible and organi
   <a class="link-btn previous" href="index.md">About this chapter</a>
   <a class="link-btn next" href="how-dpf-works.md">How DPF works</a>
 </motion>
+
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="index.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="how-dpf-works.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

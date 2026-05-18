@@ -1266,3 +1266,9 @@ In the next section, you'll learn where DPF data comes from and how to import it
   <a class="link-btn previous" href="which-data-can-be-represented.md">Which data can be represented</a>
   <a class="link-btn next" href="where-does-the-data-come-from.md">Where does the data come from</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="which-data-can-be-represented.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="where-does-the-data-come-from.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

@@ -43,3 +43,9 @@ Before moving to the next chapter:
   <a class="link-btn previous" href="check-your-installation.md">Verifying your installation</a>
   <a class="link-btn next" href="..\dpf-data-fundamentals\index.md">DPF data fundamentals</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="check-your-installation.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="../dpf-data-fundamentals/index.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

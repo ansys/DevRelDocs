@@ -29,3 +29,9 @@ By the end of this section, you will have a comprehensive understanding of how t
   <a class="link-btn previous" href="..\setting-up-dpf\key-takeaways.md">Key takeaways</a>
   <a class="link-btn next" href="which-data-can-be-represented.md">Which data can be represented</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="../setting-up-dpf/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="which-data-can-be-represented.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

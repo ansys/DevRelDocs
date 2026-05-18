@@ -118,3 +118,9 @@ If you encounter any licensing errors during verification, troubleshooting steps
   <a class="link-btn previous" href="how-to-install-dpf.md">Installing DPF</a>
   <a class="link-btn next" href="check-your-installation.md">Verifying your installation</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="how-to-install-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="check-your-installation.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

@@ -71,3 +71,9 @@ Before moving to the next chapter:
   <a class="link-btn previous" href="how-dpf-works.md">How DPF works</a>
   <a class="link-btn next" href="..\using-dpf\setting-up-dpf\index.md">Setting up DPF</a>
 </motion>
+
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="how-dpf-works.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="../using-dpf/setting-up-dpf/index.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

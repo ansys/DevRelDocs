@@ -691,3 +691,9 @@ Now that you understand operators and workflows, explore these advanced topics:
   <a class="link-btn previous" href="where-does-the-data-come-from.md">Where does the data come from</a>
   <a class="link-btn next" href="key-takeaways.md">Key takeaways</a>
 </motion>
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="where-does-the-data-come-from.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>
