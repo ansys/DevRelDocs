@@ -212,7 +212,7 @@ except Exception as e:
 
 Once you've successfully verified your installation, you're ready to start using DPF!
 
-In the next chapter, you'll learn about the core concepts and data structures in DPF.
+In the next chapter, **DPF data fundamentals**, you'll learn about the core concepts and data structures in DPF.
 
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">

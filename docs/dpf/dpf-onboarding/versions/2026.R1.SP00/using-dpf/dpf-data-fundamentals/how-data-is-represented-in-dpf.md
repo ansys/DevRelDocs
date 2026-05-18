@@ -1012,7 +1012,7 @@ Total elements across all materials: 18
 
 ## Advanced and Optional
 This exercise combines two concepts from this chapter: **MeshedRegion** (from the Supports section)
-and **ElementalNodal fields** (from the Fields section). It is intended for learners who want to go
+and **ElementalNodal fields** (from the Fields section). It is intended for you if you want to go
 deeper. You can safely skip it and come back later.
 
 DPF needs a mesh to know how many nodes belong to each element, which is essential for correctly storing

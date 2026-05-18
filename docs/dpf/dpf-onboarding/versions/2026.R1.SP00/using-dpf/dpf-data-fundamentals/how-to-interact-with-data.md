@@ -50,7 +50,7 @@ DPF provides hundreds of operators. You can explore them in the [Operators Refer
 2. **Browse by category**: Look through categories like "math", "result", "averaging"
 3. **Read operator descriptions**: Each operator page explains inputs, outputs, and usage
 
-![Operators documentation](../../images/operatos-doc.png)
+![Operators documentation](../../images/operators-doc.png)
 
 ### Using an operator
 
