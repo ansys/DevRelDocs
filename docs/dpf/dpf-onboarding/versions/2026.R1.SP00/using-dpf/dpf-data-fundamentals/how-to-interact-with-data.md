@@ -687,11 +687,14 @@ Now that you understand operators and workflows, explore these advanced topics:
 - **Complex workflows**: See the [Operators Examples](https://dpf.docs.pyansys.com/version/stable/examples/00-basic/index.html) for advanced workflow patterns
 - **Custom operators**: Learn how to create your own operators for specialized tasks in the [Custom Operators guide](https://dpf.docs.pyansys.com/version/stable/user_guide/custom_operators.html)
 
+<<<<<<< HEAD
 <div class="btn-footer">
   <a class="link-btn previous" href="where-does-the-data-come-from.md">Where does the data come from</a>
   <a class="link-btn next" href="key-takeaways.md">Key takeaways</a>
 </motion>
 
+=======
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="where-does-the-data-come-from.md" class="nav-btn nav-btn-prev">← Previous page</a>

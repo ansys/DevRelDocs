@@ -326,11 +326,14 @@ Number of time steps: 35
 
 In the next section, you'll learn how to interact with that data using operators and workflows.
 
+<<<<<<< HEAD
 <div class="btn-footer">
   <a class="link-btn previous" href="how-data-is-represented-in-dpf.md">How is data represented in DPF</a>
   <a class="link-btn next" href="how-to-interact-with-data.md">How to interact with data in DPF</a>
 </motion>
 
+=======
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="how-data-is-represented-in-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>

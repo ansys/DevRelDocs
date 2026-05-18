@@ -1262,11 +1262,14 @@ Now that you understand how to work with Fields and Collections, explore these a
 
 In the next section, you'll learn where DPF data comes from and how to import it using DataSources, StreamsContainers, and the Model object.
 
+<<<<<<< HEAD
 <div class="btn-footer">
   <a class="link-btn previous" href="which-data-can-be-represented.md">Which data can be represented</a>
   <a class="link-btn next" href="where-does-the-data-come-from.md">Where does the data come from</a>
 </motion>
 
+=======
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="which-data-can-be-represented.md" class="nav-btn nav-btn-prev">← Previous page</a>

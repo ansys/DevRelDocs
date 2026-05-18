@@ -150,11 +150,14 @@ This registers the standalone DPF server so that PyDPF-Core can detect and start
 
 After completing the installation, proceed to the next section to configure licensing.
 
+<<<<<<< HEAD
 <div class="btn-footer">
   <a class="link-btn previous" href="index.md">About this chapter</a>
   <a class="link-btn next" href="licensing.md">Configuring licensing</a>
 </motion>
 
+=======
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="index.md" class="nav-btn nav-btn-prev">← Previous page</a>

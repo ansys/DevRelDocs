@@ -25,6 +25,7 @@ This chapter provides detailed explanations, examples, and exercises to help you
 
 By the end of this section, you will have a comprehensive understanding of how to use DPF to represent, manipulate, and interact with simulation data. Let's get started!
 
+<<<<<<< HEAD
 <div class="btn-footer">
   <a class="link-btn previous" href="..\setting-up-dpf\key-takeaways.md">Key takeaways</a>
   <a class="link-btn next" href="which-data-can-be-represented.md">Which data can be represented</a>
@@ -35,3 +36,11 @@ By the end of this section, you will have a comprehensive understanding of how t
 <a href="../setting-up-dpf/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous page</a>
 <a href="which-data-can-be-represented.md" class="nav-btn nav-btn-next">Next page →</a>
 </div>
+=======
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="../setting-up-dpf/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous chapter</a>
+<a href="which-data-can-be-represented.md" class="nav-btn nav-btn-next">Start chapter →</a>
+</div>
+
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1

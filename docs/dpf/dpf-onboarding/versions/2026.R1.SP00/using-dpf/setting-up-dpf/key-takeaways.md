@@ -37,7 +37,13 @@ Before moving to the next chapter:
     [📋 Start survey →](https://forms.cloud.microsoft/r/fhef49Zdm5)
 
     Your responses directly improve this content for future learners!
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="check-your-installation.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="../dpf-data-fundamentals/index.md" class="nav-btn nav-btn-next">Next chapter →</a>
+</div>
 
+<<<<<<< HEAD
 
 <div class="btn-footer">
   <a class="link-btn previous" href="check-your-installation.md">Verifying your installation</a>
@@ -49,3 +55,5 @@ Before moving to the next chapter:
 <a href="check-your-installation.md" class="nav-btn nav-btn-prev">← Previous page</a>
 <a href="../dpf-data-fundamentals/index.md" class="nav-btn nav-btn-next">Next page →</a>
 </div>
+=======
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1

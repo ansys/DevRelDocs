@@ -142,11 +142,14 @@ Understanding what types of data can be represented helps you:
 
 In the next section, you'll learn how DPF represents this data internally using fields, scopings, supports, and collections.
 
+<<<<<<< HEAD
 <div class="btn-footer">
   <a class="link-btn previous" href="index.md">About this chapter</a>
   <a class="link-btn next" href="how-data-is-represented-in-dpf.md">How is data represented in DPF</a>
 </motion>
 
+=======
+>>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="index.md" class="nav-btn nav-btn-prev">← Previous page</a>
