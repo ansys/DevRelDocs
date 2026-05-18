@@ -104,14 +104,6 @@ Before moving to the next chapter:
 
     Your responses directly improve this content for future learners!
 
-<<<<<<< HEAD
-
-<div class="btn-footer">
-  <a class="link-btn previous" href="how-to-interact-with-data.md">How to interact with data in DPF</a>
-</motion>
-
-=======
->>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="how-to-interact-with-data.md" class="nav-btn nav-btn-prev">← Previous page</a>

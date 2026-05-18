@@ -55,20 +55,8 @@ This chapter provides step-by-step guidance on:
 
 By the end of this chapter, you will have a fully functional DPF environment ready for the exercises in the next chapter. Let's get started!
 
-<<<<<<< HEAD
-<div class="btn-footer">
-  <a class="link-btn previous" href="..\..\dpf-overview\key-takeaways.md">Key takeaways</a>
-  <a class="link-btn next" href="how-to-install-dpf.md">Installing DPF</a>
-</motion>
-
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
-<div class="nav-footer">
-<a href="../../dpf-overview/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="how-to-install-dpf.md" class="nav-btn nav-btn-next">Next page →</a>
-=======
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="../../dpf-overview/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous chapter</a>
 <a href="how-to-install-dpf.md" class="nav-btn nav-btn-next">Start chapter →</a>
->>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 </div>

@@ -214,14 +214,6 @@ Once you've successfully verified your installation, you're ready to start using
 
 In the next chapter, **DPF data fundamentals**, you'll learn about the core concepts and data structures in DPF.
 
-<<<<<<< HEAD
-<div class="btn-footer">
-  <a class="link-btn previous" href="licensing.md">Configuring licensing</a>
-  <a class="link-btn next" href="key-takeaways.md">Key takeaways</a>
-</motion>
-
-=======
->>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="licensing.md" class="nav-btn nav-btn-prev">← Previous page</a>

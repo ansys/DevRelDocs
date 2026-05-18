@@ -19,20 +19,8 @@ Welcome to the first chapter of DPF onboarding. It provides an overview of Ansys
 
 This section sets the foundation for understanding the advanced topics covered in the subsequent chapters of DPF onboarding. Let's get started!
 
-<<<<<<< HEAD
-<div class="btn-footer">
-  <a class="link-btn previous" href="..\index.md">DPF overview</a>
-  <a class="link-btn next" href="what-is-dpf.md">What is DPF</a>
-</motion>
-
-<link rel="stylesheet" href="../styles/nav-buttons.css">
-<div class="nav-footer">
-<a href="../index.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="what-is-dpf.md" class="nav-btn nav-btn-next">Next page →</a>
-=======
 <link rel="stylesheet" href="../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="../index.md" class="nav-btn nav-btn-prev">← Introduction</a>
 <a href="what-is-dpf.md" class="nav-btn nav-btn-next">Start chapter →</a>
->>>>>>> 11fb58bd393f35bd3ae4087af0e7062aba6547e1
 </div>
