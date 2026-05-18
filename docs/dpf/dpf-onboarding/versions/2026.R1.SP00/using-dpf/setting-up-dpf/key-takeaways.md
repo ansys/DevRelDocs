@@ -23,5 +23,11 @@ At this point, you have successfully installed the DPF server and Python client,
 
 In the next chapter, **Using DPF**, we will explore the practical aspects of interacting with data in DPF. This includes understanding how data is represented, imported, and manipulated within the framework. Let's continue the journey!
 
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="check-your-installation.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="../working-with-data/index.md" class="nav-btn nav-btn-next">Next chapter →</a>
+</div>
+
 
 

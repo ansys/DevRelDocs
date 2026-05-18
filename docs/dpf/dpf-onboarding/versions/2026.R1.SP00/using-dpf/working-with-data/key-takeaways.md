@@ -87,4 +87,9 @@ You can now:
 - ✅ Create reusable Workflow objects with named inputs/outputs
 - ✅ Visualize workflow structure using Graphviz export
 
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="how-to-interact-with-data.md" class="nav-btn nav-btn-prev">← Previous page</a>
+</div>
+
 

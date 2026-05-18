@@ -30,8 +30,9 @@ After understanding the tool and having a working environment, the learner is re
 
 This chapter introduces the core features along with the essential concepts and vocabulary.
 
-<div btn-footer markdown>
-[Get started](./introduction/index.md){.link-btn .next}
+<link rel="stylesheet" href="styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="introduction/index.md" class="nav-btn nav-btn-next">Get started →</a>
 </div>
 
 ## How to contribute

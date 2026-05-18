@@ -686,3 +686,9 @@ Now that you understand operators and workflows, explore these advanced topics:
 - **Operator reference**: Browse the complete [Operators Reference](https://dpf.docs.pyansys.com/version/stable/operator_reference.html) to discover more capabilities
 - **Complex workflows**: See the [Operators Examples](https://dpf.docs.pyansys.com/version/stable/examples/00-basic/index.html) for advanced workflow patterns
 - **Custom operators**: Learn how to create your own operators for specialized tasks in the [Custom Operators guide](https://dpf.docs.pyansys.com/version/stable/user_guide/custom_operators.html)
+
+<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="where-does-the-data-come-from.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

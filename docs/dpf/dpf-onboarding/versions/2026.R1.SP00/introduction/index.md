@@ -18,3 +18,9 @@ Welcome to the introduction chapter of the DPF Learning Path. It provides an ove
 - Learn about the availability of DPF libraries and supported languages.
 
 This section sets the foundation for understanding the advanced topics covered in the subsequent chapters of the learning path. Let's get started!
+
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="../index.md" class="nav-btn nav-btn-prev">← Introduction</a>
+<a href="what-is-dpf.md" class="nav-btn nav-btn-next">Start chapter →</a>
+</div>

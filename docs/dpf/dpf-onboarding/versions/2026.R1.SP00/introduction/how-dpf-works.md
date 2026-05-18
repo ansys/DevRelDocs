@@ -102,3 +102,9 @@ Ansys Mechanical provides built-in access to DPF through its scripting environme
 - Use [Python Result objects](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/wb_sim/ds_python_result.html) to evaluate and visualize output quantities by executing MechDPF scripts
 
 The [MechDPF API](https://ansyshelp.ansys.com/public/account/secured?returnurl=//Views/Secured/corp/v261/en/act_script/mech_apis_data_process_frame.html) is based on the DPF C# API, but presents a Python syntax through IronPython, making it accessible to Python users without learning C#.
+
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="what-is-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>

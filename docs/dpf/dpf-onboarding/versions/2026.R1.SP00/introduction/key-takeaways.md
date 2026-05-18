@@ -52,4 +52,10 @@ At this point, you have a solid understanding of what DPF is, how it works, and 
 
 In the next chapter, **Setup DPF**, we will guide you through the process of installing and configuring the DPF server and client. Let's move forward and get started with the setup!
 
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="how-dpf-works.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="../using-dpf/setting-up-dpf/index.md" class="nav-btn nav-btn-next">Next chapter →</a>
+</div>
+
 
