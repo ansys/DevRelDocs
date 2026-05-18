@@ -1,4 +1,4 @@
-# Setting up DPF
+# About this chapter
 
 This chapter guides you through setting up DPF to ensure you can start working with the framework quickly and smoothly.
 
