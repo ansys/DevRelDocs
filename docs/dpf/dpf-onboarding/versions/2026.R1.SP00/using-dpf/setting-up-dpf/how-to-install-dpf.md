@@ -1,17 +1,17 @@
 # Installing DPF
 
-As explained in the Introduction chapter, DPF uses a **client-server architecture**. You need:
+As explained in the **DPF overview** chapter, DPF uses a **client-server architecture**. You need:
 
 - **DPF Server**: The processing engine that contains operators and manages data
 - **DPF Client**: The programming interface (Python, C++, C#, or Mechanical Scripting) to interact with the server
 
-For this learning path, we'll use **PyDPF-Core** (the Python client) for examples and exercises.
+For DPF onboarding, we'll use **PyDPF-Core** (the Python client) for examples and exercises.
 
 This page guides you through the three installation steps in order:
 
-1. [Install Python](#step1-install-python)
-2. [Install PyDPF-Core](#step2-install-pydpf-core)
-3. [Set up the DPF server](#step3-set-up-the-dpf-server)
+1. [Install Python](#install-python)
+2. [Install PyDPF-Core](#install-pydpf-core)
+3. [Set up the DPF server](#set-up-the-dpf-server)
 
 ## Before you begin: license requirements
 
@@ -149,3 +149,8 @@ This registers the standalone DPF server so that PyDPF-Core can detect and start
 ---
 
 After completing the installation, proceed to the next section to configure licensing.
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="index.md">About this chapter</a>
+  <a class="link-btn next" href="licensing.md">Configuring licensing</a>
+</motion>

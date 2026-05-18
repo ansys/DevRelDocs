@@ -50,7 +50,7 @@ DPF provides hundreds of operators. You can explore them in the [Operators Refer
 2. **Browse by category**: Look through categories like "math", "result", "averaging"
 3. **Read operator descriptions**: Each operator page explains inputs, outputs, and usage
 
-![Operators documentation](../../images/operatos-doc.png)
+![Operators documentation](../../images/operators-doc.png)
 
 ### Using an operator
 
@@ -686,3 +686,8 @@ Now that you understand operators and workflows, explore these advanced topics:
 - **Operator reference**: Browse the complete [Operators Reference](https://dpf.docs.pyansys.com/version/stable/operator_reference.html) to discover more capabilities
 - **Complex workflows**: See the [Operators Examples](https://dpf.docs.pyansys.com/version/stable/examples/00-basic/index.html) for advanced workflow patterns
 - **Custom operators**: Learn how to create your own operators for specialized tasks in the [Custom Operators guide](https://dpf.docs.pyansys.com/version/stable/user_guide/custom_operators.html)
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="where-does-the-data-come-from.md">Where does the data come from</a>
+  <a class="link-btn next" href="key-takeaways.md">Key takeaways</a>
+</motion>

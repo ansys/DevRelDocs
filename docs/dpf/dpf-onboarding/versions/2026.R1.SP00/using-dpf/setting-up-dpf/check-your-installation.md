@@ -212,4 +212,9 @@ except Exception as e:
 
 Once you've successfully verified your installation, you're ready to start using DPF!
 
-In the next chapter, you'll learn about the core concepts and data structures in DPF.
+In the next chapter, **DPF data fundamentals**, you'll learn about the core concepts and data structures in DPF.
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="licensing.md">Configuring licensing</a>
+  <a class="link-btn next" href="key-takeaways.md">Key takeaways</a>
+</motion>

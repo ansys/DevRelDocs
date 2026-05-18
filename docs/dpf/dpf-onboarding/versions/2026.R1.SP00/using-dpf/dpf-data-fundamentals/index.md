@@ -1,6 +1,6 @@
 # About this chapter
 
-This chapter of the learning path follows the main logic of DPF. It involves understanding which data can be represented, identifying the sources of data, learning how data is structured within the framework, and finally, interacting with the data using the available tools. This section will guide you through these steps in detail.
+This chapter of DPF onboarding follows the main logic of DPF. It involves understanding which data can be represented, identifying the sources of data, learning how data is structured within the framework, and finally, interacting with the data using the available tools. This section will guide you through these steps in detail.
 
 ## Expected Time
 **45-60 minutes** - This chapter includes conceptual learning and practical examples to help you understand DPF's data model and interaction patterns.
@@ -25,3 +25,7 @@ This chapter provides detailed explanations, examples, and exercises to help you
 
 By the end of this section, you will have a comprehensive understanding of how to use DPF to represent, manipulate, and interact with simulation data. Let's get started!
 
+<div class="btn-footer">
+  <a class="link-btn previous" href="..\setting-up-dpf\key-takeaways.md">Key takeaways</a>
+  <a class="link-btn next" href="which-data-can-be-represented.md">Which data can be represented</a>
+</motion>

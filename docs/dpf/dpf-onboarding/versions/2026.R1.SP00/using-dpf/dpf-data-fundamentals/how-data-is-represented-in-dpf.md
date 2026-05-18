@@ -1012,7 +1012,7 @@ Total elements across all materials: 18
 
 ## Advanced and Optional
 This exercise combines two concepts from this chapter: **MeshedRegion** (from the Supports section)
-and **ElementalNodal fields** (from the Fields section). It is intended for learners who want to go
+and **ElementalNodal fields** (from the Fields section). It is intended for you if you want to go
 deeper. You can safely skip it and come back later.
 
 DPF needs a mesh to know how many nodes belong to each element, which is essential for correctly storing
@@ -1261,3 +1261,8 @@ Now that you understand how to work with Fields and Collections, explore these a
 - **Working with meshes**: Explore mesh manipulation in the [Mesh tutorial](https://dpf.docs.pyansys.com/version/stable/tutorials/data_structures/mesh.html)
 
 In the next section, you'll learn where DPF data comes from and how to import it using DataSources, StreamsContainers, and the Model object.
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="which-data-can-be-represented.md">Which data can be represented</a>
+  <a class="link-btn next" href="where-does-the-data-come-from.md">Where does the data come from</a>
+</motion>

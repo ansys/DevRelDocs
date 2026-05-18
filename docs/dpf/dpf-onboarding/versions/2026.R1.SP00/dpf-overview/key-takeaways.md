@@ -50,6 +50,24 @@
 
 At this point, you have a solid understanding of what DPF is, how it works, and why it is a valuable tool for simulation data processing. You are now equipped with the foundational knowledge required to proceed to the next chapter.
 
-In the next chapter, **Setup DPF**, we will guide you through the process of installing and configuring the DPF server and client. Let's move forward and get started with the setup!
+In the next chapter, **Setting up DPF**, you install and configure the DPF server and client. Let's get started with the setup!
 
+## 📝 Checkpoint: Verify your understanding
 
+Before moving to the next chapter:
+
+!!! survey "Complete the DPF Overview survey"
+
+    **Take 5-7 minutes to:**
+    - ✅ Verify you understood the key concepts
+    - 💡 Share what worked well
+    - 🔧 Tell us what could be improved
+
+    [📋 Start survey →](https://forms.office.com/r/wa3hfuDP5F)
+
+    Your responses directly improve this content for future learners!
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="how-dpf-works.md">How DPF works</a>
+  <a class="link-btn next" href="..\using-dpf\setting-up-dpf\index.md">Setting up DPF</a>
+</motion>

@@ -113,3 +113,8 @@ or the [PyDPF-Core licensing documentation](https://dpf.docs.pyansys.com/version
 
 Once licensing is configured, proceed to the next section to verify your complete DPF installation.
 If you encounter any licensing errors during verification, troubleshooting steps are provided in the next section.
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="how-to-install-dpf.md">Installing DPF</a>
+  <a class="link-btn next" href="check-your-installation.md">Verifying your installation</a>
+</motion>

@@ -1,6 +1,6 @@
 # Key takeaways
 
-Congratulations! You've completed the "Working with Data" chapter. Here's a summary of the essential concepts you've learned.
+Congratulations! You've completed the "DPF data fundamentals" chapter. Here's a summary of the essential concepts you've learned.
 
 ## Which data can be represented
 - DPF represents simulation data as **fields** with different elementary data structures:
@@ -88,3 +88,22 @@ You can now:
 - ✅ Visualize workflow structure using Graphviz export
 
 
+## 📝 Checkpoint: Verify your understanding
+
+Before moving to the next chapter:
+
+!!! survey "Complete the DPF data fundamentals survey"
+
+    **Take 5-7 minutes to:**
+    - ✅ Verify you understood the key concepts
+    - 💡 Share what worked well
+    - 🔧 Tell us what could be improved
+
+    [📋 Start survey →](https://forms.office.com/r/bSHdhE9mPZ)
+
+    Your responses directly improve this content for future learners!
+
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="how-to-interact-with-data.md">How to interact with data in DPF</a>
+</motion>

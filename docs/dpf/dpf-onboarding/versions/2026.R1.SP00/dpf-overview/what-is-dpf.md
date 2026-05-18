@@ -66,3 +66,8 @@ The "Framework" in DPF refers to how it's structured to be extensible and organi
 - **Scalability**: Efficiently handle large datasets and complex simulations with optimized data processing and memory management.
 
 - **Integration flexibility**: As a standalone toolbox, DPF can be integrated into other software environments and automated workflows.
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="index.md">About this chapter</a>
+  <a class="link-btn next" href="how-dpf-works.md">How DPF works</a>
+</motion>

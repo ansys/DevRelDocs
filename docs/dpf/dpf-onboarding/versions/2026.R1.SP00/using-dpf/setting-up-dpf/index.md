@@ -18,7 +18,7 @@ Before starting, ensure you have:
 
 ## Setup overview
 
-As explained in the Introduction chapter, DPF uses a **client-server architecture**. You'll need both components:
+As explained in the **DPF overview** chapter, DPF uses a **client-server architecture**. You'll need both components:
 
 - **DPF Server**: The processing engine (comes with Ansys Workbench or as standalone package)
 - **DPF Client**: The programming interface (we'll use PyDPF-Core for Python)
@@ -30,7 +30,7 @@ To use DPF effectively, you'll need to:
 3. **Verify** your installation is working correctly
 
 > **Note:**
-> This learning path focuses on setting up PyDPF-Core (Python client) since all exercises and examples use Python.
+> DPF onboarding focuses on setting up PyDPF-Core (Python client) since all exercises and examples use Python.
 > If you need to use C++ or C# clients, refer to each associated [DPF documentation](https://developer.ansys.com/docs/dpf)
 > for specific setup instructions.
 
@@ -54,3 +54,8 @@ This chapter provides step-by-step guidance on:
 - Troubleshoot common installation and licensing errors
 
 By the end of this chapter, you will have a fully functional DPF environment ready for the exercises in the next chapter. Let's get started!
+
+<div class="btn-footer">
+  <a class="link-btn previous" href="..\..\dpf-overview\key-takeaways.md">Key takeaways</a>
+  <a class="link-btn next" href="how-to-install-dpf.md">Installing DPF</a>
+</motion>
