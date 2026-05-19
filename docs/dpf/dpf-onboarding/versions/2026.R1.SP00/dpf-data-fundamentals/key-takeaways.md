@@ -104,7 +104,7 @@ Before moving to the next chapter:
 
 Your responses directly improve this content for future learners!
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="how-to-interact-with-data.md" class="nav-btn nav-btn-prev">← Previous page</a>
 </div>

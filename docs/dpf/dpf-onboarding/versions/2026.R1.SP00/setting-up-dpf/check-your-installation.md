@@ -214,7 +214,7 @@ Once you've successfully verified your installation, you're ready to start using
 
 In the next chapter, **DPF data fundamentals**, you'll learn about the core concepts and data structures in DPF.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="licensing.md" class="nav-btn nav-btn-prev">← Previous page</a>
 <a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
