@@ -57,16 +57,16 @@ In the next chapter, **Setting up DPF**, you install and configure the DPF serve
 
 Before moving to the next chapter:
 
-!!! survey "Complete the DPF Overview survey"
+> Complete the DPF Overview survey
 
-    **Take 5-7 minutes to:**
-    - ✅ Verify you understood the key concepts
-    - 💡 Share what worked well
-    - 🔧 Tell us what could be improved
+**Take 5-7 minutes to:**
+- ✅ Verify you understood the key concepts
+- 💡 Share what worked well
+- 🔧 Tell us what could be improved
 
-    [📋 Start survey →](https://forms.office.com/r/wa3hfuDP5F)
+[📋 Start survey →](https://forms.office.com/r/wa3hfuDP5F)
 
-    Your responses directly improve this content for future learners!
+Your responses directly improve this content for future learners!
 
 <link rel="stylesheet" href="../styles/nav-buttons.css">
 <div class="nav-footer">

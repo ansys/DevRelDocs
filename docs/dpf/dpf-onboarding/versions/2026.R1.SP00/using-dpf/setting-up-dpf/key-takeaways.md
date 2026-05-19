@@ -27,16 +27,17 @@ In the next chapter, **DPF data fundamentals**, you explore how data is represen
 
 Before moving to the next chapter:
 
-!!! survey "Complete the Setting-up DPF survey"
+> Complete the Setting-up DPF survey
 
-    **Take 5-7 minutes to:**
-    - ✅ Verify you understood the key concepts
-    - 💡 Share what worked well
-    - 🔧 Tell us what could be improved
+**Take 5-7 minutes to:**
+- ✅ Verify you understood the key concepts
+- 💡 Share what worked well
+- 🔧 Tell us what could be improved
 
-    [📋 Start survey →](https://forms.cloud.microsoft/r/fhef49Zdm5)
+[📋 Start survey →](https://forms.cloud.microsoft/r/fhef49Zdm5)
 
-    Your responses directly improve this content for future learners!
+Your responses directly improve this content for future learners!
+
 <link rel="stylesheet" href="../../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="check-your-installation.md" class="nav-btn nav-btn-prev">← Previous page</a>

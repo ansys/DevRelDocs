@@ -28,8 +28,8 @@ Once you know what DPF is, install the server and client, configure licensing, a
 With a working environment, you explore how data is modeled in DPF, how it is loaded, and how you process it with operators and workflows. 
 This chapter introduces the core features along with the essential concepts and vocabulary.
 
-<link rel="stylesheet" href="styles/nav-buttons.css">
-<div class="nav-footer">
-<a href="dpf-overview/index.md" class="nav-btn nav-btn-next">Get started →</a>
-</div>
 
+<link rel="stylesheet" href="../styles/nav-buttons.css">
+<div class="nav-footer">
+<a href="dpf-overview/index.md" class="nav-btn nav-btn-next">Next page →</a>
+</div>
