@@ -42,7 +42,7 @@
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::index_type = size_t
+using ansys::dpf::DpfVector< T >::iterator::index_type =  size_t
 ```
 
 
@@ -67,7 +67,7 @@ using ansys::dpf::DpfVector< T >::iterator::index_type = size_t
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::difference_type = std::ptrdiff_t
+using ansys::dpf::DpfVector< T >::iterator::difference_type =  std::ptrdiff_t
 ```
 
 
@@ -92,7 +92,7 @@ using ansys::dpf::DpfVector< T >::iterator::difference_type = std::ptrdiff_t
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::pointer = T*
+using ansys::dpf::DpfVector< T >::iterator::pointer =  T*
 ```
 
 
@@ -117,7 +117,7 @@ using ansys::dpf::DpfVector< T >::iterator::pointer = T*
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::reference = T&
+using ansys::dpf::DpfVector< T >::iterator::reference =  T&
 ```
 
 
@@ -142,7 +142,7 @@ using ansys::dpf::DpfVector< T >::iterator::reference = T&
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::value_type = T
+using ansys::dpf::DpfVector< T >::iterator::value_type =  T
 ```
 
 
@@ -167,7 +167,7 @@ using ansys::dpf::DpfVector< T >::iterator::value_type = T
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::iterator_category = std::bidirectional_iterator_tag
+using ansys::dpf::DpfVector< T >::iterator::iterator_category =  std::bidirectional_iterator_tag
 ```
 
 
@@ -206,7 +206,7 @@ using ansys::dpf::DpfVector< T >::iterator::iterator_category = std::bidirection
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class DpfVector"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::DpfVector"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"DpfVector"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1DpfVector"},"children":[{"type":"text","text":"DpfVector"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="structansys-dpf-dpfvector-iterator-1a81d10d7799462c7ca5e7cf19119ca356"></a>

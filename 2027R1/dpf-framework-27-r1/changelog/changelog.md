@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-18).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-19).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -16,7 +16,7 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [4 items](#Features_compression) |[2 items](#Fixes_compression) |
+| compression | [3 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
@@ -26,9 +26,9 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [3 items](#Features_femutils) |[16 items](#Fixes_femutils) |
+| femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[9 items](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [1 item](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -46,11 +46,11 @@ The following table shows which components have updates in each category.
 | math | [12 items](#Features_math) |[1 item](#Fixes_math) |
 | mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[4 items](#Fixes_mesh) |
-| misc | [15 items](#Features_misc) |[22 items](#Fixes_misc) |
+| misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [8 items](#Features_native) |[24 items](#Fixes_native) |
+| native | [8 items](#Features_native) |[23 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -58,7 +58,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk | [3 items](#Features_vtk) |[2 items](#Fixes_vtk) |
+| vtk | [2 items](#Features_vtk) |[2 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
@@ -211,11 +211,6 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
-
-- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Compression:
-  > 
-  >
-  > 
 
 - Quantization operator enhancements:
   > - Added parallelization in _quantization_fc_
@@ -467,15 +462,6 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
-- Improve performance of Cyclic expansion of meshes and results:
-  > 
-  >
-  > Fix performance bottlenecks for large model in cyclic operators `cyclic_expansion_meshes` and `cyclic_expansion_field`.
-  >
-  > 
-  >
-  > 
-
 - Fix issue in force_summation with total forces and no damping:
   > 
   >
@@ -610,9 +596,6 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
-
-- Refactor handling of named selections in CMeshedRegion:
-  > 
 
 - Add missing throw on errors in eventlogger:
   > 
@@ -2018,11 +2001,6 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_misc"></a> Fixes
 
-- Ansys.dpf conanfile DPFEmpty.xml wrong source dir:
-  > 
-  >
-  > 
-
 - Restored a number of error messages:
   > 
   >
@@ -2334,15 +2312,6 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
-- Fix labels issue in adapt_with_scopings_container:
-  > 
-  >
-  > Fix issue in `adapt_with_scopings_container` when input FieldsContainer and ScopingsContainer don't share labels.
-  >
-  > 
-  >
-  > 
-
 - Fix int connection to time_scoping pin for cyclic models:
   > 
   >
@@ -2630,11 +2599,6 @@ The following table shows which components have updates in each category.
   > 
 ## vtk
 ### <a id="Features_vtk"></a> Features
-
-- Add pins for extra connectivity & input scoping in op:mesh_to_pyvista:
-  >  Introduce capability to accept input mesh scoping that allows construction of vtk meshes for a specified subset of the original mesh. Add 'as_modified_connectivity' boolean input pin that returns VTK version>9 compatible connectivity representation consisting of an array of concatenated node indices for cells without node count headers and an offset array to it.
-  >
-  > 
 
 - Perf improvement of mesh_to_pyvista (part 2):
   > 

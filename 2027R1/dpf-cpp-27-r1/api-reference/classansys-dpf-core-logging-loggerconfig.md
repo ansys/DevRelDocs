@@ -130,7 +130,7 @@ Sets the log level for the [Logger](classansys-dpf-core-logging-logger.md#classa
 
 * eLogLevel **log_level**
 
-**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig-1a4b15b9ab50086d77382b8a6f4e26e04a) &
+**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig) &
 
 <!--
 **TODO**:
@@ -166,7 +166,7 @@ Sets a single sink for the [Logger](classansys-dpf-core-logging-logger.md#classa
 
 * eLoggerSink **sink**
 
-**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig-1a4b15b9ab50086d77382b8a6f4e26e04a) &
+**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig) &
 
 <!--
 **TODO**:
@@ -202,7 +202,7 @@ Sets a list of sinks for the [Logger](classansys-dpf-core-logging-logger.md#clas
 
 * std::set< eLoggerSink > const & **sinks**
 
-**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig-1a4b15b9ab50086d77382b8a6f4e26e04a) &
+**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig) &
 
 <!--
 **TODO**:
@@ -232,7 +232,7 @@ Returns the default config for logging.
 
 
 
-**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig-1a4b15b9ab50086d77382b8a6f4e26e04a)
+**Return type**: [LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig)
 
 <!--
 **TODO**:

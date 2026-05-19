@@ -186,7 +186,7 @@ ansys::dpf::Scoping::Scoping(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) on a server.
+Retrieve an existing instance of [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) on a server. <br/>
 
 
 
@@ -247,7 +247,7 @@ ansys::dpf::Scoping::Scoping(Scoping const &)
 
 **Parameters**:
 
-* Scoping const &
+* [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) const &
 
 **Return type**: 
 
@@ -276,7 +276,7 @@ ansys::dpf::Scoping::Scoping(Scoping &&) noexcept
 
 **Parameters**:
 
-* Scoping &&
+* [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) &&
 
 **Return type**: 
 
@@ -305,9 +305,9 @@ Scoping & ansys::dpf::Scoping::operator=(Scoping const &)
 
 **Parameters**:
 
-* Scoping const &
+* [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) const &
 
-**Return type**: Scoping &
+**Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) &
 
 <!--
 **TODO**:
@@ -334,9 +334,9 @@ Scoping & ansys::dpf::Scoping::operator=(Scoping &&) noexcept
 
 **Parameters**:
 
-* Scoping &&
+* [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) &&
 
-**Return type**: Scoping &
+**Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) &
 
 <!--
 **TODO**:
@@ -480,7 +480,7 @@ Compare scoping with input scoping f.
 
 **Parameters**:
 
-* Scoping const & **f**: [in] [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) with which to compare.
+* [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) const & **f**: [in] [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) with which to compare.
 
 **Return type**: bool
 
@@ -671,7 +671,7 @@ DpfVector< int > ansys::dpf::Scoping::ids() const
 
 
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -872,7 +872,7 @@ Create a new [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping) on a se
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 * const bool **b_copy_ids** = true : [in] Boolean that allows to decide if scoping ids are to be copied
 
-**Return type**: Scoping
+**Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
 <!--
 **TODO**:
@@ -903,7 +903,7 @@ Empty [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
 
 
-**Return type**: Scoping
+**Return type**: [Scoping](classansys-dpf-scoping.md#classansys-dpf-scoping)
 
 <!--
 **TODO**:

@@ -471,7 +471,7 @@ Any ansys::dpf::GenericDataContainer::getPropertyAny(const std::string &property
 
 * const std::string & **property_name**
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -499,7 +499,7 @@ void ansys::dpf::GenericDataContainer::setPropertyAny(const std::string &propert
 **Parameters**:
 
 * const std::string & **property_name**
-* const Any & **property**
+* const [Any](classansys-dpf-any.md#classansys-dpf-any) & **property**
 
 **Return type**: void
 

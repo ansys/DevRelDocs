@@ -142,7 +142,7 @@ ansys::dpf::MeshesContainer::MeshesContainer(MeshesContainer const &)
 
 **Parameters**:
 
-* MeshesContainer const &
+* [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) const &
 
 **Return type**: 
 
@@ -171,7 +171,7 @@ ansys::dpf::MeshesContainer::MeshesContainer(MeshesContainer &&) noexcept
 
 **Parameters**:
 
-* MeshesContainer &&
+* [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) &&
 
 **Return type**: 
 
@@ -253,7 +253,7 @@ ansys::dpf::MeshesContainer::MeshesContainer(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) on a server.
+Retrieve an existing instance of [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) on a server. <br/>
 
 
 
@@ -318,9 +318,9 @@ MeshesContainer & ansys::dpf::MeshesContainer::operator=(MeshesContainer const &
 
 **Parameters**:
 
-* MeshesContainer const &
+* [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) const &
 
-**Return type**: MeshesContainer &
+**Return type**: [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) &
 
 <!--
 **TODO**:
@@ -347,9 +347,9 @@ MeshesContainer & ansys::dpf::MeshesContainer::operator=(MeshesContainer &&) noe
 
 **Parameters**:
 
-* MeshesContainer &&
+* [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) &&
 
-**Return type**: MeshesContainer &
+**Return type**: [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer) &
 
 <!--
 **TODO**:
@@ -692,7 +692,7 @@ create a [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-mesh
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**
 
-**Return type**: MeshesContainer
+**Return type**: [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer)
 
 <!--
 **TODO**:
@@ -722,7 +722,7 @@ Create a new [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: MeshesContainer
+**Return type**: [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer)
 
 <!--
 **TODO**:
@@ -753,7 +753,7 @@ Empty mesh container.
 
 
 
-**Return type**: MeshesContainer
+**Return type**: [MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer)
 
 <!--
 **TODO**:
