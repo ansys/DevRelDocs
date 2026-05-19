@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-14).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -16,7 +16,7 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [3 items](#Features_compression) |[2 items](#Fixes_compression) |
+| compression | [4 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
@@ -58,7 +58,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk | [2 items](#Features_vtk) |[2 items](#Fixes_vtk) |
+| vtk | [3 items](#Features_vtk) |[2 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
 
 
@@ -211,6 +211,11 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Compression:
+  > 
+  >
+  > 
 
 - Quantization operator enhancements:
   > - Added parallelization in _quantization_fc_
@@ -2626,6 +2631,11 @@ The following table shows which components have updates in each category.
 ## vtk
 ### <a id="Features_vtk"></a> Features
 
+- Add pins for extra connectivity & input scoping in op:mesh_to_pyvista:
+  >  Introduce capability to accept input mesh scoping that allows construction of vtk meshes for a specified subset of the original mesh. Add 'as_modified_connectivity' boolean input pin that returns VTK version>9 compatible connectivity representation consisting of an array of concatenated node indices for cells without node count headers and an offset array to it.
+  >
+  > 
+
 - Perf improvement of mesh_to_pyvista (part 2):
   > 
 
@@ -3538,6 +3548,14 @@ The following table shows which components have updates in each category.
 
 
 - [to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/to_nodal_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+
+#### compression
+
+- [kmeans_clustering](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/kmeans_clustering.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
