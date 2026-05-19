@@ -6,8 +6,6 @@
 ## Total time commitment
 **Approximately 1.5 to 2 hours** to complete all three chapters of DPF onboarding.
 
-These files do not contain exhaustive content; much of the text is still under development.
-
 ## How DPF onboarding is organized
 
 DPF onboarding is organized into three chapters. Follow them in order for a logical progression from understanding DPF to setting it up and using it with your data.
