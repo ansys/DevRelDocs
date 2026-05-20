@@ -221,7 +221,7 @@ my_field = result_field.deep_copy()
 ### `coordinates_field` returns a live reference
 
 The `MeshedRegion.nodes.coordinates_field` property (Python `nodes.coordinates_field`,
-C# `MeshedRegion.CoordinatesField`) returns a **live reference** to the internal mesh node
+C# or IronPython MechDPF `MeshedRegion.CoordinatesField`) returns a **live reference** to the internal mesh node
 coordinate array. Any modification to the returned field is reflected immediately in the
 mesh, and subsequent calls return the same underlying data.
 
@@ -230,19 +230,11 @@ To obtain an independent snapshot that is safe to modify without affecting the m
 ```python
 # Python - deep copy
 coords_copy = model.mesh.nodes.coordinates_field.deep_copy()
-
-# Python - use the node_coordinates operator
-node_coord_op = dpf.operators.geo.node_coordinates()
-node_coord_op.inputs.mesh.connect(model.mesh)
-coords_independent = node_coord_op.outputs.coordinates_as_field()
 ```
 
-In C# (`mech_dpf`), call `GetHardCopy()` to obtain an independent copy:
+In C# or IronPython (MechDPF), call `GetHardCopy()` to obtain an independent copy:
 
 ```csharp
-// C# - live reference (do not modify)
-var liveRef = mesh.CoordinatesField;
-
 // C# - independent copy
 Field snapshot = mesh.CoordinatesField.GetHardCopy();
 ```

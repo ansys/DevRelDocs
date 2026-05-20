@@ -30,7 +30,7 @@ The fields container is a container of fields, used mainly in transient, harmoni
 
 The meshed region is dpf's entity describing a mesh. Node and element scopings, element types, connectivity (list of node indices composing each element) and node coordinates are the fundamental entities composing the meshed region. It can also have materials, named selections...
 
-> **Note:** `nodes.coordinates_field` (Python) and `CoordinatesField` (C# `mech_dpf`) return a **live reference** to the internal mesh coordinate array. Modifications affect the mesh directly. Use `coordinates_field.deep_copy()` or the `node_coordinates` operator to obtain an independent copy.
+> **Note:** `nodes.coordinates_field` (Python) and `CoordinatesField` (C# or IronPython MechDPF) return a **live reference** to the internal mesh coordinate array. Modifications affect the mesh directly. Use `coordinates_field.deep_copy()` (Python) or `GetHardCopy()` (C# or IronPython MechDPF) to obtain an independent copy.
 
 ## Time Freq Support
 
