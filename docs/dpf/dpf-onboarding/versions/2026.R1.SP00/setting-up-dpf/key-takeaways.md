@@ -27,7 +27,7 @@ In the next chapter, **DPF data fundamentals**, you explore how data is represen
 
 Before moving to the next chapter:
 
-> Complete the Setting-up DPF survey
+> Complete the DPF setup survey
 
 **Take 5-7 minutes to:**
 - ✅ Verify you understood the key concepts
@@ -38,7 +38,7 @@ Before moving to the next chapter:
 
 Your responses directly improve this content for future learners!
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="check-your-installation.md" class="nav-btn nav-btn-prev">← Previous page</a>
 <a href="../dpf-data-fundamentals/index.md" class="nav-btn nav-btn-next">Next chapter →</a>

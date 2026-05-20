@@ -326,7 +326,7 @@ Number of time steps: 35
 
 In the next section, you'll learn how to interact with that data using operators and workflows.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../styles/nav-buttons.css">
 <div class="nav-footer">
 <a href="how-data-is-represented-in-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>
 <a href="how-to-interact-with-data.md" class="nav-btn nav-btn-next">Next page →</a>

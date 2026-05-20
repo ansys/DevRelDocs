@@ -6,8 +6,6 @@
 ## Total time commitment
 **Approximately 1.5 to 2 hours** to complete all three chapters of DPF onboarding.
 
-These files do not contain exhaustive content; much of the text is still under development.
-
 ## How DPF onboarding is organized
 
 DPF onboarding is organized into three chapters. Follow them in order for a logical progression from understanding DPF to setting it up and using it with your data.
@@ -19,7 +17,7 @@ In this chapter you learn what DPF is, what problems it solves, and why it exist
 
 To understand how something is structured and how it works, you must first know what it is. If you have no prior exposure to DPF, you need this context to understand the following steps. Without first defining what DPF actually is, any attempt to analyze its structure or perform hands-on tasks would lack direction and meaning, leaving you disconnected and overwhelmed.
 
-## Setting up DPF (30–45 minutes)
+## DPF setup (30–45 minutes)
 
 Once you know what DPF is, install the server and client, configure licensing, and confirm that everything runs. Doing this before hands-on topics prevents blocked exercises later.
 
