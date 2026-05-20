@@ -4,6 +4,8 @@
 
 The field is the main simulation data container. In numerical simulations, results data are defined by values associated to entities (scoping), and these entities are a subset of a model (support). In DPF, field data is always associated to its scoping and support, making the field a self-describing piece of data. A field is also defined by its dimensionnality, unit, location... A field can for example, describe a displacement vector or norm, stresses and strains tensors, stresses and strains equivalent, min max over time of any result... It can be defined on a complete model or just on certain entities of the model thanks to its scoping. The data is stored as a vector of double values and each elementary entity has a number of components (thanks to the dimensionality, a displacement will have 3 components, a symmetrical stress matrix 6...)
 
+> **Note:** Assigning a new scoping to an existing field updates only the metadata index - it does **not** filter or resize the underlying data array. To extract data for a spatial subset, use the `rescope` operator or call `field.deep_copy()` before modifying the scoping.
+
 ## Scoping
 
 The scoping is entities ids representing a subset of the model's support. Typically, scoping can represent node ids, element ids, time steps, frequencies, joints... Its location indicates what kind of entity the scoping is referring to. Scopings are used to identify the entities where a field is scoped or to choose (through an input pin) a subset on which an operator should compute its result.
@@ -27,6 +29,8 @@ The fields container is a container of fields, used mainly in transient, harmoni
 ## Meshed Region
 
 The meshed region is dpf's entity describing a mesh. Node and element scopings, element types, connectivity (list of node indices composing each element) and node coordinates are the fundamental entities composing the meshed region. It can also have materials, named selections...
+
+> **Note:** `nodes.coordinates_field` (Python) and `CoordinatesField` (C# `mech_dpf`) return a **live reference** to the internal mesh coordinate array. Modifications affect the mesh directly. Use `coordinates_field.deep_copy()` or the `node_coordinates` operator to obtain an independent copy.
 
 ## Time Freq Support
 
