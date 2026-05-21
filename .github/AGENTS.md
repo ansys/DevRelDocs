@@ -15,6 +15,17 @@ Use this file to drive an AI assistant that helps authors meet **Ansys developer
 
 Compliance reviews, narrative feedback, and **`documentation-compliance-report.md`** must apply **§0.7** consistently: each **issue** and each **action item** gets one severity; optional **category** labels supplement but do not replace severity.
 
+### Recording pass vs fail (reports and chat)
+
+Severity labels (**Must fix**, **Should fix**, **Nice to fix**) apply **only to violations**—places where the package **fails** a rubric requirement or needs a concrete change.
+
+- **Issues** (and **Action items**): list **only** problems. Each bullet must describe what is **wrong or missing** and what to change. **Never** tag a passing check with a severity.
+- **Strengths**: use affirmative statements when a requirement **is met** (e.g. “No duplicate `href` values in `articles/TOC.yml`” or “Single `toc.yml` in package”). Satisfied mandatory checks belong here—or omit them if the section status is **Passed** and there is nothing actionable to say.
+- **Do not** write pseudo-issues such as “**Should fix (Quality)** — No duplicate `href` detected” or “structure is otherwise valid.” Absence of a defect is **not** an issue; duplicate-free TOC is the **required** outcome, not a fix item.
+- **Do not** list **hypothetical** or **preventive** bullets (“if titles later include…”, “scan when you add…”, “none required today”) when the package **already passes** the rule today. Either report a **current** quoting violation with file/line, or omit.
+- If a subsection has **no violations**, set status **Passed**, leave **Issues** empty (or write “None.”), and put compliance notes under **Strengths** only.
+- **Action items** must mirror open **Issues** only—do not add action items for requirements already satisfied.
+
 ### Compliance report
 
 When the user asks for a compliance check, self-review, or pre-PR verification, create or update **`documentation-compliance-report.md`** in the **root of the documentation package** under review (the folder that contains **`docfx.json`** and, for **API** / **Library/SDK** packages, usually **`index.md`** as well).
@@ -937,7 +948,7 @@ Same requirements as API changelog (see section 3.3)
 **Review Actions:**
 - Verify `toc.yml` matches actual file structure
 - Confirm a single `toc.yml`; list all paths if more than one exists (**error**)
-- Flatten the TOC (including nested `items`) and flag any **`href`** that appears more than once (**error**)
+- Flatten the TOC (including nested `items`) and **report duplicate `href` values only when found** (**error**). If there are no duplicates, record that under **Strengths** or **Passed**—not under **Issues**
 - Scan `name` fields; require YAML double quotes for special characters (Part 1 — **Table of contents (`toc.yml`)**)
 - Check `docfx.json` configuration
 - Test Markdown rendering locally
@@ -1066,10 +1077,15 @@ For each section reviewed, provide:
 
 #### [Section Name] - [Status: Passed / Warnings / Failed]
 
+Use **Passed** when all applicable criteria in that section are met; **Warnings** when only **Should fix** / **Nice to fix** items remain; **Failed** when any **Must fix** (or release-blocking **Should fix**) remains.
+
 **Strengths:**
-- List positive aspects
+- List what **meets** the rubric (capabilities, structure, compliance with mandatory rules). Examples: “TOC has no duplicate `href` values,” “All code blocks use language tags.”
 
 **Issues:**
+- **Only violations.** If there are none, write **None.** or omit the list—do **not** invent issue bullets for satisfied requirements.
+- **Never** prefix a passing observation with **Must fix**, **Should fix**, or **Nice to fix** (see Part 1 — **Recording pass vs fail**).
+
 1. **[Must fix | Should fix | Nice to fix]** [(optional) Policy | Correctness | Quality] — [Issue description]
    - **Location**: [File name and line number or section]
    - **Current state**: [What exists now]
@@ -1077,11 +1093,11 @@ For each section reviewed, provide:
    - **Reference**: [Link to guideline]
 
 **Recommendations:**
-- Additional suggestions for improvement (tag with **Nice to fix** or **Should fix** when they are actionable)
+- Optional improvements beyond mandatory rubric (tag with **Nice to fix** or **Should fix** when they are actionable). Do not duplicate **Strengths** here.
 
 ### Action Items
 
-Order by severity (**Must fix** first, then **Should fix**, then **Nice to fix**):
+Order by severity (**Must fix** first, then **Should fix**, then **Nice to fix**). Include **only open violations** from **Issues**—not confirmations that a rule passed.
 
 1. **[Must fix | Should fix | Nice to fix]** — [Action description] | [Owner] | [Estimated effort]
 
