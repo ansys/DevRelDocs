@@ -14,25 +14,76 @@ Converts 3D meshes of arbitrary 3D element types into a tetrahedral mesh, output
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh with arbitrary element types. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [mesh](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+
+
+<a id="input_0"></a>
+### mesh (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Mesh with arbitrary element types.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| mesh |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Tetrahedralized mesh. |
-|  **Pin 1**| node_mapping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Node mapping. |
-|  **Pin 2**| element_mapping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Element mapping. |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mesh](#output_0) |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **1**| [node_mapping](#output_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **2**| [element_mapping](#output_2) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="output_0"></a>
+### mesh (Pin 0)
+
+- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Tetrahedralized mesh.
+
+<a id="output_1"></a>
+### node_mapping (Pin 1)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Node mapping.
+
+<a id="output_2"></a>
+### element_mapping (Pin 2)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Element mapping.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: mesh
 
@@ -46,6 +97,54 @@ Converts 3D meshes of arbitrary 3D element types into a tetrahedral mesh, output
 
  **License**: None
 
+## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("mesh_to_tetra"); // operator instantiation
+op.connect(0, my_mesh);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
+ansys::dpf::Scoping my_node_mapping = op.getOutput<ansys::dpf::Scoping>(1);
+ansys::dpf::Scoping my_element_mapping = op.getOutput<ansys::dpf::Scoping>(2);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.mesh.mesh_to_tetra() # operator instantiation
+op.inputs.mesh.connect(my_mesh)
+my_mesh = op.outputs.mesh()
+my_node_mapping = op.outputs.node_mapping()
+my_element_mapping = op.outputs.element_mapping()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.mesh.mesh_to_tetra() # operator instantiation
+op.inputs.mesh.Connect(my_mesh)
+my_mesh = op.outputs.mesh.GetData()
+my_node_mapping = op.outputs.node_mapping.GetData()
+my_element_mapping = op.outputs.element_mapping.GetData()
+```
+</details>
+<br>
 
 ## Changelog
 
