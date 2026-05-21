@@ -264,6 +264,58 @@ Key field properties for introspection:
 | `field_definition` | Aggregated metadata | [`field_definition`](./dpf-types.md#field-definition) |
 | `data` | Raw data array | `array of double` |
 
+## Common pitfalls
+
+### Replacing the scoping does not resize the data buffer
+
+Assigning a new scoping to a field updates only the metadata - it does **not** filter or
+resize the underlying data array. After reassignment, the scoping length and the data
+length may be inconsistent, which leads to silent incorrect results or errors when the
+field is consumed by a downstream operator.
+
+**Do not** use the scoping setter to extract a spatial subset. Instead:
+
+- Use the `rescope` operator to produce a correctly-sized field for a chosen subset.
+- Call `field.deep_copy()` to obtain an independent copy before modifying the scoping.
+
+```python
+import ansys.dpf.core as dpf
+
+model = dpf.Model("file.rst")
+result_field = model.results.displacement()[0]
+my_scoping = dpf.Scoping(ids=[1, 2, 3], location=dpf.locations.nodal)
+
+# Correct - use rescope to filter any field to a scoping
+rescope_op = dpf.operators.scoping.rescope()
+rescope_op.inputs.fields.connect(result_field)
+rescope_op.inputs.mesh_scoping.connect(my_scoping)
+filtered_field = rescope_op.outputs.fields_as_field()
+
+# Correct - deep-copy a field before modifying its scoping
+my_field = result_field.deep_copy()
+```
+
+### `coordinates_field` returns a live reference
+
+The `MeshedRegion.nodes.coordinates_field` property (Python `nodes.coordinates_field`,
+C# or IronPython MechDPF `MeshedRegion.CoordinatesField`) returns a **live reference** to the internal mesh node
+coordinate array. Any modification to the returned field is reflected immediately in the
+mesh, and subsequent calls return the same underlying data.
+
+To obtain an independent snapshot that is safe to modify without affecting the mesh:
+
+```python
+# Python - deep copy
+coords_copy = model.mesh.nodes.coordinates_field.deep_copy()
+```
+
+In C# or IronPython (MechDPF), call `GetHardCopy()` to obtain an independent copy:
+
+```csharp
+// C# - independent copy
+Field snapshot = mesh.CoordinatesField.GetHardCopy();
+```
+
 ## Related types
 
 Fields are often used in combination with:
