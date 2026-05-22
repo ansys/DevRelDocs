@@ -7,7 +7,8 @@
             "product": "DPF",
             "programming language": "C++",
             "product collection": "Structures",
-            "physics": "Structures"
+            "physics": "Multiphysics, Structures, Fluids",
+            "is dpf context": true
         }
     }
 }
