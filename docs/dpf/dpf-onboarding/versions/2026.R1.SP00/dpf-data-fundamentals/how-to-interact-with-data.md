@@ -47,10 +47,16 @@ DPF provides hundreds of operators. You can explore them in the [Operators Refer
 
 **How to find the right operator**:
 1. **Search by keyword**: Use the top-right search box (e.g., "average", "displacement", "extract"). Filter on **Structures** and **Developer Portal** as well as your installation **Version**.
+
+   ![Global keyword search](../../images/global_keyword_search.png)
+
 2. **Browse by category**: Look through categories like "math", "result", "averaging"
+
+   ![Operator documentation browse](../../images/operator_doc_browse.png)
+
 3. **Read operator descriptions**: Each operator page explains inputs, outputs, and usage
 
-![Operators documentation](../../images/operators-doc.png)
+   ![Operator documentation page](../../images/operator_page.png)
 
 ### Using an operator
 
