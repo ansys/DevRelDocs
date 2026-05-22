@@ -26,6 +26,8 @@
     href: core-concepts/dpf-types.md
   - name: Operator fundamentals
     href: core-concepts/operator.md
+  - name: Operator configurations
+    href: core-concepts/operator-configurations.md
 - name: Operator specifications
   items:
   - name: Operator specifications

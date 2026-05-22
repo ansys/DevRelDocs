@@ -41,7 +41,7 @@ Read/compute element nodal forces by calling the readers defined by the datasour
 | 11      | Gasket          |
 | 12      | Multi-Point Constraint |
 | 13      | Pretension      |
-
+element_nodal_forces fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
 ## Supported file types
 
@@ -211,7 +211,7 @@ Compute mid nodes (when available) by averaging the neighbour corner nodes. Defa
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-If this pin is set to true, the output fields container splits the ENF by degree of freedom ("dof" label, 0 for translation, 1 for rotation, 2 for temperature) and derivative order ("derivative_order" label, 0 for stiffness terms, 1 for damping terms and 2 for inertial terms). Default is false.
+DEPRECATED. If this pin is set to true, the output fields container splits the ENF by degree of freedom ("dof" label, 0 for translation, 1 for rotation, 2 for temperature) and derivative order ("derivative_order" label, 0 for stiffness terms, 1 for damping terms and 2 for inertial terms). Default is false.
 
 
 ## Outputs

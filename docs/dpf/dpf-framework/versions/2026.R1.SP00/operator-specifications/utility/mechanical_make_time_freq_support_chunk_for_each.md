@@ -14,31 +14,132 @@ Splits a time freq support into chunks depending on evaluated result properties,
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  target_time_freq_support |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) | List of time freq support to potentially split in chunks. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_to_iterate |[`operator`](../../core-concepts/dpf-types.md#operator) | Operator that must be reconnected with the range values. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  pin_index |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  abstract_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) | When a mesh is provided, the number of nodes (for "Nodal" results) or number of elements (for "Elemental" results) is used to compute the chunk. When a field is provided, its scoping size is used to compute the chunk. |
-| <strong>Pin 200</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  chunk_config |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) | a data tree with an int attribute "max_num_bytes", an int attribute "dimensionality" (average result size by entity), a string attribute "location" ("Nodal" or"Elemental") is expected. |
-| <strong>Pin 1000</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  producer_op1 |[`operator`](../../core-concepts/dpf-types.md#operator) |  |
-| <strong>Pin 1001</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_pin_of_producer_op1 |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1002</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_pin_of_consumer_op1 |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1003</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  consumer_op1 |[`operator`](../../core-concepts/dpf-types.md#operator) |  |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [target_time_freq_support](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+| <strong>1</strong> | [operator_to_iterate](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](../../core-concepts/dpf-types.md#operator) |
+| <strong>2</strong> | [pin_index](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> | [abstract_meshed_region](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>200</strong> | [chunk_config](#input_200) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>1000</strong> | [producer_op1](#input_1000) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](../../core-concepts/dpf-types.md#operator) |
+| <strong>1001</strong> | [output_pin_of_producer_op1](#input_1001) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1002</strong> | [input_pin_of_consumer_op1](#input_1002) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1003</strong> | [consumer_op1](#input_1003) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](../../core-concepts/dpf-types.md#operator) |
+
+
+<a id="input_0"></a>
+### target_time_freq_support (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+List of time freq support to potentially split in chunks.
+
+<a id="input_1"></a>
+### operator_to_iterate (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+
+Operator that must be reconnected with the range values.
+
+<a id="input_2"></a>
+### pin_index (Pin 2)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_7"></a>
+### abstract_meshed_region (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
+
+When a mesh is provided, the number of nodes (for "Nodal" results) or number of elements (for "Elemental" results) is used to compute the chunk. When a field is provided, its scoping size is used to compute the chunk.
+
+<a id="input_200"></a>
+### chunk_config (Pin 200)
+
+- **Required:** Yes
+- **Expected type(s):** [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+
+a data tree with an int attribute "max_num_bytes", an int attribute "dimensionality" (average result size by entity), a string attribute "location" ("Nodal" or"Elemental") is expected.
+
+<a id="input_1000"></a>
+### producer_op1 (Pin 1000)
+
+- **Required:** Yes
+- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+
+
+
+<a id="input_1001"></a>
+### output_pin_of_producer_op1 (Pin 1001)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1002"></a>
+### input_pin_of_consumer_op1 (Pin 1002)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1003"></a>
+### consumer_op1 (Pin 1003)
+
+- **Required:** Yes
+- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| chunks | | To connect to "producer_consumer_for_each" Operator on pin 0 |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [chunks](#output_0) | |
+
+
+<a id="output_0"></a>
+### chunks (Pin 0)
+
+- **Expected type(s):** 
+
+To connect to "producer_consumer_for_each" Operator on pin 0
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -53,6 +154,9 @@ Splits a time freq support into chunks depending on evaluated result properties,
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

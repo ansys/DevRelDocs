@@ -14,24 +14,67 @@ Merges a list of data trees. Attributes names shouldn't be shared accross data t
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_tree |[`data_tree`](../../core-concepts/dpf-types.md#data-tree), `vector<shared_ptr<data_tree>>` | Either a vector of data trees or data trees from pin 0 to ... to merge. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [data_tree](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_tree`](../../core-concepts/dpf-types.md#data-tree), `vector<shared_ptr<data_tree>>` |
+
+
+<a id="input_0"></a>
+### data_tree (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree), `vector<shared_ptr<data_tree>>`
+
+Either a vector of data trees or data trees from pin 0 to ... to merge.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| any |[`any`](../../core-concepts/dpf-types.md#any) |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [any](#output_0) |[`any`](../../core-concepts/dpf-types.md#any) |
+
+
+<a id="output_0"></a>
+### any (Pin 0)
+
+- **Expected type(s):** [`any`](../../core-concepts/dpf-types.md#any)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+### [permissive](../../core-concepts/operator-configurations.md#permissive)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, warning checks (like unit or data sizes) won't be done.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -46,6 +89,9 @@ Merges a list of data trees. Attributes names shouldn't be shared accross data t
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

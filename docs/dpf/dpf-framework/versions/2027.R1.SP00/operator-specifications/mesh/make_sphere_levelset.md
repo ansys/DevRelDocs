@@ -81,6 +81,20 @@ This operator supports [configuration options](../../core-concepts/operator-conf
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
+### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
 
 
 ## Scripting

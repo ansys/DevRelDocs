@@ -14,25 +14,77 @@ Splits a Streams into multiple coherent streams, actual number of outputs is alw
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams to split. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_count |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of desired outputs. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [streams](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>1</strong> | [output_count](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### streams (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Streams to split.
+
+<a id="input_1"></a>
+### output_count (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of desired outputs.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin -1**| output_count |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Actual number of outputs. |
-|  **Pin 0**| outputs |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Streams outputs. |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **-1**| [output_count](#output_-1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [outputs](#output_0) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+
+
+<a id="output_-1"></a>
+### output_count (Pin -1)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Actual number of outputs.
+
+<a id="output_0"></a>
+### outputs (Pin 0)
+
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Streams outputs.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: logic
 
@@ -47,6 +99,9 @@ Splits a Streams into multiple coherent streams, actual number of outputs is alw
  **License**: any_dpf_supported_increments
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

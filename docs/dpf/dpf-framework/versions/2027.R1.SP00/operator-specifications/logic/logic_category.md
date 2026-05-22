@@ -15,6 +15,7 @@
 - [identical fc](identical_fc.md)
 - [identical fields](identical_fields.md)
 - [identical generic data containers](identical_generic_data_containers.md)
+- [identical generic supports](identical_generic_supports.md)
 - [identical mc](identical_mc.md)
 - [identical meshes](identical_meshes.md)
 - [identical pfc](identical_pfc.md)

@@ -14,27 +14,96 @@ provides a scoping at a given location based on a given named selection
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  requested_location |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  named_selection_name |[`string`](../../core-concepts/dpf-types.md#standard-types) | the string is expected to be in upper case |
-| <strong>Pin 2</strong>|  int_inclusive |[`int32`](../../core-concepts/dpf-types.md#standard-types) | If element scoping is requested on a nodal named selection, if Inclusive == 1 then add all the elements adjacent to the nodes.If Inclusive == 0, only the elements which have all their nodes in the named selection are included |
-| <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |  |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |  |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [requested_location](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> | [named_selection_name](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [int_inclusive](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+
+
+<a id="input_0"></a>
+### requested_location (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_1"></a>
+### named_selection_name (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+the string is expected to be in upper case
+
+<a id="input_2"></a>
+### int_inclusive (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+If element scoping is requested on a nodal named selection, if Inclusive == 1 then add all the elements adjacent to the nodes.If Inclusive == 0, only the elements which have all their nodes in the named selection are included
+
+<a id="input_3"></a>
+### streams_container (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+
+
+<a id="input_4"></a>
+### data_sources (Pin 4)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [mesh_scoping](#output_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+
+
+<a id="output_0"></a>
+### mesh_scoping (Pin 0)
+
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: scoping
 
@@ -49,6 +118,9 @@ provides a scoping at a given location based on a given named selection
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

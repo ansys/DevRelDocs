@@ -4,7 +4,7 @@ plugin: core
 license: any_dpf_supported_increments
 ---
 
-# averaging:force_summation
+# averaging:force summation
 
 **Version: 0.0.0**
 

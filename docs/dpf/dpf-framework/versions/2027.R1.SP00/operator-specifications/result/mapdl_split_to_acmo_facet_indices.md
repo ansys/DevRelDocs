@@ -30,7 +30,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields container to split, with generic number of labels (e.g. time, zone, complex...), 'facet' label is compulsory.The Fields of the FieldsContainer will have location Elemental and the Scoping Ids will be the Element Ids on the skin mesh.
+Fields container to split, with generic number of labels (e.g. time, zone, complex...), 'facet' label is compulsory.The Scopings of the Fields will be the Element Ids on the skin mesh.
 
 <a id="input_1"></a>
 ### property_fields_container_element_types (Pin 1)

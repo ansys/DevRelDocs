@@ -1,9 +1,13 @@
 # Mapping operators
 
 - [apply mechanical native mapping](apply_mechanical_native_mapping.md)
+- [create mech kriging convection workflow](create_mech_kriging_convection_workflow.md)
 - [create mech kriging workflow](create_mech_kriging_workflow.md)
+- [create mech point cloud convection workflow](create_mech_point_cloud_convection_workflow.md)
 - [create mech point cloud workflow](create_mech_point_cloud_workflow.md)
+- [create mech shape func surf convection workflow](create_mech_shape_func_surf_convection_workflow.md)
 - [create mech shape func surf workflow](create_mech_shape_func_surf_workflow.md)
+- [create mech shape func vol convection workflow](create_mech_shape_func_vol_convection_workflow.md)
 - [create mech shape func vol workflow](create_mech_shape_func_vol_workflow.md)
 - [create sc mapping workflow](create_sc_mapping_workflow.md)
 - [fft](fft.md)

@@ -1,6 +1,6 @@
 ---
 category: mapping
-plugin: N/A
+plugin: Ans.Dpf.MultiphysicsMapper
 license: any_dpf_supported_increments
 ---
 
@@ -10,7 +10,25 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use a point cloud based algorithm. This operator needs to be used with the apply mechanical native mapping associated one.
+
+Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
+approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
+connectivity. Use it together with `apply_mechanical_native_mapping`.
+
+For each target point $\mathbf{x}_t$, the interpolated value is:
+
+$$
+u(\mathbf{x}_t) = \sum_{i=1}^{N_s} w_i(\mathbf{x}_t) \cdot u_i
+$$
+
+where $u_i$ are the source field values, $w_i$ are normalized distance-based weights, and $N_s$ is the number of
+source neighbors (controlled by `search_limit`). See the individual pin descriptions for the available weighting
+schemes, outside-point strategies, and geometry options.
+
+**Ansys Mechanical equivalent**: Weighting = *Triangulation* (use `weighting_type = "triangulation"`) or Weighting = *Distance Based Average* (use `weighting_type = "weighted_average"`).
+
+For further details on the algorithm and its settings, see the Ansys Mechanical help page on
+[Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 ## Inputs
 
@@ -51,7 +69,12 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
 
-Source mesh. Can be a meshed region or a node coordinates field.
+Source mesh containing the data to be mapped. Can be:
+- **meshed_region**: Full mesh with connectivity (nodes/elements)
+- **field**: Node coordinates only (interpreted as unstructured point cloud)
+
+When providing a field, the point cloud algorithm treats the coordinate locations as the source sample points,
+suitable for scattered data without mesh connectivity.
 
 <a id="input_1"></a>
 ### target_mesh (Pin 1)
@@ -59,7 +82,12 @@ Source mesh. Can be a meshed region or a node coordinates field.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
 
-Target mesh. Can be a meshed region or a node coordinates field.
+Target mesh where data will be mapped. Can be:
+- **meshed_region**: Full mesh with connectivity
+- **field**: Node coordinates only (target point locations)
+
+When providing a field, interpolation occurs at the specified coordinate locations without requiring
+mesh connectivity at the target.
 
 <a id="input_3"></a>
 ### target_mesh_scoping (Pin 3)
@@ -83,7 +111,11 @@ Unit of the result to map
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Location of the result to map. If elemental, this input needs to be specified.
+Location of the source field data to be mapped. Supported values:
+- **'Nodal'**: Field values at mesh nodes (default if omitted for nodal data)
+- **'Elemental'**: Field values at element centroids - **must be specified explicitly** when mapping elemental data
+
+When mapping elemental fields, the algorithm treats element centroids as the point cloud source locations.
 
 <a id="input_6"></a>
 ### dimensionality (Pin 6)
@@ -123,7 +155,10 @@ Number of threads to be used to parallelize apply operations.
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Default 'triangulation'. Can also be 'weighted_average'.
+Weighting scheme for computing interpolation weights from source neighbors. Options:
+- **'triangulation'** (default): Uses barycentric coordinates within the enclosing simplex of a local triangulation
+  of neighboring source points. Exact for linear interpolation.
+- **'weighted_average'**: Inverse distance weighting $w_i \propto 1/r_i^p$. Not exact at sample points.
 
 <a id="input_11"></a>
 ### outside_option (Pin 11)
@@ -131,7 +166,13 @@ Default 'triangulation'. Can also be 'weighted_average'.
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 'weighted_average'. Can also be 'ignore', 'projection', 'nearest_node'.
+Strategy for handling target points outside the source domain convex hull. Options:
+- **'weighted_average'** (default): Extrapolate using inverse distance weighting from `num_outside_points` nearest neighbors
+- **'ignore'**: Mark as unmapped, assign no value
+- **'projection'**: Project target onto source domain boundary, interpolate at projection point
+- **'nearest_node'**: Use value from single nearest source point (constant, no extrapolation)
+
+Use `max_outside_distance` to limit how far outside the domain extrapolation is attempted.
 
 <a id="input_12"></a>
 ### num_outside_points (Pin 12)
@@ -139,7 +180,7 @@ Default is 'weighted_average'. Can also be 'ignore', 'projection', 'nearest_node
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 3
+Number of nearest source neighbors used for handling target points outside the source domain. Default: 3.
 
 <a id="input_13"></a>
 ### max_outside_distance (Pin 13)
@@ -147,7 +188,10 @@ Default is 3
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 0.0
+Maximum distance (in mesh length units) for extrapolating to target points outside the
+source domain. Target points farther than this threshold are marked as unmapped regardless of `outside_option`.
+Default: 0.0 (no distance limit - extrapolate to any distance).
+Set to a finite value (e.g., 0.1 * characteristic_length) to avoid unreliable long-range extrapolation.
 
 <a id="input_14"></a>
 ### search_limit (Pin 14)
@@ -155,7 +199,9 @@ Default is 0.0
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 20
+Maximum number of source neighbors considered for interpolation at each target point.
+The algorithm selects the `search_limit` nearest source points and computes weights from this subset.
+Default: 20.
 
 <a id="input_15"></a>
 ### bounding_box_sizing (Pin 15)
@@ -163,7 +209,10 @@ Default is 20
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Pinball area. Default is 0.0.
+Search region size around each target point. Only source points within this distance
+are candidates for interpolation. Default: 0.0 (no size constraint; the neighborhood is bounded only by `search_limit`).
+When set to a positive value, restricts interpolation to a local region, which enforces locality and
+reduces the influence of distant source points.
 
 <a id="input_16"></a>
 ### geometry_type (Pin 16)
@@ -171,7 +220,9 @@ Pinball area. Default is 0.0.
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 'volume'. Can also be 'surface'.
+Mesh geometry type controlling the spatial dimension of the nearest-neighbor search. Options:
+- **'volume'** (default): Full 3D search for volumetric meshes
+- **'surface'**: Search restricted to surfaces embedded in 3D space (shells, membranes)
 
 <a id="input_17"></a>
 ### shell_thickness_factor (Pin 17)
@@ -179,7 +230,10 @@ Default is 'volume'. Can also be 'surface'.
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is '0.0'
+Scaling factor applied to shell element thickness to extend the search region in the surface normal direction.
+For a shell with thickness $t$, extends the search by $\pm$ (shell_thickness_factor $\cdot$ $t$ / 2).
+
+Default: 0.0 (no extension; search on mid-surface only).
 
 <a id="input_100"></a>
 ### is_element_centroidal_data_mapping (Pin 100)
@@ -317,7 +371,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Category**: mapping
 
- **Plugin**: N/A
+ **Plugin**: Ans.Dpf.MultiphysicsMapper
 
  **Scripting name**: prepare_mechanical_native_mapping_point_cloud
 

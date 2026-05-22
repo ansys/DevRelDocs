@@ -10,31 +10,106 @@ license: None
 
 ## Description
 
-Check if two fields are identical.
+Check if two fields are identical according to the following behavior: 
+
+- double_value (input pin 2) parameter is a significance threshold, not an absolute tolerance
+- Values below double_value are considereded 'negligible', values above are considered 'significant'
+- Both fields are considered different if the data for at least one entity in one field is negligible and the data for the same entity in the other is significant
+- When the data for the same entity in both fields is significant, they are compared based on double_tolerance (input pin 3) with the expression given in the pin documentation.
+
+
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fieldA |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fieldB |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 2</strong>|  double_value |[`double`](../../core-concepts/dpf-types.md#standard-types) | Double positive small value. Smallest value considered during the comparison step. All the absolute values in the field less than this value are considered null, (default value: 1.0e-14). |
-| <strong>Pin 3</strong>|  double_tolerance |[`double`](../../core-concepts/dpf-types.md#standard-types) | Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical. Formula is (v1 - v2) / v2 < relativeTol. Default is 0.001. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [fieldA](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>1</strong> | [fieldB](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong> | [double_value](#input_2) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [double_tolerance](#input_3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### fieldA (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_1"></a>
+### fieldB (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
+<a id="input_2"></a>
+### double_value (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Double positive small value. Smallest value considered during the comparison step. All the absolute values in the field less than this value are considered null, (default value: 1.0e-14).
+
+<a id="input_3"></a>
+### double_tolerance (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical. Formula is (v1 - v2) / v2 < double_tolerance. Default is 0.001.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| boolean |[`bool`](../../core-concepts/dpf-types.md#standard-types) | bool (true if identical...) |
-|  **Pin 1**| message |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [boolean](#output_0) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+|  **1**| [message](#output_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_0"></a>
+### boolean (Pin 0)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+bool (true if identical...)
+
+<a id="output_1"></a>
+### message (Pin 1)
+
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: logic
 
@@ -49,6 +124,9 @@ Check if two fields are identical.
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

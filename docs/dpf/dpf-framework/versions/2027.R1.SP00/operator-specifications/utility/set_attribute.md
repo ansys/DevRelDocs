@@ -22,7 +22,7 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 | <strong>1</strong> | [property_name](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [property_identifier](#input_2) |  |[`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`label_space`](../../core-concepts/dpf-types.md#label-space) |
+| <strong>2</strong> | [property_identifier](#input_2) |  |[`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`label_space`](../../core-concepts/dpf-types.md#label-space), [`string`](../../core-concepts/dpf-types.md#standard-types), [`string_field`](../../core-concepts/dpf-types.md#string-field) |
 
 
 <a id="input_0"></a>
@@ -39,15 +39,15 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Supported property names are: "labels".
+Supported property names are: "labels", "base_name", "field_names".
 
 <a id="input_2"></a>
 ### property_identifier (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`label_space`](../../core-concepts/dpf-types.md#label-space)
+- **Expected type(s):** [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`label_space`](../../core-concepts/dpf-types.md#label-space), [`string`](../../core-concepts/dpf-types.md#standard-types), [`string_field`](../../core-concepts/dpf-types.md#string-field)
 
-Value of the property to be set : vector of string or LabelSpace for "labels".
+Value of the property to be set: vector of string or LabelSpace for "labels", a result name string for "base_name" (sets the container name and renames all fields with time/complex/label suffixes), a StringField for "field_names" to manually set the field names.
 
 
 ## Outputs

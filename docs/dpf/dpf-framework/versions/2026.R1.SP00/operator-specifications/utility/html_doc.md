@@ -14,23 +14,61 @@ Create dpf's html documentation. Only on Windows.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  output_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | default is {working directory}/dataProcessingDoc.html |
-| <strong>Pin 1</strong>|  exposure_level |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Generate the documentation depending on exposure level : 0 (default) for public operators, 1 includes hidden operator, 2 includes private operator, 3 includes operator without specifications. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [output_path](#input_0) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> | [exposure_level](#input_1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### output_path (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+default is {working directory}/dataProcessingDoc.html
+
+<a id="input_1"></a>
+### exposure_level (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Generate the documentation depending on exposure level : 0 (default) for public operators, 1 includes hidden operator, 2 includes private operator, 3 includes operator without specifications.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -45,6 +83,9 @@ Create dpf's html documentation. Only on Windows.
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

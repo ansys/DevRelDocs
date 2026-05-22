@@ -14,28 +14,103 @@ Computing Euler's Critical Load. Formula: Ncr = n*E*I*pi*pi /(L*L)
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_beam_end_condition |[`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`field`](../../core-concepts/dpf-types.md#field) | This pin contains file csv or field of beam's end condition added by the user. If there's no file added, it would take value of all beam's end condition as 1. |
-| <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_beam_moment_inertia |[`field`](../../core-concepts/dpf-types.md#field) | Field of beam's moment inertia |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_beam_young_modulus |[`field`](../../core-concepts/dpf-types.md#field) | Field of beam's young modulus |
-| <strong>Pin 8</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field_beam_length |[`field`](../../core-concepts/dpf-types.md#field) | Field of beam's length |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>5</strong> | [field_beam_end_condition](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>6</strong> | [field_beam_moment_inertia](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>7</strong> | [field_beam_young_modulus](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>8</strong> | [field_beam_length](#input_8) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="input_5"></a>
+### field_beam_end_condition (Pin 5)
+
+- **Required:** Yes
+- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`field`](../../core-concepts/dpf-types.md#field)
+
+This pin contains file csv or field of beam's end condition added by the user. If there's no file added, it would take value of all beam's end condition as 1.
+
+<a id="input_6"></a>
+### field_beam_moment_inertia (Pin 6)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Field of beam's moment inertia
+
+<a id="input_7"></a>
+### field_beam_young_modulus (Pin 7)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Field of beam's young modulus
+
+<a id="input_8"></a>
+### field_beam_length (Pin 8)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+Field of beam's length
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field_euler_critical_load |[`field`](../../core-concepts/dpf-types.md#field) | This field contains Euler's Critical Load about the principle axis of the cross section having the least moment of inertia. |
-|  **Pin 1**| field_euler_critical_load_yy |[`field`](../../core-concepts/dpf-types.md#field) | This field contains Euler's Critical Load on axis y. |
-|  **Pin 2**| field_euler_critical_load_zz |[`field`](../../core-concepts/dpf-types.md#field) | This field contains Euler's Critical Load on axis z. |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field_euler_critical_load](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **1**| [field_euler_critical_load_yy](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **2**| [field_euler_critical_load_zz](#output_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field_euler_critical_load (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+This field contains Euler's Critical Load about the principle axis of the cross section having the least moment of inertia.
+
+<a id="output_1"></a>
+### field_euler_critical_load_yy (Pin 1)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+This field contains Euler's Critical Load on axis y.
+
+<a id="output_2"></a>
+### field_euler_critical_load_zz (Pin 2)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+This field contains Euler's Critical Load on axis z.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: result
 
@@ -50,6 +125,9 @@ Computing Euler's Critical Load. Formula: Ncr = n*E*I*pi*pi /(L*L)
  **License**: any_dpf_supported_increments
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

@@ -1,6 +1,6 @@
 ---
 category: mapping
-plugin: N/A
+plugin: Ans.Dpf.MultiphysicsMapper
 license: any_dpf_supported_increments
 ---
 
@@ -10,7 +10,38 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Prepare mapping of source data from source mesh to target mesh by operating the source_mesh/target_mesh weights computation. This operator will use the shape functions of the elements. This operator is meant for surfaces elements. This operator needs to be used with the apply mechanical native mapping associated one.
+
+Prepares field data mapping from source mesh to target mesh using **finite element shape functions** for **surface
+elements** (shells and membranes). This operator computes interpolation weights by locating target points
+within source surface elements and evaluating isoparametric shape functions at the reduced coordinates. This operator
+must be used in conjunction with `apply_mechanical_native_mapping`.
+
+##### Shape function interpolation for surfaces
+
+For surface elements, the field value at any point $\mathbf{x}$ within an element is interpolated using:
+
+$$
+u(\mathbf{x}) = \sum_{i=1}^{N_{\text{nodes}}} N_i(\xi, \eta) \cdot u_i
+$$
+
+where:
+- $N_i(\xi, \eta)$ are the 2D isoparametric shape functions
+- $(\xi, \eta)$ are the reduced (natural) coordinates in the reference element $[-1, 1]^2$
+- $u_i$ are the nodal field values
+- $N_{\text{nodes}}$ is the number of nodes per element (3, 4, 6, 8, etc.)
+
+##### Comparison with volume shape functions
+
+- **Reduced coordinate dimension**: 2D $(\xi, \eta)$ vs 3D $(\xi, \eta, \zeta)$ for volume elements
+- **Target input**: surface operator requires a **meshed_region** target; volume operator also accepts a field
+- **Additional proximity controls**: surface operator supports normal distance checking (pins 15-16) and a
+  pinball region (pins 17-20), which are not available for volumes
+
+**Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Surface*.
+Note: this mode only supports triangle and quadrilateral source elements.
+
+For further details on the algorithm and its settings, see the Ansys Mechanical help page on
+[Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 ## Inputs
 
@@ -126,7 +157,9 @@ Number of threads to be used to parallelize apply operations.
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 50
+Spatial bucketing scale factor controlling the grid resolution used to partition the source mesh for efficient nearest-element searches.
+Higher values create finer grids, improving search for dense meshes but increasing memory usage.
+Default: 50.
 
 <a id="input_11"></a>
 ### edge_tolerance (Pin 11)
@@ -134,7 +167,11 @@ Default is 50
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 0.02
+Tolerance for accepting target points near element boundaries in reduced coordinate space.
+Extends the valid reduced coordinate range from $[-1, 1]$ to $[-1-\epsilon, 1+\epsilon]$
+where $\epsilon$ is this parameter.
+Default: 0.02 (2% extension).
+Larger values increase robustness but may reduce accuracy for boundary points.
 
 <a id="input_12"></a>
 ### conservative (Pin 12)
@@ -142,7 +179,11 @@ Default is 0.02
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Enable conservative (integral-preserving) mapping. Default: false.
+When true, the mapping preserves the surface integral of the field across the transfer:
+$$\int_{\Omega_{\text{target}}} u \, dA = \int_{\Omega_{\text{source}}} u \, dA$$
+Requires the target input (pin 1) to be a **meshed_region** with full element connectivity;
+a field-only target (coordinates without topology) is not supported in conservative mode.
 
 <a id="input_13"></a>
 ### ignore_outside_nodes (Pin 13)
@@ -150,7 +191,12 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Controls the fallback behavior for target nodes not found within any source element after applying
+tolerances. Default: false.
+- **false**: Each unmapped node is assigned weights from the nearest source element node (nearest-node
+  fallback). The node is recorded in the unmapped-nodes diagnostic output.
+- **true**: Unmapped nodes are excluded from the mapping entirely (no weight assigned) and recorded
+  in the unmapped-nodes diagnostic output.
 
 <a id="input_14"></a>
 ### key (Pin 14)
@@ -158,7 +204,11 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Can be 'absolute' or 'relative'. Default is 'relative'
+Tolerance interpretation mode for the `edge_tolerance` parameter. Options:
+- **'relative'** (default): Edge tolerance is scaled relative to element characteristic length;
+  adapts automatically to mesh refinement
+- **'absolute'**: Edge tolerance is a direct distance value in mesh length units;
+  provides uniform tolerance across all elements
 
 <a id="input_15"></a>
 ### normal_distance_check (Pin 15)
@@ -166,7 +216,15 @@ Can be 'absolute' or 'relative'. Default is 'relative'
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Enable checking of normal distance between target points and source surface elements.
+When true, target points are only mapped if they lie within `normal_tolerance` distance from the source surface
+along the surface normal direction. Default: false.
+**Purpose**: Ensures target and source surfaces are approximately parallel or aligned. Prevents mapping between
+surfaces facing different directions.
+**Use cases**:
+- Shell-to-shell mapping with known alignment
+- Preventing cross-surface mapping in complex geometries
+- Quality control for surface proximity
 
 <a id="input_16"></a>
 ### normal_tolerance (Pin 16)
@@ -174,7 +232,10 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 1e-6
+Maximum allowable distance (in mesh length units) between target point and source surface
+measured along the surface normal direction. Only active when `normal_distance_check` is true. Default: 1e-6.
+**Interpretation**: Target points farther than this threshold in the normal direction are rejected.
+**Recommendation**: Set based on expected surface separation (e.g., 0.01 for 1% of characteristic length).
 
 <a id="input_17"></a>
 ### pinball_control (Pin 17)
@@ -182,7 +243,14 @@ Default is 1e-6
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+Enable pinball region constraint. When true, a bounding region of radius `pinball_value` is
+created around each target node. This serves two purposes:
+- **Expand the bucket search**: buckets overlapping the region are included when searching for the matching
+  source element, improving accuracy when source and target meshes are offset (e.g., shell-solid submodeling).
+- **Gap-based exclusion**: source elements whose projection gap (distance from target point to its projection
+  on the element) exceeds `pinball_value` are excluded from mapping.
+
+Default: false.
 
 <a id="input_18"></a>
 ### pinball_key (Pin 18)
@@ -190,7 +258,12 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Can be 'absolute' or 'relative'. Default is 'absolute'
+Sizing mode for pinball region thickness. Options:
+- **'absolute'** (default): `pinball_value` is direct distance in mesh length units
+- **'relative'**: `pinball_value` is scaled by element characteristic length
+
+Only relevant when `pinball_control` is true.
+Relative mode adapts pinball to local mesh refinement; absolute provides uniform thickness.
 
 <a id="input_19"></a>
 ### exclude_elements_outside_pinball (Pin 19)
@@ -198,7 +271,11 @@ Can be 'absolute' or 'relative'. Default is 'absolute'
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is false
+When true and `pinball_control` is enabled, source elements entirely outside the pinball
+region (centered at target points) are excluded from consideration. This can improve performance by reducing the
+number of candidate elements checked. Default: false.
+**Performance trade-off**: Adds cost of element-pinball intersection tests but reduces interpolation candidates.
+Beneficial when source mesh is much larger than target region of interest.
 
 <a id="input_20"></a>
 ### pinball_value (Pin 20)
@@ -206,7 +283,13 @@ Default is false
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Default is 0.0
+Thickness of the pinball search region around the source surface. Interpretation depends
+on `pinball_key`:
+- **Absolute mode**: Direct distance value (e.g., 0.5 for 0.5 length units)
+- **Relative mode**: Multiple of element characteristic length (e.g., 0.5 for half element size)
+
+Default: 0.0 (no pinball region).
+Only active when `pinball_control` is true.
 
 <a id="input_100"></a>
 ### is_element_centroidal_data_mapping (Pin 100)
@@ -344,7 +427,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Category**: mapping
 
- **Plugin**: N/A
+ **Plugin**: Ans.Dpf.MultiphysicsMapper
 
  **Scripting name**: prepare_mechanical_native_mapping_shape_functions_for_surfaces
 

@@ -16,6 +16,7 @@ Read/compute AED by calling the readers defined by the datasources.
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
+- hdf5: h5dpf 
 - mapdl: rst 
 
 ## Inputs

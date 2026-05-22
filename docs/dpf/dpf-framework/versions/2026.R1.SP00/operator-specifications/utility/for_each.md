@@ -14,28 +14,102 @@ Allows to write a loop over a chunk of operators.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  iterable | | Either the result of the make_iterable_info operator, or the operator that must be incremented. |
-| <strong>Pin 1</strong>|  iterable_values | |  |
-| <strong>Pin 2</strong>|  pin_index |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  forward | |  |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [iterable](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>1</strong> | [iterable_values](#input_1) |  | |
+| <strong>2</strong> | [pin_index](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [forward](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+
+
+<a id="input_0"></a>
+### iterable (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** 
+
+Either the result of the make_iterable_info operator, or the operator that must be incremented.
+
+<a id="input_1"></a>
+### iterable_values (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** 
+
+
+
+<a id="input_2"></a>
+### pin_index (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
+<a id="input_3"></a>
+### forward (Pin 3)
+
+- **Required:** Yes
+- **Expected type(s):** 
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| empty | |  |
-|  **Pin 3**| output | |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [empty](#output_0) | |
+|  **3**| [output](#output_3) | |
+
+
+<a id="output_0"></a>
+### empty (Pin 0)
+
+- **Expected type(s):** 
+
+
+
+<a id="output_3"></a>
+### output (Pin 3)
+
+- **Expected type(s):** 
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **evaluate_inputs_before_run** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, all input pins of the operator will be evaluated before entering the run method to maintain a correct Operator status. |
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [evaluate_inputs_before_run](../../core-concepts/operator-configurations.md#evaluate_inputs_before_run)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, all input pins of the operator will be evaluated before entering the run method to maintain a correct Operator status.
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -50,6 +124,9 @@ Allows to write a loop over a chunk of operators.
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

@@ -14,28 +14,105 @@ Computes the Fast Fourier Transform on each component of input Field or each fie
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Field or Fields Container. |
-| <strong>Pin 3</strong>|  scale_forward_transform |[`double`](../../core-concepts/dpf-types.md#standard-types) | Scale for Forward Transform, default is 2/field_num_elementary_data. |
-| <strong>Pin 4</strong>|  inplace |[`bool`](../../core-concepts/dpf-types.md#standard-types) | True if inplace, default is false. |
-| <strong>Pin 5</strong>|  force_fft_points |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Explicitely define number of fft points to either rescope or perform zero padding. |
-| <strong>Pin 6</strong>|  cutoff_frequency |[`double`](../../core-concepts/dpf-types.md#standard-types) | Restrict output frequency up to this cutoff frequency |
-| <strong>Pin 7</strong>|  scale_right_amplitude |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If set to true (default is false), 2/field_num_entities scaling will be applied, to have right amplitude values. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong> | [scale_forward_transform](#input_3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> | [inplace](#input_4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> | [force_fft_points](#input_5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong> | [cutoff_frequency](#input_6) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>7</strong> | [scale_right_amplitude](#input_7) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### field (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Field or Fields Container.
+
+<a id="input_3"></a>
+### scale_forward_transform (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Scale for Forward Transform, default is 2/field_num_elementary_data.
+
+<a id="input_4"></a>
+### inplace (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+True if inplace, default is false.
+
+<a id="input_5"></a>
+### force_fft_points (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Explicitely define number of fft points to either rescope or perform zero padding.
+
+<a id="input_6"></a>
+### cutoff_frequency (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Restrict output frequency up to this cutoff frequency
+
+<a id="input_7"></a>
+### scale_right_amplitude (Pin 7)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If set to true (default is false), 2/field_num_entities scaling will be applied, to have right amplitude values.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Output Complex Fields Container with labels matching input Fields Container. No supports binded, but prepare_sampling_fft provides it. |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### fields_container (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Output Complex Fields Container with labels matching input Fields Container. No supports binded, but prepare_sampling_fft provides it.
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: mapping
 
@@ -50,6 +127,9 @@ Computes the Fast Fourier Transform on each component of input Field or each fie
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

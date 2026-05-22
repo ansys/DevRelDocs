@@ -14,25 +14,77 @@ Take any input and serialize them in a string.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin -1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  stream_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 for string (default), 1 for binary, 2 for binary with chunked output (the output string will be returned in several chunks to prevent string memory overflows). |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  any_input |[`any`](../../core-concepts/dpf-types.md#any) | any input |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>-1</strong> | [stream_type](#input_-1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> | [any_input](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`any`](../../core-concepts/dpf-types.md#any) |
+
+
+<a id="input_-1"></a>
+### stream_type (Pin -1)
+
+- **Required:** Yes
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+0 for string (default), 1 for binary, 2 for binary with chunked output (the output string will be returned in several chunks to prevent string memory overflows).
+
+<a id="input_1"></a>
+### any_input (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`any`](../../core-concepts/dpf-types.md#any)
+
+any input
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin -1**| nof_chunks |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of chunks when mode passed to input pin(-1) = 2. |
-|  **Pin 0**| serialized_string |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **-1**| [nof_chunks](#output_-1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [serialized_string](#output_0) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="output_-1"></a>
+### nof_chunks (Pin -1)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Number of chunks when mode passed to input pin(-1) = 2.
+
+<a id="output_0"></a>
+### serialized_string (Pin 0)
+
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: serialization
 
@@ -47,6 +99,9 @@ Take any input and serialize them in a string.
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

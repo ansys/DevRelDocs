@@ -14,25 +14,78 @@ compute the normals at the given nodes or element scoping based on the given mes
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-| <strong>Pin 3</strong>|  field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [mesh](#input_0) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>3</strong> | [field](#input_3) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="input_0"></a>
+### mesh (Pin 0)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+
+
+<a id="input_1"></a>
+### mesh_scoping (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+
+
+<a id="input_3"></a>
+### field (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+
+
+<a id="output_0"></a>
+### field (Pin 0)
+
+- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: geo
 
@@ -47,6 +100,9 @@ compute the normals at the given nodes or element scoping based on the given mes
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>

@@ -14,27 +14,95 @@ Merges the fields of a fields container that share the same label value.
 
 ## Inputs
 
-| Input | Name | Expected type(s) | Description |
-|-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types) | Label identifier that should be merged. |
-| <strong>Pin 2</strong>|  merged_field_support |`abstract_field_support` | The FieldsContainer's support that has already been merged. |
-| <strong>Pin 3</strong>|  sum_merge |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Default is false. If true, redundant quantities are summed instead of being ignored. |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>1</strong> | [label](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [merged_field_support](#input_2) |  |`abstract_field_support` |
+| <strong>3</strong> | [sum_merge](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### fields_container (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="input_1"></a>
+### label (Pin 1)
+
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Label identifier that should be merged.
+
+<a id="input_2"></a>
+### merged_field_support (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** `abstract_field_support`
+
+The FieldsContainer's support that has already been merged.
+
+<a id="input_3"></a>
+### sum_merge (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Default is false. If true, redundant quantities are summed instead of being ignored.
+
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
-|-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-|  **Pin 1**| merged_field_support |`abstract_field_support` |  |
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [merged_field_support](#output_1) |`abstract_field_support` |
+
+
+<a id="output_0"></a>
+### fields_container (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+
+
+<a id="output_1"></a>
+### merged_field_support (Pin 1)
+
+- **Expected type(s):** `abstract_field_support`
+
+
+
 
 ## Configurations
 
-| Name| Expected type(s) | Default value | Description |
-|-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: utility
 
@@ -49,6 +117,9 @@ Merges the fields of a fields container that share the same label value.
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>
