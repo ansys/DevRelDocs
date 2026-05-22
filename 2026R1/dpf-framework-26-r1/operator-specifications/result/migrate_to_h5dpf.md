@@ -14,19 +14,23 @@ Read mesh properties from the results files contained in the streams or data sou
 
 ## Inputs
 
-| Pin number | Name | Expected type(s) |
-|-------|-------|------------------|
-| <strong>-7</strong>|  [h5_chunk_size](#input_-7) |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
-| <strong>-5</strong>|  [dataset_size_compression_threshold](#input_-5) |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
-| <strong>-2</strong>|  [h5_native_compression](#input_-2) |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
-| <strong>-1</strong>|  [export_floats](#input_-1) |[`bool`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
-| <strong>0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  [filename](#input_0) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong>|  [comma_separated_list_of_results](#input_1) |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong>|  [all_time_sets](#input_2) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong>|  [streams_container](#input_3) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong>|  [data_sources](#input_4) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>6</strong>|  [compression_workflow](#input_6) |[`workflow`](../../core-concepts/dpf-types.md#workflow), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
-| <strong>7</strong>|  [filtering_workflow](#input_7) |[`workflow`](../../core-concepts/dpf-types.md#workflow), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>-7</strong> | [h5_chunk_size](#input_-7) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+| <strong>-5</strong> | [dataset_size_compression_threshold](#input_-5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+| <strong>-2</strong> | [h5_native_compression](#input_-2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+| <strong>-1</strong> | [export_floats](#input_-1) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+| <strong>0</strong> | [filename](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> | [comma_separated_list_of_results](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [all_time_sets](#input_2) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>6</strong> | [compression_workflow](#input_6) |  |[`workflow`](../../core-concepts/dpf-types.md#workflow), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
+| <strong>7</strong> | [filtering_workflow](#input_7) |  |[`workflow`](../../core-concepts/dpf-types.md#workflow), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
 
 
 <a id="input_-7"></a>
@@ -120,6 +124,10 @@ Applies input filtering workflow.
 
 ## Outputs
 
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [migrated_file](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
@@ -135,8 +143,10 @@ Applies input filtering workflow.
 
 ## Configurations
 
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
-### mutex
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** false
@@ -146,6 +156,8 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 
 ## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
 
  **Category**: result
 
@@ -160,6 +172,9 @@ If this option is set to true, the shared memory is prevented from being simulta
  **License**: None
 
 ## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
 
 <details>
 <summary>C++</summary>
