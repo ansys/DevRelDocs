@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst, rth]
 ---
 
 # metadata:coordinate system data provider
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Reads coordinate systems data from the result files contained in the streams or data sources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst, rth 
 
 ## Inputs
 

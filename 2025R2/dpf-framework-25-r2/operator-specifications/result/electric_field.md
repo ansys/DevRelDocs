@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  lsdyna: [ms]
+  mapdl: [rst, rth]
 ---
 
 # result:electric field
@@ -11,6 +14,13 @@ license: None
 ## Description
 
 Read/compute electric field by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- lsdyna: ms 
+- mapdl: rst, rth 
 
 ## Inputs
 

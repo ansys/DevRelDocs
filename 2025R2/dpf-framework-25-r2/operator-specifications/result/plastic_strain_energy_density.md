@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst]
 ---
 
 # result:plastic strain energy density
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute element nodal plastic strain energy density by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst 
 
 ## Inputs
 

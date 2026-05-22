@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst, rth]
 ---
 
 # result:electric potential
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute electric Potential by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst, rth 
 
 ## Inputs
 

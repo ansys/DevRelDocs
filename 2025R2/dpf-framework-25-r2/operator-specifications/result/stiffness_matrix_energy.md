@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf, topo]
+  mapdl: [mode, rst, rth]
 ---
 
 # result:stiffness matrix energy
@@ -11,6 +14,13 @@ license: None
 ## Description
 
 Read/compute element energy associated with the stiffness matrix by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf, topo 
+- mapdl: mode, rst, rth 
 
 ## Inputs
 

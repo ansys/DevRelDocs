@@ -2,6 +2,10 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  lsdyna: [d3plot]
+  mapdl: [rst]
 ---
 
 # result:stress von mises
@@ -11,6 +15,14 @@ license: None
 ## Description
 
 Reads/computes element nodal component stresses, average it on nodes (by default) and computes its invariants.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- lsdyna: d3plot 
+- mapdl: rst 
 
 ## Inputs
 

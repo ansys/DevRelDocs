@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
 ---
 
 # result:mach number
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read Mach Number by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
 
 ## Inputs
 

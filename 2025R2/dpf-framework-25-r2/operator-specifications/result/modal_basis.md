@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  mapdl: [cms, dsub, mode, rfrq]
 ---
 
 # result:modal basis
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute modal basis by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: cms, dsub, mode, rfrq 
 
 ## Inputs
 

@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst]
 ---
 
 # metadata:material support provider
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Reads the material support.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: rst 
 
 ## Inputs
 
