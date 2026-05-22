@@ -2,6 +2,9 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  mapdl: [rst, rth]
 ---
 
 # metadata:cyclic support provider
@@ -11,6 +14,13 @@ license: None
 ## Description
 
 Read the cyclic support (DPF entity containing necessary information for expansions) and expands the mesh.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- mapdl: rst, rth 
 
 ## Inputs
 

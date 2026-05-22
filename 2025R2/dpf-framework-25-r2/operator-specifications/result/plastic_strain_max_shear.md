@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
 ---
 
 # result:plastic strain max_shear
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Reads/computes element nodal component plastic strains, average it on nodes (by default) and computes its invariants.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
 
 ## Inputs
 

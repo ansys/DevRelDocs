@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf, topo]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rth]
 ---
 
 # result:elemental volume
@@ -11,6 +14,13 @@ license: None
 ## Description
 
 Read/compute element volume by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf, topo 
+- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rth 
 
 ## Inputs
 

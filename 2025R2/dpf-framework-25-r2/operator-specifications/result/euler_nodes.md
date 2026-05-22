@@ -2,6 +2,9 @@
 category: result
 plugin: mapdl
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  mapdl: [mode, rst, rth]
 ---
 
 # result:euler nodes
@@ -11,6 +14,13 @@ license: None
 ## Description
 
 Reads a field made of 3 coordinates and 3 Euler angles (6 dofs) by node from the result file.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
+- mapdl: mode, rst, rth 
 
 ## Inputs
 

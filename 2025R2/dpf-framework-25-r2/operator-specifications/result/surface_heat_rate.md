@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
 ---
 
 # result:surface heat rate
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read Surface Heat Rate by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
 
 ## Inputs
 

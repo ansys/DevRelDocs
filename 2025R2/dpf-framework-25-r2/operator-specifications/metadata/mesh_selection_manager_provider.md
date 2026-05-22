@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  mapdl: [dsub, rdsp, rfrq, rst, rth]
 ---
 
 # metadata:mesh selection manager provider
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Reads mesh properties from the results files contained in the streams or data sources, and makes those properties available through a mesh selection manager in output.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: dsub, rdsp, rfrq, rst, rth 
 
 ## Inputs
 

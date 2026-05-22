@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
 ---
 
 # result:elastic strain principal 2
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute element nodal component elastic strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
 
 ## Inputs
 

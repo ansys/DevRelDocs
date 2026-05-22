@@ -2,6 +2,10 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf, topo]
+  lsdyna: [d3plot]
+  mapdl: [rst, rth]
 ---
 
 # result:heat flux
@@ -11,6 +15,14 @@ license: None
 ## Description
 
 Read/compute heat flux by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf, topo 
+- lsdyna: d3plot 
+- mapdl: rst, rth 
 
 ## Inputs
 

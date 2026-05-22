@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
 ---
 
 # result:velocity Z
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute nodal velocities Z component of the vector (3rd component) by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- hdf5: h5dpf 
 
 ## Inputs
 
