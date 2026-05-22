@@ -1,4 +1,4 @@
-# Operator Specifications
+# Operator specifications
 
 - [Averaging operators](averaging/averaging_category.md)
 

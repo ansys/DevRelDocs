@@ -1,4 +1,4 @@
-# Operator Specifications
+# Operator specifications
 
 This section provides comprehensive specification documentation for all DPF operators, organized by functional category.
 
