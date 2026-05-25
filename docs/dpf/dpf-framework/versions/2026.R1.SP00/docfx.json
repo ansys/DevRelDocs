@@ -6,7 +6,8 @@
             "version": "2026 R1",
             "product": "DPF",
             "programming language": "C++",
-            "physics": "Multiphysics, Structures, Fluids"
+            "physics": "Multiphysics, Structures, Fluids",
+            "is dpf context": true
         }
     }
 }

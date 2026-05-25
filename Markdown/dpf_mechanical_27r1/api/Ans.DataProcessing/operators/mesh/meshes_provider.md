@@ -1,0 +1,82 @@
+---
+uid: Ans.DataProcessing.operators.mesh.meshes_provider
+---
+
+# *class* meshes_provider(time_scoping: object = None, streams_container: object = None, data_sources: object = None, config: OperatorConfig = None)
+
+Reads meshes from result files. Meshes can be spatially or temporally varying.
+
+The operator attempts to read mesh data from the provided data sources. When the `permissive` configuration is enabled, the operator silently skips result files that cannot be opened or have unsupported namespaces. If `permissive` is disabled (default), errors are thrown for invalid files.
+
+available inputs: `time_scoping` (Scoping, IList int, Int32, System.Collections.IEnumerable) (optional), `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources), `read_cyclic` (Int32) (optional), `region_scoping` (Scoping, Int32, IList int, System.Collections.IEnumerable) (optional)
+
+available outputs: `meshes` (MeshesContainer)
+
+**DPF Framework Reference:** [meshes_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/meshes_provider.md)
+
+**Parameters:**
+
+* **time_scoping**
+* **streams_container**
+* **data_sources**
+* **config**
+
+**Example:**
+
+```python
+op = meshes_provider()
+
+op = meshes_provider(time_scoping=my_time_scoping,streams_container=my_streams_container,data_sources=my_data_sources)
+```
+
+## Inputs
+
+### time_scoping
+
+Time/frequency set IDs required in output.
+
+**Type:** *LinkableInput*
+
+### streams_container
+
+result file container allowed to be kept open to cache data
+
+**Type:** *LinkableInput*
+
+### data_sources
+
+**Type:** *LinkableInput*
+
+### read_cyclic
+
+if 1, cyclic symmetry is ignored. If 2, cyclic expansion is done (default is 1).
+
+**Type:** *LinkableInput*
+
+### region_scoping
+
+region id (integer) or vector of region ids (vector) or region scoping (scoping) of the model (region corresponds to zone for Fluid results or part for LSDyna results).
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### meshes
+
+**Type:** *LinkableOutput*
+
+## Methods
+
+## Properties
+
+#### *property* inputs: InputSpec
+
+*get/set*
+
+#### *property* outputs: OutputSpec
+
+*get/set*
+
+#### *property* defaultConfig: Config
+
+*get*
