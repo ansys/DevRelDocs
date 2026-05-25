@@ -20,14 +20,17 @@
 
 - 3D energy density sensor
 - LiDAR sensor
+- Timeline parameters in sensor
 - Thermic unit of FLIR thermal camera sensor
 
 ### Components
 
+- Timeline parameters in Speos Lightbox
 - Speos pattern from Speos Lightbox <!--1175652-->
 
 ### Simulations
 
+- Simulation with Timeline <!--1161170-->
 - Light Expert
 - RayTracer selection for simulation
 - Multi-GPU compute
