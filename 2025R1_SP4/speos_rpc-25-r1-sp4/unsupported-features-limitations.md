@@ -7,7 +7,7 @@
 - Texture mapping & Texture option in simulation <!--1161101-->
 - Load of scene using unsupported file as rdr file
 - Non-homogeneous material <!--1145503-->
-- Polarizer file <!--1175078-->
+- Polarization plate <!--1175078-->
 
 ### Sources
 
@@ -24,7 +24,6 @@
 - 3D energy density sensor
 - LiDAR sensor
 - Sensor template
-- Camera sensor on specific mode (Geometric/Balance None/Balance Grey world)
 - Timeline parameters in sensor
 - Thermic unit of FLIR thermal camera sensor
 
@@ -39,7 +38,6 @@
 - Simulation with Timeline <!--1161170-->
 -  Light Expert
 - Texture option in simulation
-- Output faces in Irradiance sensor & IN/Out sources in simulation (only available with exported simulation, not natively)
 - RayTracer selection for simulation 
 - Multi-GPU compute
 - Fast Transmission Gathering (FTG) usage
