@@ -90,7 +90,7 @@ displacement_op.inputs.time_scoping([1])  # Get results for time step 1
 
 **How inputs work**: Each operator has named input pins (like `data_sources`, `time_scoping`, `mesh_scoping`). You connect data to these pins using the `inputs` attribute.
 
-## The Operator API
+##### The Operator API
 Python makes connecting inputs simple by providing named properties like `inputs.data_sources()` and `inputs.time_scoping()`. This is a Python-specific convenience feature.
 
 The underlying C++ API uses a more direct approach: `operator.connect(pin_number, object)`, where you specify the pin number (0, 1, 2, etc.) instead of a name. For example:
@@ -250,8 +250,8 @@ Here's a concrete example showing how operators connect to calculate total defor
 ![Workflow example](../../images/workflow-example.drawio.svg)
 
 **What this workflow does**:
-1. **displacement operator**: Extracts displacement field from result file (vector with X, Y, Z components)
-2. **norm operator**: Calculates magnitude of displacement vector (scalar representing total deformation)
+1. **displacement operator**: Extracts nodal displacement fields from result file (vector with X, Y, Z components)
+2. **norm_fc operator**: Calculates magnitude of displacement vector for each field (scalar representing total deformation)
 
 **Result**: A FieldsContainer with total deformation values at each node.
 
@@ -280,7 +280,7 @@ norm_op.inputs.fields_container.connect(displacement_op.outputs.fields_container
 # Add operators to workflow
 workflow.add_operators([displacement_op, norm_op])
 
-# Expose workflow inputs and outputs using input pin objects
+# Expose some operator inputs and outputs as workflow inputs and outputs
 workflow.set_input_name("data_sources", displacement_op.inputs.data_sources)
 workflow.set_input_name("time_scoping", displacement_op.inputs.time_scoping)
 workflow.set_output_name("total_deformation", norm_op.outputs.fields_container)
@@ -295,7 +295,7 @@ total_def = workflow.get_output("total_deformation", types.fields_container)
 print(total_def)
 ```
 
-## The `types` module
+##### The `types` module
 The second argument to `workflow.get_output()` (and operator output evaluation) tells DPF what Python type to return. Common values:
 
 - `types.fields_container`: returns a `FieldsContainer`
@@ -687,7 +687,7 @@ Workflow reusability demonstrated:
 
 </details>
 
-### Going further
+## Going further
 
 Now that you understand operators and workflows, explore these advanced topics:
 
