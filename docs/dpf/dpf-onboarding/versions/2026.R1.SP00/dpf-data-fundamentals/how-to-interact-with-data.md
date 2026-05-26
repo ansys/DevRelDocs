@@ -46,7 +46,7 @@ Here are a few category examples:
 DPF provides hundreds of operators. You can explore them in the [Operators Reference](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/operator-specifications.md) documentation.
 
 **How to find the right operator**:
-1. **Search by keyword**: Use the top-right search box (e.g., "average", "displacement", "extract"). Filter on **Structures** and **Developer Portal** as well as your installation **Version**.
+1. **Search by keyword**: Use the top-right search box (e.g., "average", "displacement", "extract"). Filter on **Multiphysics, Structures, Fluids** and **Developer Portal** as well as your installation **Version**.
 
    ![Global keyword search](../../images/global_keyword_search.png)
 
