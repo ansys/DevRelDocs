@@ -117,7 +117,7 @@ ansys::dpf::Streams::Streams(Streams const &)
 
 **Parameters**:
 
-* Streams const &
+* [Streams](classansys-dpf-streams.md#classansys-dpf-streams) const &
 
 **Return type**: 
 
@@ -146,7 +146,7 @@ ansys::dpf::Streams::Streams(Streams &&) noexcept
 
 **Parameters**:
 
-* Streams &&
+* [Streams](classansys-dpf-streams.md#classansys-dpf-streams) &&
 
 **Return type**: 
 
@@ -169,14 +169,14 @@ ansys::dpf::Streams::Streams(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [Streams](classansys-dpf-streams.md#classansys-dpf-streams) on a server.
+Retrieve an existing instance of [Streams](classansys-dpf-streams.md#classansys-dpf-streams) on a server. <br/>
 
 
 
 **Parameters**:
 
 * int **id**: [in] Id of the [Streams](classansys-dpf-streams.md#classansys-dpf-streams) on the server's database.
-* Client const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
 **Return type**: 
 
@@ -205,9 +205,9 @@ Streams & ansys::dpf::Streams::operator=(Streams const &)
 
 **Parameters**:
 
-* Streams const &
+* [Streams](classansys-dpf-streams.md#classansys-dpf-streams) const &
 
-**Return type**: Streams &
+**Return type**: [Streams](classansys-dpf-streams.md#classansys-dpf-streams) &
 
 <!--
 **TODO**:
@@ -234,9 +234,9 @@ Streams & ansys::dpf::Streams::operator=(Streams &&) noexcept
 
 **Parameters**:
 
-* Streams &&
+* [Streams](classansys-dpf-streams.md#classansys-dpf-streams) &&
 
-**Return type**: Streams &
+**Return type**: [Streams](classansys-dpf-streams.md#classansys-dpf-streams) &
 
 <!--
 **TODO**:
@@ -318,7 +318,7 @@ Add external stream.
 **Parameters**:
 
 * [ExternalStream](classansys-dpf-externalstream.md#classansys-dpf-externalstream) * **stream**: [in] External stream to add.
-* LabelSpace const & **identifier**: [in] Identifier returned by the data sources.
+* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **identifier**: [in] Identifier returned by the data sources.
 
 **Return type**: void
 
@@ -379,7 +379,7 @@ ExternalStreamType *const ansys::dpf::Streams::getExternalStream(LabelSpace cons
 
 **Parameters**:
 
-* LabelSpace const & **identifier**
+* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **identifier**
 
 **Return type**: ExternalStreamType *const
 
@@ -439,7 +439,7 @@ Empty [Streams](classansys-dpf-streams.md#classansys-dpf-streams).
 
 
 
-**Return type**: Streams
+**Return type**: [Streams](classansys-dpf-streams.md#classansys-dpf-streams)
 
 <!--
 **TODO**:

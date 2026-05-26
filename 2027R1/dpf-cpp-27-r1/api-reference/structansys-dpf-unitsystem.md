@@ -187,7 +187,7 @@ bool ansys::dpf::UnitSystem::operator==(UnitSystem const &rhs) const
 
 **Parameters**:
 
-* [UnitSystem](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem-1a87331afc8cfb97200f342280fd49e536) const & **rhs**
+* [UnitSystem](structansys-dpf-unitsystem.md#structansys-dpf-unitsystem) const & **rhs**
 
 **Return type**: bool
 

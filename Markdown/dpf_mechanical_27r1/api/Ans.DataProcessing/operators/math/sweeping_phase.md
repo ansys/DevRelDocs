@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.sweeping_phase
 
 # *class* sweeping_phase(real_field: object = None, imaginary_field: object = None, angle: object = None, unit_name: object = None, abs_value: object = None, imaginary_part_null: object = None, config: OperatorConfig = None)
 
-Shifts the phase of a real and an imaginary field (in 0 and 1) of a given angle (in 3) of a unit (in 4). The resulting field is computed as field_out = real_field`*`cos(angle) - imaginary_field`*`sin(angle).
+Projects a [phasor](https://en.wikipedia.org/wiki/Phasor) field onto a given phase angle $\theta$:
+
+$\mathrm{out}[i] = \mathrm{fieldReal}[i] \cdot \cos(\theta) - \mathrm{fieldImaginary}[i] \cdot \sin(\theta)$.
+
+When pin 4 is true, the absolute value of the projection is returned instead.
+
+If the imaginary field is absent and pin 5 is true, the imaginary part is treated as zero.
 
 available inputs: `real_field` (Field, FieldsContainer), `imaginary_field` (Field, FieldsContainer), `angle` (double), `unit_name` (string) (optional), `abs_value` (bool), `imaginary_part_null` (bool)
 
@@ -46,6 +52,8 @@ field or fields container with only one field is expected
 
 ### angle
 
+Phase angle $\theta$ to project onto, in the unit specified by pin 3 (default: radians).
+
 **Type:** *LinkableInput*
 
 ### unit_name
@@ -55,6 +63,8 @@ String Unit. Supported values: "deg" or "rad". Default: "rad".
 **Type:** *LinkableInput*
 
 ### abs_value
+
+If true, the absolute value of the projection is returned (default: false).
 
 **Type:** *LinkableInput*
 
@@ -67,6 +77,8 @@ If the imaginary part field is empty and this pin is true, then the imaginary pa
 ## Outputs
 
 ### field
+
+Projected field $\mathrm{fieldReal} \cdot \cos(\theta) - \mathrm{fieldImaginary} \cdot \sin(\theta)$, with the unit of pin 0.
 
 **Type:** *LinkableOutput*
 

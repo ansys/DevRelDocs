@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.amplitude
 
 # *class* amplitude(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-Computes amplitude of a real and an imaginary field.
+Computes the [complex modulus](https://en.wikipedia.org/wiki/Absolute_value#Complex_numbers) (amplitude)
+
+of a complex quantity given as separate real and imaginary fields:
+
+$\mathrm{out}[i] = \sqrt{A[i]^2 + B[i]^2}$.
+
+The output carries the unit of pin A.
 
 available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
 
@@ -43,6 +49,8 @@ field or fields container with only one field is expected
 ## Outputs
 
 ### field
+
+Scalar field with $\sqrt{A[i]^2 + B[i]^2}$ for each data entry, carrying the unit of pin A.
 
 **Type:** *LinkableOutput*
 

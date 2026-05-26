@@ -35,7 +35,7 @@ field or fields container with only one field is expected
 
 ### field
 
-Field containing the element-wise sum of the two input fields
+Field whose data equals $A[i] + B[i]$, with pin A's unit.
 
 **Type:** *LinkableOutput*
 

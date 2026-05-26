@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.ln_fc
 
 # *class* ln_fc(fields_container: object = None, config: OperatorConfig = None)
 
-Computes element-wise ln(field[i]).
+Computes the entity-wise [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm):
+
+$\mathrm{out}[i] = \ln(\mathrm{in}[i])$.
+
+The input must be dimensionless; a dimensional input raises an error.
+
+The output is dimensionless.
 
 available inputs: `fields_container` (FieldsContainer)
 
@@ -29,7 +35,7 @@ op = ln_fc(fields_container=my_fields_container)
 
 ### fields_container
 
-field or fields container with only one field is expected
+Dimensionless field, fields container, or numeric data.
 
 **Type:** *LinkableInput*
 
@@ -37,7 +43,7 @@ field or fields container with only one field is expected
 
 ### fields_container
 
-Field with natural logarithm values applied element-wise
+Dimensionless field with $\ln(\mathrm{in}[i])$ for each data entry.
 
 **Type:** *LinkableOutput*
 

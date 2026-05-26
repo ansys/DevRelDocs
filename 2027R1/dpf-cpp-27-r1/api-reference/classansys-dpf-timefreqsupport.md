@@ -129,7 +129,7 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) on a server.
+Retrieve an existing instance of [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) on a server. <br/>
 
 
 
@@ -190,7 +190,7 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport const &)
 
 **Parameters**:
 
-* TimeFreqSupport const &
+* [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) const &
 
 **Return type**: 
 
@@ -219,7 +219,7 @@ ansys::dpf::TimeFreqSupport::TimeFreqSupport(TimeFreqSupport &&) noexcept
 
 **Parameters**:
 
-* TimeFreqSupport &&
+* [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) &&
 
 **Return type**: 
 
@@ -248,9 +248,9 @@ TimeFreqSupport & ansys::dpf::TimeFreqSupport::operator=(TimeFreqSupport const &
 
 **Parameters**:
 
-* TimeFreqSupport const &
+* [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) const &
 
-**Return type**: TimeFreqSupport &
+**Return type**: [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) &
 
 <!--
 **TODO**:
@@ -277,9 +277,9 @@ TimeFreqSupport & ansys::dpf::TimeFreqSupport::operator=(TimeFreqSupport &&) noe
 
 **Parameters**:
 
-* TimeFreqSupport &&
+* [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) &&
 
-**Return type**: TimeFreqSupport &
+**Return type**: [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) &
 
 <!--
 **TODO**:
@@ -622,7 +622,7 @@ Field ansys::dpf::TimeFreqSupport::frequencies() const
 
 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -650,7 +650,7 @@ Field ansys::dpf::TimeFreqSupport::imaginaryFrequencies() const
 
 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -678,7 +678,7 @@ RPMS associated with time frequency.
 
 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -710,7 +710,7 @@ Harmonic indices associated with time frequency.
 
 * [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stage** = 0 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -738,7 +738,7 @@ substep id associated with time frequency.
 
 
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -821,7 +821,7 @@ Set time frequency from given field.
 
 **Parameters**:
 
-* Field **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set time frequency.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set time frequency.
 
 **Return type**: void
 
@@ -850,7 +850,7 @@ Set imaginary part of time frequency from given field.
 
 **Parameters**:
 
-* Field **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
 
 **Return type**: void
 
@@ -879,7 +879,7 @@ Set rpms of time frequency support from given field.
 
 **Parameters**:
 
-* Field **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
 
 **Return type**: void
 
@@ -908,7 +908,7 @@ Set harmonic indices of time frequency support from given field for a specified 
 
 **Parameters**:
 
-* Field **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) **field**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) from which to set imaginary part of time frequency.
 * [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **stage** = 0 : [in] Optional stage number (default is 0).
 
 **Return type**: void
@@ -1007,7 +1007,7 @@ Create a new [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: TimeFreqSupport
+**Return type**: [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport)
 
 <!--
 **TODO**:
@@ -1035,7 +1035,7 @@ static TimeFreqSupport ansys::dpf::TimeFreqSupport::emptyTimeFreqSupport()
 
 
 
-**Return type**: TimeFreqSupport
+**Return type**: [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport)
 
 <!--
 **TODO**:

@@ -29,6 +29,7 @@ Contains a group of custom type fields. The [CustomTypeFieldsContainer](classans
 * [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a43cc23b4378cbda69c2df6b40351e20c)
 * [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a7d3eff103026eee8324abdf0874b9bc1)
 * [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a6549470b067faacff7505e4304d80da5)
+* [deep_copy](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1ab9870d9dc81e8da939c8165e4133b85f)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyCustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a0c1698f9c74ae209656e11454723670d)
@@ -39,7 +40,7 @@ Contains a group of custom type fields. The [CustomTypeFieldsContainer](classans
 * [getLabelSpace](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a66d62492d07889a95a5d10f9d827cd11)
 * [getMatchingCustomTypeField](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a9a2fc0eca540a4ee8fc7682302093110)
 * [getMatchingCustomTypeFieldIndices](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a15fe40c6913c4df3853af4bee4d6375b)
-* [getSizeFor](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer-1a0c526ddb5e50c14c564b2c68ece091e4)
+* [getSizeFor](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1aab65999d65acb4eab6aa7375266e5456)
 * [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
 * [hasInternalObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ae198f89868d85c7db6dc1a934a1d3c15)
 * [hasLabel](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a82ac9433fd3963b37b07989ef05de331)
@@ -138,7 +139,7 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeField
 
 **Parameters**:
 
-* CustomTypeFieldsContainer const &
+* [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) const &
 
 **Return type**: 
 
@@ -167,7 +168,7 @@ ansys::dpf::CustomTypeFieldsContainer::CustomTypeFieldsContainer(CustomTypeField
 
 **Parameters**:
 
-* CustomTypeFieldsContainer &&
+* [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) &&
 
 **Return type**: 
 
@@ -225,9 +226,9 @@ CustomTypeFieldsContainer & ansys::dpf::CustomTypeFieldsContainer::operator=(Cus
 
 **Parameters**:
 
-* CustomTypeFieldsContainer const &
+* [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) const &
 
-**Return type**: CustomTypeFieldsContainer &
+**Return type**: [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) &
 
 <!--
 **TODO**:
@@ -254,9 +255,9 @@ CustomTypeFieldsContainer & ansys::dpf::CustomTypeFieldsContainer::operator=(Cus
 
 **Parameters**:
 
-* CustomTypeFieldsContainer &&
+* [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) &&
 
-**Return type**: CustomTypeFieldsContainer &
+**Return type**: [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) &
 
 <!--
 **TODO**:
@@ -417,38 +418,6 @@ Add [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtyp
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::add"}]}`
--->
-
-<a id="classansys-dpf-customtypefieldscontainer-1a0c526ddb5e50c14c564b2c68ece091e4"></a>
-### Function getSizeFor
-
-![][public]
-![][const]
-
-
-```cpp
-dp_int ansys::dpf::CustomTypeFieldsContainer::getSizeFor(LabelSpace const &label_space) const
-```
-
-
-
-
-**Returns**:
-
-Number of CustomTypeFields for given label space.
-
-
-
-**Parameters**:
-
-* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **label_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to get number of entities.
-
-**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::getSizeFor"}]}`
 -->
 
 <a id="classansys-dpf-customtypefieldscontainer-1a43329515b1faf96f24540fb28876d9c9"></a>
@@ -631,12 +600,42 @@ create a [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**
 
-**Return type**: CustomTypeFieldsContainer
+**Return type**: [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer)
 
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::createSubCustomTypeFieldsContainer"}]}`
+-->
+
+<a id="classansys-dpf-customtypefieldscontainer-1ab9870d9dc81e8da939c8165e4133b85f"></a>
+### Function deep_copy
+
+![][public]
+![][const]
+
+
+```cpp
+CustomTypeFieldsContainer ansys::dpf::CustomTypeFieldsContainer::deep_copy(ansys::dpf::Client const *const client=nullptr) const
+```
+
+
+
+
+Create a new [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer) on a server by copying all the data of this [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer).
+
+
+
+**Parameters**:
+
+* [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
+
+**Return type**: [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeFieldsContainer::deep_copy"}]}`
 -->
 
 ## Public static functions
@@ -662,7 +661,7 @@ Empty container.
 
 
 
-**Return type**: CustomTypeFieldsContainer
+**Return type**: [CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer)
 
 <!--
 **TODO**:

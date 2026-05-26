@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.sqrt
 
 # *class* sqrt(field: object = None, config: OperatorConfig = None)
 
-Computes element-wise square root function on field data: sqrt(field[i]).
+Computes the entity-wise square root
+
+([Hadamard root](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Analogous_operations)):
+
+$\mathrm{out}[i] = \sqrt{\mathrm{in}[i]}$.
+
+All input values must be non-negative; a negative value raises an error.
+
+The output unit is $\sqrt{u}$ where $u$ is the input unit.
 
 available inputs: `field` (Field, FieldsContainer)
 
@@ -29,7 +37,7 @@ op = sqrt(field=my_field)
 
 ### field
 
-Field or fields container containing numeric data for square root calculation
+Field or fields container containing non-negative numeric data.
 
 **Type:** *LinkableInput*
 
@@ -37,7 +45,7 @@ Field or fields container containing numeric data for square root calculation
 
 ### field
 
-Field with square root values applied element-wise to input data
+Field with $\sqrt{\mathrm{in}[i]}$ for each data entry; unit is $\sqrt{u}$, where $u$ is the input unit.
 
 **Type:** *LinkableOutput*
 

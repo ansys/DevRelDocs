@@ -12,9 +12,9 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 ## Inner classes
 
 * [ansys::dpf::core::FbsServerData](structansys-dpf-core-fbsserverdata.md#structansys-dpf-core-fbsserverdata)
-* [ansys::dpf::core::trace](structansys-dpf-core-trace.md#structansys-dpf-core-trace)
-* [ansys::dpf::core::path_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
 * [ansys::dpf::core::logging](structansys-dpf-core-logging.md#structansys-dpf-core-logging)
+* [ansys::dpf::core::path_utilities](structansys-dpf-core-path-utilities.md#structansys-dpf-core-path-utilities)
+* [ansys::dpf::core::trace](structansys-dpf-core-trace.md#structansys-dpf-core-trace)
 
 ## Members
 
@@ -1346,7 +1346,7 @@ Connects to a fbs server in this process or in the process targeted by "client".
 * std::string const & **address**
 * const [Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
 
-**Return type**: FbsClient
+**Return type**: [FbsClient](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -1376,7 +1376,7 @@ Connects to a fbs server in this process.
 
 * const opaque::FbsChannel * **channel**
 
-**Return type**: FbsClient
+**Return type**: [FbsClient](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:

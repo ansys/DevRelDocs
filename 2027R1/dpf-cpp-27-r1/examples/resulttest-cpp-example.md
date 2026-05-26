@@ -19,6 +19,76 @@ Examples showing how to access results data in an RST file.
 
 using namespace ansys::dpf;
 
+TEST(FieldsContainerGetName, GetResultName)
+{
+    std::string fileName = (unit_test_helper::unitTestPath() / "rst_operators/simpleModel.rst").string();
+
+    ansys::dpf::DataSources ds;
+    ds.addResultFile(fileName);
+
+    ansys::dpf::Operator displacementOp("U");
+    displacementOp.connect(eDataSourcesPin, ds);
+
+    ansys::dpf::FieldsContainer fc = displacementOp.getOutputFieldsContainer(0);
+
+    EXPECT_FALSE(fc.name().empty());;
+
+    EXPECT_EQ(fc.size(), 1);
+
+    ansys::dpf::Field field = fc.at(0);
+    const std::string expectedName = "displacement_1.s";
+    EXPECT_EQ(field.name(), expectedName);
+}
+
+TEST(FieldsContainerGetName, GetResultNameDifferentOp)
+{
+    std::string fileName = (unit_test_helper::unitTestPath() / "rst_operators/simpleModel.rst").string();
+
+    ansys::dpf::DataSources ds;
+    ds.addResultFile(fileName);
+
+    // Displacement
+    ansys::dpf::Operator displacementOp("U");
+    displacementOp.connect(eDataSourcesPin, ds);
+    ansys::dpf::FieldsContainer fcDisplacement = displacementOp.getOutputFieldsContainer(0);
+
+    // Stress
+    ansys::dpf::Operator stressOp("S");
+    stressOp.connect(eDataSourcesPin, ds);
+    ansys::dpf::FieldsContainer fcStress = stressOp.getOutputFieldsContainer(0);
+
+    EXPECT_FALSE(fcDisplacement.name().empty());
+    EXPECT_FALSE(fcStress.name().empty());
+
+    EXPECT_NE(fcDisplacement.name(), fcStress.name());
+}
+
+TEST(FieldsContainerGetName, GetResultNameWithLabels)
+{
+    std::string fileName = (unit_test_helper::unitTestPath() / "rst_operators/harmonic_simple/file.rst").string();
+
+    ansys::dpf::DataSources ds;
+    ds.addResultFile(fileName);
+
+    std::vector<int> timeScoping{1, 2, 3};
+
+    ansys::dpf::Operator displacementOp("U");
+    displacementOp.connect(eDataSourcesPin, ds);
+    displacementOp.connect(eTimeScopPin, timeScoping);
+
+    ansys::dpf::FieldsContainer fcDisplacement = displacementOp.getOutputFieldsContainer(0);
+
+    EXPECT_EQ(fcDisplacement.size(), 6);
+
+    EXPECT_EQ(fcDisplacement.name(), std::string("displacement(s)"));
+
+    EXPECT_EQ(fcDisplacement.at(0).name(), std::string("displacement_33.333333Hz_real"));
+    EXPECT_EQ(fcDisplacement.at(1).name(), std::string("displacement_33.333333Hz_imaginary"));
+    EXPECT_EQ(fcDisplacement.at(2).name(), std::string("displacement_66.666667Hz_real"));
+    EXPECT_EQ(fcDisplacement.at(3).name(), std::string("displacement_66.666667Hz_imaginary"));
+    EXPECT_EQ(fcDisplacement.at(4).name(), std::string("displacement_100.Hz_real"));
+    EXPECT_EQ(fcDisplacement.at(5).name(), std::string("displacement_100.Hz_imaginary"));
+}
 TEST(result_info, DimensionalityNature_Homogeneity_AnalysisType_PhysicsType_unitSystem)
 {
     std::string fileName("../../../testfiles/mapdl_files/TwoSolids.rst");
@@ -53,7 +123,7 @@ TEST(result_info, DimensionalityNature_Homogeneity_AnalysisType_PhysicsType_unit
     EXPECT_EQ(std::string(unit_res.homogeneity().c_str()), std::string("Displacement"));
 
     // Force
-    res_name = "Force";
+    res_name = "Reaction Force";
     unit_res = res_info.unit(res_name);
     EXPECT_EQ(std::string(unit_res.homogeneity().c_str()), std::string("Force"));
 

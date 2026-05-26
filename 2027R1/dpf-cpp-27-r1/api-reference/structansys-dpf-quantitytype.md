@@ -72,7 +72,7 @@ ansys::dpf::QuantityType::QuantityType(QuantityType const &)=default
 
 **Parameters**:
 
-* QuantityType const &
+* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype) const &
 
 **Return type**: 
 
@@ -102,7 +102,7 @@ bool ansys::dpf::QuantityType::operator==(QuantityType const &) const
 
 **Parameters**:
 
-* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1aad0ded6e541fc561a3c3d1c28cdcaf3f) const &
+* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype) const &
 
 **Return type**: bool
 
@@ -132,7 +132,7 @@ bool ansys::dpf::QuantityType::operator<(QuantityType const &) const
 
 **Parameters**:
 
-* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1aad0ded6e541fc561a3c3d1c28cdcaf3f) const &
+* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype) const &
 
 **Return type**: bool
 
@@ -162,7 +162,7 @@ bool ansys::dpf::QuantityType::operator<=(QuantityType const &) const
 
 **Parameters**:
 
-* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1aad0ded6e541fc561a3c3d1c28cdcaf3f) const &
+* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype) const &
 
 **Return type**: bool
 
@@ -192,7 +192,7 @@ bool ansys::dpf::QuantityType::operator!=(QuantityType const &) const
 
 **Parameters**:
 
-* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype-1aad0ded6e541fc561a3c3d1c28cdcaf3f) const &
+* [QuantityType](structansys-dpf-quantitytype.md#structansys-dpf-quantitytype) const &
 
 **Return type**: bool
 

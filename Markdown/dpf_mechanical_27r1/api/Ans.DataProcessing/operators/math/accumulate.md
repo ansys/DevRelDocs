@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.accumulate
 
 # *class* accumulate(fieldA: object = None, weights: object = None, time_scoping: object = None, config: OperatorConfig = None)
 
-Sums all the elementary data of a field to produce one elementary data point.
+Reduces a field to a single entity by summing all entity data component-wise.
+
+Without weights: $\mathrm{out}[c] = \sum_k \mathrm{field}[k, c]$ for each component $c$.
+
+With an optional weights field (pin 1): $\mathrm{out}[c] = \sum_k w_k \cdot \mathrm{field}[k, c]$,
+
+where $w_k$ is the weight for entity $k$.
+
+The weights field must be a scalar (1D) field providing one weight per entity.
 
 available inputs: `fieldA` (Field, FieldsContainer), `weights` (Field) (optional), `time_scoping` (Scoping) (optional)
 
@@ -49,7 +57,7 @@ Deprecated alias of: weights
 
 ### time_scoping
 
-time_scoping
+Optional scoping that sets the output entity's location and ID.
 
 **Type:** *LinkableInput*
 
@@ -57,7 +65,7 @@ time_scoping
 
 ### field
 
-Field containing the (weighted) sum for each component in an elementary data
+Field with one entity containing the (weighted) component sums $\sum_k w_k \cdot \mathrm{field}[k, c]$ for each component $c$.
 
 **Type:** *LinkableOutput*
 
