@@ -67,7 +67,6 @@ Using an operator involves three steps:
 Create an instance of the operator you want to use:
 
 ```python
-from ansys.dpf import core as dpf
 from ansys.dpf.core import operators as ops
 
 # Create a displacement operator
