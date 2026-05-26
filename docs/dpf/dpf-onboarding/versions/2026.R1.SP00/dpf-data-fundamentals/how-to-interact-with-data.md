@@ -46,7 +46,7 @@ Here are a few category examples:
 DPF provides hundreds of operators. You can explore them in the [Operators Reference](https://developer.ansys.com/docs/dpf-framework-2026-r1/operator-specifications/operator-specifications.md) documentation.
 
 **How to find the right operator**:
-1. **Search by keyword**: Use the top-right search box (e.g., "average", "displacement", "extract"). Filter on **Structures** and **Developer Portal** as well as your installation **Version**.
+1. **Search by keyword**: Use the top-right search box (e.g., "average", "displacement", "extract"). Filter on **Multiphysics, Structures, Fluids** and **Developer Portal** as well as your installation **Version**.
 
    ![Global keyword search](../../images/global_keyword_search.png)
 
@@ -67,7 +67,6 @@ Using an operator involves three steps:
 Create an instance of the operator you want to use:
 
 ```python
-from ansys.dpf import core as dpf
 from ansys.dpf.core import operators as ops
 
 # Create a displacement operator
@@ -91,7 +90,7 @@ displacement_op.inputs.time_scoping([1])  # Get results for time step 1
 
 **How inputs work**: Each operator has named input pins (like `data_sources`, `time_scoping`, `mesh_scoping`). You connect data to these pins using the `inputs` attribute.
 
-## The Operator API
+##### The Operator API
 Python makes connecting inputs simple by providing named properties like `inputs.data_sources()` and `inputs.time_scoping()`. This is a Python-specific convenience feature.
 
 The underlying C++ API uses a more direct approach: `operator.connect(pin_number, object)`, where you specify the pin number (0, 1, 2, etc.) instead of a name. For example:
@@ -190,9 +189,9 @@ Understanding common operator patterns helps you chain them together effectively
 | DataSources → FieldsContainer | `result.displacement` | Extract results from files |
 | DataSources → MeshedRegion | `mesh.mesh_provider` | Extract mesh from files |
 | FieldsContainer → FieldsContainer | `math.add`, `math.scale` | Transform existing fields |
-| FieldsContainer → Field | `min_max::min_max_fc` | Reduce multiple fields to one |
-| Field → float | `min_max::min_max` | Get single values from fields |
-| MeshedRegion + Scoping → MeshedRegion | `mesh::from_scoping` | Extract mesh subsets |
+| FieldsContainer → Field | `min_max.min_max_fc` | Reduce multiple fields to one |
+| Field → float | `min_max.min_max` | Get single values from fields |
+| MeshedRegion + Scoping → MeshedRegion | `mesh.from_scoping` | Extract mesh subsets |
 
 ### Common operators you'll use
 
@@ -205,6 +204,7 @@ Here are operators you'll encounter frequently:
 
 **Mesh extraction**:
 - `operators.mesh.mesh_provider()`: Get mesh data
+- `operators.mesh.meshes_provider()`: Get mesh data as a collection
 
 **Mathematical operations**:
 - `operators.math.add()`: Add two fields
@@ -216,7 +216,9 @@ Here are operators you'll encounter frequently:
 - `operators.min_max.min_max_fc()`: Find the minimum and maximum over all fields in a FieldsContainer - exposes two Field outputs: `outputs.field_min` and `outputs.field_max`
 
 **Filtering and scoping**:
-- `operators.scoping.rescope()`: Extract data for specific entities
+- `operators.scoping.rescope()`: Changes the scoping of a Field
+
+**Averaging**:
 - `operators.averaging.elemental_nodal_to_nodal()`: Average ElementalNodal to Nodal
 
 **Utility**:
@@ -248,8 +250,8 @@ Here's a concrete example showing how operators connect to calculate total defor
 ![Workflow example](../../images/workflow-example.drawio.svg)
 
 **What this workflow does**:
-1. **displacement operator**: Extracts displacement field from result file (vector with X, Y, Z components)
-2. **norm operator**: Calculates magnitude of displacement vector (scalar representing total deformation)
+1. **displacement operator**: Extracts nodal displacement fields from result file (vector with X, Y, Z components)
+2. **norm_fc operator**: Calculates magnitude of displacement vector for each field (scalar representing total deformation)
 
 **Result**: A FieldsContainer with total deformation values at each node.
 
@@ -278,7 +280,7 @@ norm_op.inputs.fields_container.connect(displacement_op.outputs.fields_container
 # Add operators to workflow
 workflow.add_operators([displacement_op, norm_op])
 
-# Expose workflow inputs and outputs using input pin objects
+# Expose some operator inputs and outputs as workflow inputs and outputs
 workflow.set_input_name("data_sources", displacement_op.inputs.data_sources)
 workflow.set_input_name("time_scoping", displacement_op.inputs.time_scoping)
 workflow.set_output_name("total_deformation", norm_op.outputs.fields_container)
@@ -293,7 +295,7 @@ total_def = workflow.get_output("total_deformation", types.fields_container)
 print(total_def)
 ```
 
-## The `types` module
+##### The `types` module
 The second argument to `workflow.get_output()` (and operator output evaluation) tells DPF what Python type to return. Common values:
 
 - `types.fields_container`: returns a `FieldsContainer`
@@ -685,7 +687,7 @@ Workflow reusability demonstrated:
 
 </details>
 
-### Going further
+## Going further
 
 Now that you understand operators and workflows, explore these advanced topics:
 
