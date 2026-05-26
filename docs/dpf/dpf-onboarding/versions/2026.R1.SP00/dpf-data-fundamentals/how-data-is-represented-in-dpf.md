@@ -1010,7 +1010,7 @@ Total elements across all materials: 18
 
 ### Exercise 4: Build a shell mesh and attach it to an ElementalNodal field (Advanced)
 
-## Advanced and Optional
+**Advanced and Optional**
 This exercise combines two concepts from this chapter: **MeshedRegion** (from the Supports section)
 and **ElementalNodal fields** (from the Fields section). It is intended for you if you want to go
 deeper. You can safely skip it and come back later.
@@ -1067,7 +1067,7 @@ DPF  Meshed Region:
 
 </details>
 
-## Performance note: building large meshes
+##### Performance note: building large meshes
 `add_node` and `add_shell_element` (and their siblings `add_solid_element`, `add_beam_element`)
 call the DPF server once per node or element. For meshes with thousands of entities this becomes
 very slow because each call crosses the client-to-server boundary.
@@ -1118,7 +1118,7 @@ list of flat-array start indices, one per entity — so that `get_entity_data` c
 the right values for each element. `field.data = [...]` leaves the offsets empty, so `get_entity_data`
 cannot know how many values belong to each entity and returns only a single data point.
 
-## Performance note: building ElementalNodal fields with many elements
+##### Performance note: building ElementalNodal fields with many elements
 Calling `append` in a loop (one call per element) crosses the Python-to-server boundary for
 every element. For large meshes, the vectorized approach is significantly faster: set
 `field.data` with the full flat array in one shot, then set `field.entity_data_offsets` with the
@@ -1252,7 +1252,7 @@ Node 1 Top, Node 2 Bottom, Node 2 Top, and so on.
 
 </details>
 
-### Going further
+## Going further
 
 Now that you understand how to work with Fields and Collections, explore these advanced topics:
 
