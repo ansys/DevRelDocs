@@ -189,9 +189,9 @@ Understanding common operator patterns helps you chain them together effectively
 | DataSources → FieldsContainer | `result.displacement` | Extract results from files |
 | DataSources → MeshedRegion | `mesh.mesh_provider` | Extract mesh from files |
 | FieldsContainer → FieldsContainer | `math.add`, `math.scale` | Transform existing fields |
-| FieldsContainer → Field | `min_max::min_max_fc` | Reduce multiple fields to one |
-| Field → float | `min_max::min_max` | Get single values from fields |
-| MeshedRegion + Scoping → MeshedRegion | `mesh::from_scoping` | Extract mesh subsets |
+| FieldsContainer → Field | `min_max.min_max_fc` | Reduce multiple fields to one |
+| Field → float | `min_max.min_max` | Get single values from fields |
+| MeshedRegion + Scoping → MeshedRegion | `mesh.from_scoping` | Extract mesh subsets |
 
 ### Common operators you'll use
 
@@ -204,6 +204,7 @@ Here are operators you'll encounter frequently:
 
 **Mesh extraction**:
 - `operators.mesh.mesh_provider()`: Get mesh data
+- `operators.mesh.meshes_provider()`: Get mesh data as a collection
 
 **Mathematical operations**:
 - `operators.math.add()`: Add two fields
@@ -215,7 +216,9 @@ Here are operators you'll encounter frequently:
 - `operators.min_max.min_max_fc()`: Find the minimum and maximum over all fields in a FieldsContainer - exposes two Field outputs: `outputs.field_min` and `outputs.field_max`
 
 **Filtering and scoping**:
-- `operators.scoping.rescope()`: Extract data for specific entities
+- `operators.scoping.rescope()`: Changes the scoping of a Field
+
+**Averaging**:
 - `operators.averaging.elemental_nodal_to_nodal()`: Average ElementalNodal to Nodal
 
 **Utility**:
