@@ -91,7 +91,7 @@ fields = displacement_op.eval()
 
 **What this shows**: Streams act as a performance optimization layer between files and reader operators.
 
-## Streams keep files open
+##### Streams keep files open
 A `StreamsContainer` holds open file handles for every file it references, for as long as it exists.
 This means the associated files cannot be moved, deleted, or written to by another process while the streams are open.
 
