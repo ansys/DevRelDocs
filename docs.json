@@ -6,11 +6,31 @@
       "primary": "#ff0000"
     },
     "navigation": {
-      "groups": [
-        {
-          "group": "Home",
-          "pages": ["index"]
-        }
-      ]
+        "tabs": [
+          {
+            "tab": "Documentation",
+            "icon": "square-terminal",
+            "pages": [
+              "api-reference/get",
+              "api-reference/post",
+              "api-reference/delete"
+            ]
+          },
+          {
+            "tab": "Knowledge base",
+            "icon": "code",
+            "pages": [
+              "sdk/fetch",
+              "sdk/create",
+              "sdk/delete"
+            ]
+          },
+          {
+            "tab": "Forum",
+            "icon": "message-circle",
+            "href": "https://discuss.ansys.com/"
+          }
+        ]
     }
-  }
+}
+
