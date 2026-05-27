@@ -38,6 +38,7 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 * [getRuntimeCoreConfig](classansys-dpf-core.md#classansys-dpf-core-1a7e7dded7bf842c8c587bd0264b0b7452)
 * [getRuntimeCoreConfig](classansys-dpf-core.md#classansys-dpf-core-1a26d52ede300647e78b0a538690e5ffb8)
 * [getServerVersion](classansys-dpf-core.md#classansys-dpf-core-1ae3472a9ced3aff887f623d3a46943d5d)
+* [getServerVersionFull](classansys-dpf-core.md#classansys-dpf-core-1a816f74283747eb9906949dfe61af99d8)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1addc032f5882185bcf940ce7adf293327)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1aa9921dd047827c618f977e01ee088694)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1a74f7e10fc172292bc61582304787c30f)
@@ -1396,16 +1397,23 @@ static void ansys::dpf::core::getServerVersion(int &major_version, int &minor_ve
 ```
 
 
+Fills the major and minor versions of the In-Process server.
 
+**Deprecated**:
 
-Fills the major and minor versions of the In-Process server
+Use getServerVersionFull instead
+
+**Parameters**:
+
+* **major_version**: Major version of the server
+* **minor_version**: Minor version of the server
 
 
 
 **Parameters**:
 
-* int & **major_version**: [in] major version of the server
-* int & **minor_version**: [in] minor version of the server
+* int & **major_version**
+* int & **minor_version**
 
 **Return type**: void
 
@@ -1413,6 +1421,44 @@ Fills the major and minor versions of the In-Process server
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getServerVersion"}]}`
+-->
+
+<a id="classansys-dpf-core-1a816f74283747eb9906949dfe61af99d8"></a>
+### Function getServerVersionFull
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::getServerVersionFull(int &major_version, int &minor_version, int &micro_version, std::string &modifier_version)
+```
+
+
+Fills all version components of the In-Process server.
+
+**Parameters**:
+
+* **major_version**: Major version of the server
+* **minor_version**: Minor version of the server
+* **micro_version**: Micro version of the server
+* **modifier_version**: Modifier version of the server
+
+
+
+**Parameters**:
+
+* int & **major_version**
+* int & **minor_version**
+* int & **micro_version**
+* std::string & **modifier_version**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getServerVersionFull"}]}`
 -->
 
 <a id="classansys-dpf-core-1af26687fad53552d2263864bc46f935c8"></a>

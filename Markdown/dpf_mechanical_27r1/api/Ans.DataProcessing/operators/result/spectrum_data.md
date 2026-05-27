@@ -62,6 +62,8 @@ Fields container holding damping ratios (PRS File).
 
 ### global_damping
 
+Fields container holding for each spectrum: Global Damping Ratio, Damping Stiffness Coefficient & Damping Mass Coefficient (PRS File).
+
 **Type:** *LinkableOutput*
 
 ### missing_mass

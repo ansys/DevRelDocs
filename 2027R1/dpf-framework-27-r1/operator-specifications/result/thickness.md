@@ -2,6 +2,9 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  lsdyna: [d3plot]
+  mapdl: [rst, rth]
 ---
 
 # result:thickness

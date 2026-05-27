@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cgns: [cgns]
 ---
 
 # result:result provider

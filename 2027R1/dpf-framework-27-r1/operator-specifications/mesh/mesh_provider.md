@@ -2,6 +2,12 @@
 category: mesh
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
+  vtk: [vtk]
 ---
 
 # mesh:mesh provider

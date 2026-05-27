@@ -10,7 +10,7 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Reads a file or string holding a Symbolic Workflow and instantiate a WorkFlow with its data.
+Reads a file or string holding a Symbolic Workflow and instantiates a WorkFlow with its data. Pin 'workflow_path' refers to a file path, either as a string or as DataSources. Pin 'workflow_as_string' refers to the string representation of the workflow itself. Both pins are mutually exclusive.
 
 ## Inputs
 
@@ -20,17 +20,26 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [string_or_path](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types), [`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>0</strong> | [workflow_path](#input_0) |  |[`string`](../../core-concepts/dpf-types.md#standard-types), [`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>1</strong> | [workflow_as_string](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>2</strong> | [format](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
-### string_or_path (Pin 0)
+### workflow_path (Pin 0)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
+File path (string) or DataSources pointing to a workflow file. Pin 'format' is used only if this pin is connected.
 
+<a id="input_1"></a>
+### workflow_as_string (Pin 1)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+String representation of the workflow as provided by the 'export_symbolic_workflow' operator with string output or the 'writeToString' Workflow API.
 
 <a id="input_2"></a>
 ### format (Pin 2)
@@ -102,7 +111,8 @@ Each example shows how to instantiate the operator, connect the required inputs,
 #include "dpf_api.h"
 
 ansys::dpf::Operator op("import_symbolic_workflow"); // operator instantiation
-op.connect(0, my_string_or_path);
+op.connect(0, my_workflow_path);
+op.connect(1, my_workflow_as_string);
 op.connect(2, my_format);
 ansys::dpf::Workflow my_workflow = op.getOutput<ansys::dpf::Workflow>(0);
 ```
@@ -115,7 +125,8 @@ ansys::dpf::Workflow my_workflow = op.getOutput<ansys::dpf::Workflow>(0);
 import ansys.dpf.core as dpf
 
 op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.string_or_path.connect(my_string_or_path)
+op.inputs.workflow_path.connect(my_workflow_path)
+op.inputs.workflow_as_string.connect(my_workflow_as_string)
 op.inputs.format.connect(my_format)
 my_workflow = op.outputs.workflow()
 ```
@@ -129,7 +140,8 @@ import mech_dpf
 import Ans.DataProcessing as dpf
 
 op = dpf.operators.serialization.None() # operator instantiation
-op.inputs.string_or_path.Connect(my_string_or_path)
+op.inputs.workflow_path.Connect(my_workflow_path)
+op.inputs.workflow_as_string.Connect(my_workflow_as_string)
 op.inputs.format.Connect(my_format)
 my_workflow = op.outputs.workflow.GetData()
 ```

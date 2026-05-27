@@ -1,5 +1,5 @@
 ---
-uid: Ans.DataProcessing.operators.result.mapdl.global_to_nodal
+uid: Ans.DataProcessing.operators.result.global_to_nodal
 ---
 
 # *class* global_to_nodal(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)

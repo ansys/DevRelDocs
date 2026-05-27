@@ -2,6 +2,12 @@
 category: mesh
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  lsdyna: [binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3spcm, d3ssd, moddynout]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst]
 ---
 
 # mesh:meshes provider

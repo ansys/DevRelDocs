@@ -11,6 +11,7 @@
 - [compute time scoping](compute_time_scoping.md)
 - [concatenate fields](concatenate_fields.md)
 - [concatenate fields containers](concatenate_fields_containers.md)
+- [csharp generator](csharp_generator.md)
 - [customtypefield get attribute](customtypefield_get_attribute.md)
 - [cyclic support get attribute](cyclic_support_get_attribute.md)
 - [default value](default_value.md)

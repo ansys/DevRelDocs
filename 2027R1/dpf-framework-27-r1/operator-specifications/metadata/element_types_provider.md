@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  mapdl: [rst, rstp, rth]
 ---
 
 # metadata:element types provider

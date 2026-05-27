@@ -2,6 +2,13 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  lsdyna: [binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
+  vtk: [vtk]
 ---
 
 # metadata:result info provider

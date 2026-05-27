@@ -12,13 +12,6 @@ license: None
 
 Read/compute elemental non summable miscellaneous data by calling the readers defined by the datasources. Modal superposition (on demand expansion) and cyclic cxpansion procedures are not supported since results cannot be summed.
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- hdf5: h5dpf 
-- mapdl: cms, mode, rst, rstp, rth 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

@@ -20,10 +20,10 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [modal_basis](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [solution_in_modal_space](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [incremental_fc](#input_2) |  |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [time_scoping](#input_3) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [modal_basis](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
+| <strong>1</strong> | [solution_in_modal_space](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
+| <strong>2</strong> | [incremental_fc](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
+| <strong>3</strong> | [time_scoping](#input_3) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 | <strong>4</strong> | [mesh_scoping](#input_4) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 
 
@@ -31,7 +31,7 @@ Each parameter is detailed in the sections that follow the table.
 ### modal_basis (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container)
 
 One field by mode with each field representing a mode shape on nodes or elements.
 
@@ -39,15 +39,15 @@ One field by mode with each field representing a mode shape on nodes or elements
 ### solution_in_modal_space (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container)
 
 One field by time/frequency with each field having a ponderating coefficient for each mode of the modal_basis pin.
 
 <a id="input_2"></a>
 ### incremental_fc (Pin 2)
 
-- **Required:** No
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container)
 
 If a non-empty fields container is introduced, it is modified, and sent to the output, to add the contribution of the requested expansion. The label spaces produced from the multiplication must be the same as the incremental ones.
 
@@ -55,7 +55,7 @@ If a non-empty fields container is introduced, it is modified, and sent to the o
 ### time_scoping (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
 
 Compute the result on a subset of the time frequency domain defined in the solution_in_modal_space fields container.
 
@@ -76,15 +76,15 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
 
 
 <a id="output_0"></a>
 ### fields_container (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container)
 
-
+Expanded mode superposition solution.
 
 
 ## Configurations
@@ -104,7 +104,7 @@ If this option is set to true, the shared memory is prevented from being simulta
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 - **Default value:** 0
 
-Number of threads to use to run in parallel
+
 
 ### [read_inputs_in_parallel](../../core-concepts/operator-configurations.md#read_inputs_in_parallel)
 
@@ -171,7 +171,7 @@ op.inputs.solution_in_modal_space.connect(my_solution_in_modal_space)
 op.inputs.incremental_fc.connect(my_incremental_fc)
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
-my_fields_container = op.outputs.fields_container()
+my_fields_container_as_fields_container = op.outputs.fields_container_as_fields_container()
 ```
 </details>
 

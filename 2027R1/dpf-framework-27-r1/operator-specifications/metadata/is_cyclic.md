@@ -2,6 +2,9 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
 ---
 
 # metadata:cyclic analysis?

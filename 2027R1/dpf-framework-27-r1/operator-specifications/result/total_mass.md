@@ -2,6 +2,8 @@
 category: result
 plugin: mapdl
 license: None
+namespaces:
+  mapdl: [mode]
 ---
 
 # result:total mass
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Reads total mass from mode file.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- mapdl: mode 
 
 ## Inputs
 

@@ -43,13 +43,6 @@ Read/compute element nodal heat by calling the readers defined by the datasource
 | 13      | Pretension      |
 element_nodal_heat fields contain STATIC and DAMPING forces stored as components (when available). STATIC: component 0. DAMPING: component 1.
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- hdf5: h5dpf 
-- mapdl: rst, rstp, rth 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

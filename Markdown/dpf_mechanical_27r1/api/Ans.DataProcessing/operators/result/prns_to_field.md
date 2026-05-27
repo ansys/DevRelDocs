@@ -1,5 +1,5 @@
 ---
-uid: Ans.DataProcessing.operators.result.mapdl.prns_to_field
+uid: Ans.DataProcessing.operators.result.prns_to_field
 ---
 
 # *class* prns_to_field(filepath: object = None, columns_to_read: object = None, config: OperatorConfig = None)

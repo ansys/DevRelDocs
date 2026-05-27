@@ -47,6 +47,8 @@ Double positive small value. Smallest value which will be considered during the 
 
 ### tolerance
 
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical (v1-v2)/v2 < relativeTol (default is 0.001).
+
 **Type:** *LinkableInput*
 
 ### compare_auxiliary

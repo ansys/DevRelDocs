@@ -43,13 +43,6 @@ Read/compute element total heat flux at contact surface by calling the readers d
 | 13      | Pretension      |
 
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- hdf5: h5dpf 
-- mapdl: mode, rst, rstp, rth 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

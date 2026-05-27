@@ -2,6 +2,12 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  lsdyna: [d3plot]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
 ---
 
 # metadata:mesh property provider
