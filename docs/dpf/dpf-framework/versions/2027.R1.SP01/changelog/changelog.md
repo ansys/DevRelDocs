@@ -513,7 +513,7 @@ The following table shows which components have updates in each category.
   >
   > - string related to file path for DataSources
   >
-  > - pair<int,int> related to topology identifier for Scoping
+  > - `pair<int,int>` related to topology identifier for Scoping
   >
   > - string related to workflow identifier (can be concatenated name from the Engine) for the Workflow
   >
