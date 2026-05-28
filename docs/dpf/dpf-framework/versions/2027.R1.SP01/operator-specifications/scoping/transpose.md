@@ -20,18 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [mesh_scoping](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
-| <strong>1</strong> | [meshed_region](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
-| <strong>2</strong> | [inclusive](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [extend_midside_nodes](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/transpose) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [meshed_region](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/transpose) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [inclusive](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/transpose) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [extend_midside_nodes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/transpose) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>9</strong> | [requested_location](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/transpose) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### mesh_scoping (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Scoping or scopings container (the input type is the output type)
 
@@ -39,7 +39,7 @@ Scoping or scopings container (the input type is the output type)
 ### meshed_region (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+- **Expected type(s):** [`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -47,7 +47,7 @@ Scoping or scopings container (the input type is the output type)
 ### inclusive (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 if inclusive == 1 then all the elements/faces adjacent to the nodes/faces ids in input are added, if inclusive == 0, only the elements/faces which have all their nodes/faces in the scoping are included
 
@@ -55,7 +55,7 @@ if inclusive == 1 then all the elements/faces adjacent to the nodes/faces ids in
 ### extend_midside_nodes (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This pin only affects nodal to elemental transposition. If true, the neighbour corner nodes of every input midside node are also considered in the input scoping. As a result, the output scoping also contains the elements connected to corner nodes that may not be in the input scoping. It is false by default.
 
@@ -63,7 +63,7 @@ This pin only affects nodal to elemental transposition. If true, the neighbour c
 ### requested_location (Pin 9)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Output scoping location for meshes with nodes, faces and elements. By default, elemental and faces scopings transpose to nodal, and nodal scopings transpose to elemental.
 
@@ -76,25 +76,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [mesh_scoping](#output_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+|  **0**| [mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/transpose) |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### mesh_scoping (Pin 0)
 
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Scoping or scopings container (the input type is the output type)
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -170,7 +170,7 @@ op.inputs.requested_location.Connect(my_requested_location)
 my_mesh_scoping = op.outputs.mesh_scoping.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

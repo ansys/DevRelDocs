@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [mesh](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>2</strong> | [duplicate_shell](#input_2) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [add_beam_point](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [duplicate_shell](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [add_beam_point](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### mesh (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -38,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 ### mesh_scoping (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Nodal scoping to restrict the skin extraction to a set of nodes. If provided, a skin element is added to the skin mesh if all its nodes are in the scoping.
 
@@ -46,7 +46,7 @@ Nodal scoping to restrict the skin extraction to a set of nodes. If provided, a 
 ### duplicate_shell (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If input mesh contains shell elements, output mesh shell elements (boolean = 1) are duplicated, one per each orientation, or (boolean = 0) remain unchanged.
 
@@ -54,7 +54,7 @@ If input mesh contains shell elements, output mesh shell elements (boolean = 1) 
 ### add_beam_point (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If input mesh contains beam or point elements, output mesh beam point elements (boolean = 1) are added or (boolean = 0) are ignored. Default: False
 
@@ -67,24 +67,24 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-|  **1**| [nodes_mesh_scoping](#output_1) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-|  **2**| [map_new_elements_to_old](#output_2) |`umap<int32,int32>` |
-|  **3**| [property_field_new_elements_to_old](#output_3) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
-|  **4**| [facet_indices](#output_4) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+|  **0**| [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [nodes_mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [map_new_elements_to_old](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |`umap<int32,int32>` |
+|  **3**| [property_field_new_elements_to_old](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **4**| [facet_indices](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/skin) |[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### mesh (Pin 0)
 
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Skin meshed region with facets and facets_to_ele property fields.
 
 <a id="output_1"></a>
 ### nodes_mesh_scoping (Pin 1)
 
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -98,26 +98,26 @@ Skin meshed region with facets and facets_to_ele property fields.
 <a id="output_3"></a>
 ### property_field_new_elements_to_old (Pin 3)
 
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This property field provides, for each new face element ID (in the scoping), the corresponding 3D volume element index (in the data) it has been extracted from. The 3D volume element ID can be found with the element scoping of the input mesh.
 
 <a id="output_4"></a>
 ### facet_indices (Pin 4)
 
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This property field gives, for each new face element ID (in the scoping), the corresponding face index on the source 3D volume element. The 3D volume element can be extracted from the previous output.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -202,7 +202,7 @@ my_property_field_new_elements_to_old = op.outputs.property_field_new_elements_t
 my_facet_indices = op.outputs.facet_indices.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

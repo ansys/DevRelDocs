@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [reference_node_id](#input_1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>0</strong> | [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [reference_node_id](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### fields_container (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 field or fields container with only one field is expected
 
@@ -37,7 +37,7 @@ field or fields container with only one field is expected
 ### reference_node_id (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Id of the reference entity (node).
 
@@ -45,7 +45,7 @@ Id of the reference entity (node).
 ### mesh (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 default is the mesh in the support
 
@@ -58,49 +58,49 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **1**| [translation_field](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **2**| [rotation_field](#output_2) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **3**| [center_field](#output_3) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [translation_field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [rotation_field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [center_field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/remove_rigid_body_motion_fc) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### fields_container (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_1"></a>
 ### translation_field (Pin 1)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Global rigid translation vector
 
 <a id="output_2"></a>
 ### rotation_field (Pin 2)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Global rigid rotation angles
 
 <a id="output_3"></a>
 ### center_field (Pin 3)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Center of the rigid rotation
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -179,7 +179,7 @@ my_rotation_field = op.outputs.rotation_field.GetData()
 my_center_field = op.outputs.center_field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

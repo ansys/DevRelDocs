@@ -39,18 +39,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [reduced_coordinates](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [element_ids](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
-| <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
-| <strong>200</strong> | [use_quadratic_elements](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/on_reduced_coordinates) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [reduced_coordinates](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/on_reduced_coordinates) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [element_ids](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/on_reduced_coordinates) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/on_reduced_coordinates) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [use_quadratic_elements](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/on_reduced_coordinates) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### fields_container (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Fields container with field results to interpolate. Can contain nodal or elemental nodal fields. If fields have mesh support attached, it will be used; otherwise, the `mesh` pin must be connected.
 
@@ -58,7 +58,7 @@ Fields container with field results to interpolate. Can contain nodal or element
 ### reduced_coordinates (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Reduced (natural/parametric) coordinates in reference element space where interpolation will be performed. Typically obtained from the 'find_reduced_coordinates' operator. For a 3D element, this is a 3-component vector field $(\xi, \eta, \zeta)$. Each coordinate set corresponds to a point inside an element.
 
@@ -66,7 +66,7 @@ Reduced (natural/parametric) coordinates in reference element space where interp
 ### element_ids (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Element IDs specifying which element contains each set of reduced coordinates. Typically obtained from the 'find_reduced_coordinates' operator output (pin 1). Must correspond one-to-one with the reduced coordinates in pin 1.
 
@@ -74,7 +74,7 @@ Element IDs specifying which element contains each set of reduced coordinates. T
 ### mesh (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Mesh region or meshes container defining the finite element mesh. Required if input fields (pin 0) have no mesh in their support. If a meshes container with multiple meshes is provided, it should have the same label space as the reduced coordinates fields container.
 
@@ -82,7 +82,7 @@ Mesh region or meshes container defining the finite element mesh. Required if in
 ### use_quadratic_elements (Pin 200)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If true, uses quadratic shape functions (including mid-side nodes) for quadratic elements, providing higher accuracy but lower performance. Default is false (uses linear shape functions). Only enable when field results include values at mid-side nodes.
 
@@ -95,25 +95,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/on_reduced_coordinates) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### fields_container (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Fields container with interpolated field values at the specified reduced coordinates. Output fields have nodal location and preserve the component structure of input fields. Shell layer data (if present) is interpolated separately for each layer. The number of entities in each output field may be less than the number of input reduced coordinates: a coordinate is omitted if its element ID is not found in the mesh or, for nodal fields, if any of the element's nodes has no data in the field.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -189,7 +189,7 @@ op.inputs.use_quadratic_elements.Connect(my_use_quadratic_elements)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

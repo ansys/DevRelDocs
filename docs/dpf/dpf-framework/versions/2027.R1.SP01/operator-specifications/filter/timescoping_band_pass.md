@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [time_freq_support](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
-| <strong>1</strong> | [min_threshold](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>2</strong> | [max_threshold](#input_2) |  |[`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>0</strong> | [time_freq_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/timescoping_band_pass) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [min_threshold](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/timescoping_band_pass) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [max_threshold](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/timescoping_band_pass) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### time_freq_support (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+- **Expected type(s):** [`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -37,7 +37,7 @@ Each parameter is detailed in the sections that follow the table.
 ### min_threshold (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 A minimum threshold scalar or a field containing one value is expected.
 
@@ -45,7 +45,7 @@ A minimum threshold scalar or a field containing one value is expected.
 ### max_threshold (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 A maximum threshold scalar or a field containing one value is expected.
 
@@ -58,25 +58,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [scoping](#output_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **0**| [scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/timescoping_band_pass) |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### scoping (Pin 0)
 
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -146,7 +146,7 @@ op.inputs.max_threshold.Connect(my_max_threshold)
 my_scoping = op.outputs.scoping.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

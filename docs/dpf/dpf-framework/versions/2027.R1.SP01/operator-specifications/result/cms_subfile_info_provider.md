@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>200</strong> | [cms_subfile_data](#input_200) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>300</strong> | [output_maxdof_on_masternodes](#input_300) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/cms_subfile_info_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [cms_subfile_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/cms_subfile_info_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>300</strong> | [output_maxdof_on_masternodes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/cms_subfile_info_provider) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_4"></a>
 ### data_sources (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Data_sources (must contain at least one subfile).
 
@@ -37,7 +37,7 @@ Data_sources (must contain at least one subfile).
 ### cms_subfile_data (Pin 200)
 
 - **Required:** Yes
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If this pin i set to true, data are return in a field.
 
@@ -45,7 +45,7 @@ If this pin i set to true, data are return in a field.
 ### output_maxdof_on_masternodes (Pin 300)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If this pin is set to true, compute and add field with max degrees of freedom on master nodes
 
@@ -58,33 +58,33 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [int32](#output_0) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-|  **1**| [field](#output_1) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
+|  **0**| [int32](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/cms_subfile_info_provider) |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/cms_subfile_info_provider) |[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### int32 (Pin 0)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 returns integer values in the order : unit system used, stiffness matrix present key, damping matrix present key, mass matrix present key, number of master nodes, number of virtual nodes
 
 <a id="output_1"></a>
 ### field (Pin 1)
 
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 returns integer values in the order : number of load vectors (nvects), number of nodes (nnod), number of virtual nodes (nvnodes), number of modes (nvmodes)
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -157,7 +157,7 @@ my_int32 = op.outputs.int32.GetData()
 my_field = op.outputs.field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

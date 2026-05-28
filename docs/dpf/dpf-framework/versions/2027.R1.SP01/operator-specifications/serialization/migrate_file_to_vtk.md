@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [output_filename](#input_0) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>0</strong> | [output_filename](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/migrate_file_to_vtk) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [streams_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/migrate_file_to_vtk) |  |[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/migrate_file_to_vtk) |  |[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### output_filename (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -37,7 +37,7 @@ Each parameter is detailed in the sections that follow the table.
 ### streams_container (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -45,7 +45,7 @@ Each parameter is detailed in the sections that follow the table.
 ### data_sources (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -58,25 +58,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [data_sources](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+|  **0**| [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/migrate_file_to_vtk) |[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### data_sources (Pin 0)
 
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Generated output vtk file
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -146,7 +146,7 @@ op.inputs.data_sources.Connect(my_data_sources)
 my_data_sources = op.outputs.data_sources.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

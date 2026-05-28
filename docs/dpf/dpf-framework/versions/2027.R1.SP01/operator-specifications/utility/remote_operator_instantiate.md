@@ -20,18 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [operator_to_send](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [output_pin](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [streams_to_remote](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources_to_remote](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>5</strong> | [output_name](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [operator_to_send](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/remote_operator_instantiate) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [output_pin](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/remote_operator_instantiate) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [streams_to_remote](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/remote_operator_instantiate) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources_to_remote](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/remote_operator_instantiate) |  |[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [output_name](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/remote_operator_instantiate) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### operator_to_send (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 local workflow to push to a remote or id of a remote workflow
 
@@ -39,7 +39,7 @@ local workflow to push to a remote or id of a remote workflow
 ### output_pin (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 pin number of the output to name
 
@@ -47,7 +47,7 @@ pin number of the output to name
 ### streams_to_remote (Pin 3)
 
 - **Required:** Yes
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -55,7 +55,7 @@ pin number of the output to name
 ### data_sources_to_remote (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -63,7 +63,7 @@ pin number of the output to name
 ### output_name (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 output's name of the workflow to return
 
@@ -76,39 +76,39 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [remote_workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+|  **0**| [remote_workflow](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/remote_operator_instantiate) |[`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### remote_workflow (Pin 0)
 
-- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+- **Expected type(s):** [`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 remote workflow containing an image of the remote workflow and the protocols streams
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+### [num_threads](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** 0
 
 Number of threads to use to run in parallel
 
-### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+### [run_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** true
 
 Loops are allowed to run in parallel if the value of this config is set to true.
@@ -184,7 +184,7 @@ op.inputs.output_name.Connect(my_output_name)
 my_remote_workflow = op.outputs.remote_workflow.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

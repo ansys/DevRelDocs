@@ -20,21 +20,21 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [time_scoping](#input_0) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
-| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
-| <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>14</strong> | [read_cyclic](#input_14) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>200</strong> | [average_across_bodies](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [time_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [streams_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>9</strong> | [requested_location](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>14</strong> | [read_cyclic](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [average_across_bodies](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### time_scoping (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 time/freq (use doubles or field), time/freq set ids (use ints or scoping) or time/freq step ids use scoping with TimeFreq_steps location) required in output.
 
@@ -42,7 +42,7 @@ time/freq (use doubles or field), time/freq set ids (use ints or scoping) or tim
 ### mesh_scoping (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 nodes or elements scoping required in output.
 
@@ -50,7 +50,7 @@ nodes or elements scoping required in output.
 ### streams_container (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 result file container allowed to be kept open to cache data.
 
@@ -58,7 +58,7 @@ result file container allowed to be kept open to cache data.
 ### data_sources (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 result file path container.
 
@@ -66,7 +66,7 @@ result file path container.
 ### mesh (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 prevents from reading the mesh in the results file.
 
@@ -74,7 +74,7 @@ prevents from reading the mesh in the results file.
 ### requested_location (Pin 9)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 average the elemental nodal result to the requested location (default is nodal).
 
@@ -82,7 +82,7 @@ average the elemental nodal result to the requested location (default is nodal).
 ### read_cyclic (Pin 14)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 if true, cyclic expansion is done. If false, it's ignored..
 
@@ -90,7 +90,7 @@ if true, cyclic expansion is done. If false, it's ignored..
 ### average_across_bodies (Pin 200)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 for multibody simulations, the stresses are averaged across bodies if true or not if false (default).
 
@@ -103,25 +103,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+|  **0**| [workflow](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/strain_eqv_as_mechanical_workflow) |[`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### workflow (Pin 0)
 
-- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+- **Expected type(s):** [`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -206,7 +206,7 @@ op.inputs.average_across_bodies.Connect(my_average_across_bodies)
 my_workflow = op.outputs.workflow.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

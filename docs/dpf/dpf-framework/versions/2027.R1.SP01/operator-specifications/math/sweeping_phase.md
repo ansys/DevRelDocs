@@ -20,19 +20,19 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [real_field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [imaginary_field](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [angle](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [unit_name](#input_3) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [abs_value](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [imaginary_part_null](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [real_field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [imaginary_field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [angle](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [unit_name](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [abs_value](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [imaginary_part_null](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### real_field (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 field or fields container with only one field is expected
 
@@ -40,7 +40,7 @@ field or fields container with only one field is expected
 ### imaginary_field (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 field or fields container with only one field is expected
 
@@ -48,7 +48,7 @@ field or fields container with only one field is expected
 ### angle (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -56,7 +56,7 @@ field or fields container with only one field is expected
 ### unit_name (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 String Unit. Supported values: "deg" or "rad". Default: "rad".
 
@@ -64,7 +64,7 @@ String Unit. Supported values: "deg" or "rad". Default: "rad".
 ### abs_value (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -72,7 +72,7 @@ String Unit. Supported values: "deg" or "rad". Default: "rad".
 ### imaginary_part_null (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If the imaginary part field is empty and this pin is true, then the imaginary part is supposed to be 0 (default is false).
 
@@ -85,25 +85,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/sweeping_phase) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -182,7 +182,7 @@ op.inputs.imaginary_part_null.Connect(my_imaginary_part_null)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -1,4 +1,6 @@
-# Example of workflows for beginners
+---
+title: "Example of workflows for beginners"
+---
 
 ## Total deformation
 

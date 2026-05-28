@@ -20,21 +20,21 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [displacement](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [disp_mesh](#input_1) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>2</strong> | [mesh](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>3</strong> | [in_place](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [morphing_type](#input_4) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [morphing_manager_data](#input_5) |  | |
-| <strong>6</strong> | [sliding_planes](#input_6) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>7</strong> | [sliding_nodes](#input_7) |  |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>0</strong> | [displacement](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [disp_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [in_place](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [morphing_type](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [morphing_manager_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  | |
+| <strong>6</strong> | [sliding_planes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [sliding_nodes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |  |[`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### displacement (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 expects either a field or a fields container with one field
 
@@ -42,7 +42,7 @@ expects either a field or a fields container with one field
 ### disp_mesh (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 mesh on which displacement are scoped
 
@@ -50,7 +50,7 @@ mesh on which displacement are scoped
 ### mesh (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 mesh to morph
 
@@ -58,7 +58,7 @@ mesh to morph
 ### in_place (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Apply in place morhing (the input mesh is changed instead of copied) (default is true)
 
@@ -66,7 +66,7 @@ Apply in place morhing (the input mesh is changed instead of copied) (default is
 ### morphing_type (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 morphing algorithm to use (0=PrimeRBF, 1=BSpline, 2=TetLinear, 3=TetRBF, 4=FFI) (default is 0)
 
@@ -82,7 +82,7 @@ Morphing Manager Data from prepare_morphing_operator (needed if disp_coordinates
 ### sliding_planes (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Sliding planes
 
@@ -90,7 +90,7 @@ Sliding planes
 ### sliding_nodes (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Sliding nodes
 
@@ -103,39 +103,39 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **0**| [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/morphing) |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### mesh (Pin 0)
 
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 morphed mesh
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+### [num_threads](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** 1
 
 
 
-### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+### [run_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 Loops are allowed to run in parallel if the value of this config is set to true.
@@ -220,7 +220,7 @@ op.inputs.sliding_nodes.Connect(my_sliding_nodes)
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

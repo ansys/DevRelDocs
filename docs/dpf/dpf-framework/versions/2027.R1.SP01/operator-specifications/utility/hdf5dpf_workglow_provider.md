@@ -20,19 +20,19 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [time_scoping](#input_0) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>3</strong> | [streams](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>24</strong> | [meta_data](#input_24) |  |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
-| <strong>60</strong> | [result_name](#input_60) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>0</strong> | [time_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [streams](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>24</strong> | [meta_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>60</strong> | [result_name](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
 
 
 <a id="input_0"></a>
 ### time_scoping (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -40,7 +40,7 @@ Each parameter is detailed in the sections that follow the table.
 ### mesh_scoping (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -48,7 +48,7 @@ Each parameter is detailed in the sections that follow the table.
 ### streams (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Hdf5df file stream.
 
@@ -56,7 +56,7 @@ Hdf5df file stream.
 ### data_sources (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Hdf5df file data source.
 
@@ -64,7 +64,7 @@ Hdf5df file data source.
 ### meta_data (Pin 24)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 meta_data that may be used to evaluate results or extract workflows.
 
@@ -85,25 +85,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field_or_fields_container](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+|  **0**| [field_or_fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/hdf5dpf_workglow_provider) |[`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field_or_fields_container (Pin 0)
 
-- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+- **Expected type(s):** [`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -182,7 +182,7 @@ op.inputs.result_name.Connect(my_result_name)
 my_field_or_fields_container = op.outputs.field_or_fields_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

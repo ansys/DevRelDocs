@@ -1,4 +1,6 @@
-# How to use data containers
+---
+title: "How to use data containers"
+---
 
 ## Scoping
 

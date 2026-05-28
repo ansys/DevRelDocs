@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [scopings_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
-| <strong>1</strong> | [label_space](#input_1) |  |[`label_space`](../../core-concepts/dpf-types.md#label-space), [`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>2</strong> | [collapse_labels](#input_2) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [scopings_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/extract_sub_sc) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [label_space](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/extract_sub_sc) |  |[`label_space`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [collapse_labels](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/extract_sub_sc) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### scopings_container (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 scopings_container
 
@@ -37,7 +37,7 @@ scopings_container
 ### label_space (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`label_space`](../../core-concepts/dpf-types.md#label-space), [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`label_space`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Label space, or scoping defining the label space (scoping location), values to keep (scoping IDs)
 
@@ -45,7 +45,7 @@ Label space, or scoping defining the label space (scoping location), values to k
 ### collapse_labels (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If set to true (default) the input label space (scoping location) is suppressed from the output scopings container, otherwise, label space is kept.
 
@@ -58,25 +58,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [scopings_container](#output_0) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+|  **0**| [scopings_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/extract_sub_sc) |[`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### scopings_container (Pin 0)
 
-- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 scopings_container
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -146,7 +146,7 @@ op.inputs.collapse_labels.Connect(my_collapse_labels)
 my_scopings_container = op.outputs.scopings_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

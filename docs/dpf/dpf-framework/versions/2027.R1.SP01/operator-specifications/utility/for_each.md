@@ -20,10 +20,10 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [iterable](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
-| <strong>1</strong> | [iterable_values](#input_1) |  | |
-| <strong>2</strong> | [pin_index](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [forward](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>0</strong> | [iterable](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>1</strong> | [iterable_values](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/for_each) |  | |
+| <strong>2</strong> | [pin_index](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/for_each) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [forward](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
 
 
 <a id="input_0"></a>
@@ -46,7 +46,7 @@ Either the result of the make_iterable_info operator, or the operator that must 
 ### pin_index (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -67,8 +67,8 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [empty](#output_0) | |
-|  **3**| [output](#output_3) | |
+|  **0**| [empty](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/for_each) | |
+|  **3**| [output](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/for_each) | |
 
 
 <a id="output_0"></a>
@@ -88,19 +88,19 @@ Each output is detailed in the sections that follow the table.
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [evaluate_inputs_before_run](../../core-concepts/operator-configurations.md#evaluate_inputs_before_run)
+### [evaluate_inputs_before_run](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, all input pins of the operator will be evaluated before entering the run method to maintain a correct Operator status.
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -177,7 +177,7 @@ my_empty = op.outputs.empty.GetData()
 my_output = op.outputs.output.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

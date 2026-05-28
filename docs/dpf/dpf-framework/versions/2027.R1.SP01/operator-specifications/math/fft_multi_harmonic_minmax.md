@@ -20,22 +20,22 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [rpm_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>2</strong> | [fs_ratio](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [num_subdivisions](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [max_num_subdivisions](#input_4) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [num_cycles](#input_5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [use_harmonic_zero](#input_6) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [calculate_time_series](#input_7) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>8</strong> | [substeps_selector](#input_8) |  |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [rpm_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [fs_ratio](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [num_subdivisions](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [max_num_subdivisions](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [num_cycles](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [use_harmonic_zero](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [calculate_time_series](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>8</strong> | [substeps_selector](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |  |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### fields_container (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -43,7 +43,7 @@ Each parameter is detailed in the sections that follow the table.
 ### rpm_scoping (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 rpm scoping, by default the fourier series sum is evaluated using all the rpms
 
@@ -51,7 +51,7 @@ rpm scoping, by default the fourier series sum is evaluated using all the rpms
 ### fs_ratio (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 field or fields container with only one field is expected
 
@@ -59,7 +59,7 @@ field or fields container with only one field is expected
 ### num_subdivisions (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 connect number subdivisions, used for uniform discretization
 
@@ -67,7 +67,7 @@ connect number subdivisions, used for uniform discretization
 ### max_num_subdivisions (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 connect max number subdivisions, used to avoid huge number of sudivisions
 
@@ -75,7 +75,7 @@ connect max number subdivisions, used to avoid huge number of sudivisions
 ### num_cycles (Pin 5)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Number of cycle of the periodic signal (default is 2)
 
@@ -83,7 +83,7 @@ Number of cycle of the periodic signal (default is 2)
 ### use_harmonic_zero (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 use harmonic zero for first rpm (default is false)
 
@@ -91,7 +91,7 @@ use harmonic zero for first rpm (default is false)
 ### calculate_time_series (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 calculates time series output (output pin 2), setting it to false enhance performance if only min/max are required (default is true)
 
@@ -99,7 +99,7 @@ calculates time series output (output pin 2), setting it to false enhance perfor
 ### substeps_selector (Pin 8)
 
 - **Required:** No
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 substeps to evaluate (frequencies), by default the operator is evaluated using all the available steps
 
@@ -112,41 +112,41 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field_min](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **1**| [field_max](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **2**| [all_fields](#output_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [field_min](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [field_max](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [all_fields](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/fft_multi_harmonic_minmax) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field_min (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_1"></a>
 ### field_max (Pin 1)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_2"></a>
 ### all_fields (Pin 2)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -240,7 +240,7 @@ my_field_max = op.outputs.field_max.GetData()
 my_all_fields = op.outputs.all_fields.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

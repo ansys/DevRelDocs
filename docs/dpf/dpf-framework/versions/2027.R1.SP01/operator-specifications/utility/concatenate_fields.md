@@ -13,9 +13,9 @@ license: None
 Concatenates fields into a unique one by incrementing the number of components.
 
 Example:
-- Field1 components: { UX, UY, UZ }
-- Field2 components: { RX, RY, RZ }
-- Output field : { UX, UY, UZ, RX, RY, RZ }
+- Field1 components: &#123; UX, UY, UZ &#125;
+- Field2 components: &#123; RX, RY, RZ &#125;
+- Output field : &#123; UX, UY, UZ, RX, RY, RZ &#125;
 
 ## Inputs
 
@@ -25,17 +25,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>-3</strong> | [rescoping_value](#input_-3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>-2</strong> | [reference_scoping_index](#input_-2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>-1</strong> | [field_support](#input_-1) |  |`abstract_field_support` |
-| <strong>0</strong> | [fields](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<field>`](../../core-concepts/dpf-types.md#vector<field>) |
+| <strong>-3</strong> | [rescoping_value](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/concatenate_fields) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>-2</strong> | [reference_scoping_index](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/concatenate_fields) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>-1</strong> | [field_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/concatenate_fields) |  |`abstract_field_support` |
+| <strong>0</strong> | [fields](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/concatenate_fields) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;field&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_-3"></a>
 ### rescoping_value (Pin -3)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Value used to fill the missing values when scopings are different. Default is 0.
 
@@ -43,7 +43,7 @@ Value used to fill the missing values when scopings are different. Default is 0.
 ### reference_scoping_index (Pin -2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Pin of the field of which to take the scoping for the output field.
 If -1 all scopings will be merged, if -2 all scopings will be intersected. Default is -1
@@ -60,7 +60,7 @@ Support of the output field.
 ### fields (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<field>`](../../core-concepts/dpf-types.md#vector<field>)
+- **Expected type(s):** [`vector&lt;field&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 A vector of fields to merge from pin 0 to ...
 
@@ -73,32 +73,32 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [merged_fields](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [merged_fields](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/concatenate_fields) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### merged_fields (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Field which has as many components as the sum of all the input fields' numbers of components.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [read_inputs_in_parallel](../../core-concepts/operator-configurations.md#read_inputs_in_parallel)
+### [read_inputs_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the operator's inputs will be evaluated in parallel.
@@ -172,7 +172,7 @@ op.inputs.fields.Connect(my_fields)
 my_merged_fields = op.outputs.merged_fields.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -1,4 +1,6 @@
-# Changelog
+---
+title: "Changelog"
+---
 
 Changes since the last released version for DPF 27.1.pre0 (as of 2026-03-16).
 
@@ -8,53 +10,53 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
-| 1297620 |  |[1 item](#Fixes_1297620) |
-| averaging |  |[1 item](#Fixes_averaging) |
-| c# |  |[1 item](#Fixes_c#) |
-| cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
-| cgns | [1 item](#Features_cgns) | |
-| changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[2 items](#Fixes_ci) |
-| compression | [3 items](#Features_compression) |[1 item](#Fixes_compression) |
-| core |  |[1 item](#Fixes_core) |
-| cyclic | [1 item](#Features_cyclic) | |
-| doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
-| documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
-| dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
-| eng_mat |  |[1 item](#Fixes_eng_mat) |
-| expansion | [1 item](#Features_expansion) | |
-| fbs | [2 items](#Features_fbs) | |
-| femutils | [2 items](#Features_femutils) |[14 items](#Fixes_femutils) |
-| flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[6 items](#Fixes_framework) |
-| grpc | [1 item](#Features_grpc) |[3 items](#Fixes_grpc) |
-| grpcclient |  |[1 item](#Fixes_grpcclient) |
-| h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [7 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[2 items](#Fixes_hgp) |
-| hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [3 items](#Features_kernel) |[9 items](#Fixes_kernel) |
-| lsdyna | [2 items](#Features_lsdyna) | |
-| mapd | [1 item](#Features_mapd) | |
-| mapdl | [15 items](#Features_mapdl) |[41 items](#Fixes_mapdl) |
-| mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
-| mapl |  |[1 item](#Fixes_mapl) |
-| math | [12 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [2 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh |  |[3 items](#Fixes_mesh) |
-| misc | [13 items](#Features_misc) |[19 items](#Fixes_misc) |
-| multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
-| name |  |[1 item](#Fixes_name) |
-| native | [5 items](#Features_native) |[15 items](#Fixes_native) |
-| nuget |  |[1 item](#Fixes_nuget) |
-| perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| prime | [3 items](#Features_prime) | |
-| pydpf |  |[1 item](#Fixes_pydpf) |
-| refactor | [1 item](#Features_refactor) | |
-| rotation |  |[1 item](#Fixes_rotation) |
-| utilities |  |[1 item](#Fixes_utilities) |
-| vtk |  |[1 item](#Fixes_vtk) |
-| workflows | [2 items](#Features_workflows) |[2 items](#Fixes_workflows) |
+| 1297620 |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| averaging |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| c# |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| cff | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[4 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| cgns | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| changelog | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| ci | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| compression | [3 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| core |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| cyclic | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| doc | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| documentation | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| dpf | [3 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| eng_mat |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| expansion | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| fbs | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| femutils | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[14 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| flatbuffers |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| framework | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[6 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| grpc | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[3 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| grpcclient |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| h5dpf | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[4 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| hdf5 | [7 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[5 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| hgp | [5 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| hgptests |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| kernel | [3 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[9 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| lsdyna | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| mapd | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| mapdl | [15 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[41 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| mapdlpluggin |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| mapl |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| math | [12 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| mechanical | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[5 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| mesh |  |[3 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| misc | [13 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[19 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| multiphysicsmapper |  |[5 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| name |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| native | [5 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[15 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| nuget |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| perf | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| prime | [3 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| pydpf |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| refactor | [1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) | |
+| rotation |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| utilities |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| vtk |  |[1 item](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
+| workflows | [2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |[2 items](/docs/dpf/dpf-framework/versions/2027.R1.SP01/changelog/changelog) |
 
 
 ## 1297620
@@ -2145,19 +2147,19 @@ The following table shows which components have updates in each category.
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
   > 
   > The output of the quantization operation is :
-  > \\[ q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor \\]
-  > The truncated value in the original scale has to be computed by doing \\( 2\varepsilon q(x) \\).
+  > $$ q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor $$
+  > The truncated value in the original scale has to be computed by doing $ 2\varepsilon q(x) $.
   > 
-  > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
+  > To truncate a number to $n$ decimal places, the threshold must be chosen as $10^{-n}$.
 
 - [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization_fc.md):
   > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
   > 
   > The output of the quantization operation is :
-  > \\[q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor \\]
-  > The truncated value in the original scale has to be computed by doing \\(2\varepsilon q(x) \\).
+  > $$q(x) = \left\lfloor\frac{x}{2\varepsilon} + \frac{1}{2}\right\rfloor $$
+  > The truncated value in the original scale has to be computed by doing $2\varepsilon q(x) $.
   > 
-  > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
+  > To truncate a number to $n$ decimal places, the threshold must be chosen as $10^{-n}$.
 
 
 #### info
@@ -2240,13 +2242,13 @@ The following table shows which components have updates in each category.
   > 
   > An inline equation $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$ using LaTeX dollar delimiters.
   > 
-  > An inline equation \\(x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.\\) using LaTeX parenthesis delimiters.
+  > An inline equation $x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$ using LaTeX parenthesis delimiters.
   > 
   > An equation on its own using dollar delimiters:
   > $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$
   > 
   > An equation on its own using square bracket delimiters:
-  > \\[x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.\\]
+  > $$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}.$$
   > 
 
 
@@ -2545,23 +2547,23 @@ The following table shows which components have updates in each category.
   > Concatenates fields into a unique one by incrementing the number of components.
   > 
   > Example:
-  > - Field1 components: { UX, UY, UZ }
-  > - Field2 components: { RX, RY, RZ }
-  > - Output field : { UX, UY, UZ, RX, RY, RZ }
+  > - Field1 components: &#123; UX, UY, UZ &#125;
+  > - Field2 components: &#123; RX, RY, RZ &#125;
+  > - Output field : &#123; UX, UY, UZ, RX, RY, RZ &#125;
 
 - [concatenate_fields_containers](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/concatenate_fields_containers.md):
   > Concatenates fields containers into a unique one by concatenating each of their fields.
   > 
   > Example:
   > - Fields Container 1:
-  > 	- Field1 with components: { UX, UY, UZ }
-  > 	- Field2 with components: { VX, VY, VZ }
+  > 	- Field1 with components: &#123; UX, UY, UZ &#125;
+  > 	- Field2 with components: &#123; VX, VY, VZ &#125;
   > - Fields Container 2:
-  > 	- Field1 with components: { RX, RY, RZ }
-  > 	- Field2 with components: { AX, AY, AZ }
+  > 	- Field1 with components: &#123; RX, RY, RZ &#125;
+  > 	- Field2 with components: &#123; AX, AY, AZ &#125;
   > - Output Fields Container:
-  > 	- Field1 with components: { UX, UY, UZ, RX, RY, RZ }
-  > 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
+  > 	- Field1 with components: &#123; UX, UY, UZ, RX, RY, RZ &#125;
+  > 	- Field2 with components: &#123; VX, VY, VZ, AX, AY, AZ &#125;
 
 - [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/customtypefield_get_attribute.md):
   > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs

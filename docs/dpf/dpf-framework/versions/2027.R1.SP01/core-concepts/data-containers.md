@@ -1,4 +1,6 @@
-# Entities used in DPF operators
+---
+title: "Entities used in DPF operators"
+---
 
 ## Field
 

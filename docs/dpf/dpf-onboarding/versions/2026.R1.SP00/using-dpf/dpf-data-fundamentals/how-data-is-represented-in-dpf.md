@@ -1,4 +1,6 @@
-# How is data represented in DPF
+---
+title: "How is data represented in DPF"
+---
 
 Before exploring where data comes from and how to process it, you need to understand how DPF organizes it internally. DPF uses specific structures to store data and associate it with the domain it describes, making the data self-describing and efficient to manipulate.
 
@@ -356,7 +358,7 @@ The best approach for looping depends on whether your DPF server is local or rem
 | Scenario | Best approach | Why |
 |----------|--------------|-----|
 | **Local server, any size** | `field.data` + manual loop | Direct memory access (pointer), no copy overhead |
-| **Remote server, small field (<100 MB)** | `field.data` or `as_local_field()` | Single network transfer is acceptable |
+| **Remote server, small field (&lt;100 MB)** | `field.data` or `as_local_field()` | Single network transfer is acceptable |
 | **Remote server, large field (>100 MB)** | `as_local_field()` | Better memory management and cleanup |
 | **Remote server, very large field (>1 GB)** | Filter with operators first, then process subset | Avoid transferring GB over network |
 | **Need only a few entities** | `get_entity_data()` or `get_entity_data_by_id()` | Efficient for small number of queries |
@@ -776,7 +778,7 @@ A **collection** is a container that groups multiple DPF objects of the same typ
 
 ### What are labels
 
-**Labels** are categories used to organize objects within a collection. Each object is associated with an integer ID for every label. A **label space** (like `{"time": 3}`) acts as a filter to identify specific objects.
+**Labels** are categories used to organize objects within a collection. Each object is associated with an integer ID for every label. A **label space** (like `&#123;"time": 3&#125;`) acts as a filter to identify specific objects.
 
 **Common labels**: `time` (time step ID), `frequency` (frequency set ID), `zone` (fluid zone ID), `stage` (load stage ID).
 
@@ -792,7 +794,7 @@ A **collection** is a container that groups multiple DPF objects of the same typ
 
 Collections provide powerful capabilities:
 
-- **Access by index or label**: Get a specific field by position (`container[0]`) or by label (`container.get_field({"time": 5})`)
+- **Access by index or label**: Get a specific field by position (`container[0]`) or by label (`container.get_field(&#123;"time": 5&#125;)`)
 - **Iterate**: Loop through all objects in the collection
 - **Filter**: Query for objects matching specific label criteria
 - **Bulk processing**: Pass entire collections to operators to process all objects at once
@@ -1262,8 +1264,8 @@ Now that you understand how to work with Fields and Collections, explore these a
 
 In the next section, you'll learn where DPF data comes from and how to import it using DataSources, StreamsContainers, and the Model object.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="which-data-can-be-represented.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="where-does-the-data-come-from.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/which-data-can-be-represented" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/where-does-the-data-come-from" class="nav-btn nav-btn-next">Next page →</a>
 </div>

@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [input_string](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [input_string](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/txt_file_to_dpf) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### input_string (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-ex: 'double:1.0', 'int:1', 'vector<double>:1.0;1.0'
+ex: 'double:1.0', 'int:1', 'vector&lt;double&gt;:1.0;1.0'
 
 
 ## Outputs
@@ -40,7 +40,7 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [any_output](#output_0) | |
+|  **0**| [any_output](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/txt_file_to_dpf) | |
 
 
 <a id="output_0"></a>
@@ -53,12 +53,12 @@ any output
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -122,7 +122,7 @@ op.inputs.input_string.Connect(my_input_string)
 my_any_output = op.outputs.any_output.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

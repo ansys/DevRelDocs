@@ -1,4 +1,6 @@
-# About this chapter
+---
+title: "About this chapter"
+---
 
 This chapter guides you through setting up DPF to ensure you can start working with the framework quickly and smoothly.
 
@@ -55,8 +57,8 @@ This chapter provides step-by-step guidance on:
 
 By the end of this chapter, you will have a fully functional DPF environment ready for the exercises in the next chapter. Let's get started!
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="../../dpf-overview/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous chapter</a>
-<a href="how-to-install-dpf.md" class="nav-btn nav-btn-next">Start chapter →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/dpf-overview/key-takeaways" class="nav-btn nav-btn-prev">← Previous chapter</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/how-to-install-dpf" class="nav-btn nav-btn-next">Start chapter →</a>
 </div>

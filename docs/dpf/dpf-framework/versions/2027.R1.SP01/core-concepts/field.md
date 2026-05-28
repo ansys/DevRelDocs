@@ -1,4 +1,6 @@
-# Field fundamentals
+---
+title: "Field fundamentals"
+---
 
 The Field is DPF's fundamental simulation data container. It is a data structure that associates numerical values with entities in a discretized region, along with metadata that makes the data self-describing. Every field contains interconnected components that define what the data represents, where it applies, how it is measured, and how it is structured.
 
@@ -181,16 +183,16 @@ Key field properties for introspection:
 | `component_count` | Number of components per elementary data | `int` |
 | `elementary_data_count` | Number of elementary data (entities) | `int` |
 | `size` | Total data array length (entities × layers × components) | `int` |
-| `scoping` | Entity IDs with data | [`scoping`](./dpf-types.md#scoping) |
+| `scoping` | Entity IDs with data | [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 | `unit` | Measurement unit | `str` |
 | `shell_layers` | Shell layer configuration | `enum` |
-| `field_definition` | Aggregated metadata | [`field_definition`](./dpf-types.md#field-definition) |
+| `field_definition` | Aggregated metadata | [`field_definition`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 | `data` | Raw data array | `array of double` |
 
 ## Related types
 
 Fields are often used in combination with:
-- [`fields_container`](./dpf-types.md#fields-container): Collection of fields indexed by labels (time, frequency, etc.)
-- [`meshed_region`](./dpf-types.md#meshed-region): Support for spatial fields
-- [`time_freq_support`](./dpf-types.md#time-freq-support): Support for temporal/frequency fields
-- [`scoping`](./dpf-types.md#scoping): Entity selection mechanism
+- [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types): Collection of fields indexed by labels (time, frequency, etc.)
+- [`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types): Support for spatial fields
+- [`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types): Support for temporal/frequency fields
+- [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types): Entity selection mechanism

@@ -1,4 +1,6 @@
-# About this chapter
+---
+title: "About this chapter"
+---
 
 This chapter of DPF onboarding follows the main logic of DPF. It involves understanding which data can be represented, identifying the sources of data, learning how data is structured within the framework, and finally, interacting with the data using the available tools. This section will guide you through these steps in detail.
 
@@ -25,9 +27,9 @@ This chapter provides detailed explanations, examples, and exercises to help you
 
 By the end of this section, you will have a comprehensive understanding of how to use DPF to represent, manipulate, and interact with simulation data. Let's get started!
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="../setting-up-dpf/key-takeaways.md" class="nav-btn nav-btn-prev">← Previous chapter</a>
-<a href="which-data-can-be-represented.md" class="nav-btn nav-btn-next">Start chapter →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/key-takeaways" class="nav-btn nav-btn-prev">← Previous chapter</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/which-data-can-be-represented" class="nav-btn nav-btn-next">Start chapter →</a>
 </div>
 

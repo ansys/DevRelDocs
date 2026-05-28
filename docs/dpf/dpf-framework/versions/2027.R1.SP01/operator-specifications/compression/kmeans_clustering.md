@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [clusters_number](#input_0) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [formula](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [fields_container](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [component_number](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [clusters_number](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/kmeans_clustering) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [formula](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/kmeans_clustering) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/kmeans_clustering) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [component_number](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/kmeans_clustering) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### clusters_number (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 number of the clusters (dafault is 3)
 
@@ -38,7 +38,7 @@ number of the clusters (dafault is 3)
 ### formula (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 formula ('dist'/'dotprod'), default is 'dist'
 
@@ -46,7 +46,7 @@ formula ('dist'/'dotprod'), default is 'dist'
 ### fields_container (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 an iunput fields container containing the data which will be used for the clustering
 
@@ -54,7 +54,7 @@ an iunput fields container containing the data which will be used for the cluste
 ### component_number (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 component number as an int (default is 0), ex '0' for X-displacement, '1' for Y-displacement,...
 
@@ -67,25 +67,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [scoping_clusters](#output_0) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+|  **0**| [scoping_clusters](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/kmeans_clustering) |[`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### scoping_clusters (Pin 0)
 
-- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+- **Expected type(s):** [`scopings_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Scopings container with the space scoping (entities' ids) corresponding to each of k-clusters
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -158,7 +158,7 @@ op.inputs.component_number.Connect(my_component_number)
 my_scoping_clusters = op.outputs.scoping_clusters.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

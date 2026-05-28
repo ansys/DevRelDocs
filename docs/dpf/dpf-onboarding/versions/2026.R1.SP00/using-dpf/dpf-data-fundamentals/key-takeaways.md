@@ -1,4 +1,6 @@
-# Key takeaways
+---
+title: "Key takeaways"
+---
 
 Congratulations! You've completed the "DPF data fundamentals" chapter. Here's a summary of the essential concepts you've learned.
 
@@ -104,7 +106,7 @@ Before moving to the next chapter:
 
     Your responses directly improve this content for future learners!
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="how-to-interact-with-data.md" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/how-to-interact-with-data" class="nav-btn nav-btn-prev">← Previous page</a>
 </div>

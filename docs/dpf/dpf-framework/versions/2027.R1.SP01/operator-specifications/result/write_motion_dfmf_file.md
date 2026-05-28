@@ -20,32 +20,32 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [model_data](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`property_field`](../../core-concepts/dpf-types.md#property-field) |
-| <strong>1</strong> | [mode_shapes](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [lumped_mass](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [field_coordinates](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>4</strong> | [nod](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [used_node_index](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [eigenvalue](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [translational_mode_shape](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>8</strong> | [rotational_mode_shape](#input_8) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>9</strong> | [invrt_1](#input_9) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>10</strong> | [invrt_2](#input_10) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>11</strong> | [invrt_3](#input_11) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>12</strong> | [invrt_4](#input_12) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>13</strong> | [invrt_5](#input_13) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>14</strong> | [invrt_6](#input_14) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>15</strong> | [invrt_7](#input_15) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>16</strong> | [invrt_8](#input_16) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>17</strong> | [dfmffile_path](#input_17) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>18</strong> | [rstfile_path](#input_18) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [model_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mode_shapes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [lumped_mass](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [field_coordinates](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [nod](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [used_node_index](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [eigenvalue](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [translational_mode_shape](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>8</strong> | [rotational_mode_shape](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>9</strong> | [invrt_1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>10</strong> | [invrt_2](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>11</strong> | [invrt_3](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>12</strong> | [invrt_4](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>13</strong> | [invrt_5](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>14</strong> | [invrt_6](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>15</strong> | [invrt_7](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>16</strong> | [invrt_8](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>17</strong> | [dfmffile_path](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>18</strong> | [rstfile_path](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### model_data (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 data describing the finite element model
 
@@ -53,7 +53,7 @@ data describing the finite element model
 ### mode_shapes (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the mode shapes, which are CST and NOR for the cms method
 
@@ -61,7 +61,7 @@ FieldsContainers containing the mode shapes, which are CST and NOR for the cms m
 ### lumped_mass (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the lumped mass
 
@@ -69,7 +69,7 @@ FieldsContainers containing the lumped mass
 ### field_coordinates (Pin 3)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 coordinates of all nodes
 
@@ -77,7 +77,7 @@ coordinates of all nodes
 ### nod (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -85,7 +85,7 @@ coordinates of all nodes
 ### used_node_index (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -93,7 +93,7 @@ coordinates of all nodes
 ### eigenvalue (Pin 6)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -101,7 +101,7 @@ coordinates of all nodes
 ### translational_mode_shape (Pin 7)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -109,7 +109,7 @@ coordinates of all nodes
 ### rotational_mode_shape (Pin 8)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -117,7 +117,7 @@ coordinates of all nodes
 ### invrt_1 (Pin 9)
 
 - **Required:** Yes
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -125,7 +125,7 @@ coordinates of all nodes
 ### invrt_2 (Pin 10)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -133,7 +133,7 @@ coordinates of all nodes
 ### invrt_3 (Pin 11)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -141,7 +141,7 @@ coordinates of all nodes
 ### invrt_4 (Pin 12)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -149,7 +149,7 @@ coordinates of all nodes
 ### invrt_5 (Pin 13)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -157,7 +157,7 @@ coordinates of all nodes
 ### invrt_6 (Pin 14)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -165,7 +165,7 @@ coordinates of all nodes
 ### invrt_7 (Pin 15)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -173,7 +173,7 @@ coordinates of all nodes
 ### invrt_8 (Pin 16)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -181,7 +181,7 @@ coordinates of all nodes
 ### dfmffile_path (Pin 17)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 path with motion dfmf extension where the export occurs
 
@@ -189,7 +189,7 @@ path with motion dfmf extension where the export occurs
 ### rstfile_path (Pin 18)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -202,25 +202,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [dfmf_data_source](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+|  **0**| [dfmf_data_source](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/write_motion_dfmf_file) |[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### dfmf_data_source (Pin 0)
 
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Data Source containing the dfmf file generated.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -338,7 +338,7 @@ op.inputs.rstfile_path.Connect(my_rstfile_path)
 my_dfmf_data_source = op.outputs.dfmf_data_source.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

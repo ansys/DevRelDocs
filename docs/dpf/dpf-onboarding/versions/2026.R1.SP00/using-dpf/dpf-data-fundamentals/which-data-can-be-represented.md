@@ -1,4 +1,6 @@
-# Which data can be represented
+---
+title: "Which data can be represented"
+---
 
 DPF works with physical and numerical data: quantities that vary across space, time, or other dimensions. While commonly used for simulation results, DPF can represent any data that follows a field pattern. Here are examples:
 
@@ -142,8 +144,8 @@ Understanding what types of data can be represented helps you:
 
 In the next section, you'll learn how DPF represents this data internally using fields, scopings, supports, and collections.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="index.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="how-data-is-represented-in-dpf.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/index" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/how-data-is-represented-in-dpf" class="nav-btn nav-btn-next">Next page →</a>
 </div>

@@ -1,4 +1,6 @@
-# Available DPF operator configurations
+---
+title: "Available DPF operator configurations"
+---
 
 Configurations are optional settings that control how operators execute their computations. They enable you to optimize performance, manage memory usage, and customize execution behavior without affecting the operator's output results.
 
@@ -17,7 +19,7 @@ Most operators work well with default configuration values. Explicit configurati
 
 ## Available configuration options
 
-The following are all the currently existing configurations. Not all operators support every configuration - refer to the individual [operator specification](../operator-specifications/operator-specifications.md) page to see which configurations are available for a specific operator.
+The following are all the currently existing configurations. Not all operators support every configuration - refer to the individual [operator specification](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/operator-specifications) page to see which configurations are available for a specific operator.
 
 ### Performance and parallelization
 
@@ -25,7 +27,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="run_in_parallel"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `true`
 
@@ -35,7 +37,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="num_threads"></a>
 
-**Type:** [`int32`](./dpf-types.md#standard-types)
+**Type:** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `0` (use global default: number of hardware threads on Windows, `1` on Linux)
 
@@ -45,7 +47,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="read_inputs_in_parallel"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `false`
 
@@ -57,7 +59,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="inplace"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `false` (most operators default to `false` for safety; some rotation operators default to `true` for memory efficieny)
 
@@ -69,7 +71,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="use_cache"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `true`
 
@@ -79,7 +81,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="incremental"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `true`
 
@@ -91,7 +93,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="binary_operation"></a>
 
-**Type:** `enum dataProcessing::EBinaryOperation`, [`int32`](./dpf-types.md#standard-types)
+**Type:** `enum dataProcessing::EBinaryOperation`, [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Values:**
 - `0` (Intersection): Output contains only entities (node IDs, element IDs) that exist in ALL input fields
@@ -107,7 +109,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="work_by_index"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `false` (most operators); `true` for centroid operator
 
@@ -119,7 +121,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="permissive"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `false` (strict validation); `true` for error/norm operators
 
@@ -133,7 +135,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="mutex"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `false`
 
@@ -147,7 +149,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="evaluate_inputs_before_run"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `true` (eager evaluation); `false` for control-flow operators (`for_each`, conditional logic operators)
 
@@ -159,7 +161,7 @@ The following are all the currently existing configurations. Not all operators s
 
 <a id="use_cuda"></a>
 
-**Type:** [`bool`](./dpf-types.md#standard-types)
+**Type:** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 **Default:** `false`
 
@@ -226,6 +228,6 @@ auto op = ansys::dpf::Operator("add", config);
 
 ## See also
 
-- [Operator fundamentals](./operator.md)
-- [Operator specifications](../operator-specifications/operator-specifications.md)
-- [Available types](./dpf-types.md)
+- [Operator fundamentals](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator)
+- [Operator specifications](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/operator-specifications)
+- [Available types](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)

@@ -1,4 +1,6 @@
-# Generate and preview DPF Framework documentation locally
+---
+title: "Generate and preview DPF Framework documentation locally"
+---
 
 This guide shows you how to create your own local copy of the DPF Framework documentation that includes specifications for custom operators and development versions.
 
@@ -129,7 +131,7 @@ You can edit it to change [DocFX configuration options](https://dotnet.github.io
 
 2. **View your documentation:**
    - Open your web browser.
-   - Go to: <http://localhost:8080>.
+   - Go to: [http://localhost:8080](http://localhost:8080).
    - Use the search box to find specific operators or topics.
 
 3. **When you're done viewing:**
@@ -208,7 +210,7 @@ It removes the risk from incompatibilities between dependencies.
 
 ### Step 2: Install DPF server
 
-You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](../getting-started/installation.md).
+You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/installation).
 
 #### Set up DPF permissions
 
@@ -224,7 +226,7 @@ You need to install the DPF server software. Select the installation method that
    $env:ANSYSLMD_LICENSE_FILE = "1055@your-license-address"
    ```
 
-   **What these do:** Configure DPF to work with your license and permissions. See [Licensing](../getting-started/licensing.md) section for more information.
+   **What these do:** Configure DPF to work with your license and permissions. See [Licensing](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing) section for more information.
 
 ### Step 3: Update the DPF operators documentation
 
@@ -310,7 +312,7 @@ This creates DPF operators documentation for only one plugin (faster, but incomp
 dpf_generate_operators_doc.exe --plugin "<plugin_name>"
 ```
 
-**Important:** Replace `<plugin_name>` with your actual plugin name (keep the quotes).
+**Important:** Replace `&lt;plugin_name&gt;` with your actual plugin name (keep the quotes).
 
 You can find the name of the plugin an operator belongs to on its page in the [Operator specifications](https://developer.ansys.com/docs/dpf-framework-2025-r2/operator-specifications/operator-specifications.md) section of the DPF Framework documentation under property ``plugin``.
 
@@ -332,7 +334,7 @@ dpf_generate_operators_doc.exe --plugin "mesh"
 
 ### Step 4: Rebuild the documentation
 
-Refer to the previous main section [Create your DPF Framework HTML documentation](#create-your-dpf-framework-html-documentation) and **Step 3: Generate a local website** to update the HTML documentation with the new content for DPF operators.
+Refer to the previous main section [Create your DPF Framework HTML documentation](/docs/dpf/dpf-framework/versions/2027.R1.SP01/user-guide/dpf-docs-local-preview) and **Step 3: Generate a local website** to update the HTML documentation with the new content for DPF operators.
 
 ## Troubleshooting
 
@@ -346,12 +348,12 @@ Refer to the previous main section [Create your DPF Framework HTML documentation
 **Solution:** Make sure you copied all files correctly and that your documentation generation completed successfully.
 
 **Problem:** Can't access the website.
-**Solution:** Make sure the `docfx serve` command is still running and check that you're using <http://localhost:8080>.
+**Solution:** Make sure the `docfx serve` command is still running and check that you're using [http://localhost:8080](http://localhost:8080).
 
 ## Additional options
 
 With your working documentation website:
 
-- **Bookmark <http://localhost:8080>** for easy access (when the server is running).
+- **Bookmark [http://localhost:8080](http://localhost:8080)** for easy access (when the server is running).
 - **Re-run the generation steps** whenever you update your operators or plugins.
 - **Explore customization options** in the [DocFX documentation](https://dotnet.github.io/docfx/) if you want to change the appearance.

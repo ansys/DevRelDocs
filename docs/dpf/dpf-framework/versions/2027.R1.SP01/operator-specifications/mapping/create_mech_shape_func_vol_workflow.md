@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [source_mesh](#input_0) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>1</strong> | [target_mesh](#input_1) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>6</strong> | [target_scoping](#input_6) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>10</strong> | [options_data_tree](#input_10) |  |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>0</strong> | [source_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/create_mech_shape_func_vol_workflow) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [target_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/create_mech_shape_func_vol_workflow) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [target_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/create_mech_shape_func_vol_workflow) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>10</strong> | [options_data_tree](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/create_mech_shape_func_vol_workflow) |  |[`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### source_mesh (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Mesh where the source data is defined.
 
@@ -38,7 +38,7 @@ Mesh where the source data is defined.
 ### target_mesh (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Target mesh. Can be a meshed region or a node coordinates field. Providing node coordinates field is only allowed for non-conservative mapping.
 
@@ -46,7 +46,7 @@ Target mesh. Can be a meshed region or a node coordinates field. Providing node 
 ### target_scoping (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Scoping that restricts the interpolation to a given set of nodes/elements in the target mesh.
 
@@ -54,7 +54,7 @@ Scoping that restricts the interpolation to a given set of nodes/elements in the
 ### options_data_tree (Pin 10)
 
 - **Required:** No
-- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 DataTree that contains a 'mapping_options' subtree with the mapping options, and a 'data_definition' subtree with 'dimensionality' int and 'location' string attributes that are required by the 'prepare mechanical native mapping' operator (see documentation of this operator to know more about the supported options).
 
@@ -67,25 +67,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [mapping_workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+|  **0**| [mapping_workflow](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/create_mech_shape_func_vol_workflow) |[`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### mapping_workflow (Pin 0)
 
-- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+- **Expected type(s):** [`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Workflow with input pin 'source_data'; optionally 'source_mesh', 'target_mesh', 'target_scoping', and 'options_data_tree'; and output pins 'target_data','unmapped_nodes_data','outside_nodes_data','mapping_error_codes', 'source_mesh_id' and 'target_mesh_id.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -158,7 +158,7 @@ op.inputs.options_data_tree.Connect(my_options_data_tree)
 my_mapping_workflow = op.outputs.mapping_workflow.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

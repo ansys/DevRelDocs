@@ -20,22 +20,22 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [target_time_freq_support](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
-| <strong>1</strong> | [operator_to_iterate](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](../../core-concepts/dpf-types.md#operator) |
-| <strong>2</strong> | [pin_index](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [abstract_meshed_region](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>200</strong> | [chunk_config](#input_200) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
-| <strong>1000</strong> | [producer_op1](#input_1000) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](../../core-concepts/dpf-types.md#operator) |
-| <strong>1001</strong> | [output_pin_of_producer_op1](#input_1001) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1002</strong> | [input_pin_of_consumer_op1](#input_1002) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1003</strong> | [consumer_op1](#input_1003) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](../../core-concepts/dpf-types.md#operator) |
+| <strong>0</strong> | [target_time_freq_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [operator_to_iterate](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [pin_index](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [abstract_meshed_region](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [chunk_config](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1000</strong> | [producer_op1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1001</strong> | [output_pin_of_producer_op1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1002</strong> | [input_pin_of_consumer_op1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1003</strong> | [consumer_op1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`operator`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### target_time_freq_support (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+- **Expected type(s):** [`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 List of time freq support to potentially split in chunks.
 
@@ -43,7 +43,7 @@ List of time freq support to potentially split in chunks.
 ### operator_to_iterate (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+- **Expected type(s):** [`operator`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Operator that must be reconnected with the range values.
 
@@ -51,7 +51,7 @@ Operator that must be reconnected with the range values.
 ### pin_index (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -59,7 +59,7 @@ Operator that must be reconnected with the range values.
 ### abstract_meshed_region (Pin 7)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 When a mesh is provided, the number of nodes (for "Nodal" results) or number of elements (for "Elemental" results) is used to compute the chunk. When a field is provided, its scoping size is used to compute the chunk.
 
@@ -67,7 +67,7 @@ When a mesh is provided, the number of nodes (for "Nodal" results) or number of 
 ### chunk_config (Pin 200)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 a data tree with an int attribute "max_num_bytes", an int attribute "dimensionality" (average result size by entity), a string attribute "location" ("Nodal" or"Elemental") is expected.
 
@@ -75,7 +75,7 @@ a data tree with an int attribute "max_num_bytes", an int attribute "dimensional
 ### producer_op1 (Pin 1000)
 
 - **Required:** Yes
-- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+- **Expected type(s):** [`operator`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -83,7 +83,7 @@ a data tree with an int attribute "max_num_bytes", an int attribute "dimensional
 ### output_pin_of_producer_op1 (Pin 1001)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -91,7 +91,7 @@ a data tree with an int attribute "max_num_bytes", an int attribute "dimensional
 ### input_pin_of_consumer_op1 (Pin 1002)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -99,7 +99,7 @@ a data tree with an int attribute "max_num_bytes", an int attribute "dimensional
 ### consumer_op1 (Pin 1003)
 
 - **Required:** Yes
-- **Expected type(s):** [`operator`](../../core-concepts/dpf-types.md#operator)
+- **Expected type(s):** [`operator`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -112,7 +112,7 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [chunks](#output_0) | |
+|  **0**| [chunks](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/mechanical_make_time_freq_support_chunk_for_each) | |
 
 
 <a id="output_0"></a>
@@ -125,12 +125,12 @@ To connect to "producer_consumer_for_each" Operator on pin 0
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -222,7 +222,7 @@ op.inputs.consumer_op1.Connect(my_consumer_op1)
 my_chunks = op.outputs.chunks.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

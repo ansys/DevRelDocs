@@ -24,7 +24,7 @@ If `permissive` is disabled (default), errors are thrown for invalid files.
 
 ## Supported file types
 
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+This operator supports the following keys ([file formats](/docs/dpf/dpf-framework/versions/2027.R1.SP01/index)) for each listed namespace (plugin/solver):
 
 - cff: cas, flprj 
 - cgns: cgns 
@@ -40,19 +40,19 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [time_scoping](#input_0) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>14</strong> | [read_cyclic](#input_14) |  |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>25</strong> | [region_scoping](#input_25) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>200</strong> | [laziness](#input_200) |  |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+| <strong>0</strong> | [time_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [streams_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |  |[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>14</strong> | [read_cyclic](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |  |`enum dataProcessing::ECyclicReading`, [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>25</strong> | [region_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [laziness](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |  |[`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### time_scoping (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Optional time/frequency set ID of the mesh, supported for adaptative meshes.
 
@@ -60,7 +60,7 @@ Optional time/frequency set ID of the mesh, supported for adaptative meshes.
 ### streams_container (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 result file container allowed to be kept open to cache data
 
@@ -68,20 +68,20 @@ result file container allowed to be kept open to cache data
 ### data_sources (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Data sources describing one or more result files.
 
 **Error conditions when `permissive` config is disabled:**
-- Throws `std::runtime_error` with message "StreamProvider: empty namespace for result key '<key>'" if a result file has no namespace.
-- Throws `std::runtime_error` with message "StreamProvider: operator <namespace>::stream_provider not found." if the namespace is not supported.
+- Throws `std::runtime_error` with message "StreamProvider: empty namespace for result key '&lt;key&gt;'" if a result file has no namespace.
+- Throws `std::runtime_error` with message "StreamProvider: operator &lt;namespace&gt;::stream_provider not found." if the namespace is not supported.
 - If all result files are invalid, throws an error even in permissive mode.
 
 <a id="input_14"></a>
 ### read_cyclic (Pin 14)
 
 - **Required:** No
-- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If 1, cyclic symmetry is ignored. If 2, cyclic expansion is done (default is 1).
 
@@ -89,7 +89,7 @@ If 1, cyclic symmetry is ignored. If 2, cyclic expansion is done (default is 1).
 ### region_scoping (Pin 25)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 region id (integer) or vector of region ids with one entity (vector) or region scoping with one id (scoping) (region corresponds to zone for Fluid results or part for LSDyna results).
 
@@ -97,7 +97,7 @@ region id (integer) or vector of region ids with one entity (vector) or region s
 ### laziness (Pin 200)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 configurate whether lazy evaluation can be performed and to what extent. Supported attributes are: 
 - "num_named_selections"->num named selection to read (-1 is all, int32, default si -1), careful: the other named selections will not be available, use mesh_property_provider Operator to read them.
@@ -113,46 +113,46 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+|  **0**| [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_provider) |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### mesh (Pin 0)
 
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+### [num_threads](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** 0
 
 Number of threads to use to run in parallel
 
-### [permissive](../../core-concepts/operator-configurations.md#permissive)
+### [permissive](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, warning checks (like unit or data sizes) won't be done.
 
-### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+### [run_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** true
 
 Loops are allowed to run in parallel if the value of this config is set to true.
@@ -231,7 +231,7 @@ op.inputs.laziness.Connect(my_laziness)
 my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

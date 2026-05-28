@@ -1,4 +1,6 @@
-# Key takeaways
+---
+title: "Key takeaways"
+---
 
 ## What is DPF
 **What is DPF**
@@ -68,8 +70,8 @@ Before moving to the next chapter:
 
     Your responses directly improve this content for future learners!
 
-<link rel="stylesheet" href="../styles/nav-buttons.css">
+<link rel="stylesheet" href="../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="how-dpf-works.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="../using-dpf/setting-up-dpf/index.md" class="nav-btn nav-btn-next">Next chapter →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/dpf-overview/how-dpf-works" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/index" class="nav-btn nav-btn-next">Next chapter →</a>
 </div>

@@ -20,14 +20,14 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [data_tree](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_tree`](../../core-concepts/dpf-types.md#data-tree), `vector<shared_ptr<data_tree>>` |
+| <strong>0</strong> | [data_tree](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_data_tree) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), `vector<shared_ptr&lt;data_tree&gt;>` |
 
 
 <a id="input_0"></a>
 ### data_tree (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree), `vector<shared_ptr<data_tree>>`
+- **Expected type(s):** [`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), `vector<shared_ptr&lt;data_tree&gt;>`
 
 Either a vector of data trees or data trees from pin 0 to ... to merge.
 
@@ -40,32 +40,32 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [any](#output_0) |[`any`](../../core-concepts/dpf-types.md#any) |
+|  **0**| [any](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_data_tree) |[`any`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### any (Pin 0)
 
-- **Expected type(s):** [`any`](../../core-concepts/dpf-types.md#any)
+- **Expected type(s):** [`any`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [permissive](../../core-concepts/operator-configurations.md#permissive)
+### [permissive](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, warning checks (like unit or data sizes) won't be done.
@@ -130,7 +130,7 @@ op.inputs.data_tree.Connect(my_data_tree)
 my_any = op.outputs.any.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

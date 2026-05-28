@@ -902,7 +902,7 @@ Same requirements as API changelog (see section 3.3)
 - [ ] `toc.yml` exists and is correct
 - [ ] **Exactly one** `toc.yml` in the whole documentation package (see Part 1 — **Table of contents (`toc.yml`)**)
 - [ ] No **duplicate** `href` values anywhere in `toc.yml` (including nested items)
-- [ ] Every `name` that contains YAML-sensitive characters (e.g. `::`, `: ` patterns, `#`, `{}`, `[]`, quotes) is **double-quoted**
+- [ ] Every `name` that contains YAML-sensitive characters (e.g. `::`, `: ` patterns, `#`, `&#123;&#125;`, `[]`, quotes) is **double-quoted**
 - [ ] `docfx.json` exists with proper metadata
 - [ ] All Markdown files use proper formatting
 - [ ] Code blocks specify language for syntax highlighting

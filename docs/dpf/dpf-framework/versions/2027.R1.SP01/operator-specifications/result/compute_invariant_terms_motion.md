@@ -20,20 +20,20 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [rom_matrices](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [mode_shapes](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [lumped_mass](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [model_data](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>4</strong> | [field_coordinates](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>5</strong> | [nod](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [phi_ortho](#input_6) |  |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>0</strong> | [rom_matrices](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mode_shapes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [lumped_mass](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [model_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [field_coordinates](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [nod](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [phi_ortho](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |  |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### rom_matrices (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the reduced matrices
 
@@ -41,7 +41,7 @@ FieldsContainers containing the reduced matrices
 ### mode_shapes (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the mode shapes, which are CST and NOR for the cms method
 
@@ -49,7 +49,7 @@ FieldsContainers containing the mode shapes, which are CST and NOR for the cms m
 ### lumped_mass (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the lumped mass
 
@@ -57,7 +57,7 @@ FieldsContainers containing the lumped mass
 ### model_data (Pin 3)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 data describing the finite element model
 
@@ -65,7 +65,7 @@ data describing the finite element model
 ### field_coordinates (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 coordinates of all nodes
 
@@ -73,7 +73,7 @@ coordinates of all nodes
 ### nod (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -81,7 +81,7 @@ coordinates of all nodes
 ### phi_ortho (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Orthonormalizated modes transformation
 
@@ -94,153 +94,153 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [model_data](#output_0) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
-|  **1**| [mode_shapes](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **2**| [lumped_mass](#output_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **3**| [field_coordinates_and_euler_angles](#output_3) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **4**| [nod](#output_4) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **5**| [used_node_index](#output_5) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **6**| [eigenvalue](#output_6) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **7**| [translational_mode_shape](#output_7) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **8**| [rotational_mode_shape](#output_8) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **9**| [invrt_1](#output_9) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-|  **10**| [invrt_2](#output_10) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **11**| [invrt_3](#output_11) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **12**| [invrt_4](#output_12) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **13**| [invrt_5](#output_13) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **14**| [invrt_6](#output_14) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **15**| [invrt_7](#output_15) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **16**| [invrt_8](#output_16) |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [model_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [mode_shapes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [lumped_mass](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [field_coordinates_and_euler_angles](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **4**| [nod](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **5**| [used_node_index](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **6**| [eigenvalue](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **7**| [translational_mode_shape](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **8**| [rotational_mode_shape](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **9**| [invrt_1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **10**| [invrt_2](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **11**| [invrt_3](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **12**| [invrt_4](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **13**| [invrt_5](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **14**| [invrt_6](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **15**| [invrt_7](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **16**| [invrt_8](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/compute_invariant_terms_motion) |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### model_data (Pin 0)
 
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 data describing the finite element model
 
 <a id="output_1"></a>
 ### mode_shapes (Pin 1)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the mode shapes, which are CST and NOR for the cms method
 
 <a id="output_2"></a>
 ### lumped_mass (Pin 2)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the lumped mass
 
 <a id="output_3"></a>
 ### field_coordinates_and_euler_angles (Pin 3)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 coordinates and euler angles of all nodes
 
 <a id="output_4"></a>
 ### nod (Pin 4)
 
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_5"></a>
 ### used_node_index (Pin 5)
 
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_6"></a>
 ### eigenvalue (Pin 6)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_7"></a>
 ### translational_mode_shape (Pin 7)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_8"></a>
 ### rotational_mode_shape (Pin 8)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_9"></a>
 ### invrt_1 (Pin 9)
 
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_10"></a>
 ### invrt_2 (Pin 10)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_11"></a>
 ### invrt_3 (Pin 11)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_12"></a>
 ### invrt_4 (Pin 12)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_13"></a>
 ### invrt_5 (Pin 13)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_14"></a>
 ### invrt_6 (Pin 14)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_15"></a>
 ### invrt_7 (Pin 15)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_16"></a>
 ### invrt_8 (Pin 16)
 
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -370,7 +370,7 @@ my_invrt_7 = op.outputs.invrt_7.GetData()
 my_invrt_8 = op.outputs.invrt_8.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -20,18 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>1</strong> | [resample_output](#input_1) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [absolute_error](#input_2) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [minimum_step_size](#input_3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [integration_constant](#input_4) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/time_integration) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [resample_output](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/time_integration) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [absolute_error](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/time_integration) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [minimum_step_size](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/time_integration) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [integration_constant](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/time_integration) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### field (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 field
 
@@ -39,7 +39,7 @@ field
 ### resample_output (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Resample the output
 
@@ -47,7 +47,7 @@ Resample the output
 ### absolute_error (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Absolute error for the resampling
 
@@ -55,7 +55,7 @@ Absolute error for the resampling
 ### minimum_step_size (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Minimum time step size for the resamplig
 
@@ -63,7 +63,7 @@ Minimum time step size for the resamplig
 ### integration_constant (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Constant to be added to the integrated field
 
@@ -76,25 +76,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/time_integration) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -170,7 +170,7 @@ op.inputs.integration_constant.Connect(my_integration_constant)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

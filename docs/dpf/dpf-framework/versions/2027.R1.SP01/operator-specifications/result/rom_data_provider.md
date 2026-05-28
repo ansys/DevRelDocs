@@ -20,21 +20,21 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [rom_type](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [reduced_stiff_matrix](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [reduced_damping_matrix](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [reduced_mass_matrix](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>5</strong> | [reduced_rhs_vector](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>6</strong> | [lumped_mass_matrix](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>7</strong> | [mode_shapes](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>0</strong> | [rom_type](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [reduced_stiff_matrix](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [reduced_damping_matrix](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [reduced_mass_matrix](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [reduced_rhs_vector](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [lumped_mass_matrix](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [mode_shapes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### rom_type (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If this pin is set to true, customized rom data must be given
 
@@ -42,7 +42,7 @@ If this pin is set to true, customized rom data must be given
 ### reduced_stiff_matrix (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the reduced Stiffness matrix
 
@@ -50,7 +50,7 @@ FieldsContainers containing the reduced Stiffness matrix
 ### reduced_damping_matrix (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the reduced Mass matrix
 
@@ -58,7 +58,7 @@ FieldsContainers containing the reduced Mass matrix
 ### reduced_mass_matrix (Pin 3)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the reduced Damp matrix
 
@@ -66,7 +66,7 @@ FieldsContainers containing the reduced Damp matrix
 ### data_sources (Pin 4)
 
 - **Required:** Yes
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -74,7 +74,7 @@ FieldsContainers containing the reduced Damp matrix
 ### reduced_rhs_vector (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the reduced RHS vector
 
@@ -82,7 +82,7 @@ FieldsContainers containing the reduced RHS vector
 ### lumped_mass_matrix (Pin 6)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the lumped Mass matrix
 
@@ -90,7 +90,7 @@ FieldsContainers containing the lumped Mass matrix
 ### mode_shapes (Pin 7)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the customized mode shapes
 
@@ -103,105 +103,105 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [rom_matrices](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **1**| [mode_shapes](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **2**| [lumped_mass](#output_2) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **3**| [model_data](#output_3) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
-|  **4**| [center_of_mass](#output_4) |[`property_field`](../../core-concepts/dpf-types.md#property-field) |
-|  **5**| [inertia_relief](#output_5) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **6**| [model_size](#output_6) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-|  **7**| [field_coordinates_and_euler_angles](#output_7) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-|  **8**| [nod](#output_8) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **9**| [meshed_region](#output_9) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-|  **10**| [phi_ortho](#output_10) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [rom_matrices](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [mode_shapes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [lumped_mass](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [model_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **4**| [center_of_mass](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **5**| [inertia_relief](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **6**| [model_size](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **7**| [field_coordinates_and_euler_angles](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **8**| [nod](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **9**| [meshed_region](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **10**| [phi_ortho](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/rom_data_provider) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### rom_matrices (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the reduced matrices
 
 <a id="output_1"></a>
 ### mode_shapes (Pin 1)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the mode shapes, which are CST and NOR for the cms method
 
 <a id="output_2"></a>
 ### lumped_mass (Pin 2)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 FieldsContainers containing the lumped mass
 
 <a id="output_3"></a>
 ### model_data (Pin 3)
 
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 data describing the finite element model
 
 <a id="output_4"></a>
 ### center_of_mass (Pin 4)
 
-- **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
+- **Expected type(s):** [`property_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_5"></a>
 ### inertia_relief (Pin 5)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 inertia matrix
 
 <a id="output_6"></a>
 ### model_size (Pin 6)
 
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 size of the model
 
 <a id="output_7"></a>
 ### field_coordinates_and_euler_angles (Pin 7)
 
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 coordinates and euler angles of all nodes
 
 <a id="output_8"></a>
 ### nod (Pin 8)
 
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 ids of master nodes
 
 <a id="output_9"></a>
 ### meshed_region (Pin 9)
 
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 expanded meshed region.
 
 <a id="output_10"></a>
 ### phi_ortho (Pin 10)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Orthonormalized mode shape transformation
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -316,7 +316,7 @@ my_meshed_region = op.outputs.meshed_region.GetData()
 my_phi_ortho = op.outputs.phi_ortho.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

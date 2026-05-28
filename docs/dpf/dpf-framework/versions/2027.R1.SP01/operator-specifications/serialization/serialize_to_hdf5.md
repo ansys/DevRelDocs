@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [file_path](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [export_floats](#input_1) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [export_flat_vectors](#input_2) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [data](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>0</strong> | [file_path](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/serialize_to_hdf5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [export_floats](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/serialize_to_hdf5) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [export_flat_vectors](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/serialize_to_hdf5) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/serialize_to_hdf5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
 
 
 <a id="input_0"></a>
 ### file_path (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 output file path with .h5 extension
 
@@ -38,7 +38,7 @@ output file path with .h5 extension
 ### export_floats (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 converts double to float to reduce file size (default is true)
 
@@ -46,7 +46,7 @@ converts double to float to reduce file size (default is true)
 ### export_flat_vectors (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 if true, vectors and matrices data are exported flat (x1,y1,z1,x2,y2,z2..) (default is false)
 
@@ -72,12 +72,12 @@ Each output is detailed in the sections that follow the table.
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -148,7 +148,7 @@ op.inputs.export_flat_vectors.Connect(my_export_flat_vectors)
 op.inputs.data.Connect(my_data)
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

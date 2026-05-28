@@ -20,23 +20,23 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [output_path](#input_0) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [exposure_level](#input_1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [output_path](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/html_doc) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [exposure_level](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/html_doc) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### output_path (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-default is {working directory}/dataProcessingDoc.html
+default is &#123;working directory&#125;/dataProcessingDoc.html
 
 <a id="input_1"></a>
 ### exposure_level (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Generate the documentation depending on exposure level : 0 (default) for public operators, 1 includes hidden operator, 2 includes private operator, 3 includes operator without specifications.
 
@@ -54,12 +54,12 @@ Each output is detailed in the sections that follow the table.
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -123,7 +123,7 @@ op.inputs.output_path.Connect(my_output_path)
 op.inputs.exposure_level.Connect(my_exposure_level)
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

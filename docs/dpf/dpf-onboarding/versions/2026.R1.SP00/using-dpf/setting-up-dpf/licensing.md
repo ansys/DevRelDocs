@@ -1,4 +1,6 @@
-# Configuring licensing
+---
+title: "Configuring licensing"
+---
 
 Run DPF requires two licensing steps:
 
@@ -90,8 +92,8 @@ echo 'export ANSYSLMD_LICENSE_FILE=/path/to/your/license.lic' >> ~/.bashrc
 source ~/.bashrc
 ```
 
-**To use a remote license server**, set `ANSYSLMD_LICENSE_FILE` to `1055@<server_name>`, where `1055` is the default FlexLM port
-and `<server_name>` is the hostname or IP address of your license server:
+**To use a remote license server**, set `ANSYSLMD_LICENSE_FILE` to `1055@&lt;server_name&gt;`, where `1055` is the default FlexLM port
+and `&lt;server_name&gt;` is the hostname or IP address of your license server:
 
 ```powershell
 # Windows
@@ -114,8 +116,8 @@ or the [PyDPF-Core licensing documentation](https://dpf.docs.pyansys.com/version
 Once licensing is configured, proceed to the next section to verify your complete DPF installation.
 If you encounter any licensing errors during verification, troubleshooting steps are provided in the next section.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="how-to-install-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="check-your-installation.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/how-to-install-dpf" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/check-your-installation" class="nav-btn nav-btn-next">Next page →</a>
 </div>

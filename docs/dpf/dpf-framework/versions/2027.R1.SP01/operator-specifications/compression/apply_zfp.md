@@ -20,20 +20,20 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [dataIn](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [mode](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types), [`char`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [mode_parameter](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types), [`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [dim](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [order](#input_4) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [double_absthreshold](#input_5) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [double_relthreshold](#input_6) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [dataIn](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mode](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`char`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [mode_parameter](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [dim](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [order](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [double_absthreshold](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [double_relthreshold](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### dataIn (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 field or fields container to be compressed
 
@@ -41,7 +41,7 @@ field or fields container to be compressed
 ### mode (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`char`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`char`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 zfp mode: fixed-rate ('r'), fixed-precision ('p'), fixed-accuracy ('a')
 
@@ -49,7 +49,7 @@ zfp mode: fixed-rate ('r'), fixed-precision ('p'), fixed-accuracy ('a')
 ### mode_parameter (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types), [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 mode-corresponding parameter: rate (double) / precision (int) / accuracy (double)
 
@@ -57,7 +57,7 @@ mode-corresponding parameter: rate (double) / precision (int) / accuracy (double
 ### dim (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 dimension (1D/2D/3D) for data organization before the compression (int; default: 2)
 
@@ -65,7 +65,7 @@ dimension (1D/2D/3D) for data organization before the compression (int; default:
 ### order (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 xyz dimensions order, where x (row) corresponds to number of elementary data, y (col) - number of time steps, z - number of components (applicable only for 3d data) : 0=xyz, 1=yxz (int; default: 0)
 
@@ -73,7 +73,7 @@ xyz dimensions order, where x (row) corresponds to number of elementary data, y 
 ### double_absthreshold (Pin 5)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Double positive small value. All the values smaller than max(small value, max(vi) * relative threshold) are considered as zero values, (default value: 1.0e-18).
 
@@ -81,7 +81,7 @@ Double positive small value. All the values smaller than max(small value, max(vi
 ### double_relthreshold (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Double relative threshold. Values smaller than (v1 - v2) < max(small value, v1 * relativeTol) are considered identical (default value: 1.0e-10).
 
@@ -94,62 +94,62 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [compress_speed](#output_0) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-|  **1**| [compress_ratio](#output_1) |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-|  **2**| [dataOut](#output_2) |[`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
+|  **0**| [compress_speed](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [compress_ratio](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [dataOut](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/apply_zfp) |[`custom_type_fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### compress_speed (Pin 0)
 
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 the output entity is a double, containing compression speed of the input data: for ElementalNodal location - [elements/sec], for Nodal location - [nodes/sec]
 
 <a id="output_1"></a>
 ### compress_ratio (Pin 1)
 
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 the output entity is a double, containing compression rate = initial/compressed
 
 <a id="output_2"></a>
 ### dataOut (Pin 2)
 
-- **Expected type(s):** [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container)
+- **Expected type(s):** [`custom_type_fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 the output entity is a 'custom type field container';                     each output field containing compressed results corresponding to one component data (ie. input vector field/fc contains 3 components will give 3 output fields), this is not the case when input pin3 is set to 3, all components will be compressed into one field.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+### [num_threads](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** 0
 
 Number of threads to use to run in parallel
 
-### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+### [run_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** true
 
 Loops are allowed to run in parallel if the value of this config is set to true.
 
-### [use_cuda](../../core-concepts/operator-configurations.md#use_cuda)
+### [use_cuda](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, zfp fixed-rate parallel (de)compression will use CUDA. 
@@ -237,7 +237,7 @@ my_compress_ratio = op.outputs.compress_ratio.GetData()
 my_dataOut = op.outputs.dataOut.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

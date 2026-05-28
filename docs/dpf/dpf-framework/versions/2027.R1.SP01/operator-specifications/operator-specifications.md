@@ -1,53 +1,55 @@
-# Operator Specifications
+---
+title: "Operator Specifications"
+---
 
-- [Averaging operators](averaging/averaging_category.md)
-
-
-- [Compression operators](compression/compression_category.md)
-
-
-- [Filter operators](filter/filter_category.md)
+- [Averaging operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/averaging/averaging_category)
 
 
-- [Geo operators](geo/geo_category.md)
+- [Compression operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/compression/compression_category)
 
 
-- [Info operators](info/info_category.md)
+- [Filter operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/filter_category)
 
 
-- [Invariant operators](invariant/invariant_category.md)
+- [Geo operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/geo/geo_category)
 
 
-- [Logic operators](logic/logic_category.md)
+- [Info operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/info/info_category)
 
 
-- [Mapping operators](mapping/mapping_category.md)
+- [Invariant operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariant_category)
 
 
-- [Math operators](math/math_category.md)
+- [Logic operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/logic/logic_category)
 
 
-- [Mesh operators](mesh/mesh_category.md)
+- [Mapping operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/mapping_category)
 
 
-- [Metadata operators](metadata/metadata_category.md)
+- [Math operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/math_category)
 
 
-- [Min_max operators](min_max/min_max_category.md)
+- [Mesh operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_category)
 
 
-- [Result operators](result/result_category.md)
+- [Metadata operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/metadata/metadata_category)
 
 
-- [Scoping operators](scoping/scoping_category.md)
+- [Min_max operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/min_max/min_max_category)
 
 
-- [Serialization operators](serialization/serialization_category.md)
+- [Result operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/result_category)
 
 
-- [Server operators](server/server_category.md)
+- [Scoping operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/scoping_category)
 
 
-- [Utility operators](utility/utility_category.md)
+- [Serialization operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/serialization/serialization_category)
+
+
+- [Server operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/server_category)
+
+
+- [Utility operators](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/utility_category)
 
 

@@ -20,19 +20,19 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [double_or_vector_double](#input_0) |  |[`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [unit](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [location](#input_2) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [num_entities](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [num_components](#input_4) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [scoping](#input_5) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>0</strong> | [double_or_vector_double](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [unit](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [location](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [num_entities](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [num_components](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### double_or_vector_double (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Data of the field. Default is 0-field. Specify a double to create a field with uniform values, or a vector for explicit data per entity
 
@@ -40,7 +40,7 @@ Data of the field. Default is 0-field. Specify a double to create a field with u
 ### unit (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Unit symbol (m, Hz, kg, ...). Default is dimensionless
 
@@ -48,7 +48,7 @@ Unit symbol (m, Hz, kg, ...). Default is dimensionless
 ### location (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Location of the field: 'Nodal', 'ElementalNodal', 'Elemental', etc. Default is 'numeric'
 
@@ -56,7 +56,7 @@ Location of the field: 'Nodal', 'ElementalNodal', 'Elemental', etc. Default is '
 ### num_entities (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Number of field entities. Default is 1, or the size of the scoping if provided
 
@@ -64,7 +64,7 @@ Number of field entities. Default is 1, or the size of the scoping if provided
 ### num_components (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Number of field components per entity. Default is 1 for scalar, >1 for vector
 
@@ -72,7 +72,7 @@ Number of field components per entity. Default is 1 for scalar, >1 for vector
 ### scoping (Pin 5)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Scoping defining entity IDs and locations. If provided, overrides num_entities
 
@@ -85,25 +85,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/scalars_to_field) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Generated field with specified data and properties
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -182,7 +182,7 @@ op.inputs.scoping.Connect(my_scoping)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -1,4 +1,6 @@
-# Licensing
+---
+title: "Licensing"
+---
 
 This section describes how to properly set up licensing, as well as limitations and license usage of operators.
 
@@ -33,7 +35,7 @@ The **ANSYS_DPF_ACCEPT_LA** environment variable confirms your acceptance of the
 By passing the value **Y** to this environment variable, you are indicating that you have a valid and
 existing license for the edition and version of **DPF Server** that you intend to use.
 
-You can also [configure a DPF installation](configuration.md#environment-configuration) to mark explicit acceptance for every session.
+You can also [configure a DPF installation](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/configuration) to mark explicit acceptance for every session.
 
 <a id="configure-licensing"></a>
 
@@ -42,26 +44,26 @@ You can also [configure a DPF installation](configuration.md#environment-configu
 If your machine does not have a local Ansys installation, you must define where DPF should look for a valid license.
 
 To use a local license file, set the **ANSYSLMD_LICENSE_FILE** environment
-variable to point to an Ansys license file **<license_file_to_use>**:
+variable to point to an Ansys license file **&lt;license_file_to_use&gt;**:
 
-**`sh
-ANSYSLMD_LICENSE_FILE=<license_file_to_use>
-**`
+```sh
+ANSYSLMD_LICENSE_FILE=&lt;license_file_to_use&gt;
+```
 
 To use a remote license, set the **ANSYSLMD_LICENSE_FILE** environment
-variable to point to an Ansys license server **<license_server_to_use>**:
+variable to point to an Ansys license server **&lt;license_server_to_use&gt;**:
 
 **`sh
-ANSYSLMD_LICENSE_FILE=1055@<license_server_to_use>
+ANSYSLMD_LICENSE_FILE=1055@&lt;license_server_to_use&gt;
 **`
 
 For DPF Docker container usage only, you can use the following code to set both the **ANSYS_DPF_ACCEPT_LA**
 and **ANSYSLMD_LICENSE_FILE** environment variables. 
 
-> For the **ANSYSLMD_LICENSE_FILE** environment variable, ensure that you replace **<license_server_to_use>** to point to the Ansys license server.
+> For the **ANSYSLMD_LICENSE_FILE** environment variable, ensure that you replace **&lt;license_server_to_use&gt;** to point to the Ansys license server.
 
 **`sh
-docker run -e "ANSYS_DPF_ACCEPT_LA=Y" -e ANSYSLMD_LICENSE_FILE=1055@<license_server_to_use> -p 50052:50052 -e DOCKER_SERVER_PORT=50052 --expose=50052 dpf-core:v20XX_Y_preZ
+docker run -e "ANSYS_DPF_ACCEPT_LA=Y" -e ANSYSLMD_LICENSE_FILE=1055@&lt;license_server_to_use&gt; -p 50052:50052 -e DOCKER_SERVER_PORT=50052 --expose=50052 dpf-core:v20XX_Y_preZ
 **`
 
 The next section provides information on
@@ -75,13 +77,13 @@ Some DPF operators require DPF to check for an existing license
 and some require DPF to checkout a compatible license increment.
 
 DPF is by default allowed to checkout license increments as needed.
-To change this behavior, see [here](licensing.md#server-context).
+To change this behavior, see [here](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing).
 
 To know if operators require a license increment checkout to run, check their **license**
-attribute in the [Operator specifications reference](./../operator-specifications/operator-specifications.md).
+attribute in the [Operator specifications reference](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/operator-specifications).
 
 To check which Ansys licensing increments correspond to **any_dpf_supported_increments**,
-see [Compatible Ansys license increments](licensing.md#compatible-ansys-license-increments).
+see [Compatible Ansys license increments](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing).
 
 Even if an operator does not require a license checkout to run, most DPF operators still require
 DPF to check for a reachable license server or license file.
@@ -98,7 +100,7 @@ as data transformation (such as elemental to nodal, nodal to elemental, or any o
 ### Server context
 
 You can allow or prevent licensed operators from running and using a license with a
-[server context](./../user-guide/server-context.md)
+[server context](/docs/dpf/dpf-framework/versions/2027.R1.SP01/user-guide/server-context)
 
 - **Premium:** This default context allows DPF to perform license checkouts,
   making licensed DPF operators available.
@@ -114,12 +116,12 @@ Check the documentation of your DPF client to learn how to set the server contex
 The following user actions may fail due to licensing:
 
 - Starting a standalone DPF Server may fail due to the
-  **DPF Preview License Agreement** (see [here](licensing.md#dpf-preview-license-agreement)).
+  **DPF Preview License Agreement** (see [here](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing)).
 - Creating an operator may fail if the operator performs data transformation and no license server
-  or license file is found (see [here](licensing.md#licensing-strategy)).
+  or license file is found (see [here](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing)).
 - Running an operator requiring a license checkout may fail if no
-  [compatible license increment](licensing.md#compatible-ansys-license-increments) is available or if the DPF Server context is **Entry**, 
-  preventing any license check-out (see [here](licensing.md#server-context)).
+  [compatible license increment](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing) is available or if the DPF Server context is **Entry**, 
+  preventing any license check-out (see [here](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing)).
 
 
 <a id="compatible-ansys-license-increments"></a>

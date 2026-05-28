@@ -1,4 +1,6 @@
-# Installing DPF
+---
+title: "Installing DPF"
+---
 
 As explained in the **DPF overview** chapter, DPF uses a **client-server architecture**. You need:
 
@@ -9,9 +11,9 @@ For DPF onboarding, we'll use **PyDPF-Core** (the Python client) for examples an
 
 This page guides you through the three installation steps in order:
 
-1. [Install Python](#install-python)
-2. [Install PyDPF-Core](#install-pydpf-core)
-3. [Set up the DPF server](#set-up-the-dpf-server)
+1. [Install Python](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/how-to-install-dpf)
+2. [Install PyDPF-Core](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/how-to-install-dpf)
+3. [Set up the DPF server](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/how-to-install-dpf)
 
 ## Before you begin: license requirements
 
@@ -25,7 +27,7 @@ DPF requires a valid Ansys license to run most of its operators. What you need d
 > **Standalone DPF server requires an Ansys license**
 > The standalone DPF server is not a free tool. It requires a valid Ansys license increment (such as `preppost`, `meba`, `mech_2`, or any other compatible increment). If you do not already have access to an Ansys license, contact your Ansys license administrator before proceeding with the standalone installation.
 >
-> Configuring DPF to use your license file or license server is covered in the next section: [Licensing](licensing.md).
+> Configuring DPF to use your license file or license server is covered in the next section: [Licensing](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/licensing).
 
 ## Install Python
 
@@ -104,7 +106,7 @@ You can verify the DPF server is accessible by checking the following directory 
 C:\Program Files\ANSYS Inc\v{version}\dpf
 ```
 
-Replace `{version}` with your Ansys version number (for example, `251` for 2025 R1).
+Replace `&#123;version&#125;` with your Ansys version number (for example, `251` for 2025 R1).
 
 ### Option 2: Use a standalone DPF server
 
@@ -114,7 +116,7 @@ If you do not have Ansys installed, you can download and install the DPF server 
 >   The standalone DPF server still requires a valid Ansys license to operate. Either a license file must be present on your machine,
 >    or your machine must be able to reach a license server on your network. Without a license, the server will start but refuse to run most operations.
 >
-> Licensing is covered in detail in the next section: [Licensing](licensing.md).
+> Licensing is covered in detail in the next section: [Licensing](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/licensing).
 
 #### Step 1: Download the standalone DPF server
 
@@ -150,8 +152,8 @@ This registers the standalone DPF server so that PyDPF-Core can detect and start
 
 After completing the installation, proceed to the next section to configure licensing.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="index.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="licensing.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/index" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/licensing" class="nav-btn nav-btn-next">Next page →</a>
 </div>

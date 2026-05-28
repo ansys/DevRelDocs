@@ -20,9 +20,9 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [MaterialContainer](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
-| <strong>1</strong> | [streams](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`streams_container`](../../core-concepts/dpf-types.md#streams-container), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [streams_mapping](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`property_fields_container`](../../core-concepts/dpf-types.md#property-fields-container) |
+| <strong>0</strong> | [MaterialContainer](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/logic/enrich_materials) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>1</strong> | [streams](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/logic/enrich_materials) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [streams_mapping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/logic/enrich_materials) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`property_fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
@@ -37,7 +37,7 @@ Each parameter is detailed in the sections that follow the table.
 ### streams (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -45,7 +45,7 @@ Each parameter is detailed in the sections that follow the table.
 ### streams_mapping (Pin 2)
 
 - **Required:** Yes
-- **Expected type(s):** [`property_fields_container`](../../core-concepts/dpf-types.md#property-fields-container)
+- **Expected type(s):** [`property_fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -58,25 +58,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [MaterialContainer](#output_0) |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [MaterialContainer](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/logic/enrich_materials) |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### MaterialContainer (Pin 0)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -146,7 +146,7 @@ op.inputs.streams_mapping.Connect(my_streams_mapping)
 my_MaterialContainer = op.outputs.MaterialContainer.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

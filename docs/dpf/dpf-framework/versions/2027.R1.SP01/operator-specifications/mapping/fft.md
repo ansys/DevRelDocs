@@ -20,19 +20,19 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [scale_forward_transform](#input_3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [inplace](#input_4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [force_fft_points](#input_5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [cutoff_frequency](#input_6) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [scale_right_amplitude](#input_7) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [scale_forward_transform](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [inplace](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [force_fft_points](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [cutoff_frequency](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [scale_right_amplitude](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### field (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Field or Fields Container.
 
@@ -40,7 +40,7 @@ Field or Fields Container.
 ### scale_forward_transform (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Scale for Forward Transform, default is 2/field_num_elementary_data.
 
@@ -48,7 +48,7 @@ Scale for Forward Transform, default is 2/field_num_elementary_data.
 ### inplace (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 True if inplace, default is false.
 
@@ -56,7 +56,7 @@ True if inplace, default is false.
 ### force_fft_points (Pin 5)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Explicitely define number of fft points to either rescope or perform zero padding.
 
@@ -64,7 +64,7 @@ Explicitely define number of fft points to either rescope or perform zero paddin
 ### cutoff_frequency (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Restrict output frequency up to this cutoff frequency
 
@@ -72,7 +72,7 @@ Restrict output frequency up to this cutoff frequency
 ### scale_right_amplitude (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If set to true (default is false), 2/field_num_entities scaling will be applied, to have right amplitude values.
 
@@ -85,25 +85,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/fft) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### fields_container (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Output Complex Fields Container with labels matching input Fields Container. No supports binded, but prepare_sampling_fft provides it.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -182,7 +182,7 @@ op.inputs.scale_right_amplitude.Connect(my_scale_right_amplitude)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

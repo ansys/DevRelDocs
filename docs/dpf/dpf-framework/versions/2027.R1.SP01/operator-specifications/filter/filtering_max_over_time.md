@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [invariant_fc_operator](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [output_pin](#input_1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [list_of_results](#input_2) |  |[`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [threshold](#input_3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [invariant_fc_operator](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/filtering_max_over_time) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [output_pin](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/filtering_max_over_time) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [list_of_results](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/filtering_max_over_time) |  |[`vector&lt;string&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [threshold](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/filtering_max_over_time) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### invariant_fc_operator (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Name of the invariant operator to be used to calculate filter (available: eqv_fc, invariants_deriv_fc, invariants_fc).
 
@@ -38,7 +38,7 @@ Name of the invariant operator to be used to calculate filter (available: eqv_fc
 ### output_pin (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Output pin of the invariant operator. Default = 0.
 
@@ -46,7 +46,7 @@ Output pin of the invariant operator. Default = 0.
 ### list_of_results (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;string&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If no result is given, filter will be applied on Stresses and Strains
 
@@ -54,7 +54,7 @@ If no result is given, filter will be applied on Stresses and Strains
 ### threshold (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Threshold from which the operator will filter.
 
@@ -67,25 +67,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [workflow](#output_0) |[`workflow`](../../core-concepts/dpf-types.md#workflow) |
+|  **0**| [workflow](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/filter/filtering_max_over_time) |[`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### workflow (Pin 0)
 
-- **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
+- **Expected type(s):** [`workflow`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -158,7 +158,7 @@ op.inputs.threshold.Connect(my_threshold)
 my_workflow = op.outputs.workflow.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

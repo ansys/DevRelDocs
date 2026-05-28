@@ -20,15 +20,15 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>-200</strong> | [should_merge_named_selections](#input_-200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>0</strong> | [supports](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr<abstract_field_support>>`, `abstract_field_support` |
+| <strong>-200</strong> | [should_merge_named_selections](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_supports) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>0</strong> | [supports](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_supports) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;abstract_field_support&gt;>`, `abstract_field_support` |
 
 
 <a id="input_-200"></a>
 ### should_merge_named_selections (Pin -200)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 For some result files (such as RST), the scoping on names selection is duplicated through all the distributed files.If this pin is false, the merging process is skipped. If it is true, this scoping is merged. Default is true.
 
@@ -36,7 +36,7 @@ For some result files (such as RST), the scoping on names selection is duplicate
 ### supports (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** `vector<shared_ptr<abstract_field_support>>`, `abstract_field_support`
+- **Expected type(s):** `vector<shared_ptr&lt;abstract_field_support&gt;>`, `abstract_field_support`
 
 A vector of supports to merge or supports from pin 0 to ...
 
@@ -49,7 +49,7 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [merged_support](#output_0) |`abstract_field_support` |
+|  **0**| [merged_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_supports) |`abstract_field_support` |
 
 
 <a id="output_0"></a>
@@ -62,12 +62,12 @@ Each output is detailed in the sections that follow the table.
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -135,7 +135,7 @@ op.inputs.supports.Connect(my_supports)
 my_merged_support = op.outputs.merged_support.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

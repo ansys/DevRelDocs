@@ -1,4 +1,6 @@
-# Configuration
+---
+title: "Configuration"
+---
 
 This page covers the main configuration requirements for your DPF installation:
 - Managing plugins: Configure your installation and control the list of plugins loaded by default.
@@ -15,7 +17,7 @@ They are located alongside the **.dll** file on Windows or **.so** file on Linux
 > All paths specified in these XML files must adhere to the path
 > conventions of the respective operating system:
 > - for Linux paths, use forward slashes (/).
-> - for Windows paths, use double backward slashes (\\).
+> - for Windows paths, use double backward slashes ($.
 
 
 ## Configure your DPF installation
@@ -81,28 +83,28 @@ It follows the structure shown below:
 </Dpf>
 ```
 
-The **<Windows>** and **<Linux>** elements are mandatory and specify the operating system each configuration option applies to.
+The **&lt;Windows&gt;** and **&lt;Linux&gt;** elements are mandatory and specify the operating system each configuration option applies to.
 
-The **<Release>** and **<Debug>** elements are optional and allow to differentiate configurations for debug and release versions of DPF.
+The **&lt;Release&gt;** and **&lt;Debug&gt;** elements are optional and allow to differentiate configurations for debug and release versions of DPF.
 
 
 ### Environment configuration
 
-The **<Environment>** element lets you set the **ANSYS_DPF_ACCEPT_LA** environment variable to **Y** to mark active acceptance of the DPF [license agreement](licensing.md#license-terms) and prevents from having to set it on your machine or at the beginning of every session.
+The **&lt;Environment&gt;** element lets you set the **ANSYS_DPF_ACCEPT_LA** environment variable to **Y** to mark active acceptance of the DPF [license agreement](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing) and prevents from having to set it on your machine or at the beginning of every session.
 
 
 ### Plugin search path configuration
 
-The **<SearchPath>** element lets you modify where DPF looks for plugins to load at the start of a session.
+The **&lt;SearchPath&gt;** element lets you modify where DPF looks for plugins to load at the start of a session.
 
 To load plugins located outside of the standard DPF installation, prepend the path to the plugin folder to value of the **Path** element. 
 
 
 ### Default plugins configuration
 
-The **<DefaultPlugins>** element defines the list of plugins to load automatically when the server starts.
+The **&lt;DefaultPlugins&gt;** element defines the list of plugins to load automatically when the server starts.
 
-It contains a child element for each plugin, such as  **<native>**.
+It contains a child element for each plugin, such as  **&lt;native&gt;**.
 
 The element name for a plugin is used as the **key** when loading it.
 
@@ -110,12 +112,12 @@ Each plugin must have a unique element name/key.
 
 Each plugin must have the following child elements:
 
-- **<Path>** stores the location of the plugin to load.
+- **&lt;Path&gt;** stores the location of the plugin to load.
   The normal mechanism that the operating system uses to find a **.dll** or **.so** file is used.
   The **.dll** file could be in the Windows path, or the **.so** file could be in the Linux **LD_LIBRARY_PATH** system environment variable.
-- **<Loader>** defines the entrypoint procedure name to call upon loading the plugin. 
+- **&lt;Loader&gt;** defines the entrypoint procedure name to call upon loading the plugin. 
   In practice this procedure is used to record operators, thus **LoadOperators** is the recommended name.
-- **<UsePluginXml>** defines whether to use the **<PLUGIN>.xml** file located next to it to configure the plugin.
+- **&lt;UsePluginXml&gt;** defines whether to use the **&lt;PLUGIN&gt;.xml** file located next to it to configure the plugin.
   This element is optional. The default value is **true**.
 
 To provide an absolute path to a plugin, you can use these predefined variables:
@@ -137,7 +139,7 @@ If you want to use a different one, you can initialize DPF using a specific **Da
 
 ## Configure a plugin
 
-Each plugin can define a **<Plugin>.xml** file to configure environment variables used when loading the plugin.
+Each plugin can define a **&lt;Plugin&gt;.xml** file to configure environment variables used when loading the plugin.
 
 The structure of the file is as follows:
 
@@ -153,7 +155,7 @@ The structure of the file is as follows:
 </Environment>
 ```
 
-It only contains an **<Environment>** element which is defined as [described previously](configuration.md#environment-configuration).
+It only contains an **&lt;Environment&gt;** element which is defined as [described previously](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/configuration).
 
 The value of an environment variable is updated each time it is redefined, which means you can modify it in one go or in several elements:
 

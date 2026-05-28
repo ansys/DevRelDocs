@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [nodal_mesh_scoping](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>1</strong> | [mesh](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>200</strong> | [add_new_properties_to_mesh](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [nodal_mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/extend_midside_nodal_scoping) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/extend_midside_nodal_scoping) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [add_new_properties_to_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/extend_midside_nodal_scoping) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### nodal_mesh_scoping (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Nodal mesh scoping. Must have nodal location, otherwise an error is thrown.
 
@@ -37,7 +37,7 @@ Nodal mesh scoping. Must have nodal location, otherwise an error is thrown.
 ### mesh (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Mesh region used to determine element connectivity and identify midside nodes.
 
@@ -45,7 +45,7 @@ Mesh region used to determine element connectivity and identify midside nodes.
 ### add_new_properties_to_mesh (Pin 200)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If true, the new mesh properties that are computed (like reversed connectivities) are kept in the mesh. Default is false.
 
@@ -58,25 +58,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [nodal_mesh_scoping](#output_0) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+|  **0**| [nodal_mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/scoping/extend_midside_nodal_scoping) |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### nodal_mesh_scoping (Pin 0)
 
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Extended nodal scoping containing all original nodes plus corner nodes neighboring any midside nodes.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -146,7 +146,7 @@ op.inputs.add_new_properties_to_mesh.Connect(my_add_new_properties_to_mesh)
 my_nodal_mesh_scoping = op.outputs.nodal_mesh_scoping.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

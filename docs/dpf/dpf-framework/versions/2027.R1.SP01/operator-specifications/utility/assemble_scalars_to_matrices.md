@@ -20,23 +20,23 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [xx](#input_0) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>1</strong> | [yy](#input_1) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>2</strong> | [zz](#input_2) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>3</strong> | [xy](#input_3) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>4</strong> | [yz](#input_4) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>5</strong> | [xz](#input_5) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>6</strong> | [yx](#input_6) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>7</strong> | [zy](#input_7) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>8</strong> | [zx](#input_8) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>60</strong> | [symmetrical](#input_60) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [xx](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [yy](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [zz](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [xy](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [yz](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [xz](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [yx](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [zy](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>8</strong> | [zx](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>60</strong> | [symmetrical](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### xx (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -44,7 +44,7 @@ Each parameter is detailed in the sections that follow the table.
 ### yy (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -52,7 +52,7 @@ Each parameter is detailed in the sections that follow the table.
 ### zz (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -60,7 +60,7 @@ Each parameter is detailed in the sections that follow the table.
 ### xy (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -68,7 +68,7 @@ Each parameter is detailed in the sections that follow the table.
 ### yz (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -76,7 +76,7 @@ Each parameter is detailed in the sections that follow the table.
 ### xz (Pin 5)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -84,7 +84,7 @@ Each parameter is detailed in the sections that follow the table.
 ### yx (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -92,7 +92,7 @@ Each parameter is detailed in the sections that follow the table.
 ### zy (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -100,7 +100,7 @@ Each parameter is detailed in the sections that follow the table.
 ### zx (Pin 8)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -108,7 +108,7 @@ Each parameter is detailed in the sections that follow the table.
 ### symmetrical (Pin 60)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -121,25 +121,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/assemble_scalars_to_matrices) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -230,7 +230,7 @@ op.inputs.symmetrical.Connect(my_symmetrical)
 my_field = op.outputs.field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -1,4 +1,6 @@
-# Installation
+---
+title: "Installation"
+---
 
 DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as a pre-release **DPF Server** standalone package for DPF 2023 R2 and later.
 
@@ -52,7 +54,7 @@ pip install -e .
 
 ### License agreement
 
-As detailed in [Licensing](licensing.md#license-terms), a standalone DPF Server is protected using the license terms specified in the
+As detailed in [Licensing](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing), a standalone DPF Server is protected using the license terms specified in the
 **DPFPreviewLicenseAgreement** file, which is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release)
 of the Ansys Customer Portal.
 
@@ -64,6 +66,6 @@ ANSYS_DPF_ACCEPT_LA=Y
 
 ## Licensing
 
-To use [licensed DPF capabilities](licensing.md#licensing-strategy) you must set the
+To use [licensed DPF capabilities](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing) you must set the
 **ANSYSLMD_LICENSE_FILE** environment variable to point to a valid local or remote license
-following indications in [Configure licensing](licensing.md#configure-licensing).
+following indications in [Configure licensing](/docs/dpf/dpf-framework/versions/2027.R1.SP01/getting-started/licensing).

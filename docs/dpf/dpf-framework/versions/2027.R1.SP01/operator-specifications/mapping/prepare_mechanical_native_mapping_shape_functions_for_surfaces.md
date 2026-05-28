@@ -20,39 +20,39 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [source_mesh](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>1</strong> | [target_mesh](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>3</strong> | [target_mesh_scoping](#input_3) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>4</strong> | [unit](#input_4) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [location](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [dimensionality](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [e_shell_layers](#input_7) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>8</strong> | [html_report_path](#input_8) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>9</strong> | [threads_user_requested](#input_9) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>10</strong> | [scale](#input_10) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>11</strong> | [edge_tolerance](#input_11) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>12</strong> | [conservative](#input_12) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>13</strong> | [ignore_outside_nodes](#input_13) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>14</strong> | [key](#input_14) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>15</strong> | [normal_distance_check](#input_15) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>16</strong> | [normal_tolerance](#input_16) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>17</strong> | [pinball_control](#input_17) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>18</strong> | [pinball_key](#input_18) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>19</strong> | [exclude_elements_outside_pinball](#input_19) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>20</strong> | [pinball_value](#input_20) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>100</strong> | [is_element_centroidal_data_mapping](#input_100) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>101</strong> | [projection_options](#input_101) |  |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
-| <strong>102</strong> | [dynamic_coordinate_system](#input_102) |  |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
-| <strong>103</strong> | [source_dimension](#input_103) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>104</strong> | [wb_external_data_info](#input_104) |  |[`data_tree`](../../core-concepts/dpf-types.md#data-tree) |
-| <strong>105</strong> | [target_dimension](#input_105) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [source_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [target_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [target_mesh_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [unit](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [location](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [dimensionality](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [e_shell_layers](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>8</strong> | [html_report_path](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>9</strong> | [threads_user_requested](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>10</strong> | [scale](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>11</strong> | [edge_tolerance](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>12</strong> | [conservative](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>13</strong> | [ignore_outside_nodes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>14</strong> | [key](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>15</strong> | [normal_distance_check](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>16</strong> | [normal_tolerance](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>17</strong> | [pinball_control](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>18</strong> | [pinball_key](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>19</strong> | [exclude_elements_outside_pinball](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>20</strong> | [pinball_value](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>100</strong> | [is_element_centroidal_data_mapping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>101</strong> | [projection_options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>102</strong> | [dynamic_coordinate_system](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>103</strong> | [source_dimension](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>104</strong> | [wb_external_data_info](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>105</strong> | [target_dimension](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### source_mesh (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Source mesh
 
@@ -60,7 +60,7 @@ Source mesh
 ### target_mesh (Pin 1)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Target mesh/coordinates
 
@@ -68,7 +68,7 @@ Target mesh/coordinates
 ### target_mesh_scoping (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Target mesh scoping. If used, ensure to give only the elements where results are expected into source mesh input to have optimized computation.
 
@@ -76,7 +76,7 @@ Target mesh scoping. If used, ensure to give only the elements where results are
 ### unit (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Unit of the result to map
 
@@ -84,7 +84,7 @@ Unit of the result to map
 ### location (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Location of the result to map
 
@@ -92,7 +92,7 @@ Location of the result to map
 ### dimensionality (Pin 6)
 
 - **Required:** Yes
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Dimensionality of the result to map (for example it will be 3 for a displacement along (x, y, z) axes).
 
@@ -100,7 +100,7 @@ Dimensionality of the result to map (for example it will be 3 for a displacement
 ### e_shell_layers (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 EShellLayers enum value if field has shell layers
 
@@ -108,7 +108,7 @@ EShellLayers enum value if field has shell layers
 ### html_report_path (Pin 8)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Path for html report (for example 'my_disk/my_report.html'). If set, an html report will be generated and exported to the html file. If not set, nothing will be generated.
 
@@ -116,7 +116,7 @@ Path for html report (for example 'my_disk/my_report.html'). If set, an html rep
 ### threads_user_requested (Pin 9)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Number of threads to be used to parallelize apply operations.
 
@@ -124,7 +124,7 @@ Number of threads to be used to parallelize apply operations.
 ### scale (Pin 10)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is 50
 
@@ -132,7 +132,7 @@ Default is 50
 ### edge_tolerance (Pin 11)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is 0.02
 
@@ -140,7 +140,7 @@ Default is 0.02
 ### conservative (Pin 12)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is false
 
@@ -148,7 +148,7 @@ Default is false
 ### ignore_outside_nodes (Pin 13)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is false
 
@@ -156,7 +156,7 @@ Default is false
 ### key (Pin 14)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Can be 'absolute' or 'relative'. Default is 'relative'
 
@@ -164,7 +164,7 @@ Can be 'absolute' or 'relative'. Default is 'relative'
 ### normal_distance_check (Pin 15)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is false
 
@@ -172,7 +172,7 @@ Default is false
 ### normal_tolerance (Pin 16)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is 1e-6
 
@@ -180,7 +180,7 @@ Default is 1e-6
 ### pinball_control (Pin 17)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is false
 
@@ -188,7 +188,7 @@ Default is false
 ### pinball_key (Pin 18)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Can be 'absolute' or 'relative'. Default is 'absolute'
 
@@ -196,7 +196,7 @@ Can be 'absolute' or 'relative'. Default is 'absolute'
 ### exclude_elements_outside_pinball (Pin 19)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is false
 
@@ -204,7 +204,7 @@ Default is false
 ### pinball_value (Pin 20)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is 0.0
 
@@ -212,7 +212,7 @@ Default is 0.0
 ### is_element_centroidal_data_mapping (Pin 100)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is 'false'. Set to 'true' if the source elemental data is representing as element centroidal nodal data
 
@@ -220,7 +220,7 @@ Default is 'false'. Set to 'true' if the source elemental data is representing a
 ### projection_options (Pin 101)
 
 - **Required:** No
-- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is empty. This data tree contains 2D projection options for mapping 2D to 3D
 
@@ -228,7 +228,7 @@ Default is empty. This data tree contains 2D projection options for mapping 2D t
 ### dynamic_coordinate_system (Pin 102)
 
 - **Required:** No
-- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is empty. This data tree contains the dynamic coordinate system for performing rigid body transformation on the source mesh
 
@@ -236,7 +236,7 @@ Default is empty. This data tree contains the dynamic coordinate system for perf
 ### source_dimension (Pin 103)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is empty string. The string contains either "2D" or "3D" which specifies the source dimension
 
@@ -244,7 +244,7 @@ Default is empty string. The string contains either "2D" or "3D" which specifies
 ### wb_external_data_info (Pin 104)
 
 - **Required:** No
-- **Expected type(s):** [`data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`data_tree`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is empty. This data tree contains the Rigid & Analytical transformations specified in the workbench external data system
 
@@ -252,7 +252,7 @@ Default is empty. This data tree contains the Rigid & Analytical transformations
 ### target_dimension (Pin 105)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is empty string. The string contains either "2D" or "3D" which specifies the target dimension
 
@@ -265,40 +265,40 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [source_mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-|  **1**| [source_mesh_id](#output_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-|  **2**| [target_mesh](#output_2) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-|  **3**| [target_mesh_id](#output_3) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-|  **4**| [mapping_manager_data](#output_4) | |
-|  **6**| [target_scoping](#output_6) |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-|  **7**| [prepare_output](#output_7) | |
+|  **0**| [source_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [source_mesh_id](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [target_mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [target_mesh_id](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **4**| [mapping_manager_data](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) | |
+|  **6**| [target_scoping](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) |[`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **7**| [prepare_output](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces) | |
 
 
 <a id="output_0"></a>
 ### source_mesh (Pin 0)
 
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Source mesh
 
 <a id="output_1"></a>
 ### source_mesh_id (Pin 1)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Source mesh id
 
 <a id="output_2"></a>
 ### target_mesh (Pin 2)
 
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Target mesh
 
 <a id="output_3"></a>
 ### target_mesh_id (Pin 3)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Target mesh id
 
@@ -312,7 +312,7 @@ Target mesh id
 <a id="output_6"></a>
 ### target_scoping (Pin 6)
 
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Target scoping
 
@@ -326,12 +326,12 @@ A Map containing the outputs of the mapping as a key value pair
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -488,7 +488,7 @@ my_target_scoping = op.outputs.target_scoping.GetData()
 my_prepare_output = op.outputs.prepare_output.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -1,4 +1,6 @@
-# Where does the data come from
+---
+title: "Where does the data come from"
+---
 
 Now that you know how DPF represents data internally, you need to understand where that data comes from.
 Data in DPF can come from two main sources:
@@ -326,8 +328,8 @@ Number of time steps: 35
 
 In the next section, you'll learn how to interact with that data using operators and workflows.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="how-data-is-represented-in-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="how-to-interact-with-data.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/how-data-is-represented-in-dpf" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/how-to-interact-with-data" class="nav-btn nav-btn-next">Next page →</a>
 </div>

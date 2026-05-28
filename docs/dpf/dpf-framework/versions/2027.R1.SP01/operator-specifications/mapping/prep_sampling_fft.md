@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [time_freq_support](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
-| <strong>1</strong> | [cutoff_frequency](#input_1) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [number_sampling_point](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [time_freq_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prep_sampling_fft) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [cutoff_frequency](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prep_sampling_fft) |  |[`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [number_sampling_point](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prep_sampling_fft) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### time_freq_support (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+- **Expected type(s):** [`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Initial time domain TimeFreqSupport.
 
@@ -37,7 +37,7 @@ Initial time domain TimeFreqSupport.
 ### cutoff_frequency (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`double`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Cutoff Frequency. In this case, number of points is calculated computing (time_range * cutoff_freq * 2) and taking the next power of 2 (optimum for fft calculation).
 
@@ -45,7 +45,7 @@ Cutoff Frequency. In this case, number of points is calculated computing (time_r
 ### number_sampling_point (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 For number of sampling point (calculation with cutoff_frequency is ignored).
 
@@ -58,33 +58,33 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [time_tfs_sampled](#output_0) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
-|  **1**| [freq_tfs_fft](#output_1) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
+|  **0**| [time_tfs_sampled](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prep_sampling_fft) |[`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [freq_tfs_fft](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mapping/prep_sampling_fft) |[`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### time_tfs_sampled (Pin 0)
 
-- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+- **Expected type(s):** [`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Optimum sampled time domain TimeFreqSupport.
 
 <a id="output_1"></a>
 ### freq_tfs_fft (Pin 1)
 
-- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+- **Expected type(s):** [`time_freq_support`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Frequency domain TimeFreqSupport expected in output of FFT.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -157,7 +157,7 @@ my_time_tfs_sampled = op.outputs.time_tfs_sampled.GetData()
 my_freq_tfs_fft = op.outputs.freq_tfs_fft.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

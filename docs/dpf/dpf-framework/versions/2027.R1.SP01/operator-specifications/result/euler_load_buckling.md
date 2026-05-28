@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>5</strong> | [field_beam_end_condition](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>6</strong> | [field_beam_moment_inertia](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>7</strong> | [field_beam_young_modulus](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>8</strong> | [field_beam_length](#input_8) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>5</strong> | [field_beam_end_condition](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [field_beam_moment_inertia](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [field_beam_young_modulus](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>8</strong> | [field_beam_length](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_5"></a>
 ### field_beam_end_condition (Pin 5)
 
 - **Required:** Yes
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources), [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This pin contains file csv or field of beam's end condition added by the user. If there's no file added, it would take value of all beam's end condition as 1.
 
@@ -38,7 +38,7 @@ This pin contains file csv or field of beam's end condition added by the user. I
 ### field_beam_moment_inertia (Pin 6)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Field of beam's moment inertia
 
@@ -46,7 +46,7 @@ Field of beam's moment inertia
 ### field_beam_young_modulus (Pin 7)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Field of beam's young modulus
 
@@ -54,7 +54,7 @@ Field of beam's young modulus
 ### field_beam_length (Pin 8)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Field of beam's length
 
@@ -67,41 +67,41 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field_euler_critical_load](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **1**| [field_euler_critical_load_yy](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **2**| [field_euler_critical_load_zz](#output_2) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [field_euler_critical_load](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [field_euler_critical_load_yy](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [field_euler_critical_load_zz](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/result/euler_load_buckling) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field_euler_critical_load (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This field contains Euler's Critical Load about the principle axis of the cross section having the least moment of inertia.
 
 <a id="output_1"></a>
 ### field_euler_critical_load_yy (Pin 1)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This field contains Euler's Critical Load on axis y.
 
 <a id="output_2"></a>
 ### field_euler_critical_load_zz (Pin 2)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This field contains Euler's Critical Load on axis z.
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -180,7 +180,7 @@ my_field_euler_critical_load_yy = op.outputs.field_euler_critical_load_yy.GetDat
 my_field_euler_critical_load_zz = op.outputs.field_euler_critical_load_zz.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -20,18 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>2</strong> | [coordinates](#input_2) |  |[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>6</strong> | [as_linear](#input_6) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [mesh](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>60</strong> | [vtk_updated](#input_60) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>200</strong> | [as_poly](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [coordinates](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [as_linear](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>60</strong> | [vtk_updated](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>200</strong> | [as_poly](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_2"></a>
 ### coordinates (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Node coordinates. If not set, the node coordinates of the mesh are employed.
 
@@ -39,7 +39,7 @@ Node coordinates. If not set, the node coordinates of the mesh are employed.
 ### as_linear (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Export a linear version of the mesh (quadratic surface elements do no include midside nodes). If not set, defaults to true.
 
@@ -47,7 +47,7 @@ Export a linear version of the mesh (quadratic surface elements do no include mi
 ### mesh (Pin 7)
 
 - **Required:** Yes
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 mesh to export in pyVista format
 
@@ -55,7 +55,7 @@ mesh to export in pyVista format
 ### vtk_updated (Pin 60)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 True if the VTK version employed by pyVista is > VTK 9. Default true.
 
@@ -63,7 +63,7 @@ True if the VTK version employed by pyVista is > VTK 9. Default true.
 ### as_poly (Pin 200)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Export elements as polyhedrons (cell-face-node representation). Default false.
 
@@ -76,49 +76,49 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [nodes](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **1**| [cells](#output_1) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **2**| [cell_types](#output_2) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
-|  **3**| [offsets](#output_3) |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) |
+|  **0**| [nodes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [cells](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [cell_types](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [offsets](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/mesh_to_pyvista) |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### nodes (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Node coordinates double vector
 
 <a id="output_1"></a>
 ### cells (Pin 1)
 
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Cell connectivity int vector
 
 <a id="output_2"></a>
 ### cell_types (Pin 2)
 
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Cell types property int vector
 
 <a id="output_3"></a>
 ### offsets (Pin 3)
 
-- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If vtk_updated=false, offsets int vector
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -203,7 +203,7 @@ my_cell_types = op.outputs.cell_types.GetData()
 my_offsets = op.outputs.offsets.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

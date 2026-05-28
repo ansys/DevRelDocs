@@ -1,4 +1,6 @@
-# DPF server context
+---
+title: "DPF server context"
+---
 
 The server context drives the licensing logic a DPF server uses.
 

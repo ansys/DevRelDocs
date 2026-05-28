@@ -20,15 +20,15 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>-1</strong> | [generate_principal_stress](#input_-1) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>-1</strong> | [generate_principal_stress](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>0</strong> | [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_-1"></a>
 ### generate_principal_stress (Pin -1)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 if true, generate principal stress in output pin 3/4/5 (default is false)
 
@@ -36,7 +36,7 @@ if true, generate principal stress in output pin 3/4/5 (default is false)
 ### field (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
@@ -49,79 +49,79 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [field_int](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **1**| [field_eqv](#output_1) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **2**| [field_max_shear](#output_2) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **3**| [field_eig_1](#output_3) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **4**| [field_eig_2](#output_4) |[`field`](../../core-concepts/dpf-types.md#field) |
-|  **5**| [field_eig_3](#output_5) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **0**| [field_int](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [field_eqv](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [field_max_shear](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [field_eig_1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **4**| [field_eig_2](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **5**| [field_eig_3](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/invariant/invariants) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### field_int (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 stress intensity field
 
 <a id="output_1"></a>
 ### field_eqv (Pin 1)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 stress equivalent intensity
 
 <a id="output_2"></a>
 ### field_max_shear (Pin 2)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 max shear stress field
 
 <a id="output_3"></a>
 ### field_eig_1 (Pin 3)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 first eigen value field
 
 <a id="output_4"></a>
 ### field_eig_2 (Pin 4)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 second eigen value field
 
 <a id="output_5"></a>
 ### field_eig_3 (Pin 5)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 third eigen value field
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+### [num_threads](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** 0
 
 Number of threads to use to run in parallel
 
-### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+### [run_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** true
 
 Loops are allowed to run in parallel if the value of this config is set to true.
@@ -203,7 +203,7 @@ my_field_eig_2 = op.outputs.field_eig_2.GetData()
 my_field_eig_3 = op.outputs.field_eig_3.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

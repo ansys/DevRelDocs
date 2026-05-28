@@ -1,4 +1,6 @@
-# Verifying your installation
+---
+title: "Verifying your installation"
+---
 
 After installing the DPF server and PyDPF-Core, it's important to verify that everything is set up correctly.
 This section will guide you through testing your installation by starting a DPF local server using PyDPF-Core.
@@ -92,7 +94,7 @@ Reinstall PyDPF-Core using `pip install ansys-dpf-core` and make sure the expect
 
 **Solution:** The DPF server is not installed or PyDPF-Core cannot find it.
 
-- If using **Ansys installation**: Verify Ansys is installed and the `AWP_ROOT{version}` environment variable is set
+- If using **Ansys installation**: Verify Ansys is installed and the `AWP_ROOT&#123;version&#125;` environment variable is set
   (e.g., `AWP_ROOT252` for 2025 R2)
 - If using **standalone package**: Make sure you installed it with `pip install -e .` from the extracted folder
 - **Alternative**: Set the `ANSYS_DPF_PATH` environment variable to point directly to your Ansys installation folder
@@ -105,7 +107,7 @@ For advanced configuration options, see the [PyDPF-Core server documentation](ht
 
 **Solution:** The license agreement has not been accepted. Follow these steps:
 
-1. Set the environment variable `ANSYS_DPF_ACCEPT_LA` to `Y` as described in [Licensing](licensing.md)
+1. Set the environment variable `ANSYS_DPF_ACCEPT_LA` to `Y` as described in [Licensing](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/licensing)
 
 2. **Restart your environment**:
    - Close and reopen your terminal/command prompt
@@ -134,7 +136,7 @@ For advanced configuration options, see the [PyDPF-Core server documentation](ht
   If the Ansys license itself is not reachable, contact your Ansys license administrator.
 
 - If using the **standalone DPF server**: you must provide a license source explicitly via the `ANSYSLMD_LICENSE_FILE` environment variable,
-  as described in [Licensing](licensing.md). Make sure you have:
+  as described in [Licensing](/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/licensing). Make sure you have:
     - A valid Ansys license file, **or**
     - Access to a running Ansys license server on your network
 
@@ -214,8 +216,8 @@ Once you've successfully verified your installation, you're ready to start using
 
 In the next chapter, **DPF data fundamentals**, you'll learn about the core concepts and data structures in DPF.
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="licensing.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/licensing" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/setting-up-dpf/key-takeaways" class="nav-btn nav-btn-next">Next page →</a>
 </div>

@@ -1,4 +1,6 @@
-# Local documentation
+---
+title: "Local documentation"
+---
 
 This section details how to:
 

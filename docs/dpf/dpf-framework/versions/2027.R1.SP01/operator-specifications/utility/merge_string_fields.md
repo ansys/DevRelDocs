@@ -20,14 +20,14 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [string_fields](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr<string_field>>`, [`string_field`](../../core-concepts/dpf-types.md#string-field) |
+| <strong>0</strong> | [string_fields](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_string_fields) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;string_field&gt;>`, [`string_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### string_fields (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** `vector<shared_ptr<string_field>>`, [`string_field`](../../core-concepts/dpf-types.md#string-field)
+- **Expected type(s):** `vector<shared_ptr&lt;string_field&gt;>`, [`string_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Either a a vector of string fields to merge or string fields from pin 0 to ...
 
@@ -40,25 +40,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [string_field](#output_0) |[`string_field`](../../core-concepts/dpf-types.md#string-field) |
+|  **0**| [string_field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_string_fields) |[`string_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### string_field (Pin 0)
 
-- **Expected type(s):** [`string_field`](../../core-concepts/dpf-types.md#string-field)
+- **Expected type(s):** [`string_field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -123,7 +123,7 @@ op.inputs.string_fields.Connect(my_string_fields)
 my_string_field = op.outputs.string_field.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -20,18 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
-| <strong>1</strong> | [num_surfaces](#input_1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [mesh](#input_2) |  |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
-| <strong>3</strong> | [slice_surfaces](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [vector_iso_values](#input_4) |  |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [field](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [num_surfaces](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [mesh](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |  |[`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [slice_surfaces](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [vector_iso_values](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |  |[`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### field (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Field containing the values for the iso-surface computation. The mesh can be retrieved from this field's support or through pin 2.
 
@@ -39,7 +39,7 @@ Field containing the values for the iso-surface computation. The mesh can be ret
 ### num_surfaces (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If provided, iso_values are linearly computed between the min and the max of the field of results. If not, iso_values must be provided by the user through pin 4
 
@@ -47,7 +47,7 @@ If provided, iso_values are linearly computed between the min and the max of the
 ### mesh (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`meshed_region`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Mesh to compute the iso-surface from. Used when not given through the support of the field in pin 0.
 
@@ -55,7 +55,7 @@ Mesh to compute the iso-surface from. Used when not given through the support of
 ### slice_surfaces (Pin 3)
 
 - **Required:** Yes
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 True: slicing will also take into account shell and skin elements. False: slicing will ignore shell and skin elements. The default is true.
 
@@ -63,7 +63,7 @@ True: slicing will also take into account shell and skin elements. False: slicin
 ### vector_iso_values (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector&lt;double&gt;`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If provided, user defined iso_values to compute. If not provided, iso_values are linearly compute between the min and the max of the field of results.
 
@@ -76,33 +76,33 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [meshes](#output_0) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
-|  **1**| [fields_container](#output_1) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [meshes](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |[`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/mesh/iso_surfaces) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### meshes (Pin 0)
 
-- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+- **Expected type(s):** [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 <a id="output_1"></a>
 ### fields_container (Pin 1)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -181,7 +181,7 @@ my_meshes = op.outputs.meshes.GetData()
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -20,14 +20,14 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [result_infos](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr<result_info>>`, [`result_info`](../../core-concepts/dpf-types.md#result-info) |
+| <strong>0</strong> | [result_infos](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_result_infos) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;result_info&gt;>`, [`result_info`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### result_infos (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** `vector<shared_ptr<result_info>>`, [`result_info`](../../core-concepts/dpf-types.md#result-info)
+- **Expected type(s):** `vector<shared_ptr&lt;result_info&gt;>`, [`result_info`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 A vector of result info containers to merge or result infos from pin 0 to ...
 
@@ -40,32 +40,32 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [merged_result_infos](#output_0) |[`result_info`](../../core-concepts/dpf-types.md#result-info) |
+|  **0**| [merged_result_infos](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_result_infos) |[`result_info`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### merged_result_infos (Pin 0)
 
-- **Expected type(s):** [`result_info`](../../core-concepts/dpf-types.md#result-info)
+- **Expected type(s):** [`result_info`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [read_inputs_in_parallel](../../core-concepts/operator-configurations.md#read_inputs_in_parallel)
+### [read_inputs_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the operator's inputs will be evaluated in parallel.
@@ -130,7 +130,7 @@ op.inputs.result_infos.Connect(my_result_infos)
 my_merged_result_infos = op.outputs.merged_result_infos.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

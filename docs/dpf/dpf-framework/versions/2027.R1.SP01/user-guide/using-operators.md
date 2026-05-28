@@ -1,4 +1,6 @@
-# How to use operators
+---
+title: "How to use operators"
+---
 
 ## Operator types
 

@@ -1,4 +1,6 @@
-# DPF known types
+---
+title: "DPF known types"
+---
 
 Inputs or outputs of DPF operators and workflows are limited to the following types known by the framework.
 
@@ -219,9 +221,9 @@ A DPF ``collection`` has a set of associated labels, for which each entry has a 
 
 The ``label_space`` is a map of ("label": integer value) couples used to target a subset of entries in a collection.
 
-For example, if a ``collection`` has labels ``material`` and ``part``, each entity in the collection has an associated unique map ``{"material": X, "part": Y}``.
+For example, if a ``collection`` has labels ``material`` and ``part``, each entity in the collection has an associated unique map ``&#123;"material": X, "part": Y&#125;``.
 
-A ``label_space`` such as ``{"material": X, "part": Y}`` then targets a single entity in the collection, whereas one such as ``{"material": X}`` targets all entries of material "X".
+A ``label_space`` such as ``&#123;"material": X, "part": Y&#125;`` then targets a single entity in the collection, whereas one such as ``&#123;"material": X&#125;`` targets all entries of material "X".
 
 <a id="collection"></a>
 

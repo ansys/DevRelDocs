@@ -22,28 +22,28 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [field_or_fields_container1](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [normalization_type](#input_1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [norm_calculation_type](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [field_reference](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [field_or_fields_container2](#input_4) |  |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>0</strong> | [field_or_fields_container1](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [normalization_type](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [norm_calculation_type](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [field_reference](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [field_or_fields_container2](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |  |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### field_or_fields_container1 (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-Field or fields container to be normalized (\\(FC_1\\))
+Field or fields container to be normalized ($FC_1$)
 
 <a id="input_1"></a>
 ### normalization_type (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-Type of normalization applied to the residual and the norm (\\(norm\\)) :
+Type of normalization applied to the residual and the norm ($norm$) :
 - 0 for absolute (default)
 - 1 for relative to the first entry
 - 2 for normalized by the max of each field of the reference field
@@ -54,33 +54,33 @@ Type of normalization applied to the residual and the norm (\\(norm\\)) :
 ### norm_calculation_type (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-Type for norm calculation (\\(p\\)) :
-- 1 for \\( L_1 \\) norm
-- 2 for \\( L_2 \\) norm (default)
+Type for norm calculation ($p$) :
+- 1 for $ L_1 $ norm
+- 2 for $ L_2 $ norm (default)
 			
 
 <a id="input_3"></a>
 ### field_reference (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-Reference for the normalization step (\\(r\\)) :
+Reference for the normalization step ($r$) :
 - 0 for pin 0 (default)
 - 1 for residual
-\\[ ref = \begin{cases} FC_1 &\text{ if } r = 0 \\\\ Res &\text{ if } r = 1 \end{cases} \\]
+$$ ref = \begin{cases} FC_1 &\text{ if } r = 0 \\\\ Res &\text{ if } r = 1 \end{cases} $$
 			
 
 <a id="input_4"></a>
 ### field_or_fields_container2 (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
-Field or fields container of the exact same dimensions as pin 0 to be used for residual computation  (\\(FC_2\\))
-\\[ Res = \begin{cases} FC_1 - FC_2 &\text{ if } FC_2 \\\\ FC_1 &\text{ if not } FC_2 \end{cases} \\]
+Field or fields container of the exact same dimensions as pin 0 to be used for residual computation  ($FC_2$)
+$$ Res = \begin{cases} FC_1 - FC_2 &\text{ if } FC_2 \\\\ FC_1 &\text{ if not } FC_2 \end{cases} $$
 			
 
 
@@ -92,63 +92,63 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [residual](#output_0) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **1**| [error](#output_1) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **2**| [residual_normalization_factor](#output_2) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-|  **3**| [error_normalization_factor](#output_3) |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [residual](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **1**| [error](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **2**| [residual_normalization_factor](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+|  **3**| [error_normalization_factor](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/math/compute_residual_and_error) |[`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### residual (Pin 0)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Normalized residual :
-For each field of the input fields container, for \\(norm \in \\{0, 1, 2, 3\\}\\) : \\[ \overline{Res} = \frac{Res}{k_{Res}} \\]
+For each field of the input fields container, for $norm \in \\{0, 1, 2, 3\\}$ : $$ \overline{Res} = \frac{Res}{k_{Res}} $$
 			
 
 <a id="output_1"></a>
 ### error (Pin 1)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Normalized error :
-For each field of the input fields container, for \\(norm \in \\{0, 1, 2, 3\\}\\) : \\[ \overline{Err} = \frac{\\|Res\\|\_{L\_p}}{k_{Err}} \\]
+For each field of the input fields container, for $norm \in \\{0, 1, 2, 3\\}$ : $$ \overline{Err} = \frac{\\|Res\\|\_{L\_p}}{k_{Err}} $$
 			
 
 <a id="output_2"></a>
 ### residual_normalization_factor (Pin 2)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Residual scaling factor :
-- \\(norm = 0\\) : \\[ k_{Res} = 1 \\]
-- \\(norm = 1\\) : \\[ k_{Res} = |ref| \\]
-- \\(norm = 2\\) : \\[ k_{Res} = \underset{i\in\{1,\ldots,n_{entity}\}}{\max}\left(|ref_i|\right) \\]
-- \\(norm = 3\\) : \\[ k_{Res} = \underset{i\in\{1,\ldots,n_{comp}\}}{\max}\left(\underset{j\in\{1,\ldots,n_{entity}\}}{\max}\left(|ref_{ij}|\right)\right) \\]
+- $norm = 0$ : $$ k_{Res} = 1 $$
+- $norm = 1$ : $$ k_{Res} = |ref| $$
+- $norm = 2$ : $$ k_{Res} = \underset{i\in\{1,\ldots,n_{entity}\}}{\max}\left(|ref_i|\right) $$
+- $norm = 3$ : $$ k_{Res} = \underset{i\in\{1,\ldots,n_{comp}\}}{\max}\left(\underset{j\in\{1,\ldots,n_{entity}\}}{\max}\left(|ref_{ij}|\right)\right) $$
 			
 
 <a id="output_3"></a>
 ### error_normalization_factor (Pin 3)
 
-- **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`field`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Error scaling factor :
-- \\(norm = 0\\) : \\[ k_{Err} = 1 \\]
-- \\(norm = 1\\) : \\[ k_{Err} = \\|ref\\|_{L_p} \\]
-- \\(norm = 2\\) : \\[ k_{Err} = \underset{i\in\{1,\ldots,n_{entity}\}}{\max}\left(\\|ref_i\\|_{L_p}\right) \\]
-- \\(norm = 3\\) : \\[ k_{Err} = \underset{i\in\{1,\ldots,n_{comp}\}}{\max}\left(\underset{j\in\{1,\ldots,n_{entity}\}}{\max}\left(\\|ref_{ij}\\|_{L_p}\right)\right) \\]
+- $norm = 0$ : $$ k_{Err} = 1 $$
+- $norm = 1$ : $$ k_{Err} = \\|ref\\|_{L_p} $$
+- $norm = 2$ : $$ k_{Err} = \underset{i\in\{1,\ldots,n_{entity}\}}{\max}\left(\\|ref_i\\|_{L_p}\right) $$
+- $norm = 3$ : $$ k_{Err} = \underset{i\in\{1,\ldots,n_{comp}\}}{\max}\left(\underset{j\in\{1,\ldots,n_{entity}\}}{\max}\left(\\|ref_{ij}\\|_{L_p}\right)\right) $$
 			
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -233,7 +233,7 @@ my_residual_normalization_factor = op.outputs.residual_normalization_factor.GetD
 my_error_normalization_factor = op.outputs.error_normalization_factor.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

@@ -20,21 +20,21 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [ip](#input_0) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>1</strong> | [port](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [starting_option](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>3</strong> | [should_start_server](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>5</strong> | [dpf_context](#input_5) |  |[`string`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>6</strong> | [transport_mode](#input_6) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [tls_certificates_dir](#input_7) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [ip](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>1</strong> | [port](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>2</strong> | [starting_option](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>3</strong> | [should_start_server](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>5</strong> | [dpf_context](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>6</strong> | [transport_mode](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>7</strong> | [tls_certificates_dir](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |  |[`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### ip (Pin 0)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If no ip address is put, the local ip address is taken
 
@@ -42,7 +42,7 @@ If no ip address is put, the local ip address is taken
 ### port (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If no port is put, port 50052 is taken
 
@@ -50,7 +50,7 @@ If no port is put, port 50052 is taken
 ### starting_option (Pin 2)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 default is 1 that starts server in new thread. With 0, this thread will be waiting for grpc calls and will not be usable for anything else. With 2, it the server will be started in a new process.
 
@@ -58,7 +58,7 @@ default is 1 that starts server in new thread. With 0, this thread will be waiti
 ### should_start_server (Pin 3)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 If true, the server is assumed to be local and is started. If false, only a client (able to send grpc calls) will be started
 
@@ -66,7 +66,7 @@ If true, the server is assumed to be local and is started. If false, only a clie
 ### data_sources (Pin 4)
 
 - **Required:** No
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
+- **Expected type(s):** [`data_sources`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 A data source with result key 'grpc' and file path 'port:ip' can be used instead of the input port and IP.
 
@@ -74,7 +74,7 @@ A data source with result key 'grpc' and file path 'port:ip' can be used instead
 ### dpf_context (Pin 5)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types), [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 This pin is associated with pin(2) = 2 (server started in a new process). User can enter the integer associated with a DPF context (1: Standalone Context - DpfCoreStandalone.xml, 3: Custom - DpfCustomDefined.xml) or a string with the path of the XML specifying the context. 
 
@@ -82,7 +82,7 @@ This pin is associated with pin(2) = 2 (server started in a new process). User c
 ### transport_mode (Pin 6)
 
 - **Required:** No
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`int32`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Transport Mode.
 * 0: Insecure (default, localhost as default)
@@ -92,7 +92,7 @@ Transport Mode.
 ### tls_certificates_dir (Pin 7)
 
 - **Required:** No
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`string`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Path to certificates directory when mTLS mode is enabled.
 
@@ -105,25 +105,25 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [grpc_streams](#output_0) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+|  **0**| [grpc_streams](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/server/grpc_start_server) |[`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### grpc_streams (Pin 0)
 
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+- **Expected type(s):** [`streams_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 dpf streams handling the server, if the server is started in this thread, then nothing is added in output
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
@@ -208,7 +208,7 @@ op.inputs.tls_certificates_dir.Connect(my_tls_certificates_dir)
 my_grpc_streams = op.outputs.grpc_streams.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

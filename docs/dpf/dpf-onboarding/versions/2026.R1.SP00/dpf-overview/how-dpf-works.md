@@ -1,4 +1,6 @@
-# How DPF works
+---
+title: "How DPF works"
+---
 
 ## DPF architecture: server and client
 
@@ -103,8 +105,8 @@ Ansys Mechanical provides built-in access to DPF through its scripting environme
 
 The [MechDPF API](https://ansyshelp.ansys.com/public/account/secured?returnurl=//Views/Secured/corp/v261/en/act_script/mech_apis_data_process_frame.html) is based on the DPF C# API, but presents a Python syntax through IronPython, making it accessible to Python users without learning C#.
 
-<link rel="stylesheet" href="../styles/nav-buttons.css">
+<link rel="stylesheet" href="../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="what-is-dpf.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/dpf-overview/what-is-dpf" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/dpf-overview/key-takeaways" class="nav-btn nav-btn-next">Next page →</a>
 </div>

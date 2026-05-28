@@ -1,4 +1,6 @@
-# How to interact with data in DPF
+---
+title: "How to interact with data in DPF"
+---
 
 Now that you understand how data is organized in DPF (fields, scopings, supports, and collections), you need to learn how to manipulate it. DPF provides two main tools for working with data: **operators** for individual transformations and **workflows** for automated processing pipelines.
 
@@ -687,8 +689,8 @@ Now that you understand operators and workflows, explore these advanced topics:
 - **Complex workflows**: See the [Operators Examples](https://dpf.docs.pyansys.com/version/stable/examples/00-basic/index.html) for advanced workflow patterns
 - **Custom operators**: Learn how to create your own operators for specialized tasks in the [Custom Operators guide](https://dpf.docs.pyansys.com/version/stable/user_guide/custom_operators.html)
 
-<link rel="stylesheet" href="../../styles/nav-buttons.css">
+<link rel="stylesheet" href="../../styles/nav-buttons.css" />
 <div class="nav-footer">
-<a href="where-does-the-data-come-from.md" class="nav-btn nav-btn-prev">← Previous page</a>
-<a href="key-takeaways.md" class="nav-btn nav-btn-next">Next page →</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/where-does-the-data-come-from" class="nav-btn nav-btn-prev">← Previous page</a>
+<a href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00/using-dpf/dpf-data-fundamentals/key-takeaways" class="nav-btn nav-btn-next">Next page →</a>
 </div>

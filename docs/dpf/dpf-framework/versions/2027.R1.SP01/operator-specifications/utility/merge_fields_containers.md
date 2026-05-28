@@ -20,18 +20,18 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>-200</strong> | [should_merge_named_selections](#input_-200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>-3</strong> | [sum_merge](#input_-3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>-2</strong> | [merged_fields_support](#input_-2) |  |`abstract_field_support` |
-| <strong>-1</strong> | [merged_fields_containers_support](#input_-1) |  |`abstract_field_support`, `umap<string,shared_ptr<abstract_field_support>>` |
-| <strong>0</strong> | [fields_containers](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr<fields_container>>`, [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>-200</strong> | [should_merge_named_selections](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_fields_containers) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>-3</strong> | [sum_merge](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_fields_containers) |  |[`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
+| <strong>-2</strong> | [merged_fields_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_fields_containers) |  |`abstract_field_support` |
+| <strong>-1</strong> | [merged_fields_containers_support](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_fields_containers) |  |`abstract_field_support`, `umap<string,shared_ptr&lt;abstract_field_support&gt;>` |
+| <strong>0</strong> | [fields_containers](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_fields_containers) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;fields_container&gt;>`, [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_-200"></a>
 ### should_merge_named_selections (Pin -200)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 For some result files (such as RST), the scoping on names selection is duplicated through all the distributed files.If this pin is false, the merging process is skipped. If it is true, this scoping is merged. Default is true.
 
@@ -39,7 +39,7 @@ For some result files (such as RST), the scoping on names selection is duplicate
 ### sum_merge (Pin -3)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 Default is false. If true, redundant quantities are summed instead of being ignored.
 
@@ -55,7 +55,7 @@ Already merged field support.
 ### merged_fields_containers_support (Pin -1)
 
 - **Required:** No
-- **Expected type(s):** `abstract_field_support`, `umap<string,shared_ptr<abstract_field_support>>`
+- **Expected type(s):** `abstract_field_support`, `umap<string,shared_ptr&lt;abstract_field_support&gt;>`
 
 Already merged fields containers support.
 
@@ -63,7 +63,7 @@ Already merged fields containers support.
 ### fields_containers (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** `vector<shared_ptr<fields_container>>`, [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** `vector<shared_ptr&lt;fields_container&gt;>`, [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 A vector of fields containers to merge or fields containers from pin 0 to ...
 
@@ -76,32 +76,32 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [merged_fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [merged_fields_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_fields_containers) |[`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### merged_fields_container (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`fields_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [read_inputs_in_parallel](../../core-concepts/operator-configurations.md#read_inputs_in_parallel)
+### [read_inputs_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the operator's inputs will be evaluated in parallel.
@@ -178,7 +178,7 @@ op.inputs.fields_containers.Connect(my_fields_containers)
 my_merged_fields_container = op.outputs.merged_fields_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 

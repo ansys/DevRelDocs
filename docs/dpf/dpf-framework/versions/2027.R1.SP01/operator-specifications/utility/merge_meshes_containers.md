@@ -20,14 +20,14 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [meshes_containers](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr<meshes_container>>`, [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>0</strong> | [meshes_containers](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_meshes_containers) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;meshes_container&gt;>`, [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>
 ### meshes_containers (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** `vector<shared_ptr<meshes_container>>`, [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+- **Expected type(s):** `vector<shared_ptr&lt;meshes_container&gt;>`, [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 a vector of meshes containers to merge or meshes containers from pin 0 to ...
 
@@ -40,32 +40,32 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [merged_meshes_container](#output_0) |[`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+|  **0**| [merged_meshes_container](/docs/dpf/dpf-framework/versions/2027.R1.SP01/operator-specifications/utility/merge_meshes_containers) |[`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types) |
 
 
 <a id="output_0"></a>
 ### merged_meshes_container (Pin 0)
 
-- **Expected type(s):** [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+- **Expected type(s):** [`meshes_container`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 
 
 
 
 ## Configurations
 
-This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+This operator supports [configuration options](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations) that modify its behavior.
 
 
-### [mutex](../../core-concepts/operator-configurations.md#mutex)
+### [mutex](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
-### [read_inputs_in_parallel](../../core-concepts/operator-configurations.md#read_inputs_in_parallel)
+### [read_inputs_in_parallel](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/operator-configurations)
 
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](/docs/dpf/dpf-framework/versions/2027.R1.SP01/core-concepts/dpf-types)
 - **Default value:** false
 
 If this option is set to true, the operator's inputs will be evaluated in parallel.
@@ -130,7 +130,7 @@ op.inputs.meshes_containers.Connect(my_meshes_containers)
 my_merged_meshes_container = op.outputs.merged_meshes_container.GetData()
 ```
 </details>
-<br>
+<br />
 
 ## Changelog
 
