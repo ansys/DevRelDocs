@@ -1,4 +1,6 @@
-# Structure SyscError
+---
+title: "Structure SyscError"
+---
 
 ![][C]
 ![][public]
@@ -11,8 +13,8 @@ Provide a struct for detecting errors from the interface calls.
 
 ## Members
 
-* [message](structSyscError.md#structSyscError_1a166e507f0606a321e1e076f7889d5844)
-* [retcode](structSyscError.md#structSyscError_1afbc03fa7fe0724b2810626b319364f27)
+* [message](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
+* [retcode](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 ## Public attributes
 

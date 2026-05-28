@@ -1,4 +1,6 @@
-# Structure SyscFaceCellConnectivityData
+---
+title: "Structure SyscFaceCellConnectivityData"
+---
 
 ![][C]
 ![][public]
@@ -11,8 +13,8 @@ Describes face-to-cell connectivity.
 
 ## Members
 
-* [cell0Ids](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData_1a33553e003b9aa6c8d85a4e1aa4f28367)
-* [cell1Ids](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData_1af531282e2ae53cea1989f7ff6bb5eb82)
+* [cell0Ids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
+* [cell1Ids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
 
 ## Public attributes
 
@@ -33,7 +35,7 @@ cell ids on side 0.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="structSyscFaceCellConnectivityData_1af531282e2ae53cea1989f7ff6bb5eb82"></a>
 ### Variable cell1Ids
@@ -52,7 +54,7 @@ cell ids on side 1.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

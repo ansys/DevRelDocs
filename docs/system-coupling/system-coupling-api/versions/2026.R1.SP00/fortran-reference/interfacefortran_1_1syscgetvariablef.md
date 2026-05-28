@@ -1,4 +1,6 @@
-# Interface fortran::syscgetvariablef
+---
+title: "Interface fortran::syscgetvariablef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,11 +13,11 @@ Provide an interface to get a System Coupling variable.
 
 ## Members
 
-* [syscgetvariablef](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a608cb70dd0a2392044f91c81fbfd3935)
-* [syscgetvariablef\_dtelqd](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a7ccf1db6c97ad5fbc08fc1a850a48343)
-* [syscgetvariablef\_q](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1aa98302cabc43b69aba1ba8e4c4b25b25)
-* [syscgetvariablef\_te](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a500912aab7a473fba9e3b2ef73d0cdc2)
-* [syscgetvariablef\_teq](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef_1a28db29bc33d8fa7aec1ee121dd156485)
+* [syscgetvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvariablef)
+* [syscgetvariablef\_dtelqd](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvariablef)
+* [syscgetvariablef\_q](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvariablef)
+* [syscgetvariablef\_te](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvariablef)
+* [syscgetvariablef\_teq](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvariablef)
 
 ## Public functions
 
@@ -75,7 +77,7 @@ a SyscVariableF type
 
 * variableNamevariableName
 
-**Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
+**Return type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)) function
 
 <a id="interfacefortran_1_1syscgetvariablef_1a500912aab7a473fba9e3b2ef73d0cdc2"></a>
 ### Function syscgetvariablef\_te
@@ -121,7 +123,7 @@ a SyscVariableF type
 * isExtensiveisExtensive
 * locationlocation
 
-**Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
+**Return type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)) function
 
 <a id="interfacefortran_1_1syscgetvariablef_1aa98302cabc43b69aba1ba8e4c4b25b25"></a>
 ### Function syscgetvariablef\_q
@@ -182,7 +184,7 @@ a SyscVariableF type
 * locationlocation
 * quantityTypequantityType
 
-**Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
+**Return type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)) function
 
 <a id="interfacefortran_1_1syscgetvariablef_1a28db29bc33d8fa7aec1ee121dd156485"></a>
 ### Function syscgetvariablef\_teq
@@ -220,7 +222,7 @@ a SyscVariableF type
 * locationlocation
 * quantityTypequantityType
 
-**Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
+**Return type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)) function
 
 <a id="interfacefortran_1_1syscgetvariablef_1a7ccf1db6c97ad5fbc08fc1a850a48343"></a>
 ### Function syscgetvariablef\_dtelqd
@@ -260,7 +262,7 @@ a SyscVariableF type
 * quantityTypequantityType
 * dataTypedataType
 
-**Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
+**Return type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

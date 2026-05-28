@@ -1,4 +1,6 @@
-# Interface fortran::sysccouplinginterfacegetnumsideoneregionsf
+---
+title: "Interface fortran::sysccouplinginterfacegetnumsideoneregionsf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get number of side one regions.
 
 ## Members
 
-* [sysccouplinginterfacegetnumsideoneregionsf](interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf.md#interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf_1a4b03d2962f76dc8cee7926b038d6e537)
+* [sysccouplinginterfacegetnumsideoneregionsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf)
 
 ## Public functions
 

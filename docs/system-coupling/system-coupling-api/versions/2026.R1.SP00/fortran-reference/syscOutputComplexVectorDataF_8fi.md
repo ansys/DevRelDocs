@@ -1,4 +1,6 @@
-# File syscOutputComplexVectorDataF.fi
+---
+title: "File syscOutputComplexVectorDataF.fi"
+---
 
 ![][Fortran]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [fortran::syscoutputcomplexvectordataf](structfortran_1_1syscoutputcomplexvectordataf.md#structfortran_1_1syscoutputcomplexvectordataf)
-* [fortran::syscgetoutputcomplexvectordataf](interfacefortran_1_1syscgetoutputcomplexvectordataf.md#interfacefortran_1_1syscgetoutputcomplexvectordataf)
-* [fortran::syscgetoutputcompactcomplexcompactvectordataf](interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordataf.md#interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordataf)
-* [fortran::syscgetoutputcompactcomplexcompactvectordatadimf](interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf.md#interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf)
+* [fortran::syscoutputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputcomplexvectordataf)
+* [fortran::syscgetoutputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputcomplexvectordataf)
+* [fortran::syscgetoutputcompactcomplexcompactvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordataf)
+* [fortran::syscgetoutputcompactcomplexcompactvectordatadimf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

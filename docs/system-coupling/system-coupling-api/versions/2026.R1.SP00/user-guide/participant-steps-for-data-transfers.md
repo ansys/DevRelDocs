@@ -1,4 +1,6 @@
-# Data transfers
+---
+title: "Data transfers"
+---
 
 ## Steps to perform data transfers
 
@@ -22,7 +24,7 @@ then `syscStartStandaloneParallel` function
 in C or `syscStartStandaloneF` function in Fortran must be called
 and appropriate arguments (for example, the MPI communicator) should be provided to those functions.
 
-See [Execution in a parallel environment](parallel-execution.md) for more details.
+See [Execution in a parallel environment](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parallel-execution) for more details.
 
 #### Data transfers across multiple applications
 
@@ -56,8 +58,8 @@ In order to perform the data transfer, use `rearrange` function and provide a
 heavyweight data via one of the supported heavyweight data structures, which are 
 described in the following sections:
 
-- [Access to heavyweight data](user-guide/heavyweight-data-access.md)
-- [Mesh and point cloud data access](user-guide/mesh-data-access.md)
+- [Access to heavyweight data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/heavyweight-data-access)
+- [Mesh and point cloud data access](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
 ## Data transfer example
 
@@ -65,7 +67,7 @@ Sample code is provided, demonstrating the use of the participant
 library APIs to perform data transfers.
 
 For information on how to compile the code in this example,
-see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md).
+see [Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/compiling-linking-executing).
 
 ### Transfer of data between two parallel applications
 

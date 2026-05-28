@@ -1,4 +1,6 @@
-# Class sysc::Parameter
+---
+title: "Class sysc::Parameter"
+---
 
 ![][C++]
 ![][public]
@@ -11,12 +13,12 @@ Provide a class for a System Coupling parameter.
 
 ## Members
 
-* [getDisplayName](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1af0011280c07765df22e4214dfadc9d95)
-* [getName](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1aeb9269ef83cd91e544362ae9a9e1eae3)
-* [m\_displayName](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1afcc1b63f9dccd824a8753dc8261174d7)
-* [m\_name](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1ae96949384d110b3787d58695a23faf02)
-* [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1af44e2bc5630c6c4b6cc0bfda64b7b226)
-* [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1af200cccf063261a6c37d2ecb523a65fe)
+* [getDisplayName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
+* [getName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
+* [m\_displayName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
+* [m\_name](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
+* [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
+* [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
 
 ## Private attributes
 
@@ -37,7 +39,7 @@ Unique name for this parameter.
 
 
 
-**Type**: [ParameterName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9cadba4f4e91a46ad88e42877c682d46)
+**Type**: [ParameterName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Parameter_1afcc1b63f9dccd824a8753dc8261174d7"></a>
 ### Variable m\_displayName
@@ -56,7 +58,7 @@ User-friendly name.
 
 
 
-**Type**: [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f)
+**Type**: [DisplayName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Public functions
 
@@ -69,7 +71,7 @@ User-friendly name.
 sysc::Parameter::Parameter(ParameterName name)
 ```
 
-Provide a constructor for the [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) class.
+Provide a constructor for the [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) class.
 
 **Parameters**:
 
@@ -81,7 +83,7 @@ Display name will default to the same as name.
 
 **Parameters**:
 
-* [ParameterName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9cadba4f4e91a46ad88e42877c682d46) **name**
+* [ParameterName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **name**
 
 **Return type**: 
 
@@ -94,7 +96,7 @@ Display name will default to the same as name.
 sysc::Parameter::Parameter(ParameterName name, DisplayName displayName)
 ```
 
-Provide a constructor for the [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) class.
+Provide a constructor for the [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) class.
 
 **Parameters**:
 
@@ -105,8 +107,8 @@ Provide a constructor for the [Parameter](classsysc_1_1Parameter.md#classsysc_1_
 
 **Parameters**:
 
-* [ParameterName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9cadba4f4e91a46ad88e42877c682d46) **name**
-* [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) **displayName**
+* [ParameterName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **name**
+* [DisplayName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **displayName**
 
 **Return type**: 
 
@@ -120,7 +122,7 @@ Provide a constructor for the [Parameter](classsysc_1_1Parameter.md#classsysc_1_
 const ParameterName& sysc::Parameter::getName() const noexcept
 ```
 
-Get the [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter)'s name.
+Get the [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)'s name.
 
 **Returns**:
 
@@ -128,7 +130,7 @@ Return is the name of this parameter (string).
 
 
 
-**Return type**: const [ParameterName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9cadba4f4e91a46ad88e42877c682d46) &
+**Return type**: const [ParameterName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) &
 
 <a id="classsysc_1_1Parameter_1af0011280c07765df22e4214dfadc9d95"></a>
 ### Function getDisplayName
@@ -140,7 +142,7 @@ Return is the name of this parameter (string).
 const DisplayName& sysc::Parameter::getDisplayName() const noexcept
 ```
 
-Get the [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter)'s display name.
+Get the [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)'s display name.
 
 **Returns**:
 
@@ -148,7 +150,7 @@ Return is the display name of this parameter (string).
 
 
 
-**Return type**: const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) &
+**Return type**: const [DisplayName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

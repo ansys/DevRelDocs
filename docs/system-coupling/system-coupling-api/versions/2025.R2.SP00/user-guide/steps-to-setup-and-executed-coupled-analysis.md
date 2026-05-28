@@ -1,4 +1,6 @@
-# Steps to set up and execute the coupled analysis
+---
+title: "Steps to set up and execute the coupled analysis"
+---
 
 The steps involved in setting up and executing the coupled analysis are shown in Figure 1 and
 described in more details below.
@@ -28,7 +30,7 @@ using the SCP file. When using this approach, System Coupling invokes the partic
 connects to it and gets the participant setup information via the socket connection.
 
 For more information about this step and the advantages and disadvantages of either approach, see
-[Completing the System Coupling participant setup](participant-setup.md).
+[Completing the System Coupling participant setup](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-setup).
 
 ## Step 3: Set up the coupled analysis
 
@@ -44,4 +46,4 @@ The System Coupling Participant Library
 API's must be implemented for this step to be completed successfully.
 Therefore, this step is the focus of the System Coupling Developer's Guide.
 For more details about this step, see
-[Participant steps in a coupled analysis](participant-steps-in-coupled-analysis.md).
+[Participant steps in a coupled analysis](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-in-coupled-analysis).

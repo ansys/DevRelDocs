@@ -1,4 +1,6 @@
-# Standalone mapping
+---
+title: "Standalone mapping"
+---
 
 ## Steps to perform mapping
 
@@ -31,11 +33,11 @@ then `syscStartStandaloneParallel` function
 in C or `syscStartStandaloneF` function in Fortran must be called
 and appropriate arguments (for example, the MPI communicator) should be provided to those functions.
 
-See [Execution in a Parallel Environment](09_ParallelExecution.md) for more details.
+See [Execution in a Parallel Environment](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parallel-execution) for more details.
 
 #### Mapping across multiple applications
 
-See [Steps to perform data transfers](participant-steps-for-data-transfers.md) for details on
+See [Steps to perform data transfers](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/participant-steps-for-data-transfers) for details on
 how to establish communication between multiple applications using SCP library.
 
 ### Step 2: Set up mapping
@@ -46,7 +48,7 @@ Create and register variables, regions and coupling interfaces.
 
 In this step, the callback functions to access the participant's mesh
 and solution data must be registered.
-See [Access to heavyweight data](heavyweight-data-access.md) for more details.
+See [Access to heavyweight data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/heavyweight-data-access) for more details.
 
 ### Step 4: Update inputs
 
@@ -63,11 +65,11 @@ be reflected in the target values.
 Sample code is provided, demonstrating the use of the participant
 library APIs to perform mapping.
 
-- [Surface mapping example](#surface-mapping-example)
-- [Volume mapping example](#volume-mapping-example)
+- [Surface mapping example](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/participant-steps-for-mapping)
+- [Volume mapping example](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/participant-steps-for-mapping)
 
 For information on how to compile the code in these examples,
-see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md).
+see [Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/compiling-linking-executing).
 
 ### Surface mapping example
 

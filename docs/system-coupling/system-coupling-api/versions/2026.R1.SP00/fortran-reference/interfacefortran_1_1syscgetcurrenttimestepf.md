@@ -1,4 +1,6 @@
-# Interface fortran::syscgetcurrenttimestepf
+---
+title: "Interface fortran::syscgetcurrenttimestepf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get current time step.
 
 ## Members
 
-* [syscgetcurrenttimestepf](interfacefortran_1_1syscgetcurrenttimestepf.md#interfacefortran_1_1syscgetcurrenttimestepf_1ae938904830076cfae024948f393b1443)
+* [syscgetcurrenttimestepf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetcurrenttimestepf)
 
 ## Public functions
 
@@ -45,7 +47,7 @@ a <code>SyscTimeStepF</code> type for current time step
 
 
 
-**Return type**: type([sysctimestepf](structfortran_1_1sysctimestepf.md#structfortran_1_1sysctimestepf)) function
+**Return type**: type([sysctimestepf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1sysctimestepf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

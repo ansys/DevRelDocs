@@ -1,4 +1,6 @@
-# Interface fortran::sysccouplinginterfacegetdatatransferf
+---
+title: "Interface fortran::sysccouplinginterfacegetdatatransferf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get a data transfer from a coupling interface.
 
 ## Members
 
-* [sysccouplinginterfacegetdatatransferf](interfacefortran_1_1sysccouplinginterfacegetdatatransferf.md#interfacefortran_1_1sysccouplinginterfacegetdatatransferf_1a018899d40dfcec3633ad8aeb06d821ff)
+* [sysccouplinginterfacegetdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetdatatransferf)
 
 ## Public functions
 
@@ -35,7 +37,7 @@ Get a data transfer from a coupling interface.
 * couplingInterfacecouplingInterface
 * indexindex
 
-**Return type**: type([syscdatatransferf](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf)) function
+**Return type**: type([syscdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdatatransferf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

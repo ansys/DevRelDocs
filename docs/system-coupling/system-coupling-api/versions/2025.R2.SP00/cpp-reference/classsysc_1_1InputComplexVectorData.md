@@ -1,4 +1,6 @@
-# Class sysc::InputComplexVectorData
+---
+title: "Class sysc::InputComplexVectorData"
+---
 
 ![][C++]
 ![][public]
@@ -17,60 +19,60 @@ The size is the total number of complex vectors, not the total number of compone
 
 ## Members
 
-* [empty](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a3d23dad57825da22f06f1572f919b879)
-* [getData1](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ae26d2fa007face287e43123f207f04ba)
-* [getData2](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a73fc5f5dfa2688897d9ca516d003a062)
-* [getData3](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ab04fe2abf3d1d7f20b42554a9abe22f5)
-* [getData4](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a1382d51a7353f7872cc566df72cfeb23)
-* [getData5](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4e3ab20a71b75947621dee1abc490e30)
-* [getData6](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a6f9fd6dc505471a6826f6638c28a893e)
-* [getDataType](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a05fbe8f5573c5eac873f63ffda747134)
-* [getDimension](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a29dcda46e3ccf38788b6415ac16e8a1d)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a7979652e853b1a632c35b2874b205268)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a1c522ee99d3acc780fad020ed8998210)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a35806ff7869d291b101464685447375f)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1af00dde7b6df40d9ef306b73146bb0a8a)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ace3e39b39fb26d832a7d66ec8a329102)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a7686a586ff91fb11bd12d6ae354b7460)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a7dd946495a56e0f4674a07bbd54e2868)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1af417e2ffe46f6c5f7dc01bba762a9b1a)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1af89b20a5ade30d8a634bd327669d1710)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a78bc8800ab8f9d0ecba24156aaf791c7)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4b3b25734f1590e0c1c900b9d78c89fe)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ad8eebfebf13d28a4a15c8bb7cb609cc1)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a1ae2dd6f2ff845cadc1df703e26e5832)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a27f1b3a1f44ab41fb9a468314e2332eb)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1acba0e6560b239aafa66a6edd6481f33f)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a90f9102c8b54965c1faa7f532ecbeeb7)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a2a0c3cb3caf3c628e4b7dd67df2929a6)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1aec3a629659f337555c4a134fe8cab378)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1aab25dedf00a41d6ddca019bf44cec2f5)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a26132273684decd1d2004ba31b8918c7)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1af5285ef76f27059fd89ccf1135f7b930)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4529854724c43dac4f3a74b32f7aebdb)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4d340ca3ff83ad4f1b76fd61544b0c15)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a51da2b96b4c2c4d04a6c10ba7a6ed44b)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1abe0fb3a10b587f904cfebc9fdbaab7af)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1aecdc5bef4d837e9bd27099bd6e4ca061)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a2e05d32a1a48e4ad2144728526b3016a)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a00dec4920b1774f27c3556f0a2336cb8)
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a9766225ad8e836fa5a354bcc6f449d92)
-* [isSplitComplex](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1acb66a63b6228b76afd0e0c1e98167feb)
-* [isSplitVector](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ab32bd72da49357c8ed02e59aa2e63196)
-* [m\_data1](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a447180ca18492a81cbc106ebc4f21560)
-* [m\_data2](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a7760c17c5eb34cd61eb905f9217a5ffc)
-* [m\_data3](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a028d2e9e78acc26ea66a5a733f46cbae)
-* [m\_data4](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ab83f3137c87950a01db7d49e3f255c1a)
-* [m\_data5](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1af2fe89d83a9e1ca210d7020129eb3ce5)
-* [m\_data6](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ad07731fb9eaacf8e45fa048e1d742354)
-* [m\_dataType](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a71915040696a9b62ae36adbdffd15159)
-* [m\_dimension](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a74ae1dff29e22e10cd655a4685efa0e2)
-* [m\_isSplitComplex](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1aec48744e230c2d8c6fe5c820ef08ae21)
-* [m\_isSplitVector](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a9739f01ca1bd5429715b428e7056b748)
-* [m\_size](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a5a9e0bdbc9ed3b070c72fb7b219d1c64)
-* [operator=](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1ac1c37978bc9252b340862c4600d77b5e)
-* [operator=](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a4dade0f1e2dd51bc4bae1abba988b53c)
-* [size](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1a64d76b7df1fe0ce877cf9297cc584210)
+* [empty](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getData1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getData2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getData3](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getData4](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getData5](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getData6](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getDataType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [getDimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [isSplitComplex](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [isSplitVector](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_data1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_data2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_data3](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_data4](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_data5](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_data6](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_dataType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_isSplitComplex](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_isSplitVector](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [m\_size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData)
 
 ## Private attributes
 
@@ -91,7 +93,7 @@ sysc::PrimitiveType sysc::InputComplexVectorData::m_dataType {sysc::Double}
 
 
 
-**Type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputComplexVectorData_1a9739f01ca1bd5429715b428e7056b748"></a>
 ### Variable m\_isSplitVector
@@ -281,7 +283,7 @@ Dimension sysc::InputComplexVectorData::m_dimension {Dimension::D3}
 
 
 
-**Type**: [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c)
+**Type**: [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Public functions
 
@@ -329,7 +331,7 @@ Provide a constructor for 2D input complex vector data with compact storage for 
 **Parameters**:
 
 * std::vector< std::complex< double >> & **dataComplex**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -381,7 +383,7 @@ Provide a constructor for 2D input complex vector data with compact storage for 
 
 * double * **dataComplex**
 * std::size_t **size**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -433,7 +435,7 @@ Provide a constructor for 2D input complex vector data with compact storage for 
 
 * std::complex< double > * **dataComplex**
 * std::size_t **size**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -686,7 +688,7 @@ Provide a constructor for 2D input complex vector data with compact storage for 
 **Parameters**:
 
 * std::vector< std::complex< float >> & **dataComplex**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -738,7 +740,7 @@ Provide a constructor for 2D input complex vector data with compact storage for 
 
 * float * **dataComplex**
 * std::size_t **size**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -790,7 +792,7 @@ Provide a constructor for 2D input complex vector data with compact storage for 
 
 * std::complex< float > * **dataComplex**
 * std::size_t **size**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -1033,7 +1035,7 @@ Provide a copy-constructor.
 
 **Parameters**:
 
-* const [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) &
+* const [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) &
 
 **Return type**: 
 
@@ -1054,7 +1056,7 @@ Provide a move-constructor.
 
 **Parameters**:
 
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) &&
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) &&
 
 **Return type**: 
 
@@ -1075,9 +1077,9 @@ Provide a copy-assign operator.
 
 **Parameters**:
 
-* const [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) &
+* const [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) &
 
-**Return type**: [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) &
+**Return type**: [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) &
 
 <a id="classsysc_1_1InputComplexVectorData_1a4dade0f1e2dd51bc4bae1abba988b53c"></a>
 ### Function operator=
@@ -1096,9 +1098,9 @@ Provide a move-assign operator.
 
 **Parameters**:
 
-* [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) &&
+* [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) &&
 
-**Return type**: [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) &
+**Return type**: [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) &
 
 <a id="classsysc_1_1InputComplexVectorData_1a64d76b7df1fe0ce877cf9297cc584210"></a>
 ### Function size
@@ -1152,7 +1154,7 @@ For internal use only (no back-compatibility guarantee).
 
 
 
-**Return type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Return type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputComplexVectorData_1ab32bd72da49357c8ed02e59aa2e63196"></a>
 ### Function isSplitVector
@@ -1316,11 +1318,11 @@ Dimension
 
 
 
-**Return type**: [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c)
+**Return type**: [Dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 **References**:
 
-* [sysc::Double](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggad3b1c73e4a63f4d292d65f3db875e844a29843d2c1bb5760f768dcc066dac1ac1)
+* [sysc::Double](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -1,4 +1,6 @@
-# Structure SyscElementTypeData
+---
+title: "Structure SyscElementTypeData"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Element types access struct, provides read-only access to the mesh element types.
 
-To create and/or initialize [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData), it is highly recommended to use one of the functions with names starting with <code>syscGetElementTypeData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData), it is highly recommended to use one of the functions with names starting with <code>syscGetElementTypeData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -19,7 +21,7 @@ SyscElementTypeData elemTypeData = syscGetElementTypeData(elemTypes);
 
 ## Members
 
-* [elementTypes](structSyscElementTypeData.md#structSyscElementTypeData_1a19c71338f6ede3812e004456d525c5dd)
+* [elementTypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 ## Public attributes
 
@@ -40,7 +42,7 @@ Element types array access.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

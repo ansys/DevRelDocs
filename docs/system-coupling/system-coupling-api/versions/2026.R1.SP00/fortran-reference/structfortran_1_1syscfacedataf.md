@@ -1,4 +1,6 @@
-# Type fortran::syscfacedataf undefined
+---
+title: "Type fortran::syscfacedataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,11 +13,11 @@
 
 ## Members
 
-* [facecellconnectivity](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf_1a60fd49965317a12753680728055cddcf)
-* [faceids](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf_1ac15be376d8a7d00e486707ac0269056e)
-* [facenodeconnectivity](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf_1a62c5148ef54c724d306a1d2ed512ccf1)
-* [facenodecounts](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf_1a2abe8c3dbc5763c1d6a59c79a2e14e79)
-* [facetypes](structfortran_1_1syscfacedataf.md#structfortran_1_1syscfacedataf_1acb27a555d3934aa9aac98ece4c77b167)
+* [facecellconnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscfacedataf)
+* [faceids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscfacedataf)
+* [facenodeconnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscfacedataf)
+* [facenodecounts](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscfacedataf)
+* [facetypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscfacedataf)
 
 ## Public attributes
 
@@ -36,7 +38,7 @@ Face ids.
 
 
 
-**Type**: type([syscelementiddataf](structfortran_1_1syscelementiddataf.md#structfortran_1_1syscelementiddataf))
+**Type**: type([syscelementiddataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementiddataf))
 
 <a id="structfortran_1_1syscfacedataf_1acb27a555d3934aa9aac98ece4c77b167"></a>
 ### Variable facetypes
@@ -55,7 +57,7 @@ Face types.
 
 
 
-**Type**: type([syscelementtypedataf](structfortran_1_1syscelementtypedataf.md#structfortran_1_1syscelementtypedataf))
+**Type**: type([syscelementtypedataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementtypedataf))
 
 <a id="structfortran_1_1syscfacedataf_1a2abe8c3dbc5763c1d6a59c79a2e14e79"></a>
 ### Variable facenodecounts
@@ -74,7 +76,7 @@ Node counts.
 
 
 
-**Type**: type([syscelementnodecountdataf](structfortran_1_1syscelementnodecountdataf.md#structfortran_1_1syscelementnodecountdataf))
+**Type**: type([syscelementnodecountdataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementnodecountdataf))
 
 <a id="structfortran_1_1syscfacedataf_1a62c5148ef54c724d306a1d2ed512ccf1"></a>
 ### Variable facenodeconnectivity
@@ -93,7 +95,7 @@ type(syscelementnodeconnectivitydataf) facenodeconnectivity
 
 
 
-**Type**: type([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf))
+**Type**: type([syscelementnodeconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementnodeconnectivitydataf))
 
 <a id="structfortran_1_1syscfacedataf_1a60fd49965317a12753680728055cddcf"></a>
 ### Variable facecellconnectivity
@@ -112,7 +114,7 @@ type(syscfacecellconnectivitydataf) facecellconnectivity
 
 
 
-**Type**: type([syscfacecellconnectivitydataf](structfortran_1_1syscfacecellconnectivitydataf.md#structfortran_1_1syscfacecellconnectivitydataf))
+**Type**: type([syscfacecellconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscfacecellconnectivitydataf))
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

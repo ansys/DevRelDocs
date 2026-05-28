@@ -1,4 +1,6 @@
-# File syscCouplingInterfaceF.fi
+---
+title: "File syscCouplingInterfaceF.fi"
+---
 
 ![][Fortran]
 
@@ -10,21 +12,21 @@
 
 ## Classes
 
-* [fortran::sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)
-* [fortran::syscgetcouplinginterfacef](interfacefortran_1_1syscgetcouplinginterfacef.md#interfacefortran_1_1syscgetcouplinginterfacef)
-* [fortran::syscaddsideoneregionf](interfacefortran_1_1syscaddsideoneregionf.md#interfacefortran_1_1syscaddsideoneregionf)
-* [fortran::syscaddsidetworegionf](interfacefortran_1_1syscaddsidetworegionf.md#interfacefortran_1_1syscaddsidetworegionf)
-* [fortran::syscadddatatransferf](interfacefortran_1_1syscadddatatransferf.md#interfacefortran_1_1syscadddatatransferf)
-* [fortran::sysccouplinginterfacegetnumdatatransfersf](interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf.md#interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf)
-* [fortran::sysccouplinginterfacegetnumsideoneregionsf](interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf.md#interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf)
-* [fortran::sysccouplinginterfacegetnumsidetworegionsf](interfacefortran_1_1sysccouplinginterfacegetnumsidetworegionsf.md#interfacefortran_1_1sysccouplinginterfacegetnumsidetworegionsf)
-* [fortran::sysccouplinginterfacegetdatatransferf](interfacefortran_1_1sysccouplinginterfacegetdatatransferf.md#interfacefortran_1_1sysccouplinginterfacegetdatatransferf)
-* [fortran::sysccouplinginterfacegetsideoneregionf](interfacefortran_1_1sysccouplinginterfacegetsideoneregionf.md#interfacefortran_1_1sysccouplinginterfacegetsideoneregionf)
-* [fortran::sysccouplinginterfacegetsidetworegionf](interfacefortran_1_1sysccouplinginterfacegetsidetworegionf.md#interfacefortran_1_1sysccouplinginterfacegetsidetworegionf)
+* [fortran::sysccouplinginterfacef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1sysccouplinginterfacef)
+* [fortran::syscgetcouplinginterfacef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetcouplinginterfacef)
+* [fortran::syscaddsideoneregionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscaddsideoneregionf)
+* [fortran::syscaddsidetworegionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscaddsidetworegionf)
+* [fortran::syscadddatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscadddatatransferf)
+* [fortran::sysccouplinginterfacegetnumdatatransfersf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf)
+* [fortran::sysccouplinginterfacegetnumsideoneregionsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetnumsideoneregionsf)
+* [fortran::sysccouplinginterfacegetnumsidetworegionsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetnumsidetworegionsf)
+* [fortran::sysccouplinginterfacegetdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetdatatransferf)
+* [fortran::sysccouplinginterfacegetsideoneregionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetsideoneregionf)
+* [fortran::sysccouplinginterfacegetsidetworegionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetsidetworegionf)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

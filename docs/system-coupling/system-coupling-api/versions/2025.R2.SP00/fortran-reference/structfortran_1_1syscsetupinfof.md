@@ -1,4 +1,6 @@
-# Type fortran::syscsetupinfof undefined
+---
+title: "Type fortran::syscsetupinfof undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -19,11 +21,11 @@ SyscSetupInfo setupInfo = syscGetSetupInfoF(SyscSteady);
 
 ## Members
 
-* [analysistype](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof_1aeab455ed168e2f3e178793e8f6c69c50)
-* [dimension](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof_1a86ac613c1baf4a60d347742b387bb8e4)
-* [participanttype](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof_1afc3a17c81e22e070442b3f1d83d6f4db)
-* [restartssupported](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof_1a4a6aff883f05c2ab2f3fedc949218ed0)
-* [timeintegration](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof_1aaba5b0455fb1c9d401a6bdc7eec0adc3)
+* [analysistype](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscsetupinfof)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscsetupinfof)
+* [participanttype](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscsetupinfof)
+* [restartssupported](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscsetupinfof)
+* [timeintegration](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscsetupinfof)
 
 ## Public attributes
 

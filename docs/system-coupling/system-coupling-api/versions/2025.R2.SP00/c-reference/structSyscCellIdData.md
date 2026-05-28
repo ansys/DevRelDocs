@@ -1,4 +1,6 @@
-# Structure SyscCellIdData
+---
+title: "Structure SyscCellIdData"
+---
 
 ![][C]
 ![][public]
@@ -11,7 +13,7 @@ Cell ids struct.
 
 ## Members
 
-* [cellIds](structSyscCellIdData.md#structSyscCellIdData_1a29e35d9dd1a0fa97fa751f934487b6de)
+* [cellIds](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscCellIdData)
 
 ## Public attributes
 
@@ -32,7 +34,7 @@ cell ids.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

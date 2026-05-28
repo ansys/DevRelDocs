@@ -1,4 +1,6 @@
-# File CommonSettings.hpp
+---
+title: "File CommonSettings.hpp"
+---
 
 ![][C++]
 
@@ -10,11 +12,11 @@
 
 ## Classes
 
-* [sysc::Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality)
+* [sysc::Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Source
 

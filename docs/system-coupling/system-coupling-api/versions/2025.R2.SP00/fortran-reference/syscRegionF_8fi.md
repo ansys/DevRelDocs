@@ -1,4 +1,6 @@
-# File syscRegionF.fi
+---
+title: "File syscRegionF.fi"
+---
 
 ![][Fortran]
 
@@ -10,16 +12,16 @@
 
 ## Classes
 
-* [fortran::syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)
-* [fortran::syscgetregionf](interfacefortran_1_1syscgetregionf.md#interfacefortran_1_1syscgetregionf)
-* [fortran::syscgetnuminputvariablesf](interfacefortran_1_1syscgetnuminputvariablesf.md#interfacefortran_1_1syscgetnuminputvariablesf)
-* [fortran::syscgetinputvariablef](interfacefortran_1_1syscgetinputvariablef.md#interfacefortran_1_1syscgetinputvariablef)
-* [fortran::syscgetnumoutputvariablesf](interfacefortran_1_1syscgetnumoutputvariablesf.md#interfacefortran_1_1syscgetnumoutputvariablesf)
-* [fortran::syscgetoutputvariablef](interfacefortran_1_1syscgetoutputvariablef.md#interfacefortran_1_1syscgetoutputvariablef)
+* [fortran::syscregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)
+* [fortran::syscgetregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetregionf)
+* [fortran::syscgetnuminputvariablesf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetnuminputvariablesf)
+* [fortran::syscgetinputvariablef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputvariablef)
+* [fortran::syscgetnumoutputvariablesf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetnumoutputvariablesf)
+* [fortran::syscgetoutputvariablef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvariablef)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

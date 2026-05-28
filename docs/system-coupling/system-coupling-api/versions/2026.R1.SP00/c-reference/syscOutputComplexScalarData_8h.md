@@ -1,4 +1,6 @@
-# File syscOutputComplexScalarData.h
+---
+title: "File syscOutputComplexScalarData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+* [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga55ed1d17c6d2f849b9588531d7c516d9"></a>
 ### Function syscGetOutputComplexScalarDataSplitDouble
@@ -82,7 +84,7 @@ Create a complex output scalar data access struct.
 * const double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0e86f0bfb33258007eb2b2ecd6b44dec"></a>
 ### Function syscGetOutputComplexScalarDataSplitFloat
@@ -109,7 +111,7 @@ Create a complex output scalar data access struct.
 * const float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga08d88f4495f347260e4678ab6bedbf75"></a>
 ### Function syscGetOutputComplexScalarDataCompactDouble
@@ -134,7 +136,7 @@ Create a complex output scalar data access struct.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3d806d095d2d333f2a78abb38f7cddf6"></a>
 ### Function syscGetOutputComplexScalarDataCompactFloat
@@ -159,7 +161,7 @@ Create a complex output scalar data access struct.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 ## Source
 

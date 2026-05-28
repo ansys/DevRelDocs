@@ -1,4 +1,6 @@
-# Interface fortran::syscaddregionf
+---
+title: "Interface fortran::syscaddregionf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to add a region.
 
 ## Members
 
-* [syscaddregionf](interfacefortran_1_1syscaddregionf.md#interfacefortran_1_1syscaddregionf_1a76e91c428f581da4c6695c7a66027839)
+* [syscaddregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscaddregionf)
 
 ## Public functions
 
@@ -60,7 +62,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 * regreg
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

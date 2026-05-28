@@ -1,4 +1,6 @@
-# File InputScalarData.hpp
+---
+title: "File InputScalarData.hpp"
+---
 
 ![][C++]
 
@@ -10,18 +12,18 @@
 
 ## Classes
 
-* [sysc::InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData)
+* [sysc::InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
-* <cstddef>
-* <vector>
+* &lt;cstddef&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

@@ -1,4 +1,6 @@
-# Interface fortran::syscgetfacecellconnectivitydataf
+---
+title: "Interface fortran::syscgetfacecellconnectivitydataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@
 
 ## Members
 
-* [syscgetfacecellconnectivitydataf](interfacefortran_1_1syscgetfacecellconnectivitydataf.md#interfacefortran_1_1syscgetfacecellconnectivitydataf_1ad1b9647c20f4a1368fa4ceeec0a9028f)
-* [syscgetfacecellconnectivitydataf\_empty](interfacefortran_1_1syscgetfacecellconnectivitydataf.md#interfacefortran_1_1syscgetfacecellconnectivitydataf_1a2fad0cc937dff1f68861627e3e634149)
+* [syscgetfacecellconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetfacecellconnectivitydataf)
+* [syscgetfacecellconnectivitydataf\_empty](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetfacecellconnectivitydataf)
 
 ## Public functions
 
@@ -31,7 +33,7 @@ type(syscfacecellconnectivitydataf) function syscgetfacecellconnectivitydataf_em
 
 
 
-**Return type**: type([syscfacecellconnectivitydataf](structfortran_1_1syscfacecellconnectivitydataf.md#structfortran_1_1syscfacecellconnectivitydataf)) function
+**Return type**: type([syscfacecellconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscfacecellconnectivitydataf)) function
 
 <a id="interfacefortran_1_1syscgetfacecellconnectivitydataf_1ad1b9647c20f4a1368fa4ceeec0a9028f"></a>
 ### Function syscgetfacecellconnectivitydataf
@@ -53,7 +55,7 @@ type(syscfacecellconnectivitydataf) function syscgetfacecellconnectivitydataf(ce
 * cell0Idscell0Ids
 * cell1Idscell1Ids
 
-**Return type**: type([syscfacecellconnectivitydataf](structfortran_1_1syscfacecellconnectivitydataf.md#structfortran_1_1syscfacecellconnectivitydataf)) function
+**Return type**: type([syscfacecellconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscfacecellconnectivitydataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

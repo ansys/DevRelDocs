@@ -1,4 +1,6 @@
-# Participant steps in a coupled analysis
+---
+title: "Participant steps in a coupled analysis"
+---
 
 During a coupled analysis, a specific sequence of steps must be traversed by the participant.
 
@@ -53,7 +55,7 @@ and build information.
 
 If running in parallel using a supported MPI distribution, MPI communicator should
 also be provided. See
-[Execution in a parallel environment](parallel-execution.md)
+[Execution in a parallel environment](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parallel-execution)
 for more details.
 
 ### C++
@@ -115,8 +117,8 @@ Register any other callback functions (for example a callback for creating a res
 In the examples below, `getSurfaceMesh`, `getInputScalarData`, and
 `createRestartPoint` are functions that conform to provided prototypes that
 are to be implemented in the participant solver. See
-[Access to heavyweight data](heavyweight-data-access.md) and
-[Creating restart points and restarting a coupled analysis](restarts.md)
+[Access to heavyweight data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/heavyweight-data-access) and
+[Creating restart points and restarting a coupled analysis](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/restarts)
 for more details.
 
 ### C++
@@ -157,7 +159,7 @@ sc.registerRestartPointCreation(createRestartPoint)
 
 Notify System Coupling that the analysis can be initialized. Note that if parameters
 are used, initial values for output parameters should be set prior to initializing
-the analysis. If no initial value is set, the parameter will be initialized to zero. See [Parameter Data Access](parameter-data-access.md) for more details.
+the analysis. If no initial value is set, the parameter will be initialized to zero. See [Parameter Data Access](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parameter-data-access) for more details.
 
 ### C++
 

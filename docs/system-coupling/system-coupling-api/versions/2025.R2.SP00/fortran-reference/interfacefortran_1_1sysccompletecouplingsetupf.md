@@ -1,4 +1,6 @@
-# Interface fortran::sysccompletecouplingsetupf
+---
+title: "Interface fortran::sysccompletecouplingsetupf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@
 
 ## Members
 
-* [sysccompletecouplingsetupf](interfacefortran_1_1sysccompletecouplingsetupf.md#interfacefortran_1_1sysccompletecouplingsetupf_1aec2893f6b6a83f3a48d1c59849aca10c)
-* [sysccompletecouplingsetupf\_v2](interfacefortran_1_1sysccompletecouplingsetupf.md#interfacefortran_1_1sysccompletecouplingsetupf_1a192660ef5ae0a42ecb203c0d40ab93ea)
+* [sysccompletecouplingsetupf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1sysccompletecouplingsetupf)
+* [sysccompletecouplingsetupf\_v2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1sysccompletecouplingsetupf)
 
 ## Public functions
 
@@ -31,7 +33,7 @@ type(syscerrorf) function sysccompletecouplingsetupf()
 
 
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 <a id="interfacefortran_1_1sysccompletecouplingsetupf_1a192660ef5ae0a42ecb203c0d40ab93ea"></a>
 ### Function sysccompletecouplingsetupf\_v2
@@ -52,7 +54,7 @@ type(syscerrorf) function sysccompletecouplingsetupf_v2(analysisType)
 
 * analysisTypeanalysisType
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

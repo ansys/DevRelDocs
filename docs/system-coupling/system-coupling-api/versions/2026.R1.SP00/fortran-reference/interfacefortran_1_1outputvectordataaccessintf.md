@@ -1,4 +1,6 @@
-# Interface fortran::outputvectordataaccessintf
+---
+title: "Interface fortran::outputvectordataaccessintf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [outputvectordataaccessintf](interfacefortran_1_1outputvectordataaccessintf.md#interfacefortran_1_1outputvectordataaccessintf_1a6c3632dac056b0861bd810146062fde7)
+* [outputvectordataaccessintf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1outputvectordataaccessintf)
 
 ## Public functions
 
@@ -36,7 +38,7 @@ type(syscerrorf) function outputvectordataaccessintf(regionName, variableName, o
 * variableNamevariableName
 * outputVectorDataoutputVectorData
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

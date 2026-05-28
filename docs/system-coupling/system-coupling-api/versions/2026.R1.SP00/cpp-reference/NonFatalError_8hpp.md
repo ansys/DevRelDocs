@@ -1,4 +1,6 @@
-# File NonFatalError.hpp
+---
+title: "File NonFatalError.hpp"
+---
 
 ![][C++]
 
@@ -10,17 +12,17 @@
 
 ## Classes
 
-* [sysc::NonFatalError](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError)
+* [sysc::NonFatalError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1NonFatalError)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
-* [LibraryType.hpp](LibraryType_8hpp.md#LibraryType_8hpp)
-* <exception>
-* <string>
+* [LibraryType.hpp](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/LibraryType_8hpp)
+* &lt;exception&gt;
+* &lt;string&gt;
 
 ```mermaid
 graph LR

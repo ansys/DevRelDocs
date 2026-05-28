@@ -1,4 +1,6 @@
-# File MeshDefinition.hpp
+---
+title: "File MeshDefinition.hpp"
+---
 
 ![][C++]
 
@@ -10,26 +12,26 @@
 
 ## Classes
 
-* [sysc::ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData)
-* [sysc::ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData)
-* [sysc::ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData)
-* [sysc::ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData)
-* [sysc::FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData)
-* [sysc::CellIdData](structsysc_1_1CellIdData.md#structsysc_1_1CellIdData)
-* [sysc::NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData)
-* [sysc::FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData)
-* [sysc::CellData](structsysc_1_1CellData.md#structsysc_1_1CellData)
+* [sysc::ElementIdData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [sysc::ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementTypeData)
+* [sysc::ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [sysc::ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [sysc::FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData)
+* [sysc::CellIdData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1CellIdData)
+* [sysc::NodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1NodeData)
+* [sysc::FaceData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1FaceData)
+* [sysc::CellData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1CellData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/OutputIntegerData.hpp
 * SystemCouplingParticipant/OutputVectorData.hpp
-* <cstddef>
+* &lt;cstddef&gt;
 
 ```mermaid
 graph LR

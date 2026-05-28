@@ -1,4 +1,6 @@
-# File DataTransfer.hpp
+---
+title: "File DataTransfer.hpp"
+---
 
 ![][C++]
 
@@ -10,11 +12,11 @@
 
 ## Classes
 
-* [sysc::DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer)
+* [sysc::DataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1DataTransfer)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 

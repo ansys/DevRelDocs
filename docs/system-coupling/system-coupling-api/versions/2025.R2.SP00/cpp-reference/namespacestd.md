@@ -1,4 +1,6 @@
-# Namespace std
+---
+title: "Namespace std"
+---
 
 ![][C++]
 

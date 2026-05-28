@@ -1,4 +1,6 @@
-# Structure sysc::MeshValidityStatus
+---
+title: "Structure sysc::MeshValidityStatus"
+---
 
 ![][C++]
 ![][public]
@@ -11,10 +13,10 @@ Provide a struct that contains information about mesh validity.
 
 ## Members
 
-* [isInvalid](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1a3ee3cb844b3594fb7c3be7fce89a4f62)
-* [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1ad9c263935ed13d2ee2e5e97816c00ef3)
-* [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1ad75cfb4f98778300a21ac1d72efba379)
-* [message](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1ab175079553f6cc1591dbb3d0e74c8ec4)
+* [isInvalid](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
+* [MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
+* [MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
+* [message](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
 
 ## Public attributes
 
@@ -84,7 +86,7 @@ sysc::MeshValidityStatus::MeshValidityStatus()
 sysc::MeshValidityStatus::MeshValidityStatus(bool isInvalid, std::string message)
 ```
 
-Provide a non-default constructor for [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus).
+Provide a non-default constructor for [MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1MeshValidityStatus).
 
 **Parameters**:
 

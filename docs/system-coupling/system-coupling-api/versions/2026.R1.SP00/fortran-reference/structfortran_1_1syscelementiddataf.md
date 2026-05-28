@@ -1,4 +1,6 @@
-# Type fortran::syscelementiddataf undefined
+---
+title: "Type fortran::syscelementiddataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [elementids](structfortran_1_1syscelementiddataf.md#structfortran_1_1syscelementiddataf_1a1a049b832d485ddfb43b2a998a048360)
+* [elementids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementiddataf)
 
 ## Public attributes
 
@@ -32,7 +34,7 @@ type(syscoutputintegerdataf) elementids
 
 
 
-**Type**: type([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf))
+**Type**: type([syscoutputintegerdataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf))
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

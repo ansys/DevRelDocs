@@ -1,4 +1,6 @@
-# File VolumeMesh.hpp
+---
+title: "File VolumeMesh.hpp"
+---
 
 ![][C++]
 
@@ -10,11 +12,11 @@
 
 ## Classes
 
-* [sysc::VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh)
+* [sysc::VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
@@ -23,7 +25,7 @@
 * SystemCouplingParticipant/MeshDefinition.hpp
 * SystemCouplingParticipant/OutputIntegerData.hpp
 * SystemCouplingParticipant/OutputVectorData.hpp
-* <cstddef>
+* &lt;cstddef&gt;
 
 ```mermaid
 graph LR

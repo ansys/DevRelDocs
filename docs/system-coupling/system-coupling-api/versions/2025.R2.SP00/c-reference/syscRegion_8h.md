@@ -1,4 +1,6 @@
-# File syscRegion.h
+---
+title: "File syscRegion.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscRegion](structSyscRegion.md#structSyscRegion)
+* [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscVariable.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -59,7 +61,7 @@ Participant can declare which regions can be used in the coupled analysis. Each 
 
 
 
-To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegion) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetRegion</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetRegion</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -71,7 +73,7 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 
 
-**Return type**: struct [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: struct [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 ## Functions
 
@@ -110,7 +112,7 @@ Region mesh type will default to mesh.
 
 * const char * **name**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga26c8d2435b5cd3c525d5221298ad3aaa"></a>
 ### Function syscGetRegionT
@@ -141,9 +143,9 @@ Region mesh type will default to mesh.
 **Parameters**:
 
 * const char * **name**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **topology**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga88d428a1852eeec9b7b7156e33b57822"></a>
 ### Function syscGetRegionDT
@@ -170,9 +172,9 @@ Region mesh type will default to mesh.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **topology**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9e0af352921275419da93341f7186f46"></a>
 ### Function syscGetRegionTM
@@ -198,10 +200,10 @@ Display names will be same as name.
 **Parameters**:
 
 * const char * **name**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
-* enum [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45) **regionDiscretizationType**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **topology**
+* enum [SyscRegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **regionDiscretizationType**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaae89f288494cc67e8f05cab0f5d1b8b"></a>
 ### Function syscGetRegionDTM
@@ -227,10 +229,10 @@ Create region to be used in a coupled analysis.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
-* enum [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45) **regionDiscretizationType**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **topology**
+* enum [SyscRegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **regionDiscretizationType**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9ae6fafcce6987fa18ba762a1ee7a7be"></a>
 ### Function syscAddInputVariable
@@ -283,10 +285,10 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
-* const [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) **region**
+* const [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9615f371d829935af745eb63a1ea99bc"></a>
 ### Function syscAddOutputVariable
@@ -339,10 +341,10 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
-* const [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) **region**
+* const [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabec39110fe9da4d54a32653e6bf43196"></a>
 ### Function syscGetNumInputVariables
@@ -368,7 +370,7 @@ Number of input variables for the region.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) **region**
 
 **Return type**: size_t
 
@@ -397,10 +399,10 @@ Variable at specified index.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) **region**
 * size_t **index**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga99fda03ac99e590196d180ea23214217"></a>
 ### Function syscGetNumOutputVariables
@@ -426,7 +428,7 @@ Number of output variables for the region.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) **region**
 
 **Return type**: size_t
 
@@ -455,10 +457,10 @@ Variable at specified index.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) **region**
 * size_t **index**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 ## Source
 

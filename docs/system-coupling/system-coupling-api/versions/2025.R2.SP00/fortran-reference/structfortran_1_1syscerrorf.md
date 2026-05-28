@@ -1,4 +1,6 @@
-# Type fortran::syscerrorf undefined
+---
+title: "Type fortran::syscerrorf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@ Provide an error type returned by the Fortran interface calls.
 
 ## Members
 
-* [message](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf_1a03ea72a9d280946f9411ff9c261f7fa6)
-* [retcode](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf_1a79a9fe07cdde873d9bf5a786ee076cba)
+* [message](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)
+* [retcode](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)
 
 ## Public attributes
 

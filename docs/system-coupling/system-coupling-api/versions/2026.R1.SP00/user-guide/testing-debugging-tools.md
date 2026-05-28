@@ -1,11 +1,13 @@
-# Testing and debugging tools
+---
+title: "Testing and debugging tools"
+---
 
 The participant library includes the following tools to help with testing and debugging:
 
-- [Code tracing](#code-tracing)
-- [Standalone Mode (for co-simulation only)](#standalone-mode-for-co-simulation-only)
-- [Mesh Validity Check](#mesh-validity-check)
-- [Record and Playback Capability (for co-simulation only)](#record-and-playback-capabilities)
+- [Code tracing](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)
+- [Standalone Mode (for co-simulation only)](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)
+- [Mesh Validity Check](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)
+- [Record and Playback Capability (for co-simulation only)](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)
 
 ## Code tracing
 
@@ -36,7 +38,7 @@ participant solver can run successfully in standalone mode.
 To run in standalone mode, provide either an empty host name or a `#` instead of the host name
 when the connection to
 System Coupling would be typically established. Additionally, if using the
-playback option (see [Record and playback capabilities](#record-and-playback-capabilities)),
+playback option (see [Record and playback capabilities](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)),
 the participant name used to record the playback must be supplied. No other
 changes are required to run in standalone mode. For a demonstration of how to
 run a participant solver in standalone mode, see Tutorial: Heat Transfer in
@@ -177,7 +179,7 @@ The "record" capability refers to the option in System Coupling that allows to g
 the .scp and .scpid files during co-simulation.
 
 The "playback" capability refers to the option to read the .scp and .scpid
-files in standalone mode ([see above](#standalone-mode-for-co-simulation-only)) to emulate the interactions with System Coupling
+files in standalone mode ([see above](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)) to emulate the interactions with System Coupling
 without using System Coupling.
 
 ### The record capability
@@ -210,21 +212,21 @@ significant digits, min and max are 1 and 16, respectively):
 ### The playback capability
 
 The "playback" aspect involves running in standalone mode. If the .scp and .scpid files described above
-exist in the working directory, and the standalone mode ([see above](#standalone-mode-for-co-simulation-only)) is used, then the SCP library will
+exist in the working directory, and the standalone mode ([see above](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/testing-debugging-tools)) is used, then the SCP library will
 read these files and use them to provide the information to the participant solver as-if the full
 co-simulation analysis was being executed.
 
 ### SCP file format
 
 The SCP file is the same file that the SCP library can generate as described in
-[Completing the System Coupling Participant Setup](participant-setup.md) section.
+[Completing the System Coupling Participant Setup](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/participant-setup) section.
 
 More information about the SCP file format can be found in the System Coupling User's Guide.
 
 ### SCPID file format
 
 SCP library input solution file is used to help debug and locate issues in the participant solver without connecting to SystemCoupling
-and running in the standalone mode. This file is called `<ParticipantName>.scpid` and `scpid` extension stands for `System Coupling Participant Interaction Data`.
+and running in the standalone mode. This file is called `&lt;ParticipantName&gt;.scpid` and `scpid` extension stands for `System Coupling Participant Interaction Data`.
 
 #### Format
 

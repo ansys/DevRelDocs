@@ -1,4 +1,6 @@
-# Type fortran::syscresultsinfof undefined
+---
+title: "Type fortran::syscresultsinfof undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide a type for writing results files.
 
 ## Members
 
-* [basefilename](structfortran_1_1syscresultsinfof.md#structfortran_1_1syscresultsinfof_1ab87a2b05cc2fa1114379c39b325438b4)
+* [basefilename](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscresultsinfof)
 
 ## Public attributes
 

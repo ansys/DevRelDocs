@@ -1,4 +1,6 @@
-# Interface fortran::syscgetdimensionalityf
+---
+title: "Interface fortran::syscgetdimensionalityf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get dimensionality.
 
 ## Members
 
-* [syscgetdimensionalityf](interfacefortran_1_1syscgetdimensionalityf.md#interfacefortran_1_1syscgetdimensionalityf_1aa3941d7e6725d55891d181a71c40fd44)
+* [syscgetdimensionalityf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetdimensionalityf)
 
 ## Public functions
 
@@ -32,7 +34,7 @@ a SyscDimensionalityF type
 
 
 
-**Return type**: type([syscdimensionalityf](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf)) function
+**Return type**: type([syscdimensionalityf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Structure SyscOutputVectorData
+---
+title: "Structure SyscOutputVectorData"
+---
 
 ![][C]
 ![][public]
@@ -19,7 +21,7 @@ The size is the total number of vectors, not the total number of components, i.e
 
 
 
-To create and/or initialize [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData), it is highly recommended to use one of the functions with names starting with <code>syscGetOutputVectorData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData), it is highly recommended to use one of the functions with names starting with <code>syscGetOutputVectorData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -32,12 +34,12 @@ SyscOutputVectorData isd = syscGetOutputVectorDataSplitDouble(
 
 ## Members
 
-* [data0](structSyscOutputVectorData.md#structSyscOutputVectorData_1ab5b43e2fbbdd158e838e34b6061a547a)
-* [data1](structSyscOutputVectorData.md#structSyscOutputVectorData_1a07d6e4c76622e108c8d55052bf24a06b)
-* [data2](structSyscOutputVectorData.md#structSyscOutputVectorData_1ad05ef31b30bf25b8337e221af20c4f44)
-* [dimension](structSyscOutputVectorData.md#structSyscOutputVectorData_1a563bb9ca0465602dcdd88b572cb2a74a)
-* [primitiveType](structSyscOutputVectorData.md#structSyscOutputVectorData_1a1db75a7cee8680c78f2d5e9199ed2a98)
-* [size](structSyscOutputVectorData.md#structSyscOutputVectorData_1abb605a01aa1090eec8d79b34caf9463b)
+* [data0](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
+* [data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
+* [data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 ## Public attributes
 
@@ -58,7 +60,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscOutputVectorData_1ab5b43e2fbbdd158e838e34b6061a547a"></a>
 ### Variable data0
@@ -153,7 +155,7 @@ Array dimension.
 
 
 
-**Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
+**Type**: enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

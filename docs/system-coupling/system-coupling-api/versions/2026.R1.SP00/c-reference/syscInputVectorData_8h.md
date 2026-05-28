@@ -1,4 +1,6 @@
-# File syscInputVectorData.h
+---
+title: "File syscInputVectorData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+* [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga21f7b8327230f78d41e61bdac3f073c0"></a>
 ### Function syscGetInputVectorDataCompactDouble
@@ -80,7 +82,7 @@ Create an 3D input vector data access struct with compact storage.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1dab4c326c88b20cb402ca06c84d39c2"></a>
 ### Function syscGetInputVectorDataCompactFloat
@@ -105,7 +107,7 @@ Create an 3D input vector data access struct with compact storage.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5432989ff9b68845634e551c6246e42e"></a>
 ### Function syscGetInputVectorDataSplitDouble
@@ -134,7 +136,7 @@ Create an 3D input vector data access struct with split storage.
 * double *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga774cdf0f3bb11efe50a587e6a11e7539"></a>
 ### Function syscGetInputVectorDataSplitFloat
@@ -163,7 +165,7 @@ Create an 3D input vector data access struct with split storage.
 * float *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadc1d6ed1a05cf21b0b38af4ea8247eb3"></a>
 ### Function syscGetInputVectorDataCompactDoubleDim
@@ -188,9 +190,9 @@ Create an input vector data access struct with compact storage based on dimensio
 
 * double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0e5591d56881dec17e9ebaa087a7a198"></a>
 ### Function syscGetInputVectorDataCompactFloatDim
@@ -215,9 +217,9 @@ Create an input vector data access struct with compact storage based on dimensio
 
 * float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab707ea57d70a474cfdab07c35dc7dcf7"></a>
 ### Function syscGetInput2DVectorDataSplitDouble
@@ -244,7 +246,7 @@ Create an 2D input vector data access struct with split storage.
 * double *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad39531d8943485fe6a586ce4dbdc5107"></a>
 ### Function syscGetInput2DVectorDataSplitFloat
@@ -271,7 +273,7 @@ Create an 2D input vector data access struct with split storage.
 * float *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 ## Source
 

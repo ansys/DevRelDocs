@@ -1,4 +1,6 @@
-# Interface fortran::syscgetaddedregionf
+---
+title: "Interface fortran::syscgetaddedregionf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [syscgetaddedregionf](interfacefortran_1_1syscgetaddedregionf.md#interfacefortran_1_1syscgetaddedregionf_1a0259eb154714026d1e2f08b39a9940b8)
+* [syscgetaddedregionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetaddedregionf)
 
 ## Public functions
 
@@ -34,7 +36,7 @@ type(syscregionf) function syscgetaddedregionf(index)
 
 * indexindex
 
-**Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
+**Return type**: type([syscregionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscregionf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

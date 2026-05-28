@@ -1,4 +1,6 @@
-# File CouplingInterface.hpp
+---
+title: "File CouplingInterface.hpp"
+---
 
 ![][C++]
 
@@ -10,19 +12,19 @@
 
 ## Classes
 
-* [sysc::CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface)
+* [sysc::CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/DataTransfer.hpp
 * SystemCouplingParticipant/Region.hpp
-* <string>
-* <vector>
+* &lt;string&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

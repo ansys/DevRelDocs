@@ -1,4 +1,6 @@
-# Interface fortran::syscgetnumregionsf
+---
+title: "Interface fortran::syscgetnumregionsf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to return the number of added regions.
 
 ## Members
 
-* [syscgetnumregionsf](interfacefortran_1_1syscgetnumregionsf.md#interfacefortran_1_1syscgetnumregionsf_1a613fec21ec06b65230ec11bbba18470c)
+* [syscgetnumregionsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetnumregionsf)
 
 ## Public functions
 

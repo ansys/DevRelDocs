@@ -1,4 +1,6 @@
-# Structure SyscParameter
+---
+title: "Structure SyscParameter"
+---
 
 ![][C]
 ![][public]
@@ -11,8 +13,8 @@ Provide a struct for a System Coupling parameter.
 
 ## Members
 
-* [displayName](structSyscParameter.md#structSyscParameter_1a28dadb5ca8618970f5019270c94fd582)
-* [name](structSyscParameter.md#structSyscParameter_1af4cc31b045f137e214d4f790987ca42d)
+* [displayName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
+* [name](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
 
 ## Public attributes
 

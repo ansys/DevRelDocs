@@ -1,4 +1,6 @@
-# Interface fortran::syscgetsetupfileinfof
+---
+title: "Interface fortran::syscgetsetupfileinfof"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get a System Coupling setup file info type.
 
 ## Members
 
-* [syscgetsetupfileinfof](interfacefortran_1_1syscgetsetupfileinfof.md#interfacefortran_1_1syscgetsetupfileinfof_1abe48d99971ec8f83f367fdb7a87dfed3)
+* [syscgetsetupfileinfof](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetsetupfileinfof)
 
 ## Public functions
 
@@ -41,7 +43,7 @@ a SyscSetupFileInfoF type
 
 * setupFileNamesetupFileName
 
-**Return type**: type([syscsetupfileinfof](structfortran_1_1syscsetupfileinfof.md#structfortran_1_1syscsetupfileinfof)) function
+**Return type**: type([syscsetupfileinfof](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscsetupfileinfof)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

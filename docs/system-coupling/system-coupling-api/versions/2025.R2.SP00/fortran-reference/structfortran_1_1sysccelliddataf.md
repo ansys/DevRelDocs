@@ -1,4 +1,6 @@
-# Type fortran::sysccelliddataf undefined
+---
+title: "Type fortran::sysccelliddataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [cellids](structfortran_1_1sysccelliddataf.md#structfortran_1_1sysccelliddataf_1a3260c57b37027576987524bc350258df)
+* [cellids](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1sysccelliddataf)
 
 ## Public attributes
 
@@ -32,7 +34,7 @@ type(syscoutputintegerdataf) cellids
 
 
 
-**Type**: type([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf))
+**Type**: type([syscoutputintegerdataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf))
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Structure sysc::ElementNodeCountData
+---
+title: "Structure sysc::ElementNodeCountData"
+---
 
 ![][C++]
 ![][public]
@@ -11,13 +13,13 @@ Describes element node counts.
 
 ## Members
 
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1a8878810b0df0cca773e6dd98e56dbb77)
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1ae090e9435488439d9280babc73243c23)
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1a790b1bd482fce93ad7569ca20f473acd)
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1aa208c18aabf8e21b6914d598b79b4180)
-* [elemNodeCounts](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1a7464dda1219e853c893b4991c7382a85)
-* [operator=](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1a195f2617754465c545017174602a3918)
-* [operator=](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData_1a84f9e03ef2d2736870a55268ce4601eb)
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [elemNodeCounts](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
 
 ## Public attributes
 
@@ -38,7 +40,7 @@ Element node counts array.
 
 
 
-**Type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 ## Public functions
 
@@ -59,7 +61,7 @@ Constructor that takes element node counts array.
 
 **Parameters**:
 
-* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **elemNodeCounts**
+* [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1OutputIntegerData) **elemNodeCounts**
 
 **Return type**: 
 
@@ -97,7 +99,7 @@ Copy constructor.
 
 **Parameters**:
 
-* const [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) &
+* const [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) &
 
 **Return type**: 
 
@@ -118,7 +120,7 @@ Move constructor.
 
 **Parameters**:
 
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) &&
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) &&
 
 **Return type**: 
 
@@ -139,9 +141,9 @@ Copy-assign operator.
 
 **Parameters**:
 
-* const [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) &
+* const [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) &
 
-**Return type**: [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) &
+**Return type**: [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) &
 
 <a id="structsysc_1_1ElementNodeCountData_1a84f9e03ef2d2736870a55268ce4601eb"></a>
 ### Function operator=
@@ -160,9 +162,9 @@ Move-assign operator.
 
 **Parameters**:
 
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) &&
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) &&
 
-**Return type**: [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) &
+**Return type**: [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -1,4 +1,6 @@
-# Class sysc::VolumeMesh
+---
+title: "Class sysc::VolumeMesh"
+---
 
 ![][C++]
 ![][public]
@@ -11,39 +13,39 @@ Provides read-only access to the volume mesh for a given region.
 
 ## Members
 
-* [checkMeshValidity](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1aca7d146a22e72f8eca520ef69ea6858a)
-* [checkValidity](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a3bee2a4c68f47e4887323d31ce691b02)
-* [connectivityStamp](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1adbab9e5317965d98b0e6b02c6ccce7b5)
-* [coordinatesStamp](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a6415bcc1a32f7374c51d4894d68e338e)
-* [getCell0Ids](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a417e50bee9c019e45cbedd39fd5bc6cb)
-* [getCell1Ids](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a1591d15487420143b463ef86835f1874)
-* [getCellData](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a5ccc339cd9160a32097e4a60277aa26d)
-* [getCellIds](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a798c79c54b8425b7e8b3060016547ea7)
-* [getCellNodeConnectivity](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a3bb98664fc0827d3ea1317ca034f493c)
-* [getCellTypes](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a159cf62afda4022acfbd2f5cbccfca7c)
-* [getFaceData](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a3b1a9c301f2fdbb47e84dc51873a9c82)
-* [getFaceNodeCounts](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a66ec70482e4fd44bc9edaa910e0abaf2)
-* [getFaceNodeIds](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a3a7635141a02711f1dcdacf848c157ab)
-* [getFaceTypes](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a7cd6df532799ff7878c5a3b30cf0ffe5)
-* [getNodeCoords](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a4307321266d855dd7ba48023e0b23f4e)
-* [getNodeData](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1abb3afc8a600888ee5af947d4ce1f934a)
-* [getNodeIds](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a15835b560adaabcc1c73da43d7d25f3e)
-* [getNumCells](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a941931c2e13bc9b40a19637d1d7d3dcd)
-* [getNumNodes](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1ab30f9a87cf0cc2c5d12f6ddf05e99fca)
-* [m\_cells](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a190c941c8bc341447d5c3c3fe1485b97)
-* [m\_faces](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1abb3922ea549c83ecbc14b822c620a852)
-* [m\_nodes](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a50c484d16edd9b6fe72a044fd039da16)
-* [operator=](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a08f8d75fe5321ae67f0cf4c1c67625df)
-* [operator=](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1ad0a9dfaf02ac0d677f7d993148272d69)
-* [partitioningStamp](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a9cf06f19acd1b0c3d0003f56ba7df89a)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1ab01007a2dcb32f1a91b0ca7a26c94afb)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1abb0f3e38d18bdfe8128e71da0dcf235f)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a714cfafbfb04be14720a195cc7590470)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1ab3261c84e62bdcf25d92b69cbefb1cba)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1af2f6fc62a27f5d69af987a82a8154e45)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1ad901c126ab7372df0928446c7a5bede7)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1ac048cda48c16766a7e04688d62203a70)
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a2dfff826766714e9e95227bbc64336a3)
+* [checkMeshValidity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [checkValidity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [connectivityStamp](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [coordinatesStamp](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getCell0Ids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getCell1Ids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getCellIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getCellNodeConnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getCellTypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getFaceNodeCounts](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getFaceNodeIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getFaceTypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getNodeCoords](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getNodeIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getNumCells](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [getNumNodes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [m\_cells](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [m\_faces](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [m\_nodes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [partitioningStamp](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh)
 
 ## Public attributes
 
@@ -123,7 +125,7 @@ NodeData sysc::VolumeMesh::m_nodes
 
 
 
-**Type**: [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData)
+**Type**: [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
 
 <a id="classsysc_1_1VolumeMesh_1abb3922ea549c83ecbc14b822c620a852"></a>
 ### Variable m\_faces
@@ -142,7 +144,7 @@ FaceData sysc::VolumeMesh::m_faces
 
 
 
-**Type**: [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData)
+**Type**: [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
 
 <a id="classsysc_1_1VolumeMesh_1a190c941c8bc341447d5c3c3fe1485b97"></a>
 ### Variable m\_cells
@@ -161,7 +163,7 @@ CellData sysc::VolumeMesh::m_cells
 
 
 
-**Type**: [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData)
+**Type**: [CellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellData)
 
 ## Public functions
 
@@ -182,8 +184,8 @@ Provide a constructor for element-based volume mesh.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) **nodeData**
-* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData) **cellData**
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) **nodeData**
+* [CellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellData) **cellData**
 
 **Return type**: 
 
@@ -204,9 +206,9 @@ Provide a constructor for face-based volume mesh.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) **nodeData**
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) **faceData**
-* [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData) **cellData**
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) **nodeData**
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) **faceData**
+* [CellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellData) **cellData**
 
 **Return type**: 
 
@@ -244,7 +246,7 @@ Provide a copy-constructor.
 
 **Parameters**:
 
-* const [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) &
+* const [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) &
 
 **Return type**: 
 
@@ -265,7 +267,7 @@ Provide a move-constructor.
 
 **Parameters**:
 
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) &&
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) &&
 
 **Return type**: 
 
@@ -286,9 +288,9 @@ Provide a copy-assign operator.
 
 **Parameters**:
 
-* const [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) &
+* const [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) &
 
-**Return type**: [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) &
+**Return type**: [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) &
 
 <a id="classsysc_1_1VolumeMesh_1ad0a9dfaf02ac0d677f7d993148272d69"></a>
 ### Function operator=
@@ -307,9 +309,9 @@ Provide a move-assign operator.
 
 **Parameters**:
 
-* [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) &&
+* [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) &&
 
-**Return type**: [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) &
+**Return type**: [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) &
 
 <a id="classsysc_1_1VolumeMesh_1abb3afc8a600888ee5af947d4ce1f934a"></a>
 ### Function getNodeData
@@ -327,7 +329,7 @@ Get node data.
 
 
 
-**Return type**: const [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &
+**Return type**: const [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &
 
 <a id="classsysc_1_1VolumeMesh_1a3b1a9c301f2fdbb47e84dc51873a9c82"></a>
 ### Function getFaceData
@@ -345,7 +347,7 @@ Get face data.
 
 
 
-**Return type**: const [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &
+**Return type**: const [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &
 
 <a id="classsysc_1_1VolumeMesh_1a5ccc339cd9160a32097e4a60277aa26d"></a>
 ### Function getCellData
@@ -363,7 +365,7 @@ Get cell data.
 
 
 
-**Return type**: const [CellData](structsysc_1_1CellData.md#structsysc_1_1CellData) &
+**Return type**: const [CellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellData) &
 
 <a id="classsysc_1_1VolumeMesh_1a3bee2a4c68f47e4887323d31ce691b02"></a>
 ### Function checkValidity
@@ -381,7 +383,7 @@ Provide a method to perform simple mesh validity checks.
 
 
 
-**Return type**: [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus)
+**Return type**: [ValidityStatus](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ValidityStatus)
 
 <a id="classsysc_1_1VolumeMesh_1ad901c126ab7372df0928446c7a5bede7"></a>
 ### Function VolumeMesh
@@ -400,14 +402,14 @@ For internal use only.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) **nodeData**
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **faceTypeData**
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCountData**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivityData**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceCellConnectivityData**
-* [CellIdData](structsysc_1_1CellIdData.md#structsysc_1_1CellIdData) **cellIdData**
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **cellTypeData**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **cellNodeConnectivityData**
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) **nodeData**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **faceTypeData**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCountData**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivityData**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceCellConnectivityData**
+* [CellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellIdData) **cellIdData**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **cellTypeData**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **cellNodeConnectivityData**
 
 **Return type**: 
 
@@ -463,7 +465,7 @@ Provide a method to access node ids array.
 
 
 
-**Return type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Return type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 <a id="classsysc_1_1VolumeMesh_1a4307321266d855dd7ba48023e0b23f4e"></a>
 ### Function getNodeCoords
@@ -481,7 +483,7 @@ Provide a method to access node coordinates array.
 
 
 
-**Return type**: [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData)
+**Return type**: [OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputVectorData)
 
 <a id="classsysc_1_1VolumeMesh_1a7cd6df532799ff7878c5a3b30cf0ffe5"></a>
 ### Function getFaceTypes
@@ -499,7 +501,7 @@ Get face types.
 
 
 
-**Return type**: [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData)
+**Return type**: [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData)
 
 <a id="classsysc_1_1VolumeMesh_1a66ec70482e4fd44bc9edaa910e0abaf2"></a>
 ### Function getFaceNodeCounts
@@ -517,7 +519,7 @@ Provide a method to access face node counts array.
 
 
 
-**Return type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Return type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 <a id="classsysc_1_1VolumeMesh_1a3a7635141a02711f1dcdacf848c157ab"></a>
 ### Function getFaceNodeIds
@@ -535,7 +537,7 @@ Provide a method to access face node ids array.
 
 
 
-**Return type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Return type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 <a id="classsysc_1_1VolumeMesh_1a417e50bee9c019e45cbedd39fd5bc6cb"></a>
 ### Function getCell0Ids
@@ -553,7 +555,7 @@ Provide a method to access cell 0 ids array.
 
 
 
-**Return type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Return type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 <a id="classsysc_1_1VolumeMesh_1a1591d15487420143b463ef86835f1874"></a>
 ### Function getCell1Ids
@@ -571,7 +573,7 @@ Provide a method to access cell 1 ids array.
 
 
 
-**Return type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Return type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 <a id="classsysc_1_1VolumeMesh_1a798c79c54b8425b7e8b3060016547ea7"></a>
 ### Function getCellIds
@@ -589,7 +591,7 @@ Provide a method to access cell ids array.
 
 
 
-**Return type**: [CellIdData](structsysc_1_1CellIdData.md#structsysc_1_1CellIdData)
+**Return type**: [CellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellIdData)
 
 <a id="classsysc_1_1VolumeMesh_1a159cf62afda4022acfbd2f5cbccfca7c"></a>
 ### Function getCellTypes
@@ -607,7 +609,7 @@ Provide a method to access cell types data.
 
 
 
-**Return type**: [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData)
+**Return type**: [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData)
 
 <a id="classsysc_1_1VolumeMesh_1a3bb98664fc0827d3ea1317ca034f493c"></a>
 ### Function getCellNodeConnectivity
@@ -625,7 +627,7 @@ Access cell-to-node connectivity data.
 
 
 
-**Return type**: [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData)
+**Return type**: [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
 
 <a id="classsysc_1_1VolumeMesh_1ac048cda48c16766a7e04688d62203a70"></a>
 ### Function VolumeMesh
@@ -644,9 +646,9 @@ Provide a constructor for element-based volume mesh.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) **nodeData**
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **cellTypes**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **cellNodeIds**
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) **nodeData**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **cellTypes**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **cellNodeIds**
 
 **Return type**: 
 
@@ -667,11 +669,11 @@ Provide a constructor for face-based volume mesh.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) **nodeData**
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeIds**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceToCellConnectivity**
-* [CellIdData](structsysc_1_1CellIdData.md#structsysc_1_1CellIdData) **cellIds**
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) **nodeData**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeIds**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceToCellConnectivity**
+* [CellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1CellIdData) **cellIds**
 
 **Return type**: 
 
@@ -685,13 +687,13 @@ Provide a constructor for face-based volume mesh.
 MeshValidityStatus sysc::VolumeMesh::checkMeshValidity() const
 ```
 
-This function is deprecated. Use [checkValidity()](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a3bee2a4c68f47e4887323d31ce691b02) instead.
+This function is deprecated. Use [checkValidity()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) instead.
 
 
 
 
 
-**Return type**: [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus)
+**Return type**: [MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

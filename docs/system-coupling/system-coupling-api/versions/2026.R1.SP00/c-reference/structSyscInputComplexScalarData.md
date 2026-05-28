@@ -1,4 +1,6 @@
-# Structure SyscInputComplexScalarData
+---
+title: "Structure SyscInputComplexScalarData"
+---
 
 ![][C]
 ![][public]
@@ -11,10 +13,10 @@ Input complex scalar data provides read-and-write access to complex scalar data.
 
 ## Members
 
-* [data1](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1aee021b7ac05827ac6d4d8dffc97605f5)
-* [data2](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1a57b73d00a5b261093b572c2f02c8e6a0)
-* [primitiveType](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1a68e7a5dcd79c528810151c82f29affdb)
-* [size](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1a3f5223d8696f734edf5ed4efe2ec21f8)
+* [data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
+* [data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 ## Public attributes
 
@@ -35,7 +37,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscInputComplexScalarData_1aee021b7ac05827ac6d4d8dffc97605f5"></a>
 ### Variable data1

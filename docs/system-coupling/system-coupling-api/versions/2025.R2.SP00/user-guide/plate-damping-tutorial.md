@@ -1,4 +1,6 @@
-# Oscillating plate damping tutorial
+---
+title: "Oscillating plate damping tutorial"
+---
 
 This tutorial demonstrates the implementation of System Coupling Participant
 Library APIs in a transient coupled analysis.
@@ -22,7 +24,7 @@ from a previously generated restart point.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](compiling-linking-executing.md)
+- A compiler for one of the [supported languages](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 - Ansys installation, including System Coupling and Mechanical
 
 ## Problem description and participant setup
@@ -46,7 +48,7 @@ displacements $\vec{X}$ from Mechanical and calculates the damping force
 $\vec{F}$ using the following formula:
 
 $$
-\vec{F} = - c \frac{d\vec{X}}{dt}
+\vec&#123;F&#125; = - c \frac&#123;d\vec&#123;X&#125;&#125;&#123;dt&#125;
 $$
 
 where $c$ is the damping coefficient and $\frac{d\vec{X}}{dt}$ is the rate of change
@@ -107,7 +109,7 @@ The source code is provided in the **dampingsolver** subdirectory.
 In the following examples, damping solver applications are built with different configurations.
 The actual build steps depend on your system configuration, compilers, and other details.
 See
-[Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
+[Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 for additional information.
 
 The following compilers were used in these examples:
@@ -120,8 +122,8 @@ The following compilers were used in these examples:
 
 In the following examples, replace
 
-- `<ANSYSInstallationPath>` with the correct Ansys installation path.
-- `<MultiportVersion>` with the correct version of the Fluent Multiport library.
+- `&lt;ANSYSInstallationPath&gt;` with the correct Ansys installation path.
+- `&lt;MultiportVersion&gt;` with the correct version of the Fluent Multiport library.
 
 ### Linux
 

@@ -1,4 +1,6 @@
-# File Region.hpp
+---
+title: "File Region.hpp"
+---
 
 ![][C++]
 
@@ -10,21 +12,21 @@
 
 ## Classes
 
-* [sysc::Region](classsysc_1_1Region.md#classsysc_1_1Region)
+* [sysc::Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
 * SystemCouplingParticipant/Variable.hpp
-* <cstddef>
-* <map>
-* <string>
-* <vector>
+* &lt;cstddef&gt;
+* &lt;map&gt;
+* &lt;string&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

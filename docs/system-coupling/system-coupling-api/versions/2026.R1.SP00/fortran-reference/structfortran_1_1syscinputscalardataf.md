@@ -1,4 +1,6 @@
-# Type fortran::syscinputscalardataf undefined
+---
+title: "Type fortran::syscinputscalardataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -20,9 +22,9 @@ isd = syscGetInputScalarDataF(array, arraySize)
 
 ## Members
 
-* [dataptr](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf_1a267ef1b5c835b12e571fea3d20a8ff7b)
-* [datasize](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf_1ac8d11b0cadefc4f138b1ef4e0ab50b2a)
-* [primitivetype](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf_1a41aa641a12e238b3d8a12707aa047938)
+* [dataptr](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputscalardataf)
+* [datasize](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputscalardataf)
+* [primitivetype](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputscalardataf)
 
 ## Public attributes
 

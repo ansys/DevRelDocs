@@ -1,4 +1,6 @@
-# Type fortran::sysctimestepf undefined
+---
+title: "Type fortran::sysctimestepf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,9 +13,9 @@ Provide a time step type.
 
 ## Members
 
-* [starttime](structfortran_1_1sysctimestepf.md#structfortran_1_1sysctimestepf_1aadc3370b9e2337739a8831790220ea37)
-* [timestepnumber](structfortran_1_1sysctimestepf.md#structfortran_1_1sysctimestepf_1a6e5ddd537aaf8d69b811abda71510ca7)
-* [timestepsize](structfortran_1_1sysctimestepf.md#structfortran_1_1sysctimestepf_1a19b7d81773f470750c5427fd5153bdf2)
+* [starttime](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1sysctimestepf)
+* [timestepnumber](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1sysctimestepf)
+* [timestepsize](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1sysctimestepf)
 
 ## Public attributes
 

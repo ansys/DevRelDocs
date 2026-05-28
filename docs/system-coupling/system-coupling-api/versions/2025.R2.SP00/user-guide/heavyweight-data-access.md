@@ -1,4 +1,6 @@
-# Access to heavyweight data
+---
+title: "Access to heavyweight data"
+---
 
 **Heavyweight data** are data representing mesh, point cloud, and solution field data.
 Often, solvers store heavyweight data in contiguous arrays in
@@ -9,10 +11,10 @@ it is responsible for allocation and deallocation of those arrays).
 
 For more information, see:
 
-- [Relevant concepts](#relevant-concepts)
-- [Data access functions](#data-access-functions)
-- [Supported heavyweight data formats](#supported-heavyweight-data-formats)
-- [Array data access structures](#array-data-access-structures)
+- [Relevant concepts](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access)
+- [Data access functions](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access)
+- [Supported heavyweight data formats](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access)
+- [Array data access structures](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access)
 
 ## Relevant concepts
 
@@ -56,10 +58,10 @@ For more information, see:
   needs to access the heavyweight data.
   For a coupled analysis, all required data
   access functions must be registered prior to
-  [*coupled analysis initialization*](participant-steps-in-coupled-analysis.md).
+  [*coupled analysis initialization*](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-in-coupled-analysis).
   For mapping, all required data
   access functions must be registered prior to
-  [*inputs update*](participant-steps-for-mapping.md).
+  [*inputs update*](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-for-mapping).
 
 ## Data access functions
 
@@ -165,11 +167,11 @@ The compatible formats for heavyweight data are:
     - Python numpy arrays with datatype `float64`
 - **Complex scalar arrays**
   - 64-bit floating point complex number arrays (for complex scalar variable field values)
-    - C++ `std::complex<double>`
+    - C++ `std::complex&lt;double&gt;`
     - C/C++ `double`
     - Python numpy arrays with datatype `complex128`
   - 32-bit floating point complex number arrays (for complex scalar variable field values)
-    - C++ `std::complex<float>`
+    - C++ `std::complex&lt;float&gt;`
     - C/C++ `float`
     - Python numpy arrays with datatype `complex64`
 
@@ -253,7 +255,7 @@ functions that provide access to that heavyweight data.
 In such a case, the participant solver should make sure that this heavyweight data and the original data are synchronized at certain steps.
 
 For mapping, the heavyweight data and the original data should be synchronized
-at certain [steps during mapping](participant-steps-for-mapping.md):
+at certain [steps during mapping](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-for-mapping):
 
 - Before **inputs update**, the heavyweight input and output data are expected to be available.
   Output data, including the mesh data, should contain valid up-to-date values.
@@ -263,7 +265,7 @@ at certain [steps during mapping](participant-steps-for-mapping.md):
   before processing that data.
 
 For a coupled analysis, the heavyweight data and the original data should be synchronized
-at certain [steps during the coupled analysis](participant-steps-in-coupled-analysis.md):
+at certain [steps during the coupled analysis](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-in-coupled-analysis):
 
 - Before **coupled analysis initialization** is entered, the heavyweight input and output data are expected to be available.
   Output data, including the mesh data, should contain valid initial values.
@@ -295,7 +297,7 @@ data access structures:
 These structures provide access to data stored in arrays. This section focuses
 on these structures. These structures can be
 combined into higher-level structures to provide access to mesh and point cloud data.
-See [Mesh and point cloud data access](mesh-data-access.md) for more details.
+See [Mesh and point cloud data access](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/mesh-data-access) for more details.
 
 The array data access structures require three pieces of information during their
 initialization (depending on the target language, some of this information is deduced
@@ -328,7 +330,7 @@ sysc::OutputIntegerData nodeIdData(nodeIds, numIntegers);
 ```
 
 Note that for C++, if data is stored in STL Vector container, that container can be
-used directly. See [Example Input Scalar in an STL Vector Container (C++ only)](#example-input-scalar-in-an-stl-vector-container-c-only).
+used directly. See [Example Input Scalar in an STL Vector Container (C++ only)](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access).
 
 ##### C
 
@@ -381,7 +383,7 @@ nodeIdData = sysc.OutputIntegerData(
 ```
 
 Note that for Python, if data is stored in a Numpy array container, that container can be
-used directly. See [Example Output Integer Data in a Numpy Array Container (Python only)](#example-output-integer-data-in-a-numpy-array-container-python-only).
+used directly. See [Example Output Integer Data in a Numpy Array Container (Python only)](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access).
 
 ### Scalar data structure examples
 

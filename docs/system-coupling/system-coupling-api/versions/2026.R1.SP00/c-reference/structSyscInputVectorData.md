@@ -1,4 +1,6 @@
-# Structure SyscInputVectorData
+---
+title: "Structure SyscInputVectorData"
+---
 
 ![][C]
 ![][public]
@@ -19,7 +21,7 @@ The size is the total number of vectors, not the total number of components, i.e
 
 
 
-To create and/or initialize [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData), it is highly recommended to use one of the functions with names starting with <code>syscGetInputVectorData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData), it is highly recommended to use one of the functions with names starting with <code>syscGetInputVectorData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -31,12 +33,12 @@ SyscInputVectorData ivd = syscGetInputVectorDataSplitDouble(x, y, z, size);
 
 ## Members
 
-* [data0](structSyscInputVectorData.md#structSyscInputVectorData_1a5d82442ce980b42b83952c7cc5add7c1)
-* [data1](structSyscInputVectorData.md#structSyscInputVectorData_1a55afda92952939d2ff72b07e3792e509)
-* [data2](structSyscInputVectorData.md#structSyscInputVectorData_1a8e8fa224f82b93e781c57d6b9db9fe19)
-* [dimension](structSyscInputVectorData.md#structSyscInputVectorData_1a7bb398945453b66b673ddc252458f69d)
-* [primitiveType](structSyscInputVectorData.md#structSyscInputVectorData_1a9f94dd62dccc2b3899c69b2ce1c6d1ea)
-* [size](structSyscInputVectorData.md#structSyscInputVectorData_1aef2f006ed5084f3c78dd98f7b4bf5429)
+* [data0](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
+* [data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
+* [data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 ## Public attributes
 
@@ -57,7 +59,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscInputVectorData_1a5d82442ce980b42b83952c7cc5add7c1"></a>
 ### Variable data0
@@ -152,7 +154,7 @@ Array Dimension
 
 
 
-**Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
+**Type**: enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

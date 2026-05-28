@@ -1,4 +1,6 @@
-# File syscOutputScalarData.h
+---
+title: "File syscOutputScalarData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8a2803af36638c2ce3387bf89b83cda0"></a>
 ### Function syscGetOutputScalarDataDouble
@@ -80,7 +82,7 @@ Create an output scalar data access struct.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0b0ae9e5ede552958b8bce1efd9b4978"></a>
 ### Function syscGetOutputScalarDataFloat
@@ -105,7 +107,7 @@ Create an output scalar data access struct.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga2334c8e25481b098d4263a2f60a7dac2"></a>
 ### Function syscGetOutputScalarDataInt32
@@ -130,7 +132,7 @@ Create an output scalar data access struct.
 * const int32_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7a305d185afe565e1d3e8de66d7beca3"></a>
 ### Function syscGetOutputScalarDataInt64
@@ -155,7 +157,7 @@ Create an output scalar data access struct.
 * const int64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabfcf7be83419cc31611e2ad100fdecb6"></a>
 ### Function syscGetOutputScalarDataUInt16
@@ -180,7 +182,7 @@ Create an output scalar data access struct.
 * const uint16_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6645e1e9d1b163cea069ce42077f419f"></a>
 ### Function syscGetOutputScalarDataUInt64
@@ -205,7 +207,7 @@ Create an output scalar data access struct.
 * const uint64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 ## Source
 

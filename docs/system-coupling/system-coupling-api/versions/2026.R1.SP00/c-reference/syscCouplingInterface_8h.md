@@ -1,4 +1,6 @@
-# File syscCouplingInterface.h
+---
+title: "File syscCouplingInterface.h"
+---
 
 ![][C]
 
@@ -10,7 +12,7 @@
 
 ## Classes
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface)
 
 ## Includes
 
@@ -18,7 +20,7 @@
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscDataTransfer.h
 * SystemCouplingParticipant/syscRegion.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -69,7 +71,7 @@ All regions on one side of the interface must have the same topology.
 
 
 
-To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) struct, it is highly recommended to use the <code>syscGetCouplingInterface</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) struct, it is highly recommended to use the <code>syscGetCouplingInterface</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -81,7 +83,7 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 
 
-**Return type**: struct [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+**Return type**: struct [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface)
 
 ## Functions
 
@@ -106,7 +108,7 @@ Create a coupling interface.
 
 * const char * **name**
 
-**Return type**: [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+**Return type**: [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa8401af709fa7638f76f168aa05784a3"></a>
 ### Function syscAddSideOneRegion
@@ -153,10 +155,10 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* const [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3bbbec8ccb73b5da2997d2cdcd7abb6b"></a>
 ### Function syscAddSideTwoRegion
@@ -203,10 +205,10 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* const [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaec7e1373da295e5fb0c7ecfc52409888"></a>
 ### Function syscAddDataTransfer
@@ -225,10 +227,10 @@ Add the data transfer to the coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
-* [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer) **dataTransfer**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
+* [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer) **dataTransfer**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gade11af63d2e79ab75e7db7919998e6b5"></a>
 ### Function syscCouplingInterfaceGetNumDataTransfers
@@ -247,7 +249,7 @@ Get number of data transfer for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
 **Return type**: size_t
 
@@ -268,7 +270,7 @@ Get number of side one regions for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
 **Return type**: size_t
 
@@ -289,7 +291,7 @@ Get number of side two regions for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
 **Return type**: size_t
 
@@ -310,10 +312,10 @@ Get the data transfer at specified index for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * size_t **index**
 
-**Return type**: [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7ab5c93d920b15c8d2e7ba6baddddb28"></a>
 ### Function syscCouplingInterfaceGetSideOneRegion
@@ -332,10 +334,10 @@ Get the side one region at specified index for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * size_t **index**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1747f6ce3729ff459e26175ded7059f0"></a>
 ### Function syscCouplingInterfaceGetSideTwoRegion
@@ -354,10 +356,10 @@ Get the side two region at specified index for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * size_t **index**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 ## Source
 

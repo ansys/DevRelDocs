@@ -1,4 +1,6 @@
-# Structure SyscIntegerAttribute
+---
+title: "Structure SyscIntegerAttribute"
+---
 
 ![][C]
 ![][public]
@@ -11,9 +13,9 @@ Provide a struct for an integer-valued attribute.
 
 ## Members
 
-* [modifiable](structSyscIntegerAttribute.md#structSyscIntegerAttribute_1a00f7c6e6e82db0990246f8405e207a3c)
-* [name](structSyscIntegerAttribute.md#structSyscIntegerAttribute_1ab13f95caf8c2c7b73b3c3f2435876f27)
-* [value](structSyscIntegerAttribute.md#structSyscIntegerAttribute_1a272f235cfc28cb256a9f5793cb3d51f4)
+* [modifiable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
+* [name](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
+* [value](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 ## Public attributes
 

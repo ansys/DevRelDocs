@@ -1,4 +1,6 @@
-# File syscVariableF.fi
+---
+title: "File syscVariableF.fi"
+---
 
 ![][Fortran]
 
@@ -10,18 +12,18 @@
 
 ## Classes
 
-* [fortran::syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)
-* [fortran::syscgetvariablef](interfacefortran_1_1syscgetvariablef.md#interfacefortran_1_1syscgetvariablef)
-* [fortran::syscvariableaddrealattributef](interfacefortran_1_1syscvariableaddrealattributef.md#interfacefortran_1_1syscvariableaddrealattributef)
-* [fortran::syscvariableaddintegerattributef](interfacefortran_1_1syscvariableaddintegerattributef.md#interfacefortran_1_1syscvariableaddintegerattributef)
-* [fortran::syscvariablegetnumrealattributesf](interfacefortran_1_1syscvariablegetnumrealattributesf.md#interfacefortran_1_1syscvariablegetnumrealattributesf)
-* [fortran::syscvariablegetnumintegerattributesf](interfacefortran_1_1syscvariablegetnumintegerattributesf.md#interfacefortran_1_1syscvariablegetnumintegerattributesf)
-* [fortran::syscvariablegetrealattributef](interfacefortran_1_1syscvariablegetrealattributef.md#interfacefortran_1_1syscvariablegetrealattributef)
-* [fortran::syscvariablegetintegerattributef](interfacefortran_1_1syscvariablegetintegerattributef.md#interfacefortran_1_1syscvariablegetintegerattributef)
+* [fortran::syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [fortran::syscgetvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvariablef)
+* [fortran::syscvariableaddrealattributef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariableaddrealattributef)
+* [fortran::syscvariableaddintegerattributef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariableaddintegerattributef)
+* [fortran::syscvariablegetnumrealattributesf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariablegetnumrealattributesf)
+* [fortran::syscvariablegetnumintegerattributesf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariablegetnumintegerattributesf)
+* [fortran::syscvariablegetrealattributef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariablegetrealattributef)
+* [fortran::syscvariablegetintegerattributef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariablegetintegerattributef)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

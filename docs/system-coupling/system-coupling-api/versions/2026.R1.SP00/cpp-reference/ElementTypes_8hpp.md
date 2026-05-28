@@ -1,4 +1,6 @@
-# File ElementTypes.hpp
+---
+title: "File ElementTypes.hpp"
+---
 
 ![][C++]
 
@@ -10,12 +12,12 @@
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
-* <cstdint>
-* <type_traits>
+* &lt;cstdint&gt;
+* &lt;type_traits&gt;
 
 ```mermaid
 graph LR

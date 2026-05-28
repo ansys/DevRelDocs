@@ -1,4 +1,6 @@
-# Interface fortran::syscgetintegerattributef
+---
+title: "Interface fortran::syscgetintegerattributef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get an integer-valued attribute.
 
 ## Members
 
-* [syscgetintegerattributef](interfacefortran_1_1syscgetintegerattributef.md#interfacefortran_1_1syscgetintegerattributef_1aac82f8c5c777506867e2d6cf3b3d7359)
+* [syscgetintegerattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetintegerattributef)
 
 ## Public functions
 
@@ -43,7 +45,7 @@ an integer attribute
 * namename
 * valuevalue
 
-**Return type**: type([syscintegerattributef](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef)) function
+**Return type**: type([syscintegerattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscintegerattributef)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Interface fortran::syscvariablegetrealattributef
+---
+title: "Interface fortran::syscvariablegetrealattributef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get real attribute from variable.
 
 ## Members
 
-* [syscvariablegetrealattributef](interfacefortran_1_1syscvariablegetrealattributef.md#interfacefortran_1_1syscvariablegetrealattributef_1a16d78b307f2d1e02a28647a2a153bd37)
+* [syscvariablegetrealattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscvariablegetrealattributef)
 
 ## Public functions
 
@@ -35,7 +37,7 @@ type(syscrealattributef) function syscvariablegetrealattributef(variable, index)
 * variablevariable
 * indexindex
 
-**Return type**: type([syscrealattributef](structfortran_1_1syscrealattributef.md#structfortran_1_1syscrealattributef)) function
+**Return type**: type([syscrealattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscrealattributef)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Class sysc::InputScalarData
+---
+title: "Class sysc::InputScalarData"
+---
 
 ![][C++]
 ![][public]
@@ -11,22 +13,22 @@ Input scalar data provides read and write access to an array of scalar data.
 
 ## Members
 
-* [empty](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1ac7440118cc57a71e6d25aeb9184d3693)
-* [getData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a70fafa6880145e0618cd828e1c7eb574)
-* [getDataType](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a6468902b8f2e27053c09c25ed05562de)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1afb2631211cf5550a612983438f71479b)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1aaa8a75a57967d0e25b33fe88d77553a5)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a90bffff1edbccc52b9807af3881c11ac)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a1380850d03279cd3f11e4e65cbc9f064)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a1dbb88c3363e1b40e8b60f281e42be05)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1ae6c55f6cd5109f97f207e3ab2f07ad47)
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1ad8ff168a7cd8ed62728594cf3b22b791)
-* [m\_data](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a842acad8ad4a864a4af2158498d52fae)
-* [m\_dataType](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1aa5f494154b74b3fad2d8b9b35294e887)
-* [m\_size](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a26eff37dacc07de408859505661bfcc3)
-* [operator=](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a2fe5667de3d73e4c317d3ef1bc3c8893)
-* [operator=](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1a62d7585f5fdad7c94ff4fefb8f38989e)
-* [size](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData_1ab30285336db3ff38293904e8dbe6583d)
+* [empty](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [getData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [getDataType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [m\_data](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [m\_dataType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [m\_size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData)
 
 ## Private attributes
 
@@ -47,7 +49,7 @@ sysc::PrimitiveType sysc::InputScalarData::m_dataType {sysc::Double}
 
 
 
-**Type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputScalarData_1a842acad8ad4a864a4af2158498d52fae"></a>
 ### Variable m\_data
@@ -219,7 +221,7 @@ Provide a copy-constructor.
 
 **Parameters**:
 
-* const [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) &
+* const [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData) &
 
 **Return type**: 
 
@@ -240,7 +242,7 @@ Provide a move-constructor.
 
 **Parameters**:
 
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) &&
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData) &&
 
 **Return type**: 
 
@@ -261,9 +263,9 @@ Provide a copy-assign operator.
 
 **Parameters**:
 
-* const [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) &
+* const [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData) &
 
-**Return type**: [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) &
+**Return type**: [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData) &
 
 <a id="classsysc_1_1InputScalarData_1a62d7585f5fdad7c94ff4fefb8f38989e"></a>
 ### Function operator=
@@ -282,9 +284,9 @@ Provide a move-assign operator.
 
 **Parameters**:
 
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) &&
+* [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData) &&
 
-**Return type**: [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) &
+**Return type**: [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputScalarData) &
 
 <a id="classsysc_1_1InputScalarData_1ab30285336db3ff38293904e8dbe6583d"></a>
 ### Function size
@@ -338,7 +340,7 @@ For internal use only (no back-compatibility guarantee).
 
 
 
-**Return type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Return type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputScalarData_1a70fafa6880145e0618cd828e1c7eb574"></a>
 ### Function getData
@@ -360,7 +362,7 @@ For internal use only (no back-compatibility guarantee).
 
 **References**:
 
-* [sysc::Double](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggad3b1c73e4a63f4d292d65f3db875e844a29843d2c1bb5760f768dcc066dac1ac1)
+* [sysc::Double](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

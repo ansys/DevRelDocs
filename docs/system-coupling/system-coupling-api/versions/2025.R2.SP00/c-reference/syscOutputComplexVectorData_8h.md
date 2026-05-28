@@ -1,4 +1,6 @@
-# File syscOutputComplexVectorData.h
+---
+title: "File syscOutputComplexVectorData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+* [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab9832696d96ffd32917b2211497c31e1"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataDouble
@@ -80,7 +82,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1bddd7590dc1c4e4b488981694a723fc"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataFloat
@@ -105,7 +107,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga619a769c0b474a093ca8df07fa23c745"></a>
 ### Function syscGetOutputSplitComplexCompactVectorDataDouble
@@ -132,7 +134,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9c6fb47e5c54e7f1ee9bfdd2a6b78f96"></a>
 ### Function syscGetOutputSplitComplexCompactVectorDataFloat
@@ -159,7 +161,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga36581954b1bed9e21ddd6d6951478a45"></a>
 ### Function syscGetOutputCompactComplexSplitVectorDataDouble
@@ -188,7 +190,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6fab1156fcb4f29d454bd3574b7472a7"></a>
 ### Function syscGetOutputCompactComplexSplitVectorDataFloat
@@ -217,7 +219,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaceabb4ea93346ecbbdda387e7f067465"></a>
 ### Function syscGetOutputSplitComplexSplitVectorDataDouble
@@ -252,7 +254,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3d957a5fa32db290017e2f23d15311f2"></a>
 ### Function syscGetOutputSplitComplexSplitVectorDataFloat
@@ -287,7 +289,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac98c66232a8c5c204c4bad9f0dd5585c"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataDoubleDim
@@ -312,9 +314,9 @@ Create a complex output vector data access struct based on dimension.
 
 * const double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab1ea60c9d226cf14e580d6d3c945f3ab"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataFloatDim
@@ -339,9 +341,9 @@ Create a complex output vector data access struct based on dimension.
 
 * const float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)
 
 ## Source
 

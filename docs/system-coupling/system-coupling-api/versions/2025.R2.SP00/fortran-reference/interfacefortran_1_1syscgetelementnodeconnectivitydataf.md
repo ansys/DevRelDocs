@@ -1,4 +1,6 @@
-# Interface fortran::syscgetelementnodeconnectivitydataf
+---
+title: "Interface fortran::syscgetelementnodeconnectivitydataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@
 
 ## Members
 
-* [syscgetelementnodeconnectivitydataf](interfacefortran_1_1syscgetelementnodeconnectivitydataf.md#interfacefortran_1_1syscgetelementnodeconnectivitydataf_1a039faf94bf2187ab9c1fdcd69bf9e16d)
-* [syscgetelementnodeconnectivitydataf\_empty](interfacefortran_1_1syscgetelementnodeconnectivitydataf.md#interfacefortran_1_1syscgetelementnodeconnectivitydataf_1ae162150e9bff4d53f2e7a0fa8fe3859b)
+* [syscgetelementnodeconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetelementnodeconnectivitydataf)
+* [syscgetelementnodeconnectivitydataf\_empty](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetelementnodeconnectivitydataf)
 
 ## Public functions
 
@@ -31,7 +33,7 @@ type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivityda
 
 
 
-**Return type**: type([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)) function
+**Return type**: type([syscelementnodeconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscelementnodeconnectivitydataf)) function
 
 <a id="interfacefortran_1_1syscgetelementnodeconnectivitydataf_1a039faf94bf2187ab9c1fdcd69bf9e16d"></a>
 ### Function syscgetelementnodeconnectivitydataf
@@ -52,7 +54,7 @@ type(syscelementnodeconnectivitydataf) function syscgetelementnodeconnectivityda
 
 * elemNodeConnelemNodeConn
 
-**Return type**: type([syscelementnodeconnectivitydataf](structfortran_1_1syscelementnodeconnectivitydataf.md#structfortran_1_1syscelementnodeconnectivitydataf)) function
+**Return type**: type([syscelementnodeconnectivitydataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscelementnodeconnectivitydataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Interface fortran::syscgetnuminputvariablesf
+---
+title: "Interface fortran::syscgetnuminputvariablesf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to return the number of input variables.
 
 ## Members
 
-* [syscgetnuminputvariablesf](interfacefortran_1_1syscgetnuminputvariablesf.md#interfacefortran_1_1syscgetnuminputvariablesf_1acef7ef4c7fb9317cb07b765e41131484)
+* [syscgetnuminputvariablesf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetnuminputvariablesf)
 
 ## Public functions
 

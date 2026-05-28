@@ -1,4 +1,6 @@
-# File syscDataTransferF.fi
+---
+title: "File syscDataTransferF.fi"
+---
 
 ![][Fortran]
 
@@ -10,12 +12,12 @@
 
 ## Classes
 
-* [fortran::syscdatatransferf](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf)
-* [fortran::syscgetdatatransferf](interfacefortran_1_1syscgetdatatransferf.md#interfacefortran_1_1syscgetdatatransferf)
+* [fortran::syscdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdatatransferf)
+* [fortran::syscgetdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetdatatransferf)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

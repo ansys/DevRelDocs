@@ -1,4 +1,6 @@
-# Interface fortran::syscaddinputvariablef
+---
+title: "Interface fortran::syscaddinputvariablef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to add an input variable.
 
 ## Members
 
-* [syscaddinputvariablef](interfacefortran_1_1syscaddinputvariablef.md#interfacefortran_1_1syscaddinputvariablef_1ad4548778948f68041711cd36c26aca0e)
+* [syscaddinputvariablef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscaddinputvariablef)
 
 ## Public functions
 
@@ -74,7 +76,7 @@ a <code>SyscErrorF</code> type for error checking.
 * regreg
 * varvar
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

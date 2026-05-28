@@ -1,4 +1,6 @@
-# Interface fortran::syscregisteroutputscalarvariableaccessf
+---
+title: "Interface fortran::syscregisteroutputscalarvariableaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [syscregisteroutputscalarvariableaccessf](interfacefortran_1_1syscregisteroutputscalarvariableaccessf.md#interfacefortran_1_1syscregisteroutputscalarvariableaccessf_1ae6ad7bd7f457329959e0bac8f94da8d5)
+* [syscregisteroutputscalarvariableaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscregisteroutputscalarvariableaccessf)
 
 ## Public functions
 
@@ -34,7 +36,7 @@ type(syscerrorf) function syscregisteroutputscalarvariableaccessf(osAccess)
 
 * osAccessosAccess
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

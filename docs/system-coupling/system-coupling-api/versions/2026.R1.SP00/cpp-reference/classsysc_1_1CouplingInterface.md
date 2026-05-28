@@ -1,4 +1,6 @@
-# Class sysc::CouplingInterface
+---
+title: "Class sysc::CouplingInterface"
+---
 
 ![][C++]
 ![][public]
@@ -17,23 +19,23 @@ All regions on one side of the interface must have the same topology.
 
 ## Members
 
-* [addDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1ab1230f4b0c7dc52fff73d1ddcd67f03e)
-* [addSideOneRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1ab7a385065f0fde034baa88a88f274946)
-* [addSideTwoRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a5afdb8ffa5c06d66fe30e6f150230b67)
-* [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a606ddfa3113e3e0bf1ee7eee2b58793d)
-* [getDataTransfer](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a712f091ef0bb543a6539c32fd6762fa8)
-* [getName](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a16898e4f25dd40d0e8bc2efec9c4db1d)
-* [getNumDataTransfers](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a9ac1bf66c466b9567e26fdf5c2108c05)
-* [getNumSideOneRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a84873c1535d70a88096d44242c97a1b7)
-* [getNumSideTwoRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a03a32678f212092a83149ea2b0c54f20)
-* [getSideOneRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a1191a096450bd4569325be7bef6cb1f6)
-* [getSideTwoRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a2809a5c10d6fc48e7c079fb09deaccd3)
-* [m\_dataTransfers](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a72a7d21e64692ba517f920301d7bc6ff)
-* [m\_name](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1aafbe3ef2afb0e2f496d4bb7d90998063)
-* [m\_sideOneRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a0f56f6e8ae5eb0d6836e0fceef8db94e)
-* [m\_sideOneRegionsNameToIndex](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a43da263e07f3f85854e35d1a25972087)
-* [m\_sideTwoRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1af448ebfbacdc9ebf704c1823ad07ad36)
-* [m\_sideTwoRegionsNameToIndex](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a53fce6f5fa4c32b40c28fe0053740327)
+* [addDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [addSideOneRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [addSideTwoRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getNumDataTransfers](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getNumSideOneRegions](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getNumSideTwoRegions](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getSideOneRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [getSideTwoRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [m\_dataTransfers](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [m\_name](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [m\_sideOneRegions](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [m\_sideOneRegionsNameToIndex](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [m\_sideTwoRegions](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
+* [m\_sideTwoRegionsNameToIndex](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface)
 
 ## Private attributes
 
@@ -54,7 +56,7 @@ CouplingInterfaceName sysc::CouplingInterface::m_name
 
 
 
-**Type**: [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8a62847c55d192b835faff927dbf41a3)
+**Type**: [CouplingInterfaceName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1CouplingInterface_1a0f56f6e8ae5eb0d6836e0fceef8db94e"></a>
 ### Variable m\_sideOneRegions
@@ -73,7 +75,7 @@ std::vector<Region> sysc::CouplingInterface::m_sideOneRegions
 
 
 
-**Type**: std::vector< [Region](classsysc_1_1Region.md#classsysc_1_1Region) >
+**Type**: std::vector< [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) >
 
 <a id="classsysc_1_1CouplingInterface_1a43da263e07f3f85854e35d1a25972087"></a>
 ### Variable m\_sideOneRegionsNameToIndex
@@ -92,7 +94,7 @@ std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideOneRegionsNameT
 
 
 
-**Type**: std::map< [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d), std::size_t >
+**Type**: std::map< [RegionName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc), std::size_t >
 
 <a id="classsysc_1_1CouplingInterface_1af448ebfbacdc9ebf704c1823ad07ad36"></a>
 ### Variable m\_sideTwoRegions
@@ -111,7 +113,7 @@ std::vector<Region> sysc::CouplingInterface::m_sideTwoRegions
 
 
 
-**Type**: std::vector< [Region](classsysc_1_1Region.md#classsysc_1_1Region) >
+**Type**: std::vector< [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) >
 
 <a id="classsysc_1_1CouplingInterface_1a53fce6f5fa4c32b40c28fe0053740327"></a>
 ### Variable m\_sideTwoRegionsNameToIndex
@@ -130,7 +132,7 @@ std::map<RegionName, std::size_t> sysc::CouplingInterface::m_sideTwoRegionsNameT
 
 
 
-**Type**: std::map< [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d), std::size_t >
+**Type**: std::map< [RegionName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc), std::size_t >
 
 <a id="classsysc_1_1CouplingInterface_1a72a7d21e64692ba517f920301d7bc6ff"></a>
 ### Variable m\_dataTransfers
@@ -149,7 +151,7 @@ std::vector<DataTransfer> sysc::CouplingInterface::m_dataTransfers
 
 
 
-**Type**: std::vector< [DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer) >
+**Type**: std::vector< [DataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1DataTransfer) >
 
 ## Public functions
 
@@ -162,7 +164,7 @@ std::vector<DataTransfer> sysc::CouplingInterface::m_dataTransfers
 sysc::CouplingInterface::CouplingInterface(CouplingInterfaceName interfaceName)
 ```
 
-Provide a constructor for the [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) class.
+Provide a constructor for the [CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface) class.
 
 **Parameters**:
 
@@ -172,7 +174,7 @@ Provide a constructor for the [CouplingInterface](classsysc_1_1CouplingInterface
 
 **Parameters**:
 
-* [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8a62847c55d192b835faff927dbf41a3) **interfaceName**
+* [CouplingInterfaceName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **interfaceName**
 
 **Return type**: 
 
@@ -214,13 +216,13 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* **region**: [Region](classsysc_1_1Region.md#classsysc_1_1Region) to be added to side one of the interface.
+* **region**: [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) to be added to side one of the interface.
 
 
 
 **Parameters**:
 
-* const [Region](classsysc_1_1Region.md#classsysc_1_1Region) & **region**
+* const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) & **region**
 
 **Return type**: void
 
@@ -262,13 +264,13 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* **region**: [Region](classsysc_1_1Region.md#classsysc_1_1Region) to be added to side one of the interface.
+* **region**: [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) to be added to side one of the interface.
 
 
 
 **Parameters**:
 
-* const [Region](classsysc_1_1Region.md#classsysc_1_1Region) & **region**
+* const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) & **region**
 
 **Return type**: void
 
@@ -288,7 +290,7 @@ Get coupling interface name.
 
 
 
-**Return type**: const [CouplingInterfaceName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga8a62847c55d192b835faff927dbf41a3) &
+**Return type**: const [CouplingInterfaceName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) &
 
 <a id="classsysc_1_1CouplingInterface_1a84873c1535d70a88096d44242c97a1b7"></a>
 ### Function getNumSideOneRegions
@@ -346,7 +348,7 @@ Get the region on side one, given an index.
 
 * std::size_t **index**
 
-**Return type**: const [Region](classsysc_1_1Region.md#classsysc_1_1Region) &
+**Return type**: const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) &
 
 <a id="classsysc_1_1CouplingInterface_1a2809a5c10d6fc48e7c079fb09deaccd3"></a>
 ### Function getSideTwoRegion
@@ -368,7 +370,7 @@ Get the region on side two, given an index.
 
 * std::size_t **index**
 
-**Return type**: const [Region](classsysc_1_1Region.md#classsysc_1_1Region) &
+**Return type**: const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) &
 
 <a id="classsysc_1_1CouplingInterface_1ab1230f4b0c7dc52fff73d1ddcd67f03e"></a>
 ### Function addDataTransfer
@@ -387,7 +389,7 @@ Add a data transfer.
 
 **Parameters**:
 
-* const [DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer) & **dataTransfer**
+* const [DataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1DataTransfer) & **dataTransfer**
 
 **Return type**: void
 
@@ -429,7 +431,7 @@ Get the data transfer, given an index.
 
 * std::size_t **index**
 
-**Return type**: const [DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer) &
+**Return type**: const [DataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1DataTransfer) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

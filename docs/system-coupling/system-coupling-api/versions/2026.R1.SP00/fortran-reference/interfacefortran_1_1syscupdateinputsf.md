@@ -1,4 +1,6 @@
-# Interface fortran::syscupdateinputsf
+---
+title: "Interface fortran::syscupdateinputsf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to update the input variables.
 
 ## Members
 
-* [syscupdateinputsf](interfacefortran_1_1syscupdateinputsf.md#interfacefortran_1_1syscupdateinputsf_1a282cf35e41538096120e21e2e110f5c0)
+* [syscupdateinputsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscupdateinputsf)
 
 ## Public functions
 
@@ -42,7 +44,7 @@ When doing same-participant mapping only (without cosimulation), this function s
 
 
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# File syscVariable.h
+---
+title: "File syscVariable.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable)
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscAttribute.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -53,7 +55,7 @@ typedef struct SyscVariable SyscVariable
 
 Provide a struct for a System Coupling variable.
 
-To create and/or initialize the [SyscVariable](structSyscVariable.md#structSyscVariable) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetVariable</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetVariable</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -66,7 +68,7 @@ SyscVariable var = syscGetVariableTE(
 
 
 
-**Return type**: struct [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: struct [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 ## Functions
 
@@ -117,7 +119,7 @@ Quantity type will default to unspecified.
 
 * const char * **name**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga41420b43584d7b7ab11d94c2c4e4ccdb"></a>
 ### Function syscGetVariableDTELQD
@@ -146,13 +148,13 @@ Create variable to be used in a coupled analysis.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) **tensorType**
+* enum [SyscTensorType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **tensorType**
 * int **isExtensive**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
-* enum [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) **quantityType**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **location**
+* enum [SyscQuantityType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **quantityType**
 * enum SyscDataType **dataType**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3aceb66e0d37a5de11b76fd4c1d7293d"></a>
 ### Function syscGetVariableTE
@@ -185,11 +187,11 @@ Quantity type will default to unspecified.
 **Parameters**:
 
 * const char * **name**
-* enum [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) **tensorType**
+* enum [SyscTensorType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **tensorType**
 * int **isExtensive**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **location**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8c3a0f01eb353ffcb981281a76dde4b3"></a>
 ### Function syscGetVariableTEQ
@@ -217,12 +219,12 @@ Create variable to be used in a coupled analysis.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) **tensorType**
+* enum [SyscTensorType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **tensorType**
 * int **isExtensive**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
-* enum [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) **quantityType**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **location**
+* enum [SyscQuantityType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **quantityType**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabcbdf21641e68a17e941a6c8da2afdc9"></a>
 ### Function syscGetVariableQ
@@ -271,10 +273,10 @@ If any other quantity type is specified, tensor type will be set to scalar and i
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
-* enum [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) **quantityType**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **location**
+* enum [SyscQuantityType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **quantityType**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga36e1b9748fe759040360468c2b863753"></a>
 ### Function syscVariableAddRealAttribute
@@ -293,10 +295,10 @@ Add real-valued attribute to the variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
-* [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute) **attribute**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
+* [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRealAttribute) **attribute**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga2c8d8b670d660f646fbe0d81dbc7914b"></a>
 ### Function syscVariableAddIntegerAttribute
@@ -315,10 +317,10 @@ Add integer-valued attribute to the variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
-* [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute) **attribute**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
+* [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscIntegerAttribute) **attribute**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3cb95d52ef66ec8339bff5dc9c2c28bb"></a>
 ### Function syscVariableGetNumRealAttributes
@@ -337,7 +339,7 @@ Get number of real-valued attributes.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
 
 **Return type**: size_t
 
@@ -358,7 +360,7 @@ Get number of integer-valued attributes.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
 
 **Return type**: size_t
 
@@ -379,10 +381,10 @@ Return the real-valued attribute at the given index.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
 * size_t **index**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacd6d89e8e016b12cf558b312619201a4"></a>
 ### Function syscVariableGetIntegerAttribute
@@ -401,10 +403,10 @@ Return the integer-valued attribute at the given index.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable) **variable**
 * size_t **index**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscIntegerAttribute)
 
 ## Source
 

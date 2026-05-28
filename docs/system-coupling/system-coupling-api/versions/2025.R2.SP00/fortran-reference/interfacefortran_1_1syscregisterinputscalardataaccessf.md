@@ -1,4 +1,6 @@
-# Interface fortran::syscregisterinputscalardataaccessf
+---
+title: "Interface fortran::syscregisterinputscalardataaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to register input scalar data access.
 
 ## Members
 
-* [syscregisterinputscalardataaccessf](interfacefortran_1_1syscregisterinputscalardataaccessf.md#interfacefortran_1_1syscregisterinputscalardataaccessf_1ac02c967ea25012baa1d0fa6c7f8b2f56)
+* [syscregisterinputscalardataaccessf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscregisterinputscalardataaccessf)
 
 ## Public functions
 
@@ -41,7 +43,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 * dataAccessdataAccess
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

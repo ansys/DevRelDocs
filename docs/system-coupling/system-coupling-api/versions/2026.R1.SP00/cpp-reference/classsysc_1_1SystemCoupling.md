@@ -1,4 +1,6 @@
-# Class sysc::SystemCoupling
+---
+title: "Class sysc::SystemCoupling"
+---
 
 ![][C++]
 ![][public]
@@ -23,101 +25,101 @@ There should only be one instance of this System Coupling class.
 
 ## Members
 
-* [addCouplingInterface](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae4c93f4502c9df950fddddab3aab5eec)
-* [addCouplingInterface](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae1f7fe88e678c07cde61acff8742b608)
-* [addInputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a141ea7f0524e5e8dc7e051408477e9cb)
-* [addIntegerAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a85e574ea482ec764a16b7ee64beda3de)
-* [addOutputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aefc367f59f86420aaaa425d7d24b071c)
-* [addRealAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab298f64d5d97a11f59650605c062d38a)
-* [addRegion](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afd8d4beebb3a46d80c9f9fcddc385db2)
-* [addStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afe7e2a632aed3933b59dae2d0fbf8cb1)
-* [checkMeshValidity](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a8c7d2613f81b8d9a5bd81db9dcbae8fd)
-* [checkMeshValidity](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ac6a85f6aae44d330b8042dc9296bd59b)
-* [completeCouplingSetup](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6d389ee7e0740e0348919cd3b7d956f7)
-* [completeCouplingSetup](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae07c136aa42d636df179cc7352065430)
-* [completeSetup](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a204a3a8145961af7bc28d2cfd58a4358)
-* [disconnect](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a4f15e4d02257cde7717b9fffae806311)
-* [doIteration](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a0cb8cd28d752af2cfd0b4d27511ea306)
-* [doTimeStep](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a285a15756651ef5027191ca69dfab7e0)
-* [fatalError](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a9d5c081a6a43f86de3aef366d6527730)
-* [getAddedCouplingInterface](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a8aab50ac4eedd188745852bb0cc94f6d)
-* [getAddedRegion](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adb354cb78a277f08c87b59f97bcdd453)
-* [getCurrentTimeStep](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6ab306d83db2610887c8fb18c554eba6)
-* [getInputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aff74fa8017356c93a1ea5677a29103e5)
-* [getIntegerAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a47057e45b7637d4709138c5f64d7e0d4)
-* [getIntegerAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a4c59f4d91ed51f811b9a8af91129250e)
-* [getNumCouplingInterfaces](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a83c9856515b950fa453f36a29c3dd0ca)
-* [getNumInputParameters](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a5043b933c85893f89b72c967922e0397)
-* [getNumIntegerAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aeeb32be00caa7d33c4ddd9b28f80a3a0)
-* [getNumOutputParameters](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6b0bc9b6b4c6155f573c94376e37ba8d)
-* [getNumRealAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a7d91d3013cc5c826f91d42f6e8f5c6d8)
-* [getNumRegions](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af1cac0616352ad6998eefad0593c8ffb)
-* [getNumStringAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af757a39bdfd82702d7879af71ed835db)
-* [getOutputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1acd9357a14b747921037daa0c24c9bc1b)
-* [getParameterValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aefb34bf071d430de2dd4f1be1dc74e84)
-* [getRealAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adac66a89bdba3cc298631045b659fba1)
-* [getRealAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a8ec3e49911120cd590ec285456de40ac)
-* [getRegion](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab70a16b544c86e9681e9946f2ce3ec53)
-* [getSetupInfo](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a43ac90ab5f0cfd64fec354519d4f5b43)
-* [getSolutionControl](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ace4a88af60a1aa93a68fa4b071592413)
-* [getStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6aff5352468a4c1065e167faa3a02ae2)
-* [getStringAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a5fc4695ae6b5bb6e7cd706cb976d3f40)
-* [initializeAnalysis](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab47a6eaf83eae538e17290a5c2582b8e)
-* [operator=](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af9e2480d475df72014f4b565f97d8c70)
-* [operator=](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a11c5ccef62c2719e4d0af87796311914)
-* [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a756e4452ee89f8eddf521a57d33d20e4)
-* [registerDoesTargetDataExist](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a96819f69d3044bc1f1a6f70c06da90cb)
-* [registerInputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae65892603ab7d6f24d3a1cbc80af7edb)
-* [registerInputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a878ad16bd59726553ee0a3de9d2bca06)
-* [registerInputComplexVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a58064b5079b01898a6951e366ea86331)
-* [registerInputComplexVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1abdd59a061b86ef7cef6301652d98ec65)
-* [registerInputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a60439772708be217b06f07f8554d5abd)
-* [registerInputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a61c7be7c0e7ab939f27b49b015fbd8d0)
-* [registerInputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a5b437d3878dde1d36d8bbfe0b68a1ea3)
-* [registerInputScalarVariableAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a7f6ec98123d0c18a6fce5c51d9af5e28)
-* [registerInputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aac58f07f6eaa259959f39eefa3a48275)
-* [registerInputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a3c27f87e2afbd4fc4cd1a3936af119a4)
-* [registerInputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a630e6c6211338d8d2dd3dce15a897019)
-* [registerInputVectorVariableAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a742d335b9842d2574d4522834154c3c7)
-* [registerOutputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6e31333c6867d5214565215c5de97ba2)
-* [registerOutputComplexScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a09a5b550343939ded20c225c4cd7c980)
-* [registerOutputComplexVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6ccb2d4f3fe8a866648ffa1f310bc78f)
-* [registerOutputComplexVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a85be3c843ee3b5e71f5e54fff61468aa)
-* [registerOutputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adeacbc3dfb240c3f389d344337839458)
-* [registerOutputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ada68571b9d10213009b97e4701cba62a)
-* [registerOutputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab71ebbabd746c3b1b0108f298443d38b)
-* [registerOutputScalarVariableAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a215a0a89ded36ecab1c4720c7c581b5e)
-* [registerOutputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1abb613dba476f0873e7d59585acb7d981)
-* [registerOutputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aedc414935e27b77ce784e7f1c5fc6a75)
-* [registerOutputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a76d36b21f00f091187e875e5dfb6f6d6)
-* [registerOutputVectorVariableAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab63d037d8a7545bd6b5a6f2b3e91c30f)
-* [registerPointCloudAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a05632386db24345a895d5b504c52af5e)
-* [registerPointCloudAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a71eeb76fc93f4d9b8618d70ef5f66493)
-* [registerPointCloudAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a1e24a3be97eb868486fd6477f26356fd)
-* [registerRestartPointCreation](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aaae2fc4f2cee448f97e69fae2510c1ce)
-* [registerSurfaceMeshAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afb819aa4b19aa15dc552d73803352fb4)
-* [registerSurfaceMeshAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a183340630be801da193518a69e183cd1)
-* [registerSurfaceMeshAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adbd878be917e52aa1cf1ef26e152e677)
-* [registerTargetDataCreation](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a16f160af31ea38f0a502ff1f746b957b)
-* [registerTargetDataCreation](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a753caed2214ab353ae9a377e55c3c2d8)
-* [registerVolumeMeshAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af12f29a1532884bc561c7bd5fe9efc97)
-* [registerVolumeMeshAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a692aa29e269337e50d3b134f4628b7c0)
-* [registerVolumeMeshAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ad6950fb23d3f98f17f023c29555743b8)
-* [registerZoneCountAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a11c8df8113a78dcb40b91534ce1f4b1c)
-* [setParameterValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aca0700c21a60e92e3b67c0e50a575133)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aa85c07a47dbf3cccce8049e8c8fe86cc)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a0381ca6fb1dcf81258ada4e95c354ab9)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a9f7e98bb312a412ae7bc81f0a49afa1a)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a28570e0829c5d0c2177d1b25b55b2da0)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a68a64fa8efe499cc189979d44624d0f7)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a197f13843de7afcd2f84b85eaffa11ad)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a692355d68459adf3eddfaef350bf0c9c)
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a8d869edcfaaace05684e095add7d733b)
-* [updateInputs](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a9c768f6965f14e8ab3308c7df4144da7)
-* [updateOutputs](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a468e5e084477cdaca2adee6c50edf7e9)
-* [writeResults](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ac9b3de74b577b71eccf44c901ba0d225)
-* [writeSetupFile](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a3d0f96215b1b4609d46e0772c3e3578b)
-* [~SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ad17cf746d960d4911bac179e9bc733bc)
+* [addCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addInputParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addOutputParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [addStringAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [checkMeshValidity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [checkMeshValidity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [completeCouplingSetup](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [completeCouplingSetup](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [completeSetup](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [disconnect](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [doIteration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [doTimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [fatalError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getAddedCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getAddedRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getCurrentTimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getInputParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getIntegerAttributeValue](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumCouplingInterfaces](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumInputParameters](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumIntegerAttributes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumOutputParameters](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumRealAttributes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumRegions](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getNumStringAttributes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getOutputParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getParameterValue](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getRealAttributeValue](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getSolutionControl](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getStringAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [getStringAttributeValue](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [initializeAnalysis](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerDoesTargetDataExist](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerDoesTargetDataExist](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputScalarVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerInputVectorVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputScalarVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerOutputVectorVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerPointCloudAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerPointCloudAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerPointCloudAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerRestartPointCreation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerSurfaceMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerSurfaceMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerSurfaceMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerTargetDataCreation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerTargetDataCreation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerVolumeMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerVolumeMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerVolumeMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [registerZoneCountAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [setParameterValue](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [updateInputs](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [updateOutputs](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [writeResults](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [writeSetupFile](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
+* [~SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
 
 ## Public functions
 
@@ -130,7 +132,7 @@ There should only be one instance of this System Coupling class.
 sysc::SystemCoupling::SystemCoupling()
 ```
 
-Provide a (default) constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) class for non-cosimulation mode.
+Provide a (default) constructor for the [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) class for non-cosimulation mode.
 
 This is a default constructor that will initialize the participant library in standalone (non-cosimulation) mode.
 
@@ -153,7 +155,7 @@ When running in parallel MPI environment, the parallel communication within the 
 sysc::SystemCoupling::SystemCoupling(std::size_t mpiCommunicator)
 ```
 
-Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) class for non-cosimulation mode with a custom MPI communicator.
+Provide a constructor for the [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) class for non-cosimulation mode with a custom MPI communicator.
 
 **Parameters**:
 
@@ -178,7 +180,7 @@ This will initialize the participant library in standalone mode and will use the
 sysc::SystemCoupling::SystemCoupling(const ParticipantInfo &participantInfo)
 ```
 
-Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) class with a custom struct representing the default input parameters.
+Provide a constructor for the [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) class with a custom struct representing the default input parameters.
 
 **Parameters**:
 
@@ -188,7 +190,7 @@ Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#cl
 
 **Parameters**:
 
-* const [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo) & **participantInfo**
+* const [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo) & **participantInfo**
 
 **Return type**: 
 
@@ -201,7 +203,7 @@ Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#cl
 sysc::SystemCoupling::SystemCoupling(const ParticipantInfo &participantInfo, std::size_t mpiCommunicator)
 ```
 
-Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) class with an mpiCommunicator object set to non default.
+Provide a constructor for the [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) class with an mpiCommunicator object set to non default.
 
 **Parameters**:
 
@@ -212,7 +214,7 @@ Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#cl
 
 **Parameters**:
 
-* const [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo) & **participantInfo**
+* const [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo) & **participantInfo**
 * std::size_t **mpiCommunicator**
 
 **Return type**: 
@@ -226,7 +228,7 @@ Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#cl
 sysc::SystemCoupling::SystemCoupling(const std::string &scHost, unsigned short scPort, const std::string &participantName, const std::string &buildInformation="Unknown")
 ```
 
-Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) class for cosimulation mode.
+Provide a constructor for the [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) class for cosimulation mode.
 
 Initializes the participant library in cosimulation mode. It establishes the connection to the System Coupling solver.
 
@@ -268,7 +270,7 @@ The participant solver must have obtained the host and port information from Sys
 sysc::SystemCoupling::SystemCoupling(const std::string &scHost, unsigned short scPort, const std::string &participantName, std::size_t mpiCommunicator, const std::string &buildInformation)
 ```
 
-Provide a constructor for the [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) class for cosimulation mode with a custom MPI communicator.
+Provide a constructor for the [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) class for cosimulation mode with a custom MPI communicator.
 
 This constructor works the same way as the one above (see above), but it takes in one additional argument, which is the MPI communicator, cast as std::size_t.
 
@@ -325,7 +327,7 @@ void sysc::SystemCoupling::completeSetup(const sysc::SetupInfo &setupInfo)
 
 Provide a function to notify System Coupling that setup can be completed.
 
-After this function is called, coupled analysis setup can no longer be updated, i.e. regions and variables cannot be changed. Participant should also pass in [sysc::SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo) struct to provide additional information about the setup, such as whether steady or transient analysis is to be performed.
+After this function is called, coupled analysis setup can no longer be updated, i.e. regions and variables cannot be changed. Participant should also pass in [sysc::SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo) struct to provide additional information about the setup, such as whether steady or transient analysis is to be performed.
 
 
 
@@ -337,7 +339,7 @@ Once the setup is complete, any subsequent call to complete the setup will have 
 
 **Parameters**:
 
-* const [sysc::SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo) & **setupInfo**
+* const [sysc::SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo) & **setupInfo**
 
 **Return type**: void
 
@@ -383,7 +385,7 @@ A default value (time step number 0, start time 0.0, time step size 0.0) is retu
 
 
 
-**Return type**: [sysc::TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep)
+**Return type**: [sysc::TimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep)
 
 <a id="classsysc_1_1SystemCoupling_1a0cb8cd28d752af2cfd0b4d27511ea306"></a>
 ### Function doIteration
@@ -419,7 +421,7 @@ This function returns true if another coupling time step is required, otherwise 
 
 
 
-This function should be called to check if another coupling time step should be done. If the previous coupling time step is finished and another time step should be performed, then calling this function will tell System Coupling that the coupling participant is going to advance to the next time step (i.e. calling [doTimeStep()](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a285a15756651ef5027191ca69dfab7e0) will cause [doIteration()](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a0cb8cd28d752af2cfd0b4d27511ea306) to change from returning false to returning true, under the conditions described above).
+This function should be called to check if another coupling time step should be done. If the previous coupling time step is finished and another time step should be performed, then calling this function will tell System Coupling that the coupling participant is going to advance to the next time step (i.e. calling [doTimeStep()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) will cause [doIteration()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) to change from returning false to returning true, under the conditions described above).
 
 
 
@@ -486,7 +488,7 @@ This function must be called from inside the coupled analysis loop. It tells Sys
 
 **Parameters**:
 
-* [ConvergenceStatus](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0b8801743579159eb41cf07d8372a734) **status**
+* [ConvergenceStatus](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **status**
 
 **Return type**: void
 
@@ -541,7 +543,7 @@ Provide a function to add a region that could be used in a coupled analysis.
 
 **Parameters**:
 
-* **region**: - [Region](classsysc_1_1Region.md#classsysc_1_1Region) to be added.
+* **region**: - [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) to be added.
 
 If this region has already been added, then this call will have no effect.
 
@@ -561,7 +563,7 @@ If the region name contains invalid characters, then a runtime error will be thr
 
 **Parameters**:
 
-* const [Region](classsysc_1_1Region.md#classsysc_1_1Region) & **region**
+* const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) & **region**
 
 **Return type**: void
 
@@ -603,13 +605,13 @@ If the parameter name contains invalid characters, a runtime error will be throw
 
 **Parameters**:
 
-* **parameter**: [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) whose values are provided by System Coupling and consumed by the participant.
+* **parameter**: [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) whose values are provided by System Coupling and consumed by the participant.
 
 
 
 **Parameters**:
 
-* [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) **parameter**
+* [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) **parameter**
 
 **Return type**: void
 
@@ -651,13 +653,13 @@ If the parameter name contains invalid characters, a runtime error will be throw
 
 **Parameters**:
 
-* **parameter**: [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) whose values are provided by System Coupling and consumed by the participant.
+* **parameter**: [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) whose values are provided by System Coupling and consumed by the participant.
 
 
 
 **Parameters**:
 
-* [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) **parameter**
+* [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) **parameter**
 
 **Return type**: void
 
@@ -699,7 +701,7 @@ If the real attribute name contains invalid characters, a runtime error will be 
 
 **Parameters**:
 
-* const [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute) & **realAttribute**
+* const [RealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1RealAttribute) & **realAttribute**
 
 **Return type**: void
 
@@ -741,7 +743,7 @@ If the integer attribute name contains invalid characters, a runtime error will 
 
 **Parameters**:
 
-* const [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) & **integerAttribute**
+* const [IntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1IntegerAttribute) & **integerAttribute**
 
 **Return type**: void
 
@@ -783,7 +785,7 @@ If the string attribute name contains invalid characters, a runtime error will b
 
 **Parameters**:
 
-* const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) & **stringAttribute**
+* const [StringAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1StringAttribute) & **stringAttribute**
 
 **Return type**: void
 
@@ -826,13 +828,13 @@ If the coupling interface name contains invalid characters, then a runtime error
 
 
 
-See [sysc::CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) for more details.
+See [sysc::CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface) for more details.
 
 
 
 **Parameters**:
 
-* const [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) & **couplingInterface**
+* const [CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface) & **couplingInterface**
 
 **Return type**: void
 
@@ -876,13 +878,13 @@ If autoGenerateTransfers is true, then the data transfers are generated automati
 
 
 
-See [sysc::CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) for more details.
+See [sysc::CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface) for more details.
 
 
 
 **Parameters**:
 
-* const [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) & **couplingInterface**
+* const [CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface) & **couplingInterface**
 * bool **autoGenerateTransfers**
 
 **Return type**: void
@@ -896,7 +898,7 @@ See [sysc::CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1Cou
 double sysc::SystemCoupling::getParameterValue(const ParameterName &parameterName)
 ```
 
-Provide a function to get a [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) value.
+Provide a function to get a [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) value.
 
 **Parameters**:
 
@@ -906,7 +908,7 @@ Provide a function to get a [Parameter](classsysc_1_1Parameter.md#classsysc_1_1P
 
 **Parameters**:
 
-* const [ParameterName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9cadba4f4e91a46ad88e42877c682d46) & **parameterName**
+* const [ParameterName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) & **parameterName**
 
 **Return type**: double
 
@@ -919,7 +921,7 @@ Provide a function to get a [Parameter](classsysc_1_1Parameter.md#classsysc_1_1P
 void sysc::SystemCoupling::setParameterValue(const ParameterName &parameterName, double value)
 ```
 
-Provide a function to set a [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) value.
+Provide a function to set a [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) value.
 
 **Parameters**:
 
@@ -930,7 +932,7 @@ Provide a function to set a [Parameter](classsysc_1_1Parameter.md#classsysc_1_1P
 
 **Parameters**:
 
-* const [ParameterName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9cadba4f4e91a46ad88e42877c682d46) & **parameterName**
+* const [ParameterName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) & **parameterName**
 * double **value**
 
 **Return type**: void
@@ -944,7 +946,7 @@ Provide a function to set a [Parameter](classsysc_1_1Parameter.md#classsysc_1_1P
 double sysc::SystemCoupling::getRealAttributeValue(const AttributeName &attributeName)
 ```
 
-Provide a function to get a [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute) value.
+Provide a function to get a [RealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1RealAttribute) value.
 
 **Parameters**:
 
@@ -954,7 +956,7 @@ Provide a function to get a [RealAttribute](classsysc_1_1RealAttribute.md#classs
 
 **Parameters**:
 
-* const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) & **attributeName**
+* const [AttributeName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) & **attributeName**
 
 **Return type**: double
 
@@ -967,7 +969,7 @@ Provide a function to get a [RealAttribute](classsysc_1_1RealAttribute.md#classs
 int64_t sysc::SystemCoupling::getIntegerAttributeValue(const AttributeName &attributeName)
 ```
 
-Provide a function to get an [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) value.
+Provide a function to get an [IntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1IntegerAttribute) value.
 
 **Parameters**:
 
@@ -977,7 +979,7 @@ Provide a function to get an [IntegerAttribute](classsysc_1_1IntegerAttribute.md
 
 **Parameters**:
 
-* const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) & **attributeName**
+* const [AttributeName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) & **attributeName**
 
 **Return type**: int64_t
 
@@ -990,7 +992,7 @@ Provide a function to get an [IntegerAttribute](classsysc_1_1IntegerAttribute.md
 std::string sysc::SystemCoupling::getStringAttributeValue(const AttributeName &attributeName)
 ```
 
-Provide a function to get a [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) value.
+Provide a function to get a [StringAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1StringAttribute) value.
 
 **Parameters**:
 
@@ -1000,7 +1002,7 @@ Provide a function to get a [StringAttribute](classsysc_1_1StringAttribute.md#cl
 
 **Parameters**:
 
-* const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) & **attributeName**
+* const [AttributeName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) & **attributeName**
 
 **Return type**: std::string
 
@@ -1023,7 +1025,7 @@ Provide a function to register input scalar data access.
 
 **Parameters**:
 
-* [InputScalarDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga7dd9c918ef6adb34c5e7832dfb077cf2) * **dataAccess**
+* [InputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1047,8 +1049,8 @@ Provide a function to register input scalar data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [InputScalarDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga31d70598dce8c2bef6ec3f0c167ab271) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [InputScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1071,7 +1073,7 @@ Provide a function to register input vector data access.
 
 **Parameters**:
 
-* [InputVectorDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gab7625786f580e802bcae651a9e6b8ab6) * **dataAccess**
+* [InputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1095,8 +1097,8 @@ Provide a function to register input vector data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [InputVectorDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga12662b1595f7ffd8429f9e6d6cdcf4e5) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [InputVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1119,7 +1121,7 @@ Provide a function to register output scalar data access.
 
 **Parameters**:
 
-* [OutputScalarDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf919dd1650fbc5b6cede63027640a40f) * **dataAccess**
+* [OutputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1143,8 +1145,8 @@ Provide a function to register output scalar data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [OutputScalarDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0198dfa2f53816088cfc3c0f94b33fb5) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [OutputScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1167,7 +1169,7 @@ Provide a function to register output vector data access.
 
 **Parameters**:
 
-* [OutputVectorDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga3af176d8520259b81f0460e1299e04b6) * **dataAccess**
+* [OutputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1191,8 +1193,8 @@ Provide a function to register output vector data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [OutputVectorDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga816b3979bcee14cdb92a88c0621a8e1e) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [OutputVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1215,7 +1217,7 @@ Provide a function to register input complex scalar data access.
 
 **Parameters**:
 
-* [InputComplexScalarDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gac45104dcb153caae0c4edac26e46351e) * **dataAccess**
+* [InputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1239,8 +1241,8 @@ Provide a function to register input complex scalar data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [InputComplexScalarDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga90ec216c6ff3f8ada5d0b0b4ea362b15) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [InputComplexScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1263,7 +1265,7 @@ Provide a function to register input complex vector data access.
 
 **Parameters**:
 
-* [InputComplexVectorDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0cc318418bce4c3aa356f91798e962e7) * **dataAccess**
+* [InputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1287,8 +1289,8 @@ Provide a function to register input complex vector data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [InputComplexVectorDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf213c1ae6a1bff131c598f99ad9320b4) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [InputComplexVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1311,7 +1313,7 @@ Provide a function to register output complex scalar data access.
 
 **Parameters**:
 
-* [OutputComplexScalarDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaeb662bc24c2d2c6f4248f038eee43e74) * **dataAccess**
+* [OutputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1335,8 +1337,8 @@ Provide a function to register output complex scalar data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [OutputComplexScalarDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga74e6e9bec4808c21fab845daa661b50c) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [OutputComplexScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1359,7 +1361,7 @@ Provide a function to register output complex vector data access.
 
 **Parameters**:
 
-* [OutputComplexVectorDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaec1b87f8104f48c01859a46d280894db) * **dataAccess**
+* [OutputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1383,8 +1385,8 @@ Provide a function to register output complex vector data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [OutputComplexVectorDataAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaa3871403c3c169499a051ce8cc88d9a7) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [OutputComplexVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1407,7 +1409,7 @@ Provide a function to register surface mesh access.
 
 **Parameters**:
 
-* [SurfaceMeshAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga31a21ade99a36c30fdc24d33c6d5c9aa) * **meshAccess**
+* [SurfaceMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **meshAccess**
 
 **Return type**: void
 
@@ -1431,8 +1433,8 @@ Provide a function to register surface mesh access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [SurfaceMeshAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaefc47d665f38f4380346fb9c29b9c8ff) * **meshAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [SurfaceMeshAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **meshAccess**
 
 **Return type**: void
 
@@ -1453,8 +1455,8 @@ void sysc::SystemCoupling::registerZoneCountAccess(OpaqueDataAccess opaqueDataAc
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [ZoneCountAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga67496d998ace1dd2796a5a96f6356483) * **zoneCountAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [ZoneCountAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **zoneCountAccess**
 
 **Return type**: void
 
@@ -1475,8 +1477,8 @@ void sysc::SystemCoupling::registerSurfaceMeshAccess(OpaqueDataAccess opaqueData
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [SurfaceMeshMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga78db51b86b998102a74753c41118d0de) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [SurfaceMeshMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1497,8 +1499,8 @@ void sysc::SystemCoupling::registerVolumeMeshAccess(OpaqueDataAccess opaqueDataA
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [VolumeMeshMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf8cf8d3d04cd46c0841bd0d1fdb54158) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [VolumeMeshMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1519,8 +1521,8 @@ void sysc::SystemCoupling::registerInputScalarDataAccess(OpaqueDataAccess opaque
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [InputScalarDataMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga3b4a0b9036a3be955d417a16c6acb695) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [InputScalarDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1541,8 +1543,8 @@ void sysc::SystemCoupling::registerOutputScalarDataAccess(OpaqueDataAccess opaqu
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [OutputScalarDataMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaad003be96e3cd29fc18e0d2a27889db4) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [OutputScalarDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1563,8 +1565,8 @@ void sysc::SystemCoupling::registerInputVectorDataAccess(OpaqueDataAccess opaque
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [InputVectorDataMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59cfd8bf053c1492e4c0a6b4c0109ef6) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [InputVectorDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1588,8 +1590,8 @@ Provide a function to register output vector data access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [OutputVectorDataMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga46429473df8e53efff6e5d967897a291) * **dataAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [OutputVectorDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -1612,7 +1614,7 @@ Provide a function to register volume mesh access.
 
 **Parameters**:
 
-* [VolumeMeshAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga7a37f14608ada16bb16d44c498325fff) * **meshAccess**
+* [VolumeMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **meshAccess**
 
 **Return type**: void
 
@@ -1636,8 +1638,8 @@ Provide a function to register volume mesh access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [VolumeMeshAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga6c3e4e3f977efd6284430b6f8e918ce1) * **meshAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [VolumeMeshAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **meshAccess**
 
 **Return type**: void
 
@@ -1660,7 +1662,7 @@ Provide a function to register point cloud access.
 
 **Parameters**:
 
-* [PointCloudAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga1651bb5df846358dfae0401b4a51331d) * **pointCloudAccess**
+* [PointCloudAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **pointCloudAccess**
 
 **Return type**: void
 
@@ -1684,8 +1686,8 @@ Provide a function to register point cloud access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [PointCloudAccessWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga1ec70c59d86f6f43cc865c72e4a9d76e) * **pointCloudAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [PointCloudAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **pointCloudAccess**
 
 **Return type**: void
 
@@ -1709,8 +1711,8 @@ Provide a function to register point cloud access.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [PointCloudMultiZoneAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2108977976cabe1b6207eb8bc58175f4) * **pointCloudAccess**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [PointCloudMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **pointCloudAccess**
 
 **Return type**: void
 
@@ -1733,7 +1735,7 @@ Provide a function to register a restart point creation callback.
 
 **Parameters**:
 
-* [RestartPointCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga871467e0179633e71b13d4a1904ad732) * **restartPointCreation**
+* [RestartPointCreation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **restartPointCreation**
 
 **Return type**: void
 
@@ -1756,7 +1758,7 @@ Provide a function to register a target data creation callback.
 
 **Parameters**:
 
-* [TargetDataCreation](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23c842f309f11150deb4dda666115091) * **targetDataCreation**
+* [TargetDataCreation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **targetDataCreation**
 
 **Return type**: void
 
@@ -1780,8 +1782,8 @@ Provide a function to register a target data creation callback.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [TargetDataCreationWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga62d0a9b9a904f4345ff12f30b052e278) * **targetDataCreation**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [TargetDataCreationWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **targetDataCreation**
 
 **Return type**: void
 
@@ -1804,7 +1806,7 @@ Provide a function to register a does target data exist callback.
 
 **Parameters**:
 
-* [TargetDataExistenceChecker](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga5a236a23cab8fd793659e3ff0ded7aff) * **doesTargetDataExist**
+* [TargetDataExistenceChecker](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **doesTargetDataExist**
 
 **Return type**: void
 
@@ -1828,8 +1830,8 @@ Provide a function to register a does target data exist callback.
 
 **Parameters**:
 
-* [OpaqueDataAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga23b9971b358756814178dd1cb3c0bc80) **opaqueDataAccess**
-* [TargetDataExistenceCheckerWithPointer](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaf91c64729b5c36e4ed316a3f0fe533ff) * **doesTargetDataExist**
+* [OpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **opaqueDataAccess**
+* [TargetDataExistenceCheckerWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **doesTargetDataExist**
 
 **Return type**: void
 
@@ -1865,7 +1867,7 @@ True if the setup file was successfully written, and false otherwise.
 
 **Parameters**:
 
-* const [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo) & **setupFileInfo**
+* const [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo) & **setupFileInfo**
 
 **Return type**: bool
 
@@ -1887,7 +1889,7 @@ Write results to a file.
 
 **Parameters**:
 
-* const [ResultsInfo](structsysc_1_1ResultsInfo.md#structsysc_1_1ResultsInfo) & **resultsInfo**
+* const [ResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ResultsInfo) & **resultsInfo**
 
 **Return type**: void
 
@@ -1938,7 +1940,7 @@ Reference to region information at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [Region](classsysc_1_1Region.md#classsysc_1_1Region) &
+**Return type**: const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) &
 
 <a id="classsysc_1_1SystemCoupling_1ace4a88af60a1aa93a68fa4b071592413"></a>
 ### Function getSolutionControl
@@ -1956,7 +1958,7 @@ Get solution control.
 
 
 
-**Return type**: [SolutionControl](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl)
+**Return type**: [SolutionControl](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SolutionControl)
 
 <a id="classsysc_1_1SystemCoupling_1a43ac90ab5f0cfd64fec354519d4f5b43"></a>
 ### Function getSetupInfo
@@ -1968,13 +1970,13 @@ Get solution control.
 const SetupInfo& sysc::SystemCoupling::getSetupInfo() const
 ```
 
-Get [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo).
+Get [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo).
 
 
 
 
 
-**Return type**: const [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo) &
+**Return type**: const [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo) &
 
 <a id="classsysc_1_1SystemCoupling_1a83c9856515b950fa453f36a29c3dd0ca"></a>
 ### Function getNumCouplingInterfaces
@@ -2023,7 +2025,7 @@ Reference to the coupling interface at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [CouplingInterface](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface) &
+**Return type**: const [CouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1CouplingInterface) &
 
 <a id="classsysc_1_1SystemCoupling_1aff74fa8017356c93a1ea5677a29103e5"></a>
 ### Function getInputParameter
@@ -2052,7 +2054,7 @@ Reference to input parameter information at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) &
+**Return type**: const [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) &
 
 <a id="classsysc_1_1SystemCoupling_1acd9357a14b747921037daa0c24c9bc1b"></a>
 ### Function getOutputParameter
@@ -2081,7 +2083,7 @@ Reference to output parameter information at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter) &
+**Return type**: const [Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter) &
 
 <a id="classsysc_1_1SystemCoupling_1a5043b933c85893f89b72c967922e0397"></a>
 ### Function getNumInputParameters
@@ -2210,7 +2212,7 @@ Reference to real attribute information at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute) &
+**Return type**: const [RealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1RealAttribute) &
 
 <a id="classsysc_1_1SystemCoupling_1a47057e45b7637d4709138c5f64d7e0d4"></a>
 ### Function getIntegerAttribute
@@ -2239,7 +2241,7 @@ Reference to integer attribute information at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) &
+**Return type**: const [IntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1IntegerAttribute) &
 
 <a id="classsysc_1_1SystemCoupling_1a6aff5352468a4c1065e167faa3a02ae2"></a>
 ### Function getStringAttribute
@@ -2268,7 +2270,7 @@ Reference to string attribute information at specified index.
 
 * std::size_t **index**
 
-**Return type**: const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) &
+**Return type**: const [StringAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1StringAttribute) &
 
 <a id="classsysc_1_1SystemCoupling_1a6d389ee7e0740e0348919cd3b7d956f7"></a>
 ### Function completeCouplingSetup
@@ -2279,7 +2281,7 @@ Reference to string attribute information at specified index.
 void sysc::SystemCoupling::completeCouplingSetup()
 ```
 
-This function will be deprecated. Use [completeSetup()](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a204a3a8145961af7bc28d2cfd58a4358) instead.
+This function will be deprecated. Use [completeSetup()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) instead.
 
 
 
@@ -2296,7 +2298,7 @@ This function will be deprecated. Use [completeSetup()](classsysc_1_1SystemCoupl
 void sysc::SystemCoupling::completeCouplingSetup(sysc::AnalysisType analysisType)
 ```
 
-This function will be deprecated. Use [completeSetup()](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a204a3a8145961af7bc28d2cfd58a4358) instead.
+This function will be deprecated. Use [completeSetup()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) instead.
 
 
 
@@ -2304,7 +2306,7 @@ This function will be deprecated. Use [completeSetup()](classsysc_1_1SystemCoupl
 
 **Parameters**:
 
-* [sysc::AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967) **analysisType**
+* [sysc::AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **analysisType**
 
 **Return type**: void
 
@@ -2325,7 +2327,7 @@ Deprecated - do not use.
 
 **Parameters**:
 
-* [InputScalarVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gabfe4908649fe177d889ed488b090fdea) * **dataAccess**
+* [InputScalarVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -2346,7 +2348,7 @@ Deprecated - do not use.
 
 **Parameters**:
 
-* [InputVectorVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga9b14545ae1ed82c6d1471c1672ca5247) * **dataAccess**
+* [InputVectorVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -2367,7 +2369,7 @@ Deprecated - do not use.
 
 **Parameters**:
 
-* [OutputScalarVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga81e8c19ed24a2ea0433af309188710a6) * **dataAccess**
+* [OutputScalarVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -2388,7 +2390,7 @@ Deprecated - do not use.
 
 **Parameters**:
 
-* [OutputVectorVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga4684b116da21b415e4e63ae927ba12ae) * **dataAccess**
+* [OutputVectorVariableAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) * **dataAccess**
 
 **Return type**: void
 
@@ -2401,7 +2403,7 @@ Deprecated - do not use.
 MeshValidityStatus sysc::SystemCoupling::checkMeshValidity(const Region &region)
 ```
 
-Deprecated. Use [sysc::SurfaceMesh::checkValidity](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1afe6bfa2f60fa4b106a1809428e9cec29) instead.
+Deprecated. Use [sysc::SurfaceMesh::checkValidity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SurfaceMesh) instead.
 
 
 
@@ -2409,9 +2411,9 @@ Deprecated. Use [sysc::SurfaceMesh::checkValidity](classsysc_1_1SurfaceMesh.md#c
 
 **Parameters**:
 
-* const [Region](classsysc_1_1Region.md#classsysc_1_1Region) & **region**
+* const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) & **region**
 
-**Return type**: [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus)
+**Return type**: [MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
 
 <a id="classsysc_1_1SystemCoupling_1ac6a85f6aae44d330b8042dc9296bd59b"></a>
 ### Function checkMeshValidity
@@ -2422,7 +2424,7 @@ Deprecated. Use [sysc::SurfaceMesh::checkValidity](classsysc_1_1SurfaceMesh.md#c
 MeshValidityStatus sysc::SystemCoupling::checkMeshValidity(const std::string &regionName)
 ```
 
-Deprecated. Use [sysc::SurfaceMesh::checkValidity](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1afe6bfa2f60fa4b106a1809428e9cec29) instead.
+Deprecated. Use [sysc::SurfaceMesh::checkValidity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SurfaceMesh) instead.
 
 
 
@@ -2432,7 +2434,7 @@ Deprecated. Use [sysc::SurfaceMesh::checkValidity](classsysc_1_1SurfaceMesh.md#c
 
 * const std::string & **regionName**
 
-**Return type**: [MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus)
+**Return type**: [MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
 
 <a id="classsysc_1_1SystemCoupling_1ab70a16b544c86e9681e9946f2ce3ec53"></a>
 ### Function getRegion
@@ -2444,7 +2446,7 @@ Deprecated. Use [sysc::SurfaceMesh::checkValidity](classsysc_1_1SurfaceMesh.md#c
 const Region& sysc::SystemCoupling::getRegion(std::size_t index) const
 ```
 
-Deprecated. Use [getAddedRegion()](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adb354cb78a277f08c87b59f97bcdd453) instead.
+Deprecated. Use [getAddedRegion()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) instead.
 
 
 
@@ -2454,7 +2456,7 @@ Deprecated. Use [getAddedRegion()](classsysc_1_1SystemCoupling.md#classsysc_1_1S
 
 * std::size_t **index**
 
-**Return type**: const [Region](classsysc_1_1Region.md#classsysc_1_1Region) &
+**Return type**: const [Region](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Region) &
 
 <a id="classsysc_1_1SystemCoupling_1a692355d68459adf3eddfaef350bf0c9c"></a>
 ### Function SystemCoupling
@@ -2473,7 +2475,7 @@ Delete the copy-constructor.
 
 **Parameters**:
 
-* const [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) &
+* const [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) &
 
 **Return type**: 
 
@@ -2494,7 +2496,7 @@ Provide the move-constructor.
 
 **Parameters**:
 
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) &&
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) &&
 
 **Return type**: 
 
@@ -2515,9 +2517,9 @@ Delete the copy-assign operator.
 
 **Parameters**:
 
-* const [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) &
+* const [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) &
 
-**Return type**: [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) &
+**Return type**: [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) &
 
 <a id="classsysc_1_1SystemCoupling_1a11c5ccef62c2719e4d0af87796311914"></a>
 ### Function operator=
@@ -2536,9 +2538,9 @@ Provide the move-assign operator.
 
 **Parameters**:
 
-* [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) &&
+* [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) &&
 
-**Return type**: [SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) &
+**Return type**: [SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

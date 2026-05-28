@@ -1,4 +1,6 @@
-# Structure sysc::HostAndPort
+---
+title: "Structure sysc::HostAndPort"
+---
 
 ![][C++]
 ![][public]
@@ -14,11 +16,11 @@ Provide a structure for host and port for remote connections.
 
 ## Members
 
-* [host](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort_1a70a711dc66721bbc9d0e9862a01b0a7d)
-* [HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort_1ab46ff92d33f63082e405b16ab669ada3)
-* [HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort_1ad1f900b2d235b7633444d10b9f818afb)
-* [HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort_1ac95ec5248d3b89f0798b29a3a19ba231)
-* [port](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort_1a3615321654401d527d930495ee7d9c08)
+* [host](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1HostAndPort)
+* [HostAndPort](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1HostAndPort)
+* [HostAndPort](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1HostAndPort)
+* [HostAndPort](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1HostAndPort)
+* [port](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1HostAndPort)
 
 ## Public attributes
 
@@ -39,7 +41,7 @@ Host sysc::HostAndPort::host
 
 
 
-**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af)
+**Type**: [Host](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="structsysc_1_1HostAndPort_1a3615321654401d527d930495ee7d9c08"></a>
 ### Variable port
@@ -58,7 +60,7 @@ Port sysc::HostAndPort::port {0}
 
 
 
-**Type**: [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54)
+**Type**: [Port](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Public functions
 
@@ -96,8 +98,8 @@ sysc::HostAndPort::HostAndPort(Host host, Port port)
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **host**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **port**
+* [Host](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **host**
+* [Port](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **port**
 
 **Return type**: 
 
@@ -118,7 +120,7 @@ sysc::HostAndPort::HostAndPort(Port port)
 
 **Parameters**:
 
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **port**
+* [Port](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **port**
 
 **Return type**: 
 

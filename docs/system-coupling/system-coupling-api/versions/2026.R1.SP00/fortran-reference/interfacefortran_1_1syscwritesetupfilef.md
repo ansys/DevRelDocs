@@ -1,4 +1,6 @@
-# Interface fortran::syscwritesetupfilef
+---
+title: "Interface fortran::syscwritesetupfilef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to write the setup file.
 
 ## Members
 
-* [syscwritesetupfilef](interfacefortran_1_1syscwritesetupfilef.md#interfacefortran_1_1syscwritesetupfilef_1a1d34ce9930173c4e42050e52d940770b)
+* [syscwritesetupfilef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscwritesetupfilef)
 
 ## Public functions
 

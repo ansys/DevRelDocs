@@ -1,4 +1,6 @@
-# Structure SyscInputComplexVectorData
+---
+title: "Structure SyscInputComplexVectorData"
+---
 
 ![][C]
 ![][public]
@@ -11,15 +13,15 @@ Input complex vector data provides read-and-write access to complex vector data.
 
 ## Members
 
-* [data1](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a3a584326b77b4bc3dbc15b8c42986828)
-* [data2](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a2b1a0d69642aef4b9e05352d712e43f2)
-* [data3](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a5350c0280e94c2bee78563f7df8ee268)
-* [data4](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a6cb8d7df178c8362fa57bfbdd5aabfad)
-* [data5](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1ab18d20fe4e644c34826b86f196e3f176)
-* [data6](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a67098938eceac2528a7f542cad590f60)
-* [dimension](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1abaab56144b52c4e2807ed6eab30aef82)
-* [primitiveType](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a1f799ec78d9babcefb9a7195907ccd49)
-* [size](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a2c78eecf36502d7d088ec6f08c6f7289)
+* [data1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [data2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [data3](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [data4](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [data5](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [data6](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 ## Public attributes
 
@@ -40,7 +42,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscInputComplexVectorData_1a3a584326b77b4bc3dbc15b8c42986828"></a>
 ### Variable data1
@@ -192,7 +194,7 @@ Array Dimension.
 
 
 
-**Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
+**Type**: enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

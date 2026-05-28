@@ -1,4 +1,6 @@
-# Interface fortran::syscregisteroutputcomplexvectordataaccessf
+---
+title: "Interface fortran::syscregisteroutputcomplexvectordataaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to register output complex vector data access.
 
 ## Members
 
-* [syscregisteroutputcomplexvectordataaccessf](interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf.md#interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf_1a18475061cfe59cb773c5c88c7dc43a09)
+* [syscregisteroutputcomplexvectordataaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscregisteroutputcomplexvectordataaccessf)
 
 ## Public functions
 
@@ -41,7 +43,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 * dataAccessdataAccess
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

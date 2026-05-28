@@ -1,4 +1,6 @@
-# Interface fortran::syscfatalerrorf
+---
+title: "Interface fortran::syscfatalerrorf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to notify System Coupling of a fatal error.
 
 ## Members
 
-* [syscfatalerrorf](interfacefortran_1_1syscfatalerrorf.md#interfacefortran_1_1syscfatalerrorf_1a6904970df236ee3c3e1799ed8994aa44)
+* [syscfatalerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscfatalerrorf)
 
 ## Public functions
 

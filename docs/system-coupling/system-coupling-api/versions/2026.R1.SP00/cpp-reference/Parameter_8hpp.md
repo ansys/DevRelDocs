@@ -1,4 +1,6 @@
-# File Parameter.hpp
+---
+title: "File Parameter.hpp"
+---
 
 ![][C++]
 
@@ -10,11 +12,11 @@
 
 ## Classes
 
-* [sysc::Parameter](classsysc_1_1Parameter.md#classsysc_1_1Parameter)
+* [sysc::Parameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1Parameter)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 

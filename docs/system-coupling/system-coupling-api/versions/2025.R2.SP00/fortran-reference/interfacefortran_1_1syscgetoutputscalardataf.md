@@ -1,4 +1,6 @@
-# Interface fortran::syscgetoutputscalardataf
+---
+title: "Interface fortran::syscgetoutputscalardataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,11 +13,11 @@ Provide an interface to get output scalar data.
 
 ## Members
 
-* [syscgetoutputscalardataf](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1a76a042a253abb91e8bcdc11ce3b8dd20)
-* [syscgetoutputscalardataf\_i4](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1aba984631b55a3022f2868cf603110e2c)
-* [syscgetoutputscalardataf\_i8](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1ac4fbf5afb57f3e177fa8aaffca76a482)
-* [syscgetoutputscalardataf\_r4](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1aa0fc1202c9abbcc583566e27919afc2d)
-* [syscgetoutputscalardataf\_r8](interfacefortran_1_1syscgetoutputscalardataf.md#interfacefortran_1_1syscgetoutputscalardataf_1aea3e7515b6ad50dca7f13b8b459bf7a2)
+* [syscgetoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutputscalardataf)
+* [syscgetoutputscalardataf\_i4](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutputscalardataf)
+* [syscgetoutputscalardataf\_i8](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutputscalardataf)
+* [syscgetoutputscalardataf\_r4](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutputscalardataf)
+* [syscgetoutputscalardataf\_r8](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutputscalardataf)
 
 ## Public functions
 
@@ -34,7 +36,7 @@ type(syscoutputscalardataf) function syscgetoutputscalardataf()
 
 
 
-**Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
+**Return type**: type([syscoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputscalardataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputscalardataf_1aa0fc1202c9abbcc583566e27919afc2d"></a>
 ### Function syscgetoutputscalardataf\_r4
@@ -59,7 +61,7 @@ Create an output scalar data access type.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
+**Return type**: type([syscoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputscalardataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputscalardataf_1aea3e7515b6ad50dca7f13b8b459bf7a2"></a>
 ### Function syscgetoutputscalardataf\_r8
@@ -84,7 +86,7 @@ Create an output scalar data access type.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
+**Return type**: type([syscoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputscalardataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputscalardataf_1aba984631b55a3022f2868cf603110e2c"></a>
 ### Function syscgetoutputscalardataf\_i4
@@ -109,7 +111,7 @@ Create an output scalar data access type.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
+**Return type**: type([syscoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputscalardataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputscalardataf_1ac4fbf5afb57f3e177fa8aaffca76a482"></a>
 ### Function syscgetoutputscalardataf\_i8
@@ -134,7 +136,7 @@ Create an output scalar data access type.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
+**Return type**: type([syscoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputscalardataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

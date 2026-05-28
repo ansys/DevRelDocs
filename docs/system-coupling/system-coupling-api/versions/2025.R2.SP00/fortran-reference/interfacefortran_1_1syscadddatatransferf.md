@@ -1,4 +1,6 @@
-# Interface fortran::syscadddatatransferf
+---
+title: "Interface fortran::syscadddatatransferf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to add data transfer.
 
 ## Members
 
-* [syscadddatatransferf](interfacefortran_1_1syscadddatatransferf.md#interfacefortran_1_1syscadddatatransferf_1a21b444e439f1fde567611e565cd5e268)
+* [syscadddatatransferf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscadddatatransferf)
 
 ## Public functions
 
@@ -35,7 +37,7 @@ Add data transfer to the coupling interface.
 * couplingInterfacecouplingInterface
 * dataTransferdataTransfer
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

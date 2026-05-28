@@ -1,4 +1,6 @@
-# File InputVectorData.hpp
+---
+title: "File InputVectorData.hpp"
+---
 
 ![][C++]
 
@@ -10,18 +12,18 @@
 
 ## Classes
 
-* [sysc::InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData)
+* [sysc::InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
-* <cstddef>
-* <vector>
+* &lt;cstddef&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

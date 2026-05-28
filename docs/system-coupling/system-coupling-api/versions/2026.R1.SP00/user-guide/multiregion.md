@@ -1,4 +1,6 @@
-# Multi-region coupling interfaces
+---
+title: "Multi-region coupling interfaces"
+---
 
 System Coupling supports multi-region coupling interfaces,
 where more than one region is specified per side.

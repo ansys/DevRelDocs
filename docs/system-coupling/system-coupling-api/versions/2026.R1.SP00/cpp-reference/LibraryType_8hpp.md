@@ -1,4 +1,6 @@
-# File LibraryType.hpp
+---
+title: "File LibraryType.hpp"
+---
 
 ![][C++]
 
@@ -10,7 +12,7 @@
 
 ## Included by
 
-* [NonFatalError.hpp](NonFatalError_8hpp.md#NonFatalError_8hpp)
+* [NonFatalError.hpp](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/NonFatalError_8hpp)
 
 ```mermaid
 graph RL

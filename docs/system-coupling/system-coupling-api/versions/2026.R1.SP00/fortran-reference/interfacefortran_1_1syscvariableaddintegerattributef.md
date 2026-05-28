@@ -1,4 +1,6 @@
-# Interface fortran::syscvariableaddintegerattributef
+---
+title: "Interface fortran::syscvariableaddintegerattributef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to add integer attribute to a variable.
 
 ## Members
 
-* [syscvariableaddintegerattributef](interfacefortran_1_1syscvariableaddintegerattributef.md#interfacefortran_1_1syscvariableaddintegerattributef_1a4634b7ffaf5ee77fcfe20eda5df0088c)
+* [syscvariableaddintegerattributef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariableaddintegerattributef)
 
 ## Public functions
 
@@ -35,7 +37,7 @@ type(syscerrorf) function syscvariableaddintegerattributef(variable, attribute)
 * variablevariable
 * attributeattribute
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

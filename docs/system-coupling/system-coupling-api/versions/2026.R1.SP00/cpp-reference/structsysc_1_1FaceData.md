@@ -1,4 +1,6 @@
-# Structure sysc::FaceData
+---
+title: "Structure sysc::FaceData"
+---
 
 ![][C++]
 ![][public]
@@ -11,25 +13,25 @@ Face data access struct, provides read-only access to the mesh faces.
 
 ## Members
 
-* [faceCellConnectivity](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1af34fb6e2c2337068f19700e6da494275)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a57eb407b526adfbb8ee354b4a4eb6797)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1ace51d4671aacf277e1f026bce3a80891)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a7e61249cf95d3edfc5effeb9bb0b483a)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a466115894a6bc2fb1c31d0f06087d890)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a66633d1b9c3626191931cfac00c94ea4)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1ad9e793b7b5852d7ab379f15a7b5728b0)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a602f2717e9a92072decb1df277c31688)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a66f522951f5e7a16979aac4445b9a8df)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a8bc787b0606f63fcbc7347f1fe391ce5)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1abaacd91a253eac7827f445487be121d9)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a4637df22726ada073a6a934d7d04805a)
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a3807bb4a90892d945015a89f37e3d317)
-* [faceIds](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a054bb75bbf88c08c5065b5f2f20dbf12)
-* [faceNodeConnectivity](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a4758c21d1ccd7b1ac07f231eb91e7540)
-* [faceNodeCounts](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a8b63b98b757af684ee7d111a7e11a586)
-* [faceTypes](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a791906023249db75a1b7437d7b5ca998)
-* [operator=](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1ac0a16bcbbdcd00ca7012bf562819f48f)
-* [operator=](structsysc_1_1FaceData.md#structsysc_1_1FaceData_1a7f2d32fe35d5a190ce8cbf8eeaef3635)
+* [faceCellConnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [faceIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [faceNodeConnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [faceNodeCounts](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [faceTypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData)
 
 ## Public attributes
 
@@ -50,7 +52,7 @@ Face ids.
 
 
 
-**Type**: [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData)
+**Type**: [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
 
 <a id="structsysc_1_1FaceData_1a791906023249db75a1b7437d7b5ca998"></a>
 ### Variable faceTypes
@@ -69,7 +71,7 @@ Face types.
 
 
 
-**Type**: [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData)
+**Type**: [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData)
 
 <a id="structsysc_1_1FaceData_1a8b63b98b757af684ee7d111a7e11a586"></a>
 ### Variable faceNodeCounts
@@ -88,7 +90,7 @@ Face node counts.
 
 
 
-**Type**: [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData)
+**Type**: [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData)
 
 <a id="structsysc_1_1FaceData_1a4758c21d1ccd7b1ac07f231eb91e7540"></a>
 ### Variable faceNodeConnectivity
@@ -107,7 +109,7 @@ Face-to-node connectivity.
 
 
 
-**Type**: [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData)
+**Type**: [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
 
 <a id="structsysc_1_1FaceData_1af34fb6e2c2337068f19700e6da494275"></a>
 ### Variable faceCellConnectivity
@@ -126,7 +128,7 @@ Face-to-cell connectivity.
 
 
 
-**Type**: [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData)
+**Type**: [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData)
 
 ## Public functions
 
@@ -147,11 +149,11 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) **faceIds**
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **faceTypes**
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) **faceIds**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **faceTypes**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
 
 **Return type**: 
 
@@ -172,10 +174,10 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **faceTypes**
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **faceTypes**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
 
 **Return type**: 
 
@@ -196,9 +198,9 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) **faceIds**
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **faceTypes**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) **faceIds**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **faceTypes**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
 
 **Return type**: 
 
@@ -219,10 +221,10 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) **faceIds**
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) **faceIds**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
 
 **Return type**: 
 
@@ -243,9 +245,9 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) **faceIds**
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) **faceIds**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
 
 **Return type**: 
 
@@ -266,8 +268,8 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
 
 **Return type**: 
 
@@ -288,8 +290,8 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **faceTypes**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **faceTypes**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
 
 **Return type**: 
 
@@ -310,9 +312,9 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementNodeCountData](structsysc_1_1ElementNodeCountData.md#structsysc_1_1ElementNodeCountData) **faceNodeCounts**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
+* [ElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeCountData) **faceNodeCounts**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
 
 **Return type**: 
 
@@ -333,9 +335,9 @@ Face data constructor.
 
 **Parameters**:
 
-* [ElementTypeData](structsysc_1_1ElementTypeData.md#structsysc_1_1ElementTypeData) **faceTypes**
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
-* [FaceCellConnectivityData](structsysc_1_1FaceCellConnectivityData.md#structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
+* [ElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementTypeData) **faceTypes**
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) **faceNodeConnectivity**
+* [FaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceCellConnectivityData) **faceCellConnectivity**
 
 **Return type**: 
 
@@ -373,7 +375,7 @@ Copy constructor.
 
 **Parameters**:
 
-* const [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &
+* const [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &
 
 **Return type**: 
 
@@ -394,7 +396,7 @@ Move constructor.
 
 **Parameters**:
 
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &&
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &&
 
 **Return type**: 
 
@@ -415,9 +417,9 @@ Copy-assign operator.
 
 **Parameters**:
 
-* const [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &
+* const [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &
 
-**Return type**: [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &
+**Return type**: [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &
 
 <a id="structsysc_1_1FaceData_1a7f2d32fe35d5a190ce8cbf8eeaef3635"></a>
 ### Function operator=
@@ -436,9 +438,9 @@ Move-assign operator.
 
 **Parameters**:
 
-* [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &&
+* [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &&
 
-**Return type**: [FaceData](structsysc_1_1FaceData.md#structsysc_1_1FaceData) &
+**Return type**: [FaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1FaceData) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

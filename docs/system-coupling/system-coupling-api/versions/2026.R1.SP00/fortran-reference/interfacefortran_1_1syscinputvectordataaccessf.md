@@ -1,4 +1,6 @@
-# Interface fortran::syscinputvectordataaccessf
+---
+title: "Interface fortran::syscinputvectordataaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide function interface for access to input vector data.
 
 ## Members
 
-* [syscinputvectordataaccessf](interfacefortran_1_1syscinputvectordataaccessf.md#interfacefortran_1_1syscinputvectordataaccessf_1a712060230fa9fd151677be39237363bb)
+* [syscinputvectordataaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscinputvectordataaccessf)
 
 ## Public functions
 
@@ -38,7 +40,7 @@ Provide a function for access to input vector data.
 * regionNameregionName
 * variableNamevariableName
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

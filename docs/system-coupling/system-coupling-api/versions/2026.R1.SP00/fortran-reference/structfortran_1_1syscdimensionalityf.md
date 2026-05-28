@@ -1,4 +1,6 @@
-# Type fortran::syscdimensionalityf undefined
+---
+title: "Type fortran::syscdimensionalityf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,14 +13,14 @@
 
 ## Members
 
-* [amountofsubstance](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1a5235cd2db0e7e179dd9e6dc41f4679cc)
-* [angle](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1a04d8e701e493a97d01756799587bd229)
-* [current](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1a2e6097c00f7fe5ee28132fba33900111)
-* [length](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1aff091ddc8931ad78f0e2c64ef7b3b952)
-* [luminousintensity](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1a9f030864e2800cf8b87849fb5edfc167)
-* [mass](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1ac25f47a144f2ec2d293551bd8b3688a8)
-* [temperature](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1a213f076fbfbb60cf9881061a7e98a4a2)
-* [time](structfortran_1_1syscdimensionalityf.md#structfortran_1_1syscdimensionalityf_1a0f5d0fcf252ec732768fd8935091ec6f)
+* [amountofsubstance](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [angle](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [current](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [length](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [luminousintensity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [mass](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [temperature](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
+* [time](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdimensionalityf)
 
 ## Public attributes
 

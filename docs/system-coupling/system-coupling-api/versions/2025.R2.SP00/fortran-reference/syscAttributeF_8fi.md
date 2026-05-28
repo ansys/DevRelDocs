@@ -1,4 +1,6 @@
-# File syscAttributeF.fi
+---
+title: "File syscAttributeF.fi"
+---
 
 ![][Fortran]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [fortran::syscintegerattributef](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef)
-* [fortran::syscgetintegerattributef](interfacefortran_1_1syscgetintegerattributef.md#interfacefortran_1_1syscgetintegerattributef)
-* [fortran::syscrealattributef](structfortran_1_1syscrealattributef.md#structfortran_1_1syscrealattributef)
-* [fortran::syscgetrealattributef](interfacefortran_1_1syscgetrealattributef.md#interfacefortran_1_1syscgetrealattributef)
+* [fortran::syscintegerattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscintegerattributef)
+* [fortran::syscgetintegerattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetintegerattributef)
+* [fortran::syscrealattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscrealattributef)
+* [fortran::syscgetrealattributef](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetrealattributef)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

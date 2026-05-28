@@ -1,4 +1,6 @@
-# Interface fortran::inputscalardataaccessintf
+---
+title: "Interface fortran::inputscalardataaccessintf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [inputscalardataaccessintf](interfacefortran_1_1inputscalardataaccessintf.md#interfacefortran_1_1inputscalardataaccessintf_1a76a579bf8a78326aed3e1459d7ab7240)
+* [inputscalardataaccessintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1inputscalardataaccessintf)
 
 ## Public functions
 
@@ -36,7 +38,7 @@ type(syscerrorf) function inputscalardataaccessintf(regionName, variableName, in
 * variableNamevariableName
 * inputScalarDatainputScalarData
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

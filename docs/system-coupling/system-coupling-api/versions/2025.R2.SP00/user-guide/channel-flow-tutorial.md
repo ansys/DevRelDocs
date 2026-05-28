@@ -1,4 +1,6 @@
-# Heat transfer in square channel air flow tutorial
+---
+title: "Heat transfer in square channel air flow tutorial"
+---
 
 This tutorial gives instructions on using System Coupling Participant Library
 APIs to create a mock solver and use it within the System Coupling co-simulation
@@ -20,7 +22,7 @@ The mock solver code is modified to be executed within the MPI environment.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](compiling-linking-executing.md)
+- A compiler for one of the [supported languages](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 - Ansys installation, including System Coupling and Fluent
 
 ## Problem description and participant setup
@@ -104,7 +106,7 @@ Directory containing the following files:
     information to be consumed by System Coupling. Note that this file has been
     pre-generated for this tutorial. For information about how to generate setup
     files using the Participant Library,
-    see [Completing the System Coupling Participant Setup](participant-setup.md) in the
+    see [Completing the System Coupling Participant Setup](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-setup) in the
     Participant Library Developer's Guide.
 
 - `runSerial.py`: System Coupling script file to setup and execute the coupled
@@ -124,7 +126,7 @@ demonstrated in the second part of this tutorial.
 
 Build the mock solver program using a compiler for one of the supported
 languages. For examples of how to build this mock solver with different
-compilers on different platforms, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
+compilers on different platforms, see [Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 in the Participant Library Developer's Guide.
 
 > **NOTE:** Pre-built solver executables are provided along with
@@ -177,7 +179,7 @@ Note that in order to use a Python solver, you should replace `ChannelFlowMockSo
 
 > **Note:** Alternatively, you can run System Coupling interactively. Start
 > System Coupling by running
-> `<ANSYSInstallationPath>/SystemCoupling/bin/systemcoupling` and then typing the
+> `&lt;ANSYSInstallationPath&gt;/SystemCoupling/bin/systemcoupling` and then typing the
 > contents of the script(s) into the command console line-by-line.
 
 You can monitor the solution progress by watching the transcript output.
@@ -276,14 +278,14 @@ the tutorial package. Refer to that source code and the comments for more
 implementation details.
 
 For more details on how to implement the Participant Library APIs for execution
-in a parallel environment, see [Execution in a Parallel Environment](parallel-execution.md) in the
+in a parallel environment, see [Execution in a Parallel Environment](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/parallel-execution) in the
 Participant Library _Developer's Guide_.
 
 ### Build the parallel mock solver
 
 Build the parallel mock solver program using a compiler for one of the supported
 languages. For examples of how to build this solver with different compilers on
-different platforms, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md) in the Participant
+different platforms, see [Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing) in the Participant
 Library _Developer's Guide_.
 
 > **Note:** Pre-built solver executables are provided along with
@@ -292,7 +294,7 @@ Library _Developer's Guide_.
 ### Run the parallel mock solver in standalone mode
 
 For examples of how to execute this solver in standalone mode with different
-compilers on different platforms, see [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
+compilers on different platforms, see [Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 in the Participant Library _Developer's Guide_.
 
 ### Perform the coupled analysis using the parallel mock solver

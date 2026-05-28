@@ -1,17 +1,19 @@
-# Contents pages
+---
+title: "Contents pages"
+---
 
-* [Global contents](global_contents.md)
-* [Structures](struct_contents.md)
-* [Classes](class_contents.md)
-* [Namespaces](namespace_contents.md)
-* [Files](file_contents.md)
-* [Modules](group_contents.md)
+* [Global contents](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/global_contents)
+* [Structures](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/struct_contents)
+* [Classes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/class_contents)
+* [Namespaces](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespace_contents)
+* [Files](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/file_contents)
+* [Modules](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/group_contents)
 
 # Index pages
 
-* [Global index](global_index.md)
-* [Structures](struct_index.md)
-* [Classes](class_index.md)
-* [Namespaces](namespace_index.md)
-* [Files](file_index.md)
-* [Modules](group_index.md)
+* [Global index](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/global_index)
+* [Structures](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/struct_index)
+* [Classes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/class_index)
+* [Namespaces](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespace_index)
+* [Files](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/file_index)
+* [Modules](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/group_index)

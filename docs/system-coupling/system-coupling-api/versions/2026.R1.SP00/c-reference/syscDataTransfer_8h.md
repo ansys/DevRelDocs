@@ -1,4 +1,6 @@
-# File syscDataTransfer.h
+---
+title: "File syscDataTransfer.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+* [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscVariable.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -57,7 +59,7 @@ Data transfer specifies the source and target variables for mapping.
 
 
 
-**Return type**: struct [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: struct [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 ## Functions
 
@@ -70,7 +72,7 @@ Data transfer specifies the source and target variables for mapping.
 SyscDataTransfer syscGetDataTransfer(SyscVariable sideOneVariable, SyscVariable sideTwoVariable, enum SyscInterfaceSide targetSide)
 ```
 
-Create a data transfer using side{One|Two}Variable.
+Create a data transfer using side&#123;One|Two&#125;Variable.
 
 **Parameters**:
 
@@ -82,11 +84,11 @@ Create a data transfer using side{One|Two}Variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **sideOneVariable**
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **sideTwoVariable**
-* enum [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5) **targetSide**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **sideOneVariable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **sideTwoVariable**
+* enum [SyscInterfaceSide](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **targetSide**
 
-**Return type**: [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadb07659695562864d8bc0df67bec847e"></a>
 ### Function syscGetDataTransferST
@@ -97,7 +99,7 @@ Create a data transfer using side{One|Two}Variable.
 SyscDataTransfer syscGetDataTransferST(SyscVariable sourceVariable, SyscVariable targetVariable, enum SyscInterfaceSide targetSide)
 ```
 
-Create a data transfer using {source|target}Variable.
+Create a data transfer using &#123;source|target&#125;Variable.
 
 **Parameters**:
 
@@ -109,11 +111,11 @@ Create a data transfer using {source|target}Variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **sourceVariable**
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **targetVariable**
-* enum [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5) **targetSide**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **sourceVariable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **targetVariable**
+* enum [SyscInterfaceSide](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **targetSide**
 
-**Return type**: [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 ## Source
 

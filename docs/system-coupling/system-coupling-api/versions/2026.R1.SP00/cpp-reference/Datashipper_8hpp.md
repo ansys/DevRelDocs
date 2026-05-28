@@ -1,4 +1,6 @@
-# File Datashipper.hpp
+---
+title: "File Datashipper.hpp"
+---
 
 ![][C++]
 
@@ -10,7 +12,7 @@
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 

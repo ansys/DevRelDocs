@@ -1,4 +1,6 @@
-# Interface fortran::syscgetnumoutputvariablesf
+---
+title: "Interface fortran::syscgetnumoutputvariablesf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to return the number of output variables.
 
 ## Members
 
-* [syscgetnumoutputvariablesf](interfacefortran_1_1syscgetnumoutputvariablesf.md#interfacefortran_1_1syscgetnumoutputvariablesf_1a3c431d54510478e7ae11c546a470d69a)
+* [syscgetnumoutputvariablesf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetnumoutputvariablesf)
 
 ## Public functions
 

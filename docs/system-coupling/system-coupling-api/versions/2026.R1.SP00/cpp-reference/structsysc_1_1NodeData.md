@@ -1,4 +1,6 @@
-# Structure sysc::NodeData
+---
+title: "Structure sysc::NodeData"
+---
 
 ![][C++]
 ![][public]
@@ -11,15 +13,15 @@ Node data access struct, provides read-only access to the mesh nodes.
 
 ## Members
 
-* [nodeCoords](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1abdcd98cafd25df6b765a63447f8f31a4)
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a7ed7002dbee2dc944811525ea916815c)
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a31950cfc2da55dd8da96b7f33f90fef0)
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a69294cbb76cbfb7736b77c3b15518407)
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1ae5b86f2e6b88d7354620bc6013e7301c)
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1acc9254f0f146c5bffc87b4f23aa74507)
-* [nodeIds](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a2b8d2f98597580854d5698d9a600f367)
-* [operator=](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a5ab4a36630d10f598a06b7a20dfdef63)
-* [operator=](structsysc_1_1NodeData.md#structsysc_1_1NodeData_1a2da12b3830da1280d59254e4a671aa64)
+* [nodeCoords](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [nodeIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData)
 
 ## Public attributes
 
@@ -40,7 +42,7 @@ Node ids array access.
 
 
 
-**Type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 <a id="structsysc_1_1NodeData_1abdcd98cafd25df6b765a63447f8f31a4"></a>
 ### Variable nodeCoords
@@ -59,7 +61,7 @@ Node coordinates array access.
 
 
 
-**Type**: [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData)
+**Type**: [OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputVectorData)
 
 ## Public functions
 
@@ -80,8 +82,8 @@ Constructor that takes node ids and node coords in same order.
 
 **Parameters**:
 
-* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **nodeIds**
-* [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **nodeCoords**
+* [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData) **nodeIds**
+* [OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputVectorData) **nodeCoords**
 
 **Return type**: 
 
@@ -102,7 +104,7 @@ Constructor that takes only node coords in ascending node ids order.
 
 **Parameters**:
 
-* [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **nodeCoords**
+* [OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputVectorData) **nodeCoords**
 
 **Return type**: 
 
@@ -140,7 +142,7 @@ Copy constructor.
 
 **Parameters**:
 
-* const [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &
+* const [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &
 
 **Return type**: 
 
@@ -161,7 +163,7 @@ Move constructor.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &&
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &&
 
 **Return type**: 
 
@@ -182,9 +184,9 @@ Copy-assign operator.
 
 **Parameters**:
 
-* const [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &
+* const [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &
 
-**Return type**: [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &
+**Return type**: [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &
 
 <a id="structsysc_1_1NodeData_1a2da12b3830da1280d59254e4a671aa64"></a>
 ### Function operator=
@@ -203,9 +205,9 @@ Move-assign operator.
 
 **Parameters**:
 
-* [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &&
+* [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &&
 
-**Return type**: [NodeData](structsysc_1_1NodeData.md#structsysc_1_1NodeData) &
+**Return type**: [NodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1NodeData) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

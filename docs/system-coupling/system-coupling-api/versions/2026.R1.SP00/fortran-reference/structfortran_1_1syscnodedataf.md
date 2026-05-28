@@ -1,4 +1,6 @@
-# Type fortran::syscnodedataf undefined
+---
+title: "Type fortran::syscnodedataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@
 
 ## Members
 
-* [nodecoords](structfortran_1_1syscnodedataf.md#structfortran_1_1syscnodedataf_1ada1acb5d25c5ab0e62ade22161a73b14)
-* [nodeids](structfortran_1_1syscnodedataf.md#structfortran_1_1syscnodedataf_1a34207f80097afcc6f7e37b61187e604e)
+* [nodecoords](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscnodedataf)
+* [nodeids](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscnodedataf)
 
 ## Public attributes
 
@@ -33,7 +35,7 @@ Node ids.
 
 
 
-**Type**: type([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf))
+**Type**: type([syscoutputintegerdataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf))
 
 <a id="structfortran_1_1syscnodedataf_1ada1acb5d25c5ab0e62ade22161a73b14"></a>
 ### Variable nodecoords
@@ -52,7 +54,7 @@ Node coords.
 
 
 
-**Type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf))
+**Type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf))
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

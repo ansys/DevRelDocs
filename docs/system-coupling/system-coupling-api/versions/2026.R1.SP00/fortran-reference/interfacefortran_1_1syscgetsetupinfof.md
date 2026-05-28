@@ -1,4 +1,6 @@
-# Interface fortran::syscgetsetupinfof
+---
+title: "Interface fortran::syscgetsetupinfof"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,12 +13,12 @@ Provide an interface to get a setup info type.
 
 ## Members
 
-* [syscgetsetupinfof](interfacefortran_1_1syscgetsetupinfof.md#interfacefortran_1_1syscgetsetupinfof_1a73374df2183a799e03180e006525fcfe)
-* [syscgetsetupinfof\_a](interfacefortran_1_1syscgetsetupinfof.md#interfacefortran_1_1syscgetsetupinfof_1af89452107509346cb3968adad6f1c6d9)
-* [syscgetsetupinfof\_ar](interfacefortran_1_1syscgetsetupinfof.md#interfacefortran_1_1syscgetsetupinfof_1ac3020d59c6b0721f63232f77546a302e)
-* [syscgetsetupinfof\_ard](interfacefortran_1_1syscgetsetupinfof.md#interfacefortran_1_1syscgetsetupinfof_1a3c851b3d577d4f00298c0f2359156269)
-* [syscgetsetupinfof\_ardt](interfacefortran_1_1syscgetsetupinfof.md#interfacefortran_1_1syscgetsetupinfof_1a46881d97ac682f3165cfaa087727300c)
-* [syscgetsetupinfof\_ardtp](interfacefortran_1_1syscgetsetupinfof.md#interfacefortran_1_1syscgetsetupinfof_1adf37a5cca854da5d6902fd1a078fa52c)
+* [syscgetsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetsetupinfof)
+* [syscgetsetupinfof\_a](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetsetupinfof)
+* [syscgetsetupinfof\_ar](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetsetupinfof)
+* [syscgetsetupinfof\_ard](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetsetupinfof)
+* [syscgetsetupinfof\_ardt](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetsetupinfof)
+* [syscgetsetupinfof\_ardtp](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetsetupinfof)
 
 ## Public functions
 
@@ -44,7 +46,7 @@ a SyscSetupInfoF type.
 
 
 
-**Return type**: type([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)) function
+**Return type**: type([syscsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupinfof)) function
 
 <a id="interfacefortran_1_1syscgetsetupinfof_1af89452107509346cb3968adad6f1c6d9"></a>
 ### Function syscgetsetupinfof\_a
@@ -78,7 +80,7 @@ a SyscSetupInfoF type.
 
 * analysisTypeanalysisType
 
-**Return type**: type([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)) function
+**Return type**: type([syscsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupinfof)) function
 
 <a id="interfacefortran_1_1syscgetsetupinfof_1ac3020d59c6b0721f63232f77546a302e"></a>
 ### Function syscgetsetupinfof\_ar
@@ -114,7 +116,7 @@ a SyscSetupInfoF type.
 * analysisTypeanalysisType
 * restartsSupportedrestartsSupported
 
-**Return type**: type([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)) function
+**Return type**: type([syscsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupinfof)) function
 
 <a id="interfacefortran_1_1syscgetsetupinfof_1a3c851b3d577d4f00298c0f2359156269"></a>
 ### Function syscgetsetupinfof\_ard
@@ -152,7 +154,7 @@ a SyscSetupInfoF type.
 * restartsSupportedrestartsSupported
 * dimensiondimension
 
-**Return type**: type([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)) function
+**Return type**: type([syscsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupinfof)) function
 
 <a id="interfacefortran_1_1syscgetsetupinfof_1a46881d97ac682f3165cfaa087727300c"></a>
 ### Function syscgetsetupinfof\_ardt
@@ -186,7 +188,7 @@ a SyscSetupInfoF type.
 * dimensiondimension
 * timeIntegrationtimeIntegration
 
-**Return type**: type([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)) function
+**Return type**: type([syscsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupinfof)) function
 
 <a id="interfacefortran_1_1syscgetsetupinfof_1adf37a5cca854da5d6902fd1a078fa52c"></a>
 ### Function syscgetsetupinfof\_ardtp
@@ -222,7 +224,7 @@ a SyscSetupInfoF type.
 * timeIntegrationtimeIntegration
 * participantTypeparticipantType
 
-**Return type**: type([syscsetupinfof](structfortran_1_1syscsetupinfof.md#structfortran_1_1syscsetupinfof)) function
+**Return type**: type([syscsetupinfof](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupinfof)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

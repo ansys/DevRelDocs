@@ -1,4 +1,6 @@
-# File syscMeshDefinition.h
+---
+title: "File syscMeshDefinition.h"
+---
 
 ![][C]
 
@@ -10,15 +12,15 @@
 
 ## Classes
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData)
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
-* [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData)
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
-* [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
-* [SyscCellData](structSyscCellData.md#structSyscCellData)
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData)
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
+* [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellIdData)
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
+* [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
+* [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 ## Includes
 
@@ -26,8 +28,8 @@
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscOutputIntegerData.h
 * SystemCouplingParticipant/syscOutputVectorData.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -71,7 +73,7 @@ Returns an empty mesh node data access struct. All member will be assigned defau
 
 
 
-**Return type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Return type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8b43e51f7a5fa3f6a2d280c177ca3f8e"></a>
 ### Function syscGetNodeDataIC
@@ -90,10 +92,10 @@ Create a mesh node data access struct, given node ids and node coords in same or
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **nodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
 
-**Return type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Return type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf5a3d9825d0c59c4517ccaccb332e6b5"></a>
 ### Function syscGetNodeDataC
@@ -112,9 +114,9 @@ Creates a mesh node data access struct, given node coordinates in ascending node
 
 **Parameters**:
 
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
 
-**Return type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Return type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac9a38bc69d5b0a77d09be64f73693f46"></a>
 ### Function syscGetElementTypeDataEmpty
@@ -131,7 +133,7 @@ Returns an empty mesh element type data access struct. All member will be assign
 
 
 
-**Return type**: [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
+**Return type**: [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0edaf6355561dfffffeeea47d5ff796d"></a>
 ### Function syscGetElementTypeData
@@ -150,9 +152,9 @@ Create an mesh element type data access struct, given element types.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elemTypes**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elemTypes**
 
-**Return type**: [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
+**Return type**: [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga621f044b4d075369865572cc0d68aa97"></a>
 ### Function syscGetElementNodeCountDataEmpty
@@ -169,7 +171,7 @@ Returns an empty mesh element node count data access struct. All member will be 
 
 
 
-**Return type**: [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData)
+**Return type**: [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga69b8dd901387b03935a8f2aa4c576903"></a>
 ### Function syscGetElementNodeCountData
@@ -188,9 +190,9 @@ Create an mesh element node count data access struct, given element node counts.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elemNodeCount**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elemNodeCount**
 
-**Return type**: [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData)
+**Return type**: [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga827af0f4c18717284c76b8804056a24d"></a>
 ### Function syscGetElementNodeConnectivityDataEmpty
@@ -207,7 +209,7 @@ Returns an empty element-to-node connectivity data access struct. All member wil
 
 
 
-**Return type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
+**Return type**: [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae4888763deed0388634cd4174e06a027"></a>
 ### Function syscGetElementNodeConnectivityData
@@ -226,9 +228,9 @@ Create an element-to-node connectivity data access struct, given element node id
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elemNodeIds**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elemNodeIds**
 
-**Return type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
+**Return type**: [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5efb9f82d5def3b2399291a763d72d65"></a>
 ### Function syscGetFaceCellConnectivityDataEmpty
@@ -245,7 +247,7 @@ Create empty face-to-cell connectivity.
 
 
 
-**Return type**: [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
+**Return type**: [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga604b682ca22d2b4898d6aedae4d9fb1c"></a>
 ### Function syscGetFaceCellConnectivityData
@@ -264,10 +266,10 @@ Create face-to-cell connectivity given cell0 and cell1 arrays.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **cell0Ids**
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **cell1Ids**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **cell0Ids**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **cell1Ids**
 
-**Return type**: [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
+**Return type**: [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9c98c0bc4f190c90ec8bb034ab6e6781"></a>
 ### Function syscGetCellIdDataEmpty
@@ -284,7 +286,7 @@ Create empty cell id data.
 
 
 
-**Return type**: [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData)
+**Return type**: [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf52ba7465086cb0c3faf0a6b9473853e"></a>
 ### Function syscGetCellIdData
@@ -303,9 +305,9 @@ Create cell id data given cell ids array.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **cellIds**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **cellIds**
 
-**Return type**: [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData)
+**Return type**: [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7c6f7645530e97adaa7fca97bebbf050"></a>
 ### Function syscGetElementIdDataEmpty
@@ -322,7 +324,7 @@ Create empty element id data.
 
 
 
-**Return type**: [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
+**Return type**: [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1d1688e7751b27c15a57a78a244b0261"></a>
 ### Function syscGetElementIdData
@@ -341,9 +343,9 @@ Create cell id data given cell ids array.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elementIds**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elementIds**
 
-**Return type**: [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
+**Return type**: [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5fe1aa7a9f98270030fc7138c4860217"></a>
 ### Function syscGetFaceDataEmpty
@@ -360,7 +362,7 @@ Create empty face data.
 
 
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadc25b2855aac9a4c02706bb94cb1d47e"></a>
 ### Function syscGetFaceDataITCNF
@@ -379,13 +381,13 @@ Create face data given face ids, types, node counts, node-to-face connectivity, 
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **faceIds**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **faceTypes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **faceIds**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **faceTypes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab1f554f37a4e5dc06cdfc15d7ca4b6c7"></a>
 ### Function syscGetFaceDataICNF
@@ -404,12 +406,12 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **faceIds**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **faceIds**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7fecaea46eac9057909b0d0901cfbea8"></a>
 ### Function syscGetFaceDataITN
@@ -428,11 +430,11 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **faceIds**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **faceTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **faceIds**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **faceTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae75c9db974a962c76ce593cc24ddd85c"></a>
 ### Function syscGetFaceDataCN
@@ -451,10 +453,10 @@ Create face data given face node counts, node-to-face connectivity.
 
 **Parameters**:
 
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaea5a7a8c0e8b5424fbaa50edb7bc32ce"></a>
 ### Function syscGetCellDataEmpty
@@ -471,7 +473,7 @@ Create empty cell data.
 
 
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabc9c52c2b18a3bbb00d87891b4039315"></a>
 ### Function syscGetCellDataITN
@@ -490,11 +492,11 @@ Create cell data given cell ids, types, cell-to-node connectivity.
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **cellIds**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **cellTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **cellNodeConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **cellIds**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **cellTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **cellNodeConnectivity**
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadb4f24988bf2684dd5bb9d6032a37fca"></a>
 ### Function syscGetCellDataI
@@ -513,9 +515,9 @@ Create cell data given cell ids.
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **cellIds**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **cellIds**
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga900dee185f65895511a89b29af40c6f8"></a>
 ### Function syscGetCellDataTN
@@ -534,10 +536,10 @@ Create cell data given cell types, cell-to-node connectivity.
 
 **Parameters**:
 
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **cellTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **cellNodeConnectivity**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **cellTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **cellNodeConnectivity**
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 ## Source
 

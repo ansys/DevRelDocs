@@ -1,4 +1,6 @@
-# File syscSurfaceMesh.h
+---
+title: "File syscSurfaceMesh.h"
+---
 
 ![][C]
 
@@ -10,15 +12,15 @@
 
 ## Classes
 
-* [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+* [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscMeshDefinition.h
 * SystemCouplingParticipant/syscOutputScalarData.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -59,7 +61,7 @@ Returns a struct representing empty surface mesh. All member will be assigned de
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gafad33a17c7266f386e1bf42c66a9340f"></a>
 ### Function syscGetSurfaceMeshNF
@@ -81,10 +83,10 @@ Create a surface mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscFaceData](structSyscFaceData.md#structSyscFaceData) **faces**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscFaceData) **faces**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf61b2f4b29e77812cee161e63ff28e34"></a>
 ### Function syscGetSurfaceMeshNTCI
@@ -115,12 +117,12 @@ Both element types and element node counts are provided.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **elemTypes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **elemNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementTypeData) **elemTypes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeCountData) **elemNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga239ac08da048715f5832302851960053"></a>
 ### Function syscGetSurfaceMeshNCI
@@ -150,11 +152,11 @@ Element node counts are provided, element types are deduced from element node co
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **elemNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeCountData) **elemNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga734facb70a9948732d08eaccf4bb5102"></a>
 ### Function syscGetSurfaceMeshNCIF
@@ -185,12 +187,12 @@ Element node counts are provided, element types are deduced from element node co
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **elemNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivty**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeCountData) **elemNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivty**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga481a20e443f5b245640441f47e455c67"></a>
 ### Function syscGetSurfaceMeshNTI
@@ -220,11 +222,11 @@ Element types are provided, element node counts are deduced from element types.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **elemTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementTypeData) **elemTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0241a6779e5c1e1dc0a339893805a9dd"></a>
 ### Function syscGetSurfaceMeshA
@@ -255,12 +257,12 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 **Parameters**:
 
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeCounts**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeIds**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData) **nodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData) **elemNodeCounts**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData) **elemNodeIds**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0745adffa475d10edb703906ed5d2772"></a>
 ### Function syscGetSurfaceMeshB
@@ -290,11 +292,11 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 **Parameters**:
 
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeCounts**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData) **elemNodeCounts**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData) **elemNodeIds**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 ## Source
 

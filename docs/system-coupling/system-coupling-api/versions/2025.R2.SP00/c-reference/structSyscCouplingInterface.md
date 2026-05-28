@@ -1,4 +1,6 @@
-# Structure SyscCouplingInterface
+---
+title: "Structure SyscCouplingInterface"
+---
 
 ![][C]
 ![][public]
@@ -19,7 +21,7 @@ All regions on one side of the interface must have the same topology.
 
 
 
-To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) struct, it is highly recommended to use the <code>syscGetCouplingInterface</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscCouplingInterface) struct, it is highly recommended to use the <code>syscGetCouplingInterface</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -31,7 +33,7 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 ## Members
 
-* [name](structSyscCouplingInterface.md#structSyscCouplingInterface_1a9e710b35f442c7e5e95c64b45df2ff24)
+* [name](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscCouplingInterface)
 
 ## Public attributes
 

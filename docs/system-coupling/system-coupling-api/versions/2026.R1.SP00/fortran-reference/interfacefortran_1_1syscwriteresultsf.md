@@ -1,4 +1,6 @@
-# Interface fortran::syscwriteresultsf
+---
+title: "Interface fortran::syscwriteresultsf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to write results.
 
 ## Members
 
-* [syscwriteresultsf](interfacefortran_1_1syscwriteresultsf.md#interfacefortran_1_1syscwriteresultsf_1ab940b03d93183df361c29ce3a6392de3)
+* [syscwriteresultsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscwriteresultsf)
 
 ## Public functions
 
@@ -34,7 +36,7 @@ Provide a function to write the results.
 
 * resultsInforesultsInfo
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

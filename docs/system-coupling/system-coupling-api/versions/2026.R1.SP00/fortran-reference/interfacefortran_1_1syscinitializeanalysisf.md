@@ -1,4 +1,6 @@
-# Interface fortran::syscinitializeanalysisf
+---
+title: "Interface fortran::syscinitializeanalysisf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to notify System Coupling that analysis initialization can 
 
 ## Members
 
-* [syscinitializeanalysisf](interfacefortran_1_1syscinitializeanalysisf.md#interfacefortran_1_1syscinitializeanalysisf_1ac5f7b665a8edcea5950424daef7b3f26)
+* [syscinitializeanalysisf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscinitializeanalysisf)
 
 ## Public functions
 
@@ -45,7 +47,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

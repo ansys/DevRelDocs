@@ -1,4 +1,6 @@
-# Structure SyscElementNodeConnectivityData
+---
+title: "Structure SyscElementNodeConnectivityData"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Element node connectivity access struct, provides read-only access to the element-to-node connectivity.
 
-To create and/or initialize [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData), it is highly recommended to use one of the functions with names starting with <code>syscGetElementNodeConnectivityData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData), it is highly recommended to use one of the functions with names starting with <code>syscGetElementNodeConnectivityData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -20,7 +22,7 @@ syscGetElementNodeConnectivityData(elemNodeIds);
 
 ## Members
 
-* [elementNodeIds](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData_1a08dfd1139cb4d1b40de4480d91a87565)
+* [elementNodeIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 ## Public attributes
 
@@ -41,7 +43,7 @@ Element-to-node connectivity array.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

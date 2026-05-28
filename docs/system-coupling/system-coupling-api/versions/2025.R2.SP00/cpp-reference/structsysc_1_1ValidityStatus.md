@@ -1,4 +1,6 @@
-# Structure sysc::ValidityStatus
+---
+title: "Structure sysc::ValidityStatus"
+---
 
 ![][C++]
 ![][public]
@@ -11,10 +13,10 @@ Provide a struct that contains information about validity.
 
 ## Members
 
-* [isValid](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1ac45ce7d05d6ab0126511da670f3e10a9)
-* [message](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1ad78928b787427d9c0edf9e7a1e3d857c)
-* [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1a6f7ad1e877aa19ab835c1023164f9c65)
-* [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus_1a11dcd716f4542e1231c0e2ec25ff0d71)
+* [isValid](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ValidityStatus)
+* [message](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ValidityStatus)
+* [ValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ValidityStatus)
+* [ValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ValidityStatus)
 
 ## Public attributes
 
@@ -84,7 +86,7 @@ sysc::ValidityStatus::ValidityStatus()
 sysc::ValidityStatus::ValidityStatus(bool isValid, std::string message)
 ```
 
-Provide a non-default constructor for [ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus).
+Provide a non-default constructor for [ValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ValidityStatus).
 
 **Parameters**:
 

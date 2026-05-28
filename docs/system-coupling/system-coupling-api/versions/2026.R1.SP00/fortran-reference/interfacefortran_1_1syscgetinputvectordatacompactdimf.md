@@ -1,4 +1,6 @@
-# Interface fortran::syscgetinputvectordatacompactdimf
+---
+title: "Interface fortran::syscgetinputvectordatacompactdimf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,10 +13,10 @@ Provide an interface to get input vector data with compact storage based on dime
 
 ## Members
 
-* [syscgetinputvectordatacompactdimf\_r41d](interfacefortran_1_1syscgetinputvectordatacompactdimf.md#interfacefortran_1_1syscgetinputvectordatacompactdimf_1aa3d515558f3000a9fb0665a9ae28eeaa)
-* [syscgetinputvectordatacompactdimf\_r42d](interfacefortran_1_1syscgetinputvectordatacompactdimf.md#interfacefortran_1_1syscgetinputvectordatacompactdimf_1ac3ae853697a231bd047767a7f3585854)
-* [syscgetinputvectordatacompactdimf\_r81d](interfacefortran_1_1syscgetinputvectordatacompactdimf.md#interfacefortran_1_1syscgetinputvectordatacompactdimf_1a8586f25cee2cac6419af313ab0c5b6cc)
-* [syscgetinputvectordatacompactdimf\_r82d](interfacefortran_1_1syscgetinputvectordatacompactdimf.md#interfacefortran_1_1syscgetinputvectordatacompactdimf_1a4974af83de7113830927bec0d27f67b7)
+* [syscgetinputvectordatacompactdimf\_r41d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatacompactdimf)
+* [syscgetinputvectordatacompactdimf\_r42d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatacompactdimf)
+* [syscgetinputvectordatacompactdimf\_r81d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatacompactdimf)
+* [syscgetinputvectordatacompactdimf\_r82d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatacompactdimf)
 
 ## Public functions
 
@@ -43,7 +45,7 @@ Create an input vector data access type with compact storage. based on dimension
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetinputvectordatacompactdimf_1a8586f25cee2cac6419af313ab0c5b6cc"></a>
 ### Function syscgetinputvectordatacompactdimf\_r81d
@@ -70,7 +72,7 @@ Create an input vector data access type with compact storage based on dimension.
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetinputvectordatacompactdimf_1ac3ae853697a231bd047767a7f3585854"></a>
 ### Function syscgetinputvectordatacompactdimf\_r42d
@@ -97,7 +99,7 @@ Create an input vector data access type with compact storage based on dimension.
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetinputvectordatacompactdimf_1a4974af83de7113830927bec0d27f67b7"></a>
 ### Function syscgetinputvectordatacompactdimf\_r82d
@@ -124,7 +126,7 @@ Create an input vector data access type with compact storage based on dimension.
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Interface fortran::syscgetinput2dvectordatasplitf
+---
+title: "Interface fortran::syscgetinput2dvectordatasplitf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,10 +13,10 @@ Provide an interface to get 2D input vector data.
 
 ## Members
 
-* [syscgetinput2dvectordatasplitf\_r42d](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1afdd442b99555d504ed7ae6452f05d4ec)
-* [syscgetinput2dvectordatasplitf\_r43a](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1ac3a4f638961a67225f5547f38ee4e409)
-* [syscgetinput2dvectordatasplitf\_r82d](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a6a314a0093b9fc2c5f2d5cac730d29b6)
-* [syscgetinput2dvectordatasplitf\_r83a](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf_1a7412d1de460be591d377e347870e8b2d)
+* [syscgetinput2dvectordatasplitf\_r42d](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinput2dvectordatasplitf)
+* [syscgetinput2dvectordatasplitf\_r43a](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinput2dvectordatasplitf)
+* [syscgetinput2dvectordatasplitf\_r82d](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinput2dvectordatasplitf)
+* [syscgetinput2dvectordatasplitf\_r83a](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinput2dvectordatasplitf)
 
 ## Public functions
 
@@ -43,7 +45,7 @@ Create an 2D input vector data access type with split storage.
 * data1data1
 * dataSizedataSize
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a7412d1de460be591d377e347870e8b2d"></a>
 ### Function syscgetinput2dvectordatasplitf\_r83a
@@ -70,7 +72,7 @@ Create an 2D input vector data access type with split storage.
 * data1data1
 * dataSizedataSize
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1afdd442b99555d504ed7ae6452f05d4ec"></a>
 ### Function syscgetinput2dvectordatasplitf\_r42d
@@ -95,7 +97,7 @@ Create an 2D input vector data access type with split storage.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetinput2dvectordatasplitf_1a6a314a0093b9fc2c5f2d5cac730d29b6"></a>
 ### Function syscgetinput2dvectordatasplitf\_r82d
@@ -120,7 +122,7 @@ Create an 2D input vector data access type with split storage.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

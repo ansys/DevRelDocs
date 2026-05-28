@@ -1,4 +1,6 @@
-# C++ Interfaces for Participant Library
+---
+title: "C++ Interfaces for Participant Library"
+---
 
 Provides C++ interfaces to the System Coupling participant library.
 
@@ -1026,7 +1028,7 @@ using sysc::InputScalarDataAccess = typedef InputScalarData( const RegionName&, 
 
 Provide function prototype for access to input scalar data.
 
-This function takes in the region and variable names and returns an [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1045,7 +1047,7 @@ using sysc::InputScalarDataAccessWithPointer = typedef InputScalarData( OpaqueDa
 
 Provide function prototype for access to input scalar data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1064,7 +1066,7 @@ using sysc::InputVectorDataAccess = typedef InputVectorData( const RegionName&, 
 
 Provide function prototype for access to input vector data.
 
-This function takes in the region and variable names and returns an [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1083,7 +1085,7 @@ using sysc::InputVectorDataAccessWithPointer = typedef InputVectorData( OpaqueDa
 
 Provide function prototype for access to input vector data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1102,7 +1104,7 @@ using sysc::OutputScalarDataAccess = typedef OutputScalarData( const RegionName&
 
 Provide function prototype for access to output scalar data.
 
-This function takes in the region and variable names and returns an [OutputScalarData](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [OutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1121,7 +1123,7 @@ using sysc::OutputScalarDataAccessWithPointer = typedef OutputScalarData( Opaque
 
 Provide function prototype for access to output scalar data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputScalarData](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1140,7 +1142,7 @@ using sysc::OutputVectorDataAccess = typedef OutputVectorData( const RegionName&
 
 Provide function prototype for access to output vector data.
 
-This function takes in the region and variable names and returns an [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1159,7 +1161,7 @@ using sysc::OutputVectorDataAccessWithPointer = typedef OutputVectorData( Opaque
 
 Provide function prototype for access to output vector data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1178,7 +1180,7 @@ using sysc::InputComplexScalarDataAccess = typedef InputComplexScalarData( const
 
 Provide function prototype for access to input complex scalar data.
 
-This function takes in the region and variable names and returns an [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1197,7 +1199,7 @@ using sysc::InputComplexScalarDataAccessWithPointer = typedef InputComplexScalar
 
 Provide function prototype for access to input complex scalar data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1216,7 +1218,7 @@ using sysc::InputComplexVectorDataAccess = typedef InputComplexVectorData( const
 
 Provide function prototype for access to input complex vector data.
 
-This function takes in the region and variable names and returns an [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1235,7 +1237,7 @@ using sysc::InputComplexVectorDataAccessWithPointer = typedef InputComplexVector
 
 Provide function prototype for access to input complex vector data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputComplexVectorData](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [InputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputComplexVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1254,7 +1256,7 @@ using sysc::OutputComplexScalarDataAccess = typedef OutputComplexScalarData( con
 
 Provide function prototype for access to output complex scalar data.
 
-This function takes in the region and variable names and returns an [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1273,7 +1275,7 @@ using sysc::OutputComplexScalarDataAccessWithPointer = typedef OutputComplexScal
 
 Provide function prototype for access to output complex scalar data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1292,7 +1294,7 @@ using sysc::OutputComplexVectorDataAccess = typedef OutputComplexVectorData( con
 
 Provide function prototype for access to output complex vector data.
 
-This function takes in the region and variable names and returns an [OutputComplexVectorData](classsysc_1_1OutputComplexVectorData.md#classsysc_1_1OutputComplexVectorData) object which provides access to the field data for that variable on that region.
+This function takes in the region and variable names and returns an [OutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1311,7 +1313,7 @@ using sysc::OutputComplexVectorDataAccessWithPointer = typedef OutputComplexVect
 
 Provide function prototype for access to output complex vector data.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputComplexVectorData](classsysc_1_1OutputComplexVectorData.md#classsysc_1_1OutputComplexVectorData) object which provides access to the field data for that variable on that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region and variable names and returns an [OutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexVectorData) object which provides access to the field data for that variable on that region.
 
 
 
@@ -1330,7 +1332,7 @@ using sysc::SurfaceMeshAccess = typedef SurfaceMesh(const RegionName&)
 
 Provide alias for function that provides access to surface mesh.
 
-This function takes in a region name and returns a [SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh) object which provides access to the surface mesh of that region. Topology of this region must be surface.
+This function takes in a region name and returns a [SurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SurfaceMesh) object which provides access to the surface mesh of that region. Topology of this region must be surface.
 
 
 
@@ -1349,7 +1351,7 @@ using sysc::SurfaceMeshAccessWithPointer = typedef SurfaceMesh( OpaqueDataAccess
 
 Provide alias for function that provides access to surface mesh.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region name and returns a [SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh) object which provides access to the surface mesh of that region. Topology of this region must be surface.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region name and returns a [SurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SurfaceMesh) object which provides access to the surface mesh of that region. Topology of this region must be surface.
 
 
 
@@ -1368,7 +1370,7 @@ using sysc::VolumeMeshAccess = typedef VolumeMesh(const RegionName&)
 
 Provide alias for function that provides access to volume mesh.
 
-This function takes in a region name and returns a [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) object which provides access to the volume mesh of that region. Topology of this region must be volume.
+This function takes in a region name and returns a [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) object which provides access to the volume mesh of that region. Topology of this region must be volume.
 
 
 
@@ -1387,7 +1389,7 @@ using sysc::VolumeMeshAccessWithPointer = typedef VolumeMesh( OpaqueDataAccess, 
 
 Provide alias for function that provides access to volume mesh.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region name and returns a [VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) object which provides access to the volume mesh of that region. Topology of this region must be volume.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region name and returns a [VolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1VolumeMesh) object which provides access to the volume mesh of that region. Topology of this region must be volume.
 
 
 
@@ -1406,7 +1408,7 @@ using sysc::PointCloudAccess = typedef PointCloud(const RegionName&)
 
 Provide alias for function that provides access to point cloud.
 
-This function takes in a region name and returns a [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) object which provides access to the point cloud of that region.
+This function takes in a region name and returns a [PointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1PointCloud) object which provides access to the point cloud of that region.
 
 
 
@@ -1425,7 +1427,7 @@ using sysc::PointCloudAccessWithPointer = typedef PointCloud( OpaqueDataAccess, 
 
 Provide alias for function that provides access to point cloud.
 
-This function takes the opaque pointer that is passed when this function is registered, as well as the region name and returns a [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) object which provides access to the point cloud of that region.
+This function takes the opaque pointer that is passed when this function is registered, as well as the region name and returns a [PointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1PointCloud) object which provides access to the point cloud of that region.
 
 
 

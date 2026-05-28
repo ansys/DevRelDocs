@@ -1,4 +1,6 @@
-# Interface fortran::syscaddsidetworegionf
+---
+title: "Interface fortran::syscaddsidetworegionf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to add side two region.
 
 ## Members
 
-* [syscaddsidetworegionf](interfacefortran_1_1syscaddsidetworegionf.md#interfacefortran_1_1syscaddsidetworegionf_1a9bd8b8ff8727de23eabd530fef19e5ac)
+* [syscaddsidetworegionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscaddsidetworegionf)
 
 ## Public functions
 
@@ -63,7 +65,7 @@ If the region name contains invalid characters, a runtime error will be thrown.
 * interfaceinterface
 * regionregion
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

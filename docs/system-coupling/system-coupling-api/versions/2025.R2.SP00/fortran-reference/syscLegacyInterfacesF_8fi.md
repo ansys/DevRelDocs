@@ -1,4 +1,6 @@
-# File syscLegacyInterfacesF.fi
+---
+title: "File syscLegacyInterfacesF.fi"
+---
 
 ![][Fortran]
 
@@ -10,19 +12,19 @@
 
 ## Classes
 
-* [fortran::sysccompletecouplingsetupf](interfacefortran_1_1sysccompletecouplingsetupf.md#interfacefortran_1_1sysccompletecouplingsetupf)
-* [fortran::inputscalardataaccessintf](interfacefortran_1_1inputscalardataaccessintf.md#interfacefortran_1_1inputscalardataaccessintf)
-* [fortran::inputvectordataaccessintf](interfacefortran_1_1inputvectordataaccessintf.md#interfacefortran_1_1inputvectordataaccessintf)
-* [fortran::outputscalardataaccessintf](interfacefortran_1_1outputscalardataaccessintf.md#interfacefortran_1_1outputscalardataaccessintf)
-* [fortran::outputvectordataaccessintf](interfacefortran_1_1outputvectordataaccessintf.md#interfacefortran_1_1outputvectordataaccessintf)
-* [fortran::syscregisterinputscalarvariableaccessf](interfacefortran_1_1syscregisterinputscalarvariableaccessf.md#interfacefortran_1_1syscregisterinputscalarvariableaccessf)
-* [fortran::syscregisterinputvectorvariableaccessf](interfacefortran_1_1syscregisterinputvectorvariableaccessf.md#interfacefortran_1_1syscregisterinputvectorvariableaccessf)
-* [fortran::syscregisteroutputscalarvariableaccessf](interfacefortran_1_1syscregisteroutputscalarvariableaccessf.md#interfacefortran_1_1syscregisteroutputscalarvariableaccessf)
-* [fortran::syscregisteroutputvectorvariableaccessf](interfacefortran_1_1syscregisteroutputvectorvariableaccessf.md#interfacefortran_1_1syscregisteroutputvectorvariableaccessf)
+* [fortran::sysccompletecouplingsetupf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1sysccompletecouplingsetupf)
+* [fortran::inputscalardataaccessintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1inputscalardataaccessintf)
+* [fortran::inputvectordataaccessintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1inputvectordataaccessintf)
+* [fortran::outputscalardataaccessintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1outputscalardataaccessintf)
+* [fortran::outputvectordataaccessintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1outputvectordataaccessintf)
+* [fortran::syscregisterinputscalarvariableaccessf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscregisterinputscalarvariableaccessf)
+* [fortran::syscregisterinputvectorvariableaccessf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscregisterinputvectorvariableaccessf)
+* [fortran::syscregisteroutputscalarvariableaccessf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscregisteroutputscalarvariableaccessf)
+* [fortran::syscregisteroutputvectorvariableaccessf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscregisteroutputvectorvariableaccessf)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

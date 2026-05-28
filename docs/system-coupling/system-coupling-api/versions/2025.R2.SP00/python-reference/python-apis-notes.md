@@ -1,4 +1,6 @@
-# Notes about Python APIs reference documentation
+---
+title: "Notes about Python APIs reference documentation"
+---
 
 Python interfaces to the System Coupling Participant Library follow the C++ interface
 with only minor modifications. For this reason, Python interfaces are not documented separately,

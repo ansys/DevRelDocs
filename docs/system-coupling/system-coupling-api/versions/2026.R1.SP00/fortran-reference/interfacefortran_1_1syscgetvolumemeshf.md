@@ -1,4 +1,6 @@
-# Interface fortran::syscgetvolumemeshf
+---
+title: "Interface fortran::syscgetvolumemeshf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,9 +13,9 @@ Provide an interface to get volume mesh.
 
 ## Members
 
-* [syscgetvolumemeshf\_elementbased](interfacefortran_1_1syscgetvolumemeshf.md#interfacefortran_1_1syscgetvolumemeshf_1ada22e9653def26be84289f9a1646854f)
-* [syscgetvolumemeshf\_empty](interfacefortran_1_1syscgetvolumemeshf.md#interfacefortran_1_1syscgetvolumemeshf_1a8fdc69302a91089a36d3cc20b58affab)
-* [syscgetvolumemeshf\_facebased](interfacefortran_1_1syscgetvolumemeshf.md#interfacefortran_1_1syscgetvolumemeshf_1acba9f96a6565a333e30f3725f507e3d5)
+* [syscgetvolumemeshf\_elementbased](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvolumemeshf)
+* [syscgetvolumemeshf\_empty](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvolumemeshf)
+* [syscgetvolumemeshf\_facebased](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetvolumemeshf)
 
 ## Public functions
 
@@ -32,7 +34,7 @@ Create an empty volume mesh access struct.
 
 
 
-**Return type**: type([syscvolumemeshf](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf)) function
+**Return type**: type([syscvolumemeshf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvolumemeshf)) function
 
 <a id="interfacefortran_1_1syscgetvolumemeshf_1acba9f96a6565a333e30f3725f507e3d5"></a>
 ### Function syscgetvolumemeshf\_facebased
@@ -63,7 +65,7 @@ Create a face-based volume mesh access struct.
 * faceCellConnfaceCellConn
 * cellIdscellIds
 
-**Return type**: type([syscvolumemeshf](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf)) function
+**Return type**: type([syscvolumemeshf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvolumemeshf)) function
 
 <a id="interfacefortran_1_1syscgetvolumemeshf_1ada22e9653def26be84289f9a1646854f"></a>
 ### Function syscgetvolumemeshf\_elementbased
@@ -90,7 +92,7 @@ Create an element-based volume mesh access struct.
 * cellTypescellTypes
 * cellNodeConncellNodeConn
 
-**Return type**: type([syscvolumemeshf](structfortran_1_1syscvolumemeshf.md#structfortran_1_1syscvolumemeshf)) function
+**Return type**: type([syscvolumemeshf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvolumemeshf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

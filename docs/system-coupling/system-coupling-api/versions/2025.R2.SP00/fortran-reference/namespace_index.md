@@ -1,5 +1,7 @@
-# Index of Namespaces
+---
+title: "Index of Namespaces"
+---
 
 ## F
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/namespacefortran)

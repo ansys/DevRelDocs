@@ -1,4 +1,6 @@
-# Structure sysc::SetupInfo
+---
+title: "Structure sysc::SetupInfo"
+---
 
 ![][C++]
 ![][public]
@@ -11,17 +13,17 @@ Provide a structure for System Coupling setup information.
 
 ## Members
 
-* [analysisType](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a45906ec4c888b7d0fbd42066f318284b)
-* [dimension](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a9d7c8f147afec2b6269bec443296291d)
-* [participantType](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1afd0abaae1eb099d03236eaa1d07acfd7)
-* [restartsSupported](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a46dc0b1c447b1534103f3f05455ee717)
-* [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1ad821c9abdeb9d845889f33dc6cf33a30)
-* [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a33ac9fc553fff914c295acf695b61efc)
-* [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1ab17e9d12184e6b93080eb71dac25a328)
-* [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a0808c997023319d5ec2e7eb623a172cd)
-* [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a2e9ea589149b80ffa4af670fb42defea)
-* [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1ac9105498d41a595248b3a1d9f54086da)
-* [timeIntegration](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a11b9b07a31b9efe30b1ff2472b7a99e2)
+* [analysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [participantType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [restartsSupported](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [timeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo)
 
 ## Public attributes
 
@@ -42,7 +44,7 @@ Analysis type.
 
 
 
-**Type**: [AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967)
+**Type**: [AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="structsysc_1_1SetupInfo_1a46dc0b1c447b1534103f3f05455ee717"></a>
 ### Variable restartsSupported
@@ -80,7 +82,7 @@ Participant dimension
 
 
 
-**Type**: [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c)
+**Type**: [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="structsysc_1_1SetupInfo_1a11b9b07a31b9efe30b1ff2472b7a99e2"></a>
 ### Variable timeIntegration
@@ -99,7 +101,7 @@ Time integration method
 
 
 
-**Type**: [TimeIntegration](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad13ee117d1f4408660fa2e70ee27b454)
+**Type**: [TimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="structsysc_1_1SetupInfo_1afd0abaae1eb099d03236eaa1d07acfd7"></a>
 ### Variable participantType
@@ -148,7 +150,7 @@ sysc::SetupInfo::SetupInfo()=default
 sysc::SetupInfo::SetupInfo(enum AnalysisType analysisType)
 ```
 
-Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo).
+Provide a constructor for [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo).
 
 **Parameters**:
 
@@ -158,7 +160,7 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 
 **Parameters**:
 
-* enum [AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967) **analysisType**
+* enum [AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **analysisType**
 
 **Return type**: 
 
@@ -171,7 +173,7 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 sysc::SetupInfo::SetupInfo(enum AnalysisType analysisType, bool restartsSupported)
 ```
 
-Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo).
+Provide a constructor for [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo).
 
 **Parameters**:
 
@@ -182,7 +184,7 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 
 **Parameters**:
 
-* enum [AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967) **analysisType**
+* enum [AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **analysisType**
 * bool **restartsSupported**
 
 **Return type**: 
@@ -196,7 +198,7 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 sysc::SetupInfo::SetupInfo(enum AnalysisType analysisType, bool restartsSupported, enum Dimension dimension)
 ```
 
-Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo).
+Provide a constructor for [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo).
 
 **Parameters**:
 
@@ -208,9 +210,9 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 
 **Parameters**:
 
-* enum [AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967) **analysisType**
+* enum [AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **analysisType**
 * bool **restartsSupported**
-* enum [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* enum [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -223,7 +225,7 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 sysc::SetupInfo::SetupInfo(enum AnalysisType analysisType, bool restartsSupported, enum Dimension dimension, enum TimeIntegration timeIntegration)
 ```
 
-Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo).
+Provide a constructor for [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo).
 
 **Parameters**:
 
@@ -236,10 +238,10 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 
 **Parameters**:
 
-* enum [AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967) **analysisType**
+* enum [AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **analysisType**
 * bool **restartsSupported**
-* enum [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
-* enum [TimeIntegration](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad13ee117d1f4408660fa2e70ee27b454) **timeIntegration**
+* enum [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
+* enum [TimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **timeIntegration**
 
 **Return type**: 
 
@@ -252,7 +254,7 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 sysc::SetupInfo::SetupInfo(enum AnalysisType analysisType, bool restartsSupported, enum Dimension dimension, enum TimeIntegration timeIntegration, enum ParticipantType participantType)
 ```
 
-Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo).
+Provide a constructor for [SetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupInfo).
 
 **Parameters**:
 
@@ -266,10 +268,10 @@ Provide a constructor for [SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1S
 
 **Parameters**:
 
-* enum [AnalysisType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gaffd523474fbd708f481a712f1841a967) **analysisType**
+* enum [AnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **analysisType**
 * bool **restartsSupported**
-* enum [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
-* enum [TimeIntegration](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad13ee117d1f4408660fa2e70ee27b454) **timeIntegration**
+* enum [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
+* enum [TimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **timeIntegration**
 * enum ParticipantType **participantType**
 
 **Return type**: 

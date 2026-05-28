@@ -1,4 +1,6 @@
-# Interface fortran::syscoutputvectordataaccessf
+---
+title: "Interface fortran::syscoutputvectordataaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide function interface for access to output vector data.
 
 ## Members
 
-* [syscoutputvectordataaccessf](interfacefortran_1_1syscoutputvectordataaccessf.md#interfacefortran_1_1syscoutputvectordataaccessf_1a3ad3c8f09f15aa0ae1f33b234b3bf382)
+* [syscoutputvectordataaccessf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscoutputvectordataaccessf)
 
 ## Public functions
 
@@ -38,7 +40,7 @@ Provide a function for access to output vector data.
 * regionNameregionName
 * variableNamevariableName
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

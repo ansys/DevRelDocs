@@ -1,4 +1,6 @@
-# File syscPartLib.h
+---
+title: "File syscPartLib.h"
+---
 
 ![][C]
 

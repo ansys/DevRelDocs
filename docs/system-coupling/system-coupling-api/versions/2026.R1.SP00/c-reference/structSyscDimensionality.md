@@ -1,4 +1,6 @@
-# Structure SyscDimensionality
+---
+title: "Structure SyscDimensionality"
+---
 
 ![][C]
 ![][public]
@@ -11,14 +13,14 @@ Provide a structure for dimensionality.
 
 ## Members
 
-* [amountOfSubstance](structSyscDimensionality.md#structSyscDimensionality_1a7cb2bcc42a70ccbcbc067d2f8e3537f1)
-* [angle](structSyscDimensionality.md#structSyscDimensionality_1a97ee853763b54b62bbd1ead7cbd1a761)
-* [current](structSyscDimensionality.md#structSyscDimensionality_1a2c8448dbd321dd0ba7eea2948af0267a)
-* [length](structSyscDimensionality.md#structSyscDimensionality_1ade2aab9da75df70b06a24decd849a28a)
-* [luminousIntensity](structSyscDimensionality.md#structSyscDimensionality_1a7c44af07621ed3d5a1e6f21fdc7f0451)
-* [mass](structSyscDimensionality.md#structSyscDimensionality_1aa2b7a661b200b1e3215213c03395357b)
-* [temperature](structSyscDimensionality.md#structSyscDimensionality_1a4178e31fd49a0bc202c9252953978eeb)
-* [time](structSyscDimensionality.md#structSyscDimensionality_1a0800961b23f992e62860634b94f239c8)
+* [amountOfSubstance](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [angle](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [current](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [length](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [luminousIntensity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [mass](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [temperature](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [time](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
 
 ## Public attributes
 

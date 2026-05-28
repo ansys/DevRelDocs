@@ -1,4 +1,6 @@
-# Structure SyscSetupFileInfo
+---
+title: "Structure SyscSetupFileInfo"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Provide a structure for writing System Coupling setup files.
 
-To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -19,8 +21,8 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 ## Members
 
-* [restartsSupported](structSyscSetupFileInfo.md#structSyscSetupFileInfo_1aa14b79eae6d4d1bc320ac13358a7f09f)
-* [setupFileName](structSyscSetupFileInfo.md#structSyscSetupFileInfo_1ab2c5f41a9396745b156bc62d5ea4e860)
+* [restartsSupported](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
+* [setupFileName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
 
 ## Public attributes
 

@@ -1,4 +1,6 @@
-# System coupling participant library capabilities
+---
+title: "System coupling participant library capabilities"
+---
 
 - Co-simulation with System Coupling
 - Standalone mapping within a single, possibly distributed parallel, application.
@@ -60,9 +62,9 @@
 
 [3] EnSight results can be written by the participant library only if the mapping workflow is used.
 
-[4] For details, see [Execution in a parallel environment](parallel-execution.md).
+[4] For details, see [Execution in a parallel environment](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/parallel-execution).
 
-[5] For details, see [Compiling, linking, and executing applications that use the Participant Library](compiling-linking-executing.md).
+[5] For details, see [Compiling, linking, and executing applications that use the Participant Library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing).
 
 Note the following limitations:
 

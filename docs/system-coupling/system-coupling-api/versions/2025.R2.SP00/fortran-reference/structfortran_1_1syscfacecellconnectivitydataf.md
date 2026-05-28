@@ -1,4 +1,6 @@
-# Type fortran::syscfacecellconnectivitydataf undefined
+---
+title: "Type fortran::syscfacecellconnectivitydataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@
 
 ## Members
 
-* [cell0ids](structfortran_1_1syscfacecellconnectivitydataf.md#structfortran_1_1syscfacecellconnectivitydataf_1aa09ee35bf407e026b955244f7743618a)
-* [cell1ids](structfortran_1_1syscfacecellconnectivitydataf.md#structfortran_1_1syscfacecellconnectivitydataf_1a1a9a40f5189107de989decbaeccd8112)
+* [cell0ids](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscfacecellconnectivitydataf)
+* [cell1ids](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscfacecellconnectivitydataf)
 
 ## Public attributes
 
@@ -33,7 +35,7 @@ type(syscoutputintegerdataf) cell0ids
 
 
 
-**Type**: type([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf))
+**Type**: type([syscoutputintegerdataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf))
 
 <a id="structfortran_1_1syscfacecellconnectivitydataf_1a1a9a40f5189107de989decbaeccd8112"></a>
 ### Variable cell1ids
@@ -52,7 +54,7 @@ type(syscoutputintegerdataf) cell1ids
 
 
 
-**Type**: type([syscoutputintegerdataf](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf))
+**Type**: type([syscoutputintegerdataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf))
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

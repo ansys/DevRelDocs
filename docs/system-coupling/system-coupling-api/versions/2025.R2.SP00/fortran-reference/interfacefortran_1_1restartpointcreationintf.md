@@ -1,4 +1,6 @@
-# Interface fortran::restartpointcreationintf
+---
+title: "Interface fortran::restartpointcreationintf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ This function may be called only during outputs update, and is expected to retur
 
 ## Members
 
-* [restartpointcreationintf](interfacefortran_1_1restartpointcreationintf.md#interfacefortran_1_1restartpointcreationintf_1aa36961b64ba25ca28418fe8f2dcef60b)
+* [restartpointcreationintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1restartpointcreationintf)
 
 ## Public functions
 

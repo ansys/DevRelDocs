@@ -1,4 +1,6 @@
-# File InputIntegerData.hpp
+---
+title: "File InputIntegerData.hpp"
+---
 
 ![][C++]
 
@@ -10,19 +12,19 @@
 
 ## Classes
 
-* [sysc::InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData)
+* [sysc::InputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputIntegerData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
-* <cstddef>
-* <cstdint>
-* <vector>
+* &lt;cstddef&gt;
+* &lt;cstdint&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

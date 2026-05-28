@@ -1,4 +1,6 @@
-# Structure SyscOutputComplexScalarData
+---
+title: "Structure SyscOutputComplexScalarData"
+---
 
 ![][C]
 ![][public]
@@ -11,10 +13,10 @@ Output complex scalar data provides read-only access to an array of complex scal
 
 ## Members
 
-* [data1](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1abd9b452fbcdb3e8873a49230f214367f)
-* [data2](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1a9d10751192e85779a192ff20697eac77)
-* [primitiveType](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1aacc2944e127d01c2063a7b6ccb129009)
-* [size](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1a07857702e4d8dffa2716d229f0a25c2b)
+* [data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
+* [data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 ## Public attributes
 
@@ -35,7 +37,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscOutputComplexScalarData_1abd9b452fbcdb3e8873a49230f214367f"></a>
 ### Variable data1

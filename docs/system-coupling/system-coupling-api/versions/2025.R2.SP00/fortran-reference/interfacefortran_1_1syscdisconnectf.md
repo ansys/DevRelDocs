@@ -1,4 +1,6 @@
-# Interface fortran::syscdisconnectf
+---
+title: "Interface fortran::syscdisconnectf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to end the analysis and disconnect from System Coupling.
 
 ## Members
 
-* [syscdisconnectf](interfacefortran_1_1syscdisconnectf.md#interfacefortran_1_1syscdisconnectf_1ac4376ade58d95c09bc001fb65b3652f3)
+* [syscdisconnectf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscdisconnectf)
 
 ## Public functions
 
@@ -30,7 +32,7 @@ Provide a function to end the analysis and disconnect from System Coupling.
 
 
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# Interface fortran::syscgetoutputcompactcomplexcompactvectordatadimf
+---
+title: "Interface fortran::syscgetoutputcompactcomplexcompactvectordatadimf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get output complex vector data.
 
 ## Members
 
-* [syscgetoutputcompactcomplexcompactvectordatadimf\_c82d](interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf.md#interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf_1ab98a86f80ffbfa887a403c5d6065b455)
+* [syscgetoutputcompactcomplexcompactvectordatadimf\_c82d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputcompactcomplexcompactvectordatadimf)
 
 ## Public functions
 
@@ -40,7 +42,7 @@ Create an output complex vector data access type with split storage based on dim
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscoutputcomplexvectordataf](structfortran_1_1syscoutputcomplexvectordataf.md#structfortran_1_1syscoutputcomplexvectordataf)) function
+**Return type**: type([syscoutputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputcomplexvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

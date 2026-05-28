@@ -1,4 +1,6 @@
-# Interface fortran::sysccouplinginterfacegetnumdatatransfersf
+---
+title: "Interface fortran::sysccouplinginterfacegetnumdatatransfersf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get number of data transfers.
 
 ## Members
 
-* [sysccouplinginterfacegetnumdatatransfersf](interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf.md#interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf_1a3ad7cb0c600bc3aa73c2faeff0a1c3e9)
+* [sysccouplinginterfacegetnumdatatransfersf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetnumdatatransfersf)
 
 ## Public functions
 

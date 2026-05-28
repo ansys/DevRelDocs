@@ -1,4 +1,6 @@
-# Pipe mapping tutorial
+---
+title: "Pipe mapping tutorial"
+---
 
 This tutorial gives instructions on using System Coupling Participant Library
 APIs to transfer data between a non-conformal mesh interface, thereby using the
@@ -16,7 +18,7 @@ within the Participant Library using an MPI environment.
 
 Ensure that the following prerequisites are met. You've installed:
 
-- A compiler for one of the [supported languages](compiling-linking-executing.md)
+- A compiler for one of the [supported languages](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 
 - Ansys installation, including System Coupling and EnSight.
 
@@ -148,7 +150,7 @@ Directory containing the Fortran source code files:
 
 ## Build the pipe mapping program
 
-Build the Pipe Mapping program using a compiler for one of the [supported languages](compiling-linking-executing.md).
+Build the Pipe Mapping program using a compiler for one of the [supported languages](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing).
 
 > **Note:** _Pre-built executables are provided along with the source code, so this step is optional._
 >
@@ -158,7 +160,7 @@ In the following examples, Pipe Mapping programs are built with different
 configurations. The actual build steps depend on your system configuration,
 compilers, and other details. For additional information, see [Compiling,
 Linking, and Executing Applications That Use the Participant
-Library](17_CompilingLinkingExecuting.md) in the Participant Library
+Library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing) in the Participant Library
 _Developer's Guide_.
 
 The following compilers were used in these examples:
@@ -171,9 +173,9 @@ The following compilers were used in these examples:
 
 In the following examples, replace:
 
-- `<ANSYSInstallationPath>` with the correct Ansys installation path
-- `<MultiportVersion>` with the correct version of the Fluent Multiport library
-- `<IntelMPIPath>` with the correct path to the Intel MPI library
+- `&lt;ANSYSInstallationPath&gt;` with the correct Ansys installation path
+- `&lt;MultiportVersion&gt;` with the correct version of the Fluent Multiport library
+- `&lt;IntelMPIPath&gt;` with the correct path to the Intel MPI library
 
 ### Linux
 
@@ -280,9 +282,9 @@ Maximum error on quad: 6.2552e-04
 Maximum error on tri: 1.2232e-03
 ```
 
-> **Note:** The batch and the shell scripts use the environment variable `AWP_ROOT<version>` to set up
+> **Note:** The batch and the shell scripts use the environment variable `AWP_ROOT&lt;version&gt;` to set up
 > the participant solver environment. Make sure this environment variable is set to the Ansys installation path
-> (for example `C:\Program Files\ANSYS Inc\v<version>`). Alternatively, you can modify the scripts to use a different environment variable.***
+> (for example `C:\Program Files\ANSYS Inc\v&lt;version&gt;`). Alternatively, you can modify the scripts to use a different environment variable.***
 
 ## Visualize the results in Ansys EnSight
 

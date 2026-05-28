@@ -1,4 +1,6 @@
-# Structure SyscPointCloud
+---
+title: "Structure SyscPointCloud"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Provide a point cloud access struct.
 
-To create and/or initialize [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud), it is highly recommended to use one of the functions with names starting with <code>syscGetPointCloud</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud), it is highly recommended to use one of the functions with names starting with <code>syscGetPointCloud</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -19,11 +21,11 @@ SyscPointCloud pointCloud = syscGetPointCloud(nodeIds, nodeCoords);
 
 ## Members
 
-* [connectivityStamp](structSyscPointCloud.md#structSyscPointCloud_1aa4379bbf1a298606cf6e1a6c3bf5c186)
-* [coordinatesStamp](structSyscPointCloud.md#structSyscPointCloud_1ae3533d603b8bec31f67aebfe52a1c0dd)
-* [nodeCoords](structSyscPointCloud.md#structSyscPointCloud_1ab4031cb1a5a369dff916411c7f9f88f7)
-* [nodeIds](structSyscPointCloud.md#structSyscPointCloud_1ae200d24d8c00514493ced578df4833c6)
-* [partitioningStamp](structSyscPointCloud.md#structSyscPointCloud_1aca4b9a3dd0f435423692745c200abb16)
+* [connectivityStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
+* [coordinatesStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
+* [nodeCoords](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
+* [nodeIds](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
+* [partitioningStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
 
 ## Public attributes
 
@@ -44,7 +46,7 @@ Access to node ids array.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="structSyscPointCloud_1ab4031cb1a5a369dff916411c7f9f88f7"></a>
 ### Variable nodeCoords
@@ -63,7 +65,7 @@ Access to node coordinates array(s).
 
 
 
-**Type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="structSyscPointCloud_1aa4379bbf1a298606cf6e1a6c3bf5c186"></a>
 ### Variable connectivityStamp

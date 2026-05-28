@@ -1,4 +1,6 @@
-# File syscInputVectorDataF.fi
+---
+title: "File syscInputVectorDataF.fi"
+---
 
 ![][Fortran]
 
@@ -10,16 +12,16 @@
 
 ## Classes
 
-* [fortran::syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)
-* [fortran::syscgetinputvectordataf](interfacefortran_1_1syscgetinputvectordataf.md#interfacefortran_1_1syscgetinputvectordataf)
-* [fortran::syscgetinputvectordatasplitf](interfacefortran_1_1syscgetinputvectordatasplitf.md#interfacefortran_1_1syscgetinputvectordatasplitf)
-* [fortran::syscgetinput2dvectordatasplitf](interfacefortran_1_1syscgetinput2dvectordatasplitf.md#interfacefortran_1_1syscgetinput2dvectordatasplitf)
-* [fortran::syscgetinputvectordatacompactf](interfacefortran_1_1syscgetinputvectordatacompactf.md#interfacefortran_1_1syscgetinputvectordatacompactf)
-* [fortran::syscgetinputvectordatacompactdimf](interfacefortran_1_1syscgetinputvectordatacompactdimf.md#interfacefortran_1_1syscgetinputvectordatacompactdimf)
+* [fortran::syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)
+* [fortran::syscgetinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordataf)
+* [fortran::syscgetinputvectordatasplitf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatasplitf)
+* [fortran::syscgetinput2dvectordatasplitf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinput2dvectordatasplitf)
+* [fortran::syscgetinputvectordatacompactf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatacompactf)
+* [fortran::syscgetinputvectordatacompactdimf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordatacompactdimf)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

@@ -1,4 +1,6 @@
-# Changelog
+---
+title: "Changelog"
+---
 
 ## Release notes for 2025 R2
 
@@ -24,7 +26,7 @@ It is now possible to connect multiple independent applications and perform mapp
 them using SCP library. These applications can be distributed parallel applications. This is
 currently only available via C++ or Python interfaces.
 
-See [Steps to perform mapping](user-guide/participant-steps-for-mapping.md) for more information.
+See [Steps to perform mapping](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/participant-steps-for-mapping) for more information.
 
 ### Data transfer is now possible between two or more applications
 
@@ -32,7 +34,7 @@ It is now possible to transfer some basic data structures (scalar, vector, and i
 between multiple independent applications, even if they are distributed parallel applications.
 This is currently only available via C++ or Python interfaces.
 
-See [Steps to perform parallel data transfers](user-guide/participant-steps-for-data-transfers.md) for more information.
+See [Steps to perform parallel data transfers](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/participant-steps-for-data-transfers) for more information.
 
 ## Release notes for 2025 R1
 

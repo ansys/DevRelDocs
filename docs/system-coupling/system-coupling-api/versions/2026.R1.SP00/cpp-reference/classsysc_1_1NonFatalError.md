@@ -1,4 +1,6 @@
-# Class sysc::NonFatalError
+---
+title: "Class sysc::NonFatalError"
+---
 
 ![][C++]
 ![][public]
@@ -11,14 +13,14 @@ Non-fatal errors are used to indicate that an error occurred, but the connection
 
 **Inherits from**:
 
-* [std::exception](undefined.md#undefined)
+* `std::exception`
 
 ## Members
 
-* [m\_str](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError_1aa34688645322b17d666940b619a0b8af)
-* [NonFatalError](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError_1a11fc4107b05f61a8e8bfeb6e70fe3b0f)
-* [what](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError_1a0c8c4306ac5e82f459e1aa4730f36a88)
-* [~NonFatalError](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError_1a06517a21ef77776d83a580cd53e81585)
+* [m\_str](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1NonFatalError)
+* [NonFatalError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1NonFatalError)
+* [what](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1NonFatalError)
+* [~NonFatalError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1NonFatalError)
 
 ## Private attributes
 

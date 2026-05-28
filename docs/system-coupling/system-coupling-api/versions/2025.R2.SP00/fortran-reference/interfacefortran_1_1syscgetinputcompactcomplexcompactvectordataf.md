@@ -1,4 +1,6 @@
-# Interface fortran::syscgetinputcompactcomplexcompactvectordataf
+---
+title: "Interface fortran::syscgetinputcompactcomplexcompactvectordataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get input complex vector data with compact storage for c
 
 ## Members
 
-* [syscgetinputcompactcomplexcompactvectordataf\_c82d](interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf.md#interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf_1a9c00860a0e9a7ba103aab9b5c71b1666)
+* [syscgetinputcompactcomplexcompactvectordataf\_c82d](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputcompactcomplexcompactvectordataf)
 
 ## Public functions
 
@@ -38,7 +40,7 @@ Create an input vector data access type with split storage.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscinputcomplexvectordataf](structfortran_1_1syscinputcomplexvectordataf.md#structfortran_1_1syscinputcomplexvectordataf)) function
+**Return type**: type([syscinputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputcomplexvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

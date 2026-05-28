@@ -1,4 +1,6 @@
-# Structure SyscParticipantInfo
+---
+title: "Structure SyscParticipantInfo"
+---
 
 ![][C]
 ![][public]
@@ -19,15 +21,15 @@ Provide a structure to provide connection info to System Coupling.
 
 **Returns**:
 
-[SyscError](structSyscError.md#structSyscError) Can be checked for any errors.
+[SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) Can be checked for any errors.
 
 ## Members
 
-* [buildInformation](structSyscParticipantInfo.md#structSyscParticipantInfo_1aa341c59a4953b40db05064cd5495d9f7)
-* [participantName](structSyscParticipantInfo.md#structSyscParticipantInfo_1afda543c3aeea91e0136520fca2487d6b)
-* [scHost](structSyscParticipantInfo.md#structSyscParticipantInfo_1a04b95234f786ebe57fd1650eca58f411)
-* [scPort](structSyscParticipantInfo.md#structSyscParticipantInfo_1a39c22384e8889c14c55ae7e4921873cb)
-* [transcriptFilename](structSyscParticipantInfo.md#structSyscParticipantInfo_1a622cd703147ec31e2c80b1933ea773a1)
+* [buildInformation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
+* [participantName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
+* [scHost](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
+* [scPort](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
+* [transcriptFilename](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
 
 ## Public attributes
 

@@ -1,4 +1,6 @@
-# Structure sysc::ElementNodeConnectivityData
+---
+title: "Structure sysc::ElementNodeConnectivityData"
+---
 
 ![][C++]
 ![][public]
@@ -11,13 +13,13 @@ Describes element-to-node connectivity.
 
 ## Members
 
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1a8f16a7e5fd8a94bc018ec22f188bb3c3)
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1ac314284a846e37733a53f18bcc035730)
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1a54709b2109b645ba08dbd36df58ef0e4)
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1afea7915624bf249ee18e3b6590fc9652)
-* [elemNodeIds](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1a05900eb58a87d76c8f370123db44acb5)
-* [operator=](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1a009282d0ad156090a5d0fa5bcafdeb79)
-* [operator=](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData_1a08160f6e119ce49769850046bcedf310)
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [elemNodeIds](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData)
 
 ## Public attributes
 
@@ -38,7 +40,7 @@ Element-to-node connectivity array.
 
 
 
-**Type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 ## Public functions
 
@@ -59,7 +61,7 @@ Constructor that takes element-to-node connectivity array.
 
 **Parameters**:
 
-* const [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) & **elemNodeIds**
+* const [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1OutputIntegerData) & **elemNodeIds**
 
 **Return type**: 
 
@@ -97,7 +99,7 @@ Copy constructor.
 
 **Parameters**:
 
-* const [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) &
+* const [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) &
 
 **Return type**: 
 
@@ -118,7 +120,7 @@ Move constructor.
 
 **Parameters**:
 
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) &&
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) &&
 
 **Return type**: 
 
@@ -139,9 +141,9 @@ Copy-assign operator.
 
 **Parameters**:
 
-* const [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) &
+* const [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) &
 
-**Return type**: [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) &
+**Return type**: [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) &
 
 <a id="structsysc_1_1ElementNodeConnectivityData_1a08160f6e119ce49769850046bcedf310"></a>
 ### Function operator=
@@ -160,9 +162,9 @@ Move-assign operator.
 
 **Parameters**:
 
-* [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) &&
+* [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) &&
 
-**Return type**: [ElementNodeConnectivityData](structsysc_1_1ElementNodeConnectivityData.md#structsysc_1_1ElementNodeConnectivityData) &
+**Return type**: [ElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ElementNodeConnectivityData) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

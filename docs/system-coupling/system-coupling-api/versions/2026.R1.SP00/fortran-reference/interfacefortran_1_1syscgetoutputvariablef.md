@@ -1,4 +1,6 @@
-# Interface fortran::syscgetoutputvariablef
+---
+title: "Interface fortran::syscgetoutputvariablef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to return an output variable.
 
 ## Members
 
-* [syscgetoutputvariablef](interfacefortran_1_1syscgetoutputvariablef.md#interfacefortran_1_1syscgetoutputvariablef_1a470e9f0eb67dd6b6c733fa76a0f44f3b)
+* [syscgetoutputvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvariablef)
 
 ## Public functions
 
@@ -43,7 +45,7 @@ Variable at specified index.
 * regionregion
 * indexindex
 
-**Return type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef)) function
+**Return type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

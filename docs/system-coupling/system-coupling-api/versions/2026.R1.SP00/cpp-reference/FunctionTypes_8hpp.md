@@ -1,4 +1,6 @@
-# File FunctionTypes.hpp
+---
+title: "File FunctionTypes.hpp"
+---
 
 ![][C++]
 
@@ -10,7 +12,7 @@
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
@@ -29,7 +31,7 @@
 * SystemCouplingParticipant/SurfaceMesh.hpp
 * SystemCouplingParticipant/Variable.hpp
 * SystemCouplingParticipant/VolumeMesh.hpp
-* <string>
+* &lt;string&gt;
 
 ```mermaid
 graph LR

@@ -1,4 +1,6 @@
-# Structure sysc::SolutionControl
+---
+title: "Structure sysc::SolutionControl"
+---
 
 ![][C++]
 ![][public]
@@ -11,8 +13,8 @@ Provide a structure containing solution control.
 
 ## Members
 
-* [maximumIterations](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl_1a0c973b27756ebeaf6fbe6d456c13b697)
-* [minimumIterations](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl_1a6c84cc77b261df44b0f7f339f77a526b)
+* [maximumIterations](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SolutionControl)
+* [minimumIterations](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SolutionControl)
 
 ## Public attributes
 

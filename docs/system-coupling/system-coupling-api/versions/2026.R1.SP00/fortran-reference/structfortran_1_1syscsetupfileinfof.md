@@ -1,4 +1,6 @@
-# Type fortran::syscsetupfileinfof undefined
+---
+title: "Type fortran::syscsetupfileinfof undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -20,8 +22,8 @@ setupFileInfo = syscGetSetupFileInfoF("setup.scp")
 
 ## Members
 
-* [restartssupported](structfortran_1_1syscsetupfileinfof.md#structfortran_1_1syscsetupfileinfof_1a2758579ead626ca02c0c38e9d0407056)
-* [setupfilename](structfortran_1_1syscsetupfileinfof.md#structfortran_1_1syscsetupfileinfof_1ab4e2b5c783a6f184674e32cfaaa4f09e)
+* [restartssupported](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupfileinfof)
+* [setupfilename](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscsetupfileinfof)
 
 ## Public attributes
 

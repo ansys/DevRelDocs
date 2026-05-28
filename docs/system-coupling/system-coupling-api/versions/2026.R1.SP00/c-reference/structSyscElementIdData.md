@@ -1,4 +1,6 @@
-# Structure SyscElementIdData
+---
+title: "Structure SyscElementIdData"
+---
 
 ![][C]
 ![][public]
@@ -11,7 +13,7 @@ Element ids struct.
 
 ## Members
 
-* [elementIds](structSyscElementIdData.md#structSyscElementIdData_1a876ea4ad83f4555fe2bf825517c8131b)
+* [elementIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 ## Public attributes
 
@@ -32,7 +34,7 @@ element ids.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

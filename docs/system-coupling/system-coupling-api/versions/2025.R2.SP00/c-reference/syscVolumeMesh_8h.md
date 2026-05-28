@@ -1,4 +1,6 @@
-# File syscVolumeMesh.h
+---
+title: "File syscVolumeMesh.h"
+---
 
 ![][C]
 
@@ -10,7 +12,7 @@
 
 ## Classes
 
-* [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+* [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 ## Includes
 
@@ -18,8 +20,8 @@
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscMeshDefinition.h
 * SystemCouplingParticipant/syscOutputVectorData.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -63,7 +65,7 @@ Returns a struct representing empty volume mesh. All member will be assigned def
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa082ad5a3f9a308f6dfb794e8bdcd8cd"></a>
 ### Function syscGetVolumeMeshNFC
@@ -86,11 +88,11 @@ Create a volume mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscFaceData](structSyscFaceData.md#structSyscFaceData) **faces**
-* [SyscCellData](structSyscCellData.md#structSyscCellData) **cells**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscFaceData) **faces**
+* [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscCellData) **cells**
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacdd4cb0f44e5d2e94a0ed34e0dc96bbe"></a>
 ### Function syscGetVolumeMeshElementBased
@@ -113,11 +115,11 @@ Create an element-based volume mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **cellTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **cellNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementTypeData) **cellTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeConnectivityData) **cellNodeConnectivity**
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae426344ef494aa92411c8c3856cdcb7f"></a>
 ### Function syscGetVolumeMeshFaceBased
@@ -142,13 +144,13 @@ Create a face-based volume mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivity**
-* [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData) **cellIds**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivity**
+* [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscCellIdData) **cellIds**
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 ## Source
 

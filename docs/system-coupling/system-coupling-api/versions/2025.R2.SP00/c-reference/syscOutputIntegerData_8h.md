@@ -1,4 +1,6 @@
-# File syscOutputIntegerData.h
+---
+title: "File syscOutputIntegerData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to 64-bit signed integer. Data size will be set to z
 
 
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaea5bb5bd0b4ddd4217745dad38b405b2"></a>
 ### Function syscGetOutputIntegerDataInt32
@@ -80,7 +82,7 @@ Create an output integer data access struct.
 * const int32_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga43be8cb6b2e2b156d7c40fa3cbf28f03"></a>
 ### Function syscGetOutputIntegerDataInt64
@@ -105,7 +107,7 @@ Create an output integer data access struct.
 * const int64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga46a87bfd729531e482d320f695537c0b"></a>
 ### Function syscGetOutputIntegerDataUInt16
@@ -130,7 +132,7 @@ Create an output integer data access struct.
 * const uint16_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaed7a48d94e2545e78562b8ff911dfd2a"></a>
 ### Function syscGetOutputIntegerDataUInt64
@@ -155,7 +157,7 @@ Create an output integer data access struct.
 * const uint64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 ## Source
 

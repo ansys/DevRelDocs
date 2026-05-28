@@ -1,4 +1,6 @@
-# Type fortran::syscintegerattributef undefined
+---
+title: "Type fortran::syscintegerattributef undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@ Provide a struct for an integer-valued attribute.
 
 ## Members
 
-* [name](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef_1a72f0326f2d38c6a753a748136992df3a)
-* [value](structfortran_1_1syscintegerattributef.md#structfortran_1_1syscintegerattributef_1a4a90717b8eeddc3fd746579d763ccc56)
+* [name](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscintegerattributef)
+* [value](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscintegerattributef)
 
 ## Public attributes
 

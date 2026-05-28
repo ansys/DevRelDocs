@@ -1,4 +1,6 @@
-# File syscInputComplexScalarData.h
+---
+title: "File syscInputComplexScalarData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+* [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaed0337275d991d2cd2a1ec4dbf2a595"></a>
 ### Function syscGetInputComplexScalarDataSplitDouble
@@ -82,7 +84,7 @@ Create a complex input scalar data access struct.
 * double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga11c65e99f509cd226f13b0932aba8eb7"></a>
 ### Function syscGetInputComplexScalarDataSplitFloat
@@ -109,7 +111,7 @@ Create a complex input scalar data access struct.
 * float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5cbb0ff3aa857c03d3626038e3a20ffa"></a>
 ### Function syscGetInputComplexScalarDataCompactDouble
@@ -134,7 +136,7 @@ Create a complex input scalar data access struct.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0ff093e80497efd6dccb6ea29c9face3"></a>
 ### Function syscGetInputComplexScalarDataCompactFloat
@@ -159,7 +161,7 @@ Create a complex input scalar data access struct.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 ## Source
 

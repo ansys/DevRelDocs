@@ -1,4 +1,6 @@
-# Structure sysc::ResultsInfo
+---
+title: "Structure sysc::ResultsInfo"
+---
 
 ![][C++]
 ![][public]
@@ -11,8 +13,8 @@ Provide a structure for writing System Coupling results files.
 
 ## Members
 
-* [baseFileName](structsysc_1_1ResultsInfo.md#structsysc_1_1ResultsInfo_1acc2c96ab4d0c7b8bc630583a814cead4)
-* [ResultsInfo](structsysc_1_1ResultsInfo.md#structsysc_1_1ResultsInfo_1a2e6c0a4ff62fde1317edd3df5752bc78)
+* [baseFileName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ResultsInfo)
+* [ResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ResultsInfo)
 
 ## Public attributes
 

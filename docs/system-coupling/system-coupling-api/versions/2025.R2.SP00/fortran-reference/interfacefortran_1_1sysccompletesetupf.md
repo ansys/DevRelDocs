@@ -1,4 +1,6 @@
-# Interface fortran::sysccompletesetupf
+---
+title: "Interface fortran::sysccompletesetupf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to complete the setup.
 
 ## Members
 
-* [sysccompletesetupf](interfacefortran_1_1sysccompletesetupf.md#interfacefortran_1_1sysccompletesetupf_1af8bf55bb3a923b4824f53281231ca18f)
+* [sysccompletesetupf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1sysccompletesetupf)
 
 ## Public functions
 
@@ -54,7 +56,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 * setupInfosetupInfo
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

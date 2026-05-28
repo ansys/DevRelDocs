@@ -1,4 +1,6 @@
-# Structure SyscVolumeMesh
+---
+title: "Structure SyscVolumeMesh"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Provide a volume mesh access struct.
 
-To create and/or initialize [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh), it is highly recommended to use one of the functions with names starting with <code>syscGetVolumeMesh</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh), it is highly recommended to use one of the functions with names starting with <code>syscGetVolumeMesh</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -20,12 +22,12 @@ SyscVolumeMesh mesh = syscGetFaceBasedVolumeMesh(
 
 ## Members
 
-* [cells](structSyscVolumeMesh.md#structSyscVolumeMesh_1a13e403f46c840923ccfcf3d8003927fc)
-* [connectivityStamp](structSyscVolumeMesh.md#structSyscVolumeMesh_1ac79a8a4e024bf5df6495b20d8cd533fc)
-* [coordinatesStamp](structSyscVolumeMesh.md#structSyscVolumeMesh_1a4c9b66b024653d14861a7b0c3bbc5c3c)
-* [faces](structSyscVolumeMesh.md#structSyscVolumeMesh_1a20300f5632818f7755cb5e68915a5fc5)
-* [nodes](structSyscVolumeMesh.md#structSyscVolumeMesh_1a3b96b3e7b16a3dc292d5645fde68bc6b)
-* [partitioningStamp](structSyscVolumeMesh.md#structSyscVolumeMesh_1afffad005aa559eb275891f7ce643b6a4)
+* [cells](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
+* [connectivityStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
+* [coordinatesStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
+* [faces](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
+* [nodes](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
+* [partitioningStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 ## Public attributes
 
@@ -46,7 +48,7 @@ Mesh nodes.
 
 
 
-**Type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData)
 
 <a id="structSyscVolumeMesh_1a20300f5632818f7755cb5e68915a5fc5"></a>
 ### Variable faces
@@ -65,7 +67,7 @@ Mesh faces.
 
 
 
-**Type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscFaceData)
 
 <a id="structSyscVolumeMesh_1a13e403f46c840923ccfcf3d8003927fc"></a>
 ### Variable cells
@@ -84,7 +86,7 @@ Mesh cells.
 
 
 
-**Type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscCellData)
 
 <a id="structSyscVolumeMesh_1ac79a8a4e024bf5df6495b20d8cd533fc"></a>
 ### Variable connectivityStamp

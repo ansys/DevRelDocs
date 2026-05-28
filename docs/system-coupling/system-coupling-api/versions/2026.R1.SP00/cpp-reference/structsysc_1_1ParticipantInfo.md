@@ -1,4 +1,6 @@
-# Structure sysc::ParticipantInfo
+---
+title: "Structure sysc::ParticipantInfo"
+---
 
 ![][C++]
 ![][public]
@@ -20,19 +22,19 @@ provide a structure for the participant information needed to connect to a Syste
 
 ## Members
 
-* [buildInformation](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a04aa25721fcee48f00326f1a48bdf2d4)
-* [isCosimulation](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a0cca75649fe3b7c48ae59d115dfdd4f9)
-* [myHostName](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1ae2365fab4736a7c238257f24bb05855c)
-* [numApps](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a7b8f2c4e568a4c611bdf10f4e33774f3)
-* [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a62ca76d7ec19c59606870814aaec771e)
-* [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a2f6d5fdf97266f6ab00e1194dcbb1a75)
-* [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1acf9c608e83283be294cf319ff100dbe2)
-* [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1ac5c5c5d01a77e35072efbb1322a4f88b)
-* [ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a3f3caa3929e76a14652484ba46c441ce)
-* [participantName](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1ab9f7db7947123effd7b51a7c5be378e0)
-* [scHost](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1a8995ce5a329056c81397a4db33607959)
-* [scPort](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1aec876f2e942c0b2db13547da778873d7)
-* [transcriptFilename](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo_1afd0f30e3ffc99ebd394966f72869dfbf)
+* [buildInformation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [isCosimulation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [myHostName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [numApps](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [participantName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [scHost](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [scPort](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
+* [transcriptFilename](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
 
 ## Public attributes
 
@@ -53,7 +55,7 @@ Host sysc::ParticipantInfo::scHost
 
 
 
-**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af)
+**Type**: [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="structsysc_1_1ParticipantInfo_1aec876f2e942c0b2db13547da778873d7"></a>
 ### Variable scPort
@@ -72,7 +74,7 @@ Port sysc::ParticipantInfo::scPort {0}
 
 
 
-**Type**: [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54)
+**Type**: [Port](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="structsysc_1_1ParticipantInfo_1ab9f7db7947123effd7b51a7c5be378e0"></a>
 ### Variable participantName
@@ -186,7 +188,7 @@ Host sysc::ParticipantInfo::myHostName
 
 
 
-**Type**: [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af)
+**Type**: [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Public functions
 
@@ -224,14 +226,14 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scHost**
+* [Port](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scPort**
 * std::string **participantName**
 * bool **isCosimulation**
 * std::string **buildInformation**
 * std::string **transcriptFilename**
 * std::size_t **numApps**
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **myHostName**
+* [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **myHostName**
 
 **Return type**: 
 
@@ -252,8 +254,8 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scHost**
+* [Port](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scPort**
 * std::string **participantName**
 
 **Return type**: 
@@ -275,8 +277,8 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scHost**
+* [Port](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scPort**
 * std::string **participantName**
 * std::string **buildInformation**
 
@@ -299,8 +301,8 @@ Provide a non-default constructor.
 
 **Parameters**:
 
-* [Host](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga2738c290fa117dc95b32cc858abbb6af) **scHost**
-* [Port](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga0c12006dc920d82ffa7185811c164f54) **scPort**
+* [Host](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scHost**
+* [Port](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **scPort**
 * std::string **participantName**
 * std::string **buildInformation**
 * std::string **transcriptFilename**

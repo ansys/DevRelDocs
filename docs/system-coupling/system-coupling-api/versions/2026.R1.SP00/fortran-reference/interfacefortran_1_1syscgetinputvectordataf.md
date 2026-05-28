@@ -1,4 +1,6 @@
-# Interface fortran::syscgetinputvectordataf
+---
+title: "Interface fortran::syscgetinputvectordataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get input vector data.
 
 ## Members
 
-* [syscgetinputvectordataf](interfacefortran_1_1syscgetinputvectordataf.md#interfacefortran_1_1syscgetinputvectordataf_1aacb50f62f4cdfd7fb3cc871071170db7)
+* [syscgetinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetinputvectordataf)
 
 ## Public functions
 
@@ -30,7 +32,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: type([syscinputvectordataf](structfortran_1_1syscinputvectordataf.md#structfortran_1_1syscinputvectordataf)) function
+**Return type**: type([syscinputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

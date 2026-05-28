@@ -1,4 +1,6 @@
-# Structure SyscRegion
+---
+title: "Structure SyscRegion"
+---
 
 ![][C]
 ![][public]
@@ -13,7 +15,7 @@ Participant can declare which regions can be used in the coupled analysis. Each 
 
 
 
-To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegion) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetRegion</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetRegion</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -25,10 +27,10 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 ## Members
 
-* [displayName](structSyscRegion.md#structSyscRegion_1ac6572b0ff5814075613806b50506d7dd)
-* [name](structSyscRegion.md#structSyscRegion_1a9ad96fdd8a6a46c8d0b4ac7ffb23d7a8)
-* [regionDiscretizationType](structSyscRegion.md#structSyscRegion_1aba2c044546a908f37b3419408410b3a5)
-* [topology](structSyscRegion.md#structSyscRegion_1a7fd5681f99d4737e705ef1c670ad6268)
+* [displayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
+* [name](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
+* [regionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
+* [topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscRegion)
 
 ## Public attributes
 
@@ -68,7 +70,7 @@ Region topology.
 
 
 
-**Type**: enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a)
+**Type**: enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscRegion_1aba2c044546a908f37b3419408410b3a5"></a>
 ### Variable regionDiscretizationType
@@ -87,7 +89,7 @@ Reigon mesh type.
 
 
 
-**Type**: enum [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45)
+**Type**: enum [SyscRegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscRegion_1ac6572b0ff5814075613806b50506d7dd"></a>
 ### Variable displayName

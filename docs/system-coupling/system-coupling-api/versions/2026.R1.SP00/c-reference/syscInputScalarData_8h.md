@@ -1,4 +1,6 @@
-# File syscInputScalarData.h
+---
+title: "File syscInputScalarData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+* [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3b76afcedb8ced51695a0a56dabfb3af"></a>
 ### Function syscGetInputScalarDataDouble
@@ -80,7 +82,7 @@ Create an input scalar data access struct.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga09e03b4996d73e37c1748eb00a8c76c8"></a>
 ### Function syscGetInputScalarDataFloat
@@ -105,7 +107,7 @@ Create an input scalar data access struct.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 ## Source
 

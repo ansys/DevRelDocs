@@ -1,4 +1,6 @@
-# Interface fortran::syscdoiterationf
+---
+title: "Interface fortran::syscdoiterationf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to check whether to do a coupling iteration.
 
 ## Members
 
-* [syscdoiterationf](interfacefortran_1_1syscdoiterationf.md#interfacefortran_1_1syscdoiterationf_1acc2cd7da0c5cc2a33785425659ba1f4d)
+* [syscdoiterationf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscdoiterationf)
 
 ## Public functions
 

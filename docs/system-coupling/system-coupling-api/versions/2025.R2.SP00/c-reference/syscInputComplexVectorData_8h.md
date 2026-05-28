@@ -1,4 +1,6 @@
-# File syscInputComplexVectorData.h
+---
+title: "File syscInputComplexVectorData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+* [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga311e2b750be4212f60557b49870f1eac"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataDouble
@@ -80,7 +82,7 @@ Create a 3D complex input vector data access struct.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5396c1513b3448bfd783c2db743606d2"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataFloat
@@ -105,7 +107,7 @@ Create a 3D complex input vector data access struct.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8cce8fbb7655b448cd3c6c08772e1766"></a>
 ### Function syscGetInputSplitComplexCompactVectorDataDouble
@@ -132,7 +134,7 @@ Create a 3D complex input vector data access struct.
 * double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0c9104179a6e98a7a043e4412f1dafd5"></a>
 ### Function syscGetInputSplitComplexCompactVectorDataFloat
@@ -159,7 +161,7 @@ Create a 3D complex input vector data access struct.
 * float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7eefc4444dbdf8924e4074046de5eba2"></a>
 ### Function syscGetInputCompactComplexSplitVectorDataDouble
@@ -188,7 +190,7 @@ Create a 3D complex input vector data access struct.
 * double *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga513ecaae813a2904f6926c5839cc11a1"></a>
 ### Function syscGetInputCompactComplexSplitVectorDataFloat
@@ -217,7 +219,7 @@ Create a 3D complex input vector data access struct.
 * float *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1fd576a79df5e1b27247f4b71e2afbf0"></a>
 ### Function syscGetInputSplitComplexSplitVectorDataDouble
@@ -252,7 +254,7 @@ Create a 3D complex input vector data access struct.
 * double *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6b650f50fa53c996a07147474343f55f"></a>
 ### Function syscGetInputSplitComplexSplitVectorDataFloat
@@ -287,7 +289,7 @@ Create a 3D complex input vector data access struct.
 * float *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga93d5fd27a2899ea57f88958aa29506cd"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataDoubleDim
@@ -312,9 +314,9 @@ Create a complex input vector data access struct based on dimension.
 
 * double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6fa6c5f2890928560f68ebb6d45cabc9"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataFloatDim
@@ -339,9 +341,9 @@ Create a complex input vector data access struct based on dimension.
 
 * float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)
 
 ## Source
 

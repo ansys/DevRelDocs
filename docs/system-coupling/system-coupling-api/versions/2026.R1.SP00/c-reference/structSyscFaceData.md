@@ -1,4 +1,6 @@
-# Structure SyscFaceData
+---
+title: "Structure SyscFaceData"
+---
 
 ![][C]
 ![][public]
@@ -11,11 +13,11 @@ Face data struct.
 
 ## Members
 
-* [faceCellConnectivity](structSyscFaceData.md#structSyscFaceData_1a12560838da4a3f554793e027b6c43bc9)
-* [faceIds](structSyscFaceData.md#structSyscFaceData_1ab06db951659e8d349a540904d6831b38)
-* [faceNodeConnectivity](structSyscFaceData.md#structSyscFaceData_1a0ecb329fe163fb5fc7591fcd7531569a)
-* [faceNodeCounts](structSyscFaceData.md#structSyscFaceData_1a1834bd4b6994f302fa8e91f101eadb9f)
-* [faceTypes](structSyscFaceData.md#structSyscFaceData_1ab78be0450a2fade5154ad69875cff375)
+* [faceCellConnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
+* [faceIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
+* [faceNodeConnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
+* [faceNodeCounts](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
+* [faceTypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 ## Public attributes
 
@@ -36,7 +38,7 @@ face ids.
 
 
 
-**Type**: [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
+**Type**: [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 <a id="structSyscFaceData_1ab78be0450a2fade5154ad69875cff375"></a>
 ### Variable faceTypes
@@ -55,7 +57,7 @@ face types.
 
 
 
-**Type**: [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
+**Type**: [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 <a id="structSyscFaceData_1a1834bd4b6994f302fa8e91f101eadb9f"></a>
 ### Variable faceNodeCounts
@@ -74,7 +76,7 @@ face node counts.
 
 
 
-**Type**: [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData)
+**Type**: [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData)
 
 <a id="structSyscFaceData_1a0ecb329fe163fb5fc7591fcd7531569a"></a>
 ### Variable faceNodeConnectivity
@@ -93,7 +95,7 @@ face-to-node connectivity.
 
 
 
-**Type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
+**Type**: [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 <a id="structSyscFaceData_1a12560838da4a3f554793e027b6c43bc9"></a>
 ### Variable faceCellConnectivity
@@ -112,7 +114,7 @@ face-to-cell connectivity.
 
 
 
-**Type**: [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
+**Type**: [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

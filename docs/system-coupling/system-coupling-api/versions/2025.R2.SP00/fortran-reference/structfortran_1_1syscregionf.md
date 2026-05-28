@@ -1,4 +1,6 @@
-# Type fortran::syscregionf undefined
+---
+title: "Type fortran::syscregionf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -26,10 +28,10 @@ reg = syscGetRegionF("Wall", SyscSurface)
 
 ## Members
 
-* [displayname](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf_1a9278aae61ed92d3128608932a9d9f464)
-* [regiondiscretizationtype](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf_1ad2df2db7ce133791a65566cc9201dd5a)
-* [regionname](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf_1a2366d44a0a98ffcc655dbc9ab4e04784)
-* [topology](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf_1a9740fa1f40245a8491bc24b4c0a6d873)
+* [displayname](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)
+* [regiondiscretizationtype](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)
+* [regionname](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)
+* [topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)
 
 ## Public attributes
 

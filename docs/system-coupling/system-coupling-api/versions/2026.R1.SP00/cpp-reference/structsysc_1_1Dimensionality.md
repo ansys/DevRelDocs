@@ -1,4 +1,6 @@
-# Structure sysc::Dimensionality
+---
+title: "Structure sysc::Dimensionality"
+---
 
 ![][C++]
 ![][public]
@@ -11,17 +13,17 @@ Provide a structure for dimensionality.
 
 ## Members
 
-* [amountOfSubstance](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1aa0de60275ce09315d344f2a96f397cca)
-* [angle](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a03f6d1e6e0ebb147b85242eb889572a7)
-* [current](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a5614457da4b582fd88fde901fa39e366)
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1adddff5b49bd877a2a5420c4bbcffca5a)
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
-* [empty](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a0ab7174f1af2542375c83f264746966d)
-* [length](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a406a9caf93ba8e2b4b99224753f35b21)
-* [luminousIntensity](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a41e1c01e819899432d4a6e68959ac91d)
-* [mass](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a2c0c1f872bf38f54714f4d3c080a0722)
-* [temperature](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1af8eb2b8fa9136d9804ecb5dcd7fe6d48)
-* [time](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ad39e8c24b910575506506cd6ed8d071c)
+* [amountOfSubstance](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [angle](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [current](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [empty](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [length](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [luminousIntensity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [mass](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [temperature](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [time](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 ## Public attributes
 
@@ -46,7 +48,7 @@ Exponent of the length dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1ad39e8c24b910575506506cd6ed8d071c"></a>
 ### Variable time
@@ -69,7 +71,7 @@ Exponent of the time dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1a2c0c1f872bf38f54714f4d3c080a0722"></a>
 ### Variable mass
@@ -92,7 +94,7 @@ Exponent of the mass dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1af8eb2b8fa9136d9804ecb5dcd7fe6d48"></a>
 ### Variable temperature
@@ -115,7 +117,7 @@ Exponent of the temperature dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1aa0de60275ce09315d344f2a96f397cca"></a>
 ### Variable amountOfSubstance
@@ -138,7 +140,7 @@ Exponent of the amount of substance dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1a5614457da4b582fd88fde901fa39e366"></a>
 ### Variable current
@@ -161,7 +163,7 @@ Exponent of the current dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1a41e1c01e819899432d4a6e68959ac91d"></a>
 ### Variable luminousIntensity
@@ -184,7 +186,7 @@ Exponent of the luminous intensity dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1a03f6d1e6e0ebb147b85242eb889572a7"></a>
 ### Variable angle
@@ -207,7 +209,7 @@ Exponent of the angle dimension.
 
 **Referenced by**:
 
-* [Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ae1d350f2c40061754100d207d6dfa9be)
+* [Dimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 ## Public functions
 
@@ -258,14 +260,14 @@ Provide a default constructor.
 
 **References**:
 
-* [amountOfSubstance](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1aa0de60275ce09315d344f2a96f397cca)
-* [angle](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a03f6d1e6e0ebb147b85242eb889572a7)
-* [current](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a5614457da4b582fd88fde901fa39e366)
-* [length](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a406a9caf93ba8e2b4b99224753f35b21)
-* [luminousIntensity](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a41e1c01e819899432d4a6e68959ac91d)
-* [mass](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a2c0c1f872bf38f54714f4d3c080a0722)
-* [temperature](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1af8eb2b8fa9136d9804ecb5dcd7fe6d48)
-* [time](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1ad39e8c24b910575506506cd6ed8d071c)
+* [amountOfSubstance](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [angle](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [current](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [length](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [luminousIntensity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [mass](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [temperature](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
+* [time](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1Dimensionality)
 
 <a id="structsysc_1_1Dimensionality_1a0ab7174f1af2542375c83f264746966d"></a>
 ### Function empty

@@ -1,4 +1,6 @@
-# File OutputComplexScalarData.hpp
+---
+title: "File OutputComplexScalarData.hpp"
+---
 
 ![][C++]
 
@@ -10,19 +12,19 @@
 
 ## Classes
 
-* [sysc::OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData)
+* [sysc::OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
-* <complex>
-* <cstddef>
-* <vector>
+* &lt;complex&gt;
+* &lt;cstddef&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

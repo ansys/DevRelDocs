@@ -1,4 +1,6 @@
-# Interface fortran::syscinputcomplexvectordataaccessf
+---
+title: "Interface fortran::syscinputcomplexvectordataaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide function interface for access to input complex vector data.
 
 ## Members
 
-* [syscinputcomplexvectordataaccessf](interfacefortran_1_1syscinputcomplexvectordataaccessf.md#interfacefortran_1_1syscinputcomplexvectordataaccessf_1ae76b058e4cd2ea7a737a5dd3afc4a4c9)
+* [syscinputcomplexvectordataaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscinputcomplexvectordataaccessf)
 
 ## Public functions
 
@@ -38,7 +40,7 @@ Provide a function for access to input complex vector data.
 * regionNameregionName
 * variableNamevariableName
 
-**Return type**: type([syscinputcomplexvectordataf](structfortran_1_1syscinputcomplexvectordataf.md#structfortran_1_1syscinputcomplexvectordataf)) function
+**Return type**: type([syscinputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputcomplexvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

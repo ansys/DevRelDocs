@@ -1,4 +1,6 @@
-# Completing the System Coupling participant setup
+---
+title: "Completing the System Coupling participant setup"
+---
 
 During the setup stage, the participant setup information is communicated to
 System Coupling. As mentioned earlier, there are two approaches to communicate
@@ -22,7 +24,7 @@ Some of the disadvantages of this approach are:
 - This is an extra file that needs to be generated during the setup.
 - The SCP file must be consistent with the participant setup. If the setup changes, the SCP file may have to be re-generated.
 
-The [Heat transfer in square channel air flow](channel-flow-tutorial.md)
+The [Heat transfer in square channel air flow](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/channel-flow-tutorial)
 tutorial demonstrates how the SCP file can be used
 during the setup stage to add the participant to the coupled analysis.
 
@@ -33,7 +35,7 @@ the participant by specifying the path to the participant executable
 (as well as working directory and any additional command line arguments).
 System Coupling invokes the participant in setup mode by adding `--scsetup` command
 line argument, along with the host, port, and participant name arguments.
-See [Command line arguments for participant solvers](command-line-arguments.md)
+See [Command line arguments for participant solvers](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/command-line-arguments)
 for more details on the command line arguments.
 The participant in setup mode connects to System Coupling and the setup
 is communicated. Once the participant in setup mode is shut down, the
@@ -50,7 +52,7 @@ Some of the disadvantages of this approach are:
 
 - Adding the participant may take longer if the participant has to read the mesh during the setup
 
-The [Oscillating plate damping](plate-damping-tutorial.md) tutorial demonstrates
+The [Oscillating plate damping](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/plate-damping-tutorial) tutorial demonstrates
 how the participant library can be used
 during the setup stage to add the participant to the coupled analysis.
 

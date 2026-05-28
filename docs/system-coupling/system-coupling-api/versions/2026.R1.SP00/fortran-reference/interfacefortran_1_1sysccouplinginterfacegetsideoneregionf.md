@@ -1,4 +1,6 @@
-# Interface fortran::sysccouplinginterfacegetsideoneregionf
+---
+title: "Interface fortran::sysccouplinginterfacegetsideoneregionf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get side one region from a coupling interface.
 
 ## Members
 
-* [sysccouplinginterfacegetsideoneregionf](interfacefortran_1_1sysccouplinginterfacegetsideoneregionf.md#interfacefortran_1_1sysccouplinginterfacegetsideoneregionf_1a59948dc89acf49e6d2f45941eccb1c29)
+* [sysccouplinginterfacegetsideoneregionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1sysccouplinginterfacegetsideoneregionf)
 
 ## Public functions
 
@@ -35,7 +37,7 @@ Get side one region from a coupling interface.
 * couplingInterfacecouplingInterface
 * indexindex
 
-**Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
+**Return type**: type([syscregionf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscregionf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

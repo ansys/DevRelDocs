@@ -1,4 +1,6 @@
-# Interface fortran::syscgetdatatransferf
+---
+title: "Interface fortran::syscgetdatatransferf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get a data transfer.
 
 ## Members
 
-* [syscgetdatatransferf](interfacefortran_1_1syscgetdatatransferf.md#interfacefortran_1_1syscgetdatatransferf_1a7dfe2901d48eab20fe578ec65a3d1343)
+* [syscgetdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetdatatransferf)
 
 ## Public functions
 
@@ -40,7 +42,7 @@ Create a data transfer.
 * targetVariabletargetVariable
 * targetSidetargetSide
 
-**Return type**: type([syscdatatransferf](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf)) function
+**Return type**: type([syscdatatransferf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdatatransferf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

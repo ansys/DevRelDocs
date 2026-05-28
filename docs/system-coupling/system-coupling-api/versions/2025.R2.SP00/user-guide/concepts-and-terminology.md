@@ -1,4 +1,6 @@
-# Concepts overview
+---
+title: "Concepts overview"
+---
 
 ## Dimensionalities
 
@@ -154,25 +156,25 @@ Note that each side of the coupling interface may be the source side and/or the 
 depending on the variable being mapped. It is possible to map one variable from
 side one to side two and another variable from side two to side one at the same time.
 
-See [Multi-Region Coupling Interfaces](multiregion.md) for more details on how to handle
+See [Multi-Region Coupling Interfaces](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/multiregion) for more details on how to handle
 interfaces with more than one region per side.
 
 ## Parameter data access
 
 Copies of single-valued parameter data are sent to and from the participant.
-See [Access to Parameter Data](parameter-data-access.md) for more information.
+See [Access to Parameter Data](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/parameter-data-access) for more information.
 
 ## Heavyweight data access structures
 
 Heavyweight data access structures provide access to mesh, point cloud, and solution data.
 The participant library makes use of the **callback** functions to access that data.
-See [Access to heavyweight data](heavyweight-data-access.md) for more information.
+See [Access to heavyweight data](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/heavyweight-data-access) for more information.
 
 ### Volume meshes
 
 Volume mesh represents the mesh of a volume region.
 The volume mesh must be communicated using one of the supported volume mesh formats - see
-[Mesh And Point Cloud Data Access](mesh-data-access.md) for more information.
+[Mesh And Point Cloud Data Access](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/mesh-data-access) for more information.
 
 ### Surface meshes
 
@@ -181,7 +183,7 @@ The surface mesh must be communicated using one of the supported surface mesh fo
 Surface mesh can be connected to one or two volume meshes, that is it can be a bounding surface of a volume mesh.
 This kind of connectivity describes the **mesh model**.
 
-See [Mesh And Point Cloud Data Access](mesh-data-access.md) for more information.
+See [Mesh And Point Cloud Data Access](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/mesh-data-access) for more information.
 
 ### Point clouds
 
@@ -189,7 +191,7 @@ Point cloud is an alternative option for discretizing
 the computational domain. It describes a set of
 disconnected points in space and can be useful in some applications.
 
-See [Mesh And Point Cloud Data Access](mesh-data-access.md)
+See [Mesh And Point Cloud Data Access](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/mesh-data-access)
 for more information about the supported point cloud format.
 
 ### Solution field data

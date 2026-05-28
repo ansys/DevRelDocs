@@ -1,4 +1,6 @@
-# Interface fortran::syscvariablegetnumintegerattributesf
+---
+title: "Interface fortran::syscvariablegetnumintegerattributesf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get number of real attributes.
 
 ## Members
 
-* [syscvariablegetnumintegerattributesf](interfacefortran_1_1syscvariablegetnumintegerattributesf.md#interfacefortran_1_1syscvariablegetnumintegerattributesf_1a5c854d6b9fd9a5f59f3074fa5e78429b)
+* [syscvariablegetnumintegerattributesf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscvariablegetnumintegerattributesf)
 
 ## Public functions
 

@@ -1,4 +1,6 @@
-# File syscCommonTypes.h
+---
+title: "File syscCommonTypes.h"
+---
 
 ![][C]
 
@@ -10,20 +12,20 @@
 
 ## Classes
 
-* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality)
-* [SyscTimeStep](structSyscTimeStep.md#structSyscTimeStep)
-* [SyscSolutionControl](structSyscSolutionControl.md#structSyscSolutionControl)
-* [SyscError](structSyscError.md#structSyscError)
-* [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
-* [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo)
-* [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo)
-* [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo)
+* [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
+* [SyscTimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscTimeStep)
+* [SyscSolutionControl](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSolutionControl)
+* [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
+* [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
+* [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
+* [SyscResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscResultsInfo)
+* [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscElementTypes.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -745,7 +747,7 @@ Provide a structure containing solution control.
 
 
 
-**Return type**: struct [SyscSolutionControl](structSyscSolutionControl.md#structSyscSolutionControl)
+**Return type**: struct [SyscSolutionControl](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSolutionControl)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b"></a>
 ### Typedef SyscOpaqueDataAccess
@@ -779,7 +781,7 @@ typedef struct SyscSetupInfo SyscSetupInfo
 
 Provide a structure for System Coupling setup information.
 
-To create and/or initialize the [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetSetupInfo</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetSetupInfo</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -791,7 +793,7 @@ SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady);
 
 
 
-**Return type**: struct [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: struct [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga97036eb61b15d6efd5f9602bd19bb562"></a>
 ### Typedef SyscSetupFileInfo
@@ -806,7 +808,7 @@ typedef struct SyscSetupFileInfo SyscSetupFileInfo
 
 Provide a structure for writing System Coupling setup files.
 
-To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -818,7 +820,7 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 
 
-**Return type**: struct [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo)
+**Return type**: struct [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacab0987c6f6f3da0ae499505c3f67d9e"></a>
 ### Typedef SyscResultsInfo
@@ -837,7 +839,7 @@ Provide a structure for writing results files.
 
 
 
-**Return type**: struct [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo)
+**Return type**: struct [SyscResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscResultsInfo)
 
 <a id="syscCommonTypes_8h_1a29cac2a7bcb30e8f76c639e8aa8316bf"></a>
 ### Typedef SyscParticipantInfo
@@ -856,7 +858,7 @@ typedef struct SyscParticipantInfo SyscParticipantInfo
 
 
 
-**Return type**: struct [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo)
+**Return type**: struct [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
 
 ## Functions
 
@@ -875,7 +877,7 @@ Get dimensionality.
 
 
 
-**Return type**: [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality)
+**Return type**: [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1d656df31d1a737654883968e029eb72"></a>
 ### Function syscGetSyscError
@@ -886,7 +888,7 @@ Get dimensionality.
 SyscError syscGetSyscError(int retcode, const char *message)
 ```
 
-Provide a function to return [SyscError](structSyscError.md#structSyscError) struct.
+Provide a function to return [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) struct.
 
 
 
@@ -897,7 +899,7 @@ Provide a function to return [SyscError](structSyscError.md#structSyscError) str
 * int **retcode**
 * const char * **message**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga65a1735a49d0e0ab7f32d03f27f325a3"></a>
 ### Function syscGetSetupInfo
@@ -914,7 +916,7 @@ Analysis type will be set to steady. Restarts supported flag will be set to fals
 
 
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae399cbc645966a48cc2928bb51018d9b"></a>
 ### Function syscGetSetupInfoA
@@ -937,9 +939,9 @@ Restarts supported flag will be set to false.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga49c86c342e0c0d2881958a7a752eb99b"></a>
 ### Function syscGetSetupInfoAR
@@ -961,10 +963,10 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae3a34c9ed638c50c65e1d87dabe66737"></a>
 ### Function syscGetSetupInfoARD
@@ -987,11 +989,11 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf3b03ee2974bbd198008e70e15dd1d1a"></a>
 ### Function syscGetSetupInfoARDT
@@ -1015,12 +1017,12 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
-* enum [SyscTimeIntegration](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaedf008f34febb068e44cb21292dc167f) **timeIntegration**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
+* enum [SyscTimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **timeIntegration**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga34fa5345c4ca947eca11bd6ee25f09ab"></a>
 ### Function syscGetSetupInfoARDTP
@@ -1045,13 +1047,13 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
-* enum [SyscTimeIntegration](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaedf008f34febb068e44cb21292dc167f) **timeIntegration**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
+* enum [SyscTimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **timeIntegration**
 * enum SyscParticipantType **participantType**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac80fa7c7f1ebe9a8d9ef3c4f90d274eb"></a>
 ### Function syscGetSetupFileInfo
@@ -1076,7 +1078,7 @@ Restarts supported flag will be set to false.
 
 * const char * **setupFileName**
 
-**Return type**: [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo)
+**Return type**: [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabf49efc0bc2492b1c8198ba9bd3dab06"></a>
 ### Function syscGetResultsInfo
@@ -1099,7 +1101,7 @@ Provide a function to create SetupFileInfo struct.
 
 * const char * **baseFileName**
 
-**Return type**: [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo)
+**Return type**: [SyscResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscResultsInfo)
 
 <a id="syscCommonTypes_8h_1a9071ddbfc5cf54e03c28c0747e924fa1"></a>
 ### Function syscGetParticipantInfo
@@ -1110,7 +1112,7 @@ Provide a function to create SetupFileInfo struct.
 SyscParticipantInfo syscGetParticipantInfo(const char *scHost, unsigned short scPort, const char *participantName)
 ```
 
-Provide a function to get & construct a [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo) struct if it doesn't exist.
+Provide a function to get & construct a [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo) struct if it doesn't exist.
 
 **Parameters**:
 
@@ -1124,7 +1126,7 @@ Provide a function to get & construct a [SyscParticipantInfo](structSyscParticip
 
 **Returns**:
 
-[SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo) A [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo) containing minimal attributes to connect to System Coupling
+[SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo) A [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo) containing minimal attributes to connect to System Coupling
 
 
 
@@ -1134,7 +1136,7 @@ Provide a function to get & construct a [SyscParticipantInfo](structSyscParticip
 * unsigned short **scPort**
 * const char * **participantName**
 
-**Return type**: [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo)
+**Return type**: [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
 
 <a id="syscCommonTypes_8h_1a1bfc8232912e47178cbc2f6f28997e2b"></a>
 ### Function syscGetParticipantInfoB
@@ -1158,7 +1160,7 @@ SyscParticipantInfo syscGetParticipantInfoB(const char *scHost, unsigned short s
 * const char * **participantName**
 * const char * **buildInformation**
 
-**Return type**: [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo)
+**Return type**: [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
 
 <a id="syscCommonTypes_8h_1ac22d0523ec1309af395e2f852afbf173"></a>
 ### Function syscGetParticipantInfoBT
@@ -1183,7 +1185,7 @@ SyscParticipantInfo syscGetParticipantInfoBT(const char *scHost, unsigned short 
 * const char * **buildInformation**
 * const char * **transcriptFileName**
 
-**Return type**: [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo)
+**Return type**: [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo)
 
 ## Source
 

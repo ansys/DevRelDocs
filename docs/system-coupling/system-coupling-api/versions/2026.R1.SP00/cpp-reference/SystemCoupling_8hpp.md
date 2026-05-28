@@ -1,4 +1,6 @@
-# File SystemCoupling.hpp
+---
+title: "File SystemCoupling.hpp"
+---
 
 ![][C++]
 
@@ -10,11 +12,11 @@
 
 ## Classes
 
-* [sysc::SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling)
+* [sysc::SystemCoupling](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1SystemCoupling)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
@@ -26,8 +28,8 @@
 * SystemCouplingParticipant/Region.hpp
 * SystemCouplingParticipant/Parameter.hpp
 * SystemCouplingParticipant/SyscComm.hpp
-* <cstddef>
-* <string>
+* &lt;cstddef&gt;
+* &lt;string&gt;
 
 ```mermaid
 graph LR

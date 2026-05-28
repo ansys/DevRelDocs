@@ -1,4 +1,6 @@
-# Structure sysc::TimeStep
+---
+title: "Structure sysc::TimeStep"
+---
 
 ![][C++]
 ![][public]
@@ -11,11 +13,11 @@ Provide a struct for time step.
 
 ## Members
 
-* [startTime](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep_1a115810021ec63279be6a82d5deb853c2)
-* [TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep_1a97ce4b55faaefbe7618a16b0363c092e)
-* [TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep_1aa92d1684145d3aa5ed39d171d2100299)
-* [timeStepNumber](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep_1ab8fbdd8e8dd4384d385c3190b11a2ccf)
-* [timeStepSize](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep_1a91d6e07b37c9c461ddfc8e85965321b2)
+* [startTime](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep)
+* [TimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep)
+* [TimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep)
+* [timeStepNumber](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep)
+* [timeStepSize](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep)
 
 ## Public attributes
 
@@ -87,7 +89,7 @@ Time step size (delta t).
 sysc::TimeStep::TimeStep()=default
 ```
 
-Provide a default constructor for [TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep).
+Provide a default constructor for [TimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep).
 
 
 
@@ -104,7 +106,7 @@ Provide a default constructor for [TimeStep](structsysc_1_1TimeStep.md#structsys
 sysc::TimeStep::TimeStep(int timeStepNumber, double startTime, double timeStepSize)
 ```
 
-Provide a non-default constructor for [TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep).
+Provide a non-default constructor for [TimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1TimeStep).
 
 
 

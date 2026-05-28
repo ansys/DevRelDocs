@@ -1,4 +1,6 @@
-# Structure SyscSurfaceMesh
+---
+title: "Structure SyscSurfaceMesh"
+---
 
 ![][C]
 ![][public]
@@ -11,13 +13,13 @@ Provides read-only access to the surface mesh for a given region.
 
 ## Members
 
-* [connectivityStamp](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a3316249d696bd73986f538f76d8caf4b)
-* [coordinatesStamp](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a11d7b54aad0e70cb5a5b7f197d0fbfc0)
-* [faces](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a087162c1bc756237bc7fff5d6edc5a93)
-* [nodes](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1afec3edb82f09c5907cf562a5b7561073)
-* [partitioningStamp](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a8f343bec777e3c98c927797e002c4182)
-* [side0](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a6e87f7a6198b1ca86544ea73df6235b5)
-* [side1](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a7b43da70685af52a3ca8444b29b769e8)
+* [connectivityStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
+* [coordinatesStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
+* [faces](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
+* [nodes](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
+* [partitioningStamp](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
+* [side0](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
+* [side1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)
 
 ## Public attributes
 
@@ -38,7 +40,7 @@ Mesh nodes.
 
 
 
-**Type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData)
 
 <a id="structSyscSurfaceMesh_1a087162c1bc756237bc7fff5d6edc5a93"></a>
 ### Variable faces
@@ -57,7 +59,7 @@ Mesh faces.
 
 
 
-**Type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscFaceData)
 
 <a id="structSyscSurfaceMesh_1a6e87f7a6198b1ca86544ea73df6235b5"></a>
 ### Variable side0

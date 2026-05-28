@@ -1,4 +1,6 @@
-# File syscParameter.h
+---
+title: "File syscParameter.h"
+---
 
 ![][C]
 
@@ -10,13 +12,13 @@
 
 ## Classes
 
-* [SyscParameter](structSyscParameter.md#structSyscParameter)
+* [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscParameter)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -53,7 +55,7 @@ Provide a struct for a System Coupling parameter.
 
 
 
-**Return type**: struct [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: struct [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscParameter)
 
 ## Functions
 
@@ -80,7 +82,7 @@ Display name will default to the same as name.
 
 * const char * **name**
 
-**Return type**: [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscParameter)
 
 <a id="group__SyscParticipantLibraryCAPI_1gafa0e858b9dc47ded43bd3fbf97c25206"></a>
 ### Function syscGetParameterD
@@ -105,7 +107,7 @@ Create parameter to be used in a coupled analysis.
 * const char * **name**
 * const char * **displayName**
 
-**Return type**: [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscParameter)
 
 ## Source
 

@@ -1,4 +1,6 @@
-# Interface fortran::syscconnectf
+---
+title: "Interface fortran::syscconnectf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@ Provide an interface to connect to System Coupling.
 
 ## Members
 
-* [syscconnectf](interfacefortran_1_1syscconnectf.md#interfacefortran_1_1syscconnectf_1af397378cdff4f98ef3c736cdda2dc2a0)
-* [syscconnectparallelf](interfacefortran_1_1syscconnectf.md#interfacefortran_1_1syscconnectf_1a15b29cc1bce67f869dea1b183de9c569)
+* [syscconnectf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscconnectf)
+* [syscconnectparallelf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscconnectf)
 
 ## Public functions
 
@@ -61,7 +63,7 @@ a <code>SyscErrorF</code> type that can be checked for any errors.
 * participantNameparticipantName
 * buildInformationbuildInformation
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 <a id="interfacefortran_1_1syscconnectf_1a15b29cc1bce67f869dea1b183de9c569"></a>
 ### Function syscconnectparallelf
@@ -104,7 +106,7 @@ a <code>SyscErrorF</code> type that can be checked for any errors.
 * communicatorcommunicator
 * buildInformationbuildInformation
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

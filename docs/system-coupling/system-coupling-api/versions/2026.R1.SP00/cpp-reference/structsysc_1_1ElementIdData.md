@@ -1,4 +1,6 @@
-# Structure sysc::ElementIdData
+---
+title: "Structure sysc::ElementIdData"
+---
 
 ![][C++]
 ![][public]
@@ -11,13 +13,13 @@ Element id access struct, provides read-only access to the mesh element ids.
 
 ## Members
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a2bc3e191dedac4234791ebe8d2726efc)
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1ad58ae6d869976ba9e7a110d49b6a47a2)
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a39cc1f753def252933c52a6b73b72785)
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a2d4efcc91449a330e8ce7e5ad14ca309)
-* [elementIds](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1ac98082ccca6778003a7785e4033fdcf7)
-* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1a99704232b3630f88fa5a4f636f543f13)
-* [operator=](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData_1aac7e9e57ec1b24173a5cb3f5d67506ff)
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [elementIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData)
 
 ## Public attributes
 
@@ -38,7 +40,7 @@ Element ids.
 
 
 
-**Type**: [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+**Type**: [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 ## Public functions
 
@@ -59,7 +61,7 @@ Constructor that takes cell ids.
 
 **Parameters**:
 
-* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **elementIds**
+* [OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData) **elementIds**
 
 **Return type**: 
 
@@ -97,7 +99,7 @@ Copy constructor.
 
 **Parameters**:
 
-* const [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &
+* const [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) &
 
 **Return type**: 
 
@@ -118,7 +120,7 @@ Move constructor.
 
 **Parameters**:
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &&
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) &&
 
 **Return type**: 
 
@@ -139,9 +141,9 @@ Copy-assign operator.
 
 **Parameters**:
 
-* const [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &
+* const [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) &
 
-**Return type**: [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &
+**Return type**: [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) &
 
 <a id="structsysc_1_1ElementIdData_1aac7e9e57ec1b24173a5cb3f5d67506ff"></a>
 ### Function operator=
@@ -160,9 +162,9 @@ Move-assign operator.
 
 **Parameters**:
 
-* [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &&
+* [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) &&
 
-**Return type**: [ElementIdData](structsysc_1_1ElementIdData.md#structsysc_1_1ElementIdData) &
+**Return type**: [ElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1ElementIdData) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

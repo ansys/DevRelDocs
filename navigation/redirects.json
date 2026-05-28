@@ -1,14 +1,1 @@
-[
-  {
-    "source": "/docs/dpf-framework-2027-r1",
-    "destination": "/docs/dpf/dpf-framework/versions/2027.R1.SP01"
-  },
-  {
-    "source": "/docs/dpf-framework-2027-r1/:path*",
-    "destination": "/docs/dpf/dpf-framework/versions/2027.R1.SP01/:path*"
-  },
-  {
-    "source": "/docs/dpf/dpf-framework/versions/2027.R1.SP01/index",
-    "destination": "/docs/dpf/dpf-framework/versions/2027.R1.SP01"
-  }
-]
+[]

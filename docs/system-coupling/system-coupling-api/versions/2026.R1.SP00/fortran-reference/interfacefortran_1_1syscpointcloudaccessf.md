@@ -1,4 +1,6 @@
-# Interface fortran::syscpointcloudaccessf
+---
+title: "Interface fortran::syscpointcloudaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide function interface for access to point cloud.
 
 ## Members
 
-* [syscpointcloudaccessf](interfacefortran_1_1syscpointcloudaccessf.md#interfacefortran_1_1syscpointcloudaccessf_1aa2c72be1290bb23ad80da1acf9e26856)
+* [syscpointcloudaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscpointcloudaccessf)
 
 ## Public functions
 
@@ -36,7 +38,7 @@ Provide a function protototype for access to point cloud.
 
 * regionNameregionName
 
-**Return type**: type([syscpointcloudf](structfortran_1_1syscpointcloudf.md#structfortran_1_1syscpointcloudf)) function
+**Return type**: type([syscpointcloudf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscpointcloudf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

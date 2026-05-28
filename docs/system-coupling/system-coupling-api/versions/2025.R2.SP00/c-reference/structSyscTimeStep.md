@@ -1,4 +1,6 @@
-# Structure SyscTimeStep
+---
+title: "Structure SyscTimeStep"
+---
 
 ![][C]
 ![][public]
@@ -11,9 +13,9 @@ Provide a struct for time step.
 
 ## Members
 
-* [startTime](structSyscTimeStep.md#structSyscTimeStep_1a73ab2a39df940f48522d8bd3854dbe9b)
-* [timeStepNumber](structSyscTimeStep.md#structSyscTimeStep_1a95502a2d37654fa3cd767392b07c4088)
-* [timeStepSize](structSyscTimeStep.md#structSyscTimeStep_1a10efd15748ecfc0e40ac8ad411467a3e)
+* [startTime](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscTimeStep)
+* [timeStepNumber](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscTimeStep)
+* [timeStepSize](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscTimeStep)
 
 ## Public attributes
 

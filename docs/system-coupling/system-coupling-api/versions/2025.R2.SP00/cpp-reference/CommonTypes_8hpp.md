@@ -1,4 +1,6 @@
-# File CommonTypes.hpp
+---
+title: "File CommonTypes.hpp"
+---
 
 ![][C++]
 
@@ -10,26 +12,26 @@
 
 ## Classes
 
-* [sysc::TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep)
-* [sysc::SolutionControl](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl)
-* [sysc::SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo)
-* [sysc::SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo)
-* [sysc::ResultsInfo](structsysc_1_1ResultsInfo.md#structsysc_1_1ResultsInfo)
-* [sysc::ValidityStatus](structsysc_1_1ValidityStatus.md#structsysc_1_1ValidityStatus)
-* [sysc::MeshValidityStatus](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus)
-* [sysc::ParticipantInfo](structsysc_1_1ParticipantInfo.md#structsysc_1_1ParticipantInfo)
+* [sysc::TimeStep](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1TimeStep)
+* [sysc::SolutionControl](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1SolutionControl)
+* [sysc::SetupInfo](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1SetupInfo)
+* [sysc::SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1SetupFileInfo)
+* [sysc::ResultsInfo](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ResultsInfo)
+* [sysc::ValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ValidityStatus)
+* [sysc::MeshValidityStatus](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1MeshValidityStatus)
+* [sysc::ParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1ParticipantInfo)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/CommonSettings.hpp
 * SystemCouplingParticipant/ElementTypes.hpp
 * SystemCouplingParticipant/NonFatalError.hpp
-* <string>
-* <utility>
+* &lt;string&gt;
+* &lt;utility&gt;
 
 ```mermaid
 graph LR

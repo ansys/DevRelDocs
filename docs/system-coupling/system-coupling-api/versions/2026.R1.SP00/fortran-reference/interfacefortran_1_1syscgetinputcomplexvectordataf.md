@@ -1,4 +1,6 @@
-# Interface fortran::syscgetinputcomplexvectordataf
+---
+title: "Interface fortran::syscgetinputcomplexvectordataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get input complex vector data.
 
 ## Members
 
-* [syscgetinputcomplexvectordataf](interfacefortran_1_1syscgetinputcomplexvectordataf.md#interfacefortran_1_1syscgetinputcomplexvectordataf_1ab9cf5d7c3c91ec97b045b952f530a8c8)
+* [syscgetinputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetinputcomplexvectordataf)
 
 ## Public functions
 
@@ -30,7 +32,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: type([syscinputcomplexvectordataf](structfortran_1_1syscinputcomplexvectordataf.md#structfortran_1_1syscinputcomplexvectordataf)) function
+**Return type**: type([syscinputcomplexvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscinputcomplexvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

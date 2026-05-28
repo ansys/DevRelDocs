@@ -1,4 +1,6 @@
-# Structure SyscNodeData
+---
+title: "Structure SyscNodeData"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Node data access struct, provides read-only access to the mesh nodes.
 
-To create and/or initialize [SyscNodeData](structSyscNodeData.md#structSyscNodeData), it is highly recommended to use one of the functions with names starting with <code>syscGetNodeData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData), it is highly recommended to use one of the functions with names starting with <code>syscGetNodeData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -19,8 +21,8 @@ SyscNodeData nodeData = syscGetNodeDataC(nodeCoords);
 
 ## Members
 
-* [nodeCoords](structSyscNodeData.md#structSyscNodeData_1a4da0b55605c39346dd83b830ab7eb54e)
-* [nodeIds](structSyscNodeData.md#structSyscNodeData_1a227ac3d62c2c7224c7844028b014d6c8)
+* [nodeCoords](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData)
+* [nodeIds](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscNodeData)
 
 ## Public attributes
 
@@ -41,7 +43,7 @@ Node ids array access.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="structSyscNodeData_1a4da0b55605c39346dd83b830ab7eb54e"></a>
 ### Variable nodeCoords
@@ -60,7 +62,7 @@ Node coordinates array access.
 
 
 
-**Type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

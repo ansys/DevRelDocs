@@ -1,4 +1,6 @@
-# Structure SyscDataTransfer
+---
+title: "Structure SyscDataTransfer"
+---
 
 ![][C]
 ![][public]
@@ -11,9 +13,9 @@ Data transfer specifies the source and target variables for mapping.
 
 ## Members
 
-* [sourceVariable](structSyscDataTransfer.md#structSyscDataTransfer_1a75ab076255c5c6861138810f25ce9a46)
-* [targetSide](structSyscDataTransfer.md#structSyscDataTransfer_1ab79ebf125798afce8652e2f40cb33e91)
-* [targetVariable](structSyscDataTransfer.md#structSyscDataTransfer_1a71ca350ac0121f402db52a74e84edfa0)
+* [sourceVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscDataTransfer)
+* [targetSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscDataTransfer)
+* [targetVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscDataTransfer)
 
 ## Public attributes
 
@@ -34,7 +36,7 @@ SyscVariable SyscDataTransfer::sourceVariable
 
 
 
-**Type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="structSyscDataTransfer_1a71ca350ac0121f402db52a74e84edfa0"></a>
 ### Variable targetVariable
@@ -53,7 +55,7 @@ SyscVariable SyscDataTransfer::targetVariable
 
 
 
-**Type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVariable)
 
 <a id="structSyscDataTransfer_1ab79ebf125798afce8652e2f40cb33e91"></a>
 ### Variable targetSide
@@ -72,7 +74,7 @@ enum SyscInterfaceSide SyscDataTransfer::targetSide
 
 
 
-**Type**: enum [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5)
+**Type**: enum [SyscInterfaceSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

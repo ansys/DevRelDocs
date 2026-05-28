@@ -1,13 +1,15 @@
-# Contents pages
+---
+title: "Contents pages"
+---
 
-* [Global contents](global_contents.md)
-* [Structures](struct_contents.md)
-* [Files](file_contents.md)
-* [Modules](group_contents.md)
+* [Global contents](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/global_contents)
+* [Structures](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/struct_contents)
+* [Files](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/file_contents)
+* [Modules](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/group_contents)
 
 # Index pages
 
-* [Global index](global_index.md)
-* [Structures](struct_index.md)
-* [Files](file_index.md)
-* [Modules](group_index.md)
+* [Global index](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/global_index)
+* [Structures](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/struct_index)
+* [Files](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/file_index)
+* [Modules](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/group_index)

@@ -1,4 +1,6 @@
-# Class sysc::DataTransfer
+---
+title: "Class sysc::DataTransfer"
+---
 
 ![][C++]
 ![][public]
@@ -11,16 +13,16 @@ Data transfer specifies the source and target variables for mapping.
 
 ## Members
 
-* [DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a9a4412f47dbd13ece79d35b0876ace13)
-* [getSideOneVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1ac9ae876a20ec454c591ae7aac97758c6)
-* [getSideTwoVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a4c9015e16e6fc254ee795254fbbcf8b9)
-* [getSourceSide](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a7788b20c57fe5479500101f705d0aaf8)
-* [getSourceVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1aceb91e53a56a9ef07b94c987296ffbcd)
-* [getTargetSide](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a737e25f50bae13a64f047a7b84d5e378)
-* [getTargetVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a7782efd24aafc93df895f2a10ad4fb60)
-* [m\_sourceVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a6ee52e13f6f319cb2834615dd0a2769a)
-* [m\_targetSide](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a37cef8a76bd2a277bdc0884160cc4b57)
-* [m\_targetVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a3e549fdfc54ed56822a7aec8252debcf)
+* [DataTransfer](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [getSideOneVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [getSideTwoVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [getSourceSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [getSourceVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [getTargetSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [getTargetVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [m\_sourceVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [m\_targetSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
+* [m\_targetVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer)
 
 ## Private attributes
 
@@ -41,7 +43,7 @@ Variable sysc::DataTransfer::m_sourceVariable
 
 
 
-**Type**: [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable)
+**Type**: [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable)
 
 <a id="classsysc_1_1DataTransfer_1a3e549fdfc54ed56822a7aec8252debcf"></a>
 ### Variable m\_targetVariable
@@ -60,7 +62,7 @@ Variable sysc::DataTransfer::m_targetVariable
 
 
 
-**Type**: [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable)
+**Type**: [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable)
 
 <a id="classsysc_1_1DataTransfer_1a37cef8a76bd2a277bdc0884160cc4b57"></a>
 ### Variable m\_targetSide
@@ -79,7 +81,7 @@ InterfaceSide sysc::DataTransfer::m_targetSide
 
 
 
-**Type**: [InterfaceSide](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae8967650e49639319360bad6efc649a4)
+**Type**: [InterfaceSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Public functions
 
@@ -92,7 +94,7 @@ InterfaceSide sysc::DataTransfer::m_targetSide
 sysc::DataTransfer::DataTransfer(Variable sourceVariable, Variable targetVariable, enum InterfaceSide targetSide)
 ```
 
-Provide a constructor for the [DataTransfer](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer) class.
+Provide a constructor for the [DataTransfer](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1DataTransfer) class.
 
 **Parameters**:
 
@@ -104,9 +106,9 @@ Provide a constructor for the [DataTransfer](classsysc_1_1DataTransfer.md#classs
 
 **Parameters**:
 
-* [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) **sourceVariable**
-* [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) **targetVariable**
-* enum [InterfaceSide](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae8967650e49639319360bad6efc649a4) **targetSide**
+* [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) **sourceVariable**
+* [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) **targetVariable**
+* enum [InterfaceSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **targetSide**
 
 **Return type**: 
 
@@ -126,7 +128,7 @@ Get the source variable.
 
 
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1DataTransfer_1a7782efd24aafc93df895f2a10ad4fb60"></a>
 ### Function getTargetVariable
@@ -144,7 +146,7 @@ Get the target variable.
 
 
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1DataTransfer_1ac9ae876a20ec454c591ae7aac97758c6"></a>
 ### Function getSideOneVariable
@@ -162,7 +164,7 @@ Get the variable on side one.
 
 
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1DataTransfer_1a4c9015e16e6fc254ee795254fbbcf8b9"></a>
 ### Function getSideTwoVariable
@@ -180,7 +182,7 @@ Get the variable on side two.
 
 
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1DataTransfer_1a737e25f50bae13a64f047a7b84d5e378"></a>
 ### Function getTargetSide
@@ -198,7 +200,7 @@ Get the source side.
 
 
 
-**Return type**: [InterfaceSide](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae8967650e49639319360bad6efc649a4)
+**Return type**: [InterfaceSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1DataTransfer_1a7788b20c57fe5479500101f705d0aaf8"></a>
 ### Function getSourceSide
@@ -216,7 +218,7 @@ Get the target side.
 
 
 
-**Return type**: [InterfaceSide](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gae8967650e49639319360bad6efc649a4)
+**Return type**: [InterfaceSide](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

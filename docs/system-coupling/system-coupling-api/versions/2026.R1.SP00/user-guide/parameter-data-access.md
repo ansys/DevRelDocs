@@ -1,13 +1,15 @@
-# Access to parameter data
+---
+title: "Access to parameter data"
+---
 
 **Parameter data** are data representing single-valued, non-field data.
-Since each parameter stores only a single value, the participant library does not provide access via shared memory (as is done with [Heavyweight Data](heavyweight-data-access.md)). Instead, the participant library provides access via direct get and set calls for the parameter data.
+Since each parameter stores only a single value, the participant library does not provide access via shared memory (as is done with [Heavyweight Data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/heavyweight-data-access)). Instead, the participant library provides access via direct get and set calls for the parameter data.
 
 For more information, see:
 
-- [Relevant concepts](#relevant-concepts)
-- [Input parameter data](#input-parameter-data)
-- [Output parameter data](#output-parameter-data)
+- [Relevant concepts](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parameter-data-access)
+- [Input parameter data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parameter-data-access)
+- [Output parameter data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/parameter-data-access)
 
 ## Relevant concepts
 

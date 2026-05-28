@@ -1,4 +1,6 @@
-# File syscAttribute.h
+---
+title: "File syscAttribute.h"
+---
 
 ![][C]
 
@@ -10,15 +12,15 @@
 
 ## Classes
 
-* [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
-* [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+* [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
+* [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -64,9 +66,9 @@ Create a real-valued attribute.
 
 * const char * **name**
 * double **value**
-* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality) **dimensionality**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga65737d6497a88298c80afab5d62f7687"></a>
 ### Function syscGetRealAttributeVDM
@@ -92,10 +94,10 @@ Create a real-valued attribute.
 
 * const char * **name**
 * double **value**
-* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality) **dimensionality**
 * int **modifiable**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf6d02a55f607a7af07039957b21ab511"></a>
 ### Function syscGetIntegerAttribute
@@ -120,7 +122,7 @@ Create an integer-valued attribute.
 * const char * **name**
 * long long int **value**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac3ae9103fa3cad3c60b1f794ecb27752"></a>
 ### Function syscGetIntegerAttributeVM
@@ -147,7 +149,7 @@ Create an integer-valued attribute.
 * long long int **value**
 * int **modifiable**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 ## Source
 

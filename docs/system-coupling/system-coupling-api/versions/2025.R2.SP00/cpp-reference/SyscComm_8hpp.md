@@ -1,4 +1,6 @@
-# File SyscComm.hpp
+---
+title: "File SyscComm.hpp"
+---
 
 ![][C++]
 
@@ -10,17 +12,17 @@
 
 ## Classes
 
-* [sysc::HostAndPort](structsysc_1_1HostAndPort.md#structsysc_1_1HostAndPort)
+* [sysc::HostAndPort](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/structsysc_1_1HostAndPort)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
-* <string>
+* &lt;string&gt;
 
 ```mermaid
 graph LR

@@ -1,4 +1,6 @@
-# Interface fortran::syscupdateoutputsf
+---
+title: "Interface fortran::syscupdateoutputsf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to update the participant's output variables.
 
 ## Members
 
-* [syscupdateoutputsf](interfacefortran_1_1syscupdateoutputsf.md#interfacefortran_1_1syscupdateoutputsf_1a561edec5898ef3a6ed14eebfc1bae272)
+* [syscupdateoutputsf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscupdateoutputsf)
 
 ## Public functions
 
@@ -34,7 +36,7 @@ Provide a function to update the participant's output variables.
 
 * convergenceStatusconvergenceStatus
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

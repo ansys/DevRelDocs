@@ -1,4 +1,6 @@
-# File syscLegacyInterfaces.h
+---
+title: "File syscLegacyInterfaces.h"
+---
 
 ![][C]
 
@@ -18,7 +20,7 @@
 * SystemCouplingParticipant/syscOutputScalarData.h
 * SystemCouplingParticipant/syscOutputVectorData.h
 * SystemCouplingParticipant/syscRegion.h
-* <stddef.h>
+* &lt;stddef.h&gt;
 
 ```mermaid
 graph LR
@@ -73,7 +75,7 @@ typedef SyscError(* SyscInputScalarVariableAccess) (const char *regionName, cons
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)(*
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)(*
 
 <a id="syscLegacyInterfaces_8h_1af9a8c22052da26bc0a1f59cae3b10c49"></a>
 ### Typedef SyscInputVectorVariableAccess
@@ -92,7 +94,7 @@ typedef SyscError(* SyscInputVectorVariableAccess) (const char *regionName, cons
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)(*
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)(*
 
 <a id="syscLegacyInterfaces_8h_1a5a048dafdcd30450abd59ba8efce06a4"></a>
 ### Typedef SyscOutputScalarVariableAccess
@@ -111,7 +113,7 @@ typedef SyscError(* SyscOutputScalarVariableAccess) (const char *regionName, con
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)(*
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)(*
 
 <a id="syscLegacyInterfaces_8h_1a28c4453b0889a06dc227190145fa1324"></a>
 ### Typedef SyscOutputVectorVariableAccess
@@ -130,7 +132,7 @@ typedef SyscError(* SyscOutputVectorVariableAccess) (const char *regionName, con
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)(*
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)(*
 
 ## Functions
 
@@ -149,7 +151,7 @@ SyscError syscCompleteCouplingSetup()
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="syscLegacyInterfaces_8h_1a363a9d7573b36139a2fdda8814d1211d"></a>
 ### Function syscCompleteCouplingSetupTransient
@@ -166,7 +168,7 @@ SyscError syscCompleteCouplingSetupTransient()
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="syscLegacyInterfaces_8h_1a92307cea739c9c0c140d0855b2824b18"></a>
 ### Function syscRegisterInputScalarVariableAccess
@@ -187,7 +189,7 @@ SyscError syscRegisterInputScalarVariableAccess(SyscInputScalarVariableAccess da
 
 * SyscInputScalarVariableAccess **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="syscLegacyInterfaces_8h_1a27db89b4e6b29d28a5a6ccf28bdf747a"></a>
 ### Function syscRegisterInputVectorVariableAccess
@@ -208,7 +210,7 @@ SyscError syscRegisterInputVectorVariableAccess(SyscInputVectorVariableAccess da
 
 * SyscInputVectorVariableAccess **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="syscLegacyInterfaces_8h_1a8253ec6d984411829f920f966776bab9"></a>
 ### Function syscRegisterOutputScalarVariableAccess
@@ -229,7 +231,7 @@ SyscError syscRegisterOutputScalarVariableAccess(SyscOutputScalarVariableAccess 
 
 * SyscOutputScalarVariableAccess **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="syscLegacyInterfaces_8h_1a8768de1fab6089b7eaf134818027ded6"></a>
 ### Function syscRegisterOutputVectorVariableAccess
@@ -250,7 +252,7 @@ SyscError syscRegisterOutputVectorVariableAccess(SyscOutputVectorVariableAccess 
 
 * SyscOutputVectorVariableAccess **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscError)
 
 <a id="syscLegacyInterfaces_8h_1a21768f0d4d4a65c2aa37727bd4789ccf"></a>
 ### Function syscGetVolumeMesh
@@ -267,7 +269,7 @@ SyscVolumeMesh syscGetVolumeMesh()
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)
 
 ## Source
 

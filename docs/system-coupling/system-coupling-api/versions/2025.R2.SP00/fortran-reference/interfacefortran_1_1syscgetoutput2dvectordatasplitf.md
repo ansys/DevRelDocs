@@ -1,4 +1,6 @@
-# Interface fortran::syscgetoutput2dvectordatasplitf
+---
+title: "Interface fortran::syscgetoutput2dvectordatasplitf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,10 +13,10 @@ Provide an interface to get 2D output vector data with split storage.
 
 ## Members
 
-* [syscgetoutput2dvectordatasplitf\_r42d](interfacefortran_1_1syscgetoutput2dvectordatasplitf.md#interfacefortran_1_1syscgetoutput2dvectordatasplitf_1aae4748249980002e1001566dc31bed22)
-* [syscgetoutput2dvectordatasplitf\_r43a](interfacefortran_1_1syscgetoutput2dvectordatasplitf.md#interfacefortran_1_1syscgetoutput2dvectordatasplitf_1ae1bd1817d8aacbf3a4ad1485fbc30cff)
-* [syscgetoutput2dvectordatasplitf\_r82d](interfacefortran_1_1syscgetoutput2dvectordatasplitf.md#interfacefortran_1_1syscgetoutput2dvectordatasplitf_1ac99b343b8da6f274dba1f46a447fa20c)
-* [syscgetoutput2dvectordatasplitf\_r83a](interfacefortran_1_1syscgetoutput2dvectordatasplitf.md#interfacefortran_1_1syscgetoutput2dvectordatasplitf_1a3c044606dc8a679c2de08682ab149ea0)
+* [syscgetoutput2dvectordatasplitf\_r42d](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutput2dvectordatasplitf)
+* [syscgetoutput2dvectordatasplitf\_r43a](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutput2dvectordatasplitf)
+* [syscgetoutput2dvectordatasplitf\_r82d](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutput2dvectordatasplitf)
+* [syscgetoutput2dvectordatasplitf\_r83a](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetoutput2dvectordatasplitf)
 
 ## Public functions
 
@@ -43,7 +45,7 @@ Create an 2D output vector data access type with split storage.
 * data1data1
 * dataSizedataSize
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutput2dvectordatasplitf_1a3c044606dc8a679c2de08682ab149ea0"></a>
 ### Function syscgetoutput2dvectordatasplitf\_r83a
@@ -70,7 +72,7 @@ Create an 2D output vector data access type with split storage.
 * data1data1
 * dataSizedataSize
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutput2dvectordatasplitf_1aae4748249980002e1001566dc31bed22"></a>
 ### Function syscgetoutput2dvectordatasplitf\_r42d
@@ -95,7 +97,7 @@ Create an 2D output vector data access type with split storage.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutput2dvectordatasplitf_1ac99b343b8da6f274dba1f46a447fa20c"></a>
 ### Function syscgetoutput2dvectordatasplitf\_r82d
@@ -120,7 +122,7 @@ Create an 2D output vector data access type with split storage.
 * valsvals
 * nElemsnElems
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

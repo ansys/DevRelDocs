@@ -1,4 +1,6 @@
-# Interface fortran::syscgetregionf
+---
+title: "Interface fortran::syscgetregionf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,10 +13,10 @@ Provide an interface to get a System Coupling region.
 
 ## Members
 
-* [syscgetregionf](interfacefortran_1_1syscgetregionf.md#interfacefortran_1_1syscgetregionf_1a54b1b07b43df89ae124a82bf7b2984b0)
-* [syscgetregionf\_dt](interfacefortran_1_1syscgetregionf.md#interfacefortran_1_1syscgetregionf_1a5195a09454601955d703e0359b40731a)
-* [syscgetregionf\_t](interfacefortran_1_1syscgetregionf.md#interfacefortran_1_1syscgetregionf_1a6ddf1e36616695a0bb954425a1b30896)
-* [syscgetregionf\_tm](interfacefortran_1_1syscgetregionf.md#interfacefortran_1_1syscgetregionf_1a314e7f693be1c5c4d7833bfd467de815)
+* [syscgetregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetregionf)
+* [syscgetregionf\_dt](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetregionf)
+* [syscgetregionf\_t](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetregionf)
+* [syscgetregionf\_tm](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetregionf)
 
 ## Public functions
 
@@ -56,7 +58,7 @@ a <code>SyscRegionF</code> type
 
 * regionNameregionName
 
-**Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
+**Return type**: type([syscregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)) function
 
 <a id="interfacefortran_1_1syscgetregionf_1a6ddf1e36616695a0bb954425a1b30896"></a>
 ### Function syscgetregionf\_t
@@ -92,7 +94,7 @@ a <code>SyscRegionF</code> type
 * regionNameregionName
 * topologytopology
 
-**Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
+**Return type**: type([syscregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)) function
 
 <a id="interfacefortran_1_1syscgetregionf_1a5195a09454601955d703e0359b40731a"></a>
 ### Function syscgetregionf\_dt
@@ -124,7 +126,7 @@ a <code>SyscRegionF</code> type
 * displayNamedisplayName
 * topologytopology
 
-**Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
+**Return type**: type([syscregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)) function
 
 <a id="interfacefortran_1_1syscgetregionf_1a314e7f693be1c5c4d7833bfd467de815"></a>
 ### Function syscgetregionf\_tm
@@ -156,7 +158,7 @@ a <code>SyscRegionF</code> type
 * topologytopology
 * discretizationdiscretization
 
-**Return type**: type([syscregionf](structfortran_1_1syscregionf.md#structfortran_1_1syscregionf)) function
+**Return type**: type([syscregionf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscregionf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

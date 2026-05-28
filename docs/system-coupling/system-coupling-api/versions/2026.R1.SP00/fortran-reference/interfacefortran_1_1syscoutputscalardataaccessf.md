@@ -1,4 +1,6 @@
-# Interface fortran::syscoutputscalardataaccessf
+---
+title: "Interface fortran::syscoutputscalardataaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide function interface for access to output scalar data.
 
 ## Members
 
-* [syscoutputscalardataaccessf](interfacefortran_1_1syscoutputscalardataaccessf.md#interfacefortran_1_1syscoutputscalardataaccessf_1a78ffc31d9271bad59d186ef93ffa7d89)
+* [syscoutputscalardataaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscoutputscalardataaccessf)
 
 ## Public functions
 
@@ -38,7 +40,7 @@ Provide a function for access to output scalar data.
 * regionNameregionName
 * variableNamevariableName
 
-**Return type**: type([syscoutputscalardataf](structfortran_1_1syscoutputscalardataf.md#structfortran_1_1syscoutputscalardataf)) function
+**Return type**: type([syscoutputscalardataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputscalardataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# File syscOutputVectorData.h
+---
+title: "File syscOutputVectorData.h"
+---
 
 ![][C]
 
@@ -10,14 +12,14 @@
 
 ## Classes
 
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/syscCommonTypes.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -55,7 +57,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacb630e9f5b846eb243f4cb6e67907885"></a>
 ### Function syscGetOutputVectorDataCompactDouble
@@ -80,7 +82,7 @@ Create an 3D output vector data access struct with compact storage.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1bec0ed33e0603a25d69f98efd68177a"></a>
 ### Function syscGetOutputVectorDataCompactFloat
@@ -105,7 +107,7 @@ Create an 3D output vector data access struct with compact storage.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaa51c47ef1d83c217ac1d10080de120c"></a>
 ### Function syscGetOutputVectorDataSplitDouble
@@ -134,7 +136,7 @@ Create an 3D output vector data access struct with split storage.
 * const double *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac91454fccf5ff91fdb82fa976bf5bc3c"></a>
 ### Function syscGetOutputVectorDataSplitFloat
@@ -163,7 +165,7 @@ Create an 3D output vector data access struct with split storage.
 * const float *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3ff75e8ebe2bf6e850544f378cb240c6"></a>
 ### Function syscGetOutputVectorDataCompactDoubleDim
@@ -188,9 +190,9 @@ Create an output vector data access struct with compact storage based on dimensi
 
 * const double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa09a2e4358b2a5459db179c5da641be8"></a>
 ### Function syscGetOutputVectorDataCompactFloatDim
@@ -215,9 +217,9 @@ Create an output vector data access struct with compact storage based on dimensi
 
 * const float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac737552145182f1de70e347531477a88"></a>
 ### Function syscGetOutput2DVectorDataSplitDouble
@@ -244,7 +246,7 @@ Create a 2D output vector data access struct with split storage.
 * const double *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga22d069eb2d95a8060a0dfdaf9a5d43aa"></a>
 ### Function syscGetOutput2DVectorDataSplitFloat
@@ -271,7 +273,7 @@ Create an output vector data access struct with split storage.
 * const float *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 ## Source
 

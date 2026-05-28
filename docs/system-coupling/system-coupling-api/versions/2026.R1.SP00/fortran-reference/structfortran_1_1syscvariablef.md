@@ -1,4 +1,6 @@
-# Type fortran::syscvariablef undefined
+---
+title: "Type fortran::syscvariablef undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -20,13 +22,13 @@ var = syscGetVariableF("Temperature", SyscScalar, .FALSE., SyscNode)
 
 ## Members
 
-* [datatype](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1a5630b71110de368c88758358db3b720d)
-* [displayname](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1a9278aae61ed92d3128608932a9d9f464)
-* [isextensive](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1ad3267dcbbecf72d992ab42706eabff7e)
-* [location](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1a273794a0cba93c1b658a44d52509602e)
-* [quantitytype](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1a75a35f6f8588983f49b7c297cf909f89)
-* [tensortype](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1a0002a1ee2cd59d127b4870b6a9ae3a6c)
-* [variablename](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef_1a4b564b900d619390a32c15b030dd7e70)
+* [datatype](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [displayname](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [isextensive](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [location](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [quantitytype](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [tensortype](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
+* [variablename](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef)
 
 ## Public attributes
 

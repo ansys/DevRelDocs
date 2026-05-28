@@ -1,4 +1,6 @@
-# Interface fortran::syscgetcouplinginterfacef
+---
+title: "Interface fortran::syscgetcouplinginterfacef"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to get a coupling interface.
 
 ## Members
 
-* [syscgetcouplinginterfacef](interfacefortran_1_1syscgetcouplinginterfacef.md#interfacefortran_1_1syscgetcouplinginterfacef_1aec4bf2d947b022718429d490da07c2f7)
+* [syscgetcouplinginterfacef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetcouplinginterfacef)
 
 ## Public functions
 
@@ -36,7 +38,7 @@ Create a coupling interface.
 
 * namename
 
-**Return type**: type([sysccouplinginterfacef](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef)) function
+**Return type**: type([sysccouplinginterfacef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1sysccouplinginterfacef)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

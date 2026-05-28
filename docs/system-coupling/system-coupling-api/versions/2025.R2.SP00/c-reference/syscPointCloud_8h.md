@@ -1,4 +1,6 @@
-# File syscPointCloud.h
+---
+title: "File syscPointCloud.h"
+---
 
 ![][C]
 
@@ -10,7 +12,7 @@
 
 ## Classes
 
-* [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
+* [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
 
 ## Includes
 
@@ -18,8 +20,8 @@
 * SystemCouplingParticipant/syscCommonTypes.h
 * SystemCouplingParticipant/syscOutputIntegerData.h
 * SystemCouplingParticipant/syscOutputVectorData.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -63,7 +65,7 @@ Returns a struct representing empty point cloud. All member will be assigned def
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0a8b0fe8c0c57374a3ef69d1f678fdab"></a>
 ### Function syscGetPointCloud
@@ -85,10 +87,10 @@ Create a point cloud access struct.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData) **nodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)
 
 ## Source
 

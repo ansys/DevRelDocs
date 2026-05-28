@@ -1,4 +1,6 @@
-# File syscElementTypes.h
+---
+title: "File syscElementTypes.h"
+---
 
 ![][C]
 
@@ -11,8 +13,8 @@
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR

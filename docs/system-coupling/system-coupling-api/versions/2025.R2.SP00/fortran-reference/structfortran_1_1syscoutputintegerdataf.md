@@ -1,4 +1,6 @@
-# Type fortran::syscoutputintegerdataf undefined
+---
+title: "Type fortran::syscoutputintegerdataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -20,9 +22,9 @@ oid = syscGetOutputIntegerDataF(array, arraySize)
 
 ## Members
 
-* [dataptr](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf_1a267ef1b5c835b12e571fea3d20a8ff7b)
-* [datasize](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf_1ac8d11b0cadefc4f138b1ef4e0ab50b2a)
-* [primitivetype](structfortran_1_1syscoutputintegerdataf.md#structfortran_1_1syscoutputintegerdataf_1a41aa641a12e238b3d8a12707aa047938)
+* [dataptr](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf)
+* [datasize](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf)
+* [primitivetype](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputintegerdataf)
 
 ## Public attributes
 

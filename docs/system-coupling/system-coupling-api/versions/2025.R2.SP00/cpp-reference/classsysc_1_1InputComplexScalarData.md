@@ -1,4 +1,6 @@
-# Class sysc::InputComplexScalarData
+---
+title: "Class sysc::InputComplexScalarData"
+---
 
 ![][C++]
 ![][public]
@@ -11,32 +13,32 @@ Input scalar data provides read and write access to an array of complex scalars.
 
 ## Members
 
-* [empty](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1ad7c8bad4fe00dc8e31160925a811eb5a)
-* [getData1](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a88e72a3976633fd62cd8c373ccbb6194)
-* [getData2](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a039392f0e599a4a2a2fca00787e546a0)
-* [getDataType](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a19522f922326595ae0eeafbb3807136b)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a9799ecb48164481feb8e3c234b5f17a2)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a4fd7a610e7b5bbf7e23fafed47354e4b)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a2651ceaed447865458a33e21feab6bc4)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1aebb2f21dc9bb49e32ef384ea232fac2d)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1aaad5ae16ce141940bf382347bfcde0fc)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1ae35e1789225279bb36f03b24538c109c)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a4767c4598c7bf8e358581963281d116f)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a17e9c685d7df19afaab8c8d79a7f3a5e)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1aa3af42841050f48442f7c799934464b1)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a3cb2a7e0408644aa704afe24a3c69680)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a87ddce421dd35973a0fb7e5ba971f1ab)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a580988b37a3df87bc3f7b8e54ab44bb1)
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a04373a36866867b8d84d2eddca6c123e)
-* [isSplitComplex](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a77de5929a7ea7631649982e5fb3104da)
-* [m\_data1](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a216b4355c68bc40716d4f35430c02698)
-* [m\_data2](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1ab91001f99844f033ad55ad3a9309889c)
-* [m\_dataType](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1af0025f6a082772a145e8dc3518f421e4)
-* [m\_isSplitComplex](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1af2cd5681cfae4f69b6f41c04f23e95e2)
-* [m\_size](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1aa528e45207016d04e24ede1521684342)
-* [operator=](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a0f21d4c6de589c264c44a9a6203d46cf)
-* [operator=](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1ac229c985802f1d806d13460ce35b4ae6)
-* [size](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a9034067801b82ce51fb707e45517d08b)
+* [empty](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [getData1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [getData2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [getDataType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [isSplitComplex](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [m\_data1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [m\_data2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [m\_dataType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [m\_isSplitComplex](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [m\_size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData)
 
 ## Private attributes
 
@@ -57,7 +59,7 @@ PrimitiveType sysc::InputComplexScalarData::m_dataType {PrimitiveType::Double}
 
 
 
-**Type**: [PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Type**: [PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputComplexScalarData_1af2cd5681cfae4f69b6f41c04f23e95e2"></a>
 ### Variable m\_isSplitComplex
@@ -421,7 +423,7 @@ Provide a copy-constructor.
 
 **Parameters**:
 
-* const [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) &
+* const [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) &
 
 **Return type**: 
 
@@ -442,7 +444,7 @@ Provide a move-constructor.
 
 **Parameters**:
 
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) &&
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) &&
 
 **Return type**: 
 
@@ -463,9 +465,9 @@ Provide a copy-assign operator.
 
 **Parameters**:
 
-* const [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) &
+* const [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) &
 
-**Return type**: [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) &
+**Return type**: [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) &
 
 <a id="classsysc_1_1InputComplexScalarData_1ac229c985802f1d806d13460ce35b4ae6"></a>
 ### Function operator=
@@ -484,9 +486,9 @@ Provide a move-assign operator.
 
 **Parameters**:
 
-* [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) &&
+* [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) &&
 
-**Return type**: [InputComplexScalarData](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData) &
+**Return type**: [InputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1InputComplexScalarData) &
 
 <a id="classsysc_1_1InputComplexScalarData_1a9034067801b82ce51fb707e45517d08b"></a>
 ### Function size
@@ -540,7 +542,7 @@ For internal use only (no back-compatibility guarantee).
 
 
 
-**Return type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Return type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputComplexScalarData_1a77de5929a7ea7631649982e5fb3104da"></a>
 ### Function isSplitComplex
@@ -598,7 +600,7 @@ For internal use only (no back-compatibility guarantee).
 
 **References**:
 
-* [sysc::Double](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggad3b1c73e4a63f4d292d65f3db875e844a29843d2c1bb5760f768dcc066dac1ac1)
+* [sysc::Double](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

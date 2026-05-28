@@ -1,4 +1,6 @@
-# File PointCloud.hpp
+---
+title: "File PointCloud.hpp"
+---
 
 ![][C++]
 
@@ -10,12 +12,12 @@
 
 ## Classes
 
-* [sysc::PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud)
-* [sysc::InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud)
+* [sysc::PointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1PointCloud)
+* [sysc::InputPointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1InputPointCloud)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
@@ -25,7 +27,7 @@
 * SystemCouplingParticipant/InputVectorData.hpp
 * SystemCouplingParticipant/OutputIntegerData.hpp
 * SystemCouplingParticipant/OutputVectorData.hpp
-* <cstddef>
+* &lt;cstddef&gt;
 
 ```mermaid
 graph LR

@@ -1,13 +1,15 @@
-# Mesh and point cloud data access
+---
+title: "Mesh and point cloud data access"
+---
 
-This section pre-supposes familiarity with the concepts introduced in [Access to heavyweight data](heavyweight-data-access.md) section.
+This section pre-supposes familiarity with the concepts introduced in [Access to heavyweight data](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/heavyweight-data-access) section.
 Heavyweight array data access structures described in that section can be
 combined into higher-level structures to provide access to mesh and point cloud data.
 This section describes these higher-level structures as well as requirements of mesh and point cloud structures.
 
-[Mesh](#mesh)
+[Mesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
-[Point Cloud](#point-cloud)
+[Point Cloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
 ## Mesh
 
@@ -30,17 +32,17 @@ It is possible to define the mesh using both formats at the same time. However,
 in most cases it would require providing redundant information, so most
 participant solvers can be expected to choose one of the two mesh formats.
 
-[Intermediate structures](#intermediate-structures)
+[Intermediate structures](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
-[Mesh model information](#mesh-model-information)
+[Mesh model information](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
-[Element-based surface mesh example](#element-based-surface-mesh-example)
+[Element-based surface mesh example](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
-[Face-based surface mesh example](#face-based-surface-mesh-example)
+[Face-based surface mesh example](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
-[Element-based volume mesh example](#element-based-volume-mesh-example)
+[Element-based volume mesh example](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
-[Face-based volume mesh example](#face-based-volume-mesh-example)
+[Face-based volume mesh example](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/user-guide/mesh-data-access)
 
 ### Intermediate structures
 

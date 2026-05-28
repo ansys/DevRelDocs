@@ -1,4 +1,6 @@
-# Interface fortran::syscgetoutputvectordatasplitf
+---
+title: "Interface fortran::syscgetoutputvectordatasplitf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,10 +13,10 @@ Provide an interface to get output vector data with split storage.
 
 ## Members
 
-* [syscgetoutputvectordatasplitf\_r42d](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1adf74c91be8f957f17695d7ce6f0cd283)
-* [syscgetoutputvectordatasplitf\_r43a](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a7c3c0f6b9e239fdc0ec4258ce854c92f)
-* [syscgetoutputvectordatasplitf\_r82d](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a5c4fdc29443558a0cdf0341af36eea73)
-* [syscgetoutputvectordatasplitf\_r83a](interfacefortran_1_1syscgetoutputvectordatasplitf.md#interfacefortran_1_1syscgetoutputvectordatasplitf_1a43e775dde9ec32a773813c2704ef7ad7)
+* [syscgetoutputvectordatasplitf\_r42d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatasplitf)
+* [syscgetoutputvectordatasplitf\_r43a](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatasplitf)
+* [syscgetoutputvectordatasplitf\_r82d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatasplitf)
+* [syscgetoutputvectordatasplitf\_r83a](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatasplitf)
 
 ## Public functions
 
@@ -45,7 +47,7 @@ Create an output vector data access type with split storage.
 * data2data2
 * dataSizedataSize
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a43e775dde9ec32a773813c2704ef7ad7"></a>
 ### Function syscgetoutputvectordatasplitf\_r83a
@@ -74,7 +76,7 @@ Create an output vector data access type with split storage.
 * data2data2
 * dataSizedataSize
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1adf74c91be8f957f17695d7ce6f0cd283"></a>
 ### Function syscgetoutputvectordatasplitf\_r42d
@@ -99,7 +101,7 @@ Create an output vector data access type with split storage.
 * datadata
 * dataSizedataSize
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputvectordatasplitf_1a5c4fdc29443558a0cdf0341af36eea73"></a>
 ### Function syscgetoutputvectordatasplitf\_r82d
@@ -124,7 +126,7 @@ Create an output vector data access type with split storage.
 * valsvals
 * nElemsnElems
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

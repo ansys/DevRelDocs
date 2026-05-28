@@ -1,4 +1,6 @@
-# Structure SyscOutputIntegerData
+---
+title: "Structure SyscOutputIntegerData"
+---
 
 ![][C]
 ![][public]
@@ -13,7 +15,7 @@ Output integer data provides read-only access to an array of integer data.
 
 
 
-To create and/or initialize [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData), it is highly recommended to use one of the functions with names starting with <code>syscGetOutputIntegerData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData), it is highly recommended to use one of the functions with names starting with <code>syscGetOutputIntegerData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -26,9 +28,9 @@ arraySize);
 
 ## Members
 
-* [data](structSyscOutputIntegerData.md#structSyscOutputIntegerData_1a27cf91c94d9a2550d8697e562831e2d4)
-* [primitiveType](structSyscOutputIntegerData.md#structSyscOutputIntegerData_1a208237662f53658a829a9ee82cfe3b24)
-* [size](structSyscOutputIntegerData.md#structSyscOutputIntegerData_1a4bfb506a93651c8c2519f6dd094ae53f)
+* [data](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 ## Public attributes
 
@@ -49,7 +51,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscOutputIntegerData_1a27cf91c94d9a2550d8697e562831e2d4"></a>
 ### Variable data

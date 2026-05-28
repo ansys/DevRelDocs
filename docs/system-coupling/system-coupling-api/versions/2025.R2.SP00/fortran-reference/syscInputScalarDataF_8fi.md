@@ -1,4 +1,6 @@
-# File syscInputScalarDataF.fi
+---
+title: "File syscInputScalarDataF.fi"
+---
 
 ![][Fortran]
 
@@ -10,12 +12,12 @@
 
 ## Classes
 
-* [fortran::syscinputscalardataf](structfortran_1_1syscinputscalardataf.md#structfortran_1_1syscinputscalardataf)
-* [fortran::syscgetinputscalardataf](interfacefortran_1_1syscgetinputscalardataf.md#interfacefortran_1_1syscgetinputscalardataf)
+* [fortran::syscinputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscinputscalardataf)
+* [fortran::syscgetinputscalardataf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscgetinputscalardataf)
 
 ## Namespaces
 
-* [fortran](namespacefortran.md#namespacefortran)
+* [fortran](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/namespacefortran)
 
 ## Source
 

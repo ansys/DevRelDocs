@@ -1,4 +1,6 @@
-# Compiling, linking, and executing applications that use the participant library
+---
+title: "Compiling, linking, and executing applications that use the participant library"
+---
 
 The instructions for linking and compiling the participant library
 depend on the target platform, the target language, the MPI distribution, and
@@ -16,7 +18,7 @@ System Coupling interfaces are provided for the following target languages:
 | Python        | 3.10*                                                    |
 
 \* Only some Python interpreters are supported.
-The CPython interpreter located in `<ANSYSInstallationPath>/commonfiles/CPython` is supported on Windows and on Linux,
+The CPython interpreter located in `&lt;ANSYSInstallationPath&gt;/commonfiles/CPython` is supported on Windows and on Linux,
 and it is the recommended interpreter. Other Python interpreters have not been tested.
 
 ## System Coupling participant library resources
@@ -25,7 +27,7 @@ Resources are available at the following locations:
 
 ### Public header files
 
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/include/SystemCouplingParticipant`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/include/SystemCouplingParticipant`
 
   All public header files for the C++, C, and Fortran interfaces are
   located in the above directory. Both fixed and free form headers are available
@@ -52,7 +54,7 @@ library with the required Python module.
 ##### Using the wheel file (recommended)
 
 The wheel file for SCP library is located in the following directory:
-`<ANSYSInstallationPath>/SystemCoupling/wheels/partlib/dist`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/wheels/partlib/dist`
 
 It can be pip-installed and as any other Python package. For example:
 `pip install ansys_systemcoupling_partlib-25.2.0-cp310-abi3-win_amd64.whl`
@@ -68,9 +70,9 @@ sc = scp.SystemCoupling()
 
 `pyExt.SystemCouplingParticipant` module should be imported in Python.
 However, first the following directoies must be included in `PYTHONPATH` environment variable:
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin`
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin/compiler`
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/stub`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/bin`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/bin/compiler`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/cnlauncher/fluent/fluent&lt;MultiportVersion&gt;/multiport/mpi_wrapper/&lt;platform&gt;/stub`
 
 In addition, due to a change in the behavior of python 3.8 and above on Windows
 platforms, appropriate DLL directories must be added via `os.add_dll_directory` call.
@@ -91,21 +93,21 @@ sc = scp.SystemCoupling()
 ### Link-time dependencies
 
 - Windows
-  - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/lib`
+  - `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/lib`
     - `SysC.SystemCouplingParticipant.lib`
     - `SysC.SystemCouplingParticipant.Fortran.lib` (only if using Fortran APIs)
-  - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/<mpi>`
+  - `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/cnlauncher/fluent/fluent&lt;MultiportVersion&gt;/multiport/mpi_wrapper/&lt;platform&gt;/&lt;mpi&gt;`
     - `mpi_wrapper.lib`
 - Linux
-  - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin`
+  - `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/bin`
     - `SysC.SystemCouplingParticipant.so`
     - `SysC.SystemCouplingParticipant.Fortran.so` (only if using Fortran APIs)
-  - `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/<mpi>`
+  - `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/cnlauncher/fluent/fluent&lt;MultiportVersion&gt;/multiport/mpi_wrapper/&lt;platform&gt;/&lt;mpi&gt;`
     - `libmpi_wrapper.so`
 
 ### Run-time dependencies
 
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/bin`
   - `SysC.SystemCouplingParticipant.dll` (Windows)
   - `SysC.SystemCouplingParticipant.Fortran.dll` (Windows, only if using Fortran APIs)
   - `SysC.SystemCouplingParticipant.Python.dll` (Windows, only if using Python APIs)
@@ -115,9 +117,9 @@ sc = scp.SystemCoupling()
   - `pyExt/_SystemCouplingParticipant.pyd` (Windows, only if using Python APIs)
   - `pyExt/_SystemCouplingParticipant.so` (Linux, only if using Python APIs)
   - `pyExt/SystemCouplingParticipant.pyc` (only if using Python APIs)  
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin/compiler`
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/<mpi>`
-  - If not using a supported MPI distribution (this includes not using MPI at all), stub MPI wrapper should be used (replace `<mpi>` with "stub" above).
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/bin/compiler`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/cnlauncher/fluent/fluent&lt;MultiportVersion&gt;/multiport/mpi_wrapper/&lt;platform&gt;/&lt;mpi&gt;`
+  - If not using a supported MPI distribution (this includes not using MPI at all), stub MPI wrapper should be used (replace `&lt;mpi&gt;` with "stub" above).
 
 The above directories need to be included in the **`PATH`** environment
 variable (on Windows) or **`LD_LIBRARY_PATH`** environment variable
@@ -125,7 +127,7 @@ variable (on Windows) or **`LD_LIBRARY_PATH`** environment variable
 
 ### Ansys CPython interpreter (for Python only)
 
-- `<ANSYSInstallationPath>/commonfiles/CPython/<version>/release/python`
+- `&lt;ANSYSInstallationPath&gt;/commonfiles/CPython/&lt;version&gt;/release/python`
 
 ## Dynamically loadable System Coupling Participant library resources
 
@@ -152,7 +154,7 @@ In addition, Fortran source files are provided under `SystemCouplingParticipant/
 
 A static library  is provided to link when using system coupling participant proxy APIs .
 
-- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/lib/static`
+- `&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/&lt;platform&gt;/lib/static`
   - `SysC.SystemCouplingParticipant.Proxy.lib` (Windows)
   - `libSysC.SystemCouplingParticipant.Proxy.a` (Linux)
 
@@ -168,9 +170,9 @@ tutorial package.
 
 In the following examples, replace
 
-- `<ANSYSInstallationPath>` with the correct Ansys installation path.
-- `<MultiportVersion>` with the correct version of the Fluent Multiport library.
-- `<IntelMPIPath>` with the correct path to the Intel MPI library.
+- `&lt;ANSYSInstallationPath&gt;` with the correct Ansys installation path.
+- `&lt;MultiportVersion&gt;` with the correct version of the Fluent Multiport library.
+- `&lt;IntelMPIPath&gt;` with the correct path to the Intel MPI library.
 
 The following compiler and MPI versions were used:
 
@@ -267,9 +269,9 @@ gfortran -cpp -I<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/include/Sy
 
 Add the following locations to the `LD_LIBRARY_PATH` environment variable:
 
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin`
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin/compiler`
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/stub`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/bin`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/bin/compiler`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent&lt;MultiportVersion&gt;/multiport/mpi_wrapper/lnamd64/stub`
 
 Now, if complied (C++, C, or Fortran) execute the program in standalone mode:
 
@@ -277,7 +279,7 @@ Now, if complied (C++, C, or Fortran) execute the program in standalone mode:
 
 If using Python, also add the following location to the `PYTHONPATH` environment variable:
 
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/bin`
 
 Now, execute the Python script in standalone mode:
 
@@ -287,9 +289,9 @@ Now, execute the Python script in standalone mode:
 
 Add the following locations to the `LD_LIBRARY_PATH` environment variable:
 
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin`
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/bin/compiler`
-`<ANSYSInstallationPath>/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/lnamd64/intel`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/bin`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/bin/compiler`
+`&lt;ANSYSInstallationPath&gt;/SystemCoupling/runTime/linx64/cnlauncher/fluent/fluent&lt;MultiportVersion&gt;/multiport/mpi_wrapper/lnamd64/intel`
 
 Now, execute the program in standalone mode locally using two processes:
 
@@ -402,9 +404,9 @@ ifort -I"<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\include\SystemCou
 
 Add the following locations to the `PATH` environment variable:
 
-- `<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\bin`
-- `<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\compiler`
-- `<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent<MultiportVersion>\multiport\mpi_wrapper\win64\stub`
+- `&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\bin`
+- `&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\compiler`
+- `&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent&lt;MultiportVersion&gt;\multiport\mpi_wrapper\win64\stub`
 
 Now, if complied (C++, C, or Fortran) execute the program in standalone mode:
 
@@ -412,7 +414,7 @@ Now, if complied (C++, C, or Fortran) execute the program in standalone mode:
 
 If using Python, also add the following location to the `PYTHONPATH` environment variable:
 
-`<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\bin`
+`&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\bin`
 
 Now, execute the Python script in standalone mode:
 
@@ -422,9 +424,9 @@ Now, execute the Python script in standalone mode:
 
 Add the following locations to the `PATH` environment variable:
 
-- `<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\bin`
-- `<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\bin\compiler`
-- `<ANSYSInstallationPath>\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent<MultiportVersion>\multiport\mpi_wrapper\win64\intel`
+- `&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\bin`
+- `&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\bin\compiler`
+- `&lt;ANSYSInstallationPath&gt;\SystemCoupling\runTime\winx64\cnlauncher\fluent\fluent&lt;MultiportVersion&gt;\multiport\mpi_wrapper\win64\intel`
 
 Now, execute the program in standalone mode locally using two processes:
 

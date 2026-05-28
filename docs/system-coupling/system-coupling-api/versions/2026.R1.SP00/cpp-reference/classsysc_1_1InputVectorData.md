@@ -1,4 +1,6 @@
-# Class sysc::InputVectorData
+---
+title: "Class sysc::InputVectorData"
+---
 
 ![][C++]
 ![][public]
@@ -17,42 +19,42 @@ The size is the total number of vectors, not the total number of components, i.e
 
 ## Members
 
-* [empty](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a4ce74ce70cf4f3b150392bc2e622f23e)
-* [getData0](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a0cc143921963b2735273f393f8c67bf6)
-* [getData1](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1aa9a69a103005e12cbcb5e4c718b81975)
-* [getData2](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a13f54dd279d94b92c031266a7d006c70)
-* [getDataType](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a36c2f1ad1395f88faf59a1b6da0db099)
-* [getDimension](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a04a85b9650fe4c0b8f4e3ecbad088c52)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a9576407cff04f685f890b03512a22f8d)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a313b74bc43ee9519a03c7351d5a1b9e9)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a353712571f18e0d9c9113a6279fd4bd9)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a2b7ad10e29d9b8f9d5cc19bcb4880852)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1ab859e8fda9352a223489fc9710ebc176)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a16a3d28c7a9176077b094d0c090ab8e8)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a93f8cbc6fd62623d017dd402e75ea60e)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1aa49d763df2ced8b08b5f96d0fd581815)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1ae46ff595736820fb92cb12797f05d62a)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a34e2f29605de1f3d218f61f305231f37)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a6290f72e042d38bee53f671eaeef382b)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a5e7ec5d5f55d26d79f5beb5f492e8173)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1ad682d56f49fc69628ad18410cefad197)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a4fdc6e50b3aa55afc3375e9e8a25589f)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a6e884069f0f4f3cb1e58d3ee6894407f)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1adeceff37584427f9b487228ed1619ad8)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1aee6e8ae9cc5c83b4f016a68b6825643d)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a9c493ca8719b46214215275adcaf8a6d)
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1adf89794c1d53ceec3ed34f6c4820530b)
-* [isSplitVector](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a8b96a950634f0ed4dae6468e88319e53)
-* [m\_data0](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1ac6bb5c281146d7de824962037331af81)
-* [m\_data1](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1afbc0e2abcbc6843cd3c54aaf2bf5cfa9)
-* [m\_data2](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1ae4dca6ad0c0824e2cbf6f75ac45177a2)
-* [m\_dataType](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a1ba66e8dc4bcd722ecafb2d666cbf400)
-* [m\_dimension](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a731076431c5aadf8dd9d01eba80e1168)
-* [m\_isSplitVector](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1aabead20359f818ec6c5c479920a87c82)
-* [m\_size](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a21afc6c3bcbb03d3074a1454b7d2d164)
-* [operator=](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a212a413871c450f03411b1db5c9e1961)
-* [operator=](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a52b7dd64cf349976d3c4842463783c59)
-* [size](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData_1a421e44762b642930822a119ae59751eb)
+* [empty](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [getData0](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [getData1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [getData2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [getDataType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [getDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [isSplitVector](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_data0](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_dataType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_isSplitVector](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [m\_size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData)
 
 ## Private attributes
 
@@ -73,7 +75,7 @@ sysc::PrimitiveType sysc::InputVectorData::m_dataType {sysc::Double}
 
 
 
-**Type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputVectorData_1aabead20359f818ec6c5c479920a87c82"></a>
 ### Variable m\_isSplitVector
@@ -187,7 +189,7 @@ Dimension sysc::InputVectorData::m_dimension {Dimension::D3}
 
 
 
-**Type**: [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c)
+**Type**: [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Public functions
 
@@ -239,7 +241,7 @@ Provide a constructor for 2D output vector data with compact storage.
 
 * double * **data**
 * std::size_t **size**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -291,7 +293,7 @@ Provide a constructor for 2D output vector data with compact storage.
 
 * float * **data**
 * std::size_t **size**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -339,7 +341,7 @@ Provide a constructor for 2D output vector data with compact storage.
 **Parameters**:
 
 * std::vector< double > & **data**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -387,7 +389,7 @@ Provide a constructor for 2D output vector data with compact storage.
 **Parameters**:
 
 * std::vector< float > & **data**
-* [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c) **dimension**
+* [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc) **dimension**
 
 **Return type**: 
 
@@ -641,7 +643,7 @@ Provide a copy-constructor.
 
 **Parameters**:
 
-* const [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) &
+* const [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) &
 
 **Return type**: 
 
@@ -662,7 +664,7 @@ Provide a move-constructor.
 
 **Parameters**:
 
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) &&
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) &&
 
 **Return type**: 
 
@@ -683,9 +685,9 @@ Provide a copy-assign operator.
 
 **Parameters**:
 
-* const [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) &
+* const [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) &
 
-**Return type**: [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) &
+**Return type**: [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) &
 
 <a id="classsysc_1_1InputVectorData_1a52b7dd64cf349976d3c4842463783c59"></a>
 ### Function operator=
@@ -704,9 +706,9 @@ Provide a move-assign operator.
 
 **Parameters**:
 
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) &&
+* [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) &&
 
-**Return type**: [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) &
+**Return type**: [InputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1InputVectorData) &
 
 <a id="classsysc_1_1InputVectorData_1a421e44762b642930822a119ae59751eb"></a>
 ### Function size
@@ -760,7 +762,7 @@ For internal use only (no back-compatibility guarantee).
 
 
 
-**Return type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Return type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1InputVectorData_1a8b96a950634f0ed4dae6468e88319e53"></a>
 ### Function isSplitVector
@@ -852,11 +854,11 @@ const Dimension
 
 
 
-**Return type**: [Dimension](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga47c8e4142175574918b84d336780cc7c)
+**Return type**: [Dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 **References**:
 
-* [sysc::Double](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggad3b1c73e4a63f4d292d65f3db875e844a29843d2c1bb5760f768dcc066dac1ac1)
+* [sysc::Double](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

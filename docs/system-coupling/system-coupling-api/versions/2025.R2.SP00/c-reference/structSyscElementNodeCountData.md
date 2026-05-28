@@ -1,4 +1,6 @@
-# Structure SyscElementNodeCountData
+---
+title: "Structure SyscElementNodeCountData"
+---
 
 ![][C]
 ![][public]
@@ -7,7 +9,7 @@
 
 Element node count access struct, provides read-only access to the mesh element node counts.
 
-To create and/or initialize [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData), it is highly recommended to use one of the functions with names starting with <code>syscGetElementNodeCountData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeCountData), it is highly recommended to use one of the functions with names starting with <code>syscGetElementNodeCountData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -20,7 +22,7 @@ syscGetElementNodeCountData(elemNodeCounts);
 
 ## Members
 
-* [elementNodeCounts](structSyscElementNodeCountData.md#structSyscElementNodeCountData_1a7b8d330429782be5862b24638866be6b)
+* [elementNodeCounts](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscElementNodeCountData)
 
 ## Public attributes
 
@@ -41,7 +43,7 @@ Element node counts array.
 
 
 
-**Type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputIntegerData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

@@ -1,4 +1,6 @@
-# Structure sysc::SetupFileInfo
+---
+title: "Structure sysc::SetupFileInfo"
+---
 
 ![][C++]
 ![][public]
@@ -11,11 +13,11 @@ Provide a structure for writing System Coupling setup files.
 
 ## Members
 
-* [restartsSupported](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo_1a65df447274a91c50920e5af5296c60e3)
-* [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo_1af3e2bd60fca807c13cb906f13a662570)
-* [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo_1ad61495d5f2fd0c14da1245a1e44a1737)
-* [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo_1af78fd7b774f9096e72210180c5f68fea)
-* [setupFileName](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo_1acf9bd8de151bb98c37844bce125c20d0)
+* [restartsSupported](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo)
+* [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo)
+* [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo)
+* [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo)
+* [setupFileName](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo)
 
 ## Public attributes
 
@@ -68,7 +70,7 @@ Do not use.
 sysc::SetupFileInfo::SetupFileInfo()
 ```
 
-Provide a default constructor for [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo).
+Provide a default constructor for [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo).
 
 Setup file name will be set to empty string. Restarts supported flag will be set to false.
 
@@ -85,7 +87,7 @@ Setup file name will be set to empty string. Restarts supported flag will be set
 sysc::SetupFileInfo::SetupFileInfo(std::string setupFileName)
 ```
 
-Provide a non-default constructor for [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo).
+Provide a non-default constructor for [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo).
 
 **Parameters**:
 
@@ -110,7 +112,7 @@ Restarts supported flag will be set to false.
 sysc::SetupFileInfo::SetupFileInfo(std::string setupFileName, bool restartsSupported)
 ```
 
-Provide a non-default constructor for [SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo).
+Provide a non-default constructor for [SetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/structsysc_1_1SetupFileInfo).
 
 **Parameters**:
 

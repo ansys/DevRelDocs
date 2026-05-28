@@ -1,4 +1,6 @@
-# Type fortran::syscoutputvectordataf undefined
+---
+title: "Type fortran::syscoutputvectordataf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -32,12 +34,12 @@ ovd = syscGetOutputVectorDataSplitF(x, y, z, size)
 
 ## Members
 
-* [dataptr1](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf_1a9ff86b31b305de4d1722dd390eb413d6)
-* [dataptr2](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf_1a3f77c87d288879c34e8f04f2d1f0e159)
-* [dataptr3](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf_1a59296d314ebb802f9490fe430a0cd3d4)
-* [datasize](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf_1ac8d11b0cadefc4f138b1ef4e0ab50b2a)
-* [dimension](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf_1a86ac613c1baf4a60d347742b387bb8e4)
-* [primitivetype](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf_1a41aa641a12e238b3d8a12707aa047938)
+* [dataptr1](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)
+* [dataptr2](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)
+* [dataptr3](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)
+* [datasize](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)
+* [primitivetype](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)
 
 ## Public attributes
 

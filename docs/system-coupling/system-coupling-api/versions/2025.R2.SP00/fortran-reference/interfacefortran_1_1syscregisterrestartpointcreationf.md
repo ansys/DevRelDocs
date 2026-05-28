@@ -1,4 +1,6 @@
-# Interface fortran::syscregisterrestartpointcreationf
+---
+title: "Interface fortran::syscregisterrestartpointcreationf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to register restart point creation callback.
 
 ## Members
 
-* [syscregisterrestartpointcreationf](interfacefortran_1_1syscregisterrestartpointcreationf.md#interfacefortran_1_1syscregisterrestartpointcreationf_1a004c9c3b8535cc48a45467ce3d715902)
+* [syscregisterrestartpointcreationf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1syscregisterrestartpointcreationf)
 
 ## Public functions
 
@@ -41,7 +43,7 @@ a <code>SyscErrorF</code> type for error checking.
 
 * restCrrestCr
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

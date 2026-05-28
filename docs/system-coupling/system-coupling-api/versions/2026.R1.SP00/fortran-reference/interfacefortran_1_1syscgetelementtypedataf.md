@@ -1,4 +1,6 @@
-# Interface fortran::syscgetelementtypedataf
+---
+title: "Interface fortran::syscgetelementtypedataf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@
 
 ## Members
 
-* [syscgetelementtypedataf](interfacefortran_1_1syscgetelementtypedataf.md#interfacefortran_1_1syscgetelementtypedataf_1a11861446409a6f21e47e00ea71255ebb)
-* [syscgetelementtypedataf\_empty](interfacefortran_1_1syscgetelementtypedataf.md#interfacefortran_1_1syscgetelementtypedataf_1aa6e5680fcdef0010b95f894156240508)
+* [syscgetelementtypedataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetelementtypedataf)
+* [syscgetelementtypedataf\_empty](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetelementtypedataf)
 
 ## Public functions
 
@@ -31,7 +33,7 @@ type(syscelementtypedataf) function syscgetelementtypedataf_empty()
 
 
 
-**Return type**: type([syscelementtypedataf](structfortran_1_1syscelementtypedataf.md#structfortran_1_1syscelementtypedataf)) function
+**Return type**: type([syscelementtypedataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementtypedataf)) function
 
 <a id="interfacefortran_1_1syscgetelementtypedataf_1a11861446409a6f21e47e00ea71255ebb"></a>
 ### Function syscgetelementtypedataf
@@ -52,7 +54,7 @@ type(syscelementtypedataf) function syscgetelementtypedataf(elementTypes)
 
 * elementTypeselementTypes
 
-**Return type**: type([syscelementtypedataf](structfortran_1_1syscelementtypedataf.md#structfortran_1_1syscelementtypedataf)) function
+**Return type**: type([syscelementtypedataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscelementtypedataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# File OutputVectorData.hpp
+---
+title: "File OutputVectorData.hpp"
+---
 
 ![][C++]
 
@@ -10,18 +12,18 @@
 
 ## Classes
 
-* [sysc::OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData)
+* [sysc::OutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1OutputVectorData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
-* <cstddef>
-* <vector>
+* &lt;cstddef&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR

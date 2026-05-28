@@ -1,4 +1,6 @@
-# Interface fortran::syscregisteroutputvectorvariableaccessf
+---
+title: "Interface fortran::syscregisteroutputvectorvariableaccessf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [syscregisteroutputvectorvariableaccessf](interfacefortran_1_1syscregisteroutputvectorvariableaccessf.md#interfacefortran_1_1syscregisteroutputvectorvariableaccessf_1a4f573cb2c86632221e03fbb1fcf59953)
+* [syscregisteroutputvectorvariableaccessf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscregisteroutputvectorvariableaccessf)
 
 ## Public functions
 
@@ -34,7 +36,7 @@ type(syscerrorf) function syscregisteroutputvectorvariableaccessf(ovvAccess)
 
 * ovvAccessovvAccess
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

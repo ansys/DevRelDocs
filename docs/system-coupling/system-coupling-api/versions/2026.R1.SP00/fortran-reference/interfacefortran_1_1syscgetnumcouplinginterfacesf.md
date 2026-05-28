@@ -1,4 +1,6 @@
-# Interface fortran::syscgetnumcouplinginterfacesf
+---
+title: "Interface fortran::syscgetnumcouplinginterfacesf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@ Provide an interface to return the number of added coupling interfaces.
 
 ## Members
 
-* [syscgetnumcouplinginterfacesf](interfacefortran_1_1syscgetnumcouplinginterfacesf.md#interfacefortran_1_1syscgetnumcouplinginterfacesf_1a2a24e1563f8a02b14c341aad569cffce)
+* [syscgetnumcouplinginterfacesf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetnumcouplinginterfacesf)
 
 ## Public functions
 

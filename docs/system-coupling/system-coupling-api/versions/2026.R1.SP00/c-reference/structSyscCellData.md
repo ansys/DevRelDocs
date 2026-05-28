@@ -1,4 +1,6 @@
-# Structure SyscCellData
+---
+title: "Structure SyscCellData"
+---
 
 ![][C]
 ![][public]
@@ -11,9 +13,9 @@ Cell data struct.
 
 ## Members
 
-* [cellIds](structSyscCellData.md#structSyscCellData_1a18489ae2d9c8c4098cf5d2ac229ad98e)
-* [cellNodeConnectivity](structSyscCellData.md#structSyscCellData_1a8b84210695305eb77feac6d31f726650)
-* [cellTypes](structSyscCellData.md#structSyscCellData_1a46f408f73e98f145d1bbf2972d3a68a5)
+* [cellIds](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
+* [cellNodeConnectivity](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
+* [cellTypes](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 ## Public attributes
 
@@ -34,7 +36,7 @@ cell ids.
 
 
 
-**Type**: [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
+**Type**: [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 <a id="structSyscCellData_1a46f408f73e98f145d1bbf2972d3a68a5"></a>
 ### Variable cellTypes
@@ -53,7 +55,7 @@ cell types.
 
 
 
-**Type**: [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
+**Type**: [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 <a id="structSyscCellData_1a8b84210695305eb77feac6d31f726650"></a>
 ### Variable cellNodeConnectivity
@@ -72,7 +74,7 @@ cell-to-node connectivity.
 
 
 
-**Type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
+**Type**: [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

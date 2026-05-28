@@ -1,4 +1,6 @@
-# Type fortran::syscdatatransferf undefined
+---
+title: "Type fortran::syscdatatransferf undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,9 +13,9 @@ Provide a struct for a data transfer.
 
 ## Members
 
-* [sourcevariable](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf_1af21e64ccd79e4331f04477e979a5ad7e)
-* [targetside](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf_1a9f6c6078b224bb2f4b9d69236dae416c)
-* [targetvariable](structfortran_1_1syscdatatransferf.md#structfortran_1_1syscdatatransferf_1a25b318e666a7df521caa1cf70944be48)
+* [sourcevariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdatatransferf)
+* [targetside](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdatatransferf)
+* [targetvariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscdatatransferf)
 
 ## Public attributes
 
@@ -34,7 +36,7 @@ Source variable.
 
 
 
-**Type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
+**Type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef))
 
 <a id="structfortran_1_1syscdatatransferf_1a25b318e666a7df521caa1cf70944be48"></a>
 ### Variable targetvariable
@@ -53,7 +55,7 @@ Target variable.
 
 
 
-**Type**: type([syscvariablef](structfortran_1_1syscvariablef.md#structfortran_1_1syscvariablef))
+**Type**: type([syscvariablef](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscvariablef))
 
 <a id="structfortran_1_1syscdatatransferf_1a9f6c6078b224bb2f4b9d69236dae416c"></a>
 ### Variable targetside

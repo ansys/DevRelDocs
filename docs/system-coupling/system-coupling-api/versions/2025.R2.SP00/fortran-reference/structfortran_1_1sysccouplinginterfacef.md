@@ -1,4 +1,6 @@
-# Type fortran::sysccouplinginterfacef undefined
+---
+title: "Type fortran::sysccouplinginterfacef undefined"
+---
 
 ![][Fortran]
 ![][public]
@@ -32,7 +34,7 @@ interface = syscGetCouplingInterfaceF("FSI")
 
 ## Members
 
-* [name](structfortran_1_1sysccouplinginterfacef.md#structfortran_1_1sysccouplinginterfacef_1a72f0326f2d38c6a753a748136992df3a)
+* [name](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1sysccouplinginterfacef)
 
 ## Public attributes
 

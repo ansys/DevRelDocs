@@ -1,4 +1,6 @@
-# Class sysc::Region
+---
+title: "Class sysc::Region"
+---
 
 ![][C++]
 ![][public]
@@ -11,33 +13,33 @@ Participant can declare which regions can be used in the coupled analysis. Each 
 
 ## Members
 
-* [addInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a018cbfef9eee8c3d2cd3b20084783390)
-* [addOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a96143a5b4d943e47d335d74fa1f827be)
-* [getDisplayName](classsysc_1_1Region.md#classsysc_1_1Region_1a11125400c1f87ced8251759d2ff84c1b)
-* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a724b202ad1c95f18e0c01e9b962c8eed)
-* [getInputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a15d47e3c4989a29033ba306b186e0c50)
-* [getName](classsysc_1_1Region.md#classsysc_1_1Region_1a027b247f71dca6060a9d4f8fe029b690)
-* [getNumInputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ac7632c3c0b045c7baf3aef7aaa7a4c86)
-* [getNumOutputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ada5d320ba7226a798ac5683fd878035a)
-* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a7ebc9675c1f8e56560409233469e4932)
-* [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1aabcde4869fae1d5f3bed4a4ee7277ef9)
-* [getRegionDiscretizationType](classsysc_1_1Region.md#classsysc_1_1Region_1a25fc09a4236bf1cefbac4e5ff4b9736b)
-* [getTopology](classsysc_1_1Region.md#classsysc_1_1Region_1a55d078aeaec8518bbe4468e41a053c1c)
-* [m\_displayName](classsysc_1_1Region.md#classsysc_1_1Region_1a6460145dc80b90b3b03a82dec4638d50)
-* [m\_inputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1ab866ead6aac3d955ebf3027fd152c47e)
-* [m\_inputVarNameToIndex](classsysc_1_1Region.md#classsysc_1_1Region_1a19c5fa5ebfd53cd8318504217e6c900d)
-* [m\_name](classsysc_1_1Region.md#classsysc_1_1Region_1ae8f94bc5f16adb5d4fba2475518de0e6)
-* [m\_outputVariables](classsysc_1_1Region.md#classsysc_1_1Region_1aac4f111d98926f0310b10b2df3c3d0a0)
-* [m\_outputVarNameToIndex](classsysc_1_1Region.md#classsysc_1_1Region_1a8662fa2a3ac9bb2bbfb839eb03f1ee07)
-* [m\_regionDiscretizationType](classsysc_1_1Region.md#classsysc_1_1Region_1aa741f70351df860fb3f833ba4988b963)
-* [m\_side0Regions](classsysc_1_1Region.md#classsysc_1_1Region_1ab94aeee1a7a34bc4fb209696d9c7cfe6)
-* [m\_side1Regions](classsysc_1_1Region.md#classsysc_1_1Region_1aa77c5c58939ea4870dad2306c835c98b)
-* [m\_topology](classsysc_1_1Region.md#classsysc_1_1Region_1af75329d37083b141a9414d0b52947ddb)
-* [Region](classsysc_1_1Region.md#classsysc_1_1Region_1a9a3643efd6eb393f07a5e0db931dc71d)
-* [Region](classsysc_1_1Region.md#classsysc_1_1Region_1a2252ae93ab73cff96e3ba621d9e29171)
-* [Region](classsysc_1_1Region.md#classsysc_1_1Region_1ae497ce9374217eaf46630abc28cb8ccf)
-* [Region](classsysc_1_1Region.md#classsysc_1_1Region_1a1ef115d09f9dc1c7a1670727b41f9509)
-* [Region](classsysc_1_1Region.md#classsysc_1_1Region_1ac7b2a140a74fb4a6b857336316b4dd48)
+* [addInputVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [addOutputVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getDisplayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getInputVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getInputVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getNumInputVariables](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getNumOutputVariables](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getOutputVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getOutputVariable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getRegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [getTopology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_displayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_inputVariables](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_inputVarNameToIndex](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_name](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_outputVariables](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_outputVarNameToIndex](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_regionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_side0Regions](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_side1Regions](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [m\_topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
+* [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region)
 
 ## Private attributes
 
@@ -58,7 +60,7 @@ RegionName sysc::Region::m_name
 
 
 
-**Type**: [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d)
+**Type**: [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Region_1af75329d37083b141a9414d0b52947ddb"></a>
 ### Variable m\_topology
@@ -77,7 +79,7 @@ Topology sysc::Region::m_topology
 
 
 
-**Type**: [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39)
+**Type**: [Topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Region_1aa741f70351df860fb3f833ba4988b963"></a>
 ### Variable m\_regionDiscretizationType
@@ -96,7 +98,7 @@ RegionDiscretizationType sysc::Region::m_regionDiscretizationType
 
 
 
-**Type**: [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4)
+**Type**: [RegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Region_1a6460145dc80b90b3b03a82dec4638d50"></a>
 ### Variable m\_displayName
@@ -115,7 +117,7 @@ DisplayName sysc::Region::m_displayName
 
 
 
-**Type**: [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f)
+**Type**: [DisplayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Region_1ab94aeee1a7a34bc4fb209696d9c7cfe6"></a>
 ### Variable m\_side0Regions
@@ -134,7 +136,7 @@ std::vector<Region> sysc::Region::m_side0Regions
 
 
 
-**Type**: std::vector< [Region](classsysc_1_1Region.md#classsysc_1_1Region) >
+**Type**: std::vector< [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region) >
 
 <a id="classsysc_1_1Region_1aa77c5c58939ea4870dad2306c835c98b"></a>
 ### Variable m\_side1Regions
@@ -153,7 +155,7 @@ std::vector<Region> sysc::Region::m_side1Regions
 
 
 
-**Type**: std::vector< [Region](classsysc_1_1Region.md#classsysc_1_1Region) >
+**Type**: std::vector< [Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region) >
 
 <a id="classsysc_1_1Region_1ab866ead6aac3d955ebf3027fd152c47e"></a>
 ### Variable m\_inputVariables
@@ -172,7 +174,7 @@ std::vector<Variable> sysc::Region::m_inputVariables
 
 
 
-**Type**: std::vector< [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) >
+**Type**: std::vector< [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) >
 
 <a id="classsysc_1_1Region_1a19c5fa5ebfd53cd8318504217e6c900d"></a>
 ### Variable m\_inputVarNameToIndex
@@ -191,7 +193,7 @@ std::map<VariableName, std::size_t> sysc::Region::m_inputVarNameToIndex
 
 
 
-**Type**: std::map< [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266), std::size_t >
+**Type**: std::map< [VariableName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc), std::size_t >
 
 <a id="classsysc_1_1Region_1aac4f111d98926f0310b10b2df3c3d0a0"></a>
 ### Variable m\_outputVariables
@@ -210,7 +212,7 @@ std::vector<Variable> sysc::Region::m_outputVariables
 
 
 
-**Type**: std::vector< [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) >
+**Type**: std::vector< [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) >
 
 <a id="classsysc_1_1Region_1a8662fa2a3ac9bb2bbfb839eb03f1ee07"></a>
 ### Variable m\_outputVarNameToIndex
@@ -229,7 +231,7 @@ std::map<VariableName, std::size_t> sysc::Region::m_outputVarNameToIndex
 
 
 
-**Type**: std::map< [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266), std::size_t >
+**Type**: std::map< [VariableName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc), std::size_t >
 
 ## Public functions
 
@@ -260,13 +262,13 @@ Topology will default to surface.
 
 
 
-[Region](classsysc_1_1Region.md#classsysc_1_1Region) mesh type will default to mesh.
+[Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region) mesh type will default to mesh.
 
 
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
+* const [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
 
 **Return type**: 
 
@@ -292,14 +294,14 @@ Display name will default to the same as name.
 
 
 
-[Region](classsysc_1_1Region.md#classsysc_1_1Region) mesh type will default to mesh.
+[Region](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Region) mesh type will default to mesh.
 
 
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
-* enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
+* const [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
+* enum [Topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **topology**
 
 **Return type**: 
 
@@ -326,9 +328,9 @@ Mesh type will default to mesh.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
-* enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName**
+* const [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
+* enum [Topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **topology**
+* const [DisplayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **displayName**
 
 **Return type**: 
 
@@ -355,9 +357,9 @@ Display name will default to the same as name.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
-* enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
-* enum [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4) **regionDiscretizationType**
+* const [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
+* enum [Topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **topology**
+* enum [RegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **regionDiscretizationType**
 
 **Return type**: 
 
@@ -383,10 +385,10 @@ Create region to be used in a coupled analysis.
 
 **Parameters**:
 
-* const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) & **name**
-* enum [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39) **topology**
-* const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) & **displayName**
-* enum [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4) **regionDiscretizationType**
+* const [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
+* enum [Topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **topology**
+* const [DisplayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **displayName**
+* enum [RegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) **regionDiscretizationType**
 
 **Return type**: 
 
@@ -434,13 +436,13 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Parameters**:
 
-* **variable**: [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) whose values are provided by System Coupling and consumed by the participant.
+* **variable**: [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) whose values are provided by System Coupling and consumed by the participant.
 
 
 
 **Parameters**:
 
-* const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) & **variable**
+* const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) & **variable**
 
 **Return type**: void
 
@@ -488,13 +490,13 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Parameters**:
 
-* **variable**: [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) whose values are provided by the participant and consumed by System Coupling.
+* **variable**: [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) whose values are provided by the participant and consumed by System Coupling.
 
 
 
 **Parameters**:
 
-* const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) & **variable**
+* const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) & **variable**
 
 **Return type**: void
 
@@ -516,7 +518,7 @@ Return value is the region's unique name (string).
 
 
 
-**Return type**: const [RegionName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad700042fb75659f4591c4dae6560a62d) &
+**Return type**: const [RegionName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) &
 
 <a id="classsysc_1_1Region_1a55d078aeaec8518bbe4468e41a053c1c"></a>
 ### Function getTopology
@@ -536,7 +538,7 @@ Return value is the topology of this region.
 
 
 
-**Return type**: [Topology](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadbbc75f28fce0c9b5b31fa64bb8b1e39)
+**Return type**: [Topology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Region_1a11125400c1f87ced8251759d2ff84c1b"></a>
 ### Function getDisplayName
@@ -556,7 +558,7 @@ Return value is the display name of this region.
 
 
 
-**Return type**: const [DisplayName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga708d69b0e949d6a42b6a0d7885eed90f) &
+**Return type**: const [DisplayName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) &
 
 <a id="classsysc_1_1Region_1a25fc09a4236bf1cefbac4e5ff4b9736b"></a>
 ### Function getRegionDiscretizationType
@@ -576,7 +578,7 @@ Return value is the mesh type of this region.
 
 
 
-**Return type**: [RegionDiscretizationType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga59080d26b5838a6c678ee5f0d6ff63a4)
+**Return type**: [RegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1Region_1a724b202ad1c95f18e0c01e9b962c8eed"></a>
 ### Function getInputVariable
@@ -597,15 +599,15 @@ Get the region's input variable by name.
 
 **Returns**:
 
-Return is the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) object that was requested.
+Return is the [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) object that was requested.
 
 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1Region_1a7ebc9675c1f8e56560409233469e4932"></a>
 ### Function getOutputVariable
@@ -626,15 +628,15 @@ Get the region's output variable by name.
 
 **Returns**:
 
-Return is the [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) object that was requested.
+Return is the [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) object that was requested.
 
 
 
 **Parameters**:
 
-* const [VariableName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga500337cdc8405b3e819ca3623bb44266) & **name**
+* const [VariableName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc) & **name**
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1Region_1ada5d320ba7226a798ac5683fd878035a"></a>
 ### Function getNumOutputVariables
@@ -692,7 +694,7 @@ Get the region's output variable by index.
 
 * std::size_t **index**
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 <a id="classsysc_1_1Region_1a15d47e3c4989a29033ba306b186e0c50"></a>
 ### Function getInputVariable
@@ -714,7 +716,7 @@ Get the region's input variable by index.
 
 * std::size_t **index**
 
-**Return type**: const [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable) &
+**Return type**: const [Variable](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1Variable) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

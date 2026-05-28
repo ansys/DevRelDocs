@@ -1,4 +1,6 @@
-# Interface fortran::syscgetpointcloudf
+---
+title: "Interface fortran::syscgetpointcloudf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,8 +13,8 @@ Provide an interface to get point cloud.
 
 ## Members
 
-* [syscgetpointcloudf](interfacefortran_1_1syscgetpointcloudf.md#interfacefortran_1_1syscgetpointcloudf_1a9c8dc2d4d850a43b30daa744c6a58b9d)
-* [syscgetpointcloudf\_empty](interfacefortran_1_1syscgetpointcloudf.md#interfacefortran_1_1syscgetpointcloudf_1a6b35486af7700d2b1882bc3999ee6532)
+* [syscgetpointcloudf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetpointcloudf)
+* [syscgetpointcloudf\_empty](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetpointcloudf)
 
 ## Public functions
 
@@ -31,7 +33,7 @@ Create an empty volume mesh access struct.
 
 
 
-**Return type**: type([syscpointcloudf](structfortran_1_1syscpointcloudf.md#structfortran_1_1syscpointcloudf)) function
+**Return type**: type([syscpointcloudf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscpointcloudf)) function
 
 <a id="interfacefortran_1_1syscgetpointcloudf_1a9c8dc2d4d850a43b30daa744c6a58b9d"></a>
 ### Function syscgetpointcloudf
@@ -58,7 +60,7 @@ Create a face-based volume mesh access struct.
 * nodeIdsnodeIds
 * nodeCoordsnodeCoords
 
-**Return type**: type([syscpointcloudf](structfortran_1_1syscpointcloudf.md#structfortran_1_1syscpointcloudf)) function
+**Return type**: type([syscpointcloudf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscpointcloudf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

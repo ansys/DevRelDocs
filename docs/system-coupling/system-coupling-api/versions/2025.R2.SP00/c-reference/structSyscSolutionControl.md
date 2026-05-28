@@ -1,4 +1,6 @@
-# Structure SyscSolutionControl
+---
+title: "Structure SyscSolutionControl"
+---
 
 ![][C]
 ![][public]
@@ -11,8 +13,8 @@ Provide a structure containing solution control.
 
 ## Members
 
-* [maximumIterations](structSyscSolutionControl.md#structSyscSolutionControl_1a197d10eabb539d2eff515cd3895d7b2e)
-* [minimumIterations](structSyscSolutionControl.md#structSyscSolutionControl_1af68269f003f864fb6931168f6d131478)
+* [maximumIterations](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSolutionControl)
+* [minimumIterations](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSolutionControl)
 
 ## Public attributes
 

@@ -1,4 +1,6 @@
-# Structure SyscResultsInfo
+---
+title: "Structure SyscResultsInfo"
+---
 
 ![][C]
 ![][public]
@@ -11,7 +13,7 @@ Provide a structure for writing results files.
 
 ## Members
 
-* [baseFileName](structSyscResultsInfo.md#structSyscResultsInfo_1aa79e88371b089b864d993170968c2a50)
+* [baseFileName](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscResultsInfo)
 
 ## Public attributes
 

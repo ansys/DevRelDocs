@@ -1,4 +1,6 @@
-# File SurfaceMesh.hpp
+---
+title: "File SurfaceMesh.hpp"
+---
 
 ![][C++]
 
@@ -10,11 +12,11 @@
 
 ## Classes
 
-* [sysc::SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh)
+* [sysc::SurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/classsysc_1_1SurfaceMesh)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
@@ -23,8 +25,8 @@
 * SystemCouplingParticipant/MeshDefinition.hpp
 * SystemCouplingParticipant/OutputIntegerData.hpp
 * SystemCouplingParticipant/OutputVectorData.hpp
-* <cstddef>
-* <string>
+* &lt;cstddef&gt;
+* &lt;string&gt;
 
 ```mermaid
 graph LR

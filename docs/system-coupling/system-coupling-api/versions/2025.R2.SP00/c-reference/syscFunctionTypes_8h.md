@@ -1,4 +1,6 @@
-# File syscFunctionTypes.h
+---
+title: "File syscFunctionTypes.h"
+---
 
 ![][C]
 
@@ -23,8 +25,8 @@
 * SystemCouplingParticipant/syscPointCloud.h
 * SystemCouplingParticipant/syscSurfaceMesh.h
 * SystemCouplingParticipant/syscVolumeMesh.h
-* <stddef.h>
-* <stdint.h>
+* &lt;stddef.h&gt;
+* &lt;stdint.h&gt;
 
 ```mermaid
 graph LR
@@ -97,7 +99,7 @@ Provide function prototype for access to input scalar data.
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)(*
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gad41922f1a4f5abb891d5a913ba5fcccf"></a>
 ### Typedef SyscInputScalarDataAccessWithPointer
@@ -116,7 +118,7 @@ Provide function prototype for access to input scalar data with opaque pointer.
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)(*
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga844dc6322bd6e4eabc2d3d2d9e69bdb1"></a>
 ### Typedef SyscInputScalarDataMultiZoneAccess
@@ -135,7 +137,7 @@ Provide function prototype for access to multi-zone input scalar data.
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)(*
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8d5f53de4e65a4bacef0f25ba8b46483"></a>
 ### Typedef SyscInputVectorDataAccess
@@ -154,7 +156,7 @@ Provide function prototype for access to input vector data.
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)(*
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae7c6372393f3ec720b8d6d1535fcf9b3"></a>
 ### Typedef SyscInputVectorDataAccessWithPointer
@@ -173,7 +175,7 @@ Provide function prototype for access to input vector data with opaque pointer.
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)(*
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae2e92f1b7ae911c36bf3606c60a01511"></a>
 ### Typedef SyscInputVectorDataMultiZoneAccess
@@ -192,7 +194,7 @@ Provide function prototype for access to multi-zone input vector data.
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)(*
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gabd35283796cae3d3dbc851ac66b8564f"></a>
 ### Typedef SyscOutputScalarDataAccess
@@ -211,7 +213,7 @@ Provide function prototype for access to output scalar data.
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)(*
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gab378ed75ffd9b081ad7eccf8107a5542"></a>
 ### Typedef SyscOutputScalarDataAccessWithPointer
@@ -230,7 +232,7 @@ Provide function prototype for access to output scalar data with opaque pointer.
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)(*
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7767f728d880014dfbd853bbb8e0eb07"></a>
 ### Typedef SyscOutputScalarDataMultiZoneAccess
@@ -249,7 +251,7 @@ Provide function prototype for access to multi-zone output scalar data.
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)(*
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae99c8cb78199403b9e74217557be206a"></a>
 ### Typedef SyscOutputVectorDataAccess
@@ -268,7 +270,7 @@ Provide function prototype for access to output vector data.
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)(*
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gab30cbe5478bf769c81f5c0a07e885afd"></a>
 ### Typedef SyscOutputVectorDataAccessWithPointer
@@ -287,7 +289,7 @@ Provide function prototype for access to output vector data with opaque pointer.
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)(*
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1d6d5d9fa806ac5820d9a6ed85811804"></a>
 ### Typedef SyscOutputVectorDataMultiZoneAccess
@@ -306,7 +308,7 @@ Provide function prototype for access to multi-zone output vector data.
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)(*
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gab388f936f3a73b9b480a792c401a95a1"></a>
 ### Typedef SyscInputComplexScalarDataAccess
@@ -325,7 +327,7 @@ Provide function prototype for access to input complex scalar data.
 
 
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)(*
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7a0c5889de7b17b59d44595d7636747e"></a>
 ### Typedef SyscInputComplexScalarDataAccessWithPointer
@@ -344,7 +346,7 @@ Provide function prototype for access to input complex scalar data with opaque p
 
 
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)(*
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gace54794852b48d8725b930f1aed89c4d"></a>
 ### Typedef SyscInputComplexVectorDataAccess
@@ -363,7 +365,7 @@ Provide function prototype for access to input complex vector data.
 
 
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)(*
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga68dcce877e8cc69f13bee845c76f1b4d"></a>
 ### Typedef SyscInputComplexVectorDataAccessWithPointer
@@ -382,7 +384,7 @@ Provide function prototype for access to input complex vector data with opaque p
 
 
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)(*
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscInputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga17d96c2c29a44374309efafdfb8fef62"></a>
 ### Typedef SyscOutputComplexScalarDataAccess
@@ -401,7 +403,7 @@ Provide function prototype for access to output complex scalar data.
 
 
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)(*
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga71ac4910edd87d8d62e871001258c698"></a>
 ### Typedef SyscOutputComplexScalarDataAccessWithPointer
@@ -420,7 +422,7 @@ Provide function prototype for access to output complex scalar data with opaque 
 
 
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)(*
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga65a0f3a119f2cec715ac89798f16a97c"></a>
 ### Typedef SyscOutputComplexVectorDataAccess
@@ -439,7 +441,7 @@ Provide function prototype for access to output complex vector data.
 
 
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)(*
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga18e31a00d833843895c731e69ca006b0"></a>
 ### Typedef SyscOutputComplexVectorDataAccessWithPointer
@@ -458,7 +460,7 @@ Provide function prototype for access to output complex vector data with opaque 
 
 
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)(*
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga71e4eb102d00dd0a211f6dc2f4d24222"></a>
 ### Typedef SyscSurfMeshAccess
@@ -477,7 +479,7 @@ Provide function prototype for access to surface mesh.
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)(*
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gafbfb299099d65e3f232bb67a04d1a8e9"></a>
 ### Typedef SyscSurfaceMeshAccessWithPointer
@@ -496,7 +498,7 @@ Provide function prototype for access to surface mesh with opaque pointer.
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)(*
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9ffe052c4c28ff40b4a14b32cd9f227c"></a>
 ### Typedef SyscSurfaceMeshMultiZoneAccess
@@ -515,7 +517,7 @@ Provide function prototype for access to multi-zone surface mesh.
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)(*
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscSurfaceMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gad0ff77c2af045d3294b149219123a084"></a>
 ### Typedef SyscVolumeMeshAccess
@@ -534,7 +536,7 @@ Provide function prototype for access to volume mesh.
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)(*
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gadcb6262e27485836632696e52cf80fb9"></a>
 ### Typedef SyscVolumeMeshAccessWithPointer
@@ -553,7 +555,7 @@ Provide function prototype for access to volume mesh with opaque pointer.
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)(*
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf381b799bec1baf9f3ab727b61458b59"></a>
 ### Typedef SyscVolumeMeshMultiZoneAccess
@@ -572,7 +574,7 @@ Provide function prototype for access to multi-zone volume mesh.
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)(*
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscVolumeMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae999907f608779e525e34f60d2803038"></a>
 ### Typedef SyscPointCloudAccess
@@ -591,7 +593,7 @@ Provide function prototype for access to point cloud.
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)(*
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gafa62fd6d86905625ae071dea4749a8df"></a>
 ### Typedef SyscPointCloudAccessWithPointer
@@ -610,7 +612,7 @@ Provide function prototype for access to point cloud with an opaque pointer.
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)(*
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gac4a0788f14f0d473372f07638e9dceaa"></a>
 ### Typedef SyscPointCloudMultiZoneAccess
@@ -629,7 +631,7 @@ Provide function prototype for access to multi-zone point cloud.
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)(*
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscPointCloud)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gaabc0678095ad5a5efb8be4d666ce2677"></a>
 ### Typedef SyscZoneCountAccess

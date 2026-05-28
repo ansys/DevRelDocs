@@ -1,4 +1,6 @@
-# Execution in a parallel environment
+---
+title: "Execution in a parallel environment"
+---
 
 System Coupling participant library supports execution of the participant
 solver in a parallel Message Passing Interface (MPI) environment.
@@ -10,7 +12,7 @@ available MPIs for Windows and Linux platforms.
 The participant library is expected to be compatible with those MPIs.
 
 The second part of the
-[Heat transfer in square channel air flow](channel-flow-tutorial.md)
+[Heat transfer in square channel air flow](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/channel-flow-tutorial)
 tutorial demonstrates the usage of the parallel APIs.
 
 ## Using a supported MPI distribution
@@ -133,7 +135,7 @@ variable on Linux. For example, if the participant solver
 is using Intel MPI library, then those environment variables should
 contain the following path:
 
-`<Ansys Installation Path>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<version>/multiport/mpi_wrapper/<platform>/intel`
+`<Ansys Installation Path>/SystemCoupling/runTime/&lt;platform&gt;/cnlauncher/fluent/fluent&lt;version&gt;/multiport/mpi_wrapper/&lt;platform&gt;/intel`
 
 This will link to the MPI wrapper library in that directory
 (`mpi_wrapper.dll` on Windows and `libmpi_wrapper.so` on Linux).
@@ -143,7 +145,7 @@ used instead of `intel` in the path above.
 
 For examples of compiling, linking, and executing a program that uses the
 participant library and a supported MPI, see
-[Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
+[Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 
 ## Using an unsupported MPI distribution
 
@@ -157,7 +159,7 @@ of mesh and variable data for access by the participant library.
 In this case, the stub MPI wrapper should be used at run-time, which is located
 in the following directory:
 
-`<Ansys Installation Path>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<version>/multiport/mpi_wrapper/<platform>/stub`
+`<Ansys Installation Path>/SystemCoupling/runTime/&lt;platform&gt;/cnlauncher/fluent/fluent&lt;version&gt;/multiport/mpi_wrapper/&lt;platform&gt;/stub`
 
-See [Compiling, linking, and executing applications that use the Participant library](compiling-linking-executing.md)
+See [Compiling, linking, and executing applications that use the Participant library](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/compiling-linking-executing)
 for more detailed examples.

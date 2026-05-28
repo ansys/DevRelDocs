@@ -1,4 +1,6 @@
-# Structure SyscOutputComplexVectorData
+---
+title: "Structure SyscOutputComplexVectorData"
+---
 
 ![][C]
 ![][public]
@@ -11,15 +13,15 @@ Output complex vector data provides read-only access to complex vector data.
 
 ## Members
 
-* [data1](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a28b975c4a9d48419b5162deb5cd4728c)
-* [data2](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a201cd6d4355bd5b468cb6b61d49efa04)
-* [data3](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a8c1978eb601b0e42e1b16f9f0d06b3b8)
-* [data4](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a1399d5d1c99f11a1106980a7c5a9a6f3)
-* [data5](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a5d9f58e44482894f6eabc9613772a83a)
-* [data6](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a024c9011d6a570535e7d13426b80aec8)
-* [dimension](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1aad377341c9a3a26865e1a867761a5f2b)
-* [primitiveType](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a0fd4c3b0092b3660b66a346bea054f9c)
-* [size](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a9a4f55e6a3ed7fb8d7197eb407fa9062)
+* [data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [data3](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [data4](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [data5](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [data6](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [dimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 ## Public attributes
 
@@ -40,7 +42,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscOutputComplexVectorData_1a28b975c4a9d48419b5162deb5cd4728c"></a>
 ### Variable data1
@@ -192,7 +194,7 @@ Array Dimension
 
 
 
-**Type**: enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d)
+**Type**: enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C]: https://img.shields.io/badge/language-C-blue (C)

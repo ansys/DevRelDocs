@@ -1,4 +1,6 @@
-# C Interfaces for Participant Library
+---
+title: "C Interfaces for Participant Library"
+---
 
 Provides C interfaces to the System Coupling participant library.
 
@@ -821,7 +823,7 @@ Provide a structure containing solution control.
 
 
 
-**Return type**: struct [SyscSolutionControl](structSyscSolutionControl.md#structSyscSolutionControl)
+**Return type**: struct [SyscSolutionControl](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSolutionControl)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b"></a>
 ### Typedef SyscOpaqueDataAccess
@@ -855,7 +857,7 @@ typedef struct SyscSetupInfo SyscSetupInfo
 
 Provide a structure for System Coupling setup information.
 
-To create and/or initialize the [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetSetupInfo</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetSetupInfo</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -867,7 +869,7 @@ SyscSetupInfo setupInfo = syscGetSetupInfoA(SyscSteady);
 
 
 
-**Return type**: struct [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: struct [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga97036eb61b15d6efd5f9602bd19bb562"></a>
 ### Typedef SyscSetupFileInfo
@@ -882,7 +884,7 @@ typedef struct SyscSetupFileInfo SyscSetupFileInfo
 
 Provide a structure for writing System Coupling setup files.
 
-To create and/or initialize the [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo) struct, it is highly recommended to use <code>syscGetSetupFileInfo</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -894,7 +896,7 @@ SyscSetupFileInfo setupFileInfo = syscGetSetupFileInfo("setup.scp");
 
 
 
-**Return type**: struct [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo)
+**Return type**: struct [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacab0987c6f6f3da0ae499505c3f67d9e"></a>
 ### Typedef SyscResultsInfo
@@ -913,7 +915,7 @@ Provide a structure for writing results files.
 
 
 
-**Return type**: struct [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo)
+**Return type**: struct [SyscResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscResultsInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga828a191dd9fffcb117c398848b9ad10b"></a>
 ### Typedef SyscCouplingInterface
@@ -940,7 +942,7 @@ All regions on one side of the interface must have the same topology.
 
 
 
-To create and/or initialize the [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) struct, it is highly recommended to use the <code>syscGetCouplingInterface</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) struct, it is highly recommended to use the <code>syscGetCouplingInterface</code> function. This function will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -952,7 +954,7 @@ SyscCouplingInterface reg = syscGetCouplingInterface("FSI");
 
 
 
-**Return type**: struct [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+**Return type**: struct [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8e23d76b7478495ca52b0e1f719607fc"></a>
 ### Typedef SyscDataTransfer
@@ -971,7 +973,7 @@ Data transfer specifies the source and target variables for mapping.
 
 
 
-**Return type**: struct [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: struct [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaf3788ac706a730edbf6093c7e543681"></a>
 ### Typedef SyscInputScalarDataAccess
@@ -990,7 +992,7 @@ Provide function prototype for access to input scalar data.
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)(*
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gad41922f1a4f5abb891d5a913ba5fcccf"></a>
 ### Typedef SyscInputScalarDataAccessWithPointer
@@ -1009,7 +1011,7 @@ Provide function prototype for access to input scalar data with opaque pointer.
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)(*
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga844dc6322bd6e4eabc2d3d2d9e69bdb1"></a>
 ### Typedef SyscInputScalarDataMultiZoneAccess
@@ -1028,7 +1030,7 @@ Provide function prototype for access to multi-zone input scalar data.
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)(*
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8d5f53de4e65a4bacef0f25ba8b46483"></a>
 ### Typedef SyscInputVectorDataAccess
@@ -1047,7 +1049,7 @@ Provide function prototype for access to input vector data.
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)(*
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae7c6372393f3ec720b8d6d1535fcf9b3"></a>
 ### Typedef SyscInputVectorDataAccessWithPointer
@@ -1066,7 +1068,7 @@ Provide function prototype for access to input vector data with opaque pointer.
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)(*
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae2e92f1b7ae911c36bf3606c60a01511"></a>
 ### Typedef SyscInputVectorDataMultiZoneAccess
@@ -1085,7 +1087,7 @@ Provide function prototype for access to multi-zone input vector data.
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)(*
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gabd35283796cae3d3dbc851ac66b8564f"></a>
 ### Typedef SyscOutputScalarDataAccess
@@ -1104,7 +1106,7 @@ Provide function prototype for access to output scalar data.
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)(*
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gab378ed75ffd9b081ad7eccf8107a5542"></a>
 ### Typedef SyscOutputScalarDataAccessWithPointer
@@ -1123,7 +1125,7 @@ Provide function prototype for access to output scalar data with opaque pointer.
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)(*
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7767f728d880014dfbd853bbb8e0eb07"></a>
 ### Typedef SyscOutputScalarDataMultiZoneAccess
@@ -1142,7 +1144,7 @@ Provide function prototype for access to multi-zone output scalar data.
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)(*
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae99c8cb78199403b9e74217557be206a"></a>
 ### Typedef SyscOutputVectorDataAccess
@@ -1161,7 +1163,7 @@ Provide function prototype for access to output vector data.
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)(*
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gab30cbe5478bf769c81f5c0a07e885afd"></a>
 ### Typedef SyscOutputVectorDataAccessWithPointer
@@ -1180,7 +1182,7 @@ Provide function prototype for access to output vector data with opaque pointer.
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)(*
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1d6d5d9fa806ac5820d9a6ed85811804"></a>
 ### Typedef SyscOutputVectorDataMultiZoneAccess
@@ -1199,7 +1201,7 @@ Provide function prototype for access to multi-zone output vector data.
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)(*
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gab388f936f3a73b9b480a792c401a95a1"></a>
 ### Typedef SyscInputComplexScalarDataAccess
@@ -1218,7 +1220,7 @@ Provide function prototype for access to input complex scalar data.
 
 
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)(*
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7a0c5889de7b17b59d44595d7636747e"></a>
 ### Typedef SyscInputComplexScalarDataAccessWithPointer
@@ -1237,7 +1239,7 @@ Provide function prototype for access to input complex scalar data with opaque p
 
 
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)(*
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gace54794852b48d8725b930f1aed89c4d"></a>
 ### Typedef SyscInputComplexVectorDataAccess
@@ -1256,7 +1258,7 @@ Provide function prototype for access to input complex vector data.
 
 
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)(*
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga68dcce877e8cc69f13bee845c76f1b4d"></a>
 ### Typedef SyscInputComplexVectorDataAccessWithPointer
@@ -1275,7 +1277,7 @@ Provide function prototype for access to input complex vector data with opaque p
 
 
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)(*
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga17d96c2c29a44374309efafdfb8fef62"></a>
 ### Typedef SyscOutputComplexScalarDataAccess
@@ -1294,7 +1296,7 @@ Provide function prototype for access to output complex scalar data.
 
 
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)(*
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga71ac4910edd87d8d62e871001258c698"></a>
 ### Typedef SyscOutputComplexScalarDataAccessWithPointer
@@ -1313,7 +1315,7 @@ Provide function prototype for access to output complex scalar data with opaque 
 
 
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)(*
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga65a0f3a119f2cec715ac89798f16a97c"></a>
 ### Typedef SyscOutputComplexVectorDataAccess
@@ -1332,7 +1334,7 @@ Provide function prototype for access to output complex vector data.
 
 
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)(*
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga18e31a00d833843895c731e69ca006b0"></a>
 ### Typedef SyscOutputComplexVectorDataAccessWithPointer
@@ -1351,7 +1353,7 @@ Provide function prototype for access to output complex vector data with opaque 
 
 
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)(*
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga71e4eb102d00dd0a211f6dc2f4d24222"></a>
 ### Typedef SyscSurfMeshAccess
@@ -1370,7 +1372,7 @@ Provide function prototype for access to surface mesh.
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)(*
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gafbfb299099d65e3f232bb67a04d1a8e9"></a>
 ### Typedef SyscSurfaceMeshAccessWithPointer
@@ -1389,7 +1391,7 @@ Provide function prototype for access to surface mesh with opaque pointer.
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)(*
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9ffe052c4c28ff40b4a14b32cd9f227c"></a>
 ### Typedef SyscSurfaceMeshMultiZoneAccess
@@ -1408,7 +1410,7 @@ Provide function prototype for access to multi-zone surface mesh.
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)(*
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gad0ff77c2af045d3294b149219123a084"></a>
 ### Typedef SyscVolumeMeshAccess
@@ -1427,7 +1429,7 @@ Provide function prototype for access to volume mesh.
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)(*
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gadcb6262e27485836632696e52cf80fb9"></a>
 ### Typedef SyscVolumeMeshAccessWithPointer
@@ -1446,7 +1448,7 @@ Provide function prototype for access to volume mesh with opaque pointer.
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)(*
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf381b799bec1baf9f3ab727b61458b59"></a>
 ### Typedef SyscVolumeMeshMultiZoneAccess
@@ -1465,7 +1467,7 @@ Provide function prototype for access to multi-zone volume mesh.
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)(*
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gae999907f608779e525e34f60d2803038"></a>
 ### Typedef SyscPointCloudAccess
@@ -1484,7 +1486,7 @@ Provide function prototype for access to point cloud.
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)(*
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscPointCloud)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gafa62fd6d86905625ae071dea4749a8df"></a>
 ### Typedef SyscPointCloudAccessWithPointer
@@ -1503,7 +1505,7 @@ Provide function prototype for access to point cloud with an opaque pointer.
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)(*
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscPointCloud)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gac4a0788f14f0d473372f07638e9dceaa"></a>
 ### Typedef SyscPointCloudMultiZoneAccess
@@ -1522,7 +1524,7 @@ Provide function prototype for access to multi-zone point cloud.
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)(*
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscPointCloud)(*
 
 <a id="group__SyscParticipantLibraryCAPI_1gaabc0678095ad5a5efb8be4d666ce2677"></a>
 ### Typedef SyscZoneCountAccess
@@ -1579,7 +1581,7 @@ Provide a struct for a System Coupling parameter.
 
 
 
-**Return type**: struct [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: struct [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac5687e76cd2c5d1249d8b3ac43ff29b4"></a>
 ### Typedef SyscRegion
@@ -1600,7 +1602,7 @@ Participant can declare which regions can be used in the coupled analysis. Each 
 
 
 
-To create and/or initialize the [SyscRegion](structSyscRegion.md#structSyscRegion) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetRegion</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetRegion</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -1612,7 +1614,7 @@ SyscRegion reg = syscGetRegionT("Wall", SyscSurface);
 
 
 
-**Return type**: struct [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: struct [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7a8d294476240d2f3844a608e71efe29"></a>
 ### Typedef SyscVariable
@@ -1627,7 +1629,7 @@ typedef struct SyscVariable SyscVariable
 
 Provide a struct for a System Coupling variable.
 
-To create and/or initialize the [SyscVariable](structSyscVariable.md#structSyscVariable) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetVariable</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize the [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) struct, it is highly recommended to use one of the functions with names starting with <code>syscGetVariable</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -1640,7 +1642,7 @@ SyscVariable var = syscGetVariableTE(
 
 
 
-**Return type**: struct [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: struct [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 ## Functions
 
@@ -1667,9 +1669,9 @@ Create a real-valued attribute.
 
 * const char * **name**
 * double **value**
-* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality) **dimensionality**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga65737d6497a88298c80afab5d62f7687"></a>
 ### Function syscGetRealAttributeVDM
@@ -1695,10 +1697,10 @@ Create a real-valued attribute.
 
 * const char * **name**
 * double **value**
-* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) **dimensionality**
+* [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality) **dimensionality**
 * int **modifiable**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf6d02a55f607a7af07039957b21ab511"></a>
 ### Function syscGetIntegerAttribute
@@ -1723,7 +1725,7 @@ Create an integer-valued attribute.
 * const char * **name**
 * long long int **value**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac3ae9103fa3cad3c60b1f794ecb27752"></a>
 ### Function syscGetIntegerAttributeVM
@@ -1750,7 +1752,7 @@ Create an integer-valued attribute.
 * long long int **value**
 * int **modifiable**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga22ab81fcb82b1eb1b58bac1dd3fbcf0d"></a>
 ### Function syscGetDimensionality
@@ -1767,7 +1769,7 @@ Get dimensionality.
 
 
 
-**Return type**: [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality)
+**Return type**: [SyscDimensionality](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDimensionality)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1d656df31d1a737654883968e029eb72"></a>
 ### Function syscGetSyscError
@@ -1778,7 +1780,7 @@ Get dimensionality.
 SyscError syscGetSyscError(int retcode, const char *message)
 ```
 
-Provide a function to return [SyscError](structSyscError.md#structSyscError) struct.
+Provide a function to return [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) struct.
 
 
 
@@ -1789,7 +1791,7 @@ Provide a function to return [SyscError](structSyscError.md#structSyscError) str
 * int **retcode**
 * const char * **message**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga65a1735a49d0e0ab7f32d03f27f325a3"></a>
 ### Function syscGetSetupInfo
@@ -1806,7 +1808,7 @@ Analysis type will be set to steady. Restarts supported flag will be set to fals
 
 
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae399cbc645966a48cc2928bb51018d9b"></a>
 ### Function syscGetSetupInfoA
@@ -1829,9 +1831,9 @@ Restarts supported flag will be set to false.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga49c86c342e0c0d2881958a7a752eb99b"></a>
 ### Function syscGetSetupInfoAR
@@ -1853,10 +1855,10 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae3a34c9ed638c50c65e1d87dabe66737"></a>
 ### Function syscGetSetupInfoARD
@@ -1879,11 +1881,11 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf3b03ee2974bbd198008e70e15dd1d1a"></a>
 ### Function syscGetSetupInfoARDT
@@ -1907,12 +1909,12 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
-* enum [SyscTimeIntegration](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaedf008f34febb068e44cb21292dc167f) **timeIntegration**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
+* enum [SyscTimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **timeIntegration**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga34fa5345c4ca947eca11bd6ee25f09ab"></a>
 ### Function syscGetSetupInfoARDTP
@@ -1937,13 +1939,13 @@ Create a setup info struct.
 
 **Parameters**:
 
-* enum [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) **analysisType**
+* enum [SyscAnalysisType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **analysisType**
 * int **restartsSupported**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
-* enum [SyscTimeIntegration](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaedf008f34febb068e44cb21292dc167f) **timeIntegration**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
+* enum [SyscTimeIntegration](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **timeIntegration**
 * enum SyscParticipantType **participantType**
 
-**Return type**: [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo)
+**Return type**: [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac80fa7c7f1ebe9a8d9ef3c4f90d274eb"></a>
 ### Function syscGetSetupFileInfo
@@ -1968,7 +1970,7 @@ Restarts supported flag will be set to false.
 
 * const char * **setupFileName**
 
-**Return type**: [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo)
+**Return type**: [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabf49efc0bc2492b1c8198ba9bd3dab06"></a>
 ### Function syscGetResultsInfo
@@ -1991,7 +1993,7 @@ Provide a function to create SetupFileInfo struct.
 
 * const char * **baseFileName**
 
-**Return type**: [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo)
+**Return type**: [SyscResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscResultsInfo)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae356c9cb4c0dd69f5e1ea9eef6a7c63b"></a>
 ### Function syscGetCouplingInterface
@@ -2014,7 +2016,7 @@ Create a coupling interface.
 
 * const char * **name**
 
-**Return type**: [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+**Return type**: [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa8401af709fa7638f76f168aa05784a3"></a>
 ### Function syscAddSideOneRegion
@@ -2061,10 +2063,10 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* const [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3bbbec8ccb73b5da2997d2cdcd7abb6b"></a>
 ### Function syscAddSideTwoRegion
@@ -2111,10 +2113,10 @@ If the region name contains invalid characters, a runtime error will be thrown.
 
 **Parameters**:
 
-* const [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaec7e1373da295e5fb0c7ecfc52409888"></a>
 ### Function syscAddDataTransfer
@@ -2133,10 +2135,10 @@ Add the data transfer to the coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
-* [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer) **dataTransfer**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
+* [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer) **dataTransfer**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gade11af63d2e79ab75e7db7919998e6b5"></a>
 ### Function syscCouplingInterfaceGetNumDataTransfers
@@ -2155,7 +2157,7 @@ Get number of data transfer for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
 **Return type**: size_t
 
@@ -2176,7 +2178,7 @@ Get number of side one regions for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
 **Return type**: size_t
 
@@ -2197,7 +2199,7 @@ Get number of side two regions for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
 **Return type**: size_t
 
@@ -2218,10 +2220,10 @@ Get the data transfer at specified index for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * size_t **index**
 
-**Return type**: [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7ab5c93d920b15c8d2e7ba6baddddb28"></a>
 ### Function syscCouplingInterfaceGetSideOneRegion
@@ -2240,10 +2242,10 @@ Get the side one region at specified index for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * size_t **index**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1747f6ce3729ff459e26175ded7059f0"></a>
 ### Function syscCouplingInterfaceGetSideTwoRegion
@@ -2262,10 +2264,10 @@ Get the side two region at specified index for a given coupling interface.
 
 **Parameters**:
 
-* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * size_t **index**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga10c3562aba2bdcef468fbde205008112"></a>
 ### Function syscGetDataTransfer
@@ -2276,7 +2278,7 @@ Get the side two region at specified index for a given coupling interface.
 SyscDataTransfer syscGetDataTransfer(SyscVariable sideOneVariable, SyscVariable sideTwoVariable, enum SyscInterfaceSide targetSide)
 ```
 
-Create a data transfer using side{One|Two}Variable.
+Create a data transfer using side&#123;One|Two&#125;Variable.
 
 **Parameters**:
 
@@ -2288,11 +2290,11 @@ Create a data transfer using side{One|Two}Variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **sideOneVariable**
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **sideTwoVariable**
-* enum [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5) **targetSide**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **sideOneVariable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **sideTwoVariable**
+* enum [SyscInterfaceSide](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **targetSide**
 
-**Return type**: [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadb07659695562864d8bc0df67bec847e"></a>
 ### Function syscGetDataTransferST
@@ -2303,7 +2305,7 @@ Create a data transfer using side{One|Two}Variable.
 SyscDataTransfer syscGetDataTransferST(SyscVariable sourceVariable, SyscVariable targetVariable, enum SyscInterfaceSide targetSide)
 ```
 
-Create a data transfer using {source|target}Variable.
+Create a data transfer using &#123;source|target&#125;Variable.
 
 **Parameters**:
 
@@ -2315,11 +2317,11 @@ Create a data transfer using {source|target}Variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **sourceVariable**
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **targetVariable**
-* enum [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5) **targetSide**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **sourceVariable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **targetVariable**
+* enum [SyscInterfaceSide](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **targetSide**
 
-**Return type**: [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer)
+**Return type**: [SyscDataTransfer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscDataTransfer)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1843bbb3648ac07766c7e6ea9f309a54"></a>
 ### Function syscGetInputComplexScalarData
@@ -2336,7 +2338,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaed0337275d991d2cd2a1ec4dbf2a595"></a>
 ### Function syscGetInputComplexScalarDataSplitDouble
@@ -2363,7 +2365,7 @@ Create a complex input scalar data access struct.
 * double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga11c65e99f509cd226f13b0932aba8eb7"></a>
 ### Function syscGetInputComplexScalarDataSplitFloat
@@ -2390,7 +2392,7 @@ Create a complex input scalar data access struct.
 * float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5cbb0ff3aa857c03d3626038e3a20ffa"></a>
 ### Function syscGetInputComplexScalarDataCompactDouble
@@ -2415,7 +2417,7 @@ Create a complex input scalar data access struct.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0ff093e80497efd6dccb6ea29c9face3"></a>
 ### Function syscGetInputComplexScalarDataCompactFloat
@@ -2440,7 +2442,7 @@ Create a complex input scalar data access struct.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData)
+**Return type**: [SyscInputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa7291e96ae240db79de4b35ad82c4cc0"></a>
 ### Function syscGetInputComplexVectorData
@@ -2457,7 +2459,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga311e2b750be4212f60557b49870f1eac"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataDouble
@@ -2482,7 +2484,7 @@ Create a 3D complex input vector data access struct.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5396c1513b3448bfd783c2db743606d2"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataFloat
@@ -2507,7 +2509,7 @@ Create a 3D complex input vector data access struct.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8cce8fbb7655b448cd3c6c08772e1766"></a>
 ### Function syscGetInputSplitComplexCompactVectorDataDouble
@@ -2534,7 +2536,7 @@ Create a 3D complex input vector data access struct.
 * double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0c9104179a6e98a7a043e4412f1dafd5"></a>
 ### Function syscGetInputSplitComplexCompactVectorDataFloat
@@ -2561,7 +2563,7 @@ Create a 3D complex input vector data access struct.
 * float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7eefc4444dbdf8924e4074046de5eba2"></a>
 ### Function syscGetInputCompactComplexSplitVectorDataDouble
@@ -2590,7 +2592,7 @@ Create a 3D complex input vector data access struct.
 * double *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga513ecaae813a2904f6926c5839cc11a1"></a>
 ### Function syscGetInputCompactComplexSplitVectorDataFloat
@@ -2619,7 +2621,7 @@ Create a 3D complex input vector data access struct.
 * float *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1fd576a79df5e1b27247f4b71e2afbf0"></a>
 ### Function syscGetInputSplitComplexSplitVectorDataDouble
@@ -2654,7 +2656,7 @@ Create a 3D complex input vector data access struct.
 * double *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6b650f50fa53c996a07147474343f55f"></a>
 ### Function syscGetInputSplitComplexSplitVectorDataFloat
@@ -2689,7 +2691,7 @@ Create a 3D complex input vector data access struct.
 * float *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga93d5fd27a2899ea57f88958aa29506cd"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataDoubleDim
@@ -2714,9 +2716,9 @@ Create a complex input vector data access struct based on dimension.
 
 * double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6fa6c5f2890928560f68ebb6d45cabc9"></a>
 ### Function syscGetInputCompactComplexCompactVectorDataFloatDim
@@ -2741,9 +2743,9 @@ Create a complex input vector data access struct based on dimension.
 
 * float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData)
+**Return type**: [SyscInputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga4f26c699d6b93f7d62ad88e69822e1e2"></a>
 ### Function syscGetInputScalarData
@@ -2760,7 +2762,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3b76afcedb8ced51695a0a56dabfb3af"></a>
 ### Function syscGetInputScalarDataDouble
@@ -2785,7 +2787,7 @@ Create an input scalar data access struct.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga09e03b4996d73e37c1748eb00a8c76c8"></a>
 ### Function syscGetInputScalarDataFloat
@@ -2810,7 +2812,7 @@ Create an input scalar data access struct.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData)
+**Return type**: [SyscInputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8609363d94eccb5ac5113332b5bd0d77"></a>
 ### Function syscGetInputVectorData
@@ -2827,7 +2829,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga21f7b8327230f78d41e61bdac3f073c0"></a>
 ### Function syscGetInputVectorDataCompactDouble
@@ -2852,7 +2854,7 @@ Create an 3D input vector data access struct with compact storage.
 * double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1dab4c326c88b20cb402ca06c84d39c2"></a>
 ### Function syscGetInputVectorDataCompactFloat
@@ -2877,7 +2879,7 @@ Create an 3D input vector data access struct with compact storage.
 * float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5432989ff9b68845634e551c6246e42e"></a>
 ### Function syscGetInputVectorDataSplitDouble
@@ -2906,7 +2908,7 @@ Create an 3D input vector data access struct with split storage.
 * double *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga774cdf0f3bb11efe50a587e6a11e7539"></a>
 ### Function syscGetInputVectorDataSplitFloat
@@ -2935,7 +2937,7 @@ Create an 3D input vector data access struct with split storage.
 * float *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadc1d6ed1a05cf21b0b38af4ea8247eb3"></a>
 ### Function syscGetInputVectorDataCompactDoubleDim
@@ -2960,9 +2962,9 @@ Create an input vector data access struct with compact storage based on dimensio
 
 * double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0e5591d56881dec17e9ebaa087a7a198"></a>
 ### Function syscGetInputVectorDataCompactFloatDim
@@ -2987,9 +2989,9 @@ Create an input vector data access struct with compact storage based on dimensio
 
 * float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab707ea57d70a474cfdab07c35dc7dcf7"></a>
 ### Function syscGetInput2DVectorDataSplitDouble
@@ -3016,7 +3018,7 @@ Create an 2D input vector data access struct with split storage.
 * double *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad39531d8943485fe6a586ce4dbdc5107"></a>
 ### Function syscGetInput2DVectorDataSplitFloat
@@ -3043,7 +3045,7 @@ Create an 2D input vector data access struct with split storage.
 * float *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData)
+**Return type**: [SyscInputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscInputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf412d269c5805e7e6b8600f2690cb874"></a>
 ### Function syscGetNodeData
@@ -3060,7 +3062,7 @@ Returns an empty mesh node data access struct. All member will be assigned defau
 
 
 
-**Return type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Return type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8b43e51f7a5fa3f6a2d280c177ca3f8e"></a>
 ### Function syscGetNodeDataIC
@@ -3079,10 +3081,10 @@ Create a mesh node data access struct, given node ids and node coords in same or
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **nodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
 
-**Return type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Return type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf5a3d9825d0c59c4517ccaccb332e6b5"></a>
 ### Function syscGetNodeDataC
@@ -3101,9 +3103,9 @@ Creates a mesh node data access struct, given node coordinates in ascending node
 
 **Parameters**:
 
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
 
-**Return type**: [SyscNodeData](structSyscNodeData.md#structSyscNodeData)
+**Return type**: [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac9a38bc69d5b0a77d09be64f73693f46"></a>
 ### Function syscGetElementTypeDataEmpty
@@ -3120,7 +3122,7 @@ Returns an empty mesh element type data access struct. All member will be assign
 
 
 
-**Return type**: [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
+**Return type**: [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0edaf6355561dfffffeeea47d5ff796d"></a>
 ### Function syscGetElementTypeData
@@ -3139,9 +3141,9 @@ Create an mesh element type data access struct, given element types.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elemTypes**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elemTypes**
 
-**Return type**: [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData)
+**Return type**: [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga621f044b4d075369865572cc0d68aa97"></a>
 ### Function syscGetElementNodeCountDataEmpty
@@ -3158,7 +3160,7 @@ Returns an empty mesh element node count data access struct. All member will be 
 
 
 
-**Return type**: [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData)
+**Return type**: [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga69b8dd901387b03935a8f2aa4c576903"></a>
 ### Function syscGetElementNodeCountData
@@ -3177,9 +3179,9 @@ Create an mesh element node count data access struct, given element node counts.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elemNodeCount**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elemNodeCount**
 
-**Return type**: [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData)
+**Return type**: [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga827af0f4c18717284c76b8804056a24d"></a>
 ### Function syscGetElementNodeConnectivityDataEmpty
@@ -3196,7 +3198,7 @@ Returns an empty element-to-node connectivity data access struct. All member wil
 
 
 
-**Return type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
+**Return type**: [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae4888763deed0388634cd4174e06a027"></a>
 ### Function syscGetElementNodeConnectivityData
@@ -3215,9 +3217,9 @@ Create an element-to-node connectivity data access struct, given element node id
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elemNodeIds**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elemNodeIds**
 
-**Return type**: [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData)
+**Return type**: [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5efb9f82d5def3b2399291a763d72d65"></a>
 ### Function syscGetFaceCellConnectivityDataEmpty
@@ -3234,7 +3236,7 @@ Create empty face-to-cell connectivity.
 
 
 
-**Return type**: [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
+**Return type**: [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga604b682ca22d2b4898d6aedae4d9fb1c"></a>
 ### Function syscGetFaceCellConnectivityData
@@ -3253,10 +3255,10 @@ Create face-to-cell connectivity given cell0 and cell1 arrays.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **cell0Ids**
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **cell1Ids**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **cell0Ids**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **cell1Ids**
 
-**Return type**: [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData)
+**Return type**: [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9c98c0bc4f190c90ec8bb034ab6e6781"></a>
 ### Function syscGetCellIdDataEmpty
@@ -3273,7 +3275,7 @@ Create empty cell id data.
 
 
 
-**Return type**: [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData)
+**Return type**: [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf52ba7465086cb0c3faf0a6b9473853e"></a>
 ### Function syscGetCellIdData
@@ -3292,9 +3294,9 @@ Create cell id data given cell ids array.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **cellIds**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **cellIds**
 
-**Return type**: [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData)
+**Return type**: [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7c6f7645530e97adaa7fca97bebbf050"></a>
 ### Function syscGetElementIdDataEmpty
@@ -3311,7 +3313,7 @@ Create empty element id data.
 
 
 
-**Return type**: [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
+**Return type**: [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1d1688e7751b27c15a57a78a244b0261"></a>
 ### Function syscGetElementIdData
@@ -3330,9 +3332,9 @@ Create cell id data given cell ids array.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **elementIds**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **elementIds**
 
-**Return type**: [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData)
+**Return type**: [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5fe1aa7a9f98270030fc7138c4860217"></a>
 ### Function syscGetFaceDataEmpty
@@ -3349,7 +3351,7 @@ Create empty face data.
 
 
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadc25b2855aac9a4c02706bb94cb1d47e"></a>
 ### Function syscGetFaceDataITCNF
@@ -3368,13 +3370,13 @@ Create face data given face ids, types, node counts, node-to-face connectivity, 
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **faceIds**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **faceTypes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **faceIds**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **faceTypes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab1f554f37a4e5dc06cdfc15d7ca4b6c7"></a>
 ### Function syscGetFaceDataICNF
@@ -3393,12 +3395,12 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **faceIds**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **faceIds**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7fecaea46eac9057909b0d0901cfbea8"></a>
 ### Function syscGetFaceDataITN
@@ -3417,11 +3419,11 @@ Create face data given face ids, types, node-to-face connectivity, face-to-cell 
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **faceIds**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **faceTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **faceIds**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **faceTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae75c9db974a962c76ce593cc24ddd85c"></a>
 ### Function syscGetFaceDataCN
@@ -3440,10 +3442,10 @@ Create face data given face node counts, node-to-face connectivity.
 
 **Parameters**:
 
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
 
-**Return type**: [SyscFaceData](structSyscFaceData.md#structSyscFaceData)
+**Return type**: [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaea5a7a8c0e8b5424fbaa50edb7bc32ce"></a>
 ### Function syscGetCellDataEmpty
@@ -3460,7 +3462,7 @@ Create empty cell data.
 
 
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabc9c52c2b18a3bbb00d87891b4039315"></a>
 ### Function syscGetCellDataITN
@@ -3479,11 +3481,11 @@ Create cell data given cell ids, types, cell-to-node connectivity.
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **cellIds**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **cellTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **cellNodeConnectivity**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **cellIds**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **cellTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **cellNodeConnectivity**
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadb4f24988bf2684dd5bb9d6032a37fca"></a>
 ### Function syscGetCellDataI
@@ -3502,9 +3504,9 @@ Create cell data given cell ids.
 
 **Parameters**:
 
-* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) **cellIds**
+* [SyscElementIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementIdData) **cellIds**
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga900dee185f65895511a89b29af40c6f8"></a>
 ### Function syscGetCellDataTN
@@ -3523,10 +3525,10 @@ Create cell data given cell types, cell-to-node connectivity.
 
 **Parameters**:
 
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **cellTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **cellNodeConnectivity**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **cellTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **cellNodeConnectivity**
 
-**Return type**: [SyscCellData](structSyscCellData.md#structSyscCellData)
+**Return type**: [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1ed999efcf217211831e6e440c9b6789"></a>
 ### Function syscGetOutputComplexScalarData
@@ -3543,7 +3545,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga55ed1d17c6d2f849b9588531d7c516d9"></a>
 ### Function syscGetOutputComplexScalarDataSplitDouble
@@ -3570,7 +3572,7 @@ Create a complex output scalar data access struct.
 * const double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0e86f0bfb33258007eb2b2ecd6b44dec"></a>
 ### Function syscGetOutputComplexScalarDataSplitFloat
@@ -3597,7 +3599,7 @@ Create a complex output scalar data access struct.
 * const float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga08d88f4495f347260e4678ab6bedbf75"></a>
 ### Function syscGetOutputComplexScalarDataCompactDouble
@@ -3622,7 +3624,7 @@ Create a complex output scalar data access struct.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3d806d095d2d333f2a78abb38f7cddf6"></a>
 ### Function syscGetOutputComplexScalarDataCompactFloat
@@ -3647,7 +3649,7 @@ Create a complex output scalar data access struct.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData)
+**Return type**: [SyscOutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gafd1174430666266b1337c8e1d3569aa6"></a>
 ### Function syscGetOutputComplexVectorData
@@ -3664,7 +3666,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab9832696d96ffd32917b2211497c31e1"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataDouble
@@ -3689,7 +3691,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1bddd7590dc1c4e4b488981694a723fc"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataFloat
@@ -3714,7 +3716,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga619a769c0b474a093ca8df07fa23c745"></a>
 ### Function syscGetOutputSplitComplexCompactVectorDataDouble
@@ -3741,7 +3743,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9c6fb47e5c54e7f1ee9bfdd2a6b78f96"></a>
 ### Function syscGetOutputSplitComplexCompactVectorDataFloat
@@ -3768,7 +3770,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **dataImag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga36581954b1bed9e21ddd6d6951478a45"></a>
 ### Function syscGetOutputCompactComplexSplitVectorDataDouble
@@ -3797,7 +3799,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6fab1156fcb4f29d454bd3574b7472a7"></a>
 ### Function syscGetOutputCompactComplexSplitVectorDataFloat
@@ -3826,7 +3828,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **data3**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaceabb4ea93346ecbbdda387e7f067465"></a>
 ### Function syscGetOutputSplitComplexSplitVectorDataDouble
@@ -3861,7 +3863,7 @@ Create a 3D complex output vector data access struct.
 * const double *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3d957a5fa32db290017e2f23d15311f2"></a>
 ### Function syscGetOutputSplitComplexSplitVectorDataFloat
@@ -3896,7 +3898,7 @@ Create a 3D complex output vector data access struct.
 * const float *const **data3Imag**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac98c66232a8c5c204c4bad9f0dd5585c"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataDoubleDim
@@ -3921,9 +3923,9 @@ Create a complex output vector data access struct based on dimension.
 
 * const double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab1ea60c9d226cf14e580d6d3c945f3ab"></a>
 ### Function syscGetOutputCompactComplexCompactVectorDataFloatDim
@@ -3948,9 +3950,9 @@ Create a complex output vector data access struct based on dimension.
 
 * const float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData)
+**Return type**: [SyscOutputComplexVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputComplexVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac46cbb29463ecf81dfbba42a81e5b5c9"></a>
 ### Function syscGetOutputIntegerData
@@ -3967,7 +3969,7 @@ Primitive type will default to 64-bit signed integer. Data size will be set to z
 
 
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaea5bb5bd0b4ddd4217745dad38b405b2"></a>
 ### Function syscGetOutputIntegerDataInt32
@@ -3992,7 +3994,7 @@ Create an output integer data access struct.
 * const int32_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga43be8cb6b2e2b156d7c40fa3cbf28f03"></a>
 ### Function syscGetOutputIntegerDataInt64
@@ -4017,7 +4019,7 @@ Create an output integer data access struct.
 * const int64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga46a87bfd729531e482d320f695537c0b"></a>
 ### Function syscGetOutputIntegerDataUInt16
@@ -4042,7 +4044,7 @@ Create an output integer data access struct.
 * const uint16_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaed7a48d94e2545e78562b8ff911dfd2a"></a>
 ### Function syscGetOutputIntegerDataUInt64
@@ -4067,7 +4069,7 @@ Create an output integer data access struct.
 * const uint64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData)
+**Return type**: [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0097e203d597949f887e2f804c01fd21"></a>
 ### Function syscGetOutputScalarData
@@ -4084,7 +4086,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8a2803af36638c2ce3387bf89b83cda0"></a>
 ### Function syscGetOutputScalarDataDouble
@@ -4109,7 +4111,7 @@ Create an output scalar data access struct.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0b0ae9e5ede552958b8bce1efd9b4978"></a>
 ### Function syscGetOutputScalarDataFloat
@@ -4134,7 +4136,7 @@ Create an output scalar data access struct.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga2334c8e25481b098d4263a2f60a7dac2"></a>
 ### Function syscGetOutputScalarDataInt32
@@ -4159,7 +4161,7 @@ Create an output scalar data access struct.
 * const int32_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7a305d185afe565e1d3e8de66d7beca3"></a>
 ### Function syscGetOutputScalarDataInt64
@@ -4184,7 +4186,7 @@ Create an output scalar data access struct.
 * const int64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabfcf7be83419cc31611e2ad100fdecb6"></a>
 ### Function syscGetOutputScalarDataUInt16
@@ -4209,7 +4211,7 @@ Create an output scalar data access struct.
 * const uint16_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6645e1e9d1b163cea069ce42077f419f"></a>
 ### Function syscGetOutputScalarDataUInt64
@@ -4234,7 +4236,7 @@ Create an output scalar data access struct.
 * const uint64_t *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData)
+**Return type**: [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga950a6f2a746b4667aa10216ad3adfba6"></a>
 ### Function syscGetOutputVectorData
@@ -4251,7 +4253,7 @@ Primitive type will default to double-precision. Data size will be set to zero. 
 
 
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacb630e9f5b846eb243f4cb6e67907885"></a>
 ### Function syscGetOutputVectorDataCompactDouble
@@ -4276,7 +4278,7 @@ Create an 3D output vector data access struct with compact storage.
 * const double *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1bec0ed33e0603a25d69f98efd68177a"></a>
 ### Function syscGetOutputVectorDataCompactFloat
@@ -4301,7 +4303,7 @@ Create an 3D output vector data access struct with compact storage.
 * const float *const **data**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaa51c47ef1d83c217ac1d10080de120c"></a>
 ### Function syscGetOutputVectorDataSplitDouble
@@ -4330,7 +4332,7 @@ Create an 3D output vector data access struct with split storage.
 * const double *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac91454fccf5ff91fdb82fa976bf5bc3c"></a>
 ### Function syscGetOutputVectorDataSplitFloat
@@ -4359,7 +4361,7 @@ Create an 3D output vector data access struct with split storage.
 * const float *const **data2**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3ff75e8ebe2bf6e850544f378cb240c6"></a>
 ### Function syscGetOutputVectorDataCompactDoubleDim
@@ -4384,9 +4386,9 @@ Create an output vector data access struct with compact storage based on dimensi
 
 * const double *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa09a2e4358b2a5459db179c5da641be8"></a>
 ### Function syscGetOutputVectorDataCompactFloatDim
@@ -4411,9 +4413,9 @@ Create an output vector data access struct with compact storage based on dimensi
 
 * const float *const **data**
 * size_t **dataSize**
-* enum [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) **dimension**
+* enum [SyscDimension](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **dimension**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac737552145182f1de70e347531477a88"></a>
 ### Function syscGetOutput2DVectorDataSplitDouble
@@ -4440,7 +4442,7 @@ Create a 2D output vector data access struct with split storage.
 * const double *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga22d069eb2d95a8060a0dfdaf9a5d43aa"></a>
 ### Function syscGetOutput2DVectorDataSplitFloat
@@ -4467,7 +4469,7 @@ Create an output vector data access struct with split storage.
 * const float *const **data1**
 * size_t **dataSize**
 
-**Return type**: [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData)
+**Return type**: [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf44d7cf2e3d05e5cf0990b6fe946c50d"></a>
 ### Function syscGetParameter
@@ -4492,7 +4494,7 @@ Display name will default to the same as name.
 
 * const char * **name**
 
-**Return type**: [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
 
 <a id="group__SyscParticipantLibraryCAPI_1gafa0e858b9dc47ded43bd3fbf97c25206"></a>
 ### Function syscGetParameterD
@@ -4517,7 +4519,7 @@ Create parameter to be used in a coupled analysis.
 * const char * **name**
 * const char * **displayName**
 
-**Return type**: [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga256e2f74a04a52d19232bd163921131c"></a>
 ### Function syscGetPointCloudEmpty
@@ -4534,7 +4536,7 @@ Returns a struct representing empty point cloud. All member will be assigned def
 
 
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscPointCloud)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0a8b0fe8c0c57374a3ef69d1f678fdab"></a>
 ### Function syscGetPointCloud
@@ -4556,10 +4558,10 @@ Create a point cloud access struct.
 
 **Parameters**:
 
-* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputIntegerData) **nodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
 
-**Return type**: [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud)
+**Return type**: [SyscPointCloud](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscPointCloud)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf8dee311cddc012ce6b54998fde8e29f"></a>
 ### Function syscGetRegion
@@ -4596,7 +4598,7 @@ Region mesh type will default to mesh.
 
 * const char * **name**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga26c8d2435b5cd3c525d5221298ad3aaa"></a>
 ### Function syscGetRegionT
@@ -4627,9 +4629,9 @@ Region mesh type will default to mesh.
 **Parameters**:
 
 * const char * **name**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **topology**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga88d428a1852eeec9b7b7156e33b57822"></a>
 ### Function syscGetRegionDT
@@ -4656,9 +4658,9 @@ Region mesh type will default to mesh.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **topology**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9e0af352921275419da93341f7186f46"></a>
 ### Function syscGetRegionTM
@@ -4684,10 +4686,10 @@ Display names will be same as name.
 **Parameters**:
 
 * const char * **name**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
-* enum [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45) **regionDiscretizationType**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **topology**
+* enum [SyscRegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **regionDiscretizationType**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaaae89f288494cc67e8f05cab0f5d1b8b"></a>
 ### Function syscGetRegionDTM
@@ -4713,10 +4715,10 @@ Create region to be used in a coupled analysis.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) **topology**
-* enum [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45) **regionDiscretizationType**
+* enum [SyscTopology](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **topology**
+* enum [SyscRegionDiscretizationType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **regionDiscretizationType**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9ae6fafcce6987fa18ba762a1ee7a7be"></a>
 ### Function syscAddInputVariable
@@ -4769,10 +4771,10 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
-* const [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
+* const [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9615f371d829935af745eb63a1ea99bc"></a>
 ### Function syscAddOutputVariable
@@ -4825,10 +4827,10 @@ If the region discretization type is point cloud, then the location of the varia
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
-* const [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
+* const [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabec39110fe9da4d54a32653e6bf43196"></a>
 ### Function syscGetNumInputVariables
@@ -4854,7 +4856,7 @@ Number of input variables for the region.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
 **Return type**: size_t
 
@@ -4883,10 +4885,10 @@ Variable at specified index.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 * size_t **index**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga99fda03ac99e590196d180ea23214217"></a>
 ### Function syscGetNumOutputVariables
@@ -4912,7 +4914,7 @@ Number of output variables for the region.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
 **Return type**: size_t
 
@@ -4941,10 +4943,10 @@ Variable at specified index.
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 * size_t **index**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9f7aaa68f00cc2d98f98c458b5388f3a"></a>
 ### Function syscGetSurfaceMesh
@@ -4961,7 +4963,7 @@ Returns a struct representing empty surface mesh. All member will be assigned de
 
 
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gafad33a17c7266f386e1bf42c66a9340f"></a>
 ### Function syscGetSurfaceMeshNF
@@ -4983,10 +4985,10 @@ Create a surface mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscFaceData](structSyscFaceData.md#structSyscFaceData) **faces**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData) **faces**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf61b2f4b29e77812cee161e63ff28e34"></a>
 ### Function syscGetSurfaceMeshNTCI
@@ -5017,12 +5019,12 @@ Both element types and element node counts are provided.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **elemTypes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **elemNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **elemTypes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **elemNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga239ac08da048715f5832302851960053"></a>
 ### Function syscGetSurfaceMeshNCI
@@ -5052,11 +5054,11 @@ Element node counts are provided, element types are deduced from element node co
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **elemNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **elemNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga734facb70a9948732d08eaccf4bb5102"></a>
 ### Function syscGetSurfaceMeshNCIF
@@ -5087,12 +5089,12 @@ Element node counts are provided, element types are deduced from element node co
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **elemNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivty**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **elemNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivty**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga481a20e443f5b245640441f47e455c67"></a>
 ### Function syscGetSurfaceMeshNTI
@@ -5122,11 +5124,11 @@ Element types are provided, element node counts are deduced from element types.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **elemTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **elemNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **elemTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **elemNodeConnectivity**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0241a6779e5c1e1dc0a339893805a9dd"></a>
 ### Function syscGetSurfaceMeshA
@@ -5157,12 +5159,12 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 **Parameters**:
 
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **nodeIds**
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeCounts**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeIds**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData) **nodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData) **elemNodeCounts**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData) **elemNodeIds**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0745adffa475d10edb703906ed5d2772"></a>
 ### Function syscGetSurfaceMeshB
@@ -5192,11 +5194,11 @@ Note: this function is deprecated. Use syscGetSurfaceMeshNCI instead.
 
 **Parameters**:
 
-* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) **nodeCoords**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeCounts**
-* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) **elemNodeIds**
+* [SyscOutputVectorData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputVectorData) **nodeCoords**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData) **elemNodeCounts**
+* [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscOutputScalarData) **elemNodeIds**
 
-**Return type**: [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh)
+**Return type**: [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga862e7375111dcee847bc05463c72b329"></a>
 ### Function syscStartStandaloneParallel
@@ -5227,7 +5229,7 @@ Note that if the MPI communicator is MPI_COMM_WORLD, then it is not necessary to
 
 * const size_t **mpiCommunicator**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1404ad75fb1f5b1515dae967b71b1725"></a>
 ### Function syscConnect
@@ -5257,7 +5259,7 @@ A participant must have obtained the host and port information from System Coupl
 
 **Returns**:
 
-[SyscError](structSyscError.md#structSyscError) Can be checked for any errors.
+[SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) Can be checked for any errors.
 
 
 
@@ -5268,7 +5270,7 @@ A participant must have obtained the host and port information from System Coupl
 * const char * **participantName**
 * const char * **buildInformation**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga68a9b5b64715ad6ffde1c7b145bb4d0f"></a>
 ### Function syscConnectParallel
@@ -5287,7 +5289,7 @@ This function is an alternative to syscConnect function. It works the same way a
 
 
 
-Note that if the MPI communicator is MPI_COMM_WORLD, then it is not necessary to call this function and [syscConnect()](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1404ad75fb1f5b1515dae967b71b1725) can be used instead.
+Note that if the MPI communicator is MPI_COMM_WORLD, then it is not necessary to call this function and [syscConnect()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscSystemCoupling_8h) can be used instead.
 
 
 
@@ -5299,7 +5301,7 @@ Note that if the MPI communicator is MPI_COMM_WORLD, then it is not necessary to
 * const size_t **communicator**
 * const char * **buildInformation**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8d84278ef4d48a739948f0a952cb2a00"></a>
 ### Function syscConnectUseStruct
@@ -5319,15 +5321,15 @@ Provide a function to establish connection to System Coupling in serial using a 
 
 **Returns**:
 
-[SyscError](structSyscError.md#structSyscError)
+[SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 
 
 **Parameters**:
 
-* [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo) **participantInfo**
+* [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo) **participantInfo**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac695e9f06d272958b8fc81bff07708fb"></a>
 ### Function syscConnectParallelUseStruct
@@ -5348,16 +5350,16 @@ Provide a function to establish connection to System Coupling in parallel using 
 
 **Returns**:
 
-[SyscError](structSyscError.md#structSyscError)
+[SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 
 
 **Parameters**:
 
-* [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo) **participantInfo**
+* [SyscParticipantInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParticipantInfo) **participantInfo**
 * const size_t **communicator**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3c895512d255076ce0b7dcc0b527991b"></a>
 ### Function syscAddRegion
@@ -5388,9 +5390,9 @@ If the region name contains invalid characters, then a runtime error will be thr
 
 **Parameters**:
 
-* const [SyscRegion](structSyscRegion.md#structSyscRegion) **region**
+* const [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion) **region**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga360d447bbaffa2035ddd9675457027cc"></a>
 ### Function syscAddInputParameter
@@ -5436,9 +5438,9 @@ If the parameter name contains invalid characters, a runtime error will be throw
 
 **Parameters**:
 
-* const [SyscParameter](structSyscParameter.md#structSyscParameter) **parameter**
+* const [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter) **parameter**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf25cfa8761182ab33ee1a58171ba8aff"></a>
 ### Function syscAddOutputParameter
@@ -5484,9 +5486,9 @@ If the parameter name contains invalid characters, a runtime error will be throw
 
 **Parameters**:
 
-* const [SyscParameter](structSyscParameter.md#structSyscParameter) **parameter**
+* const [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter) **parameter**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga0c8432c9735a99af8f502a0d399fcb53"></a>
 ### Function syscGetNumInputParameters
@@ -5552,7 +5554,7 @@ Input parameter information at specified index.
 
 * size_t **index**
 
-**Return type**: [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa7fff9647ad264d5f2d6231472667e0d"></a>
 ### Function syscGetAddedOutputParameter
@@ -5580,7 +5582,7 @@ Output parameter information at specified index.
 
 * size_t **index**
 
-**Return type**: [SyscParameter](structSyscParameter.md#structSyscParameter)
+**Return type**: [SyscParameter](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscParameter)
 
 <a id="group__SyscParticipantLibraryCAPI_1gac60dbcde01c9373bfd367aaaa956cba5"></a>
 ### Function syscGetNumRealAttributes
@@ -5646,7 +5648,7 @@ Real attribute information at specified index.
 
 * size_t **index**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga700bc8178a51d4eeaa596eb6d4737fcb"></a>
 ### Function syscGetAddedIntegerAttribute
@@ -5674,7 +5676,7 @@ Integer attribute information at specified index.
 
 * size_t **index**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad0272110e6eaf4c7f16bf96d3556106e"></a>
 ### Function syscAddRealAttribute
@@ -5720,9 +5722,9 @@ If the attribute name contains invalid characters, a runtime error will be throw
 
 **Parameters**:
 
-* const [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute) **attribute**
+* const [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute) **attribute**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7ef7712e40081015520c18ae54509930"></a>
 ### Function syscAddIntegerAttribute
@@ -5768,9 +5770,9 @@ If the attribute name contains invalid characters, a runtime error will be throw
 
 **Parameters**:
 
-* const [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute) **attribute**
+* const [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute) **attribute**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga534e802afae31ae7134e23a00d2872f9"></a>
 ### Function syscGetParameterValue
@@ -5793,7 +5795,7 @@ Provide a function to get a Parameter value.
 **Parameters**:
 
 * const char * **parameterName**
-* [SyscError](structSyscError.md#structSyscError) * **errorCode**
+* [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) * **errorCode**
 
 **Return type**: double
 
@@ -5820,7 +5822,7 @@ Provide a function to set a Parameter value.
 * const char * **parameterName**
 * double **value**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf5625adaeb366d18725d1e9560d5910d"></a>
 ### Function syscGetRealAttributeValue
@@ -5843,7 +5845,7 @@ Provide a function to get a RealAttribute value.
 **Parameters**:
 
 * const char * **attributeName**
-* [SyscError](structSyscError.md#structSyscError) * **errorCode**
+* [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) * **errorCode**
 
 **Return type**: double
 
@@ -5868,7 +5870,7 @@ Provide a function to get an IntegerAttribute value.
 **Parameters**:
 
 * const char * **attributeName**
-* [SyscError](structSyscError.md#structSyscError) * **errorCode**
+* [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) * **errorCode**
 
 **Return type**: int64_t
 
@@ -5901,15 +5903,15 @@ If the coupling interface name contains invalid characters, then an error status
 
 
 
-See [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) for more details.
+See [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) for more details.
 
 
 
 **Parameters**:
 
-* const [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* const [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadec9e44f001d4ec2b8139e096ab93ac7"></a>
 ### Function syscAddCouplingInterfaceA
@@ -5940,16 +5942,16 @@ If the coupling interface name contains invalid characters, then an error status
 
 
 
-See [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) for more details.
+See [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) for more details.
 
 
 
 **Parameters**:
 
-* const [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) **couplingInterface**
+* const [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface) **couplingInterface**
 * int **autoGenerateDataTransfers**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga831884747873b947fcdc57ef31adce27"></a>
 ### Function syscCompleteSetup
@@ -5983,9 +5985,9 @@ Once the setup is complete, any subsequent call to complete the setup will have 
 
 **Parameters**:
 
-* const [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo) **setupInfo**
+* const [SyscSetupInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupInfo) **setupInfo**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga06c366cb935ade55b7b90de9691d3f38"></a>
 ### Function syscRegisterInputScalarDataAccess
@@ -6006,9 +6008,9 @@ Provide a function to register input scalar data access.
 
 **Parameters**:
 
-* [SyscInputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaaf3788ac706a730edbf6093c7e543681) **dataAccess**
+* [SyscInputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga04bbb44826997f602707b9e01d07d78e"></a>
 ### Function syscRegisterInputScalarDataAccessWithPointer
@@ -6030,10 +6032,10 @@ Provide a function to register input scalar data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscInputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad41922f1a4f5abb891d5a913ba5fcccf) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscInputScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6b2aee555f07109357958edc9898b8b5"></a>
 ### Function syscRegisterInputScalarDataMultiZoneAccess
@@ -6054,10 +6056,10 @@ Provide a function to register input scalar data multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscInputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga844dc6322bd6e4eabc2d3d2d9e69bdb1) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscInputScalarDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga36e9fe53c70f9c15cbcfc3957f80852b"></a>
 ### Function syscRegisterInputVectorDataAccess
@@ -6078,9 +6080,9 @@ Provide a function to register input vector data access.
 
 **Parameters**:
 
-* [SyscInputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga8d5f53de4e65a4bacef0f25ba8b46483) **dataAccess**
+* [SyscInputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga46b386f0c3ed52071dd851b55763b1c8"></a>
 ### Function syscRegisterInputVectorDataAccessWithPointer
@@ -6102,10 +6104,10 @@ Provide a function to register input vector data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscInputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae7c6372393f3ec720b8d6d1535fcf9b3) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscInputVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad7774418be78b8b39c9b45b7fcade1d3"></a>
 ### Function syscRegisterInputVectorDataMultiZoneAccess
@@ -6126,10 +6128,10 @@ Provide a function to register input vector data multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscInputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae2e92f1b7ae911c36bf3606c60a01511) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscInputVectorDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga6e187589ca426402ee045ccecfec21d3"></a>
 ### Function syscRegisterOutputScalarDataAccess
@@ -6150,9 +6152,9 @@ Provide a function to register output scalar data access.
 
 **Parameters**:
 
-* [SyscOutputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabd35283796cae3d3dbc851ac66b8564f) **dataAccess**
+* [SyscOutputScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga2c90e2ea571de3b7ce5e1ca65a996d8a"></a>
 ### Function syscRegisterOutputScalarDataAccessWithPointer
@@ -6174,10 +6176,10 @@ Provide a function to register output scalar data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscOutputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab378ed75ffd9b081ad7eccf8107a5542) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscOutputScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga7880daf983c8bac7db920281fdc937c1"></a>
 ### Function syscRegisterOutputScalarDataMultiZoneAccess
@@ -6198,10 +6200,10 @@ Provide a function to register output scalar data multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscOutputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7767f728d880014dfbd853bbb8e0eb07) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscOutputScalarDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa3956909f65a425bec64c86ec5d5515b"></a>
 ### Function syscRegisterOutputVectorDataAccess
@@ -6222,9 +6224,9 @@ Provide a function to register output vector data access.
 
 **Parameters**:
 
-* [SyscOutputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae99c8cb78199403b9e74217557be206a) **dataAccess**
+* [SyscOutputVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga9793fb31fe905768b175842ceab722e5"></a>
 ### Function syscRegisterOutputVectorDataAccessWithPointer
@@ -6246,10 +6248,10 @@ Provide a function to register output vector data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscOutputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab30cbe5478bf769c81f5c0a07e885afd) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscOutputVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad5c33007c0067ab6edf8a72ab422ff7d"></a>
 ### Function syscRegisterOutputVectorDataMultiZoneAccess
@@ -6270,10 +6272,10 @@ Provide a function to register output vector data multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscOutputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1d6d5d9fa806ac5820d9a6ed85811804) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscOutputVectorDataMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1f4ab3d781755660f64b5a2cb691abe9"></a>
 ### Function syscRegisterInputComplexScalarDataAccess
@@ -6294,9 +6296,9 @@ Provide a function to register input complex scalar data access.
 
 **Parameters**:
 
-* [SyscInputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab388f936f3a73b9b480a792c401a95a1) **dataAccess**
+* [SyscInputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga55a307bf13f2d002f05660d781fef50e"></a>
 ### Function syscRegisterInputComplexScalarDataAccessWithPointer
@@ -6318,10 +6320,10 @@ Provide a function to register input complex scalar data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscInputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7a0c5889de7b17b59d44595d7636747e) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscInputComplexScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaf281613584c91fb460de5e4557f16767"></a>
 ### Function syscRegisterInputComplexVectorDataAccess
@@ -6342,9 +6344,9 @@ Provide a function to register input complex vector data access.
 
 **Parameters**:
 
-* [SyscInputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gace54794852b48d8725b930f1aed89c4d) **dataAccess**
+* [SyscInputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadfee511d3a3021907ee187716fff0944"></a>
 ### Function syscRegisterInputComplexVectorDataAccessWithPointer
@@ -6366,10 +6368,10 @@ Provide a function to register input complex vector data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscInputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga68dcce877e8cc69f13bee845c76f1b4d) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscInputComplexVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1c0e074f2239faf10594e3139d32efe1"></a>
 ### Function syscRegisterOutputComplexScalarDataAccess
@@ -6390,9 +6392,9 @@ Provide a function to register output complex scalar data access.
 
 **Parameters**:
 
-* [SyscOutputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17d96c2c29a44374309efafdfb8fef62) **dataAccess**
+* [SyscOutputComplexScalarDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5a7faf0c3fe80ffc7925da217ecce202"></a>
 ### Function syscRegisterOutputComplexScalarDataAccessWithPointer
@@ -6414,10 +6416,10 @@ Provide a function to register output complex scalar data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscOutputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71ac4910edd87d8d62e871001258c698) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscOutputComplexScalarDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga1cb92c5ccc643abce68fba25f61e3d41"></a>
 ### Function syscRegisterOutputComplexVectorDataAccess
@@ -6438,9 +6440,9 @@ Provide a function to register output complex vector data access.
 
 **Parameters**:
 
-* [SyscOutputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga65a0f3a119f2cec715ac89798f16a97c) **dataAccess**
+* [SyscOutputComplexVectorDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga859961191e2943afd73b8e31cbd010c9"></a>
 ### Function syscRegisterOutputComplexVectorDataAccessWithPointer
@@ -6462,10 +6464,10 @@ Provide a function to register output complex vector data access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscOutputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga18e31a00d833843895c731e69ca006b0) **dataAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscOutputComplexVectorDataAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **dataAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga044974d4f159fd35669b77e5111fe7e0"></a>
 ### Function syscRegisterSurfMeshAccess
@@ -6486,9 +6488,9 @@ Provide a function to register surface mesh access.
 
 **Parameters**:
 
-* [SyscSurfMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71e4eb102d00dd0a211f6dc2f4d24222) **meshAccess**
+* [SyscSurfMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **meshAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gadddd0903fcab2450b14f54157e283302"></a>
 ### Function syscRegisterSurfaceMeshAccessWithPointer
@@ -6510,10 +6512,10 @@ Provide a function to register surface mesh access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscSurfaceMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafbfb299099d65e3f232bb67a04d1a8e9) **meshAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscSurfaceMeshAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **meshAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3261b0b3eb6278c380a5b59894a7b533"></a>
 ### Function syscRegisterSurfaceMeshMultiZoneAccess
@@ -6535,10 +6537,10 @@ Provide a function to register surface mesh multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscSurfaceMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga9ffe052c4c28ff40b4a14b32cd9f227c) **meshAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscSurfaceMeshMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **meshAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga27ba2e330c4d2c20b692a7ab66852721"></a>
 ### Function syscRegisterVolumeMeshAccess
@@ -6559,9 +6561,9 @@ Provide a function to register volume mesh access.
 
 **Parameters**:
 
-* [SyscVolumeMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad0ff77c2af045d3294b149219123a084) **meshAccess**
+* [SyscVolumeMeshAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **meshAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3b90426f24a434668b5270930192fec6"></a>
 ### Function syscRegisterVolumeMeshAccessWithPointer
@@ -6583,10 +6585,10 @@ Provide a function to register volume mesh access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscVolumeMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gadcb6262e27485836632696e52cf80fb9) **meshAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscVolumeMeshAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **meshAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gab71a3bc5775e830b2dac81dd6828cb13"></a>
 ### Function syscRegisterVolumeMeshMultiZoneAccess
@@ -6608,10 +6610,10 @@ Provide a function to register volume mesh multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscVolumeMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaf381b799bec1baf9f3ab727b61458b59) **meshAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscVolumeMeshMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **meshAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gade30d8ccbbad0236ace57edfe55181d5"></a>
 ### Function syscRegisterPointCloudAccess
@@ -6632,9 +6634,9 @@ Provide a function to register point cloud access.
 
 **Parameters**:
 
-* [SyscPointCloudAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae999907f608779e525e34f60d2803038) **pointCloudAccess**
+* [SyscPointCloudAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **pointCloudAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaedae298744b65c453c7dac3e8dc1d68a"></a>
 ### Function syscRegisterPointCloudAccessWithPointer
@@ -6656,10 +6658,10 @@ Provide a function to register point cloud access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscPointCloudAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafa62fd6d86905625ae071dea4749a8df) **pointCloudAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscPointCloudAccessWithPointer](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **pointCloudAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga77d6e90a118be65eeb86ce08a3a3dea5"></a>
 ### Function syscRegisterPointCloudMultiZoneAccess
@@ -6681,10 +6683,10 @@ Provide a function to register point cloud multi-zone access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscPointCloudMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac4a0788f14f0d473372f07638e9dceaa) **pointCloudAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscPointCloudMultiZoneAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **pointCloudAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad49e03082ae93fdd7f96a3b7601ca9a8"></a>
 ### Function syscRegisterZoneCountAccess
@@ -6703,10 +6705,10 @@ Provide a function to register zone count access.
 
 **Parameters**:
 
-* [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) **opaqueDataAccess**
-* [SyscZoneCountAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaabc0678095ad5a5efb8be4d666ce2677) **zoneCountAccess**
+* [SyscOpaqueDataAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **opaqueDataAccess**
+* [SyscZoneCountAccess](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **zoneCountAccess**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga30880d98428a08962ab027267c66c2ae"></a>
 ### Function syscRegisterRestartPointCreation
@@ -6727,9 +6729,9 @@ Provide a function to register restart point creation callback.
 
 **Parameters**:
 
-* [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga6d3934571a8dcc03e2ecbe724a808c1b) **restartPointCreation**
+* [SyscRestartPointCreation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscFunctionTypes_8h) **restartPointCreation**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa26049072c61f17c4e1296490c00abc5"></a>
 ### Function syscInitializeAnalysis
@@ -6752,7 +6754,7 @@ If this function is called before the coupled analysis is complete, it will auto
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaea2bf4afeff9dd606125e00bb6c475a0"></a>
 ### Function syscDoIteration
@@ -6788,7 +6790,7 @@ This function returns 1 (true) if another coupling time step is required, otherw
 
 
 
-This function should be called to check if another coupling time step should be done. If the previous coupling time step is finished and another time step should be performed, then calling this function will tell System Coupling that the coupling participant is going to advance to the next time step (i.e. calling [syscDoTimeStep()](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf701624f0add6b5d7a5fd2d9dcf8e298) will cause [syscDoIteration()](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaea2bf4afeff9dd606125e00bb6c475a0) to change from returning false to returning true, under the conditions described above).
+This function should be called to check if another coupling time step should be done. If the previous coupling time step is finished and another time step should be performed, then calling this function will tell System Coupling that the coupling participant is going to advance to the next time step (i.e. calling [syscDoTimeStep()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscSystemCoupling_8h) will cause [syscDoIteration()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscSystemCoupling_8h) to change from returning false to returning true, under the conditions described above).
 
 
 
@@ -6821,7 +6823,7 @@ A default value (time step number 0, start time 0.0, time step size 0.0) is retu
 
 
 
-**Return type**: [SyscTimeStep](structSyscTimeStep.md#structSyscTimeStep)
+**Return type**: [SyscTimeStep](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscTimeStep)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8445069f0234978743203e1d5c0cb62c"></a>
 ### Function syscUpdateInputs
@@ -6850,7 +6852,7 @@ When doing same-participant mapping only (without cosimulation), this function s
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3b5e8e0315bbbe48526324439c422733"></a>
 ### Function syscUpdateOutputs
@@ -6869,9 +6871,9 @@ This function must be called from inside the coupled analysis loop. It tells Sys
 
 **Parameters**:
 
-* const enum [SyscConvergenceStatus](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga10ce3774353dfbc811147a9ad211b3cd) **convStatus**
+* const enum [SyscConvergenceStatus](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **convStatus**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga09a7259037537f2d3d0403788d80e2e1"></a>
 ### Function syscDisconnect
@@ -6888,7 +6890,7 @@ Provide a function to end the analysis and disconnect from System Coupling.
 
 
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga009687c58ccf588d2c94d879a2769541"></a>
 ### Function syscFatalError
@@ -6958,15 +6960,15 @@ The function will check the surface mesh for detectable problems. For example, i
 
 **Returns**:
 
-Return value is [SyscError](structSyscError.md#structSyscError) struct. If mesh checks passed, then retcode will be 0. If mesh checks failed, then retcode will be not 0 and message that contains information about about the particular issue.
+Return value is [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError) struct. If mesh checks passed, then retcode will be 0. If mesh checks failed, then retcode will be not 0 and message that contains information about about the particular issue.
 
 
 
 **Parameters**:
 
-* [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh) **mesh**
+* [SyscSurfaceMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSurfaceMesh) **mesh**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1gad55adabb4ed5bdb44833c06671541921"></a>
 ### Function syscWriteSetupFile
@@ -6985,7 +6987,7 @@ This function can be used to generate a System Coupling setup file, which contai
 
 
 
-It takes [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) struct as input parameter.
+It takes [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo) struct as input parameter.
 
 
 
@@ -6997,7 +6999,7 @@ It will return true (1) if the setup file was successfully written, and false (0
 
 **Parameters**:
 
-* const [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) **setupFileInfo**
+* const [SyscSetupFileInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSetupFileInfo) **setupFileInfo**
 
 **Return type**: int
 
@@ -7018,9 +7020,9 @@ Write results to a file.
 
 **Parameters**:
 
-* const [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo) **resultsInfo**
+* const [SyscResultsInfo](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscResultsInfo) **resultsInfo**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga5783653d3a5994b0bccb7471843e72eb"></a>
 ### Function syscGetNumRegions
@@ -7054,7 +7056,7 @@ Provide a function to return added region given the region index.
 
 **Parameters**:
 
-* **index**: - region index. Use [syscGetNumRegions()](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5783653d3a5994b0bccb7471843e72eb) to get the number of regions.
+* **index**: - region index. Use [syscGetNumRegions()](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscSystemCoupling_8h) to get the number of regions.
 
 
 **Returns**:
@@ -7067,7 +7069,7 @@ Region at specified index.
 
 * size_t **index**
 
-**Return type**: [SyscRegion](structSyscRegion.md#structSyscRegion)
+**Return type**: [SyscRegion](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRegion)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga47273dac1bc54d406c085bee823c5131"></a>
 ### Function syscGetSolutionControl
@@ -7084,7 +7086,7 @@ Get solution control.
 
 
 
-**Return type**: [SyscSolutionControl](structSyscSolutionControl.md#structSyscSolutionControl)
+**Return type**: [SyscSolutionControl](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscSolutionControl)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8987dbe52eb06c7d089663d4c29c17ed"></a>
 ### Function syscGetNumCouplingInterfaces
@@ -7124,7 +7126,7 @@ SyscCouplingInterface syscGetAddedCouplingInterface(size_t index)
 
 * size_t **index**
 
-**Return type**: [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface)
+**Return type**: [SyscCouplingInterface](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCouplingInterface)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga11cda8cc3f7f76d71b87baabbfe53304"></a>
 ### Function syscGetVariable
@@ -7173,7 +7175,7 @@ Quantity type will default to unspecified.
 
 * const char * **name**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga41420b43584d7b7ab11d94c2c4e4ccdb"></a>
 ### Function syscGetVariableDTELQD
@@ -7202,13 +7204,13 @@ Create variable to be used in a coupled analysis.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) **tensorType**
+* enum [SyscTensorType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **tensorType**
 * int **isExtensive**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
-* enum [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) **quantityType**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **location**
+* enum [SyscQuantityType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **quantityType**
 * enum SyscDataType **dataType**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3aceb66e0d37a5de11b76fd4c1d7293d"></a>
 ### Function syscGetVariableTE
@@ -7241,11 +7243,11 @@ Quantity type will default to unspecified.
 **Parameters**:
 
 * const char * **name**
-* enum [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) **tensorType**
+* enum [SyscTensorType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **tensorType**
 * int **isExtensive**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **location**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga8c3a0f01eb353ffcb981281a76dde4b3"></a>
 ### Function syscGetVariableTEQ
@@ -7273,12 +7275,12 @@ Create variable to be used in a coupled analysis.
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) **tensorType**
+* enum [SyscTensorType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **tensorType**
 * int **isExtensive**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
-* enum [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) **quantityType**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **location**
+* enum [SyscQuantityType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **quantityType**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1gabcbdf21641e68a17e941a6c8da2afdc9"></a>
 ### Function syscGetVariableQ
@@ -7327,10 +7329,10 @@ If any other quantity type is specified, tensor type will be set to scalar and i
 
 * const char * **name**
 * const char * **displayName**
-* enum [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) **location**
-* enum [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) **quantityType**
+* enum [SyscLocation](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **location**
+* enum [SyscQuantityType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/syscCommonTypes_8h) **quantityType**
 
-**Return type**: [SyscVariable](structSyscVariable.md#structSyscVariable)
+**Return type**: [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga36e1b9748fe759040360468c2b863753"></a>
 ### Function syscVariableAddRealAttribute
@@ -7349,10 +7351,10 @@ Add real-valued attribute to the variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
-* [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute) **attribute**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
+* [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute) **attribute**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga2c8d8b670d660f646fbe0d81dbc7914b"></a>
 ### Function syscVariableAddIntegerAttribute
@@ -7371,10 +7373,10 @@ Add integer-valued attribute to the variable.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
-* [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute) **attribute**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
+* [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute) **attribute**
 
-**Return type**: [SyscError](structSyscError.md#structSyscError)
+**Return type**: [SyscError](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscError)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga3cb95d52ef66ec8339bff5dc9c2c28bb"></a>
 ### Function syscVariableGetNumRealAttributes
@@ -7393,7 +7395,7 @@ Get number of real-valued attributes.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
 
 **Return type**: size_t
 
@@ -7414,7 +7416,7 @@ Get number of integer-valued attributes.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
 
 **Return type**: size_t
 
@@ -7435,10 +7437,10 @@ Return the real-valued attribute at the given index.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
 * size_t **index**
 
-**Return type**: [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute)
+**Return type**: [SyscRealAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscRealAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacd6d89e8e016b12cf558b312619201a4"></a>
 ### Function syscVariableGetIntegerAttribute
@@ -7457,10 +7459,10 @@ Return the integer-valued attribute at the given index.
 
 **Parameters**:
 
-* [SyscVariable](structSyscVariable.md#structSyscVariable) **variable**
+* [SyscVariable](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVariable) **variable**
 * size_t **index**
 
-**Return type**: [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute)
+**Return type**: [SyscIntegerAttribute](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscIntegerAttribute)
 
 <a id="group__SyscParticipantLibraryCAPI_1ga44f0210eb99864864b6ea802b5c8c857"></a>
 ### Function syscGetVolumeMeshEmpty
@@ -7477,7 +7479,7 @@ Returns a struct representing empty volume mesh. All member will be assigned def
 
 
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gaa082ad5a3f9a308f6dfb794e8bdcd8cd"></a>
 ### Function syscGetVolumeMeshNFC
@@ -7500,11 +7502,11 @@ Create a volume mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscFaceData](structSyscFaceData.md#structSyscFaceData) **faces**
-* [SyscCellData](structSyscCellData.md#structSyscCellData) **cells**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscFaceData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceData) **faces**
+* [SyscCellData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellData) **cells**
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gacdd4cb0f44e5d2e94a0ed34e0dc96bbe"></a>
 ### Function syscGetVolumeMeshElementBased
@@ -7527,11 +7529,11 @@ Create an element-based volume mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) **cellTypes**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **cellNodeConnectivity**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementTypeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementTypeData) **cellTypes**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **cellNodeConnectivity**
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)
 
 <a id="group__SyscParticipantLibraryCAPI_1gae426344ef494aa92411c8c3856cdcb7f"></a>
 ### Function syscGetVolumeMeshFaceBased
@@ -7556,13 +7558,13 @@ Create a face-based volume mesh access struct.
 
 **Parameters**:
 
-* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) **nodes**
-* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) **faceNodeCounts**
-* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) **faceNodeConnectivity**
-* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) **faceCellConnectivity**
-* [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData) **cellIds**
+* [SyscNodeData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscNodeData) **nodes**
+* [SyscElementNodeCountData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeCountData) **faceNodeCounts**
+* [SyscElementNodeConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscElementNodeConnectivityData) **faceNodeConnectivity**
+* [SyscFaceCellConnectivityData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscFaceCellConnectivityData) **faceCellConnectivity**
+* [SyscCellIdData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscCellIdData) **cellIds**
 
-**Return type**: [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh)
+**Return type**: [SyscVolumeMesh](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/c-reference/structSyscVolumeMesh)
 
 ## Macros
 

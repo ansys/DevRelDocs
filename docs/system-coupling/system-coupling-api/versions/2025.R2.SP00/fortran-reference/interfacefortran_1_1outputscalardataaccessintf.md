@@ -1,4 +1,6 @@
-# Interface fortran::outputscalardataaccessintf
+---
+title: "Interface fortran::outputscalardataaccessintf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,7 +13,7 @@
 
 ## Members
 
-* [outputscalardataaccessintf](interfacefortran_1_1outputscalardataaccessintf.md#interfacefortran_1_1outputscalardataaccessintf_1ad9d29dff44dd3e364e3a1d4c8d0842a0)
+* [outputscalardataaccessintf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/interfacefortran_1_1outputscalardataaccessintf)
 
 ## Public functions
 
@@ -36,7 +38,7 @@ type(syscerrorf) function outputscalardataaccessintf(regionName, variableName, o
 * variableNamevariableName
 * outputScalarDataoutputScalarData
 
-**Return type**: type([syscerrorf](structfortran_1_1syscerrorf.md#structfortran_1_1syscerrorf)) function
+**Return type**: type([syscerrorf](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/fortran-reference/structfortran_1_1syscerrorf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

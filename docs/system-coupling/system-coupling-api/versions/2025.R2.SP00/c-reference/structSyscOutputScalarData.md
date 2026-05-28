@@ -1,4 +1,6 @@
-# Structure SyscOutputScalarData
+---
+title: "Structure SyscOutputScalarData"
+---
 
 ![][C]
 ![][public]
@@ -13,7 +15,7 @@ Input scalar data provides read-only access to an array of scalar data.
 
 
 
-To create and/or initialize [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData), it is highly recommended to use one of the functions with names starting with <code>syscGetOutputScalarData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
+To create and/or initialize [SyscOutputScalarData](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData), it is highly recommended to use one of the functions with names starting with <code>syscGetOutputScalarData</code>. These functions will initialize all members to the correct values and will help to avoid back-compatibility issues in the future. For example:
 
 
 
@@ -25,9 +27,9 @@ SyscOutputScalarData osd = syscGetOutputScalarDataDouble(array, arraySize);
 
 ## Members
 
-* [data](structSyscOutputScalarData.md#structSyscOutputScalarData_1ac6e4962585166fdc6b76161f513525f8)
-* [primitiveType](structSyscOutputScalarData.md#structSyscOutputScalarData_1a8d379fbb21a0db72ca1e91725b1c4f17)
-* [size](structSyscOutputScalarData.md#structSyscOutputScalarData_1a22d6699f074b01a21ee6072272cfa0f3)
+* [data](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
+* [primitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/structSyscOutputScalarData)
 
 ## Public attributes
 
@@ -48,7 +50,7 @@ Primitive type.
 
 
 
-**Type**: enum [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c)
+**Type**: enum [SyscPrimitiveType](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/c-reference/syscCommonTypes_8h)
 
 <a id="structSyscOutputScalarData_1ac6e4962585166fdc6b76161f513525f8"></a>
 ### Variable data

@@ -1,4 +1,6 @@
-# Class sysc::OutputComplexScalarData
+---
+title: "Class sysc::OutputComplexScalarData"
+---
 
 ![][C++]
 ![][public]
@@ -11,32 +13,32 @@ Output scalar data provides read-only access to an array of complex scalars.
 
 ## Members
 
-* [empty](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1ade274ee7bd0e02ea712cfac8c9c3df1e)
-* [getData1](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1afc4cf635f16255debd5367c71e2eeebb)
-* [getData2](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a7bb7e81085550fad868b9dc8927160e6)
-* [getDataType](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1aa9fde7656420e140ec4b575dc27e3ed1)
-* [isSplitComplex](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a2d9a5cce0e6fcb99344276db9b0d1030)
-* [m\_data1](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a02d71d668a939fea124133f764b3ff31)
-* [m\_data2](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a341bffbbe4ffcc305b48399cf0b91413)
-* [m\_dataType](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a726ea48a7544291ef53d65c6561b14de)
-* [m\_isSplitComplex](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a6a6b836aca95c061a9751274ffdbb9af)
-* [m\_size](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a5786039737c03fb8873ceb8cb5a04cad)
-* [operator=](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1ae3e6b55441d7702c04f998f307cc957d)
-* [operator=](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1aa14627de46b45ac3070900803114062c)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1adf91ed9369ea790ff25efc8138429b3d)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1addb41ddd037b27dd19e6654294f7c194)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1aef2fe0ae45472d732a8fa1b6c3bf83a2)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a883a5a886f1ec85c866f73d93bb170bf)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a76a7cea2727d9cfad5419c65265e507e)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a1da27e8572b96fb4687735b8a32a3aa6)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a723362aff534d9a651bb9ce11cd82f7a)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a684da76ee59e2dcae970dfc34e89f9aa)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a509c85873eece0980798e7d0263b1552)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1acc8f1a93aaf429db11baf9043ea34bf9)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a6826d90466e7bf1fabc6e1b8f78cda5a)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1af33df90acece2bce5d93d7357c4b3d59)
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a869ea682dbf359db976655f2e3098408)
-* [size](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData_1a961c32a17e1d33ceb346c15768b5290a)
+* [empty](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [getData1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [getData2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [getDataType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [isSplitComplex](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [m\_data1](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [m\_data2](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [m\_dataType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [m\_isSplitComplex](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [m\_size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [operator=](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
+* [size](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData)
 
 ## Private attributes
 
@@ -57,7 +59,7 @@ sysc::PrimitiveType sysc::OutputComplexScalarData::m_dataType {sysc::Double}
 
 
 
-**Type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1OutputComplexScalarData_1a6a6b836aca95c061a9751274ffdbb9af"></a>
 ### Variable m\_isSplitComplex
@@ -421,7 +423,7 @@ Provide a copy-constructor.
 
 **Parameters**:
 
-* const [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) &
+* const [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) &
 
 **Return type**: 
 
@@ -442,7 +444,7 @@ Provide a move-constructor.
 
 **Parameters**:
 
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) &&
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) &&
 
 **Return type**: 
 
@@ -463,9 +465,9 @@ Provide a copy-assign operator.
 
 **Parameters**:
 
-* const [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) &
+* const [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) &
 
-**Return type**: [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) &
+**Return type**: [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) &
 
 <a id="classsysc_1_1OutputComplexScalarData_1aa14627de46b45ac3070900803114062c"></a>
 ### Function operator=
@@ -484,9 +486,9 @@ Provide a move-assign operator.
 
 **Parameters**:
 
-* [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) &&
+* [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) &&
 
-**Return type**: [OutputComplexScalarData](classsysc_1_1OutputComplexScalarData.md#classsysc_1_1OutputComplexScalarData) &
+**Return type**: [OutputComplexScalarData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputComplexScalarData) &
 
 <a id="classsysc_1_1OutputComplexScalarData_1a961c32a17e1d33ceb346c15768b5290a"></a>
 ### Function size
@@ -540,7 +542,7 @@ For internal use only (no back-compatibility guarantee).
 
 
 
-**Return type**: [sysc::PrimitiveType](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gad3b1c73e4a63f4d292d65f3db875e844)
+**Return type**: [sysc::PrimitiveType](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 <a id="classsysc_1_1OutputComplexScalarData_1a2d9a5cce0e6fcb99344276db9b0d1030"></a>
 ### Function isSplitComplex
@@ -598,7 +600,7 @@ For internal use only (no back-compatibility guarantee).
 
 **References**:
 
-* [sysc::Double](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggad3b1c73e4a63f4d292d65f3db875e844a29843d2c1bb5760f768dcc066dac1ac1)
+* [sysc::Double](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

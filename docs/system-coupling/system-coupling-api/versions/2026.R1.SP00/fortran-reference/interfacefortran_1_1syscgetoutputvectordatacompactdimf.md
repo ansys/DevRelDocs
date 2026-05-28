@@ -1,4 +1,6 @@
-# Interface fortran::syscgetoutputvectordatacompactdimf
+---
+title: "Interface fortran::syscgetoutputvectordatacompactdimf"
+---
 
 ![][Fortran]
 ![][public]
@@ -11,10 +13,10 @@ Provide an interface to get output vector data with compact storage based on dim
 
 ## Members
 
-* [syscgetoutputvectordatacompactdimf\_r41d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aad1f52de474bf1aeec885d57e4bd097d)
-* [syscgetoutputvectordatacompactdimf\_r42d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ac97fc60c227f8db5e1a65611003247ee)
-* [syscgetoutputvectordatacompactdimf\_r81d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ae280ff8ac7fd97c342989d70030340ef)
-* [syscgetoutputvectordatacompactdimf\_r82d](interfacefortran_1_1syscgetoutputvectordatacompactdimf.md#interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aa55a92ae3afcc6aeb3bc18a86fd654a5)
+* [syscgetoutputvectordatacompactdimf\_r41d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatacompactdimf)
+* [syscgetoutputvectordatacompactdimf\_r42d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatacompactdimf)
+* [syscgetoutputvectordatacompactdimf\_r81d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatacompactdimf)
+* [syscgetoutputvectordatacompactdimf\_r82d](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/interfacefortran_1_1syscgetoutputvectordatacompactdimf)
 
 ## Public functions
 
@@ -43,7 +45,7 @@ Create an output vector data access type with compact storage based on dimension
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ae280ff8ac7fd97c342989d70030340ef"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r81d
@@ -70,7 +72,7 @@ Create an output vector data access type with compact storage based on dimension
 * dataSizedataSize
 * dimensiondimension
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1ac97fc60c227f8db5e1a65611003247ee"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r42d
@@ -97,7 +99,7 @@ Create an output vector data access type with compact storage based on dimension
 * nElemsnElems
 * dimensiondimension
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 <a id="interfacefortran_1_1syscgetoutputvectordatacompactdimf_1aa55a92ae3afcc6aeb3bc18a86fd654a5"></a>
 ### Function syscgetoutputvectordatacompactdimf\_r82d
@@ -124,7 +126,7 @@ Create an output vector data access type with compact storage based on dimension
 * nElemsnElems
 * dimensiondimension
 
-**Return type**: type([syscoutputvectordataf](structfortran_1_1syscoutputvectordataf.md#structfortran_1_1syscoutputvectordataf)) function
+**Return type**: type([syscoutputvectordataf](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/fortran-reference/structfortran_1_1syscoutputvectordataf)) function
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [Fortran]: https://img.shields.io/badge/language-Fortran-blue (Fortran)

@@ -1,4 +1,6 @@
-# File OutputIntegerData.hpp
+---
+title: "File OutputIntegerData.hpp"
+---
 
 ![][C++]
 
@@ -10,20 +12,20 @@
 
 ## Classes
 
-* [sysc::OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData)
+* [sysc::OutputIntegerData](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/classsysc_1_1OutputIntegerData)
 
 ## Namespaces
 
-* [sysc](namespacesysc.md#namespacesysc)
+* [sysc](/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/cpp-reference/namespacesysc)
 
 ## Includes
 
 * SystemCouplingParticipant/LibraryType.hpp
 * SystemCouplingParticipant/CommonTypes.hpp
 * SystemCouplingParticipant/OutputScalarData.hpp
-* <cstddef>
-* <cstdint>
-* <vector>
+* &lt;cstddef&gt;
+* &lt;cstdint&gt;
+* &lt;vector&gt;
 
 ```mermaid
 graph LR
