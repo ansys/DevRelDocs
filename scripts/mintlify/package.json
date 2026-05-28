@@ -1,0 +1,11 @@
+{
+  "name": "@ansys/devreldocs-mintlify-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "toc-to-nav": "node toc-to-docs-json.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.8.0"
+  }
+}

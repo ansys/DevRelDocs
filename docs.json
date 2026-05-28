@@ -2,9 +2,9 @@
   "$schema": "https://mintlify.com/docs.json",
   "theme": "almond",
   "name": "Ansys developer portal",
-  "description": "Setup guides, product how-tos, knowledge base articles, and support for Ansys developers.",
+  "description": "Developer documentation for Ansys products — APIs, libraries, and guides.",
   "colors": {
-    "primary": "#ff0000",
+    "primary": "#FFB71B",
     "light": "#ff4d4d",
     "dark": "#cc0000"
   },
@@ -19,203 +19,10 @@
     "options": ["copy", "view", "assistant", "mcp", "add-mcp"]
   },
   "navigation": {
-    "directory": "card",
-    "products": [
-      {
-        "product": "Help Center",
-        "description": "Setup guides, product how-tos, automation tips, and policies.",
-        "icon": "life-buoy",
-        "groups": [
-          {
-            "group": "Getting started & account",
-            "icon": "rocket",
-            "expanded": true,
-            "root": "getting-started/index",
-            "pages": [
-              "getting-started/quickstart",
-              "getting-started/create-account",
-              "getting-started/sign-in-security",
-              {
-                "group": "Workspace",
-                "icon": "users",
-                "root": "getting-started/workspace/index",
-                "pages": [
-                  "getting-started/workspace/invite-teammates",
-                  "getting-started/workspace/roles-permissions",
-                  "getting-started/workspace/organization-settings"
-                ]
-              },
-              {
-                "group": "Billing & plans",
-                "icon": "credit-card",
-                "root": "getting-started/billing/index",
-                "pages": [
-                  "getting-started/billing/compare-plans",
-                  "getting-started/billing/upgrade-downgrade",
-                  "getting-started/billing/invoices-receipts"
-                ]
-              },
-              {
-                "group": "Integrations",
-                "icon": "plug",
-                "root": "getting-started/integrations/index",
-                "pages": [
-                  "getting-started/integrations/connect-slack",
-                  "getting-started/integrations/connect-crm",
-                  {
-                    "group": "Developer integrations",
-                    "icon": "code-xml",
-                    "root": "getting-started/integrations/developer/index",
-                    "pages": [
-                      "getting-started/integrations/developer/oauth-apps",
-                      "getting-started/integrations/developer/webhooks",
-                      "getting-started/integrations/developer/api-keys"
-                    ]
-                  },
-                  {
-                    "group": "Partner connectors",
-                    "icon": "link-2",
-                    "root": "getting-started/integrations/partners/index",
-                    "pages": [
-                      "getting-started/integrations/partners/salesforce",
-                      "getting-started/integrations/partners/hubspot",
-                      "getting-started/integrations/partners/custom-connector-template"
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Product guides",
-            "icon": "book-open",
-            "expanded": true,
-            "root": "product/index",
-            "pages": [
-              "product/interface-overview",
-              "product/keyboard-shortcuts",
-              "product/search-navigation",
-              {
-                "group": "Projects",
-                "icon": "folder-kanban",
-                "root": "product/projects/index",
-                "pages": [
-                  "product/projects/create-project",
-                  "product/projects/archive-restore"
-                ]
-              },
-              {
-                "group": "Editor & content",
-                "icon": "pen-line",
-                "root": "product/editor/index",
-                "pages": [
-                  "product/editor/drafts-publishing",
-                  "product/editor/comments-mentions",
-                  "product/editor/version-history"
-                ]
-              },
-              {
-                "group": "Automation",
-                "icon": "zap",
-                "root": "product/automation/index",
-                "pages": [
-                  "product/automation/rules-triggers",
-                  {
-                    "group": "Workflow builder",
-                    "icon": "workflow",
-                    "root": "product/automation/workflows/index",
-                    "pages": [
-                      "product/automation/workflows/build-first-workflow",
-                      "product/automation/workflows/conditions-branches",
-                      "product/automation/workflows/error-handling"
-                    ]
-                  },
-                  {
-                    "group": "Advanced patterns",
-                    "icon": "layers",
-                    "root": "product/automation/advanced/index",
-                    "pages": [
-                      "product/automation/advanced/rate-limits",
-                      "product/automation/advanced/idempotency",
-                      "product/automation/advanced/retry-policies"
-                    ]
-                  },
-                  "product/automation/scheduled-tasks"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Support & policies",
-            "icon": "life-buoy",
-            "expanded": true,
-            "root": "support/index",
-            "pages": [
-              "support/contact-support",
-              "support/status-incidents",
-              {
-                "group": "Troubleshooting",
-                "icon": "wrench",
-                "root": "support/troubleshooting/index",
-                "pages": [
-                  "support/troubleshooting/login-issues",
-                  "support/troubleshooting/performance-issues"
-                ]
-              },
-              {
-                "group": "Account & data",
-                "icon": "database",
-                "root": "support/account-data/index",
-                "pages": [
-                  "support/account-data/export-data",
-                  "support/account-data/delete-account"
-                ]
-              },
-              {
-                "group": "Legal & compliance",
-                "icon": "scale",
-                "root": "support/legal/index",
-                "pages": [
-                  "support/legal/terms-of-service",
-                  {
-                    "group": "Privacy & GDPR",
-                    "icon": "shield-check",
-                    "root": "support/legal/privacy/index",
-                    "pages": [
-                      "support/legal/privacy/privacy-policy",
-                      "support/legal/privacy/dpa",
-                      "support/legal/privacy/subprocessors"
-                    ]
-                  },
-                  {
-                    "group": "Regional specifics",
-                    "icon": "globe",
-                    "root": "support/legal/regions/index",
-                    "pages": [
-                      "support/legal/regions/eu-residency",
-                      "support/legal/regions/us-residency",
-                      "support/legal/regions/apac"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "product": "Knowledge base",
-        "description": "Technical articles and reference material.",
-        "icon": "code",
-        "pages": ["root/knowledge-base"]
-      },
-      {
-        "product": "Forum",
-        "description": "Community discussions and questions.",
-        "icon": "message-circle",
-        "href": "https://discuss.ansys.com/"
-      }
-    ]
+    "$ref": "./navigation/main.json"
+  },
+  "redirects": {
+    "$ref": "./navigation/redirects.json"
   },
   "logo": {
     "light": "/logo/light.svg",
@@ -224,14 +31,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Get support",
-        "href": "/support/contact-support"
+        "label": "Production portal",
+        "href": "https://developer.ansys.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Developer portal",
-      "href": "https://developer.ansys.com"
+      "label": "Explore docs",
+      "href": "/docs/dpf/dpf-framework/versions/2027.R1.SP01"
     }
   }
 }

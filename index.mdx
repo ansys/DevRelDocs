@@ -1,208 +1,57 @@
 ---
 title: Home
-description: Find answers about your workspace, integrations, product guides, and policies—all in one place.
+description: Ansys developer portal — documentation, APIs, and community resources.
 mode: custom
 ---
 
 <div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
-  <div className="flex flex-col items-center gap-12">
-    <div className="flex w-full max-w-lg flex-col gap-1">
-      <h1 className="text-center text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
-        Ansys developer portal
-      </h1>
-      <p className="text-center text-balance text-base text-gray-600 dark:text-gray-400 mt-2">
-        Search for setup guides, product how-tos, knowledge base articles, and support—all in one
-        place.
-      </p>
-    </div>
-
-    <div className="flex w-full max-w-lg flex-col gap-4">
-      <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:items-stretch">
-        <div className="kb-search-entry min-w-0 w-full flex-1">
-          <button
-            type="button"
-            data-search-trigger
-            className="pointer-events-auto flex h-11 w-full cursor-pointer items-center justify-between gap-2 truncate rounded-full bg-gray-50 pl-4 pr-3 text-left text-sm font-normal leading-6 text-gray-500 shadow-none hover:text-gray-500 ring-1 ring-gray-100 hover:ring-gray-200 dark:bg-white/[0.04] dark:text-white/50 dark:hover:text-white/50 dark:ring-1 dark:ring-white/[0.08] dark:hover:ring-white/15"
-          >
-            <div className="flex min-w-0 flex-1 items-center gap-2">
-              <Icon
-                icon="search"
-                size={14}
-                className="shrink-0 text-gray-700 dark:text-gray-400"
-              />
-              <div className="min-w-0 truncate font-normal text-gray-500 hover:text-gray-500 dark:text-white/50 dark:hover:text-white/50">
-                Search for articles
-              </div>
-            </div>
-            <span className="flex-none text-xs font-semibold text-gray-500 hover:text-gray-500 dark:text-white/50 dark:hover:text-white/50">
-              ⌘K
-            </span>
-          </button>
-        </div>
-
-        <button
-          type="button"
-          id="custom-homepage-assistant-entry"
-          data-assistant-trigger
-          aria-label="Ask AI"
-          className="group/ai flex pointer-events-auto h-11 w-full shrink-0 cursor-pointer flex-row items-center justify-center gap-1.5 rounded-full bg-gray-50 px-4 text-sm font-normal leading-6 text-gray-500 shadow-none ring-1 ring-gray-100 hover:text-gray-600 hover:ring-gray-200 dark:bg-white/[0.04] dark:text-white/50 dark:ring-1 dark:ring-white/[0.08] dark:hover:text-white/70 dark:hover:ring-white/15 sm:w-auto"
-        >
-          <Icon
-            icon="sparkles"
-            size={16}
-            className="shrink-0 text-gray-700 group-hover/ai:text-gray-800 dark:text-gray-400 dark:group-hover/ai:text-gray-200"
-          />
-          <span className="whitespace-nowrap text-gray-500 dark:text-white/50">Ask AI</span>
-        </button>
-      </div>
-
-      <div className="flex flex-wrap items-center justify-center gap-3 text-sm text-gray-500 dark:text-gray-400">
-        <span>Popular searches</span>
-        <div className="flex flex-wrap justify-center gap-1">
-          {['integrations', 'workspace', 'billing'].map((term) => (
-            <button
-              key={term}
-              type="button"
-              data-popular-search
-              data-term={term}
-              className="rounded-md bg-gray-100 px-1.5 py-1 font-mono text-xs font-bold uppercase tracking-tight text-gray-600 transition hover:bg-gray-200 dark:bg-white/10 dark:text-gray-300 dark:hover:bg-white/15"
-            >
-              {term.toUpperCase()}
-            </button>
-          ))}
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div className="flex flex-col gap-4">
-    <h3 className="text-base font-medium text-gray-900 dark:text-gray-50">Featured guides</h3>
-    <Columns cols={3}>
-      <Card
-        horizontal
-        icon="rocket"
-        iconType="light"
-        title="Getting started & account"
-        href="/getting-started"
-      >
-        Account setup, workspace, billing, and integrations
-      </Card>
-      <Card horizontal icon="book-open" iconType="light" title="Product guides" href="/product">
-        Interface, projects, editor, automation, and workflows
-      </Card>
-      <Card horizontal icon="life-buoy" iconType="light" title="Support & policies" href="/support">
-        Help, status, troubleshooting, data, and policies
-      </Card>
-    </Columns>
-  </div>
-
-  ---
-
-  <div className="flex flex-col gap-4">
-    <h3 className="text-base font-medium text-gray-900 dark:text-gray-50">All guides</h3>
-    <Columns cols={3}>
-    <Card
-      title="Workspace"
-      icon="users"
-      iconType="light"
-      href="/getting-started/workspace"
-      cta="3 articles"
-    >
-      Invites, roles, and organization settings
-    </Card>
-    <Card
-      title="Billing & plans"
-      icon="credit-card"
-      iconType="light"
-      href="/getting-started/billing"
-      cta="3 articles"
-    >
-      Compare plans, upgrades, and invoices
-    </Card>
-    <Card
-      title="Developer integrations"
-      icon="code-xml"
-      iconType="light"
-      href="/getting-started/integrations/developer"
-      cta="3 articles"
-    >
-      OAuth apps, webhooks, and API keys
-    </Card>
-    <Card
-      title="Knowledge base"
-      icon="code"
-      iconType="light"
-      href="/root/knowledge-base"
-      cta="Read article"
-    >
-      Technical articles and reference material
-    </Card>
-    <Card
-      title="Troubleshooting"
-      icon="wrench"
-      iconType="light"
-      href="/support/troubleshooting"
-      cta="2 articles"
-    >
-      Login issues and performance troubleshooting
-    </Card>
-    <Card
-      title="Forum"
-      icon="message-circle"
-      iconType="light"
-      href="https://discuss.ansys.com/"
-      cta="Community"
-    >
-      Ask questions and connect with other developers
-    </Card>
-    </Columns>
-  </div>
-
-  ---
-
-  <div className="flex flex-col gap-2">
-    <h3 className="text-base font-medium text-gray-900 dark:text-gray-50">Suggested articles</h3>
-    <p className="text-base text-gray-600 dark:text-gray-400">
-      Popular starting points from the developer portal
+  <div className="flex flex-col items-center gap-8 text-center">
+    <h1 className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      Ansys developer portal
+    </h1>
+    <p className="max-w-2xl text-balance text-base text-gray-600 dark:text-gray-400">
+      Mintlify pilot for migrated product documentation. Start with the DPF Framework
+      2027 R1 SP01 package, generated from the DevRelDocs <code>toc.yml</code>.
     </p>
   </div>
 
-  <Columns cols={2} className="suggested-articles">
+  <Columns cols={2}>
     <Card
-      title="Quickstart: get set up in under 15 minutes"
-      icon="timer"
+      title="DPF Framework 2027 R1 SP01"
+      icon="layers"
       iconType="light"
-      href="/getting-started/quickstart"
-      cta="Read article"
+      href="/docs/dpf/dpf-framework/versions/2027.R1.SP01"
+      cta="Open documentation"
     >
-      A fast path from signup to first project: invites, roles, and your first integration.
+      Getting started, user guide, core concepts, operator specifications, and changelog.
     </Card>
     <Card
-      title="Conditions and branches"
-      icon="git-branch"
+      title="Explore our docs"
+      icon="globe"
       iconType="light"
-      href="/product/automation/workflows/conditions-branches"
-      cta="Read article"
+      href="https://developer.ansys.com/docs"
+      cta="Visit site"
     >
-      Model conditional paths and merge strategies in workflows.
+      Full catalog of Ansys developer documentation (current DocFX-based portal).
     </Card>
     <Card
-      title="Knowledge base"
-      icon="code"
+      title="A community for you"
+      icon="message-circle"
       iconType="light"
-      href="/root/knowledge-base"
-      cta="Read article"
+      href="https://discuss.ansys.com/"
+      cta="Visit forum"
     >
-      Technical articles and reference material for Ansys developers.
-    </Card>
-    <Card
-      title="Connect your CRM"
-      icon="building-2"
-      iconType="light"
-      href="/getting-started/integrations/connect-crm"
-      cta="Read article"
-    >
-      Link Salesforce or HubSpot through partner connectors or a custom sync strategy.
+      Share knowledge, ask questions, and connect with other developers.
     </Card>
   </Columns>
+
+  <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-600 dark:border-white/10 dark:bg-white/[0.04] dark:text-gray-400">
+    <strong className="text-gray-900 dark:text-gray-50">Regenerate navigation</strong>
+    <p className="mt-2">
+      After editing <code>toc.yml</code>, run:
+    </p>
+    <pre className="mt-2 overflow-x-auto rounded bg-gray-100 p-3 text-xs dark:bg-black/30">
+      python scripts/mintlify/toc_to_docs_json.py docs/dpf/dpf-framework/versions/2027.R1.SP01 --out navigation/dpf-framework-2027-r1-sp01-groups.json
+    </pre>
+  </div>
 </div>

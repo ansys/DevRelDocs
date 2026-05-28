@@ -79,12 +79,12 @@ li.navbar-link > :is(a, button) {
 
 .nav-dropdown-products-selector-item-icon {
   background-color: rgb(var(--primary)) !important;
-  color: #ffffff !important;
+  color: #FFB71B !important;
   border-radius: 0.375rem !important;
   aspect-ratio: 1;
 
   svg {
-    background-color: #ffffff !important;
+    background-color: #461272 !important;
   }
 }
 
@@ -142,7 +142,7 @@ li.navbar-link > :is(a, button) {
 
   > :is(a, button, div, span) {
     background-color: rgb(var(--primary)) !important;
-    color: #ffffff !important;
+    color: #FFB71B !important;
     height: 2.25rem !important;
     padding: 0 1rem !important;
     display: inline-flex !important;
@@ -160,7 +160,7 @@ li.navbar-link > :is(a, button) {
 
   *,
   > * * {
-    color: #ffffff !important;
+    color: #461272 !important;
     background-color: transparent !important;
   }
 }
@@ -198,11 +198,11 @@ ul:is(:has(> #topbar-cta-button), :has(> li.navbar-link)) {
         border-radius: 1rem;
         transition: background-color 0.15s ease-out;
         background-color: rgb(var(--primary));
-        color: #ffffff !important;
+        color: #FFB71B !important;
 
         svg {
           scale: 1.5;
-          background-color: #ffffff;
+          background-color: #FFB71B;
         }
 
         .group:hover & {
