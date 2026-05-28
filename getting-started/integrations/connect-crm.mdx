@@ -1,0 +1,32 @@
+---
+title: "Connect your CRM"
+sidebarTitle: "CRM"
+description: "Link Salesforce or HubSpot through partner connectors or a custom sync strategy."
+---
+
+CRM integrations keep customer context next to internal work. The hardest part is agreeing which system owns which field—decide that before you flip the sync on.
+
+## Supported paths
+
+- Official partner connectors (see partner guides)
+- CSV or API-based sync via developer tools
+
+### When to use each
+
+Partner connectors trade flexibility for speed. Custom sync suits unusual object models or heavy transformations mid-pipeline.
+
+## Data expectations
+
+Define which objects sync and how conflicts resolve. Document owner fields so automation behaves predictably.
+
+### Conflict rules
+
+“CRM wins” vs “product wins” should be explicit for every field. Ambiguity shows up first when sales reassigns accounts during a territory change.
+
+## Privacy
+
+Limit synced fields to the minimum needed for your workflows and review access regularly.
+
+### Retention
+
+Align deletion policies: when a CRM record disappears, decide whether related artifacts should archive, anonymize, or remain linked for audits.

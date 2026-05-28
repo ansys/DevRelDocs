@@ -1,0 +1,31 @@
+---
+title: "Idempotency"
+sidebarTitle: "Idempotency"
+description: "Use idempotency keys to make automation safe under retries."
+---
+
+Networks drop packets, clients retry, and queues redeliver. Without idempotency, the same user intent can create duplicate charges, tickets, or posts. Idempotency keys make “exactly-once behavior” practical on “at-least-once” infrastructure.
+
+## Why it matters
+
+Retries can duplicate side effects without idempotent design. Payment and ticketing integrations are the usual victims—duplicate idempotency keys should return the original result, not create a second record.
+
+### Scope
+
+Decide whether keys are global, per-tenant, or per-user. Collisions across tenants are rare but catastrophic if namespaces overlap.
+
+## Keys
+
+Supply a stable idempotency key derived from natural identifiers—order ID, request UUID, or hash of canonical fields. Avoid keys that change when unrelated whitespace changes.
+
+### Rotation
+
+If you must rotate key material, dual-write during transition and document the overlap window.
+
+## Storage
+
+Record processed keys long enough to cover your retry window plus clock skew. Expire old keys to bound storage, but not before your longest plausible retry storm.
+
+### Conflicts
+
+When a new payload arrives with an existing key but different body, reject loudly—something is inconsistent and needs human review.

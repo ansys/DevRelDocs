@@ -1,0 +1,35 @@
+---
+title: "Scheduled tasks"
+sidebarTitle: "Scheduled tasks"
+description: "Cron-style schedules, timezone handling, and backoff."
+---
+
+Scheduled tasks run without a human click: nightly syncs, weekly digests, or maintenance windows. Get timezones right once, then monitor failures—silent misses are harder to spot than user-triggered errors.
+
+## Schedules
+
+Use cron expressions or friendly presets. All times respect the project timezone unless overridden explicitly for global teams.
+
+### Cadence choices
+
+Prefer off-peak windows for heavy jobs. If you need “every hour,” confirm your platform’s minimum interval and whether missed runs catch up or skip.
+
+### Holidays
+
+Some teams pause schedules on holidays via a calendar flag or a wrapper rule—otherwise your “Monday report” might fire on a quiet day with no fresh data.
+
+## Daylight saving
+
+Ambiguous local times may skip or repeat—prefer UTC for critical jobs. If you must stay local, document the DST transition dates for your region and test around them.
+
+### Jitter
+
+Add small random delay when many schedules align at midnight to avoid thundering herds against shared databases.
+
+## Monitoring
+
+Failed runs surface in the automation console with logs for debugging. Wire alerts to the same channel as user-facing incidents when the job protects revenue or compliance.
+
+### Runbooks
+
+Link a short runbook from each alert: what failed, what to check first, and who owns the downstream integration.

@@ -1,0 +1,240 @@
+/* table of contents: chevron next to the active (deepest) section */
+toc-item > a {
+  position: relative;
+  padding-left: 1rem !important;
+}
+toc-item[data-active-deepest] > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0.75rem;
+  height: 0.75rem;
+  transform: translateY(-50%);
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='9 18 15 12 9 6'/></svg>") no-repeat center / contain;
+          mask: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'><polyline points='9 18 15 12 9 6'/></svg>") no-repeat center / contain;
+  pointer-events: none;
+}
+
+/* topbar logo: render smaller than its natural width */
+#navbar a[href="/"] img,
+#navbar a[href="/"] svg,
+#sidebar a[href="/"] img,
+#sidebar a[href="/"] svg {
+  max-width: 14rem;
+  height: auto;
+}
+
+/* topbar pill buttons: search, Ask AI, secondary CTA (Get support) */
+#search-bar-entry,
+#assistant-entry,
+li.navbar-link > :is(a, button) {
+  background-color: rgb(249 250 251) !important; /* gray-50 */
+  box-shadow: inset 0 0 0 1px rgb(243 244 246) !important; /* gray-100 ring */
+  border: none !important;
+  border-radius: 9999px !important;
+  height: 2.25rem !important;
+  padding: 0 1rem !important;
+
+  &:hover {
+    background-color: rgb(243 244 246) !important; /* gray-100 */
+    box-shadow: inset 0 0 0 1px rgb(229 231 235) !important; /* gray-200 ring */
+  }
+
+  .dark & {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08) !important;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.08) !important;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.15) !important;
+    }
+  }
+}
+
+/* product switcher: matches the navbar bg with a subtle outline + primary-tinted icons */
+[data-component-part="products-selector-trigger"] {
+  background-color: rgb(var(--background-light)) !important;
+  box-shadow: inset 0 0 0 1px rgb(229 231 235) !important; /* gray-200 outline */
+  border: none !important;
+  border-radius: 0.75rem !important;
+  height: 2.25rem !important;
+  padding: 0 0.75rem !important;
+  transition: background-color 0.15s ease-out, box-shadow 0.15s ease-out !important;
+
+  &:hover {
+    box-shadow: inset 0 0 0 1px rgb(209 213 219) !important; /* gray-300 */
+  }
+
+  .dark & {
+    background-color: rgb(var(--background-dark)) !important;
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.10) !important;
+
+    &:hover {
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18) !important;
+    }
+  }
+}
+
+.nav-dropdown-products-selector-item-icon {
+  background-color: rgb(var(--primary)) !important;
+  color: #ffffff !important;
+  border-radius: 0.375rem !important;
+  aspect-ratio: 1;
+
+  svg {
+    background-color: #ffffff !important;
+  }
+}
+
+/* trigger leading icon: draw a primary-colored chip behind the icon via ::before,
+   then layer the icon above with white stroke */
+[data-component-part="products-selector-trigger"] {
+  position: relative;
+  --icon-left-offset: 0.05rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: calc(0.5rem - var(--icon-left-offset));
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 0.5rem;
+    background: rgb(var(--primary));
+    pointer-events: none;
+  }
+
+  svg:not(:last-child) {
+    position: relative;
+    z-index: 1;
+    filter: brightness(0) invert(1);
+    margin-right: 0.25rem;
+    margin-left: calc(-1 * var(--icon-left-offset));
+  }
+}
+
+/* hide the topbar search/assistant entries when the homepage entry is shown */
+#search-bar-entry,
+#assistant-entry {
+  transition: opacity 0.15s ease-out;
+
+  body:has(#custom-homepage-assistant-entry) & {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+/* primary CTA in the topbar: style the inner clickable, not the <li> wrapper */
+#topbar-cta-button {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  height: auto !important;
+
+  &,
+  *,
+  > * {
+    border-radius: 9999px !important;
+  }
+
+  > :is(a, button, div, span) {
+    background-color: rgb(var(--primary)) !important;
+    color: #ffffff !important;
+    height: 2.25rem !important;
+    padding: 0 1rem !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 0.375rem !important;
+    box-shadow: none !important;
+    border: none !important;
+    overflow: hidden !important;
+    transition: background-color 0.15s ease-out !important;
+
+    &:hover {
+      background-color: rgb(var(--primary-dark)) !important;
+    }
+  }
+
+  *,
+  > * * {
+    color: #ffffff !important;
+    background-color: transparent !important;
+  }
+}
+
+/* tighten spacing between the topbar CTA buttons */
+ul:is(:has(> #topbar-cta-button), :has(> li.navbar-link)) {
+  gap: 0.25rem !important;
+
+  > li + li {
+    margin-left: 0.125rem !important;
+  }
+}
+
+/* custom styling for the suggested articles section on the homepage */
+.columns.suggested-articles {
+  gap: 1.5rem 2rem;
+
+  .card {
+    border: none;
+    border-radius: 0;
+    margin: 0;
+
+    [data-component-part="card-content-container"] {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 0;
+
+      [data-component-part="card-icon"] {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 2;
+        border-radius: 1rem;
+        transition: background-color 0.15s ease-out;
+        background-color: rgb(var(--primary));
+        color: #ffffff !important;
+
+        svg {
+          scale: 1.5;
+          background-color: #ffffff;
+        }
+
+        .group:hover & {
+          filter: brightness(0.95);
+        }
+
+        .dark & {
+          .group:hover & {
+            filter: brightness(1.1);
+          }
+        }
+      }
+
+      [data-component-part="card-icon"] + div {
+        display: contents;
+      }
+
+      :is(
+        [data-component-part="card-title"],
+        [data-component-part="card-content"],
+        [data-component-part="card-cta"]
+      ) {
+        margin: 0;
+      }
+
+      [data-component-part="card-content"] {
+        text-wrap: pretty;
+      }
+
+      [data-component-part="card-cta"] button {
+        font-size: inherit;
+      }
+    }
+  }
+}

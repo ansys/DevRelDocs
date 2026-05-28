@@ -1,0 +1,31 @@
+---
+title: "Connect Slack"
+sidebarTitle: "Slack"
+description: "Install the Slack app, pick channels, and manage notifications."
+---
+
+Slack puts updates where people already work. A disciplined channel strategy keeps signal high—one noisy channel trains everyone to mute the integration entirely.
+
+## Install
+
+From **Integrations → Slack**, authorize the workspace you use every day. You need admin approval if your Slack org restricts apps.
+
+### Scopes
+
+Review requested OAuth scopes during install. If something looks broader than needed, ask your Slack admin whether a reduced app configuration exists.
+
+## Channels
+
+Map events to public or private channels. Start with a low-noise channel for pilot testing.
+
+### Naming
+
+Use a consistent prefix (`#help-`, `#docs-`) so people can browse related channels. Archive pilot channels after go-live to reduce clutter.
+
+## Troubleshooting
+
+If messages stop, reauthorize the app and confirm the bot was not removed from the channel.
+
+### Rate limits
+
+Bursty events can hit Slack posting limits—back off or batch summaries if you see `429` responses in integration logs.

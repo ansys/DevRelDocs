@@ -1,0 +1,31 @@
+---
+title: "Retry policies"
+sidebarTitle: "Retry policies"
+description: "Configure exponential backoff, max attempts, and dead-letter handling."
+---
+
+Retries turn transient failures into success stories—when configured carefully. Backoff spreads load; max attempts bound damage; dead-letter queues preserve poison messages for inspection instead of infinite loops.
+
+## Backoff
+
+Exponential backoff reduces thundering herds. Add jitter to desynchronize clients so retries do not align on the same second.
+
+### Caps
+
+Put an upper bound on delay so a permanently broken endpoint does not stall workers for hours between attempts—pair backoff with a max attempts ceiling.
+
+## Max attempts
+
+Stop after N tries and surface to operators with context. Include the last error code, truncated body, and correlation ID so the first responder does not reproduce the whole incident from scratch.
+
+### Idempotency
+
+Retries assume idempotent handlers. If a step is not idempotent, disable blind retries or scope them to safe sub-operations.
+
+## Dead letters
+
+Send poison messages to a dead-letter queue for manual inspection. Monitor DLQ depth: a flat line at zero might mean alerts are misconfigured; a rising line means systemic failure.
+
+### Replay
+
+Document a safe replay procedure after fixing root cause—sometimes replay requires a new idempotency key or compensating cleanup first.

@@ -1,0 +1,37 @@
+---
+title: "Sign-in and security basics"
+sidebarTitle: "Sign-in & security"
+description: "Passwords, SSO, session length, and how we protect your workspace."
+---
+
+Good security balances friction for attackers without blocking legitimate work. Understand how people authenticate, how long sessions last, and what admins can require before high-risk actions.
+
+## Authentication options
+
+- Email and password with optional MFA
+- SAML SSO on eligible plans
+- IdP-initiated login where supported
+
+### MFA
+
+Require MFA for every member when your data classification demands it—not only admins. Attackers target contributors with broad file access too.
+
+### SSO cutover
+
+Plan a maintenance window when enabling SAML: communicate downtime, validate attribute mapping with a pilot group, and keep a break-glass local admin.
+
+## Sessions
+
+Sessions expire after a period of inactivity. Admins can require re-authentication for sensitive actions. Shorter sessions reduce risk on shared machines; longer sessions reduce nagging on trusted laptops.
+
+### Device hygiene
+
+Encourage disk encryption and screen locks on machines that hold session cookies. Remote wipe policies complement session timeouts for lost hardware.
+
+## Best practices
+
+Enforce MFA for all admins, use separate staging and production workspaces, and review connected OAuth apps quarterly.
+
+### OAuth review
+
+Remove tokens for tools you no longer use—old integrations keep API access until revoked. Pair reviews with offboarding checklists when people change roles.

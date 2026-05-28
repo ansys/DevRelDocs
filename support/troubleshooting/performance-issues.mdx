@@ -1,0 +1,31 @@
+---
+title: "Performance issues"
+sidebarTitle: "Performance"
+description: "Diagnose slowness, large pages, and network constraints."
+---
+
+Performance issues feel like “the app is slow” but usually break down into network, rendering, or data volume. Gather one slow trace with timestamps before escalating—patterns matter more than one-off complaints.
+
+## Browser
+
+Disable heavy extensions and test with hardware acceleration toggled.
+
+### Profiles
+
+Try a fresh browser profile with only default extensions. Ad blockers and password managers sometimes inject scripts that delay paint.
+
+## Content
+
+Huge embedded media slows load—lazy load or host externally when possible.
+
+### Tables and charts
+
+Large datasets should paginate or virtualize. If the editor feels fine but read mode lags, the DOM size is a likely culprit.
+
+## Network
+
+Corporate proxies sometimes buffer WebSockets—ask IT for allowlist guidance.
+
+### VPN
+
+Split tunnel vs full tunnel changes latency paths. Compare latency with VPN off (if policy allows) to isolate the network layer.

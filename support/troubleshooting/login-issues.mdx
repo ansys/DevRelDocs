@@ -1,0 +1,35 @@
+---
+title: "Login issues"
+sidebarTitle: "Login issues"
+description: "Resolve password resets, SSO failures, and session problems."
+---
+
+Login problems cluster around expired passwords, SSO misconfiguration, and browser state. Work through the sections below before opening a ticket—most resolutions take minutes.
+
+## Password reset
+
+Use the reset link once; repeated clicks invalidate older tokens.
+
+### Inbox rules
+
+If resets never arrive, check quarantine and forwarding rules. Some enterprises strip links from unknown senders.
+
+## SSO
+
+Confirm IdP certificates are valid and attribute mappings match service expectations.
+
+### SAML traces
+
+Capture a SAML trace from your IdP when failures persist—support can compare assertion attributes to what the product expects.
+
+### Clock skew
+
+Large skew between IdP and SP can break assertions—sync NTP on servers.
+
+## Sessions
+
+Clear site data for stale cookies and retry from a private window to isolate extensions.
+
+### Corporate proxies
+
+SSL inspection occasionally breaks OAuth flows—try off-network or a personal device to isolate the proxy as a variable.

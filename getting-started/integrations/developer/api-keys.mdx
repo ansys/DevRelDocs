@@ -1,0 +1,31 @@
+---
+title: "API keys"
+sidebarTitle: "API keys"
+description: "Create, rotate, and scope API keys for server-side automation."
+---
+
+API keys authenticate machine-to-machine calls. They are simpler than OAuth but easier to leak—never embed them in browsers or mobile apps.
+
+## Create keys
+
+Generate keys with descriptive labels and store them in a secrets manager—never in client-side code.
+
+### Scoping
+
+If your platform supports scoped keys, split read vs write access so a compromised read-only key cannot mutate data.
+
+## Rotation
+
+Rotate keys on a schedule or immediately after someone leaves the team with access.
+
+### Dual-key rotation
+
+Issue a new key, deploy everywhere, verify traffic, then revoke the old key—avoids hard cutovers at midnight.
+
+## Revocation
+
+Revoked keys stop working immediately. Update dependent services before revoking.
+
+### Runbooks
+
+Document which cron jobs and CI pipelines use which key so rotation does not miss a dusty integration.

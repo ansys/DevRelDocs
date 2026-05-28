@@ -1,0 +1,33 @@
+---
+title: "Rate limits"
+sidebarTitle: "Rate limits"
+description: "Understand automation rate limits and how to design around them."
+---
+
+Rate limits keep shared infrastructure healthy. Treat them as part of your design—not surprises—when you connect automation to external APIs or run fan-out jobs across many tenants.
+
+## Defaults
+
+Limits protect shared infrastructure. Burst allowances exist for short spikes, but sustained traffic above quota will throttle or fail requests—often with `429` responses you must handle.
+
+### Headers
+
+Many APIs return `Retry-After` or rate-limit headers. Log them during integration testing so your backoff code respects server hints instead of guessing.
+
+## Strategies
+
+- Batch work where possible—one request with twenty IDs beats twenty serial requests.
+- Queue externally when needed so spikes flatten into steady throughput.
+- Shed load with sampling under stress: process every Nth event until pressure drops.
+
+### Tenant fairness
+
+Multi-tenant systems sometimes enforce per-tenant caps. Coordinate with platform admins if one customer’s automation crowds others.
+
+## Monitoring
+
+Graph throttle events to spot hot workflows early. Alert when throttle rates exceed a baseline for more than a few minutes—often the first sign of an infinite loop or misconfigured poll interval.
+
+### Capacity planning
+
+Before launch week, rehearse peak traffic with load tests against staging. Compare observed QPS to your quotas and pad headroom for retries.

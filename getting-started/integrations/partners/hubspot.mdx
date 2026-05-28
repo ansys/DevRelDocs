@@ -1,0 +1,31 @@
+---
+title: "HubSpot connector"
+sidebarTitle: "HubSpot"
+description: "Connect HubSpot CRM for deals and company records."
+---
+
+HubSpot works well when marketing and sales already live there—your product becomes the execution layer while HubSpot remains the system of record for pipeline stages and company attributes.
+
+## OAuth
+
+Authorize HubSpot with a user who can grant CRM scopes. Use a service account if your policy requires it.
+
+### Scope review
+
+Confirm read vs write scopes against what your workflows actually need. Over-scoped tokens worry security reviewers.
+
+## Pipelines
+
+Align HubSpot deal stages with project states for cleaner reporting.
+
+### Definitions
+
+Maintain a shared glossary of stage names so dashboards match what revenue teams say on calls.
+
+## Limits
+
+Watch API rate limits during large backfills; throttle initial syncs accordingly.
+
+### Pagination
+
+Use cursor-based APIs where available—safer than offset paging on large datasets.

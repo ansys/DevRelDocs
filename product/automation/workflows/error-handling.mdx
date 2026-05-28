@@ -1,0 +1,39 @@
+---
+title: "Error handling"
+sidebarTitle: "Error handling"
+description: "Retries, compensating steps, and alerting when workflows fail."
+---
+
+Workflows fail in the real world: APIs time out, databases lock, humans go offline. Good error handling turns chaos into retries, compensations, and clear operator signals instead of silent data drift.
+
+## Failures
+
+Classify transient versus permanent failures. Transient steps should retry with jitter; permanent failures should stop fast and surface a crisp error code.
+
+### Observability
+
+Attach correlation IDs across steps so support can trace a single user action through every hop. Log HTTP status bodies at reduced verbosity to avoid leaking secrets.
+
+### Poison messages
+
+If the same payload fails repeatedly, stop retrying and quarantine it—otherwise you starve healthy traffic.
+
+## Compensation
+
+Undo partial effects when a downstream step fails—especially for payments or external posts. Compensation may mean voiding an invoice, deleting a draft record, or sending a corrective webhook.
+
+### Ordering
+
+Design compensations in reverse dependency order: undo the last successful side effect first.
+
+### Partial success
+
+When only one of two external systems succeeded, document the manual reconciliation path in the alert body.
+
+## Alerts
+
+Route failures to on-call channels with runbook links. Include workflow name, step name, and last payload hash—not full PII—in the first line of the alert.
+
+### Fatigue
+
+Throttle duplicate alerts for the same root cause. Pair alerts with dashboards so responders can see whether failures are trending or isolated.

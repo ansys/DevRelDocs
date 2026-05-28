@@ -1,0 +1,35 @@
+---
+title: "Conditions and branches"
+sidebarTitle: "Conditions & branches"
+description: "Model conditional paths and merge strategies in workflows."
+---
+
+Branches let workflows mirror real decisions: approvals vs auto-reject, regional routing, or parallel reviews that must all pass. Invest time in condition clarity—ambiguous logic becomes expensive to debug under load.
+
+## Conditions
+
+Express rules with comparisons on fields, regex, and presence checks. Prefer explicit comparisons over implicit truthiness so empty strings and nulls behave predictably.
+
+### Short-circuit behavior
+
+Know whether conditions evaluate lazily. If expensive checks run even when a prior clause already failed, you may hit rate limits unnecessarily.
+
+### Testing matrices
+
+Build a small table of inputs and expected branches before go-live. Include malformed payloads your API might emit during incidents.
+
+## Branches
+
+Run mutually exclusive branches or parallel branches that join later. Parallel paths reduce latency but require clear merge semantics when both sides finish out of order.
+
+### Dependencies
+
+If branch B needs artifacts from branch A, enforce ordering with explicit dependencies rather than hoping wall-clock timing works out.
+
+## Merge
+
+Define how conflicting branch outputs combine—first wins, merge maps, or custom reducers. Document the merge rule in the workflow description so the next editor does not “simplify” it incorrectly.
+
+### Conflicts
+
+When two branches set the same field, specify precedence. Last-write-wins is easy but surprising; structured merges are safer for financial totals.

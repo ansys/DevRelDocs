@@ -1,0 +1,31 @@
+---
+title: "Salesforce connector"
+sidebarTitle: "Salesforce"
+description: "Install, authenticate, and map Salesforce objects to the product."
+---
+
+The Salesforce connector reduces copy-paste between CRM and your workspace. Plan object mapping before you sync thousands of rows—rework is cheaper in a spreadsheet than in production data.
+
+## Prerequisites
+
+Admin access in Salesforce and an administrator to approve the connector.
+
+### Sandboxes
+
+Pilot against a full or partial sandbox before production. Validate picklist values, required fields, and validation rules that might block writes.
+
+## Field mapping
+
+Map accounts, contacts, and opportunities to entities. Resolve duplicates by external ID where possible.
+
+### Ownership
+
+Decide who owns records when Salesforce and the product disagree. Document the rule in your runbook so support can answer “why did this flip?”
+
+## Sync modes
+
+Choose one-way or two-way sync depending on which system owns each field.
+
+### Monitoring
+
+Alert on sync lag and error rates. Backfills can look healthy while a handful of poison records retry forever.

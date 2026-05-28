@@ -1,0 +1,33 @@
+---
+title: "Interface overview"
+sidebarTitle: "Interface"
+description: "Sidebar, command palette, and where to find settings."
+---
+
+The product shell is designed to keep navigation predictable: primary work happens in the center, global navigation stays on the left, and contextual actions stay close to what you selected. Spend a few minutes learning the three regions below—you will move between them constantly.
+
+## Layout
+
+- **Sidebar** — Projects, automation, and account entry points. Pin favorites if your client supports it so daily spaces stay one click away.
+- **Canvas** — The main surface for viewing and editing work. On smaller screens the sidebar may collapse; use the menu control to reopen it without losing context.
+- **Inspector** — Metadata and contextual actions for the current selection. Empty states usually mean “nothing selected yet” rather than missing permissions.
+
+### Focus and panels
+
+Some workflows open transient panels (comments, history, AI). Closing a panel returns focus to the canvas; keyboard users can tab through interactive regions in DOM order.
+
+## Command palette
+
+Open the palette to jump anywhere quickly. It respects your permissions—destinations you cannot access simply do not appear or show as disabled with a reason.
+
+### Search vs navigate
+
+Use the palette for fuzzy jumps when you know a name fragment. Use the global search entry when you need full-text results across bodies and attachments.
+
+## Settings
+
+Workspace settings live under your avatar; project settings are scoped per project. When in doubt, check the breadcrumb or page title so you do not change org-wide SSO while meaning to tweak a single project’s webhook.
+
+### Auditing changes
+
+Admins should review who last changed workspace defaults after reorganizations. Project-level changes are easier to isolate in activity logs when each team owns its space.

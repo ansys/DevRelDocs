@@ -1,0 +1,33 @@
+---
+title: "Custom connector template"
+sidebarTitle: "Custom template"
+description: "Fork the connector template to build a private integration faster."
+---
+
+The template encodes opinions: structured logging, retry policies, and test harnesses you would otherwise rebuild for every integration. Fork it, rename packages to match your org, and delete sample data before your first production credential touches it.
+
+## What you get
+
+- Authentication scaffolding
+- Webhook handlers
+- Example tests
+
+### Conventions
+
+Follow the included directory layout so future contributors know where to add mappers, clients, and fixtures.
+
+## Customize
+
+Replace sample mappings with your schema and add monitoring for sync failures.
+
+### Observability
+
+Emit metrics for lag, error categories, and record counts—dashboards beat grep when something breaks at 2 a.m.
+
+## Support
+
+Partner engineering can review architecture for Enterprise customers in real deployments; this demo text is illustrative.
+
+### Security review
+
+Schedule architecture review before handling regulated data—catch network paths and key storage issues early.

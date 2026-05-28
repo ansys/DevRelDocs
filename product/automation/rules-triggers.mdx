@@ -1,0 +1,35 @@
+---
+title: "Rules and triggers"
+sidebarTitle: "Rules & triggers"
+description: "Define when automation runs using events, filters, and guardrails."
+---
+
+Rules answer **when** something should run. Triggers are the signals—product events, webhooks, or schedules—that start evaluation. Filters and guardrails keep runs safe when traffic spikes or data is messy.
+
+## Events
+
+Pick source events such as item created, status changed, or webhook received. Prefer the narrowest event that still captures your intent so you do not wake automation on unrelated edits.
+
+### Ordering
+
+If multiple rules subscribe to the same event, understand whether execution is parallel or ordered. Side-effect-heavy rules may need explicit sequencing or a queue.
+
+### Payload shape
+
+Automation often receives a structured payload with IDs and timestamps. Log sample payloads in a sandbox when writing conditions so you do not guess field names.
+
+## Filters
+
+Narrow by project, label, or field values to avoid noisy runs. Combine predicates carefully: over-filtering misses legitimate cases; under-filtering spams logs and external systems.
+
+### Testing filters
+
+Use historical replay or dry-run tools when available. “It worked once” is not the same as “it works for every region code.”
+
+## Guardrails
+
+Set concurrency caps and failure alerts before automation touches production data. Caps protect downstream APIs; alerts help humans notice misconfigured filters before customers do.
+
+### Kill switches
+
+Document how to disable a rule quickly—feature flag, toggle, or removal—during incidents. Practice the rollback path once per quarter.

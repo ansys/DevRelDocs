@@ -1,0 +1,31 @@
+---
+title: "Webhooks"
+sidebarTitle: "Webhooks"
+description: "Subscribe to events, verify signatures, and retry safely."
+---
+
+Webhooks push events to your infrastructure so you can react without polling. Reliability hinges on verification, idempotency, and fast HTTP responses—treat the endpoint like a mini product.
+
+## Subscriptions
+
+Create a webhook endpoint and select event types. The platform sends a signing secret for HMAC verification.
+
+### Filtering
+
+Subscribe only to events you handle. Unused events still cost verification CPU and clutter logs.
+
+## Verification
+
+Always validate signatures before processing payloads. Reject stale timestamps when present.
+
+### Clock skew
+
+Allow a small clock skew window between signer and verifier, but bound it to limit replay windows.
+
+## Retries
+
+Failed deliveries retry with exponential backoff. Ensure your endpoint is idempotent.
+
+### Response codes
+
+Return **2xx** only after you have safely persisted or handed off work. Use **5xx** to signal transient failures worth retrying; **4xx** for permanent misconfiguration.

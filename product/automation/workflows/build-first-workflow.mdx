@@ -1,0 +1,34 @@
+---
+title: "Build your first workflow"
+sidebarTitle: "First workflow"
+description: "Step-by-step creation of a simple approval workflow."
+---
+
+This walkthrough builds confidence before you model complex branching. You will route new items to a human, time out if nobody responds, and notify a channel when the outcome is approved—patterns common to access requests, content launches, and finance approvals.
+
+## Goal
+
+Route new items to a reviewer and notify Slack on approval. Keep scope intentionally small: one project, one template, one external integration.
+
+### Success criteria
+
+Define what “done” means: reviewer assigned within five minutes, decision within one business day, and an audit log entry for compliance.
+
+## Steps
+
+1. Create a workflow from a template. Pick the closest match, then rename steps so stakeholders recognize language from your internal process doc.
+2. Add a human approval step with timeout. Escalate or cancel when time expires—avoid infinite waits.
+3. Connect Slack notification on success. Map channel names to environments (`#proj-approvals-staging` vs production).
+4. Test in a sandbox project. Seed fake items that mirror real field shapes, including edge cases like missing optional fields.
+
+### Data contracts
+
+Confirm the payload your steps receive matches what integrations expect. A missing `requesterId` in test data can hide a production-only failure.
+
+## Validation
+
+Run dry-run executions with sample payloads before enabling for all projects. Capture logs for the first ten production runs and compare timings to your SLA.
+
+### Rollout
+
+Enable for a pilot team, gather feedback on wording and timeouts, then expand. Feature-flag the workflow if your platform supports gradual exposure.

@@ -1,0 +1,37 @@
+---
+title: "Drafts and publishing"
+sidebarTitle: "Drafts & publishing"
+description: "Draft states, review cues, and what happens when you publish."
+---
+
+Drafts let you iterate without exposing work-in-progress to every reader. Publishing turns a snapshot into what visitors and integrations see. Use this guide to understand visibility rules, the publish action, and scheduled releases.
+
+## Drafts
+
+Drafts are visible to editors you invite. Unpublished changes never appear to read-only roles, which keeps reviews and experiments contained until you are ready.
+
+### Who can edit
+
+Editors with access to the project can create and update drafts. Viewers and external roles only see the last published version for pages that use publishing—there is no “preview link” leakage unless you explicitly enable one.
+
+### Autosave and conflicts
+
+Edits typically save as you work. If two people edit the same section, you may see a merge prompt or last-write-wins behavior depending on your client—coordinate on busy pages or assign an owner during launches.
+
+## Publish
+
+Publishing snapshots content for readers and triggers webhooks if configured. Think of publish as a labeled release: SEO, feeds, and automations usually key off the published revision, not every keystroke.
+
+### Before you publish
+
+Skim the title, metadata, and any embedded media. Run a quick link check on high-traffic pages. If you use approvals, wait for the green light from reviewers named in your process.
+
+### After you publish
+
+The prior published version remains in history, so you can roll forward again or restore if something looks off. Downstream systems that consume webhooks should treat duplicate delivery as idempotent where possible.
+
+## Scheduling
+
+Schedule publish for a future time when your team coordinates launches—useful for announcements, pricing pages, and docs that must go live after a contract or feature flag flips.
+
+Pick a timezone that matches how your team communicates (“end of day PT”) and confirm daylight-saving edge cases for global audiences. You can usually reschedule or cancel a queued publish until it actually runs.

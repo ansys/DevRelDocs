@@ -1,0 +1,31 @@
+---
+title: "OAuth apps"
+sidebarTitle: "OAuth apps"
+description: "Register an OAuth client, scopes, and redirect URLs for the API."
+---
+
+OAuth connects user-authorized clients to your APIs without sharing primary passwords. Treat client secrets like production credentials—rotate them and restrict who can create apps.
+
+## Register an app
+
+Create an application in **Developer settings** and note the client ID and secret.
+
+### Environments
+
+Maintain separate apps for staging and production so tokens never cross environments accidentally.
+
+## Scopes
+
+Request the smallest scope set that satisfies your feature. Review quarterly as APIs expand.
+
+### User consent
+
+Write user-facing copy that explains why each scope is needed—reviewers and security questionnaires ask.
+
+## Redirect URLs
+
+Use HTTPS endpoints and avoid wildcards in production. Register separate entries for staging and production.
+
+### PKCE
+
+Prefer PKCE for public clients to reduce interception risk on mobile and SPA flows.
