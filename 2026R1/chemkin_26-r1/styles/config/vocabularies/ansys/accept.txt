@@ -1,6 +1,0 @@
-Ansys
-ANSYS
-Chemkin
-substring
-substrings
-th
