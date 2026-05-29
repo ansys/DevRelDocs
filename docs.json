@@ -5,7 +5,7 @@
   "description": "Developer documentation for Ansys products — APIs, libraries, and guides.",
   "colors": {
     "primary": "#FFB71B",
-    "light": "#ff4d4d",
+    "light": "#FFB71B",
     "dark": "#cc0000"
   },
   "favicon": "/favicon.ico",
