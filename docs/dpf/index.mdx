@@ -1,0 +1,65 @@
+---
+title: Ansys Data Processing Framework (DPF) for developers
+description:
+mode: custom
+---
+
+<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
+  <div className="flex w-full flex-col gap-8 text-left">
+    <h1 className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      Ansys Data Processing Framework (DPF) for developers
+    </h1>
+    <div className="w-full space-y-4 text-base text-gray-600 dark:text-gray-400">
+      <p className="text-balance">
+        Ansys Data Processing Framework™(DPF) provides reusable operators that allow you to access and transform simulation data coming from different Ansys and third-party result files. These operators are computation libraries that can be extended with custom libraries.
+      </p>
+      <p>You have multiple options for interfacing with the DPF framework:</p>
+      <ul className="list-disc space-y-2 pl-6">
+        <li>Via APIs for building your client in C, C++, or Python (with open source libraries).</li>
+        <li>Via the dedicated IronPython/C# scripting interface provided by the Ansys Mechanical application.</li>
+      </ul>
+      <p className="text-balance">
+        The DPF framework allows you to extend its capabilities by exposing your product capabilities as native operators. You can use these custom operators within Mechanical or other Ansys applications that support the DPF framework. Plus, you can access these operators remotely via gRPC from Python/C#/C++ client APIs, without having to learn gRPC or any of these languages.
+      </p>
+      <p className="text-balance">
+        To use the DPF APIs, you need to install a DPF server on your machine. The Ansys Unified Installer includes major releases of the DPF server by default, requiring no extra selection. You can find beta releases on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
+      </p>
+    </div>
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      OS and supported languages
+    </h2>
+    <div className="w-full text-base text-gray-600 dark:text-gray-400">
+      <p>DPF libraries are available for Windows and Linux in:</p>
+      <ul className="mt-2 list-disc space-y-2 pl-6">
+        <li>C/C++</li>
+        <li>C#</li>
+        <li>IronPython</li>
+        <li>Python (open source)</li>
+      </ul>
+    </div>
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      Documentation
+    </h2>
+  </div>
+
+  <Columns cols={2}>
+    <Card
+      title="DPF Onboarding"
+      icon="layers"
+      iconType="light"
+      href="/docs/dpf/dpf-onboarding/versions/2026.R1.SP00"
+      cta="View docs"
+    >
+      Start here to learn how to use DPF and understand how to make the most of the resources available on this page. It will help you get up and running quickly.
+    </Card>
+    <Card
+      title="DPF Framework"
+      icon="globe"
+      iconType="light"
+      href="/docs/dpf/dpf-framework/versions/2027.R1.SP01"
+      cta="View docs"
+    >
+      Explore the DPF framework with detailed specifications for all operators in the official Ansys plugins. This guide supports API integration and advanced usage, and includes a changelog to track the latest updates.
+    </Card>
+  </Columns>
+</div>

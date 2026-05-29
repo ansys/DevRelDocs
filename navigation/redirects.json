@@ -1,1 +1,6 @@
-[]
+[
+  {
+    "source": "/docs/dpf/dpf-framework/versions/2027.R1.SP01/:slug*",
+    "destination": "/docs/dpf/dpf-framework/:slug*"
+  }
+]

@@ -1,0 +1,27 @@
+---
+title: "Mapping operators"
+---
+
+- [apply mechanical native mapping](/docs/dpf/dpf-framework/operator-specifications/mapping/apply_mechanical_native_mapping)
+- [create mech kriging workflow](/docs/dpf/dpf-framework/operator-specifications/mapping/create_mech_kriging_workflow)
+- [create mech point cloud workflow](/docs/dpf/dpf-framework/operator-specifications/mapping/create_mech_point_cloud_workflow)
+- [create mech shape func surf workflow](/docs/dpf/dpf-framework/operator-specifications/mapping/create_mech_shape_func_surf_workflow)
+- [create mech shape func vol workflow](/docs/dpf/dpf-framework/operator-specifications/mapping/create_mech_shape_func_vol_workflow)
+- [create sc mapping workflow](/docs/dpf/dpf-framework/operator-specifications/mapping/create_sc_mapping_workflow)
+- [fft](/docs/dpf/dpf-framework/operator-specifications/mapping/fft)
+- [find reduced coordinates](/docs/dpf/dpf-framework/operator-specifications/mapping/find_reduced_coordinates)
+- [on coordinates](/docs/dpf/dpf-framework/operator-specifications/mapping/on_coordinates)
+- [on reduced coordinates](/docs/dpf/dpf-framework/operator-specifications/mapping/on_reduced_coordinates)
+- [prepare mapping workflow](/docs/dpf/dpf-framework/operator-specifications/mapping/prepare_mapping_workflow)
+- [prepare mechanical native mapping](/docs/dpf/dpf-framework/operator-specifications/mapping/prepare_mechanical_native_mapping)
+- [prepare mechanical native mapping kriging](/docs/dpf/dpf-framework/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging)
+- [prepare mechanical native mapping point cloud](/docs/dpf/dpf-framework/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud)
+- [prepare mechanical native mapping shape functions for surfaces](/docs/dpf/dpf-framework/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces)
+- [prepare mechanical native mapping shape functions for volume](/docs/dpf/dpf-framework/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume)
+- [prep sampling fft](/docs/dpf/dpf-framework/operator-specifications/mapping/prep_sampling_fft)
+- [scoping on coordinates](/docs/dpf/dpf-framework/operator-specifications/mapping/scoping_on_coordinates)
+- [sc mapping](/docs/dpf/dpf-framework/operator-specifications/mapping/sc_mapping)
+- [solid to skin](/docs/dpf/dpf-framework/operator-specifications/mapping/solid_to_skin)
+- [solid to skin fc](/docs/dpf/dpf-framework/operator-specifications/mapping/solid_to_skin_fc)
+- [sysc point cloud wf](/docs/dpf/dpf-framework/operator-specifications/mapping/sysc_point_cloud_wf)
+- [sysc shape function wf](/docs/dpf/dpf-framework/operator-specifications/mapping/sysc_shape_function_wf)

@@ -1,0 +1,28 @@
+---
+title: "Serialization operators"
+---
+
+- [csv to field](/docs/dpf/dpf-framework/operator-specifications/serialization/csv_to_field)
+- [data tree to json](/docs/dpf/dpf-framework/operator-specifications/serialization/data_tree_to_json)
+- [data tree to txt](/docs/dpf/dpf-framework/operator-specifications/serialization/data_tree_to_txt)
+- [deserializer](/docs/dpf/dpf-framework/operator-specifications/serialization/deserializer)
+- [export mesh with prime](/docs/dpf/dpf-framework/operator-specifications/serialization/export_mesh_with_prime)
+- [export symbolic workflow](/docs/dpf/dpf-framework/operator-specifications/serialization/export_symbolic_workflow)
+- [field to csv](/docs/dpf/dpf-framework/operator-specifications/serialization/field_to_csv)
+- [hdf5dpf custom read](/docs/dpf/dpf-framework/operator-specifications/serialization/hdf5dpf_custom_read)
+- [hdf5dpf generate result file](/docs/dpf/dpf-framework/operator-specifications/serialization/hdf5dpf_generate_result_file)
+- [import symbolic workflow](/docs/dpf/dpf-framework/operator-specifications/serialization/import_symbolic_workflow)
+- [json to data tree](/docs/dpf/dpf-framework/operator-specifications/serialization/json_to_data_tree)
+- [mechanical csv to field](/docs/dpf/dpf-framework/operator-specifications/serialization/mechanical_csv_to_field)
+- [migrate file to vtk](/docs/dpf/dpf-framework/operator-specifications/serialization/migrate_file_to_vtk)
+- [migrate to vtu](/docs/dpf/dpf-framework/operator-specifications/serialization/migrate_to_vtu)
+- [serializer](/docs/dpf/dpf-framework/operator-specifications/serialization/serializer)
+- [serializer to string](/docs/dpf/dpf-framework/operator-specifications/serialization/serializer_to_string)
+- [serialize to hdf5](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5)
+- [string deserializer](/docs/dpf/dpf-framework/operator-specifications/serialization/string_deserializer)
+- [txt to data tree](/docs/dpf/dpf-framework/operator-specifications/serialization/txt_to_data_tree)
+- [vtk export](/docs/dpf/dpf-framework/operator-specifications/serialization/vtk_export)
+- [vtk to fields](/docs/dpf/dpf-framework/operator-specifications/serialization/vtk_to_fields)
+- [vtu export](/docs/dpf/dpf-framework/operator-specifications/serialization/vtu_export)
+- [workflow to pydpf](/docs/dpf/dpf-framework/operator-specifications/serialization/workflow_to_pydpf)
+- [workflow to workflow topology](/docs/dpf/dpf-framework/operator-specifications/serialization/workflow_to_workflow_topology)

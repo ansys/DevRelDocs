@@ -31,14 +31,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Production portal",
-        "href": "https://developer.ansys.com"
+        "label": "Forum",
+        "href": "https://discuss.ansys.com/"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Explore docs",
-      "href": "/docs/dpf/dpf-framework/versions/2027.R1.SP01"
+      "label": "Documentation",
+      "href": "/docs/index"
     }
   }
 }

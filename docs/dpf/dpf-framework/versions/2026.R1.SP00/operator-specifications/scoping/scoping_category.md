@@ -1,0 +1,24 @@
+---
+title: "Scoping operators"
+---
+
+- [adapt with scopings container](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/adapt_with_scopings_container)
+- [change fc](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/change_fc)
+- [compute element centroids](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/compute_element_centroids)
+- [connectivity ids](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/connectivity_ids)
+- [elemental from mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/elemental_from_mesh)
+- [extend midside nodal scoping](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/extend_midside_nodal_scoping)
+- [from mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/from_mesh)
+- [intersect](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/intersect)
+- [nodal from mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/nodal_from_mesh)
+- [on mesh property](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/on_mesh_property)
+- [on named selection](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/on_named_selection)
+- [on property](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/on_property)
+- [reduce sampling](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/reduce_sampling)
+- [rescope](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/rescope)
+- [rescope custom type field](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/rescope_custom_type_field)
+- [rescope fc](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/rescope_fc)
+- [rescope property field](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/rescope_property_field)
+- [scoping get attribute](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/scoping_get_attribute)
+- [split on property type](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/split_on_property_type)
+- [transpose](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/scoping/transpose)

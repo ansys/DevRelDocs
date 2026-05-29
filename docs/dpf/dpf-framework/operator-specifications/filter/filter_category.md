@@ -1,0 +1,26 @@
+---
+title: "Filter operators"
+---
+
+- [abc weightings](/docs/dpf/dpf-framework/operator-specifications/filter/abc_weightings)
+- [field band pass](/docs/dpf/dpf-framework/operator-specifications/filter/field_band_pass)
+- [field band pass fc](/docs/dpf/dpf-framework/operator-specifications/filter/field_band_pass_fc)
+- [field high pass](/docs/dpf/dpf-framework/operator-specifications/filter/field_high_pass)
+- [field high pass fc](/docs/dpf/dpf-framework/operator-specifications/filter/field_high_pass_fc)
+- [field low pass](/docs/dpf/dpf-framework/operator-specifications/filter/field_low_pass)
+- [field low pass fc](/docs/dpf/dpf-framework/operator-specifications/filter/field_low_pass_fc)
+- [field signed high pass](/docs/dpf/dpf-framework/operator-specifications/filter/field_signed_high_pass)
+- [field signed high pass fc](/docs/dpf/dpf-framework/operator-specifications/filter/field_signed_high_pass_fc)
+- [filtering max over time](/docs/dpf/dpf-framework/operator-specifications/filter/filtering_max_over_time)
+- [scoping band pass](/docs/dpf/dpf-framework/operator-specifications/filter/scoping_band_pass)
+- [scoping high pass](/docs/dpf/dpf-framework/operator-specifications/filter/scoping_high_pass)
+- [scoping low pass](/docs/dpf/dpf-framework/operator-specifications/filter/scoping_low_pass)
+- [scoping signed high pass](/docs/dpf/dpf-framework/operator-specifications/filter/scoping_signed_high_pass)
+- [timefreq band pass](/docs/dpf/dpf-framework/operator-specifications/filter/timefreq_band_pass)
+- [timefreq high pass](/docs/dpf/dpf-framework/operator-specifications/filter/timefreq_high_pass)
+- [timefreq low pass](/docs/dpf/dpf-framework/operator-specifications/filter/timefreq_low_pass)
+- [timefreq signed high pass](/docs/dpf/dpf-framework/operator-specifications/filter/timefreq_signed_high_pass)
+- [timescoping band pass](/docs/dpf/dpf-framework/operator-specifications/filter/timescoping_band_pass)
+- [timescoping high pass](/docs/dpf/dpf-framework/operator-specifications/filter/timescoping_high_pass)
+- [timescoping low pass](/docs/dpf/dpf-framework/operator-specifications/filter/timescoping_low_pass)
+- [timescoping signed high pass](/docs/dpf/dpf-framework/operator-specifications/filter/timescoping_signed_high_pass)

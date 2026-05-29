@@ -1,0 +1,23 @@
+---
+title: "Metadata operators"
+---
+
+- [boundary condition provider](/docs/dpf/dpf-framework/operator-specifications/metadata/boundary_condition_provider)
+- [coordinate system data provider](/docs/dpf/dpf-framework/operator-specifications/metadata/coordinate_system_data_provider)
+- [cyclic mesh expansion](/docs/dpf/dpf-framework/operator-specifications/metadata/cyclic_mesh_expansion)
+- [cyclic support provider](/docs/dpf/dpf-framework/operator-specifications/metadata/cyclic_support_provider)
+- [datasources provider](/docs/dpf/dpf-framework/operator-specifications/metadata/datasources_provider)
+- [element types provider](/docs/dpf/dpf-framework/operator-specifications/metadata/element_types_provider)
+- [integrate over time freq](/docs/dpf/dpf-framework/operator-specifications/metadata/integrate_over_time_freq)
+- [is cyclic](/docs/dpf/dpf-framework/operator-specifications/metadata/is_cyclic)
+- [material support provider](/docs/dpf/dpf-framework/operator-specifications/metadata/material_support_provider)
+- [mesh info provider](/docs/dpf/dpf-framework/operator-specifications/metadata/mesh_info_provider)
+- [mesh property provider](/docs/dpf/dpf-framework/operator-specifications/metadata/mesh_property_provider)
+- [mesh selection manager provider](/docs/dpf/dpf-framework/operator-specifications/metadata/mesh_selection_manager_provider)
+- [mesh support provider](/docs/dpf/dpf-framework/operator-specifications/metadata/mesh_support_provider)
+- [property field provider by name](/docs/dpf/dpf-framework/operator-specifications/metadata/property_field_provider_by_name)
+- [real constants provider](/docs/dpf/dpf-framework/operator-specifications/metadata/real_constants_provider)
+- [result info provider](/docs/dpf/dpf-framework/operator-specifications/metadata/result_info_provider)
+- [streams provider](/docs/dpf/dpf-framework/operator-specifications/metadata/streams_provider)
+- [time freq provider](/docs/dpf/dpf-framework/operator-specifications/metadata/time_freq_provider)
+- [time freq support get attribute](/docs/dpf/dpf-framework/operator-specifications/metadata/time_freq_support_get_attribute)

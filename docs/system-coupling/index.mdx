@@ -1,0 +1,51 @@
+---
+title: Ansys System Coupling for developers
+description:
+mode: custom
+---
+
+<div className="mx-auto flex w-full max-w-5xl flex-col gap-14 px-4 py-12 lg:py-16">
+  <div className="flex w-full flex-col gap-8 text-left">
+    <h1 className="text-4xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      System Coupling for developers
+    </h1>
+    <div className="w-full space-y-4 text-base text-gray-600 dark:text-gray-400">
+      <p className="text-balance">
+        Ansys System Coupling™ physics solver connection software solves multiphysics problems by connecting multiple coupling participants (physics solvers) together to perform the coupled analysis. For more information, see Ansys System Coupling.
+      </p>
+      <p className="text-balance">
+        The implementation of a System Coupling participant library within a given application enables that application to become a coupling participant. A coupling participant can be connected to any other coupling participant to exchange the solution data with that participant within the context of a coupled analysis.
+      </p>
+      <p className="text-balance">
+        Furthermore, the coupling participant can use the same library to transfer the data across non-conformal mesh interfaces in-memory, without connecting to other coupling participants.
+      </p>
+    </div>
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      OS and supported languages
+    </h2>
+    <div className="w-full text-base text-gray-600 dark:text-gray-400">
+      <p>System Coupling participant libraries are available for Windows and Linux in:</p>
+      <ul className="mt-2 list-disc space-y-2 pl-6">
+        <li>C (from V89)</li>
+        <li>C++ (from V11)</li>
+        <li>Python (from 3.10)</li>
+        <li>Fortran (from v2003)</li>
+      </ul>
+    </div>
+    <h2 className="text-2xl font-semibold tracking-tight text-gray-900 dark:text-gray-50">
+      Documentation
+    </h2>
+  </div>
+
+  <Columns cols={2}>
+    <Card
+      title="System Coupling participant library"
+      icon="layers"
+      iconType="light"
+      href="/docs/system-coupling/system-coupling-api/versions/2026.R1.SP00/index"
+      cta="View docs"
+    >
+      Build your interface to connect to the System Coupling solver and perform the transfer of solution data between non-conformal meshes.
+    </Card>
+  </Columns>
+</div>
