@@ -3,7 +3,7 @@ category: metadata
 plugin: core
 license: None
 namespaces:
-  mapdl: [rst, rstp, rth]
+  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
 ---
 
 # metadata:element types provider
@@ -27,7 +27,7 @@ Reads element types data from the result files contained in the streams or data 
 
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
-- mapdl: rst, rstp, rth 
+- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rstp, rth 
 
 ## Inputs
 

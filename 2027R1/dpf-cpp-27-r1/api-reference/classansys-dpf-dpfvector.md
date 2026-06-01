@@ -147,8 +147,8 @@ Copyless constructor: the new vector is created with a reference on the same dat
 
 **Parameters**:
 
-* iterator const & **begin**
-* iterator const & **end**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **begin**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **end**
 
 **Return type**: 
 
@@ -561,7 +561,7 @@ iterator ansys::dpf::DpfVector< T >::begin() const
 
 
 
-**Return type**: iterator
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
 
 <!--
 **TODO**:
@@ -587,7 +587,7 @@ iterator ansys::dpf::DpfVector< T >::end() const
 
 
 
-**Return type**: iterator
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
 
 <!--
 **TODO**:
@@ -614,8 +614,8 @@ Copyless: the new data is created with a reference on the same data as begin and
 
 **Parameters**:
 
-* iterator const & **begin**
-* iterator const & **end**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **begin**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **end**
 
 **Return type**: void
 

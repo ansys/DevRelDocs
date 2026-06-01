@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-27).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-01).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,13 +9,14 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
+| ael | [1 item](#Features_ael) | |
 | averaging |  |[1 item](#Fixes_averaging) |
 | build |  |[1 item](#Fixes_build) |
 | c# |  |[1 item](#Fixes_c#) |
 | cff | [2 items](#Features_cff) |[5 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
+| ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [4 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
@@ -26,31 +27,31 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [3 items](#Features_femutils) |[16 items](#Fixes_femutils) |
+| femutils | [4 items](#Features_femutils) |[17 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [3 items](#Features_framework) |[9 items](#Fixes_framework) |
+| framework | [3 items](#Features_framework) |[11 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [1 item](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [9 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[6 items](#Fixes_hgp) |
+| hdf5 | [10 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hgp | [7 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [24 items](#Features_mapdl) |[53 items](#Fixes_mapdl) |
+| mapdl | [24 items](#Features_mapdl) |[55 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [12 items](#Features_math) |[1 item](#Fixes_math) |
+| math | [14 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[4 items](#Fixes_mesh) |
-| misc | [15 items](#Features_misc) |[22 items](#Fixes_misc) |
+| misc | [16 items](#Features_misc) |[22 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [10 items](#Features_native) |[24 items](#Fixes_native) |
+| native | [12 items](#Features_native) |[25 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -58,7 +59,7 @@ The following table shows which components have updates in each category.
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk | [3 items](#Features_vtk) |[2 items](#Fixes_vtk) |
+| vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[3 items](#Fixes_workflows) |
 
 
@@ -72,6 +73,16 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## ael
+### <a id="Features_ael"></a> Features
+
+- Load new Ansys Element Library plugin by default:
+  > Load new Ansys Element Library plugin by default
+  >
+  > 
+  >
+  > 
+
 ## averaging
 
 ### <a id="Fixes_averaging"></a> Fixes
@@ -183,10 +194,20 @@ The following table shows which components have updates in each category.
 ## ci
 ### <a id="Features_ci"></a> Features
 
+- Migration of artifactory and service accounts to Synopsys:
+  > 
+  >
+  > 
+
 - Add SCA scan for DPF:
   > 
   >
   > Monthly scan of DPF repo for Software Composition Analysis which scan identifies and manages open-source software components using mend tool.
+  >
+  > 
+
+- Migration of artifactory and service accounts to Synopsys:
+  > 
   >
   > 
 
@@ -457,6 +478,11 @@ The following table shows which components have updates in each category.
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
+- Add vector principle stress operator:
+  > 
+  >
+  > 
+
 - Use ScopingIterators and eliminate GetIds calls in Ans.Dpf.FEMUtils:
   > 
 
@@ -471,6 +497,35 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Fix solid_to_skin:
+  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
+  >
+  > 
+  >
+  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
+  >
+  > 
+  >
+  > **What changed**:
+  >
+  > 
+  >
+  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
+  >
+  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
+  >
+  > 
+  >
+  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
+  >
+  > 
+  >
+  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
+  >
+  > 
+  >
+  > 
 
 - Improve performance of Cyclic expansion of meshes and results:
   > 
@@ -624,6 +679,44 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fix solid_to_skin:
+  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
+  >
+  > 
+  >
+  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
+  >
+  > 
+  >
+  > **What changed**:
+  >
+  > 
+  >
+  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
+  >
+  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
+  >
+  > 
+  >
+  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
+  >
+  > 
+  >
+  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
+  >
+  > 
+  >
+  > 
+
+- Fix line ending issue in ASCII text serializer:
+  > 
+  >
+  > The ASCII text files serialized with DPF (for example, with the `serializer` operator with `stream_type=0`) had cross-OS interoperability problem depending on their line endings. This is now fixed for files serialized with DPF versions >= `2027.1.pre0`.
+  >
+  > 
+  >
+  > 
 
 - Refactor handling of named selections in CMeshedRegion:
   > 
@@ -800,6 +893,9 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Hdf5:
+  > 
+
 - Support replacing existing fields in a fields container:
   > Added support for replacing existing fields within a fields container when writing to H5DPF files. Users can now update field data in-place without having to rewrite the entire dataset, enabling more efficient workflows when modifying previously saved results.
   >
@@ -885,6 +981,20 @@ The following table shows which components have updates in each category.
   > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
+
+- Adding API operators to expose tryGetDataFromCache:
+  > Exposing `Streams` APIs `splitStreams`, `getStreamByFileType` and `tryGetDataFromCache` in `Hgp` to wrap functionalities.
+  >
+  > 
+
+- Make the HgP DpfVector iterators random-access:
+  > 
+  >
+  > Transform the  `DpfVector` iterators in the HgP to be random-access.
+  >
+  > 
+  >
+  > 
 
 - Improving readability of the .natvis file for hgp:
   > Improving readability of the .natvis file.
@@ -1336,6 +1446,20 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Add missing input pins to EUL_NOD and coords_and_euler_nodes operator specs:
+  > 
+  >
+  > Fixed incomplete operator specifications for the `mapdl::rst::EUL_NOD` (node orientations) and `mapdl::rst::coords_and_euler_nodes` (euler nodes) operators. Both operators were missing several input pins from their specification, including `time_scoping`, `mesh_scoping`, `fields_container`, and `read_cyclic`. As a result, the operator graph visualization (`to_graphviz()`) did not show the mesh scoping pin for these operators. The mesh pin type constraint was also extended to accept `MeshesContainer` in addition to `MeshedRegion`.
+  >
+  > 
+  >
+  > 
+
+- Fix bug 1458972 Descriptor for plane183:
+  > 
+  >
+  > 
+
 - Remove redundant mapdl. prefix from operator scripting names:
   > 
   >
@@ -1737,6 +1861,18 @@ The following table shows which components have updates in each category.
 ## math
 ### <a id="Features_math"></a> Features
 
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Math:
+  > 
+  >
+  > 
+
+- Perform modal_solve expansion using expansion::modal_superposition:
+  > - Allow input Custom Type Fields Containers on expansion::mode_superposition
+  >
+  > 
+  >
+  > 
+
 - Create TPA objects to streamline TPA workflow:
   > 
 
@@ -1810,6 +1946,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_math"></a> Fixes
+
+- Fix issue with specification in expansion operator:
+  > - Fix operator specification issue introduced in a previous PR
+  >
+  > 
+  >
+  > 
 
 - FFT Multiharmonic performance enhancements:
   > FFT Multiharmonic performance enhancements
@@ -1908,6 +2051,15 @@ The following table shows which components have updates in each category.
   > 
 ## misc
 ### <a id="Features_misc"></a> Features
+
+- Set DPF versioning to ansys calendar like versioning:
+  > 
+  >
+  > Set DPF versioning to Ansys calendar like versioning and add full version endpoints.
+  >
+  > 
+  >
+  > 
 
 - Add operator Changelog support to C#:
   > Support operator changelogs in the C# client API. Add the Changelog class.
@@ -2328,6 +2480,20 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Enable incremental::composite::MeshProvider by default:
+  > Increased memory efficiency of mesh reading by improving the merging methodology.
+  >
+  > 
+
+- Add the workflow_string input pin in the import_symbolic_workflow operator:
+  > 
+  >
+  > Add the new `workflow_string` input pin in the `import_symbolic_workflow` operator.
+  >
+  > 
+  >
+  > 
+
 - XML-escape special characters in C# operator doc generation:
   > 
   >
@@ -2411,6 +2577,35 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix solid_to_skin:
+  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
+  >
+  > 
+  >
+  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
+  >
+  > 
+  >
+  > **What changed**:
+  >
+  > 
+  >
+  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
+  >
+  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
+  >
+  > 
+  >
+  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
+  >
+  > 
+  >
+  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
+  >
+  > 
+  >
+  > 
 
 - Fix labels issue in adapt_with_scopings_container:
   > 
@@ -2725,6 +2920,25 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_vtk"></a> Fixes
+
+- Vtu_export output DataSources has null result paths:
+  > 
+  >
+  > The `vtu_export` operator now correctly populates the output `DataSources` with
+  >
+  > the paths of the exported VTU files when exporting a multi-timestep result.
+  >
+  > Previously, the result paths were stored in a domain-specific secondary slot
+  >
+  > (intended for distributed solver files) rather than as plain result files,
+  >
+  > causing the output `DataSources.result_files` to return null entries for every
+  >
+  > time step.
+  >
+  > 
+  >
+  > 
 
 - Fix beam3/beam4 mesh conversion support:
   > DPF Mesh regions containing beam3/beam4 elements can be handled properly using the mesh_to_pyvista operator (even with 'as_linear' turned off).
@@ -3990,6 +4204,11 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
+- [fft](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/fft.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
 - [find_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/find_reduced_coordinates.md)
 
   > 0.1.0: Fix bug with interpolation points at corner nodes.
@@ -4232,6 +4451,18 @@ Upgraded documentation
 - [fft_approx](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/fft_approx.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.0.2: Internal refactoring to use Scoping Iterators.
+
+
+- [fft_eval](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/fft_eval.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [fft_gradient_eval](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/fft_gradient_eval.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [generalized_inner_product](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product.md)

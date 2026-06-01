@@ -164,6 +164,13 @@ Each output is detailed in the sections that follow the table.
 This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
 
+### [allow_ansys_element_library_computation](../../core-concepts/operator-configurations.md#allow_ansys_element_library_computation)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+BETA: User authorizes DPF to compute elemental results through the Ansys Element Library.Material and geometric nonlinearities are not allowed. Only linear analysis are supported.0: Not Authorized (default), 1: Only if result is not present, 2: Always use AEL.
+
 ### [mutex](../../core-concepts/operator-configurations.md#mutex)
 
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)

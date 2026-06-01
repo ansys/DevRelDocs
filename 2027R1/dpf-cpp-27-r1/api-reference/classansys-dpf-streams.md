@@ -25,6 +25,7 @@ Defines an open, ready-to-use, data sources.
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getExternalStream](classansys-dpf-streams.md#classansys-dpf-streams-1a1e1392a7f458c6a150f8cca4b02eb73f)
 * [getExternalStream](classansys-dpf-streams.md#classansys-dpf-streams-1ab140ed7556c377c5332578fbb5a28a21)
+* [getStreamByFileType](classansys-dpf-streams.md#classansys-dpf-streams-1a4476af5485d19220b9ed49642c81b5ff)
 * [hasBeenMovedLocally](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a1a5634202c15404b6b24e8f50e51cb66)
 * [hasInternalObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ae198f89868d85c7db6dc1a934a1d3c15)
 * [isOnCommonAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9f9789ff61cc9d400a2a344830706b73)
@@ -32,10 +33,12 @@ Defines an open, ready-to-use, data sources.
 * [operator=](classansys-dpf-streams.md#classansys-dpf-streams-1a6f88f1efa7e63cf70d4998621697d182)
 * [operator=](classansys-dpf-streams.md#classansys-dpf-streams-1ac8a81b6a8f8ffbf11c3d86cbe54f6c78)
 * [releaseFiles](classansys-dpf-streams.md#classansys-dpf-streams-1a959c1869453d29b05a9fe3ce191404fb)
+* [splitStreams](classansys-dpf-streams.md#classansys-dpf-streams-1a547d03c0ffbcd5465ffb09418fdbde89)
 * [Streams](classansys-dpf-streams.md#classansys-dpf-streams-1a8260b408904e6e11e24e2cf1ca3f7bd2)
 * [Streams](classansys-dpf-streams.md#classansys-dpf-streams-1a2d3487cb883138358d6e0cc76bb71974)
 * [Streams](classansys-dpf-streams.md#classansys-dpf-streams-1a4e584cc75bc6d32cd768005451643ef9)
 * [Streams](classansys-dpf-streams.md#classansys-dpf-streams-1a24c07bb8c759f0a8b2cacd44af9ac929)
+* [tryGetDataFromCache](classansys-dpf-streams.md#classansys-dpf-streams-1ad6233f69d2c2ee94226928c9bc06401a)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 * [~Streams](classansys-dpf-streams.md#classansys-dpf-streams-1a3be81fb59adfb4050c563ade28ea99c5)
 
@@ -414,6 +417,103 @@ DataSources ansys::dpf::Streams::dataSources() const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::dataSources"}]}`
+-->
+
+<a id="classansys-dpf-streams-1a547d03c0ffbcd5465ffb09418fdbde89"></a>
+### Function splitStreams
+
+![][public]
+![][const]
+
+
+```cpp
+std::vector< Streams > ansys::dpf::Streams::splitStreams() const
+```
+
+
+
+
+Split the [Streams](classansys-dpf-streams.md#classansys-dpf-streams) into multiple single-domain [Streams](classansys-dpf-streams.md#classansys-dpf-streams) containers. 
+**Returns**:
+
+Vector of [Streams](classansys-dpf-streams.md#classansys-dpf-streams), one per domain.
+
+
+
+**Return type**: std::vector< [Streams](classansys-dpf-streams.md#classansys-dpf-streams) >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::splitStreams"}]}`
+-->
+
+<a id="classansys-dpf-streams-1a4476af5485d19220b9ed49642c81b5ff"></a>
+### Function getStreamByFileType
+
+![][public]
+![][const]
+
+
+```cpp
+Streams ansys::dpf::Streams::getStreamByFileType(std::string const &file_type) const
+```
+
+
+
+
+Get a single-stream [Streams](classansys-dpf-streams.md#classansys-dpf-streams) object for the stream identified by the given file type. 
+**Returns**:
+
+[Streams](classansys-dpf-streams.md#classansys-dpf-streams) containing only the stream matching the given file type extension (e.g. "rst", "h5dpf").
+
+
+
+**Parameters**:
+
+* std::string const & **file_type**: [in] File type extension identifying the stream.
+
+**Return type**: [Streams](classansys-dpf-streams.md#classansys-dpf-streams)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::getStreamByFileType"}]}`
+-->
+
+<a id="classansys-dpf-streams-1ad6233f69d2c2ee94226928c9bc06401a"></a>
+### Function tryGetDataFromCache
+
+![][public]
+![][const]
+
+
+```cpp
+bool ansys::dpf::Streams::tryGetDataFromCache(std::string const &identifier, DataT &to_fill) const
+```
+
+
+
+
+Try to get data from a stream's cache. 
+**Returns**:
+
+true if data was found in cache, false otherwise.
+
+
+
+**Parameters**:
+
+* std::string const & **identifier**: [in] Cache key identifier.
+* DataT & **to_fill**: [out] Data retrieved from cache.
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Streams::tryGetDataFromCache"}]}`
 -->
 
 ## Public static functions

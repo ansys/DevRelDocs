@@ -5,30 +5,36 @@
 ![][C++]
 ![][public]
 
+Random access iterator over contiguous data.
 
-
-
+Thin pointer-based iterator providing STL-compatible random access iteration. Not thread safe: the caller must ensure only one thread owns the iterator at a time.
 
 ## Members
 
 * [difference_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1af9b1bcb76a762d48fcb08813c9bee821)
+* [getIndex](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1aa5a8937cf9b30b4e877cd89d4f04be7b)
 * [index_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a63ba4846aa8efc7342860bb6abd95c30)
 * [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a9cdfc43fb8670b7e8cc6a8e6c228b2b4)
 * [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a8fbdb64d3b3ba3ec725836bbffcfcf7f)
-* [iterator_category](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a8220bff9c1cc4042834cf0daab43f4c4)
-* [operator!=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a55a8ee0e80dad1a7da9d751c25bc0386)
+* [iterator_category](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a7c9fe16ee2d2d48b06230c761faf988c)
+* [operator!=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a9e6d7c0a46594f7de14641bde2a463ec)
 * [operator*](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a4072330935b9093a9afe71942405bd5a)
-* [operator+](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1ae96e2141a46966d92da5681f7b5631a4)
+* [operator+](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a5f9a013ba7965568a3bc08b74b83afd4)
 * [operator++](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1aa1dbb813028cb88a9776380665dd3127)
 * [operator++](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1ac9c83b44e5e0151f98b0327d2a118693)
 * [operator+=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a17c6908ed521824189ab4a42e2c4ae10)
-* [operator-](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1ad60c721b2bc0d7190139a68446fd36c2)
-* [operator-](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a4304f5d7bb1d12de2d2ad2c1e4e64dab)
+* [operator-](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a688e3a75740d1d570375302da8ec9986)
+* [operator-](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a95fe6dc9b62befdad7b08f8f1cf39c97)
 * [operator--](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1ad7b223cde9177e8e916e3d324a06fb25)
 * [operator--](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a4b435edd4925714455646289d0b410a0)
 * [operator-=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1ac7e455de4fc429351e37acfd4ae66466)
-* [operator-\>](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1afcf35619e07670be8dd682a6bfeddf5a)
-* [operator==](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a81d10d7799462c7ca5e7cf19119ca356)
+* [operator-\>](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a1fbc3f9e8839274a32815af292656b1d)
+* [operator\<](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a66243813b8518cc8954bc9665088681e)
+* [operator\<=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a412315e6b4da3e13d16a1f2e48e08b36)
+* [operator==](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a703b889c39b5ac2d8299043962e32d92)
+* [operator\>](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1afa7690572cd37e4f6b233e8b31ada56b)
+* [operator\>=](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a160dfc0d8fbcf94f03bfb46fa1178912)
+* [operator[]](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1abcf84a76879913b8c6e52d80490a59bb)
 * [pointer](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1af1579be2ea26b6235a615f935c8f1359)
 * [reference](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a5942362976b46101d148b0e3df64e13c)
 * [value_type](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator-1a958e79ca78fe418883ae448359f44812)
@@ -160,14 +166,14 @@ using ansys::dpf::DpfVector< T >::iterator::value_type =  T
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::value_type"}]}`
 -->
 
-<a id="structansys-dpf-dpfvector-iterator-1a8220bff9c1cc4042834cf0daab43f4c4"></a>
+<a id="structansys-dpf-dpfvector-iterator-1a7c9fe16ee2d2d48b06230c761faf988c"></a>
 ### Typedef iterator_category
 
 ![][public]
 
 
 ```cpp
-using ansys::dpf::DpfVector< T >::iterator::iterator_category =  std::bidirectional_iterator_tag
+using ansys::dpf::DpfVector< T >::iterator::iterator_category =  std::random_access_iterator_tag
 ```
 
 
@@ -177,7 +183,7 @@ using ansys::dpf::DpfVector< T >::iterator::iterator_category =  std::bidirectio
 
 
 
-**Return type**: std::bidirectional_iterator_tag
+**Return type**: std::random_access_iterator_tag
 
 <!--
 **TODO**:
@@ -207,121 +213,6 @@ using ansys::dpf::DpfVector< T >::iterator::iterator_category =  std::bidirectio
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::DpfVector"}]}`
 * `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1DpfVector"},"children":[{"type":"text","text":"DpfVector"}]}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="structansys-dpf-dpfvector-iterator-1a81d10d7799462c7ca5e7cf19119ca356"></a>
-### Friend operator==
-
-![][C++]
-![][public]
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"bool"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"bool operator=="}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[{"type":"text","text":"(const iterator &a, const iterator &b)"}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator=="}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"a"}]},{"type":"text","text":"\n        "}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"b"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="structansys-dpf-dpfvector-iterator-1a55a8ee0e80dad1a7da9d751c25bc0386"></a>
-### Friend operator!=
-
-![][C++]
-![][public]
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"bool"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"bool operator!="}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[{"type":"text","text":"(const iterator &a, const iterator &b)"}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator!="}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"a"}]},{"type":"text","text":"\n        "}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"b"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="structansys-dpf-dpfvector-iterator-1ae96e2141a46966d92da5681f7b5631a4"></a>
-### Friend operator+
-
-![][C++]
-![][public]
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"iterator"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"iterator operator+"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[{"type":"text","text":"(const iterator &it, difference_type n)"}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator+"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"it"}]},{"type":"text","text":"\n        "}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"difference_type"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"n"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="structansys-dpf-dpfvector-iterator-1ad60c721b2bc0d7190139a68446fd36c2"></a>
-### Friend operator-
-
-![][C++]
-![][public]
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"iterator"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"iterator operator-"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[{"type":"text","text":"(const iterator &it, difference_type n)"}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator-"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"it"}]},{"type":"text","text":"\n        "}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"difference_type"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"n"}]},{"type":"text","text":"\n        "}]}`
--->
-
-<a id="structansys-dpf-dpfvector-iterator-1a4304f5d7bb1d12de2d2ad2c1e4e64dab"></a>
-### Friend operator-
-
-![][C++]
-![][public]
-
-
-
-
-
-
-
-<!--
-**TODO**:
-
-* `type {"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"difference_type"}]}`
-* `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"difference_type operator-"}]}`
-* `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[{"type":"text","text":"(const iterator &lhs, const iterator &rhs)"}]}`
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator-"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"lhs"}]},{"type":"text","text":"\n        "}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"const iterator &"}]},{"type":"text","text":"\n          "},{"type":"element","name":"declname","attributes":{},"children":[{"type":"text","text":"rhs"}]},{"type":"text","text":"\n        "}]}`
 -->
 
 ## Public functions
@@ -381,15 +272,15 @@ ansys::dpf::DpfVector< T >::iterator::iterator(index_type index, DpfVectorData< 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::iterator"}]}`
 -->
 
-<a id="structansys-dpf-dpfvector-iterator-1a4072330935b9093a9afe71942405bd5a"></a>
-### Function operator*
+<a id="structansys-dpf-dpfvector-iterator-1a66243813b8518cc8954bc9665088681e"></a>
+### Function operator\<
 
 ![][public]
 ![][const]
 
 
 ```cpp
-reference ansys::dpf::DpfVector< T >::iterator::operator*() const
+bool ansys::dpf::DpfVector< T >::iterator::operator<(const iterator &other) const
 ```
 
 
@@ -399,22 +290,27 @@ reference ansys::dpf::DpfVector< T >::iterator::operator*() const
 
 
 
-**Return type**: reference
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: bool
 
 <!--
 **TODO**:
 
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator*"}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator<"}]}`
 -->
 
-<a id="structansys-dpf-dpfvector-iterator-1afcf35619e07670be8dd682a6bfeddf5a"></a>
-### Function operator-\>
+<a id="structansys-dpf-dpfvector-iterator-1afa7690572cd37e4f6b233e8b31ada56b"></a>
+### Function operator\>
 
 ![][public]
+![][const]
 
 
 ```cpp
-pointer ansys::dpf::DpfVector< T >::iterator::operator->()
+bool ansys::dpf::DpfVector< T >::iterator::operator>(const iterator &other) const
 ```
 
 
@@ -424,12 +320,136 @@ pointer ansys::dpf::DpfVector< T >::iterator::operator->()
 
 
 
-**Return type**: pointer
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: bool
 
 <!--
 **TODO**:
 
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator->"}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator>"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a412315e6b4da3e13d16a1f2e48e08b36"></a>
+### Function operator\<=
+
+![][public]
+![][const]
+
+
+```cpp
+bool ansys::dpf::DpfVector< T >::iterator::operator<=(const iterator &other) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator<="}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a160dfc0d8fbcf94f03bfb46fa1178912"></a>
+### Function operator\>=
+
+![][public]
+![][const]
+
+
+```cpp
+bool ansys::dpf::DpfVector< T >::iterator::operator>=(const iterator &other) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator>="}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a703b889c39b5ac2d8299043962e32d92"></a>
+### Function operator==
+
+![][public]
+![][const]
+
+
+```cpp
+bool ansys::dpf::DpfVector< T >::iterator::operator==(const iterator &other) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator=="}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a9e6d7c0a46594f7de14641bde2a463ec"></a>
+### Function operator!=
+
+![][public]
+![][const]
+
+
+```cpp
+bool ansys::dpf::DpfVector< T >::iterator::operator!=(const iterator &other) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator!="}]}`
 -->
 
 <a id="structansys-dpf-dpfvector-iterator-1aa1dbb813028cb88a9776380665dd3127"></a>
@@ -449,7 +469,7 @@ iterator & ansys::dpf::DpfVector< T >::iterator::operator++()
 
 
 
-**Return type**: iterator &
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) &
 
 <!--
 **TODO**:
@@ -478,7 +498,7 @@ iterator ansys::dpf::DpfVector< T >::iterator::operator++(int)
 
 * int
 
-**Return type**: iterator
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
 
 <!--
 **TODO**:
@@ -503,7 +523,7 @@ iterator & ansys::dpf::DpfVector< T >::iterator::operator--()
 
 
 
-**Return type**: iterator &
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) &
 
 <!--
 **TODO**:
@@ -532,7 +552,7 @@ iterator ansys::dpf::DpfVector< T >::iterator::operator--(int)
 
 * int
 
-**Return type**: iterator
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
 
 <!--
 **TODO**:
@@ -561,7 +581,7 @@ iterator & ansys::dpf::DpfVector< T >::iterator::operator+=(difference_type n)
 
 * difference_type **n**
 
-**Return type**: iterator &
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) &
 
 <!--
 **TODO**:
@@ -590,12 +610,210 @@ iterator & ansys::dpf::DpfVector< T >::iterator::operator-=(difference_type n)
 
 * difference_type **n**
 
-**Return type**: iterator &
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) &
 
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator-="}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a5f9a013ba7965568a3bc08b74b83afd4"></a>
+### Function operator+
+
+![][public]
+![][const]
+
+
+```cpp
+iterator ansys::dpf::DpfVector< T >::iterator::operator+(difference_type n) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* difference_type **n**
+
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator+"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a688e3a75740d1d570375302da8ec9986"></a>
+### Function operator-
+
+![][public]
+![][const]
+
+
+```cpp
+iterator ansys::dpf::DpfVector< T >::iterator::operator-(difference_type n) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* difference_type **n**
+
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator-"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a95fe6dc9b62befdad7b08f8f1cf39c97"></a>
+### Function operator-
+
+![][public]
+![][const]
+
+
+```cpp
+difference_type ansys::dpf::DpfVector< T >::iterator::operator-(const iterator &other) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* const [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) & **other**
+
+**Return type**: difference_type
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator-"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a4072330935b9093a9afe71942405bd5a"></a>
+### Function operator*
+
+![][public]
+![][const]
+
+
+```cpp
+reference ansys::dpf::DpfVector< T >::iterator::operator*() const
+```
+
+
+
+
+
+
+
+
+**Return type**: reference
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator*"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1a1fbc3f9e8839274a32815af292656b1d"></a>
+### Function operator-\>
+
+![][public]
+![][const]
+
+
+```cpp
+const pointer ansys::dpf::DpfVector< T >::iterator::operator->() const
+```
+
+
+
+
+
+
+
+
+**Return type**: const pointer
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator->"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1abcf84a76879913b8c6e52d80490a59bb"></a>
+### Function operator[]
+
+![][public]
+![][const]
+
+
+```cpp
+reference ansys::dpf::DpfVector< T >::iterator::operator[](difference_type n) const
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* difference_type **n**
+
+**Return type**: reference
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::operator[]"}]}`
+-->
+
+<a id="structansys-dpf-dpfvector-iterator-1aa5a8937cf9b30b4e877cd89d4f04be7b"></a>
+### Function getIndex
+
+![][public]
+![][const]
+
+
+```cpp
+dp_index ansys::dpf::DpfVector< T >::iterator::getIndex() const
+```
+
+
+Retrieve the current index of the iterator.
+
+
+
+
+
+**Return type**: [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::DpfVector::iterator::getIndex"}]}`
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

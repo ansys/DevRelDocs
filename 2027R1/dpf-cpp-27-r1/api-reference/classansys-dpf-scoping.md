@@ -31,7 +31,7 @@ The scoping is entities ids representing a subset of the model's support. Typica
 * [idByIndex](classansys-dpf-scoping.md#classansys-dpf-scoping-1ae35e47f2cceccf7ad9ed4590bd10ff89)
 * [identicalPointers](classansys-dpf-scoping.md#classansys-dpf-scoping-1a5666c29a9074bd286801882ed3105de1)
 * [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26749e29d9f23de6c70806ccfaea6b)
-* [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1a14dbd1c25bbfc1c3a3dc3ab9b5762d8c)
+* [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1a435372a33f32b2b49ff6816eba5b4e35)
 * [indexById](classansys-dpf-scoping.md#classansys-dpf-scoping-1ab80b20d56d63ce48c08ce6b7428e06c2)
 * [isOnCommonAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9f9789ff61cc9d400a2a344830706b73)
 * [isSameObject](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aa64d5f8fcd7d85ad6ebf708494dbefd7)
@@ -651,7 +651,7 @@ Pointer to list of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Scoping::ids"}]}`
 -->
 
-<a id="classansys-dpf-scoping-1a14dbd1c25bbfc1c3a3dc3ab9b5762d8c"></a>
+<a id="classansys-dpf-scoping-1a435372a33f32b2b49ff6816eba5b4e35"></a>
 ### Function ids
 
 ![][public]
@@ -659,7 +659,7 @@ Pointer to list of [ids](classansys-dpf-scoping.md#classansys-dpf-scoping-1acf26
 
 
 ```cpp
-DpfVector< int > ansys::dpf::Scoping::ids() const
+DpfVector< dp_id > ansys::dpf::Scoping::ids() const
 ```
 
 
@@ -671,7 +671,7 @@ DpfVector< int > ansys::dpf::Scoping::ids() const
 
 
 
-**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) >
 
 <!--
 **TODO**:
