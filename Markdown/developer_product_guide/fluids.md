@@ -8,11 +8,14 @@ There are no developer tools available at this time.
 
 ## CFX
 
-Ansys CFX includes a command language (CCL) and an expression language (CEL). CCL uses embedded Perl, and user-generated models are applied using User Fortran.
+Ansys CFX includes a command language (CCL) and an expression language (CEL). CCL uses embedded Perl, and user-generated models are applied using User Fortran. PyCFX, part of PyAnsys, is also available and is compatible with Ansys CFX 2025 R2 Service Pack 3 and later.
+
+* [PyCFX documentation (PyAnsys)](https://cfx.docs.pyansys.com/)
 
 ### Ansys CFX training material
 
 * [Ansys CFX Customization (ALH)](https://www.ansys.com/training-center/course-catalog/fluids/ansys-cfx-customization)
+* [Ansys 2026 R1: Ansys Fluids What's New (Webinar)](https://www.ansys.com/en-gb/webinars/ansys-2026-r1-ansys-fluids)
 
 ### Non-Ansys CFX training material
 
@@ -20,7 +23,9 @@ Ansys CFX includes a command language (CCL) and an expression language (CEL). CC
 
 ## Chemkin
 
-There are no developer tools available at this time.
+As of Ansys Chemkin 2025 R2 there is now a PyChemkin PyAnsys library.
+
+* [PyChemkin documentation (PyAnsys)](https://chemkin.docs.pyansys.com/version/stable/)
 
 ## EnSight
 

@@ -4,7 +4,10 @@
 
 The Lumerical Automation API let's you interact with Lumerical’s solvers and perform complex tasks such as simulation automation, data analysis, optimization, and inverse design. You can automate in the interface from the Script File Editor using a Lumerical script, the Python API, or MATLAB commands. You can also automate from a Python IDE (such as Jupyter Notebook, PyCharm, or Visual Studio Code) with the Python API or in the MATLAB environment with the MATLAB interop.
 
+PyLumerical is a simplified and modernized way to access the Lumerical Python API. Available since 2025 R2.3, PyLumerical can be used to interact with the Lumerical tools Ansys Lumerical FDTD™, Ansys Lumerical MODE™, Ansys Lumerical Multiphysics™, and Ansys Lumerical INTERCONNECT™.
+
 * [Lumerical for developers (Developer Portal documentation)](https://developer.ansys.com/docs/lumerical)
+* [PyLumerical documentation (PyAnsys)](https://lumerical.docs.pyansys.com/)
 
 ### Ansys Lumerical training
 
