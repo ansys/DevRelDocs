@@ -22,7 +22,7 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [modal_basis](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
 | <strong>1</strong> | [solution_in_modal_space](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
-| <strong>2</strong> | [incremental_fc](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
+| <strong>2</strong> | [incremental_fc](#input_2) |  |[`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container) |
 | <strong>3</strong> | [time_scoping](#input_3) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 | <strong>4</strong> | [mesh_scoping](#input_4) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 
@@ -46,7 +46,7 @@ One field by time/frequency with each field having a ponderating coefficient for
 <a id="input_2"></a>
 ### incremental_fc (Pin 2)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`custom_type_fields_container`](../../core-concepts/dpf-types.md#custom-type-fields-container)
 
 If a non-empty fields container is introduced, it is modified, and sent to the output, to add the contribution of the requested expansion. The label spaces produced from the multiplication must be the same as the incremental ones.

@@ -6,7 +6,7 @@ uid: Ans.DataProcessing.operators.math.modal_superposition
 
 Computes the solution in the time/frequency space from a modal solution by multiplying a modal basis (in 0)by the solution in this modal space (coefficients for each mode for each time/frequency) (in 1).
 
-available inputs: `modal_basis` (FieldsContainer, CustomTypeFieldsContainer), `solution_in_modal_space` (FieldsContainer, CustomTypeFieldsContainer), `incremental_fc` (FieldsContainer, CustomTypeFieldsContainer), `time_scoping` (Scoping, ScopingsContainer) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional)
+available inputs: `modal_basis` (FieldsContainer, CustomTypeFieldsContainer), `solution_in_modal_space` (FieldsContainer, CustomTypeFieldsContainer), `incremental_fc` (FieldsContainer, CustomTypeFieldsContainer) (optional), `time_scoping` (Scoping, ScopingsContainer) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional)
 
 available outputs: `fields_container` (FieldsContainer ,CustomTypeFieldsContainer)
 

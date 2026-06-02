@@ -51,7 +51,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [12 items](#Features_native) |[25 items](#Fixes_native) |
+| native | [12 items](#Features_native) |[26 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -2578,6 +2578,23 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Skip empty input fields in min_max_over_label_fc:
+  > 
+  >
+  > The `min_max_over_label_fc` operator now correctly handles fields containers that contain
+  >
+  > empty fields (fields with no data, such as those produced by unconverged time steps).
+  >
+  > Previously, empty fields caused spurious zero-valued entries in the min/max output.
+  >
+  > The operator now excludes domain IDs whose fields are entirely empty from the output,
+  >
+  > so the output scoping only contains the domain IDs for which actual data was available.
+  >
+  > 
+  >
+  > 
+
 - Fix solid_to_skin:
   > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
   >
@@ -4831,6 +4848,11 @@ Upgraded documentation
 - [min_max_fc_inc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_fc_inc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [min_max_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_over_label_fc.md)
+
+  > 0.0.1: Input fields with no data are now excluded from the output instead of producing zero-valued entries.
 
 
 - [min_max_over_time_by_entity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_over_time_by_entity.md)
