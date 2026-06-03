@@ -2,6 +2,11 @@
 
 This chapter guides you through setting up DPF to ensure you can start working with the framework quickly and smoothly.
 
+If you want to **skip onboarding** and jump straight to your use case:
+
+- If you are a **MechDPF user** (using DPF from within Ansys Mechanical), go [here](../dpf-overview/how-dpf-works.md#dpf-in-mechanical-mechdpf) to learn how DPF integrates with Mechanical and how to access it from the Mechanical scripting environment.
+- If you are a **C++ user**, go [here](https://developer.ansys.com/docs/dpf-cpp-client-library-2026-r1/index.md) to directly learn how to start working with DPF using C++.
+
 ## Expected Time
 **30-45 minutes** - This includes downloading, installing, configuring, and verifying your DPF setup. Actual time may vary depending on download speeds and your system configuration.
 

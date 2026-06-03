@@ -9,9 +9,10 @@ DPF uses a **client-server architecture**, which means it's split into two parts
 **The DPF Server:**
 
 - Contains all the data processing capabilities (operators, plugins)
+- Requires access to the data or result files of interest 
 - Loads and manages your simulation data in memory
 - Performs all the computational work
-- Can process data locally on your machine or remotely on more powerful hardware
+- Can run locally on your machine or remotely on more powerful hardware
 
 **The DPF Client:**
 
