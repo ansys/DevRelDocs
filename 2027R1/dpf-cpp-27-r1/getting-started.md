@@ -2,6 +2,8 @@
 
 The Data Processing Framework (DPF) provides numerical simulation users and engineers with a toolbox for accessing and transforming simulation data. DPF can access data from Ansys solver result (for example, RST) files as well as from several neutral file formats, including CSV, HDF5, and VTK. This workflow-based framework allows you to perform complex preprocessing and postprocessing operations on large amounts of simulation data.
 
+> **New to DPF?** If you are new to the Data Processing Framework and prefer a guided, step-by-step learning path, consider starting with [DPF Onboarding](https://developer.ansys.com/docs/dpf-onboarding-2027-r1/index.md) which covers foundational concepts before diving into the C++ API.
+
 > **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >

@@ -4,6 +4,8 @@ The Data Processing Framework (**DPF**) provides numerical simulation users/engi
 
 DPF is an independent, physics-agnostic tool that can be plugged into many applications for both data input and data output (result plots, visualization, and so on).
 
+> **New to DPF?** If you are new to the Data Processing Framework and prefer a guided, step-by-step learning path, consider starting with [DPF Onboarding](https://developer.ansys.com/docs/dpf-onboarding-2027-r1/index.md) which covers foundational concepts before diving into the C++ API.
+
 DPF can access data from solver result files and other neutral formats (for example, CSV, HDF5, and VTK). Various operators are available, allowing you to manipulate and transform this data. You can chain operators together to create simple or complex data-processing workflows that can be reused for repeated or future evaluations.
 
 The data in DPF is defined based on physics-agnostic mathematical quantities described in self-sufficient entities called fields. This allows DPF to be a modular and easy-to-use tool with a large range of capabilities. It is designed to handle large amounts of data.
