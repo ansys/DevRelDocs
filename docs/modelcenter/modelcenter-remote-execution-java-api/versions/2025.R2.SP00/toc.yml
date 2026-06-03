@@ -396,4 +396,4 @@
         - name: RunFolderPreference
           href: com/phoenix_int/pacz/api/v2/RunFolderPreference.md
 - name: Changelog
-  href: Changelog.md
+  href: changelog.md
