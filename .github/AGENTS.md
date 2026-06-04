@@ -58,7 +58,7 @@ Section **9. Additional resources** in Part 2 links to Markdown, style, linters,
 
 ### Metadata and taxonomies
 
-Check titles, versions, **physics**, and **programming language** against the taxonomy YAML shipped with the documentation repo (typically under **`Markdown/taxonomies`** on the branch in use).
+Check titles, versions, **physics**, and **programming language** against the taxonomy YAML shipped with the documentation repo (typically under **`config/portal-metadata`** on the branch in use).
 
 ### Linters and builds
 
@@ -265,7 +265,7 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 - [ ] **Title wording**: Avoid redundant words such as "documentation" or "guide" because the Dev portal context already provides this information
 - [ ] **Version**: Package version string (e.g., "2026 R1")
 - [ ] **Summary**: Brief description of this **documentation package** (not the commercial product description)
-- [ ] **Physics**: Product collection term from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/Markdown/taxonomies)
+- [ ] **Physics**: Product collection term from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata)
 
 **For Library/SDK content converted from Doxygen**:
 - [ ] Apply the same Markdown metadata requirements above
@@ -274,9 +274,9 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 
 **In `docfx.json`** (under `build.globalMetadata`):
 - [ ] **doc_type**: Must be `rest_api`
-- [ ] **product**: Product name (e.g. the offering or API product name); use valid terms from [product.yml](https://github.com/ansys/DevRelDocs/tree/main/Markdown/taxonomies) where applicable
+- [ ] **product**: Product name (e.g. the offering or API product name); use valid terms from [product.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata) where applicable
 - [ ] **summary**: Brief description of this **documentation package** (not the commercial product description); used on Dev portal landing pages
-- [ ] **physics**: Product collection category from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/Markdown/taxonomies)
+- [ ] **physics**: Product collection category from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata)
 
 **In the REST API specification file** (OpenAPI `info` object):
 - [ ] **title**: API name (with version as appropriate). For REST packages, the **documentation package title** is taken from **`info.title`**, not from `docfx.json`
@@ -285,7 +285,7 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 
 ### 2.2 Recommended Metadata
 
-- [ ] **Programming language**: Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/Markdown/taxonomies)
+- [ ] **Programming language**: Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata)
 - [ ] **Optional fields** (**status**, **access control**, **author**, **date**, and so on) when the package uses them — see [metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md)
 
 **Review Actions:**
