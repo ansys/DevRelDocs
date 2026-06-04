@@ -13,7 +13,7 @@ Use this file to drive an AI assistant that helps authors meet **Ansys developer
 
 ### Finding severity
 
-Compliance reviews, narrative feedback, and **`documentation-compliance-report.md`** must apply **§0.7** consistently: each **issue** and each **action item** gets one severity; optional **category** labels supplement but do not replace severity.
+Compliance reviews, narrative feedback, and **`documentation-compliance-report.md`** must apply **§0.7** consistently: each **issue** and each **action item** gets one severity; optional **category** labels supplement but do not replace severity. For findings tied to a tagged guideline requirement, use that item’s **Must have** / **Should have** / **Nice to have** tag (see **§0.7** tagged sources) and map it to **Must fix** / **Should fix** / **Nice to fix**.
 
 ### Recording pass vs fail (reports and chat)
 
@@ -171,13 +171,33 @@ When in doubt, state **ambiguous** classification in **`documentation-compliance
 
 Assign **exactly one severity** per issue and per action item. Do not mix severities for a single bullet (split into separate items if needed).
 
+**Requirement priority in guidelines**
+
+Tagged sources (use the tag on the matching requirement when reporting a finding):
+
+- [Documentation compliance checklist](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/documentation-checklist.md) — every checklist item
+- [Metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md) — mandatory fields, REST structure, metadata table **Priority** column
+- [Writing guidelines](https://github.com/ansys-internal/developer-documentation-guidelines/tree/main/content/docs/writing-guidelines) — API and library/SDK descriptive and reference pages
+- [Migrate package guides](https://github.com/ansys-internal/developer-documentation-guidelines/tree/main/content/docs/migrate-dev-portal/migrate-package) — `package-type-matrix`, `md-package`, `http-package`, `doxygen-package`
+- [Markdown guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/markdown-guide.md) and [Style guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/styleguide.md) — tagged structural and style rules
+
+When a tagged requirement is not met, use the matching review severity:
+
+| Guideline tag | Review severity when not met |
+|---------------|------------------------------|
+| **Must have** | **Must fix** |
+| **Should have** | **Should fix** |
+| **Nice to have** | **Nice to fix** |
+
+If a finding is not covered by a tagged checklist line (for example, a defect found only in Part 2 of this file), apply the severities table below. When both apply, the checklist tag takes precedence for that requirement.
+
 **Severities**
 
 | Severity | Use when | Effect on overall summary |
 |----------|----------|---------------------------|
-| **Must fix** | Violates an explicit rubric or portal requirement; breaks build, metadata, or taxonomy contracts; invalid or missing OpenAPI where required; or would **materially mislead** developers (wrong auth, wrong endpoints, contradictory versions, unsafe guidance). | **Not Approved** / **Needs Major Revisions** while any **Must fix** remains open. |
-| **Should fix** | Misses rubric expectations or clearly hurts completeness, accuracy, or usability; authors should resolve before release when practical. | Drives **Needs Major Revisions** if widespread or blocking key flows; otherwise **Needs Minor Revisions**. |
-| **Nice to fix** | Polish, consistency, or optional improvements; does not block policy or correctness. | Cited under **Needs Minor Revisions** or recommendations; does not block **Approved** by itself. |
+| **Must fix** | An unmet **Must have** checklist item; violates an explicit rubric or portal requirement; breaks build, metadata, or taxonomy contracts; invalid or missing OpenAPI where required; or would **materially mislead** developers (wrong auth, wrong endpoints, contradictory versions, unsafe guidance). | **Not Approved** / **Needs Major Revisions** while any **Must fix** remains open. |
+| **Should fix** | An unmet **Should have** checklist item; misses rubric expectations or clearly hurts completeness, accuracy, or usability; authors should resolve before release when practical. | Drives **Needs Major Revisions** if widespread or blocking key flows; otherwise **Needs Minor Revisions**. |
+| **Nice to fix** | An unmet **Nice to have** checklist item; polish, consistency, or optional improvements; does not block policy or correctness. | Cited under **Needs Minor Revisions** or recommendations; does not block **Approved** by itself. |
 
 **Default mapping to summary line**
 
@@ -316,7 +336,7 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 - [ ] **`description/index.md`** for REST API descriptive content (introduction, how to call the API, examples, and related guidance)
 - [ ] **`changelog/changelog.md`** for release history
 
-**Not required** for **REST API-only** packages: **`toc.yml`**, a root-level **`index.md`**, and an **`index.md`** in every subdirectory. Do not treat their absence as a defect unless **§0** also classifies the package as **API** (prose-only) or **Library/SDK** where those files apply.
+**Not required** for **REST API-only** packages: **`toc.yml`**, a root-level **`index.md`**, and **`index.md` in every subdirectory**. For **API** (prose) and **Library/SDK** packages, root **`index.md`** is required; **`index.md` in each subdirectory** is **Nice to have** only—do not report missing subsection `index.md` files as **Must fix** or **Should fix**.
 
 **Review Actions:**
 - Confirm `docfx.json` and OpenAPI/Swagger spec file are present at package root
@@ -356,18 +376,18 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 - Check that protocol is explicitly stated and accurately described
 - Confirm testing information is complete and actionable
 
-#### 3.2.2 Platform Overview Section
+#### 3.2.2 Platform Overview Section (**Nice to have** for **API** and **REST API**)
 
-**Required elements:**
+The **Platform overview** section is optional. Do not report a missing section as **Must fix** or **Should fix**. If the section is present, apply the guidance below (**Nice to fix** at most when content is thin or unclear).
+
+**When present, recommended content:**
 - [ ] **Explanatory diagram**: Visual showing API relationships with applications and services
 - [ ] **Application development**: Description of applications developers can create
 - [ ] **Communication flow**: Explicit explanation of communication pathways between applications and API/services
 
 **Review Actions:**
-- Verify diagram exists and clearly illustrates architecture
-- Check that diagram uses consistent terminology with text
-- Ensure application development section provides concrete examples
-- Verify communication flow describes data exchange patterns
+- If **Platform overview** is absent, omit from **Issues** or note only under **Recommendations** as **Nice to fix**
+- When the section exists, verify diagram, application development, and communication flow quality as optional improvements
 
 #### 3.2.3 Resources Section (REST APIs only)
 
@@ -546,7 +566,7 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 - [ ] Sections separated with descriptive comments
 - [ ] Comments use `//` or `/** */` syntax (compatible with protoc-gen-doc)
 - [ ] Markdown syntax used in comments where appropriate (bold, italic, lists, code)
-- [ ] Mathematical formulas formatted correctly if used
+- [ ] **Must have** — Mathematical formulas use correct LaTeX syntax per [Markdown guide — Formulas](/docs/common-practices/markdown-guide#formulas) when present (block `$$`, inline `$`; **Must fix** if used and invalid)
 
 #### 3.5.3 Message Documentation
 
@@ -697,7 +717,7 @@ service UserService {
 - [ ] `index.md` exists at root level (landing page with introduction)
 - [ ] Changelog file exists (`changelog.md` at root or `changelog/changelog.md`)
 
-**Recommended structure:**
+**Recommended structure** (subdirectory `index.md` files are **Nice to have**, not mandatory):
 ```
 Documentation-package/
 |-- index.md
@@ -727,7 +747,7 @@ Documentation-package/
 **Review Actions:**
 - Verify required files exist
 - Check directory structure is logical and organized
-- Ensure each subdirectory has `index.md`
+- Optionally note missing subdirectory `index.md` files as **Nice to fix** only (not required in every folder)
 - Verify file names use lowercase with hyphens
 
 ### 4.2 Index.md Content Review
@@ -748,18 +768,19 @@ Documentation-package/
 - Check that supported languages/OS are explicitly listed
 - Ensure installation requirements are mentioned
 
-#### 4.2.2 Platform Overview
+#### 4.2.2 Platform overview in Introduction (**Nice to have** for **Library/SDK**)
 
-**Required elements:**
+Platform overview content is optional and is usually part of the **Introduction** in `index.md`, not a separate mandatory section. Do not report missing platform overview material as **Must fix** or **Should fix**.
+
+**When present in the introduction, recommended content:**
 - [ ] Context and relationship with other services
 - [ ] Explanatory diagram showing architecture
 - [ ] Application development description (what can be built)
 - [ ] Integration explanation (how library fits in ecosystem)
 
 **Review Actions:**
-- Verify diagram exists and is clear
-- Check architecture explanation is complete
-- Ensure integration guidance is provided
+- If platform overview content is absent, omit from **Issues** or note only under **Recommendations** as **Nice to fix**
+- When present, review diagram, architecture, and integration content as optional improvements
 
 ### 4.3 Getting Started Section
 
@@ -920,7 +941,7 @@ Same requirements as API changelog (see section 3.3)
 - [ ] `index.md` at root level (required for **API** / **Library/SDK**; for **REST API-only**, use `description/index.md` per §3.1.1)
 - [ ] Changelog file exists (required for **API** / **Library/SDK** at `changelog.md` root or `changelog/changelog.md`; for **REST API-only**, use `changelog/changelog.md` per §3.1.1)
 - [ ] Related content in logical subdirectories
-- [ ] Each subdirectory has `index.md` (expectation for **Library/SDK**-style trees; not for **REST API-only**)
+- [ ] Each subdirectory has `index.md` (**Nice to have** for **Library/SDK**-style trees; not for **REST API-only**—absence is **Nice to fix** at most, not **Must fix** / **Should fix**)
 - [ ] Images in dedicated `images/` directory
 - [ ] File names use lowercase with hyphens (e.g., `getting-started.md`)
 
