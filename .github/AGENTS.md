@@ -1,6 +1,22 @@
 # Ansys developer documentation — agent instructions
 
+**Guidelines Reference base URL (compliance reports):** `https://doc-guidelines.sandbox.ansysapis.com/docs`
+
 Use this file to drive an AI assistant that helps authors meet **Ansys developer documentation** requirements for the Dev portal. **Part 2** is the full compliance rubric (style, structure, API reference, metadata, and review output format).
+
+### Reference URLs in compliance reports (mandatory)
+
+Every **`Reference`** line in **`documentation-compliance-report.md`** (and the same links in chat when listing issues) **must** use the **published guidelines site**, not the GitHub repository:
+
+| Use | Do not use |
+|-----|------------|
+| `https://doc-guidelines.sandbox.ansysapis.com/docs/...` | `https://github.com/ansys-internal/developer-documentation-guidelines` (any `blob`, `tree`, or `raw` path) |
+
+- Host **must** be `doc-guidelines.sandbox.ansysapis.com`; path **must** start with `/docs/`; **no** `.md` in the URL (Hugo page slug only).
+- Example: [Mandatory metadata](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata#mandatory-metadata) — not `.../blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md#...`.
+- **Before finishing a review:** search the compliance report for `github.com/ansys-internal/developer-documentation-guidelines`. If any match exists, **rewrite every Reference** to the sandbox URL using the mapping in **Guideline references in compliance reports** (repo path `content/docs/X` → `https://doc-guidelines.sandbox.ansysapis.com/docs/X` without `.md`).
+
+Teams that copy this file into a product repo must **refresh the copy** from the guidelines repository after guideline URL rules change.
 
 ## Part 1 — Agent behavior
 
@@ -32,30 +48,34 @@ When the user asks for a compliance check, self-review, or pre-PR verification, 
 
 - **Do not** add that file to **`toc.yml`** or the product landing page unless the team wants it on the portal.
 - **Include:** title; metadata (package path relative to the repo root, ISO date); summary (Approved / needs minor or major revisions) **aligned with §0.7**; **package classification per §0** (which of **REST API**, **API**, and **Library/SDK** **apply**, with evidence); **checklists and findings only for applicable types** — omit sections and table rows for types that do not apply (do not fill the report with “N/A” for irrelevant categories); scope; numbered action items **each prefixed with Must fix, Should fix, or Nice to fix**. For narrative structure, follow **section 8 — Review output format** in Part 2.
-- **Guideline links:** for each issue and matching action item tied to a tagged requirement or rubric rule, add an absolute **Reference** link per **Guideline references in compliance reports** below and **§8**.
+- **Guideline links (report only):** in **`documentation-compliance-report.md`**, add optional explanatory **Reference** links per **Guideline references in compliance reports** below and **§8**. These are **not** criteria to validate inside the documentation package.
 
 ### Guideline references in compliance reports
 
-Authors read **`documentation-compliance-report.md`** inside their documentation package repo, not inside the guidelines repo. Use **absolute HTTPS links** so **Reference** lines work from any clone or GitHub view.
+**Purpose — not a package requirement.** **Reference** links exist only in **`documentation-compliance-report.md`** (or equivalent review output). They help authors open the matching requirement on the guidelines site and understand **why** an issue is **Must fix**, **Should fix**, or **Nice to fix**. Do **not** treat missing, broken, or absent **Reference** lines as defects **in the documentation package** under review, and do **not** ask authors to add guideline URLs into product Markdown, OpenAPI, or `docfx.json`.
 
-**Canonical base URL** (default branch **`main`**):
+Authors read the compliance report inside their documentation package repo, not inside the guidelines repo. Use **absolute HTTPS links** on the published guidelines site so **Reference** lines work from any clone or GitHub view.
 
-`https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs`
+**Canonical base URL** (published guidelines site — sandbox):
 
-Append the path under `content/docs/` and, when possible, a **fragment** (`#heading-anchor`) for the specific section. Do **not** use repo-relative paths (for example `/docs/...`) in compliance reports.
+`https://doc-guidelines.sandbox.ansysapis.com/docs`
 
-**When to include a Reference**
+Append the page path (same slug as on the site, **without** `.md` or a `content/docs/` prefix) and, when possible, a **fragment** (`#heading-anchor`) for the specific section. Example: `metadata.md` in the repo → `https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata#mandatory-metadata`.
 
-| Situation | Reference |
-|-----------|-----------|
-| Finding maps to a **Must have** / **Should have** / **Nice to have** item in a tagged source (§0.7) | **Required** — link to the **most specific** section (checklist subsection or writing/migrate guide heading). |
+**Forbidden in `Reference` lines:** any URL containing `github.com/ansys-internal/developer-documentation-guidelines`. Agents often default to GitHub because source Markdown lives in git; **override that** and use the sandbox host above. Repo-relative portal paths (for example `/docs/common-practices/markdown-guide`) are also **forbidden** in compliance reports—use the full `https://doc-guidelines.sandbox.ansysapis.com/docs/...` URL.
+
+**When the agent should add a Reference** (quality of the report, not of the doc package)
+
+| Situation | Reference in the compliance report |
+|-----------|-----------------------------------|
+| Finding maps to a **Must have** / **Should have** / **Nice to have** item in a tagged source (§0.7) | **Add** — link to the **most specific** guidelines section (checklist subsection or writing/migrate guide heading). |
 | Finding maps only to Part 2 of this file (no tagged `content/` rule) | **Optional** — link to the closest `content/` page if one exists; otherwise describe the rubric section in prose (no link required). |
 | **Strengths** only (requirement met) | **Do not** add Reference links (keeps **Issues** actionable). |
 
-**Anchor rules (GitHub)**
+**Anchor rules (published site)**
 
-- Derive fragments from the heading text on the target page: lowercase, spaces → hyphens, remove most punctuation. Examples: `## Images and assets` → `#images-and-assets`; `### Images and assets (API prose and REST API)` → `#images-and-assets-api-prose-and-rest-api`; `## Introduction *(Must have)*` → `#introduction-must-have`.
-- If unsure of the fragment, link to the file without `#` or to the checklist section that states the rule.
+- Derive fragments from the heading text on the target page: lowercase, spaces → hyphens, remove most punctuation (same convention as GitHub-rendered Markdown). Examples: `## Images and assets` → `#images-and-assets`; `### Images and assets (API prose and REST API)` → `#images-and-assets-api-prose-and-rest-api`; `## Introduction *(Must have)*` → `#introduction-must-have`.
+- If unsure of the fragment, link to the page without `#` or to the checklist section that states the rule.
 
 **Reference line format** (under each issue in §8):
 
@@ -67,19 +87,19 @@ Append the path under `content/docs/` and, when possible, a **fragment** (`#head
 
 | Topic | Path and typical anchor |
 |-------|-------------------------|
-| Checklist (any item) | `{BASE}/common-practices/documentation-checklist.md` + checklist heading anchor |
-| Style, Vale, sentence case, voice | `{BASE}/common-practices/documentation-checklist.md#style-and-writing` or `{BASE}/common-practices/styleguide.md` |
-| Metadata (Markdown / library) | `{BASE}/migrate-dev-portal/migrate-package/metadata.md#mandatory-metadata` |
-| REST metadata + OpenAPI split | `{BASE}/migrate-dev-portal/migrate-package/metadata.md#rest-api-content-structure` |
-| Supported metadata keys / Priority column | `{BASE}/migrate-dev-portal/migrate-package/metadata.md#supported-metadata-keys` |
-| Package-type matrix | `{BASE}/migrate-dev-portal/migrate-package/package-type-matrix.md` |
-| Markdown API package layout | `{BASE}/migrate-dev-portal/migrate-package/md-package.md` |
-| REST API package layout | `{BASE}/migrate-dev-portal/migrate-package/http-package.md` |
-| Library/SDK (Doxygen) layout | `{BASE}/migrate-dev-portal/migrate-package/doxygen-package.md` |
-| API descriptive sections | `{BASE}/writing-guidelines/api/desc-content.md` (e.g. `#images-and-assets`, `#introduction-must-have`, `#authenticate-must-have`) |
-| Library/SDK descriptive sections | `{BASE}/writing-guidelines/library-sdk/desc-content.md` (e.g. `#introduction-must-have`, `#getting-started-should-have`) |
-| Markdown (formulas, alt text, anchors) | `{BASE}/common-practices/markdown-guide.md` (e.g. `#formulas`, `#image-alt-text-and-title-attribute`) |
-| `toc.yml` (single file, duplicate `href`, quoting) | `{BASE}/common-practices/documentation-checklist.md#common-file-structure` or `{BASE}/common-practices/documentation-checklist.md#markdown-packages` |
+| Checklist (any item) | `{BASE}/common-practices/documentation-checklist` + checklist heading anchor |
+| Style, Vale, sentence case, voice | `{BASE}/common-practices/documentation-checklist#style-and-writing` or `{BASE}/common-practices/styleguide` |
+| Metadata (Markdown / library) | `{BASE}/migrate-dev-portal/migrate-package/metadata#mandatory-metadata` |
+| REST metadata + OpenAPI split | `{BASE}/migrate-dev-portal/migrate-package/metadata#rest-api-content-structure` |
+| Supported metadata keys / Priority column | `{BASE}/migrate-dev-portal/migrate-package/metadata#supported-metadata-keys` |
+| Package-type matrix | `{BASE}/migrate-dev-portal/migrate-package/package-type-matrix` |
+| Markdown API package layout | `{BASE}/migrate-dev-portal/migrate-package/md-package` |
+| REST API package layout | `{BASE}/migrate-dev-portal/migrate-package/http-package` |
+| Library/SDK (Doxygen) layout | `{BASE}/migrate-dev-portal/migrate-package/doxygen-package` |
+| API descriptive sections | `{BASE}/writing-guidelines/api/desc-content` (e.g. `#images-and-assets`, `#introduction-must-have`, `#authenticate-must-have`) |
+| Library/SDK descriptive sections | `{BASE}/writing-guidelines/library-sdk/desc-content` (e.g. `#introduction-must-have`, `#getting-started-should-have`) |
+| Markdown (formulas, alt text, anchors) | `{BASE}/common-practices/markdown-guide` (e.g. `#formulas`, `#image-alt-text-and-title-attribute`) |
+| `toc.yml` (single file, duplicate `href`, quoting) | `{BASE}/common-practices/documentation-checklist#common-file-structure` or `{BASE}/common-practices/documentation-checklist#markdown-packages` |
 
 **Example issue block:**
 
@@ -88,7 +108,7 @@ Append the path under `content/docs/` and, when possible, a **fragment** (`#head
    - **Location**: `docfx.json` (package root)
    - **Current state**: `build.globalMetadata` has no `doc_type`
    - **Required action**: Set `doc_type` to the value required for this package classification
-   - **Reference**: [Mandatory metadata](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md#mandatory-metadata) (guideline: **Must have**)
+   - **Reference**: [Mandatory metadata](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata#mandatory-metadata) (guideline: **Must have**)
 ```
 
 ### Simple invocation mode
@@ -102,16 +122,17 @@ When invoked this way, the agent must still do the full workflow in this file:
 1. Classify the package automatically per **§0** and apply only relevant sections.
 2. Create or update **`documentation-compliance-report.md`** in the package root.
 3. Tag every finding and action item with exactly one severity (**Must fix**, **Should fix**, **Nice to fix**).
-4. Add absolute **Reference** links to the relevant guideline section for each tagged finding (Part 1 — **Guideline references in compliance reports**).
+4. In the compliance report, add **Reference** links to the relevant guidelines section for each tagged finding when helpful (Part 1 — **Guideline references in compliance reports**); do not treat links as package content to verify.
 5. Provide concrete file-level remediation actions.
-6. Return a concise chat summary containing:
+6. **Verify Reference URLs:** in **`documentation-compliance-report.md`**, ensure every **Reference** uses `https://doc-guidelines.sandbox.ansysapis.com/docs/...` and **no** `github.com/ansys-internal/developer-documentation-guidelines` links. Fix any GitHub URLs before returning.
+7. Return a concise chat summary containing:
    - package classification
    - top **Must fix** items
    - confirmation that **`documentation-compliance-report.md`** was created or updated
 
 ### Extra reading (optional)
 
-- [Documentation compliance checklist](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/documentation-checklist.md) (short human-oriented list; Part 2 remains authoritative for the agent).
+- [Documentation compliance checklist](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/documentation-checklist) (short human-oriented list; Part 2 remains authoritative for the agent).
 
 Section **9. Additional resources** in Part 2 links to Markdown, style, linters, Docfx, metadata, and terminology topics.
 
@@ -159,7 +180,7 @@ Documentation packages fall into **three API / developer-doc types** (see **§0*
 
 When reviewing documentation, systematically evaluate each section below. Provide specific feedback with:
 - Clear identification of issues found, each labeled with **one severity** (**Must fix**, **Should fix**, **Nice to fix**) per **§0.7**, and optionally a **category** (**Policy**, **Correctness**, **Quality**)
-- **Reference** links to the matching guideline section (absolute URL) for each tagged finding — see Part 1 — **Guideline references in compliance reports**
+- **Reference** links in review output (absolute URL on the guidelines site) to explain tagged findings — see Part 1 — **Guideline references in compliance reports** (not validated in the doc package)
 - References to specific files and line numbers where applicable
 - Actionable recommendations for fixes
 - Recognition of areas that meet or exceed guidelines
@@ -235,13 +256,13 @@ Assign **exactly one severity** per issue and per action item. Do not mix severi
 
 Tagged sources (use the tag on the matching requirement when reporting a finding):
 
-- [Documentation compliance checklist](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/documentation-checklist.md) — every checklist item
-- [Metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md) — mandatory fields, REST structure, metadata table **Priority** column
-- [Writing guidelines](https://github.com/ansys-internal/developer-documentation-guidelines/tree/main/content/docs/writing-guidelines) — API and library/SDK descriptive and reference pages
-- [Migrate package guides](https://github.com/ansys-internal/developer-documentation-guidelines/tree/main/content/docs/migrate-dev-portal/migrate-package) — `package-type-matrix`, `md-package`, `http-package`, `doxygen-package`
-- [Markdown guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/markdown-guide.md) and [Style guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/styleguide.md) — tagged structural and style rules
+- [Documentation compliance checklist](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/documentation-checklist) — every checklist item
+- [Metadata configuration](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata) — mandatory fields, REST structure, metadata table **Priority** column
+- [Writing guidelines](https://doc-guidelines.sandbox.ansysapis.com/docs/writing-guidelines/) — API and library/SDK descriptive and reference pages
+- [Migrate package guides](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/) — `package-type-matrix`, `md-package`, `http-package`, `doxygen-package`
+- [Markdown guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/markdown-guide) and [Style guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/styleguide) — tagged structural and style rules
 
-In **`documentation-compliance-report.md`** and chat reviews, each violation tied to a tagged source must include an absolute **Reference** link to the matching section (see Part 1 — **Guideline references in compliance reports** and **§8**).
+In **`documentation-compliance-report.md`** and chat reviews, the agent should add an absolute **Reference** link to the matching guidelines section for each violation tied to a tagged source when that helps the author (see Part 1 — **Guideline references in compliance reports** and **§8**). This documents the rule behind the finding; it is **not** something to check in the documentation package itself.
 
 When a tagged requirement is not met, use the matching review severity:
 
@@ -353,7 +374,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 **For Library/SDK content converted from Doxygen**:
 - [ ] Apply the same Markdown metadata requirements above
 
-**For HTTP / REST API packages**, metadata is **split** between **`docfx.json`** and the **REST API specification file** (JSON or YAML), per [metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md):
+**For HTTP / REST API packages**, metadata is **split** between **`docfx.json`** and the **REST API specification file** (JSON or YAML), per [metadata configuration](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata):
 
 **In `docfx.json`** (under `build.globalMetadata`):
 - [ ] **doc_type**: Must be `rest_api`
@@ -369,7 +390,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 ### 2.2 Recommended and optional metadata
 
 - [ ] **Programming language** (**Nice to have**): Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata) when a single language filter is meaningful. **Do not** require it for language-agnostic packages (for example, many REST APIs). If omitted, do not report as **Must fix** or **Should fix**. If set, the value must be valid (**Must fix** when invalid).
-- [ ] **Optional fields** (**status**, **access control**, **author**, **date**, and so on) when the package uses them — see [metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md)
+- [ ] **Optional fields** (**status**, **access control**, **author**, **date**, and so on) when the package uses them — see [metadata configuration](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata)
 
 **Review Actions:**
 - Use **§0** to choose metadata rules before executing the bullets below.
@@ -1162,12 +1183,14 @@ Same requirements as API changelog (see section 3.3)
 
 ## 8. Review Output Format
 
-When completing a review, provide feedback in this format. **`documentation-compliance-report.md`** must follow the same structure, including **Reference** links per Part 1 — **Guideline references in compliance reports**.
+When completing a review, provide feedback in this format. **`documentation-compliance-report.md`** must follow the same structure. **Reference** lines are **additional context for authors** in that report only—not rubric items to verify in the package’s product documentation.
 
 ### Guideline references (Reference field)
 
-- Use the canonical guidelines base URL: `https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/...`
-- **Required** on every **Issue** (and on the matching **Action item**) when the finding maps to a tagged **Must have** / **Should have** / **Nice to have** requirement in `content/`.
+- **Scope:** optional explanatory field on **Issues** and **Action items** in the compliance report (and the same in chat when useful). **Not** a pass/fail check on files in the documentation package.
+- **Host (mandatory):** `https://doc-guidelines.sandbox.ansysapis.com/docs/...` only — **never** `github.com/ansys-internal/developer-documentation-guidelines` (see top of this file).
+- Use the canonical guidelines base URL: `https://doc-guidelines.sandbox.ansysapis.com/docs/...` (no `.md` suffix; optional `#heading-anchor`)
+- **Add** on every **Issue** (and on the matching **Action item**) when the finding maps to a tagged **Must have** / **Should have** / **Nice to have** requirement in `content/`, so authors can read the rule on the guidelines site.
 - Link to the **most specific** heading (checklist subsection or writing/migrate/markdown/style guide), not the repo root or an entire tree URL.
 - Format: `- **Reference**: [Short title](absolute-url)` with optional `(guideline: **Must have** | **Should have** | **Nice to have**)` when the source page tags the rule.
 - Omit **Reference** on **Strengths** and on issues with no corresponding tagged guideline (describe the rubric in prose instead).
@@ -1197,7 +1220,7 @@ Use **Passed** when all applicable criteria in that section are met; **Warnings*
    - **Location**: [File name and line number or section]
    - **Current state**: [What exists now]
    - **Required action**: [What needs to be done]
-   - **Reference**: [Short title](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/...#section-anchor) — required when tied to a tagged guideline; optional otherwise
+   - **Reference**: [Short title](https://doc-guidelines.sandbox.ansysapis.com/docs/...#section-anchor) — guidelines link explaining the rule (add when tied to a tagged requirement; not validated in the doc package)
 
 **Recommendations:**
 - Optional improvements beyond mandatory rubric (tag with **Nice to fix** or **Should fix** when they are actionable). Do not duplicate **Strengths** here.
@@ -1207,7 +1230,7 @@ Use **Passed** when all applicable criteria in that section are met; **Warnings*
 Order by severity (**Must fix** first, then **Should fix**, then **Nice to fix**). Include **only open violations** from **Issues**—not confirmations that a rule passed.
 
 1. **[Must fix | Should fix | Nice to fix]** — [Action description] | [Owner] | [Estimated effort]
-   - **Reference**: [Short title](absolute-url) — repeat the same link as the corresponding **Issue** when the action item comes from a tagged requirement
+   - **Reference**: [Short title](absolute-url) — repeat the same explanatory guidelines link as the corresponding **Issue** when applicable
 
 ### Sign-off
 
@@ -1223,12 +1246,12 @@ Order by severity (**Must fix** first, then **Should fix**, then **Nice to fix**
 Reference these resources during review:
 
 - [Google developer documentation style guide](https://developers.google.com/style/)
-- [Markdown guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/markdown-guide.md)
-- [Style guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/styleguide.md)
-- [Linters guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/linters.md)
-- [Docfx guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/docfx-static-site-gen.md)
-- [Metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md)
-- [API and library terminology](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/api-lib.md)
+- [Markdown guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/markdown-guide)
+- [Style guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/styleguide)
+- [Linters guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/linters)
+- [Docfx guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/docfx-static-site-gen)
+- [Metadata configuration](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata)
+- [API and library terminology](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/api-lib)
 - [OpenAPI Specification](https://www.openapis.org/)
 - [Protocol Buffers](https://protobuf.dev/)
 - [Protocol Buffers Style Guide](https://protobuf.dev/programming-guides/style/)
@@ -1253,7 +1276,7 @@ Use this quick checklist for review completion tracking:
   - [ ] Reference documentation (functions, classes, data structures)
 - [ ] Pre-submission checks completed
 - [ ] Local testing performed
-- [ ] Feedback documented and communicated; **every issue and action item tagged per §0.7**; **Reference** links on tagged findings per Part 1 / §8
+- [ ] Feedback documented and communicated; **every issue and action item tagged per §0.7**; compliance report includes explanatory **Reference** links per Part 1 / §8 when findings map to tagged guidelines (not a package content check)
 - [ ] Final approval status determined
 
 ---
