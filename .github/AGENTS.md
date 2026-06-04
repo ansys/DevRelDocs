@@ -100,6 +100,7 @@ Append the page path (same slug as on the site, **without** `.md` or a `content/
 | Library/SDK descriptive sections | `{BASE}/writing-guidelines/library-sdk/desc-content` (e.g. `#introduction-must-have`, `#getting-started-should-have`) |
 | Markdown (formulas, alt text, anchors) | `{BASE}/common-practices/markdown-guide` (e.g. `#formulas`, `#image-alt-text-and-title-attribute`) |
 | `toc.yml` (single file, duplicate `href`, quoting) | `{BASE}/common-practices/documentation-checklist#common-file-structure` or `{BASE}/common-practices/documentation-checklist#markdown-packages` |
+| REST API headings (`description/index.md`, `changelog/changelog.md`) | `{BASE}/writing-guidelines/api/desc-content#headings-rest-api-only-must-have` or `{BASE}/common-practices/markdown-guide#headings` |
 
 **Example issue block:**
 
@@ -323,8 +324,8 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 **Review Criteria:**
 - [ ] Markdown files pass [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) validation
 - [ ] Documentation passes [Vale](http://vale.sh/) linting with Google style guide rules
-- [ ] Each Markdown file starts with an H1 as the first Markdown heading (after optional YAML frontmatter)
-- [ ] Each Markdown file contains exactly one H1 heading
+- [ ] Each Markdown file starts with an H1 as the first Markdown heading (after optional YAML frontmatter), **except** **REST API** `description/index.md` and `changelog/changelog.md` (must start with **H2**, no H1 — §3.1.1)
+- [ ] Each Markdown file contains exactly one H1 heading, **except** **REST API** `description/index.md` and `changelog/changelog.md` (must contain **no** H1)
 - [ ] All hyperlinks are functional (no 404 errors or broken internal links)
 - [ ] Images display correctly with lowercase file extensions (`.png`, `.jpg`, NOT `.PNG`, `.JPG`)
 - [ ] **Should have** — Informative images have descriptive alt text (see [Markdown guide — Image alt text](/docs/common-practices/markdown-guide#image-alt-text-and-title-attribute); **Should fix** when missing on meaningful figures)
@@ -334,7 +335,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 **Review Actions:**
 - Run Markdownlint on all `.md` files and report violations
 - Run Vale linting and report style violations
-- Verify each Markdown file has a single H1 and that it is the first Markdown heading (after optional frontmatter)
+- Verify each Markdown file has a single H1 and that it is the first Markdown heading (after optional frontmatter), **except** for **REST API** `description/index.md` and `changelog/changelog.md`: first heading must be **H2**, file must have **no** H1 (§3.1.1)
 - Test all external links for accessibility
 - Verify all internal links point to existing files/anchors
 - Check image file extensions and naming conventions
@@ -419,6 +420,8 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - [ ] **OpenAPI or Swagger** spec file(s) at the package root that are the authoritative HTTP reference (see **§3.4**)
 - [ ] **`description/index.md`** for REST API descriptive content (introduction, how to call the API, examples, and related guidance)
 - [ ] **`changelog/changelog.md`** for release history
+- [ ] **`description/index.md`**: first Markdown heading is **H2** (typically `## Introduction`); required sections (**Introduction**, **Resources**, **Authenticate**, **Send API requests**, **Responses**, optional **Platform overview**) use **H2**; **no** H1 (`#`) in the file
+- [ ] **`changelog/changelog.md`**: first Markdown heading is **H2** (`## Changelog` or a change category such as `## Added`, `## Fixed`, `## Changed`, `## Deprecated`, `## Removed`); **no** H1 in the file
 
 **Not required** for **REST API-only** packages: **`toc.yml`**, a root-level **`index.md`**, and **`index.md` in every subdirectory**. For **API** (prose) and **Library/SDK** packages, root **`index.md`** is required; **`index.md` in each subdirectory** is **Nice to have** only—do not report missing subsection `index.md` files as **Must fix** or **Should fix**.
 
@@ -429,8 +432,8 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 
 **Review Actions:**
 - Confirm `docfx.json` and OpenAPI/Swagger spec file are present at package root
-- Confirm `description/index.md` exists and covers §3.2 expectations
-- Confirm `changelog/changelog.md` exists
+- Confirm `description/index.md` exists and covers §3.2 expectations; verify **H2**-first heading structure (no H1)
+- Confirm `changelog/changelog.md` exists; verify the first heading is **H2** (`## Changelog` or a category such as `## Added` / `## Fixed`); **no** H1. Do **not** flag `## Added` or `## Fixed` as incorrect when they are the first heading
 - Confirm the OpenAPI/Swagger file is present and referenced by the build if applicable
 - Verify sensible naming (lowercase with hyphens preferred for new files)
 - When images are used, confirm they are under `description/images/` or `description/assets/` (not at package root)
@@ -456,7 +459,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 
 ### 3.2 Descriptive Markdown content review
 
-**Scope:** For **REST API**, apply §3.2 to **`description/index.md`** identified in **§3.1.1**. For **API** (§3.1.2), the primary target is typically **`index.md`**. Section headings below still name “Introduction,” “Platform overview,” and so on—regardless of the source file name.
+**Scope:** For **REST API**, apply §3.2 to **`description/index.md`** identified in **§3.1.1**. For **API** (§3.1.2), the primary target is typically **`index.md`**. Section headings below still name “Introduction,” “Platform overview,” and so on—regardless of the source file name. For **REST API**, those sections are **H2** (`## Introduction`, and so on) in `description/index.md`, not H1.
 
 #### 3.2.1 Introduction Section
 
@@ -538,6 +541,8 @@ The **Platform overview** section is optional. Do not report a missing section a
 - Ensure error responses are documented with examples
 
 ### 3.3 Changelog.md Content Review
+
+**REST API** (`changelog/changelog.md` per §3.1.1): first heading must be **H2**—**`## Changelog`** or a change category (**`## Added`**, **`## Fixed`**, **`## Changed`**, **`## Deprecated`**, **`## Removed`**). Do **not** require or allow H1. Do **not** report **Must fix** when the file opens with `## Fixed` or `## Added` instead of `## Changelog`. **API** / **Library/SDK** changelogs at `changelog.md` (root) or `changelog/changelog.md` follow the general H1 rules in §1.2 unless the team documents an exception.
 
 **Required structure:**
 - [ ] Latest version listed at the top
