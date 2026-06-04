@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-02).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -41,7 +41,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [24 items](#Features_mapdl) |[55 items](#Fixes_mapdl) |
+| mapdl | [24 items](#Features_mapdl) |[56 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [14 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1445,6 +1445,21 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Using mapdl::rth::EUL_NOD gives error "fields container over time or frequency expected in input":
+  > This PR fixes two defects in MAPDL nodal Euler-angle:
+  >
+  > 1. EUL_NOD failed  when requesting Euler-angle nodal results at a fractional time value on non-adaptive models --> "fields container over time or frequency expected in input" because the returned result did not carry the time label required by downstream time interpolation. The result now always carries the time label, so reading Euler angles at any time value works.
+  >
+  > 2. Body label lost when restricting to a single body. Asking for nodal Euler angles on a single body or material returned results labelled with body id 0 instead of the requested id. Multi-body requests were unaffected. Single-body requests now preserve the requested body / material id on every returned result, identically to the multi-body case.
+  >
+  > 
+  >
+  > **No user-visible behaviour changes for adaptive analyses, multi-body requests, or pure rotation workflows.**
+  >
+  > 
+  >
+  > 
 
 - Add missing input pins to EUL_NOD and coords_and_euler_nodes operator specs:
   > 
