@@ -32,6 +32,64 @@ When the user asks for a compliance check, self-review, or pre-PR verification, 
 
 - **Do not** add that file to **`toc.yml`** or the product landing page unless the team wants it on the portal.
 - **Include:** title; metadata (package path relative to the repo root, ISO date); summary (Approved / needs minor or major revisions) **aligned with §0.7**; **package classification per §0** (which of **REST API**, **API**, and **Library/SDK** **apply**, with evidence); **checklists and findings only for applicable types** — omit sections and table rows for types that do not apply (do not fill the report with “N/A” for irrelevant categories); scope; numbered action items **each prefixed with Must fix, Should fix, or Nice to fix**. For narrative structure, follow **section 8 — Review output format** in Part 2.
+- **Guideline links:** for each issue and matching action item tied to a tagged requirement or rubric rule, add an absolute **Reference** link per **Guideline references in compliance reports** below and **§8**.
+
+### Guideline references in compliance reports
+
+Authors read **`documentation-compliance-report.md`** inside their documentation package repo, not inside the guidelines repo. Use **absolute HTTPS links** so **Reference** lines work from any clone or GitHub view.
+
+**Canonical base URL** (default branch **`main`**):
+
+`https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs`
+
+Append the path under `content/docs/` and, when possible, a **fragment** (`#heading-anchor`) for the specific section. Do **not** use repo-relative paths (for example `/docs/...`) in compliance reports.
+
+**When to include a Reference**
+
+| Situation | Reference |
+|-----------|-----------|
+| Finding maps to a **Must have** / **Should have** / **Nice to have** item in a tagged source (§0.7) | **Required** — link to the **most specific** section (checklist subsection or writing/migrate guide heading). |
+| Finding maps only to Part 2 of this file (no tagged `content/` rule) | **Optional** — link to the closest `content/` page if one exists; otherwise describe the rubric section in prose (no link required). |
+| **Strengths** only (requirement met) | **Do not** add Reference links (keeps **Issues** actionable). |
+
+**Anchor rules (GitHub)**
+
+- Derive fragments from the heading text on the target page: lowercase, spaces → hyphens, remove most punctuation. Examples: `## Images and assets` → `#images-and-assets`; `### Images and assets (API prose and REST API)` → `#images-and-assets-api-prose-and-rest-api`; `## Introduction *(Must have)*` → `#introduction-must-have`.
+- If unsure of the fragment, link to the file without `#` or to the checklist section that states the rule.
+
+**Reference line format** (under each issue in §8):
+
+- **Reference**: [Short title](absolute-url) — optional suffix: `(guideline: **Must have**)` when the linked page tags the requirement.
+
+**Prefer human-facing `content/` over this file** when both cover the same rule (checklist first for breadth; then metadata, writing guidelines, migrate guides, markdown/style guides).
+
+**Common targets** (replace `{BASE}` with the canonical base URL above):
+
+| Topic | Path and typical anchor |
+|-------|-------------------------|
+| Checklist (any item) | `{BASE}/common-practices/documentation-checklist.md` + checklist heading anchor |
+| Style, Vale, sentence case, voice | `{BASE}/common-practices/documentation-checklist.md#style-and-writing` or `{BASE}/common-practices/styleguide.md` |
+| Metadata (Markdown / library) | `{BASE}/migrate-dev-portal/migrate-package/metadata.md#mandatory-metadata` |
+| REST metadata + OpenAPI split | `{BASE}/migrate-dev-portal/migrate-package/metadata.md#rest-api-content-structure` |
+| Supported metadata keys / Priority column | `{BASE}/migrate-dev-portal/migrate-package/metadata.md#supported-metadata-keys` |
+| Package-type matrix | `{BASE}/migrate-dev-portal/migrate-package/package-type-matrix.md` |
+| Markdown API package layout | `{BASE}/migrate-dev-portal/migrate-package/md-package.md` |
+| REST API package layout | `{BASE}/migrate-dev-portal/migrate-package/http-package.md` |
+| Library/SDK (Doxygen) layout | `{BASE}/migrate-dev-portal/migrate-package/doxygen-package.md` |
+| API descriptive sections | `{BASE}/writing-guidelines/api/desc-content.md` (e.g. `#images-and-assets`, `#introduction-must-have`, `#authenticate-must-have`) |
+| Library/SDK descriptive sections | `{BASE}/writing-guidelines/library-sdk/desc-content.md` (e.g. `#introduction-must-have`, `#getting-started-should-have`) |
+| Markdown (formulas, alt text, anchors) | `{BASE}/common-practices/markdown-guide.md` (e.g. `#formulas`, `#image-alt-text-and-title-attribute`) |
+| `toc.yml` (single file, duplicate `href`, quoting) | `{BASE}/common-practices/documentation-checklist.md#common-file-structure` or `{BASE}/common-practices/documentation-checklist.md#markdown-packages` |
+
+**Example issue block:**
+
+```markdown
+1. **Must fix** (Policy) — Missing `doc_type` in `docfx.json` global metadata
+   - **Location**: `docfx.json` (package root)
+   - **Current state**: `build.globalMetadata` has no `doc_type`
+   - **Required action**: Set `doc_type` to the value required for this package classification
+   - **Reference**: [Mandatory metadata](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md#mandatory-metadata) (guideline: **Must have**)
+```
 
 ### Simple invocation mode
 
@@ -44,8 +102,9 @@ When invoked this way, the agent must still do the full workflow in this file:
 1. Classify the package automatically per **§0** and apply only relevant sections.
 2. Create or update **`documentation-compliance-report.md`** in the package root.
 3. Tag every finding and action item with exactly one severity (**Must fix**, **Should fix**, **Nice to fix**).
-4. Provide concrete file-level remediation actions.
-5. Return a concise chat summary containing:
+4. Add absolute **Reference** links to the relevant guideline section for each tagged finding (Part 1 — **Guideline references in compliance reports**).
+5. Provide concrete file-level remediation actions.
+6. Return a concise chat summary containing:
    - package classification
    - top **Must fix** items
    - confirmation that **`documentation-compliance-report.md`** was created or updated
@@ -100,6 +159,7 @@ Documentation packages fall into **three API / developer-doc types** (see **§0*
 
 When reviewing documentation, systematically evaluate each section below. Provide specific feedback with:
 - Clear identification of issues found, each labeled with **one severity** (**Must fix**, **Should fix**, **Nice to fix**) per **§0.7**, and optionally a **category** (**Policy**, **Correctness**, **Quality**)
+- **Reference** links to the matching guideline section (absolute URL) for each tagged finding — see Part 1 — **Guideline references in compliance reports**
 - References to specific files and line numbers where applicable
 - Actionable recommendations for fixes
 - Recognition of areas that meet or exceed guidelines
@@ -181,6 +241,8 @@ Tagged sources (use the tag on the matching requirement when reporting a finding
 - [Migrate package guides](https://github.com/ansys-internal/developer-documentation-guidelines/tree/main/content/docs/migrate-dev-portal/migrate-package) — `package-type-matrix`, `md-package`, `http-package`, `doxygen-package`
 - [Markdown guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/markdown-guide.md) and [Style guide](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/common-practices/styleguide.md) — tagged structural and style rules
 
+In **`documentation-compliance-report.md`** and chat reviews, each violation tied to a tagged source must include an absolute **Reference** link to the matching section (see Part 1 — **Guideline references in compliance reports** and **§8**).
+
 When a tagged requirement is not met, use the matching review severity:
 
 | Guideline tag | Review severity when not met |
@@ -244,7 +306,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - [ ] Each Markdown file contains exactly one H1 heading
 - [ ] All hyperlinks are functional (no 404 errors or broken internal links)
 - [ ] Images display correctly with lowercase file extensions (`.png`, `.jpg`, NOT `.PNG`, `.JPG`)
-- [ ] All images have descriptive alt text
+- [ ] **Should have** — Informative images have descriptive alt text (see [Markdown guide — Image alt text](/docs/common-practices/markdown-guide#image-alt-text-and-title-attribute); **Should fix** when missing on meaningful figures)
 - [ ] Code blocks specify language for proper syntax highlighting
 - [ ] Documentation has been tested locally using Docfx
 
@@ -255,6 +317,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - Test all external links for accessibility
 - Verify all internal links point to existing files/anchors
 - Check image file extensions and naming conventions
+- Flag missing alt text on informative images as **Should fix** per **§0.7**
 - Verify code blocks have language identifiers (```python, ```json, etc.)
 
 ### 1.3 GitHub and Version Control
@@ -338,12 +401,19 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 
 **Not required** for **REST API-only** packages: **`toc.yml`**, a root-level **`index.md`**, and **`index.md` in every subdirectory**. For **API** (prose) and **Library/SDK** packages, root **`index.md`** is required; **`index.md` in each subdirectory** is **Nice to have** only—do not report missing subsection `index.md` files as **Must fix** or **Should fix**.
 
+**Image and asset folders (**Should have** when figures are used):**
+- [ ] Binary images and diagrams live under **`description/images/`** or **`description/assets/`** only (not at package root)
+- [ ] Image file extensions are lowercase (`.png`, `.jpg`)
+- [ ] **Should have** — Informative images have descriptive alt text
+
 **Review Actions:**
 - Confirm `docfx.json` and OpenAPI/Swagger spec file are present at package root
 - Confirm `description/index.md` exists and covers §3.2 expectations
 - Confirm `changelog/changelog.md` exists
 - Confirm the OpenAPI/Swagger file is present and referenced by the build if applicable
 - Verify sensible naming (lowercase with hyphens preferred for new files)
+- When images are used, confirm they are under `description/images/` or `description/assets/` (not at package root)
+- Flag missing alt text on informative images as **Should fix**
 
 #### 3.1.2 API packages (prose wire API, not OpenAPI-authoritative)
 
@@ -351,10 +421,17 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - [ ] `index.md` exists at package root (landing page)
 - [ ] Changelog file exists (`changelog.md` at root or `changelog/changelog.md`)
 
+**Image and asset folders (**Should have** when figures are used):**
+- [ ] Binary images and diagrams live under a dedicated **`images/`** or **`assets/`** directory **anywhere** in the package tree (not loose beside Markdown, `docfx.json`, or the OpenAPI spec)
+- [ ] Image file extensions are lowercase (`.png`, `.jpg`)
+- [ ] **Should have** — Informative images have descriptive alt text
+
 **Review Actions:**
 - Verify both required files exist
 - Check that `index.md` serves as effective entry point
 - Verify file naming uses lowercase with hyphens
+- When images are used, confirm they are in an `images/` or `assets/` folder somewhere in the package (not loose beside content files)
+- Flag missing alt text on informative images as **Should fix**
 
 ### 3.2 Descriptive Markdown content review
 
@@ -942,18 +1019,19 @@ Same requirements as API changelog (see section 3.3)
 - [ ] Changelog file exists (required for **API** / **Library/SDK** at `changelog.md` root or `changelog/changelog.md`; for **REST API-only**, use `changelog/changelog.md` per §3.1.1)
 - [ ] Related content in logical subdirectories
 - [ ] Each subdirectory has `index.md` (**Nice to have** for **Library/SDK**-style trees; not for **REST API-only**—absence is **Nice to fix** at most, not **Must fix** / **Should fix**)
-- [ ] Images in dedicated `images/` directory
+- [ ] Images in dedicated `images/` or `assets/` directory (**Should have** when figures are used: **REST API** → **`description/images/`** or **`description/assets/`** only per **§3.1.1**; **API (prose)** and **Library/SDK** → `images/` or `assets/` anywhere in the package tree)
 - [ ] File names use lowercase with hyphens (e.g., `getting-started.md`)
 
 **Review Actions:**
 - Map out directory structure
 - Verify logical organization
 - Check file naming conventions
-- Ensure images are properly organized
+- Ensure images are in an `images/` or `assets/` folder in the package (**REST API** under `description/` only; **API (prose)** and **Library/SDK** anywhere in the tree—not loose beside Markdown or spec files)
+- Flag missing alt text on informative images as **Should fix** per **§1.2**
 
 ### 5.2 Markdown Packages (API and Library/SDK)
 
-**Does not apply to REST API-only packages** — those have no **`toc.yml`** requirement; use **§3.1.1** and **§5.4** instead.
+**REST API-only** packages: no **`toc.yml`** requirement; image folders per **§3.1.1**. Use **§3.1.1** and **§5.4** for layout and OpenAPI checks.
 
 - [ ] Files in logical directory structure
 - [ ] `toc.yml` exists and is correct
@@ -1084,7 +1162,15 @@ Same requirements as API changelog (see section 3.3)
 
 ## 8. Review Output Format
 
-When completing a review, provide feedback in this format:
+When completing a review, provide feedback in this format. **`documentation-compliance-report.md`** must follow the same structure, including **Reference** links per Part 1 — **Guideline references in compliance reports**.
+
+### Guideline references (Reference field)
+
+- Use the canonical guidelines base URL: `https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/...`
+- **Required** on every **Issue** (and on the matching **Action item**) when the finding maps to a tagged **Must have** / **Should have** / **Nice to have** requirement in `content/`.
+- Link to the **most specific** heading (checklist subsection or writing/migrate/markdown/style guide), not the repo root or an entire tree URL.
+- Format: `- **Reference**: [Short title](absolute-url)` with optional `(guideline: **Must have** | **Should have** | **Nice to have**)` when the source page tags the rule.
+- Omit **Reference** on **Strengths** and on issues with no corresponding tagged guideline (describe the rubric in prose instead).
 
 ### Summary
 - Overall assessment (Approved / Needs Minor Revisions / Needs Major Revisions), **justified using §0.7**
@@ -1111,7 +1197,7 @@ Use **Passed** when all applicable criteria in that section are met; **Warnings*
    - **Location**: [File name and line number or section]
    - **Current state**: [What exists now]
    - **Required action**: [What needs to be done]
-   - **Reference**: [Link to guideline]
+   - **Reference**: [Short title](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/...#section-anchor) — required when tied to a tagged guideline; optional otherwise
 
 **Recommendations:**
 - Optional improvements beyond mandatory rubric (tag with **Nice to fix** or **Should fix** when they are actionable). Do not duplicate **Strengths** here.
@@ -1121,6 +1207,7 @@ Use **Passed** when all applicable criteria in that section are met; **Warnings*
 Order by severity (**Must fix** first, then **Should fix**, then **Nice to fix**). Include **only open violations** from **Issues**—not confirmations that a rule passed.
 
 1. **[Must fix | Should fix | Nice to fix]** — [Action description] | [Owner] | [Estimated effort]
+   - **Reference**: [Short title](absolute-url) — repeat the same link as the corresponding **Issue** when the action item comes from a tagged requirement
 
 ### Sign-off
 
@@ -1166,7 +1253,7 @@ Use this quick checklist for review completion tracking:
   - [ ] Reference documentation (functions, classes, data structures)
 - [ ] Pre-submission checks completed
 - [ ] Local testing performed
-- [ ] Feedback documented and communicated; **every issue and action item tagged per §0.7**
+- [ ] Feedback documented and communicated; **every issue and action item tagged per §0.7**; **Reference** links on tagged findings per Part 1 / §8
 - [ ] Final approval status determined
 
 ---
