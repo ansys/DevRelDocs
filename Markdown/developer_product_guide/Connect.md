@@ -34,6 +34,8 @@ You can also access optiSLang APIs and libraries through PyOptiSLang, the open-s
 
 * [Ansys optiSLang Getting Started (ALH)](https://www.ansys.com/training-center/course-catalog/connect/ansys-optislang-getting-started#tab1-4)
 
-## System Architecture Modeler
+## System Architecture Modeler (SAM)
 
-There are no developer tools available at this time.
+The open-source library PySAM SysML2 is available and provides a Python scripting interface for SysML2 models.
+
+* [PySAM SysML2 documentation (PyAnsys)](https://sysml2.docs.pyansys.com/version/stable/)

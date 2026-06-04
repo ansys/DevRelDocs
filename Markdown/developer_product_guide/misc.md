@@ -65,45 +65,46 @@ The Ansys Geometry Service includes PyAnsys Geometry, an open-source PyAnsys lib
 
 ## High Performance Computation (HPC) Platform Services
 
-HPS has REST APIs and PyHPS, an open-source PyAnsys library.
+HPS has REST APIs and two PyHPS PyAnsys libraries, which are open-source.
 
-[PyHPS documentation (PyAnsys)](https://hps.docs.pyansys.com/)
+* [PyHPS documentation (PyAnsys)](https://hps.docs.pyansys.com/)
+* [PyHPS Data Transfer documentation (PyAnsys)](https://data-transfer.hps.docs.pyansys.com/version/stable/)
 
 ## Multi-physics examples
 
 The PyAnsys workflow repository contains multi-physics examples.
 
-[PyAnsys workflows documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
+* [PyAnsys workflows documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
 
 ## Ansys Notebook
 
 Ansys Notebook is a Jupyter-like environment that provides access to Ansys solvers over the web using PyAnsys.
 
-[Ansys Notebook for developers (Developer Portal documentation)](https://developer.ansys.com/docs/notebook)
+* [Ansys Notebook for developers (Developer Portal documentation)](https://developer.ansys.com/docs/notebook)
 
 ## Product Instance Management (PIM)
 
 PyPIM exposes a Pythonic interface to communicate with the Product Instance Management (PIM) API.
 
-[PyPIM documentation (PyAnsys)](https://pypim.docs.pyansys.com/version/stable/)
+* [PyPIM documentation (PyAnsys)](https://pypim.docs.pyansys.com/version/stable/)
 
 ## PyAnsys Math
 
 PyAnsys Math gathers all mathematical calculation tools present in Ansys software and uses the MAPDL solver in the background.
 
-[PyAnsys Math documentation (PyAnsys)](https://math.docs.pyansys.com/)
+* [PyAnsys Math documentation (PyAnsys)](https://math.docs.pyansys.com/)
 
 ## PyAnsys Shared Components
 
 This open-source PyAnsys library provides a collection of components shared across the PyAnsys ecosystem.
 
-[PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
+* [PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
 
 ## Workbench
 
 Ansys Workbench provides Python journaling capabilities. The Python interpreter enables Python scripting within the application. It also includes an interpreter that interacts with the application and PyWorkbench, an open-source PyAnsys library.
 
-[PyWorkbench documentation (PyAnsys)](https://workbench.docs.pyansys.com/)
+* [PyWorkbench documentation (PyAnsys)](https://workbench.docs.pyansys.com/)
 
 ### Ansys Workbench training material
 

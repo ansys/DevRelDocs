@@ -106,7 +106,7 @@ If you are interested in getting started with PyAnsys or any of Ansys' Python to
 * [Sound](<https://developer.ansys.com/docs/ansys-developer-product-guide/Acoustics_Analysis.md#ip-sound>)
 * [SpaceClaim](<https://developer.ansys.com/docs/ansys-developer-product-guide/3d_design.md#ip-spaceclaim>)
 * [Speos](<https://developer.ansys.com/docs/ansys-developer-product-guide/optics.md#ip-speos>)
-* [System Architecture Modeler](<https://developer.ansys.com/docs/ansys-developer-product-guide/Connect.md#ip-system-architecture-modeler>)
+* [System Architecture Modeler (SAM)](<https://developer.ansys.com/docs/ansys-developer-product-guide/Connect.md#ip-system-architecture-modeler-sam>)
 * [System coupling](<https://developer.ansys.com/docs/ansys-developer-product-guide/multiphysics.md#ip-system-coupling>)
 * [Systems Tool Kit (STK)](<https://developer.ansys.com/docs/ansys-developer-product-guide/Digital_Mission_Engineering_DME.md#ip-systems-tool-kit-stk>)
 * [Thermal Desktop](<https://developer.ansys.com/docs/ansys-developer-product-guide/fluids.md#ip-thermal-desktop>)

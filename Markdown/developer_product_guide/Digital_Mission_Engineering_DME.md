@@ -30,7 +30,10 @@ RF Channel Modeler has a client library that is available with bindings for .NET
 
 ## Systems Tool Kit (STK)
 
+PySTK is available as part of PyAnsys as of Ansys 2025 R2.
+
 * [Digital Mission Engieering Products](https://www.agi.com/new-stk)
+* [PySTK documentation (PyAnsys)](https://stk.docs.pyansys.com/version/stable/)
 * [STK Python Programmer's Guide](https://help.agi.com/stkdevkit/index.htm#python/pythonProgrammingGuide.htm?TocPath=Development%2520Environments%257CSTK%2520Python%2520API%257CProgrammer%25E2%2580%2599s%2520Guide%257C_____0)
 * [STK Java API](https://help.agi.com/stkdevkit/index.htm#java/jdkOverview.htm?TocPath=Development%2520Environments%257CSTK%2520Java%2520API%257C_____0)
 
@@ -39,3 +42,5 @@ RF Channel Modeler has a client library that is available with bindings for .NET
 * [Ansys AGI Training and Certification (AGI)](https://www.agi.com/Training-and-Certification)
 * [Python and SssssssTK! (AGI)](https://www.agi.com/tech-tips/Python-and-SssssssTK)
 * [Lesson 16-2 Integrating STK With Python Using Jupyter Notebooks (AGI)](https://www.youtube.com/watch?v=uaVVzpRDg3s)
+* [What’s New in 2025 R2: Ansys PySTK, a Python API for Ansys STK Software (Blog)](https://www.ansys.com/blog/ansys-pystk-python-api-ansys-stk-software)
+* [PyAnsys Training: Introducing PySTK in Ansys 2025 R2 | Native Python API for Ansys STK (YouTube)](https://www.youtube.com/watch?v=aJJ-uZj2KCc)
