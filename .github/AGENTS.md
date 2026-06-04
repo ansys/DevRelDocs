@@ -58,7 +58,7 @@ Section **9. Additional resources** in Part 2 links to Markdown, style, linters,
 
 ### Metadata and taxonomies
 
-Check titles, versions, **physics**, and **programming language** against the taxonomy YAML shipped with the documentation repo (typically under **`config/portal-metadata`** on the branch in use).
+Check titles, versions, and **physics** against the taxonomy YAML shipped with the documentation repo (typically under **`config/portal-metadata`** on the branch in use). Validate **programming language** only when the package sets that field—it is **Nice to have** and may be omitted when not meaningful.
 
 ### Linters and builds
 
@@ -303,9 +303,9 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - [ ] **version**: API / package version string. For REST packages, the **documentation package version** is taken from **`info.version`**, not from `docfx.json`
 - [ ] **description**: Brief API description in **`info.description`** (OpenAPI)
 
-### 2.2 Recommended Metadata
+### 2.2 Recommended and optional metadata
 
-- [ ] **Programming language**: Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata)
+- [ ] **Programming language** (**Nice to have**): Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata) when a single language filter is meaningful. **Do not** require it for language-agnostic packages (for example, many REST APIs). If omitted, do not report as **Must fix** or **Should fix**. If set, the value must be valid (**Must fix** when invalid).
 - [ ] **Optional fields** (**status**, **access control**, **author**, **date**, and so on) when the package uses them — see [metadata configuration](https://github.com/ansys-internal/developer-documentation-guidelines/blob/main/content/docs/migrate-dev-portal/migrate-package/metadata.md)
 
 **Review Actions:**
@@ -314,7 +314,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - **For Markdown packages (including Doxygen-converted content):** Confirm required `globalMetadata` fields in §2.1, including **`summary`**
 - **For REST API packages only:** Confirm `docfx.json` includes `doc_type`, `product`, `summary`, and `physics` in `build.globalMetadata`, and that `info.title`, `info.version`, and `info.description` are populated in the spec with no contradictory version or naming between files
 - Check version numbering consistency across files
-- Validate taxonomy terms (`physics`, `product`, `programming language`, and any optional fields in use) against the official YAML lists
+- Validate taxonomy terms for every field in use (`physics`, `product`, `programming language` if set, and any other optional fields) against the official YAML lists
 - Ensure title formatting is consistent with conventions
 - Ensure titles avoid redundant words such as "documentation" and "guide"
 
