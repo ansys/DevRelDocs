@@ -94,13 +94,16 @@ Append the page path (same slug as on the site, **without** `.md` or a `content/
 | Supported metadata keys / Priority column | `{BASE}/migrate-dev-portal/migrate-package/metadata#supported-metadata-keys` |
 | Package-type matrix | `{BASE}/migrate-dev-portal/migrate-package/package-type-matrix` |
 | Markdown API package layout | `{BASE}/migrate-dev-portal/migrate-package/md-package` |
-| REST API package layout | `{BASE}/migrate-dev-portal/migrate-package/http-package` |
+| REST API package layout | `{BASE}/migrate-dev-portal/migrate-package/rest-api-package` |
+| Package types and naming | `{BASE}/migrate-dev-portal/migrate-package/package-type-matrix#package-types-and-naming` |
 | Library/SDK (Doxygen) layout | `{BASE}/migrate-dev-portal/migrate-package/doxygen-package` |
-| API descriptive sections | `{BASE}/writing-guidelines/api/desc-content` (e.g. `#images-and-assets`, `#introduction-must-have`, `#authenticate-must-have`) |
+| API descriptive sections (hub; legacy anchors) | `{BASE}/writing-guidelines/api/desc-content` (e.g. `#images-and-assets`, `#introduction-must-have`, `#authenticate-must-have`) |
+| API (prose) descriptive sections | `{BASE}/writing-guidelines/api/desc-content-prose` (e.g. `#introduction-must-have`, `#images-and-assets`) |
+| REST API descriptive sections | `{BASE}/writing-guidelines/api/desc-content-rest-api` (e.g. `#folder-structure-for-rest-api-packages`, `#authenticate-must-have-for-rest-apis`, `#headings-rest-api-only-must-have`) |
 | Library/SDK descriptive sections | `{BASE}/writing-guidelines/library-sdk/desc-content` (e.g. `#introduction-must-have`, `#getting-started-should-have`) |
 | Markdown (formulas, alt text, anchors) | `{BASE}/common-practices/markdown-guide` (e.g. `#formulas`, `#image-alt-text-and-title-attribute`) |
 | `toc.yml` (single file, duplicate `href`, quoting) | `{BASE}/common-practices/documentation-checklist#common-file-structure` or `{BASE}/common-practices/documentation-checklist#markdown-packages` |
-| REST API headings (`description/index.md`, `changelog/changelog.md`) | `{BASE}/writing-guidelines/api/desc-content#headings-rest-api-only-must-have` or `{BASE}/common-practices/markdown-guide#headings` |
+| REST API headings (`description/index.md`, `changelog/changelog.md`) | `{BASE}/writing-guidelines/api/desc-content-rest-api#headings-rest-api-only-must-have` or `{BASE}/common-practices/markdown-guide#headings` |
 
 **Example issue block:**
 
@@ -172,7 +175,7 @@ This agent performs systematic technical reviews of API, library, and SDK docume
 Documentation packages fall into **three API / developer-doc types** (see **§0** for how to tell them apart):
 
 1. **REST API** — HTTP REST surface documented with a **machine-readable OpenAPI (or Swagger) JSON/YAML** file and portal metadata rules for `rest_api`.
-2. **API** — **No OpenAPI file** as the authoritative reference (or OpenAPI is not how the portal builds this package’s reference). The **protocol**, **messages** (fields, types, required/optional), **formats**, and behavior are documented — **typically in Markdown** (and optional diagrams). Examples: narrative REST, custom binary/text protocols, gRPC/Protobuf **described in prose** (or generated from `.proto` into Markdown), OSC, etc. Use **§3.6** for non-HTTP/non-gRPC-native layouts; **§3.5** when review targets **`.proto`** as reference.
+2. **API (prose)** — **No OpenAPI file** as the authoritative reference (or OpenAPI is not how the portal builds this package’s reference). The **protocol**, **messages** (fields, types, required/optional), **formats**, and behavior are documented — **typically in Markdown** (and optional diagrams). Examples: narrative HTTP/REST, custom binary/text protocols, gRPC/Protobuf **described in prose** (or generated from `.proto` into Markdown), OSC, etc. Use **§3.6** for non-HTTP/non-gRPC-native layouts; **§3.5** when review targets **`.proto`** as reference. **Not** the same as **REST API** (OpenAPI package)—see package-type matrix.
 3. **Library/SDK** — **Language-dependent** developer surface: **classes**, **structs**, **functions**, modules, and usage samples; reference is often generated (Doxygen, docfx API, etc.) or hand-written. An **SDK** is typically broader than a single library (multiple components + examples).
 
 **Hybrid packages** (e.g. OpenAPI **and** a client library) combine types; apply every checklist that matches a delivered surface.
@@ -214,7 +217,7 @@ Determine the **documentation package classification(s)** before applying the re
 
 **How to detect:** No OpenAPI root file in package (or not used); substantive API prose in `.md`; optional `.proto` or schema files **without** classifying the package as **REST API**.
 
-**Checklist focus:** §2.1 **Markdown** metadata (not the REST/OpenAPI split unless **REST API** also applies). **§3.1–§3.3**, **§3.2** where relevant (e.g. HTTP auth, examples). **§3.6** for non-HTTP / “other” protocols. **§3.5** for **Protobuf/gRPC** reference review when protos are in scope. **Do not** apply **§3.4** (OpenAPI field-by-field) or **§5.4** unless an OpenAPI file is actually part of the deliverable.
+**Checklist focus:** §2.1 **Markdown** metadata (not the REST/OpenAPI split unless **REST API** also applies). **§3.1–§3.3**; for descriptive content use **§3.2.1–§3.2.2** only (**Introduction** and optional **Platform overview** on `index.md`)—**do not** apply **§3.2.3–§3.2.6** (REST API descriptive sections). **§3.6** for protocol and message completeness in prose. **§3.5** for **Protobuf/gRPC** reference review when protos are in scope. **Do not** apply **§3.4** (OpenAPI field-by-field) or **§5.4** unless an OpenAPI file is actually part of the deliverable.
 
 **Quality bar:** Messages and fields should be as **complete** as practical—similar intent to OpenAPI, but in prose/tables/diagrams rather than a spec file.
 
@@ -230,14 +233,14 @@ Determine the **documentation package classification(s)** before applying the re
 
 - **Doxygen:** content is converted to Markdown and reviewed as a Markdown package; use §5.3 conversion checks where applicable.
 - **gRPC:** If review is **proto source** → **§3.5**. If only Markdown narrative → **API** + §3.6-style completeness for messages.
-- **Hybrid:** **REST API** **+** client library → **REST API** **+** **Library/SDK** (both §3.4 and §4 where relevant). **API** (prose) **+** small utility library → **API** + applicable §4 sections.
+- **Hybrids (align with [Package types and naming](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/package-type-matrix#hybrids)):** **Do not** treat a single migration folder as both **REST API** (OpenAPI at root) and **Library/SDK**. Ship separate packages when both are needed. **API** (prose) **+** library content in one Markdown tree may apply **§3** and **§4** subsets when both surfaces are present—record evidence and apply only matching sections.
 
 ### 0.5 Which sections of Part 2 apply (summary)
 
 | Classification | §2 Metadata | §3 | §4 | §5.4 OpenAPI |
 |----------------|-------------|-----|-----|----------------|
 | **REST API** | REST split (`docfx.json` + spec `info`) | Full, incl. **§3.4** | Only if **Library/SDK** also documented | **Yes** |
-| **API** | Markdown (§2.1) | §3.1–§3.3, §3.2 as fits; **§3.5** or **§3.6** as fits; **not §3.4** | Only if **Library/SDK** also documented | **No** |
+| **API** | Markdown (§2.1) | §3.1–§3.3; **§3.2.1–§3.2.2** only (not §3.2.3–§3.2.6); **§3.5** or **§3.6** as fits; **not §3.4** | Only if **Library/SDK** also documented | **No** |
 | **Library/SDK** | Markdown (including Doxygen-converted content) | Only if a wire API is also documented (narrative subsets) | **Full §4** | Only if OpenAPI bundled |
 
 When in doubt, state **ambiguous** classification in **`documentation-compliance-report.md`** and list evidence.
@@ -260,7 +263,7 @@ Tagged sources (use the tag on the matching requirement when reporting a finding
 - [Documentation compliance checklist](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/documentation-checklist) — every checklist item
 - [Metadata configuration](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata) — mandatory fields, REST structure, metadata table **Priority** column
 - [Writing guidelines](https://doc-guidelines.sandbox.ansysapis.com/docs/writing-guidelines/) — API and library/SDK descriptive and reference pages
-- [Migrate package guides](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/) — `package-type-matrix`, `md-package`, `http-package`, `doxygen-package`
+- [Migrate package guides](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/) — `package-type-matrix`, `md-package`, `rest-api-package`, `doxygen-package`
 - [Markdown guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/markdown-guide) and [Style guide](https://doc-guidelines.sandbox.ansysapis.com/docs/common-practices/styleguide) — tagged structural and style rules
 
 In **`documentation-compliance-report.md`** and chat reviews, the agent should add an absolute **Reference** link to the matching guidelines section for each violation tied to a tagged source when that helps the author (see Part 1 — **Guideline references in compliance reports** and **§8**). This documents the rule behind the finding; it is **not** something to check in the documentation package itself.
@@ -370,7 +373,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - [ ] **Title wording**: Avoid redundant words such as "documentation" or "guide" because the Dev portal context already provides this information
 - [ ] **Version**: Package version string (e.g., "2026 R1")
 - [ ] **Summary**: Brief description of this **documentation package** (not the commercial product description)
-- [ ] **Physics**: Product collection term from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata)
+- [ ] **Physics**: Product collection term from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata/physics.yml)
 
 **For Library/SDK content converted from Doxygen**:
 - [ ] Apply the same Markdown metadata requirements above
@@ -379,9 +382,9 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 
 **In `docfx.json`** (under `build.globalMetadata`):
 - [ ] **doc_type**: Must be `rest_api`
-- [ ] **product**: Product name (e.g. the offering or API product name); use valid terms from [product.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata) where applicable
+- [ ] **product**: Product name (e.g. the offering or API product name); use valid terms from [product.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata/product.yml) where applicable
 - [ ] **summary**: Brief description of this **documentation package** (not the commercial product description); used on Dev portal landing pages
-- [ ] **physics**: Product collection category from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata)
+- [ ] **physics**: Product collection category from [physics.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata/physics.yml)
 
 **In the REST API specification file** (OpenAPI `info` object):
 - [ ] **title**: API name (with version as appropriate). For REST packages, the **documentation package title** is taken from **`info.title`**, not from `docfx.json`
@@ -390,7 +393,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 
 ### 2.2 Recommended and optional metadata
 
-- [ ] **Programming language** (**Nice to have**): Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata) when a single language filter is meaningful. **Do not** require it for language-agnostic packages (for example, many REST APIs). If omitted, do not report as **Must fix** or **Should fix**. If set, the value must be valid (**Must fix** when invalid).
+- [ ] **Programming language** (**Nice to have**): Language term from [programming_language.yml](https://github.com/ansys/DevRelDocs/tree/main/config/portal-metadata/programming_language.yml) when a single language filter is meaningful. **Do not** require it for language-agnostic packages (for example, many REST APIs). If omitted, do not report as **Must fix** or **Should fix**. If set, the value must be valid (**Must fix** when invalid).
 - [ ] **Optional fields** (**status**, **access control**, **author**, **date**, and so on) when the package uses them — see [metadata configuration](https://doc-guidelines.sandbox.ansysapis.com/docs/migrate-dev-portal/migrate-package/metadata)
 
 **Review Actions:**
@@ -407,7 +410,7 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 
 ## 3. API Documentation Review
 
-**Classification:** This section applies to packages that document a **wire API** under **REST API** or **API** (§0). For **Library/SDK**-only packages, skip most of §3 unless §0 identified a **hybrid** wire API; for **REST API**, include **§3.4**; for **API**, **omit §3.4** (see **§0.5**).
+**Classification:** This section applies to packages that document a **wire API** under **REST API** or **API** (§0). For **Library/SDK**-only packages, skip most of §3 unless §0 identified a **hybrid** wire API; for **REST API**, include **§3.4** and full descriptive review (**§3.2.1–§3.2.6** on `description/index.md`); for **API (prose)**, **omit §3.4** and apply **§3.2.1–§3.2.2** only on `index.md` (see **§0.5**).
 
 ### 3.1 File Structure Requirements
 
@@ -450,32 +453,44 @@ If a finding is not covered by a tagged checklist line (for example, a defect fo
 - [ ] Image file extensions are lowercase (`.png`, `.jpg`)
 - [ ] **Should have** — Informative images have descriptive alt text
 
+**Descriptive content on `index.md`:** **Must have** — **Introduction** section. **Nice to have** — **Platform overview** section. **Do not** require **Resources**, **Authenticate**, **Send API requests**, or **Responses** on API (prose) packages (those sections apply to **REST API** only—§3.2.3–§3.2.6).
+
 **Review Actions:**
 - Verify both required files exist
-- Check that `index.md` serves as effective entry point
+- Check that `index.md` serves as effective entry point with an **Introduction** section (§3.2.1)
 - Verify file naming uses lowercase with hyphens
 - When images are used, confirm they are in an `images/` or `assets/` folder somewhere in the package (not loose beside content files)
 - Flag missing alt text on informative images as **Should fix**
+- **Do not** report missing REST-only descriptive sections (§3.2.3–§3.2.6) for **API (prose)** packages
 
 ### 3.2 Descriptive Markdown content review
 
-**Scope:** For **REST API**, apply §3.2 to **`description/index.md`** identified in **§3.1.1**. For **API** (§3.1.2), the primary target is typically **`index.md`**. Section headings below still name “Introduction,” “Platform overview,” and so on—regardless of the source file name. For **REST API**, those sections are **H2** (`## Introduction`, and so on) in `description/index.md`, not H1.
+**Scope by classification:**
+
+| Classification | Target file | Apply |
+|----------------|-------------|--------|
+| **REST API** | `description/index.md` (§3.1.1) | **§3.2.1–§3.2.6** — sections are **H2** (`## Introduction`, and so on); **no** H1 |
+| **API (prose)** | `index.md` (§3.1.2) | **§3.2.1–§3.2.2** only — **Introduction** (**Must have**) and optional **Platform overview** (**Nice to have**) |
+| **API (prose)** | — | **Do not** apply **§3.2.3–§3.2.6** (Resources, Authenticate, Send API requests, Responses). Review protocol and messages under **§3.6** (and **§3.5** when `.proto` is in scope), not as REST-style descriptive sections |
 
 #### 3.2.1 Introduction Section
 
-**Required elements:**
+**Applies to:** **API (prose)** and **REST API** descriptive files (see scope table above).
+
+**Must have:**
+- [ ] **Introduction** section is present (**Must fix** if missing)
+
+**Should have** (tag **Should fix** when absent or too thin):
 - [ ] **Capabilities and features**: Clear description of what developers can do with the API
 - [ ] **Protocol definition**: Explicitly states the protocol (REST, gRPC, HTTP, OSC, etc.)
-- [ ] **Testing environment**: 
-  - [ ] States if testable on Dev portal
-  - [ ] Provides alternative testing options if not testable
-  - [ ] Includes production environment information
-  - [ ] Provides relevant URLs
+
+**Writing-guidelines expectations** (tag **Should fix** when materially missing; see [Descriptive content — Introduction](https://doc-guidelines.sandbox.ansysapis.com/docs/writing-guidelines/api/desc-content#introduction-must-have)):
+- [ ] **Testing environment**: States if testable on Dev portal; alternative testing options; production environment information and relevant URLs when applicable
 
 **Review Actions:**
 - Verify introduction clearly explains API purpose and value proposition
-- Check that protocol is explicitly stated and accurately described
-- Confirm testing information is complete and actionable
+- Check that protocol is explicitly stated and accurately described when capabilities/protocol content is expected
+- For **API (prose)**, **do not** require REST-only sections from §3.2.3–§3.2.6 on `index.md`
 
 #### 3.2.2 Platform Overview Section (**Nice to have** for **API** and **REST API**)
 
@@ -490,9 +505,9 @@ The **Platform overview** section is optional. Do not report a missing section a
 - If **Platform overview** is absent, omit from **Issues** or note only under **Recommendations** as **Nice to fix**
 - When the section exists, verify diagram, application development, and communication flow quality as optional improvements
 
-#### 3.2.3 Resources Section (REST APIs only)
+#### 3.2.3 Resources Section (**REST API** only)
 
-**Scope:** Applies when the package documents an HTTP REST surface as **REST API** or **API**. For **REST API**, expectations should align with the OpenAPI spec. For **API** (narrative REST, etc.), treat as prose quality guidance (no requirement to mirror OpenAPI `tags`).
+**Scope:** **REST API** packages only (`description/index.md` per §3.1.1). **Do not** apply to **API (prose)** packages. Expectations should align with the OpenAPI spec.
 
 **Required elements:**
 - [ ] Definition of all resources handled by API endpoints
@@ -502,7 +517,9 @@ The **Platform overview** section is optional. Do not report a missing section a
 - Verify all endpoints reference defined resources
 - Check resource definitions are clear and complete
 
-#### 3.2.4 Authenticate Section
+#### 3.2.4 Authenticate Section (**REST API** only)
+
+**Scope:** **REST API** packages only. **Do not** apply to **API (prose)** packages.
 
 **Required elements:**
 - [ ] **Authentication methods**: Specifies if API key, token, or bearer token required
@@ -514,7 +531,9 @@ The **Platform overview** section is optional. Do not report a missing section a
 - Check retrieval instructions are actionable and complete
 - Ensure security considerations are addressed
 
-#### 3.2.5 Send API Requests Section
+#### 3.2.5 Send API Requests Section (**REST API** only)
+
+**Scope:** **REST API** packages only. **Do not** apply to **API (prose)** packages.
 
 **Required elements:**
 - [ ] **curl examples**: Working examples with explanations
@@ -526,7 +545,9 @@ The **Platform overview** section is optional. Do not report a missing section a
 - Check that Postman instructions are clear and complete
 - Ensure examples cover common use cases
 
-#### 3.2.6 Responses Section
+#### 3.2.6 Responses Section (**REST API** only)
+
+**Scope:** **REST API** packages only. **Do not** apply to **API (prose)** packages.
 
 **Required elements:**
 - [ ] **Response table**: Table with response types, values, strings, and descriptions
@@ -562,7 +583,7 @@ The **Platform overview** section is optional. Do not report a missing section a
 
 ### 3.4 REST API Reference Review
 
-**Applies only to:** **REST API** (package includes an OpenAPI/Swagger spec). If the package is **API** only, skip this subsection entirely and review endpoints and messages in Markdown (§3.2, §3.6).
+**Applies only to:** **REST API** (package includes an OpenAPI/Swagger spec). If the package is **API** only, skip this subsection entirely and review protocol and message completeness in Markdown (**§3.2.1–§3.2.2** on `index.md`, plus **§3.6** and **§3.5** when applicable)—not §3.2.3–§3.2.6.
 
 **JSON/YAML file requirements:**
 - [ ] File follows [OpenAPI Specification](https://www.openapis.org/)
@@ -791,7 +812,9 @@ service UserService {
 
 ### 3.6 Other APIs Review
 
-**For non-HTTP, non-gRPC APIs:**
+**Primary scope:** **API (prose)** packages—protocol and message completeness in Markdown when OpenAPI is not authoritative. Also use for non-HTTP, non-gRPC wire APIs. **Do not** substitute this section for REST-only descriptive sections (**§3.2.3–§3.2.6**) on **REST API** packages.
+
+**For non-HTTP, non-gRPC APIs (and API prose protocol/message documentation):**
 - [ ] Protocol clearly defined and explained
 - [ ] Data formats explicitly stated
 - [ ] Markdown files describe all messages for API communication
@@ -1274,7 +1297,7 @@ Use this quick checklist for review completion tracking:
 - [ ] File structure validated per **§3.1** / **§5.1** (REST API vs **API** / **Library/SDK**)
 - [ ] **`toc.yml`:** when present, exactly one in package; no duplicate `href`; `name` quoting rules (Part 1 / §5.2). **Not required** for **REST API-only** packages.
 - [ ] Wire API documentation reviewed **if §0 says REST API or API applies**
-  - [ ] Descriptive content: **REST API** = **`description/index.md`** + **`changelog/changelog.md`** with root **`docfx.json`** + OpenAPI spec per §3.1.1; **API (prose)** = **`index.md`** + changelog at **`changelog.md`** (root) or **`changelog/changelog.md`** per §3.1.2
+  - [ ] Descriptive content: **REST API** = **`description/index.md`** (§3.2.1–§3.2.6) + **`changelog/changelog.md`** with root **`docfx.json`** + OpenAPI spec per §3.1.1; **API (prose)** = **`index.md`** (§3.2.1–§3.2.2 only) + changelog at **`changelog.md`** (root) or **`changelog/changelog.md`** per §3.1.2
   - [ ] API reference: **§3.4 only for REST API**; **§3.5** if `.proto` review; **§3.6** for other protocols; **API** = completeness for protocol/messages in docs
 - [ ] Library/SDK documentation reviewed **if §0 says library/SDK applies**
   - [ ] Descriptive content (introduction, getting started, user guide, examples, changelog)
