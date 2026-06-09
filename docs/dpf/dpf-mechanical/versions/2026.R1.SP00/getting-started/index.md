@@ -10,7 +10,7 @@ This section will help you get up and running with DPF Mechanical in Ansys Mecha
 
 Before you begin, ensure you have:
 
-- Ansys Mechanical ||DPF_VERSION|| installed
+- Ansys Mechanical 2022 R2 or later installed
 - Access to the Mechanical scripting window or Python Result object
 - Basic understanding of Python programming
 - Familiarity with Ansys Mechanical and simulation concepts
