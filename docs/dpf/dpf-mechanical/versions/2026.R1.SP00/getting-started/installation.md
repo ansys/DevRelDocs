@@ -8,7 +8,7 @@ This guide covers how to access and use DPF within Ansys Mechanical.
 
 ## DPF integration in Mechanical
 
-DPF is automatically available in Ansys Mechanical ||DPF_VERSION||. No separate installation is required. DPF is exposed through IronPython using the underlying C# DLLs.
+DPF is automatically available in Ansys Mechanical 2022 R2 and later. No separate installation is required. DPF is exposed through IronPython using the underlying C# DLLs.
 
 ## Accessing DPF
 
@@ -92,7 +92,7 @@ If successful, you should see the module and object information printed.
 ## Troubleshooting
 
 ### Cannot import DPF module
-- Verify you're using Ansys Mechanical ||DPF_VERSION|| or later
+- Verify you're using Ansys Mechanical 2022 R2 or later
 - Ensure you're in the Mechanical scripting environment
 - Check that Mechanical is properly installed
 
