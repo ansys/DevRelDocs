@@ -8,56 +8,56 @@ Practical code examples demonstrating DPF capabilities in Ansys Mechanical scrip
 
 ## Basic Examples
 
-### [Load and Inspect Results](basic-load.md)
+### [Load and inspect results](basic-load.md)
 Load result data in the Mechanical scripting window and inspect basic properties.
 
-### [Extract Displacement](extract-displacement.md)
+### [Extract displacement](extract-displacement.md)
 Get nodal displacement values from Mechanical results.
 
-### [Calculate Stress](calculate-stress.md)
+### [Calculate stress](calculate-stress.md)
 Extract and process stress results in a Python Result object.
 
 ## Intermediate Examples
 
-### [Time History Extraction](time-history.md)
+### [Time history extraction](time-history.md)
 Extract values at specific locations across all time steps.
 
-### [Result Averaging](result-averaging.md)
+### [Result averaging](result-averaging.md)
 Average element results to nodes.
 
-### [Custom Scoping](custom-scoping.md)
+### [Custom scoping](custom-scoping.md)
 Extract results for specific parts or node/element sets.
 
 ## Advanced Examples
 
-### [Operator Chaining](operator-chaining.md)
+### [Operator chaining](operator-chaining.md)
 Build complex workflows by chaining multiple operators.
 
-### [Custom Result Computation](custom-computation.md)
+### [Custom result computation](custom-computation.md)
 Combine multiple result types for custom calculations.
 
-### [Batch Processing](batch-processing.md)
+### [Batch processing](batch-processing.md)
 Process multiple result files efficiently.
 
-## Common Workflows
+## Common workflows
 
-### Structural Analysis in Mechanical
+### Structural analysis in Mechanical
 - Extract displacement and stress from current solution
 - Calculate von Mises stress using DPF operators
 - Find maximum values and their locations
 - Create custom Python Result objects
 
-### Modal Analysis
+### Modal analysis
 - Extract mode shapes from Mechanical modal analysis
 - Calculate participation factors
 - Process frequency data
 
-### Thermal Analysis
+### Thermal analysis
 - Extract temperature fields from thermal solutions
 - Calculate heat flux using DPF
 - Track temperature over time steps
 
-## Example Template for Mechanical Scripting Window
+## Example template for Mechanical scripting window
 
 All scripting window examples follow this structure:
 
@@ -79,7 +79,7 @@ dpf_model = dpf.Model(data_sources)
 print("Done!")
 ```
 
-## Example Template for Python Result Object
+## Example template for Python result object
 
 Python Result examples use this structure:
 

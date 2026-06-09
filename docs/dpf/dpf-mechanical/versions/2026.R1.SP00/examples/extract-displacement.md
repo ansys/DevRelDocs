@@ -2,11 +2,11 @@
 uid: examples.extract-displacement
 ---
 
-# Extract Displacement in Mechanical
+# Extract displacement in Mechanical
 
 Extract nodal displacement values from Mechanical results using DPF operators.
 
-## Complete Example for Scripting Window
+## Complete example for scripting window
 
 ```python
 import mech_dpf
@@ -54,7 +54,7 @@ print("Maximum displacement: {0:.6e}".format(max_disp))
 print("At node: {0}".format(max_node_id))
 ```
 
-## Python Result Object Example
+## Python result object example
 
 Create a custom Python Result in Mechanical to display maximum displacement with visualization:
 
@@ -110,7 +110,7 @@ def define_dpf_workflow(analysis):
     this.WorkflowId = dpf_workflow.GetRecordedId()
 ```
 
-## Example: Extract Displacement on a Named Selection
+## Example: extract displacement on a named selection
 
 Extract displacement only on a specific named selection (remember: uppercase!):
 
@@ -148,7 +148,7 @@ magnitude = norm_op.GetOutput(0, dpf.Field)
 print("Max displacement: {0:.6e}".format(max(magnitude.Data)))
 ```
 
-## Key Points
+## Key points
 
 - **Always call** `mech_dpf.setExtAPI(ExtAPI)` before using DPF in Mechanical
 - Use `dpf.operators.result.*` for result extraction (not Model.Results)
@@ -159,7 +159,7 @@ print("Max displacement: {0:.6e}".format(max(magnitude.Data)))
 - For Python Result: create `dpf.Workflow()` and set `this.WorkflowId`
 - IronPython requires `.format()` instead of f-strings
 
-## See Also
+## See also
 
 - [Working with Fields](../user-guide/working-with-fields.md)
 - [Core Concepts](../user-guide/core-concepts.md)

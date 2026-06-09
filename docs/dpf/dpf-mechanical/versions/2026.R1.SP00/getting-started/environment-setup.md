@@ -6,9 +6,9 @@ uid: getting-started.environment-setup
 
 Learn how to effectively use DPF in different contexts within Ansys Mechanical.
 
-## Critical Setup Requirements
+## Critical setup requirements
 
-### Required Imports
+### Required imports
 
 ```python
 import mech_dpf
@@ -20,9 +20,9 @@ mech_dpf.setExtAPI(ExtAPI)
 
 **Important:** You must call `mech_dpf.setExtAPI(ExtAPI)` before using DPF operators in Mechanical. This initializes DPF with Mechanical's API context.
 
-### Important Usage Conventions
+### Important usage conventions
 
-#### Named Selections Must Be UPPERCASE
+#### Named selections must be UPPERCASE
 
 When using named selections in DPF, they must be specified in **UPPERCASE**, even if created with lowercase in Mechanical:
 
@@ -33,7 +33,7 @@ scoping_on_ns = dpf.operators.scoping.on_named_selection()
 scoping_on_ns.inputs.named_selection_name.Connect("MY_SELECTION")
 ```
 
-#### DPF Operators Pattern
+#### DPF operators pattern
 
 Use hierarchical namespace syntax for operators (not generic `dpf.Operator("name")`):
 
@@ -54,24 +54,24 @@ Common operator categories:
 - `dpf.operators.min_max.*` - Min/max operations
 - `dpf.operators.utility.*` - Utility operations (html_doc, etc.)
 
-## Mechanical Scripting Window
+## Mechanical scripting window
 
 The scripting window in Mechanical provides an interactive environment for DPF scripts:
 
-### Accessing the Scripting Window
+### Accessing the scripting window
 
 1. Open Ansys Mechanical
 2. Go to **View** → **Scripting**
 3. The scripting window appears at the bottom of the Mechanical interface
 
-### Scripting Window Features
+### Scripting window features
 
 - **Interactive Execution**: Run Python code immediately
 - **DPF Pre-loaded**: DPF assemblies are automatically available
 - **Mechanical API Access**: Full access to ExtAPI and Mechanical objects
 - **Intellisense Support**: Auto-completion for DPF and Mechanical APIs
 
-### Example Scripting Window Usage
+### Example scripting window usage
 
 ```python
 import mech_dpf
@@ -94,17 +94,17 @@ dpf_model = dpf.Model(data_sources)
 print("Nodes: {0}".format(dpf_model.Mesh.Nodes.Count))
 ```
 
-## Python Result Objects
+## Python result objects
 
 Python Result objects allow you to create custom result types in Mechanical:
 
-### Creating a Python Result
+### Creating a Python result
 
 1. In the Mechanical tree, right-click on **Solution**
 2. Insert → **Result** → **Python Result**
 3. Edit the Python code in the properties panel
 
-### Python Result Template
+### Python result template
 
 ```python
 def define_dpf_workflow(analysis):
@@ -145,7 +145,7 @@ def define_dpf_workflow(analysis):
     this.WorkflowId = dpf_workflow.GetRecordedId()
 ```
 
-### Python Result Context
+### Python result context
 
 - Use `define_dpf_workflow(analysis)` function pattern
 - `analysis`: Passed automatically by Mechanical
@@ -163,7 +163,7 @@ def define_dpf_workflow(analysis):
 4. Call `SetOutputContour()` on final operator
 5. Record workflow and set `this.WorkflowId`
 
-## Common Helper Functions
+## Common helper functions
 
 Create reusable functions for common DPF operations in Mechanical:
 
@@ -216,9 +216,9 @@ stress_field = get_stress_on_named_selection(data_sources, "my_selection")
 max_val, min_val = get_field_max_min(stress_field)
 print("Max stress: {0:.6e}, Min stress: {1:.6e}".format(max_val, min_val))
 ```
-## Best Practices for Mechanical
+## Best practices for Mechanical
 
-### IronPython Syntax Considerations
+### IronPython syntax considerations
 
 Mechanical uses IronPython, which has some differences from CPython:
 
@@ -237,7 +237,7 @@ nodes_list = list(mesh.Nodes)
 count = mesh.Nodes.Count  # Not len(mesh.Nodes)
 ```
 
-### Error Handling
+### Error handling
 
 ```python
 import Ans.DataProcessing as dpf
@@ -253,14 +253,14 @@ except Exception as e:
     print("Error: {0}".format(str(e)))
 ```
 
-### Performance Tips
+### Performance tips
 
 - Reuse DPF model objects when possible
 - Cache frequently accessed data
 - Use operators for complex operations
 - Minimize data transfers between .NET and Python
 
-## Next Steps
+## Next steps
 
 - [Hello DPF](hello-dpf.md) - Run your first Mechanical script
 - [User Guide](../user-guide/index.md) - Learn DPF concepts

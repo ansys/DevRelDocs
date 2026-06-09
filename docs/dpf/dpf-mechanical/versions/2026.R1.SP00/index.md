@@ -2,11 +2,9 @@
 uid: index
 ---
 
-# DPF Mechanical ||DPF_VERSION|| Documentation
+# Introduction
 
-Welcome to the DPF Mechanical ||DPF_VERSION|| documentation for Ansys Mechanical.
-
-## Overview
+This documentation describes how to use the Data Processing Framework (DPF) in Ansys Mechanical.
 
 The Ansys Data Processing Framework (DPF) provides a modern, comprehensive infrastructure for accessing and manipulating simulation data. DPF enables you to process large amounts of simulation data efficiently through a client-server architecture.
 
@@ -17,28 +15,28 @@ This documentation is specifically for **Ansys Mechanical users** who work with 
 
 Both interfaces expose DPF through IronPython using the underlying C# DLLs, allowing you to leverage DPF's capabilities using Python syntax within the Mechanical environment.
 
-## Documentation Sections
+## Documentation sections
 
-### [Getting Started](getting-started/index.md)
+### [Getting started](getting-started/index.md)
 Learn how to set up your environment and run your first DPF IronPython script.
 
-### [User Guide](user-guide/index.md)
+### [User guide](user-guide/index.md)
 Comprehensive guides covering core concepts, workflows, and best practices.
 
 ### [Examples](examples/index.md)
 Practical code examples demonstrating common DPF operations and workflows.
 
-### [API Reference](api/index.md)
+### [API reference](api/index.md)
 Complete API documentation for all DPF IronPython classes, methods, and properties.
 
-## Quick Links
+## Quick links
 
 - **Installation**: [Getting Started Guide](getting-started/installation.md)
 - **Your First Script**: [Hello DPF](getting-started/hello-dpf.md)
 - **Core Concepts**: [Understanding DPF](user-guide/core-concepts.md)
 - **Common Workflows**: [Working with Fields](user-guide/working-with-fields.md)
 
-## Key Features
+## Key features
 
 - **Integrated with Mechanical**: Direct access to DPF from within Ansys Mechanical
 - **High Performance**: Process large simulation datasets efficiently

@@ -15,7 +15,7 @@ DPF (Data Processing Framework) is a modern infrastructure for accessing and pro
 - **Integrated with Mechanical**: Available in scripting window and Python Results
 - **IronPython interface**: Python syntax using underlying C# DLLs
 
-## Key Concepts
+## Key concepts
 
 ### Model
 

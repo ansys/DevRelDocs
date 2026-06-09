@@ -8,7 +8,7 @@ uid: Ans.DataProcessing.Field
 
 ## Summary
 
-The field is the main simulation data container.
+The Field is the main simulation data container.
 
 Results data are defined by values associated to entities (scoping), and these entities are a subset of a model (support)
 
