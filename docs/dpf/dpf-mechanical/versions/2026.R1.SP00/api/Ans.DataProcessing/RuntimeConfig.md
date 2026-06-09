@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.RuntimeConfig
 ---
 
-# RuntimeConfig Class
+# RuntimeConfig class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

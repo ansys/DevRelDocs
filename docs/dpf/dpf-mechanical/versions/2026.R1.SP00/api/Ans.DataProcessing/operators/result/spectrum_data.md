@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.spectrum_data
 ---
 
-# spectrum_data Class
+# spectrum_data class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.coordinates
 ---
 
-# coordinates Class
+# coordinates class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-coordinates()
-coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-coordinates(config: OperatorConfig)
+coordinates()
+
+coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+coordinates(config: OperatorConfig)
+
 
 
 ## Class Information

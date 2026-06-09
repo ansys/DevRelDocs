@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.centroid_fc
 ---
 
-# centroid_fc Class
+# centroid_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

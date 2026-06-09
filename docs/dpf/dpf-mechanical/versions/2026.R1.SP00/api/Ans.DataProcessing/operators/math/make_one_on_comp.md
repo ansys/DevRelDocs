@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.make_one_on_comp
 ---
 
-# make_one_on_comp Class
+# make_one_on_comp class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

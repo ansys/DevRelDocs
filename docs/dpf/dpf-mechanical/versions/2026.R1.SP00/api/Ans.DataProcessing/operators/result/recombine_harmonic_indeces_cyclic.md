@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.recombine_harmonic_indeces_cyclic
 ---
 
-# recombine_harmonic_indeces_cyclic Class
+# recombine_harmonic_indeces_cyclic class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

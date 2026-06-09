@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.compute_total_strain_XZ
 ---
 
-# compute_total_strain_XZ Class
+# compute_total_strain_XZ class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-compute_total_strain_XZ()
-compute_total_strain_XZ(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
-compute_total_strain_XZ(config: OperatorConfig)
+compute_total_strain_XZ()
+
+compute_total_strain_XZ(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
+
+compute_total_strain_XZ(config: OperatorConfig)
+
 
 
 ## Class Information

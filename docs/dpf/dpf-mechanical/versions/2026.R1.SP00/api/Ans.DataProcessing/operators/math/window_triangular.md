@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.window_triangular
 ---
 
-# window_triangular Class
+# window_triangular class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

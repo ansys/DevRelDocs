@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.raw_displacement
 ---
 
-# raw_displacement Class
+# raw_displacement class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-raw_displacement()
-raw_displacement(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-raw_displacement(config: OperatorConfig)
+raw_displacement()
+
+raw_displacement(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+raw_displacement(config: OperatorConfig)
+
 
 
 ## Class Information

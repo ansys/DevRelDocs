@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.electric_field_Z
 ---
 
-# electric_field_Z Class
+# electric_field_Z class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-electric_field_Z()
-electric_field_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-electric_field_Z(config: OperatorConfig)
+electric_field_Z()
+
+electric_field_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+electric_field_Z(config: OperatorConfig)
+
 
 
 ## Class Information

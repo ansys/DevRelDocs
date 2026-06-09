@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.split_fields
 ---
 
-# split_fields Class
+# split_fields class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

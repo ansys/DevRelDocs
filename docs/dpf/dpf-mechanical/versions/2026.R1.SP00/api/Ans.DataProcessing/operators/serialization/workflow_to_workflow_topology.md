@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.serialization.workflow_to_workflow_topology
 ---
 
-# workflow_to_workflow_topology Class
+# workflow_to_workflow_topology class
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 

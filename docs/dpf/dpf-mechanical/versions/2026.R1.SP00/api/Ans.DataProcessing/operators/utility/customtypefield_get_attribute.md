@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.customtypefield_get_attribute
 ---
 
-# customtypefield_get_attribute Class
+# customtypefield_get_attribute class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

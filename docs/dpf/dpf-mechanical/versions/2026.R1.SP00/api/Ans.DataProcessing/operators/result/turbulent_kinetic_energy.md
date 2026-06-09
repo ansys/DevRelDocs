@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.turbulent_kinetic_energy
 ---
 
-# turbulent_kinetic_energy Class
+# turbulent_kinetic_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-turbulent_kinetic_energy()
-turbulent_kinetic_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-turbulent_kinetic_energy(config: OperatorConfig)
+turbulent_kinetic_energy()
+
+turbulent_kinetic_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+turbulent_kinetic_energy(config: OperatorConfig)
+
 
 
 ## Class Information

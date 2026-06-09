@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.thermal_dissipation_energy
 ---
 
-# thermal_dissipation_energy Class
+# thermal_dissipation_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-thermal_dissipation_energy()
-thermal_dissipation_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-thermal_dissipation_energy(config: OperatorConfig)
+thermal_dissipation_energy()
+
+thermal_dissipation_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+thermal_dissipation_energy(config: OperatorConfig)
+
 
 
 ## Class Information

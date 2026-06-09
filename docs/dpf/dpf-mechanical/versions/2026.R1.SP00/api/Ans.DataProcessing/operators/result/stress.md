@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress
 ---
 
-# stress Class
+# stress class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-stress()
-stress(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-stress(config: OperatorConfig)
+stress()
+
+stress(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+stress(config: OperatorConfig)
+
 
 
 ## Class Information

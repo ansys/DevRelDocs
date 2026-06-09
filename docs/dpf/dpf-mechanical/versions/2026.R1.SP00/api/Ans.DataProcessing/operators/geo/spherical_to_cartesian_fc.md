@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.geo.spherical_to_cartesian_fc
 ---
 
-# spherical_to_cartesian_fc Class
+# spherical_to_cartesian_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 

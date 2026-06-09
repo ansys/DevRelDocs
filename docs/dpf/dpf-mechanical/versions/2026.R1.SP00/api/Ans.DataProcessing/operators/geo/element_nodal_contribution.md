@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.geo.element_nodal_contribution
 ---
 
-# element_nodal_contribution Class
+# element_nodal_contribution class
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 

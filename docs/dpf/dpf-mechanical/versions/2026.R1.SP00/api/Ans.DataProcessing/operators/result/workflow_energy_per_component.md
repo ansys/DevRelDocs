@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.workflow_energy_per_component
 ---
 
-# workflow_energy_per_component Class
+# workflow_energy_per_component class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

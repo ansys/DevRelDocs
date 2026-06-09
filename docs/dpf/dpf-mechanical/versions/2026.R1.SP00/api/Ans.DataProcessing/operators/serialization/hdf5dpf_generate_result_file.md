@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.serialization.hdf5dpf_generate_result_file
 ---
 
-# hdf5dpf_generate_result_file Class
+# hdf5dpf_generate_result_file class
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 

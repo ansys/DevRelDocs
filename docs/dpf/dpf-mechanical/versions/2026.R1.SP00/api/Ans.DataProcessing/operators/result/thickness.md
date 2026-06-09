@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.thickness
 ---
 
-# thickness Class
+# thickness class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-thickness()
-thickness(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-thickness(config: OperatorConfig)
+thickness()
+
+thickness(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+thickness(config: OperatorConfig)
+
 
 
 ## Class Information

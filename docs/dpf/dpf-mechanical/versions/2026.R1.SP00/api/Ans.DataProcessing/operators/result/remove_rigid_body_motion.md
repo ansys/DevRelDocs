@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.remove_rigid_body_motion
 ---
 
-# remove_rigid_body_motion Class
+# remove_rigid_body_motion class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

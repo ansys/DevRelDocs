@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.part_hourglass_energy
 ---
 
-# part_hourglass_energy Class
+# part_hourglass_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.change_fc
 ---
 
-# change_fc Class
+# change_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

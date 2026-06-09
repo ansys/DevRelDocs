@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elastic_strain_max_shear
 ---
 
-# elastic_strain_max_shear Class
+# elastic_strain_max_shear class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-elastic_strain_max_shear()
-elastic_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-elastic_strain_max_shear(config: OperatorConfig)
+elastic_strain_max_shear()
+
+elastic_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+elastic_strain_max_shear(config: OperatorConfig)
+
 
 
 ## Class Information

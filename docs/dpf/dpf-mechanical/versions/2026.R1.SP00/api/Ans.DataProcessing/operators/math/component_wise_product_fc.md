@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.component_wise_product_fc
 ---
 
-# component_wise_product_fc Class
+# component_wise_product_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

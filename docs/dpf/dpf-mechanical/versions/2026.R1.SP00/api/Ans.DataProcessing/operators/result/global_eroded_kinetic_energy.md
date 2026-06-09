@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_eroded_kinetic_energy
 ---
 
-# global_eroded_kinetic_energy Class
+# global_eroded_kinetic_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

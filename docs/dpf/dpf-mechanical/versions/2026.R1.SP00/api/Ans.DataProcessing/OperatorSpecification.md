@@ -2,12 +2,14 @@
 uid: Ans.DataProcessing.OperatorSpecification
 ---
 
-# OperatorSpecification Class
+# OperatorSpecification class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-OperatorSpecification(name: str)
-OperatorSpecification(id: Int64)
+OperatorSpecification(name: str)
+
+OperatorSpecification(id: Int64)
+
 
 
 ## Class Information

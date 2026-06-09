@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.merge_fields_by_label
 ---
 
-# merge_fields_by_label Class
+# merge_fields_by_label class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.magnetic_field
 ---
 
-# magnetic_field Class
+# magnetic_field class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-magnetic_field()
-magnetic_field(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-magnetic_field(config: OperatorConfig)
+magnetic_field()
+
+magnetic_field(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+magnetic_field(config: OperatorConfig)
+
 
 
 ## Class Information

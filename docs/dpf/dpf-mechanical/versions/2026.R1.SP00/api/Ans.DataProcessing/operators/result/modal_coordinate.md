@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.modal_coordinate
 ---
 
-# modal_coordinate Class
+# modal_coordinate class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-modal_coordinate()
-modal_coordinate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-modal_coordinate(config: OperatorConfig)
+modal_coordinate()
+
+modal_coordinate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_coordinate(config: OperatorConfig)
+
 
 
 ## Class Information

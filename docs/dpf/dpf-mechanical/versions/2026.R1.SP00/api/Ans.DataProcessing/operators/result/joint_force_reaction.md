@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.joint_force_reaction
 ---
 
-# joint_force_reaction Class
+# joint_force_reaction class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-joint_force_reaction()
-joint_force_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_force_reaction(config: OperatorConfig)
+joint_force_reaction()
+
+joint_force_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_force_reaction(config: OperatorConfig)
+
 
 
 ## Class Information

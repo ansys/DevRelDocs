@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress_ratio
 ---
 
-# stress_ratio Class
+# stress_ratio class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-stress_ratio()
-stress_ratio(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-stress_ratio(config: OperatorConfig)
+stress_ratio()
+
+stress_ratio(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+stress_ratio(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.joint_relative_rotation
 ---
 
-# joint_relative_rotation Class
+# joint_relative_rotation class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-joint_relative_rotation()
-joint_relative_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_relative_rotation(config: OperatorConfig)
+joint_relative_rotation()
+
+joint_relative_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_relative_rotation(config: OperatorConfig)
+
 
 
 ## Class Information

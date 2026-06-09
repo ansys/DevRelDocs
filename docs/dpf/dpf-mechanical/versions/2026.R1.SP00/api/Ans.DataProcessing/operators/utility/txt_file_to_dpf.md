@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.txt_file_to_dpf
 ---
 
-# txt_file_to_dpf Class
+# txt_file_to_dpf class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

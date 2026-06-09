@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.time_derivation
 ---
 
-# time_derivation Class
+# time_derivation class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

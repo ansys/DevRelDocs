@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.accumulate_over_label_fc
 ---
 
-# accumulate_over_label_fc Class
+# accumulate_over_label_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

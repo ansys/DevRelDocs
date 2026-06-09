@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.fluid_velocity
 ---
 
-# fluid_velocity Class
+# fluid_velocity class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-fluid_velocity()
-fluid_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-fluid_velocity(config: OperatorConfig)
+fluid_velocity()
+
+fluid_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+fluid_velocity(config: OperatorConfig)
+
 
 
 ## Class Information

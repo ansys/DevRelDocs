@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.fft_eval
 ---
 
-# fft_eval Class
+# fft_eval class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

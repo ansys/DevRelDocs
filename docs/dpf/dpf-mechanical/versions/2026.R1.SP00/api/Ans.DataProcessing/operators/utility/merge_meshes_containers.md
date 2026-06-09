@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.merge_meshes_containers
 ---
 
-# merge_meshes_containers Class
+# merge_meshes_containers class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

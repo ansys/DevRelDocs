@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.combine_levelset
 ---
 
-# combine_levelset Class
+# combine_levelset class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

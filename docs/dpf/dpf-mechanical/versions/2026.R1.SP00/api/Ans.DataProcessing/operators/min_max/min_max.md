@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.min_max.min_max
 ---
 
-# min_max Class
+# min_max class
 
 **Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
 

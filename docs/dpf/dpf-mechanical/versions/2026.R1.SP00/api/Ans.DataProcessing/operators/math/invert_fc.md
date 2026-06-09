@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.invert_fc
 ---
 
-# invert_fc Class
+# invert_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

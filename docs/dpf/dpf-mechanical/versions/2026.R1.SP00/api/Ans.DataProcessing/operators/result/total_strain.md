@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.total_strain
 ---
 
-# total_strain Class
+# total_strain class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-total_strain()
-total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_strain(config: OperatorConfig)
+total_strain()
+
+total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_strain(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.mean_static_pressure
 ---
 
-# mean_static_pressure Class
+# mean_static_pressure class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-mean_static_pressure()
-mean_static_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mean_static_pressure(config: OperatorConfig)
+mean_static_pressure()
+
+mean_static_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mean_static_pressure(config: OperatorConfig)
+
 
 
 ## Class Information

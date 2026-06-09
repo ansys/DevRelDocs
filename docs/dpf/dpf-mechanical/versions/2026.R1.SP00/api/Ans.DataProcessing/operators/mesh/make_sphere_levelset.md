@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.make_sphere_levelset
 ---
 
-# make_sphere_levelset Class
+# make_sphere_levelset class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

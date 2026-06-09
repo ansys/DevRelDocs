@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.points_from_coordinates
 ---
 
-# points_from_coordinates Class
+# points_from_coordinates class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.window_triangular_fc
 ---
 
-# window_triangular_fc Class
+# window_triangular_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

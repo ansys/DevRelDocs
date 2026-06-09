@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.min_max.time_of_max_by_entity
 ---
 
-# time_of_max_by_entity Class
+# time_of_max_by_entity class
 
 **Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
 

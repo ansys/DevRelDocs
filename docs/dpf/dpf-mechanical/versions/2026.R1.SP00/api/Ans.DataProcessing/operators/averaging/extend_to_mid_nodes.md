@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.averaging.extend_to_mid_nodes
 ---
 
-# extend_to_mid_nodes Class
+# extend_to_mid_nodes class
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 

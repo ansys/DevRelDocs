@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.wall_shear_stress
 ---
 
-# wall_shear_stress Class
+# wall_shear_stress class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-wall_shear_stress()
-wall_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-wall_shear_stress(config: OperatorConfig)
+wall_shear_stress()
+
+wall_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+wall_shear_stress(config: OperatorConfig)
+
 
 
 ## Class Information

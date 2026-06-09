@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_to_tetra
 ---
 
-# mesh_to_tetra Class
+# mesh_to_tetra class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-mesh_to_tetra()
-mesh_to_tetra(mesh: object, config: OperatorConfig)
-mesh_to_tetra(config: OperatorConfig)
+mesh_to_tetra()
+
+mesh_to_tetra(mesh: object, config: OperatorConfig)
+
+mesh_to_tetra(config: OperatorConfig)
+
 
 
 ## Class Information

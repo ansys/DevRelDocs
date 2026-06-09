@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.contact_sliding_distance
 ---
 
-# contact_sliding_distance Class
+# contact_sliding_distance class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-contact_sliding_distance()
-contact_sliding_distance(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_sliding_distance(config: OperatorConfig)
+contact_sliding_distance()
+
+contact_sliding_distance(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_sliding_distance(config: OperatorConfig)
+
 
 
 ## Class Information

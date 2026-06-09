@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.sqrt_fc
 ---
 
-# sqrt_fc Class
+# sqrt_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stiffness_matrix_energy
 ---
 
-# stiffness_matrix_energy Class
+# stiffness_matrix_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-stiffness_matrix_energy()
-stiffness_matrix_energy(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-stiffness_matrix_energy(config: OperatorConfig)
+stiffness_matrix_energy()
+
+stiffness_matrix_energy(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+stiffness_matrix_energy(config: OperatorConfig)
+
 
 
 ## Class Information

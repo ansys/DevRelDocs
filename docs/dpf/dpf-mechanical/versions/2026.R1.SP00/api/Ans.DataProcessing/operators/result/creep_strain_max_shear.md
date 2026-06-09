@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.creep_strain_max_shear
 ---
 
-# creep_strain_max_shear Class
+# creep_strain_max_shear class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-creep_strain_max_shear()
-creep_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-creep_strain_max_shear(config: OperatorConfig)
+creep_strain_max_shear()
+
+creep_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+creep_strain_max_shear(config: OperatorConfig)
+
 
 
 ## Class Information

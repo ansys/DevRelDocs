@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.interface_contact_moment
 ---
 
-# interface_contact_moment Class
+# interface_contact_moment class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

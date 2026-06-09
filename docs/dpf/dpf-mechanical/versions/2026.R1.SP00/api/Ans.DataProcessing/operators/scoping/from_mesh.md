@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.from_mesh
 ---
 
-# from_mesh Class
+# from_mesh class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

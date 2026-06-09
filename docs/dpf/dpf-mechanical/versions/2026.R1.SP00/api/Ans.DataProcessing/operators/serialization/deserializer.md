@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.serialization.deserializer
 ---
 
-# deserializer Class
+# deserializer class
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 

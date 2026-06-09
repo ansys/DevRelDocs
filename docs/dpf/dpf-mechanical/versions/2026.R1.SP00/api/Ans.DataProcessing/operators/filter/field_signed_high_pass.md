@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.filter.field_signed_high_pass
 ---
 
-# field_signed_high_pass Class
+# field_signed_high_pass class
 
 **Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
 

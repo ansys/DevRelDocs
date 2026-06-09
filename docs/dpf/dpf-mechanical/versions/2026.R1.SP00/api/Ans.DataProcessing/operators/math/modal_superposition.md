@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.modal_superposition
 ---
 
-# modal_superposition Class
+# modal_superposition class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

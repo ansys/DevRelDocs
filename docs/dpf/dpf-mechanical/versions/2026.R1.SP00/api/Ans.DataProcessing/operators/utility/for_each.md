@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.for_each
 ---
 
-# for_each Class
+# for_each class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

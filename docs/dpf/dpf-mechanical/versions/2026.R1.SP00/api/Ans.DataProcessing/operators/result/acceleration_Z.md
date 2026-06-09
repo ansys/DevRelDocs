@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.acceleration_Z
 ---
 
-# acceleration_Z Class
+# acceleration_Z class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-acceleration_Z()
-acceleration_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acceleration_Z(config: OperatorConfig)
+acceleration_Z()
+
+acceleration_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acceleration_Z(config: OperatorConfig)
+
 
 
 ## Class Information

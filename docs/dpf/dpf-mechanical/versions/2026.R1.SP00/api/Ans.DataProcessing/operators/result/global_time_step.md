@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_time_step
 ---
 
-# global_time_step Class
+# global_time_step class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

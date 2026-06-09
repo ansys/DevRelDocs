@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.total_temperature
 ---
 
-# total_temperature Class
+# total_temperature class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-total_temperature()
-total_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_temperature(config: OperatorConfig)
+total_temperature()
+
+total_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_temperature(config: OperatorConfig)
+
 
 
 ## Class Information

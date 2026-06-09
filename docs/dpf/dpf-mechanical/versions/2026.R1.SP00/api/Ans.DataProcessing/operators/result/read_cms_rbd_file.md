@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.read_cms_rbd_file
 ---
 
-# read_cms_rbd_file Class
+# read_cms_rbd_file class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-read_cms_rbd_file()
-read_cms_rbd_file(in_cms_rbd_file_path: object, config: OperatorConfig)
-read_cms_rbd_file(config: OperatorConfig)
+read_cms_rbd_file()
+
+read_cms_rbd_file(in_cms_rbd_file_path: object, config: OperatorConfig)
+
+read_cms_rbd_file(config: OperatorConfig)
+
 
 
 ## Class Information

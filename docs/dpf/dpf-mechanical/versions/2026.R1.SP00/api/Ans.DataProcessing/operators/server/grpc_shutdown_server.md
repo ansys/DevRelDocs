@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.server.grpc_shutdown_server
 ---
 
-# grpc_shutdown_server Class
+# grpc_shutdown_server class
 
 **Namespace:** [Ans.DataProcessing.operators.server](Ans_DataProcessing_operators_server.md)
 

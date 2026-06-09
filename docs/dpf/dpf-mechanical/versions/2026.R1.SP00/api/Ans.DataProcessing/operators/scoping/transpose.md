@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.transpose
 ---
 
-# transpose Class
+# transpose class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.merge_fields
 ---
 
-# merge_fields Class
+# merge_fields class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

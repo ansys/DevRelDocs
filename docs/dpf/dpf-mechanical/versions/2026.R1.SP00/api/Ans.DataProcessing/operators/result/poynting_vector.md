@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.poynting_vector
 ---
 
-# poynting_vector Class
+# poynting_vector class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

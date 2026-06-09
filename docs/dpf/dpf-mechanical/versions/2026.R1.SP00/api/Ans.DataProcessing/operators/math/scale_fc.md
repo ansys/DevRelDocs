@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.scale_fc
 ---
 
-# scale_fc Class
+# scale_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-scale_fc()
-scale_fc(fields_container: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
-scale_fc(config: OperatorConfig)
+scale_fc()
+
+scale_fc(fields_container: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
+
+scale_fc(config: OperatorConfig)
+
 
 
 ## Class Information

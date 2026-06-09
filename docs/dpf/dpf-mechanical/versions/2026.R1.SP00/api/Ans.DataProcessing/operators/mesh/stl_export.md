@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.stl_export
 ---
 
-# stl_export Class
+# stl_export class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.IntIntCallback
 ---
 
-# IntIntCallback Class
+# IntIntCallback class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-IntIntCallback(object: object, method: IntPtr)
+IntIntCallback(object: object, method: IntPtr)
+
 
 
 ## Class Information

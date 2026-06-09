@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.ints_to_scoping
 ---
 
-# ints_to_scoping Class
+# ints_to_scoping class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

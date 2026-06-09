@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.server_path
 ---
 
-# server_path Class
+# server_path class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

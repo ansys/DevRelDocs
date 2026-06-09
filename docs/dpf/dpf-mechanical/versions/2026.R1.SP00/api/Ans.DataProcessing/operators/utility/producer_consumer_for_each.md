@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.producer_consumer_for_each
 ---
 
-# producer_consumer_for_each Class
+# producer_consumer_for_each class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.reaction_force_Y
 ---
 
-# reaction_force_Y Class
+# reaction_force_Y class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-reaction_force_Y()
-reaction_force_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-reaction_force_Y(config: OperatorConfig)
+reaction_force_Y()
+
+reaction_force_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+reaction_force_Y(config: OperatorConfig)
+
 
 
 ## Class Information

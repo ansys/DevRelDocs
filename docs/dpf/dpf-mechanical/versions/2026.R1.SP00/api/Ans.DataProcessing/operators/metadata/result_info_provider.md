@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.metadata.result_info_provider
 ---
 
-# result_info_provider Class
+# result_info_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 

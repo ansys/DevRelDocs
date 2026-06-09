@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_center_mass
 ---
 
-# global_center_mass Class
+# global_center_mass class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

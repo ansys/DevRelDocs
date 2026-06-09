@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_clip
 ---
 
-# mesh_clip Class
+# mesh_clip class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-mesh_clip()
-mesh_clip(field: object, iso_value: object, closed_surface: object, mesh: object, slice_surfaces: object, config: OperatorConfig)
-mesh_clip(config: OperatorConfig)
+mesh_clip()
+
+mesh_clip(field: object, iso_value: object, closed_surface: object, mesh: object, slice_surfaces: object, config: OperatorConfig)
+
+mesh_clip(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.nmisc
 ---
 
-# nmisc Class
+# nmisc class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-nmisc()
-nmisc(time_scoping: object, mesh_scoping: object, data_sources: object, item_index: object, num_components: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-nmisc(config: OperatorConfig)
+nmisc()
+
+nmisc(time_scoping: object, mesh_scoping: object, data_sources: object, item_index: object, num_components: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+nmisc(config: OperatorConfig)
+
 
 
 ## Class Information

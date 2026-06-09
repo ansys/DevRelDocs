@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.logic.component_selector
 ---
 
-# component_selector Class
+# component_selector class
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 

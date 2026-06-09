@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elemental_volume
 ---
 
-# elemental_volume Class
+# elemental_volume class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-elemental_volume()
-elemental_volume(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-elemental_volume(config: OperatorConfig)
+elemental_volume()
+
+elemental_volume(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+elemental_volume(config: OperatorConfig)
+
 
 
 ## Class Information

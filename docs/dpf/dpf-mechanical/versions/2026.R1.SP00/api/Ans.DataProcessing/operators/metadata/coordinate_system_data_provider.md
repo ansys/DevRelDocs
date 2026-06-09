@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.metadata.coordinate_system_data_provider
 ---
 
-# coordinate_system_data_provider Class
+# coordinate_system_data_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 

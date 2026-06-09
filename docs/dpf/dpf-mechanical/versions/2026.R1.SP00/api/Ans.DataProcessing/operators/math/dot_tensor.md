@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.dot_tensor
 ---
 
-# dot_tensor Class
+# dot_tensor class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

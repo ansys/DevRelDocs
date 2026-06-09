@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.kinetic_energy
 ---
 
-# kinetic_energy Class
+# kinetic_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-kinetic_energy()
-kinetic_energy(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-kinetic_energy(config: OperatorConfig)
+kinetic_energy()
+
+kinetic_energy(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+kinetic_energy(config: OperatorConfig)
+
 
 
 ## Class Information

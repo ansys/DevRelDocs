@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.min_max.min_max_over_label_fc
 ---
 
-# min_max_over_label_fc Class
+# min_max_over_label_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
 

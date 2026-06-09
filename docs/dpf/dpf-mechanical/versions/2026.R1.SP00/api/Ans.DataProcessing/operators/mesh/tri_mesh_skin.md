@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.tri_mesh_skin
 ---
 
-# tri_mesh_skin Class
+# tri_mesh_skin class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

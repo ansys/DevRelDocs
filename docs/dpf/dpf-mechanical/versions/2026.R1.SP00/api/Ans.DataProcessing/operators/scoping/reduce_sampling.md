@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.reduce_sampling
 ---
 
-# reduce_sampling Class
+# reduce_sampling class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.beam_properties
 ---
 
-# beam_properties Class
+# beam_properties class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.total_contact_force
 ---
 
-# total_contact_force Class
+# total_contact_force class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-total_contact_force()
-total_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_contact_force(config: OperatorConfig)
+total_contact_force()
+
+total_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_contact_force(config: OperatorConfig)
+
 
 
 ## Class Information

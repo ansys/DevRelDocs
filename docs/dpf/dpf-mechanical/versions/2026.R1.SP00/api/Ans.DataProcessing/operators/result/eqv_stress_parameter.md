@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.eqv_stress_parameter
 ---
 
-# eqv_stress_parameter Class
+# eqv_stress_parameter class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-eqv_stress_parameter()
-eqv_stress_parameter(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-eqv_stress_parameter(config: OperatorConfig)
+eqv_stress_parameter()
+
+eqv_stress_parameter(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+eqv_stress_parameter(config: OperatorConfig)
+
 
 
 ## Class Information

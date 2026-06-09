@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.make_for_each_range
 ---
 
-# make_for_each_range Class
+# make_for_each_range class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

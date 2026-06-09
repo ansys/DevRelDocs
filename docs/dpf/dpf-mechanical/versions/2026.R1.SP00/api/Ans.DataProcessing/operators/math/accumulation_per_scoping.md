@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.accumulation_per_scoping
 ---
 
-# accumulation_per_scoping Class
+# accumulation_per_scoping class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

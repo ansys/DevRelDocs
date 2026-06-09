@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.input_sound_power
 ---
 
-# input_sound_power Class
+# input_sound_power class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-input_sound_power()
-input_sound_power(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-input_sound_power(config: OperatorConfig)
+input_sound_power()
+
+input_sound_power(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+input_sound_power(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.entropy
 ---
 
-# entropy Class
+# entropy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-entropy()
-entropy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-entropy(config: OperatorConfig)
+entropy()
+
+entropy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+entropy(config: OperatorConfig)
+
 
 
 ## Class Information

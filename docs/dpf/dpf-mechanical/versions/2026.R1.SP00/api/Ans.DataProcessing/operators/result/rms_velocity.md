@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.rms_velocity
 ---
 
-# rms_velocity Class
+# rms_velocity class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-rms_velocity()
-rms_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-rms_velocity(config: OperatorConfig)
+rms_velocity()
+
+rms_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+rms_velocity(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress_intensity
 ---
 
-# stress_intensity Class
+# stress_intensity class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-stress_intensity()
-stress_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-stress_intensity(config: OperatorConfig)
+stress_intensity()
+
+stress_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+stress_intensity(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.nodal_to_global
 ---
 
-# nodal_to_global Class
+# nodal_to_global class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.serialization.data_tree_to_json
 ---
 
-# data_tree_to_json Class
+# data_tree_to_json class
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 

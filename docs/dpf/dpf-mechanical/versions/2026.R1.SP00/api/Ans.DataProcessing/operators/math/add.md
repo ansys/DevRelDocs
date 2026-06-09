@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.add
 ---
 
-# add Class
+# add class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-add()
-add(fieldA: object, fieldB: object, config: OperatorConfig)
-add(config: OperatorConfig)
+add()
+
+add(fieldA: object, fieldB: object, config: OperatorConfig)
+
+add(config: OperatorConfig)
+
 
 
 ## Class Information

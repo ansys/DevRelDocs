@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.correlation
 ---
 
-# correlation Class
+# correlation class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-correlation()
-correlation(fieldA: object, fieldB: object, weights: object, absoluteValue: object, config: OperatorConfig)
-correlation(config: OperatorConfig)
+correlation()
+
+correlation(fieldA: object, fieldB: object, weights: object, absoluteValue: object, config: OperatorConfig)
+
+correlation(config: OperatorConfig)
+
 
 
 ## Class Information

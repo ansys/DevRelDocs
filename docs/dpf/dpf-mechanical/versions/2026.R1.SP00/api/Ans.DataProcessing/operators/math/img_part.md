@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.img_part
 ---
 
-# img_part Class
+# img_part class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

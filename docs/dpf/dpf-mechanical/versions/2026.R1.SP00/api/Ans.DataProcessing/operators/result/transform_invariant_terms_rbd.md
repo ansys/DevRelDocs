@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.transform_invariant_terms_rbd
 ---
 
-# transform_invariant_terms_rbd Class
+# transform_invariant_terms_rbd class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-transform_invariant_terms_rbd()
-transform_invariant_terms_rbd(rotation_matrix: object, coordinate_system: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, master_node_coordinates: object, v_trsf: object, k_mat: object, mass_mat: object, c_mat: object, rhs: object, dn: object, dr_cross_n: object, drn: object, dn_cross_n: object, dnx_y: object, dny_y: object, dnz_y: object, dyx_n: object, dyy_n: object, dyz_n: object, dnxn: object, dnyn: object, dnzn: object, config: OperatorConfig)
-transform_invariant_terms_rbd(config: OperatorConfig)
+transform_invariant_terms_rbd()
+
+transform_invariant_terms_rbd(rotation_matrix: object, coordinate_system: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, master_node_coordinates: object, v_trsf: object, k_mat: object, mass_mat: object, c_mat: object, rhs: object, dn: object, dr_cross_n: object, drn: object, dn_cross_n: object, dnx_y: object, dny_y: object, dnz_y: object, dyx_n: object, dyy_n: object, dyz_n: object, dnxn: object, dnyn: object, dnzn: object, config: OperatorConfig)
+
+transform_invariant_terms_rbd(config: OperatorConfig)
+
 
 
 ## Class Information

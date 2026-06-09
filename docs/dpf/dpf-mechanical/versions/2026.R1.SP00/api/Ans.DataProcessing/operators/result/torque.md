@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.torque
 ---
 
-# torque Class
+# torque class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

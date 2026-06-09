@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.logic.ascending_sort_fc
 ---
 
-# ascending_sort_fc Class
+# ascending_sort_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 

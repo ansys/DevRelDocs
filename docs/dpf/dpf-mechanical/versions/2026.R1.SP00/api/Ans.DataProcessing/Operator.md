@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.Operator
 ---
 
-# Operator Class
+# Operator class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

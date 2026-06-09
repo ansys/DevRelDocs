@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.merge_materials
 ---
 
-# merge_materials Class
+# merge_materials class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

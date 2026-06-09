@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.linear_combination
 ---
 
-# linear_combination Class
+# linear_combination class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

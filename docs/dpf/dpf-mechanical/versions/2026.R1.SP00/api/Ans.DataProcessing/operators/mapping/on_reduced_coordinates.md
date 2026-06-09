@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mapping.on_reduced_coordinates
 ---
 
-# on_reduced_coordinates Class
+# on_reduced_coordinates class
 
 **Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
 

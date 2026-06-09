@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elastic_strain_intensity
 ---
 
-# elastic_strain_intensity Class
+# elastic_strain_intensity class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-elastic_strain_intensity()
-elastic_strain_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-elastic_strain_intensity(config: OperatorConfig)
+elastic_strain_intensity()
+
+elastic_strain_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+elastic_strain_intensity(config: OperatorConfig)
+
 
 
 ## Class Information

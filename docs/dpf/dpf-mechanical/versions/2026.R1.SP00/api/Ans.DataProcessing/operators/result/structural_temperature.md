@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.structural_temperature
 ---
 
-# structural_temperature Class
+# structural_temperature class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-structural_temperature()
-structural_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-structural_temperature(config: OperatorConfig)
+structural_temperature()
+
+structural_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+structural_temperature(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.fft_approx
 ---
 
-# fft_approx Class
+# fft_approx class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

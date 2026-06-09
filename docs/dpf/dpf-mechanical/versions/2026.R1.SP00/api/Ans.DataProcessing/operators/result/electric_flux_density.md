@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.electric_flux_density
 ---
 
-# electric_flux_density Class
+# electric_flux_density class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-electric_flux_density()
-electric_flux_density(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-electric_flux_density(config: OperatorConfig)
+electric_flux_density()
+
+electric_flux_density(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+electric_flux_density(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.euler_load_buckling
 ---
 
-# euler_load_buckling Class
+# euler_load_buckling class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.cms_matrices_provider
 ---
 
-# cms_matrices_provider Class
+# cms_matrices_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

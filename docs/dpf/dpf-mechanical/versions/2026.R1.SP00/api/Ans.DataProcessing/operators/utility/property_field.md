@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.property_field
 ---
 
-# property_field Class
+# property_field class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

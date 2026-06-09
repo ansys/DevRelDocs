@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress_Y
 ---
 
-# stress_Y Class
+# stress_Y class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-stress_Y()
-stress_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-stress_Y(config: OperatorConfig)
+stress_Y()
+
+stress_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+stress_Y(config: OperatorConfig)
+
 
 
 ## Class Information

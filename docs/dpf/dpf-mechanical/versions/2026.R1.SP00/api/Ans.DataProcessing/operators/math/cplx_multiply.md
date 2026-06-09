@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.cplx_multiply
 ---
 
-# cplx_multiply Class
+# cplx_multiply class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

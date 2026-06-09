@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mapping.solid_to_skin_fc
 ---
 
-# solid_to_skin_fc Class
+# solid_to_skin_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
 

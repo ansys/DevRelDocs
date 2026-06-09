@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.mesh_to_mc
 ---
 
-# mesh_to_mc Class
+# mesh_to_mc class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

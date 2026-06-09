@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.initial_coordinates
 ---
 
-# initial_coordinates Class
+# initial_coordinates class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-initial_coordinates()
-initial_coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-initial_coordinates(config: OperatorConfig)
+initial_coordinates()
+
+initial_coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+initial_coordinates(config: OperatorConfig)
+
 
 
 ## Class Information

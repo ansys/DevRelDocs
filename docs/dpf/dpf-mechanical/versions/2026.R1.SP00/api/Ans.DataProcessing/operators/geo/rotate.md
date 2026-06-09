@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.geo.rotate
 ---
 
-# rotate Class
+# rotate class
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 

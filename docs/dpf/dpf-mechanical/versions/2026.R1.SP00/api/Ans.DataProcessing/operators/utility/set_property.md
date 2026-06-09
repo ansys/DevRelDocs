@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.set_property
 ---
 
-# set_property Class
+# set_property class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

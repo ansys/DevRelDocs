@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.gasket_stress_XZ
 ---
 
-# gasket_stress_XZ Class
+# gasket_stress_XZ class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-gasket_stress_XZ()
-gasket_stress_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-gasket_stress_XZ(config: OperatorConfig)
+gasket_stress_XZ()
+
+gasket_stress_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+gasket_stress_XZ(config: OperatorConfig)
+
 
 
 ## Class Information

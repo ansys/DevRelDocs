@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.utility.compute_time_scoping
 ---
 
-# compute_time_scoping Class
+# compute_time_scoping class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 
-compute_time_scoping()
-compute_time_scoping(time_freq_values: object, step: object, interpolation_type: object, time_freq_support: object, config: OperatorConfig)
-compute_time_scoping(config: OperatorConfig)
+compute_time_scoping()
+
+compute_time_scoping(time_freq_values: object, step: object, interpolation_type: object, time_freq_support: object, config: OperatorConfig)
+
+compute_time_scoping(config: OperatorConfig)
+
 
 
 ## Class Information

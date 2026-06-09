@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.invariant.convertnum_op
 ---
 
-# convertnum_op Class
+# convertnum_op class
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 

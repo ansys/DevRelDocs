@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.nodal_rotational_acceleration_X
 ---
 
-# nodal_rotational_acceleration_X Class
+# nodal_rotational_acceleration_X class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-nodal_rotational_acceleration_X()
-nodal_rotational_acceleration_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nodal_rotational_acceleration_X(config: OperatorConfig)
+nodal_rotational_acceleration_X()
+
+nodal_rotational_acceleration_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nodal_rotational_acceleration_X(config: OperatorConfig)
+
 
 
 ## Class Information

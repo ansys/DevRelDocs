@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.averaging.force_summation
 ---
 
-# force_summation Class
+# force_summation class
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 
-force_summation()
-force_summation(time_scoping: object, nodal_scoping: object, elemental_scoping: object, streams_container: object, data_sources: object, force_type: object, spoint: object, scoping_filter: object, config: OperatorConfig)
-force_summation(config: OperatorConfig)
+force_summation()
+
+force_summation(time_scoping: object, nodal_scoping: object, elemental_scoping: object, streams_container: object, data_sources: object, force_type: object, spoint: object, scoping_filter: object, config: OperatorConfig)
+
+force_summation(config: OperatorConfig)
+
 
 
 ## Class Information

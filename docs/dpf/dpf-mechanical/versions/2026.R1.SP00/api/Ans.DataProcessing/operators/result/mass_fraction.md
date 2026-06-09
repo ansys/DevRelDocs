@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.mass_fraction
 ---
 
-# mass_fraction Class
+# mass_fraction class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-mass_fraction()
-mass_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mass_fraction(config: OperatorConfig)
+mass_fraction()
+
+mass_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mass_fraction(config: OperatorConfig)
+
 
 
 ## Class Information

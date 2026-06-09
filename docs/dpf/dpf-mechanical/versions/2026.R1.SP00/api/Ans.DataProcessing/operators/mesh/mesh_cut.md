@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_cut
 ---
 
-# mesh_cut Class
+# mesh_cut class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

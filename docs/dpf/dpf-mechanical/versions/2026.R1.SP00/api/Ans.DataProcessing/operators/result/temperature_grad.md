@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.temperature_grad
 ---
 
-# temperature_grad Class
+# temperature_grad class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-temperature_grad()
-temperature_grad(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-temperature_grad(config: OperatorConfig)
+temperature_grad()
+
+temperature_grad(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+temperature_grad(config: OperatorConfig)
+
 
 
 ## Class Information

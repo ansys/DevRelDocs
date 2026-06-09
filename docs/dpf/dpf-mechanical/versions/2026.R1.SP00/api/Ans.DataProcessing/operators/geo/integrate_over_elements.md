@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.geo.integrate_over_elements
 ---
 
-# integrate_over_elements Class
+# integrate_over_elements class
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 

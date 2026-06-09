@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.mapdl_split_to_acmo_facet_indices
 ---
 
-# mapdl_split_to_acmo_facet_indices Class
+# mapdl_split_to_acmo_facet_indices class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

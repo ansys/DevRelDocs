@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.matrix_inverse
 ---
 
-# matrix_inverse Class
+# matrix_inverse class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

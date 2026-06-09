@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.cyclic_expansion
 ---
 
-# cyclic_expansion Class
+# cyclic_expansion class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

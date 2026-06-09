@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.rigid_transformation_provider
 ---
 
-# rigid_transformation_provider Class
+# rigid_transformation_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

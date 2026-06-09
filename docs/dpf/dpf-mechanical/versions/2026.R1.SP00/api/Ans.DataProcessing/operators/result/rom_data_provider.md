@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.rom_data_provider
 ---
 
-# rom_data_provider Class
+# rom_data_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

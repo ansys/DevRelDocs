@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.sqr
 ---
 
-# sqr Class
+# sqr class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.time_integration
 ---
 
-# time_integration Class
+# time_integration class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

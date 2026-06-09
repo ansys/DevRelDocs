@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.window_blackman
 ---
 
-# window_blackman Class
+# window_blackman class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

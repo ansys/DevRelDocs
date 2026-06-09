@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.enthalpy
 ---
 
-# enthalpy Class
+# enthalpy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-enthalpy()
-enthalpy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-enthalpy(config: OperatorConfig)
+enthalpy()
+
+enthalpy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+enthalpy(config: OperatorConfig)
+
 
 
 ## Class Information

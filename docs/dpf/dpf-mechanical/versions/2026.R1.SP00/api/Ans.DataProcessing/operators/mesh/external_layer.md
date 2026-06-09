@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mesh.external_layer
 ---
 
-# external_layer Class
+# external_layer class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 

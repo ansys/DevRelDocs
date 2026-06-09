@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.time_freq_interpolation
 ---
 
-# time_freq_interpolation Class
+# time_freq_interpolation class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-time_freq_interpolation()
-time_freq_interpolation(fields_container: object, time_freq_values: object, step: object, interpolation_type: object, force_new_time_freq_support: object, time_freq_support: object, config: OperatorConfig)
-time_freq_interpolation(config: OperatorConfig)
+time_freq_interpolation()
+
+time_freq_interpolation(fields_container: object, time_freq_values: object, step: object, interpolation_type: object, force_new_time_freq_support: object, time_freq_support: object, config: OperatorConfig)
+
+time_freq_interpolation(config: OperatorConfig)
+
 
 
 ## Class Information

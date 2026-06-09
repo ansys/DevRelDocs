@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_rigid_body_stopper_energy
 ---
 
-# global_rigid_body_stopper_energy Class
+# global_rigid_body_stopper_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

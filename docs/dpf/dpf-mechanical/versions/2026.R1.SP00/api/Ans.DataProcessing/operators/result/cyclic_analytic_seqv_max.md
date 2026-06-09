@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.cyclic_analytic_seqv_max
 ---
 
-# cyclic_analytic_seqv_max Class
+# cyclic_analytic_seqv_max class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

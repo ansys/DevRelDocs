@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.generalized_inner_product_fc
 ---
 
-# generalized_inner_product_fc Class
+# generalized_inner_product_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-generalized_inner_product_fc()
-generalized_inner_product_fc(field_or_fields_container_A: object, field_or_fields_container_B: object, config: OperatorConfig)
-generalized_inner_product_fc(config: OperatorConfig)
+generalized_inner_product_fc()
+
+generalized_inner_product_fc(field_or_fields_container_A: object, field_or_fields_container_B: object, config: OperatorConfig)
+
+generalized_inner_product_fc(config: OperatorConfig)
+
 
 
 ## Class Information

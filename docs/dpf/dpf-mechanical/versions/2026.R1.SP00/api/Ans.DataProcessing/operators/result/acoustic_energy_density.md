@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.acoustic_energy_density
 ---
 
-# acoustic_energy_density Class
+# acoustic_energy_density class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-acoustic_energy_density()
-acoustic_energy_density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acoustic_energy_density(config: OperatorConfig)
+acoustic_energy_density()
+
+acoustic_energy_density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acoustic_energy_density(config: OperatorConfig)
+
 
 
 ## Class Information

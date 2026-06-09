@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.logic.identical_fc
 ---
 
-# identical_fc Class
+# identical_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 

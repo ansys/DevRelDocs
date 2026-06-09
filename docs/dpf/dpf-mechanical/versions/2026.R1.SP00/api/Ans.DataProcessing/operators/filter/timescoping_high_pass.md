@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.filter.timescoping_high_pass
 ---
 
-# timescoping_high_pass Class
+# timescoping_high_pass class
 
 **Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
 

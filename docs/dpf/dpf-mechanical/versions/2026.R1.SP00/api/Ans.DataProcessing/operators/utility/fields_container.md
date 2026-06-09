@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.fields_container
 ---
 
-# fields_container Class
+# fields_container class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

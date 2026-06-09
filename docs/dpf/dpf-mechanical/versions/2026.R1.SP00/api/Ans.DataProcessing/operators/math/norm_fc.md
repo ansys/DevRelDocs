@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.norm_fc
 ---
 
-# norm_fc Class
+# norm_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

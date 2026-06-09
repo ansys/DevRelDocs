@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.window_hanning
 ---
 
-# window_hanning Class
+# window_hanning class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

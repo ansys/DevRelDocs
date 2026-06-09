@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.joint_moment_reaction
 ---
 
-# joint_moment_reaction Class
+# joint_moment_reaction class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-joint_moment_reaction()
-joint_moment_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_moment_reaction(config: OperatorConfig)
+joint_moment_reaction()
+
+joint_moment_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_moment_reaction(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.magnetic_flux_density_X
 ---
 
-# magnetic_flux_density_X Class
+# magnetic_flux_density_X class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-magnetic_flux_density_X()
-magnetic_flux_density_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-magnetic_flux_density_X(config: OperatorConfig)
+magnetic_flux_density_X()
+
+magnetic_flux_density_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+magnetic_flux_density_X(config: OperatorConfig)
+
 
 
 ## Class Information

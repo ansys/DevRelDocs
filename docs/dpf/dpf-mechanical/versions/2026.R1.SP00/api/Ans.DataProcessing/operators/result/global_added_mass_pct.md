@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_added_mass_pct
 ---
 
-# global_added_mass_pct Class
+# global_added_mass_pct class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

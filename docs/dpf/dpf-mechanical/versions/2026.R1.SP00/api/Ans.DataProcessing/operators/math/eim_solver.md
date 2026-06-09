@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.eim_solver
 ---
 
-# eim_solver Class
+# eim_solver class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-eim_solver()
-eim_solver(mode_shapes_fc: object, initial_sensors: object, n_max: object, minimum_sensor_distance: object, restrict_n_max: object, coords: object, config: OperatorConfig)
-eim_solver(config: OperatorConfig)
+eim_solver()
+
+eim_solver(mode_shapes_fc: object, initial_sensors: object, n_max: object, minimum_sensor_distance: object, restrict_n_max: object, coords: object, config: OperatorConfig)
+
+eim_solver(config: OperatorConfig)
+
 
 
 ## Class Information

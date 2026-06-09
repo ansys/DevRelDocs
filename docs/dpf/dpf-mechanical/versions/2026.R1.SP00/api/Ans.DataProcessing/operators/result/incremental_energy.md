@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.incremental_energy
 ---
 
-# incremental_energy Class
+# incremental_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-incremental_energy()
-incremental_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-incremental_energy(config: OperatorConfig)
+incremental_energy()
+
+incremental_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+incremental_energy(config: OperatorConfig)
+
 
 
 ## Class Information

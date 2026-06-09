@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_internal_energy
 ---
 
-# global_internal_energy Class
+# global_internal_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

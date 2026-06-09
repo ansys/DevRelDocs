@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.contact_fluid_penetration_pressure
 ---
 
-# contact_fluid_penetration_pressure Class
+# contact_fluid_penetration_pressure class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-contact_fluid_penetration_pressure()
-contact_fluid_penetration_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_fluid_penetration_pressure(config: OperatorConfig)
+contact_fluid_penetration_pressure()
+
+contact_fluid_penetration_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_fluid_penetration_pressure(config: OperatorConfig)
+
 
 
 ## Class Information

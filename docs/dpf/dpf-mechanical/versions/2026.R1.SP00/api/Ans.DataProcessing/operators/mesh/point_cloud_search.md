@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.mesh.point_cloud_search
 ---
 
-# point_cloud_search Class
+# point_cloud_search class
 
 **Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
 
-point_cloud_search()
-point_cloud_search(search_domain: object, reference_domain: object, tolerance: object, exclusive_search: object, algorithm: object, config: OperatorConfig)
-point_cloud_search(config: OperatorConfig)
+point_cloud_search()
+
+point_cloud_search(search_domain: object, reference_domain: object, tolerance: object, exclusive_search: object, algorithm: object, config: OperatorConfig)
+
+point_cloud_search(config: OperatorConfig)
+
 
 
 ## Class Information

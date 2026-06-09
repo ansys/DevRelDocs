@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.averaging.nodal_to_elemental_nodal
 ---
 
-# nodal_to_elemental_nodal Class
+# nodal_to_elemental_nodal class
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 

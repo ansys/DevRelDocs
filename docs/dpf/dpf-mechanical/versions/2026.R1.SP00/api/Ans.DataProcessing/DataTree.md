@@ -2,12 +2,14 @@
 uid: Ans.DataProcessing.DataTree
 ---
 
-# DataTree Class
+# DataTree class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-DataTree()
-DataTree(val: IntPtr)
+DataTree()
+
+DataTree(val: IntPtr)
+
 
 
 ## Class Information

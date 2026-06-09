@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elemental_mass
 ---
 
-# elemental_mass Class
+# elemental_mass class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-elemental_mass()
-elemental_mass(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-elemental_mass(config: OperatorConfig)
+elemental_mass()
+
+elemental_mass(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+elemental_mass(config: OperatorConfig)
+
 
 
 ## Class Information

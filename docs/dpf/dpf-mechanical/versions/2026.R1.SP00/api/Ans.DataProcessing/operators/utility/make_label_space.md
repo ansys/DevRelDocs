@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.make_label_space
 ---
 
-# make_label_space Class
+# make_label_space class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.cplx_divide
 ---
 
-# cplx_divide Class
+# cplx_divide class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

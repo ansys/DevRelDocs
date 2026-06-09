@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.StreamsContainer
 ---
 
-# StreamsContainer Class
+# StreamsContainer class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-StreamsContainer(ptrStreams: IntPtr)
+StreamsContainer(ptrStreams: IntPtr)
+
 
 
 ## Class Information

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.phase_fc
 ---
 
-# phase_fc Class
+# phase_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

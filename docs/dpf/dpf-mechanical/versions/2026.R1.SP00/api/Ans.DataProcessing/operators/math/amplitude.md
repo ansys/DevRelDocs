@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.amplitude
 ---
 
-# amplitude Class
+# amplitude class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

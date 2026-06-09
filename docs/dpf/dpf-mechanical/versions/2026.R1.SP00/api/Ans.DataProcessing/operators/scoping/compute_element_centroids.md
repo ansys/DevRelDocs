@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.compute_element_centroids
 ---
 
-# compute_element_centroids Class
+# compute_element_centroids class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

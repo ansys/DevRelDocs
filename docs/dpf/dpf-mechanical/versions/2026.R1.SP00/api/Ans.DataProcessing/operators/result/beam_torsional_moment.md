@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.beam_torsional_moment
 ---
 
-# beam_torsional_moment Class
+# beam_torsional_moment class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-beam_torsional_moment()
-beam_torsional_moment(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
-beam_torsional_moment(config: OperatorConfig)
+beam_torsional_moment()
+
+beam_torsional_moment(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
+
+beam_torsional_moment(config: OperatorConfig)
+
 
 
 ## Class Information

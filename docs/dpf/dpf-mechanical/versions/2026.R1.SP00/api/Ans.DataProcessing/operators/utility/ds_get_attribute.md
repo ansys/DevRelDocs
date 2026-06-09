@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.ds_get_attribute
 ---
 
-# ds_get_attribute Class
+# ds_get_attribute class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

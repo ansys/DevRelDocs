@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.CyclicSupport
 ---
 
-# CyclicSupport Class
+# CyclicSupport class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

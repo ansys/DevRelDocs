@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.nvh_curve_fitting_solver
 ---
 
-# nvh_curve_fitting_solver Class
+# nvh_curve_fitting_solver class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-nvh_curve_fitting_solver()
-nvh_curve_fitting_solver(frf_fc: object, frequency_start: object, frequency_end: object, analysis_order: object, config: OperatorConfig)
-nvh_curve_fitting_solver(config: OperatorConfig)
+nvh_curve_fitting_solver()
+
+nvh_curve_fitting_solver(frf_fc: object, frequency_start: object, frequency_end: object, analysis_order: object, config: OperatorConfig)
+
+nvh_curve_fitting_solver(config: OperatorConfig)
+
 
 
 ## Class Information

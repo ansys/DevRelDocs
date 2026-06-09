@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.Result
 ---
 
-# Result Class
+# Result class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Result(ptrRes: IntPtr)
+Result(ptrRes: IntPtr)
+
 
 
 ## Class Information

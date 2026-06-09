@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.compute_stress_Z
 ---
 
-# compute_stress_Z Class
+# compute_stress_Z class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

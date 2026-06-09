@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.mach_number
 ---
 
-# mach_number Class
+# mach_number class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-mach_number()
-mach_number(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mach_number(config: OperatorConfig)
+mach_number()
+
+mach_number(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mach_number(config: OperatorConfig)
+
 
 
 ## Class Information

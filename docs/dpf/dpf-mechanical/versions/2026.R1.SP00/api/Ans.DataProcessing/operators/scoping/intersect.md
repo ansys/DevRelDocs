@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.intersect
 ---
 
-# intersect Class
+# intersect class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

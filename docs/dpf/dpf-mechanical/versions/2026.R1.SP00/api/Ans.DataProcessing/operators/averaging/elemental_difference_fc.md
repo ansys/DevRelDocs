@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.averaging.elemental_difference_fc
 ---
 
-# elemental_difference_fc Class
+# elemental_difference_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 

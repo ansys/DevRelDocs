@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.swelling_strains
 ---
 
-# swelling_strains Class
+# swelling_strains class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-swelling_strains()
-swelling_strains(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-swelling_strains(config: OperatorConfig)
+swelling_strains()
+
+swelling_strains(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+swelling_strains(config: OperatorConfig)
+
 
 
 ## Class Information

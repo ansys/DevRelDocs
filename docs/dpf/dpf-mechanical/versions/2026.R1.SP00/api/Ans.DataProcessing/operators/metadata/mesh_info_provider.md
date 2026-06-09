@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.metadata.mesh_info_provider
 ---
 
-# mesh_info_provider Class
+# mesh_info_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.element_orientations_Y
 ---
 
-# element_orientations_Y Class
+# element_orientations_Y class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-element_orientations_Y()
-element_orientations_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-element_orientations_Y(config: OperatorConfig)
+element_orientations_Y()
+
+element_orientations_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+element_orientations_Y(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.contact_gap_distance
 ---
 
-# contact_gap_distance Class
+# contact_gap_distance class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-contact_gap_distance()
-contact_gap_distance(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_gap_distance(config: OperatorConfig)
+contact_gap_distance()
+
+contact_gap_distance(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_gap_distance(config: OperatorConfig)
+
 
 
 ## Class Information

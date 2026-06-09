@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.merge_any
 ---
 
-# merge_any Class
+# merge_any class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

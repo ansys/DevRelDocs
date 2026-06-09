@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.exponential_fc
 ---
 
-# exponential_fc Class
+# exponential_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

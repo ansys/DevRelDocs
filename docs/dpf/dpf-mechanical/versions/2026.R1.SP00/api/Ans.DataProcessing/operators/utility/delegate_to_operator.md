@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.delegate_to_operator
 ---
 
-# delegate_to_operator Class
+# delegate_to_operator class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

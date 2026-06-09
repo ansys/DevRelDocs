@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.server.grpc_start_server
 ---
 
-# grpc_start_server Class
+# grpc_start_server class
 
 **Namespace:** [Ans.DataProcessing.operators.server](Ans_DataProcessing_operators_server.md)
 

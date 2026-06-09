@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.plastic_strain_XZ
 ---
 
-# plastic_strain_XZ Class
+# plastic_strain_XZ class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-plastic_strain_XZ()
-plastic_strain_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_strain_XZ(config: OperatorConfig)
+plastic_strain_XZ()
+
+plastic_strain_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_strain_XZ(config: OperatorConfig)
+
 
 
 ## Class Information

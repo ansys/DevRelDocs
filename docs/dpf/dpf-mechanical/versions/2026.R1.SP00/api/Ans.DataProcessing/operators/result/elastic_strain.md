@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elastic_strain
 ---
 
-# elastic_strain Class
+# elastic_strain class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-elastic_strain()
-elastic_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-elastic_strain(config: OperatorConfig)
+elastic_strain()
+
+elastic_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+elastic_strain(config: OperatorConfig)
+
 
 
 ## Class Information

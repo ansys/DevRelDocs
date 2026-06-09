@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.metadata.property_field_provider_by_name
 ---
 
-# property_field_provider_by_name Class
+# property_field_provider_by_name class
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 

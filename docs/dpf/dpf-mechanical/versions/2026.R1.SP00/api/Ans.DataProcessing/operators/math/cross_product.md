@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.cross_product
 ---
 
-# cross_product Class
+# cross_product class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-cross_product()
-cross_product(fieldA: object, fieldB: object, config: OperatorConfig)
-cross_product(config: OperatorConfig)
+cross_product()
+
+cross_product(fieldA: object, fieldB: object, config: OperatorConfig)
+
+cross_product(config: OperatorConfig)
+
 
 
 ## Class Information

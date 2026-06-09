@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.scoping.on_mesh_property
 ---
 
-# on_mesh_property Class
+# on_mesh_property class
 
 **Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
 

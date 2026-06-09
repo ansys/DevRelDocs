@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_velocity
 ---
 
-# global_velocity Class
+# global_velocity class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.compute_invariant_terms_motion
 ---
 
-# compute_invariant_terms_motion Class
+# compute_invariant_terms_motion class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-compute_invariant_terms_motion()
-compute_invariant_terms_motion(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, field_coordinates: object, nod: object, phi_ortho: object, config: OperatorConfig)
-compute_invariant_terms_motion(config: OperatorConfig)
+compute_invariant_terms_motion()
+
+compute_invariant_terms_motion(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, field_coordinates: object, nod: object, phi_ortho: object, config: OperatorConfig)
+
+compute_invariant_terms_motion(config: OperatorConfig)
+
 
 
 ## Class Information

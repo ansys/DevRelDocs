@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.temperature
 ---
 
-# temperature Class
+# temperature class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-temperature()
-temperature(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-temperature(config: OperatorConfig)
+temperature()
+
+temperature(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+temperature(config: OperatorConfig)
+
 
 
 ## Class Information

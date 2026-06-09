@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.metadata.integrate_over_time_freq
 ---
 
-# integrate_over_time_freq Class
+# integrate_over_time_freq class
 
 **Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
 

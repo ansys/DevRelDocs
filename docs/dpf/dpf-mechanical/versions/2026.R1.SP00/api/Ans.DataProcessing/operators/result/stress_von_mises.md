@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress_von_mises
 ---
 
-# stress_von_mises Class
+# stress_von_mises class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-stress_von_mises()
-stress_von_mises(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-stress_von_mises(config: OperatorConfig)
+stress_von_mises()
+
+stress_von_mises(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+stress_von_mises(config: OperatorConfig)
+
 
 
 ## Class Information

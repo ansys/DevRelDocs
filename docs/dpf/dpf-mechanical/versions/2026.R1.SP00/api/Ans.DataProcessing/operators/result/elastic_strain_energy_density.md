@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elastic_strain_energy_density
 ---
 
-# elastic_strain_energy_density Class
+# elastic_strain_energy_density class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-elastic_strain_energy_density()
-elastic_strain_energy_density(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-elastic_strain_energy_density(config: OperatorConfig)
+elastic_strain_energy_density()
+
+elastic_strain_energy_density(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+elastic_strain_energy_density(config: OperatorConfig)
+
 
 
 ## Class Information

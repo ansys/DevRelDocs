@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.serialization.import_symbolic_workflow
 ---
 
-# import_symbolic_workflow Class
+# import_symbolic_workflow class
 
 **Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
 

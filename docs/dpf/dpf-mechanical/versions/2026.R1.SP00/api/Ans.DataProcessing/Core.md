@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.Core
 ---
 
-# Core Class
+# Core class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

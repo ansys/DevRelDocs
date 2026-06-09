@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.acceleration
 ---
 
-# acceleration Class
+# acceleration class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-acceleration()
-acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-acceleration(config: OperatorConfig)
+acceleration()
+
+acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+acceleration(config: OperatorConfig)
+
 
 
 ## Class Information

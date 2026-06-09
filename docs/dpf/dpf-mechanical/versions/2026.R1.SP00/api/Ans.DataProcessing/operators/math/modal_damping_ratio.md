@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.modal_damping_ratio
 ---
 
-# modal_damping_ratio Class
+# modal_damping_ratio class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-modal_damping_ratio()
-modal_damping_ratio(natural_freq: object, const_ratio: object, ratio_by_modes: object, m_coefficient: object, k_coefficient: object, config: OperatorConfig)
-modal_damping_ratio(config: OperatorConfig)
+modal_damping_ratio()
+
+modal_damping_ratio(natural_freq: object, const_ratio: object, ratio_by_modes: object, m_coefficient: object, k_coefficient: object, config: OperatorConfig)
+
+modal_damping_ratio(config: OperatorConfig)
+
 
 
 ## Class Information

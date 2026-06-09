@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.outer_product
 ---
 
-# outer_product Class
+# outer_product class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-outer_product()
-outer_product(fieldA: object, fieldB: object, config: OperatorConfig)
-outer_product(config: OperatorConfig)
+outer_product()
+
+outer_product(fieldA: object, fieldB: object, config: OperatorConfig)
+
+outer_product(config: OperatorConfig)
+
 
 
 ## Class Information

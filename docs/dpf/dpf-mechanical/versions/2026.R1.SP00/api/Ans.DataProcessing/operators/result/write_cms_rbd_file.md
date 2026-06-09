@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.write_cms_rbd_file
 ---
 
-# write_cms_rbd_file Class
+# write_cms_rbd_file class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-write_cms_rbd_file()
-write_cms_rbd_file(model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, master_node_coordinates: object, v_trsf: object, k_mat: object, mass_mat: object, c_mat: object, rhs: object, dn: object, dr_cross_n: object, drn: object, dn_cross_n: object, dnx_y: object, dny_y: object, dnz_y: object, dyx_n: object, dyy_n: object, dyz_n: object, dnxn: object, dnyn: object, dnzn: object, file_path: object, config: OperatorConfig)
-write_cms_rbd_file(config: OperatorConfig)
+write_cms_rbd_file()
+
+write_cms_rbd_file(model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, master_node_coordinates: object, v_trsf: object, k_mat: object, mass_mat: object, c_mat: object, rhs: object, dn: object, dr_cross_n: object, drn: object, dn_cross_n: object, dnx_y: object, dny_y: object, dnz_y: object, dyx_n: object, dyy_n: object, dyz_n: object, dnxn: object, dnyn: object, dnzn: object, file_path: object, config: OperatorConfig)
+
+write_cms_rbd_file(config: OperatorConfig)
+
 
 
 ## Class Information

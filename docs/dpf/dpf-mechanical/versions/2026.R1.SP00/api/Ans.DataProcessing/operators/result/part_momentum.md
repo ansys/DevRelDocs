@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.part_momentum
 ---
 
-# part_momentum Class
+# part_momentum class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

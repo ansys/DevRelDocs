@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.extract_sub_mc
 ---
 
-# extract_sub_mc Class
+# extract_sub_mc class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

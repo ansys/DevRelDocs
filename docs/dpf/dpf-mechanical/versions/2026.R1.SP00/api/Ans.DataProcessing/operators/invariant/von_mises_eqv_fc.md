@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.invariant.von_mises_eqv_fc
 ---
 
-# von_mises_eqv_fc Class
+# von_mises_eqv_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 

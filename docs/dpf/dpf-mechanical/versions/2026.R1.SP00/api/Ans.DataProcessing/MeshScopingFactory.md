@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.MeshScopingFactory
 ---
 
-# MeshScopingFactory Class
+# MeshScopingFactory class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

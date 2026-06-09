@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.change_shell_layers
 ---
 
-# change_shell_layers Class
+# change_shell_layers class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

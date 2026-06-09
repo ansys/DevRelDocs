@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.part_eroded_internal_energy
 ---
 
-# part_eroded_internal_energy Class
+# part_eroded_internal_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

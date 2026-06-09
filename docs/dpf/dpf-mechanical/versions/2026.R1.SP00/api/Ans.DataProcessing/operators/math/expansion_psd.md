@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.expansion_psd
 ---
 
-# expansion_psd Class
+# expansion_psd class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

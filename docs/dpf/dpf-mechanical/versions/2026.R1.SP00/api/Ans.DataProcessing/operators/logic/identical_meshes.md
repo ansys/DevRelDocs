@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.logic.identical_meshes
 ---
 
-# identical_meshes Class
+# identical_meshes class
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 

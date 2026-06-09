@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.kronecker_prod
 ---
 
-# kronecker_prod Class
+# kronecker_prod class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

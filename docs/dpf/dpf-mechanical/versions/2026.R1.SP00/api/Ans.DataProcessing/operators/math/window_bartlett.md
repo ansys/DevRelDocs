@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.window_bartlett
 ---
 
-# window_bartlett Class
+# window_bartlett class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

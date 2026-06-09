@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.pressure
 ---
 
-# pressure Class
+# pressure class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-pressure()
-pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-pressure(config: OperatorConfig)
+pressure()
+
+pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+pressure(config: OperatorConfig)
+
 
 
 ## Class Information

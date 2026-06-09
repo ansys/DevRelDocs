@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.logic.identical_string_fields
 ---
 
-# identical_string_fields Class
+# identical_string_fields class
 
 **Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
 

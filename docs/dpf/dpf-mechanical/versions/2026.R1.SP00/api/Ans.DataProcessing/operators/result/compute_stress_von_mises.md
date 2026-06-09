@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.compute_stress_von_mises
 ---
 
-# compute_stress_von_mises Class
+# compute_stress_von_mises class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

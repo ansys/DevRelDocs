@@ -2,12 +2,14 @@
 uid: Ans.DataProcessing.Collection
 ---
 
-# Collection Class
+# Collection class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Collection[T]()
-Collection[T](intptr: IntPtr)
+Collection[T]()
+
+Collection[T](intptr: IntPtr)
+
 
 
 ## Class Information

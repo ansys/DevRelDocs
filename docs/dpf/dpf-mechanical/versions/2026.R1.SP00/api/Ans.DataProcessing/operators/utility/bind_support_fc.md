@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.bind_support_fc
 ---
 
-# bind_support_fc Class
+# bind_support_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

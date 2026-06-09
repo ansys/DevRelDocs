@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.squared_l2norm_pressure
 ---
 
-# squared_l2norm_pressure Class
+# squared_l2norm_pressure class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-squared_l2norm_pressure()
-squared_l2norm_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-squared_l2norm_pressure(config: OperatorConfig)
+squared_l2norm_pressure()
+
+squared_l2norm_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+squared_l2norm_pressure(config: OperatorConfig)
+
 
 
 ## Class Information

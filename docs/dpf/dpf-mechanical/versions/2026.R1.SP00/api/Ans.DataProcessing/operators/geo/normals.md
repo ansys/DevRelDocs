@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.geo.normals
 ---
 
-# normals Class
+# normals class
 
 **Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
 

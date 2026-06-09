@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.compute_total_strain
 ---
 
-# compute_total_strain Class
+# compute_total_strain class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-compute_total_strain()
-compute_total_strain(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
-compute_total_strain(config: OperatorConfig)
+compute_total_strain()
+
+compute_total_strain(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
+
+compute_total_strain(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.invariant.principal_invariants
 ---
 
-# principal_invariants Class
+# principal_invariants class
 
 **Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
 

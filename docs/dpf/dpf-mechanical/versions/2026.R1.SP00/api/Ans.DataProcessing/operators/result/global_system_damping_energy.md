@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.global_system_damping_energy
 ---
 
-# global_system_damping_energy Class
+# global_system_damping_energy class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.rms_temperature
 ---
 
-# rms_temperature Class
+# rms_temperature class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-rms_temperature()
-rms_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-rms_temperature(config: OperatorConfig)
+rms_temperature()
+
+rms_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+rms_temperature(config: OperatorConfig)
+
 
 
 ## Class Information

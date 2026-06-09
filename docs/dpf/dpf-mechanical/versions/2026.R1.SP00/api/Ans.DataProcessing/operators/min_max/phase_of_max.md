@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.min_max.phase_of_max
 ---
 
-# phase_of_max Class
+# phase_of_max class
 
 **Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
 

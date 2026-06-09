@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.change_location
 ---
 
-# change_location Class
+# change_location class
 
 **Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
 

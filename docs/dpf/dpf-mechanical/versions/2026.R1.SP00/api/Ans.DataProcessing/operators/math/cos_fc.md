@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.cos_fc
 ---
 
-# cos_fc Class
+# cos_fc class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 

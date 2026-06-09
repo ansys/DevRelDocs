@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.averaging.elemental_mean
 ---
 
-# elemental_mean Class
+# elemental_mean class
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 

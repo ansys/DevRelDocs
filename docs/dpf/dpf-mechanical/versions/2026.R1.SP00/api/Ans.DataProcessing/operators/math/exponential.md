@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.exponential
 ---
 
-# exponential Class
+# exponential class
 
 **Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
 
-exponential()
-exponential(field: object, config: OperatorConfig)
-exponential(config: OperatorConfig)
+exponential()
+
+exponential(field: object, config: OperatorConfig)
+
+exponential(config: OperatorConfig)
+
 
 
 ## Class Information

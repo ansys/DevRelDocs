@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.contact_total_stress
 ---
 
-# contact_total_stress Class
+# contact_total_stress class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-contact_total_stress()
-contact_total_stress(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_total_stress(config: OperatorConfig)
+contact_total_stress()
+
+contact_total_stress(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_total_stress(config: OperatorConfig)
+
 
 
 ## Class Information

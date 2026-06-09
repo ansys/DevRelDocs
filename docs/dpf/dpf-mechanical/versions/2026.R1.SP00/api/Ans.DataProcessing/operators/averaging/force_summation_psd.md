@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.averaging.force_summation_psd
 ---
 
-# force_summation_psd Class
+# force_summation_psd class
 
 **Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
 

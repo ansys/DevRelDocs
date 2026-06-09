@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.volume_fraction
 ---
 
-# volume_fraction Class
+# volume_fraction class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
-volume_fraction()
-volume_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-volume_fraction(config: OperatorConfig)
+volume_fraction()
+
+volume_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+volume_fraction(config: OperatorConfig)
+
 
 
 ## Class Information

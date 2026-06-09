@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.result.cms_subfile_info_provider
 ---
 
-# cms_subfile_info_provider Class
+# cms_subfile_info_provider class
 
 **Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
 
