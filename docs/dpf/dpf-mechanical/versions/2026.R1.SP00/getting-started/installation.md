@@ -28,7 +28,7 @@ import Ans.DataProcessing as dpf
 model = ExtAPI.DataModel.Project.Model
 ```
 
-### 2. Through Python result objects
+### 2. Through Python Result objects
 
 When using Python Result objects in Mechanical:
 

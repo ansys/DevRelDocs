@@ -124,7 +124,7 @@ sX = stressXOp.outputs.fields_container.GetData()
 print("Stress X at node 1: {0}".format(sX.Data))
 ```
 
-## Using in a Python result object
+## Using in a Python Result object
 
 You can also use DPF in a Python Result object for visualization:
 

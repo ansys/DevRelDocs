@@ -79,7 +79,7 @@ dpf_model = dpf.Model(data_sources)
 print("Done!")
 ```
 
-## Example template for Python result object
+## Example template for Python Result object
 
 Python Result examples use this structure:
 

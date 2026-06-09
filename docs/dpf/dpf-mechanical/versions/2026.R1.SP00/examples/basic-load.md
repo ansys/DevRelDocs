@@ -73,7 +73,7 @@ Number of time steps: 10
 === Inspection Complete ===
 ```
 
-## Using in a Python result object
+## Using in a Python Result object
 
 You can also inspect results within a Python Result object:
 

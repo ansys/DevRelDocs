@@ -54,7 +54,7 @@ print("Maximum displacement: {0:.6e}".format(max_disp))
 print("At node: {0}".format(max_node_id))
 ```
 
-## Python result object example
+## Python Result object example
 
 Create a custom Python Result in Mechanical to display maximum displacement with visualization:
 

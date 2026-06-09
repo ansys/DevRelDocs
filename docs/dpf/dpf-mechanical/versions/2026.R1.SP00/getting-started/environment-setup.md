@@ -94,17 +94,17 @@ dpf_model = dpf.Model(data_sources)
 print("Nodes: {0}".format(dpf_model.Mesh.Nodes.Count))
 ```
 
-## Python result objects
+## Python Result objects
 
 Python Result objects allow you to create custom result types in Mechanical:
 
-### Creating a Python result
+### Creating a Python Result
 
 1. In the Mechanical tree, right-click on **Solution**
 2. Insert → **Result** → **Python Result**
 3. Edit the Python code in the properties panel
 
-### Python result template
+### Python Result template
 
 ```python
 def define_dpf_workflow(analysis):
@@ -145,7 +145,7 @@ def define_dpf_workflow(analysis):
     this.WorkflowId = dpf_workflow.GetRecordedId()
 ```
 
-### Python result context
+### Python Result context
 
 - Use `define_dpf_workflow(analysis)` function pattern
 - `analysis`: Passed automatically by Mechanical
