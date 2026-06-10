@@ -14,8 +14,6 @@
   items:
   - name: Core concepts
     href: user-guide/core-concepts.md
-  - name: Data model
-    href: user-guide/data-model.md
   - name: Working with Fields
     href: user-guide/working-with-fields.md
   - name: Working with Meshes
