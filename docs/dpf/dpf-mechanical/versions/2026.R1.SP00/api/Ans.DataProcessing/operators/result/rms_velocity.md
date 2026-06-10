@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.rms_velocity
 
 # rms_velocity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 rms_velocity()
 

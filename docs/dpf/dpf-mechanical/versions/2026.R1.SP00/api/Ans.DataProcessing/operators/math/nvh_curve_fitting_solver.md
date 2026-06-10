@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.nvh_curve_fitting_solver
 
 # nvh_curve_fitting_solver class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 nvh_curve_fitting_solver()
 

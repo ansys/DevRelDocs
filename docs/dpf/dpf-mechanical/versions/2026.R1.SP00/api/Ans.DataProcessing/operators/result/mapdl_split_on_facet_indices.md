@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.mapdl_split_on_facet_indices
 
 # mapdl_split_on_facet_indices class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

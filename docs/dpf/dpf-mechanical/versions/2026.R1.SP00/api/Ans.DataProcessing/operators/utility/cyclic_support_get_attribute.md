@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.cyclic_support_get_attribute
 
 # cyclic_support_get_attribute class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

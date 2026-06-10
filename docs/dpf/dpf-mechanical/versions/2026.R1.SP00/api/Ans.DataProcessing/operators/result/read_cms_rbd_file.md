@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.read_cms_rbd_file
 
 # read_cms_rbd_file class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 read_cms_rbd_file()
 

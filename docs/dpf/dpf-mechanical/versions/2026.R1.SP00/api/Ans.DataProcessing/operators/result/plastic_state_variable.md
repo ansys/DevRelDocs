@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.plastic_state_variable
 
 # plastic_state_variable class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 plastic_state_variable()
 

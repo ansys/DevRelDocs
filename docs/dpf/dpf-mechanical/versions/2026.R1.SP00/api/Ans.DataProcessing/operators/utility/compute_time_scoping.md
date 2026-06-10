@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.compute_time_scoping
 
 # compute_time_scoping class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 compute_time_scoping()
 

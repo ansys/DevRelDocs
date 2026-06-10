@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.gasket_stress_XZ
 
 # gasket_stress_XZ class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 gasket_stress_XZ()
 

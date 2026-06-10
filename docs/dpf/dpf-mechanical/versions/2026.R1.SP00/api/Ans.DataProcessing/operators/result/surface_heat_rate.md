@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.surface_heat_rate
 
 # surface_heat_rate class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 surface_heat_rate()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.mechanical.min_max_over_time
 
 # min_max_over_time class
 
-**Namespace:** [Ans.DataProcessing.operators.math.mechanical](Ans_DataProcessing_operators_math_mechanical.md)
+**Namespace:** [Ans.DataProcessing.operators.math.mechanical](mechanical.md)
 
 ## Summary
 

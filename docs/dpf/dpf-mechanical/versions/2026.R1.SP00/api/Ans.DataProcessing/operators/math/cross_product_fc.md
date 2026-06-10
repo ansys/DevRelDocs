@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.cross_product_fc
 
 # cross_product_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 cross_product_fc()
 

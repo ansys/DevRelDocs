@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.logic.identical_scopings
 
 # identical_scopings class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

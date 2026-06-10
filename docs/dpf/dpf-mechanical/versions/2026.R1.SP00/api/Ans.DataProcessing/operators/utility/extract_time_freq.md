@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.extract_time_freq
 
 # extract_time_freq class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

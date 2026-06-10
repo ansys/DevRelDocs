@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.thermal_strain_principal_1
 
 # thermal_strain_principal_1 class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 thermal_strain_principal_1()
 

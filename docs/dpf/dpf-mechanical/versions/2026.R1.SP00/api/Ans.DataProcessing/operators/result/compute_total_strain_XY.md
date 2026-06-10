@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.compute_total_strain_XY
 
 # compute_total_strain_XY class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 compute_total_strain_XY()
 

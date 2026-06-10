@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.add_constant
 
 # add_constant class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 add_constant()
 

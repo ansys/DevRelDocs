@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.contact_sliding_distance
 
 # contact_sliding_distance class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 contact_sliding_distance()
 

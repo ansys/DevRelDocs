@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.scoping.adapt_with_scopings_container
 
 # adapt_with_scopings_container class
 
-**Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
+**Namespace:** [Ans.DataProcessing.operators.scoping](index.md)
 
 ## Summary
 

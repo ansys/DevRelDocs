@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.joint_force_reaction
 
 # joint_force_reaction class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 joint_force_reaction()
 

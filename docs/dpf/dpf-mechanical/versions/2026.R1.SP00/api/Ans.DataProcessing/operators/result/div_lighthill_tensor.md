@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.div_lighthill_tensor
 
 # div_lighthill_tensor class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 div_lighthill_tensor()
 

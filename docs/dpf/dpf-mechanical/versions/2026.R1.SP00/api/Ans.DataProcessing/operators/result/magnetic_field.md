@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.magnetic_field
 
 # magnetic_field class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 magnetic_field()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.beam_tr_shear_stress
 
 # beam_tr_shear_stress class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 beam_tr_shear_stress()
 

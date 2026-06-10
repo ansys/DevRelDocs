@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.magnetic_flux_density_Z
 
 # magnetic_flux_density_Z class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 magnetic_flux_density_Z()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.python_generator
 
 # python_generator class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

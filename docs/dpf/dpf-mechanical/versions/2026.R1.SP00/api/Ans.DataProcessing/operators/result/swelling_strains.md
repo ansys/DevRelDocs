@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.swelling_strains
 
 # swelling_strains class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 swelling_strains()
 

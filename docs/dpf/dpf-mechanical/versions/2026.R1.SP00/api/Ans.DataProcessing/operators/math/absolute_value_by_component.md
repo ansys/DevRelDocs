@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.absolute_value_by_component
 
 # absolute_value_by_component class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 absolute_value_by_component()
 

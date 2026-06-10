@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.mass_flow_rate
 
 # mass_flow_rate class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 mass_flow_rate()
 

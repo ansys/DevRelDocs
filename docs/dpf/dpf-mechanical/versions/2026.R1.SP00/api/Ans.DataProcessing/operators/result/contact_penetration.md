@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.contact_penetration
 
 # contact_penetration class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 contact_penetration()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.invariant.segalman_von_mises_eqv_fc
 
 # segalman_von_mises_eqv_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
+**Namespace:** [Ans.DataProcessing.operators.invariant](index.md)
 
 ## Summary
 

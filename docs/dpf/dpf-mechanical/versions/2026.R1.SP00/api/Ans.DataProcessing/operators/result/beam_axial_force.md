@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.beam_axial_force
 
 # beam_axial_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 beam_axial_force()
 

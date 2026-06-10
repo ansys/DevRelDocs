@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.remote_workflow_instantiate
 
 # remote_workflow_instantiate class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

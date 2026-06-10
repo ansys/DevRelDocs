@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.merge_time_freq_supports
 
 # merge_time_freq_supports class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

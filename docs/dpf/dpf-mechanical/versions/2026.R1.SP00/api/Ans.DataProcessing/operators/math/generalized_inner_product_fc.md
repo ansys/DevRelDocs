@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.generalized_inner_product_fc
 
 # generalized_inner_product_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 generalized_inner_product_fc()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.creep_strain_principal_1
 
 # creep_strain_principal_1 class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 creep_strain_principal_1()
 

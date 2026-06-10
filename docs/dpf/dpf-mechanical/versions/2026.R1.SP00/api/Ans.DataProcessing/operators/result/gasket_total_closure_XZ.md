@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.gasket_total_closure_XZ
 
 # gasket_total_closure_XZ class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 gasket_total_closure_XZ()
 

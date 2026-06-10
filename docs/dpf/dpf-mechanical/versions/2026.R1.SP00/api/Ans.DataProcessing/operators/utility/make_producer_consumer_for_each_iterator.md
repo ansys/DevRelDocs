@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.make_producer_consumer_for_each_iterat
 
 # make_producer_consumer_for_each_iterator class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

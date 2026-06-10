@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.mapping.solid_to_skin
 
 # solid_to_skin class
 
-**Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
+**Namespace:** [Ans.DataProcessing.operators.mapping](index.md)
 
 ## Summary
 

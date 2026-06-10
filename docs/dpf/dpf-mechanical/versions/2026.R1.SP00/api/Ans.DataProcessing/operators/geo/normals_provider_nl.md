@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.geo.normals_provider_nl
 
 # normals_provider_nl class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

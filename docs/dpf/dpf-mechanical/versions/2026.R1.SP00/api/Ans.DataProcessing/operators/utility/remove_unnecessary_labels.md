@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.remove_unnecessary_labels
 
 # remove_unnecessary_labels class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

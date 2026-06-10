@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.geo.to_polar_coordinates
 
 # to_polar_coordinates class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

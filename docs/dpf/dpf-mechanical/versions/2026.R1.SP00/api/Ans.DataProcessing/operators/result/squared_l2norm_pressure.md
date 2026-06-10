@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.squared_l2norm_pressure
 
 # squared_l2norm_pressure class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 squared_l2norm_pressure()
 

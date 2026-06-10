@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.nodal_rotational_acceleration_Z
 
 # nodal_rotational_acceleration_Z class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 nodal_rotational_acceleration_Z()
 

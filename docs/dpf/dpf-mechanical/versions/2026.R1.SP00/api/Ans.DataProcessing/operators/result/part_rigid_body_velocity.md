@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.part_rigid_body_velocity
 
 # part_rigid_body_velocity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

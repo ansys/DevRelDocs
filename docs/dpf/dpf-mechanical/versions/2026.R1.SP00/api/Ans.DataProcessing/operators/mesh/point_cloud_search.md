@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.mesh.point_cloud_search
 
 # point_cloud_search class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 point_cloud_search()
 

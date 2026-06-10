@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.scale_by_field_fc
 
 # scale_by_field_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 
