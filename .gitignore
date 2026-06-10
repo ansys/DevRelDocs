@@ -1,1 +1,4 @@
 docs/**/documentation-compliance-report.md
+.vscode/
+.worktrees/
+.codacy/
