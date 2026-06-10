@@ -31,17 +31,6 @@ Extract and process simulation results such as stress, strain, displacement, and
 ### [Scoping and support](scoping-support.md)
 Learn about data scoping (entity selection) and support (spatial/temporal context).
 
-## Advanced topics
-
-### [Custom operators](custom-operators.md)
-Create your own operators to extend DPF functionality.
-
-### [Performance optimization](performance.md)
-Best practices for efficient data processing.
-
-### [Error handling](error-handling.md)
-Proper exception handling and debugging techniques.
-
 ## Best practices
 
 - Always dispose of large objects when finished

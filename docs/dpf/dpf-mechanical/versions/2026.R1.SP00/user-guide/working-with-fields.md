@@ -182,6 +182,12 @@ for i in range(fields_container.Count):
 4. **Memory management**: Dispose large fields when done
 5. **Batch processing**: Use FieldsContainer for multi-step operations
 
+## To go further (DPF framework)
+
+- [Field fundamentals](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/field.md)
+- [How to use data containers](https://developer.ansys.com/docs/dpf-framework-2026-r1/user-guide/using-data-containers.md)
+- [How to use operators](https://developer.ansys.com/docs/dpf-framework-2026-r1/user-guide/using-operators.md)
+
 ## Next steps
 
 - [Working with Meshes](working-with-meshes.md)
