@@ -11,9 +11,6 @@ Comprehensive guides for working with DPF IronPython.
 ### [Understanding DPF](core-concepts.md)
 Learn the fundamental concepts and architecture of DPF.
 
-### [Data model](data-model.md)
-Understand how DPF organizes and represents simulation data.
-
 ### [Operators and workflows](operators-workflows.md)
 Learn about DPF's operator-based processing model.
 
@@ -30,17 +27,6 @@ Extract and process simulation results such as stress, strain, displacement, and
 
 ### [Scoping and support](scoping-support.md)
 Learn about data scoping (entity selection) and support (spatial/temporal context).
-
-## Advanced topics
-
-### [Custom operators](custom-operators.md)
-Create your own operators to extend DPF functionality.
-
-### [Performance optimization](performance.md)
-Best practices for efficient data processing.
-
-### [Error handling](error-handling.md)
-Proper exception handling and debugging techniques.
 
 ## Best practices
 

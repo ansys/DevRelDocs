@@ -145,6 +145,13 @@ max_stress = max(vm_stress.Data)
 print("Max von Mises: {0:.2f}".format(max_stress))
 ```
 
+## To go further (DPF framework)
+
+- [Available types](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/dpf-types.md)
+- [Field fundamentals](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/field.md)
+- [Operator fundamentals](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/operator.md)
+- [Operator configurations](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/operator-configurations.md)
+
 ## Next Steps
 
 - [Data Model](data-model.md) - Detailed data structure overview

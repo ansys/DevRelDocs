@@ -16,6 +16,14 @@
     href: user-guide/core-concepts.md
   - name: Working with Fields
     href: user-guide/working-with-fields.md
+  - name: Working with Meshes
+    href: user-guide/working-with-meshes.md
+  - name: Working with Results
+    href: user-guide/working-with-results.md
+  - name: Operators and Workflows
+    href: user-guide/operators-workflows.md
+  - name: Scoping and Support
+    href: user-guide/scoping-support.md
 - name: Examples
   href: examples/index.md
   items:
