@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.heat_flux
 
 # heat_flux class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 heat_flux()
 

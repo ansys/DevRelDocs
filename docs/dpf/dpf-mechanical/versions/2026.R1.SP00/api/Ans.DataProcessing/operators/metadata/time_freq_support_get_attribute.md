@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.metadata.time_freq_support_get_attribute
 
 # time_freq_support_get_attribute class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

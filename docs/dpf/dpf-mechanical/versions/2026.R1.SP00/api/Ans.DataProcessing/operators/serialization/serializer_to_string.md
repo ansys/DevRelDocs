@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.serialization.serializer_to_string
 
 # serializer_to_string class
 
-**Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
+**Namespace:** [Ans.DataProcessing.operators.serialization](index.md)
 
 ## Summary
 

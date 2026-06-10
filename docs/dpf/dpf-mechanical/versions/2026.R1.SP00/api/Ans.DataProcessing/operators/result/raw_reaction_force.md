@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.raw_reaction_force
 
 # raw_reaction_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 raw_reaction_force()
 

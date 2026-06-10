@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.beam_t_shear_force
 
 # beam_t_shear_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 beam_t_shear_force()
 

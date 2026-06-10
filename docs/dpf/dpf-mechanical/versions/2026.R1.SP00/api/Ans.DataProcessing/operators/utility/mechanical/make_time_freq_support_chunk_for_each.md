@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.mechanical.make_time_freq_support_chun
 
 # make_time_freq_support_chunk_for_each class
 
-**Namespace:** [Ans.DataProcessing.operators.utility.mechanical](Ans_DataProcessing_operators_utility_mechanical.md)
+**Namespace:** [Ans.DataProcessing.operators.utility.mechanical](mechanical.md)
 
 ## Summary
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.propertyfield_get_attribute
 
 # propertyfield_get_attribute class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

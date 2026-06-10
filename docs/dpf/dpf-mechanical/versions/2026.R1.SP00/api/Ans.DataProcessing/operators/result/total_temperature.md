@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.total_temperature
 
 # total_temperature class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 total_temperature()
 

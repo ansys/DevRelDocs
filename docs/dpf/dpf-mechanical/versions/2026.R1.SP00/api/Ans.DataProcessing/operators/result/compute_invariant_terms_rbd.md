@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.compute_invariant_terms_rbd
 
 # compute_invariant_terms_rbd class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 compute_invariant_terms_rbd()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.fastnvh_loadfile
 
 # fastnvh_loadfile class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 fastnvh_loadfile()
 

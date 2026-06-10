@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.turbulent_kinetic_energy
 
 # turbulent_kinetic_energy class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 turbulent_kinetic_energy()
 

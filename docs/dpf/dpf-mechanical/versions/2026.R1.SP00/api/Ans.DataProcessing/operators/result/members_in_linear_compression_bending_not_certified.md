@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.members_in_linear_compression_bending_n
 
 # members_in_linear_compression_bending_not_certified class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

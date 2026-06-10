@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.mesh.iso_surfaces
 
 # iso_surfaces class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 iso_surfaces()
 

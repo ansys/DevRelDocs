@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.serialization.migrate_file_to_vtk
 
 # migrate_file_to_vtk class
 
-**Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
+**Namespace:** [Ans.DataProcessing.operators.serialization](index.md)
 
 ## Summary
 

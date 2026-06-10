@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.mesh.node_coordinates
 
 # node_coordinates class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

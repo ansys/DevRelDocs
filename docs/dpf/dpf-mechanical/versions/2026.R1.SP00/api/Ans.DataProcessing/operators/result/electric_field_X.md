@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.electric_field_X
 
 # electric_field_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 electric_field_X()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.filter.scoping_low_pass
 
 # scoping_low_pass class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

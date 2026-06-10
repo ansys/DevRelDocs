@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.dynamic_viscosity
 
 # dynamic_viscosity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 dynamic_viscosity()
 

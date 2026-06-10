@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.global_energy_ratio
 
 # global_energy_ratio class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

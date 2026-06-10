@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.rms_static_pressure
 
 # rms_static_pressure class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 rms_static_pressure()
 

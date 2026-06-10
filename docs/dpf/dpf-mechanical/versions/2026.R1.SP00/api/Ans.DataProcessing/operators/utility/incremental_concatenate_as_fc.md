@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.incremental_concatenate_as_fc
 
 # incremental_concatenate_as_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

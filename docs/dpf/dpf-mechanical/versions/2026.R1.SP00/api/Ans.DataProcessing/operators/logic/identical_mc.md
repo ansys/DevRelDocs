@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.logic.identical_mc
 
 # identical_mc class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

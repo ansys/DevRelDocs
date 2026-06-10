@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.modal_acceleration
 
 # modal_acceleration class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 modal_acceleration()
 

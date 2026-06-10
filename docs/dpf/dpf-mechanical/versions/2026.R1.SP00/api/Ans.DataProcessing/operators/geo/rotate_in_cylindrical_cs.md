@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.geo.rotate_in_cylindrical_cs
 
 # rotate_in_cylindrical_cs class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

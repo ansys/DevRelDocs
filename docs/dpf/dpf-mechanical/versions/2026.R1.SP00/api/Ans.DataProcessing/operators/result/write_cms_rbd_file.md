@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.write_cms_rbd_file
 
 # write_cms_rbd_file class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 write_cms_rbd_file()
 

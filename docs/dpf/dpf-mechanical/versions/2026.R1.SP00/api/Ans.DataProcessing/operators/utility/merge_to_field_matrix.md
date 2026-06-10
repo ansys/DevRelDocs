@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.merge_to_field_matrix
 
 # merge_to_field_matrix class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

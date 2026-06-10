@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.thermal_dissipation_energy
 
 # thermal_dissipation_energy class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 thermal_dissipation_energy()
 

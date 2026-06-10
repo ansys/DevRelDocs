@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.invariant.convertnum_bcs_to_nod
 
 # convertnum_bcs_to_nod class
 
-**Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
+**Namespace:** [Ans.DataProcessing.operators.invariant](index.md)
 
 ## Summary
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.gasket_thermal_closure_XZ
 
 # gasket_thermal_closure_XZ class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 gasket_thermal_closure_XZ()
 

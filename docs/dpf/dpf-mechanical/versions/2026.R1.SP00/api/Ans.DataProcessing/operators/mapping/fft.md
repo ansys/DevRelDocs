@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.mapping.fft
 
 # fft class
 
-**Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
+**Namespace:** [Ans.DataProcessing.operators.mapping](index.md)
 
 ## Summary
 

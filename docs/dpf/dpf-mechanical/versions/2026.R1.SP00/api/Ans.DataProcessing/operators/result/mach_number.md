@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.mach_number
 
 # mach_number class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 mach_number()
 

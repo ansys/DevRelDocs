@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.merge_weighted_fields_containers
 
 # merge_weighted_fields_containers class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

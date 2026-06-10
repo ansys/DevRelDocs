@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.mapdl.global_to_nodal
 
 # global_to_nodal class
 
-**Namespace:** [Ans.DataProcessing.operators.result.mapdl](Ans_DataProcessing_operators_result_mapdl.md)
+**Namespace:** [Ans.DataProcessing.operators.result.mapdl](mapdl.md)
 
 ## Summary
 

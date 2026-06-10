@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.displacement_Y
 
 # displacement_Y class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 displacement_Y()
 

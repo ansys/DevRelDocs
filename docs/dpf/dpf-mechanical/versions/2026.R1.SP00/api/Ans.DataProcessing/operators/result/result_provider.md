@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.result_provider
 
 # result_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 result_provider()
 

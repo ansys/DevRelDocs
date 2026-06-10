@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.output_sound_power
 
 # output_sound_power class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 output_sound_power()
 

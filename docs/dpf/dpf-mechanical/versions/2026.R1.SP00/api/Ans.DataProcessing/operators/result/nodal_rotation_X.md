@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.nodal_rotation_X
 
 # nodal_rotation_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 nodal_rotation_X()
 

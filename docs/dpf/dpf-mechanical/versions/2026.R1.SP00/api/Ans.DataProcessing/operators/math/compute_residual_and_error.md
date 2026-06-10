@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.compute_residual_and_error
 
 # compute_residual_and_error class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

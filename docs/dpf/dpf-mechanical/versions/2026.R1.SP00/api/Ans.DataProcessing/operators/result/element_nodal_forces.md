@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.element_nodal_forces
 
 # element_nodal_forces class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 element_nodal_forces()
 

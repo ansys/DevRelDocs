@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.transient_rayleigh_integration
 
 # transient_rayleigh_integration class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

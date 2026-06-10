@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.time_freq_interpolation
 
 # time_freq_interpolation class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 time_freq_interpolation()
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.averaging.elemental_difference
 
 # elemental_difference class
 
-**Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
+**Namespace:** [Ans.DataProcessing.operators.averaging](index.md)
 
 ## Summary
 

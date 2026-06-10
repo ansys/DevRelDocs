@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.averaging.force_summation
 
 # force_summation class
 
-**Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
+**Namespace:** [Ans.DataProcessing.operators.averaging](index.md)
 
 force_summation()
 

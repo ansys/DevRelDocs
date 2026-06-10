@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.serialization.hdf5dpf_custom_read
 
 # hdf5dpf_custom_read class
 
-**Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
+**Namespace:** [Ans.DataProcessing.operators.serialization](index.md)
 
 ## Summary
 

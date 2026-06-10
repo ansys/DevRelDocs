@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.wall_shear_stress
 
 # wall_shear_stress class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 wall_shear_stress()
 

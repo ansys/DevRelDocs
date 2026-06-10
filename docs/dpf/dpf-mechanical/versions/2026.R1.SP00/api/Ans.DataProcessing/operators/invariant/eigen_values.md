@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.invariant.eigen_values
 
 # eigen_values class
 
-**Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
+**Namespace:** [Ans.DataProcessing.operators.invariant](index.md)
 
 ## Summary
 

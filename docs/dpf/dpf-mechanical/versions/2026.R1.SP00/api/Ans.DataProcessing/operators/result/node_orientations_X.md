@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.node_orientations_X
 
 # node_orientations_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 node_orientations_X()
 

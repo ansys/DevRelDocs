@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.num_surface_status_changes
 
 # num_surface_status_changes class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 num_surface_status_changes()
 

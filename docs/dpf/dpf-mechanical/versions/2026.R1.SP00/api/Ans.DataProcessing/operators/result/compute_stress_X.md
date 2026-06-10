@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.compute_stress_X
 
 # compute_stress_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

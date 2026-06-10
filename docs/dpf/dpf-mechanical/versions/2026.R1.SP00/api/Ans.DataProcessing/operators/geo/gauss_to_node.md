@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.geo.gauss_to_node
 
 # gauss_to_node class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.elastic_strain_max_shear
 
 # elastic_strain_max_shear class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 elastic_strain_max_shear()
 
