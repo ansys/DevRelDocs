@@ -37,7 +37,7 @@ This page provides answers to frequently asked questions about developing PACZ c
 
 **A4:** Using a two-item Boolean array as an example:
 
-```C#
+```csharp
 bool[] val = { true, false };  
 BooleanArrayValue booleanArrayValue = val;  
 RuntimeVariable boolVar = new RuntimeVariable("bool_arr_var", VariableType.BooleanArray, booleanArrayValue);  
@@ -63,7 +63,7 @@ Note that the `FilePath` property changes depending on whether the path is insid
 
 ![remove-variable](graphics/faq_q6_step1.png "Remove Variable from Model")
 
-```C#
+```csharp
 private void _removeOutput(VariableBasedBuilderViewModel viewModel, string outputToRemove)  
 {  
     IEnumerable<IRuntimeVariable> oldOutputs = viewModel.OutputVariables;
@@ -84,7 +84,7 @@ private void _removeOutput(VariableBasedBuilderViewModel viewModel, string outpu
 
 **A7:** During output list construction you would have:
 
-```C#
+```csharp
 private IEnumerable<IRuntimeVariable> _createOutputs()
 {
     RuntimeVariable y = new RuntimeVariable("y", VariableType.Real, new RealValue(0.01));
@@ -97,7 +97,7 @@ private IEnumerable<IRuntimeVariable> _createOutputs()
 
 During execution time:
 
-```C#
+```csharp
 public async Task RunAsync(IReadOnlyDictionary<string, VariableState> inputs, VariableValueScope outputs, CancellationToken cancellation)
 {
     //TODO: Run the component, set the outputs as a function of the inputs
@@ -128,7 +128,7 @@ or `null` if it is not the correct type.
 
 **A9:** Example using integers:
 
-```C#
+```csharp
 long[,] intArr = new long[3, 4] {
    {0, 1, 2, 3} ,   /*  initializers for row indexed by 0 */
    {4, 5, 6, 7} ,   /*  initializers for row indexed by 1 */
