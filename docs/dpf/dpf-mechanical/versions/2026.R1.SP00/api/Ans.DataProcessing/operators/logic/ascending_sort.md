@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.ascending_sort
 ---
 
-# ascending_sort Class
+# ascending_sort class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

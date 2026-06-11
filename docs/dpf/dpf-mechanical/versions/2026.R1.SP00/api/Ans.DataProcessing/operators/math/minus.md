@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.minus
 ---
 
-# minus Class
+# minus class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-minus()
-minus(fieldA: object, fieldB: object, config: OperatorConfig)
-minus(config: OperatorConfig)
+minus()
+
+minus(fieldA: object, fieldB: object, config: OperatorConfig)
+
+minus(config: OperatorConfig)
+
 
 
 ## Class Information

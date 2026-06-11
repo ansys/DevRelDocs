@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.scoping_signed_high_pass
 ---
 
-# scoping_signed_high_pass Class
+# scoping_signed_high_pass class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

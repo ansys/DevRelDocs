@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.elementary_data_selector
 ---
 
-# elementary_data_selector Class
+# elementary_data_selector class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

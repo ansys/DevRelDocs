@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.metadata.element_types_provider
 ---
 
-# element_types_provider Class
+# element_types_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.entity_extractor
 ---
 
-# entity_extractor Class
+# entity_extractor class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

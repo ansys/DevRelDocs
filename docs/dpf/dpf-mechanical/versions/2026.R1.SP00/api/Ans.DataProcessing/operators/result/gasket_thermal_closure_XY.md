@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.gasket_thermal_closure_XY
 ---
 
-# gasket_thermal_closure_XY Class
+# gasket_thermal_closure_XY class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-gasket_thermal_closure_XY()
-gasket_thermal_closure_XY(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-gasket_thermal_closure_XY(config: OperatorConfig)
+gasket_thermal_closure_XY()
+
+gasket_thermal_closure_XY(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+gasket_thermal_closure_XY(config: OperatorConfig)
+
 
 
 ## Class Information

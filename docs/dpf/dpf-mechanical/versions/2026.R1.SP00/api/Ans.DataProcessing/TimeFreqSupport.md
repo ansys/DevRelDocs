@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.TimeFreqSupport
 ---
 
-# TimeFreqSupport Class
+# TimeFreqSupport class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

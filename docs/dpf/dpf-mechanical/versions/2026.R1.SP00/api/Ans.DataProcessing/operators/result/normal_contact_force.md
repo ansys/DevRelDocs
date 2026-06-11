@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.normal_contact_force
 ---
 
-# normal_contact_force Class
+# normal_contact_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-normal_contact_force()
-normal_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-normal_contact_force(config: OperatorConfig)
+normal_contact_force()
+
+normal_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+normal_contact_force(config: OperatorConfig)
+
 
 
 ## Class Information

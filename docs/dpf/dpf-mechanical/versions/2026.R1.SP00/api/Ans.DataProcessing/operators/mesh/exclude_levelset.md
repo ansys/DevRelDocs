@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mesh.exclude_levelset
 ---
 
-# exclude_levelset Class
+# exclude_levelset class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

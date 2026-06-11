@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.Session
 ---
 
-# Session Class
+# Session class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Session()
+Session()
+
 
 
 ## Class Information

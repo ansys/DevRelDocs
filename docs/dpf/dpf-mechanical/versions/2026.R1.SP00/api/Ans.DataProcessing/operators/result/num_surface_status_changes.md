@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.num_surface_status_changes
 ---
 
-# num_surface_status_changes Class
+# num_surface_status_changes class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-num_surface_status_changes()
-num_surface_status_changes(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-num_surface_status_changes(config: OperatorConfig)
+num_surface_status_changes()
+
+num_surface_status_changes(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+num_surface_status_changes(config: OperatorConfig)
+
 
 
 ## Class Information

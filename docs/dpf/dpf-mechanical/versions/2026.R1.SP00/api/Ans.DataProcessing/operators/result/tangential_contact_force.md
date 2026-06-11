@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.tangential_contact_force
 ---
 
-# tangential_contact_force Class
+# tangential_contact_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-tangential_contact_force()
-tangential_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-tangential_contact_force(config: OperatorConfig)
+tangential_contact_force()
+
+tangential_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+tangential_contact_force(config: OperatorConfig)
+
 
 
 ## Class Information

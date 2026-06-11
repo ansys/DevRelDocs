@@ -2,12 +2,14 @@
 uid: Ans.DataProcessing.EventLogger
 ---
 
-# EventLogger Class
+# EventLogger class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-EventLogger()
-EventLogger(level: EVerbosityLevel)
+EventLogger()
+
+EventLogger(level: EVerbosityLevel)
+
 
 
 ## Class Information

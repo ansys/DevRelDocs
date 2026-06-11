@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.min_max.min_max_by_time
 ---
 
-# min_max_by_time Class
+# min_max_by_time class
 
-**Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
+**Namespace:** [Ans.DataProcessing.operators.min_max](index.md)
 
 ## Summary
 

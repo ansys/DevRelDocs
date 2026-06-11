@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.metadata.mesh_selection_manager_provider
 ---
 
-# mesh_selection_manager_provider Class
+# mesh_selection_manager_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

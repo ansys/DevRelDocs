@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.beam_axial_stress
 ---
 
-# beam_axial_stress Class
+# beam_axial_stress class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-beam_axial_stress()
-beam_axial_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
-beam_axial_stress(config: OperatorConfig)
+beam_axial_stress()
+
+beam_axial_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
+
+beam_axial_stress(config: OperatorConfig)
+
 
 
 ## Class Information

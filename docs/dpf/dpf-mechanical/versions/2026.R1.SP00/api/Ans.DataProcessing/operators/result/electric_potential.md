@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.electric_potential
 ---
 
-# electric_potential Class
+# electric_potential class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-electric_potential()
-electric_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-electric_potential(config: OperatorConfig)
+electric_potential()
+
+electric_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+electric_potential(config: OperatorConfig)
+
 
 
 ## Class Information

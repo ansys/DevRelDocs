@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.contact_status
 ---
 
-# contact_status Class
+# contact_status class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-contact_status()
-contact_status(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_status(config: OperatorConfig)
+contact_status()
+
+contact_status(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_status(config: OperatorConfig)
+
 
 
 ## Class Information

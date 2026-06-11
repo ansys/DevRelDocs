@@ -15,7 +15,7 @@ DPF (Data Processing Framework) is a modern infrastructure for accessing and pro
 - **Integrated with Mechanical**: Available in scripting window and Python Results
 - **IronPython interface**: Python syntax using underlying C# DLLs
 
-## Key Concepts
+## Key concepts
 
 ### Model
 
@@ -144,6 +144,13 @@ vm_stress = vm_op.GetOutput(0, dpf.Field)
 max_stress = max(vm_stress.Data)
 print("Max von Mises: {0:.2f}".format(max_stress))
 ```
+
+## To go further (DPF framework)
+
+- [Available types](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/dpf-types.md)
+- [Field fundamentals](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/field.md)
+- [Operator fundamentals](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/operator.md)
+- [Operator configurations](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/operator-configurations.md)
 
 ## Next Steps
 

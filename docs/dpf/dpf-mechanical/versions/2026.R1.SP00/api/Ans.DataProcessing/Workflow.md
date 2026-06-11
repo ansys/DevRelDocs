@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.Workflow
 ---
 
-# Workflow Class
+# Workflow class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

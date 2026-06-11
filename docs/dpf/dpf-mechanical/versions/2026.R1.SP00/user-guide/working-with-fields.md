@@ -15,7 +15,7 @@ A Field contains:
 
 ## Creating Fields
 
-### From Results
+### From results
 
 ```python
 import Ans.DataProcessing as dpf
@@ -30,7 +30,7 @@ stress_field = model.Results.Stress.GetOutput(0, dpf.LocationEnum.Elemental)
 disp_field = model.Results.Displacement.GetOutput(0, dpf.LocationEnum.Nodal)
 ```
 
-### Manual Creation
+### Manual creation
 
 ```python
 # Create an empty field
@@ -52,9 +52,9 @@ data = [1.0, 0.0, 0.0,   # Node 1: [1, 0, 0]
 field.Data = data
 ```
 
-## Accessing Field Data
+## Accessing Field data
 
-### Get All Data
+### Get all data
 
 ```python
 # Get all data as a list
@@ -66,7 +66,7 @@ num_entities = field.ElementaryDataCount
 print(f"Number of entities: {num_entities}")
 ```
 
-### Get Data for Specific Entities
+### Get data for specific entities
 
 ```python
 # Get data for first entity
@@ -78,7 +78,7 @@ entity_id = 100
 entity_data = field.GetEntityData(entity_id)
 ```
 
-### Iterate Over Field
+### Iterate over field
 
 ```python
 # Iterate through all entities
@@ -88,9 +88,9 @@ for i in range(field.ElementaryDataCount):
     print(f"Entity {entity_id}: {data}")
 ```
 
-## Field Properties
+## Field properties
 
-### Component Count
+### Component count
 
 ```python
 # Get number of components
@@ -115,9 +115,9 @@ ids = scoping.Ids
 print(f"Field defined on {scoping.Count} entities")
 ```
 
-## Field Operations with Operators
+## Field operations with operators
 
-### Compute Magnitude
+### Compute magnitude
 
 ```python
 # Create norm operator
@@ -126,7 +126,7 @@ norm_op.SetInput(0, field)
 magnitude_field = norm_op.GetOutput(0, dpf.Field)
 ```
 
-### Component Extraction
+### Component extraction
 
 ```python
 # Extract X component (component 0)
@@ -136,7 +136,7 @@ comp_op.SetInput(1, 0)  # Component index
 x_component = comp_op.GetOutput(0, dpf.Field)
 ```
 
-### Field Math
+### Field math
 
 ```python
 # Add two fields
@@ -174,7 +174,7 @@ for i in range(fields_container.Count):
     print(f"Field at time {time_id}")
 ```
 
-## Best Practices
+## Best practices
 
 1. **Check field properties**: Always verify component count and location
 2. **Use operators**: Prefer operators over manual data manipulation
@@ -182,7 +182,13 @@ for i in range(fields_container.Count):
 4. **Memory management**: Dispose large fields when done
 5. **Batch processing**: Use FieldsContainer for multi-step operations
 
-## Next Steps
+## To go further (DPF framework)
+
+- [Field fundamentals](https://developer.ansys.com/docs/dpf-framework-2026-r1/core-concepts/field.md)
+- [How to use data containers](https://developer.ansys.com/docs/dpf-framework-2026-r1/user-guide/using-data-containers.md)
+- [How to use operators](https://developer.ansys.com/docs/dpf-framework-2026-r1/user-guide/using-operators.md)
+
+## Next steps
 
 - [Working with Meshes](working-with-meshes.md)
 - [Operators and Workflows](operators-workflows.md)

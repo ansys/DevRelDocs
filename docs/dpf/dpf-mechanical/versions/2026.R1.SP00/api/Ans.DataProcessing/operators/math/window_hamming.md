@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.window_hamming
 ---
 
-# window_hamming Class
+# window_hamming class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

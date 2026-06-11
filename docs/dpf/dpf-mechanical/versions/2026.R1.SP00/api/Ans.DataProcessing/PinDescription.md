@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.PinDescription
 ---
 
-# PinDescription Class
+# PinDescription class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-PinDescription(index: int, name: str, description: str, isOptional: bool, isEllipsis: bool, typeNames: IEnumerable[str], aliases: IEnumerable[str])
+PinDescription(index: int, name: str, description: str, isOptional: bool, isEllipsis: bool, typeNames: IEnumerable[str], aliases: IEnumerable[str])
+
 
 
 ## Class Information

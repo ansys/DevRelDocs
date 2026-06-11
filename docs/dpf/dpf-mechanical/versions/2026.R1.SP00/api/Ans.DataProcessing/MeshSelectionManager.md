@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.MeshSelectionManager
 ---
 
-# MeshSelectionManager Class
+# MeshSelectionManager class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-MeshSelectionManager()
+MeshSelectionManager()
+
 
 
 ## Class Information

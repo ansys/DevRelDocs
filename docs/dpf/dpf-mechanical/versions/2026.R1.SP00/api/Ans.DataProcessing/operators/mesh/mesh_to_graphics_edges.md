@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_to_graphics_edges
 ---
 
-# mesh_to_graphics_edges Class
+# mesh_to_graphics_edges class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

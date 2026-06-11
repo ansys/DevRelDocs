@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.min_max.max_over_phase
 ---
 
-# max_over_phase Class
+# max_over_phase class
 
-**Namespace:** [Ans.DataProcessing.operators.min_max](Ans_DataProcessing_operators_min_max.md)
+**Namespace:** [Ans.DataProcessing.operators.min_max](index.md)
 
 ## Summary
 

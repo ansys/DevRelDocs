@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elastic_strain_eqv
 ---
 
-# elastic_strain_eqv Class
+# elastic_strain_eqv class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-elastic_strain_eqv()
-elastic_strain_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-elastic_strain_eqv(config: OperatorConfig)
+elastic_strain_eqv()
+
+elastic_strain_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+elastic_strain_eqv(config: OperatorConfig)
+
 
 
 ## Class Information

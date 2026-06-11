@@ -6,13 +6,13 @@ uid: getting-started.installation
 
 This guide covers how to access and use DPF within Ansys Mechanical.
 
-## DPF Integration in Mechanical
+## DPF integration in Mechanical
 
-DPF is automatically available in Ansys Mechanical ||DPF_VERSION||. No separate installation is required. DPF is exposed through IronPython using the underlying C# DLLs.
+DPF is automatically available in Ansys Mechanical 2022 R2 and later. No separate installation is required. DPF is exposed through IronPython using the underlying C# DLLs.
 
 ## Accessing DPF
 
-### 1. Through the Mechanical Scripting Window
+### 1. Through the Mechanical scripting window
 
 The Mechanical scripting window provides direct access to DPF:
 
@@ -28,7 +28,7 @@ import Ans.DataProcessing as dpf
 model = ExtAPI.DataModel.Project.Model
 ```
 
-### 2. Through Python Result Objects
+### 2. Through Python Result objects
 
 When using Python Result objects in Mechanical:
 
@@ -47,7 +47,7 @@ data_sources.SetResultFilePath(result_path)
 dpf_model = dpf.Model(data_sources)
 ```
 
-### 3. Through Custom Extensions
+### 3. Through custom extensions
 
 For custom Mechanical extensions:
 
@@ -59,7 +59,7 @@ import Ans.DataProcessing as dpf
 # No need to manually add references
 ```
 
-## DPF Assembly Locations
+## DPF assembly locations
 
 DPF assemblies are located in your Ansys installation:
 
@@ -72,7 +72,7 @@ Key assemblies (already loaded in Mechanical):
 
 **Note**: In Mechanical's scripting environment, these are automatically loaded. You don't need to manually add references.
 
-## Verifying DPF Access
+## Verifying DPF access
 
 Test DPF access in the Mechanical scripting window:
 
@@ -91,21 +91,21 @@ If successful, you should see the module and object information printed.
 
 ## Troubleshooting
 
-### Cannot Import DPF Module
-- Verify you're using Ansys Mechanical ||DPF_VERSION|| or later
+### Cannot import DPF module
+- Verify you're using Ansys Mechanical 2022 R2 or later
 - Ensure you're in the Mechanical scripting environment
 - Check that Mechanical is properly installed
 
-### Script Execution Errors
+### Script execution errors
 - Verify Python syntax is compatible with IronPython
 - Check that you're using the Mechanical API correctly
 - Ensure result files are accessible
 
-### Access to Result Files
+### Access to result files
 - Make sure the analysis has been solved
 - Verify the result file path is correct
 - Check file permissions
 
-## Next Steps
+## Next steps
 
 Continue to [Hello DPF](hello-dpf.md) to run your first script.

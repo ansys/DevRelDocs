@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.joint_relative_acceleration
 ---
 
-# joint_relative_acceleration Class
+# joint_relative_acceleration class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-joint_relative_acceleration()
-joint_relative_acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_relative_acceleration(config: OperatorConfig)
+joint_relative_acceleration()
+
+joint_relative_acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_relative_acceleration(config: OperatorConfig)
+
 
 
 ## Class Information

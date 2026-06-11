@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.geo.rotate_in_cylindrical_cs_fc
 ---
 
-# rotate_in_cylindrical_cs_fc Class
+# rotate_in_cylindrical_cs_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

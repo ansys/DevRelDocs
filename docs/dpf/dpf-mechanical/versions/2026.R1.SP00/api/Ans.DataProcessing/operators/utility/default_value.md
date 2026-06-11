@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.default_value
 ---
 
-# default_value Class
+# default_value class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

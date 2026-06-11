@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.utility.mechanical.make_time_chunk_for_each
 ---
 
-# make_time_chunk_for_each Class
+# make_time_chunk_for_each class
 
-**Namespace:** [Ans.DataProcessing.operators.utility.mechanical](Ans_DataProcessing_operators_utility_mechanical.md)
+**Namespace:** [Ans.DataProcessing.operators.utility.mechanical](mechanical.md)
 
-make_time_chunk_for_each()
-make_time_chunk_for_each(target_time_freq_values: object, operator_to_iterate: object, pin_index: object, meshed_region: object, chunk_config: object, producer_op11: object, producer_op12: object, output_pin_of_producer_op12: object, input_pin_of_consumer_op12: object, consumer_op12: object, config: OperatorConfig)
-make_time_chunk_for_each(config: OperatorConfig)
+make_time_chunk_for_each()
+
+make_time_chunk_for_each(target_time_freq_values: object, operator_to_iterate: object, pin_index: object, meshed_region: object, chunk_config: object, producer_op11: object, producer_op12: object, output_pin_of_producer_op12: object, input_pin_of_consumer_op12: object, consumer_op12: object, config: OperatorConfig)
+
+make_time_chunk_for_each(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.modal_acceleration
 ---
 
-# modal_acceleration Class
+# modal_acceleration class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-modal_acceleration()
-modal_acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-modal_acceleration(config: OperatorConfig)
+modal_acceleration()
+
+modal_acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_acceleration(config: OperatorConfig)
+
 
 
 ## Class Information

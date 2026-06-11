@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.write_motion_dfmf_file
 ---
 
-# write_motion_dfmf_file Class
+# write_motion_dfmf_file class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-write_motion_dfmf_file()
-write_motion_dfmf_file(model_data: object, mode_shapes: object, lumped_mass: object, field_coordinates: object, nod: object, used_node_index: object, eigenvalue: object, translational_mode_shape: object, rotational_mode_shape: object, invrt_1: object, invrt_2: object, invrt_3: object, invrt_4: object, invrt_5: object, invrt_6: object, invrt_7: object, invrt_8: object, dfmffile_path: object, rstfile_path: object, config: OperatorConfig)
-write_motion_dfmf_file(config: OperatorConfig)
+write_motion_dfmf_file()
+
+write_motion_dfmf_file(model_data: object, mode_shapes: object, lumped_mass: object, field_coordinates: object, nod: object, used_node_index: object, eigenvalue: object, translational_mode_shape: object, rotational_mode_shape: object, invrt_1: object, invrt_2: object, invrt_3: object, invrt_4: object, invrt_5: object, invrt_6: object, invrt_7: object, invrt_8: object, dfmffile_path: object, rstfile_path: object, config: OperatorConfig)
+
+write_motion_dfmf_file(config: OperatorConfig)
+
 
 
 ## Class Information

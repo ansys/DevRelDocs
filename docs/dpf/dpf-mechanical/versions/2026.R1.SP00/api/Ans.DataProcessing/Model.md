@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.Model
 ---
 
-# Model Class
+# Model class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.y_plus
 ---
 
-# y_plus Class
+# y_plus class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-y_plus()
-y_plus(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-y_plus(config: OperatorConfig)
+y_plus()
+
+y_plus(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+y_plus(config: OperatorConfig)
+
 
 
 ## Class Information

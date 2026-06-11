@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.creep_strain_Y
 ---
 
-# creep_strain_Y Class
+# creep_strain_Y class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-creep_strain_Y()
-creep_strain_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-creep_strain_Y(config: OperatorConfig)
+creep_strain_Y()
+
+creep_strain_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+creep_strain_Y(config: OperatorConfig)
+
 
 
 ## Class Information

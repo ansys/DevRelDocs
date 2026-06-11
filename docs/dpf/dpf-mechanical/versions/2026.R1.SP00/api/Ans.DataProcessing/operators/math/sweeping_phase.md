@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.sweeping_phase
 ---
 
-# sweeping_phase Class
+# sweeping_phase class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

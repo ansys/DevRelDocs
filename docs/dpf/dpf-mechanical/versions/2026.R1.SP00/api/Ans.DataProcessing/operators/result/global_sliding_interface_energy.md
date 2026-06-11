@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.global_sliding_interface_energy
 ---
 
-# global_sliding_interface_energy Class
+# global_sliding_interface_energy class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

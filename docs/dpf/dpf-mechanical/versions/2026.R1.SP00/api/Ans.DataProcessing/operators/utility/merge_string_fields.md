@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge_string_fields
 ---
 
-# merge_string_fields Class
+# merge_string_fields class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

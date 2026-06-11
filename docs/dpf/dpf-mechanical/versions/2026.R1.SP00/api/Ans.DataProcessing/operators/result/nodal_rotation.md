@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.nodal_rotation
 ---
 
-# nodal_rotation Class
+# nodal_rotation class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-nodal_rotation()
-nodal_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nodal_rotation(config: OperatorConfig)
+nodal_rotation()
+
+nodal_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nodal_rotation(config: OperatorConfig)
+
 
 
 ## Class Information

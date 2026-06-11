@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.identical_anys
 ---
 
-# identical_anys Class
+# identical_anys class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

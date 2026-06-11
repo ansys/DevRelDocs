@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.extract_field
 ---
 
-# extract_field Class
+# extract_field class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.beam_tr_shear_stress
 ---
 
-# beam_tr_shear_stress Class
+# beam_tr_shear_stress class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-beam_tr_shear_stress()
-beam_tr_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
-beam_tr_shear_stress(config: OperatorConfig)
+beam_tr_shear_stress()
+
+beam_tr_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
+
+beam_tr_shear_stress(config: OperatorConfig)
+
 
 
 ## Class Information

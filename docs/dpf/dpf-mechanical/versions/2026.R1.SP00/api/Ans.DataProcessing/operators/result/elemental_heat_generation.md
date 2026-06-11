@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elemental_heat_generation
 ---
 
-# elemental_heat_generation Class
+# elemental_heat_generation class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-elemental_heat_generation()
-elemental_heat_generation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-elemental_heat_generation(config: OperatorConfig)
+elemental_heat_generation()
+
+elemental_heat_generation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+elemental_heat_generation(config: OperatorConfig)
+
 
 
 ## Class Information

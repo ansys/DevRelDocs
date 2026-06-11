@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.state_variable
 ---
 
-# state_variable Class
+# state_variable class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-state_variable()
-state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, item_index: object, config: OperatorConfig)
-state_variable(config: OperatorConfig)
+state_variable()
+
+state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, item_index: object, config: OperatorConfig)
+
+state_variable(config: OperatorConfig)
+
 
 
 ## Class Information

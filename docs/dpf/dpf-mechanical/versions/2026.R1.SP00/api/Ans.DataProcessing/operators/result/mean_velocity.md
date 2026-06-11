@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.mean_velocity
 ---
 
-# mean_velocity Class
+# mean_velocity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-mean_velocity()
-mean_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mean_velocity(config: OperatorConfig)
+mean_velocity()
+
+mean_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mean_velocity(config: OperatorConfig)
+
 
 
 ## Class Information

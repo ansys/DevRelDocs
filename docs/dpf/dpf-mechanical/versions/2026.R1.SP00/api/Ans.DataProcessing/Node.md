@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.Node
 ---
 
-# Node Class
+# Node class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Node(id: int, ptr: IntPtr)
+Node(id: int, ptr: IntPtr)
+
 
 
 ## Class Information

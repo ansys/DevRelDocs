@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.compute_stress_3
 ---
 
-# compute_stress_3 Class
+# compute_stress_3 class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

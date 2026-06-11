@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.window_welch
 ---
 
-# window_welch Class
+# window_welch class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

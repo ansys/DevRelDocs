@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.result_provider
 ---
 
-# result_provider Class
+# result_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-result_provider()
-result_provider(time_scoping: object, mesh_scoping: object, data_sources: object, result_name: object, result_scripting_name: object, config: OperatorConfig)
-result_provider(config: OperatorConfig)
+result_provider()
+
+result_provider(time_scoping: object, mesh_scoping: object, data_sources: object, result_name: object, result_scripting_name: object, config: OperatorConfig)
+
+result_provider(config: OperatorConfig)
+
 
 
 ## Class Information

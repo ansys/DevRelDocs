@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.plastic_strain_max_shear
 ---
 
-# plastic_strain_max_shear Class
+# plastic_strain_max_shear class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-plastic_strain_max_shear()
-plastic_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-plastic_strain_max_shear(config: OperatorConfig)
+plastic_strain_max_shear()
+
+plastic_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+plastic_strain_max_shear(config: OperatorConfig)
+
 
 
 ## Class Information

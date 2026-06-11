@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.mesh.iso_surfaces
 ---
 
-# iso_surfaces Class
+# iso_surfaces class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
-iso_surfaces()
-iso_surfaces(field: object, num_surfaces: object, mesh: object, slice_surfaces: object, vector_iso_values: object, config: OperatorConfig)
-iso_surfaces(config: OperatorConfig)
+iso_surfaces()
+
+iso_surfaces(field: object, num_surfaces: object, mesh: object, slice_surfaces: object, vector_iso_values: object, config: OperatorConfig)
+
+iso_surfaces(config: OperatorConfig)
+
 
 
 ## Class Information

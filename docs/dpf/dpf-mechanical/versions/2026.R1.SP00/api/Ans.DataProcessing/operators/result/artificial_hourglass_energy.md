@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.artificial_hourglass_energy
 ---
 
-# artificial_hourglass_energy Class
+# artificial_hourglass_energy class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-artificial_hourglass_energy()
-artificial_hourglass_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-artificial_hourglass_energy(config: OperatorConfig)
+artificial_hourglass_energy()
+
+artificial_hourglass_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+artificial_hourglass_energy(config: OperatorConfig)
+
 
 
 ## Class Information
