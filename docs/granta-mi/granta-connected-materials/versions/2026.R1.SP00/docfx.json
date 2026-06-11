@@ -6,7 +6,7 @@
         "version": "2026 R1",
         "product": "Granta MI",
         "physics": "Materials",
-        "programming language": "Python"
+        "programming_language": "Python"
       }
     }
 }
