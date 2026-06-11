@@ -1,8 +1,6 @@
 # Changelog
 
-## 2026 R1
-
-Released 2025-11-01.
+## 2025 R1
 
 ### Changed
 

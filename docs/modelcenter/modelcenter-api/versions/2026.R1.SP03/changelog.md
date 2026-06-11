@@ -4,4 +4,6 @@
 
 Released 2025-11-01.
 
-- No changes for this release.
+### Changed
+
+- No documentation changes for this release.
