@@ -67,9 +67,9 @@ Note: In `default_settings`, you define the sequence of setting names and value 
 This function serves as flexible, general-purpose, signal and information channel between the QML layer and the Python layer. When you access tabs, entries, and buttons in the QML-based settings user interface, the QML layer is running the process. If you need logic evaluation or other small computations, the QML layer allows for lines of JavaScript. However, if you cannot solve all settings-related work steps in the QML layer, then the execute_custom function allows you to trigger work in the Python layer and collect work results from there.
 
 The execute_custom function can be triggered from the QML layer using the following:
-```
+```javascript
 backend.executeCustom(JSON.stringify(info_container))
-```
+```javascript
 Information exchange between the QML and Python layers using `execute_custom` occurs using JSON which is represented as a dictionary on the Python side.
 
 The function can be used for as many types of tasks as needed, and as often as needed. Various different QML user interface elements created by you can trigger `execute_custom`, and in the QML code you can put together any kind of cargo-containing JSON to pass over to the Python layer. At the same time, in the Python layer, inside `execute_custom` you can trigger any kind of work on the Python side. When a task is resolved, you can send the result of the Python work back to the QML layer in the same way. A dictionary is used for the communication back to the QML layer.
