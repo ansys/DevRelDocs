@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.thermal_strain_X
 ---
 
-# thermal_strain_X Class
+# thermal_strain_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-thermal_strain_X()
-thermal_strain_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-thermal_strain_X(config: OperatorConfig)
+thermal_strain_X()
+
+thermal_strain_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+thermal_strain_X(config: OperatorConfig)
+
 
 
 ## Class Information

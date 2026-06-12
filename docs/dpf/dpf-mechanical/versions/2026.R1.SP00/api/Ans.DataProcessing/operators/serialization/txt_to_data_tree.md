@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.serialization.txt_to_data_tree
 ---
 
-# txt_to_data_tree Class
+# txt_to_data_tree class
 
-**Namespace:** [Ans.DataProcessing.operators.serialization](Ans_DataProcessing_operators_serialization.md)
+**Namespace:** [Ans.DataProcessing.operators.serialization](index.md)
 
 ## Summary
 

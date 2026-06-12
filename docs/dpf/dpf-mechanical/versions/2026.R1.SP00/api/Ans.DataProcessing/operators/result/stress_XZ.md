@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress_XZ
 ---
 
-# stress_XZ Class
+# stress_XZ class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-stress_XZ()
-stress_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-stress_XZ(config: OperatorConfig)
+stress_XZ()
+
+stress_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+stress_XZ(config: OperatorConfig)
+
 
 
 ## Class Information

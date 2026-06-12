@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.assemble_scalars_to_vectors
 ---
 
-# assemble_scalars_to_vectors Class
+# assemble_scalars_to_vectors class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

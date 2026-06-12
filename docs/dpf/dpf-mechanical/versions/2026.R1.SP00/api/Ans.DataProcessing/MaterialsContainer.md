@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.MaterialsContainer
 ---
 
-# MaterialsContainer Class
+# MaterialsContainer class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-MaterialsContainer(pMaterialsContainer: IntPtr)
+MaterialsContainer(pMaterialsContainer: IntPtr)
+
 
 
 ## Class Information

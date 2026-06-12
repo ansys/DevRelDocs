@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.get_operators
 ---
 
-# get_operators Class
+# get_operators class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

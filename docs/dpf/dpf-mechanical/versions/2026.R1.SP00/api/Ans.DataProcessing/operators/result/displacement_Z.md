@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.displacement_Z
 ---
 
-# displacement_Z Class
+# displacement_Z class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-displacement_Z()
-displacement_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-displacement_Z(config: OperatorConfig)
+displacement_Z()
+
+displacement_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+displacement_Z(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.relative_error
 ---
 
-# relative_error Class
+# relative_error class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-relative_error()
-relative_error(value: object, reference: object, config: OperatorConfig)
-relative_error(config: OperatorConfig)
+relative_error()
+
+relative_error(value: object, reference: object, config: OperatorConfig)
+
+relative_error(config: OperatorConfig)
+
 
 
 ## Class Information

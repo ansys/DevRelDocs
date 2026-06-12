@@ -47,7 +47,7 @@
     - name: Point and range data
       href: samples/streamlined/07_Edit_Point_Range_Data.md
     - name: Date, integer and logical data
-      href: samples/streamlined/08_Edit_Data_Integer_and_Logical_Data.md
+      href: samples/streamlined/08_Edit_Date_Integer_and_Logical_Data.md
     - name: Files, pictures, and hyperlinks
       href: samples/streamlined/09_Edit_Files_Pictures_and_Hyperlinks.md
     - name: Float functional data

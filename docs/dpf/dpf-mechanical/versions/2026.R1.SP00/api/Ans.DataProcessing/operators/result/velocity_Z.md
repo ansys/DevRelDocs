@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.velocity_Z
 ---
 
-# velocity_Z Class
+# velocity_Z class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-velocity_Z()
-velocity_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-velocity_Z(config: OperatorConfig)
+velocity_Z()
+
+velocity_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+velocity_Z(config: OperatorConfig)
+
 
 
 ## Class Information

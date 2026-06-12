@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.metadata.time_freq_provider
 ---
 
-# time_freq_provider Class
+# time_freq_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

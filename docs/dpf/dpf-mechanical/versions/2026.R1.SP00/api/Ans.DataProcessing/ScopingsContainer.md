@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.ScopingsContainer
 ---
 
-# ScopingsContainer Class
+# ScopingsContainer class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

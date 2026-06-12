@@ -2,11 +2,11 @@
 uid: examples.basic-load
 ---
 
-# Load and Inspect Results in Mechanical
+# Load and inspect results in Mechanical
 
 This example shows how to load result data and inspect its properties using the Ansys Mechanical scripting window.
 
-## Complete Example for Scripting Window
+## Complete example for scripting window
 
 Open **View** → **Scripting** in Mechanical and enter:
 
@@ -53,7 +53,7 @@ for i in range(time_freq_support.TimeFrequencies.Count):
 print("\n=== Inspection Complete ===")
 ```
 
-## Expected Output in Scripting Window
+## Expected output in scripting window
 
 ```
 === Model Information ===
@@ -73,7 +73,7 @@ Number of time steps: 10
 === Inspection Complete ===
 ```
 
-## Using in a Python Result Object
+## Using in a Python Result object
 
 You can also inspect results within a Python Result object:
 
@@ -106,7 +106,7 @@ def define_dpf_workflow(analysis):
     node_count, element_count, time_count)
 ```
 
-## Key Concepts
+## Key concepts
 
 - **ExtAPI**: Mechanical API for accessing the model tree
 - **DataSources**: Points to result files from Mechanical solutions
@@ -114,7 +114,7 @@ def define_dpf_workflow(analysis):
 - **Mesh**: Contains geometry information
 - **TimeFreqSupport**: Time/frequency metadata
 
-## Next Steps
+## Next steps
 
 - [Extract Displacement](extract-displacement.md) - Get displacement data
 - [User Guide](../user-guide/working-with-fields.md) - Learn about fields

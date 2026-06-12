@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge_scopings_containers
 ---
 
-# merge_scopings_containers Class
+# merge_scopings_containers class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

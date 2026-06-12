@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.timefreq_signed_high_pass
 ---
 
-# timefreq_signed_high_pass Class
+# timefreq_signed_high_pass class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

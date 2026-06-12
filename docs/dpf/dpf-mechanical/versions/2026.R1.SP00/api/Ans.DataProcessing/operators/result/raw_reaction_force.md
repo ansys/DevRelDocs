@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.raw_reaction_force
 ---
 
-# raw_reaction_force Class
+# raw_reaction_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-raw_reaction_force()
-raw_reaction_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-raw_reaction_force(config: OperatorConfig)
+raw_reaction_force()
+
+raw_reaction_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+raw_reaction_force(config: OperatorConfig)
+
 
 
 ## Class Information

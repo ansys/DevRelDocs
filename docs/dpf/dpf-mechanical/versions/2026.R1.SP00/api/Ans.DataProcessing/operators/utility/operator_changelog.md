@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.operator_changelog
 ---
 
-# operator_changelog Class
+# operator_changelog class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

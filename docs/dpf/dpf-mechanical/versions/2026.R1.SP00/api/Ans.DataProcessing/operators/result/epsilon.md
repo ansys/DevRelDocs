@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.epsilon
 ---
 
-# epsilon Class
+# epsilon class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-epsilon()
-epsilon(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-epsilon(config: OperatorConfig)
+epsilon()
+
+epsilon(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+epsilon(config: OperatorConfig)
+
 
 
 ## Class Information

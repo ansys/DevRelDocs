@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.info.markdown_latex_example
 ---
 
-# markdown_latex_example Class
+# markdown_latex_example class
 
-**Namespace:** [Ans.DataProcessing.operators.info](Ans_DataProcessing_operators_info.md)
+**Namespace:** [Ans.DataProcessing.operators.info](index.md)
 
 ## Summary
 

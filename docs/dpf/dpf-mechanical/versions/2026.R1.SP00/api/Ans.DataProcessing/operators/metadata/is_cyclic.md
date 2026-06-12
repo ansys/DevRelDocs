@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.metadata.is_cyclic
 ---
 
-# is_cyclic Class
+# is_cyclic class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

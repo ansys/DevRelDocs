@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.strain_eqv_as_mechanical_workflow
 ---
 
-# strain_eqv_as_mechanical_workflow Class
+# strain_eqv_as_mechanical_workflow class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

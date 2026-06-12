@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.joint_relative_displacement
 ---
 
-# joint_relative_displacement Class
+# joint_relative_displacement class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-joint_relative_displacement()
-joint_relative_displacement(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_relative_displacement(config: OperatorConfig)
+joint_relative_displacement()
+
+joint_relative_displacement(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_relative_displacement(config: OperatorConfig)
+
 
 
 ## Class Information

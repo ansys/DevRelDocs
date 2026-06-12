@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.ln
 ---
 
-# ln Class
+# ln class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-ln()
-ln(field: object, config: OperatorConfig)
-ln(config: OperatorConfig)
+ln()
+
+ln(field: object, config: OperatorConfig)
+
+ln(config: OperatorConfig)
+
 
 
 ## Class Information

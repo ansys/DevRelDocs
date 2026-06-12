@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.compute_total_strain_XY
 ---
 
-# compute_total_strain_XY Class
+# compute_total_strain_XY class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-compute_total_strain_XY()
-compute_total_strain_XY(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
-compute_total_strain_XY(config: OperatorConfig)
+compute_total_strain_XY()
+
+compute_total_strain_XY(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
+
+compute_total_strain_XY(config: OperatorConfig)
+
 
 
 ## Class Information

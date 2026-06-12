@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.accu_eqv_plastic_strain
 ---
 
-# accu_eqv_plastic_strain Class
+# accu_eqv_plastic_strain class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-accu_eqv_plastic_strain()
-accu_eqv_plastic_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-accu_eqv_plastic_strain(config: OperatorConfig)
+accu_eqv_plastic_strain()
+
+accu_eqv_plastic_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+accu_eqv_plastic_strain(config: OperatorConfig)
+
 
 
 ## Class Information

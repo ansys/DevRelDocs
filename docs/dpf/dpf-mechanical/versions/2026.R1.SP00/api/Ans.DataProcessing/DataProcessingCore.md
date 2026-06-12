@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.DataProcessingCore
 ---
 
-# DataProcessingCore Class
+# DataProcessingCore class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-DataProcessingCore()
+DataProcessingCore()
+
 
 
 ## Class Information

@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.Element
 ---
 
-# Element Class
+# Element class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-Element(id: int, ptr: IntPtr)
+Element(id: int, ptr: IntPtr)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.displacement_X
 ---
 
-# displacement_X Class
+# displacement_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-displacement_X()
-displacement_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-displacement_X(config: OperatorConfig)
+displacement_X()
+
+displacement_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+displacement_X(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.specific_heat
 ---
 
-# specific_heat Class
+# specific_heat class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-specific_heat()
-specific_heat(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-specific_heat(config: OperatorConfig)
+specific_heat()
+
+specific_heat(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+specific_heat(config: OperatorConfig)
+
 
 
 ## Class Information

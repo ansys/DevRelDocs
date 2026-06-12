@@ -2,14 +2,18 @@
 uid: Ans.DataProcessing.OperatorConfig
 ---
 
-# OperatorConfig Class
+# OperatorConfig class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-OperatorConfig(operatorName: str)
-OperatorConfig()
-OperatorConfig(id: Int64)
-OperatorConfig(id: IntPtr)
+OperatorConfig(operatorName: str)
+
+OperatorConfig()
+
+OperatorConfig(id: Int64)
+
+OperatorConfig(id: IntPtr)
+
 
 
 ## Class Information

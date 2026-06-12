@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.AnsDispatchHolder
 ---
 
-# AnsDispatchHolder Class
+# AnsDispatchHolder class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-AnsDispatchHolder(obj: object)
+AnsDispatchHolder(obj: object)
+
 
 
 ## Class Information

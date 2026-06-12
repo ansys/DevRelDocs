@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.geo.faces_area
 ---
 
-# faces_area Class
+# faces_area class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

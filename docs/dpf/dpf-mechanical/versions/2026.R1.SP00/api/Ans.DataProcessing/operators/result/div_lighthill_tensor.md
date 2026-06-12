@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.div_lighthill_tensor
 ---
 
-# div_lighthill_tensor Class
+# div_lighthill_tensor class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-div_lighthill_tensor()
-div_lighthill_tensor(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-div_lighthill_tensor(config: OperatorConfig)
+div_lighthill_tensor()
+
+div_lighthill_tensor(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+div_lighthill_tensor(config: OperatorConfig)
+
 
 
 ## Class Information

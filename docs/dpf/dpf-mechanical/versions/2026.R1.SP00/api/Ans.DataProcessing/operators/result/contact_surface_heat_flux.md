@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.contact_surface_heat_flux
 ---
 
-# contact_surface_heat_flux Class
+# contact_surface_heat_flux class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-contact_surface_heat_flux()
-contact_surface_heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_surface_heat_flux(config: OperatorConfig)
+contact_surface_heat_flux()
+
+contact_surface_heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_surface_heat_flux(config: OperatorConfig)
+
 
 
 ## Class Information

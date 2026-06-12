@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.heat_flux_X
 ---
 
-# heat_flux_X Class
+# heat_flux_X class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-heat_flux_X()
-heat_flux_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-heat_flux_X(config: OperatorConfig)
+heat_flux_X()
+
+heat_flux_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+heat_flux_X(config: OperatorConfig)
+
 
 
 ## Class Information

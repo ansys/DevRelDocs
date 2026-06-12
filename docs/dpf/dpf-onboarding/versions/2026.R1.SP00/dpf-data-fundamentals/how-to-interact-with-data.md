@@ -16,7 +16,7 @@ An **operator** is a function that takes input data, performs a specific operati
 
 Every operator follows the same pattern:
 
-![Operator structure](../../images/operator-description.drawio.svg)
+![Operator structure](../images/operator-description.drawio.svg)
 
 1. **Inputs**: Data you provide to the operator (fields, meshes, parameters)
 2. **Processing**: The operation performed on the input data
@@ -48,15 +48,15 @@ DPF provides hundreds of operators. You can explore them in the [Operators Refer
 **How to find the right operator**:
 1. **Search by keyword**: Use the top-right search box (e.g., "average", "displacement", "extract"). Filter on **Multiphysics, Structures, Fluids** and **Developer Portal** as well as your installation **Version**.
 
-   ![Global keyword search](../../images/global_keyword_search.png)
+   ![Global keyword search](../images/global_keyword_search.png)
 
 2. **Browse by category**: Look through categories like "math", "result", "averaging"
 
-   ![Operator documentation browse](../../images/operator_doc_browse.png)
+   ![Operator documentation browse](../images/operator_doc_browse.png)
 
 3. **Read operator descriptions**: Each operator page explains inputs, outputs, and usage
 
-   ![Operator documentation page](../../images/operator_page.png)
+   ![Operator documentation page](../images/operator_page.png)
 
 ### Using an operator
 
@@ -239,7 +239,7 @@ A **workflow** is a collection of operators chained together to perform a multi-
 
 Workflows are created by connecting operators together. The output of one operator becomes the input of the next:
 
-![Workflow concept](../../images/workflow-black-box.drawio.svg)
+![Workflow concept](../images/workflow-black-box.drawio.svg)
 
 **Key insight**: A workflow is itself like a single operator: it has inputs (data sources, parameters) and outputs (processed results). The internal operator chain is hidden, making workflows reusable components. You can think of those as packaging for your analysis process.
 
@@ -247,7 +247,7 @@ Workflows are created by connecting operators together. The output of one operat
 
 Here's a concrete example showing how operators connect to calculate total deformation (displacement magnitude):
 
-![Workflow example](../../images/workflow-example.drawio.svg)
+![Workflow example](../images/workflow-example.drawio.svg)
 
 **What this workflow does**:
 1. **displacement operator**: Extracts nodal displacement fields from result file (vector with X, Y, Z components)

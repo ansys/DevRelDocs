@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.elastic_strain_Z
 ---
 
-# elastic_strain_Z Class
+# elastic_strain_Z class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-elastic_strain_Z()
-elastic_strain_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-elastic_strain_Z(config: OperatorConfig)
+elastic_strain_Z()
+
+elastic_strain_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+elastic_strain_Z(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.turbulent_viscosity
 ---
 
-# turbulent_viscosity Class
+# turbulent_viscosity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-turbulent_viscosity()
-turbulent_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-turbulent_viscosity(config: OperatorConfig)
+turbulent_viscosity()
+
+turbulent_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+turbulent_viscosity(config: OperatorConfig)
+
 
 
 ## Class Information

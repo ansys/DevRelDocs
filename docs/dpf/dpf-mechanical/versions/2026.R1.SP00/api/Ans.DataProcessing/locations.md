@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.locations
 ---
 
-# locations Class
+# locations class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

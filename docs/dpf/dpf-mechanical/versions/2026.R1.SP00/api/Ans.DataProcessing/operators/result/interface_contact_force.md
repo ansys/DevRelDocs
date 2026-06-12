@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.interface_contact_force
 ---
 
-# interface_contact_force Class
+# interface_contact_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

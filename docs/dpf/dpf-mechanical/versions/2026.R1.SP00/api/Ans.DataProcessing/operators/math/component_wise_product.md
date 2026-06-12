@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.component_wise_product
 ---
 
-# component_wise_product Class
+# component_wise_product class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

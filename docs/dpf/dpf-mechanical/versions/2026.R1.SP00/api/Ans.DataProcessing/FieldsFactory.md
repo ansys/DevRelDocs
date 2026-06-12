@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.FieldsFactory
 ---
 
-# FieldsFactory Class
+# FieldsFactory class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

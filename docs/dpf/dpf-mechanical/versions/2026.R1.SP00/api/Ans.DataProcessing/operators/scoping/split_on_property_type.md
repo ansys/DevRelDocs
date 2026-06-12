@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.scoping.split_on_property_type
 ---
 
-# split_on_property_type Class
+# split_on_property_type class
 
-**Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
+**Namespace:** [Ans.DataProcessing.operators.scoping](index.md)
 
 ## Summary
 

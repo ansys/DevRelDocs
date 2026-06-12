@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.add_rigid_body_motion_fc
 ---
 
-# add_rigid_body_motion_fc Class
+# add_rigid_body_motion_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

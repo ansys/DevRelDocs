@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.displacement_Y
 ---
 
-# displacement_Y Class
+# displacement_Y class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-displacement_Y()
-displacement_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-displacement_Y(config: OperatorConfig)
+displacement_Y()
+
+displacement_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+displacement_Y(config: OperatorConfig)
+
 
 
 ## Class Information

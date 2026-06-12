@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.scoping.scoping_get_attribute
 ---
 
-# scoping_get_attribute Class
+# scoping_get_attribute class
 
-**Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
+**Namespace:** [Ans.DataProcessing.operators.scoping](index.md)
 
 ## Summary
 

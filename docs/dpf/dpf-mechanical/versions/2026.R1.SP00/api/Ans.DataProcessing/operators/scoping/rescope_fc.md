@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.scoping.rescope_fc
 ---
 
-# rescope_fc Class
+# rescope_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
+**Namespace:** [Ans.DataProcessing.operators.scoping](index.md)
 
-rescope_fc()
-rescope_fc(fields_container: object, mesh_scoping: object, default_value: object, config: OperatorConfig)
-rescope_fc(config: OperatorConfig)
+rescope_fc()
+
+rescope_fc(fields_container: object, mesh_scoping: object, default_value: object, config: OperatorConfig)
+
+rescope_fc(config: OperatorConfig)
+
 
 
 ## Class Information

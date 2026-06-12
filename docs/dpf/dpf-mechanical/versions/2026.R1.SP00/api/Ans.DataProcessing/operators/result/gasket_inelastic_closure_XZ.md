@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.gasket_inelastic_closure_XZ
 ---
 
-# gasket_inelastic_closure_XZ Class
+# gasket_inelastic_closure_XZ class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-gasket_inelastic_closure_XZ()
-gasket_inelastic_closure_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-gasket_inelastic_closure_XZ(config: OperatorConfig)
+gasket_inelastic_closure_XZ()
+
+gasket_inelastic_closure_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+gasket_inelastic_closure_XZ(config: OperatorConfig)
+
 
 
 ## Class Information

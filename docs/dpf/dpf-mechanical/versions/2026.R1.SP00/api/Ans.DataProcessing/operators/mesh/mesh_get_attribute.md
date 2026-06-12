@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_get_attribute
 ---
 
-# mesh_get_attribute Class
+# mesh_get_attribute class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

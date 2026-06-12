@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.absolute_value_by_component_fc
 ---
 
-# absolute_value_by_component_fc Class
+# absolute_value_by_component_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 
