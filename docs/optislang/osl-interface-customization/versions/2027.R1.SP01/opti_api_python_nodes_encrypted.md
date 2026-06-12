@@ -5,4 +5,4 @@ optiSLang allows you to run an encryption tool as a batch option. From every Pyt
 ```text
 C:\Program Files\Dynardo\ANSYS optiSLang\2022 R1\optislang.exe -b --encrypt-python-extension 
 D:\aa_demo\my_workspace
-```
+```text

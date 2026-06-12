@@ -33,7 +33,7 @@ Class QMLBackEnd synopsis:
 		void settingsChanged();
 		void commitSettingsRequested();
 	};
-```
+```cpp
 
 The `backend.onSettingsChanged` and `backend.onCommitSettingsRequested` signals can, for example, be used in a QML connections declaration:
 ```qml
@@ -49,7 +49,7 @@ Connections {
 	        backend.settings = JSON.stringify(settings_json);
 	    }
 	}
-```
+```qml
 
 ## Calling Custom Python Functionality
 You may need to execute custom Python functionality from within the QML scope. To do this:
@@ -73,7 +73,7 @@ def ExecuteCustom(args):
 		"""    
 		ret = {'success': True, 'args': args[1]}
 	    return json.dumps (ret)
-```
+```python
 
 Example QML code:
 ```qml
@@ -88,7 +88,7 @@ Button {
 	        })
 	    }
 	}
-```
+```qml
 
 ## Sending Log Messages
 Use the following functions to send log messages:
