@@ -1,6 +1,8 @@
-# Introduction
+﻿# Introduction
 
 This document contains the ModelCenter Remote Execution Java API.
+
+For setup steps and classpath guidance, see [Getting started](started.md).
 
 ## How this API document is organized
 This API (Application Programming Interface) document has pages corresponding to the items in the navigation bar, described as follows.
