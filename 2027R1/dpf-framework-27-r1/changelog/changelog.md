@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-03).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-15).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -3150,129 +3150,8 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
-- [apply_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/apply_mechanical_native_mapping.md):
-  > 
-  > Applies pre-computed mapping weights to interpolate field data from a source mesh to a target mesh.
-  > This is the second stage of the two-stage native mapping workflow; use `prepare_mechanical_native_mapping` (or a dedicated prepare operator) to compute the weights first.
-  > 
-  > For each target point $j$, the interpolated value is:
-  > 
-  > $$
-  > u_{\text{target}}^{(j)} = \sum_{i \in S(j)} w_{ij} \cdot u_{\text{source}}^{(i)}
-  > $$
-  > 
-  > where $S(j)$ is the set of source points influencing target point $j$, and $w_{ij}$ are algorithm-specific weights: shape function values (shape function algorithms), barycentric coordinates or inverse-distance values (point cloud algorithms), or optimal linear predictors (kriging).
-  > 
-  > For further details on the algorithms and their settings, see the Ansys Mechanical help page on
-  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [create_mech_kriging_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_kriging_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_kriging_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_kriging_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_point_cloud_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_point_cloud_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_point_cloud_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_point_cloud_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_surf_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_shape_func_surf_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_surf_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_vol_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_shape_func_vol_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_vol_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_shape_func_vol_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
 - [create_sc_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_sc_mapping_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [prepare_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping.md):
-  > Prepares the interpolation weights for mapping source field data from a source mesh to a target mesh.
-  > This operator delegates to one of the dedicated algorithm operators (shape function volumes, shape function surfaces, point cloud, or kriging) depending on which DataTree input pin is provided.
-  > At least one of the `*_mapping` algorithm DataTree inputs (pins 30-33) must be set to choose the mapping algorithm and supply its options.
-  > This operator must be used together with the associated `apply_mechanical_native_mapping` operator.
-  > 
-  > For further details on the available algorithms and their settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_kriging](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md):
-  > Prepares field data mapping from a source mesh to a target mesh using **kriging interpolation**, a geostatistical method that assigns weights to nearby source points based on spatial covariance. Use this operator with `apply_mechanical_native_mapping`.
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Kriging*.
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
-  > 
-  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
-  > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
-  > connectivity. Use it together with `apply_mechanical_native_mapping`.
-  > 
-  > For each target point $\mathbf{x}_t$, the interpolated value is:
-  > 
-  > $$
-  > u(\mathbf{x}_t) = \sum_{i=1}^{N_s} w_i(\mathbf{x}_t) \cdot u_i
-  > $$
-  > 
-  > where $u_i$ are the source field values, $w_i$ are normalized distance-based weights, and $N_s$ is the number of
-  > source neighbors (controlled by `search_limit`). See the individual pin descriptions for the available weighting
-  > schemes, outside-point strategies, and geometry options.
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Triangulation* (use `weighting_type = "triangulation"`) or Weighting = *Distance Based Average* (use `weighting_type = "weighted_average"`).
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on
-  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_shape_functions_for_surfaces](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md):
-  > 
-  > Prepares field data mapping from source mesh to target mesh using **finite element shape functions** for **surface
-  > elements** (shells and membranes). This operator computes interpolation weights by locating target points
-  > within source surface elements and evaluating isoparametric shape functions at the reduced coordinates. This operator
-  > must be used in conjunction with `apply_mechanical_native_mapping`.
-  > 
-  > ##### Shape function interpolation for surfaces
-  > 
-  > For surface elements, the field value at any point $\mathbf{x}$ within an element is interpolated using:
-  > 
-  > $$
-  > u(\mathbf{x}) = \sum_{i=1}^{N_{\text{nodes}}} N_i(\xi, \eta) \cdot u_i
-  > $$
-  > 
-  > where:
-  > - $N_i(\xi, \eta)$ are the 2D isoparametric shape functions
-  > - $(\xi, \eta)$ are the reduced (natural) coordinates in the reference element $[-1, 1]^2$
-  > - $u_i$ are the nodal field values
-  > - $N_{\text{nodes}}$ is the number of nodes per element (3, 4, 6, 8, etc.)
-  > 
-  > ##### Comparison with volume shape functions
-  > 
-  > - **Reduced coordinate dimension**: 2D $(\xi, \eta)$ vs 3D $(\xi, \eta, \zeta)$ for volume elements
-  > - **Target input**: surface operator requires a **meshed_region** target; volume operator also accepts a field
-  > - **Additional proximity controls**: surface operator supports normal distance checking (pins 15-16) and a
-  >   pinball region (pins 17-20), which are not available for volumes
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Surface*.
-  > Note: this mode only supports triangle and quadrilateral source elements.
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on
-  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_shape_functions_for_volume](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md):
-  > Prepares field data mapping from source mesh to target mesh using **finite element shape functions** on volume elements (hexahedra, tetrahedra, wedges, pyramids).
-  > 
-  > Each target point is located within a source element and the field value is interpolated using 3D isoparametric shape functions at the corresponding reduced coordinates.
-  > 
-  > Note: shape functions near the apex of pyramid elements exhibit singular behaviour and may produce errors for target points close to the apex. Use this operator with `apply_mechanical_native_mapping`.
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Volumetric*.
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
 - [sc_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/sc_mapping.md):
   > Apply System Coupling to map data from an input mesh to a target mesh.
@@ -3326,15 +3205,6 @@ The following table shows which components have updates in each category.
 
 - [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/edge_decimation.md):
   > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
-
-- [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/morphed_field.md):
-  > Computes the displacement to apply on input coordinates (in 2) if a morphing field (in 0) is applied on coordinates (in 1)
-
-- [morphing](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/morphing.md):
-  > Applies morphing on a meshed region depending on an input displacement field.
-
-- [prepare_morphing](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/prepare_morphing.md):
-  > Prepare morphing on a meshed region depending on an input displacement field.
 
 
 #### result
@@ -3639,12 +3509,6 @@ The following table shows which components have updates in each category.
 - [prandtl_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/prandtl_number.md):
   > Read/compute prandtl number by calling the readers defined by the datasources.
 
-- [pres_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/pres_to_field.md):
-  > Read the presol generated file from mapdl.
-
-- [prns_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/prns_to_field.md):
-  > Read the presol of nodal field generated file from mapdl.
-
 - [radiation_area](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/radiation_area.md):
   > Read/compute radiation area by calling the readers defined by the datasources.
 
@@ -3669,17 +3533,11 @@ The following table shows which components have updates in each category.
 - [reaction_moment_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment_Z.md):
   > Read/compute nodal reaction moments Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/record_reader.md):
-  > Extracts a record from a file.
-
 - [reflected_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reflected_radiation_heat_flux.md):
   > Read/compute reflected radiation heat flux by calling the readers defined by the datasources.
 
 - [reynolds_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reynolds_number.md):
   > Read/compute reynolds number by calling the readers defined by the datasources.
-
-- [run](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/run.md):
-  > Solve in mapdl a dat/inp file and returns a datasources with the rst file.
 
 - [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
@@ -3692,12 +3550,6 @@ The following table shows which components have updates in each category.
 
 - [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/extend_midside_nodal_scoping.md):
   > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
-
-
-#### serialization
-
-- [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/export_mesh_with_prime.md):
-  > Transfer DPF's meshed region into an external layer prime model and serialize it into a given file format.
 
 
 #### utility
@@ -4236,11 +4088,6 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
-- [fft](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/fft.md)
-
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
-
-
 - [find_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/find_reduced_coordinates.md)
 
   > 0.1.0: Fix bug with interpolation points at corner nodes.
@@ -4465,11 +4312,6 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [expansion_psd](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/expansion_psd.md)
-
-  > 0.0.1: Fix handling of empty fields in mode shapes.
-
-
 - [exponential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential.md)
 
   > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
@@ -4478,23 +4320,6 @@ Upgraded documentation
 - [exponential_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential_fc.md)
 
   > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
-
-
-- [fft_approx](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/fft_approx.md)
-
-  > 0.0.1: Fix exception type preservation during parallel execution.
-
-  > 0.0.2: Internal refactoring to use Scoping Iterators.
-
-
-- [fft_eval](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/fft_eval.md)
-
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
-
-
-- [fft_gradient_eval](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/fft_gradient_eval.md)
-
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
 - [generalized_inner_product](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product.md)
@@ -4555,13 +4380,6 @@ Upgraded documentation
 - [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_participation.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
-
-
-- [modal_superposition](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_superposition.md)
-
-  > 1.0.0: Code moved to HGP.
-
-  > 1.1.0: Custom type fields containers accepted as inputs in pin 0, 1 and 2
 
 
 - [modulus](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modulus.md)
@@ -5155,21 +4973,6 @@ Upgraded documentation
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [mapdl_section](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_section.md)
-
-  > 0.0.1: Making the operator license-free.
-
-
-- [mapdl_split_on_facet_indices](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_split_on_facet_indices.md)
-
-  > 0.0.1: ElementalNodal fields are now supported.
-
-
-- [mapdl_split_to_acmo_facet_indices](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_split_to_acmo_facet_indices.md)
-
-  > 0.0.1: ElementalNodal fields are now supported.
-
-
 - [members_in_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/members_in_bending_not_certified.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
@@ -5270,16 +5073,6 @@ Upgraded documentation
 - [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
 
   > 0.1.0: Addition of is_constant pin
-
-
-- [remove_rigid_body_motion](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/remove_rigid_body_motion.md)
-
-  > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
-
-
-- [remove_rigid_body_motion_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/remove_rigid_body_motion_fc.md)
-
-  > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
 
 
 - [result_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/result_provider.md)
@@ -5649,6 +5442,90 @@ Upgraded documentation
 
 ### Deleted operators
 
+#### add_rigid_body_motion
+
+#### add_rigid_body_motion_fc
+
+#### cgns_result_provider
+
+#### cms_dst_table_provider
+
+#### cms_matrices_provider
+
+#### cms_subfile_info_provider
+
+#### compute_invariant_terms_motion
+
+#### compute_invariant_terms_rbd
+
+#### compute_stress
+
+#### compute_stress_1
+
+#### compute_stress_2
+
+#### compute_stress_3
+
+#### compute_stress_von_mises
+
+#### compute_stress_X
+
+#### compute_stress_XY
+
+#### compute_stress_XZ
+
+#### compute_stress_Y
+
+#### compute_stress_YZ
+
+#### compute_stress_Z
+
+#### compute_total_strain
+
+#### compute_total_strain_1
+
+#### compute_total_strain_2
+
+#### compute_total_strain_3
+
+#### compute_total_strain_X
+
+#### compute_total_strain_XY
+
+#### compute_total_strain_XZ
+
+#### compute_total_strain_Y
+
+#### compute_total_strain_YZ
+
+#### compute_total_strain_Z
+
+#### convertnum_bcs_to_nod
+
+#### convertnum_nod_to_bcs
+
+#### convertnum_op
+
+#### eigen_vectors
+
+#### eigen_vectors_fc
+
+#### elastic_strain_rotation_by_euler_nodes
+
+#### enf_rotation_by_euler_nodes
+
+#### expansion_psd
+
+#### fft
+
+#### fft_approx
+
+#### fft_eval
+
+#### fft_gradient_eval
+
+#### fft_multi_harmonic_minmax
+
 #### gasket_deformation
 
 #### gasket_deformation_X
@@ -5665,4 +5542,74 @@ Upgraded documentation
 
 #### mapdl.run
 
+#### mapdl_material_properties
+
+#### mapdl_section
+
+#### mapdl_split_on_facet_indices
+
+#### mapdl_split_to_acmo_facet_indices
+
+#### matrix_inverse
+
+#### modal_superposition
+
 #### nodal_moment
+
+#### plastic_strain_rotation_by_euler_nodes
+
+#### prep_sampling_fft
+
+#### pretension
+
+#### qr_solve
+
+#### read_cms_rbd_file
+
+#### remove_rigid_body_motion
+
+#### remove_rigid_body_motion_fc
+
+#### rigid_transformation_provider
+
+#### rom_data_provider
+
+#### stress_rotation_by_euler_nodes
+
+#### svd
+
+#### time_derivation
+
+#### time_integration
+
+#### total_mass
+
+#### transform_invariant_terms_rbd
+
+#### window_bartlett
+
+#### window_bartlett_fc
+
+#### window_blackman
+
+#### window_blackman_fc
+
+#### window_hamming
+
+#### window_hamming_fc
+
+#### window_hanning
+
+#### window_hanning_fc
+
+#### window_triangular
+
+#### window_triangular_fc
+
+#### window_welch
+
+#### window_welch_fc
+
+#### write_cms_rbd_file
+
+#### write_motion_dfmf_file

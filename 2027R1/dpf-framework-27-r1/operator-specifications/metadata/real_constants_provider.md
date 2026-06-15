@@ -2,8 +2,6 @@
 category: metadata
 plugin: core
 license: None
-namespaces:
-  mapdl: [rst, rstp, rth]
 ---
 
 # metadata:real constants provider
@@ -13,12 +11,6 @@ namespaces:
 ## Description
 
 Reads real constants from the result files contained in the streams or data sources.
-
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- mapdl: rst, rstp, rth 
 
 ## Inputs
 

@@ -4,10 +4,7 @@ plugin: core
 license: None
 namespaces:
   cff: [cas, flprj]
-  cgns: [cgns]
   hdf5: [h5dpf]
-  lsdyna: [binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout]
-  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
   vtk: [vtk]
 ---
 
@@ -24,10 +21,7 @@ Reads the result information, such as available results or unit systems from the
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - cff: cas, flprj 
-- cgns: cgns 
 - hdf5: h5dpf 
-- lsdyna: binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout 
-- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rstp, rth 
 - vtk: vtk 
 
 ## Inputs

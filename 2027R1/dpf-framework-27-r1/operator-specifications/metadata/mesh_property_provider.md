@@ -4,10 +4,7 @@ plugin: core
 license: None
 namespaces:
   cff: [cas, flprj]
-  cgns: [cgns]
   hdf5: [h5dpf]
-  lsdyna: [d3plot]
-  mapdl: [cms, dsub, mode, rdsp, rfrq, rst, rstp, rth]
 ---
 
 # metadata:mesh property provider
@@ -23,10 +20,7 @@ Reads a property related to the mesh, defined by its name, by calling the reader
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - cff: cas, flprj 
-- cgns: cgns 
 - hdf5: h5dpf 
-- lsdyna: d3plot 
-- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rstp, rth 
 
 ## Inputs
 

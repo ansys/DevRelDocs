@@ -4,8 +4,6 @@ plugin: core
 license: None
 namespaces:
   cff: [cas, flprj]
-  cgns: [cgns]
-  lsdyna: [d3plot]
 ---
 
 # metadata:mesh info provider
@@ -21,8 +19,6 @@ Reads the mesh information, such as number of elements (common property), number
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - cff: cas, flprj 
-- cgns: cgns 
-- lsdyna: d3plot 
 
 ## Inputs
 

@@ -2,9 +2,6 @@
 category: result
 plugin: core
 license: None
-namespaces:
-  lsdyna: [d3plot]
-  mapdl: [rst, rth]
 ---
 
 # result:thickness
@@ -14,13 +11,6 @@ namespaces:
 ## Description
 
 Read/compute thickness by calling the readers defined by the datasources.
-
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- lsdyna: d3plot 
-- mapdl: rst, rth 
 
 ## Inputs
 

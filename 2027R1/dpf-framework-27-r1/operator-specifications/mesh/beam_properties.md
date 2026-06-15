@@ -2,8 +2,6 @@
 category: mesh
 plugin: core
 license: None
-namespaces:
-  mapdl: [rst, rstp]
 ---
 
 # mesh:beam properties
@@ -13,12 +11,6 @@ namespaces:
 ## Description
 
 Reads the beam's properties from the result files contained in the streams or data sources.
-
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- mapdl: rst, rstp 
 
 ## Inputs
 

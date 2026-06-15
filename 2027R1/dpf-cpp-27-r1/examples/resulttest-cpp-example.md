@@ -15,7 +15,7 @@ Examples showing how to access results data in an RST file.
 #include <math.h>
 #include "helpers/dpf_result.h"
 #include "helpers/dpf_model.h"
-#include "../../UnitTestUtilities/UnitTestHelper.h"
+#include "UnitTestUtilities/UnitTestHelper.h"
 
 using namespace ansys::dpf;
 
