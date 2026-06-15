@@ -4,8 +4,12 @@
 
 Released 2025-11-01.
 
-- no changes
+### Added
+
+- No API changes for this release.
 
 ## 2025 R2
 
-- added to the Developer API docs
+### Added
+
+- Added ModelCenter Remote Execution Python ScriptWrapper API to the Ansys Developer portal.

@@ -1,5 +1,7 @@
 - name: Introduction
   href: index.md
+- name: Getting started
+  href: started.md
 - name: Python API
   href: modelcenter-python-api.md
 - name: Changelog
