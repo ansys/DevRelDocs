@@ -21,7 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>0</strong> | [workflow](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`workflow`](../../core-concepts/dpf-types.md#workflow) |
-| <strong>1</strong> | [path](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>1</strong> | [workflow_path](#input_1) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>2</strong> | [format](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>3</strong> | [options](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
@@ -35,7 +35,7 @@ Each parameter is detailed in the sections that follow the table.
 
 
 <a id="input_1"></a>
-### path (Pin 1)
+### workflow_path (Pin 1)
 
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
@@ -121,7 +121,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 
 ansys::dpf::Operator op("export_symbolic_workflow"); // operator instantiation
 op.connect(0, my_workflow);
-op.connect(1, my_path);
+op.connect(1, my_workflow_path);
 op.connect(2, my_format);
 op.connect(3, my_options);
 ansys::dpf::DataSources my_data_sources = op.getOutput<ansys::dpf::DataSources>(0);
@@ -136,7 +136,7 @@ import ansys.dpf.core as dpf
 
 op = dpf.operators.serialization.None() # operator instantiation
 op.inputs.workflow.connect(my_workflow)
-op.inputs.path.connect(my_path)
+op.inputs.workflow_path.connect(my_workflow_path)
 op.inputs.format.connect(my_format)
 op.inputs.options.connect(my_options)
 my_data_sources_as_data_sources = op.outputs.data_sources_as_data_sources()
@@ -152,7 +152,7 @@ import Ans.DataProcessing as dpf
 
 op = dpf.operators.serialization.None() # operator instantiation
 op.inputs.workflow.Connect(my_workflow)
-op.inputs.path.Connect(my_path)
+op.inputs.workflow_path.Connect(my_workflow_path)
 op.inputs.format.Connect(my_format)
 op.inputs.options.Connect(my_options)
 my_data_sources = op.outputs.data_sources.GetData()

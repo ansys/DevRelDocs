@@ -83,6 +83,8 @@ scoping: VUUID, VUUID is the equivalent to the DataTransferID in the ENGD's mate
 
 ### property_name
 
+using <eng_data::ans_mat_material_provider> the user can find out the available property scripting names,then define one of those names at this input
+
 **Type:** *LinkableInput*
 
 ### location

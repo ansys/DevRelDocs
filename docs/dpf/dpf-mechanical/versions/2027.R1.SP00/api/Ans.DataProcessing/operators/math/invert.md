@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.invert
 
 # *class* invert(field: object = None, config: OperatorConfig = None)
 
-DEPRECATED, PLEASE USE DIVIDE. Computes the element-wise and component-wise inverse of a field (1./x).
+DEPRECATED, PLEASE USE DIVIDE. Computes the entity-wise and component-wise inverse of a field (1./x).
 
 available inputs: `field` (Field, FieldsContainer)
 
@@ -37,7 +37,7 @@ field or fields container with only one field is expected
 
 ### field
 
-Field with inverse values (1/x) applied element-wise to input data
+Field with inverse values (1/x) applied entity-wise to input data
 
 **Type:** *LinkableOutput*
 

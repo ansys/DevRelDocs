@@ -181,6 +181,8 @@ Default is empty string. The string contains either "2D" or "3D" which specifies
 
 ### wb_external_data_info
 
+Default is empty. This data tree contains the Rigid & Analytical transformations specified in the workbench external data system
+
 **Type:** *LinkableInput*
 
 ### target_dimension

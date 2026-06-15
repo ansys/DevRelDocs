@@ -143,7 +143,7 @@ TEST(MeshQuery, GetNodesByElementType)
     std::vector<int> ids;
     ansys::dpf::DpfError error;
 
-    auto nodes = meshQuery.GetNodesByElementType(elements::line2, error);
+    auto nodes = meshQuery.GetNodesByElementType(elements::beam3, error);
     nodes.getIds(ids);
     EXPECT_EQ(ids.size(), 48);
 
@@ -264,7 +264,7 @@ TEST(MeshQuery, GetElementsByElementType)
     std::vector<int> ids;
     ansys::dpf::DpfError error;
 
-    auto elements = meshQuery.GetElementsByElementType(elements::line2, error);
+    auto elements = meshQuery.GetElementsByElementType(elements::beam3, error);
     elements.getIds(ids);
     EXPECT_EQ(ids.size(), 45);
 

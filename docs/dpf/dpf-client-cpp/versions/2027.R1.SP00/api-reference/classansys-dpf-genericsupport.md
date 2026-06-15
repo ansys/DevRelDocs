@@ -27,6 +27,7 @@ Define a generic support.
 * [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport-1a21a8be4f117cfebba72b1a4dfeb0aa68)
 * [getAsCyclicSupport](classansys-dpf-support.md#classansys-dpf-support-1a5903cf9eb1f3f3fec9fc0a22331db3d3)
 * [getAsDomainMesh](classansys-dpf-support.md#classansys-dpf-support-1a244cc29be85eb6192faf468268478064)
+* [getAsGenericSupport](classansys-dpf-support.md#classansys-dpf-support-1abe23d5afcce8b7912da5d1477963f873)
 * [getAsTimeFreqSupport](classansys-dpf-support.md#classansys-dpf-support-1a2ced0ad4403332166b14f301d67f4a4e)
 * [getAvailablePropertyNamesForFields](classansys-dpf-support.md#classansys-dpf-support-1ac6c5332826a5eb2814e71a02fe3e7132)
 * [getAvailablePropertyNamesForPropertyFields](classansys-dpf-support.md#classansys-dpf-support-1adb40c35236879d4d6d8a418c618a2f00)
@@ -48,7 +49,12 @@ Define a generic support.
 * [setSupportOfProperty](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport-1a3315d3bd4873c1bc7d5f96a94c8a13ca)
 * [setSupportOfProperty](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport-1a4cff390263e550b35c34bbc7f7f675d4)
 * [Support](classansys-dpf-support.md#classansys-dpf-support-1a7437ca78d2d2fa368dc0063fdf3c221a)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1afc1e7aabde22ce990c8ee02cc8a0faa4)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1a337c54f8c932801705203f25c3a0ea4f)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1a1b49c0e4e06624f93267a2da26cd9d51)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1a359baef15b27a6722273b40862feb3d9)
 * [Support](classansys-dpf-support.md#classansys-dpf-support-1a71326b7a5a317dd79c6b97a4eb18e79a)
+* [type](classansys-dpf-support.md#classansys-dpf-support-1a7284744409fa45d51e7be23bfcd6deec)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 * [~GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport-1a220ac02215e0dc173c04c61d1530e51c)
 * [~Support](classansys-dpf-support.md#classansys-dpf-support-1a3f63403200b8eb094dd8ebb3e43661ef)
@@ -160,7 +166,7 @@ ansys::dpf::GenericSupport::GenericSupport(GenericSupport const &)
 
 **Parameters**:
 
-* GenericSupport const &
+* [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) const &
 
 **Return type**: 
 
@@ -189,7 +195,7 @@ ansys::dpf::GenericSupport::GenericSupport(GenericSupport &&) noexcept
 
 **Parameters**:
 
-* GenericSupport &&
+* [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) &&
 
 **Return type**: 
 
@@ -218,9 +224,9 @@ GenericSupport & ansys::dpf::GenericSupport::operator=(GenericSupport const &)
 
 **Parameters**:
 
-* GenericSupport const &
+* [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) const &
 
-**Return type**: GenericSupport &
+**Return type**: [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) &
 
 <!--
 **TODO**:
@@ -247,9 +253,9 @@ GenericSupport & ansys::dpf::GenericSupport::operator=(GenericSupport &&) noexce
 
 **Parameters**:
 
-* GenericSupport &&
+* [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) &&
 
-**Return type**: GenericSupport &
+**Return type**: [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) &
 
 <!--
 **TODO**:
@@ -278,7 +284,7 @@ insert (if new) or replace a property with its name and [Field](classansys-dpf-f
 **Parameters**:
 
 * [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const & **property_name**
-* Field const & **field**
+* [Field](classansys-dpf-field.md#classansys-dpf-field) const & **field**
 
 **Return type**: void
 
@@ -309,7 +315,7 @@ insert (if new) or replace a property with its name and [PropertyField](classans
 **Parameters**:
 
 * [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const & **property_name**
-* PropertyField const & **field**
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const & **field**
 
 **Return type**: void
 
@@ -373,7 +379,7 @@ Empty [Support](classansys-dpf-support.md#classansys-dpf-support).
 
 
 
-**Return type**: GenericSupport
+**Return type**: [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport)
 
 <!--
 **TODO**:

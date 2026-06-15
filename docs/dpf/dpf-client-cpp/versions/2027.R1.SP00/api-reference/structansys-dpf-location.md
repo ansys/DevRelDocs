@@ -72,7 +72,7 @@ ansys::dpf::Location::Location(Location const &)=default
 
 **Parameters**:
 
-* Location const &
+* [Location](structansys-dpf-location.md#structansys-dpf-location) const &
 
 **Return type**: 
 
@@ -102,7 +102,7 @@ bool ansys::dpf::Location::operator==(Location const &) const
 
 **Parameters**:
 
-* [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837) const &
+* [Location](structansys-dpf-location.md#structansys-dpf-location) const &
 
 **Return type**: bool
 
@@ -132,7 +132,7 @@ bool ansys::dpf::Location::operator<(Location const &) const
 
 **Parameters**:
 
-* [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837) const &
+* [Location](structansys-dpf-location.md#structansys-dpf-location) const &
 
 **Return type**: bool
 
@@ -162,7 +162,7 @@ bool ansys::dpf::Location::operator<=(Location const &) const
 
 **Parameters**:
 
-* [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837) const &
+* [Location](structansys-dpf-location.md#structansys-dpf-location) const &
 
 **Return type**: bool
 
@@ -192,7 +192,7 @@ bool ansys::dpf::Location::operator!=(Location const &) const
 
 **Parameters**:
 
-* [Location](structansys-dpf-location.md#structansys-dpf-location-1a2b3efab2807517d182bc9a486a0fb837) const &
+* [Location](structansys-dpf-location.md#structansys-dpf-location) const &
 
 **Return type**: bool
 

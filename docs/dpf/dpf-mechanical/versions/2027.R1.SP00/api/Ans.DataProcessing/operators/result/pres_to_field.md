@@ -1,5 +1,5 @@
 ---
-uid: Ans.DataProcessing.operators.result.mapdl.pres_to_field
+uid: Ans.DataProcessing.operators.result.pres_to_field
 ---
 
 # *class* pres_to_field(filepath: object = None, columns_to_read: object = None, config: OperatorConfig = None)

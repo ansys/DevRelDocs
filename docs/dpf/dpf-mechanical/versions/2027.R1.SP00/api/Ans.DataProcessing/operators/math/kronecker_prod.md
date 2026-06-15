@@ -4,7 +4,17 @@ uid: Ans.DataProcessing.operators.math.kronecker_prod
 
 # *class* kronecker_prod(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-Computes element-wise Kronecker product between two tensor fields.
+Computes the [Kronecker product](https://en.wikipedia.org/wiki/Kronecker_product)
+
+of two matrix-valued fields per entity.
+
+For each entity, if $A$ is an $(m \times n)$ matrix and $B$ is a $(p \times q)$ matrix,
+
+the result is an $(mp \times nq)$ matrix:
+
+$(A \otimes B)_{(ip+k),(jq+l)} = A_{i,j} \cdot B_{k,l}$.
+
+Both input fields must have the same number of entities.
 
 available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
 
@@ -43,6 +53,8 @@ field or fields container with only one field is expected
 ## Outputs
 
 ### field
+
+Matrix field containing the Kronecker product $A \otimes B$ for each entity; unit is $u_A \cdot u_B$.
 
 **Type:** *LinkableOutput*
 

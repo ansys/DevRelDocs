@@ -67,9 +67,10 @@ Holds data located on given entities (the [Field](classansys-dpf-field.md#classa
 * [setHeaderAsDataTree](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a0f9c8db836e630abab6e914bfad781a2)
 * [setName](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1aa4e89d6febec7ca3f83b6ab0dd505b6d)
 * [setScoping](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a46281c0e95a5ea8aa038882f6b210f82)
-* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a6cc095d24302187139b81ad7843d5835)
-* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a1dc844fe2af7407a8333269be5cf99cd)
-* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a686bc9eade56aa283e052f81da8fec9b)
+* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1acfcea99977b7fa89d2046f6ad4583ca3)
+* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a58db99281624f06e397fb0675ad61653)
+* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a42a4865d6dd7101dd937d4a5eaab5dfc)
+* [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a3e2d48d20c6b045faab0618e89e004c3)
 * [support](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1ac395281a74f1a78df961f443a32648a1)
 * [~CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a07dba2c5b6fccedaa06182c3b2749b22)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
@@ -96,7 +97,7 @@ static CustomTypeField ansys::dpf::CustomTypeField::emptyCustomTypeField()
 
 
 
-**Return type**: CustomTypeField
+**Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
 <!--
 **TODO**:
@@ -272,7 +273,7 @@ ansys::dpf::CustomTypeField::CustomTypeField(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) on a server.
+Retrieve an existing instance of [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) on a server. <br/>
 
 
 
@@ -308,7 +309,7 @@ ansys::dpf::CustomTypeField::CustomTypeField(CustomTypeField const &)
 
 **Parameters**:
 
-* CustomTypeField const &
+* [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) const &
 
 **Return type**: 
 
@@ -337,7 +338,7 @@ ansys::dpf::CustomTypeField::CustomTypeField(CustomTypeField &&) noexcept
 
 **Parameters**:
 
-* CustomTypeField &&
+* [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) &&
 
 **Return type**: 
 
@@ -366,9 +367,9 @@ CustomTypeField & ansys::dpf::CustomTypeField::operator=(CustomTypeField const &
 
 **Parameters**:
 
-* CustomTypeField const &
+* [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) const &
 
-**Return type**: CustomTypeField &
+**Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) &
 
 <!--
 **TODO**:
@@ -395,9 +396,9 @@ CustomTypeField & ansys::dpf::CustomTypeField::operator=(CustomTypeField &&) noe
 
 **Parameters**:
 
-* CustomTypeField &&
+* [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) &&
 
-**Return type**: CustomTypeField &
+**Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) &
 
 <!--
 **TODO**:
@@ -425,7 +426,7 @@ Compare field with input field f.
 
 **Parameters**:
 
-* CustomTypeField const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) with which to compare.
+* [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield) const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) with which to compare.
 
 **Return type**: bool
 
@@ -965,7 +966,7 @@ DpfVector< UnitaryDataType > ansys::dpf::CustomTypeField::data() const
 
 
 
-**Return type**: DpfVector< UnitaryDataType >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< UnitaryDataType >
 
 <!--
 **TODO**:
@@ -994,7 +995,7 @@ DpfVector< int > ansys::dpf::CustomTypeField::dataPointer() const
 
 
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -1025,7 +1026,7 @@ void ansys::dpf::CustomTypeField::entityData(dp_index entity_index, DpfVector< U
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
-* DpfVector< UnitaryDataType > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< UnitaryDataType > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -1059,7 +1060,7 @@ void ansys::dpf::CustomTypeField::entityDataById(dp_id entity_id, DpfVector< Uni
 **Parameters**:
 
 * [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
-* DpfVector< UnitaryDataType > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< UnitaryDataType > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -1207,7 +1208,7 @@ Support ansys::dpf::CustomTypeField::support() const
 
 
 
-**Return type**: Support
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support)
 
 <!--
 **TODO**:
@@ -1215,14 +1216,14 @@ Support ansys::dpf::CustomTypeField::support() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::support"}]}`
 -->
 
-<a id="classansys-dpf-customtypefield-1a6cc095d24302187139b81ad7843d5835"></a>
+<a id="classansys-dpf-customtypefield-1acfcea99977b7fa89d2046f6ad4583ca3"></a>
 ### Function setSupport
 
 ![][public]
 
 
 ```cpp
-void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::Support &s)
+void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::Support const &s)
 ```
 
 
@@ -1234,7 +1235,7 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 **Parameters**:
 
-* [ansys::dpf::Support](classansys-dpf-support.md#classansys-dpf-support) & **s**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) to support.
+* [ansys::dpf::Support](classansys-dpf-support.md#classansys-dpf-support) const & **s**: [in] [Support](classansys-dpf-support.md#classansys-dpf-support) to support.
 
 **Return type**: void
 
@@ -1244,14 +1245,14 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::setSupport"}]}`
 -->
 
-<a id="classansys-dpf-customtypefield-1a1dc844fe2af7407a8333269be5cf99cd"></a>
+<a id="classansys-dpf-customtypefield-1a58db99281624f06e397fb0675ad61653"></a>
 ### Function setSupport
 
 ![][public]
 
 
 ```cpp
-void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::TimeFreqSupport &s)
+void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::TimeFreqSupport const &s)
 ```
 
 
@@ -1263,7 +1264,7 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 **Parameters**:
 
-* [ansys::dpf::TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) & **s**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) to support.
+* [ansys::dpf::TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) const & **s**: [in] [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) to support.
 
 **Return type**: void
 
@@ -1273,14 +1274,14 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::setSupport"}]}`
 -->
 
-<a id="classansys-dpf-customtypefield-1a686bc9eade56aa283e052f81da8fec9b"></a>
+<a id="classansys-dpf-customtypefield-1a42a4865d6dd7101dd937d4a5eaab5dfc"></a>
 ### Function setSupport
 
 ![][public]
 
 
 ```cpp
-void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::MeshedRegion &s)
+void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::MeshedRegion const &s)
 ```
 
 
@@ -1292,7 +1293,36 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 **Parameters**:
 
-* [ansys::dpf::MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) & **s**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) to support.
+* [ansys::dpf::MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) const & **s**: [in] [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) to support.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::setSupport"}]}`
+-->
+
+<a id="classansys-dpf-customtypefield-1a3e2d48d20c6b045faab0618e89e004c3"></a>
+### Function setSupport
+
+![][public]
+
+
+```cpp
+void ansys::dpf::CustomTypeField::setSupport(ansys::dpf::CyclicSupport const &s)
+```
+
+
+
+
+Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
+
+
+
+**Parameters**:
+
+* [ansys::dpf::CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) const & **s**: [in] [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) to support.
 
 **Return type**: void
 
@@ -1383,7 +1413,7 @@ Creates a new custom type field object from current field without its data.
 * bool const **copy_data_ptr** = true : [in] Boolean to decide if data pointer is to be copied
 * bool const **copy_support** = true : [in] Boolean to decide if the support reference is to be copied
 
-**Return type**: CustomTypeField
+**Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
 <!--
 **TODO**:
@@ -1476,7 +1506,7 @@ Get the header of the [CustomTypeField](classansys-dpf-customtypefield.md#classa
 
 
 
-**Return type**: DataTree
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:
@@ -1503,7 +1533,7 @@ Set the header of the [CustomTypeField](classansys-dpf-customtypefield.md#classa
 
 **Parameters**:
 
-* const DataTree & **datatree**
+* const [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) & **datatree**
 
 **Return type**: void
 
@@ -1535,7 +1565,7 @@ Create a new [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: CustomTypeField
+**Return type**: [CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield)
 
 <!--
 **TODO**:

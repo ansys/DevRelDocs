@@ -63,7 +63,7 @@ ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(RuntimeClientConfig const &
 
 **Parameters**:
 
-* RuntimeClientConfig const & **rhs**
+* [RuntimeClientConfig](classansys-dpf-runtimeclientconfig.md#classansys-dpf-runtimeclientconfig) const & **rhs**
 
 **Return type**: 
 
@@ -92,7 +92,7 @@ ansys::dpf::RuntimeClientConfig::RuntimeClientConfig(RuntimeClientConfig &&rhs) 
 
 **Parameters**:
 
-* RuntimeClientConfig && **rhs**
+* [RuntimeClientConfig](classansys-dpf-runtimeclientconfig.md#classansys-dpf-runtimeclientconfig) && **rhs**
 
 **Return type**: 
 

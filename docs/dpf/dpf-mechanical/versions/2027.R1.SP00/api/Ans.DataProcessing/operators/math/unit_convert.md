@@ -4,7 +4,19 @@ uid: Ans.DataProcessing.operators.math.unit_convert
 
 # *class* unit_convert(entity_to_convert: object = None, unit_name: object = None, config: OperatorConfig = None)
 
-Converts an input field/fields container or mesh of a given unit to another unit.
+Converts an input entity from one unit to another using the linear relation
+
+$v_\mathrm{out}[i] = k \cdot v_\mathrm{in}[i] + \delta$,
+
+where $k$ and $\delta$ are the unit conversion factor and shift.
+
+Accepts fields, fields containers, meshes, and meshes containers.
+
+For mesh inputs only the coordinate field is converted.
+
+When the permissive option is enabled and units are not homogeneous with the target unit,
+
+the conversion is silently skipped.
 
 available inputs: `entity_to_convert` (Field, FieldsContainer, MeshedRegion, MeshesContainer), `unit_name` (string, Int32, Field)
 
@@ -42,7 +54,7 @@ unit as a string, ex 'm' for meter, 'Pa' for pascal,... Or ansys unit system's I
 
 ### converted_entity
 
-the output entity is the same as the input (inplace operator)
+Converted entity of the same type as the input, modified in place.
 
 **Type:** *LinkableOutput*
 

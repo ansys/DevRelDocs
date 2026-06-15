@@ -204,7 +204,7 @@ bool ansys::dpf::SemanticVersion::operator==(const SemanticVersion &other) const
 
 **Parameters**:
 
-* const SemanticVersion & **other**
+* const [SemanticVersion](classansys-dpf-semanticversion.md#classansys-dpf-semanticversion) & **other**
 
 **Return type**: bool
 
@@ -234,7 +234,7 @@ bool ansys::dpf::SemanticVersion::operator!=(const SemanticVersion &other) const
 
 **Parameters**:
 
-* const SemanticVersion & **other**
+* const [SemanticVersion](classansys-dpf-semanticversion.md#classansys-dpf-semanticversion) & **other**
 
 **Return type**: bool
 

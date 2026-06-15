@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.component_wise_divide_fc
 
 # *class* component_wise_divide_fc(fields_containerA: object = None, fields_containerB: object = None, config: OperatorConfig = None)
 
-For every two fields with the same label space (from the two input fields containers), computes component-wise fraction between two fields of same dimensionality. If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely.
+For every pair of fields with matching label space in the two input fields containers,
+
+computes the component-wise fraction $\mathrm{out}[k] = A[k] / B[k]$
+
+(also known as the [Hadamard division](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Analogous_operations)).
+
+Both containers must have identical label spaces and the same number of fields.
 
 available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (FieldsContainer)
 
@@ -39,6 +45,8 @@ op = component_wise_divide_fc(fields_containerA=my_fields_containerA,fields_cont
 ## Outputs
 
 ### fields_container
+
+Fields container with the component-wise quotient fields; unit is $u_A / u_B$.
 
 **Type:** *LinkableOutput*
 

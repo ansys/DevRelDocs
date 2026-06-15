@@ -35,7 +35,7 @@ field or fields container with only one field is expected
 
 ### fields_container
 
-Field containing the element-wise difference (fieldA - fieldB)
+Field whose data equals $A[i] - B[i]$, carrying pin A's unit (or the corresponding temperature-difference unit when subtracting two temperature fields).
 
 **Type:** *LinkableOutput*
 

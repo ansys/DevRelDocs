@@ -162,7 +162,7 @@ ansys::dpf::DataSources::DataSources(DataSources const &)
 
 **Parameters**:
 
-* DataSources const &
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) const &
 
 **Return type**: 
 
@@ -191,7 +191,7 @@ ansys::dpf::DataSources::DataSources(DataSources &&) noexcept
 
 **Parameters**:
 
-* DataSources &&
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) &&
 
 **Return type**: 
 
@@ -334,7 +334,7 @@ ansys::dpf::DataSources::DataSources(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) on a server.
+Retrieve an existing instance of [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) on a server. <br/>
 
 
 
@@ -370,9 +370,9 @@ DataSources & ansys::dpf::DataSources::operator=(DataSources const &)
 
 **Parameters**:
 
-* DataSources const &
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) const &
 
-**Return type**: DataSources &
+**Return type**: [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) &
 
 <!--
 **TODO**:
@@ -399,9 +399,9 @@ DataSources & ansys::dpf::DataSources::operator=(DataSources &&) noexcept
 
 **Parameters**:
 
-* DataSources &&
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) &&
 
-**Return type**: DataSources &
+**Return type**: [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) &
 
 <!--
 **TODO**:
@@ -668,7 +668,7 @@ Add up stream to data sources.
 
 **Parameters**:
 
-* DataSources & **ds**: [in] Upstream data sources.
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) & **ds**: [in] Upstream data sources.
 
 **Return type**: void
 
@@ -697,7 +697,7 @@ Add up stream with result key to data sources.
 
 **Parameters**:
 
-* DataSources & **ds**: [in] Upstream data sources.
+* [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources) & **ds**: [in] Upstream data sources.
 * std::string const & **result_key**: [in] [Result](classansys-dpf-result.md#classansys-dpf-result) key for upstream source.
 
 **Return type**: void
@@ -1003,7 +1003,7 @@ Create a new [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasour
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: DataSources
+**Return type**: [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources)
 
 <!--
 **TODO**:
@@ -1090,7 +1090,7 @@ Empty [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources).
 
 
 
-**Return type**: DataSources
+**Return type**: [DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources)
 
 <!--
 **TODO**:

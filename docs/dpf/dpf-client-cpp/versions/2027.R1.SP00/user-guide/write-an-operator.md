@@ -104,6 +104,40 @@ The **SortOperator** structure contains all the implementation related to the cu
 In the **specification**, the "license" information is optional. If specified, the operator will require a license checkout using the specified increment while running.
 It will release the license increment once it has been run. Refer to [this section](entry-premium.md) to learn more about licensing in DPF.
 
+### Add logging in operator runtime
+
+Operators should log meaningful runtime information so plugin and application teams can understand behavior without attaching a debugger.
+
+Use `ansys::dpf::core::logging` to register or reuse a logger and write messages in `run()`.
+For full guidance, see [Logging in DPF operators and plugins](logging-in-dpf.md).
+
+```cpp
+namespace dpflog = ansys::dpf::core::logging;
+
+static void run(ansys::dpf::OperatorMain& main)
+{
+	auto logger = dpflog::getLogger("dpf.operator.custom_sort");
+	if (!logger.valid()) {
+		logger = dpflog::registerLogger("dpf.operator.custom_sort");
+	}
+
+	logger.info("custom_sort started");
+
+	ansys::dpf::Field to_sort = main.getInputField(0);
+	std::vector<double> data;
+	to_sort.getData(data);
+	std::sort(data.begin(), data.end());
+
+	ansys::dpf::Field sorted = to_sort.deep_copy();
+	sorted.setData(data);
+	main.setOutput(0, sorted);
+	main.setSuccessed();
+
+	logger.info("custom_sort completed");
+	logger.flush();
+}
+```
+
 ### Record the operator
 
 The following code enables the operator to be accessible and must be run before any instantiation of this operator.

@@ -72,7 +72,7 @@ ansys::dpf::PropertyType::PropertyType(PropertyType const &)=default
 
 **Parameters**:
 
-* PropertyType const &
+* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const &
 
 **Return type**: 
 
@@ -127,7 +127,7 @@ bool ansys::dpf::PropertyType::operator==(PropertyType const &) const
 
 **Parameters**:
 
-* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a8e5eb3fe693b3874c4c0c6bc472d4fc5) const &
+* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const &
 
 **Return type**: bool
 
@@ -157,7 +157,7 @@ bool ansys::dpf::PropertyType::operator<(PropertyType const &) const
 
 **Parameters**:
 
-* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a8e5eb3fe693b3874c4c0c6bc472d4fc5) const &
+* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const &
 
 **Return type**: bool
 
@@ -187,7 +187,7 @@ bool ansys::dpf::PropertyType::operator<=(PropertyType const &) const
 
 **Parameters**:
 
-* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a8e5eb3fe693b3874c4c0c6bc472d4fc5) const &
+* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const &
 
 **Return type**: bool
 
@@ -217,7 +217,7 @@ bool ansys::dpf::PropertyType::operator!=(PropertyType const &) const
 
 **Parameters**:
 
-* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype-1a8e5eb3fe693b3874c4c0c6bc472d4fc5) const &
+* [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const &
 
 **Return type**: bool
 

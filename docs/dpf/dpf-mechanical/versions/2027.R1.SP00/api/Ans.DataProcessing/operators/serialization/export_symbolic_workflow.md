@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.serialization.export_symbolic_workflow
 ---
 
-# *class* export_symbolic_workflow(workflow: object = None, path: object = None, format: object = None, options: object = None, config: OperatorConfig = None)
+# *class* export_symbolic_workflow(workflow: object = None, workflow_path: object = None, format: object = None, options: object = None, config: OperatorConfig = None)
 
 Transforms a Workflow into a symbolic Workflow and writes it to a file (if a path is set in input) or string
 
-available inputs: `workflow` (Workflow), `path` (string) (optional), `format` (Int32) (optional), `options` (Int32) (optional)
+available inputs: `workflow` (Workflow), `workflow_path` (string) (optional), `format` (Int32) (optional), `options` (Int32) (optional)
 
 available outputs: `data_sources` (DataSources ,string)
 
@@ -15,7 +15,7 @@ available outputs: `data_sources` (DataSources ,string)
 **Parameters:**
 
 * **workflow**
-* **path**
+* **workflow_path**
 * **format**
 * **options**
 * **config**
@@ -25,12 +25,16 @@ available outputs: `data_sources` (DataSources ,string)
 ```python
 op = export_symbolic_workflow()
 
-op = export_symbolic_workflow(workflow=my_workflow,path=my_path,format=my_format,options=my_options)
+op = export_symbolic_workflow(workflow=my_workflow,workflow_path=my_workflow_path,format=my_format,options=my_options)
 ```
 
 ## Inputs
 
 ### workflow
+
+**Type:** *LinkableInput*
+
+### workflow_path
 
 **Type:** *LinkableInput*
 
