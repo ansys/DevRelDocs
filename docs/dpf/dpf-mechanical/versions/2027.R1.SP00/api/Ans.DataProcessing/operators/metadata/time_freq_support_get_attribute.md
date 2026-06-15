@@ -10,7 +10,7 @@ available inputs: `time_freq_support` (TimeFreqSupport), `property_name` (string
 
 available outputs: `property` (double ,Field ,Scoping)
 
-**DPF Framework Reference:** [time_freq_support_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/time_freq_support_get_attribute.md)
+**DPF Framework Reference:** [time_freq_support_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/time_freq_support_get_attribute.md)
 
 **Parameters:**
 

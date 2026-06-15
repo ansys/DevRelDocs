@@ -10,7 +10,7 @@ available inputs: `fields` (PropertyFieldsContainer, PropertyField), `mesh_scopi
 
 available outputs: `fields` (PropertyFieldsContainer ,PropertyField)
 
-**DPF Framework Reference:** [rescope_property_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_property_field.md)
+**DPF Framework Reference:** [rescope_property_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/rescope_property_field.md)
 
 **Parameters:**
 

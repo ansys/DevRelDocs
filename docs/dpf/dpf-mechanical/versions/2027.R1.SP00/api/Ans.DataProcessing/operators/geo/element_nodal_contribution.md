@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `scoping` (Scoping) (optional), `volume
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [element_nodal_contribution operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/element_nodal_contribution.md)
+**DPF Framework Reference:** [element_nodal_contribution operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/element_nodal_contribution.md)
 
 **Parameters:**
 

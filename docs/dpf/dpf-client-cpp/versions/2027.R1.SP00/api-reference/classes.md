@@ -138,6 +138,7 @@ List of Classes:
 - [ansys::dpf::reflect< short >](structansys-dpf-reflect-short.md)
 - [ansys::dpf::reflect< size_t >](structansys-dpf-reflect-size-t.md)
 - [ansys::dpf::reflect< unsigned int >](structansys-dpf-reflect-unsigned-int.md)
+- [ansys::dpf::reflect< unsigned short >](structansys-dpf-reflect-unsigned-short.md)
 - [ansys::dpf::reflect< wchar_t >](structansys-dpf-reflect-wchar-t.md)
 - [ansys::dpf::spec](structansys-dpf-spec.md)
 - [ansys::dpf::spec::category](structansys-dpf-spec-category.md)

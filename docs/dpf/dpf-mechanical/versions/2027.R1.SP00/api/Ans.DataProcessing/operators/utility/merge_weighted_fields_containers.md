@@ -10,7 +10,7 @@ available inputs: `sum_merge` (bool) (optional), `merged_fields_support` (Abstra
 
 available outputs: `merged_fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [merge_weighted_fields_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_weighted_fields_containers.md)
+**DPF Framework Reference:** [merge_weighted_fields_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_weighted_fields_containers.md)
 
 **Parameters:**
 

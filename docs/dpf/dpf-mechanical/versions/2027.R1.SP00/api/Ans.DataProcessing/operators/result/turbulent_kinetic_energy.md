@@ -9,7 +9,7 @@ turbulent_kinetic_energy(time_scoping: object, mesh_scoping: object, data_source
 turbulent_kinetic_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [turbulent_kinetic_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/turbulent_kinetic_energy.md)
+**DPF Framework Reference:** [turbulent_kinetic_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/turbulent_kinetic_energy.md)
 
 **Parameters:**
 

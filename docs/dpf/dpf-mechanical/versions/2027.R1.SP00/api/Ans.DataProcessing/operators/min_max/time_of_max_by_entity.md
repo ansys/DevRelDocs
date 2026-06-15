@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `abs_value` (bool) (opti
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [time_of_max_by_entity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/time_of_max_by_entity.md)
+**DPF Framework Reference:** [time_of_max_by_entity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/min_max/time_of_max_by_entity.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping) 
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [nodal_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/nodal_density.md)
+**DPF Framework Reference:** [nodal_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/nodal_density.md)
 
 **Parameters:**
 

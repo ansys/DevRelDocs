@@ -9,7 +9,7 @@ cross_product_fc(field_or_fields_container_A: object, field_or_fields_container_
 cross_product_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [cross_product_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cross_product_fc.md)
+**DPF Framework Reference:** [cross_product_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/cross_product_fc.md)
 
 **Parameters:**
 

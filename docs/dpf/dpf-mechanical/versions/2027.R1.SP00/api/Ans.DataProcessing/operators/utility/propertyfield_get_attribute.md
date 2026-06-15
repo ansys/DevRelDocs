@@ -10,7 +10,7 @@ available inputs: `property_field` (PropertyField, PropertyFieldsContainer), `pr
 
 available outputs: `property` (string ,TimeFreqSupport ,Scoping ,DataTree)
 
-**DPF Framework Reference:** [propertyfield_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/propertyfield_get_attribute.md)
+**DPF Framework Reference:** [propertyfield_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/propertyfield_get_attribute.md)
 
 **Parameters:**
 

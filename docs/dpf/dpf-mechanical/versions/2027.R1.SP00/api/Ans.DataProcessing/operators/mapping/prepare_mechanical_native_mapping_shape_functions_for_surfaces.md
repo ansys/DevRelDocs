@@ -54,7 +54,7 @@ available inputs: `source_mesh` (MeshedRegion), `target_mesh` (MeshedRegion, Fie
 
 available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `target_mesh` (MeshedRegion), `target_mesh_id` (Int32), `mapping_manager_data` (Any), `target_scoping` (Scoping), `prepare_output` (Any)
 
-**DPF Framework Reference:** [prepare_mechanical_native_mapping_shape_functions_for_surfaces operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md)
+**DPF Framework Reference:** [prepare_mechanical_native_mapping_shape_functions_for_surfaces operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md)
 
 **Parameters:**
 
@@ -219,6 +219,8 @@ Default is empty string. The string contains either "2D" or "3D" which specifies
 **Type:** *LinkableInput*
 
 ### wb_external_data_info
+
+Default is empty. This data tree contains the Rigid & Analytical transformations specified in the workbench external data system
 
 **Type:** *LinkableInput*
 

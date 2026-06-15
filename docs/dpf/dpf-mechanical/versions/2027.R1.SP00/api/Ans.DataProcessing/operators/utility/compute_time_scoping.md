@@ -9,7 +9,7 @@ compute_time_scoping(time_freq_values: object, step: object, interpolation_type:
 compute_time_scoping(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_time_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/compute_time_scoping.md)
+**DPF Framework Reference:** [compute_time_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/compute_time_scoping.md)
 
 **Parameters:**
 

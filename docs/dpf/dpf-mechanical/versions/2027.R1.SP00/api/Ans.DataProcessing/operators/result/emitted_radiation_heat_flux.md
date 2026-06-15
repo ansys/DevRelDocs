@@ -9,7 +9,7 @@ emitted_radiation_heat_flux(time_scoping: object, mesh_scoping: object, data_sou
 emitted_radiation_heat_flux(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [emitted_radiation_heat_flux operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/emitted_radiation_heat_flux.md)
+**DPF Framework Reference:** [emitted_radiation_heat_flux operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/emitted_radiation_heat_flux.md)
 
 **Parameters:**
 

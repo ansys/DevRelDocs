@@ -9,7 +9,7 @@ raw_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, c
 raw_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [raw_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_velocity.md)
+**DPF Framework Reference:** [raw_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/raw_velocity.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ swelling_strains(time_scoping: object, mesh_scoping: object, data_sources: objec
 swelling_strains(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [swelling_strains operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/swelling_strains.md)
+**DPF Framework Reference:** [swelling_strains operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/swelling_strains.md)
 
 **Parameters:**
 

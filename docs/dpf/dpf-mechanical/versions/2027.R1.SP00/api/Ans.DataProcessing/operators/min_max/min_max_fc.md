@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `field_min` (Field), `field_max` (Field)
 
-**DPF Framework Reference:** [min_max_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_fc.md)
+**DPF Framework Reference:** [min_max_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/min_max/min_max_fc.md)
 
 **Parameters:**
 

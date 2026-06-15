@@ -10,7 +10,7 @@ available inputs: `time_freq_support` (TimeFreqSupport), `time_scoping` (Scoping
 
 available outputs: `field` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [extract_time_freq operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_time_freq.md)
+**DPF Framework Reference:** [extract_time_freq operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/extract_time_freq.md)
 
 **Parameters:**
 

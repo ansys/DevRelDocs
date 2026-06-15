@@ -9,7 +9,7 @@ joint_relative_displacement(time_scoping: object, mesh_scoping: object, data_sou
 joint_relative_displacement(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_relative_displacement operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_relative_displacement.md)
+**DPF Framework Reference:** [joint_relative_displacement operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/joint_relative_displacement.md)
 
 **Parameters:**
 

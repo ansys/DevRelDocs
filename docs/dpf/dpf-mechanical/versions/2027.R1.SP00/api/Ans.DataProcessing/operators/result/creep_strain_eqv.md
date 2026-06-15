@@ -9,7 +9,7 @@ creep_strain_eqv(time_scoping: object, mesh_scoping: object, data_sources: objec
 creep_strain_eqv(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [creep_strain_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_eqv.md)
+**DPF Framework Reference:** [creep_strain_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/creep_strain_eqv.md)
 
 **Parameters:**
 

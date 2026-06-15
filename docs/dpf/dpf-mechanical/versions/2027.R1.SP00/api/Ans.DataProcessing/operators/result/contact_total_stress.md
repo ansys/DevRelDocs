@@ -9,7 +9,7 @@ contact_total_stress(time_scoping: object, mesh_scoping: object, data_sources: o
 contact_total_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_total_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_total_stress.md)
+**DPF Framework Reference:** [contact_total_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/contact_total_stress.md)
 
 **Parameters:**
 

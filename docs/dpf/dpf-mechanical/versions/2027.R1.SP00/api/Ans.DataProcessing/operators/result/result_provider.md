@@ -9,7 +9,7 @@ result_provider(time_scoping: object, mesh_scoping: object, data_sources: object
 result_provider(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [result_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/result_provider.md)
+**DPF Framework Reference:** [result_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/result_provider.md)
 
 **Parameters:**
 

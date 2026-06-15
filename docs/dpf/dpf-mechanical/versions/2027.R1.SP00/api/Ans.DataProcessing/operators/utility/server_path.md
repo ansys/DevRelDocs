@@ -10,7 +10,7 @@ available inputs: `subpath` (Int32) (optional)
 
 available outputs: `path` (string)
 
-**DPF Framework Reference:** [server_path operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/server_path.md)
+**DPF Framework Reference:** [server_path operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/server_path.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ add(fieldA: object, fieldB: object, config: OperatorConfig)
 add(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [add operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add.md)
+**DPF Framework Reference:** [add operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/add.md)
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ field or fields container with only one field is expected
 
 ### field
 
-Field containing the element-wise sum of the two input fields
+Field whose data equals $A[i] + B[i]$, with pin A's unit.
 
 **Type:** *LinkableOutput*
 

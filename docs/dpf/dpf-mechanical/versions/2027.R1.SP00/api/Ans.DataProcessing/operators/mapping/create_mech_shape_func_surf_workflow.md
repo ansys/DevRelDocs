@@ -10,7 +10,7 @@ available inputs: `source_mesh` (MeshedRegion) (optional), `target_mesh` (Meshed
 
 available outputs: `mapping_workflow` (Workflow)
 
-**DPF Framework Reference:** [create_mech_shape_func_surf_workflow operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md)
+**DPF Framework Reference:** [create_mech_shape_func_surf_workflow operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md)
 
 **Parameters:**
 

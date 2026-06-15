@@ -9,7 +9,7 @@ thermal_strains_eqv(time_scoping: object, mesh_scoping: object, data_sources: ob
 thermal_strains_eqv(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_strains_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strains_eqv.md)
+**DPF Framework Reference:** [thermal_strains_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/thermal_strains_eqv.md)
 
 **Parameters:**
 

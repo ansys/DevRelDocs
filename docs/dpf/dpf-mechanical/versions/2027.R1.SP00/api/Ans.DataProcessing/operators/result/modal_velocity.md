@@ -9,7 +9,7 @@ modal_velocity(time_scoping: object, data_sources: object, config: OperatorConfi
 modal_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_velocity.md)
+**DPF Framework Reference:** [modal_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/modal_velocity.md)
 
 **Parameters:**
 

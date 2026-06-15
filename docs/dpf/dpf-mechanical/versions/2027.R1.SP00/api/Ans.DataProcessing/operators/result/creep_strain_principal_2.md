@@ -9,7 +9,7 @@ creep_strain_principal_2(time_scoping: object, mesh_scoping: object, data_source
 creep_strain_principal_2(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [creep_strain_principal_2 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_2.md)
+**DPF Framework Reference:** [creep_strain_principal_2 operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/creep_strain_principal_2.md)
 
 **Parameters:**
 

@@ -19,6 +19,7 @@ Predefined labels.
 * [dofs](structansys-dpf-labels.md#structansys-dpf-labels-1ad2788c414a549ad634c56f272ecd0607)
 * [domain](structansys-dpf-labels.md#structansys-dpf-labels-1ae97916221f9fab4003318668faf26b87)
 * [ghost](structansys-dpf-labels.md#structansys-dpf-labels-1ac0403bfca2736100f8d4881f12b50ed9)
+* [input_dof_index](structansys-dpf-labels.md#structansys-dpf-labels-1a92f62c0505698cea4cfff620c8e2838e)
 * [panel](structansys-dpf-labels.md#structansys-dpf-labels-1a6e29cda8e31c6c272d2ae30d3c2491ea)
 * [partition](structansys-dpf-labels.md#structansys-dpf-labels-1a57963c7165b37fb727a885b561171a86)
 * [phase](structansys-dpf-labels.md#structansys-dpf-labels-1a3536d0ec8b45d3388ddf47337fe0eca9)
@@ -338,6 +339,32 @@ const Label ansys::dpf::labels::ghost
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::labels::ghost"}]}`
+-->
+
+<a id="structansys-dpf-labels-1a92f62c0505698cea4cfff620c8e2838e"></a>
+### Variable input_dof_index
+
+![][public]
+![][static]
+
+
+```cpp
+const Label ansys::dpf::labels::input_dof_index
+```
+
+
+
+
+[Label](structansys-dpf-label.md#structansys-dpf-label) for input_dof_index.
+
+
+
+**Type**: const [Label](structansys-dpf-label.md#structansys-dpf-label)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::labels::input_dof_index"}]}`
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

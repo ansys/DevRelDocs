@@ -10,7 +10,7 @@ available inputs: `data_tree1` (DataTree), `data_tree2` (DataTree)
 
 available outputs: `any` (Any)
 
-**DPF Framework Reference:** [merge_data_tree operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_data_tree.md)
+**DPF Framework Reference:** [merge_data_tree operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_data_tree.md)
 
 **Parameters:**
 

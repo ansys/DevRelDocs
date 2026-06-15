@@ -9,7 +9,7 @@ displacement_Z(time_scoping: object, mesh_scoping: object, data_sources: object,
 displacement_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [displacement_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement_Z.md)
+**DPF Framework Reference:** [displacement_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/displacement_Z.md)
 
 **Parameters:**
 

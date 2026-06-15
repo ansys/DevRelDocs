@@ -9,7 +9,7 @@ magnetic_scalar_potential(time_scoping: object, mesh_scoping: object, data_sourc
 magnetic_scalar_potential(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_scalar_potential operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_scalar_potential.md)
+**DPF Framework Reference:** [magnetic_scalar_potential operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/magnetic_scalar_potential.md)
 
 **Parameters:**
 

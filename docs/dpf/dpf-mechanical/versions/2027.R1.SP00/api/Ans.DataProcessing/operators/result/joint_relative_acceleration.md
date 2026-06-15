@@ -9,7 +9,7 @@ joint_relative_acceleration(time_scoping: object, mesh_scoping: object, data_sou
 joint_relative_acceleration(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_relative_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_relative_acceleration.md)
+**DPF Framework Reference:** [joint_relative_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/joint_relative_acceleration.md)
 
 **Parameters:**
 

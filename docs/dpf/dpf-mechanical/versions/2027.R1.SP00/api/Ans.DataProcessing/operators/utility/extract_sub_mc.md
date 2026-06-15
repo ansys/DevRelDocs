@@ -10,7 +10,7 @@ available inputs: `meshes` (MeshesContainer), `label_space` (LabelSpace, Scoping
 
 available outputs: `meshes_container` (MeshesContainer)
 
-**DPF Framework Reference:** [extract_sub_mc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_sub_mc.md)
+**DPF Framework Reference:** [extract_sub_mc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/extract_sub_mc.md)
 
 **Parameters:**
 

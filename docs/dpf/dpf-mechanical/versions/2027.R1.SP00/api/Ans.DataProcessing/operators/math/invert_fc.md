@@ -4,13 +4,13 @@ uid: Ans.DataProcessing.operators.math.invert_fc
 
 # *class* invert_fc(fields_container: object = None, config: OperatorConfig = None)
 
-DEPRECATED, PLEASE USE DIVIDE. Computes the element-wise and component-wise inverse of a field (1./x).
+DEPRECATED, PLEASE USE DIVIDE. Computes the entity-wise and component-wise inverse of a field (1./x).
 
 available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [invert_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/invert_fc.md)
+**DPF Framework Reference:** [invert_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/invert_fc.md)
 
 **Parameters:**
 
@@ -37,7 +37,7 @@ field or fields container with only one field is expected
 
 ### fields_container
 
-Field with inverse values (1/x) applied element-wise to input data
+Field with inverse values (1/x) applied entity-wise to input data
 
 **Type:** *LinkableOutput*
 

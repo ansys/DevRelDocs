@@ -1,5 +1,5 @@
 ---
-uid: Ans.DataProcessing.operators.result.mapdl.prns_to_field
+uid: Ans.DataProcessing.operators.result.prns_to_field
 ---
 
 # *class* prns_to_field(filepath: object = None, columns_to_read: object = None, config: OperatorConfig = None)
@@ -10,7 +10,7 @@ available inputs: `filepath` (string), `columns_to_read` (Int32, IList int, Syst
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [prns_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/prns_to_field.md)
+**DPF Framework Reference:** [prns_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/prns_to_field.md)
 
 **Parameters:**
 

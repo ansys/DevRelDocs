@@ -10,7 +10,7 @@ available inputs: `result_infos1` (ResultInfo), `result_infos2` (ResultInfo)
 
 available outputs: `merged_result_infos` (ResultInfo)
 
-**DPF Framework Reference:** [merge_result_infos operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_result_infos.md)
+**DPF Framework Reference:** [merge_result_infos operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_result_infos.md)
 
 **Parameters:**
 

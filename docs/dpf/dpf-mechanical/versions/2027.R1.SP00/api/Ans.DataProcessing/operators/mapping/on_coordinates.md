@@ -54,7 +54,7 @@ available inputs: `fields_container` (FieldsContainer), `coordinates` (Field, Fi
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [on_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
+**DPF Framework Reference:** [on_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mapping/on_coordinates.md)
 
 **Parameters:**
 

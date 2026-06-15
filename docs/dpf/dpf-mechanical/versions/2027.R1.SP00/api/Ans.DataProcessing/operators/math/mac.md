@@ -10,7 +10,7 @@ available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (Fi
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [mac operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/mac.md)
+**DPF Framework Reference:** [mac operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/mac.md)
 
 **Parameters:**
 

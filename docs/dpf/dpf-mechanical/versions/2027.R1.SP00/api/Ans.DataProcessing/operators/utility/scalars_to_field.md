@@ -9,7 +9,7 @@ scalars_to_field(double_or_vector_double: object, unit: object, location: object
 scalars_to_field(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [scalars_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/scalars_to_field.md)
+**DPF Framework Reference:** [scalars_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/scalars_to_field.md)
 
 **Parameters:**
 

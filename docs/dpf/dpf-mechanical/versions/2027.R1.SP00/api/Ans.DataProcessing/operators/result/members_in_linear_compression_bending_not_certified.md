@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, Int32, System.Collections.
 
 available outputs: `buckling_resistance_linear_summation_utilization_ratios` (FieldsContainer)
 
-**DPF Framework Reference:** [members_in_linear_compression_bending_not_certified operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/members_in_linear_compression_bending_not_certified.md)
+**DPF Framework Reference:** [members_in_linear_compression_bending_not_certified operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/members_in_linear_compression_bending_not_certified.md)
 
 **Parameters:**
 

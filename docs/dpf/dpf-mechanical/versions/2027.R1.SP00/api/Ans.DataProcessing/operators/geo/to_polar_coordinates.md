@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `coordinate_system` (Field) 
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [to_polar_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/to_polar_coordinates.md)
+**DPF Framework Reference:** [to_polar_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/to_polar_coordinates.md)
 
 **Parameters:**
 

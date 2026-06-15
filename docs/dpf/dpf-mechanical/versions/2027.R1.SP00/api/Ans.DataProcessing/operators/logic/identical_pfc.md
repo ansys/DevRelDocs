@@ -10,7 +10,7 @@ available inputs: `property_fields_containerA` (PropertyFieldsContainer), `prope
 
 available outputs: `boolean` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_pfc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_pfc.md)
+**DPF Framework Reference:** [identical_pfc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/identical_pfc.md)
 
 **Parameters:**
 

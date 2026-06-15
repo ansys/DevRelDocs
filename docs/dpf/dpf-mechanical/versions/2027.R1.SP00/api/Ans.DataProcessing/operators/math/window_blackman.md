@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer)
 
 available outputs: `field` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [window_blackman operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/window_blackman.md)
+**DPF Framework Reference:** [window_blackman operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/window_blackman.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `base_label` (LabelSpace, FieldsContainer, ScopingsContainer) 
 
 available outputs: `label` (LabelSpace)
 
-**DPF Framework Reference:** [make_label_space operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_label_space.md)
+**DPF Framework Reference:** [make_label_space operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/make_label_space.md)
 
 **Parameters:**
 

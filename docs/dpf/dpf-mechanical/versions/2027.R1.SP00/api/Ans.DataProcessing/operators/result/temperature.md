@@ -9,7 +9,7 @@ temperature(time_scoping: object, mesh_scoping: object, data_sources: object, ex
 temperature(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/temperature.md)
+**DPF Framework Reference:** [temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/temperature.md)
 
 **Parameters:**
 

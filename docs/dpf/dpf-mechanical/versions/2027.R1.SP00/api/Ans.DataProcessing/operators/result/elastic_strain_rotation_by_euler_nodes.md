@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer) (optional), `streams_cont
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [elastic_strain_rotation_by_euler_nodes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_rotation_by_euler_nodes.md)
+**DPF Framework Reference:** [elastic_strain_rotation_by_euler_nodes operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/elastic_strain_rotation_by_euler_nodes.md)
 
 **Parameters:**
 

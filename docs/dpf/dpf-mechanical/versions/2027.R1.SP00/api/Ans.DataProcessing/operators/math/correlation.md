@@ -9,7 +9,7 @@ correlation(fieldA: object, fieldB: object, weights: object, absoluteValue: obje
 correlation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [correlation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/correlation.md)
+**DPF Framework Reference:** [correlation operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/correlation.md)
 
 **Parameters:**
 

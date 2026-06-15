@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [interface_contact_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/interface_contact_mass.md)
+**DPF Framework Reference:** [interface_contact_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/interface_contact_mass.md)
 
 **Parameters:**
 

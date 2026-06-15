@@ -10,7 +10,7 @@ available inputs: `field` (Field), `collapse_shell_layers` (bool) (optional), `f
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [elemental_mean operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_mean.md)
+**DPF Framework Reference:** [elemental_mean operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/averaging/elemental_mean.md)
 
 **Parameters:**
 

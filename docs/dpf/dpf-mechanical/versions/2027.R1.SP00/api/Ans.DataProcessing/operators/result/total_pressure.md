@@ -9,7 +9,7 @@ total_pressure(time_scoping: object, mesh_scoping: object, data_sources: object,
 total_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [total_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_pressure.md)
+**DPF Framework Reference:** [total_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/total_pressure.md)
 
 **Parameters:**
 

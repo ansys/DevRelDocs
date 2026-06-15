@@ -9,7 +9,7 @@ minus(fieldA: object, fieldB: object, config: OperatorConfig)
 minus(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [minus operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/minus.md)
+**DPF Framework Reference:** [minus operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/minus.md)
 
 **Parameters:**
 
@@ -35,7 +35,7 @@ field or fields container with only one field is expected
 
 ### field
 
-Field containing the element-wise difference (fieldA - fieldB)
+Field whose data equals $A[i] - B[i]$, carrying pin A's unit (or the corresponding temperature-difference unit when subtracting two temperature fields).
 
 **Type:** *LinkableOutput*
 

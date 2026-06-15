@@ -10,7 +10,7 @@ available inputs: `field` (Field), `new_location` (string)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [change_location operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/change_location.md)
+**DPF Framework Reference:** [change_location operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/change_location.md)
 
 **Parameters:**
 

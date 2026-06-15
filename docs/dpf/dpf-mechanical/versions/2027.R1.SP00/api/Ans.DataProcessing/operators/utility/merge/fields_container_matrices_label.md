@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `label` (string), `time_
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [fields_container_matrices_label operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/fields_container_matrices_label.md)
+**DPF Framework Reference:** [fields_container_matrices_label operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/fields_container_matrices_label.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ rms_temperature(time_scoping: object, mesh_scoping: object, data_sources: object
 rms_temperature(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [rms_temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rms_temperature.md)
+**DPF Framework Reference:** [rms_temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/rms_temperature.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ joint_force_reaction(time_scoping: object, mesh_scoping: object, data_sources: o
 joint_force_reaction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_force_reaction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_force_reaction.md)
+**DPF Framework Reference:** [joint_force_reaction operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/joint_force_reaction.md)
 
 **Parameters:**
 

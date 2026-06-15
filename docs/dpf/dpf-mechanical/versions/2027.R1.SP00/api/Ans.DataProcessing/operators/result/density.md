@@ -9,7 +9,7 @@ density(time_scoping: object, mesh_scoping: object, data_sources: object, config
 density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/density.md)
+**DPF Framework Reference:** [density operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/density.md)
 
 **Parameters:**
 

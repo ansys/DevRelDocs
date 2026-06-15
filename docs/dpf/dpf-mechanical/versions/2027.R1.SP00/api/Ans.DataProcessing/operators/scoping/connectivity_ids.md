@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping), `mesh` (MeshedRegion) (optional), `t
 
 available outputs: `mesh_scoping` (Scoping), `elemental_scoping` (Scoping)
 
-**DPF Framework Reference:** [connectivity_ids operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/connectivity_ids.md)
+**DPF Framework Reference:** [connectivity_ids operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/connectivity_ids.md)
 
 **Parameters:**
 

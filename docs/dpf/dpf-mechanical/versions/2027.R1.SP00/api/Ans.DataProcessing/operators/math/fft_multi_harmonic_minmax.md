@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `rpm_scoping` (Scoping) 
 
 available outputs: `field_min` (FieldsContainer), `field_max` (FieldsContainer), `all_fields` (FieldsContainer)
 
-**DPF Framework Reference:** [fft_multi_harmonic_minmax operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fft_multi_harmonic_minmax.md)
+**DPF Framework Reference:** [fft_multi_harmonic_minmax operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/fft_multi_harmonic_minmax.md)
 
 **Parameters:**
 

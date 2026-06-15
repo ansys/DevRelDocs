@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `preservation_ratio` (double) (optional
 
 available outputs: `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [decimate_mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/decimate_mesh.md)
+**DPF Framework Reference:** [decimate_mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/decimate_mesh.md)
 
 **Parameters:**
 

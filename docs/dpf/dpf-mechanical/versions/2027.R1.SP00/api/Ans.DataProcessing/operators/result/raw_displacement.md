@@ -9,7 +9,7 @@ raw_displacement(time_scoping: object, mesh_scoping: object, data_sources: objec
 raw_displacement(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [raw_displacement operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_displacement.md)
+**DPF Framework Reference:** [raw_displacement operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/raw_displacement.md)
 
 **Parameters:**
 

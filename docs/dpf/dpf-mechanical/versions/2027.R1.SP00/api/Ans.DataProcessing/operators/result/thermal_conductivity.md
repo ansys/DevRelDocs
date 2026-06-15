@@ -9,7 +9,7 @@ thermal_conductivity(time_scoping: object, mesh_scoping: object, data_sources: o
 thermal_conductivity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_conductivity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_conductivity.md)
+**DPF Framework Reference:** [thermal_conductivity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/thermal_conductivity.md)
 
 **Parameters:**
 

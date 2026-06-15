@@ -18,7 +18,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field), `double_value` (double) (o
 
 available outputs: `boolean` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_fields.md)
+**DPF Framework Reference:** [identical_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/identical_fields.md)
 
 **Parameters:**
 
@@ -53,6 +53,8 @@ Double positive small value. Smallest value considered during the comparison ste
 **Type:** *LinkableInput*
 
 ### double_tolerance
+
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical. Formula is (v1 - v2) / v2 < double_tolerance. Default is 0.001.
 
 **Type:** *LinkableInput*
 

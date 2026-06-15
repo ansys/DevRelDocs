@@ -9,7 +9,7 @@ outer_product(fieldA: object, fieldB: object, config: OperatorConfig)
 outer_product(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [outer_product operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/outer_product.md)
+**DPF Framework Reference:** [outer_product operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/outer_product.md)
 
 **Parameters:**
 

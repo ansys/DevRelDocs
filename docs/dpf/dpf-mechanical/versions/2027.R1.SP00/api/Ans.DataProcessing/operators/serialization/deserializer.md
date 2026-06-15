@@ -10,7 +10,7 @@ available inputs: `stream_type` (Int32), `file_path` (string)
 
 available outputs: `any_output1` (Any), `any_output2` (Any)
 
-**DPF Framework Reference:** [deserializer operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/deserializer.md)
+**DPF Framework Reference:** [deserializer operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/deserializer.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ add_fc(fields_container1: object, fields_container2: object, config: OperatorCon
 add_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [add_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add_fc.md)
+**DPF Framework Reference:** [add_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/add_fc.md)
 
 **Parameters:**
 
@@ -31,7 +31,7 @@ add_fc(config: OperatorConfig)
 
 ### fields_container
 
-FieldsContainer with summed fields by label space
+Fields container with fields summed by matching label space.
 
 **Type:** *LinkableOutput*
 

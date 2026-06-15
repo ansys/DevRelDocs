@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes centroid of field1 and field2, using fieldOut = field1*(1.-fact)+field2*(fact). Only works by index.
+
+Computes a [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) between two fields
+using a scalar factor $t$: $\mathrm{out}[i] = (1 - t) \cdot A[i] + t \cdot B[i]$.
+The interpolation is convex (no extrapolation) when $t \in [0, 1]$;
+values outside this range extrapolate beyond the two input fields.
+This operator works by index only.
+
 
 ## Inputs
 
@@ -47,7 +53,7 @@ field or fields container with only one field is expected
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Scalar
+Interpolation factor $t$: $t = 0$ returns fieldA unchanged, $t = 1$ returns fieldB unchanged. Values in $[0, 1]$ interpolate; values outside extrapolate.
 
 
 ## Outputs
@@ -66,7 +72,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field with centroid calculation: fieldA*(1-factor) + fieldB*factor
+Interpolated field $(1 - t) \cdot A + t \cdot B$, with the unit of pin A.
 
 
 ## Configurations

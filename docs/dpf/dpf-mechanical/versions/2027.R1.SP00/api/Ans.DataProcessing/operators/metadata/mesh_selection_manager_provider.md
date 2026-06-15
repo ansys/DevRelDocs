@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `mesh_selection_manager` (MeshSelectionManager)
 
-**DPF Framework Reference:** [mesh_selection_manager_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/mesh_selection_manager_provider.md)
+**DPF Framework Reference:** [mesh_selection_manager_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/mesh_selection_manager_provider.md)
 
 **Parameters:**
 

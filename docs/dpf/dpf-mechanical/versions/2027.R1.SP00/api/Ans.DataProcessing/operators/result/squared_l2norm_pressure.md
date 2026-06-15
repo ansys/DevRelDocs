@@ -9,7 +9,7 @@ squared_l2norm_pressure(time_scoping: object, mesh_scoping: object, data_sources
 squared_l2norm_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [squared_l2norm_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/squared_l2norm_pressure.md)
+**DPF Framework Reference:** [squared_l2norm_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/squared_l2norm_pressure.md)
 
 **Parameters:**
 

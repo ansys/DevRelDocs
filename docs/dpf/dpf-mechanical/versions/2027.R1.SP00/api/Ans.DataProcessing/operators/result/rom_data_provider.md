@@ -10,7 +10,7 @@ available inputs: `rom_type` (bool), `reduced_stiff_matrix` (FieldsContainer), `
 
 available outputs: `rom_matrices` (FieldsContainer), `mode_shapes` (FieldsContainer), `lumped_mass` (FieldsContainer), `model_data` (PropertyField), `center_of_mass` (PropertyField), `inertia_relief` (Field), `model_size` (double), `field_coordinates_and_euler_angles` (double), `nod` (IList int  ,System.Collections.IEnumerable), `meshed_region` (MeshedRegion), `phi_ortho` (FieldsContainer)
 
-**DPF Framework Reference:** [rom_data_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rom_data_provider.md)
+**DPF Framework Reference:** [rom_data_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/rom_data_provider.md)
 
 **Parameters:**
 

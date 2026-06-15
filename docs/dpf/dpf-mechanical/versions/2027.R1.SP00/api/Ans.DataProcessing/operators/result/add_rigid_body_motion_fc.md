@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `translation_field` (Fie
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [add_rigid_body_motion_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/add_rigid_body_motion_fc.md)
+**DPF Framework Reference:** [add_rigid_body_motion_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/add_rigid_body_motion_fc.md)
 
 **Parameters:**
 

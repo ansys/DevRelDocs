@@ -10,7 +10,7 @@ available inputs: `field` (Field), `scoping` (Scoping) (optional), `time_freq_su
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [integrate_over_time_freq operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/integrate_over_time_freq.md)
+**DPF Framework Reference:** [integrate_over_time_freq operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/integrate_over_time_freq.md)
 
 **Parameters:**
 

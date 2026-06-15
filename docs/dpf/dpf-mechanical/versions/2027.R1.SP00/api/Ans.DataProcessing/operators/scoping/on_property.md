@@ -10,7 +10,7 @@ available inputs: `requested_location` (string), `property_name` (string), `prop
 
 available outputs: `mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [on_property operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_property.md)
+**DPF Framework Reference:** [on_property operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/on_property.md)
 
 **Parameters:**
 

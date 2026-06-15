@@ -9,7 +9,7 @@ radiation_area(time_scoping: object, mesh_scoping: object, data_sources: object,
 radiation_area(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [radiation_area operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/radiation_area.md)
+**DPF Framework Reference:** [radiation_area operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/radiation_area.md)
 
 **Parameters:**
 

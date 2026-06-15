@@ -10,7 +10,7 @@ available inputs: `field_or_fields_container` (Field, FieldsContainer), `meshes`
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [split_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_fields.md)
+**DPF Framework Reference:** [split_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/split_fields.md)
 
 **Parameters:**
 

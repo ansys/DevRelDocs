@@ -9,7 +9,7 @@ contact_penetration(time_scoping: object, mesh_scoping: object, data_sources: ob
 contact_penetration(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_penetration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_penetration.md)
+**DPF Framework Reference:** [contact_penetration operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/contact_penetration.md)
 
 **Parameters:**
 

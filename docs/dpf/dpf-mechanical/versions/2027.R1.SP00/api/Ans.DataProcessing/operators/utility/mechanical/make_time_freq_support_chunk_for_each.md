@@ -10,7 +10,7 @@ available inputs: `target_time_freq_support` (TimeFreqSupport), `operator_to_ite
 
 available outputs: `chunks` (Any)
 
-**DPF Framework Reference:** [make_time_freq_support_chunk_for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_time_freq_support_chunk_for_each.md)
+**DPF Framework Reference:** [make_time_freq_support_chunk_for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/make_time_freq_support_chunk_for_each.md)
 
 **Parameters:**
 

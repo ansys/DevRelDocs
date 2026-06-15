@@ -9,7 +9,7 @@ emissivity(time_scoping: object, mesh_scoping: object, data_sources: object, con
 emissivity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [emissivity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/emissivity.md)
+**DPF Framework Reference:** [emissivity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/emissivity.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `property_name` (string), `p
 
 available outputs: `field` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [set_property operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/set_property.md)
+**DPF Framework Reference:** [set_property operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/set_property.md)
 
 **Parameters:**
 

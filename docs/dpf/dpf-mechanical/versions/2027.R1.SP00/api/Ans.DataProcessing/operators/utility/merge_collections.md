@@ -10,7 +10,7 @@ available inputs: `collections1` (AnyCollection), `collections2` (AnyCollection)
 
 available outputs: `merged_collections` (AnyCollection)
 
-**DPF Framework Reference:** [merge_collections operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_collections.md)
+**DPF Framework Reference:** [merge_collections operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_collections.md)
 
 **Parameters:**
 

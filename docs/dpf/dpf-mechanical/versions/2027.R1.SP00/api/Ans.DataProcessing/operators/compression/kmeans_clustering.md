@@ -10,7 +10,7 @@ available inputs: `clusters_number` (Int32) (optional), `formula` (string) (opti
 
 available outputs: `scoping_clusters` (ScopingsContainer)
 
-**DPF Framework Reference:** [kmeans_clustering operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/kmeans_clustering.md)
+**DPF Framework Reference:** [kmeans_clustering operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/compression/kmeans_clustering.md)
 
 **Parameters:**
 

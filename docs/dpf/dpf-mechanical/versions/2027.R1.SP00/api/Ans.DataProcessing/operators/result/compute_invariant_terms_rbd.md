@@ -9,7 +9,7 @@ compute_invariant_terms_rbd(rom_matrices: object, mode_shapes: object, lumped_ma
 compute_invariant_terms_rbd(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_invariant_terms_rbd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_invariant_terms_rbd.md)
+**DPF Framework Reference:** [compute_invariant_terms_rbd operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/compute_invariant_terms_rbd.md)
 
 **Parameters:**
 

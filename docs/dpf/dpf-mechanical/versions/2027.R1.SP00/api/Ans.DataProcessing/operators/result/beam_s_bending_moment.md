@@ -9,7 +9,7 @@ beam_s_bending_moment(time_scoping: object, mesh_scoping: object, data_sources: 
 beam_s_bending_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_s_bending_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_s_bending_moment.md)
+**DPF Framework Reference:** [beam_s_bending_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/beam_s_bending_moment.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `field_name` (string) (optional), `streams` (StreamsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [vtk_to_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/vtk_to_fields.md)
+**DPF Framework Reference:** [vtk_to_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/vtk_to_fields.md)
 
 **Parameters:**
 

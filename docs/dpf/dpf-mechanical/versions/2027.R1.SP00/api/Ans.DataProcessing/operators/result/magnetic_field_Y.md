@@ -9,7 +9,7 @@ magnetic_field_Y(time_scoping: object, mesh_scoping: object, data_sources: objec
 magnetic_field_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_field_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_field_Y.md)
+**DPF Framework Reference:** [magnetic_field_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/magnetic_field_Y.md)
 
 **Parameters:**
 

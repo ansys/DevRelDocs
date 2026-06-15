@@ -9,7 +9,7 @@ gasket_total_closure(time_scoping: object, mesh_scoping: object, data_sources: o
 gasket_total_closure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_total_closure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure.md)
+**DPF Framework Reference:** [gasket_total_closure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/gasket_total_closure.md)
 
 **Parameters:**
 

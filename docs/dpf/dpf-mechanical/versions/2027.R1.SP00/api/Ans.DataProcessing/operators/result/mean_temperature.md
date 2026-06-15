@@ -9,7 +9,7 @@ mean_temperature(time_scoping: object, mesh_scoping: object, data_sources: objec
 mean_temperature(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mean_temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mean_temperature.md)
+**DPF Framework Reference:** [mean_temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mean_temperature.md)
 
 **Parameters:**
 

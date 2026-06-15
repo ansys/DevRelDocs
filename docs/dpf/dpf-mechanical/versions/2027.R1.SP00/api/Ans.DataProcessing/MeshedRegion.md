@@ -268,7 +268,19 @@ Allows to access their id, their element type, connectivity...
 
 #### *property* CoordinatesField: Field
 
-Property `CoordinatesField` field of nodes coordinates. Its scoping is the NodeScoping
+Gets the field of nodes coordinates.
+
+Its scoping is the `NodeScoping` of this meshed region.
+
+<para><b>Live reference:</b> this property returns a direct reference to the
+
+mesh's internal field object, not an independent copy.
+
+Mutating the returned field's scoping or data modifies the mesh's internal
+
+state; subsequent accesses to this property will reflect those mutations.</para><para>To obtain an independent copy, call `GetHardCopy()`:
+
+`Field snapshot = mesh.CoordinatesField.GetHardCopy();`</para>
 
 *get*
 

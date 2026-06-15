@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [cartesian_to_spherical operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/cartesian_to_spherical.md)
+**DPF Framework Reference:** [cartesian_to_spherical operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/cartesian_to_spherical.md)
 
 **Parameters:**
 

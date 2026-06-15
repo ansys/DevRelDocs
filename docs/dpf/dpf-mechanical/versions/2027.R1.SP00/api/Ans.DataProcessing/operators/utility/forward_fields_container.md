@@ -10,7 +10,7 @@ available inputs: `fields` (FieldsContainer, Field)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [forward_fields_container operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/forward_fields_container.md)
+**DPF Framework Reference:** [forward_fields_container operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/forward_fields_container.md)
 
 **Parameters:**
 

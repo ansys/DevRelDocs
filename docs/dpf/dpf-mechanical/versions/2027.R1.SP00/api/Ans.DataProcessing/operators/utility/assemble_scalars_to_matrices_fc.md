@@ -10,7 +10,7 @@ available inputs: `xx` (FieldsContainer) (optional), `yy` (FieldsContainer) (opt
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [assemble_scalars_to_matrices_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/assemble_scalars_to_matrices_fc.md)
+**DPF Framework Reference:** [assemble_scalars_to_matrices_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/assemble_scalars_to_matrices_fc.md)
 
 **Parameters:**
 

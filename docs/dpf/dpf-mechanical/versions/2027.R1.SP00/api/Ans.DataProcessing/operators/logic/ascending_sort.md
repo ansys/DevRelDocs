@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `component_priority_table` (
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [ascending_sort operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/ascending_sort.md)
+**DPF Framework Reference:** [ascending_sort operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/ascending_sort.md)
 
 **Parameters:**
 

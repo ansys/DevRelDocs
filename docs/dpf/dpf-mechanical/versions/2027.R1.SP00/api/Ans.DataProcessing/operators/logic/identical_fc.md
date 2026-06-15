@@ -10,7 +10,7 @@ available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (Fi
 
 available outputs: `boolean` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_fc.md)
+**DPF Framework Reference:** [identical_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/identical_fc.md)
 
 **Parameters:**
 
@@ -45,6 +45,8 @@ Double positive small value. Smallest value which will be considered during the 
 **Type:** *LinkableInput*
 
 ### tolerance
+
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical (v1-v2)/v2 < relativeTol (default is 0.001).
 
 **Type:** *LinkableInput*
 

@@ -10,7 +10,7 @@ available inputs: `custom_type_field` (CustomTypeField, CustomTypeFieldsContaine
 
 available outputs: `property` (string ,TimeFreqSupport ,Scoping ,DataTree)
 
-**DPF Framework Reference:** [customtypefield_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/customtypefield_get_attribute.md)
+**DPF Framework Reference:** [customtypefield_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/customtypefield_get_attribute.md)
 
 **Parameters:**
 

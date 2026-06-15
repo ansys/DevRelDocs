@@ -9,7 +9,7 @@ mach_number(time_scoping: object, mesh_scoping: object, data_sources: object, co
 mach_number(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mach_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mach_number.md)
+**DPF Framework Reference:** [mach_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mach_number.md)
 
 **Parameters:**
 

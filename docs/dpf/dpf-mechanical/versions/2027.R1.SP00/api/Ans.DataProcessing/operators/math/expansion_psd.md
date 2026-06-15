@@ -10,7 +10,7 @@ available inputs: `mode_shapes` (FieldsContainer), `static_shapes` (FieldsContai
 
 available outputs: `psd` (FieldsContainer)
 
-**DPF Framework Reference:** [expansion_psd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/expansion_psd.md)
+**DPF Framework Reference:** [expansion_psd operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/expansion_psd.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `assembly_mesh` (AnsDispatchHolder), `unit` (string) (optional
 
 available outputs: `meshes_container` (MeshesContainer)
 
-**DPF Framework Reference:** [acmo_mesh_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/acmo_mesh_provider.md)
+**DPF Framework Reference:** [acmo_mesh_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/acmo_mesh_provider.md)
 
 **Parameters:**
 

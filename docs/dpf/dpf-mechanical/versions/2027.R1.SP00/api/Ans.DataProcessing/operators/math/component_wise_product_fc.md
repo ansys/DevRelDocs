@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `fieldB` (Field, FieldsC
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [component_wise_product_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/component_wise_product_fc.md)
+**DPF Framework Reference:** [component_wise_product_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/component_wise_product_fc.md)
 
 **Parameters:**
 

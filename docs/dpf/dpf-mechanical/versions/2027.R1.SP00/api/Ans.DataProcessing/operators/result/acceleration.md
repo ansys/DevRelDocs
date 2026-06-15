@@ -9,7 +9,7 @@ acceleration(time_scoping: object, mesh_scoping: object, data_sources: object, e
 acceleration(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration.md)
+**DPF Framework Reference:** [acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/acceleration.md)
 
 **Parameters:**
 

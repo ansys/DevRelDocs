@@ -9,7 +9,7 @@ point_cloud_search(search_domain: object, reference_domain: object, tolerance: o
 point_cloud_search(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [point_cloud_search operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/point_cloud_search.md)
+**DPF Framework Reference:** [point_cloud_search operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/point_cloud_search.md)
 
 **Parameters:**
 

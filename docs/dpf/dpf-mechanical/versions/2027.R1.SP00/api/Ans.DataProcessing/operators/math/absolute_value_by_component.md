@@ -9,7 +9,7 @@ absolute_value_by_component(field: object, config: OperatorConfig)
 absolute_value_by_component(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [absolute_value_by_component operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component.md)
+**DPF Framework Reference:** [absolute_value_by_component operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/absolute_value_by_component.md)
 
 **Parameters:**
 
@@ -28,7 +28,7 @@ Field, fields container, or numeric data for which to compute absolute values
 
 ### field
 
-Field with absolute values applied to each component
+Field with $|\mathrm{in}[i]|$ applied to each data component, preserving the input unit and dimensionality.
 
 **Type:** *LinkableOutput*
 

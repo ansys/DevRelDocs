@@ -51,6 +51,7 @@ Predefined measurement quantities.
 * [surface](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1aefeb2484e3b6b23181364355669ae987)
 * [temperature](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1aae45fd764d3d7e52160eeaefb930c0eb)
 * [temperature_difference](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1ac34f11f1e215920d52e22121ea776054)
+* [thermal_compliance](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1a0dc1ce3b904016e4b7d831322a489bed)
 * [thermal_conductivity](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1a125c36d915cec998766cd68c0a24e77b)
 * [thermal_gradient](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1a3a3006f58834a317b57fc098e9496298)
 * [time](structansys-dpf-homogeneities.md#structansys-dpf-homogeneities-1ae3a86014caf4a22880b41cabfd534733)
@@ -1283,6 +1284,32 @@ Predefined measurement quantity for film_coefficient.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::homogeneities::film_coefficient"}]}`
+-->
+
+<a id="structansys-dpf-homogeneities-1a0dc1ce3b904016e4b7d831322a489bed"></a>
+### Variable thermal_compliance
+
+![][public]
+![][static]
+
+
+```cpp
+const Homogeneity ansys::dpf::homogeneities::thermal_compliance
+```
+
+
+
+
+Predefined measurement quantity for thermal_compliance.
+
+
+
+**Type**: const [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::homogeneities::thermal_compliance"}]}`
 -->
 
 <a id="structansys-dpf-homogeneities-1ade17ca2ef864d93729426ef15fc06f51"></a>

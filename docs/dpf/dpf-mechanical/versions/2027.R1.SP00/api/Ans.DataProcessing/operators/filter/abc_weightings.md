@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `weighting_type` (Int32)
 
 available outputs: `weightings` (FieldsContainer)
 
-**DPF Framework Reference:** [abc_weightings operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/abc_weightings.md)
+**DPF Framework Reference:** [abc_weightings operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/filter/abc_weightings.md)
 
 **Parameters:**
 

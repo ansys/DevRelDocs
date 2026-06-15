@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping, 
 
 available outputs: `component_energy` (FieldsContainer), `component_energy_percentage` (FieldsContainer), `component_total_energy` (FieldsContainer), `component_total_energy_percentage` (FieldsContainer), `component_strain_energy` (FieldsContainer), `component_strain_energy_percentage` (FieldsContainer), `component_kinetic_energy` (FieldsContainer), `component_kinetic_energy_percentage` (FieldsContainer)
 
-**DPF Framework Reference:** [workflow_energy_per_component operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/workflow_energy_per_component.md)
+**DPF Framework Reference:** [workflow_energy_per_component operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/workflow_energy_per_component.md)
 
 **Parameters:**
 

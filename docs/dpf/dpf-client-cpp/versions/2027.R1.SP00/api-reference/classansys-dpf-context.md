@@ -213,7 +213,7 @@ Get the DPF context enum value.
 
 **Returns**:
 
-[EDpfContext](namespaceansys-dpf.md#namespaceansys-dpf-1a02d1b14b4a34eeae292e89f8ee7cfe60)
+EDpfContext
 
 
 
@@ -276,7 +276,7 @@ Use with DPF runtime R2025R1 or later.
 
 **Returns**:
 
-[EDpfLicenseContext](classansys-dpf-context.md#classansys-dpf-context-1a1149672f0fad6470e3533a15d358baef)
+EDpfLicenseContext
 
 
 
@@ -311,7 +311,7 @@ Use with DPF runtime R2025R1 or later.
 
 **Returns**:
 
-[PluginLoadErrorMode](classansys-dpf-context.md#classansys-dpf-context-1a89c9954b0806e1ffbefd5d413d44a8e3)
+PluginLoadErrorMode
 
 
 
@@ -358,7 +358,7 @@ Use with DPF runtime R2025R1 or later.
 
 * [PluginLoadErrorMode](classansys-dpf-context.md#classansys-dpf-context-1a89c9954b0806e1ffbefd5d413d44a8e3) **error_mode**
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b) &
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context) &
 
 <!--
 **TODO**:
@@ -392,7 +392,7 @@ Use with DPF runtime R2025R1 or later.
 
 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b) &
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context) &
 
 <!--
 **TODO**:
@@ -426,7 +426,7 @@ Use with DPF runtime R2025R1 or later.
 
 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b) &
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context) &
 
 <!--
 **TODO**:
@@ -456,7 +456,7 @@ Entry context instance that does not allow DPF to perform any license checkout, 
 
 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b)
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context)
 
 <!--
 **TODO**:
@@ -484,7 +484,7 @@ Premium context instance that allows DPF to perform license checkouts, allowing 
 
 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b)
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context)
 
 <!--
 **TODO**:
@@ -519,7 +519,7 @@ Use with DPF runtime R2025R1 or later.
 
 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b)
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context)
 
 <!--
 **TODO**:
@@ -547,7 +547,7 @@ Creates a standalone context.
 
 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b)
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context)
 
 <!--
 **TODO**:
@@ -591,7 +591,7 @@ Use with DPF runtime R2025R1 or later.
 
 * std::string const & **setup_file** = "DpfCustomDefined.xml" 
 
-**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b)
+**Return type**: [Context](classansys-dpf-context.md#classansys-dpf-context)
 
 <!--
 **TODO**:

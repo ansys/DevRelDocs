@@ -11,10 +11,10 @@ Must be used while writing the specification of an operator. Use lower case for 
 
 ## Inner classes
 
-* [ansys::dpf::spec::exposure](structansys-dpf-spec-exposure.md#structansys-dpf-spec-exposure)
 * [ansys::dpf::spec::category](structansys-dpf-spec-category.md#structansys-dpf-spec-category)
-* [ansys::dpf::spec::plugin](structansys-dpf-spec-plugin.md#structansys-dpf-spec-plugin)
+* [ansys::dpf::spec::exposure](structansys-dpf-spec-exposure.md#structansys-dpf-spec-exposure)
 * [ansys::dpf::spec::license](structansys-dpf-spec-license.md#structansys-dpf-spec-license)
+* [ansys::dpf::spec::plugin](structansys-dpf-spec-plugin.md#structansys-dpf-spec-plugin)
 
 ## Members
 

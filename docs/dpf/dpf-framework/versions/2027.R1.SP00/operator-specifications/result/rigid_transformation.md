@@ -12,12 +12,6 @@ license: None
 
 Extracts rigid body motions from a displacement in input.
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- mapdl: dsub 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

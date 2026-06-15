@@ -9,7 +9,7 @@ input_sound_power(time_scoping: object, mesh_scoping: object, data_sources: obje
 input_sound_power(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [input_sound_power operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/input_sound_power.md)
+**DPF Framework Reference:** [input_sound_power operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/input_sound_power.md)
 
 **Parameters:**
 

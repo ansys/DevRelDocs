@@ -9,7 +9,7 @@ stress_X(time_scoping: object, mesh_scoping: object, data_sources: object, reque
 stress_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_X.md)
+**DPF Framework Reference:** [stress_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/stress_X.md)
 
 **Parameters:**
 

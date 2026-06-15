@@ -9,7 +9,7 @@ total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, c
 total_strain(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [total_strain operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain.md)
+**DPF Framework Reference:** [total_strain operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/total_strain.md)
 
 **Parameters:**
 

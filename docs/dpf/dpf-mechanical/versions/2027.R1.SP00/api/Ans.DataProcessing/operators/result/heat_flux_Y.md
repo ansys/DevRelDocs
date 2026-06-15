@@ -9,7 +9,7 @@ heat_flux_Y(time_scoping: object, mesh_scoping: object, data_sources: object, re
 heat_flux_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [heat_flux_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_flux_Y.md)
+**DPF Framework Reference:** [heat_flux_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/heat_flux_Y.md)
 
 **Parameters:**
 

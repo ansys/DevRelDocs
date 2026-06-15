@@ -9,7 +9,7 @@ reaction_heat(time_scoping: object, mesh_scoping: object, data_sources: object, 
 reaction_heat(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_heat operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_heat.md)
+**DPF Framework Reference:** [reaction_heat operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/reaction_heat.md)
 
 **Parameters:**
 

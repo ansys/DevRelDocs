@@ -9,7 +9,7 @@ contact_gap_distance(time_scoping: object, mesh_scoping: object, data_sources: o
 contact_gap_distance(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_gap_distance operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_gap_distance.md)
+**DPF Framework Reference:** [contact_gap_distance operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/contact_gap_distance.md)
 
 **Parameters:**
 

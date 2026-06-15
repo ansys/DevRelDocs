@@ -9,7 +9,7 @@ compute_total_strain_XZ(time_scoping: object, scoping: object, streams_container
 compute_total_strain_XZ(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_total_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_total_strain_XZ.md)
+**DPF Framework Reference:** [compute_total_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/compute_total_strain_XZ.md)
 
 **Parameters:**
 

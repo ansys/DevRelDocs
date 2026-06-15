@@ -16,7 +16,7 @@ available inputs: `time_scoping` (Int32) (optional), `streams_container` (Stream
 
 available outputs: `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [mesh_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_provider.md)
+**DPF Framework Reference:** [mesh_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/mesh_provider.md)
 
 **Parameters:**
 

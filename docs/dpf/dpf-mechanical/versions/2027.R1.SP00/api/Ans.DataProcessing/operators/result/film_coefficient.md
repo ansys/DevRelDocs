@@ -9,7 +9,7 @@ film_coefficient(time_scoping: object, mesh_scoping: object, data_sources: objec
 film_coefficient(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [film_coefficient operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/film_coefficient.md)
+**DPF Framework Reference:** [film_coefficient operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/film_coefficient.md)
 
 **Parameters:**
 

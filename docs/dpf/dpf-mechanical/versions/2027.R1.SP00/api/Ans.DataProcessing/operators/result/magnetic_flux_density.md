@@ -9,7 +9,7 @@ magnetic_flux_density(time_scoping: object, mesh_scoping: object, data_sources: 
 magnetic_flux_density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_flux_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_flux_density.md)
+**DPF Framework Reference:** [magnetic_flux_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/magnetic_flux_density.md)
 
 **Parameters:**
 
