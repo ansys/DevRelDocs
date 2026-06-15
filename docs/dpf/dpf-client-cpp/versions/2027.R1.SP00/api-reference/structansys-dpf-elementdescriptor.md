@@ -338,7 +338,7 @@ bool ansys::dpf::ElementDescriptor::operator==(ElementDescriptor const &rhs) con
 
 **Parameters**:
 
-* [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor-1ab19bfe010b78317bd83e6d1d2b9b1ebf) const & **rhs**
+* [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor) const & **rhs**
 
 **Return type**: bool
 

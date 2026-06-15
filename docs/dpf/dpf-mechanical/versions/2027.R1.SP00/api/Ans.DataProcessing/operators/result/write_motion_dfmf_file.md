@@ -9,7 +9,7 @@ write_motion_dfmf_file(model_data: object, mode_shapes: object, lumped_mass: obj
 write_motion_dfmf_file(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [write_motion_dfmf_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/write_motion_dfmf_file.md)
+**DPF Framework Reference:** [write_motion_dfmf_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/write_motion_dfmf_file.md)
 
 **Parameters:**
 

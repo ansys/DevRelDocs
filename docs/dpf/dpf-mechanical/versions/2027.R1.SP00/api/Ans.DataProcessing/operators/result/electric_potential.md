@@ -9,7 +9,7 @@ electric_potential(time_scoping: object, mesh_scoping: object, data_sources: obj
 electric_potential(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [electric_potential operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_potential.md)
+**DPF Framework Reference:** [electric_potential operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/electric_potential.md)
 
 **Parameters:**
 

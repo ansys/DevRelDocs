@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `min_threshold` (double, Fie
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [field_band_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/field_band_pass.md)
+**DPF Framework Reference:** [field_band_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/filter/field_band_pass.md)
 
 **Parameters:**
 

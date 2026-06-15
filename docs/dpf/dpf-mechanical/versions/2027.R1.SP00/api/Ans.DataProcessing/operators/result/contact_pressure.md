@@ -9,7 +9,7 @@ contact_pressure(time_scoping: object, mesh_scoping: object, data_sources: objec
 contact_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_pressure.md)
+**DPF Framework Reference:** [contact_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/contact_pressure.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ nusselt_number(time_scoping: object, mesh_scoping: object, data_sources: object,
 nusselt_number(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nusselt_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nusselt_number.md)
+**DPF Framework Reference:** [nusselt_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nusselt_number.md)
 
 **Parameters:**
 

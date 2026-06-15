@@ -10,7 +10,7 @@ available inputs: `meshes_containers1` (MeshesContainer), `meshes_containers2` (
 
 available outputs: `merged_meshes_container` (MeshesContainer)
 
-**DPF Framework Reference:** [merge_meshes_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_meshes_containers.md)
+**DPF Framework Reference:** [merge_meshes_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_meshes_containers.md)
 
 **Parameters:**
 

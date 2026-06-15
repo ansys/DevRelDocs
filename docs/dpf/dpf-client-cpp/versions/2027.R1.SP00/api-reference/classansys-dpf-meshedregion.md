@@ -5,7 +5,7 @@
 ![][C++]
 ![][public]
 
-Holds the mesh for a given region (body, faces, skin, ...).
+Holds the mesh for a given region (body, faces, skin, ...)
 
 The meshed region is an entity describing a mesh. Node and element scopings, element types, connectivity (list of node indices composing each element) and node coordinates are the fundamental entities composing the meshed region. It can also have materials, named selections...
 
@@ -211,7 +211,7 @@ ansys::dpf::MeshedRegion::MeshedRegion(MeshedRegion const &)
 
 **Parameters**:
 
-* MeshedRegion const &
+* [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) const &
 
 **Return type**: 
 
@@ -240,7 +240,7 @@ ansys::dpf::MeshedRegion::MeshedRegion(MeshedRegion &&) noexcept
 
 **Parameters**:
 
-* MeshedRegion &&
+* [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) &&
 
 **Return type**: 
 
@@ -269,9 +269,9 @@ MeshedRegion & ansys::dpf::MeshedRegion::operator=(MeshedRegion const &)
 
 **Parameters**:
 
-* MeshedRegion const &
+* [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) const &
 
-**Return type**: MeshedRegion &
+**Return type**: [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) &
 
 <!--
 **TODO**:
@@ -298,9 +298,9 @@ MeshedRegion & ansys::dpf::MeshedRegion::operator=(MeshedRegion &&) noexcept
 
 **Parameters**:
 
-* MeshedRegion &&
+* [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) &&
 
-**Return type**: MeshedRegion &
+**Return type**: [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) &
 
 <!--
 **TODO**:
@@ -440,7 +440,7 @@ Field ansys::dpf::MeshedRegion::nodesCoordinates() const
 
 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -472,7 +472,7 @@ Property field given by property type.
 
 * [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const & **prop**: [in] Property type of which to get property field.
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -560,7 +560,7 @@ Property field describing element types within mesh.
 
 
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -588,7 +588,7 @@ Property field describing element connectivity for mesh.
 
 
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -995,7 +995,7 @@ void ansys::dpf::MeshedRegion::setPropertyField(std::string const &name, Propert
 
 
 
-Set an elemental property field for mesh. Its elemental scoping must be equal to the one that has already been set into the mesh, if it exists.
+Set an elemental property field for mesh. Its elemental scoping must be equal to the one that has already been set into the mesh, if it exists. <br/>
 
 
 
@@ -1004,7 +1004,7 @@ Set an elemental property field for mesh. Its elemental scoping must be equal to
 * std::string const & **name**: [in] Property name: 
 
 **See also**: common_property_names.
-* PropertyField **property_field**: [in] Property field to set.
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) **property_field**: [in] Property field to set.
 
 **Return type**: void
 
@@ -1033,7 +1033,7 @@ Set a connectivity (nodes of the elements) property field.
 
 **Parameters**:
 
-* PropertyField **connectivity**: [in] Connectivity to set.
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) **connectivity**: [in] Connectivity to set.
 
 **Return type**: void
 
@@ -1062,7 +1062,7 @@ Set element types property field.
 
 **Parameters**:
 
-* PropertyField **element_types**: [in] Element types data to set..
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) **element_types**: [in] Element types data to set..
 
 **Return type**: void
 
@@ -1091,7 +1091,7 @@ Set a field for mesh.
 
 **Parameters**:
 
-* Field **coordinates**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) to set.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) **coordinates**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) to set.
 
 **Return type**: void
 
@@ -1606,7 +1606,7 @@ Create a new [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshed
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: MeshedRegion
+**Return type**: [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion)
 
 <!--
 **TODO**:
@@ -1634,7 +1634,7 @@ static MeshedRegion ansys::dpf::MeshedRegion::emptyMeshedRegion()
 
 
 
-**Return type**: MeshedRegion
+**Return type**: [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion)
 
 <!--
 **TODO**:

@@ -10,7 +10,7 @@ available inputs: `operator_name` (string)
 
 available outputs: `changelog_gdc` (GenericDataContainer)
 
-**DPF Framework Reference:** [operator_changelog operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/operator_changelog.md)
+**DPF Framework Reference:** [operator_changelog operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/operator_changelog.md)
 
 **Parameters:**
 

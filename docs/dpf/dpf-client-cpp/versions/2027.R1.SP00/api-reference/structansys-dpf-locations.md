@@ -24,12 +24,14 @@ Results are evaluated at locations.
 * [elemental_nodal_centroid](structansys-dpf-locations.md#structansys-dpf-locations-1a5b54316cebce849e6a8489d19a990246)
 * [faces](structansys-dpf-locations.md#structansys-dpf-locations-1a111716841842157a978ebebdc9c503b6)
 * [harmonic_index](structansys-dpf-locations.md#structansys-dpf-locations-1a46ac72d7066346bc309dfb44de1a20cf)
+* [input_dof_index](structansys-dpf-locations.md#structansys-dpf-locations-1aad4c73875803704a0e4c6dcc43a7fb51)
 * [joint](structansys-dpf-locations.md#structansys-dpf-locations-1a0a7d57a4476a34178090d4fa96f0c550)
 * [nodal](structansys-dpf-locations.md#structansys-dpf-locations-1aa4e1967b0838d8597200c606c8564d29)
 * [nodal_elemental](structansys-dpf-locations.md#structansys-dpf-locations-1aba56d24e91e52e4742ee5505dff04b94)
 * [overall](structansys-dpf-locations.md#structansys-dpf-locations-1ada5a62dea9a6a1bf156f90282a273959)
 * [phase](structansys-dpf-locations.md#structansys-dpf-locations-1abaf9f2158d14707096139ab5eb27d70d)
 * [species](structansys-dpf-locations.md#structansys-dpf-locations-1a76bdfc819d94d708b849281adf480677)
+* [time](structansys-dpf-locations.md#structansys-dpf-locations-1af97eb8c6e2585662148a029e71591567)
 * [time_set](structansys-dpf-locations.md#structansys-dpf-locations-1a3cf1bbc2ad6d8b8f6173e83b5118031a)
 * [time_step](structansys-dpf-locations.md#structansys-dpf-locations-1abc48364ef6b184ddf696099c9a2993cd)
 * [topology](structansys-dpf-locations.md#structansys-dpf-locations-1a3049c32b1dc96441810bd53803916a58)
@@ -429,6 +431,32 @@ Predefined time_set location.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::locations::time_set"}]}`
 -->
 
+<a id="structansys-dpf-locations-1af97eb8c6e2585662148a029e71591567"></a>
+### Variable time
+
+![][public]
+![][static]
+
+
+```cpp
+const Location ansys::dpf::locations::time
+```
+
+
+
+
+Predefined time location.
+
+
+
+**Type**: const [Location](structansys-dpf-location.md#structansys-dpf-location)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::locations::time"}]}`
+-->
+
 <a id="structansys-dpf-locations-1a46ac72d7066346bc309dfb44de1a20cf"></a>
 ### Variable harmonic_index
 
@@ -557,6 +585,32 @@ Predefined band location.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::locations::band"}]}`
+-->
+
+<a id="structansys-dpf-locations-1aad4c73875803704a0e4c6dcc43a7fb51"></a>
+### Variable input_dof_index
+
+![][public]
+![][static]
+
+
+```cpp
+const Location ansys::dpf::locations::input_dof_index
+```
+
+
+
+
+Predefined input_dof_index location.
+
+
+
+**Type**: const [Location](structansys-dpf-location.md#structansys-dpf-location)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::locations::input_dof_index"}]}`
 -->
 
 <a id="structansys-dpf-locations-1a223dc0f57d600b9acf15ac72a603835c"></a>

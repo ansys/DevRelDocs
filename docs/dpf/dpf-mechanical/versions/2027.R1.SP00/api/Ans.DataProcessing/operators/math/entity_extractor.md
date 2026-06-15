@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `scalar_int` (Int32)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [entity_extractor operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/entity_extractor.md)
+**DPF Framework Reference:** [entity_extractor operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/entity_extractor.md)
 
 **Parameters:**
 

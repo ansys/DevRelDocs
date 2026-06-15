@@ -10,7 +10,7 @@ available inputs: `h5_chunk_size` (Int32) (optional), `append_mode` (bool) (opti
 
 available outputs: `data_sources` (DataSources)
 
-**DPF Framework Reference:** [hdf5dpf_generate_result_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
+**DPF Framework Reference:** [hdf5dpf_generate_result_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
 
 **Parameters:**
 

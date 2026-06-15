@@ -9,7 +9,7 @@ gasket_thermal_closure_X(time_scoping: object, mesh_scoping: object, data_source
 gasket_thermal_closure_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_thermal_closure_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_thermal_closure_X.md)
+**DPF Framework Reference:** [gasket_thermal_closure_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/gasket_thermal_closure_X.md)
 
 **Parameters:**
 

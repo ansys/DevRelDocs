@@ -9,7 +9,7 @@ normal_contact_moment(time_scoping: object, mesh_scoping: object, data_sources: 
 normal_contact_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [normal_contact_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/normal_contact_moment.md)
+**DPF Framework Reference:** [normal_contact_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/normal_contact_moment.md)
 
 **Parameters:**
 

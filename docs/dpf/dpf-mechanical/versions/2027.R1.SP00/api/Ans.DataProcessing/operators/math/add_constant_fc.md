@@ -9,7 +9,7 @@ add_constant_fc(fields_container: object, weights: object, config: OperatorConfi
 add_constant_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [add_constant_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add_constant_fc.md)
+**DPF Framework Reference:** [add_constant_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/add_constant_fc.md)
 
 **Parameters:**
 

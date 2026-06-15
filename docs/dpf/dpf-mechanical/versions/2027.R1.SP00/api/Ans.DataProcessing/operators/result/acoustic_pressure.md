@@ -9,7 +9,7 @@ acoustic_pressure(time_scoping: object, mesh_scoping: object, data_sources: obje
 acoustic_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acoustic_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_pressure.md)
+**DPF Framework Reference:** [acoustic_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/acoustic_pressure.md)
 
 **Parameters:**
 

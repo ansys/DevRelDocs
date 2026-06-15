@@ -9,7 +9,7 @@ nvh_curve_fitting_solver(frf_fc: object, frequency_start: object, frequency_end:
 nvh_curve_fitting_solver(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nvh_curve_fitting_solver operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/nvh_curve_fitting_solver.md)
+**DPF Framework Reference:** [nvh_curve_fitting_solver operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/nvh_curve_fitting_solver.md)
 
 **Parameters:**
 

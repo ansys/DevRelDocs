@@ -9,7 +9,7 @@ scale_fc(fields_container: object, weights: object, boolean: object, algorithm: 
 scale_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [scale_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale_fc.md)
+**DPF Framework Reference:** [scale_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/scale_fc.md)
 
 **Parameters:**
 

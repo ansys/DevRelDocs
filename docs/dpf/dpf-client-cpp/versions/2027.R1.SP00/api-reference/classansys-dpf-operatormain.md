@@ -96,6 +96,7 @@
 * [setOutputCustom](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1acb04b65ee410b2177d9ada9964f8e560)
 * [setSuccessed](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ad15e8335f3550537fcf0282654c98aca)
 * [testInput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ab809c466d87ca0abf8c5ac29cd95b724)
+* [testInputCustom](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a714a3c4382e835cfd84553442e869d2d)
 * [~OperatorMain](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1aa797695c15b7a5504a4743331e413738)
 
 ## Friends
@@ -2575,6 +2576,38 @@ Indication that input pin contains typed data.
 
 * `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::testInput"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1a714a3c4382e835cfd84553442e869d2d"></a>
+### Function testInputCustom
+
+![][public]
+
+
+```cpp
+bool ansys::dpf::OperatorMain::testInputCustom(dp_int pin_index)
+```
+
+
+
+
+**Returns**:
+
+Indication that input pin contains typed data.
+
+
+
+**Parameters**:
+
+* [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **pin_index**: [in] Input pin for which to check data type.
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename DataT"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::testInputCustom"}]}`
 -->
 
 <a id="classansys-dpf-operatormain-1a3d1ca8c9935cc76828f2b436972240c9"></a>

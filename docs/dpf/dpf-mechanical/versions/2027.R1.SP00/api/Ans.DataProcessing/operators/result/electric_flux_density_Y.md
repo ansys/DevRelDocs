@@ -9,7 +9,7 @@ electric_flux_density_Y(time_scoping: object, mesh_scoping: object, data_sources
 electric_flux_density_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [electric_flux_density_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_flux_density_Y.md)
+**DPF Framework Reference:** [electric_flux_density_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/electric_flux_density_Y.md)
 
 **Parameters:**
 

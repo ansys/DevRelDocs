@@ -10,7 +10,7 @@ available inputs: `input_ordering` (Int32), `output_ordering` (Int32), `fields_c
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [convertnum_op operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/convertnum_op.md)
+**DPF Framework Reference:** [convertnum_op operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/invariant/convertnum_op.md)
 
 **Parameters:**
 

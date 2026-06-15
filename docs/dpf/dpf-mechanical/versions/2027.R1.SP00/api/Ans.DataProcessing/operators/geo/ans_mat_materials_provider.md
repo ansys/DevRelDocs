@@ -10,7 +10,7 @@ available inputs: `abstract_field_support` (AbstractFieldSupport), `unit_system_
 
 available outputs: `materials_container` (MaterialsContainer), `skipped_materials` (StringField)
 
-**DPF Framework Reference:** [ans_mat_materials_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_materials_provider.md)
+**DPF Framework Reference:** [ans_mat_materials_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/ans_mat_materials_provider.md)
 
 **Parameters:**
 

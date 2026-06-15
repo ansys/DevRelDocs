@@ -2,20 +2,23 @@
 uid: Ans.DataProcessing.operators.result.nodal_rotation
 ---
 
-# *class* nodal_rotation(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
+# *class* nodal_rotation(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
 nodal_rotation()
-nodal_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+nodal_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
 nodal_rotation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_rotation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation.md)
+**DPF Framework Reference:** [nodal_rotation operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nodal_rotation.md)
 
 **Parameters:**
 
 * **time_scoping**
 * **mesh_scoping**
 * **data_sources**
+* **expanded_meshed_region**
+* **sectors_to_expand**
+* **phi**
 * **config**
 
 ## Inputs
@@ -58,7 +61,31 @@ Rotate the result to the global coordinate system if rotations are available (de
 
 ### mesh
 
-prevents from reading the mesh in the result files
+mesh. If cylic expansion is to be done, mesh of the base sector
+
+**Type:** *LinkableInput*
+
+### read_cyclic
+
+if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1)
+
+**Type:** *LinkableInput*
+
+### expanded_meshed_region
+
+mesh expanded, use if cyclic expansion is to be done.
+
+**Type:** *LinkableInput*
+
+### sectors_to_expand
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label, use if cyclic expansion is to be done.
+
+**Type:** *LinkableInput*
+
+### phi
+
+angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
 
 **Type:** *LinkableInput*
 

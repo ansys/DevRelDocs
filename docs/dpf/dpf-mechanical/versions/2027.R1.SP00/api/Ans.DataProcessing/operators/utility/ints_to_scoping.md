@@ -10,7 +10,7 @@ available inputs: `ids` (Int32, IList int, Scoping, System.Collections.IEnumerab
 
 available outputs: `scoping` (Scoping)
 
-**DPF Framework Reference:** [ints_to_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/ints_to_scoping.md)
+**DPF Framework Reference:** [ints_to_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/ints_to_scoping.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ volume_fraction(time_scoping: object, mesh_scoping: object, data_sources: object
 volume_fraction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [volume_fraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/volume_fraction.md)
+**DPF Framework Reference:** [volume_fraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/volume_fraction.md)
 
 **Parameters:**
 

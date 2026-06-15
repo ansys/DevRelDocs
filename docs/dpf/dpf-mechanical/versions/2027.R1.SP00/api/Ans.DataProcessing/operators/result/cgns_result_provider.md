@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `fields` (FieldsContainer)
 
-**DPF Framework Reference:** [cgns_result_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cgns_result_provider.md)
+**DPF Framework Reference:** [cgns_result_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/cgns_result_provider.md)
 
 **Parameters:**
 

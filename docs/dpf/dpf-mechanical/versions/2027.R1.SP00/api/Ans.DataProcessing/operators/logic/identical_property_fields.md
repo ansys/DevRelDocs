@@ -10,7 +10,7 @@ available inputs: `order_independent` (bool), `property_fieldA` (MeshedRegion), 
 
 available outputs: `are_identical` (bool), `information` (string)
 
-**DPF Framework Reference:** [identical_property_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_property_fields.md)
+**DPF Framework Reference:** [identical_property_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/identical_property_fields.md)
 
 **Parameters:**
 

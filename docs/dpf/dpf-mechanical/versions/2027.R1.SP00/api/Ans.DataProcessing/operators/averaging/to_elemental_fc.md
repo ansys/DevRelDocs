@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion) (o
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [to_elemental_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/to_elemental_fc.md)
+**DPF Framework Reference:** [to_elemental_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/averaging/to_elemental_fc.md)
 
 **Parameters:**
 

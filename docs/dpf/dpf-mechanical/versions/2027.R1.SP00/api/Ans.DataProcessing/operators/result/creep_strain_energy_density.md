@@ -9,7 +9,7 @@ creep_strain_energy_density(time_scoping: object, mesh_scoping: object, data_sou
 creep_strain_energy_density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [creep_strain_energy_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_energy_density.md)
+**DPF Framework Reference:** [creep_strain_energy_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/creep_strain_energy_density.md)
 
 **Parameters:**
 

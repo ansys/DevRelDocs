@@ -9,7 +9,7 @@ accu_eqv_plastic_strain(time_scoping: object, mesh_scoping: object, data_sources
 accu_eqv_plastic_strain(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [accu_eqv_plastic_strain operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/accu_eqv_plastic_strain.md)
+**DPF Framework Reference:** [accu_eqv_plastic_strain operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/accu_eqv_plastic_strain.md)
 
 **Parameters:**
 

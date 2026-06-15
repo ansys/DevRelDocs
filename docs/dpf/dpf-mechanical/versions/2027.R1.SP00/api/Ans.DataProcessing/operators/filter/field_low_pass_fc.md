@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `threshold` (double, Fie
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [field_low_pass_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/field_low_pass_fc.md)
+**DPF Framework Reference:** [field_low_pass_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/filter/field_low_pass_fc.md)
 
 **Parameters:**
 

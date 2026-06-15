@@ -9,7 +9,7 @@ velocity_X(time_scoping: object, mesh_scoping: object, data_sources: object, con
 velocity_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [velocity_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/velocity_X.md)
+**DPF Framework Reference:** [velocity_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/velocity_X.md)
 
 **Parameters:**
 

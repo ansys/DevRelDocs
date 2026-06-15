@@ -9,7 +9,7 @@ rms_static_pressure(time_scoping: object, mesh_scoping: object, data_sources: ob
 rms_static_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [rms_static_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rms_static_pressure.md)
+**DPF Framework Reference:** [rms_static_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/rms_static_pressure.md)
 
 **Parameters:**
 

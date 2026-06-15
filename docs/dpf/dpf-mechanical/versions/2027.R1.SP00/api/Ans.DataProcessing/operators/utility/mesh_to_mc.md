@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion, MeshesContainer), `label` (LabelSpace)
 
 available outputs: `meshes_container` (MeshesContainer)
 
-**DPF Framework Reference:** [mesh_to_mc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/mesh_to_mc.md)
+**DPF Framework Reference:** [mesh_to_mc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/mesh_to_mc.md)
 
 **Parameters:**
 

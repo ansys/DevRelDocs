@@ -4,13 +4,13 @@ uid: Ans.DataProcessing.operators.math.pow_fc
 
 # *class* pow_fc(fields_container: object = None, factor: object = None, division_by_zero_value: object = None, config: OperatorConfig = None)
 
-Computes element-wise field[i]^p.
+Computes entity-wise field[i]^p.
 
 available inputs: `fields_container` (FieldsContainer), `factor` (double), `division_by_zero_value` (double) (optional)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [pow_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/pow_fc.md)
+**DPF Framework Reference:** [pow_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/pow_fc.md)
 
 **Parameters:**
 

@@ -25,7 +25,7 @@ The field is the main simulation data container. In numerical simulations, resul
 * [data](classansys-dpf-field.md#classansys-dpf-field-1ad435429e8f1b152c7b4dad665665d9a4)
 * [dataPointer](classansys-dpf-field.md#classansys-dpf-field-1a47656e1ead80a6f2cac7c21266429212)
 * [dataSize](classansys-dpf-field.md#classansys-dpf-field-1a9bb7ac154ee6720cbb98b1c09e056942)
-* [deep_copy](classansys-dpf-field.md#classansys-dpf-field-1ad91f3c235727ec55359488edd877ba9f)
+* [deep_copy](classansys-dpf-field.md#classansys-dpf-field-1a8a3a031e901d5f571c047a2131ecc93c)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
 * [emptyField](classansys-dpf-field.md#classansys-dpf-field-1a5b60dee96313f0f9791c11e1c7f58d5b)
@@ -76,6 +76,7 @@ The field is the main simulation data container. In numerical simulations, resul
 * [setSupport](classansys-dpf-field.md#classansys-dpf-field-1ab71f825765a7ce1b37373443917ec23e)
 * [setSupport](classansys-dpf-field.md#classansys-dpf-field-1a14d300919db7ae24a917af9e1262cea3)
 * [setSupport](classansys-dpf-field.md#classansys-dpf-field-1ae846597f402a69d4d78d5c8b5e80d219)
+* [setSupport](classansys-dpf-field.md#classansys-dpf-field-1a0d5aa669792de7257dcdea01463dc0ac)
 * [support](classansys-dpf-field.md#classansys-dpf-field-1a773481e9f7efb04d74c72be914b317d6)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 * [~Field](classansys-dpf-field.md#classansys-dpf-field-1ad4e2524e104248f824921d6755daa36a)
@@ -160,7 +161,7 @@ ansys::dpf::Field::Field(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [Field](classansys-dpf-field.md#classansys-dpf-field) on a server.
+Retrieve an existing instance of [Field](classansys-dpf-field.md#classansys-dpf-field) on a server. <br/>
 
 
 
@@ -221,7 +222,7 @@ ansys::dpf::Field::Field(Field const &)
 
 **Parameters**:
 
-* Field const &
+* [Field](classansys-dpf-field.md#classansys-dpf-field) const &
 
 **Return type**: 
 
@@ -250,7 +251,7 @@ ansys::dpf::Field::Field(Field &&) noexcept
 
 **Parameters**:
 
-* Field &&
+* [Field](classansys-dpf-field.md#classansys-dpf-field) &&
 
 **Return type**: 
 
@@ -279,9 +280,9 @@ Field & ansys::dpf::Field::operator=(Field const &)
 
 **Parameters**:
 
-* Field const &
+* [Field](classansys-dpf-field.md#classansys-dpf-field) const &
 
-**Return type**: Field &
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field) &
 
 <!--
 **TODO**:
@@ -308,9 +309,9 @@ Field & ansys::dpf::Field::operator=(Field &&) noexcept
 
 **Parameters**:
 
-* Field &&
+* [Field](classansys-dpf-field.md#classansys-dpf-field) &&
 
-**Return type**: Field &
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field) &
 
 <!--
 **TODO**:
@@ -338,7 +339,7 @@ Compare field with input field f.
 
 **Parameters**:
 
-* Field const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) with which to compare.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) with which to compare.
 
 **Return type**: bool
 
@@ -697,7 +698,7 @@ DpfVector< double > ansys::dpf::Field::data() const
 
 
 
-**Return type**: DpfVector< double >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double >
 
 <!--
 **TODO**:
@@ -725,7 +726,7 @@ DpfVector< int > ansys::dpf::Field::dataPointer() const
 
 
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -819,7 +820,7 @@ void ansys::dpf::Field::entityData(dp_index entity_index, DpfVector< double > &d
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
-* DpfVector< double > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -885,7 +886,7 @@ void ansys::dpf::Field::entityDataById(dp_id entity_id, DpfVector< double > &dat
 **Parameters**:
 
 * [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
-* DpfVector< double > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -1003,7 +1004,7 @@ Support ansys::dpf::Field::support() const
 
 
 
-**Return type**: Support
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support)
 
 <!--
 **TODO**:
@@ -1276,6 +1277,35 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Field::setSupport"}]}`
 -->
 
+<a id="classansys-dpf-field-1a0d5aa669792de7257dcdea01463dc0ac"></a>
+### Function setSupport
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Field::setSupport(ansys::dpf::CyclicSupport const &s)
+```
+
+
+
+
+Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
+
+
+
+**Parameters**:
+
+* [ansys::dpf::CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) const & **s**: [in] [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) to support.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Field::setSupport"}]}`
+-->
+
 <a id="classansys-dpf-field-1a3ac63a716581db77e88fa898befb1139"></a>
 ### Function reserve
 
@@ -1488,7 +1518,7 @@ Push back the entity data.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Field::push_back"}]}`
 -->
 
-<a id="classansys-dpf-field-1ad91f3c235727ec55359488edd877ba9f"></a>
+<a id="classansys-dpf-field-1a8a3a031e901d5f571c047a2131ecc93c"></a>
 ### Function deep_copy
 
 ![][public]
@@ -1496,7 +1526,7 @@ Push back the entity data.
 
 
 ```cpp
-Field ansys::dpf::Field::deep_copy(ansys::dpf::Client const *const client=nullptr) const
+Field ansys::dpf::Field::deep_copy(ansys::dpf::Client const *const client=nullptr, const bool copy_data=true) const
 ```
 
 
@@ -1509,8 +1539,9 @@ Make a deep copy on a given client.
 **Parameters**:
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] Remote client
+* const bool **copy_data** = true : [in] Boolean that allows to decide if data is to be copied
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -1577,7 +1608,7 @@ Creates a new field object from current field without its data.
 * bool const **copy_data_ptr** = true : [in] Boolean to decide if data pointer is to be copied
 * bool const **copy_support** = true : [in] Boolean to decide if the support reference is to be copied
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -1636,7 +1667,7 @@ Get the header of the [Field](classansys-dpf-field.md#classansys-dpf-field) as a
 
 
 
-**Return type**: DataTree
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:
@@ -1663,7 +1694,7 @@ Set the header of the field using a [DataTree](classansys-dpf-datatree.md#classa
 
 **Parameters**:
 
-* const DataTree & **datatree**
+* const [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) & **datatree**
 
 **Return type**: void
 
@@ -1696,7 +1727,7 @@ Empty [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -1731,7 +1762,7 @@ Instantiate a [Field](classansys-dpf-field.md#classansys-dpf-field) with Transfo
 * std::string const & **input_name_to_connect** = "input_field" : [in] Name of the input of the workflow to connect. Should take a [Field](classansys-dpf-field.md#classansys-dpf-field).
 * std::string const & **output_name_to_eval** = "transformed_field" : [in] Name of the output of the workflow to evaluate. Should return a [Field](classansys-dpf-field.md#classansys-dpf-field).
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:

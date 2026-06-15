@@ -142,7 +142,7 @@ Changelog & ansys::dpf::Changelog::patchBump(const std::string changes)
 
 * const std::string **changes**
 
-**Return type**: Changelog &
+**Return type**: [Changelog](classansys-dpf-changelog.md#classansys-dpf-changelog) &
 
 <!--
 **TODO**:
@@ -171,7 +171,7 @@ Changelog & ansys::dpf::Changelog::minorBump(const std::string changes)
 
 * const std::string **changes**
 
-**Return type**: Changelog &
+**Return type**: [Changelog](classansys-dpf-changelog.md#classansys-dpf-changelog) &
 
 <!--
 **TODO**:
@@ -200,7 +200,7 @@ Changelog & ansys::dpf::Changelog::majorBump(const std::string changes)
 
 * const std::string **changes**
 
-**Return type**: Changelog &
+**Return type**: [Changelog](classansys-dpf-changelog.md#classansys-dpf-changelog) &
 
 <!--
 **TODO**:
@@ -229,7 +229,7 @@ Changelog & ansys::dpf::Changelog::expectVersion(const SemanticVersion &version)
 
 * const [SemanticVersion](classansys-dpf-semanticversion.md#classansys-dpf-semanticversion) & **version**
 
-**Return type**: Changelog &
+**Return type**: [Changelog](classansys-dpf-changelog.md#classansys-dpf-changelog) &
 
 <!--
 **TODO**:

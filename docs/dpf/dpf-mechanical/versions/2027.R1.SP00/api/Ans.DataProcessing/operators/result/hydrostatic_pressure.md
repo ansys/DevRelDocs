@@ -9,7 +9,7 @@ hydrostatic_pressure(time_scoping: object, mesh_scoping: object, data_sources: o
 hydrostatic_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [hydrostatic_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/hydrostatic_pressure.md)
+**DPF Framework Reference:** [hydrostatic_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/hydrostatic_pressure.md)
 
 **Parameters:**
 

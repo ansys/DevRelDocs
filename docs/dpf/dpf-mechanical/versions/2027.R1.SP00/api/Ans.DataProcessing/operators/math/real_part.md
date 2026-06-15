@@ -4,13 +4,15 @@ uid: Ans.DataProcessing.operators.math.real_part
 
 # *class* real_part(fields_container: object = None, config: OperatorConfig = None)
 
-Extracts element-wise real part of field containers containing complex fields.
+Extracts the real-part fields (complex label 0) from a complex-valued fields container.
+
+The output container preserves all labels except the complex label.
 
 available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [real_part operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/real_part.md)
+**DPF Framework Reference:** [real_part operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/real_part.md)
 
 **Parameters:**
 
@@ -29,11 +31,15 @@ op = real_part(fields_container=my_fields_container)
 
 ### fields_container
 
+Complex-valued fields container with real (complex label 0) and imaginary (complex label 1) part fields.
+
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### fields_container
+
+Fields container containing only the real-part fields, without the complex label.
 
 **Type:** *LinkableOutput*
 

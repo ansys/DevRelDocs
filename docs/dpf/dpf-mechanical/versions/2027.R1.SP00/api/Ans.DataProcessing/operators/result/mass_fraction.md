@@ -9,7 +9,7 @@ mass_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, 
 mass_fraction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mass_fraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mass_fraction.md)
+**DPF Framework Reference:** [mass_fraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mass_fraction.md)
 
 **Parameters:**
 

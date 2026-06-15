@@ -10,7 +10,7 @@ available inputs: `generate_principal_stress` (bool) (optional), `field` (Field)
 
 available outputs: `field_int` (Field), `field_eqv` (Field), `field_max_shear` (Field), `field_eig_1` (Field), `field_eig_2` (Field), `field_eig_3` (Field)
 
-**DPF Framework Reference:** [invariants operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/invariants.md)
+**DPF Framework Reference:** [invariants operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/invariant/invariants.md)
 
 **Parameters:**
 

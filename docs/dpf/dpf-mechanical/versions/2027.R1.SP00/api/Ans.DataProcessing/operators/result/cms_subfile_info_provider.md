@@ -10,7 +10,7 @@ available inputs: `data_sources` (DataSources), `cms_subfile_data` (bool), `outp
 
 available outputs: `int32` (Int32), `field` (PropertyField)
 
-**DPF Framework Reference:** [cms_subfile_info_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cms_subfile_info_provider.md)
+**DPF Framework Reference:** [cms_subfile_info_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/cms_subfile_info_provider.md)
 
 **Parameters:**
 

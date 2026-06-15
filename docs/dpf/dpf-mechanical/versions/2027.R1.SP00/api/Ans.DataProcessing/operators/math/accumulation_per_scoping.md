@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh_scoping` (Scoping)
 
 available outputs: `accumulation_per_scoping` (FieldsContainer), `accumulation_per_scoping_percentage` (FieldsContainer)
 
-**DPF Framework Reference:** [accumulation_per_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/accumulation_per_scoping.md)
+**DPF Framework Reference:** [accumulation_per_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/accumulation_per_scoping.md)
 
 **Parameters:**
 

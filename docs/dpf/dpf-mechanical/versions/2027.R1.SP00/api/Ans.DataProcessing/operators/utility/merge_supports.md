@@ -10,7 +10,7 @@ available inputs: `should_merge_named_selections` (bool) (optional), `supports1`
 
 available outputs: `merged_support` (AbstractFieldSupport)
 
-**DPF Framework Reference:** [merge_supports operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_supports.md)
+**DPF Framework Reference:** [merge_supports operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_supports.md)
 
 **Parameters:**
 

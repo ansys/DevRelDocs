@@ -9,7 +9,7 @@ coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, co
 coordinates(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/coordinates.md)
+**DPF Framework Reference:** [coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/coordinates.md)
 
 **Parameters:**
 

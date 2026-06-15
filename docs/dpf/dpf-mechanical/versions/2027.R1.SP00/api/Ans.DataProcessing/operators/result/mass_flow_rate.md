@@ -9,7 +9,7 @@ mass_flow_rate(time_scoping: object, mesh_scoping: object, data_sources: object,
 mass_flow_rate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mass_flow_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mass_flow_rate.md)
+**DPF Framework Reference:** [mass_flow_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mass_flow_rate.md)
 
 **Parameters:**
 

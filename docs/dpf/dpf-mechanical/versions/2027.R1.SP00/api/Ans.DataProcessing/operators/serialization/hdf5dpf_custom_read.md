@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping) 
 
 available outputs: `field_or_fields_container` (FieldsContainer ,Field)
 
-**DPF Framework Reference:** [hdf5dpf_custom_read operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_custom_read.md)
+**DPF Framework Reference:** [hdf5dpf_custom_read operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/hdf5dpf_custom_read.md)
 
 **Parameters:**
 

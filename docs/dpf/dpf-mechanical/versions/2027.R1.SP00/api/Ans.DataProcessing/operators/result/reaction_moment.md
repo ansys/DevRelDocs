@@ -9,7 +9,7 @@ reaction_moment(time_scoping: object, mesh_scoping: object, data_sources: object
 reaction_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment.md)
+**DPF Framework Reference:** [reaction_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/reaction_moment.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion, MeshesContainer)
 
 available outputs: `coordinates` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [node_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/node_coordinates.md)
+**DPF Framework Reference:** [node_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/node_coordinates.md)
 
 **Parameters:**
 

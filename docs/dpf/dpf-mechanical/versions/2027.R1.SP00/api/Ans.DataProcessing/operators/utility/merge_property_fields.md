@@ -10,7 +10,7 @@ available inputs: `naive_merge` (bool), `property_fields1` (PropertyField, Prope
 
 available outputs: `property_field` (PropertyField)
 
-**DPF Framework Reference:** [merge_property_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_property_fields.md)
+**DPF Framework Reference:** [merge_property_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_property_fields.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ contact_status(time_scoping: object, mesh_scoping: object, data_sources: object,
 contact_status(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_status operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_status.md)
+**DPF Framework Reference:** [contact_status operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/contact_status.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `abstract_field_support` (AbstractFieldSupport)
 
-**DPF Framework Reference:** [material_support_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/material_support_provider.md)
+**DPF Framework Reference:** [material_support_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/material_support_provider.md)
 
 **Parameters:**
 

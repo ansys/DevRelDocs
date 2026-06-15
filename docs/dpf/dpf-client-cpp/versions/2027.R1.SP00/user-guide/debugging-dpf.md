@@ -10,6 +10,7 @@ Debugging enables you to analyze how DPF runs and generates data so that you can
 - [Custom Views with Natvis Files](#debug2)
 - [Combining Graph Visualization with Natvis Views](#debug3)
 - [Usages for the CodeDV Property Sheet](#debug4)
+- [Logging API versus trace-based debugging](#debug0)
 - [Using the DebugTrace Function](#debug5)
 
 ## <a name="debug1"></a>How the Debug View Works
@@ -67,6 +68,16 @@ There are two main usages for CodeDV:DataProcessingHourglass.props:
 >
 > - You do not compile DPF or have a DPF repository, but would find debugging helpful
 > - By defining the environment variable **DPF_COPY_DLL=true**, the DLL and PDB from the DPF package are dropped into the program directory, enabling debug insight
+
+## <a name="debug0"></a>Logging API versus trace-based debugging
+
+The DPF logging API is intended for runtime observability of operators and plugins and can be used in normal development and production-like runs.
+For logging usage and examples, see [Logging in DPF operators and plugins](logging-in-dpf.md).
+
+This page focuses on debugging-oriented mechanisms:
+
+- DebugTrace with `DATAPROCESSING_DEBUG`
+- Chrome trace event files
 
 ## <a name="debug5"></a>Using the DebugTrace Function
 

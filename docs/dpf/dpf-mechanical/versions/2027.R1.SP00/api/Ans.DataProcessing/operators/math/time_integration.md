@@ -10,7 +10,7 @@ available inputs: `field` (Field), `resample_output` (bool) (optional), `absolut
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [time_integration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/time_integration.md)
+**DPF Framework Reference:** [time_integration operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/time_integration.md)
 
 **Parameters:**
 

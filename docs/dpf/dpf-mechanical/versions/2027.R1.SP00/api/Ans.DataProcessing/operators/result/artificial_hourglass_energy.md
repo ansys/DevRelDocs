@@ -9,7 +9,7 @@ artificial_hourglass_energy(time_scoping: object, mesh_scoping: object, data_sou
 artificial_hourglass_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [artificial_hourglass_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/artificial_hourglass_energy.md)
+**DPF Framework Reference:** [artificial_hourglass_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/artificial_hourglass_energy.md)
 
 **Parameters:**
 

@@ -15,6 +15,8 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [beam4](structansys-dpf-elements.md#structansys-dpf-elements-1a7651898827538618d188da12cb8be51a)
 * [descriptor](structansys-dpf-elements.md#structansys-dpf-elements-1a30e8daf92a36604a3c176d9f7b5d1f35)
 * [eBeam](structansys-dpf-elements.md#structansys-dpf-elements-1a52e134d27c3ea7a5158ad3707d0af86da79f8bbaf009f29ba6735fd6bf114b2cf)
+* [edge2](structansys-dpf-elements.md#structansys-dpf-elements-1adc428a89ed87dbb0688ce2ba08aa4421)
+* [edge3](structansys-dpf-elements.md#structansys-dpf-elements-1ac392e05d325dd5dc79130d905cecb365)
 * [EElementType](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551c)
 * [EElementType](structansys-dpf-elements.md#structansys-dpf-elements-1a15f94658f6da65e43f52199c682eaa41)
 * [EShape](structansys-dpf-elements.md#structansys-dpf-elements-1a52e134d27c3ea7a5158ad3707d0af86d)
@@ -964,6 +966,58 @@ Quadratic 3-nodes Line.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::line3"}]}`
+-->
+
+<a id="structansys-dpf-elements-1adc428a89ed87dbb0688ce2ba08aa4421"></a>
+### Variable edge2
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge2
+```
+
+
+
+
+Linear 2-nodes Edge( lined shaped edge of SURF).
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge2"}]}`
+-->
+
+<a id="structansys-dpf-elements-1ac392e05d325dd5dc79130d905cecb365"></a>
+### Variable edge3
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge3
+```
+
+
+
+
+Quadratic 3-nodes Edge( lined shaped edge of SURF).
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge3"}]}`
 -->
 
 <a id="structansys-dpf-elements-1a07ea15edb478efe2cb580ba86a65b89e"></a>

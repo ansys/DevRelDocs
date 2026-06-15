@@ -9,7 +9,7 @@ nodal_rotational_velocity(time_scoping: object, mesh_scoping: object, data_sourc
 nodal_rotational_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_rotational_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity.md)
+**DPF Framework Reference:** [nodal_rotational_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nodal_rotational_velocity.md)
 
 **Parameters:**
 

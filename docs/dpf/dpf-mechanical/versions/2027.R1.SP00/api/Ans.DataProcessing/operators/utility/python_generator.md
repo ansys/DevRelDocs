@@ -10,7 +10,7 @@ available inputs: `dll_source_path` (string), `output_path` (string), `load_symb
 
 available outputs:
 
-**DPF Framework Reference:** [python_generator operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/python_generator.md)
+**DPF Framework Reference:** [python_generator operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/python_generator.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ epsilon(time_scoping: object, mesh_scoping: object, data_sources: object, config
 epsilon(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [epsilon operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/epsilon.md)
+**DPF Framework Reference:** [epsilon operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/epsilon.md)
 
 **Parameters:**
 

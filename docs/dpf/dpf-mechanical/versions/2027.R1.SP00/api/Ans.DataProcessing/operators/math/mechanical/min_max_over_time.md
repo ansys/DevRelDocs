@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `int32` (Int32)
 
 available outputs: `field_container_1` (FieldsContainer), `field_container_2` (FieldsContainer)
 
-**DPF Framework Reference:** [min_max_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/min_max_over_time.md)
+**DPF Framework Reference:** [min_max_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/min_max_over_time.md)
 
 **Parameters:**
 

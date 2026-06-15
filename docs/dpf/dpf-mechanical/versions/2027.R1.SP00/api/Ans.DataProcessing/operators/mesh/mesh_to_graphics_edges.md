@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `include_mid_nodes` (bool
 
 available outputs: `nodes` (Field), `connectivity` (PropertyField)
 
-**DPF Framework Reference:** [mesh_to_graphics_edges operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_graphics_edges.md)
+**DPF Framework Reference:** [mesh_to_graphics_edges operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/mesh_to_graphics_edges.md)
 
 **Parameters:**
 

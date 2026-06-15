@@ -10,7 +10,7 @@ available inputs: `field` (Field), `scoping` (Scoping) (optional), `mesh` (Meshe
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [integrate_over_elements operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/integrate_over_elements.md)
+**DPF Framework Reference:** [integrate_over_elements operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/integrate_over_elements.md)
 
 **Parameters:**
 

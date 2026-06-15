@@ -91,7 +91,7 @@ ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport const &)
 
 **Parameters**:
 
-* CyclicSupport const &
+* [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) const &
 
 **Return type**: 
 
@@ -120,7 +120,7 @@ ansys::dpf::CyclicSupport::CyclicSupport(CyclicSupport &&) noexcept
 
 **Parameters**:
 
-* CyclicSupport &&
+* [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) &&
 
 **Return type**: 
 
@@ -149,9 +149,9 @@ CyclicSupport & ansys::dpf::CyclicSupport::operator=(CyclicSupport const &)
 
 **Parameters**:
 
-* CyclicSupport const &
+* [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) const &
 
-**Return type**: CyclicSupport &
+**Return type**: [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) &
 
 <!--
 **TODO**:
@@ -178,9 +178,9 @@ CyclicSupport & ansys::dpf::CyclicSupport::operator=(CyclicSupport &&) noexcept
 
 **Parameters**:
 
-* CyclicSupport &&
+* [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) &&
 
-**Return type**: CyclicSupport &
+**Return type**: [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) &
 
 <!--
 **TODO**:
@@ -526,7 +526,7 @@ Field ansys::dpf::CyclicSupport::getCS() const
 
 
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -558,7 +558,7 @@ PropertyField ansys::dpf::CyclicSupport::getLowHighMap(dp_int istage=0) const
 
 * [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -590,7 +590,7 @@ PropertyField ansys::dpf::CyclicSupport::getHighLowMap(dp_int istage=0) const
 
 * [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0) **istage** = 0 : [in] Optional stage.
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:

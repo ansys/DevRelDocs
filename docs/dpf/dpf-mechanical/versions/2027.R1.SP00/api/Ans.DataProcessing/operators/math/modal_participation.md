@@ -10,7 +10,7 @@ available inputs: `v_real` (Field), `v_imag` (Field), `mode_shapes` (FieldsConta
 
 available outputs: `output` (FieldsContainer)
 
-**DPF Framework Reference:** [modal_participation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_participation.md)
+**DPF Framework Reference:** [modal_participation operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/modal_participation.md)
 
 **Parameters:**
 

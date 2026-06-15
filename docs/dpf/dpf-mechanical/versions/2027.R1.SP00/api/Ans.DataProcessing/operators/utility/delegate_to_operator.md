@@ -10,7 +10,7 @@ available inputs: `operator_name` (string)
 
 available outputs: `any1` (Any), `any2` (Any)
 
-**DPF Framework Reference:** [delegate_to_operator operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/delegate_to_operator.md)
+**DPF Framework Reference:** [delegate_to_operator operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/delegate_to_operator.md)
 
 **Parameters:**
 

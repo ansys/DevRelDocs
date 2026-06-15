@@ -10,7 +10,7 @@ available inputs: `input` (MeshedRegion)
 
 available outputs: `incremented_result` (Any)
 
-**DPF Framework Reference:** [mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/mesh.md)
+**DPF Framework Reference:** [mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/mesh.md)
 
 **Parameters:**
 

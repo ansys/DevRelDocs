@@ -69,7 +69,7 @@ static StringField ansys::dpf::StringField::emptyStringField()
 
 
 
-**Return type**: StringField
+**Return type**: [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield)
 
 <!--
 **TODO**:
@@ -148,7 +148,7 @@ ansys::dpf::StringField::StringField(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) on a server.
+Retrieve an existing instance of [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) on a server. <br/>
 
 
 
@@ -214,7 +214,7 @@ ansys::dpf::StringField::StringField(StringField const &)
 
 **Parameters**:
 
-* StringField const &
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) const &
 
 **Return type**: 
 
@@ -243,7 +243,7 @@ ansys::dpf::StringField::StringField(StringField &&) noexcept
 
 **Parameters**:
 
-* StringField &&
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &&
 
 **Return type**: 
 
@@ -272,9 +272,9 @@ StringField & ansys::dpf::StringField::operator=(StringField const &)
 
 **Parameters**:
 
-* StringField const &
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) const &
 
-**Return type**: StringField &
+**Return type**: [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &
 
 <!--
 **TODO**:
@@ -301,9 +301,9 @@ StringField & ansys::dpf::StringField::operator=(StringField &&) noexcept
 
 **Parameters**:
 
-* StringField &&
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &&
 
-**Return type**: StringField &
+**Return type**: [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &
 
 <!--
 **TODO**:
@@ -534,7 +534,7 @@ DpfVector< std::string > ansys::dpf::StringField::data() const
 
 
 
-**Return type**: DpfVector< std::string >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< std::string >
 
 <!--
 **TODO**:
@@ -595,7 +595,7 @@ void ansys::dpf::StringField::entityData(dp_index entity_index, DpfVector< std::
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
-* DpfVector< std::string > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< std::string > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -628,7 +628,7 @@ void ansys::dpf::StringField::entityDataById(dp_id entity_id, DpfVector< std::st
 **Parameters**:
 
 * [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
-* DpfVector< std::string > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< std::string > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 

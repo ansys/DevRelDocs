@@ -10,7 +10,7 @@ available inputs: `invariant_fc_operator` (string), `output_pin` (Int32) (option
 
 available outputs: `workflow` (Workflow)
 
-**DPF Framework Reference:** [filtering_max_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/filtering_max_over_time.md)
+**DPF Framework Reference:** [filtering_max_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/filter/filtering_max_over_time.md)
 
 **Parameters:**
 

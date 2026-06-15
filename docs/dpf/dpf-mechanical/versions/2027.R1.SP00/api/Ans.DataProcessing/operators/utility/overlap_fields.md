@@ -10,7 +10,7 @@ available inputs: `base_field` (Field) (optional), `overlapping_field` (Field) (
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [overlap_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/overlap_fields.md)
+**DPF Framework Reference:** [overlap_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/overlap_fields.md)
 
 **Parameters:**
 

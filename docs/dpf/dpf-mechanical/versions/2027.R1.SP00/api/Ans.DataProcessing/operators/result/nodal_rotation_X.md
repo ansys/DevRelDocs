@@ -9,7 +9,7 @@ nodal_rotation_X(time_scoping: object, mesh_scoping: object, data_sources: objec
 nodal_rotation_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_rotation_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation_X.md)
+**DPF Framework Reference:** [nodal_rotation_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nodal_rotation_X.md)
 
 **Parameters:**
 

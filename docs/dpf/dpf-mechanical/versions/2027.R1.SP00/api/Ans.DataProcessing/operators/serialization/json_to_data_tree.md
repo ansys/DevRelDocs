@@ -10,7 +10,7 @@ available inputs: `string_or_path` (string, DataSources)
 
 available outputs: `data_tree` (DataTree)
 
-**DPF Framework Reference:** [json_to_data_tree operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/json_to_data_tree.md)
+**DPF Framework Reference:** [json_to_data_tree operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/json_to_data_tree.md)
 
 **Parameters:**
 

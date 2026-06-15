@@ -9,7 +9,7 @@ rescope_fc(fields_container: object, mesh_scoping: object, default_value: object
 rescope_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [rescope_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_fc.md)
+**DPF Framework Reference:** [rescope_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/rescope_fc.md)
 
 **Parameters:**
 

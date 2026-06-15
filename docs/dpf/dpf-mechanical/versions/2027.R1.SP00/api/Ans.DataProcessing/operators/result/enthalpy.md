@@ -9,7 +9,7 @@ enthalpy(time_scoping: object, mesh_scoping: object, data_sources: object, confi
 enthalpy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [enthalpy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/enthalpy.md)
+**DPF Framework Reference:** [enthalpy operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/enthalpy.md)
 
 **Parameters:**
 

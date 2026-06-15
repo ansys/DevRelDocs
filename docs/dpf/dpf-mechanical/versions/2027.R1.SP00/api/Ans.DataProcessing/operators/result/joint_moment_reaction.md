@@ -9,7 +9,7 @@ joint_moment_reaction(time_scoping: object, mesh_scoping: object, data_sources: 
 joint_moment_reaction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_moment_reaction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_moment_reaction.md)
+**DPF Framework Reference:** [joint_moment_reaction operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/joint_moment_reaction.md)
 
 **Parameters:**
 

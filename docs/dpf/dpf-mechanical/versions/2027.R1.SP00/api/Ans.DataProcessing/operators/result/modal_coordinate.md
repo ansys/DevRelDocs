@@ -9,7 +9,7 @@ modal_coordinate(time_scoping: object, data_sources: object, config: OperatorCon
 modal_coordinate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_coordinate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_coordinate.md)
+**DPF Framework Reference:** [modal_coordinate operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/modal_coordinate.md)
 
 **Parameters:**
 

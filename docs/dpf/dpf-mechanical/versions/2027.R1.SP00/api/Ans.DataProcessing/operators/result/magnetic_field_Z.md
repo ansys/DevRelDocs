@@ -9,7 +9,7 @@ magnetic_field_Z(time_scoping: object, mesh_scoping: object, data_sources: objec
 magnetic_field_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_field_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_field_Z.md)
+**DPF Framework Reference:** [magnetic_field_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/magnetic_field_Z.md)
 
 **Parameters:**
 

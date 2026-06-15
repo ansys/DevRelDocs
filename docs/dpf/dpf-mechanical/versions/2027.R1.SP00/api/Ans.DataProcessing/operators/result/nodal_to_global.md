@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field), `inverse_rotation` (bool) 
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [nodal_to_global operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_to_global.md)
+**DPF Framework Reference:** [nodal_to_global operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nodal_to_global.md)
 
 **Parameters:**
 

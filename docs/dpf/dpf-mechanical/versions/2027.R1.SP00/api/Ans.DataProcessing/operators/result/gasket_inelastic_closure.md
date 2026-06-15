@@ -9,7 +9,7 @@ gasket_inelastic_closure(time_scoping: object, mesh_scoping: object, data_source
 gasket_inelastic_closure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_inelastic_closure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_inelastic_closure.md)
+**DPF Framework Reference:** [gasket_inelastic_closure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/gasket_inelastic_closure.md)
 
 **Parameters:**
 

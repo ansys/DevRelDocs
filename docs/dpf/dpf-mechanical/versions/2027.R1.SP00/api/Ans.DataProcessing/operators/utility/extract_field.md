@@ -10,7 +10,7 @@ available inputs: `fields_container` (Field, FieldsContainer), `indices` (IList 
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [extract_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_field.md)
+**DPF Framework Reference:** [extract_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/extract_field.md)
 
 **Parameters:**
 

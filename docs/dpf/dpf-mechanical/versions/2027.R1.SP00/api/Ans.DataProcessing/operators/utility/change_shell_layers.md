@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer, Field), `e_shell_layer` (
 
 available outputs: `fields_container` (FieldsContainer ,Field)
 
-**DPF Framework Reference:** [change_shell_layers operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/change_shell_layers.md)
+**DPF Framework Reference:** [change_shell_layers operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/change_shell_layers.md)
 
 **Parameters:**
 

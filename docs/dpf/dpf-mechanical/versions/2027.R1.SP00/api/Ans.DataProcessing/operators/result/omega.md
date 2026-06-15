@@ -9,7 +9,7 @@ omega(time_scoping: object, mesh_scoping: object, data_sources: object, config: 
 omega(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [omega operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/omega.md)
+**DPF Framework Reference:** [omega operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/omega.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ view_factor_sum(time_scoping: object, mesh_scoping: object, data_sources: object
 view_factor_sum(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [view_factor_sum operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/view_factor_sum.md)
+**DPF Framework Reference:** [view_factor_sum operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/view_factor_sum.md)
 
 **Parameters:**
 

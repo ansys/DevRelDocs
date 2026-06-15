@@ -9,7 +9,7 @@ element_nodal_heat(time_scoping: object, mesh_scoping: object, data_sources: obj
 element_nodal_heat(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [element_nodal_heat operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/element_nodal_heat.md)
+**DPF Framework Reference:** [element_nodal_heat operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/element_nodal_heat.md)
 
 **Parameters:**
 

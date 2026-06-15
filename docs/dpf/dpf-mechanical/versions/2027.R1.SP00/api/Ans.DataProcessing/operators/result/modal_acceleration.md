@@ -9,7 +9,7 @@ modal_acceleration(time_scoping: object, data_sources: object, config: OperatorC
 modal_acceleration(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_acceleration.md)
+**DPF Framework Reference:** [modal_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/modal_acceleration.md)
 
 **Parameters:**
 

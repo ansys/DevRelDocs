@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `include_surfaces` (bool) (optional), `
 
 available outputs: `mesh` (MeshedRegion), `nodes_mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [tri_mesh_skin operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/tri_mesh_skin.md)
+**DPF Framework Reference:** [tri_mesh_skin operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/tri_mesh_skin.md)
 
 **Parameters:**
 

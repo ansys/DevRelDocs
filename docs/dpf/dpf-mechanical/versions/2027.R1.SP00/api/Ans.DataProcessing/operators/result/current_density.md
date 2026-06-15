@@ -9,7 +9,7 @@ current_density(time_scoping: object, mesh_scoping: object, data_sources: object
 current_density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [current_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/current_density.md)
+**DPF Framework Reference:** [current_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/current_density.md)
 
 **Parameters:**
 

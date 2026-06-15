@@ -1,5 +1,5 @@
 ---
-uid: Ans.DataProcessing.operators.result.mapdl.run
+uid: Ans.DataProcessing.operators.result.run
 ---
 
 # *class* run(mapdl_exe_path: object = None, working_dir: object = None, number_of_processes: object = None, number_of_threads: object = None, data_sources: object = None, server_mode: object = None, config: OperatorConfig = None)
@@ -10,7 +10,7 @@ available inputs: `mapdl_exe_path` (string) (optional), `working_dir` (string) (
 
 available outputs: `data_sources` (DataSources), `ip` (string), `port` (string)
 
-**DPF Framework Reference:** [run operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/run.md)
+**DPF Framework Reference:** [run operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/run.md)
 
 **Parameters:**
 

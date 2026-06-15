@@ -9,7 +9,7 @@ initial_coordinates(time_scoping: object, mesh_scoping: object, data_sources: ob
 initial_coordinates(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [initial_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/initial_coordinates.md)
+**DPF Framework Reference:** [initial_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/initial_coordinates.md)
 
 **Parameters:**
 

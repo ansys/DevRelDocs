@@ -9,7 +9,7 @@ beam_axial_stress(time_scoping: object, mesh_scoping: object, data_sources: obje
 beam_axial_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_axial_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_stress.md)
+**DPF Framework Reference:** [beam_axial_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/beam_axial_stress.md)
 
 **Parameters:**
 

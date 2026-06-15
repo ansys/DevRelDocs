@@ -9,7 +9,7 @@ nmisc(time_scoping: object, mesh_scoping: object, data_sources: object, item_ind
 nmisc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nmisc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
+**DPF Framework Reference:** [nmisc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nmisc.md)
 
 **Parameters:**
 

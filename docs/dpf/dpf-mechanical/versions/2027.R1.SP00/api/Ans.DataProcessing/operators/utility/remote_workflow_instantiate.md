@@ -10,7 +10,7 @@ available inputs: `workflow_to_send` (Workflow, Int32), `streams_to_remote` (Str
 
 available outputs: `remote_workflow` (Workflow)
 
-**DPF Framework Reference:** [remote_workflow_instantiate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/remote_workflow_instantiate.md)
+**DPF Framework Reference:** [remote_workflow_instantiate operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/remote_workflow_instantiate.md)
 
 **Parameters:**
 

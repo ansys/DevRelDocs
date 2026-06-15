@@ -10,7 +10,7 @@ available inputs: `streams` (StreamsContainer) (optional), `data_sources` (DataS
 
 available outputs: `layer_orientation_data` (FieldsContainer)
 
-**DPF Framework Reference:** [layer_orientation_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/layer_orientation_provider.md)
+**DPF Framework Reference:** [layer_orientation_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/layer_orientation_provider.md)
 
 **Parameters:**
 

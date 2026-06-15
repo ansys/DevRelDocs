@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes amplitude of a real and an imaginary field.
+
+Computes the [complex modulus](https://en.wikipedia.org/wiki/Absolute_value#Complex_numbers) (amplitude)
+of a complex quantity given as separate real and imaginary fields:
+$\mathrm{out}[i] = \sqrt{A[i]^2 + B[i]^2}$.
+The output carries the unit of pin A.
+
 
 ## Inputs
 
@@ -57,7 +62,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Scalar field with $\sqrt{A[i]^2 + B[i]^2}$ for each data entry, carrying the unit of pin A.
 
 
 ## Configurations

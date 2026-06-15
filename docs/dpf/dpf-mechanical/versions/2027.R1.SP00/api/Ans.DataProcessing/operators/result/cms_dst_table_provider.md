@@ -10,7 +10,7 @@ available inputs: `data_sources` (DataSources)
 
 available outputs: `dst_table` (PropertyField)
 
-**DPF Framework Reference:** [cms_dst_table_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cms_dst_table_provider.md)
+**DPF Framework Reference:** [cms_dst_table_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/cms_dst_table_provider.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `displacement_field` (Field), `translation_field` (Field), `ro
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [add_rigid_body_motion operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/add_rigid_body_motion.md)
+**DPF Framework Reference:** [add_rigid_body_motion operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/add_rigid_body_motion.md)
 
 **Parameters:**
 

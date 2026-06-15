@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [segalman_von_mises_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/segalman_von_mises_eqv.md)
+**DPF Framework Reference:** [segalman_von_mises_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/invariant/segalman_von_mises_eqv.md)
 
 **Parameters:**
 

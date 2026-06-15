@@ -9,7 +9,7 @@ beam_torsional_moment(time_scoping: object, mesh_scoping: object, data_sources: 
 beam_torsional_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_torsional_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_torsional_moment.md)
+**DPF Framework Reference:** [beam_torsional_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/beam_torsional_moment.md)
 
 **Parameters:**
 

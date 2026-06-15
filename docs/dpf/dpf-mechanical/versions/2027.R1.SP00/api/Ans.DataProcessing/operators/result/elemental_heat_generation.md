@@ -9,7 +9,7 @@ elemental_heat_generation(time_scoping: object, mesh_scoping: object, data_sourc
 elemental_heat_generation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elemental_heat_generation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_heat_generation.md)
+**DPF Framework Reference:** [elemental_heat_generation operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/elemental_heat_generation.md)
 
 **Parameters:**
 

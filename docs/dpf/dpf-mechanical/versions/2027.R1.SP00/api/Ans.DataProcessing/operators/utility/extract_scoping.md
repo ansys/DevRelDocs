@@ -10,7 +10,7 @@ available inputs: `field_or_fields_container` (Field, FieldsContainer, PropertyF
 
 available outputs: `mesh_scoping` (Scoping ,ScopingsContainer)
 
-**DPF Framework Reference:** [extract_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_scoping.md)
+**DPF Framework Reference:** [extract_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/extract_scoping.md)
 
 **Parameters:**
 

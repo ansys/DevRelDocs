@@ -26,6 +26,7 @@ Define an abstract support notion.
 * [emptySupport](classansys-dpf-support.md#classansys-dpf-support-1ad5b62f0bc3fc29380461006280edf89b)
 * [getAsCyclicSupport](classansys-dpf-support.md#classansys-dpf-support-1a5903cf9eb1f3f3fec9fc0a22331db3d3)
 * [getAsDomainMesh](classansys-dpf-support.md#classansys-dpf-support-1a244cc29be85eb6192faf468268478064)
+* [getAsGenericSupport](classansys-dpf-support.md#classansys-dpf-support-1abe23d5afcce8b7912da5d1477963f873)
 * [getAsTimeFreqSupport](classansys-dpf-support.md#classansys-dpf-support-1a2ced0ad4403332166b14f301d67f4a4e)
 * [getAvailablePropertyNamesForFields](classansys-dpf-support.md#classansys-dpf-support-1ac6c5332826a5eb2814e71a02fe3e7132)
 * [getAvailablePropertyNamesForPropertyFields](classansys-dpf-support.md#classansys-dpf-support-1adb40c35236879d4d6d8a418c618a2f00)
@@ -42,7 +43,12 @@ Define an abstract support notion.
 * [operator=](classansys-dpf-support.md#classansys-dpf-support-1aafaebcbcdc49b2ab6fe730399f382d81)
 * [operator=](classansys-dpf-support.md#classansys-dpf-support-1a8584e7d484ca126718b4bd7e563011de)
 * [Support](classansys-dpf-support.md#classansys-dpf-support-1a7437ca78d2d2fa368dc0063fdf3c221a)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1afc1e7aabde22ce990c8ee02cc8a0faa4)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1a337c54f8c932801705203f25c3a0ea4f)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1a1b49c0e4e06624f93267a2da26cd9d51)
+* [Support](classansys-dpf-support.md#classansys-dpf-support-1a359baef15b27a6722273b40862feb3d9)
 * [Support](classansys-dpf-support.md#classansys-dpf-support-1a71326b7a5a317dd79c6b97a4eb18e79a)
+* [type](classansys-dpf-support.md#classansys-dpf-support-1a7284744409fa45d51e7be23bfcd6deec)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 * [~Support](classansys-dpf-support.md#classansys-dpf-support-1a3f63403200b8eb094dd8ebb3e43661ef)
 
@@ -67,7 +73,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Field"},"children":[{"type":"text","text":"Field"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-support-1ad19b1aa2f28448bd897fc6c5dd771f02"></a>
@@ -89,7 +95,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class CustomTypeField"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::CustomTypeField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"CustomTypeField"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1CustomTypeField"},"children":[{"type":"text","text":"CustomTypeField"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-support-1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
@@ -111,7 +117,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1PropertyField"},"children":[{"type":"text","text":"PropertyField"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-support-1af891ea2ca8eebe3679e051763ba989ce"></a>
@@ -155,7 +161,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Operator"},"children":[{"type":"text","text":"Operator"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-support-1afa07847c7cb432b260e61a0c18025ba3"></a>
@@ -221,7 +227,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class ResultInfo"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::ResultInfo"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"ResultInfo"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1ResultInfo"},"children":[{"type":"text","text":"ResultInfo"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-support-1a9820c685b67a3355c042bb0b3365d9e2"></a>
@@ -243,7 +249,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Any"},"children":[{"type":"text","text":"Any"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-support-1acc06c4380c923e11af63f95e97c3c259"></a>
@@ -287,7 +293,7 @@ Define an abstract support notion.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1core"},"children":[{"type":"text","text":"core"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 ## Public functions
@@ -336,7 +342,123 @@ ansys::dpf::Support::Support(Support const &)
 
 **Parameters**:
 
-* Support const &
+* [Support](classansys-dpf-support.md#classansys-dpf-support) const &
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Support"}]}`
+-->
+
+<a id="classansys-dpf-support-1afc1e7aabde22ce990c8ee02cc8a0faa4"></a>
+### Function Support
+
+![][public]
+
+
+```cpp
+ansys::dpf::Support::Support(MeshedRegion const &)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) const &
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Support"}]}`
+-->
+
+<a id="classansys-dpf-support-1a337c54f8c932801705203f25c3a0ea4f"></a>
+### Function Support
+
+![][public]
+
+
+```cpp
+ansys::dpf::Support::Support(CyclicSupport const &)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) const &
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Support"}]}`
+-->
+
+<a id="classansys-dpf-support-1a1b49c0e4e06624f93267a2da26cd9d51"></a>
+### Function Support
+
+![][public]
+
+
+```cpp
+ansys::dpf::Support::Support(GenericSupport const &)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) const &
+
+**Return type**: 
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::Support"}]}`
+-->
+
+<a id="classansys-dpf-support-1a359baef15b27a6722273b40862feb3d9"></a>
+### Function Support
+
+![][public]
+
+
+```cpp
+ansys::dpf::Support::Support(TimeFreqSupport const &)
+```
+
+
+
+
+
+
+
+
+**Parameters**:
+
+* [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport) const &
 
 **Return type**: 
 
@@ -365,7 +487,7 @@ ansys::dpf::Support::Support(Support &&) noexcept
 
 **Parameters**:
 
-* Support &&
+* [Support](classansys-dpf-support.md#classansys-dpf-support) &&
 
 **Return type**: 
 
@@ -394,9 +516,9 @@ Support & ansys::dpf::Support::operator=(Support const &)
 
 **Parameters**:
 
-* Support const &
+* [Support](classansys-dpf-support.md#classansys-dpf-support) const &
 
-**Return type**: Support &
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support) &
 
 <!--
 **TODO**:
@@ -423,9 +545,9 @@ Support & ansys::dpf::Support::operator=(Support &&) noexcept
 
 **Parameters**:
 
-* Support &&
+* [Support](classansys-dpf-support.md#classansys-dpf-support) &&
 
-**Return type**: Support &
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support) &
 
 <!--
 **TODO**:
@@ -459,6 +581,34 @@ Indication if support is meshed domain.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::isMeshedDomain"}]}`
+-->
+
+<a id="classansys-dpf-support-1a7284744409fa45d51e7be23bfcd6deec"></a>
+### Function type
+
+![][public]
+![][const]
+
+
+```cpp
+std::string ansys::dpf::Support::type() const
+```
+
+
+
+
+**Returns**:
+
+The support type as a string ([MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion), [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport), [TimeFreqSupport](classansys-dpf-timefreqsupport.md#classansys-dpf-timefreqsupport), ...).
+
+
+
+**Return type**: std::string
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::type"}]}`
 -->
 
 <a id="classansys-dpf-support-1a244cc29be85eb6192faf468268478064"></a>
@@ -545,6 +695,34 @@ TimeFreqSupport ansys::dpf::Support::getAsTimeFreqSupport() const
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::getAsTimeFreqSupport"}]}`
 -->
 
+<a id="classansys-dpf-support-1abe23d5afcce8b7912da5d1477963f873"></a>
+### Function getAsGenericSupport
+
+![][public]
+![][const]
+
+
+```cpp
+GenericSupport ansys::dpf::Support::getAsGenericSupport() const
+```
+
+
+
+
+**Returns**:
+
+[Support](classansys-dpf-support.md#classansys-dpf-support) as generic support.
+
+
+
+**Return type**: [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Support::getAsGenericSupport"}]}`
+-->
+
 <a id="classansys-dpf-support-1aa4704f682e0e0543acf44e37e9350aab"></a>
 ### Function getFieldSupportByProperty
 
@@ -571,7 +749,7 @@ return empty [Field](classansys-dpf-field.md#classansys-dpf-field) if the proper
 
 * [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const & **property_name**
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -605,7 +783,7 @@ return empty [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-prop
 
 * [PropertyType](structansys-dpf-propertytype.md#structansys-dpf-propertytype) const & **property_name**
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -753,7 +931,7 @@ Create a new [Support](classansys-dpf-support.md#classansys-dpf-support) on a se
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: Support
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support)
 
 <!--
 **TODO**:
@@ -784,7 +962,7 @@ Empty [Support](classansys-dpf-support.md#classansys-dpf-support).
 
 
 
-**Return type**: Support
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support)
 
 <!--
 **TODO**:

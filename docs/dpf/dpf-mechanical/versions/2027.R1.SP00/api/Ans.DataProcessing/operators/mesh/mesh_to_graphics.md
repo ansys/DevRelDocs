@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `node_normals` (bool) (op
 
 available outputs: `nodes` (Field), `normals` (Field), `connectivity` (PropertyField)
 
-**DPF Framework Reference:** [mesh_to_graphics operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_graphics.md)
+**DPF Framework Reference:** [mesh_to_graphics operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/mesh_to_graphics.md)
 
 **Parameters:**
 

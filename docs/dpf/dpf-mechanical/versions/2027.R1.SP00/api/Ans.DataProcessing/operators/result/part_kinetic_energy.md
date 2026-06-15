@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [part_kinetic_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/part_kinetic_energy.md)
+**DPF Framework Reference:** [part_kinetic_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/part_kinetic_energy.md)
 
 **Parameters:**
 

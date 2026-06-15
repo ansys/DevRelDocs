@@ -9,7 +9,7 @@ creep_strain_max_shear(time_scoping: object, mesh_scoping: object, data_sources:
 creep_strain_max_shear(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [creep_strain_max_shear operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_max_shear.md)
+**DPF Framework Reference:** [creep_strain_max_shear operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/creep_strain_max_shear.md)
 
 **Parameters:**
 

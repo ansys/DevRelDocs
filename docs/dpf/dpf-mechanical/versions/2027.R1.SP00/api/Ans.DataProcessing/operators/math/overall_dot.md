@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [overall_dot operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/overall_dot.md)
+**DPF Framework Reference:** [overall_dot operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/overall_dot.md)
 
 **Parameters:**
 

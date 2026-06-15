@@ -9,7 +9,7 @@ enclosure_number(time_scoping: object, mesh_scoping: object, data_sources: objec
 enclosure_number(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [enclosure_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/enclosure_number.md)
+**DPF Framework Reference:** [enclosure_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/enclosure_number.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `properties_name` (string), `section` (PropertyField) (optiona
 
 available outputs: `properties_value` (FieldsContainer), `layers_per_section` (PropertyField)
 
-**DPF Framework Reference:** [mapdl_section operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_section.md)
+**DPF Framework Reference:** [mapdl_section operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mapdl_section.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [matrix_inverse operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/matrix_inverse.md)
+**DPF Framework Reference:** [matrix_inverse operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/matrix_inverse.md)
 
 **Parameters:**
 

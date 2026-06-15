@@ -9,7 +9,7 @@ electric_field(time_scoping: object, mesh_scoping: object, data_sources: object,
 electric_field(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [electric_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_field.md)
+**DPF Framework Reference:** [electric_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/electric_field.md)
 
 **Parameters:**
 

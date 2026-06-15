@@ -9,7 +9,7 @@ nodal_force(time_scoping: object, mesh_scoping: object, data_sources: object, co
 nodal_force(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_force.md)
+**DPF Framework Reference:** [nodal_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/nodal_force.md)
 
 **Parameters:**
 

@@ -4,13 +4,13 @@ uid: Ans.DataProcessing.operators.math.pow
 
 # *class* pow(field: object = None, factor: object = None, division_by_zero_value: object = None, config: OperatorConfig = None)
 
-Computes element-wise field[i]^p.
+Computes entity-wise field[i]^p.
 
 available inputs: `field` (Field), `factor` (double), `division_by_zero_value` (double) (optional)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [pow operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/pow.md)
+**DPF Framework Reference:** [pow operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/pow.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `time_scoping` (Scoping)
 
 available outputs: `coefficients` (FieldsContainer)
 
-**DPF Framework Reference:** [fft_gradient_eval operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fft_gradient_eval.md)
+**DPF Framework Reference:** [fft_gradient_eval operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/fft_gradient_eval.md)
 
 **Parameters:**
 

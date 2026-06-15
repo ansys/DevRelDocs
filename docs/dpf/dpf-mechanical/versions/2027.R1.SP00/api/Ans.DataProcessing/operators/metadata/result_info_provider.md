@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `result_info` (ResultInfo)
 
-**DPF Framework Reference:** [result_info_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/result_info_provider.md)
+**DPF Framework Reference:** [result_info_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/result_info_provider.md)
 
 **Parameters:**
 

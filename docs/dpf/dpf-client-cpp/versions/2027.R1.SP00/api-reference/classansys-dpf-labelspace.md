@@ -271,7 +271,7 @@ ansys::dpf::LabelSpace::LabelSpace(LabelSpace const &)
 
 **Parameters**:
 
-* LabelSpace const &
+* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const &
 
 **Return type**: 
 
@@ -300,7 +300,7 @@ ansys::dpf::LabelSpace::LabelSpace(LabelSpace &&) noexcept
 
 **Parameters**:
 
-* LabelSpace &&
+* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &&
 
 **Return type**: 
 
@@ -329,9 +329,9 @@ LabelSpace & ansys::dpf::LabelSpace::operator=(LabelSpace const &)
 
 **Parameters**:
 
-* LabelSpace const &
+* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const &
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -358,9 +358,9 @@ LabelSpace & ansys::dpf::LabelSpace::operator=(LabelSpace &&) noexcept
 
 **Parameters**:
 
-* LabelSpace &&
+* [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &&
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -609,7 +609,7 @@ Reference to labelspace.
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**: [in] New value for time label.
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -645,7 +645,7 @@ Reference to labelspace.
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**: [in] New value for domain label.
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -681,7 +681,7 @@ Reference to labelspace.
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **i**: [in] New value for complex label.
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -713,7 +713,7 @@ Reference to labelspace.
 
 
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -745,7 +745,7 @@ Reference to labelspace.
 
 
 
-**Return type**: LabelSpace &
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) &
 
 <!--
 **TODO**:
@@ -775,7 +775,7 @@ Create a new [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: LabelSpace
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace)
 
 <!--
 **TODO**:
@@ -835,7 +835,7 @@ Empty [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace)
 
 
 
-**Return type**: LabelSpace
+**Return type**: [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace)
 
 <!--
 **TODO**:

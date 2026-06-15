@@ -9,7 +9,7 @@ elemental_volume(time_scoping: object, mesh_scoping: object, data_sources: objec
 elemental_volume(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elemental_volume operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_volume.md)
+**DPF Framework Reference:** [elemental_volume operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/elemental_volume.md)
 
 **Parameters:**
 

@@ -2,7 +2,7 @@
   "metadata": [],
   "build": {
     "globalMetadata": {
-      "title": "DPF Cpp API (Local)",
+      "title": "DPF Cpp Client Library 2027 R1",
       "summary": "",
       "version": "2027 R1",
       "product": "DPF",
@@ -13,7 +13,7 @@
       "_appFooter": "Copyright \u00a9 2027 ANSYS, Inc. All rights reserved.",
       "_enableSearch": true,
       "_disableContribution": true,
-      "_appTitle": "DPF Cpp API 2027 R1"
+      "_appTitle": "DPF Cpp API 2027.(('271').Substring(2, 1))"
     },
     "content": [
       {

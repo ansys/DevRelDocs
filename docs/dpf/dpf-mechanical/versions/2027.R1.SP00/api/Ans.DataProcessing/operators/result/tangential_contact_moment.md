@@ -9,7 +9,7 @@ tangential_contact_moment(time_scoping: object, mesh_scoping: object, data_sourc
 tangential_contact_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [tangential_contact_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/tangential_contact_moment.md)
+**DPF Framework Reference:** [tangential_contact_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/tangential_contact_moment.md)
 
 **Parameters:**
 

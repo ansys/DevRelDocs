@@ -4,13 +4,21 @@ uid: Ans.DataProcessing.operators.math.sqrt_fc
 
 # *class* sqrt_fc(fields_container: object = None, config: OperatorConfig = None)
 
-Computes element-wise square root function on field data: sqrt(field[i]).
+Computes the entity-wise square root
+
+([Hadamard root](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Analogous_operations)):
+
+$\mathrm{out}[i] = \sqrt{\mathrm{in}[i]}$.
+
+All input values must be non-negative; a negative value raises an error.
+
+The output unit is $\sqrt{u}$ where $u$ is the input unit.
 
 available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [sqrt_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sqrt_fc.md)
+**DPF Framework Reference:** [sqrt_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/sqrt_fc.md)
 
 **Parameters:**
 
@@ -29,7 +37,7 @@ op = sqrt_fc(fields_container=my_fields_container)
 
 ### fields_container
 
-Field or fields container containing numeric data for square root calculation
+Field or fields container containing non-negative numeric data.
 
 **Type:** *LinkableInput*
 
@@ -37,7 +45,7 @@ Field or fields container containing numeric data for square root calculation
 
 ### fields_container
 
-Field with square root values applied element-wise to input data
+Field with $\sqrt{\mathrm{in}[i]}$ for each data entry; unit is $\sqrt{u}$, where $u$ is the input unit.
 
 **Type:** *LinkableOutput*
 

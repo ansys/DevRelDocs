@@ -10,7 +10,7 @@ available inputs: `materials_container` (MaterialsContainer), `mesh_scoping` (Sc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [ans_mat_property_field_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_property_field_provider.md)
+**DPF Framework Reference:** [ans_mat_property_field_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/ans_mat_property_field_provider.md)
 
 **Parameters:**
 
@@ -82,6 +82,8 @@ scoping: VUUID, VUUID is the equivalent to the DataTransferID in the ENGD's mate
 **Type:** *LinkableInput*
 
 ### property_name
+
+using <eng_data::ans_mat_material_provider> the user can find out the available property scripting names,then define one of those names at this input
 
 **Type:** *LinkableInput*
 

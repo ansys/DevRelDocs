@@ -9,7 +9,7 @@ iso_surfaces(field: object, num_surfaces: object, mesh: object, slice_surfaces: 
 iso_surfaces(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [iso_surfaces operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/iso_surfaces.md)
+**DPF Framework Reference:** [iso_surfaces operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/iso_surfaces.md)
 
 **Parameters:**
 

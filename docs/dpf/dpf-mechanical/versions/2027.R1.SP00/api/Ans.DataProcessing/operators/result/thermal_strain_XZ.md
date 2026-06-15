@@ -9,7 +9,7 @@ thermal_strain_XZ(time_scoping: object, mesh_scoping: object, data_sources: obje
 thermal_strain_XZ(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_XZ.md)
+**DPF Framework Reference:** [thermal_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/thermal_strain_XZ.md)
 
 **Parameters:**
 
