@@ -10,7 +10,7 @@ available inputs: `field` (Field), `label` (LabelSpace) (optional)
 
 available outputs: `output` (FieldsContainer)
 
-**DPF Framework Reference:** [incremental_concatenate_as_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/incremental_concatenate_as_fc.md)
+**DPF Framework Reference:** [incremental_concatenate_as_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/incremental_concatenate_as_fc.md)
 
 **Parameters:**
 

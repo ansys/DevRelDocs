@@ -9,7 +9,7 @@ beam_tr_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: o
 beam_tr_shear_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_tr_shear_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_tr_shear_stress.md)
+**DPF Framework Reference:** [beam_tr_shear_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/beam_tr_shear_stress.md)
 
 **Parameters:**
 

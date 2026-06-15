@@ -10,7 +10,7 @@ available inputs: `field_or_fields_container` (FieldsContainer, Field), `scoping
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [change_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/change_fc.md)
+**DPF Framework Reference:** [change_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/change_fc.md)
 
 **Parameters:**
 

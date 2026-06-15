@@ -9,7 +9,7 @@ transform_invariant_terms_rbd(rotation_matrix: object, coordinate_system: object
 transform_invariant_terms_rbd(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [transform_invariant_terms_rbd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/transform_invariant_terms_rbd.md)
+**DPF Framework Reference:** [transform_invariant_terms_rbd operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/transform_invariant_terms_rbd.md)
 
 **Parameters:**
 

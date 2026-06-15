@@ -10,7 +10,7 @@ available inputs: `time_freq_support` (TimeFreqSupport), `min_threshold` (double
 
 available outputs: `time_freq_support` (TimeFreqSupport), `scoping` (Scoping)
 
-**DPF Framework Reference:** [timefreq_band_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/timefreq_band_pass.md)
+**DPF Framework Reference:** [timefreq_band_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/filter/timefreq_band_pass.md)
 
 **Parameters:**
 

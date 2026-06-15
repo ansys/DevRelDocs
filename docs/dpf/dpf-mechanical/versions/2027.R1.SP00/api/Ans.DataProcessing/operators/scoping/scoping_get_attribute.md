@@ -10,7 +10,7 @@ available inputs: `scoping` (Scoping), `property_name` (string)
 
 available outputs: `property` (IList int  ,string ,System.Collections.IEnumerable)
 
-**DPF Framework Reference:** [scoping_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/scoping_get_attribute.md)
+**DPF Framework Reference:** [scoping_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/scoping_get_attribute.md)
 
 **Parameters:**
 

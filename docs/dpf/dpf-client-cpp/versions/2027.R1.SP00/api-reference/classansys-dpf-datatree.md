@@ -171,7 +171,7 @@ ansys::dpf::DataTree::DataTree(DataTree const &)
 
 **Parameters**:
 
-* DataTree const &
+* [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) const &
 
 **Return type**: 
 
@@ -200,7 +200,7 @@ ansys::dpf::DataTree::DataTree(DataTree &&) noexcept
 
 **Parameters**:
 
-* DataTree &&
+* [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) &&
 
 **Return type**: 
 
@@ -229,9 +229,9 @@ DataTree & ansys::dpf::DataTree::operator=(DataTree const &)
 
 **Parameters**:
 
-* DataTree const &
+* [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) const &
 
-**Return type**: DataTree &
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) &
 
 <!--
 **TODO**:
@@ -258,9 +258,9 @@ DataTree & ansys::dpf::DataTree::operator=(DataTree &&) noexcept
 
 **Parameters**:
 
-* DataTree &&
+* [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) &&
 
-**Return type**: DataTree &
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) &
 
 <!--
 **TODO**:
@@ -468,7 +468,7 @@ a subtree by its name (return an empty substree if it doesn't exist).
 
 * std::string const & **name**
 
-**Return type**: const DataTree
+**Return type**: const [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:
@@ -1396,7 +1396,7 @@ the created subtree to fill it.
 
 * std::string const & **name**
 
-**Return type**: DataTree
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:
@@ -1424,7 +1424,7 @@ void ansys::dpf::DataTree::makeSubTreeAttribute(std::string const &name, DataTre
 **Parameters**:
 
 * std::string const & **name**
-* DataTree const *const **sub_tree**
+* [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) const *const **sub_tree**
 
 **Return type**: void
 
@@ -1520,7 +1520,7 @@ Make a deep copy on a given client.
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] Remote client
 
-**Return type**: DataTree
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:
@@ -1551,7 +1551,7 @@ Empty [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree).
 
 
 
-**Return type**: DataTree
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:

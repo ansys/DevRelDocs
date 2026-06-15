@@ -9,7 +9,7 @@ mean_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, 
 mean_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mean_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mean_velocity.md)
+**DPF Framework Reference:** [mean_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mean_velocity.md)
 
 **Parameters:**
 

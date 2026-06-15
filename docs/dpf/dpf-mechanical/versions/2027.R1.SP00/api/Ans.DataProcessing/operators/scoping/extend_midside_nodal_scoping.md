@@ -10,7 +10,7 @@ available inputs: `nodal_mesh_scoping` (Scoping), `mesh` (MeshedRegion), `add_ne
 
 available outputs: `nodal_mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [extend_midside_nodal_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/extend_midside_nodal_scoping.md)
+**DPF Framework Reference:** [extend_midside_nodal_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/extend_midside_nodal_scoping.md)
 
 **Parameters:**
 

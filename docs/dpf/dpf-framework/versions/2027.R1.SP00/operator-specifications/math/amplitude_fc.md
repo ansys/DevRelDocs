@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes the amplitude of a real and an imaginary field.
+
+Computes the [complex modulus](https://en.wikipedia.org/wiki/Absolute_value#Complex_numbers) (amplitude)
+$\sqrt{\mathrm{Re}[i]^2 + \mathrm{Im}[i]^2}$ for each complex-valued field pair in the input fields container,
+where pairs are matched by complex label.
+If no imaginary part is found for a real field, that real field is returned unchanged.
+
 
 ## Inputs
 
@@ -29,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Complex-valued fields container with paired real (complex label 0) and imaginary (complex label 1) fields.
 
 
 ## Outputs
@@ -48,7 +53,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with amplitude fields $\sqrt{\mathrm{Re}[i]^2 + \mathrm{Im}[i]^2}$, carrying the unit of the real input field.
 
 
 ## Configurations

@@ -9,7 +9,7 @@ div_lighthill_tensor(time_scoping: object, mesh_scoping: object, data_sources: o
 div_lighthill_tensor(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [div_lighthill_tensor operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/div_lighthill_tensor.md)
+**DPF Framework Reference:** [div_lighthill_tensor operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/div_lighthill_tensor.md)
 
 **Parameters:**
 

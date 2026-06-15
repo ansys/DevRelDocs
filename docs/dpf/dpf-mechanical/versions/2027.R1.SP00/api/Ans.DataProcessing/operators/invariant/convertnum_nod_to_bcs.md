@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `data_sources` (DataSour
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [convertnum_nod_to_bcs operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/convertnum_nod_to_bcs.md)
+**DPF Framework Reference:** [convertnum_nod_to_bcs operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/invariant/convertnum_nod_to_bcs.md)
 
 **Parameters:**
 

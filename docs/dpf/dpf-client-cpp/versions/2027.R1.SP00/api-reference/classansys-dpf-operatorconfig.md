@@ -122,7 +122,7 @@ ansys::dpf::OperatorConfig::OperatorConfig(OperatorConfig &&) noexcept
 
 **Parameters**:
 
-* OperatorConfig &&
+* [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) &&
 
 **Return type**: 
 
@@ -151,7 +151,7 @@ ansys::dpf::OperatorConfig::OperatorConfig(OperatorConfig const &)
 
 **Parameters**:
 
-* OperatorConfig const &
+* [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) const &
 
 **Return type**: 
 
@@ -180,9 +180,9 @@ OperatorConfig & ansys::dpf::OperatorConfig::operator=(OperatorConfig const &)
 
 **Parameters**:
 
-* OperatorConfig const &
+* [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) const &
 
-**Return type**: OperatorConfig &
+**Return type**: [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) &
 
 <!--
 **TODO**:
@@ -209,9 +209,9 @@ OperatorConfig & ansys::dpf::OperatorConfig::operator=(OperatorConfig &&) noexce
 
 **Parameters**:
 
-* OperatorConfig &&
+* [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) &&
 
-**Return type**: OperatorConfig &
+**Return type**: [OperatorConfig](classansys-dpf-operatorconfig.md#classansys-dpf-operatorconfig) &
 
 <!--
 **TODO**:

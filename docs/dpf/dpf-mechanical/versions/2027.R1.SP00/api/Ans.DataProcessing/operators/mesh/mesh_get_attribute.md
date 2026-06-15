@@ -10,7 +10,7 @@ available inputs: `meshed_region` (MeshedRegion), `property_name` (string), `pro
 
 available outputs: `property` (Scoping ,Field ,PropertyField ,Int32 ,StringField)
 
-**DPF Framework Reference:** [mesh_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_get_attribute.md)
+**DPF Framework Reference:** [mesh_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/mesh_get_attribute.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ superficial_velocity(time_scoping: object, mesh_scoping: object, data_sources: o
 superficial_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [superficial_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/superficial_velocity.md)
+**DPF Framework Reference:** [superficial_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/superficial_velocity.md)
 
 **Parameters:**
 

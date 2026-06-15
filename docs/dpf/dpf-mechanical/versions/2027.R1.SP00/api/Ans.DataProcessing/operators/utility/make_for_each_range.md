@@ -10,7 +10,7 @@ available inputs: `try_generate_iterable` (bool) (optional), `iterable` (Any) (o
 
 available outputs: `output` (Any)
 
-**DPF Framework Reference:** [make_for_each_range operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_for_each_range.md)
+**DPF Framework Reference:** [make_for_each_range operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/make_for_each_range.md)
 
 **Parameters:**
 

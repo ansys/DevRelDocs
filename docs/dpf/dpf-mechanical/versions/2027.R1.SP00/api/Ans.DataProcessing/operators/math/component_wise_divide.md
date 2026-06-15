@@ -4,13 +4,25 @@ uid: Ans.DataProcessing.operators.math.component_wise_divide
 
 # *class* component_wise_divide(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-Computes component-wise fraction between two fields of same dimensionality. If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely. When using a constant or 'work_by_index', you can use 'inplace' to reuse one of the fields.
+Computes the component-wise fraction $\mathrm{out}[k] = A[k] / B[k]$
+
+(also known as the [Hadamard division](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Analogous_operations))
+
+for fields of the same dimensionality.
+
+If one field's scoping has the 'overall' location, its values are broadcast across all entities of the other field.
+
+When $|B[k]| < 10^{-14}$ the corresponding output component is set to $0$.
+
+Inplace execution is supported when working with constants or using 'work_by_index'.
+
+The output unit is $u_A / u_B$.
 
 available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [component_wise_divide operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/component_wise_divide.md)
+**DPF Framework Reference:** [component_wise_divide operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/component_wise_divide.md)
 
 **Parameters:**
 
@@ -43,6 +55,8 @@ field or fields container with only one field is expected
 ## Outputs
 
 ### field
+
+Field with $A[k] / B[k]$ for each component (zero where $|B[k]| < 10^{-14}$); unit is $u_A / u_B$.
 
 **Type:** *LinkableOutput*
 

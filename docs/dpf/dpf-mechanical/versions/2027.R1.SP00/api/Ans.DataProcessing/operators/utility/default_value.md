@@ -10,7 +10,7 @@ available inputs: `forced_value` (Any) (optional), `default_value` (Any)
 
 available outputs: `output` (Any)
 
-**DPF Framework Reference:** [default_value operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/default_value.md)
+**DPF Framework Reference:** [default_value operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/default_value.md)
 
 **Parameters:**
 

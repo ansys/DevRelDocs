@@ -9,7 +9,7 @@ co_energy(time_scoping: object, mesh_scoping: object, data_sources: object, conf
 co_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [co_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/co_energy.md)
+**DPF Framework Reference:** [co_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/co_energy.md)
 
 **Parameters:**
 

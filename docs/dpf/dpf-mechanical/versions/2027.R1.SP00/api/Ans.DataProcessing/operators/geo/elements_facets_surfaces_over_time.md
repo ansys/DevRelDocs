@@ -10,7 +10,7 @@ available inputs: `scoping` (Scoping) (optional), `displacement` (FieldsContaine
 
 available outputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [elements_facets_surfaces_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/elements_facets_surfaces_over_time.md)
+**DPF Framework Reference:** [elements_facets_surfaces_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/geo/elements_facets_surfaces_over_time.md)
 
 **Parameters:**
 

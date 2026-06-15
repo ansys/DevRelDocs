@@ -9,7 +9,7 @@ gasket_stress_XY(time_scoping: object, mesh_scoping: object, data_sources: objec
 gasket_stress_XY(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_stress_XY operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_stress_XY.md)
+**DPF Framework Reference:** [gasket_stress_XY operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/gasket_stress_XY.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ modal_basis(time_scoping: object, mesh_scoping: object, data_sources: object, co
 modal_basis(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_basis operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_basis.md)
+**DPF Framework Reference:** [modal_basis operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/modal_basis.md)
 
 **Parameters:**
 

@@ -79,7 +79,7 @@ ansys::dpf::Mapping::Mapping(Mapping const &)
 
 **Parameters**:
 
-* Mapping const &
+* [Mapping](classansys-dpf-mapping.md#classansys-dpf-mapping) const &
 
 **Return type**: 
 
@@ -108,7 +108,7 @@ ansys::dpf::Mapping::Mapping(Mapping &&) noexcept
 
 **Parameters**:
 
-* Mapping &&
+* [Mapping](classansys-dpf-mapping.md#classansys-dpf-mapping) &&
 
 **Return type**: 
 
@@ -137,9 +137,9 @@ Mapping & ansys::dpf::Mapping::operator=(Mapping const &)
 
 **Parameters**:
 
-* Mapping const &
+* [Mapping](classansys-dpf-mapping.md#classansys-dpf-mapping) const &
 
-**Return type**: Mapping &
+**Return type**: [Mapping](classansys-dpf-mapping.md#classansys-dpf-mapping) &
 
 <!--
 **TODO**:
@@ -166,9 +166,9 @@ Mapping & ansys::dpf::Mapping::operator=(Mapping &&)=delete
 
 **Parameters**:
 
-* Mapping &&
+* [Mapping](classansys-dpf-mapping.md#classansys-dpf-mapping) &&
 
-**Return type**: Mapping &
+**Return type**: [Mapping](classansys-dpf-mapping.md#classansys-dpf-mapping) &
 
 <!--
 **TODO**:

@@ -9,7 +9,7 @@ thermal_strain_Y(time_scoping: object, mesh_scoping: object, data_sources: objec
 thermal_strain_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_strain_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_Y.md)
+**DPF Framework Reference:** [thermal_strain_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/thermal_strain_Y.md)
 
 **Parameters:**
 

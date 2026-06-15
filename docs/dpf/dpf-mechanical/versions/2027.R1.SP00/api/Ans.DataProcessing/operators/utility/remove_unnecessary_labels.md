@@ -10,7 +10,7 @@ available inputs: `permissive` (bool) (optional), `fields_container` (FieldsCont
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [remove_unnecessary_labels operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/remove_unnecessary_labels.md)
+**DPF Framework Reference:** [remove_unnecessary_labels operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/remove_unnecessary_labels.md)
 
 **Parameters:**
 

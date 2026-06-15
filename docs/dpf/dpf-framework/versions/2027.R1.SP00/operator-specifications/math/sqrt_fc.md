@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes element-wise square root function on field data: sqrt(field[i]).
+
+Computes the entity-wise square root
+([Hadamard root](https://en.wikipedia.org/wiki/Hadamard_product_(matrices)#Analogous_operations)):
+$\mathrm{out}[i] = \sqrt{\mathrm{in}[i]}$.
+All input values must be non-negative; a negative value raises an error.
+The output unit is $\sqrt{u}$ where $u$ is the input unit.
+
 
 ## Inputs
 
@@ -29,7 +35,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Field or fields container containing numeric data for square root calculation
+Field or fields container containing non-negative numeric data.
 
 
 ## Outputs
@@ -48,7 +54,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Field with square root values applied element-wise to input data
+Field with $\sqrt{\mathrm{in}[i]}$ for each data entry; unit is $\sqrt{u}$, where $u$ is the input unit.
 
 
 ## Configurations

@@ -10,7 +10,7 @@ available inputs: `real_field` (Field), `imaginary_field` (Field), `abs_value` (
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [phase_of_max operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/phase_of_max.md)
+**DPF Framework Reference:** [phase_of_max operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/min_max/phase_of_max.md)
 
 **Parameters:**
 

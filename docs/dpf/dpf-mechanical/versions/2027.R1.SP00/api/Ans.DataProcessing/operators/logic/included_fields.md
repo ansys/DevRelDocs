@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field), `double_value` (double), `
 
 available outputs: `included` (bool), `message` (string)
 
-**DPF Framework Reference:** [included_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/included_fields.md)
+**DPF Framework Reference:** [included_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/included_fields.md)
 
 **Parameters:**
 
@@ -45,6 +45,8 @@ Double positive small value. Smallest value considered during the comparison ste
 **Type:** *LinkableInput*
 
 ### double_tolerance
+
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical. Formula is (v1-v2)/v2 < relativeTol. Default is 0.001.
 
 **Type:** *LinkableInput*
 

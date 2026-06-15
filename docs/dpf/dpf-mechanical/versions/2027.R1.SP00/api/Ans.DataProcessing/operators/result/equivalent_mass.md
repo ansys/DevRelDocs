@@ -9,7 +9,7 @@ equivalent_mass(time_scoping: object, mesh_scoping: object, data_sources: object
 equivalent_mass(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [equivalent_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/equivalent_mass.md)
+**DPF Framework Reference:** [equivalent_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/equivalent_mass.md)
 
 **Parameters:**
 

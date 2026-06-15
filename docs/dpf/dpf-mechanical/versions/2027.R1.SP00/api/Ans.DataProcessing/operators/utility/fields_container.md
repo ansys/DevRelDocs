@@ -10,7 +10,7 @@ available inputs: `input` (FieldsContainer)
 
 available outputs: `incremented_result` (Any)
 
-**DPF Framework Reference:** [fields_container operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/fields_container.md)
+**DPF Framework Reference:** [fields_container operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/fields_container.md)
 
 **Parameters:**
 

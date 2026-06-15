@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `mesh` (MeshedRegion), `r
 
 available outputs: `mesh_scoping` (ScopingsContainer)
 
-**DPF Framework Reference:** [split_on_property_type operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/split_on_property_type.md)
+**DPF Framework Reference:** [split_on_property_type operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/split_on_property_type.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `property_name` (string)
 
 available outputs: `property` (Scoping ,IList int  ,TimeFreqSupport ,LabelSpace ,Field ,string ,StringField ,System.Collections.IEnumerable)
 
-**DPF Framework Reference:** [fc_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/fc_get_attribute.md)
+**DPF Framework Reference:** [fc_get_attribute operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/fc_get_attribute.md)
 
 **Parameters:**
 

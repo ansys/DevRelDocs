@@ -10,7 +10,7 @@ available inputs: `fields` (CustomTypeFieldsContainer, CustomTypeField), `mesh_s
 
 available outputs: `fields` (CustomTypeFieldsContainer ,CustomTypeField)
 
-**DPF Framework Reference:** [rescope_custom_type_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_custom_type_field.md)
+**DPF Framework Reference:** [rescope_custom_type_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/rescope_custom_type_field.md)
 
 **Parameters:**
 

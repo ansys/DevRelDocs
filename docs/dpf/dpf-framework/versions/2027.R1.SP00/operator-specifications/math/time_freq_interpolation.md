@@ -10,7 +10,15 @@ license: None
 
 ## Description
 
-Interpolates between all the matching fields of a fields container at given times or frequencies, using ramped: fieldOut = field1*(1.-fact)+field2*(fact), or stepped: fieldOut=field2. If the time freq is higher than the max available, the field at the max time freq is taken. Computes the output time freq support to support the fields container
+
+Interpolates the fields in a fields container at the requested times or frequencies
+using [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation).
+Ramped interpolation ($p = 1$, default): $\mathrm{out}[i] = (1 - s) \cdot f_1[i] + s \cdot f_2[i]$
+where $s = (t - t_1) / (t_2 - t_1)$.
+Stepped interpolation ($p = 2$): $\mathrm{out}[i] = f_2[i]$.
+If the requested value exceeds the available range, the field at the maximum available value is used.
+A new time-frequency support aligned with the requested values is produced as a second output.
+
 
 ## Inputs
 
@@ -86,6 +94,7 @@ Each output is detailed in the sections that follow the table.
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [time_freq_support](#output_1) |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
 
 
 <a id="output_0"></a>
@@ -93,7 +102,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer with interpolated fields at specified time/frequency values
+Fields container with one interpolated field set per requested time or frequency value.
+
+<a id="output_1"></a>
+### time_freq_support (Pin 1)
+
+- **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
+
+Time or frequency support aligned with the output fields container.
 
 
 ## Configurations
@@ -152,6 +168,7 @@ op.connect(3, my_interpolation_type);
 op.connect(4, my_force_new_time_freq_support);
 op.connect(8, my_time_freq_support);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::TimeFreqSupport my_time_freq_support = op.getOutput<ansys::dpf::TimeFreqSupport>(1);
 ```
 </details>
 
@@ -169,6 +186,7 @@ op.inputs.interpolation_type.connect(my_interpolation_type)
 op.inputs.force_new_time_freq_support.connect(my_force_new_time_freq_support)
 op.inputs.time_freq_support.connect(my_time_freq_support)
 my_fields_container = op.outputs.fields_container()
+my_time_freq_support = op.outputs.time_freq_support()
 ```
 </details>
 
@@ -187,6 +205,7 @@ op.inputs.interpolation_type.Connect(my_interpolation_type)
 op.inputs.force_new_time_freq_support.Connect(my_force_new_time_freq_support)
 op.inputs.time_freq_support.Connect(my_time_freq_support)
 my_fields_container = op.outputs.fields_container.GetData()
+my_time_freq_support = op.outputs.time_freq_support.GetData()
 ```
 </details>
 <br>

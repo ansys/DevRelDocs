@@ -1,5 +1,5 @@
 ---
-uid: Ans.DataProcessing.operators.result.mapdl.global_to_nodal
+uid: Ans.DataProcessing.operators.result.global_to_nodal
 ---
 
 # *class* global_to_nodal(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [global_to_nodal operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/global_to_nodal.md)
+**DPF Framework Reference:** [global_to_nodal operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/global_to_nodal.md)
 
 **Parameters:**
 

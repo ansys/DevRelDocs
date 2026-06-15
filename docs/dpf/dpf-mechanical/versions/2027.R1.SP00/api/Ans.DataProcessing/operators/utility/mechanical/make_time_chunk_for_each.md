@@ -9,7 +9,7 @@ make_time_chunk_for_each(target_time_freq_values: object, operator_to_iterate: o
 make_time_chunk_for_each(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [make_time_chunk_for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_time_chunk_for_each.md)
+**DPF Framework Reference:** [make_time_chunk_for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/make_time_chunk_for_each.md)
 
 **Parameters:**
 

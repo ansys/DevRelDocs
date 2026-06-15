@@ -9,7 +9,7 @@ stress_principal_2(time_scoping: object, mesh_scoping: object, data_sources: obj
 stress_principal_2(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_principal_2 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_principal_2.md)
+**DPF Framework Reference:** [stress_principal_2 operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/stress_principal_2.md)
 
 **Parameters:**
 

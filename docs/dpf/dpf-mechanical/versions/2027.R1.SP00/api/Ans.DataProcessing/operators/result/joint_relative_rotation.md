@@ -9,7 +9,7 @@ joint_relative_rotation(time_scoping: object, mesh_scoping: object, data_sources
 joint_relative_rotation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_relative_rotation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_relative_rotation.md)
+**DPF Framework Reference:** [joint_relative_rotation operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/joint_relative_rotation.md)
 
 **Parameters:**
 

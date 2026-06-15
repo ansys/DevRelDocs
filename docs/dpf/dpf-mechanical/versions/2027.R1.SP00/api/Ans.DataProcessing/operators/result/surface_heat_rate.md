@@ -9,7 +9,7 @@ surface_heat_rate(time_scoping: object, mesh_scoping: object, data_sources: obje
 surface_heat_rate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [surface_heat_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/surface_heat_rate.md)
+**DPF Framework Reference:** [surface_heat_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/surface_heat_rate.md)
 
 **Parameters:**
 

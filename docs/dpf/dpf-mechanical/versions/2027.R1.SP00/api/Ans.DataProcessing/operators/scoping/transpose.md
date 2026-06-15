@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping, ScopingsContainer), `meshed_region` (
 
 available outputs: `mesh_scoping` (Scoping ,ScopingsContainer)
 
-**DPF Framework Reference:** [transpose operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/transpose.md)
+**DPF Framework Reference:** [transpose operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/transpose.md)
 
 **Parameters:**
 

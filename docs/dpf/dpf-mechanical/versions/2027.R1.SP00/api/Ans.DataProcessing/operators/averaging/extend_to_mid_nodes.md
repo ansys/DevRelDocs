@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `mesh` (MeshedRegion) (optio
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [extend_to_mid_nodes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/extend_to_mid_nodes.md)
+**DPF Framework Reference:** [extend_to_mid_nodes operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/averaging/extend_to_mid_nodes.md)
 
 **Parameters:**
 

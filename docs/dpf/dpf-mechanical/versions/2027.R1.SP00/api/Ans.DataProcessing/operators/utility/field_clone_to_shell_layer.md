@@ -10,7 +10,7 @@ available inputs: `field` (Field), `shell_layer` (Int32), `duplicate_scoping` (b
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [field_clone_to_shell_layer operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/field_clone_to_shell_layer.md)
+**DPF Framework Reference:** [field_clone_to_shell_layer operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/field_clone_to_shell_layer.md)
 
 **Parameters:**
 

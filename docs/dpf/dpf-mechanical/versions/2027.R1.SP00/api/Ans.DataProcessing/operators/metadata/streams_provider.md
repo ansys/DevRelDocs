@@ -22,7 +22,7 @@ available inputs: `data_sources` (DataSources)
 
 available outputs: `streams_container` (StreamsContainer)
 
-**DPF Framework Reference:** [streams_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/streams_provider.md)
+**DPF Framework Reference:** [streams_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/streams_provider.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `is_constant` (bool) (op
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [recombine_harmonic_indeces_cyclic operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
+**DPF Framework Reference:** [recombine_harmonic_indeces_cyclic operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
 
 **Parameters:**
 

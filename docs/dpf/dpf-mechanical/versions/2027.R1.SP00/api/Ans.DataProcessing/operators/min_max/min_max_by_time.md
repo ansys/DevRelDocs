@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `compute_absolute_value`
 
 available outputs: `min` (FieldsContainer), `max` (FieldsContainer)
 
-**DPF Framework Reference:** [min_max_by_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_by_time.md)
+**DPF Framework Reference:** [min_max_by_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/min_max/min_max_by_time.md)
 
 **Parameters:**
 

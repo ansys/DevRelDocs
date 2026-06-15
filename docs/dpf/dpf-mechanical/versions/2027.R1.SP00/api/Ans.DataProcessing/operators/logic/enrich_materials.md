@@ -10,7 +10,7 @@ available inputs: `MaterialContainer` (Any), `streams` (StreamsContainer, Fields
 
 available outputs: `MaterialContainer` (bool)
 
-**DPF Framework Reference:** [enrich_materials operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/enrich_materials.md)
+**DPF Framework Reference:** [enrich_materials operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/logic/enrich_materials.md)
 
 **Parameters:**
 

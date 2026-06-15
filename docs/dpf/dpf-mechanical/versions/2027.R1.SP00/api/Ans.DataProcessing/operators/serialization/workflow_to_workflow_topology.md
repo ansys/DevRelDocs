@@ -10,7 +10,7 @@ available inputs: `workflow` (Workflow)
 
 available outputs: `workflow_topology` (GenericDataContainer)
 
-**DPF Framework Reference:** [workflow_to_workflow_topology operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_workflow_topology.md)
+**DPF Framework Reference:** [workflow_to_workflow_topology operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/workflow_to_workflow_topology.md)
 
 **Parameters:**
 

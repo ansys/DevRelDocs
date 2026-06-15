@@ -9,7 +9,7 @@ raw_acceleration(time_scoping: object, mesh_scoping: object, data_sources: objec
 raw_acceleration(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [raw_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_acceleration.md)
+**DPF Framework Reference:** [raw_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/raw_acceleration.md)
 
 **Parameters:**
 

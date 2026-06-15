@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping), `denominator` (Int32) (optional)
 
 available outputs: `mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [reduce_sampling operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/reduce_sampling.md)
+**DPF Framework Reference:** [reduce_sampling operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/reduce_sampling.md)
 
 **Parameters:**
 

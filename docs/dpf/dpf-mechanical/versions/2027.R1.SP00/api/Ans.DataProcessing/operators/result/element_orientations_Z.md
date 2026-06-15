@@ -9,7 +9,7 @@ element_orientations_Z(time_scoping: object, mesh_scoping: object, data_sources:
 element_orientations_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [element_orientations_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/element_orientations_Z.md)
+**DPF Framework Reference:** [element_orientations_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/element_orientations_Z.md)
 
 **Parameters:**
 

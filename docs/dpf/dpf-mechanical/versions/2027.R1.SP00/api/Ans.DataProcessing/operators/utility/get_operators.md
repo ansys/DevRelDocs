@@ -10,7 +10,7 @@ available inputs: `workflow` (Workflow)
 
 available outputs: `operators` (GenericDataContainer)
 
-**DPF Framework Reference:** [get_operators operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/get_operators.md)
+**DPF Framework Reference:** [get_operators operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/get_operators.md)
 
 **Parameters:**
 

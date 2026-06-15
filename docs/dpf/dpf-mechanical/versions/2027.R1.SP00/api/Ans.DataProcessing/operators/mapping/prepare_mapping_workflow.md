@@ -12,7 +12,7 @@ available inputs: `input_support` (Field, MeshedRegion), `output_support` (Field
 
 available outputs: `mapping_workflow` (Workflow)
 
-**DPF Framework Reference:** [prepare_mapping_workflow operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mapping_workflow.md)
+**DPF Framework Reference:** [prepare_mapping_workflow operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mapping/prepare_mapping_workflow.md)
 
 **Parameters:**
 

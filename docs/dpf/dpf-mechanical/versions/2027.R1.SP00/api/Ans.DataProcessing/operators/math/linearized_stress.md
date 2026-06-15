@@ -10,7 +10,7 @@ available inputs: `stress_comps` (FieldsContainer), `iComp` (Int32), `path_coord
 
 available outputs: `linearized_stress_results` (FieldsContainer), `linearized_stress_all_results` (FieldsContainer), `linearized_stress_params` (FieldsContainer)
 
-**DPF Framework Reference:** [linearized_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/linearized_stress.md)
+**DPF Framework Reference:** [linearized_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/linearized_stress.md)
 
 **Parameters:**
 

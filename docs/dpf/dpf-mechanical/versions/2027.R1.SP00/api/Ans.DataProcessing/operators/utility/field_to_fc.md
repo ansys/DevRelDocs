@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `label` (LabelSpace)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [field_to_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/field_to_fc.md)
+**DPF Framework Reference:** [field_to_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/field_to_fc.md)
 
 **Parameters:**
 

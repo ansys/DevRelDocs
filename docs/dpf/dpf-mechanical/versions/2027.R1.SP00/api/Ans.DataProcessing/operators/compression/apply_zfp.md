@@ -10,7 +10,7 @@ available inputs: `dataIn` (Field, FieldsContainer), `mode` (string, Char), `mod
 
 available outputs: `compress_speed` (double), `compress_ratio` (double), `dataOut` (CustomTypeFieldsContainer)
 
-**DPF Framework Reference:** [apply_zfp operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/apply_zfp.md)
+**DPF Framework Reference:** [apply_zfp operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/compression/apply_zfp.md)
 
 **Parameters:**
 
@@ -70,6 +70,8 @@ Double positive small value. All the values smaller than max(small value, max(vi
 **Type:** *LinkableInput*
 
 ### double_relthreshold
+
+Double relative threshold. Values smaller than (v1 - v2) < max(small value, v1 * relativeTol) are considered identical (default value: 1.0e-10).
 
 **Type:** *LinkableInput*
 

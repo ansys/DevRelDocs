@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [exclude_levelset operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/exclude_levelset.md)
+**DPF Framework Reference:** [exclude_levelset operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/mesh/exclude_levelset.md)
 
 **Parameters:**
 

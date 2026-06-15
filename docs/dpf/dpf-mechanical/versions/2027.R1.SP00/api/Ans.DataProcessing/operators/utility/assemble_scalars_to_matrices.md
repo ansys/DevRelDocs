@@ -10,7 +10,7 @@ available inputs: `xx` (Field) (optional), `yy` (Field) (optional), `zz` (Field)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [assemble_scalars_to_matrices operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/assemble_scalars_to_matrices.md)
+**DPF Framework Reference:** [assemble_scalars_to_matrices operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/assemble_scalars_to_matrices.md)
 
 **Parameters:**
 

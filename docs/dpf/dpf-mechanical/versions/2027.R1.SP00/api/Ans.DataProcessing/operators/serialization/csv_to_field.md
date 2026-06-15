@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping) (optional), `data_sources` (DataSourc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [csv_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/csv_to_field.md)
+**DPF Framework Reference:** [csv_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/csv_to_field.md)
 
 **Parameters:**
 

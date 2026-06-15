@@ -45,7 +45,7 @@ Description of type.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend struct types"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::types"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"types"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"structansys_1_1dpf_1_1types"},"children":[{"type":"text","text":"types"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="structansys-dpf-typedescriptor-1aa60b6022465bcd46362295cc53d4ba68"></a>
@@ -67,7 +67,7 @@ Description of type.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class OperatorSpecification"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::TypeDescriptor::OperatorSpecification"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"OperatorSpecification"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1OperatorSpecification"},"children":[{"type":"text","text":"OperatorSpecification"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 ## Public functions
@@ -120,7 +120,7 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor const &)=default
 
 **Parameters**:
 
-* TypeDescriptor const &
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) const &
 
 **Return type**: 
 
@@ -149,7 +149,7 @@ ansys::dpf::TypeDescriptor::TypeDescriptor(TypeDescriptor &&)=default
 
 **Parameters**:
 
-* TypeDescriptor &&
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) &&
 
 **Return type**: 
 
@@ -178,9 +178,9 @@ TypeDescriptor & ansys::dpf::TypeDescriptor::operator=(TypeDescriptor const &)=d
 
 **Parameters**:
 
-* TypeDescriptor const &
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) const &
 
-**Return type**: TypeDescriptor &
+**Return type**: [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) &
 
 <!--
 **TODO**:
@@ -207,9 +207,9 @@ TypeDescriptor & ansys::dpf::TypeDescriptor::operator=(TypeDescriptor &&)=defaul
 
 **Parameters**:
 
-* TypeDescriptor &&
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) &&
 
-**Return type**: TypeDescriptor &
+**Return type**: [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) &
 
 <!--
 **TODO**:
@@ -237,7 +237,7 @@ bool ansys::dpf::TypeDescriptor::operator==(TypeDescriptor const &) const
 
 **Parameters**:
 
-* TypeDescriptor const &
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) const &
 
 **Return type**: bool
 
@@ -267,7 +267,7 @@ bool ansys::dpf::TypeDescriptor::operator<(TypeDescriptor const &) const
 
 **Parameters**:
 
-* TypeDescriptor const &
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) const &
 
 **Return type**: bool
 
@@ -297,7 +297,7 @@ bool ansys::dpf::TypeDescriptor::operator<=(TypeDescriptor const &) const
 
 **Parameters**:
 
-* TypeDescriptor const &
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) const &
 
 **Return type**: bool
 
@@ -327,7 +327,7 @@ bool ansys::dpf::TypeDescriptor::operator!=(TypeDescriptor const &) const
 
 **Parameters**:
 
-* TypeDescriptor const &
+* [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) const &
 
 **Return type**: bool
 

@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion, Me
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [nodal_difference_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_difference_fc.md)
+**DPF Framework Reference:** [nodal_difference_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/averaging/nodal_difference_fc.md)
 
 **Parameters:**
 

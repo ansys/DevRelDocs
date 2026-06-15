@@ -9,7 +9,7 @@ node_orientations(time_scoping: object, mesh_scoping: object, data_sources: obje
 node_orientations(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [node_orientations operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations.md)
+**DPF Framework Reference:** [node_orientations operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/node_orientations.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ temperature_grad_Y(time_scoping: object, mesh_scoping: object, data_sources: obj
 temperature_grad_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [temperature_grad_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/temperature_grad_Y.md)
+**DPF Framework Reference:** [temperature_grad_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/temperature_grad_Y.md)
 
 **Parameters:**
 

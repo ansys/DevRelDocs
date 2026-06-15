@@ -9,7 +9,7 @@ modal_damping_ratio(natural_freq: object, const_ratio: object, ratio_by_modes: o
 modal_damping_ratio(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_damping_ratio operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_damping_ratio.md)
+**DPF Framework Reference:** [modal_damping_ratio operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/modal_damping_ratio.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ stress_Z(time_scoping: object, mesh_scoping: object, data_sources: object, reque
 stress_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_Z.md)
+**DPF Framework Reference:** [stress_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/stress_Z.md)
 
 **Parameters:**
 

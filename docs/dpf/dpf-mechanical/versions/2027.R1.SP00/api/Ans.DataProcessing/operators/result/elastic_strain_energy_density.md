@@ -9,7 +9,7 @@ elastic_strain_energy_density(time_scoping: object, mesh_scoping: object, data_s
 elastic_strain_energy_density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elastic_strain_energy_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_energy_density.md)
+**DPF Framework Reference:** [elastic_strain_energy_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/elastic_strain_energy_density.md)
 
 **Parameters:**
 

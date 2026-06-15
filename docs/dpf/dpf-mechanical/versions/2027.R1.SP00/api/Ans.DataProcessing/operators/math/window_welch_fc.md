@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [window_welch_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/window_welch_fc.md)
+**DPF Framework Reference:** [window_welch_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/window_welch_fc.md)
 
 **Parameters:**
 

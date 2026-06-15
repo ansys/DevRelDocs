@@ -26,6 +26,8 @@
       href: user-guide/dpf-collections.md
     - name: Writing a DPF operator
       href: user-guide/write-an-operator.md
+    - name: Logging in DPF operators and plugins
+      href: user-guide/logging-in-dpf.md
   - name: Starting to use DPF
     href: user-guide/starting-to-use-dpf.md
     items:
@@ -320,6 +322,8 @@
       href: api-reference/structansys-dpf-reflect-size-t.md
     - name: ansys::dpf::reflect< unsigned int >
       href: api-reference/structansys-dpf-reflect-unsigned-int.md
+    - name: ansys::dpf::reflect< unsigned short >
+      href: api-reference/structansys-dpf-reflect-unsigned-short.md
     - name: ansys::dpf::reflect< wchar_t >
       href: api-reference/structansys-dpf-reflect-wchar-t.md
     - name: ansys::dpf::spec

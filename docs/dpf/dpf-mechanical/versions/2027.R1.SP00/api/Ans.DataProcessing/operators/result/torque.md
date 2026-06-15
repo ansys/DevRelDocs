@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `spoint` (Field, FieldsC
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [torque operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/torque.md)
+**DPF Framework Reference:** [torque operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/torque.md)
 
 **Parameters:**
 

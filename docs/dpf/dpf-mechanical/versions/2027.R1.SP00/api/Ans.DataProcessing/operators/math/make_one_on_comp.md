@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `scalar_int` (Int32)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [make_one_on_comp operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/make_one_on_comp.md)
+**DPF Framework Reference:** [make_one_on_comp operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/make_one_on_comp.md)
 
 **Parameters:**
 

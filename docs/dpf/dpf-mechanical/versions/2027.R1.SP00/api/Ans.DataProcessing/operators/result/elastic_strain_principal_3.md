@@ -9,7 +9,7 @@ elastic_strain_principal_3(time_scoping: object, mesh_scoping: object, data_sour
 elastic_strain_principal_3(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elastic_strain_principal_3 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_principal_3.md)
+**DPF Framework Reference:** [elastic_strain_principal_3 operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/elastic_strain_principal_3.md)
 
 **Parameters:**
 

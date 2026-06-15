@@ -9,7 +9,7 @@ velocity_Z(time_scoping: object, mesh_scoping: object, data_sources: object, con
 velocity_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [velocity_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/velocity_Z.md)
+**DPF Framework Reference:** [velocity_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/velocity_Z.md)
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ stress_von_mises(time_scoping: object, mesh_scoping: object, data_sources: objec
 stress_von_mises(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_von_mises operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_von_mises.md)
+**DPF Framework Reference:** [stress_von_mises operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/stress_von_mises.md)
 
 **Parameters:**
 

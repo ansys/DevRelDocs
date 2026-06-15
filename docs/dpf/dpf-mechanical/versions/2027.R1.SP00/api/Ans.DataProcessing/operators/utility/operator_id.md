@@ -10,7 +10,7 @@ available inputs: `op` (Operator)
 
 available outputs: `id` (Int32)
 
-**DPF Framework Reference:** [operator_id operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/operator_id.md)
+**DPF Framework Reference:** [operator_id operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/operator_id.md)
 
 **Parameters:**
 

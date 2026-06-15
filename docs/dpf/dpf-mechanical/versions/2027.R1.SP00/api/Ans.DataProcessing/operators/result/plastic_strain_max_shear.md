@@ -9,7 +9,7 @@ plastic_strain_max_shear(time_scoping: object, mesh_scoping: object, data_source
 plastic_strain_max_shear(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [plastic_strain_max_shear operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_max_shear.md)
+**DPF Framework Reference:** [plastic_strain_max_shear operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/plastic_strain_max_shear.md)
 
 **Parameters:**
 

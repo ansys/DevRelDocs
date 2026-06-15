@@ -9,7 +9,7 @@ elastic_strain_intensity(time_scoping: object, mesh_scoping: object, data_source
 elastic_strain_intensity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elastic_strain_intensity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_intensity.md)
+**DPF Framework Reference:** [elastic_strain_intensity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/elastic_strain_intensity.md)
 
 **Parameters:**
 

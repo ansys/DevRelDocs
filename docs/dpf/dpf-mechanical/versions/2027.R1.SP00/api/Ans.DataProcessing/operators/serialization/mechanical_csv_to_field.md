@@ -10,7 +10,7 @@ available inputs: `unit` (), `mesh` (MeshedRegion) (optional), `data_sources` (D
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [mechanical_csv_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/mechanical_csv_to_field.md)
+**DPF Framework Reference:** [mechanical_csv_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/mechanical_csv_to_field.md)
 
 **Parameters:**
 

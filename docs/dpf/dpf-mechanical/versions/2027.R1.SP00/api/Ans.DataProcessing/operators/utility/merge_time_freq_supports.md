@@ -10,7 +10,7 @@ available inputs: `time_freq_supports1` (TimeFreqSupport), `time_freq_supports2`
 
 available outputs: `merged_support` (TimeFreqSupport)
 
-**DPF Framework Reference:** [merge_time_freq_supports operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_time_freq_supports.md)
+**DPF Framework Reference:** [merge_time_freq_supports operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/utility/merge_time_freq_supports.md)
 
 **Parameters:**
 

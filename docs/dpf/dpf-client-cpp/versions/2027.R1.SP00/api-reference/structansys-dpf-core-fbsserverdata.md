@@ -33,7 +33,7 @@ FbsClient ansys::dpf::core::FbsServerData::server_holder
 
 
 
-**Type**: FbsClient
+**Type**: [FbsClient](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:

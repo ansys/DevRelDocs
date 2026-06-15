@@ -9,7 +9,7 @@ num_surface_status_changes(time_scoping: object, mesh_scoping: object, data_sour
 num_surface_status_changes(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [num_surface_status_changes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/num_surface_status_changes.md)
+**DPF Framework Reference:** [num_surface_status_changes operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/num_surface_status_changes.md)
 
 **Parameters:**
 

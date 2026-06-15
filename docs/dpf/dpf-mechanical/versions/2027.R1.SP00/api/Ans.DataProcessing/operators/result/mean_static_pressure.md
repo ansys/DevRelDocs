@@ -9,7 +9,7 @@ mean_static_pressure(time_scoping: object, mesh_scoping: object, data_sources: o
 mean_static_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mean_static_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mean_static_pressure.md)
+**DPF Framework Reference:** [mean_static_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/mean_static_pressure.md)
 
 **Parameters:**
 

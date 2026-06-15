@@ -9,7 +9,7 @@ compute_invariant_terms_motion(rom_matrices: object, mode_shapes: object, lumped
 compute_invariant_terms_motion(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_invariant_terms_motion operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_invariant_terms_motion.md)
+**DPF Framework Reference:** [compute_invariant_terms_motion operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/compute_invariant_terms_motion.md)
 
 **Parameters:**
 

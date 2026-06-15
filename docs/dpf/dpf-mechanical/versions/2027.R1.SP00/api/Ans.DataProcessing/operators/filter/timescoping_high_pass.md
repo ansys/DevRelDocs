@@ -10,7 +10,7 @@ available inputs: `time_freq_support` (TimeFreqSupport), `threshold` (double, Fi
 
 available outputs: `scoping` (Scoping)
 
-**DPF Framework Reference:** [timescoping_high_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/timescoping_high_pass.md)
+**DPF Framework Reference:** [timescoping_high_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/filter/timescoping_high_pass.md)
 
 **Parameters:**
 

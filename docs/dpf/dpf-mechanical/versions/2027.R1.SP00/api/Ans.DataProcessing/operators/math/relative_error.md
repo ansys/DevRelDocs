@@ -9,7 +9,7 @@ relative_error(value: object, reference: object, config: OperatorConfig)
 relative_error(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [relative_error operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/relative_error.md)
+**DPF Framework Reference:** [relative_error operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/relative_error.md)
 
 **Parameters:**
 

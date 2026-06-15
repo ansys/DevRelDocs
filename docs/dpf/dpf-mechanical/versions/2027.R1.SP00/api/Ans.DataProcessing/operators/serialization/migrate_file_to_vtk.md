@@ -10,7 +10,7 @@ available inputs: `output_filename` (string) (optional), `streams_container` (St
 
 available outputs: `data_sources` (DataSources)
 
-**DPF Framework Reference:** [migrate_file_to_vtk operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/migrate_file_to_vtk.md)
+**DPF Framework Reference:** [migrate_file_to_vtk operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/serialization/migrate_file_to_vtk.md)
 
 **Parameters:**
 

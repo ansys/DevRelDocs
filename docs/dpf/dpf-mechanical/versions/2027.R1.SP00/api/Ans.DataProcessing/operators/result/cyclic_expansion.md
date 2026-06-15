@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [cyclic_expansion operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cyclic_expansion.md)
+**DPF Framework Reference:** [cyclic_expansion operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/cyclic_expansion.md)
 
 **Parameters:**
 

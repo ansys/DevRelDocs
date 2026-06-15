@@ -9,7 +9,7 @@ y_plus(time_scoping: object, mesh_scoping: object, data_sources: object, config:
 y_plus(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [y_plus operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/y_plus.md)
+**DPF Framework Reference:** [y_plus operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/y_plus.md)
 
 **Parameters:**
 

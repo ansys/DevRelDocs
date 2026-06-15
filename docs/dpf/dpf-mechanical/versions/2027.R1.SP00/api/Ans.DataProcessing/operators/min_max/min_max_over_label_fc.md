@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `label` (string)
 
 available outputs: `field_min` (Field), `field_max` (Field), `domain_ids_min` (Scoping), `domain_ids_max` (Scoping), `scoping_ids_min` (Scoping), `scoping_ids_max` (Scoping)
 
-**DPF Framework Reference:** [min_max_over_label_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_over_label_fc.md)
+**DPF Framework Reference:** [min_max_over_label_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/min_max/min_max_over_label_fc.md)
 
 **Parameters:**
 

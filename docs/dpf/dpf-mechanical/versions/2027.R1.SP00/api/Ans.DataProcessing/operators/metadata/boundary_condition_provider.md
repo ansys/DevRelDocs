@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `field_or_fields_container` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [boundary_condition_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/boundary_condition_provider.md)
+**DPF Framework Reference:** [boundary_condition_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/metadata/boundary_condition_provider.md)
 
 **Parameters:**
 

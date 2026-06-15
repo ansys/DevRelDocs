@@ -9,7 +9,7 @@ scale(field: object, weights: object, boolean: object, algorithm: object, config
 scale(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [scale operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale.md)
+**DPF Framework Reference:** [scale operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/scale.md)
 
 **Parameters:**
 

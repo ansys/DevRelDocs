@@ -9,7 +9,7 @@ joint_relative_velocity(time_scoping: object, mesh_scoping: object, data_sources
 joint_relative_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_relative_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_relative_velocity.md)
+**DPF Framework Reference:** [joint_relative_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/joint_relative_velocity.md)
 
 **Parameters:**
 

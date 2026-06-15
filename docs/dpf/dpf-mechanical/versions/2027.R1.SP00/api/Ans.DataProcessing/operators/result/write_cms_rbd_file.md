@@ -9,7 +9,7 @@ write_cms_rbd_file(model_data: object, center_of_mass: object, inertia_relief: o
 write_cms_rbd_file(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [write_cms_rbd_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/write_cms_rbd_file.md)
+**DPF Framework Reference:** [write_cms_rbd_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/write_cms_rbd_file.md)
 
 **Parameters:**
 

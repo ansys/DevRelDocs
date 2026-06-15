@@ -9,7 +9,7 @@ creep_strain_XZ(time_scoping: object, mesh_scoping: object, data_sources: object
 creep_strain_XZ(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [creep_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_XZ.md)
+**DPF Framework Reference:** [creep_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/creep_strain_XZ.md)
 
 **Parameters:**
 

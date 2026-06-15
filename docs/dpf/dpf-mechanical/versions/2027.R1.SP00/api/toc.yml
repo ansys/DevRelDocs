@@ -515,6 +515,10 @@
       href: Ans.DataProcessing/operators/math/make_one_on_comp.md
     - name: matrix_inverse
       href: Ans.DataProcessing/operators/math/matrix_inverse.md
+    - name: matrix_product
+      href: Ans.DataProcessing/operators/math/matrix_product.md
+    - name: matrix_product_fc
+      href: Ans.DataProcessing/operators/math/matrix_product_fc.md
     - name: minus
       href: Ans.DataProcessing/operators/math/minus.md
     - name: minus_fc
@@ -1124,6 +1128,8 @@
       href: Ans.DataProcessing/operators/result/global_system_damping_energy.md
     - name: global_time_step
       href: Ans.DataProcessing/operators/result/global_time_step.md
+    - name: global_to_nodal
+      href: Ans.DataProcessing/operators/result/global_to_nodal.md
     - name: global_total_energy
       href: Ans.DataProcessing/operators/result/global_total_energy.md
     - name: global_total_mass
@@ -1346,10 +1352,14 @@
       href: Ans.DataProcessing/operators/result/poynting_vector_surface.md
     - name: prandtl_number
       href: Ans.DataProcessing/operators/result/prandtl_number.md
+    - name: pres_to_field
+      href: Ans.DataProcessing/operators/result/pres_to_field.md
     - name: pressure
       href: Ans.DataProcessing/operators/result/pressure.md
     - name: pretension
       href: Ans.DataProcessing/operators/result/pretension.md
+    - name: prns_to_field
+      href: Ans.DataProcessing/operators/result/prns_to_field.md
     - name: radiation_area
       href: Ans.DataProcessing/operators/result/radiation_area.md
     - name: raw_acceleration
@@ -1406,6 +1416,8 @@
       href: Ans.DataProcessing/operators/result/rms_velocity.md
     - name: rom_data_provider
       href: Ans.DataProcessing/operators/result/rom_data_provider.md
+    - name: run
+      href: Ans.DataProcessing/operators/result/run.md
     - name: smisc
       href: Ans.DataProcessing/operators/result/smisc.md
     - name: specific_heat
@@ -1554,17 +1566,6 @@
       href: Ans.DataProcessing/operators/result/write_motion_dfmf_file.md
     - name: y_plus
       href: Ans.DataProcessing/operators/result/y_plus.md
-  - name: result.mapdl
-    href: Ans.DataProcessing/operators/result/mapdl/index.md
-    items:
-    - name: global_to_nodal
-      href: Ans.DataProcessing/operators/result/mapdl/global_to_nodal.md
-    - name: pres_to_field
-      href: Ans.DataProcessing/operators/result/mapdl/pres_to_field.md
-    - name: prns_to_field
-      href: Ans.DataProcessing/operators/result/mapdl/prns_to_field.md
-    - name: run
-      href: Ans.DataProcessing/operators/result/mapdl/run.md
   - name: scoping
     href: Ans.DataProcessing/operators/scoping/index.md
     items:
@@ -1689,6 +1690,8 @@
       href: Ans.DataProcessing/operators/utility/concatenate_fields.md
     - name: concatenate_fields_containers
       href: Ans.DataProcessing/operators/utility/concatenate_fields_containers.md
+    - name: csharp_generator
+      href: Ans.DataProcessing/operators/utility/csharp_generator.md
     - name: customtypefield_get_attribute
       href: Ans.DataProcessing/operators/utility/customtypefield_get_attribute.md
     - name: cyclic_support_get_attribute

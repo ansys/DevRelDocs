@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion)
 
 available outputs: `mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [nodal_from_mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/nodal_from_mesh.md)
+**DPF Framework Reference:** [nodal_from_mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/scoping/nodal_from_mesh.md)
 
 **Parameters:**
 

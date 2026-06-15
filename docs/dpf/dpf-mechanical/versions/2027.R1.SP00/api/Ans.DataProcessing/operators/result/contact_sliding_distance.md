@@ -9,7 +9,7 @@ contact_sliding_distance(time_scoping: object, mesh_scoping: object, data_source
 contact_sliding_distance(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_sliding_distance operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_sliding_distance.md)
+**DPF Framework Reference:** [contact_sliding_distance operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/contact_sliding_distance.md)
 
 **Parameters:**
 

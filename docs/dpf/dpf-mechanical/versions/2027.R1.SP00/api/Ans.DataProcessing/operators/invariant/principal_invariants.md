@@ -10,7 +10,7 @@ available inputs: `field` (Field)
 
 available outputs: `field_eig_1` (Field), `field_eig_2` (Field), `field_eig_3` (Field)
 
-**DPF Framework Reference:** [principal_invariants operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/principal_invariants.md)
+**DPF Framework Reference:** [principal_invariants operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/invariant/principal_invariants.md)
 
 **Parameters:**
 

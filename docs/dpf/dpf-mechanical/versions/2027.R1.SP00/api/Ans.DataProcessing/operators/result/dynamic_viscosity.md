@@ -9,7 +9,7 @@ dynamic_viscosity(time_scoping: object, mesh_scoping: object, data_sources: obje
 dynamic_viscosity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [dynamic_viscosity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/dynamic_viscosity.md)
+**DPF Framework Reference:** [dynamic_viscosity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/dynamic_viscosity.md)
 
 **Parameters:**
 

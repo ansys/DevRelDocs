@@ -14,7 +14,7 @@ available inputs: `fields_container` (FieldsContainer), `compute_absolute_value`
 
 available outputs: `min` (FieldsContainer), `max` (FieldsContainer), `time_freq_of_min` (FieldsContainer), `time_freq_of_max` (FieldsContainer)
 
-**DPF Framework Reference:** [min_max_over_time_by_entity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_over_time_by_entity.md)
+**DPF Framework Reference:** [min_max_over_time_by_entity operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/min_max/min_max_over_time_by_entity.md)
 
 **Parameters:**
 

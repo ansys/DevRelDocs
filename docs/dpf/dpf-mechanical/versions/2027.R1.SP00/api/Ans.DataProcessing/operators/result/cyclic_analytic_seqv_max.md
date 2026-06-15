@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [cyclic_analytic_seqv_max operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cyclic_analytic_seqv_max.md)
+**DPF Framework Reference:** [cyclic_analytic_seqv_max operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/cyclic_analytic_seqv_max.md)
 
 **Parameters:**
 

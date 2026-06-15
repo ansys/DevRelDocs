@@ -9,7 +9,7 @@ reaction_force_Y(time_scoping: object, mesh_scoping: object, data_sources: objec
 reaction_force_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_force_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_force_Y.md)
+**DPF Framework Reference:** [reaction_force_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/result/reaction_force_Y.md)
 
 **Parameters:**
 

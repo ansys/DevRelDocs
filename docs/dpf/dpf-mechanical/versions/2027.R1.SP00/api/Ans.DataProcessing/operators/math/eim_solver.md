@@ -9,7 +9,7 @@ eim_solver(mode_shapes_fc: object, initial_sensors: object, n_max: object, minim
 eim_solver(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [eim_solver operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/eim_solver.md)
+**DPF Framework Reference:** [eim_solver operator specification](https://developer.ansys.com/docs/dpf-framework-2027.r1.sp00/operator-specifications/math/eim_solver.md)
 
 **Parameters:**
 
