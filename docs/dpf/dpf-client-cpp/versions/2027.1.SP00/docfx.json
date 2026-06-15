@@ -1,0 +1,14 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "DPF Cpp API 2027.(('271').Substring(2, 1))",
+      "summary": "",
+      "version": "2027.(('271').Substring(2, 1))",
+      "product": "DPF",
+      "programming language": "C++",
+      "product collection": "Structures",
+      "physics": "Multiphysics, Structures, Fluids",
+      "is dpf context": true
+    }
+  }
+}
