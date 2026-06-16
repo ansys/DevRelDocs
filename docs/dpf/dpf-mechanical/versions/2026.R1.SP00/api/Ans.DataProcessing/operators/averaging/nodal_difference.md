@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.averaging.nodal_difference
 ---
 
-# nodal_difference Class
+# nodal_difference class
 
-**Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
+**Namespace:** [Ans.DataProcessing.operators.averaging](index.md)
 
 ## Summary
 

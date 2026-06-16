@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.sqr_fc
 ---
 
-# sqr_fc Class
+# sqr_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

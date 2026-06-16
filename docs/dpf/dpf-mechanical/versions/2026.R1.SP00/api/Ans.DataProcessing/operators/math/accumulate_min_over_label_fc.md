@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.accumulate_min_over_label_fc
 ---
 
-# accumulate_min_over_label_fc Class
+# accumulate_min_over_label_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.nodal_rotational_velocity
 ---
 
-# nodal_rotational_velocity Class
+# nodal_rotational_velocity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-nodal_rotational_velocity()
-nodal_rotational_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nodal_rotational_velocity(config: OperatorConfig)
+nodal_rotational_velocity()
+
+nodal_rotational_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nodal_rotational_velocity(config: OperatorConfig)
+
 
 
 ## Class Information

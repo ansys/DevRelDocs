@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.scoping_band_pass
 ---
 
-# scoping_band_pass Class
+# scoping_band_pass class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

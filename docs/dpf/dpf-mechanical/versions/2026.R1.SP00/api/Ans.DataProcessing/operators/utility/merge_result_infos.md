@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge_result_infos
 ---
 
-# merge_result_infos Class
+# merge_result_infos class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge_data_tree
 ---
 
-# merge_data_tree Class
+# merge_data_tree class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

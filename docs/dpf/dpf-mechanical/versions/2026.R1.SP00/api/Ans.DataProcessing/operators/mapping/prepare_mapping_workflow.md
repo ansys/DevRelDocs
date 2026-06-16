@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mapping.prepare_mapping_workflow
 ---
 
-# prepare_mapping_workflow Class
+# prepare_mapping_workflow class
 
-**Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
+**Namespace:** [Ans.DataProcessing.operators.mapping](index.md)
 
 ## Summary
 

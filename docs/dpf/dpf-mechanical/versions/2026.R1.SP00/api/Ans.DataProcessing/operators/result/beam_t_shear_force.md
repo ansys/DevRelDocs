@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.beam_t_shear_force
 ---
 
-# beam_t_shear_force Class
+# beam_t_shear_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-beam_t_shear_force()
-beam_t_shear_force(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
-beam_t_shear_force(config: OperatorConfig)
+beam_t_shear_force()
+
+beam_t_shear_force(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
+
+beam_t_shear_force(config: OperatorConfig)
+
 
 
 ## Class Information

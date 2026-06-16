@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.amplitude_fc
 ---
 
-# amplitude_fc Class
+# amplitude_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

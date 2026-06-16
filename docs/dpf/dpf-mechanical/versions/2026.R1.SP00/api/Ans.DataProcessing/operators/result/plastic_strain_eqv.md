@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.plastic_strain_eqv
 ---
 
-# plastic_strain_eqv Class
+# plastic_strain_eqv class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-plastic_strain_eqv()
-plastic_strain_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_strain_eqv(config: OperatorConfig)
+plastic_strain_eqv()
+
+plastic_strain_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_strain_eqv(config: OperatorConfig)
+
 
 
 ## Class Information

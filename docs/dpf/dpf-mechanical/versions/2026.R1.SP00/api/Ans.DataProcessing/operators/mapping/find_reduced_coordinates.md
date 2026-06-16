@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mapping.find_reduced_coordinates
 ---
 
-# find_reduced_coordinates Class
+# find_reduced_coordinates class
 
-**Namespace:** [Ans.DataProcessing.operators.mapping](Ans_DataProcessing_operators_mapping.md)
+**Namespace:** [Ans.DataProcessing.operators.mapping](index.md)
 
 ## Summary
 

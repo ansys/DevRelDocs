@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.remote_operator_instantiate
 ---
 
-# remote_operator_instantiate Class
+# remote_operator_instantiate class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

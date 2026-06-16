@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.timefreq_low_pass
 ---
 
-# timefreq_low_pass Class
+# timefreq_low_pass class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

@@ -2,15 +2,15 @@
 uid: getting-started
 ---
 
-# Getting Started with DPF Mechanical ||DPF_VERSION||
+# Getting started with DPF Mechanical
 
-This section will help you get up and running with DPF Mechanical ||DPF_VERSION|| in Ansys Mechanical.
+This section will help you get up and running with DPF Mechanical in Ansys Mechanical.
 
 ## Prerequisites
 
 Before you begin, ensure you have:
 
-- Ansys Mechanical ||DPF_VERSION|| installed
+- Ansys Mechanical 2022 R2 or later installed
 - Access to the Mechanical scripting window or Python Result object
 - Basic understanding of Python programming
 - Familiarity with Ansys Mechanical and simulation concepts
@@ -23,10 +23,10 @@ Learn how DPF is integrated into Ansys Mechanical and how to access it.
 ### [Hello DPF](hello-dpf.md)
 Your first DPF script in the Mechanical scripting window - load results and extract data.
 
-### [Environment Setup](environment-setup.md)
+### [Environment setup](environment-setup.md)
 Configure your Mechanical environment and understand how to use DPF in different contexts.
 
-## Quick Start
+## Quick start
 
 Access DPF in Ansys Mechanical through the scripting window:
 
@@ -53,7 +53,7 @@ dpf_model = dpf.Model(data_sources)
 print("Number of time steps: {0}".format(dpf_model.TimeFreqSupport.TimeFrequencies.Count))
 ```
 
-## Next Steps
+## Next steps
 
 Once you've completed the getting started guide, move on to:
 

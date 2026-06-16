@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.filtering_max_over_time
 ---
 
-# filtering_max_over_time Class
+# filtering_max_over_time class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.scoping.rescope_property_field
 ---
 
-# rescope_property_field Class
+# rescope_property_field class
 
-**Namespace:** [Ans.DataProcessing.operators.scoping](Ans_DataProcessing_operators_scoping.md)
+**Namespace:** [Ans.DataProcessing.operators.scoping](index.md)
 
 ## Summary
 

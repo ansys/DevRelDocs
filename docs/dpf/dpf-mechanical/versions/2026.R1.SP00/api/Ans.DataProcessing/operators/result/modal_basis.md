@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.modal_basis
 ---
 
-# modal_basis Class
+# modal_basis class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-modal_basis()
-modal_basis(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-modal_basis(config: OperatorConfig)
+modal_basis()
+
+modal_basis(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_basis(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.metadata.boundary_condition_provider
 ---
 
-# boundary_condition_provider Class
+# boundary_condition_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

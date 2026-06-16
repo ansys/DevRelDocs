@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.mean_temperature
 ---
 
-# mean_temperature Class
+# mean_temperature class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-mean_temperature()
-mean_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mean_temperature(config: OperatorConfig)
+mean_temperature()
+
+mean_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mean_temperature(config: OperatorConfig)
+
 
 
 ## Class Information

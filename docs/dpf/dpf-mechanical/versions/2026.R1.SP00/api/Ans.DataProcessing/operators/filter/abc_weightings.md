@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.abc_weightings
 ---
 
-# abc_weightings Class
+# abc_weightings class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

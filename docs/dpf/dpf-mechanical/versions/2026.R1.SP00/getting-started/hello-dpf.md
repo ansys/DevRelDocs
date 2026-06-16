@@ -2,11 +2,11 @@
 uid: getting-started.hello-dpf
 ---
 
-# Your First DPF Script in Mechanical
+# Your first DPF script in Mechanical
 
 Let's create a simple script in the Ansys Mechanical scripting window to access and extract result data using DPF.
 
-## Using the Mechanical Scripting Window
+## Using the Mechanical scripting window
 
 Open Ansys Mechanical and access **View** → **Scripting**, then enter:
 
@@ -40,9 +40,9 @@ time_freq_support = dpf_model.TimeFreqSupport
 print("Number of time steps: {0}".format(time_freq_support.TimeFrequencies.Count))
 ```
 
-## Step-by-Step Explanation
+## Step-by-Step explanation
 
-### 1. Import Required Modules
+### 1. Import required modules
 
 ```python
 import mech_dpf
@@ -51,7 +51,7 @@ import Ans.DataProcessing as dpf
 
 Import both the `mech_dpf` helper module and the main DPF namespace. Both are available in Mechanical's IronPython environment.
 
-### 2. Set ExtAPI Context (CRITICAL!)
+### 2. Set ExtAPI context (CRITICAL!)
 
 ```python
 mech_dpf.setExtAPI(ExtAPI)
@@ -59,7 +59,7 @@ mech_dpf.setExtAPI(ExtAPI)
 
 This step is **required** to properly initialize DPF with the Mechanical API context. Without this, many DPF operations will fail.
 
-### 3. Access Mechanical Analysis
+### 3. Access Mechanical analysis
 
 ```python
 analysis = ExtAPI.DataModel.Project.Model.Analyses[0]
@@ -67,7 +67,7 @@ analysis = ExtAPI.DataModel.Project.Model.Analyses[0]
 
 Get the first analysis from the current Mechanical model.
 
-### 4. Get Result File Path
+### 4. Get result file path
 
 ```python
 result_file = analysis.ResultFileName
@@ -75,7 +75,7 @@ result_file = analysis.ResultFileName
 
 Retrieve the path to the result file (.rst) from the analysis object.
 
-### 4. Create DPF Data Source
+### 4. Create DPF data source
 
 ```python
 data_sources = dpf.DataSources()
@@ -84,7 +84,7 @@ data_sources.SetResultFilePath(result_file)
 
 Create a DPF data source pointing to your result file.
 
-### 5. Create DPF Model
+### 5. Create DPF model
 
 ```python
 dpf_model = dpf.Model(data_sources)
@@ -92,7 +92,7 @@ dpf_model = dpf.Model(data_sources)
 
 The DPF Model object provides access to all result data and metadata.
 
-## Using DPF Operators
+## Using DPF operators
 
 DPF uses an operator-based approach for data processing. Here's an example extracting stress:
 
@@ -124,7 +124,7 @@ sX = stressXOp.outputs.fields_container.GetData()
 print("Stress X at node 1: {0}".format(sX.Data))
 ```
 
-## Using in a Python Result Object
+## Using in a Python Result object
 
 You can also use DPF in a Python Result object for visualization:
 
@@ -173,7 +173,7 @@ def define_dpf_workflow(analysis):
 - Use `SetOutputContour()` to specify what to plot
 - Call `Record()` and set `this.WorkflowId`
 
-## Generating DPF Documentation
+## Generating DPF documentation
 
 To generate comprehensive DPF documentation in Mechanical:
 
@@ -186,7 +186,7 @@ print(mech_dpf.help())
 
 This will display the path to the DPF HTML documentation file.
 
-## What's Next?
+## What's next?
 
 Now that you've run your first script in Mechanical, explore:
 

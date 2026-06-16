@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.window_bartlett_fc
 ---
 
-# window_bartlett_fc Class
+# window_bartlett_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

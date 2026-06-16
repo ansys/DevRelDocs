@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.global_added_mass
 ---
 
-# global_added_mass Class
+# global_added_mass class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

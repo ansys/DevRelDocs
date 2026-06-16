@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.component_transformer_fc
 ---
 
-# component_transformer_fc Class
+# component_transformer_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

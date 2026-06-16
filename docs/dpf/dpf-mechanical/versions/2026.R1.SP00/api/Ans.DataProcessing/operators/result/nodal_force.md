@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.nodal_force
 ---
 
-# nodal_force Class
+# nodal_force class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-nodal_force()
-nodal_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nodal_force(config: OperatorConfig)
+nodal_force()
+
+nodal_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nodal_force(config: OperatorConfig)
+
 
 
 ## Class Information

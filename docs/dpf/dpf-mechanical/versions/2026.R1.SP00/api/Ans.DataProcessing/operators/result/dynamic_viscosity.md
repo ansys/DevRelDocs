@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.dynamic_viscosity
 ---
 
-# dynamic_viscosity Class
+# dynamic_viscosity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-dynamic_viscosity()
-dynamic_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-dynamic_viscosity(config: OperatorConfig)
+dynamic_viscosity()
+
+dynamic_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+dynamic_viscosity(config: OperatorConfig)
+
 
 
 ## Class Information

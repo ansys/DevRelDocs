@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.plastic_strain_principal_2
 ---
 
-# plastic_strain_principal_2 Class
+# plastic_strain_principal_2 class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-plastic_strain_principal_2()
-plastic_strain_principal_2(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_strain_principal_2(config: OperatorConfig)
+plastic_strain_principal_2()
+
+plastic_strain_principal_2(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_strain_principal_2(config: OperatorConfig)
+
 
 
 ## Class Information

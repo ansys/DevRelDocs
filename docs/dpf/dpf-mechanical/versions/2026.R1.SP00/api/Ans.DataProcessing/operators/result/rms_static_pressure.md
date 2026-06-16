@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.rms_static_pressure
 ---
 
-# rms_static_pressure Class
+# rms_static_pressure class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-rms_static_pressure()
-rms_static_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-rms_static_pressure(config: OperatorConfig)
+rms_static_pressure()
+
+rms_static_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+rms_static_pressure(config: OperatorConfig)
+
 
 
 ## Class Information

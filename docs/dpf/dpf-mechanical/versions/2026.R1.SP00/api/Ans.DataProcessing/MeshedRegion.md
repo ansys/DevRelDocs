@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.MeshedRegion
 ---
 
-# MeshedRegion Class
+# MeshedRegion class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.metadata.streams_provider
 ---
 
-# streams_provider Class
+# streams_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.metadata](Ans_DataProcessing_operators_metadata.md)
+**Namespace:** [Ans.DataProcessing.operators.metadata](index.md)
 
 ## Summary
 

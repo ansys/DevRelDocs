@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.element_centroids
 ---
 
-# element_centroids Class
+# element_centroids class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-element_centroids()
-element_centroids(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-element_centroids(config: OperatorConfig)
+element_centroids()
+
+element_centroids(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+element_centroids(config: OperatorConfig)
+
 
 
 ## Class Information

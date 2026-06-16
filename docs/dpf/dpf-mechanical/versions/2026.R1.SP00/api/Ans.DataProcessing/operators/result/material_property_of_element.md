@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.material_property_of_element
 ---
 
-# material_property_of_element Class
+# material_property_of_element class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

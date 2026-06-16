@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.omega
 ---
 
-# omega Class
+# omega class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-omega()
-omega(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-omega(config: OperatorConfig)
+omega()
+
+omega(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+omega(config: OperatorConfig)
+
 
 
 ## Class Information

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.global_external_work
 ---
 
-# global_external_work Class
+# global_external_work class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

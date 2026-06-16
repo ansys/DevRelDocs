@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.ResultInfo
 ---
 
-# ResultInfo Class
+# ResultInfo class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 

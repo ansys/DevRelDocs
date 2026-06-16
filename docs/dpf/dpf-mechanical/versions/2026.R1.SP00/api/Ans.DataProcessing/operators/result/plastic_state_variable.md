@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.plastic_state_variable
 ---
 
-# plastic_state_variable Class
+# plastic_state_variable class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-plastic_state_variable()
-plastic_state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_state_variable(config: OperatorConfig)
+plastic_state_variable()
+
+plastic_state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_state_variable(config: OperatorConfig)
+
 
 
 ## Class Information

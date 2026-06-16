@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.invariant.segalman_von_mises_eqv
 ---
 
-# segalman_von_mises_eqv Class
+# segalman_von_mises_eqv class
 
-**Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
+**Namespace:** [Ans.DataProcessing.operators.invariant](index.md)
 
 ## Summary
 

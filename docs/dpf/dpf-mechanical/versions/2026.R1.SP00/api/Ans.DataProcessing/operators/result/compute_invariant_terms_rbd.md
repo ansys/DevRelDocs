@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.compute_invariant_terms_rbd
 ---
 
-# compute_invariant_terms_rbd Class
+# compute_invariant_terms_rbd class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-compute_invariant_terms_rbd()
-compute_invariant_terms_rbd(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, field_coordinates: object, nod: object, constraint_mode_check: object, config: OperatorConfig)
-compute_invariant_terms_rbd(config: OperatorConfig)
+compute_invariant_terms_rbd()
+
+compute_invariant_terms_rbd(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, field_coordinates: object, nod: object, constraint_mode_check: object, config: OperatorConfig)
+
+compute_invariant_terms_rbd(config: OperatorConfig)
+
 
 
 ## Class Information

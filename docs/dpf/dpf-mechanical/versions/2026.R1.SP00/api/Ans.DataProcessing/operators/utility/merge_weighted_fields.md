@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge_weighted_fields
 ---
 
-# merge_weighted_fields Class
+# merge_weighted_fields class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

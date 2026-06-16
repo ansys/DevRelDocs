@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_provider
 ---
 
-# mesh_provider Class
+# mesh_provider class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.result.members_in_bending_not_certified
 ---
 
-# members_in_bending_not_certified Class
+# members_in_bending_not_certified class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
 ## Summary
 

@@ -2,11 +2,12 @@
 uid: Ans.DataProcessing.ProgressInformationNotifier
 ---
 
-# ProgressInformationNotifier Class
+# ProgressInformationNotifier class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-ProgressInformationNotifier()
+ProgressInformationNotifier()
+
 
 
 ## Class Information

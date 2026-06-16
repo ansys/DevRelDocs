@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.thermal_strains_eqv
 ---
 
-# thermal_strains_eqv Class
+# thermal_strains_eqv class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-thermal_strains_eqv()
-thermal_strains_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-thermal_strains_eqv(config: OperatorConfig)
+thermal_strains_eqv()
+
+thermal_strains_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+thermal_strains_eqv(config: OperatorConfig)
+
 
 
 ## Class Information

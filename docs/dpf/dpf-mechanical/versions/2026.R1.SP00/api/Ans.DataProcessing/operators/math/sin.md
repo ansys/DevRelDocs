@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.sin
 ---
 
-# sin Class
+# sin class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
 ## Summary
 

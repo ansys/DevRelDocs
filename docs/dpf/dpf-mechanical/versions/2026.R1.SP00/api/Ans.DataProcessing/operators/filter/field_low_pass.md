@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.filter.field_low_pass
 ---
 
-# field_low_pass Class
+# field_low_pass class
 
-**Namespace:** [Ans.DataProcessing.operators.filter](Ans_DataProcessing_operators_filter.md)
+**Namespace:** [Ans.DataProcessing.operators.filter](index.md)
 
 ## Summary
 

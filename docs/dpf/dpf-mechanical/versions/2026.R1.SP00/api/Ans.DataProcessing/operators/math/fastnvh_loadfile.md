@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.fastnvh_loadfile
 ---
 
-# fastnvh_loadfile Class
+# fastnvh_loadfile class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-fastnvh_loadfile()
-fastnvh_loadfile(stream_h5: object, ds_h5: object, config: OperatorConfig)
-fastnvh_loadfile(config: OperatorConfig)
+fastnvh_loadfile()
+
+fastnvh_loadfile(stream_h5: object, ds_h5: object, config: OperatorConfig)
+
+fastnvh_loadfile(config: OperatorConfig)
+
 
 
 ## Class Information

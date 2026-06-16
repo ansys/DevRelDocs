@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.element_nodal_forces
 ---
 
-# element_nodal_forces Class
+# element_nodal_forces class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-element_nodal_forces()
-element_nodal_forces(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-element_nodal_forces(config: OperatorConfig)
+element_nodal_forces()
+
+element_nodal_forces(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+element_nodal_forces(config: OperatorConfig)
+
 
 
 ## Class Information

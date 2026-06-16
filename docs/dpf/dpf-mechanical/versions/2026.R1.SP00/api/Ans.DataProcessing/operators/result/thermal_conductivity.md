@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.thermal_conductivity
 ---
 
-# thermal_conductivity Class
+# thermal_conductivity class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-thermal_conductivity()
-thermal_conductivity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-thermal_conductivity(config: OperatorConfig)
+thermal_conductivity()
+
+thermal_conductivity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+thermal_conductivity(config: OperatorConfig)
+
 
 
 ## Class Information

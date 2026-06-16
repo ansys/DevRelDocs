@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.add_fc
 ---
 
-# add_fc Class
+# add_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-add_fc()
-add_fc(fields_container1: object, fields_container2: object, config: OperatorConfig)
-add_fc(config: OperatorConfig)
+add_fc()
+
+add_fc(fields_container1: object, fields_container2: object, config: OperatorConfig)
+
+add_fc(config: OperatorConfig)
+
 
 
 ## Class Information

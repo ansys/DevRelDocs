@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.scale
 ---
 
-# scale Class
+# scale class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-scale()
-scale(field: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
-scale(config: OperatorConfig)
+scale()
+
+scale(field: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
+
+scale(config: OperatorConfig)
+
 
 
 ## Class Information

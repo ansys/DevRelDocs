@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.invariant.eigen_vectors_fc
 ---
 
-# eigen_vectors_fc Class
+# eigen_vectors_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.invariant](Ans_DataProcessing_operators_invariant.md)
+**Namespace:** [Ans.DataProcessing.operators.invariant](index.md)
 
 ## Summary
 

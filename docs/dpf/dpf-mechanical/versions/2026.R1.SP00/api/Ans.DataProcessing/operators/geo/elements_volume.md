@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.geo.elements_volume
 ---
 
-# elements_volume Class
+# elements_volume class
 
-**Namespace:** [Ans.DataProcessing.operators.geo](Ans_DataProcessing_operators_geo.md)
+**Namespace:** [Ans.DataProcessing.operators.geo](index.md)
 
 ## Summary
 

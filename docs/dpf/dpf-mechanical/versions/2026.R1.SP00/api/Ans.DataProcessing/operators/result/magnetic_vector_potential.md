@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.magnetic_vector_potential
 ---
 
-# magnetic_vector_potential Class
+# magnetic_vector_potential class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-magnetic_vector_potential()
-magnetic_vector_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-magnetic_vector_potential(config: OperatorConfig)
+magnetic_vector_potential()
+
+magnetic_vector_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+magnetic_vector_potential(config: OperatorConfig)
+
 
 
 ## Class Information

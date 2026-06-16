@@ -2,12 +2,14 @@
 uid: Ans.DataProcessing.PropertyField
 ---
 
-# PropertyField Class
+# PropertyField class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
-PropertyField(pField: IntPtr)
-PropertyField(numEntities: int, elementaryDataSize: int)
+PropertyField(pField: IntPtr)
+
+PropertyField(numEntities: int, elementaryDataSize: int)
+
 
 
 ## Class Information

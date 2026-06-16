@@ -2,13 +2,13 @@
 uid: Ans.DataProcessing.Field
 ---
 
-# Field Class
+# Field class
 
 **Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
 
 ## Summary
 
-The field is the main simulation data container.
+The Field is the main simulation data container.
 
 Results data are defined by values associated to entities (scoping), and these entities are a subset of a model (support)
 

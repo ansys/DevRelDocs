@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.math.add_constant
 ---
 
-# add_constant Class
+# add_constant class
 
-**Namespace:** [Ans.DataProcessing.operators.math](Ans_DataProcessing_operators_math.md)
+**Namespace:** [Ans.DataProcessing.operators.math](index.md)
 
-add_constant()
-add_constant(field: object, weights: object, config: OperatorConfig)
-add_constant(config: OperatorConfig)
+add_constant()
+
+add_constant(field: object, weights: object, config: OperatorConfig)
+
+add_constant(config: OperatorConfig)
+
 
 
 ## Class Information

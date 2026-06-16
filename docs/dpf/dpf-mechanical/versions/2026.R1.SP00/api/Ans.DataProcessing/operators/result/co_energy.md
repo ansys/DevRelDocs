@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.co_energy
 ---
 
-# co_energy Class
+# co_energy class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-co_energy()
-co_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-co_energy(config: OperatorConfig)
+co_energy()
+
+co_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+co_energy(config: OperatorConfig)
+
 
 
 ## Class Information

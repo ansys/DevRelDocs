@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.identical_pfc
 ---
 
-# identical_pfc Class
+# identical_pfc class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

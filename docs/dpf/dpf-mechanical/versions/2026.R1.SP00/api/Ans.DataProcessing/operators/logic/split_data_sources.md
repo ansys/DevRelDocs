@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.split_data_sources
 ---
 
-# split_data_sources Class
+# split_data_sources class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

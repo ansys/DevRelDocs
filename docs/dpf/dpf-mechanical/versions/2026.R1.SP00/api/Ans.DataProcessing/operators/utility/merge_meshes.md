@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge_meshes
 ---
 
-# merge_meshes Class
+# merge_meshes class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

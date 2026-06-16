@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.beam_axial_plastic_strain
 ---
 
-# beam_axial_plastic_strain Class
+# beam_axial_plastic_strain class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-beam_axial_plastic_strain()
-beam_axial_plastic_strain(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
-beam_axial_plastic_strain(config: OperatorConfig)
+beam_axial_plastic_strain()
+
+beam_axial_plastic_strain(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
+
+beam_axial_plastic_strain(config: OperatorConfig)
+
 
 
 ## Class Information

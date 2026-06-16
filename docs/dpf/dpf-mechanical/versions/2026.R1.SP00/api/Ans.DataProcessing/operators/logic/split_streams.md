@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.logic.split_streams
 ---
 
-# split_streams Class
+# split_streams class
 
-**Namespace:** [Ans.DataProcessing.operators.logic](Ans_DataProcessing_operators_logic.md)
+**Namespace:** [Ans.DataProcessing.operators.logic](index.md)
 
 ## Summary
 

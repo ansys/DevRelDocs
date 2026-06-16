@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.math.hdf5.topo.nodal_density
 ---
 
-# nodal_density Class
+# nodal_density class
 
-**Namespace:** [Ans.DataProcessing.operators.math.hdf5.topo](Ans_DataProcessing_operators_math_hdf5_topo.md)
+**Namespace:** [Ans.DataProcessing.operators.math.hdf5.topo](hdf5_topo.md)
 
 ## Summary
 

@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_plan_clip
 ---
 
-# mesh_plan_clip Class
+# mesh_plan_clip class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

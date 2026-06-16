@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.overlap_fields
 ---
 
-# overlap_fields Class
+# overlap_fields class
 
-**Namespace:** [Ans.DataProcessing.operators.utility](Ans_DataProcessing_operators_utility.md)
+**Namespace:** [Ans.DataProcessing.operators.utility](index.md)
 
 ## Summary
 

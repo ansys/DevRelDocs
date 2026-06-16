@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.averaging.nodal_to_elemental_fc
 ---
 
-# nodal_to_elemental_fc Class
+# nodal_to_elemental_fc class
 
-**Namespace:** [Ans.DataProcessing.operators.averaging](Ans_DataProcessing_operators_averaging.md)
+**Namespace:** [Ans.DataProcessing.operators.averaging](index.md)
 
 ## Summary
 

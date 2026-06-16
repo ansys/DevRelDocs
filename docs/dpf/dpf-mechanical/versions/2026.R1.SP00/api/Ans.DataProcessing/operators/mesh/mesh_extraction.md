@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.mesh.mesh_extraction
 ---
 
-# mesh_extraction Class
+# mesh_extraction class
 
-**Namespace:** [Ans.DataProcessing.operators.mesh](Ans_DataProcessing_operators_mesh.md)
+**Namespace:** [Ans.DataProcessing.operators.mesh](index.md)
 
 ## Summary
 

@@ -2,13 +2,16 @@
 uid: Ans.DataProcessing.operators.result.stress_principal_2
 ---
 
-# stress_principal_2 Class
+# stress_principal_2 class
 
-**Namespace:** [Ans.DataProcessing.operators.result](Ans_DataProcessing_operators_result.md)
+**Namespace:** [Ans.DataProcessing.operators.result](index.md)
 
-stress_principal_2()
-stress_principal_2(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-stress_principal_2(config: OperatorConfig)
+stress_principal_2()
+
+stress_principal_2(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+stress_principal_2(config: OperatorConfig)
+
 
 
 ## Class Information

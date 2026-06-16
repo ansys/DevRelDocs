@@ -2,9 +2,9 @@
 uid: Ans.DataProcessing.operators.utility.merge.fields_container_matrices_label
 ---
 
-# fields_container_matrices_label Class
+# fields_container_matrices_label class
 
-**Namespace:** [Ans.DataProcessing.operators.utility.merge](Ans_DataProcessing_operators_utility_merge.md)
+**Namespace:** [Ans.DataProcessing.operators.utility.merge](merge.md)
 
 ## Summary
 
