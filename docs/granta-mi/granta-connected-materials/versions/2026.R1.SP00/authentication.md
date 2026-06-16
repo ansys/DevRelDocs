@@ -1,14 +1,14 @@
 # Authentication
 
-To both develop and use Granta Connected Data, you need to authenticate using [Ansys ID](https://webapps.ansys.com/era/ssosupport/index).
+To both develop and use Granta Connected Materials, you need to authenticate using [Ansys ID](https://webapps.ansys.com/era/ssosupport/index).
 
-For developing your own plugin to Granta Connected Data, send the following information to your Ansys representative:
+For developing your own plugin to Granta Connected Materials, send the following information to your Ansys representative:
 
 - Your Name
 - Your email account
 - The Product team you are working with
 
-To enable your customers to access Granta Connected Data from your application, their Ansys ID accounts must also be enabled, send the following information about each account in CSV format to your Ansys representative:
+To enable your customers to access Granta Connected Materials from your application, their Ansys ID accounts must also be enabled, send the following information about each account in CSV format to your Ansys representative:
 
 - Name
 - Email address

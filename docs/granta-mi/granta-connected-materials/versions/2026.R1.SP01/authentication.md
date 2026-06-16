@@ -49,7 +49,7 @@ python -m pip install msal
 And use these parameters to authenticate in a browser with Azure AD B2C.
 
 ```python
-ansys_id_client_id = "63377600-f6ce-4c19-9c0e-a7278d7bde8c"
+ansys_id_client_id = "28982bbf-f354-4e48-8bfb-e542d44c588c"
 ansys_id_authority = "https://a365dev.b2clogin.com/a365dev.onmicrosoft.com/B2C_1A_ANSYSID_SIGNUP_SIGNIN"
 scope = "https://a365dev.onmicrosoft.com/AnsysID/Authentication"
 

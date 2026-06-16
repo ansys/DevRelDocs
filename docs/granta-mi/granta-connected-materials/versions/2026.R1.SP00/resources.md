@@ -2,7 +2,7 @@
 Resources to achieve a consistent look and feel when integrating Granta Material Picker into your application.
 
 ## Names and Acronyms
-The name of the hosted product is **Granta Connected Data**.
+The name of the hosted product is **Granta Connected Materials**.
 
 Use the following names when referring to components of the system:
 
@@ -18,7 +18,7 @@ Use the following names when referring to components of the system:
 
 When adding controls to launch Granta Material Picker, use the following text for tooltips and menu items:
 
-**Import from Granta Connected Data**
+**Import from Granta Connected Materials**
 
 ## Icons
 

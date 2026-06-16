@@ -9,7 +9,7 @@ Requests to the Granta Integration Server are being blocked and a 403 forbidden 
 
 ### Possible cause
 
-The Web Application Firewall (WAF) rules for Granta Connected Data require all HTTP requests to include a User-Agent header.
+The Web Application Firewall (WAF) rules for Granta Connected Materials require all HTTP requests to include a User-Agent header.
 
 Many programming languages do not automatically add this header, and if your integration is not adding a valid User-Agent header, requests will be blocked with 403 Forbidden errors.
 

@@ -1,5 +1,5 @@
 # Getting started 
-An application's point of contact with Granta Connected Data is the Granta Integration Service REST API. This API brokers data between Granta services and your application. 
+An application's point of contact with Granta Connected Materials is the Granta Integration Service REST API. This API brokers data between Granta services and your application. 
 
 Any programming environment that can execute HTTP requests and parse a JSON response should be able to use the Granta Integration Service. 
 
@@ -8,7 +8,7 @@ For a simpler and more performant workflow, HTTP SSE (Server-Sent Events) can be
 Our examples use Python, but your application environment may restrict your choice of programming language.
 ### Authentication
 
-In order to use Granta Connected Data, you need an account that has access to the Granta cloud instance. 
+In order to use Granta Connected Materials, you need an account that has access to the Granta cloud instance. 
 
 ### Prerequisites
 - A supported version of Python. You can download Python from [https://www.python.org/downloads/](https://www.python.org/downloads/).
