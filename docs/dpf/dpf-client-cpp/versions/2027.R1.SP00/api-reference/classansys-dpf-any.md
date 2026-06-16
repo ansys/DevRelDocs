@@ -37,6 +37,7 @@
 * [getAsField](classansys-dpf-any.md#classansys-dpf-any-1a8bb8b9c5c9b8caccff78ff66a16780cb)
 * [getAsFieldsContainer](classansys-dpf-any.md#classansys-dpf-any-1af48a4b58d4d52dd107e75fdb6db2cdea)
 * [getAsGenericDataContainer](classansys-dpf-any.md#classansys-dpf-any-1a8a4ae829c4e5142a390158b7f1842cfb)
+* [getAsGenericSupport](classansys-dpf-any.md#classansys-dpf-any-1a31d1d3ef7e7043252be52ab9a75ac926)
 * [getAsInt](classansys-dpf-any.md#classansys-dpf-any-1a00cce5475752905812ab028e4c1ca97b)
 * [getAsIntVector](classansys-dpf-any.md#classansys-dpf-any-1a9b3531295f844610cc131f78c96ef04d)
 * [getAsLabelSpace](classansys-dpf-any.md#classansys-dpf-any-1a53dda1baccbaa272f72df5195f30591b)
@@ -167,7 +168,7 @@ ansys::dpf::Any::Any(Any const &)
 
 **Parameters**:
 
-* Any const &
+* [Any](classansys-dpf-any.md#classansys-dpf-any) const &
 
 **Return type**: 
 
@@ -196,7 +197,7 @@ ansys::dpf::Any::Any(Any &&) noexcept
 
 **Parameters**:
 
-* Any &&
+* [Any](classansys-dpf-any.md#classansys-dpf-any) &&
 
 **Return type**: 
 
@@ -225,9 +226,9 @@ Any & ansys::dpf::Any::operator=(Any const &)
 
 **Parameters**:
 
-* Any const &
+* [Any](classansys-dpf-any.md#classansys-dpf-any) const &
 
-**Return type**: Any &
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any) &
 
 <!--
 **TODO**:
@@ -254,9 +255,9 @@ Any & ansys::dpf::Any::operator=(Any &&) noexcept
 
 **Parameters**:
 
-* Any &&
+* [Any](classansys-dpf-any.md#classansys-dpf-any) &&
 
-**Return type**: Any &
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any) &
 
 <!--
 **TODO**:
@@ -476,7 +477,7 @@ int vector held in the [Any](classansys-dpf-any.md#classansys-dpf-any) object.
 
 
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -905,7 +906,7 @@ Operator ansys::dpf::Any::getAsOperator() const
 
 
 
-**Return type**: Operator
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 <!--
 **TODO**:
@@ -944,6 +945,39 @@ CyclicSupport ansys::dpf::Any::getAsCyclicSupport() const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::getAsCyclicSupport"}]}`
+-->
+
+<a id="classansys-dpf-any-1a31d1d3ef7e7043252be52ab9a75ac926"></a>
+### Function getAsGenericSupport
+
+![][public]
+![][const]
+
+
+```cpp
+GenericSupport ansys::dpf::Any::getAsGenericSupport() const
+```
+
+
+
+
+**Returns**:
+
+[GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport) held in the [Any](classansys-dpf-any.md#classansys-dpf-any) object.
+
+
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Return type**: [GenericSupport](classansys-dpf-genericsupport.md#classansys-dpf-genericsupport)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::getAsGenericSupport"}]}`
 -->
 
 <a id="classansys-dpf-any-1a52850e5eb23e6cba70ccd0c0713e3452"></a>
@@ -1233,7 +1267,7 @@ Make a deep copy on a given client.
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] Remote client
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -1269,7 +1303,7 @@ static Any ansys::dpf::Any::createFromFbsReference(const opaque::FbsChannel *cha
 * size_t **req_offset**
 * const [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -1297,11 +1331,11 @@ static Any ansys::dpf::Any::createFromFbsReference(FbsClient const &fbs_client, 
 
 **Parameters**:
 
-* FbsClient const & **fbs_client**
+* [FbsClient](classansys-dpf-any.md#classansys-dpf-any) const & **fbs_client**
 * const opaque::FbsSlice * **req_slice**
 * const [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) * **client** = nullptr 
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -1332,7 +1366,7 @@ Retrieve an existing instance on a server.
 * int **id**: [in] Id of the object on the server's database.
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client**: [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -1358,7 +1392,7 @@ static Any ansys::dpf::Any::emptyAny()
 
 
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:

@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Converts a complex number from polar form to complex.
+
+Converts a complex-valued fields container from
+[polar form](https://en.wikipedia.org/wiki/Complex_number#Polar_complex_plane) (amplitude, phase)
+to rectangular form (real, imaginary):
+$\mathrm{Re}[i] = A[i] \cdot \cos(\phi[i])$, $\mathrm{Im}[i] = A[i] \cdot \sin(\phi[i])$.
+The input must contain amplitude fields tagged with complex label 2
+and phase fields tagged with complex label 3.
+
 
 ## Inputs
 
@@ -29,7 +36,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Complex-valued fields container with amplitude fields (complex label 2) paired with phase angle fields (complex label 3).
 
 
 ## Outputs
@@ -48,7 +55,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container in rectangular form: real parts (complex label 0) and imaginary parts (complex label 1).
 
 
 ## Configurations

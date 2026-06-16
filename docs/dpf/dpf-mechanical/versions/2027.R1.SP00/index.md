@@ -6,6 +6,8 @@ uid: index
 
 Welcome to the DPF Mechanical ||DPF_VERSION|| documentation for Ansys Mechanical.
 
+> **New to DPF?** If you are new to the Data Processing Framework and prefer a guided, step-by-step learning path, consider starting with [DPF Onboarding](https://developer.ansys.com/docs/dpf-onboarding-||DPF_VERSION_SLUG||/index.md), which covers foundational concepts and architecture before diving into MechDPF specifics.
+
 ## Overview
 
 The Ansys Data Processing Framework (DPF) provides a modern, comprehensive infrastructure for accessing and manipulating simulation data. DPF enables you to process large amounts of simulation data efficiently through a client-server architecture.

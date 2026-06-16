@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.pow_fc
 
 # *class* pow_fc(fields_container: object = None, factor: object = None, division_by_zero_value: object = None, config: OperatorConfig = None)
 
-Computes element-wise field[i]^p.
+Computes entity-wise field[i]^p.
 
 available inputs: `fields_container` (FieldsContainer), `factor` (double), `division_by_zero_value` (double) (optional)
 

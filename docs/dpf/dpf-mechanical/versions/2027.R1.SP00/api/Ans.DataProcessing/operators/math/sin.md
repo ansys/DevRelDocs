@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.sin
 
 # *class* sin(field: object = None, config: OperatorConfig = None)
 
-Computes element-wise sine function on field data: sin(field[i]).
+Computes the entity-wise [sine](https://en.wikipedia.org/wiki/Sine_and_cosine):
+
+$\mathrm{out}[i] = \sin(\mathrm{in}[i])$.
+
+The input must be dimensionless or carry an angle unit; any other unit raises an error.
+
+When the input unit is an angle (e.g. degrees), values are automatically converted to radians
+
+before the sine is applied. The output is dimensionless.
 
 available inputs: `field` (Field)
 
@@ -29,7 +37,7 @@ op = sin(field=my_field)
 
 ### field
 
-Field containing numeric data for sine calculation
+Dimensionless or angle-unit field.
 
 **Type:** *LinkableInput*
 
@@ -37,7 +45,7 @@ Field containing numeric data for sine calculation
 
 ### field
 
-Field with sine values applied element-wise to input data
+Dimensionless field with $\sin(\mathrm{in}[i])$ for each data entry.
 
 **Type:** *LinkableOutput*
 

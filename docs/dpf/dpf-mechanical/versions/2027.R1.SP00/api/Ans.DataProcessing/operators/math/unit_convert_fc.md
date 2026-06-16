@@ -4,7 +4,17 @@ uid: Ans.DataProcessing.operators.math.unit_convert_fc
 
 # *class* unit_convert_fc(fields_container: object = None, unit_name: object = None, config: OperatorConfig = None)
 
-Converts an input fields container of a given unit to another unit.
+Converts a fields container from one unit to another using the linear relation
+
+$v_\mathrm{out}[i] = k \cdot v_\mathrm{in}[i] + \delta$,
+
+where $k$ and $\delta$ are the unit conversion factor and shift.
+
+All fields must be homogeneous with the target unit.
+
+When the permissive option is enabled and units are not homogeneous,
+
+the container is returned unchanged.
 
 available inputs: `fields_container` (FieldsContainer), `unit_name` (string)
 
@@ -30,6 +40,8 @@ op = unit_convert_fc(fields_container=my_fields_container,unit_name=my_unit_name
 
 ### fields_container
 
+Fields container to convert. All fields are converted in place.
+
 **Type:** *LinkableInput*
 
 ### unit_name
@@ -42,7 +54,7 @@ unit as a string, ex 'm' for meter, 'Pa' for pascal,...
 
 ### fields_container
 
-FieldsContainer with converted units (inplace operation)
+Fields container with all field data converted to the requested unit, modified in place.
 
 **Type:** *LinkableOutput*
 

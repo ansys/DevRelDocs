@@ -20,7 +20,7 @@ exponential(config: OperatorConfig)
 
 ### field
 
-Field, fields container, or numeric data for exponential calculation
+Dimensionless field, fields container, or numeric data.
 
 **Type:** *LinkableInput*
 
@@ -28,7 +28,7 @@ Field, fields container, or numeric data for exponential calculation
 
 ### field
 
-Field with exponential values applied element-wise to input data
+Dimensionless field with $e^{\mathrm{in}[i]}$ for each data entry.
 
 **Type:** *LinkableOutput*
 

@@ -29,6 +29,8 @@ op = txt_file_to_dpf(input_string=my_input_string)
 
 ### input_string
 
+ex: 'double:1.0', 'int:1', 'vector<double>:1.0;1.0'
+
 **Type:** *LinkableInput*
 
 ## Outputs

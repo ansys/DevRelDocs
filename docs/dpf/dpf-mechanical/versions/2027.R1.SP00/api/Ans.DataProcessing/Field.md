@@ -134,13 +134,35 @@ Property `Data`access the data container row values
 
 #### *property* ScopingIds: list
 
-Property `ScopingIds` ids belonging to the scoping, identical to my_field.Scoping.Ids
+Gets or sets the entity IDs belonging to the scoping, identical to `Scoping.Ids`.
+
+<para><b>Metadata-only setter:</b> assigning a new list of IDs replaces the scoping
+
+index only - it does <b>not</b> filter, resize, or reorder the underlying data buffer.
+
+After the assignment, the scoping length and the data length may be inconsistent,
+
+leading to silent incorrect results or errors in downstream operators.</para><para>To produce a correctly-sized field for a subset of entities, use the
+
+`rescope` operator instead of setting this property directly.</para>
 
 *get/set*
 
 #### *property* Scoping: Scoping
 
-Property `Scoping` entities ids representing a subset of the model and on which the data container is scoped
+Gets or sets the scoping: entity IDs representing the subset of the model on which
+
+the data container is defined.
+
+<para><b>Metadata-only setter:</b> assigning a new `Scoping` replaces the
+
+index only - it does <b>not</b> filter, resize, or reorder the underlying data buffer.
+
+After the assignment, the scoping length and the data length may be inconsistent,
+
+leading to silent incorrect results or errors in downstream operators.</para><para>To produce a correctly-sized field for a subset of entities, use the
+
+`rescope` operator instead of setting this property directly.</para>
 
 *get/set*
 

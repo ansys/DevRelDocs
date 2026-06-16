@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Computes the element-wise L2 norm of the field elementary data. This process is applied on each field of the input fields container.
+
+Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector
+for each entity in every field of the input fields container:
+$\mathrm{out}[k] = \left(\sum_{j=0}^{n_c-1} |v_{k,j}|^p\right)^{1/p}$.
+Default is $p = 2$ (Euclidean norm). Each output field is scalar.
+
 
 ## Inputs
 
@@ -30,7 +35,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer containing fields for norm calculation
+Fields container containing fields for norm calculation
 
 <a id="input_1"></a>
 ### scalar_int (Pin 1)
@@ -38,7 +43,7 @@ FieldsContainer containing fields for norm calculation
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Lp normalisation type, p = 1, 2, ...n - Default Lp=2
+$L_p$ norm order $p$ (positive integer, default is 2 for the Euclidean norm).
 
 
 ## Outputs
@@ -57,7 +62,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer with computed norms for each field
+Fields container of scalar fields, one per input field, each containing the $L_p$ norm per entity.
 
 
 ## Configurations

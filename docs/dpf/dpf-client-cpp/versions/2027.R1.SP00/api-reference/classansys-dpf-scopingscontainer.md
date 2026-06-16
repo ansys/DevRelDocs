@@ -161,7 +161,7 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer const &)
 
 **Parameters**:
 
-* ScopingsContainer const &
+* [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) const &
 
 **Return type**: 
 
@@ -190,7 +190,7 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(ScopingsContainer &&) noexcept
 
 **Parameters**:
 
-* ScopingsContainer &&
+* [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) &&
 
 **Return type**: 
 
@@ -272,7 +272,7 @@ ansys::dpf::ScopingsContainer::ScopingsContainer(int id, Client const *const cli
 
 
 
-Retrieve an existing instance of [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) on a server.
+Retrieve an existing instance of [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) on a server. <br/>
 
 
 
@@ -337,9 +337,9 @@ ScopingsContainer & ansys::dpf::ScopingsContainer::operator=(ScopingsContainer c
 
 **Parameters**:
 
-* ScopingsContainer const &
+* [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) const &
 
-**Return type**: ScopingsContainer &
+**Return type**: [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) &
 
 <!--
 **TODO**:
@@ -366,9 +366,9 @@ ScopingsContainer & ansys::dpf::ScopingsContainer::operator=(ScopingsContainer &
 
 **Parameters**:
 
-* ScopingsContainer &&
+* [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) &&
 
-**Return type**: ScopingsContainer &
+**Return type**: [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer) &
 
 <!--
 **TODO**:
@@ -713,7 +713,7 @@ Create a new [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**: [in] [Label](structansys-dpf-label.md#structansys-dpf-label) space for which to create new scopings container.
 
-**Return type**: ScopingsContainer
+**Return type**: [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer)
 
 <!--
 **TODO**:
@@ -743,7 +743,7 @@ Create a new [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: ScopingsContainer
+**Return type**: [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer)
 
 <!--
 **TODO**:
@@ -800,7 +800,7 @@ Empty [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-sco
 
 
 
-**Return type**: ScopingsContainer
+**Return type**: [ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer)
 
 <!--
 **TODO**:

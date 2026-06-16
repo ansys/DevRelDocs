@@ -210,7 +210,7 @@ ansys::dpf::LibraryHandle::LibraryHandle(const LibraryHandle &)=delete
 
 **Parameters**:
 
-* const LibraryHandle &
+* const [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) &
 
 **Return type**: 
 
@@ -239,7 +239,7 @@ ansys::dpf::LibraryHandle::LibraryHandle(LibraryHandle &&)=delete
 
 **Parameters**:
 
-* LibraryHandle &&
+* [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) &&
 
 **Return type**: 
 
@@ -293,9 +293,9 @@ LibraryHandle & ansys::dpf::LibraryHandle::operator=(const LibraryHandle &)=dele
 
 **Parameters**:
 
-* const [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle-1ace7af23aabdd94273ddce1266a0f402d) &
+* const [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) &
 
-**Return type**: [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle-1ace7af23aabdd94273ddce1266a0f402d) &
+**Return type**: [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) &
 
 <!--
 **TODO**:
@@ -322,9 +322,9 @@ LibraryHandle & ansys::dpf::LibraryHandle::operator=(LibraryHandle &&)=delete
 
 **Parameters**:
 
-* [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle-1ace7af23aabdd94273ddce1266a0f402d) &&
+* [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) &&
 
-**Return type**: [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle-1ace7af23aabdd94273ddce1266a0f402d) &
+**Return type**: [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) &
 
 <!--
 **TODO**:

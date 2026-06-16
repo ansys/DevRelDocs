@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.phase
 
 # *class* phase(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-Computes the phase (in rad) between a real and an imaginary field.
+Computes the [argument](https://en.wikipedia.org/wiki/Argument_(complex_analysis)) (phase angle)
+
+of a complex quantity given as separate real and imaginary fields:
+
+$\phi[i] = \mathrm{atan2}(B[i],\, A[i])$.
+
+The output is in radians.
 
 available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
 
@@ -43,6 +49,8 @@ field or fields container with only one field is expected
 ## Outputs
 
 ### field
+
+Field containing the phase angle $\mathrm{atan2}(B[i],\, A[i])$ in radians for each data entry.
 
 **Type:** *LinkableOutput*
 

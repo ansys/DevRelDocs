@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.math.conjugate
 
 # *class* conjugate(fields_container: object = None, config: OperatorConfig = None)
 
-Computes element-wise conjugate of field containers containing complex fields.
+Computes the [complex conjugate](https://en.wikipedia.org/wiki/Complex_conjugate)
+
+$\bar{z}[i] = \mathrm{Re}[i] - j \cdot \mathrm{Im}[i]$ for each value in a complex-valued fields container
+
+(the imaginary part is negated).
+
+Input and output containers have the same structure.
 
 available inputs: `fields_container` (FieldsContainer)
 
@@ -29,11 +35,15 @@ op = conjugate(fields_container=my_fields_container)
 
 ### fields_container
 
+Complex-valued fields container with real (complex label 0) and imaginary (complex label 1) part fields.
+
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### fields_container
+
+Fields container with conjugate values; the imaginary-part fields carry negated data.
 
 **Type:** *LinkableOutput*
 

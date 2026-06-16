@@ -6,6 +6,8 @@ uid: user-guide
 
 Comprehensive guides for working with DPF IronPython.
 
+> **New to DPF?** If you are new to the Data Processing Framework, start with [DPF Onboarding](https://developer.ansys.com/docs/dpf-onboarding-||DPF_VERSION_SLUG||/index.md) to understand foundational concepts, then return here for MechDPF-specific guidance.
+
 ## Core Concepts
 
 ### [Understanding DPF](core-concepts.md)

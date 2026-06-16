@@ -28,7 +28,7 @@ Field, fields container, or numeric data for which to compute absolute values
 
 ### field
 
-Field with absolute values applied to each component
+Field with $|\mathrm{in}[i]|$ applied to each data component, preserving the input unit and dimensionality.
 
 **Type:** *LinkableOutput*
 

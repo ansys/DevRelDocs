@@ -147,8 +147,8 @@ Copyless constructor: the new vector is created with a reference on the same dat
 
 **Parameters**:
 
-* iterator const & **begin**
-* iterator const & **end**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **begin**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **end**
 
 **Return type**: 
 
@@ -202,7 +202,7 @@ ansys::dpf::DpfVector< T >::DpfVector(DpfVector const &)
 
 **Parameters**:
 
-* rhsDpfVector const &
+* rhs[DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) const &
 
 **Return type**: 
 
@@ -231,7 +231,7 @@ ansys::dpf::DpfVector< T >::DpfVector(DpfVector &&) noexcept
 
 **Parameters**:
 
-* rhsDpfVector &&
+* rhs[DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) &&
 
 **Return type**: 
 
@@ -260,9 +260,9 @@ DpfVector< T > & ansys::dpf::DpfVector< T >::operator=(DpfVector const &)
 
 **Parameters**:
 
-* rhsDpfVector const &
+* rhs[DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) const &
 
-**Return type**: DpfVector &
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) &
 
 <!--
 **TODO**:
@@ -289,9 +289,9 @@ DpfVector< T > & ansys::dpf::DpfVector< T >::operator=(DpfVector &&) noexcept
 
 **Parameters**:
 
-* rhsDpfVector &&
+* rhs[DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) &&
 
-**Return type**: DpfVector &
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) &
 
 <!--
 **TODO**:
@@ -370,9 +370,9 @@ T const  *const ansys::dpf::DpfVector< T >::data() const
 ```
 
 
+Returns a non-owned pointer to the inner memory of the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector).
 
-
-
+This is a copyless accessor. It must not exceed the lifetime of its [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector).
 
 
 
@@ -395,9 +395,9 @@ T *const ansys::dpf::DpfVector< T >::data()
 ```
 
 
+Returns a non-owned pointer to the inner memory of the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector).
 
-
-
+This is a copyless accessor. It must not exceed the lifetime of its [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) and the modified content will be comited on destrution of the [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)
 
 
 
@@ -561,7 +561,7 @@ iterator ansys::dpf::DpfVector< T >::begin() const
 
 
 
-**Return type**: iterator
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
 
 <!--
 **TODO**:
@@ -587,7 +587,7 @@ iterator ansys::dpf::DpfVector< T >::end() const
 
 
 
-**Return type**: iterator
+**Return type**: [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator)
 
 <!--
 **TODO**:
@@ -614,8 +614,8 @@ Copyless: the new data is created with a reference on the same data as begin and
 
 **Parameters**:
 
-* iterator const & **begin**
-* iterator const & **end**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **begin**
+* [iterator](structansys-dpf-dpfvector-iterator.md#structansys-dpf-dpfvector-iterator) const & **end**
 
 **Return type**: void
 
