@@ -361,7 +361,7 @@ get_access_token() {
   )
 
   # Add basic authentication credentials if they are set.
-  if [[ -n "${BASIC_AUTH_USERNAME}" && -n "${BASIC_AUTH_PASSWORD}" ]]; then
+  if [[ -n "${BASIC_AUTH_USERNAME:-}" && -n "${BASIC_AUTH_PASSWORD:-}" ]]; then
     _curl_opts+=(--user "${BASIC_AUTH_USERNAME}:${BASIC_AUTH_PASSWORD}")
   fi
 
@@ -462,7 +462,7 @@ create_migration_job() {
   )
 
   # Add basic authentication credentials if they are set.
-  if [[ -n "${BASIC_AUTH_USERNAME}" && -n "${BASIC_AUTH_PASSWORD}" ]]; then
+  if [[ -n "${BASIC_AUTH_USERNAME:-}" && -n "${BASIC_AUTH_PASSWORD:-}" ]]; then
     _curl_opts+=(--user "${BASIC_AUTH_USERNAME}:${BASIC_AUTH_PASSWORD}")
   fi
 

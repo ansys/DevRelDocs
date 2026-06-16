@@ -19,7 +19,7 @@
 Once the GitHub action (the `.github` folder and its content) has been
 committed to the repository and the credentials are also set, the script will
 automatically detect any push or merge changes in the `.../versions/YYY.RX.SPXX`
-product documentation directories in the `accept` branch (only in the `accept`
+product documentation directories in the `sandbox` branch (only in the `sandbox`
 branch - if it does not exist yet, it needs to be created). If the `docfx.json`
 file is present in the product directory, and it contains all required metadata
 then the script will create a new migration job on the devportal and puts it

@@ -3,7 +3,7 @@ name: Document Migration
 on:
   push:
     branches:
-      - accept
+      - sandbox
       - main
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
 
       - name: Set environment context
         run: |
-          if [[ "${{ github.ref_name }}" == "accept" ]]; then
+          if [[ "${{ github.ref_name }}" == "sandbox" ]]; then
              echo "TARGET_ENV=Amazee ACCEPT" >> $GITHUB_ENV
              echo "BASE_URL=${{ vars.BASE_URL_ACCEPT }}" >> $GITHUB_ENV
              echo "BASIC_AUTH_USERNAME=${{ secrets.BASIC_AUTH_USERNAME_ACCEPT }}" >> $GITHUB_ENV
