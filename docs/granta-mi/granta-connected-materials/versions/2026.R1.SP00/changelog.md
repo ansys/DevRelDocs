@@ -22,7 +22,7 @@ This release includes access to the following databases:
 
 | Database | Description |
 |----------|-------------|
-| Starter Data |  A collection of records that is designed to help show the types of data that are available in Granta Connected Materials. These are available to help develop and test applications. |
+| Starter Data |  A collection of records that is designed to help show the types of data that are available in Granta MI Connected Materials. These are available to help develop and test applications. |
 | Ansys MaterialUniverse® |  Complete and comparable data for over 4400 commercially-available engineering materials, providing physical, cost, mechanical, thermal, electrical, optical, durability, and environmental data, plus extensive data on over 240 processes.|
 | Electromagnetic Materials| Materials used for low frequency and high frequency electromagnetic applications. Includes printed circuit board materials (prepreg, core and laminate), soft magnetic alloys, permanent magnets and EM shielding/absorbing materials.|
 |Global Polymers | Comprehensive data for plastic grades and plastics additives. Includes plastics data from Prospector Plastics, with more than 107000 data sheets from over 1000 manufacturers. More than 15000 additives data records provide key properties for additive, filler and masterbatch products, that can be compounded with plastic materials to enhance performance or safety, reduce weight and cost, or improve processing processes.|

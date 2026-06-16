@@ -1,6 +1,6 @@
 # Getting started
 
-An application's point of contact with Granta Connected Materials is the Granta Integration Service REST API. This API brokers data between Granta services and your application.
+An application's point of contact with Granta MI Connected Materials is the Granta Integration Service REST API. This API brokers data between Granta services and your application.
 
 Any programming environment that can execute HTTP requests and parse a JSON response should be able to use the Granta Integration Service.
 
@@ -10,7 +10,7 @@ Our examples use Python, but your application environment may restrict your choi
 
 ### Authentication
 
-In order to use Granta Connected Materials, you need an account that has access to the Synopsys hosted instance.
+In order to use Granta MI Connected Materials, you need an account that has access to the Synopsys hosted instance.
 
 ### Prerequisites
 

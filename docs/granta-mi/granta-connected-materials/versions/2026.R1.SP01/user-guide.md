@@ -1,6 +1,6 @@
 # User guide
 
-From the perspective of your application, interacting with Granta Connected Materials involves three main concepts:
+From the perspective of your application, interacting with Granta MI Connected Materials involves three main concepts:
 
 - Granta Integration Service
 - Granta Material Picker
