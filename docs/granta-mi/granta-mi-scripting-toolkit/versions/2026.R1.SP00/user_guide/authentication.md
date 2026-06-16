@@ -34,6 +34,7 @@ Autologon uses the user’s current login session to authenticate with Granta MI
 required.
 
 #### NOTE
+
 To use autologon with MI Scripting Toolkit your Granta MI server must be configured in Windows authentication mode.
 
 <a id="windows-task-scheduler-and-autologon"></a>
@@ -64,6 +65,7 @@ Some additional recommendations:
   that if the password changes, it must be re-entered in Task Scheduler.
 
 #### NOTE
+
 If the Python script is executed within a virtual environment, write a batch or powershell script that first
 activates the virtual environment before the script is run. In this case, the *Actions* tab would reference the
 script, which in turn executes the Python script.
@@ -89,6 +91,7 @@ Authenticating with Granta MI using basic authentication is supported with all G
 OIDC mode.
 
 #### WARNING
+
 Basic authentication does not define any encryption of credentials. As a result, it is **strongly recommended** to
 use HTTPS when using basic authentication to ensure unencrypted credentials are not sent to the server.
 
@@ -162,6 +165,7 @@ Keyring leverages the [Windows Credential Locker](https://docs.microsoft.com/en-
 methods depending on the Linux distribution. In Ubuntu 22.04, the GNOME Password Manager is used.
 
 #### NOTE
+
 The `keyring` package is installed automatically with the `[oidc]` extra.
 
 Before proceeding, be aware of the following considerations when using `keyring`.
@@ -267,6 +271,7 @@ my_secret_password
 ```
 
 #### NOTE
+
 Since the same persistence backend is used for both the command line tool and Python interface, credentials can be
 stored using the command line and accessed programmatically.
 
@@ -298,11 +303,13 @@ Open ID Connect (OIDC) authentication is a modern, open approach to authenticati
 disparate systems with shared identities.
 
 #### NOTE
+
 To use OIDC with MI Scripting Toolkit your Granta MI server must be configured in OIDC mode. For more information about
 supported OIDC IdPs and for configuration and setup documentation, refer to Granta MI Administration and
 Configuration on [Ansys help](https://ansyshelp.ansys.com/).
 
 #### NOTE
+
 To use OIDC with MI Scripting Toolkit you must install the `[oidc]` extra. See [Getting started](../getting_started/index.md) for more details.
 
 <a id="interactive-mode"></a>
@@ -338,6 +345,7 @@ token:
   property.
 
 #### WARNING
+
 Refresh tokens are bearer tokens that grant access to the Granta MI server, and so should be treated as confidential.
 
 For unattended use, the refresh token can be stored securely in the OS credential manager and used to login
