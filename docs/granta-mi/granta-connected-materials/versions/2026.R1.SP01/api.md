@@ -4,5 +4,5 @@ The Integration Service provides a REST API over HTTPS for integrating materials
 
 The API reference documentation is available here:
 
-[Granta Integration Service](../../../granta-integration-service-rest-api/versions/2026.R1.SP00/)
+[Granta Integration Service](../granta-integration-service-1-0-0)
 
