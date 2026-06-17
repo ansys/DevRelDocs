@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.beam_t_shear_force
 
 # *class* beam_t_shear_force(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, unit_system: object = None, config: OperatorConfig = None)
 
-beam_t_shear_force()
-beam_t_shear_force(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
-beam_t_shear_force(config: OperatorConfig)
+beam_t_shear_force()
+
+beam_t_shear_force(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
+
+beam_t_shear_force(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_t_shear_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_t_shear_force.md)
+
+**DPF Framework Reference:** [beam_t_shear_force operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_t_shear_force.md)
 
 **Parameters:**
 

@@ -55,7 +55,7 @@ ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(RuntimeCoreConfig const &rhs)
 
 **Parameters**:
 
-* RuntimeCoreConfig const & **rhs**
+* [RuntimeCoreConfig](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig) const & **rhs**
 
 **Return type**: 
 
@@ -84,7 +84,7 @@ ansys::dpf::RuntimeCoreConfig::RuntimeCoreConfig(RuntimeCoreConfig &&rhs) noexce
 
 **Parameters**:
 
-* RuntimeCoreConfig && **rhs**
+* [RuntimeCoreConfig](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig) && **rhs**
 
 **Return type**: 
 

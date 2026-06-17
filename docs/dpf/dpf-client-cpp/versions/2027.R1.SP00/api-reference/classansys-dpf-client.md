@@ -94,7 +94,7 @@ Create [Client](classansys-dpf-client.md#classansys-dpf-client) from known ip, p
 
 * std::string const & **ip**: [in] server ip
 * std::string const & **port**: [in] server port
-* LibraryHandle const & **library_handle**: [in] the library_handle API will be used
+* [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) const & **library_handle**: [in] the library_handle API will be used
 
 **Return type**: 
 
@@ -153,7 +153,7 @@ Create [Client](classansys-dpf-client.md#classansys-dpf-client) from known addre
 **Parameters**:
 
 * std::string const & **address**: [in] string with 'ip::port' format.
-* LibraryHandle const & **library_handle**: [in] the library_handle API will be used
+* [LibraryHandle](classansys-dpf-libraryhandle.md#classansys-dpf-libraryhandle) const & **library_handle**: [in] the library_handle API will be used
 
 **Return type**: 
 
@@ -182,7 +182,7 @@ ansys::dpf::Client::Client(Client const &)
 
 **Parameters**:
 
-* Client const &
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const &
 
 **Return type**: 
 
@@ -211,7 +211,7 @@ ansys::dpf::Client::Client(Client &&) noexcept
 
 **Parameters**:
 
-* Client &&
+* [Client](classansys-dpf-client.md#classansys-dpf-client) &&
 
 **Return type**: 
 
@@ -240,9 +240,9 @@ Client & ansys::dpf::Client::operator=(Client const &)
 
 **Parameters**:
 
-* Client const &
+* [Client](classansys-dpf-client.md#classansys-dpf-client) const &
 
-**Return type**: Client &
+**Return type**: [Client](classansys-dpf-client.md#classansys-dpf-client) &
 
 <!--
 **TODO**:
@@ -269,9 +269,9 @@ Client & ansys::dpf::Client::operator=(Client &&) noexcept
 
 **Parameters**:
 
-* Client &&
+* [Client](classansys-dpf-client.md#classansys-dpf-client) &&
 
-**Return type**: Client &
+**Return type**: [Client](classansys-dpf-client.md#classansys-dpf-client) &
 
 <!--
 **TODO**:
@@ -467,7 +467,7 @@ Empty [Client](classansys-dpf-client.md#classansys-dpf-client)
 
 
 
-**Return type**: Client
+**Return type**: [Client](classansys-dpf-client.md#classansys-dpf-client)
 
 <!--
 **TODO**:

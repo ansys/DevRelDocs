@@ -10,7 +10,7 @@ available inputs: `use_absolute_value` (bool), `field1` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [min_by_component operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_by_component.md)
+**DPF Framework Reference:** [min_by_component operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_by_component.md)
 
 **Parameters:**
 

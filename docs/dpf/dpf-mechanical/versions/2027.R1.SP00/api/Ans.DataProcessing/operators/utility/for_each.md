@@ -10,7 +10,7 @@ available inputs: `iterable` (Any), `iterable_values` (Any) (optional), `pin_ind
 
 available outputs: `empty` (Any), `output1` (Any), `output2` (Any)
 
-**DPF Framework Reference:** [for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/for_each.md)
+**DPF Framework Reference:** [for_each operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/for_each.md)
 
 **Parameters:**
 

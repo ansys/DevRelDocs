@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.stress_von_mises
 
 # *class* stress_von_mises(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-stress_von_mises()
-stress_von_mises(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-stress_von_mises(config: OperatorConfig)
+stress_von_mises()
+
+stress_von_mises(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+stress_von_mises(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_von_mises operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_von_mises.md)
+
+**DPF Framework Reference:** [stress_von_mises operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_von_mises.md)
 
 **Parameters:**
 

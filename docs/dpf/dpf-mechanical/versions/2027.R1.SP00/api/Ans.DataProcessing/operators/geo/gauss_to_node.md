@@ -10,7 +10,7 @@ available inputs: `field` (Field), `scoping` (Scoping) (optional), `mesh` (Meshe
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [gauss_to_node operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/gauss_to_node.md)
+**DPF Framework Reference:** [gauss_to_node operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/gauss_to_node.md)
 
 **Parameters:**
 

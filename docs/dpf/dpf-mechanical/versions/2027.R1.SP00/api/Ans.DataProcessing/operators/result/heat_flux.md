@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.heat_flux
 
 # *class* heat_flux(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-heat_flux()
-heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-heat_flux(config: OperatorConfig)
+heat_flux()
+
+heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+heat_flux(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [heat_flux operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_flux.md)
+
+**DPF Framework Reference:** [heat_flux operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_flux.md)
 
 **Parameters:**
 

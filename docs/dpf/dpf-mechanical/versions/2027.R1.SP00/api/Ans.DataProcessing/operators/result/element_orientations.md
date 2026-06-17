@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.element_orientations
 
 # *class* element_orientations(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-element_orientations()
-element_orientations(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-element_orientations(config: OperatorConfig)
+element_orientations()
+
+element_orientations(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+element_orientations(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [element_orientations operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/element_orientations.md)
+
+**DPF Framework Reference:** [element_orientations operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/element_orientations.md)
 
 **Parameters:**
 

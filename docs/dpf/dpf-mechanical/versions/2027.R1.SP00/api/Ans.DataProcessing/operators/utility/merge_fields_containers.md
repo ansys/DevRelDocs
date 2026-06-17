@@ -10,7 +10,7 @@ available inputs: `should_merge_named_selections` (bool) (optional), `sum_merge`
 
 available outputs: `merged_fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [merge_fields_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_fields_containers.md)
+**DPF Framework Reference:** [merge_fields_containers operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_fields_containers.md)
 
 **Parameters:**
 

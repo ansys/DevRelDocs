@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.fastnvh_loadfile
 
 # *class* fastnvh_loadfile(stream_h5: object = None, ds_h5: object = None, config: OperatorConfig = None)
 
-fastnvh_loadfile()
-fastnvh_loadfile(stream_h5: object, ds_h5: object, config: OperatorConfig)
-fastnvh_loadfile(config: OperatorConfig)
+fastnvh_loadfile()
+
+fastnvh_loadfile(stream_h5: object, ds_h5: object, config: OperatorConfig)
+
+fastnvh_loadfile(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [fastnvh_loadfile operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fastnvh_loadfile.md)
+
+**DPF Framework Reference:** [fastnvh_loadfile operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fastnvh_loadfile.md)
 
 **Parameters:**
 

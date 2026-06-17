@@ -69,6 +69,7 @@ Holds Integral (int32) data describing a Property located on given entities (the
 * [setSupport](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield-1a8124e1eaed971c006045b89b5fb28798)
 * [setSupport](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield-1ae715fc13eaca1ce40e0fcd686d3c8555)
 * [setSupport](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield-1a8244b39576d028e8168557c0764d49a6)
+* [setSupport](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield-1a1ae7de09b9db3a6b3436a37b8c1413eb)
 * [support](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield-1ac99d91c191df704b90601b43076c216a)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 * [~PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield-1ae4d4f5e5f1452e4fba0fcf5897649d17)
@@ -95,7 +96,7 @@ static PropertyField ansys::dpf::PropertyField::emptyPropertyField()
 
 
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -129,7 +130,7 @@ Instantiate a [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-pro
 * std::string const & **input_name_to_connect** = "input_field" : [in] Name of the input of the workflow to connect. Should take a [Field](classansys-dpf-field.md#classansys-dpf-field).
 * std::string const & **output_name_to_eval** = "transformed_field" : [in] Name of the output of the workflow to evaluate. Should return a [Field](classansys-dpf-field.md#classansys-dpf-field).
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -239,7 +240,7 @@ ansys::dpf::PropertyField::PropertyField(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) on a server.
+Retrieve an existing instance of [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) on a server. <br/>
 
 
 
@@ -275,7 +276,7 @@ ansys::dpf::PropertyField::PropertyField(PropertyField const &)
 
 **Parameters**:
 
-* PropertyField const &
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const &
 
 **Return type**: 
 
@@ -304,7 +305,7 @@ ansys::dpf::PropertyField::PropertyField(PropertyField &&) noexcept
 
 **Parameters**:
 
-* PropertyField &&
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) &&
 
 **Return type**: 
 
@@ -333,9 +334,9 @@ PropertyField & ansys::dpf::PropertyField::operator=(PropertyField const &)
 
 **Parameters**:
 
-* PropertyField const &
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const &
 
-**Return type**: PropertyField &
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) &
 
 <!--
 **TODO**:
@@ -362,9 +363,9 @@ PropertyField & ansys::dpf::PropertyField::operator=(PropertyField &&) noexcept
 
 **Parameters**:
 
-* PropertyField &&
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) &&
 
-**Return type**: PropertyField &
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) &
 
 <!--
 **TODO**:
@@ -449,7 +450,7 @@ Support ansys::dpf::PropertyField::support() const
 
 
 
-**Return type**: Support
+**Return type**: [Support](classansys-dpf-support.md#classansys-dpf-support)
 
 <!--
 **TODO**:
@@ -535,6 +536,35 @@ Set the support of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 **Parameters**:
 
 * [ansys::dpf::MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) const & **s**: [in] [MeshedRegion](classansys-dpf-meshedregion.md#classansys-dpf-meshedregion) to support.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::PropertyField::setSupport"}]}`
+-->
+
+<a id="classansys-dpf-propertyfield-1a1ae7de09b9db3a6b3436a37b8c1413eb"></a>
+### Function setSupport
+
+![][public]
+
+
+```cpp
+void ansys::dpf::PropertyField::setSupport(ansys::dpf::CyclicSupport const &s)
+```
+
+
+
+
+Set the support of the [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield).
+
+
+
+**Parameters**:
+
+* [ansys::dpf::CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) const & **s**: [in] [CyclicSupport](classansys-dpf-cyclicsupport.md#classansys-dpf-cyclicsupport) to support.
 
 **Return type**: void
 
@@ -1157,7 +1187,7 @@ DpfVector< int > ansys::dpf::PropertyField::data() const
 
 
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -1185,7 +1215,7 @@ DpfVector< int > ansys::dpf::PropertyField::dataPointer() const
 
 
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -1216,7 +1246,7 @@ void ansys::dpf::PropertyField::entityData(dp_index entity_index, DpfVector< int
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
-* DpfVector< int > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -1249,7 +1279,7 @@ void ansys::dpf::PropertyField::entityDataById(dp_id entity_id, DpfVector< int >
 **Parameters**:
 
 * [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
-* DpfVector< int > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -1341,7 +1371,7 @@ Make a deep copy on a given client.
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] Remote client
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -1441,7 +1471,7 @@ Creates a new property field object from current property field without its data
 * bool const **copy_data_ptr** = true : [in] Boolean to decide if data pointer is to be copied
 * bool const **copy_support** = true : [in] Boolean to decide if the support reference is to be copied
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -1467,7 +1497,7 @@ Get the header of the [PropertyField](classansys-dpf-propertyfield.md#classansys
 
 
 
-**Return type**: DataTree
+**Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)
 
 <!--
 **TODO**:
@@ -1494,7 +1524,7 @@ Set the header of the [PropertyField](classansys-dpf-propertyfield.md#classansys
 
 **Parameters**:
 
-* const DataTree & **datatree**
+* const [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree) & **datatree**
 
 **Return type**: void
 

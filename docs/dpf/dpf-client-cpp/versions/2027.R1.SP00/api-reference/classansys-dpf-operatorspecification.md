@@ -141,7 +141,7 @@ ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification c
 
 **Parameters**:
 
-* OperatorSpecification const &
+* [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) const &
 
 **Return type**: 
 
@@ -170,7 +170,7 @@ ansys::dpf::OperatorSpecification::OperatorSpecification(OperatorSpecification &
 
 **Parameters**:
 
-* OperatorSpecification &&
+* [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) &&
 
 **Return type**: 
 
@@ -199,9 +199,9 @@ OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpe
 
 **Parameters**:
 
-* OperatorSpecification const &
+* [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) const &
 
-**Return type**: OperatorSpecification &
+**Return type**: [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) &
 
 <!--
 **TODO**:
@@ -228,9 +228,9 @@ OperatorSpecification & ansys::dpf::OperatorSpecification::operator=(OperatorSpe
 
 **Parameters**:
 
-* OperatorSpecification &&
+* [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) &&
 
-**Return type**: OperatorSpecification &
+**Return type**: [OperatorSpecification](classansys-dpf-operatorspecification.md#classansys-dpf-operatorspecification) &
 
 <!--
 **TODO**:

@@ -10,7 +10,7 @@ available inputs: `meshA` (MeshedRegion), `meshB` (MeshedRegion), `small_value` 
 
 available outputs: `are_identical` (bool)
 
-**DPF Framework Reference:** [identical_meshes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_meshes.md)
+**DPF Framework Reference:** [identical_meshes operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_meshes.md)
 
 **Parameters:**
 

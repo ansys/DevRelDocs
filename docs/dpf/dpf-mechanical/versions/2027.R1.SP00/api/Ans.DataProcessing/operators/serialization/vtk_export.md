@@ -10,7 +10,7 @@ available inputs: `export_type` (Int32) (optional), `file_path` (string), `mesh`
 
 available outputs:
 
-**DPF Framework Reference:** [vtk_export operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/vtk_export.md)
+**DPF Framework Reference:** [vtk_export operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/vtk_export.md)
 
 **Parameters:**
 

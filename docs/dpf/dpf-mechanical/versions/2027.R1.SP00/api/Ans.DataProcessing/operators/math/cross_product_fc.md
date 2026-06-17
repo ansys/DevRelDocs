@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.cross_product_fc
 
 # *class* cross_product_fc(field_or_fields_container_A: object = None, field_or_fields_container_B: object = None, config: OperatorConfig = None)
 
-cross_product_fc()
-cross_product_fc(field_or_fields_container_A: object, field_or_fields_container_B: object, config: OperatorConfig)
-cross_product_fc(config: OperatorConfig)
+cross_product_fc()
+
+cross_product_fc(field_or_fields_container_A: object, field_or_fields_container_B: object, config: OperatorConfig)
+
+cross_product_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [cross_product_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cross_product_fc.md)
+
+**DPF Framework Reference:** [cross_product_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cross_product_fc.md)
 
 **Parameters:**
 

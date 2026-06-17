@@ -30,7 +30,7 @@ available inputs: `rescoping_value` (double) (optional), `reference_scoping_inde
 
 available outputs: `merged_collections` (FieldsContainer)
 
-**DPF Framework Reference:** [concatenate_fields_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/concatenate_fields_containers.md)
+**DPF Framework Reference:** [concatenate_fields_containers operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/concatenate_fields_containers.md)
 
 **Parameters:**
 

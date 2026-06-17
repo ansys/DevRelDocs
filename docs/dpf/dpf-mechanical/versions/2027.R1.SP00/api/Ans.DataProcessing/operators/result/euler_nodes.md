@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer, Stream) (optional), `da
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [euler_nodes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/euler_nodes.md)
+**DPF Framework Reference:** [euler_nodes operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/euler_nodes.md)
 
 **Parameters:**
 

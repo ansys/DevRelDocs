@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.acceleration_X
 
 # *class* acceleration_X(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-acceleration_X()
-acceleration_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acceleration_X(config: OperatorConfig)
+acceleration_X()
+
+acceleration_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acceleration_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acceleration_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration_X.md)
+
+**DPF Framework Reference:** [acceleration_X operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration_X.md)
 
 **Parameters:**
 

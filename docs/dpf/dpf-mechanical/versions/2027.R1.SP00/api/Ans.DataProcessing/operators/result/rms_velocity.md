@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.rms_velocity
 
 # *class* rms_velocity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-rms_velocity()
-rms_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-rms_velocity(config: OperatorConfig)
+rms_velocity()
+
+rms_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+rms_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [rms_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rms_velocity.md)
+
+**DPF Framework Reference:** [rms_velocity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rms_velocity.md)
 
 **Parameters:**
 

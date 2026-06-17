@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.film_coefficient
 
 # *class* film_coefficient(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-film_coefficient()
-film_coefficient(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-film_coefficient(config: OperatorConfig)
+film_coefficient()
+
+film_coefficient(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+film_coefficient(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [film_coefficient operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/film_coefficient.md)
+
+**DPF Framework Reference:** [film_coefficient operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/film_coefficient.md)
 
 **Parameters:**
 

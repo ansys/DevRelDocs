@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes aXY + bZ where a,b (in 0, in 3) are scalar and X,Y,Z (in 1,2,4) are complex numbers.
+
+Computes the [linear combination](https://en.wikipedia.org/wiki/Linear_combination)
+$a \cdot X \cdot Y + b \cdot Z$,
+where $a$ (pin 0) and $b$ (pin 3) are real scalars,
+and $X$ (pin 1), $Y$ (pin 2), $Z$ (pin 4) are complex-valued fields containers.
+The product $X \cdot Y$ is a standard complex multiplication.
+
 
 ## Inputs
 
@@ -33,7 +39,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Double
+Real scalar factor $a$ applied to the complex product $X \cdot Y$.
 
 <a id="input_1"></a>
 ### fields_containerA (Pin 1)
@@ -57,7 +63,7 @@ Double
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Double
+Real scalar factor $b$ applied to the complex addend $Z$.
 
 <a id="input_4"></a>
 ### fields_containerC (Pin 4)
@@ -65,7 +71,7 @@ Double
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Third complex-valued fields container $Z$.
 
 
 ## Outputs
@@ -84,7 +90,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with the complex result $a \cdot X \cdot Y + b \cdot Z$ (real and imaginary parts).
 
 
 ## Configurations

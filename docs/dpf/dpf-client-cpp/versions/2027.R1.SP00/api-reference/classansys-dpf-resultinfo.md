@@ -307,8 +307,8 @@ ansys::dpf::ResultInfo::ResultInfo(analysis_type const &analysis_type=analysis_t
 
 **Parameters**:
 
-* [analysis_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae) const & **analysis_type** = [analysis_type::eUnknownAnalysis](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742aea533f3644550f70cbfc2a2892f9aba9c5) 
-* [physics_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba) const & **physics_type** = [physics_type::eUnknownPhysics](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfabaad00f4b71e4db56a56048bc9ecd1786f3) 
+* [analysis_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a7242b85e3d035f0953356a1146e742ae) const & **analysis_type** = analysis_type::eUnknownAnalysis 
+* [physics_type](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a4c9d8d076df7a3899011b1b2195dfaba) const & **physics_type** = physics_type::eUnknownPhysics 
 
 **Return type**: 
 
@@ -362,7 +362,7 @@ ansys::dpf::ResultInfo::ResultInfo(ResultInfo const &)
 
 **Parameters**:
 
-* ResultInfo const &
+* [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo) const &
 
 **Return type**: 
 
@@ -391,7 +391,7 @@ ansys::dpf::ResultInfo::ResultInfo(ResultInfo &&) noexcept
 
 **Parameters**:
 
-* ResultInfo &&
+* [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo) &&
 
 **Return type**: 
 
@@ -420,9 +420,9 @@ ResultInfo & ansys::dpf::ResultInfo::operator=(ResultInfo const &)
 
 **Parameters**:
 
-* ResultInfo const &
+* [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo) const &
 
-**Return type**: ResultInfo &
+**Return type**: [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo) &
 
 <!--
 **TODO**:
@@ -449,9 +449,9 @@ ResultInfo & ansys::dpf::ResultInfo::operator=(ResultInfo &&) noexcept
 
 **Parameters**:
 
-* ResultInfo &&
+* [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo) &&
 
-**Return type**: ResultInfo &
+**Return type**: [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo) &
 
 <!--
 **TODO**:
@@ -1748,7 +1748,7 @@ static ResultInfo ansys::dpf::ResultInfo::emptyResultInfo()
 
 
 
-**Return type**: ResultInfo
+**Return type**: [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo)
 
 <!--
 **TODO**:

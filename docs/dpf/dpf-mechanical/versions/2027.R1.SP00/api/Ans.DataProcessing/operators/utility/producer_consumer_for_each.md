@@ -10,7 +10,7 @@ available inputs: `producer_consumer_iterableq` (Any), `forward1` (Any), `forwar
 
 available outputs: `empty` (Any), `output1` (Any), `output2` (Any)
 
-**DPF Framework Reference:** [producer_consumer_for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/producer_consumer_for_each.md)
+**DPF Framework Reference:** [producer_consumer_for_each operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/producer_consumer_for_each.md)
 
 **Parameters:**
 

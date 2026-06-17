@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.coordinates
 
 # *class* coordinates(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-coordinates()
-coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-coordinates(config: OperatorConfig)
+coordinates()
+
+coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+coordinates(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/coordinates.md)
+
+**DPF Framework Reference:** [coordinates operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/coordinates.md)
 
 **Parameters:**
 

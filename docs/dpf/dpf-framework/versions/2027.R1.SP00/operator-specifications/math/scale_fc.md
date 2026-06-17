@@ -10,7 +10,15 @@ license: None
 
 ## Description
 
-Scales a fields container by a constant factor. This factor can be a scalar, a vector a field, a fields container, where each value of the vector represents a scaler per component. Number of the components are corresponding to the input field dimensionality
+
+Scales every field in a fields container by a constant factor.
+The factor can be a scalar (same value applied to all components),
+a vector of length $n_c$ (one value per component),
+a field or a fields container (values matched by entity or label space),
+in which case the operation is an entity-wise multiplication
+(also known as the [Hadamard product](https://en.wikipedia.org/wiki/Hadamard_product_(matrices))).
+Parallelised over fields.
+
 
 ## Inputs
 

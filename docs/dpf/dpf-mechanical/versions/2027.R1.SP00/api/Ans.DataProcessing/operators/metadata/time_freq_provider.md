@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `time_freq_support` (TimeFreqSupport)
 
-**DPF Framework Reference:** [time_freq_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/time_freq_provider.md)
+**DPF Framework Reference:** [time_freq_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/time_freq_provider.md)
 
 **Parameters:**
 

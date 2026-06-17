@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.nusselt_number
 
 # *class* nusselt_number(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-nusselt_number()
-nusselt_number(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nusselt_number(config: OperatorConfig)
+nusselt_number()
+
+nusselt_number(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nusselt_number(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nusselt_number operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nusselt_number.md)
+
+**DPF Framework Reference:** [nusselt_number operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nusselt_number.md)
 
 **Parameters:**
 

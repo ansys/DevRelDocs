@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.swelling_strains
 
 # *class* swelling_strains(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-swelling_strains()
-swelling_strains(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-swelling_strains(config: OperatorConfig)
+swelling_strains()
+
+swelling_strains(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+swelling_strains(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [swelling_strains operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/swelling_strains.md)
+
+**DPF Framework Reference:** [swelling_strains operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/swelling_strains.md)
 
 **Parameters:**
 

@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes multiplication between two field containers containing complex fields.
+
+Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication_and_square)
+$z_1 \cdot z_2$ for matching fields in two complex-valued fields containers:
+$\mathrm{Re}(z_\mathrm{out})[i] = \mathrm{Re}_1 \mathrm{Re}_2 - \mathrm{Im}_1 \mathrm{Im}_2$,
+$\mathrm{Im}(z_\mathrm{out})[i] = \mathrm{Re}_1 \mathrm{Im}_2 + \mathrm{Im}_1 \mathrm{Re}_2$.
+Both containers must have the same size.
+
 
 ## Inputs
 
@@ -57,7 +63,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container with the complex product fields (real and imaginary parts).
 
 
 ## Configurations

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.reaction_force_Z
 
 # *class* reaction_force_Z(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-reaction_force_Z()
-reaction_force_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-reaction_force_Z(config: OperatorConfig)
+reaction_force_Z()
+
+reaction_force_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+reaction_force_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_force_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_force_Z.md)
+
+**DPF Framework Reference:** [reaction_force_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_force_Z.md)
 
 **Parameters:**
 

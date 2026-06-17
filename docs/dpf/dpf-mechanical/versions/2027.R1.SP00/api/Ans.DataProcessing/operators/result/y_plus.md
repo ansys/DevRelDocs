@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.y_plus
 
 # *class* y_plus(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-y_plus()
-y_plus(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-y_plus(config: OperatorConfig)
+y_plus()
+
+y_plus(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+y_plus(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [y_plus operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/y_plus.md)
+
+**DPF Framework Reference:** [y_plus operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/y_plus.md)
 
 **Parameters:**
 

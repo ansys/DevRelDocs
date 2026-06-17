@@ -10,7 +10,7 @@ available inputs: `h5_chunk_size` (Int32) (optional), `append_mode` (bool) (opti
 
 available outputs: `data_sources` (DataSources)
 
-**DPF Framework Reference:** [hdf5dpf_generate_result_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
+**DPF Framework Reference:** [hdf5dpf_generate_result_file operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
 
 **Parameters:**
 
@@ -92,13 +92,13 @@ defines the unit system the results are exported with. A Result info can be inpu
 
 ### input_name1
 
-Set of even and odd pins to serialize results. Odd pins (4, 6, 8...) are strings, and they represent the names of the results to be serialized. Even pins (5, 7, 9...) are DPF types, and they represent the results to be serialized. They should go in pairs (for each result name, there should be a result) and connected sequentially.
+Set of even and odd pins to serialize results. Even pins (4, 6, 8...) are strings, and they represent the names of the results to be serialized. Odd pins (5, 7, 9...) are DPF types, and they represent the results to be serialized. They should go in pairs (for each result name, there should be a result) and connected sequentially.
 
 **Type:** *LinkableInput*
 
 ### input_name2
 
-Set of even and odd pins to serialize results. Odd pins (4, 6, 8...) are strings, and they represent the names of the results to be serialized. Even pins (5, 7, 9...) are DPF types, and they represent the results to be serialized. They should go in pairs (for each result name, there should be a result) and connected sequentially.
+Set of even and odd pins to serialize results. Even pins (4, 6, 8...) are strings, and they represent the names of the results to be serialized. Odd pins (5, 7, 9...) are DPF types, and they represent the results to be serialized. They should go in pairs (for each result name, there should be a result) and connected sequentially.
 
 **Type:** *LinkableInput*
 

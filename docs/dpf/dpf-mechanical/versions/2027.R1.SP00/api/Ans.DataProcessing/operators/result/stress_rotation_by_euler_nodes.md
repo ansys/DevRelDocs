@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer) (optional), `streams_cont
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [stress_rotation_by_euler_nodes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_rotation_by_euler_nodes.md)
+**DPF Framework Reference:** [stress_rotation_by_euler_nodes operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_rotation_by_euler_nodes.md)
 
 **Parameters:**
 

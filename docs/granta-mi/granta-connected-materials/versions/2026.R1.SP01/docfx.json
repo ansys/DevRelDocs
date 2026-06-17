@@ -1,9 +1,9 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Granta MI Connected Materials 2026 R1",
+        "title": "Granta MI Connected Materials 2026 R1 SP01",
         "summary": "Documentation for integrating Granta MI Connected Materials with host applications to access materials data through the Granta Material Picker and Integration Service API.",
-        "version": "2026 R1",
+        "version": "2026 R1 SP01",
         "product": "Granta MI",
         "physics": "Materials",
         "programming_language": "Python"

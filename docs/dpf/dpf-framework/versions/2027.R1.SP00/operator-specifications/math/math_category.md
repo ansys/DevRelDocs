@@ -57,6 +57,8 @@
 - [mac](mac.md)
 - [make one on comp](make_one_on_comp.md)
 - [matrix inverse](matrix_inverse.md)
+- [matrix product](matrix_product.md)
+- [matrix product fc](matrix_product_fc.md)
 - [mechanical min max over time](mechanical_min_max_over_time.md)
 - [minus](minus.md)
 - [minus fc](minus_fc.md)

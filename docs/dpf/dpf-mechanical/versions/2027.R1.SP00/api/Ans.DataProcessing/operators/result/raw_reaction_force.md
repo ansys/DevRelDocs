@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.raw_reaction_force
 
 # *class* raw_reaction_force(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-raw_reaction_force()
-raw_reaction_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-raw_reaction_force(config: OperatorConfig)
+raw_reaction_force()
+
+raw_reaction_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+raw_reaction_force(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [raw_reaction_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_reaction_force.md)
+
+**DPF Framework Reference:** [raw_reaction_force operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_reaction_force.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `stream_type` (Int32), `any_input1` (Any), `any_input2` (Any)
 
 available outputs: `nof_chunks` (Int32), `serialized_string1` (string), `serialized_string2` (string)
 
-**DPF Framework Reference:** [serializer_to_string operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/serializer_to_string.md)
+**DPF Framework Reference:** [serializer_to_string operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/serializer_to_string.md)
 
 **Parameters:**
 

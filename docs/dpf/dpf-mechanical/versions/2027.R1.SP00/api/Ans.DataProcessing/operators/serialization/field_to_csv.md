@@ -10,7 +10,7 @@ available inputs: `field_or_fields_container` (FieldsContainer, Field), `file_pa
 
 available outputs:
 
-**DPF Framework Reference:** [field_to_csv operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/field_to_csv.md)
+**DPF Framework Reference:** [field_to_csv operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/field_to_csv.md)
 
 **Parameters:**
 

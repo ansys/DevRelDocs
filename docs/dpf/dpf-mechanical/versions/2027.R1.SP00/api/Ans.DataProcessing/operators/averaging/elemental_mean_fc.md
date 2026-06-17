@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `collapse_shell_layers` 
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [elemental_mean_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_mean_fc.md)
+**DPF Framework Reference:** [elemental_mean_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_mean_fc.md)
 
 **Parameters:**
 

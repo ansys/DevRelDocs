@@ -12,16 +12,6 @@ license: None
 
 Reads the time/frequency support from the results files contained in the streams or data sources.
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- cff: cas, flprj 
-- cgns: cgns 
-- hdf5: h5dpf 
-- lsdyna: binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout 
-- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rstp, rth 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

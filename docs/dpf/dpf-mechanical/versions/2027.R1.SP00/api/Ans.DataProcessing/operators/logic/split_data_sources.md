@@ -10,7 +10,7 @@ available inputs: `data_sources` (DataSources), `output_count` (Int32)
 
 available outputs: `output_count` (Int32), `outputs1` (DataSources), `outputs2` (DataSources)
 
-**DPF Framework Reference:** [split_data_sources operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/split_data_sources.md)
+**DPF Framework Reference:** [split_data_sources operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/split_data_sources.md)
 
 **Parameters:**
 

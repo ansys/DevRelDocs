@@ -28,7 +28,7 @@ available inputs: `solver_element_types_ids` (Int32, IList int, System.Collectio
 
 available outputs: `element_types_data` (GenericDataContainer ,PropertyField)
 
-**DPF Framework Reference:** [element_types_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/element_types_provider.md)
+**DPF Framework Reference:** [element_types_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/element_types_provider.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `source_mesh` (MeshedRegion, Field) (optional), `target_mesh` 
 
 available outputs: `mapping_workflow` (Workflow)
 
-**DPF Framework Reference:** [create_mech_point_cloud_workflow operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_point_cloud_workflow.md)
+**DPF Framework Reference:** [create_mech_point_cloud_workflow operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_mech_point_cloud_workflow.md)
 
 **Parameters:**
 

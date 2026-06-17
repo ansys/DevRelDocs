@@ -18,7 +18,7 @@ available inputs: `input_field` (Field), `threshold` (double, Field)
 
 available outputs: `output_field` (Field)
 
-**DPF Framework Reference:** [quantization operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/quantization.md)
+**DPF Framework Reference:** [quantization operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/quantization.md)
 
 **Parameters:**
 

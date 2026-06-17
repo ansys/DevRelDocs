@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `cyclic_support` (CyclicSupport), `sector_meshes` (MeshesContainer)
 
-**DPF Framework Reference:** [cyclic_support_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/cyclic_support_provider.md)
+**DPF Framework Reference:** [cyclic_support_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/cyclic_support_provider.md)
 
 **Parameters:**
 

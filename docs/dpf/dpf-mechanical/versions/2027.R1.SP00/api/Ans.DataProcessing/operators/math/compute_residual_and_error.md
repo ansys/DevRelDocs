@@ -14,7 +14,7 @@ available inputs: `field_or_fields_container1` (Field, FieldsContainer), `normal
 
 available outputs: `residual` (Field ,FieldsContainer), `error` (Field ,FieldsContainer), `residual_normalization_factor` (Field ,FieldsContainer), `error_normalization_factor` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [compute_residual_and_error operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/compute_residual_and_error.md)
+**DPF Framework Reference:** [compute_residual_and_error operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/compute_residual_and_error.md)
 
 **Parameters:**
 

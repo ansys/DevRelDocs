@@ -2,6 +2,10 @@
 category: mesh
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  hdf5: [h5dpf]
+  vtk: [vtk]
 ---
 
 # mesh:mesh provider
@@ -21,9 +25,7 @@ If `permissive` is disabled (default), errors are thrown for invalid files.
 This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
 
 - cff: cas, flprj 
-- cgns: cgns 
 - hdf5: h5dpf 
-- mapdl: cms, dsub, mode, rdsp, rfrq, rst, rstp, rth 
 - vtk: vtk 
 
 ## Inputs

@@ -10,7 +10,24 @@ license: None
 
 ## Description
 
-Computes a general notion of inner product between two fields of possibly different dimensionality.
+
+Computes the generalized inner product between two fields,
+dispatching the appropriate operation based on their dimensionalities:
+
+| Pin 0 | Pin 1 | Operation | Result |
+|---|---|---|---|
+| vector field | vector field | [dot product](https://en.wikipedia.org/wiki/Dot_product) | scalar field |
+| scalar field | any field | scaling | field (same dimensionality as B) |
+| matrix field | matrix field | [matrix product](https://en.wikipedia.org/wiki/Matrix_multiplication) | matrix field |
+| matrix field | vector field | matrix-vector product | vector field |
+
+In Cartesian coordinates the vector $\cdot$ vector case is equivalent to the standard dot product.
+An optional mesh (pin 2) is required when computing the finite-element dot product
+between an elemental-nodal field and a nodal field.
+If either input is empty, a dimensionless zero scalar field is returned.
+The result covers the union of both field scopings;
+entities present in only one field contribute zero.
+
 
 ## Inputs
 
@@ -22,6 +39,7 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [fieldA](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>1</strong> | [fieldB](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [mesh](#input_2) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
 
 <a id="input_0"></a>
@@ -40,6 +58,14 @@ field or fields container with only one field is expected
 
 field or fields container with only one field is expected
 
+<a id="input_2"></a>
+### mesh (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+
+Mesh required when computing the finite-element dot product between an elemental-nodal field (pin 0 or 1) and a nodal field.
+
 
 ## Outputs
 
@@ -57,7 +83,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field containing the generalized inner product result
+Inner product result field; dimensionality and unit are determined by the dispatched operation.
 
 
 ## Configurations
@@ -146,6 +172,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ansys::dpf::Operator op("generalized_inner_product"); // operator instantiation
 op.connect(0, my_fieldA);
 op.connect(1, my_fieldB);
+op.connect(2, my_mesh);
 ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
 ```
 </details>
@@ -159,6 +186,7 @@ import ansys.dpf.core as dpf
 op = dpf.operators.math.generalized_inner_product() # operator instantiation
 op.inputs.fieldA.connect(my_fieldA)
 op.inputs.fieldB.connect(my_fieldB)
+op.inputs.mesh.connect(my_mesh)
 my_field = op.outputs.field()
 ```
 </details>
@@ -173,6 +201,7 @@ import Ans.DataProcessing as dpf
 op = dpf.operators.math.generalized_inner_product() # operator instantiation
 op.inputs.fieldA.Connect(my_fieldA)
 op.inputs.fieldB.Connect(my_fieldB)
+op.inputs.mesh.Connect(my_mesh)
 my_field = op.outputs.field.GetData()
 ```
 </details>
