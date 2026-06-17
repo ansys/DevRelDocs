@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.plastic_strain_principal_2
 
 # *class* plastic_strain_principal_2(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-plastic_strain_principal_2()
-plastic_strain_principal_2(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_strain_principal_2(config: OperatorConfig)
+plastic_strain_principal_2()
+
+plastic_strain_principal_2(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_strain_principal_2(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [plastic_strain_principal_2 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_principal_2.md)
+
+**DPF Framework Reference:** [plastic_strain_principal_2 operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_principal_2.md)
 
 **Parameters:**
 

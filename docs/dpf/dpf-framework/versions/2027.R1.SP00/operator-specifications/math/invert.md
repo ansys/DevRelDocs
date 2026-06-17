@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-DEPRECATED, PLEASE USE DIVIDE. Computes the element-wise and component-wise inverse of a field (1./x).
+DEPRECATED, PLEASE USE DIVIDE. Computes the entity-wise and component-wise inverse of a field (1./x).
 
 ## Inputs
 
@@ -48,7 +48,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field with inverse values (1/x) applied element-wise to input data
+Field with inverse values (1/x) applied entity-wise to input data
 
 
 ## Configurations

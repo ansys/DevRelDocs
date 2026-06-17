@@ -12,13 +12,6 @@ license: None
 
 Read Global Eroded Hourglass Energy (LSDyna) by calling the readers defined by the datasources.
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- hdf5: h5dpf 
-- lsdyna: binout 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

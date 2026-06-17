@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.incremental_energy
 
 # *class* incremental_energy(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-incremental_energy()
-incremental_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-incremental_energy(config: OperatorConfig)
+incremental_energy()
+
+incremental_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+incremental_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [incremental_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/incremental_energy.md)
+
+**DPF Framework Reference:** [incremental_energy operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/incremental_energy.md)
 
 **Parameters:**
 

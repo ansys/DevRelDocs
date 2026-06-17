@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `file_path` (string)
 
-**DPF Framework Reference:** [is_cyclic operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/is_cyclic.md)
+**DPF Framework Reference:** [is_cyclic operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/is_cyclic.md)
 
 **Parameters:**
 

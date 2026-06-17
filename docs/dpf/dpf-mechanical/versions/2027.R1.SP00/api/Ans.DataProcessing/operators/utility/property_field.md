@@ -10,7 +10,7 @@ available inputs: `input` (PropertyField)
 
 available outputs: `incremented_result` (Any)
 
-**DPF Framework Reference:** [property_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/property_field.md)
+**DPF Framework Reference:** [property_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/property_field.md)
 
 **Parameters:**
 

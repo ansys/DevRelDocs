@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.read_cms_rbd_file
 
 # *class* read_cms_rbd_file(in_cms_rbd_file_path: object = None, config: OperatorConfig = None)
 
-read_cms_rbd_file()
-read_cms_rbd_file(in_cms_rbd_file_path: object, config: OperatorConfig)
-read_cms_rbd_file(config: OperatorConfig)
+read_cms_rbd_file()
+
+read_cms_rbd_file(in_cms_rbd_file_path: object, config: OperatorConfig)
+
+read_cms_rbd_file(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [read_cms_rbd_file operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/read_cms_rbd_file.md)
+
+**DPF Framework Reference:** [read_cms_rbd_file operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/read_cms_rbd_file.md)
 
 **Parameters:**
 

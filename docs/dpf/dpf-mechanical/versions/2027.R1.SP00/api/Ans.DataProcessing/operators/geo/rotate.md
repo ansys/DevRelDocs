@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `field_rotation_matrix` (Fie
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [rotate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate.md)
+**DPF Framework Reference:** [rotate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate.md)
 
 **Parameters:**
 

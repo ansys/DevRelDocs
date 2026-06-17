@@ -6,11 +6,11 @@ uid: Ans.DataProcessing.operators.math.modal_superposition
 
 Computes the solution in the time/frequency space from a modal solution by multiplying a modal basis (in 0)by the solution in this modal space (coefficients for each mode for each time/frequency) (in 1).
 
-available inputs: `modal_basis` (FieldsContainer), `solution_in_modal_space` (FieldsContainer), `incremental_fc` (FieldsContainer) (optional), `time_scoping` (Scoping, IList int, System.Collections.IEnumerable) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional)
+available inputs: `modal_basis` (FieldsContainer, CustomTypeFieldsContainer), `solution_in_modal_space` (FieldsContainer, CustomTypeFieldsContainer), `incremental_fc` (FieldsContainer, CustomTypeFieldsContainer) (optional), `time_scoping` (Scoping, ScopingsContainer) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional)
 
-available outputs: `fields_container` (FieldsContainer)
+available outputs: `fields_container` (FieldsContainer ,CustomTypeFieldsContainer)
 
-**DPF Framework Reference:** [modal_superposition operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_superposition.md)
+**DPF Framework Reference:** [modal_superposition operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_superposition.md)
 
 **Parameters:**
 
@@ -64,6 +64,8 @@ Compute the result on a subset of the space domain defined in the modal_basis fi
 ## Outputs
 
 ### fields_container
+
+Expanded mode superposition solution.
 
 **Type:** *LinkableOutput*
 

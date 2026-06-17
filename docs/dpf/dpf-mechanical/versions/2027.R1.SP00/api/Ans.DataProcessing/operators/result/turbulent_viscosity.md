@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.turbulent_viscosity
 
 # *class* turbulent_viscosity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-turbulent_viscosity()
-turbulent_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-turbulent_viscosity(config: OperatorConfig)
+turbulent_viscosity()
+
+turbulent_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+turbulent_viscosity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [turbulent_viscosity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/turbulent_viscosity.md)
+
+**DPF Framework Reference:** [turbulent_viscosity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/turbulent_viscosity.md)
 
 **Parameters:**
 

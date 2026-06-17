@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.displacement_Y
 
 # *class* displacement_Y(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-displacement_Y()
-displacement_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-displacement_Y(config: OperatorConfig)
+displacement_Y()
+
+displacement_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+displacement_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [displacement_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement_Y.md)
+
+**DPF Framework Reference:** [displacement_Y operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement_Y.md)
 
 **Parameters:**
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.transform_invariant_terms_rbd
 
 # *class* transform_invariant_terms_rbd(rotation_matrix: object = None, coordinate_system: object = None, model_data: object = None, center_of_mass: object = None, inertia_relief: object = None, model_size: object = None, master_node_coordinates: object = None, v_trsf: object = None, k_mat: object = None, mass_mat: object = None, c_mat: object = None, rhs: object = None, dn: object = None, dr_cross_n: object = None, drn: object = None, dn_cross_n: object = None, dnx_y: object = None, dny_y: object = None, dnz_y: object = None, dyx_n: object = None, dyy_n: object = None, dyz_n: object = None, dnxn: object = None, dnyn: object = None, dnzn: object = None, config: OperatorConfig = None)
 
-transform_invariant_terms_rbd()
-transform_invariant_terms_rbd(rotation_matrix: object, coordinate_system: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, master_node_coordinates: object, v_trsf: object, k_mat: object, mass_mat: object, c_mat: object, rhs: object, dn: object, dr_cross_n: object, drn: object, dn_cross_n: object, dnx_y: object, dny_y: object, dnz_y: object, dyx_n: object, dyy_n: object, dyz_n: object, dnxn: object, dnyn: object, dnzn: object, config: OperatorConfig)
-transform_invariant_terms_rbd(config: OperatorConfig)
+transform_invariant_terms_rbd()
+
+transform_invariant_terms_rbd(rotation_matrix: object, coordinate_system: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, master_node_coordinates: object, v_trsf: object, k_mat: object, mass_mat: object, c_mat: object, rhs: object, dn: object, dr_cross_n: object, drn: object, dn_cross_n: object, dnx_y: object, dny_y: object, dnz_y: object, dyx_n: object, dyy_n: object, dyz_n: object, dnxn: object, dnyn: object, dnzn: object, config: OperatorConfig)
+
+transform_invariant_terms_rbd(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [transform_invariant_terms_rbd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/transform_invariant_terms_rbd.md)
+
+**DPF Framework Reference:** [transform_invariant_terms_rbd operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/transform_invariant_terms_rbd.md)
 
 **Parameters:**
 

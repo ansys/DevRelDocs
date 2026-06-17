@@ -10,7 +10,7 @@ available inputs: `file_path` (string), `export_floats` (bool) (optional), `expo
 
 available outputs:
 
-**DPF Framework Reference:** [serialize_to_hdf5 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/serialize_to_hdf5.md)
+**DPF Framework Reference:** [serialize_to_hdf5 operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/serialize_to_hdf5.md)
 
 **Parameters:**
 

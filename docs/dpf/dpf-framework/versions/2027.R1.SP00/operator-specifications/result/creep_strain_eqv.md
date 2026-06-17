@@ -43,13 +43,6 @@ Read/compute element nodal equivalent component creep strains by calling the rea
 | 13      | Pretension      |
 
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- hdf5: h5dpf 
-- mapdl: rst, rstp 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
@@ -183,6 +176,13 @@ Each output is detailed in the sections that follow the table.
 
 This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
 
+
+### [allow_ansys_element_library_computation](../../core-concepts/operator-configurations.md#allow_ansys_element_library_computation)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+BETA: User authorizes DPF to compute elemental results through the Ansys Element Library.Material and geometric nonlinearities are not allowed. Only linear analysis are supported.0: Not Authorized (default), 1: Only if result is not present, 2: Always use AEL.
 
 ### [mutex](../../core-concepts/operator-configurations.md#mutex)
 

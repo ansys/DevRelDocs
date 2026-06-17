@@ -68,7 +68,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion), `
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [solid_to_skin_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
+**DPF Framework Reference:** [solid_to_skin_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
 **Parameters:**
 

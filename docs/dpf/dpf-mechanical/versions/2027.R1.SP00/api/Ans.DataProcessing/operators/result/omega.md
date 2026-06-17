@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.omega
 
 # *class* omega(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-omega()
-omega(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-omega(config: OperatorConfig)
+omega()
+
+omega(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+omega(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [omega operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/omega.md)
+
+**DPF Framework Reference:** [omega operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/omega.md)
 
 **Parameters:**
 

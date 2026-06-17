@@ -10,7 +10,7 @@ available inputs: `field_contaner_to_compress` (FieldsContainer), `scalar_int` (
 
 available outputs: `us_svd` (FieldsContainer), `vt_svd` (FieldsContainer), `sigma` (Field ,FieldsContainer)
 
-**DPF Framework Reference:** [apply_svd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/apply_svd.md)
+**DPF Framework Reference:** [apply_svd operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/apply_svd.md)
 
 **Parameters:**
 

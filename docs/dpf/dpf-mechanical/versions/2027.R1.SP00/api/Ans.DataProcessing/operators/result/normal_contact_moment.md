@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.normal_contact_moment
 
 # *class* normal_contact_moment(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-normal_contact_moment()
-normal_contact_moment(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-normal_contact_moment(config: OperatorConfig)
+normal_contact_moment()
+
+normal_contact_moment(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+normal_contact_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [normal_contact_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/normal_contact_moment.md)
+
+**DPF Framework Reference:** [normal_contact_moment operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/normal_contact_moment.md)
 
 **Parameters:**
 

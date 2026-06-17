@@ -110,7 +110,7 @@ defines the unit system the results are exported with. A Result info can be inpu
 - **Required:** No
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`any`](../../core-concepts/dpf-types.md#any)
 
-Set of even and odd pins to serialize results. Odd pins (4, 6, 8...) are strings, and they represent the names of the results to be serialized. Even pins (5, 7, 9...) are DPF types, and they represent the results to be serialized. They should go in pairs (for each result name, there should be a result) and connected sequentially.
+Set of even and odd pins to serialize results. Even pins (4, 6, 8...) are strings, and they represent the names of the results to be serialized. Odd pins (5, 7, 9...) are DPF types, and they represent the results to be serialized. They should go in pairs (for each result name, there should be a result) and connected sequentially.
 
 
 ## Outputs

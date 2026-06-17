@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.modal_damping_ratio
 
 # *class* modal_damping_ratio(natural_freq: object = None, const_ratio: object = None, ratio_by_modes: object = None, m_coefficient: object = None, k_coefficient: object = None, config: OperatorConfig = None)
 
-modal_damping_ratio()
-modal_damping_ratio(natural_freq: object, const_ratio: object, ratio_by_modes: object, m_coefficient: object, k_coefficient: object, config: OperatorConfig)
-modal_damping_ratio(config: OperatorConfig)
+modal_damping_ratio()
+
+modal_damping_ratio(natural_freq: object, const_ratio: object, ratio_by_modes: object, m_coefficient: object, k_coefficient: object, config: OperatorConfig)
+
+modal_damping_ratio(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_damping_ratio operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_damping_ratio.md)
+
+**DPF Framework Reference:** [modal_damping_ratio operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_damping_ratio.md)
 
 **Parameters:**
 

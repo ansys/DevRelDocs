@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.nodal_rotational_velocity
 
 # *class* nodal_rotational_velocity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-nodal_rotational_velocity()
-nodal_rotational_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nodal_rotational_velocity(config: OperatorConfig)
+nodal_rotational_velocity()
+
+nodal_rotational_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nodal_rotational_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_rotational_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity.md)
+
+**DPF Framework Reference:** [nodal_rotational_velocity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity.md)
 
 **Parameters:**
 

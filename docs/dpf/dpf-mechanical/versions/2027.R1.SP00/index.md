@@ -2,9 +2,11 @@
 uid: index
 ---
 
-# DPF Mechanical ||DPF_VERSION|| Documentation
+# DPF Mechanical 2027.R1.SP00 Documentation
 
-Welcome to the DPF Mechanical ||DPF_VERSION|| documentation for Ansys Mechanical.
+Welcome to the DPF Mechanical 2027.R1.SP00 documentation for Ansys Mechanical.
+
+> **New to DPF?** If you are new to the Data Processing Framework and prefer a guided, step-by-step learning path, consider starting with [DPF Onboarding](https://developer-a.synopsys.com/docs/dpf-onboarding-2027.r1.sp00/index.md), which covers foundational concepts and architecture before diving into MechDPF specifics.
 
 ## Overview
 

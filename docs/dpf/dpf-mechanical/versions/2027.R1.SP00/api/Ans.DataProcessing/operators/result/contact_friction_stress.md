@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.contact_friction_stress
 
 # *class* contact_friction_stress(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-contact_friction_stress()
-contact_friction_stress(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-contact_friction_stress(config: OperatorConfig)
+contact_friction_stress()
+
+contact_friction_stress(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+contact_friction_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [contact_friction_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_friction_stress.md)
+
+**DPF Framework Reference:** [contact_friction_stress operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/contact_friction_stress.md)
 
 **Parameters:**
 

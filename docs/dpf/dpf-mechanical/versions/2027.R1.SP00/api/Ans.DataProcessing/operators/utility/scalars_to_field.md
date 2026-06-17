@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.utility.scalars_to_field
 
 # *class* scalars_to_field(double_or_vector_double: object = None, unit: object = None, location: object = None, num_entities: object = None, num_components: object = None, scoping: object = None, config: OperatorConfig = None)
 
-scalars_to_field()
-scalars_to_field(double_or_vector_double: object, unit: object, location: object, num_entities: object, num_components: object, scoping: object, config: OperatorConfig)
-scalars_to_field(config: OperatorConfig)
+scalars_to_field()
+
+scalars_to_field(double_or_vector_double: object, unit: object, location: object, num_entities: object, num_components: object, scoping: object, config: OperatorConfig)
+
+scalars_to_field(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [scalars_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/scalars_to_field.md)
+
+**DPF Framework Reference:** [scalars_to_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/scalars_to_field.md)
 
 **Parameters:**
 

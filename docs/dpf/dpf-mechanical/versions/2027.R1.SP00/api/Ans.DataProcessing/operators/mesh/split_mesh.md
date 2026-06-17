@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `mesh` (MeshedRegion), `p
 
 available outputs: `meshes` (MeshesContainer)
 
-**DPF Framework Reference:** [split_mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_mesh.md)
+**DPF Framework Reference:** [split_mesh operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_mesh.md)
 
 **Parameters:**
 

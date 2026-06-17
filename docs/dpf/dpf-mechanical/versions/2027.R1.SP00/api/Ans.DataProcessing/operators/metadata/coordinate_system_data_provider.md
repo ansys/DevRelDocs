@@ -10,7 +10,7 @@ available inputs: `solver_coordinate_system_ids` (Int32, IList int, System.Colle
 
 available outputs: `coordinate_system_data1` (GenericDataContainer), `coordinate_system_data2` (GenericDataContainer)
 
-**DPF Framework Reference:** [coordinate_system_data_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/coordinate_system_data_provider.md)
+**DPF Framework Reference:** [coordinate_system_data_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/coordinate_system_data_provider.md)
 
 **Parameters:**
 

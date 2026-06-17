@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.displacement_Z
 
 # *class* displacement_Z(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-displacement_Z()
-displacement_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-displacement_Z(config: OperatorConfig)
+displacement_Z()
+
+displacement_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+displacement_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [displacement_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement_Z.md)
+
+**DPF Framework Reference:** [displacement_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement_Z.md)
 
 **Parameters:**
 

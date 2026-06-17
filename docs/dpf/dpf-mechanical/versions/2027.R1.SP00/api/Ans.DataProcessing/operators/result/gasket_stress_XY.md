@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.gasket_stress_XY
 
 # *class* gasket_stress_XY(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-gasket_stress_XY()
-gasket_stress_XY(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-gasket_stress_XY(config: OperatorConfig)
+gasket_stress_XY()
+
+gasket_stress_XY(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+gasket_stress_XY(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_stress_XY operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_stress_XY.md)
+
+**DPF Framework Reference:** [gasket_stress_XY operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_stress_XY.md)
 
 **Parameters:**
 

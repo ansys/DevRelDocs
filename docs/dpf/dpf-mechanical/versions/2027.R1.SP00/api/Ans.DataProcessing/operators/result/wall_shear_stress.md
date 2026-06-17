@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.wall_shear_stress
 
 # *class* wall_shear_stress(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-wall_shear_stress()
-wall_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-wall_shear_stress(config: OperatorConfig)
+wall_shear_stress()
+
+wall_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+wall_shear_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [wall_shear_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/wall_shear_stress.md)
+
+**DPF Framework Reference:** [wall_shear_stress operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/wall_shear_stress.md)
 
 **Parameters:**
 

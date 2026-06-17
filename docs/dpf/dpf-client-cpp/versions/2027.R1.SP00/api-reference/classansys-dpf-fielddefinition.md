@@ -157,7 +157,7 @@ ansys::dpf::FieldDefinition::FieldDefinition(FieldDefinition const &)
 
 **Parameters**:
 
-* FieldDefinition const &
+* [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition) const &
 
 **Return type**: 
 
@@ -186,7 +186,7 @@ ansys::dpf::FieldDefinition::FieldDefinition(FieldDefinition &&) noexcept
 
 **Parameters**:
 
-* FieldDefinition &&
+* [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition) &&
 
 **Return type**: 
 
@@ -339,9 +339,9 @@ FieldDefinition & ansys::dpf::FieldDefinition::operator=(FieldDefinition const &
 
 **Parameters**:
 
-* FieldDefinition const &
+* [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition) const &
 
-**Return type**: FieldDefinition &
+**Return type**: [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition) &
 
 <!--
 **TODO**:
@@ -368,9 +368,9 @@ FieldDefinition & ansys::dpf::FieldDefinition::operator=(FieldDefinition &&) noe
 
 **Parameters**:
 
-* FieldDefinition &&
+* [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition) &&
 
-**Return type**: FieldDefinition &
+**Return type**: [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition) &
 
 <!--
 **TODO**:
@@ -715,7 +715,7 @@ Make a deep copy on a given client.
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] Remote client
 
-**Return type**: FieldDefinition
+**Return type**: [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition)
 
 <!--
 **TODO**:
@@ -861,7 +861,7 @@ Empty [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fieldde
 
 
 
-**Return type**: FieldDefinition
+**Return type**: [FieldDefinition](classansys-dpf-fielddefinition.md#classansys-dpf-fielddefinition)
 
 <!--
 **TODO**:

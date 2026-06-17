@@ -18,7 +18,7 @@ available inputs: `input_fc` (FieldsContainer), `threshold` (double, Field, Fiel
 
 available outputs: `output_fc` (FieldsContainer)
 
-**DPF Framework Reference:** [quantization_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/quantization_fc.md)
+**DPF Framework Reference:** [quantization_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/quantization_fc.md)
 
 **Parameters:**
 

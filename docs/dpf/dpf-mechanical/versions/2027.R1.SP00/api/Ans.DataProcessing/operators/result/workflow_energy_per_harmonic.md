@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping) 
 
 available outputs: `harmonic_energy` (FieldsContainer), `harmonic_energy_percentage` (FieldsContainer)
 
-**DPF Framework Reference:** [workflow_energy_per_harmonic operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/workflow_energy_per_harmonic.md)
+**DPF Framework Reference:** [workflow_energy_per_harmonic operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/workflow_energy_per_harmonic.md)
 
 **Parameters:**
 

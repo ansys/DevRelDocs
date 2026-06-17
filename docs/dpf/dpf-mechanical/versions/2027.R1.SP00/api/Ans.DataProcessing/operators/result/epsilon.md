@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.epsilon
 
 # *class* epsilon(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-epsilon()
-epsilon(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-epsilon(config: OperatorConfig)
+epsilon()
+
+epsilon(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+epsilon(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [epsilon operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/epsilon.md)
+
+**DPF Framework Reference:** [epsilon operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/epsilon.md)
 
 **Parameters:**
 

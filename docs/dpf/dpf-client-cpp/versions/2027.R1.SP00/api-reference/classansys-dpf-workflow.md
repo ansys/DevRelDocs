@@ -218,7 +218,7 @@
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Session"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Session"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Session"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Session"},"children":[{"type":"text","text":"Session"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-workflow-1af764561c544bacc1b90b526ee8d3c708"></a>
@@ -240,7 +240,7 @@
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class core"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::core"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"core"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1core"},"children":[{"type":"text","text":"core"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-workflow-1a33ff3f826991522d2e77c1c523f33e19"></a>
@@ -262,7 +262,7 @@
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Operator"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Operator"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Operator"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Operator"},"children":[{"type":"text","text":"Operator"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-workflow-1a81d95df60edf516a1de9878b780f8fb3"></a>
@@ -328,7 +328,7 @@
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Any"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Any"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Any"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Any"},"children":[{"type":"text","text":"Any"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-workflow-1aaec47a26a3c11c1debd3ed922b69cbd2"></a>
@@ -350,7 +350,7 @@
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Field"},"children":[{"type":"text","text":"Field"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-workflow-1abb4aa5a7ed62b741f0b146a257d0fe5e"></a>
@@ -372,7 +372,7 @@
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class PropertyField"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::PropertyField"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"PropertyField"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1PropertyField"},"children":[{"type":"text","text":"PropertyField"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 <a id="classansys-dpf-workflow-1acc06c4380c923e11af63f95e97c3c259"></a>
@@ -757,7 +757,7 @@ Add operator to workflow.
 
 **Parameters**:
 
-* Operator & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to add.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to add.
 
 **Return type**: void
 
@@ -967,7 +967,7 @@ Add an input name to given pin of operator.
 
 * std::string const & **pin_name**: [in] Pin name.
 * int **operator_input_pin**: [in] Input pin.
-* Operator & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to which to add pin name.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to which to add pin name.
 
 **Return type**: void
 
@@ -996,7 +996,7 @@ Add an output name to given pin of operator.
 
 **Parameters**:
 
-* Operator & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to which to add pin name.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to which to add pin name.
 * int **operator_output_pin**: [in] Output pin.
 * std::string const & **pin_name**: [in] Pin name.
 
@@ -1500,7 +1500,7 @@ First operator in workflow chain.
 
 
 
-**Return type**: Operator
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 <!--
 **TODO**:
@@ -1528,7 +1528,7 @@ last operator in workflow chain.
 
 
 
-**Return type**: Operator
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 <!--
 **TODO**:
@@ -1554,7 +1554,7 @@ std::vector< Operator > ansys::dpf::Workflow::getOperators() const
 
 
 
-**Return type**: std::vector< Operator >
+**Return type**: std::vector< [Operator](classansys-dpf-operator.md#classansys-dpf-operator) >
 
 <!--
 **TODO**:
@@ -1585,7 +1585,7 @@ Field ansys::dpf::Workflow::getOutputField(std::string const &pin_name)
 
 * std::string const & **pin_name**: [in] Output pin name.
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -1957,7 +1957,7 @@ Property field result for given output pin.
 
 * std::string const & **pin_namepin_name**: [in] Output pin name.
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -2329,7 +2329,7 @@ Any ansys::dpf::Workflow::getOutputAsAny(std::string const &pin_name)
 
 * std::string const & **pin_name**: [in] Output pin name.
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -2360,7 +2360,7 @@ Integers vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf
 
 * std::string const & **pin_name**: [in] Output pin name.
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -2391,7 +2391,7 @@ Doubles vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-
 
 * std::string const & **pin_name**: [in] Output pin name.
 
-**Return type**: DpfVector< double >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double >
 
 <!--
 **TODO**:
@@ -2487,7 +2487,7 @@ Field ansys::dpf::Workflow::getOutputField(std::string const &pin_name, DpfError
 * std::string const & **pin_name**: [in] Output pin name.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: Field
+**Return type**: [Field](classansys-dpf-field.md#classansys-dpf-field)
 
 <!--
 **TODO**:
@@ -2871,7 +2871,7 @@ Property field result for given output pin.
 * std::string const & **pin_name**: [in] Output pin name.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: PropertyField
+**Return type**: [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield)
 
 <!--
 **TODO**:
@@ -3223,7 +3223,7 @@ Integers vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf
 * std::string const & **pin_name**: [in] Output pin name.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -3255,7 +3255,7 @@ Doubles vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-
 * std::string const & **pin_name**: [in] Output pin name.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: DpfVector< double >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double >
 
 <!--
 **TODO**:
@@ -3550,7 +3550,7 @@ Connect field to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* Field const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) data.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) data.
 
 **Return type**: void
 
@@ -3715,7 +3715,7 @@ Connect property field to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* PropertyField const & **f**: [in] Property field data.
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const & **f**: [in] Property field data.
 
 **Return type**: void
 
@@ -4211,7 +4211,7 @@ Connect [Any](classansys-dpf-any.md#classansys-dpf-any) to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* Any const & **f**: [in] [Any](classansys-dpf-any.md#classansys-dpf-any) data.
+* [Any](classansys-dpf-any.md#classansys-dpf-any) const & **f**: [in] [Any](classansys-dpf-any.md#classansys-dpf-any) data.
 
 **Return type**: void
 
@@ -4244,7 +4244,7 @@ Connect operator output pin to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* Operator const & **f**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) from which to connect output pin.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **f**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) from which to connect output pin.
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] Output pin.
 
 **Return type**: void
@@ -4557,7 +4557,7 @@ Connect field to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* Field const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) data.
+* [Field](classansys-dpf-field.md#classansys-dpf-field) const & **f**: [in] [Field](classansys-dpf-field.md#classansys-dpf-field) data.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -4774,7 +4774,7 @@ Connect property field to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* PropertyField const & **f**: [in] Property field data.
+* [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const & **f**: [in] Property field data.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -5115,7 +5115,7 @@ Connect [Any](classansys-dpf-any.md#classansys-dpf-any) support to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* Any const & **f**: [in] Workflow [Any](classansys-dpf-any.md#classansys-dpf-any) data.
+* [Any](classansys-dpf-any.md#classansys-dpf-any) const & **f**: [in] Workflow [Any](classansys-dpf-any.md#classansys-dpf-any) data.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -5146,7 +5146,7 @@ Connect operator output pin to input pin.
 **Parameters**:
 
 * std::string const & **pin_name**: [in] Input pin name.
-* Operator const & **f**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) from which to connect output pin.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **f**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) from which to connect output pin.
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] Output pin.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 

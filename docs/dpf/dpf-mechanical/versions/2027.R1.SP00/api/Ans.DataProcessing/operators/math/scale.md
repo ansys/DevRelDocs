@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.scale
 
 # *class* scale(field: object = None, weights: object = None, boolean: object = None, algorithm: object = None, config: OperatorConfig = None)
 
-scale()
-scale(field: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
-scale(config: OperatorConfig)
+scale()
+
+scale(field: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
+
+scale(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [scale operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale.md)
+
+**DPF Framework Reference:** [scale operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale.md)
 
 **Parameters:**
 

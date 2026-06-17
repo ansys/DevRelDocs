@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.acceleration_Z
 
 # *class* acceleration_Z(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-acceleration_Z()
-acceleration_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acceleration_Z(config: OperatorConfig)
+acceleration_Z()
+
+acceleration_Z(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acceleration_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acceleration_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration_Z.md)
+
+**DPF Framework Reference:** [acceleration_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration_Z.md)
 
 **Parameters:**
 

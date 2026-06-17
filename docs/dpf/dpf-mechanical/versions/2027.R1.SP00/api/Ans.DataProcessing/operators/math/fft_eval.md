@@ -10,7 +10,7 @@ available inputs: `field_t` (Field), `time_scoping` (Scoping) (optional)
 
 available outputs: `field` (Field), `offset` (Field)
 
-**DPF Framework Reference:** [fft_eval operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fft_eval.md)
+**DPF Framework Reference:** [fft_eval operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fft_eval.md)
 
 **Parameters:**
 

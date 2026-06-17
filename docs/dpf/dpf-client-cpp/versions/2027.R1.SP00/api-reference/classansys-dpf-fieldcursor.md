@@ -41,7 +41,7 @@ Represents a complete entity data (id, size, num elementary data).
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class Field"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldCursor::Field"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"Field"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1Field"},"children":[{"type":"text","text":"Field"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 ## Public functions

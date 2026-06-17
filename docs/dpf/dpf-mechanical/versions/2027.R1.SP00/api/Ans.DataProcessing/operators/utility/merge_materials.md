@@ -10,7 +10,7 @@ available inputs: `materials1` (Materials), `materials2` (Materials)
 
 available outputs: `merged_materials` (Materials)
 
-**DPF Framework Reference:** [merge_materials operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_materials.md)
+**DPF Framework Reference:** [merge_materials operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_materials.md)
 
 **Parameters:**
 

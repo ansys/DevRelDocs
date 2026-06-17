@@ -10,7 +10,7 @@ available inputs: `scoping` (Scoping) (optional), `streams_container` (StreamsCo
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [compute_stress_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_stress_Z.md)
+**DPF Framework Reference:** [compute_stress_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_stress_Z.md)
 
 **Parameters:**
 

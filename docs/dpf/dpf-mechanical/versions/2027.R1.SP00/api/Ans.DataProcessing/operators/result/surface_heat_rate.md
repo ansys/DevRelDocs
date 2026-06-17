@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.surface_heat_rate
 
 # *class* surface_heat_rate(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-surface_heat_rate()
-surface_heat_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-surface_heat_rate(config: OperatorConfig)
+surface_heat_rate()
+
+surface_heat_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+surface_heat_rate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [surface_heat_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/surface_heat_rate.md)
+
+**DPF Framework Reference:** [surface_heat_rate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/surface_heat_rate.md)
 
 **Parameters:**
 

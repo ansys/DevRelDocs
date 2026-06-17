@@ -17,6 +17,7 @@ Holds string data describing a Property located on given entities (the [StringFi
 
 * [callAPI](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1aea34d37e0c080126eff70db34bf46597)
 * [data](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a4c6e1215a605ec027834fb45ae658fd7)
+* [dataPointer](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a082a7a48f1515c6b59d7e46202b30b4f)
 * [dataSize](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1aeba443e66b156da5c91910e924cb2e7f)
 * [describe](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a9977945710983bc03d2940fa007847b2)
 * [empty](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a39cd546c42518e2332be8f287db95459)
@@ -69,7 +70,7 @@ static StringField ansys::dpf::StringField::emptyStringField()
 
 
 
-**Return type**: StringField
+**Return type**: [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield)
 
 <!--
 **TODO**:
@@ -148,7 +149,7 @@ ansys::dpf::StringField::StringField(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) on a server.
+Retrieve an existing instance of [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) on a server. <br/>
 
 
 
@@ -214,7 +215,7 @@ ansys::dpf::StringField::StringField(StringField const &)
 
 **Parameters**:
 
-* StringField const &
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) const &
 
 **Return type**: 
 
@@ -243,7 +244,7 @@ ansys::dpf::StringField::StringField(StringField &&) noexcept
 
 **Parameters**:
 
-* StringField &&
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &&
 
 **Return type**: 
 
@@ -272,9 +273,9 @@ StringField & ansys::dpf::StringField::operator=(StringField const &)
 
 **Parameters**:
 
-* StringField const &
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) const &
 
-**Return type**: StringField &
+**Return type**: [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &
 
 <!--
 **TODO**:
@@ -301,9 +302,9 @@ StringField & ansys::dpf::StringField::operator=(StringField &&) noexcept
 
 **Parameters**:
 
-* StringField &&
+* [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &&
 
-**Return type**: StringField &
+**Return type**: [StringField](classansys-dpf-stringfield.md#classansys-dpf-stringfield) &
 
 <!--
 **TODO**:
@@ -534,7 +535,7 @@ DpfVector< std::string > ansys::dpf::StringField::data() const
 
 
 
-**Return type**: DpfVector< std::string >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< std::string >
 
 <!--
 **TODO**:
@@ -595,7 +596,7 @@ void ansys::dpf::StringField::entityData(dp_index entity_index, DpfVector< std::
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **entity_index**: [in] Index of entity for which to get data.
-* DpfVector< std::string > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< std::string > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -628,7 +629,7 @@ void ansys::dpf::StringField::entityDataById(dp_id entity_id, DpfVector< std::st
 **Parameters**:
 
 * [dp_id](namespaceansys-dpf.md#namespaceansys-dpf-1ab4574c9af3f2bb8011da7d1f4c8da20e) **entity_id**: [in] Id of entity for which to get data.
-* DpfVector< std::string > & **data**: [out] Pointer to the data.
+* [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< std::string > & **data**: [out] Pointer to the data.
 
 **Return type**: void
 
@@ -696,6 +697,36 @@ Reserve the [Field](classansys-dpf-field.md#classansys-dpf-field).
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::resize"}]}`
+-->
+
+<a id="classansys-dpf-stringfield-1a082a7a48f1515c6b59d7e46202b30b4f"></a>
+### Function dataPointer
+
+![][public]
+![][const]
+
+
+```cpp
+DpfVector< int > ansys::dpf::StringField::dataPointer() const
+```
+
+
+
+
+**Returns**:
+
+[DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector) of start indices, one per entity (data pointer).
+
+For fields with variable-size entity data (e.g. ElementalNodal), [dataPointer()](classansys-dpf-stringfield.md#classansys-dpf-stringfield-1a082a7a48f1515c6b59d7e46202b30b4f)[i] is the flat-array index where entity i's data begins. Returns an empty vector when all entities have the same number of components.
+
+
+
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::StringField::dataPointer"}]}`
 -->
 
 <!--

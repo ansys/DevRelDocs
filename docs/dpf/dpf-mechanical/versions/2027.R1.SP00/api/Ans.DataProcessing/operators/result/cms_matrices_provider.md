@@ -10,7 +10,7 @@ available inputs: `data_sources` (DataSources), `matrix_form` (bool)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [cms_matrices_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cms_matrices_provider.md)
+**DPF Framework Reference:** [cms_matrices_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/cms_matrices_provider.md)
 
 **Parameters:**
 

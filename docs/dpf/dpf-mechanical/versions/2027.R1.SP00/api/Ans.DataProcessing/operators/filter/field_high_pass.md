@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `threshold` (double, Field),
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [field_high_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/field_high_pass.md)
+**DPF Framework Reference:** [field_high_pass operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/field_high_pass.md)
 
 **Parameters:**
 

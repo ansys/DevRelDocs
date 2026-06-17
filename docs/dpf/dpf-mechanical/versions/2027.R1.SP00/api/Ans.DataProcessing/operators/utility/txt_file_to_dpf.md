@@ -10,7 +10,7 @@ available inputs: `input_string` (string)
 
 available outputs: `any_output1` (Any), `any_output2` (Any)
 
-**DPF Framework Reference:** [txt_file_to_dpf operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/txt_file_to_dpf.md)
+**DPF Framework Reference:** [txt_file_to_dpf operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/txt_file_to_dpf.md)
 
 **Parameters:**
 
@@ -28,6 +28,8 @@ op = txt_file_to_dpf(input_string=my_input_string)
 ## Inputs
 
 ### input_string
+
+ex: 'double:1.0', 'int:1', 'vector<double>:1.0;1.0'
 
 **Type:** *LinkableInput*
 

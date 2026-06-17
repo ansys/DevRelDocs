@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.joint_moment_reaction
 
 # *class* joint_moment_reaction(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-joint_moment_reaction()
-joint_moment_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_moment_reaction(config: OperatorConfig)
+joint_moment_reaction()
+
+joint_moment_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_moment_reaction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_moment_reaction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_moment_reaction.md)
+
+**DPF Framework Reference:** [joint_moment_reaction operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_moment_reaction.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `mesh_or_field` (MeshedRegion, Field), `normal` (Field), `orig
 
 available outputs: `field` (Field), `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [mesh_plan_clip operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_plan_clip.md)
+**DPF Framework Reference:** [mesh_plan_clip operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_plan_clip.md)
 
 **Parameters:**
 

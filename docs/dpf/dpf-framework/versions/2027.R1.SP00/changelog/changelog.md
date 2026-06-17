@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-05-12).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-17).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,14 +9,15 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | 1297620 |  |[1 item](#Fixes_1297620) |
+| ael | [1 item](#Features_ael) | |
 | averaging |  |[1 item](#Fixes_averaging) |
 | build |  |[1 item](#Fixes_build) |
 | c# |  |[1 item](#Fixes_c#) |
-| cff | [2 items](#Features_cff) |[4 items](#Fixes_cff) |
+| cff | [2 items](#Features_cff) |[5 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
-| ci | [1 item](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [3 items](#Features_compression) |[2 items](#Fixes_compression) |
+| ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
+| compression | [4 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
@@ -26,40 +27,41 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [3 items](#Features_femutils) |[15 items](#Fixes_femutils) |
+| femutils | [4 items](#Features_femutils) |[18 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [2 items](#Features_framework) |[8 items](#Fixes_framework) |
+| framework | [3 items](#Features_framework) |[11 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [1 item](#Features_grpc) |[5 items](#Fixes_grpc) |
+| grpc | [2 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [9 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [5 items](#Features_hgp) |[6 items](#Fixes_hgp) |
+| hdf5 | [11 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [3 items](#Features_kernel) |[11 items](#Fixes_kernel) |
-| lsdyna | [3 items](#Features_lsdyna) | |
+| kernel | [4 items](#Features_kernel) |[11 items](#Fixes_kernel) |
+| lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [24 items](#Features_mapdl) |[51 items](#Fixes_mapdl) |
+| mapdl | [25 items](#Features_mapdl) |[57 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [12 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[4 items](#Fixes_mesh) |
-| misc | [15 items](#Features_misc) |[21 items](#Fixes_misc) |
+| math | [14 items](#Features_math) |[2 items](#Fixes_math) |
+| mechanical | [4 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
+| mesh | [2 items](#Features_mesh) |[5 items](#Fixes_mesh) |
+| misc | [16 items](#Features_misc) |[23 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [8 items](#Features_native) |[23 items](#Fixes_native) |
+| native | [13 items](#Features_native) |[27 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| prime | [4 items](#Features_prime) |[1 item](#Fixes_prime) |
+| prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
-| vtk | [2 items](#Features_vtk) |[2 items](#Fixes_vtk) |
-| workflows | [3 items](#Features_workflows) |[2 items](#Fixes_workflows) |
+| vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
+| workflows | [3 items](#Features_workflows) |[3 items](#Fixes_workflows) |
+| xml |  |[2 items](#Fixes_xml) |
 
 
 ## 1297620
@@ -72,6 +74,16 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## ael
+### <a id="Features_ael"></a> Features
+
+- Load new Ansys Element Library plugin by default:
+  > Load new Ansys Element Library plugin by default
+  >
+  > 
+  >
+  > 
+
 ## averaging
 
 ### <a id="Fixes_averaging"></a> Fixes
@@ -122,6 +134,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_cff"></a> Fixes
+
+- Enabling test and enabling pdbs in CMake:
+  > 
+  >
+  > 
 
 - Adapt to unit changes:
   > 
@@ -178,10 +195,20 @@ The following table shows which components have updates in each category.
 ## ci
 ### <a id="Features_ci"></a> Features
 
+- Migration of artifactory and service accounts to Synopsys:
+  > 
+  >
+  > 
+
 - Add SCA scan for DPF:
   > 
   >
   > Monthly scan of DPF repo for Software Composition Analysis which scan identifies and manages open-source software components using mend tool.
+  >
+  > 
+
+- Migration of artifactory and service accounts to Synopsys:
+  > 
   >
   > 
 
@@ -211,6 +238,11 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Compression:
+  > 
+  >
+  > 
 
 - Quantization operator enhancements:
   > - Added parallelization in _quantization_fc_
@@ -447,6 +479,11 @@ The following table shows which components have updates in each category.
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
+- Add vector principle stress operator:
+  > 
+  >
+  > 
+
 - Use ScopingIterators and eliminate GetIds calls in Ans.Dpf.FEMUtils:
   > 
 
@@ -461,6 +498,53 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Support line elements in solid_to_skin:
+  > 
+  >
+  > Line elements (Line2, Line3, Edge2, Edge3) are now supported in `solid_to_skin` operators.
+  >
+  > 
+  >
+  > 
+
+- Fix solid_to_skin:
+  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
+  >
+  > 
+  >
+  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
+  >
+  > 
+  >
+  > **What changed**:
+  >
+  > 
+  >
+  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
+  >
+  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
+  >
+  > 
+  >
+  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
+  >
+  > 
+  >
+  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
+  >
+  > 
+  >
+  > 
+
+- Improve performance of Cyclic expansion of meshes and results:
+  > 
+  >
+  > Fix performance bottlenecks for large model in cyclic operators `cyclic_expansion_meshes` and `cyclic_expansion_field`.
+  >
+  > 
+  >
+  > 
 
 - Fix issue in force_summation with total forces and no damping:
   > 
@@ -573,6 +657,15 @@ The following table shows which components have updates in each category.
 ## framework
 ### <a id="Features_framework"></a> Features
 
+- Add ThermalCompliance Homogeneity:
+  > 
+  >
+  > Add Thermal Compliance Homogeneity
+  >
+  > 
+  >
+  > 
+
 - Add hash of DPF entities and global hash of workflow:
   > 
 
@@ -596,6 +689,47 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fix solid_to_skin:
+  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
+  >
+  > 
+  >
+  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
+  >
+  > 
+  >
+  > **What changed**:
+  >
+  > 
+  >
+  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
+  >
+  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
+  >
+  > 
+  >
+  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
+  >
+  > 
+  >
+  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
+  >
+  > 
+  >
+  > 
+
+- Fix line ending issue in ASCII text serializer:
+  > 
+  >
+  > The ASCII text files serialized with DPF (for example, with the `serializer` operator with `stream_type=0`) had cross-OS interoperability problem depending on their line endings. This is now fixed for files serialized with DPF versions >= `2027.1.pre0`.
+  >
+  > 
+  >
+  > 
+
+- Refactor handling of named selections in CMeshedRegion:
+  > 
 
 - Add missing throw on errors in eventlogger:
   > 
@@ -664,6 +798,23 @@ The following table shows which components have updates in each category.
   > 
 ## grpc
 ### <a id="Features_grpc"></a> Features
+
+- Add StringField::dataPointer() via DpfVector-safe C-layer path:
+  > 
+  >
+  > Added dataPointer() method to StringField in the HGP public API. This method returns
+  >
+  > the start indices of each entity's data in the flat data array, consistent with the existing
+  >
+  > dataPointer() methods on Field and PropertyField. The method uses the new
+  >
+  > CSStringField_GetDataPointer_For_DpfVector C-layer function, which is safe to call over
+  >
+  > gRPC CLayer (unlike the previous direct pointer variant that failed on remote server modes).
+  >
+  > 
+  >
+  > 
 
 - Support named Dimensionless units in gRPC:
   > 
@@ -769,6 +920,22 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Reevaluating caching logic:
+  > This change removes caching for result fields and mesh data structures. The following lightweight entities remain cached intentionally due to their low memory footprint and high reuse frequency:
+  >
+  > 
+  >
+  > Field metadata (headers, field definitions, and associated data pointers)
+  >
+  > Scoping objects and support structures (time/frequency supports, cyclic supports)
+  >
+  > Workflow instances and generic data container abstractions
+  >
+  > 
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Hdf5:
+  > 
+
 - Support replacing existing fields in a fields container:
   > Added support for replacing existing fields within a fields container when writing to H5DPF files. Users can now update field data in-place without having to rewrite the entire dataset, enabling more efficient workflows when modifying previously saved results.
   >
@@ -854,6 +1021,37 @@ The following table shows which components have updates in each category.
   > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
+
+- Add StringField::dataPointer() via DpfVector-safe C-layer path:
+  > 
+  >
+  > Added dataPointer() method to StringField in the HGP public API. This method returns
+  >
+  > the start indices of each entity's data in the flat data array, consistent with the existing
+  >
+  > dataPointer() methods on Field and PropertyField. The method uses the new
+  >
+  > CSStringField_GetDataPointer_For_DpfVector C-layer function, which is safe to call over
+  >
+  > gRPC CLayer (unlike the previous direct pointer variant that failed on remote server modes).
+  >
+  > 
+  >
+  > 
+
+- Adding API operators to expose tryGetDataFromCache:
+  > Exposing `Streams` APIs `splitStreams`, `getStreamByFileType` and `tryGetDataFromCache` in `Hgp` to wrap functionalities.
+  >
+  > 
+
+- Make the HgP DpfVector iterators random-access:
+  > 
+  >
+  > Transform the  `DpfVector` iterators in the HgP to be random-access.
+  >
+  > 
+  >
+  > 
 
 - Improving readability of the .natvis file for hgp:
   > Improving readability of the .natvis file.
@@ -943,6 +1141,11 @@ The following table shows which components have updates in each category.
   > 
 ## kernel
 ### <a id="Features_kernel"></a> Features
+
+- Switch the internals of the Scoping to use boost::unordered_fla...:
+  > 
+  >
+  > 
 
 - Implement Random Access in ScopingIterators:
   > 
@@ -1047,6 +1250,9 @@ The following table shows which components have updates in each category.
   >
   > 
 
+- Support d3plot DEM results (#262):
+  > 
+
 - Add support for the binout ssstat branch (#261):
   > 
 
@@ -1075,6 +1281,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add beta support of thermal surface load elements SURF151 and SURF152:
+  > Add beta support of thermal surface load elements SURF151 and SURF152
+  >
+  > 
+  >
+  > 
 
 - Add of several operators to real all results from a result file.:
   > - Addition of "all_state_variables_provider" operator that takes a result file and read all state variables within a single fields container, storing the various homogeneity with different value of "dofs" label.
@@ -1301,6 +1514,80 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Correct spec for result.material_property_of_element:
+  > 
+  >
+  > The operator result.material_property_of_element previously exposed an incorrect specification that did not match its actual inputs.
+  >
+  > The correct inputs are now documented: mesh_scoping (optional element scoping), property_name (required - the name of the linear scalar material property to extract, such as EX or DENS), default_value (optional - assigned to elements whose material does not define the property), and ilter_zero_values (optional - excludes elements with a zero property value when no default is set).
+  >
+  > 
+  >
+  > 
+
+- Using mapdl::rth::EUL_NOD gives error "fields container over time or frequency expected in input":
+  > This PR fixes two defects in MAPDL nodal Euler-angle:
+  >
+  > 1. EUL_NOD failed  when requesting Euler-angle nodal results at a fractional time value on non-adaptive models --> "fields container over time or frequency expected in input" because the returned result did not carry the time label required by downstream time interpolation. The result now always carries the time label, so reading Euler angles at any time value works.
+  >
+  > 2. Body label lost when restricting to a single body. Asking for nodal Euler angles on a single body or material returned results labelled with body id 0 instead of the requested id. Multi-body requests were unaffected. Single-body requests now preserve the requested body / material id on every returned result, identically to the multi-body case.
+  >
+  > 
+  >
+  > **No user-visible behaviour changes for adaptive analyses, multi-body requests, or pure rotation workflows.**
+  >
+  > 
+  >
+  > 
+
+- Add missing input pins to EUL_NOD and coords_and_euler_nodes operator specs:
+  > 
+  >
+  > Fixed incomplete operator specifications for the `mapdl::rst::EUL_NOD` (node orientations) and `mapdl::rst::coords_and_euler_nodes` (euler nodes) operators. Both operators were missing several input pins from their specification, including `time_scoping`, `mesh_scoping`, `fields_container`, and `read_cyclic`. As a result, the operator graph visualization (`to_graphviz()`) did not show the mesh scoping pin for these operators. The mesh pin type constraint was also extended to accept `MeshesContainer` in addition to `MeshedRegion`.
+  >
+  > 
+  >
+  > 
+
+- Fix bug 1458972 Descriptor for plane183:
+  > 
+  >
+  > 
+
+- Remove redundant mapdl. prefix from operator scripting names:
+  > 
+  >
+  > Four operators had a redundant `mapdl.` prefix in their scripting name. Because the plugin
+  >
+  > field already carries the `mapdl` context, this prefix caused the full documented name to
+  >
+  > become `result.mapdl.<name>` instead of the correct `result.<name>`. The scripting names
+  >
+  > have been corrected:
+  >
+  > 
+  >
+  > - `pres_to_field` (was `mapdl.pres_to_field`)
+  >
+  > - `prns_to_field` (was `mapdl.prns_to_field`)
+  >
+  > - `run` (was `mapdl.run`)
+  >
+  > - `global_to_nodal` (was `mapdl.global_to_nodal`)
+  >
+  > 
+  >
+  > The Python API (`dpf.operators.result.*`) is unaffected by this change.
+  >
+  > 
+  >
+  > 
+
+- Fix modal solution scoping for MCF_Legacy filtering:
+  > 
+  >
+  > 
 
 - Support ElementalNodal input fields in mapdl::split_on_facet_indices and mapdl::split_to_acmo_facet_indices:
   > 
@@ -1669,6 +1956,18 @@ The following table shows which components have updates in each category.
 ## math
 ### <a id="Features_math"></a> Features
 
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Math:
+  > 
+  >
+  > 
+
+- Perform modal_solve expansion using expansion::modal_superposition:
+  > - Allow input Custom Type Fields Containers on expansion::mode_superposition
+  >
+  > 
+  >
+  > 
+
 - Create TPA objects to streamline TPA workflow:
   > 
 
@@ -1743,6 +2042,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_math"></a> Fixes
 
+- Fix issue with specification in expansion operator:
+  > - Fix operator specification issue introduced in a previous PR
+  >
+  > 
+  >
+  > 
+
 - FFT Multiharmonic performance enhancements:
   > FFT Multiharmonic performance enhancements
   >
@@ -1751,6 +2057,9 @@ The following table shows which components have updates in each category.
   > 
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Mechanical:
+  > 
 
 - Adding operator for finding number of modes per chunk:
   > Add new operators to calculate number of modes that can be evaluated per chunk based on the result mesh and the available memory on the user's machine.
@@ -1812,6 +2121,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mesh"></a> Fixes
 
+- Add support for edge2, edge3, beam3 and beam4 eltypes in skin operator:
+  > 
+  >
+  > The skin operator was not propagating the `edge2`, `edge3` and `beam4` element types to the skin mesh. This is now fixed.
+  >
+  > 
+  >
+  > 
+
 - Fix new introduced issue on rescope etype.:
   > 
   >
@@ -1837,6 +2155,15 @@ The following table shows which components have updates in each category.
   > 
 ## misc
 ### <a id="Features_misc"></a> Features
+
+- Set DPF versioning to ansys calendar like versioning:
+  > 
+  >
+  > Set DPF versioning to Ansys calendar like versioning and add full version endpoints.
+  >
+  > 
+  >
+  > 
 
 - Add operator Changelog support to C#:
   > Support operator changelogs in the C# client API. Add the Changelog class.
@@ -2000,6 +2327,20 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_misc"></a> Fixes
+
+- Properly use even and odd in operators description:
+  > 
+  >
+  > fix: properly use even and odd in operators description
+  >
+  > 
+  >
+  > 
+
+- Ansys.dpf conanfile DPFEmpty.xml wrong source dir:
+  > 
+  >
+  > 
 
 - Restored a number of error messages:
   > 
@@ -2252,6 +2593,49 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Performance improvements for distributed data sources cases for mesh:
+  > Performance improvements for distributed data sources cases for the mesh and merge mesh operator.
+  >
+  > 
+
+- Enable incremental::composite::MeshProvider by default:
+  > Increased memory efficiency of mesh reading by improving the merging methodology.
+  >
+  > 
+
+- Add the workflow_string input pin in the import_symbolic_workflow operator:
+  > 
+  >
+  > Add the new `workflow_string` input pin in the `import_symbolic_workflow` operator.
+  >
+  > 
+  >
+  > 
+
+- XML-escape special characters in C# operator doc generation:
+  > 
+  >
+  > The `csharp_generator` operator now correctly XML-escapes special characters (`<`, `>`, `&`)
+  >
+  > in operator and pin descriptions before writing them into C# XML documentation comments.
+  >
+  > This prevents malformed XML when descriptions contain Markdown blockquotes or LaTeX-style
+  >
+  > inequalities, which previously caused the C# compiler `/doc:` extraction and IntelliSense
+  >
+  > pipelines to produce invalid output.
+  >
+  > 
+  >
+  > 
+
+- Add a dedicated matrix_product operator:
+  > Adds a dedicated matrix_product operator as a helper to the generalized_inner_product for ease of use.
+  >
+  > 
+  >
+  > 
+
 - Supported Generic Support in "field::get_attribute" and "propertyfield::get_attribute" APIs:
   > - Supported Generic Support (property_name = "generic_support") in "field::get_attribute" and "propertyfield::get_attribute" operators.
   >
@@ -2311,6 +2695,72 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Correct spec for result.material_property_of_element:
+  > 
+  >
+  > The operator result.material_property_of_element previously exposed an incorrect specification that did not match its actual inputs.
+  >
+  > The correct inputs are now documented: mesh_scoping (optional element scoping), property_name (required - the name of the linear scalar material property to extract, such as EX or DENS), default_value (optional - assigned to elements whose material does not define the property), and ilter_zero_values (optional - excludes elements with a zero property value when no default is set).
+  >
+  > 
+  >
+  > 
+
+- Skip empty input fields in min_max_over_label_fc:
+  > 
+  >
+  > The `min_max_over_label_fc` operator now correctly handles fields containers that contain
+  >
+  > empty fields (fields with no data, such as those produced by unconverged time steps).
+  >
+  > Previously, empty fields caused spurious zero-valued entries in the min/max output.
+  >
+  > The operator now excludes domain IDs whose fields are entirely empty from the output,
+  >
+  > so the output scoping only contains the domain IDs for which actual data was available.
+  >
+  > 
+  >
+  > 
+
+- Fix solid_to_skin:
+  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
+  >
+  > 
+  >
+  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
+  >
+  > 
+  >
+  > **What changed**:
+  >
+  > 
+  >
+  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
+  >
+  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
+  >
+  > 
+  >
+  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
+  >
+  > 
+  >
+  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
+  >
+  > 
+  >
+  > 
+
+- Fix labels issue in adapt_with_scopings_container:
+  > 
+  >
+  > Fix issue in `adapt_with_scopings_container` when input FieldsContainer and ScopingsContainer don't share labels.
+  >
+  > 
+  >
+  > 
 
 - Fix int connection to time_scoping pin for cyclic models:
   > 
@@ -2546,6 +2996,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_prime"></a> Fixes
 
+- Fixing parallelization issue with prime operators:
+  > Support parallelization for `prepare_morphing` (and so `morphed_field`) and `export_mesh_with_prime`.
+  >
+  > 
+
 - Restoring parallelization config options:
   > Restoring parallelization config options, when applies.
   >
@@ -2595,6 +3050,11 @@ The following table shows which components have updates in each category.
 ## vtk
 ### <a id="Features_vtk"></a> Features
 
+- Add pins for extra connectivity & input scoping in op:mesh_to_pyvista:
+  >  Introduce capability to accept input mesh scoping that allows construction of vtk meshes for a specified subset of the original mesh. Add 'as_modified_connectivity' boolean input pin that returns VTK version>9 compatible connectivity representation consisting of an array of concatenated node indices for cells without node count headers and an offset array to it.
+  >
+  > 
+
 - Perf improvement of mesh_to_pyvista (part 2):
   > 
 
@@ -2606,6 +3066,25 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_vtk"></a> Fixes
+
+- Vtu_export output DataSources has null result paths:
+  > 
+  >
+  > The `vtu_export` operator now correctly populates the output `DataSources` with
+  >
+  > the paths of the exported VTU files when exporting a multi-timestep result.
+  >
+  > Previously, the result paths were stored in a domain-specific secondary slot
+  >
+  > (intended for distributed solver files) rather than as plain result files,
+  >
+  > causing the output `DataSources.result_files` to return null entries for every
+  >
+  > time step.
+  >
+  > 
+  >
+  > 
 
 - Fix beam3/beam4 mesh conversion support:
   > DPF Mesh regions containing beam3/beam4 elements can be handled properly using the mesh_to_pyvista operator (even with 'as_linear' turned off).
@@ -2650,6 +3129,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_workflows"></a> Fixes
 
+- Re-enable workflow tests:
+  > 
+  >
+  > 
+
 - Tags in quantization workflow and tests helpers:
   > Allows the decompression in quantization workflow with a specific mesh scoping.
   >
@@ -2663,13 +3147,24 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## xml
+
+### <a id="Fixes_xml"></a> Fixes
+
+- Correction path DLL AEL':
+  > 
+
+- Correction path DLL AEL:
+  > 
+  >
+  > 
 ## Operator changes
 
 ### New operators
 
 #### compression
 
-- [quantization](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization.md):
+- [quantization](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/quantization.md):
   > Scales a field to a given precision threshold, then rounds all the values to the unit.
   > 
   > The output of the quantization operation is :
@@ -2678,7 +3173,7 @@ The following table shows which components have updates in each category.
   > 
   > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
 
-- [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/compression/quantization_fc.md):
+- [quantization_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/quantization_fc.md):
   > Scales all the fields of a fields container to a given precision threshold, then rounds all the values to the unit.
   > 
   > The output of the quantization operation is :
@@ -2690,7 +3185,7 @@ The following table shows which components have updates in each category.
 
 #### info
 
-- [markdown_latex_example](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/info/markdown_latex_example.md):
+- [markdown_latex_example](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/info/markdown_latex_example.md):
   > This operator showcases the use of Markdown and LaTeX in operator and pin descriptions:
   > #### Headings
   > ##### h2
@@ -2780,173 +3275,75 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
-- [apply_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/apply_mechanical_native_mapping.md):
-  > 
-  > Applies pre-computed mapping weights to interpolate field data from a source mesh to a target mesh.
-  > This is the second stage of the two-stage native mapping workflow; use `prepare_mechanical_native_mapping` (or a dedicated prepare operator) to compute the weights first.
-  > 
-  > For each target point $j$, the interpolated value is:
-  > 
-  > $$
-  > u_{\text{target}}^{(j)} = \sum_{i \in S(j)} w_{ij} \cdot u_{\text{source}}^{(i)}
-  > $$
-  > 
-  > where $S(j)$ is the set of source points influencing target point $j$, and $w_{ij}$ are algorithm-specific weights: shape function values (shape function algorithms), barycentric coordinates or inverse-distance values (point cloud algorithms), or optimal linear predictors (kriging).
-  > 
-  > For further details on the algorithms and their settings, see the Ansys Mechanical help page on
-  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [create_mech_kriging_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_kriging_convection_workflow.md):
+- [create_sc_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/create_sc_mapping_workflow.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [create_mech_kriging_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_kriging_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_point_cloud_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_point_cloud_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_point_cloud_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_point_cloud_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_surf_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_surf_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_surf_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_surf_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_vol_convection_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_vol_convection_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_mech_shape_func_vol_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_mech_shape_func_vol_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [create_sc_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/create_sc_mapping_workflow.md):
-  > Prepares a workflow able to map data from an input mesh to a target mesh.
-
-- [prepare_mechanical_native_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping.md):
-  > Prepares the interpolation weights for mapping source field data from a source mesh to a target mesh.
-  > This operator delegates to one of the dedicated algorithm operators (shape function volumes, shape function surfaces, point cloud, or kriging) depending on which DataTree input pin is provided.
-  > At least one of the `*_mapping` algorithm DataTree inputs (pins 30-33) must be set to choose the mapping algorithm and supply its options.
-  > This operator must be used together with the associated `apply_mechanical_native_mapping` operator.
-  > 
-  > For further details on the available algorithms and their settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_kriging](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md):
-  > Prepares field data mapping from a source mesh to a target mesh using **kriging interpolation**, a geostatistical method that assigns weights to nearby source points based on spatial covariance. Use this operator with `apply_mechanical_native_mapping`.
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Kriging*.
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_point_cloud](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md):
-  > 
-  > Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
-  > approximation method that constructs interpolation weights from spatial proximity relationships without requiring mesh
-  > connectivity. Use it together with `apply_mechanical_native_mapping`.
-  > 
-  > For each target point $\mathbf{x}_t$, the interpolated value is:
-  > 
-  > $$
-  > u(\mathbf{x}_t) = \sum_{i=1}^{N_s} w_i(\mathbf{x}_t) \cdot u_i
-  > $$
-  > 
-  > where $u_i$ are the source field values, $w_i$ are normalized distance-based weights, and $N_s$ is the number of
-  > source neighbors (controlled by `search_limit`). See the individual pin descriptions for the available weighting
-  > schemes, outside-point strategies, and geometry options.
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Triangulation* (use `weighting_type = "triangulation"`) or Weighting = *Distance Based Average* (use `weighting_type = "weighted_average"`).
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on
-  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_shape_functions_for_surfaces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md):
-  > 
-  > Prepares field data mapping from source mesh to target mesh using **finite element shape functions** for **surface
-  > elements** (shells and membranes). This operator computes interpolation weights by locating target points
-  > within source surface elements and evaluating isoparametric shape functions at the reduced coordinates. This operator
-  > must be used in conjunction with `apply_mechanical_native_mapping`.
-  > 
-  > ##### Shape function interpolation for surfaces
-  > 
-  > For surface elements, the field value at any point $\mathbf{x}$ within an element is interpolated using:
-  > 
-  > $$
-  > u(\mathbf{x}) = \sum_{i=1}^{N_{\text{nodes}}} N_i(\xi, \eta) \cdot u_i
-  > $$
-  > 
-  > where:
-  > - $N_i(\xi, \eta)$ are the 2D isoparametric shape functions
-  > - $(\xi, \eta)$ are the reduced (natural) coordinates in the reference element $[-1, 1]^2$
-  > - $u_i$ are the nodal field values
-  > - $N_{\text{nodes}}$ is the number of nodes per element (3, 4, 6, 8, etc.)
-  > 
-  > ##### Comparison with volume shape functions
-  > 
-  > - **Reduced coordinate dimension**: 2D $(\xi, \eta)$ vs 3D $(\xi, \eta, \zeta)$ for volume elements
-  > - **Target input**: surface operator requires a **meshed_region** target; volume operator also accepts a field
-  > - **Additional proximity controls**: surface operator supports normal distance checking (pins 15-16) and a
-  >   pinball region (pins 17-20), which are not available for volumes
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Surface*.
-  > Note: this mode only supports triangle and quadrilateral source elements.
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on
-  > [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [prepare_mechanical_native_mapping_shape_functions_for_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md):
-  > Prepares field data mapping from source mesh to target mesh using **finite element shape functions** on volume elements (hexahedra, tetrahedra, wedges, pyramids).
-  > 
-  > Each target point is located within a source element and the field value is interpolated using 3D isoparametric shape functions at the corresponding reduced coordinates.
-  > 
-  > Note: shape functions near the apex of pyramid elements exhibit singular behaviour and may produce errors for target points close to the apex. Use this operator with `apply_mechanical_native_mapping`.
-  > 
-  > **Ansys Mechanical equivalent**: Weighting = *Shape Function*, Transfer Type = *Volumetric*.
-  > 
-  > For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
-
-- [sc_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/sc_mapping.md):
+- [sc_mapping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/sc_mapping.md):
   > Apply System Coupling to map data from an input mesh to a target mesh.
 
-- [sysc_point_cloud_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/sysc_point_cloud_wf.md):
+- [sysc_point_cloud_wf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/sysc_point_cloud_wf.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
-- [sysc_shape_function_wf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/sysc_shape_function_wf.md):
+- [sysc_shape_function_wf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/sysc_shape_function_wf.md):
   > Prepares a workflow able to map data from an input mesh to a target mesh.
 
 
 #### math
 
-- [linearized_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/linearized_stress.md):
+- [linearized_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/linearized_stress.md):
   > get linearized stress
+
+- [matrix_product](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/matrix_product.md):
+  > 
+  > Computes the product of two matrix or matrix-vector fields:
+  > 
+  > | Pin 0 | Pin 1 | Operation | Result |
+  > |---|---|---|---|
+  > | matrix field | matrix field | [matrix product](https://en.wikipedia.org/wiki/Matrix_multiplication) | matrix field |
+  > | matrix field | vector field | matrix-vector product | vector field |
+  > 
+  > Raises an error if neither input is a matrix (second-order tensor) field,
+  > or if an input is neither a matrix nor a vector.
+  > For general inner products - including dot products and scaling - use the
+  > `generalized_inner_product` operator instead.
+  > If either input is empty, a dimensionless zero scalar field is returned.
+  > 
+
+- [matrix_product_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/matrix_product_fc.md):
+  > 
+  > Computes the product of two matrix or matrix-vector fields:
+  > 
+  > | Pin 0 | Pin 1 | Operation | Result |
+  > |---|---|---|---|
+  > | matrix field | matrix field | [matrix product](https://en.wikipedia.org/wiki/Matrix_multiplication) | matrix field |
+  > | matrix field | vector field | matrix-vector product | vector field |
+  > 
+  > Raises an error if neither input is a matrix (second-order tensor) field,
+  > or if an input is neither a matrix nor a vector.
+  > For general inner products - including dot products and scaling - use the
+  > `generalized_inner_product` operator instead.
+  > If either input is empty, a dimensionless zero scalar field is returned.
+  > 
 
 
 #### mesh
 
-- [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/edge_decimation.md):
+- [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/edge_decimation.md):
   > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
-
-- [morphed_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/morphed_field.md):
-  > Computes the displacement to apply on input coordinates (in 2) if a morphing field (in 0) is applied on coordinates (in 1)
-
-- [morphing](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/morphing.md):
-  > Applies morphing on a meshed region depending on an input displacement field.
-
-- [prepare_morphing](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/prepare_morphing.md):
-  > Prepare morphing on a meshed region depending on an input displacement field.
 
 
 #### result
 
-- [acoustic_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/acoustic_energy_density.md):
+- [acoustic_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_energy_density.md):
   > Read/compute AED by calling the readers defined by the datasources.
 
-- [acoustic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/acoustic_pressure.md):
+- [acoustic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_pressure.md):
   > Read/compute AcousticPressure by calling the readers defined by the datasources.
 
-- [average_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/average_velocity.md):
+- [average_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/average_velocity.md):
   > Read/compute average velocity by calling the readers defined by the datasources.
 
-- [creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain.md):
+- [creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain.md):
   > Read/compute element nodal component creep strains by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
   > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
@@ -2980,25 +3377,25 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > 
 
-- [creep_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_X.md):
+- [creep_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_X.md):
   > Read/compute element nodal component creep strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_XY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_XY.md):
+- [creep_strain_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_XY.md):
   > Read/compute element nodal component creep strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_XZ.md):
+- [creep_strain_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_XZ.md):
   > Read/compute element nodal component creep strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_Y.md):
+- [creep_strain_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_Y.md):
   > Read/compute element nodal component creep strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_YZ.md):
+- [creep_strain_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_YZ.md):
   > Read/compute element nodal component creep strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_Z.md):
+- [creep_strain_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_Z.md):
   > Read/compute element nodal component creep strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [creep_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_eqv.md):
+- [creep_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_eqv.md):
   > Read/compute element nodal equivalent component creep strains by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
   > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
@@ -3032,27 +3429,27 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > 
 
-- [creep_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_intensity.md):
+- [creep_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_intensity.md):
   > Reads/computes element nodal component creep strains, average it on nodes (by default) and computes its invariants.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
-- [creep_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_max_shear.md):
+- [creep_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_max_shear.md):
   > Reads/computes element nodal component creep strains, average it on nodes (by default) and computes its invariants.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
-- [creep_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_principal_1.md):
+- [creep_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_1.md):
   > Read/compute element nodal component creep strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-- [creep_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_principal_2.md):
+- [creep_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_2.md):
   > Read/compute element nodal component creep strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-- [creep_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_principal_3.md):
+- [creep_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_3.md):
   > Read/compute element nodal component creep strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-- [element_nodal_heat](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_nodal_heat.md):
+- [element_nodal_heat](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_nodal_heat.md):
   > Read/compute element nodal heat by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
   > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
@@ -3086,7 +3483,7 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > element_nodal_heat fields contain STATIC and DAMPING forces stored as components (when available). STATIC: component 0. DAMPING: component 1.
 
-- [element_nodal_moments](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_nodal_moments.md):
+- [element_nodal_moments](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_nodal_moments.md):
   > Read/compute element nodal moments by calling the readers defined by the datasources.
   > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
   > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
@@ -3120,175 +3517,169 @@ The following table shows which components have updates in each category.
   > | 13      | Pretension      |
   > element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
-- [emissivity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/emissivity.md):
+- [emissivity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/emissivity.md):
   > Read/compute emissivity by calling the readers defined by the datasources.
 
-- [emitted_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/emitted_radiation_heat_flux.md):
+- [emitted_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/emitted_radiation_heat_flux.md):
   > Read/compute emitted radiation heat flux by calling the readers defined by the datasources.
 
-- [enclosure_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/enclosure_number.md):
+- [enclosure_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/enclosure_number.md):
   > Read/compute enclosure number by calling the readers defined by the datasources.
 
-- [film_coefficient](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/film_coefficient.md):
+- [film_coefficient](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/film_coefficient.md):
   > Read/compute film coefficient by calling the readers defined by the datasources.
 
-- [flow_rate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/flow_rate.md):
+- [flow_rate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/flow_rate.md):
   > Read/compute flow rate by calling the readers defined by the datasources.
 
-- [fluid_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/fluid_velocity.md):
+- [fluid_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/fluid_velocity.md):
   > Read/compute FV by calling the readers defined by the datasources.
 
-- [gasket_total_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_total_closure.md):
+- [gasket_total_closure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure.md):
   > computes the gasket total closure (sum of gasket thermal closure and gasket inelastic closure).
 
-- [gasket_total_closure_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_total_closure_X.md):
+- [gasket_total_closure_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure_X.md):
   > Read/compute elemental gasket total closure XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [gasket_total_closure_XY](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_total_closure_XY.md):
+- [gasket_total_closure_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure_XY.md):
   > Read/compute elemental gasket total closure XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_total_closure_XZ.md):
+- [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure_XZ.md):
   > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
 
-- [heat_conductivity_rate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/heat_conductivity_rate.md):
+- [global_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/global_to_nodal.md):
+  > Rotate results from global coordinate system to local coordinate system.
+
+- [heat_conductivity_rate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/heat_conductivity_rate.md):
   > Read/compute heat conductivity rate by calling the readers defined by the datasources.
 
-- [heat_transport_rate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/heat_transport_rate.md):
+- [heat_transport_rate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/heat_transport_rate.md):
   > Read/compute heat transport rate by calling the readers defined by the datasources.
 
-- [incident_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/incident_radiation_heat_flux.md):
+- [incident_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/incident_radiation_heat_flux.md):
   > Read/compute incident radiation heat flux by calling the readers defined by the datasources.
 
-- [input_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/input_sound_power.md):
+- [input_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/input_sound_power.md):
   > Read/compute PINC by calling the readers defined by the datasources.
 
-- [layer_orientation_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/layer_orientation_provider.md):
+- [layer_orientation_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/layer_orientation_provider.md):
   > Read the layer orientations.
 
-- [modal_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/modal_acceleration.md):
+- [modal_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/modal_acceleration.md):
   > Read/compute modal acceleration by calling the readers defined by the datasources.
 
-- [modal_coordinate](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/modal_coordinate.md):
+- [modal_coordinate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/modal_coordinate.md):
   > Read/compute modal coordinate by calling the readers defined by the datasources.
 
-- [modal_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/modal_velocity.md):
+- [modal_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/modal_velocity.md):
   > Read/compute modal velocity by calling the readers defined by the datasources.
 
-- [net_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/net_radiation_heat_flux.md):
+- [net_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/net_radiation_heat_flux.md):
   > Read/compute net radiation heat flux by calling the readers defined by the datasources.
 
-- [nodal_rotation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotation.md):
+- [nodal_rotation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation.md):
   > Read/compute nodal rotation by calling the readers defined by the datasources.
 
-- [nodal_rotation_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotation_X.md):
+- [nodal_rotation_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation_X.md):
   > Read/compute nodal rotation X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [nodal_rotation_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotation_Y.md):
+- [nodal_rotation_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation_Y.md):
   > Read/compute nodal rotation Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [nodal_rotation_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotation_Z.md):
+- [nodal_rotation_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation_Z.md):
   > Read/compute nodal rotation Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_acceleration.md):
+- [nodal_rotational_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_acceleration.md):
   > Read/compute nodal rotational acceleration by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_acceleration_X.md):
+- [nodal_rotational_acceleration_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_acceleration_X.md):
   > Read/compute nodal rotational acceleration X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_acceleration_Y.md):
+- [nodal_rotational_acceleration_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_acceleration_Y.md):
   > Read/compute nodal rotational acceleration Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_acceleration_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_acceleration_Z.md):
+- [nodal_rotational_acceleration_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_acceleration_Z.md):
   > Read/compute nodal rotational acceleration Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_velocity.md):
+- [nodal_rotational_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity.md):
   > Read/compute nodal rotational velocity by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_velocity_X.md):
+- [nodal_rotational_velocity_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity_X.md):
   > Read/compute nodal rotational velocity X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_velocity_Y.md):
+- [nodal_rotational_velocity_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity_Y.md):
   > Read/compute nodal rotational velocity Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [nodal_rotational_velocity_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_rotational_velocity_Z.md):
+- [nodal_rotational_velocity_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotational_velocity_Z.md):
   > Read/compute nodal rotational velocity Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [node_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/node_orientations.md):
+- [node_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations.md):
   > Read/compute node euler angles by calling the readers defined by the datasources.
 
-- [node_orientations_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/node_orientations_X.md):
+- [node_orientations_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations_X.md):
   > Read/compute node euler angles X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [node_orientations_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/node_orientations_Y.md):
+- [node_orientations_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations_Y.md):
   > Read/compute node euler angles Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [node_orientations_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/node_orientations_Z.md):
+- [node_orientations_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations_Z.md):
   > Read/compute node euler angles Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [nusselt_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nusselt_number.md):
+- [nusselt_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nusselt_number.md):
   > Read/compute nusselt number by calling the readers defined by the datasources.
 
-- [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/output_sound_power.md):
+- [output_sound_power](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/output_sound_power.md):
   > Read/compute POUT by calling the readers defined by the datasources.
 
-- [prandtl_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/prandtl_number.md):
+- [prandtl_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/prandtl_number.md):
   > Read/compute prandtl number by calling the readers defined by the datasources.
 
-- [radiation_area](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/radiation_area.md):
+- [radiation_area](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/radiation_area.md):
   > Read/compute radiation area by calling the readers defined by the datasources.
 
-- [raw_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_acceleration.md):
+- [raw_acceleration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/raw_acceleration.md):
   > Read/compute A vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
 
-- [raw_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_velocity.md):
+- [raw_velocity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/raw_velocity.md):
   > Read/compute V vector from the finite element problem MA+CV+KU=F by calling the readers defined by the datasources.
 
-- [reaction_heat](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_heat.md):
+- [reaction_heat](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_heat.md):
   > Read/compute nodal reaction heat by calling the readers defined by the datasources.
 
-- [reaction_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment.md):
+- [reaction_moment](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment.md):
   > Read/compute nodal reaction moments by calling the readers defined by the datasources.
 
-- [reaction_moment_X](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_X.md):
+- [reaction_moment_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment_X.md):
   > Read/compute nodal reaction moments X component of the vector (1st component) by calling the readers defined by the datasources.
 
-- [reaction_moment_Y](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_Y.md):
+- [reaction_moment_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment_Y.md):
   > Read/compute nodal reaction moments Y component of the vector (2nd component) by calling the readers defined by the datasources.
 
-- [reaction_moment_Z](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reaction_moment_Z.md):
+- [reaction_moment_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment_Z.md):
   > Read/compute nodal reaction moments Z component of the vector (3rd component) by calling the readers defined by the datasources.
 
-- [record_reader](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/record_reader.md):
-  > Extracts a record from a file.
-
-- [reflected_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reflected_radiation_heat_flux.md):
+- [reflected_radiation_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reflected_radiation_heat_flux.md):
   > Read/compute reflected radiation heat flux by calling the readers defined by the datasources.
 
-- [reynolds_number](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/reynolds_number.md):
+- [reynolds_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/reynolds_number.md):
   > Read/compute reynolds number by calling the readers defined by the datasources.
 
-- [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/squared_l2norm_pressure.md):
+- [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
-- [view_factor_sum](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/view_factor_sum.md):
+- [view_factor_sum](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/view_factor_sum.md):
   > Read/compute view factor sum by calling the readers defined by the datasources.
 
 
 #### scoping
 
-- [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/extend_midside_nodal_scoping.md):
+- [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/extend_midside_nodal_scoping.md):
   > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
-
-
-#### serialization
-
-- [export_mesh_with_prime](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/export_mesh_with_prime.md):
-  > Transfer DPF's meshed region into an external layer prime model and serialize it into a given file format.
 
 
 #### utility
 
-- [concatenate_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/concatenate_fields.md):
+- [concatenate_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/concatenate_fields.md):
   > Concatenates fields into a unique one by incrementing the number of components.
   > 
   > Example:
@@ -3296,7 +3687,7 @@ The following table shows which components have updates in each category.
   > - Field2 components: { RX, RY, RZ }
   > - Output field : { UX, UY, UZ, RX, RY, RZ }
 
-- [concatenate_fields_containers](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/concatenate_fields_containers.md):
+- [concatenate_fields_containers](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/concatenate_fields_containers.md):
   > Concatenates fields containers into a unique one by concatenating each of their fields.
   > 
   > Example:
@@ -3310,19 +3701,34 @@ The following table shows which components have updates in each category.
   > 	- Field1 with components: { UX, UY, UZ, RX, RY, RZ }
   > 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
 
-- [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/customtypefield_get_attribute.md):
+- [csharp_generator](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/csharp_generator.md):
+  > 
+  > Generates a C# wrapper file (.cs) containing a class for each public operator
+  > found in a loaded plugin DLL.
+  > The DLL is loaded using the given `load_symbol` and `library_key`.
+  > All non-private operators discovered in the plugin are written to the single
+  > file at `output_path`.
+  > 
+  > > **Note:** Operators whose exposure property is set to `private` are silently
+  > > excluded from the generated output.
+  > 
+  > Inputs & outputs of each operator are represented as typed `LinkableInput<T>`
+  > and `LinkableOutput<T>` properties on the generated class.
+  > 
+
+- [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/customtypefield_get_attribute.md):
   > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
 
-- [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/cyclic_support_get_attribute.md):
+- [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
 
-- [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/get_operators.md):
+- [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
 
-- [operator_changelog](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/operator_changelog.md):
+- [operator_changelog](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/operator_changelog.md):
   > Return a GenericDataContainer used to instantiate the Changelog of an operator based on its name.
 
-- [propertyfield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/propertyfield_get_attribute.md):
+- [propertyfield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/propertyfield_get_attribute.md):
   > Gets a property from an input field/field container. A PropertyFieldin pin 0, a property name (string) in pin 1 are expected as inputs
 
 
@@ -3331,7 +3737,7 @@ The following table shows which components have updates in each category.
 
 #### averaging
 
-- [elemental_difference](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_difference.md)
+- [elemental_difference](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_difference.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -3342,27 +3748,27 @@ The following table shows which components have updates in each category.
   > 0.0.4: Fix shell layer metadata when computing elemental difference from nodal input.
 
 
-- [elemental_difference_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_difference_fc.md)
+- [elemental_difference_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_difference_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [elemental_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_fraction_fc.md)
+- [elemental_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_fraction_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [elemental_mean](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_mean.md)
+- [elemental_mean](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_mean.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elemental_mean_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_mean_fc.md)
+- [elemental_mean_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_mean_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal.md)
+- [elemental_nodal_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
 
@@ -3373,17 +3779,17 @@ The following table shows which components have updates in each category.
   > 0.0.4: Internal refactoring to use Scoping Iterators.
 
 
-- [elemental_nodal_to_nodal_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_elemental.md)
+- [elemental_nodal_to_nodal_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_elemental.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elemental_nodal_to_nodal_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_elemental_fc.md)
+- [elemental_nodal_to_nodal_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_elemental_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
+- [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
 
   > 0.0.1: Fixed issue with semiparabolic elements.
 
@@ -3396,24 +3802,24 @@ The following table shows which components have updates in each category.
   > 0.0.5: Fix exception type preservation during parallel execution.
 
 
-- [elemental_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_elemental_nodal.md)
+- [elemental_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_elemental_nodal.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elemental_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_elemental_nodal_fc.md)
+- [elemental_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_elemental_nodal_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [elemental_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal.md)
+- [elemental_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_nodal.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Fix division by zero in face-based FVM averaging.
 
 
-- [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/elemental_to_nodal_fc.md)
+- [elemental_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_nodal_fc.md)
 
   > 0.0.1: Fixed shell management issue.
 
@@ -3422,12 +3828,12 @@ The following table shows which components have updates in each category.
   > 0.0.3: Fix exception type preservation during parallel execution.
 
 
-- [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
+- [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation.md)
+- [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/force_summation.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
@@ -3439,8 +3845,10 @@ The following table shows which components have updates in each category.
 
   > 1.0.2: Internal refactoring to remove usage of deprecated pin 200 of ENF
 
+  > 2.0.0: Addition of support for cyclic expansion with associated input pins.
 
-- [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/force_summation_psd.md)
+
+- [force_summation_psd](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/force_summation_psd.md)
 
   > 0.1.0: Scopings container supported on pins 1 and 2. Fields container supported on pin 6.
 
@@ -3449,39 +3857,39 @@ The following table shows which components have updates in each category.
   > 1.0.0: The moment unit is now kept from the input units and not converted to N*m.
 
 
-- [gauss_to_node_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/gauss_to_node_fc.md)
+- [gauss_to_node_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/gauss_to_node_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [nodal_difference](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_difference.md)
+- [nodal_difference](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_difference.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [nodal_difference_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_difference_fc.md)
+- [nodal_difference_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_difference_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [nodal_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_fraction_fc.md)
+- [nodal_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_fraction_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Fix exception type preservation during parallel execution.
 
 
-- [nodal_to_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental.md)
+- [nodal_to_elemental](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_to_elemental.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [nodal_to_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_fc.md)
+- [nodal_to_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_to_elemental_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_nodal.md)
+- [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
 
   > 0.0.1: Fixed issue with resize output field.
 
@@ -3490,7 +3898,7 @@ The following table shows which components have updates in each category.
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
 
-- [nodal_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
+- [nodal_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_to_elemental_nodal_fc.md)
 
   > 0.0.1: Fixed issue with resize output fields.
 
@@ -3501,12 +3909,20 @@ The following table shows which components have updates in each category.
   > 0.1.2: Fix exception type preservation during parallel execution.
 
 
-- [to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/to_nodal.md)
+- [to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/to_nodal.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/averaging/to_nodal_fc.md)
+- [to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/to_nodal_fc.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+
+#### compression
+
+- [kmeans_clustering](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/kmeans_clustering.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -3514,107 +3930,107 @@ The following table shows which components have updates in each category.
 
 #### filter
 
-- [abc_weightings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/abc_weightings.md)
+- [abc_weightings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/abc_weightings.md)
 
   > 0.0.1: Fixed bug in frequency calculation with multiple rpms in the support.
 
 
-- [field_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_band_pass.md)
+- [field_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_band_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_band_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_band_pass_fc.md)
+- [field_band_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_band_pass_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_high_pass.md)
+- [field_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_high_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_high_pass_fc.md)
+- [field_high_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_high_pass_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_low_pass.md)
+- [field_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_low_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_low_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_low_pass_fc.md)
+- [field_low_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_low_pass_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_signed_high_pass.md)
+- [field_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_signed_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [field_signed_high_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/field_signed_high_pass_fc.md)
+- [field_signed_high_pass_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/field_signed_high_pass_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [scoping_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_band_pass.md)
+- [scoping_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/scoping_band_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [scoping_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_high_pass.md)
+- [scoping_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/scoping_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [scoping_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_low_pass.md)
+- [scoping_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/scoping_low_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [scoping_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/scoping_signed_high_pass.md)
+- [scoping_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/scoping_signed_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timefreq_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_band_pass.md)
+- [timefreq_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timefreq_band_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timefreq_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_high_pass.md)
+- [timefreq_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timefreq_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timefreq_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_low_pass.md)
+- [timefreq_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timefreq_low_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timefreq_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timefreq_signed_high_pass.md)
+- [timefreq_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timefreq_signed_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timescoping_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_band_pass.md)
+- [timescoping_band_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timescoping_band_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timescoping_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_high_pass.md)
+- [timescoping_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timescoping_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timescoping_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_low_pass.md)
+- [timescoping_low_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timescoping_low_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [timescoping_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/filter/timescoping_signed_high_pass.md)
+- [timescoping_signed_high_pass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/filter/timescoping_signed_high_pass.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -3622,59 +4038,59 @@ The following table shows which components have updates in each category.
 
 #### geo
 
-- [cartesian_to_spherical](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/cartesian_to_spherical.md)
+- [cartesian_to_spherical](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/cartesian_to_spherical.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [cartesian_to_spherical_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/cartesian_to_spherical_fc.md)
+- [cartesian_to_spherical_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/cartesian_to_spherical_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [element_nodal_contribution](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/element_nodal_contribution.md)
+- [element_nodal_contribution](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/element_nodal_contribution.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elements_facets_surfaces_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_facets_surfaces_over_time.md)
+- [elements_facets_surfaces_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/elements_facets_surfaces_over_time.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elements_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_volume.md)
+- [elements_volume](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/elements_volume.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Fix exception type preservation during parallel execution.
 
 
-- [elements_volumes_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/elements_volumes_over_time.md)
+- [elements_volumes_over_time](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/elements_volumes_over_time.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [faces_area](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/faces_area.md)
+- [faces_area](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/faces_area.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [gauss_to_node](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/gauss_to_node.md)
+- [gauss_to_node](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/gauss_to_node.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [integrate_over_elements](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/integrate_over_elements.md)
+- [integrate_over_elements](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/integrate_over_elements.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [normals](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/normals.md)
+- [normals](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/normals.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/normals_provider_nl.md)
+- [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/normals_provider_nl.md)
 
   > 0.0.1: Bug fixed for input mesh type containing solid elements.
 
@@ -3683,12 +4099,12 @@ The following table shows which components have updates in each category.
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [rotate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_fc.md)
+- [rotate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [rotate_in_cylindrical_cs](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_in_cylindrical_cs.md)
+- [rotate_in_cylindrical_cs](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate_in_cylindrical_cs.md)
 
   > 1.0.0: Fix bug for the rotation of strain fields with a cylindrical system whose axis is rotated.
 
@@ -3697,22 +4113,22 @@ The following table shows which components have updates in each category.
   > 1.0.2: Fix exception type preservation during parallel execution.
 
 
-- [rotate_in_cylindrical_cs_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/rotate_in_cylindrical_cs_fc.md)
+- [rotate_in_cylindrical_cs_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate_in_cylindrical_cs_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [spherical_to_cartesian](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/spherical_to_cartesian.md)
+- [spherical_to_cartesian](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/spherical_to_cartesian.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [spherical_to_cartesian_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/spherical_to_cartesian_fc.md)
+- [spherical_to_cartesian_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/spherical_to_cartesian_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [to_polar_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/geo/to_polar_coordinates.md)
+- [to_polar_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/geo/to_polar_coordinates.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
@@ -3720,29 +4136,29 @@ The following table shows which components have updates in each category.
 
 #### invariant
 
-- [eigen_values_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/eigen_values_fc.md)
+- [eigen_values_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/invariant/eigen_values_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [invariants](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/invariants.md)
+- [invariants](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/invariant/invariants.md)
 
   > 0.1.0: Add input and output pins to control the principal stress output.
 
 
-- [invariants_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/invariants_fc.md)
+- [invariants_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/invariant/invariants_fc.md)
 
   > 0.1.0: Add input and output pins to control the principal stress output.
 
   > 0.1.1: Fix exception type preservation during parallel execution.
 
 
-- [segalman_von_mises_eqv_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/segalman_von_mises_eqv_fc.md)
+- [segalman_von_mises_eqv_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/invariant/segalman_von_mises_eqv_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [von_mises_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/invariant/von_mises_eqv.md)
+- [von_mises_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/invariant/von_mises_eqv.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
@@ -3750,27 +4166,27 @@ The following table shows which components have updates in each category.
 
 #### logic
 
-- [ascending_sort](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/ascending_sort.md)
+- [ascending_sort](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/ascending_sort.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [ascending_sort_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/ascending_sort_fc.md)
+- [ascending_sort_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/ascending_sort_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [descending_sort](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/descending_sort.md)
+- [descending_sort](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/descending_sort.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [descending_sort_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/descending_sort_fc.md)
+- [descending_sort_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/descending_sort_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [elementary_data_selector](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/elementary_data_selector.md)
+- [elementary_data_selector](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/elementary_data_selector.md)
 
   > 0.1.0: fix of crash when input field data pointer is empty, the operator will output an empty field in this case moving forward.
 
@@ -3779,17 +4195,17 @@ The following table shows which components have updates in each category.
   > 0.2.1: Internal refactoring to use Scoping Iterators.
 
 
-- [identical_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/identical_meshes.md)
+- [identical_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_meshes.md)
 
   > 0.0.1: Support comparing the node to element connectivity.
 
 
-- [identical_property_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/identical_property_fields.md)
+- [identical_property_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_property_fields.md)
 
   > 0.0.1: Add the order_independent input pin.
 
 
-- [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/logic/solid_shell_fields.md)
+- [solid_shell_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/logic/solid_shell_fields.md)
 
   > 0.0.1: Input Fields Containers can contain empty fields.
 
@@ -3797,7 +4213,7 @@ The following table shows which components have updates in each category.
 
 #### mapping
 
-- [find_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/find_reduced_coordinates.md)
+- [find_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/find_reduced_coordinates.md)
 
   > 0.1.0: Fix bug with interpolation points at corner nodes.
 
@@ -3806,7 +4222,7 @@ The following table shows which components have updates in each category.
   > 0.1.2: Internal refactoring to use Scoping Iterators.
 
 
-- [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_coordinates.md)
+- [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
 
   > 0.1.0: Performance improvement.
 
@@ -3817,24 +4233,24 @@ The following table shows which components have updates in each category.
   > 0.3.1: Update the operator and pin descriptions.
 
 
-- [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/on_reduced_coordinates.md)
+- [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
 
   > 0.0.1: Update the operator and pin descriptions.
 
   > 0.0.2: Internal refactoring to use Scoping Iterators.
 
 
-- [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/prepare_mapping_workflow.md)
+- [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mapping_workflow.md)
 
   > 0.0.1: Update the operator and pin descriptions.
 
 
-- [scoping_on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/scoping_on_coordinates.md)
+- [scoping_on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/scoping_on_coordinates.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin.md)
+- [solid_to_skin](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin.md)
 
   > 0.1.0: Improving performance for Nodal locations.
 
@@ -3858,8 +4274,12 @@ The following table shows which components have updates in each category.
 
   > 0.2.9: Fix condition check on skin element properties lookup.
 
+  > 0.2.10: Fix heap corruption in the Nodal fast-path when invoked in parallel by solid_to_skin_fc: clone the field returned by Rescope when it aliases the input field, so concurrent SetSupport calls no longer mutate a shared CField.
 
-- [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mapping/solid_to_skin_fc.md)
+  > 0.2.11: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
+
+
+- [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
   > 0.1.0: Improving performance for Nodal locations. Added parallelization.
 
@@ -3879,31 +4299,95 @@ The following table shows which components have updates in each category.
 
   > 0.2.6: Fix null pointer access when input field has no mesh support.
 
+  > 0.2.7: Fix data race on exception short-circuit flag in the parallel OMP loop by using std::atomic<bool>.
+
+  > 0.2.8: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
+
 
 
 #### math
 
-- [accumulate_level_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/accumulate_level_over_label_fc.md)
+- [absolute_value_by_component](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component.md)
+
+  > 0.0.1: Improve operator description with formula and Wikipedia link. Improve output pin description.
+
+
+- [absolute_value_by_component_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component_fc.md)
+
+  > 0.0.1: Improve operator description with formula and Wikipedia link. Improve output pin description.
+
+
+- [accumulate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate.md)
+
+  > 0.0.1: Improve operator description with weighted sum formula. Improve pin 2 and output pin descriptions.
+
+
+- [accumulate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_fc.md)
+
+  > 0.0.1: Improve operator description with weighted sum formula. Improve pin 2 and output pin descriptions.
+
+
+- [accumulate_level_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_level_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [accumulate_min_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/accumulate_min_over_label_fc.md)
+- [accumulate_min_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_min_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [accumulate_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/accumulate_over_label_fc.md)
+- [accumulate_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [average_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/average_over_label_fc.md)
+- [add](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/add.md)
+
+  > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and inplace option. Improve output pin description. Add entity-wise addition synonym.
+
+
+- [add_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/add_fc.md)
+
+  > 0.0.1: Improve operator description. Improve output pin description. Add entity-wise addition synonym.
+
+
+- [amplitude](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/amplitude.md)
+
+  > 0.0.1: Improve operator description. Add output pin description. Add Wikipedia link.
+
+
+- [amplitude_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/amplitude_fc.md)
+
+  > 0.0.1: Improve operator description with amplitude formula, fallback behaviour and Wikipedia link. Add input and output pin descriptions.
+
+
+- [average_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/average_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
 
 
-- [compute_residual_and_error](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/compute_residual_and_error.md)
+- [centroid](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/centroid.md)
+
+  > 0.0.1: Improve operator description with interpolation formula, convexity criterion and Wikipedia link. Improve pin 2 and output pin descriptions.
+
+
+- [centroid_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/centroid_fc.md)
+
+  > 0.0.1: Improve operator description with interpolation formula, exact-match behaviour and Wikipedia link. Improve pin descriptions.
+
+
+- [component_wise_divide](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/component_wise_divide.md)
+
+  > 0.0.1: Improve operator description with formula and zero-denominator behaviour. Add output pin description. Add Wikipedia link.
+
+
+- [component_wise_divide_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/component_wise_divide_fc.md)
+
+  > 0.0.1: Improve operator description. Add output pin description. Add Wikipedia link.
+
+
+- [compute_residual_and_error](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/compute_residual_and_error.md)
 
   > 0.1.0: Support generic labels (not only time) in the input FieldsContainer
 
@@ -3913,110 +4397,260 @@ The following table shows which components have updates in each category.
 Upgraded documentation
 
 
-- [entity_extractor](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/entity_extractor.md)
+- [conjugate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/conjugate.md)
+
+  > 0.0.1: Improve operator description with conjugate formula and Wikipedia link. Add input and output pin descriptions.
+
+
+- [cos](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cos.md)
+
+  > 0.0.1: Improve operator description to document unit constraints and formula. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [cos_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cos_fc.md)
+
+  > 0.0.1: Improve operator description to document unit constraints and formula. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [cplx_derive](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_derive.md)
+
+  > 0.0.1: Improve operator description with frequency-domain derivation formula and Wikipedia link. Add input and output pin descriptions.
+
+
+- [cplx_divide](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_divide.md)
+
+  > 0.0.1: Improve operator description with complex division formula, zero-denominator error and Wikipedia link. Improve pin and output pin descriptions.
+
+
+- [cplx_dot](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_dot.md)
+
+  > 0.0.1: Improve operator description with Hermitian inner product formula and Wikipedia link.
+
+
+- [cplx_multiply](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_multiply.md)
+
+  > 0.0.1: Improve operator description with complex multiplication formula and Wikipedia link. Add output pin description.
+
+
+- [entity_extractor](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/entity_extractor.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [expansion_psd](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/expansion_psd.md)
+- [exponential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential.md)
 
-  > 0.0.1: Fix handling of empty fields in mode shapes.
-
-
-- [fft_approx](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/fft_approx.md)
-
-  > 0.0.1: Fix exception type preservation during parallel execution.
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
 
 
-- [mac](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/mac.md)
+- [exponential_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential_fc.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [generalized_inner_product](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product.md)
+
+  > 0.0.1: Improve operator description with Wikipedia links and dispatch table. Add missing optional input pin 2 (mesh) for elemental-nodal/nodal dot product. Improve output pin description.
+
+
+- [generalized_inner_product_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product_fc.md)
+
+  > 0.0.1: Improve operator description with Wikipedia links and dispatch table. Add missing optional input pin 2 (mesh) for elemental-nodal/nodal dot product. Improve output pin description.
+
+
+- [img_part](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/img_part.md)
+
+  > 0.0.1: Improve operator description. Add input and output pin descriptions.
+
+
+- [kronecker_prod](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/kronecker_prod.md)
+
+  > 0.0.1: Improve operator description with Kronecker product formula and Wikipedia link. Add output pin description.
+
+
+- [linear_combination](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/linear_combination.md)
+
+  > 0.0.1: Improve operator description with LaTeX formula and Wikipedia link. Improve pin 0, 3, 4 and output pin descriptions.
+
+
+- [ln](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/ln.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [ln_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/ln_fc.md)
+
+  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [mac](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/mac.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [make_one_on_comp](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/make_one_on_comp.md)
+- [make_one_on_comp](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/make_one_on_comp.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/modal_participation.md)
+- [minus](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/minus.md)
+
+  > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and temperature-difference unit. Improve output pin description. Add entity-wise subtraction synonym.
+
+
+- [minus_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/minus_fc.md)
+
+  > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and temperature-difference unit. Improve output pin description. Add entity-wise subtraction synonym.
+
+
+- [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_participation.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [norm_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/norm_fc.md)
+- [modulus](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modulus.md)
 
-  > 0.0.1: Fix exception type preservation during parallel execution.
+  > 0.0.1: Improve operator description with complex modulus formula and Wikipedia link. Add input and output pin descriptions.
 
 
-- [outer_product](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/outer_product.md)
+- [norm](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/norm.md)
+
+  > 0.0.1: Improve operator description with $L_p$ norm formula and Wikipedia link. Improve pin 1 and output pin descriptions.
+
+
+- [norm_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/norm_fc.md)
+
+  > 0.0.1: Fix exception type preservation during parallel execution. Fix operator description accuracy: now documents $L_p$ norm (not just $L_2$). Improve pin 1 and output pin descriptions. Add Wikipedia link.
+
+
+- [outer_product](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/outer_product.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [pow](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/pow.md)
+- [phase](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/phase.md)
+
+  > 0.0.1: Improve operator description with atan2 formula and Wikipedia link. Add output pin description.
+
+
+- [phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/phase_fc.md)
+
+  > 0.0.1: Improve operator description with atan2 formula, zero-field fallback and Wikipedia link. Add input and output pin descriptions.
+
+
+- [polar_to_cplx](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/polar_to_cplx.md)
+
+  > 0.0.1: Improve operator description with polar-to-rectangular conversion formulas and Wikipedia link. Add input and output pin descriptions.
+
+
+- [pow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/pow.md)
 
   > 0.1.0: Pin added to chose the value to set for division by zero for negative exponents
 
 
-- [pow_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/pow_fc.md)
+- [pow_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/pow_fc.md)
 
   > 0.1.0: Pin added to chose the value to set for division by zero for negative exponents
 
 
-- [scale](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale.md)
+- [real_part](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/real_part.md)
 
-  > 0.0.1: Fixed a segmentation fault.
+  > 0.0.1: Improve operator description. Add input and output pin descriptions.
 
 
-- [scale_by_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale_by_field.md)
+- [scale](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/scale.md)
+
+  > 0.0.1: Fixed a segmentation fault. Improve operator description with scalar and vector scale formulas. Fix 'scaler' typo. Add Hadamard product synonym for field-valued scale factor.
+
+
+- [scale_by_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/scale_by_field.md)
 
   > 0.0.1: Add support of fields with shell layers
 
 
-- [scale_by_field_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale_by_field_fc.md)
+- [scale_by_field_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/scale_by_field_fc.md)
 
   > 0.0.1: Add support of fields with shell layers
 
 
-- [scale_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/scale_fc.md)
+- [scale_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/scale_fc.md)
 
-  > 0.0.1: Fix exception type preservation during parallel execution.
-
-
-- [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sweeping_phase.md)
-
-  > 0.0.1: Clarify the documentation.
+  > 0.0.1: Fix exception type preservation during parallel execution. Improve operator description with supported scale-factor types. Fix 'scaler' typo. Add Hadamard product synonym for field-valued scale factor.
 
 
-- [sweeping_phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/sweeping_phase_fc.md)
+- [sin](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sin.md)
 
-  > 0.0.1: Clarify the documentation.
+  > 0.0.1: Improve operator description to document unit constraints and formula. Add input and output pin descriptions. Add Wikipedia link.
 
 
-- [time_freq_interpolation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/math/time_freq_interpolation.md)
+- [sin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sin_fc.md)
 
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
+  > 0.0.1: Improve operator description to document unit constraints and formula. Add input and output pin descriptions. Add Wikipedia link.
+
+
+- [sqr](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sqr.md)
+
+  > 0.0.1: Improve operator description with formula and output unit. Improve output pin description. Add Wikipedia link.
+
+
+- [sqr_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sqr_fc.md)
+
+  > 0.0.1: Improve operator description with formula and output unit. Improve output pin description. Add Wikipedia link.
+
+
+- [sqrt](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sqrt.md)
+
+  > 0.0.1: Improve operator description with formula, non-negativity constraint, and output unit. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [sqrt_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sqrt_fc.md)
+
+  > 0.0.1: Improve operator description with formula, non-negativity constraint, and output unit. Improve input and output pin descriptions. Add Wikipedia link.
+
+
+- [sweeping_phase](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sweeping_phase.md)
+
+  > 0.0.1: Improve operator description with projection formula and Wikipedia link. Improve pin 2, 4 and output pin descriptions.
+
+
+- [sweeping_phase_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/sweeping_phase_fc.md)
+
+  > 0.0.1: Improve operator description with projection formula and Wikipedia link. Improve pin 2, 4 and output pin descriptions.
+
+
+- [time_freq_interpolation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/time_freq_interpolation.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators. Improve operator description with interpolation formula and Wikipedia link. Add missing output pin 1 (TimeFreqSupport). Improve pin descriptions.
+
+
+- [unit_convert](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert.md)
+
+  > 0.0.1: Improve operator description to document conversion formula, mesh handling, and permissive behaviour. Improve output pin description.
+
+
+- [unit_convert_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert_fc.md)
+
+  > 0.0.1: Improve operator description to document conversion formula and permissive behaviour. Add input pin description. Improve output pin description.
 
 
 
 #### mesh
 
-- [change_cs](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/change_cs.md)
+- [change_cs](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/change_cs.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
 
-- [combine_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/combine_levelset.md)
+- [combine_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/combine_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/exclude_levelset.md)
+- [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/exclude_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [from_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/from_scoping.md)
+- [from_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scoping.md)
 
   > 0.1.0: Improvement in the performance.
 
@@ -4035,7 +4669,7 @@ Upgraded documentation
   > 0.3.1: Internal refactoring to use Scoping Iterators.
 
 
-- [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/from_scopings.md)
+- [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
 
   > 0.0.1: Improvement in the performance.
 
@@ -4044,39 +4678,43 @@ Upgraded documentation
   > 0.1.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
 
 
-- [make_plane_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/make_plane_levelset.md)
+- [make_plane_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_plane_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [make_sphere_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/make_sphere_levelset.md)
+- [make_sphere_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_sphere_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_extraction.md)
+- [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_extraction.md)
 
   > 1.0.0: Property fields associated to the mesh are rescoped on the selection and associated to the new mesh.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_provider.md)
+- [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
 
+  > 0.1.1: Increased memory efficiency.
 
-- [mesh_to_graphics](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_graphics.md)
+  > 0.1.2: Performance improvements for distributed data sources cases.
+
+
+- [mesh_to_graphics](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_graphics.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [mesh_to_graphics_edges](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_graphics_edges.md)
+- [mesh_to_graphics_edges](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_graphics_edges.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/mesh_to_pyvista.md)
+- [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_pyvista.md)
 
   > 0.0.1: Fix node ordering for face connectivity of fluid cell faces marked as reversed.
 
@@ -4084,30 +4722,38 @@ Upgraded documentation
 
   > 0.0.3: Improve performance of mesh conversions for all types of meshes.
 
+  > 1.0.0: Add new mesh scoping input pin to allow exporting a subset of the original mesh. Add new as_modified_connectivity input pin to allow exporting connectivity in a VTK 9 compatible format without node count headers and with offsets to it. 
 
-- [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/meshes_provider.md)
+
+- [meshes_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/meshes_provider.md)
 
   > 0.1.0: Update the effect of the permissive configuration.
 
+  > 0.1.1: Increased memory efficiency.
 
-- [points_from_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/points_from_coordinates.md)
+  > 0.1.2: Performance improvements for distributed data sources cases.
+
+
+- [points_from_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/points_from_coordinates.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [skin](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/skin.md)
+- [skin](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/skin.md)
 
-  > 0.0.1: Fixing issue related to share pointers of property fields and mesh.
+  > 0.0.1: Fixing issue related to shared pointers of property fields and mesh.
 
   > 0.0.2: Internal change to share pointers of property fields and mesh.
 
+  > 0.0.3: Added support for Edge2, Edge3 and Beam4 elements.
 
-- [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/split_fields.md)
+
+- [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_fields.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [split_mesh](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/split_mesh.md)
+- [split_mesh](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_mesh.md)
 
   > 0.0.1: Improvement in the performance.
 
@@ -4116,7 +4762,7 @@ Upgraded documentation
   > 0.1.0: Improvement in the performance by implementing scoping_build_index_tables operator.
 
 
-- [wireframe](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/mesh/wireframe.md)
+- [wireframe](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/wireframe.md)
 
   > 0.1.0: Addition of optional element_restriction pin.
 
@@ -4128,34 +4774,34 @@ Upgraded documentation
 
 #### metadata
 
-- [boundary_condition_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/boundary_condition_provider.md)
+- [boundary_condition_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/boundary_condition_provider.md)
 
   > 0.0.1: Improved documentation and exceptions handling.
 
 
-- [cyclic_mesh_expansion](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/cyclic_mesh_expansion.md)
+- [cyclic_mesh_expansion](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/cyclic_mesh_expansion.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/element_types_provider.md)
+- [element_types_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/element_types_provider.md)
 
   > 0.1.0: Added the possibility to output a PropertyField.
 
 
-- [integrate_over_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/integrate_over_time_freq.md)
+- [integrate_over_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/integrate_over_time_freq.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Allow to make integration even if the time freq support contains several steps (for example multiple RPM), only if the provided scoping correspond to frequencies of a unique RPM.
 
 
-- [streams_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/streams_provider.md)
+- [streams_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/streams_provider.md)
 
   > 0.1.0: Add the permissive configuration.
 
 
-- [time_freq_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/metadata/time_freq_support_get_attribute.md)
+- [time_freq_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/time_freq_support_get_attribute.md)
 
   > 0.1.0: Add new supported property name 'step_id_from_harmonic_index' returning an int.
 
@@ -4165,12 +4811,17 @@ Upgraded documentation
 
 #### min_max
 
-- [min_max_fc_inc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/min_max/min_max_fc_inc.md)
+- [min_max_fc_inc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_fc_inc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [min_max_over_time_by_entity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/min_max/min_max_over_time_by_entity.md)
+- [min_max_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_over_label_fc.md)
+
+  > 0.0.1: Input fields with no data are now excluded from the output instead of producing zero-valued entries.
+
+
+- [min_max_over_time_by_entity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_over_time_by_entity.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -4178,534 +4829,508 @@ Upgraded documentation
 
 #### result
 
-- [accu_eqv_creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/accu_eqv_creep_strain.md)
+- [accu_eqv_creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/accu_eqv_creep_strain.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [accu_eqv_plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/accu_eqv_plastic_strain.md)
+- [accu_eqv_plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/accu_eqv_plastic_strain.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [artificial_hourglass_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/artificial_hourglass_energy.md)
+- [artificial_hourglass_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/artificial_hourglass_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [beam_axial_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_axial_force.md)
+- [beam_axial_force](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_force.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_axial_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_axial_stress.md)
+- [beam_axial_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_stress.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_axial_total_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_axial_total_strain.md)
+- [beam_axial_total_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_total_strain.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_s_bending_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_s_bending_moment.md)
+- [beam_s_bending_moment](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_s_bending_moment.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_s_shear_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_s_shear_force.md)
+- [beam_s_shear_force](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_s_shear_force.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_t_bending_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_t_bending_moment.md)
+- [beam_t_bending_moment](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_t_bending_moment.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_t_shear_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_t_shear_force.md)
+- [beam_t_shear_force](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_t_shear_force.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [beam_torsional_moment](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/beam_torsional_moment.md)
+- [beam_torsional_moment](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/beam_torsional_moment.md)
 
   > 0.1.0: MAPDL results supported.
 
 
-- [co_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/co_energy.md)
+- [co_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/co_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_fluid_penetration_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_fluid_penetration_pressure.md)
+- [contact_fluid_penetration_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_fluid_penetration_pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_friction_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_friction_stress.md)
+- [contact_friction_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_friction_stress.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_gap_distance](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_gap_distance.md)
+- [contact_gap_distance](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_gap_distance.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_penetration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_penetration.md)
+- [contact_penetration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_penetration.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_pressure.md)
+- [contact_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_sliding_distance](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_sliding_distance.md)
+- [contact_sliding_distance](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_sliding_distance.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_status](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_status.md)
+- [contact_status](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_status.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_surface_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_surface_heat_flux.md)
+- [contact_surface_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_surface_heat_flux.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [contact_total_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/contact_total_stress.md)
+- [contact_total_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/contact_total_stress.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [coordinate_system](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/coordinate_system.md)
+- [coordinate_system](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/coordinate_system.md)
 
   > 0.0.1: Output pin 0 documentation update.
 
 
-- [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/creep_strain_energy_density.md)
+- [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_energy_density.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/displacement.md)
+- [displacement](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/displacement.md)
 
   > 1.0.0: Modal coordinates from RFRQ, RDSP and DSUB files can't be extracted through displacement operator anymore, user can use modal_coordinate operator instead.
 
 
-- [elastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain.md)
+- [elastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [elastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_energy_density.md)
+- [elastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_energy_density.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_eqv.md)
+- [elastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_eqv.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_intensity.md)
+- [elastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_intensity.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_max_shear.md)
+- [elastic_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_max_shear.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_principal_1.md)
+- [elastic_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_principal_2.md)
+- [elastic_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [elastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elastic_strain_principal_3.md)
+- [elastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elastic_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [electric_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/electric_field.md)
+- [electric_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/electric_field.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [electric_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/electric_flux_density.md)
+- [electric_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/electric_flux_density.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [electric_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/electric_potential.md)
+- [electric_potential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/electric_potential.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [element_centroids](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_centroids.md)
+- [element_centroids](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_centroids.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [element_nodal_forces](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_nodal_forces.md)
+- [element_nodal_forces](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_nodal_forces.md)
 
   > 0.1.0: split_force_components pin deprecated. To obtain rotation and temperature dofs please use the dedicated operator (element_nodal_moments, element_nodal_heat)Use the component selector to retrieve a specific derivative order. Components 0, 1 and 2 for stiffness. Components 3, 4 and 5 for damping. Components 6, 7 and 8 for inertia.
 
 
-- [element_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/element_orientations.md)
+- [element_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_orientations.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_heat_generation](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elemental_heat_generation.md)
+- [elemental_heat_generation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_heat_generation.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_mass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elemental_mass.md)
+- [elemental_mass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_mass.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_volume](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/elemental_volume.md)
+- [elemental_volume](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_volume.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [equivalent_mass](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/equivalent_mass.md)
+- [equivalent_mass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/equivalent_mass.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [eqv_stress_parameter](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/eqv_stress_parameter.md)
+- [eqv_stress_parameter](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/eqv_stress_parameter.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [euler_load_buckling](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/euler_load_buckling.md)
+- [euler_load_buckling](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/euler_load_buckling.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [gasket_inelastic_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_inelastic_closure.md)
+- [gasket_inelastic_closure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_inelastic_closure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [gasket_stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_stress.md)
+- [gasket_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_stress.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [gasket_thermal_closure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/gasket_thermal_closure.md)
+- [gasket_thermal_closure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_thermal_closure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/heat_flux.md)
+- [heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/heat_flux.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [hydrostatic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/hydrostatic_pressure.md)
+- [hydrostatic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/hydrostatic_pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [incremental_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/incremental_energy.md)
+- [incremental_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/incremental_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [kinetic_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/kinetic_energy.md)
+- [kinetic_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/kinetic_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
+  > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
 
-- [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/magnetic_field.md)
+
+- [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_field.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [magnetic_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/magnetic_flux_density.md)
+- [magnetic_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_flux_density.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [magnetic_scalar_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/magnetic_scalar_potential.md)
+- [magnetic_scalar_potential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_scalar_potential.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [magnetic_vector_potential](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/magnetic_vector_potential.md)
+- [magnetic_vector_potential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_vector_potential.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [mapdl.global_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl.global_to_nodal.md)
+- [material_property_of_element](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/material_property_of_element.md)
+
+  > 0.1.0: Added missing input pins: mesh_scoping (pin 1), property_name (pin 6), default_value (pin 7), filter_zero_values (pin 8). Corrected and expanded all pin and operator documentation.
+
+
+- [members_in_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/members_in_bending_not_certified.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [mapdl.pres_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl.pres_to_field.md)
-
-  > 0.0.1: Fix crash caused by invalid iterator when reading shell data.
-
-
-- [mapdl_section](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_section.md)
-
-  > 0.0.1: Making the operator license-free.
-
-
-- [mapdl_split_on_facet_indices](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_split_on_facet_indices.md)
-
-  > 0.0.1: ElementalNodal fields are now supported.
-
-
-- [mapdl_split_to_acmo_facet_indices](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/mapdl_split_to_acmo_facet_indices.md)
-
-  > 0.0.1: ElementalNodal fields are now supported.
-
-
-- [members_in_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_bending_not_certified.md)
+- [members_in_compression_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/members_in_compression_not_certified.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [members_in_compression_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_compression_not_certified.md)
+- [members_in_linear_compression_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/members_in_linear_compression_bending_not_certified.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [members_in_linear_compression_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/members_in_linear_compression_bending_not_certified.md)
-
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
-
-
-- [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nmisc.md)
+- [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
 
 
-- [nodal_to_global](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/nodal_to_global.md)
+- [nodal_to_global](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_to_global.md)
 
   > 0.1.0: Addition of optional inverse_rotation pin.
 
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
 
-- [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/num_surface_status_changes.md)
+- [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/num_surface_status_changes.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_state_variable.md)
+- [plastic_state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_state_variable.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain.md)
+- [plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [plastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_energy_density.md)
+- [plastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_energy_density.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_eqv.md)
+- [plastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_eqv.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [plastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_intensity.md)
+- [plastic_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_intensity.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_max_shear.md)
+- [plastic_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_max_shear.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_principal_1.md)
+- [plastic_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_principal_2.md)
+- [plastic_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [plastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/plastic_strain_principal_3.md)
+- [plastic_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/poynting_vector_surface.md)
+- [poynting_vector_surface](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/poynting_vector_surface.md)
 
   > 0.0.1: Fix bug in memory allocation for some local variables participating in interpolation at integration points.
 
 
-- [pressure](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/pressure.md)
+- [pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/pressure.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [raw_displacement](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_displacement.md)
+- [raw_displacement](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/raw_displacement.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [raw_reaction_force](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/raw_reaction_force.md)
+- [raw_reaction_force](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/raw_reaction_force.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
+- [recombine_harmonic_indeces_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/recombine_harmonic_indeces_cyclic.md)
 
   > 0.1.0: Addition of is_constant pin
 
 
-- [remove_rigid_body_motion](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/remove_rigid_body_motion.md)
-
-  > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
-
-
-- [remove_rigid_body_motion_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/remove_rigid_body_motion_fc.md)
-
-  > 0.0.1: Replace vector of pointers with array of objects to prevent memory leaks
-
-
-- [result_provider](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/result_provider.md)
+- [result_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/result_provider.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were only performed if the requested result was a 3D vector or a symmetrical 3x3 matrix.
 
 
-- [smisc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/smisc.md)
+- [smisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/smisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
 
 
-- [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/state_variable.md)
+- [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/state_variable.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [stiffness_matrix_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stiffness_matrix_energy.md)
+- [stiffness_matrix_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stiffness_matrix_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
+  > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
 
-- [stress](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress.md)
+
+- [stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [stress_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_intensity.md)
+- [stress_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_intensity.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_max_shear.md)
+- [stress_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_max_shear.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_principal_1.md)
+- [stress_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_principal_2.md)
+- [stress_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_principal_3.md)
+- [stress_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [stress_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_ratio.md)
+- [stress_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_ratio.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [stress_von_mises](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/stress_von_mises.md)
+- [stress_von_mises](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/stress_von_mises.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [structural_temperature](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/structural_temperature.md)
+- [structural_temperature](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/structural_temperature.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [swelling_strains](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/swelling_strains.md)
+- [swelling_strains](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/swelling_strains.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [temperature](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/temperature.md)
+- [temperature](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/temperature.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [temperature_grad](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/temperature_grad.md)
+- [temperature_grad](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/temperature_grad.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [thermal_dissipation_energy](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thermal_dissipation_energy.md)
+- [thermal_dissipation_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_dissipation_energy.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [thermal_strain](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thermal_strain.md)
+- [thermal_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain.md)
 
   > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
-- [thermal_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thermal_strain_principal_1.md)
+- [thermal_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_principal_1.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [thermal_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thermal_strain_principal_2.md)
+- [thermal_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_principal_2.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [thermal_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thermal_strain_principal_3.md)
+- [thermal_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_principal_3.md)
 
   > 1.0.0: bool_rotate_to_global pin removed for server versions >25.2. An error is raised if connected.
 
 
-- [thermal_strains_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thermal_strains_eqv.md)
+- [thermal_strains_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strains_eqv.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [thickness](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/thickness.md)
+- [thickness](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/thickness.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [torque](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/torque.md)
+- [torque](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/torque.md)
 
   > 0.1.0: Fields container supported on pin 1. Pin 1 name changed.
 
@@ -4714,7 +5339,7 @@ Upgraded documentation
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [transient_rayleigh_integration](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/result/transient_rayleigh_integration.md)
+- [transient_rayleigh_integration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/transient_rayleigh_integration.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -4722,57 +5347,67 @@ Upgraded documentation
 
 #### scoping
 
-- [adapt_with_scopings_container](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/adapt_with_scopings_container.md)
+- [adapt_with_scopings_container](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/adapt_with_scopings_container.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
+  > 0.0.2: Fix issue when input FieldsContainer and ScopingsContainer don't share labels.
 
-- [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/intersect.md)
+
+- [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/intersect.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/on_property.md)
+- [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_property.md)
 
   > 1.0.0: Remove pin "inclusive"
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [reduce_sampling](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/reduce_sampling.md)
+- [reduce_sampling](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/reduce_sampling.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [rescope](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope.md)
+- [rescope](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope.md)
 
   > 0.1.0: Performance improvement.
 
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
-
-- [rescope_custom_type_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope_custom_type_field.md)
-
-  > 0.1.0: Performance improvement.
-
-  > 0.1.1: Internal refactoring to use Scoping Iterators.
+  > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
 
 
-- [rescope_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope_fc.md)
+- [rescope_custom_type_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_custom_type_field.md)
 
   > 0.1.0: Performance improvement.
 
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
 
-- [rescope_property_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/rescope_property_field.md)
+
+- [rescope_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_fc.md)
 
   > 0.1.0: Performance improvement.
 
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
 
-- [transpose](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/scoping/transpose.md)
+
+- [rescope_property_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_property_field.md)
+
+  > 0.1.0: Performance improvement.
+
+  > 0.1.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
+
+
+- [transpose](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/transpose.md)
 
   > 0.1.0: Improvement of performance
 
@@ -4786,17 +5421,46 @@ Upgraded documentation
 
 #### serialization
 
-- [csv_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/csv_to_field.md)
+- [csv_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/csv_to_field.md)
 
   > 1.0.0: Fixed issue while reading csv with multiple fields and common time id between fields.
 
 
-- [field_to_csv](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/field_to_csv.md)
+- [export_symbolic_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/export_symbolic_workflow.md)
+
+  > 0.1.0: Changed the default name of input pin 1 to 'workflow_path', the previous name 'path' is kept as an alias.
+
+
+- [field_to_csv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/field_to_csv.md)
 
   > 1.0.0: Fixed issue while writing csv with multiple fields and common time id between fields.
 
 
-- [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/serialization/workflow_to_pydpf.md)
+- [hdf5dpf_custom_read](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_custom_read.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [hdf5dpf_generate_result_file](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Fix use of odd and even in pin description
+
+
+- [import_symbolic_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/import_symbolic_workflow.md)
+
+  > 0.1.0: Added support for importing symbolic workflows directly from strings.
+
+  > 0.2.0: Changed the default name of input pin 0 to 'workflow_path', the previous name 'string_or_path' is kept as an alias.
+
+
+- [serialize_to_hdf5](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/serialize_to_hdf5.md)
+
+  > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_pydpf.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -4804,76 +5468,76 @@ Upgraded documentation
 
 #### utility
 
-- [compute_time_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/compute_time_scoping.md)
+- [compute_time_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/compute_time_scoping.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_scoping.md)
+- [extract_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_scoping.md)
 
   > 0.0.1: Error with license
 
 
-- [extract_sub_fc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_sub_fc.md)
+- [extract_sub_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_sub_fc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [extract_sub_mc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_sub_mc.md)
+- [extract_sub_mc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_sub_mc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [extract_sub_sc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_sub_sc.md)
+- [extract_sub_sc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_sub_sc.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [extract_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/extract_time_freq.md)
+- [extract_time_freq](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_time_freq.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.1.0: Addition of an optional input pin to select frequencies from a unique step/RPM.
 
 
-- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/fc_get_attribute.md)
+- [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/fc_get_attribute.md)
 
   > 0.1.0: Add new supported property names 'base_name' that returns a string and 'field_names' that returns a StringField.
 
 
-- [for_each](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/for_each.md)
+- [for_each](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/for_each.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [forward](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/forward.md)
+- [forward](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/forward.md)
 
   > 1.0.0: Add ellipsis property to pins.
 
 
-- [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/html_doc.md)
+- [html_doc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/html_doc.md)
 
   > 0.1.0: Show operator version and changelog.
 
   > 0.1.1: Fix support for dollar LaTeX delimiters in MathJax.
 
 
-- [ints_to_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/ints_to_scoping.md)
+- [ints_to_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/ints_to_scoping.md)
 
   > 0.1.0: Add input pin 2 to specify an upper bound to create a scoping for a given range (taking single input in pin 0 as the lower bound).
 
 
-- [make_for_each_range](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/make_for_each_range.md)
+- [make_for_each_range](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/make_for_each_range.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [merge_materials](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_materials.md)
+- [merge_materials](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_materials.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [merge_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_meshes.md)
+- [merge_meshes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_meshes.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
@@ -4881,30 +5545,37 @@ Upgraded documentation
 
   > 0.0.3: Fix merging empty meshes.
 
+  > 0.0.4: Performance improvements.
 
-- [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_scopings.md)
+
+- [merge_meshes_containers](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_meshes_containers.md)
+
+  > 0.0.1: Skip merge for identical meshes based on hash comparison.
+
+
+- [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_scopings.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [merge_time_freq_supports](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/merge_time_freq_supports.md)
+- [merge_time_freq_supports](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_time_freq_supports.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [producer_consumer_for_each](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/producer_consumer_for_each.md)
+- [producer_consumer_for_each](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/producer_consumer_for_each.md)
 
   > 0.1.0: Addition of events to monitor the status of the operator.
 
   > 0.2.0: Moving event of progress bar at the beggining of the loop and changing input stream.
 
 
-- [scalars_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/scalars_to_field.md)
+- [scalars_to_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/scalars_to_field.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
-- [set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2026-r2/operator-specifications/utility/set_attribute.md)
+- [set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/set_attribute.md)
 
   > 0.1.0: Add new supported property names 'base_name' and 'field_names'.
 
@@ -4912,6 +5583,90 @@ Upgraded documentation
 
 
 ### Deleted operators
+
+#### add_rigid_body_motion
+
+#### add_rigid_body_motion_fc
+
+#### cgns_result_provider
+
+#### cms_dst_table_provider
+
+#### cms_matrices_provider
+
+#### cms_subfile_info_provider
+
+#### compute_invariant_terms_motion
+
+#### compute_invariant_terms_rbd
+
+#### compute_stress
+
+#### compute_stress_1
+
+#### compute_stress_2
+
+#### compute_stress_3
+
+#### compute_stress_von_mises
+
+#### compute_stress_X
+
+#### compute_stress_XY
+
+#### compute_stress_XZ
+
+#### compute_stress_Y
+
+#### compute_stress_YZ
+
+#### compute_stress_Z
+
+#### compute_total_strain
+
+#### compute_total_strain_1
+
+#### compute_total_strain_2
+
+#### compute_total_strain_3
+
+#### compute_total_strain_X
+
+#### compute_total_strain_XY
+
+#### compute_total_strain_XZ
+
+#### compute_total_strain_Y
+
+#### compute_total_strain_YZ
+
+#### compute_total_strain_Z
+
+#### convertnum_bcs_to_nod
+
+#### convertnum_nod_to_bcs
+
+#### convertnum_op
+
+#### eigen_vectors
+
+#### eigen_vectors_fc
+
+#### elastic_strain_rotation_by_euler_nodes
+
+#### enf_rotation_by_euler_nodes
+
+#### expansion_psd
+
+#### fft
+
+#### fft_approx
+
+#### fft_eval
+
+#### fft_gradient_eval
+
+#### fft_multi_harmonic_minmax
 
 #### gasket_deformation
 
@@ -4921,4 +5676,82 @@ Upgraded documentation
 
 #### gasket_deformation_XZ
 
+#### mapdl.global_to_nodal
+
+#### mapdl.pres_to_field
+
+#### mapdl.prns_to_field
+
+#### mapdl.run
+
+#### mapdl_material_properties
+
+#### mapdl_section
+
+#### mapdl_split_on_facet_indices
+
+#### mapdl_split_to_acmo_facet_indices
+
+#### matrix_inverse
+
+#### modal_superposition
+
 #### nodal_moment
+
+#### plastic_strain_rotation_by_euler_nodes
+
+#### prep_sampling_fft
+
+#### pretension
+
+#### qr_solve
+
+#### read_cms_rbd_file
+
+#### remove_rigid_body_motion
+
+#### remove_rigid_body_motion_fc
+
+#### rigid_transformation_provider
+
+#### rom_data_provider
+
+#### stress_rotation_by_euler_nodes
+
+#### svd
+
+#### time_derivation
+
+#### time_integration
+
+#### total_mass
+
+#### transform_invariant_terms_rbd
+
+#### window_bartlett
+
+#### window_bartlett_fc
+
+#### window_blackman
+
+#### window_blackman_fc
+
+#### window_hamming
+
+#### window_hamming_fc
+
+#### window_hanning
+
+#### window_hanning_fc
+
+#### window_triangular
+
+#### window_triangular_fc
+
+#### window_welch
+
+#### window_welch_fc
+
+#### write_cms_rbd_file
+
+#### write_motion_dfmf_file

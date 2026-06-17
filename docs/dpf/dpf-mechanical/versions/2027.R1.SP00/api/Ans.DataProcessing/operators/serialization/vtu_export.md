@@ -14,7 +14,7 @@ available inputs: `directory` (string), `base_name` (string) (optional), `mesh` 
 
 available outputs: `path` (DataSources)
 
-**DPF Framework Reference:** [vtu_export operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/vtu_export.md)
+**DPF Framework Reference:** [vtu_export operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/vtu_export.md)
 
 **Parameters:**
 

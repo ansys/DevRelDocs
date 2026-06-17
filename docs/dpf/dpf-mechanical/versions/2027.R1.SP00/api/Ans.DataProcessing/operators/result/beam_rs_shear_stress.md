@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.beam_rs_shear_stress
 
 # *class* beam_rs_shear_stress(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, integration_point: object = None, unit_system: object = None, config: OperatorConfig = None)
 
-beam_rs_shear_stress()
-beam_rs_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
-beam_rs_shear_stress(config: OperatorConfig)
+beam_rs_shear_stress()
+
+beam_rs_shear_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
+
+beam_rs_shear_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_rs_shear_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_rs_shear_stress.md)
+
+**DPF Framework Reference:** [beam_rs_shear_stress operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_rs_shear_stress.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `coordinates` (MeshedRegion, Field), `normal` (Field), `origin
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [make_plane_levelset operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_plane_levelset.md)
+**DPF Framework Reference:** [make_plane_levelset operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_plane_levelset.md)
 
 **Parameters:**
 

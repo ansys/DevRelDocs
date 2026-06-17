@@ -10,7 +10,7 @@ available inputs: `time_scoping` (ScopingsContainer, Scoping) (optional), `mesh_
 
 available outputs: `adjustment` (FieldsContainer), `tension_force` (FieldsContainer)
 
-**DPF Framework Reference:** [pretension operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/pretension.md)
+**DPF Framework Reference:** [pretension operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/pretension.md)
 
 **Parameters:**
 

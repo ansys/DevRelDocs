@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_eig_1` (FieldsContainer), `fields_eig_2` (FieldsContainer), `fields_eig_3` (FieldsContainer)
 
-**DPF Framework Reference:** [principal_invariants_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/principal_invariants_fc.md)
+**DPF Framework Reference:** [principal_invariants_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/principal_invariants_fc.md)
 
 **Parameters:**
 

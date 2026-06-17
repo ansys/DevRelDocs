@@ -10,7 +10,7 @@ available inputs: `dataIn` (CustomTypeFieldsContainer)
 
 available outputs: `dataOut` (Field ,FieldsContainer), `decompress_speed` (double)
 
-**DPF Framework Reference:** [zfp_decompress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/zfp_decompress.md)
+**DPF Framework Reference:** [zfp_decompress operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/zfp_decompress.md)
 
 **Parameters:**
 
