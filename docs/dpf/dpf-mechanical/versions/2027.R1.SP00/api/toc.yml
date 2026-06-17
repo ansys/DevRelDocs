@@ -85,6 +85,8 @@
     href: Ans.DataProcessing/Workflow.md
   - name: locations
     href: Ans.DataProcessing/locations.md
+- name: Ans.DataProcessing.internal_objects
+  href: Ans.DataProcessing/internal_objects/index.md
 - name: Ans.DataProcessing.operators
   href: Ans.DataProcessing/operators/index.md
   items:
