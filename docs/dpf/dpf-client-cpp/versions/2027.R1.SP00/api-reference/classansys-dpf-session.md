@@ -140,7 +140,7 @@ ansys::dpf::Session::Session(Session const &)
 
 **Parameters**:
 
-* Session const &
+* [Session](classansys-dpf-session.md#classansys-dpf-session) const &
 
 **Return type**: 
 
@@ -169,7 +169,7 @@ ansys::dpf::Session::Session(Session &&)=delete
 
 **Parameters**:
 
-* Session &&
+* [Session](classansys-dpf-session.md#classansys-dpf-session) &&
 
 **Return type**: 
 
@@ -198,9 +198,9 @@ Session & ansys::dpf::Session::operator=(Session const &)
 
 **Parameters**:
 
-* Session const &
+* [Session](classansys-dpf-session.md#classansys-dpf-session) const &
 
-**Return type**: Session &
+**Return type**: [Session](classansys-dpf-session.md#classansys-dpf-session) &
 
 <!--
 **TODO**:
@@ -227,9 +227,9 @@ Session & ansys::dpf::Session::operator=(Session &&)=delete
 
 **Parameters**:
 
-* Session &&
+* [Session](classansys-dpf-session.md#classansys-dpf-session) &&
 
-**Return type**: Session &
+**Return type**: [Session](classansys-dpf-session.md#classansys-dpf-session) &
 
 <!--
 **TODO**:

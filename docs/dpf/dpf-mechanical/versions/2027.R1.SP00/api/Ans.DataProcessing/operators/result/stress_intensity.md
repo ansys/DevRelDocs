@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.stress_intensity
 
 # *class* stress_intensity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-stress_intensity()
-stress_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-stress_intensity(config: OperatorConfig)
+stress_intensity()
+
+stress_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+stress_intensity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_intensity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_intensity.md)
+
+**DPF Framework Reference:** [stress_intensity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_intensity.md)
 
 **Parameters:**
 

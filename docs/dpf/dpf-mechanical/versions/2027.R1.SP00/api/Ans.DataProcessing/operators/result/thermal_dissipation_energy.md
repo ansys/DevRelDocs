@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.thermal_dissipation_energy
 
 # *class* thermal_dissipation_energy(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-thermal_dissipation_energy()
-thermal_dissipation_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-thermal_dissipation_energy(config: OperatorConfig)
+thermal_dissipation_energy()
+
+thermal_dissipation_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+thermal_dissipation_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_dissipation_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_dissipation_energy.md)
+
+**DPF Framework Reference:** [thermal_dissipation_energy operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_dissipation_energy.md)
 
 **Parameters:**
 

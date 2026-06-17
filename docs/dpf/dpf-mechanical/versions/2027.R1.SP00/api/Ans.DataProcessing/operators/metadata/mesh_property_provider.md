@@ -10,7 +10,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `streams_container` (Stre
 
 available outputs: `property` (Scoping ,PropertyField ,StringField)
 
-**DPF Framework Reference:** [mesh_property_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/mesh_property_provider.md)
+**DPF Framework Reference:** [mesh_property_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/mesh_property_provider.md)
 
 **Parameters:**
 

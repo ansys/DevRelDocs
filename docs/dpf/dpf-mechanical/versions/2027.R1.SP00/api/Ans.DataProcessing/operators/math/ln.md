@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.ln
 
 # *class* ln(field: object = None, config: OperatorConfig = None)
 
-ln()
-ln(field: object, config: OperatorConfig)
-ln(config: OperatorConfig)
+ln()
+
+ln(field: object, config: OperatorConfig)
+
+ln(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [ln operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/ln.md)
+
+**DPF Framework Reference:** [ln operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/ln.md)
 
 **Parameters:**
 
@@ -20,7 +23,7 @@ ln(config: OperatorConfig)
 
 ### field
 
-field or fields container with only one field is expected
+Dimensionless field, fields container, or numeric data.
 
 **Type:** *LinkableInput*
 
@@ -28,7 +31,7 @@ field or fields container with only one field is expected
 
 ### field
 
-Field with natural logarithm values applied element-wise
+Dimensionless field with $\ln(\mathrm{in}[i])$ for each data entry.
 
 **Type:** *LinkableOutput*
 

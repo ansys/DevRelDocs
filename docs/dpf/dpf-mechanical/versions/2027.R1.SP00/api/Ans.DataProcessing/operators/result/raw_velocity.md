@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.raw_velocity
 
 # *class* raw_velocity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-raw_velocity()
-raw_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-raw_velocity(config: OperatorConfig)
+raw_velocity()
+
+raw_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+raw_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [raw_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_velocity.md)
+
+**DPF Framework Reference:** [raw_velocity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/raw_velocity.md)
 
 **Parameters:**
 

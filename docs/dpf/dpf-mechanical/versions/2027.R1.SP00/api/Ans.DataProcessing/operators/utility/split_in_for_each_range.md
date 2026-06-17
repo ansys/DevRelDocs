@@ -10,7 +10,7 @@ available inputs: `iterable` (Any) (optional), `operator_to_iterate` (Operator),
 
 available outputs: `output` (Any)
 
-**DPF Framework Reference:** [split_in_for_each_range operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/split_in_for_each_range.md)
+**DPF Framework Reference:** [split_in_for_each_range operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/split_in_for_each_range.md)
 
 **Parameters:**
 

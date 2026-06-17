@@ -12,7 +12,7 @@ available inputs: `time_scoping` (Scoping, IList int, Int32, System.Collections.
 
 available outputs: `meshes` (MeshesContainer)
 
-**DPF Framework Reference:** [meshes_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/meshes_provider.md)
+**DPF Framework Reference:** [meshes_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/meshes_provider.md)
 
 **Parameters:**
 

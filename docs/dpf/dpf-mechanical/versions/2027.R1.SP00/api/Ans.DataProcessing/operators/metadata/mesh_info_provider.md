@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Int32) (optional), `streams_container` (Stream
 
 available outputs: `mesh_info` (GenericDataContainer)
 
-**DPF Framework Reference:** [mesh_info_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/mesh_info_provider.md)
+**DPF Framework Reference:** [mesh_info_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/mesh_info_provider.md)
 
 **Parameters:**
 

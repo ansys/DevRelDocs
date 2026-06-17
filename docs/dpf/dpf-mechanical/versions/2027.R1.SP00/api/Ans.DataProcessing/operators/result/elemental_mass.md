@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.elemental_mass
 
 # *class* elemental_mass(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-elemental_mass()
-elemental_mass(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-elemental_mass(config: OperatorConfig)
+elemental_mass()
+
+elemental_mass(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+elemental_mass(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elemental_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_mass.md)
+
+**DPF Framework Reference:** [elemental_mass operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_mass.md)
 
 **Parameters:**
 

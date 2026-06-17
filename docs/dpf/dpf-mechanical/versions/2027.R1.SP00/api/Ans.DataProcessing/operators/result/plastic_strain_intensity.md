@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.plastic_strain_intensity
 
 # *class* plastic_strain_intensity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-plastic_strain_intensity()
-plastic_strain_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-plastic_strain_intensity(config: OperatorConfig)
+plastic_strain_intensity()
+
+plastic_strain_intensity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+plastic_strain_intensity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [plastic_strain_intensity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_intensity.md)
+
+**DPF Framework Reference:** [plastic_strain_intensity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_intensity.md)
 
 **Parameters:**
 

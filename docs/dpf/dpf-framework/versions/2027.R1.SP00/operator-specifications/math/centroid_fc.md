@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes the centroid of all the matching fields of a fields container at a given time or frequency, using fieldOut = field1*(1.-fact)+field2*(fact).
+
+Computes a [linear interpolation](https://en.wikipedia.org/wiki/Linear_interpolation) between the two fields
+in the input fields container that bracket the requested time or frequency value $t$:
+$\mathrm{out}[i] = (1 - s) \cdot f_1[i] + s \cdot f_2[i]$,
+where $s = (t - t_1) / (t_2 - t_1)$ and $t_1$, $t_2$ are the bracketing time/frequency values.
+If the requested value exactly matches an available one, that field is returned directly.
+
 
 ## Inputs
 
@@ -32,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer with fields for centroid calculation
+Fields container with fields over time or frequency.
 
 <a id="input_1"></a>
 ### time_freq (Pin 1)
@@ -40,7 +46,7 @@ FieldsContainer with fields for centroid calculation
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Time or frequency value for field selection
+Time or frequency value at which to interpolate.
 
 <a id="input_2"></a>
 ### step (Pin 2)
@@ -48,7 +54,7 @@ Time or frequency value for field selection
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Optional step specification
+Optional step specification.
 
 <a id="input_8"></a>
 ### time_freq_support (Pin 8)
@@ -56,7 +62,7 @@ Optional step specification
 - **Required:** No
 - **Expected type(s):** [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
 
-Optional TimeFreqSupport for field resolution
+Optional time/frequency support for field resolution.
 
 
 ## Outputs
@@ -75,7 +81,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer with centroid calculation results at specified time/frequency
+Fields container with the interpolated fields at the requested time or frequency.
 
 
 ## Configurations

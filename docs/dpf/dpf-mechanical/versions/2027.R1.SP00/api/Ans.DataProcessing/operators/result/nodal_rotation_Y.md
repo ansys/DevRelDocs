@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.nodal_rotation_Y
 
 # *class* nodal_rotation_Y(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-nodal_rotation_Y()
-nodal_rotation_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-nodal_rotation_Y(config: OperatorConfig)
+nodal_rotation_Y()
+
+nodal_rotation_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+nodal_rotation_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_rotation_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation_Y.md)
+
+**DPF Framework Reference:** [nodal_rotation_Y operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation_Y.md)
 
 **Parameters:**
 

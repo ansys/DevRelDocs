@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.scale_fc
 
 # *class* scale_fc(fields_container: object = None, weights: object = None, boolean: object = None, algorithm: object = None, config: OperatorConfig = None)
 
-scale_fc()
-scale_fc(fields_container: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
-scale_fc(config: OperatorConfig)
+scale_fc()
+
+scale_fc(fields_container: object, weights: object, boolean: object, algorithm: object, config: OperatorConfig)
+
+scale_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [scale_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale_fc.md)
+
+**DPF Framework Reference:** [scale_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale_fc.md)
 
 **Parameters:**
 

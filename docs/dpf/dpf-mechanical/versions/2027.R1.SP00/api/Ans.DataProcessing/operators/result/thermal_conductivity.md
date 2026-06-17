@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.thermal_conductivity
 
 # *class* thermal_conductivity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-thermal_conductivity()
-thermal_conductivity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-thermal_conductivity(config: OperatorConfig)
+thermal_conductivity()
+
+thermal_conductivity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+thermal_conductivity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_conductivity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_conductivity.md)
+
+**DPF Framework Reference:** [thermal_conductivity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_conductivity.md)
 
 **Parameters:**
 

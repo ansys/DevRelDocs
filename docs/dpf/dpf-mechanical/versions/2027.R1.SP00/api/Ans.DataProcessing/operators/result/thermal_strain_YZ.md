@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.thermal_strain_YZ
 
 # *class* thermal_strain_YZ(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-thermal_strain_YZ()
-thermal_strain_YZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-thermal_strain_YZ(config: OperatorConfig)
+thermal_strain_YZ()
+
+thermal_strain_YZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+thermal_strain_YZ(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_strain_YZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_YZ.md)
+
+**DPF Framework Reference:** [thermal_strain_YZ operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strain_YZ.md)
 
 **Parameters:**
 

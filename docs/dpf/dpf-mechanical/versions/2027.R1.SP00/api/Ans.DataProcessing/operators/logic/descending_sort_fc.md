@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `component_priority_tabl
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [descending_sort_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/descending_sort_fc.md)
+**DPF Framework Reference:** [descending_sort_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/descending_sort_fc.md)
 
 **Parameters:**
 

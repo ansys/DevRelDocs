@@ -10,7 +10,7 @@ available inputs: `stream_type` (Int32), `serialized_string1` (string), `seriali
 
 available outputs: `any_output1` (Any), `any_output2` (Any)
 
-**DPF Framework Reference:** [string_deserializer operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/string_deserializer.md)
+**DPF Framework Reference:** [string_deserializer operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/string_deserializer.md)
 
 **Parameters:**
 

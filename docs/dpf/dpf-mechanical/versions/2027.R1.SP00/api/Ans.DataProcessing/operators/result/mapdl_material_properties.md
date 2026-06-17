@@ -10,7 +10,7 @@ available inputs: `properties_name` (string), `materials` (PropertyField), `stre
 
 available outputs: `properties_value` (FieldsContainer)
 
-**DPF Framework Reference:** [mapdl_material_properties operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_material_properties.md)
+**DPF Framework Reference:** [mapdl_material_properties operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_material_properties.md)
 
 **Parameters:**
 

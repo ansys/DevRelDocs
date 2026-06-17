@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.magnetic_flux_density_X
 
 # *class* magnetic_flux_density_X(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-magnetic_flux_density_X()
-magnetic_flux_density_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-magnetic_flux_density_X(config: OperatorConfig)
+magnetic_flux_density_X()
+
+magnetic_flux_density_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+magnetic_flux_density_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_flux_density_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_flux_density_X.md)
+
+**DPF Framework Reference:** [magnetic_flux_density_X operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_flux_density_X.md)
 
 **Parameters:**
 

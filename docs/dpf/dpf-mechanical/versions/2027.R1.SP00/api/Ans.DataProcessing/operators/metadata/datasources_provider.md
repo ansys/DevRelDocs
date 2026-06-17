@@ -10,7 +10,7 @@ available inputs: `data_sources` (DataSources)
 
 available outputs: `data_sources` (DataSources)
 
-**DPF Framework Reference:** [datasources_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/datasources_provider.md)
+**DPF Framework Reference:** [datasources_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/datasources_provider.md)
 
 **Parameters:**
 

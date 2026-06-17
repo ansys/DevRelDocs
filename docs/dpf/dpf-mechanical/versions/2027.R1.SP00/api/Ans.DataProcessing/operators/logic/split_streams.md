@@ -10,7 +10,7 @@ available inputs: `streams` (StreamsContainer), `output_count` (Int32)
 
 available outputs: `output_count` (Int32), `outputs1` (StreamsContainer), `outputs2` (StreamsContainer)
 
-**DPF Framework Reference:** [split_streams operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/split_streams.md)
+**DPF Framework Reference:** [split_streams operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/split_streams.md)
 
 **Parameters:**
 

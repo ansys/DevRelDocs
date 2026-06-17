@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion, Me
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [erp_radiation_efficiency operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/erp_radiation_efficiency.md)
+**DPF Framework Reference:** [erp_radiation_efficiency operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/erp_radiation_efficiency.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `nodes_to_keep` (Scoping, ScopingsContainer), `mesh` (MeshedRe
 
 available outputs: `meshed_region` (MeshedRegion)
 
-**DPF Framework Reference:** [points_from_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/points_from_coordinates.md)
+**DPF Framework Reference:** [points_from_coordinates operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/points_from_coordinates.md)
 
 **Parameters:**
 

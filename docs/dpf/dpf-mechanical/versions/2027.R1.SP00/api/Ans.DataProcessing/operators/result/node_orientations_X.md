@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.node_orientations_X
 
 # *class* node_orientations_X(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-node_orientations_X()
-node_orientations_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-node_orientations_X(config: OperatorConfig)
+node_orientations_X()
+
+node_orientations_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+node_orientations_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [node_orientations_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations_X.md)
+
+**DPF Framework Reference:** [node_orientations_X operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/node_orientations_X.md)
 
 **Parameters:**
 

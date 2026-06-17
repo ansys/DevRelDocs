@@ -10,7 +10,7 @@ available inputs: `meshes_containerA` (MeshesContainer), `meshes_containerB` (Me
 
 available outputs: `boolean` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_mc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_mc.md)
+**DPF Framework Reference:** [identical_mc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_mc.md)
 
 **Parameters:**
 
@@ -46,6 +46,8 @@ Double positive small value. Smallest value which will be considered during the 
 **Type:** *LinkableInput*
 
 ### tolerance
+
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical (v1-v2)/v2 < relativeTol (default is 0.001).
 
 **Type:** *LinkableInput*
 

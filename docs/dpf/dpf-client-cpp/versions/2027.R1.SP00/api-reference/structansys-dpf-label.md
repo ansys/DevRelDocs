@@ -71,7 +71,7 @@ ansys::dpf::Label::Label(Label const &)=default
 
 **Parameters**:
 
-* Label const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label) const &
 
 **Return type**: 
 
@@ -101,7 +101,7 @@ bool ansys::dpf::Label::operator==(Label const &) const
 
 **Parameters**:
 
-* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label) const &
 
 **Return type**: bool
 
@@ -131,7 +131,7 @@ bool ansys::dpf::Label::operator<(Label const &) const
 
 **Parameters**:
 
-* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label) const &
 
 **Return type**: bool
 
@@ -161,7 +161,7 @@ bool ansys::dpf::Label::operator<=(Label const &) const
 
 **Parameters**:
 
-* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label) const &
 
 **Return type**: bool
 
@@ -191,7 +191,7 @@ bool ansys::dpf::Label::operator!=(Label const &) const
 
 **Parameters**:
 
-* [Label](structansys-dpf-label.md#structansys-dpf-label-1aa16652a3ceeda62dce2af07722a0ec80) const &
+* [Label](structansys-dpf-label.md#structansys-dpf-label) const &
 
 **Return type**: bool
 

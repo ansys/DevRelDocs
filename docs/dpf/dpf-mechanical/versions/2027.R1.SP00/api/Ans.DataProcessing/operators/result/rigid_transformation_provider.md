@@ -10,7 +10,7 @@ available inputs: `streams` (Stream) (optional), `data_sources` (DataSources)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [rigid_transformation_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rigid_transformation_provider.md)
+**DPF Framework Reference:** [rigid_transformation_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/rigid_transformation_provider.md)
 
 **Parameters:**
 

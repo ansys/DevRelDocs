@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.result_provider
 
 # *class* result_provider(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, result_name: object = None, result_scripting_name: object = None, config: OperatorConfig = None)
 
-result_provider()
-result_provider(time_scoping: object, mesh_scoping: object, data_sources: object, result_name: object, result_scripting_name: object, config: OperatorConfig)
-result_provider(config: OperatorConfig)
+result_provider()
+
+result_provider(time_scoping: object, mesh_scoping: object, data_sources: object, result_name: object, result_scripting_name: object, config: OperatorConfig)
+
+result_provider(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [result_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/result_provider.md)
+
+**DPF Framework Reference:** [result_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/result_provider.md)
 
 **Parameters:**
 

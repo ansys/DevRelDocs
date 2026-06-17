@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.co_energy
 
 # *class* co_energy(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-co_energy()
-co_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-co_energy(config: OperatorConfig)
+co_energy()
+
+co_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+co_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [co_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/co_energy.md)
+
+**DPF Framework Reference:** [co_energy operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/co_energy.md)
 
 **Parameters:**
 

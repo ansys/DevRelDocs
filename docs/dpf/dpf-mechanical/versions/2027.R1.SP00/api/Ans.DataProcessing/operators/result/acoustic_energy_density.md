@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.acoustic_energy_density
 
 # *class* acoustic_energy_density(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-acoustic_energy_density()
-acoustic_energy_density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acoustic_energy_density(config: OperatorConfig)
+acoustic_energy_density()
+
+acoustic_energy_density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acoustic_energy_density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acoustic_energy_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_energy_density.md)
+
+**DPF Framework Reference:** [acoustic_energy_density operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_energy_density.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `anyA` (Any), `anyB` (Any), `double_value` (double), `double_t
 
 available outputs: `included` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_anys operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_anys.md)
+**DPF Framework Reference:** [identical_anys operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_anys.md)
 
 **Parameters:**
 
@@ -46,6 +46,8 @@ Double positive small value. Smallest value considered during the comparison ste
 **Type:** *LinkableInput*
 
 ### double_tolerance
+
+Double relative tolerance. Maximum tolerance gap between two compared values. Values within relative tolerance are considered identical. Formula is (v1-v2)/v2 < relativeTol. Default is 0.001.
 
 **Type:** *LinkableInput*
 

@@ -10,7 +10,7 @@ available inputs: `scopings_container` (ScopingsContainer), `label_space` (Label
 
 available outputs: `scopings_container` (ScopingsContainer)
 
-**DPF Framework Reference:** [extract_sub_sc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_sub_sc.md)
+**DPF Framework Reference:** [extract_sub_sc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/extract_sub_sc.md)
 
 **Parameters:**
 

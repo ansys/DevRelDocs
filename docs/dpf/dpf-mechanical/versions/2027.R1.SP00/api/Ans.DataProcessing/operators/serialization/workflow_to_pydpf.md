@@ -12,7 +12,7 @@ available inputs: `workflow` (Workflow), `output_path` (string) (optional)
 
 available outputs: `pydpf_code` (string)
 
-**DPF Framework Reference:** [workflow_to_pydpf operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_pydpf.md)
+**DPF Framework Reference:** [workflow_to_pydpf operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_pydpf.md)
 
 **Parameters:**
 

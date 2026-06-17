@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.tangential_contact_force
 
 # *class* tangential_contact_force(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-tangential_contact_force()
-tangential_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-tangential_contact_force(config: OperatorConfig)
+tangential_contact_force()
+
+tangential_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+tangential_contact_force(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [tangential_contact_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/tangential_contact_force.md)
+
+**DPF Framework Reference:** [tangential_contact_force operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/tangential_contact_force.md)
 
 **Parameters:**
 

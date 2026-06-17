@@ -10,7 +10,7 @@ available inputs: `sum_merge` (bool) (optional), `merged_support` (AbstractField
 
 available outputs: `merged_field` (Field)
 
-**DPF Framework Reference:** [merge_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_fields.md)
+**DPF Framework Reference:** [merge_fields operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_fields.md)
 
 **Parameters:**
 

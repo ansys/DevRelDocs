@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.scoping.rescope
 
 # *class* rescope(fields: object = None, mesh_scoping: object = None, default_value: object = None, config: OperatorConfig = None)
 
-rescope()
-rescope(fields: object, mesh_scoping: object, default_value: object, config: OperatorConfig)
-rescope(config: OperatorConfig)
+rescope()
+
+rescope(fields: object, mesh_scoping: object, default_value: object, config: OperatorConfig)
+
+rescope(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [rescope operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope.md)
+
+**DPF Framework Reference:** [rescope operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope.md)
 
 **Parameters:**
 

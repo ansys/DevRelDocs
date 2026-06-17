@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.compute_total_strain_XZ
 
 # *class* compute_total_strain_XZ(time_scoping: object = None, scoping: object = None, streams_container: object = None, data_sources: object = None, extrapolate: object = None, nonlinear: object = None, meshed_region: object = None, requested_location: object = None, displacement: object = None, config: OperatorConfig = None)
 
-compute_total_strain_XZ()
-compute_total_strain_XZ(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
-compute_total_strain_XZ(config: OperatorConfig)
+compute_total_strain_XZ()
+
+compute_total_strain_XZ(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
+
+compute_total_strain_XZ(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_total_strain_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_total_strain_XZ.md)
+
+**DPF Framework Reference:** [compute_total_strain_XZ operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_total_strain_XZ.md)
 
 **Parameters:**
 

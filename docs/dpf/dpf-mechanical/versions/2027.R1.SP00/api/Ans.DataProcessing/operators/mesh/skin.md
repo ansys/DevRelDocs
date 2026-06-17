@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping) (optional), `d
 
 available outputs: `mesh` (MeshedRegion), `nodes_mesh_scoping` (Scoping), `map_new_elements_to_old` (), `property_field_new_elements_to_old` (PropertyField), `facet_indices` (PropertyField)
 
-**DPF Framework Reference:** [skin operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/skin.md)
+**DPF Framework Reference:** [skin operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/skin.md)
 
 **Parameters:**
 

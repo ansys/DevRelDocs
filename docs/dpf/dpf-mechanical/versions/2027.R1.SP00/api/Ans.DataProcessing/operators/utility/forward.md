@@ -10,7 +10,7 @@ available inputs: `any1` (Any), `any2` (Any)
 
 available outputs: `any1` (Any), `any2` (Any)
 
-**DPF Framework Reference:** [forward operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/forward.md)
+**DPF Framework Reference:** [forward operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/forward.md)
 
 **Parameters:**
 

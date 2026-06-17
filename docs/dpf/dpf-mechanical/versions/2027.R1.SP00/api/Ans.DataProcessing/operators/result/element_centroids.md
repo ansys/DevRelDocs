@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.element_centroids
 
 # *class* element_centroids(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-element_centroids()
-element_centroids(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-element_centroids(config: OperatorConfig)
+element_centroids()
+
+element_centroids(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+element_centroids(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [element_centroids operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/element_centroids.md)
+
+**DPF Framework Reference:** [element_centroids operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/element_centroids.md)
 
 **Parameters:**
 

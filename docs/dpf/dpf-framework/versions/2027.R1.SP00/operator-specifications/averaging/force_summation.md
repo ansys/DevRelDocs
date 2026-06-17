@@ -28,6 +28,9 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>5</strong> | [force_type](#input_5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>6</strong> | [spoint](#input_6) |  |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 | <strong>9</strong> | [scoping_filter](#input_9) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>14</strong> | [read_cyclic](#input_14) |  |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>18</strong> | [sectors_to_expand](#input_18) |  |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>19</strong> | [phi](#input_19) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -98,6 +101,30 @@ Selected set of nodes.
 - 1: Sum all nodal forces for contact nodes only.
 - 2: Sum all nodal forces for all selected nodes, including contact elements.
 
+
+<a id="input_14"></a>
+### read_cyclic (Pin 14)
+
+- **Required:** No
+- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1)
+
+<a id="input_18"></a>
+### sectors_to_expand (Pin 18)
+
+- **Required:** No
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label, use if cyclic expansion is to be done.
+
+<a id="input_19"></a>
+### phi (Pin 19)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
 
 
 ## Outputs
@@ -209,6 +236,9 @@ op.connect(4, my_data_sources);
 op.connect(5, my_force_type);
 op.connect(6, my_spoint);
 op.connect(9, my_scoping_filter);
+op.connect(14, my_read_cyclic);
+op.connect(18, my_sectors_to_expand);
+op.connect(19, my_phi);
 ansys::dpf::FieldsContainer my_force_accumulation = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ansys::dpf::FieldsContainer my_moment_accumulation = op.getOutput<ansys::dpf::FieldsContainer>(1);
 ansys::dpf::FieldsContainer my_heat_accumulation = op.getOutput<ansys::dpf::FieldsContainer>(2);
@@ -233,6 +263,9 @@ op.inputs.data_sources.connect(my_data_sources)
 op.inputs.force_type.connect(my_force_type)
 op.inputs.spoint.connect(my_spoint)
 op.inputs.scoping_filter.connect(my_scoping_filter)
+op.inputs.read_cyclic.connect(my_read_cyclic)
+op.inputs.sectors_to_expand.connect(my_sectors_to_expand)
+op.inputs.phi.connect(my_phi)
 my_force_accumulation = op.outputs.force_accumulation()
 my_moment_accumulation = op.outputs.moment_accumulation()
 my_heat_accumulation = op.outputs.heat_accumulation()
@@ -258,6 +291,9 @@ op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.force_type.Connect(my_force_type)
 op.inputs.spoint.Connect(my_spoint)
 op.inputs.scoping_filter.Connect(my_scoping_filter)
+op.inputs.read_cyclic.Connect(my_read_cyclic)
+op.inputs.sectors_to_expand.Connect(my_sectors_to_expand)
+op.inputs.phi.Connect(my_phi)
 my_force_accumulation = op.outputs.force_accumulation.GetData()
 my_moment_accumulation = op.outputs.moment_accumulation.GetData()
 my_heat_accumulation = op.outputs.heat_accumulation.GetData()

@@ -56,6 +56,7 @@
 * [ansys::dpf::reflect\< float \>](structansys-dpf-reflect-float.md#structansys-dpf-reflect-float-4)
 * [ansys::dpf::reflect\< unsigned int \>](structansys-dpf-reflect-unsigned-int.md#structansys-dpf-reflect-unsigned-int-4)
 * [ansys::dpf::reflect\< short \>](structansys-dpf-reflect-short.md#structansys-dpf-reflect-short-4)
+* [ansys::dpf::reflect\< unsigned short \>](structansys-dpf-reflect-unsigned-short.md#structansys-dpf-reflect-unsigned-short-4)
 * [ansys::dpf::reflect\< int8_t \>](structansys-dpf-reflect-int8-t.md#structansys-dpf-reflect-int8-t-4)
 
 ## Namespaces
@@ -116,6 +117,19 @@ click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 ## Included by
 
 * [dpf/include/dpf_api.h](dpf-api-h.md#dpf-api-h)
+
+## Macros
+
+<a id="dpf-api-base-h-1a646095d21333ab334d7f60c63f23f974"></a>
+### Macro DPF_HAVE_STD_SPAN
+
+![][public]
+
+```cpp
+#define DPF_HAVE_STD_SPAN (__cplusplus >= 202002L)
+```
+
+When set to 1, DPF_HAVE_STD_SPAN will add additional functions returning std::span in addition to raw pointer APIs By default this is enabled with C++20 and later, and disabled in previous versions.
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [const]: https://img.shields.io/badge/-const-lightblue (const)
