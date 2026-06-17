@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Sums all the elementary data of a field to produce one elementary data point.
+
+Reduces a field to a single entity by summing all entity data component-wise.
+Without weights: $\mathrm{out}[c] = \sum_k \mathrm{field}[k, c]$ for each component $c$.
+With an optional weights field (pin 1): $\mathrm{out}[c] = \sum_k w_k \cdot \mathrm{field}[k, c]$,
+where $w_k$ is the weight for entity $k$.
+The weights field must be a scalar (1D) field providing one weight per entity.
+
 
 ## Inputs
 
@@ -47,7 +53,7 @@ Field containing weights, one weight per entity
 - **Required:** No
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-time_scoping
+Optional scoping that sets the output entity's location and ID.
 
 
 ## Outputs
@@ -66,7 +72,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Field containing the (weighted) sum for each component in an elementary data
+Field with one entity containing the (weighted) component sums $\sum_k w_k \cdot \mathrm{field}[k, c]$ for each component $c$.
 
 
 ## Configurations

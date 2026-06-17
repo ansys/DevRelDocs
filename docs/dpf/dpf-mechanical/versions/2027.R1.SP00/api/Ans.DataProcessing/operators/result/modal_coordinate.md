@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.modal_coordinate
 
 # *class* modal_coordinate(time_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-modal_coordinate()
-modal_coordinate(time_scoping: object, data_sources: object, config: OperatorConfig)
-modal_coordinate(config: OperatorConfig)
+modal_coordinate()
+
+modal_coordinate(time_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_coordinate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_coordinate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_coordinate.md)
+
+**DPF Framework Reference:** [modal_coordinate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_coordinate.md)
 
 **Parameters:**
 

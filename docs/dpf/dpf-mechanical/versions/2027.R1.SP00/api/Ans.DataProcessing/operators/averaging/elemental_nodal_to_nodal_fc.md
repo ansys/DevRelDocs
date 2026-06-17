@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion, Me
 
 available outputs: `fields_container` (FieldsContainer), `weights` ()
 
-**DPF Framework Reference:** [elemental_nodal_to_nodal_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
+**DPF Framework Reference:** [elemental_nodal_to_nodal_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
 
 **Parameters:**
 

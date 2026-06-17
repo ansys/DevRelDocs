@@ -407,7 +407,7 @@ ansys::dpf::Operator::Operator(Operator &&) noexcept
 
 **Parameters**:
 
-* Operator &&
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) &&
 
 **Return type**: 
 
@@ -436,7 +436,7 @@ ansys::dpf::Operator::Operator(Operator const &)
 
 **Parameters**:
 
-* Operator const &
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const &
 
 **Return type**: 
 
@@ -465,9 +465,9 @@ Operator & ansys::dpf::Operator::operator=(Operator const &)
 
 **Parameters**:
 
-* Operator const &
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const &
 
-**Return type**: Operator &
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator) &
 
 <!--
 **TODO**:
@@ -494,9 +494,9 @@ Operator & ansys::dpf::Operator::operator=(Operator &&) noexcept
 
 **Parameters**:
 
-* Operator &&
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) &&
 
-**Return type**: Operator &
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator) &
 
 <!--
 **TODO**:
@@ -596,7 +596,7 @@ Generate derivative of current operator and its ancestors.
 
 
 
-**Return type**: Operator
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 <!--
 **TODO**:
@@ -731,7 +731,7 @@ Connect operators output_pin to input_pin.
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
-* Operator const & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to connect to input pin.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to connect to input pin.
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] ouput pin of operator to connect to input_pin.
 
 **Return type**: void
@@ -764,7 +764,7 @@ Connection operator output pin 0 to input pin 0.
 
 **Parameters**:
 
-* Operator const & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) whose output pin 0 is connection to input pin 0.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) whose output pin 0 is connection to input pin 0.
 
 **Return type**: void
 
@@ -1853,7 +1853,7 @@ Connect [Any](classansys-dpf-any.md#classansys-dpf-any) data to input_pin.
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
-* Any const & **data**: [in] [Any](classansys-dpf-any.md#classansys-dpf-any) data to connect to pin.
+* [Any](classansys-dpf-any.md#classansys-dpf-any) const & **data**: [in] [Any](classansys-dpf-any.md#classansys-dpf-any) data to connect to pin.
 
 **Return type**: void
 
@@ -1983,7 +1983,7 @@ Connect an [Operator](classansys-dpf-operator.md#classansys-dpf-operator) instan
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
-* Operator const & **data**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) data to connect to pin.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **data**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) data to connect to pin.
 
 **Return type**: void
 
@@ -2047,7 +2047,7 @@ Connect operators output_pin to input_pin.
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
-* Operator const & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to connect to input pin.
+* [Operator](classansys-dpf-operator.md#classansys-dpf-operator) const & **op**: [in] [Operator](classansys-dpf-operator.md#classansys-dpf-operator) to connect to input pin.
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **output_pin**: [in] ouput pin of operator to connect to input_pin.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
@@ -2885,7 +2885,7 @@ Connect [Any](classansys-dpf-any.md#classansys-dpf-any) data to input_pin.
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
-* Any const & **data**: [in] [Any](classansys-dpf-any.md#classansys-dpf-any) data to connect to pin.
+* [Any](classansys-dpf-any.md#classansys-dpf-any) const & **data**: [in] [Any](classansys-dpf-any.md#classansys-dpf-any) data to connect to pin.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -3517,7 +3517,7 @@ Operator ansys::dpf::Operator::getOutputOperator(dp_index pin_index)
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 
-**Return type**: Operator
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 <!--
 **TODO**:
@@ -3733,7 +3733,7 @@ MeshInfo ansys::dpf::Operator::getOutputMeshInfo(dp_index pin_index)
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 
-**Return type**: MeshInfo
+**Return type**: [MeshInfo](classansys-dpf-meshinfo.md#classansys-dpf-meshinfo)
 
 <!--
 **TODO**:
@@ -4017,7 +4017,7 @@ Integers vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -4048,7 +4048,7 @@ Doubles vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 
-**Return type**: DpfVector< double >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double >
 
 <!--
 **TODO**:
@@ -4079,7 +4079,7 @@ Any ansys::dpf::Operator::getOutputAsAny(dp_index pin_index)
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 
-**Return type**: Any
+**Return type**: [Any](classansys-dpf-any.md#classansys-dpf-any)
 
 <!--
 **TODO**:
@@ -4756,7 +4756,7 @@ MeshInfo ansys::dpf::Operator::getOutputMeshInfo(dp_index pin_index, DpfError &e
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: MeshInfo
+**Return type**: [MeshInfo](classansys-dpf-meshinfo.md#classansys-dpf-meshinfo)
 
 <!--
 **TODO**:
@@ -4980,7 +4980,7 @@ Integers vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: DpfVector< int >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< int >
 
 <!--
 **TODO**:
@@ -5012,7 +5012,7 @@ Doubles vector result as [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
-**Return type**: DpfVector< double >
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double >
 
 <!--
 **TODO**:
@@ -5159,7 +5159,7 @@ Empty [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 
 
-**Return type**: Operator
+**Return type**: [Operator](classansys-dpf-operator.md#classansys-dpf-operator)
 
 <!--
 **TODO**:

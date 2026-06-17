@@ -11,11 +11,12 @@
 
 ## Members
 
+* [cachePriority](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1a67520fc69913abb475f04d03d98a1be7)
 * [get](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1a89cfcb8795b8cfbf1050a20c3af16c81)
 * [getOperatorIds](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1a79fdd5d6be1d5b5409b01dbf77a18b00)
 * [size](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1a78ba80973788621ef27f4e00787870be)
 * [WorkflowStep](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1acfde4ebb904fc8b665294dd3cc1c95e4)
-* [WorkflowStep](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1ac894460c996de745e94c8ce11fd2274f)
+* [WorkflowStep](classansys-dpf-workflowstep.md#classansys-dpf-workflowstep-1a6926c176f689a2052f5e194613b7fbf6)
 
 ## Public functions
 
@@ -44,14 +45,14 @@ ansys::dpf::WorkflowStep::WorkflowStep()=default
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::WorkflowStep::WorkflowStep"}]}`
 -->
 
-<a id="classansys-dpf-workflowstep-1ac894460c996de745e94c8ce11fd2274f"></a>
+<a id="classansys-dpf-workflowstep-1a6926c176f689a2052f5e194613b7fbf6"></a>
 ### Function WorkflowStep
 
 ![][public]
 
 
 ```cpp
-ansys::dpf::WorkflowStep::WorkflowStep(const std::vector< int > &ids)
+ansys::dpf::WorkflowStep::WorkflowStep(const std::vector< int > &ids, int cachePriority=0)
 ```
 
 
@@ -64,6 +65,7 @@ ansys::dpf::WorkflowStep::WorkflowStep(const std::vector< int > &ids)
 **Parameters**:
 
 * const std::vector< int > & **ids**
+* int **cachePriority** = 0 
 
 **Return type**: 
 
@@ -123,6 +125,32 @@ std::vector< int > ansys::dpf::WorkflowStep::getOperatorIds() const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::WorkflowStep::getOperatorIds"}]}`
+-->
+
+<a id="classansys-dpf-workflowstep-1a67520fc69913abb475f04d03d98a1be7"></a>
+### Function cachePriority
+
+![][public]
+![][const]
+
+
+```cpp
+int ansys::dpf::WorkflowStep::cachePriority() const
+```
+
+
+
+
+
+
+
+
+**Return type**: int
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::WorkflowStep::cachePriority"}]}`
 -->
 
 <a id="classansys-dpf-workflowstep-1a89cfcb8795b8cfbf1050a20c3af16c81"></a>

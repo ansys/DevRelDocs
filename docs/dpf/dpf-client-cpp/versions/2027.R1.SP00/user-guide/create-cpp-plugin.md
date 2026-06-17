@@ -109,6 +109,8 @@ The **CustomMessage** structure contains all the implementation related to the c
 - a **specification** method which defines and describes the operator inputs, outputs and data computation
 - a **run** method which contains the data computation code
 
+For recommendations and examples to add runtime logs in plugin operators, see [Logging in DPF operators and plugins](logging-in-dpf.md).
+
 In the **DPF_Custom_Operators folder**, create a **MyCustomOperator.cpp** file with the following content:
 
 ```cpp
@@ -127,12 +129,20 @@ namespace custom_operators
 
 	void CustomMessage::run(ansys::dpf::OperatorMain& main)
 	{
+    namespace dpflog = ansys::dpf::core::logging;
+    auto logger = dpflog::getLogger("dpf.plugin.custom_operators");
+    if (!logger.valid()) {
+      logger = dpflog::registerLogger("dpf.plugin.custom_operators");
+    }
+
 		// get the input data
 		std::string to_display = main.getInputString(0);
 
 		// computes the data
+    logger.info("custom_message operator started");
 		std::cout << "Hello world! This message is displayed from a DPF operator." << std::endl;
 		std::cout << to_display.c_str() << std::endl;
+    logger.info("custom_message operator completed");
 
 		// Set the final state of the operator
 		main.setSuccessed();

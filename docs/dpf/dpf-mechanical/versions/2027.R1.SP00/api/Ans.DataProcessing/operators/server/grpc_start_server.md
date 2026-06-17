@@ -10,7 +10,7 @@ available inputs: `ip` (string) (optional), `port` (string, Int32) (optional), `
 
 available outputs: `grpc_streams` (StreamsContainer)
 
-**DPF Framework Reference:** [grpc_start_server operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/server/grpc_start_server.md)
+**DPF Framework Reference:** [grpc_start_server operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/server/grpc_start_server.md)
 
 **Parameters:**
 

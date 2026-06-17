@@ -10,7 +10,7 @@ available inputs: `element_scoping` (Scoping) (optional), `mesh` (MeshedRegion)
 
 available outputs: `centroids` (Field), `measure` (Field)
 
-**DPF Framework Reference:** [compute_element_centroids operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/compute_element_centroids.md)
+**DPF Framework Reference:** [compute_element_centroids operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/compute_element_centroids.md)
 
 **Parameters:**
 

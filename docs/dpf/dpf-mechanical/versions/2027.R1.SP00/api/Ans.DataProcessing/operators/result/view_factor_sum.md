@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.view_factor_sum
 
 # *class* view_factor_sum(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-view_factor_sum()
-view_factor_sum(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-view_factor_sum(config: OperatorConfig)
+view_factor_sum()
+
+view_factor_sum(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+view_factor_sum(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [view_factor_sum operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/view_factor_sum.md)
+
+**DPF Framework Reference:** [view_factor_sum operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/view_factor_sum.md)
 
 **Parameters:**
 

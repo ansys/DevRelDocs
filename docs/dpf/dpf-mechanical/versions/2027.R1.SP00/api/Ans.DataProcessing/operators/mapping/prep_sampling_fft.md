@@ -10,7 +10,7 @@ available inputs: `time_freq_support` (TimeFreqSupport), `cutoff_frequency` (dou
 
 available outputs: `time_tfs_sampled` (TimeFreqSupport), `freq_tfs_fft` (TimeFreqSupport)
 
-**DPF Framework Reference:** [prep_sampling_fft operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prep_sampling_fft.md)
+**DPF Framework Reference:** [prep_sampling_fft operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prep_sampling_fft.md)
 
 **Parameters:**
 

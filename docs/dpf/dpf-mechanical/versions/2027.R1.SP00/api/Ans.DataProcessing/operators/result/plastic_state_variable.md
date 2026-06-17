@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.plastic_state_variable
 
 # *class* plastic_state_variable(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-plastic_state_variable()
-plastic_state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_state_variable(config: OperatorConfig)
+plastic_state_variable()
+
+plastic_state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_state_variable(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [plastic_state_variable operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_state_variable.md)
+
+**DPF Framework Reference:** [plastic_state_variable operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_state_variable.md)
 
 **Parameters:**
 

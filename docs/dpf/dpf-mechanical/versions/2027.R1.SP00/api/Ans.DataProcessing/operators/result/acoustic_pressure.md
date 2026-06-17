@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.acoustic_pressure
 
 # *class* acoustic_pressure(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-acoustic_pressure()
-acoustic_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acoustic_pressure(config: OperatorConfig)
+acoustic_pressure()
+
+acoustic_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acoustic_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acoustic_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_pressure.md)
+
+**DPF Framework Reference:** [acoustic_pressure operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acoustic_pressure.md)
 
 **Parameters:**
 

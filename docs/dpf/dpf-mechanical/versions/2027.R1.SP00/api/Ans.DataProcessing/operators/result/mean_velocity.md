@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.mean_velocity
 
 # *class* mean_velocity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-mean_velocity()
-mean_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mean_velocity(config: OperatorConfig)
+mean_velocity()
+
+mean_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mean_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mean_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mean_velocity.md)
+
+**DPF Framework Reference:** [mean_velocity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mean_velocity.md)
 
 **Parameters:**
 

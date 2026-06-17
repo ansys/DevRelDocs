@@ -36,7 +36,7 @@ available inputs: `coordinates` (Field, FieldsContainer, MeshedRegion, MeshesCon
 
 available outputs: `reduced_coordinates` (FieldsContainer), `element_ids` (ScopingsContainer)
 
-**DPF Framework Reference:** [find_reduced_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/find_reduced_coordinates.md)
+**DPF Framework Reference:** [find_reduced_coordinates operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/find_reduced_coordinates.md)
 
 **Parameters:**
 

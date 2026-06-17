@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.beam_axial_force
 
 # *class* beam_axial_force(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, unit_system: object = None, config: OperatorConfig = None)
 
-beam_axial_force()
-beam_axial_force(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
-beam_axial_force(config: OperatorConfig)
+beam_axial_force()
+
+beam_axial_force(time_scoping: object, mesh_scoping: object, data_sources: object, unit_system: object, config: OperatorConfig)
+
+beam_axial_force(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_axial_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_force.md)
+
+**DPF Framework Reference:** [beam_axial_force operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_force.md)
 
 **Parameters:**
 

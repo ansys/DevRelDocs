@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (op
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [elemental_difference operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_difference.md)
+**DPF Framework Reference:** [elemental_difference operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_difference.md)
 
 **Parameters:**
 

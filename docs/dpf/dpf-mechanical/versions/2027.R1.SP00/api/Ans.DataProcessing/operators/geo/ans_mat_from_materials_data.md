@@ -10,7 +10,7 @@ available inputs: `material_data1` (GenericDataContainer), `material_data2` (Gen
 
 available outputs: `materials_container` (MaterialsContainer)
 
-**DPF Framework Reference:** [ans_mat_from_materials_data operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_from_materials_data.md)
+**DPF Framework Reference:** [ans_mat_from_materials_data operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_from_materials_data.md)
 
 **Parameters:**
 

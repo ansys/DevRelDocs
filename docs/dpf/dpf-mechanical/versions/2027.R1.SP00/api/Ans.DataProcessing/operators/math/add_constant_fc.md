@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.add_constant_fc
 
 # *class* add_constant_fc(fields_container: object = None, weights: object = None, config: OperatorConfig = None)
 
-add_constant_fc()
-add_constant_fc(fields_container: object, weights: object, config: OperatorConfig)
-add_constant_fc(config: OperatorConfig)
+add_constant_fc()
+
+add_constant_fc(fields_container: object, weights: object, config: OperatorConfig)
+
+add_constant_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [add_constant_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add_constant_fc.md)
+
+**DPF Framework Reference:** [add_constant_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add_constant_fc.md)
 
 **Parameters:**
 

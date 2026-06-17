@@ -145,7 +145,7 @@ ansys::dpf::Collection< DataT >::Collection(Collection< DataT > const &)
 
 **Parameters**:
 
-* rhsCollection< DataT > const &
+* rhs[Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT > const &
 
 **Return type**: 
 
@@ -174,7 +174,7 @@ ansys::dpf::Collection< DataT >::Collection(Collection< DataT > &&) noexcept
 
 **Parameters**:
 
-* rhsCollection< DataT > &&
+* rhs[Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT > &&
 
 **Return type**: 
 
@@ -285,7 +285,7 @@ ansys::dpf::Collection< DataT >::Collection(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [Collection](classansys-dpf-collection.md#classansys-dpf-collection) on a server.
+Retrieve an existing instance of [Collection](classansys-dpf-collection.md#classansys-dpf-collection) on a server. <br/>
 
 
 
@@ -321,9 +321,9 @@ Collection< DataT > & ansys::dpf::Collection< DataT >::operator=(Collection< Dat
 
 **Parameters**:
 
-* rhsCollection< DataT > const &
+* rhs[Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT > const &
 
-**Return type**: Collection &
+**Return type**: [Collection](classansys-dpf-collection.md#classansys-dpf-collection) &
 
 <!--
 **TODO**:
@@ -350,9 +350,9 @@ Collection< DataT > & ansys::dpf::Collection< DataT >::operator=(Collection< Dat
 
 **Parameters**:
 
-* rhsCollection< DataT > &&
+* rhs[Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT > &&
 
-**Return type**: Collection &
+**Return type**: [Collection](classansys-dpf-collection.md#classansys-dpf-collection) &
 
 <!--
 **TODO**:
@@ -695,7 +695,7 @@ create a [Collection](classansys-dpf-collection.md#classansys-dpf-collection) wi
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**
 
-**Return type**: Collection< DataT >
+**Return type**: [Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT >
 
 <!--
 **TODO**:
@@ -726,7 +726,7 @@ Empty container.
 
 
 
-**Return type**: Collection< DataT >
+**Return type**: [Collection](classansys-dpf-collection.md#classansys-dpf-collection)< DataT >
 
 <!--
 **TODO**:

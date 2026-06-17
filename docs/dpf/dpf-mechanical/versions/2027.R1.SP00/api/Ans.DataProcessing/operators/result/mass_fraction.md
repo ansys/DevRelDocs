@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.mass_fraction
 
 # *class* mass_fraction(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-mass_fraction()
-mass_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mass_fraction(config: OperatorConfig)
+mass_fraction()
+
+mass_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mass_fraction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mass_fraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mass_fraction.md)
+
+**DPF Framework Reference:** [mass_fraction operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mass_fraction.md)
 
 **Parameters:**
 

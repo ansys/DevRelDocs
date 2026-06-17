@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.volume_fraction
 
 # *class* volume_fraction(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-volume_fraction()
-volume_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-volume_fraction(config: OperatorConfig)
+volume_fraction()
+
+volume_fraction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+volume_fraction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [volume_fraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/volume_fraction.md)
+
+**DPF Framework Reference:** [volume_fraction operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/volume_fraction.md)
 
 **Parameters:**
 

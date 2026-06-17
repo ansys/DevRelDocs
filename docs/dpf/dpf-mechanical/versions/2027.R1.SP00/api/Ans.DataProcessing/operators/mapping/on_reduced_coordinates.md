@@ -34,7 +34,7 @@ available inputs: `fields_container` (FieldsContainer), `reduced_coordinates` (F
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [on_reduced_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
+**DPF Framework Reference:** [on_reduced_coordinates operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
 
 **Parameters:**
 

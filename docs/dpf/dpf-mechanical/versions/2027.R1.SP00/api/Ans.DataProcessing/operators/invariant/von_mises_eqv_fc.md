@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `poisson_ratio` (double,
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [von_mises_eqv_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/von_mises_eqv_fc.md)
+**DPF Framework Reference:** [von_mises_eqv_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/invariant/von_mises_eqv_fc.md)
 
 **Parameters:**
 

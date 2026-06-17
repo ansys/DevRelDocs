@@ -10,7 +10,7 @@ available inputs: `data_tree` (DataTree), `path` (string) (optional)
 
 available outputs: `data_sources` (DataSources ,string)
 
-**DPF Framework Reference:** [data_tree_to_txt operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/data_tree_to_txt.md)
+**DPF Framework Reference:** [data_tree_to_txt operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/data_tree_to_txt.md)
 
 **Parameters:**
 

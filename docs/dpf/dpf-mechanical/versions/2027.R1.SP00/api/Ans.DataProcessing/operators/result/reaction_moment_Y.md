@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.reaction_moment_Y
 
 # *class* reaction_moment_Y(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-reaction_moment_Y()
-reaction_moment_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-reaction_moment_Y(config: OperatorConfig)
+reaction_moment_Y()
+
+reaction_moment_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+reaction_moment_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_moment_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment_Y.md)
+
+**DPF Framework Reference:** [reaction_moment_Y operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment_Y.md)
 
 **Parameters:**
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.eqv_stress_parameter
 
 # *class* eqv_stress_parameter(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-eqv_stress_parameter()
-eqv_stress_parameter(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-eqv_stress_parameter(config: OperatorConfig)
+eqv_stress_parameter()
+
+eqv_stress_parameter(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+eqv_stress_parameter(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [eqv_stress_parameter operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/eqv_stress_parameter.md)
+
+**DPF Framework Reference:** [eqv_stress_parameter operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/eqv_stress_parameter.md)
 
 **Parameters:**
 

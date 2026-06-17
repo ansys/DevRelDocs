@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.gasket_thermal_closure_XZ
 
 # *class* gasket_thermal_closure_XZ(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-gasket_thermal_closure_XZ()
-gasket_thermal_closure_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-gasket_thermal_closure_XZ(config: OperatorConfig)
+gasket_thermal_closure_XZ()
+
+gasket_thermal_closure_XZ(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+gasket_thermal_closure_XZ(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_thermal_closure_XZ operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_thermal_closure_XZ.md)
+
+**DPF Framework Reference:** [gasket_thermal_closure_XZ operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_thermal_closure_XZ.md)
 
 **Parameters:**
 

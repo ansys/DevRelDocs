@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [part_internal_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/part_internal_energy.md)
+**DPF Framework Reference:** [part_internal_energy operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/part_internal_energy.md)
 
 **Parameters:**
 

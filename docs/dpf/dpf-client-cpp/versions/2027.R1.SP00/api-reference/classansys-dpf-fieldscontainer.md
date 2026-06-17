@@ -63,6 +63,7 @@ The fields container is designed as a set of fields ordered through labels and i
 * [operator[]](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1aea6b234cdf457204b5fa9c8e62c7b691)
 * [reserve](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a98ab98c9a6b91b886fd600ed7d9e633b)
 * [resize](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1ac88664d3e1d22abb74a95c8223b1e771)
+* [setBaseName](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer-1a916929d489f4bd80dbb4703074871a78)
 * [setId](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a93ebbfe9396dd1c4f447e799db6cbf3b)
 * [setName](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1a44394f964c6130dcbaed446cec3b0197)
 * [setSupport](classansys-dpf-collectionbase.md#classansys-dpf-collectionbase-1ae6f7683496d153ed944856d42b97dc82)
@@ -175,7 +176,7 @@ ansys::dpf::FieldsContainer::FieldsContainer(int id, Client const *const client)
 
 
 
-Retrieve an existing instance of [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) on a server.
+Retrieve an existing instance of [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) on a server. <br/>
 
 
 
@@ -265,7 +266,7 @@ ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer const &)
 
 **Parameters**:
 
-* FieldsContainer const &
+* [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) const &
 
 **Return type**: 
 
@@ -294,7 +295,7 @@ ansys::dpf::FieldsContainer::FieldsContainer(FieldsContainer &&) noexcept
 
 **Parameters**:
 
-* FieldsContainer &&
+* [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) &&
 
 **Return type**: 
 
@@ -323,9 +324,9 @@ FieldsContainer & ansys::dpf::FieldsContainer::operator=(FieldsContainer const &
 
 **Parameters**:
 
-* FieldsContainer const &
+* [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) const &
 
-**Return type**: FieldsContainer &
+**Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) &
 
 <!--
 **TODO**:
@@ -352,9 +353,9 @@ FieldsContainer & ansys::dpf::FieldsContainer::operator=(FieldsContainer &&) noe
 
 **Parameters**:
 
-* FieldsContainer &&
+* [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) &&
 
-**Return type**: FieldsContainer &
+**Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) &
 
 <!--
 **TODO**:
@@ -738,7 +739,7 @@ Created fields container.
 
 * [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) const & **lab_space**: [in] [LabelSpace](classansys-dpf-labelspace.md#classansys-dpf-labelspace) from which to get fields.
 
-**Return type**: FieldsContainer
+**Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
 
 <!--
 **TODO**:
@@ -768,12 +769,41 @@ Create a new [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-
 
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr : [in] [Client](classansys-dpf-client.md#classansys-dpf-client) instance designating the IP, port and protocol to use.
 
-**Return type**: FieldsContainer
+**Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
 
 <!--
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::deep_copy"}]}`
+-->
+
+<a id="classansys-dpf-fieldscontainer-1a916929d489f4bd80dbb4703074871a78"></a>
+### Function setBaseName
+
+![][public]
+
+
+```cpp
+void ansys::dpf::FieldsContainer::setBaseName(const std::string &base_name)
+```
+
+
+
+
+Set the name of [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer) and inside Fields based on the name set as argument.
+
+
+
+**Parameters**:
+
+* const std::string & **base_name**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::FieldsContainer::setBaseName"}]}`
 -->
 
 ## Public static functions
@@ -799,7 +829,7 @@ Empty [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldsc
 
 
 
-**Return type**: FieldsContainer
+**Return type**: [FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
 
 <!--
 **TODO**:

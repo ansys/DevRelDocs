@@ -541,6 +541,10 @@
         href: api/Ans.DataProcessing/operators/math/make_one_on_comp.md
       - name: matrix_inverse
         href: api/Ans.DataProcessing/operators/math/matrix_inverse.md
+      - name: matrix_product
+        href: api/Ans.DataProcessing/operators/math/matrix_product.md
+      - name: matrix_product_fc
+        href: api/Ans.DataProcessing/operators/math/matrix_product_fc.md
       - name: minus
         href: api/Ans.DataProcessing/operators/math/minus.md
       - name: minus_fc
@@ -1150,6 +1154,8 @@
         href: api/Ans.DataProcessing/operators/result/global_system_damping_energy.md
       - name: global_time_step
         href: api/Ans.DataProcessing/operators/result/global_time_step.md
+      - name: global_to_nodal
+        href: api/Ans.DataProcessing/operators/result/global_to_nodal.md
       - name: global_total_energy
         href: api/Ans.DataProcessing/operators/result/global_total_energy.md
       - name: global_total_mass
@@ -1372,10 +1378,14 @@
         href: api/Ans.DataProcessing/operators/result/poynting_vector_surface.md
       - name: prandtl_number
         href: api/Ans.DataProcessing/operators/result/prandtl_number.md
+      - name: pres_to_field
+        href: api/Ans.DataProcessing/operators/result/pres_to_field.md
       - name: pressure
         href: api/Ans.DataProcessing/operators/result/pressure.md
       - name: pretension
         href: api/Ans.DataProcessing/operators/result/pretension.md
+      - name: prns_to_field
+        href: api/Ans.DataProcessing/operators/result/prns_to_field.md
       - name: radiation_area
         href: api/Ans.DataProcessing/operators/result/radiation_area.md
       - name: raw_acceleration
@@ -1432,6 +1442,8 @@
         href: api/Ans.DataProcessing/operators/result/rms_velocity.md
       - name: rom_data_provider
         href: api/Ans.DataProcessing/operators/result/rom_data_provider.md
+      - name: run
+        href: api/Ans.DataProcessing/operators/result/run.md
       - name: smisc
         href: api/Ans.DataProcessing/operators/result/smisc.md
       - name: specific_heat
@@ -1580,17 +1592,6 @@
         href: api/Ans.DataProcessing/operators/result/write_motion_dfmf_file.md
       - name: y_plus
         href: api/Ans.DataProcessing/operators/result/y_plus.md
-    - name: result.mapdl
-      href: api/Ans.DataProcessing/operators/result/mapdl/index.md
-      items:
-      - name: global_to_nodal
-        href: api/Ans.DataProcessing/operators/result/mapdl/global_to_nodal.md
-      - name: pres_to_field
-        href: api/Ans.DataProcessing/operators/result/mapdl/pres_to_field.md
-      - name: prns_to_field
-        href: api/Ans.DataProcessing/operators/result/mapdl/prns_to_field.md
-      - name: run
-        href: api/Ans.DataProcessing/operators/result/mapdl/run.md
     - name: scoping
       href: api/Ans.DataProcessing/operators/scoping/index.md
       items:
@@ -1715,6 +1716,8 @@
         href: api/Ans.DataProcessing/operators/utility/concatenate_fields.md
       - name: concatenate_fields_containers
         href: api/Ans.DataProcessing/operators/utility/concatenate_fields_containers.md
+      - name: csharp_generator
+        href: api/Ans.DataProcessing/operators/utility/csharp_generator.md
       - name: customtypefield_get_attribute
         href: api/Ans.DataProcessing/operators/utility/customtypefield_get_attribute.md
       - name: cyclic_support_get_attribute

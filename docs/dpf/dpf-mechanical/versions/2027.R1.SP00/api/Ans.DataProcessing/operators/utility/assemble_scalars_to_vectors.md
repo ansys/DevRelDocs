@@ -10,7 +10,7 @@ available inputs: `x` (Field) (optional), `y` (Field) (optional), `z` (Field) (o
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [assemble_scalars_to_vectors operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/assemble_scalars_to_vectors.md)
+**DPF Framework Reference:** [assemble_scalars_to_vectors operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/assemble_scalars_to_vectors.md)
 
 **Parameters:**
 

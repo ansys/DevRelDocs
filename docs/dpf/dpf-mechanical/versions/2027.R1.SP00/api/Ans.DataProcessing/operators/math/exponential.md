@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.exponential
 
 # *class* exponential(field: object = None, config: OperatorConfig = None)
 
-exponential()
-exponential(field: object, config: OperatorConfig)
-exponential(config: OperatorConfig)
+exponential()
+
+exponential(field: object, config: OperatorConfig)
+
+exponential(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [exponential operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/exponential.md)
+
+**DPF Framework Reference:** [exponential operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/exponential.md)
 
 **Parameters:**
 
@@ -20,7 +23,7 @@ exponential(config: OperatorConfig)
 
 ### field
 
-Field, fields container, or numeric data for exponential calculation
+Dimensionless field, fields container, or numeric data.
 
 **Type:** *LinkableInput*
 
@@ -28,7 +31,7 @@ Field, fields container, or numeric data for exponential calculation
 
 ### field
 
-Field with exponential values applied element-wise to input data
+Dimensionless field with $e^{\mathrm{in}[i]}$ for each data entry.
 
 **Type:** *LinkableOutput*
 

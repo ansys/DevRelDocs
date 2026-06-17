@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.thermal_strains_eqv
 
 # *class* thermal_strains_eqv(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-thermal_strains_eqv()
-thermal_strains_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-thermal_strains_eqv(config: OperatorConfig)
+thermal_strains_eqv()
+
+thermal_strains_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+thermal_strains_eqv(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [thermal_strains_eqv operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strains_eqv.md)
+
+**DPF Framework Reference:** [thermal_strains_eqv operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/thermal_strains_eqv.md)
 
 **Parameters:**
 

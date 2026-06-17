@@ -10,7 +10,7 @@ available inputs: `solver_real_constants_ids` (Int32, IList int, System.Collecti
 
 available outputs: `real_constants` (Field)
 
-**DPF Framework Reference:** [real_constants_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/real_constants_provider.md)
+**DPF Framework Reference:** [real_constants_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/real_constants_provider.md)
 
 **Parameters:**
 

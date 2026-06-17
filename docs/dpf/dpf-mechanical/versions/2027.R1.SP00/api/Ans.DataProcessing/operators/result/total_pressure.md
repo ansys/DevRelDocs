@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.total_pressure
 
 # *class* total_pressure(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-total_pressure()
-total_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_pressure(config: OperatorConfig)
+total_pressure()
+
+total_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [total_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_pressure.md)
+
+**DPF Framework Reference:** [total_pressure operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_pressure.md)
 
 **Parameters:**
 

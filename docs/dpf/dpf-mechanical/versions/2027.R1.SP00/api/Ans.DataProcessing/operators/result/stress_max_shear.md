@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.stress_max_shear
 
 # *class* stress_max_shear(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-stress_max_shear()
-stress_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-stress_max_shear(config: OperatorConfig)
+stress_max_shear()
+
+stress_max_shear(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+stress_max_shear(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_max_shear operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_max_shear.md)
+
+**DPF Framework Reference:** [stress_max_shear operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_max_shear.md)
 
 **Parameters:**
 

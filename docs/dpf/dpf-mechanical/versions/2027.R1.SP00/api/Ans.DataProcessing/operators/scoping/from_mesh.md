@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `requested_location` (string) (optional
 
 available outputs: `scoping` (Scoping)
 
-**DPF Framework Reference:** [from_mesh operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/from_mesh.md)
+**DPF Framework Reference:** [from_mesh operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/from_mesh.md)
 
 **Parameters:**
 

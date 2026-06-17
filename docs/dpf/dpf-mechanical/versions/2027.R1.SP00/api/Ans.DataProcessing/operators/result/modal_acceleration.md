@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.modal_acceleration
 
 # *class* modal_acceleration(time_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-modal_acceleration()
-modal_acceleration(time_scoping: object, data_sources: object, config: OperatorConfig)
-modal_acceleration(config: OperatorConfig)
+modal_acceleration()
+
+modal_acceleration(time_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_acceleration(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_acceleration operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_acceleration.md)
+
+**DPF Framework Reference:** [modal_acceleration operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_acceleration.md)
 
 **Parameters:**
 

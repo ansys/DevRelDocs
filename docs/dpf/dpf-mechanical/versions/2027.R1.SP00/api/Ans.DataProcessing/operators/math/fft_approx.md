@@ -10,7 +10,7 @@ available inputs: `time_scoping` (IList int, Scoping, System.Collections.IEnumer
 
 available outputs: `fitted_entity_y` (FieldsContainer), `first_der_dy` (FieldsContainer), `second_der_d2y` (FieldsContainer)
 
-**DPF Framework Reference:** [fft_approx operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fft_approx.md)
+**DPF Framework Reference:** [fft_approx operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/fft_approx.md)
 
 **Parameters:**
 

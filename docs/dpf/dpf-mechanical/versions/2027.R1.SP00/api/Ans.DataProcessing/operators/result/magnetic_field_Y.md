@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.magnetic_field_Y
 
 # *class* magnetic_field_Y(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-magnetic_field_Y()
-magnetic_field_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-magnetic_field_Y(config: OperatorConfig)
+magnetic_field_Y()
+
+magnetic_field_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+magnetic_field_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_field_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_field_Y.md)
+
+**DPF Framework Reference:** [magnetic_field_Y operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_field_Y.md)
 
 **Parameters:**
 

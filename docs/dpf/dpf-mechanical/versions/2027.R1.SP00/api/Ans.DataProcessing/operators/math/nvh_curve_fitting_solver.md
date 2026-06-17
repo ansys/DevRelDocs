@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.nvh_curve_fitting_solver
 
 # *class* nvh_curve_fitting_solver(frf_fc: object = None, frequency_start: object = None, frequency_end: object = None, analysis_order: object = None, config: OperatorConfig = None)
 
-nvh_curve_fitting_solver()
-nvh_curve_fitting_solver(frf_fc: object, frequency_start: object, frequency_end: object, analysis_order: object, config: OperatorConfig)
-nvh_curve_fitting_solver(config: OperatorConfig)
+nvh_curve_fitting_solver()
+
+nvh_curve_fitting_solver(frf_fc: object, frequency_start: object, frequency_end: object, analysis_order: object, config: OperatorConfig)
+
+nvh_curve_fitting_solver(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nvh_curve_fitting_solver operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/nvh_curve_fitting_solver.md)
+
+**DPF Framework Reference:** [nvh_curve_fitting_solver operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/nvh_curve_fitting_solver.md)
 
 **Parameters:**
 

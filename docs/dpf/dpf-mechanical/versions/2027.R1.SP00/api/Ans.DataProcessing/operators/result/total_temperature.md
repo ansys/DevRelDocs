@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.total_temperature
 
 # *class* total_temperature(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-total_temperature()
-total_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_temperature(config: OperatorConfig)
+total_temperature()
+
+total_temperature(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_temperature(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [total_temperature operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_temperature.md)
+
+**DPF Framework Reference:** [total_temperature operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_temperature.md)
 
 **Parameters:**
 

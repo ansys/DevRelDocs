@@ -11,9 +11,9 @@
 
 ## Inner classes
 
-* [ansys::dpf::core::logging::LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig)
 * [ansys::dpf::core::logging::internal](structansys-dpf-core-logging-internal.md#structansys-dpf-core-logging-internal)
 * [ansys::dpf::core::logging::Logger](classansys-dpf-core-logging-logger.md#classansys-dpf-core-logging-logger)
+* [ansys::dpf::core::logging::LoggerConfig](classansys-dpf-core-logging-loggerconfig.md#classansys-dpf-core-logging-loggerconfig)
 
 ## Members
 

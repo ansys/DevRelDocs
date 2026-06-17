@@ -71,7 +71,7 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity const &)=default
 
 **Parameters**:
 
-* Homogeneity const &
+* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity) const &
 
 **Return type**: 
 
@@ -100,7 +100,7 @@ ansys::dpf::Homogeneity::Homogeneity(Homogeneity &&)=default
 
 **Parameters**:
 
-* Homogeneity &&
+* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity) &&
 
 **Return type**: 
 
@@ -129,9 +129,9 @@ Homogeneity & ansys::dpf::Homogeneity::operator=(Homogeneity const &)
 
 **Parameters**:
 
-* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a5ddd95a1b4667a297eb19531f722d27e) const &
+* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity) const &
 
-**Return type**: [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a5ddd95a1b4667a297eb19531f722d27e) &
+**Return type**: [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity) &
 
 <!--
 **TODO**:
@@ -159,7 +159,7 @@ bool ansys::dpf::Homogeneity::operator==(Homogeneity const &rhs) const
 
 **Parameters**:
 
-* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a5ddd95a1b4667a297eb19531f722d27e) const & **rhs**
+* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity) const & **rhs**
 
 **Return type**: bool
 
@@ -189,7 +189,7 @@ bool ansys::dpf::Homogeneity::operator!=(Homogeneity const &rhs) const
 
 **Parameters**:
 
-* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity-1a5ddd95a1b4667a297eb19531f722d27e) const & **rhs**
+* [Homogeneity](classansys-dpf-homogeneity.md#classansys-dpf-homogeneity) const & **rhs**
 
 **Return type**: bool
 

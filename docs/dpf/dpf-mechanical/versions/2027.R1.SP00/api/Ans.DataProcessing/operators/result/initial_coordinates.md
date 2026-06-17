@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.initial_coordinates
 
 # *class* initial_coordinates(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-initial_coordinates()
-initial_coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-initial_coordinates(config: OperatorConfig)
+initial_coordinates()
+
+initial_coordinates(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+initial_coordinates(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [initial_coordinates operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/initial_coordinates.md)
+
+**DPF Framework Reference:** [initial_coordinates operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/initial_coordinates.md)
 
 **Parameters:**
 

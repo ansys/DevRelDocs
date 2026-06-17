@@ -10,7 +10,7 @@ available inputs: `h5_chunk_size` (Int32, GenericDataContainer) (optional), `dat
 
 available outputs: `migrated_file` (DataSources)
 
-**DPF Framework Reference:** [migrate_to_h5dpf operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/migrate_to_h5dpf.md)
+**DPF Framework Reference:** [migrate_to_h5dpf operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/migrate_to_h5dpf.md)
 
 **Parameters:**
 

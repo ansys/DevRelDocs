@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.reaction_heat
 
 # *class* reaction_heat(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-reaction_heat()
-reaction_heat(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-reaction_heat(config: OperatorConfig)
+reaction_heat()
+
+reaction_heat(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+reaction_heat(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_heat operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_heat.md)
+
+**DPF Framework Reference:** [reaction_heat operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_heat.md)
 
 **Parameters:**
 

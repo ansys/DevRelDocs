@@ -10,7 +10,7 @@ available inputs: `scoping` (Scoping) (optional), `displacement` (FieldsContaine
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [elements_volumes_over_time operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/elements_volumes_over_time.md)
+**DPF Framework Reference:** [elements_volumes_over_time operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/elements_volumes_over_time.md)
 
 **Parameters:**
 
