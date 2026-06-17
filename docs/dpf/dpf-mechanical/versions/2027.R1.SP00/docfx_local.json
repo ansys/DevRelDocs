@@ -2,10 +2,10 @@
     "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
     "build": {
       "globalMetadata": {
-        "_appName": "DPF Mechanical ||DPF_VERSION_PRINT||",
-        "_appTitle": "DPF Mechanical ||DPF_VERSION_PRINT||",
+        "_appName": "DPF Mechanical 2027 R1 SP00",
+        "_appTitle": "DPF Mechanical 2027 R1 SP00",
         "summary": "",
-        "version": "||DPF_VERSION_PRINT||",
+        "version": "2027 R1 SP00",
         "product": "DPF",
         "programming language": "IronPython",
         "product collection": "Structures",

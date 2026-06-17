@@ -1,9 +1,9 @@
 {
     "build": {
         "globalMetadata": {
-            "title": "DPF Mechanical ||DPF_VERSION_PRINT||",
+            "title": "DPF Mechanical 2027 R1 SP00",
             "summary": "",
-            "version": "||DPF_VERSION_PRINT||",
+            "version": "2027 R1 SP00",
             "product": "DPF",
             "programming language": "IronPython",
             "product collection": "Structures",
