@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.velocity_X
 
 # *class* velocity_X(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-velocity_X()
-velocity_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-velocity_X(config: OperatorConfig)
+velocity_X()
+
+velocity_X(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+velocity_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [velocity_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/velocity_X.md)
+
+**DPF Framework Reference:** [velocity_X operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/velocity_X.md)
 
 **Parameters:**
 

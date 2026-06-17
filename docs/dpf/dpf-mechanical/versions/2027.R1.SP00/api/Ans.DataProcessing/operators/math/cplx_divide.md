@@ -18,7 +18,7 @@ available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (Fi
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [cplx_divide operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_divide.md)
+**DPF Framework Reference:** [cplx_divide operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_divide.md)
 
 **Parameters:**
 

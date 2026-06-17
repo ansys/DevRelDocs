@@ -10,7 +10,7 @@ available inputs: `field` (Field), `domain_id` (Int32) (optional)
 
 available outputs: `field_min` (Field), `field_max` (Field), `domain_ids_min` (Scoping), `domain_ids_max` (Scoping)
 
-**DPF Framework Reference:** [min_max_inc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_inc.md)
+**DPF Framework Reference:** [min_max_inc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_inc.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [invert operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/invert.md)
+**DPF Framework Reference:** [invert operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/invert.md)
 
 **Parameters:**
 

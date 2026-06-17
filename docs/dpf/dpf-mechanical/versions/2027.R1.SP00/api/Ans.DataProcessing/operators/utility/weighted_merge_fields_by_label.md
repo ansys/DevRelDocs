@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `label` (string), `merge
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [weighted_merge_fields_by_label operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/weighted_merge_fields_by_label.md)
+**DPF Framework Reference:** [weighted_merge_fields_by_label operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/weighted_merge_fields_by_label.md)
 
 **Parameters:**
 

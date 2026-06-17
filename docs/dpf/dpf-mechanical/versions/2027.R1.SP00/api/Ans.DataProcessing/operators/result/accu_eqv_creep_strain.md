@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.accu_eqv_creep_strain
 
 # *class* accu_eqv_creep_strain(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-accu_eqv_creep_strain()
-accu_eqv_creep_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-accu_eqv_creep_strain(config: OperatorConfig)
+accu_eqv_creep_strain()
+
+accu_eqv_creep_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+accu_eqv_creep_strain(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [accu_eqv_creep_strain operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/accu_eqv_creep_strain.md)
+
+**DPF Framework Reference:** [accu_eqv_creep_strain operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/accu_eqv_creep_strain.md)
 
 **Parameters:**
 

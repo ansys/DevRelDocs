@@ -18,7 +18,7 @@ available inputs: `fields_container` (FieldsContainer), `weights` (Field) (optio
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [accumulate_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_fc.md)
+**DPF Framework Reference:** [accumulate_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_fc.md)
 
 **Parameters:**
 

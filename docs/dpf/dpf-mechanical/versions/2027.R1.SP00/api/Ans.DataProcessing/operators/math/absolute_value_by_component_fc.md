@@ -14,7 +14,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [absolute_value_by_component_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component_fc.md)
+**DPF Framework Reference:** [absolute_value_by_component_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component_fc.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `meshes` (MeshesContainer, MeshedRegion), `default_label` (str
 
 available outputs: `meshes_container` (MeshesContainer)
 
-**DPF Framework Reference:** [forward_meshes_container operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/forward_meshes_container.md)
+**DPF Framework Reference:** [forward_meshes_container operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/forward_meshes_container.md)
 
 **Parameters:**
 

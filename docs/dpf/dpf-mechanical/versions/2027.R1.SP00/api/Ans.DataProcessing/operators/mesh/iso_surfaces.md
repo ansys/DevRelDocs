@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.mesh.iso_surfaces
 
 # *class* iso_surfaces(field: object = None, num_surfaces: object = None, mesh: object = None, slice_surfaces: object = None, vector_iso_values: object = None, config: OperatorConfig = None)
 
-iso_surfaces()
-iso_surfaces(field: object, num_surfaces: object, mesh: object, slice_surfaces: object, vector_iso_values: object, config: OperatorConfig)
-iso_surfaces(config: OperatorConfig)
+iso_surfaces()
+
+iso_surfaces(field: object, num_surfaces: object, mesh: object, slice_surfaces: object, vector_iso_values: object, config: OperatorConfig)
+
+iso_surfaces(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [iso_surfaces operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/iso_surfaces.md)
+
+**DPF Framework Reference:** [iso_surfaces operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/iso_surfaces.md)
 
 **Parameters:**
 

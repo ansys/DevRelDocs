@@ -12,7 +12,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [img_part operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/img_part.md)
+**DPF Framework Reference:** [img_part operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/img_part.md)
 
 **Parameters:**
 

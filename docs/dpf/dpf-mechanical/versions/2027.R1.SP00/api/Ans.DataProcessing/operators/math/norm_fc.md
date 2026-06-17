@@ -16,7 +16,7 @@ available inputs: `fields_container` (FieldsContainer), `scalar_int` (Int32) (op
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [norm_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/norm_fc.md)
+**DPF Framework Reference:** [norm_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/norm_fc.md)
 
 **Parameters:**
 

@@ -20,7 +20,7 @@ available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsCont
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [kronecker_prod operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/kronecker_prod.md)
+**DPF Framework Reference:** [kronecker_prod operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/kronecker_prod.md)
 
 **Parameters:**
 

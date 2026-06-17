@@ -10,7 +10,7 @@ available inputs: `fields1` (Field, FieldsContainer), `fields2` (Field, FieldsCo
 
 available outputs: `merged_field_matrix` (Field)
 
-**DPF Framework Reference:** [merge_to_field_matrix operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_to_field_matrix.md)
+**DPF Framework Reference:** [merge_to_field_matrix operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_to_field_matrix.md)
 
 **Parameters:**
 

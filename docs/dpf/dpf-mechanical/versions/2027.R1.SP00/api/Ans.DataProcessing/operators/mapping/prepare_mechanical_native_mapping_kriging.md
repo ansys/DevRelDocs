@@ -14,7 +14,7 @@ available inputs: `source_mesh` (MeshedRegion), `target_mesh` (MeshedRegion, Fie
 
 available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `target_mesh` (MeshedRegion), `target_mesh_id` (Int32), `mapping_manager_data` (Any), `target_scoping` (Scoping), `prepare_output` (Any)
 
-**DPF Framework Reference:** [prepare_mechanical_native_mapping_kriging operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md)
+**DPF Framework Reference:** [prepare_mechanical_native_mapping_kriging operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md)
 
 **Parameters:**
 

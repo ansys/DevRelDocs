@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.absolute_value_by_component
 
 # *class* absolute_value_by_component(field: object = None, config: OperatorConfig = None)
 
-absolute_value_by_component()
-absolute_value_by_component(field: object, config: OperatorConfig)
-absolute_value_by_component(config: OperatorConfig)
+absolute_value_by_component()
+
+absolute_value_by_component(field: object, config: OperatorConfig)
+
+absolute_value_by_component(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [absolute_value_by_component operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component.md)
+
+**DPF Framework Reference:** [absolute_value_by_component operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/absolute_value_by_component.md)
 
 **Parameters:**
 

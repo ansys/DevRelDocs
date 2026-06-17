@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.nodal_rotation
 
 # *class* nodal_rotation(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-nodal_rotation()
-nodal_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-nodal_rotation(config: OperatorConfig)
+nodal_rotation()
+
+nodal_rotation(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+nodal_rotation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nodal_rotation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation.md)
+
+**DPF Framework Reference:** [nodal_rotation operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_rotation.md)
 
 **Parameters:**
 

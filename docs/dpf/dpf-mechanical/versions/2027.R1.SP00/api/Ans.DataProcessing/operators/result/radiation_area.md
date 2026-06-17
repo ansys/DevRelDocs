@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.radiation_area
 
 # *class* radiation_area(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-radiation_area()
-radiation_area(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-radiation_area(config: OperatorConfig)
+radiation_area()
+
+radiation_area(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+radiation_area(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [radiation_area operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/radiation_area.md)
+
+**DPF Framework Reference:** [radiation_area operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/radiation_area.md)
 
 **Parameters:**
 

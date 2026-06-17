@@ -18,7 +18,7 @@ available inputs: `field` (Field)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [sin operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sin.md)
+**DPF Framework Reference:** [sin operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sin.md)
 
 **Parameters:**
 

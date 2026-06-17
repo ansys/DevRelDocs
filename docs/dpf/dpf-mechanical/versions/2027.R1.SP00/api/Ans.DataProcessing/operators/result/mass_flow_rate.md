@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.mass_flow_rate
 
 # *class* mass_flow_rate(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-mass_flow_rate()
-mass_flow_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-mass_flow_rate(config: OperatorConfig)
+mass_flow_rate()
+
+mass_flow_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+mass_flow_rate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [mass_flow_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mass_flow_rate.md)
+
+**DPF Framework Reference:** [mass_flow_rate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mass_flow_rate.md)
 
 **Parameters:**
 

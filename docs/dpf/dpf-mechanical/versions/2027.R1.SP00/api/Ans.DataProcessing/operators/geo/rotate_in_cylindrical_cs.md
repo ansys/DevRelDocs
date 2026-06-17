@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `coordinate_system` (Field) 
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [rotate_in_cylindrical_cs operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate_in_cylindrical_cs.md)
+**DPF Framework Reference:** [rotate_in_cylindrical_cs operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/rotate_in_cylindrical_cs.md)
 
 **Parameters:**
 

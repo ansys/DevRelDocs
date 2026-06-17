@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [global_energy_ratio operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/global_energy_ratio.md)
+**DPF Framework Reference:** [global_energy_ratio operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/global_energy_ratio.md)
 
 **Parameters:**
 

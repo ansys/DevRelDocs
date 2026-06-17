@@ -10,7 +10,7 @@ available inputs: `field` (Field), `iso_value` (double), `closed_surface` (Int32
 
 available outputs: `field` (Field), `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [mesh_clip operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_clip.md)
+**DPF Framework Reference:** [mesh_clip operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_clip.md)
 
 **Parameters:**
 

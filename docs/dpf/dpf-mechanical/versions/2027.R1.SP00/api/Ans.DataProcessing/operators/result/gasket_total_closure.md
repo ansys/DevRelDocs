@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.gasket_total_closure
 
 # *class* gasket_total_closure(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-gasket_total_closure()
-gasket_total_closure(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-gasket_total_closure(config: OperatorConfig)
+gasket_total_closure()
+
+gasket_total_closure(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+gasket_total_closure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [gasket_total_closure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure.md)
+
+**DPF Framework Reference:** [gasket_total_closure operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure.md)
 
 **Parameters:**
 

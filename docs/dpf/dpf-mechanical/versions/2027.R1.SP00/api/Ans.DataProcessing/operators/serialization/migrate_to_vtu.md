@@ -16,7 +16,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `path` (DataSources)
 
-**DPF Framework Reference:** [migrate_to_vtu operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/migrate_to_vtu.md)
+**DPF Framework Reference:** [migrate_to_vtu operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/migrate_to_vtu.md)
 
 **Parameters:**
 

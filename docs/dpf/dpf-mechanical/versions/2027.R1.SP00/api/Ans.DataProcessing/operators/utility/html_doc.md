@@ -10,7 +10,7 @@ available inputs: `output_path` (string) (optional), `exposure_level` (Int32) (o
 
 available outputs:
 
-**DPF Framework Reference:** [html_doc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/html_doc.md)
+**DPF Framework Reference:** [html_doc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/html_doc.md)
 
 **Parameters:**
 

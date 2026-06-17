@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field), `double_value` (double), `
 
 available outputs: `included` (bool), `message` (string)
 
-**DPF Framework Reference:** [included_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/included_fields.md)
+**DPF Framework Reference:** [included_fields operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/included_fields.md)
 
 **Parameters:**
 

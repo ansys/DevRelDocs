@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.stress_Z
 
 # *class* stress_Z(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-stress_Z()
-stress_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-stress_Z(config: OperatorConfig)
+stress_Z()
+
+stress_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+stress_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_Z.md)
+
+**DPF Framework Reference:** [stress_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_Z.md)
 
 **Parameters:**
 

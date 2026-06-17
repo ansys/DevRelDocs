@@ -18,7 +18,7 @@ available inputs: `field` (Field, FieldsContainer), `scalar_int` (Int32) (option
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [norm operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/norm.md)
+**DPF Framework Reference:** [norm operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/norm.md)
 
 **Parameters:**
 

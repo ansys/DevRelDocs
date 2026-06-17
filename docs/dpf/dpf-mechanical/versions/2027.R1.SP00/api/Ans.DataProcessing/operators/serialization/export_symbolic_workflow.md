@@ -10,7 +10,7 @@ available inputs: `workflow` (Workflow), `workflow_path` (string) (optional), `f
 
 available outputs: `data_sources` (DataSources ,string)
 
-**DPF Framework Reference:** [export_symbolic_workflow operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/export_symbolic_workflow.md)
+**DPF Framework Reference:** [export_symbolic_workflow operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/export_symbolic_workflow.md)
 
 **Parameters:**
 

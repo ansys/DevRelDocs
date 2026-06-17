@@ -10,7 +10,7 @@ available inputs: `filepath` (string), `columns_to_read` (Int32) (optional)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [pres_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/pres_to_field.md)
+**DPF Framework Reference:** [pres_to_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/pres_to_field.md)
 
 **Parameters:**
 

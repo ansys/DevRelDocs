@@ -10,7 +10,7 @@ available inputs: `filepath` (string), `columns_to_read` (Int32, IList int, Syst
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [prns_to_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/prns_to_field.md)
+**DPF Framework Reference:** [prns_to_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/prns_to_field.md)
 
 **Parameters:**
 

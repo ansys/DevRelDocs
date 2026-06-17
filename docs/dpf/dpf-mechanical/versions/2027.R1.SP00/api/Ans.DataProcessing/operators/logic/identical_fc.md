@@ -10,7 +10,7 @@ available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (Fi
 
 available outputs: `boolean` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_fc.md)
+**DPF Framework Reference:** [identical_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_fc.md)
 
 **Parameters:**
 

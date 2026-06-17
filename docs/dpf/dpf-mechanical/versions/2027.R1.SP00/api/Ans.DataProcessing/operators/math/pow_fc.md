@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `factor` (double), `divi
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [pow_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/pow_fc.md)
+**DPF Framework Reference:** [pow_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/pow_fc.md)
 
 **Parameters:**
 

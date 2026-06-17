@@ -10,7 +10,7 @@ available inputs: `field` (Field), `factor` (double), `division_by_zero_value` (
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [pow operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/pow.md)
+**DPF Framework Reference:** [pow operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/pow.md)
 
 **Parameters:**
 

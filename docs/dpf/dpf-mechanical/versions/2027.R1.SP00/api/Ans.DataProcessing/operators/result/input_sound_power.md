@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.input_sound_power
 
 # *class* input_sound_power(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-input_sound_power()
-input_sound_power(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-input_sound_power(config: OperatorConfig)
+input_sound_power()
+
+input_sound_power(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+input_sound_power(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [input_sound_power operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/input_sound_power.md)
+
+**DPF Framework Reference:** [input_sound_power operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/input_sound_power.md)
 
 **Parameters:**
 

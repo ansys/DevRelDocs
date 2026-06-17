@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.current_density
 
 # *class* current_density(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-current_density()
-current_density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-current_density(config: OperatorConfig)
+current_density()
+
+current_density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+current_density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [current_density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/current_density.md)
+
+**DPF Framework Reference:** [current_density operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/current_density.md)
 
 **Parameters:**
 

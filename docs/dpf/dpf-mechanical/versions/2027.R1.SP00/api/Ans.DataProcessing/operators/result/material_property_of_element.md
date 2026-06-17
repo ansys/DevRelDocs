@@ -18,7 +18,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `streams_container` (Stre
 
 available outputs: `material_properties` (Field)
 
-**DPF Framework Reference:** [material_property_of_element operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/material_property_of_element.md)
+**DPF Framework Reference:** [material_property_of_element operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/material_property_of_element.md)
 
 **Parameters:**
 

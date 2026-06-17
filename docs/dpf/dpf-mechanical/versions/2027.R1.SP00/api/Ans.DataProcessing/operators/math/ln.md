@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.ln
 
 # *class* ln(field: object = None, config: OperatorConfig = None)
 
-ln()
-ln(field: object, config: OperatorConfig)
-ln(config: OperatorConfig)
+ln()
+
+ln(field: object, config: OperatorConfig)
+
+ln(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [ln operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/ln.md)
+
+**DPF Framework Reference:** [ln operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/ln.md)
 
 **Parameters:**
 

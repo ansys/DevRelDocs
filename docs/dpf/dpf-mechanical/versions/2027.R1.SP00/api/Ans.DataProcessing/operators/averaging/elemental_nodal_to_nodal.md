@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (op
 
 available outputs: `field` (Field), `weight` (PropertyField)
 
-**DPF Framework Reference:** [elemental_nodal_to_nodal operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal.md)
+**DPF Framework Reference:** [elemental_nodal_to_nodal operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal.md)
 
 **Parameters:**
 

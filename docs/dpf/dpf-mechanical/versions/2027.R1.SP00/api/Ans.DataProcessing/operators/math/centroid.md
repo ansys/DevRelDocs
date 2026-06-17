@@ -18,7 +18,7 @@ available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsCont
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [centroid operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/centroid.md)
+**DPF Framework Reference:** [centroid operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/centroid.md)
 
 **Parameters:**
 

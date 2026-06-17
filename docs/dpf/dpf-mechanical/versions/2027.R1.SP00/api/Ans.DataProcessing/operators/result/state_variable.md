@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.state_variable
 
 # *class* state_variable(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, item_index: object = None, config: OperatorConfig = None)
 
-state_variable()
-state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, item_index: object, config: OperatorConfig)
-state_variable(config: OperatorConfig)
+state_variable()
+
+state_variable(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, item_index: object, config: OperatorConfig)
+
+state_variable(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [state_variable operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/state_variable.md)
+
+**DPF Framework Reference:** [state_variable operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/state_variable.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `streams` (StreamsContainer) (optional), `data_sources` (DataS
 
 available outputs: `mesh_out` (MeshedRegion), `field_type_section_id` (Field), `field_area` (Field), `field_moment_inertia` (Field), `field_geometry` (Field), `field_young_modulus` (Field), `field_poisson_ratio` (Field), `field_shear_modulus` (Field), `field_beam_length` (Field), `field_torsion_constant` (Field), `field_warping_constant` (Field), `field_offset_type` (Field), `field_offset_y` (Field), `field_offset_z` (Field)
 
-**DPF Framework Reference:** [beam_properties operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/beam_properties.md)
+**DPF Framework Reference:** [beam_properties operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/beam_properties.md)
 
 **Parameters:**
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.electric_potential
 
 # *class* electric_potential(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-electric_potential()
-electric_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-electric_potential(config: OperatorConfig)
+electric_potential()
+
+electric_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+electric_potential(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [electric_potential operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_potential.md)
+
+**DPF Framework Reference:** [electric_potential operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_potential.md)
 
 **Parameters:**
 

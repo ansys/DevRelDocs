@@ -10,7 +10,7 @@ available inputs: `streams` (StreamsContainer) (optional), `data_sources` (DataS
 
 available outputs: `participation_factors` (FieldsContainer), `mode_coefficients` (FieldsContainer), `damping_ratios` (FieldsContainer), `global_damping` (FieldsContainer), `missing_mass` (FieldsContainer), `rigid_response` (FieldsContainer)
 
-**DPF Framework Reference:** [spectrum_data operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/spectrum_data.md)
+**DPF Framework Reference:** [spectrum_data operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/spectrum_data.md)
 
 **Parameters:**
 

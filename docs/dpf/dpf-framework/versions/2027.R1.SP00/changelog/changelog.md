@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-16).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-17).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -5350,6 +5350,8 @@ Upgraded documentation
 - [hdf5dpf_generate_result_file](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Fix use of odd and even in pin description
 
 
 - [import_symbolic_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/import_symbolic_workflow.md)

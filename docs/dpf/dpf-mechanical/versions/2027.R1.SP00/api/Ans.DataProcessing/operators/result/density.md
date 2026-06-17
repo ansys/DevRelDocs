@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.density
 
 # *class* density(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-density()
-density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-density(config: OperatorConfig)
+density()
+
+density(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+density(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [density operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/density.md)
+
+**DPF Framework Reference:** [density operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/density.md)
 
 **Parameters:**
 

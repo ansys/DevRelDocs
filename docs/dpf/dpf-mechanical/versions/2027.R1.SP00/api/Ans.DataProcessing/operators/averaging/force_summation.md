@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `force_accumulation` (FieldsContainer), `moment_accumulation` (FieldsContainer), `heat_accumulation` (FieldsContainer), `forces_on_nodes` (FieldsContainer), `moments_on_nodes` (FieldsContainer), `heats_on_nodes` (FieldsContainer)
 
-**DPF Framework Reference:** [force_summation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/force_summation.md)
+**DPF Framework Reference:** [force_summation operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/force_summation.md)
 
 **Parameters:**
 

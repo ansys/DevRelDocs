@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion)
 
 available outputs: `mesh` (MeshedRegion), `node_mapping` (Scoping), `element_mapping` (Scoping)
 
-**DPF Framework Reference:** [mesh_to_tetra operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_tetra.md)
+**DPF Framework Reference:** [mesh_to_tetra operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_tetra.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `dataIn` (Field, FieldsContainer), `mode` (string, Char), `mod
 
 available outputs: `compress_speed` (double), `compress_ratio` (double), `dataOut` (CustomTypeFieldsContainer)
 
-**DPF Framework Reference:** [apply_zfp operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/apply_zfp.md)
+**DPF Framework Reference:** [apply_zfp operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/apply_zfp.md)
 
 **Parameters:**
 

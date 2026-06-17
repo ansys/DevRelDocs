@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.time_freq_interpolation
 
 # *class* time_freq_interpolation(fields_container: object = None, time_freq_values: object = None, step: object = None, interpolation_type: object = None, force_new_time_freq_support: object = None, time_freq_support: object = None, config: OperatorConfig = None)
 
-time_freq_interpolation()
-time_freq_interpolation(fields_container: object, time_freq_values: object, step: object, interpolation_type: object, force_new_time_freq_support: object, time_freq_support: object, config: OperatorConfig)
-time_freq_interpolation(config: OperatorConfig)
+time_freq_interpolation()
+
+time_freq_interpolation(fields_container: object, time_freq_values: object, step: object, interpolation_type: object, force_new_time_freq_support: object, time_freq_support: object, config: OperatorConfig)
+
+time_freq_interpolation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [time_freq_interpolation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/time_freq_interpolation.md)
+
+**DPF Framework Reference:** [time_freq_interpolation operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/time_freq_interpolation.md)
 
 **Parameters:**
 

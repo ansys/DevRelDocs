@@ -16,7 +16,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [conjugate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/conjugate.md)
+**DPF Framework Reference:** [conjugate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/conjugate.md)
 
 **Parameters:**
 

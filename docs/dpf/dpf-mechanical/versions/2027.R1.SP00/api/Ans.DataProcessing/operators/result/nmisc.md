@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.nmisc
 
 # *class* nmisc(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, item_index: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-nmisc()
-nmisc(time_scoping: object, mesh_scoping: object, data_sources: object, item_index: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-nmisc(config: OperatorConfig)
+nmisc()
+
+nmisc(time_scoping: object, mesh_scoping: object, data_sources: object, item_index: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+nmisc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [nmisc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
+
+**DPF Framework Reference:** [nmisc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
 
 **Parameters:**
 

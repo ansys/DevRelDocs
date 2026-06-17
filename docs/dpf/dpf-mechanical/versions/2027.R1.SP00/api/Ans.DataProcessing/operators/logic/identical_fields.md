@@ -18,7 +18,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field), `double_value` (double) (o
 
 available outputs: `boolean` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_fields.md)
+**DPF Framework Reference:** [identical_fields operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_fields.md)
 
 **Parameters:**
 

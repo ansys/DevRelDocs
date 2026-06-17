@@ -34,7 +34,7 @@ available inputs: `source_mesh` (MeshedRegion, Field), `target_mesh` (MeshedRegi
 
 available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `target_mesh` (MeshedRegion), `target_mesh_id` (Int32), `mapping_manager_data` (Any), `target_scoping` (Scoping), `prepare_output` (Any)
 
-**DPF Framework Reference:** [prepare_mechanical_native_mapping_point_cloud operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md)
+**DPF Framework Reference:** [prepare_mechanical_native_mapping_point_cloud operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md)
 
 **Parameters:**
 

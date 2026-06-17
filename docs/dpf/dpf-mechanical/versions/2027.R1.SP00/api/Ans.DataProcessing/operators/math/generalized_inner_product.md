@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.generalized_inner_product
 
 # *class* generalized_inner_product(fieldA: object = None, fieldB: object = None, mesh: object = None, config: OperatorConfig = None)
 
-generalized_inner_product()
-generalized_inner_product(fieldA: object, fieldB: object, mesh: object, config: OperatorConfig)
-generalized_inner_product(config: OperatorConfig)
+generalized_inner_product()
+
+generalized_inner_product(fieldA: object, fieldB: object, mesh: object, config: OperatorConfig)
+
+generalized_inner_product(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [generalized_inner_product operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product.md)
+
+**DPF Framework Reference:** [generalized_inner_product operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product.md)
 
 **Parameters:**
 

@@ -18,7 +18,7 @@ available inputs: `a` (double), `fields_containerA` (FieldsContainer), `fields_c
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [linear_combination operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/linear_combination.md)
+**DPF Framework Reference:** [linear_combination operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/linear_combination.md)
 
 **Parameters:**
 

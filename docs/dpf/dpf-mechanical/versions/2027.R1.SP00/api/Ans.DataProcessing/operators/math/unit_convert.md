@@ -22,7 +22,7 @@ available inputs: `entity_to_convert` (Field, FieldsContainer, MeshedRegion, Mes
 
 available outputs: `converted_entity` (Field ,FieldsContainer ,MeshedRegion ,MeshesContainer)
 
-**DPF Framework Reference:** [unit_convert operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert.md)
+**DPF Framework Reference:** [unit_convert operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert.md)
 
 **Parameters:**
 

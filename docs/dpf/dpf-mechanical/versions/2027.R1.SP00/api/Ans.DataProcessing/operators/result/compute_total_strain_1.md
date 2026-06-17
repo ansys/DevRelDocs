@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.compute_total_strain_1
 
 # *class* compute_total_strain_1(time_scoping: object = None, scoping: object = None, streams_container: object = None, data_sources: object = None, extrapolate: object = None, nonlinear: object = None, meshed_region: object = None, requested_location: object = None, displacement: object = None, config: OperatorConfig = None)
 
-compute_total_strain_1()
-compute_total_strain_1(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
-compute_total_strain_1(config: OperatorConfig)
+compute_total_strain_1()
+
+compute_total_strain_1(time_scoping: object, scoping: object, streams_container: object, data_sources: object, extrapolate: object, nonlinear: object, meshed_region: object, requested_location: object, displacement: object, config: OperatorConfig)
+
+compute_total_strain_1(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_total_strain_1 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_total_strain_1.md)
+
+**DPF Framework Reference:** [compute_total_strain_1 operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_total_strain_1.md)
 
 **Parameters:**
 

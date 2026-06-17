@@ -10,7 +10,7 @@ available inputs: `materials_container` (MaterialsContainer), `mesh_scoping` (Sc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [ans_mat_property_field_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_property_field_provider.md)
+**DPF Framework Reference:** [ans_mat_property_field_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_property_field_provider.md)
 
 **Parameters:**
 

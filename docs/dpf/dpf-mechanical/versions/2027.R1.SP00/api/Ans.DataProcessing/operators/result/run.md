@@ -10,7 +10,7 @@ available inputs: `mapdl_exe_path` (string) (optional), `working_dir` (string) (
 
 available outputs: `data_sources` (DataSources), `ip` (string), `port` (string)
 
-**DPF Framework Reference:** [run operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/run.md)
+**DPF Framework Reference:** [run operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/run.md)
 
 **Parameters:**
 

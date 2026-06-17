@@ -64,7 +64,7 @@ available inputs: `mesh_scoping` (Scoping) (optional), `coordinates` (Field) (op
 
 available outputs: `nodes` (Field), `cells` (IList int  ,System.Collections.IEnumerable), `cell_types` (IList int  ,System.Collections.IEnumerable), `offsets` (IList int  ,System.Collections.IEnumerable), `offsets_concatenated_node_indices` (IList int  ,System.Collections.IEnumerable)
 
-**DPF Framework Reference:** [mesh_to_pyvista operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_pyvista.md)
+**DPF Framework Reference:** [mesh_to_pyvista operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_to_pyvista.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `input_string` (string)
 
 available outputs: `any_output1` (Any), `any_output2` (Any)
 
-**DPF Framework Reference:** [txt_file_to_dpf operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/txt_file_to_dpf.md)
+**DPF Framework Reference:** [txt_file_to_dpf operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/txt_file_to_dpf.md)
 
 **Parameters:**
 

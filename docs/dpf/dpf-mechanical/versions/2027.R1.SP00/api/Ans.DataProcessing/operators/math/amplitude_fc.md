@@ -16,7 +16,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [amplitude_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/amplitude_fc.md)
+**DPF Framework Reference:** [amplitude_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/amplitude_fc.md)
 
 **Parameters:**
 

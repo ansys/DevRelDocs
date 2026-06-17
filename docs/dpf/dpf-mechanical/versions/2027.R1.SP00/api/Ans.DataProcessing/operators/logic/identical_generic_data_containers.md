@@ -10,7 +10,7 @@ available inputs: `generic_data_containerA` (GenericDataContainer), `generic_dat
 
 available outputs: `included` (bool), `message` (string)
 
-**DPF Framework Reference:** [identical_generic_data_containers operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_generic_data_containers.md)
+**DPF Framework Reference:** [identical_generic_data_containers operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/identical_generic_data_containers.md)
 
 **Parameters:**
 

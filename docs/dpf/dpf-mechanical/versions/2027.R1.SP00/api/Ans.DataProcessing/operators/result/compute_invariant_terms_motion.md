@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.compute_invariant_terms_motion
 
 # *class* compute_invariant_terms_motion(rom_matrices: object = None, mode_shapes: object = None, lumped_mass: object = None, model_data: object = None, field_coordinates: object = None, nod: object = None, phi_ortho: object = None, config: OperatorConfig = None)
 
-compute_invariant_terms_motion()
-compute_invariant_terms_motion(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, field_coordinates: object, nod: object, phi_ortho: object, config: OperatorConfig)
-compute_invariant_terms_motion(config: OperatorConfig)
+compute_invariant_terms_motion()
+
+compute_invariant_terms_motion(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, field_coordinates: object, nod: object, phi_ortho: object, config: OperatorConfig)
+
+compute_invariant_terms_motion(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_invariant_terms_motion operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_invariant_terms_motion.md)
+
+**DPF Framework Reference:** [compute_invariant_terms_motion operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_invariant_terms_motion.md)
 
 **Parameters:**
 

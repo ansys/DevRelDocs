@@ -16,7 +16,7 @@ available inputs: `real_field` (Field, FieldsContainer), `imaginary_field` (Fiel
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [sweeping_phase operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sweeping_phase.md)
+**DPF Framework Reference:** [sweeping_phase operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sweeping_phase.md)
 
 **Parameters:**
 

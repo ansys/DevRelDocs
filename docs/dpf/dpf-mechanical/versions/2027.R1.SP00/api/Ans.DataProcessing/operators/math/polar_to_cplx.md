@@ -20,7 +20,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [polar_to_cplx operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/polar_to_cplx.md)
+**DPF Framework Reference:** [polar_to_cplx operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/polar_to_cplx.md)
 
 **Parameters:**
 

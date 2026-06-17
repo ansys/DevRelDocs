@@ -18,7 +18,7 @@ available inputs: `fields_container` (FieldsContainer), `time_freq` (double), `s
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [centroid_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/centroid_fc.md)
+**DPF Framework Reference:** [centroid_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/centroid_fc.md)
 
 **Parameters:**
 

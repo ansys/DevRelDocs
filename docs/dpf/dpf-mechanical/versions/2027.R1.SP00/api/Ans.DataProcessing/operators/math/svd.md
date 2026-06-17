@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer)
 
 available outputs: `s_svd` (FieldsContainer), `u_svd` (FieldsContainer), `vt_svd` (FieldsContainer)
 
-**DPF Framework Reference:** [svd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/svd.md)
+**DPF Framework Reference:** [svd operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/svd.md)
 
 **Parameters:**
 

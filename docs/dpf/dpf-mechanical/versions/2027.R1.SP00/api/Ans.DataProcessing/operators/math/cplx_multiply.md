@@ -18,7 +18,7 @@ available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (Fi
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [cplx_multiply operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_multiply.md)
+**DPF Framework Reference:** [cplx_multiply operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_multiply.md)
 
 **Parameters:**
 

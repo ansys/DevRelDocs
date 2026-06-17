@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `threshold` (double), `element_restrict
 
 available outputs: `wireframe` (MeshedRegion)
 
-**DPF Framework Reference:** [wireframe operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/wireframe.md)
+**DPF Framework Reference:** [wireframe operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/wireframe.md)
 
 **Parameters:**
 

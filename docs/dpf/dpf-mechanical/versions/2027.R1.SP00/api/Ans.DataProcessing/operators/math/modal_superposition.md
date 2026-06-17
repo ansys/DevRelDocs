@@ -10,7 +10,7 @@ available inputs: `modal_basis` (FieldsContainer, CustomTypeFieldsContainer), `s
 
 available outputs: `fields_container` (FieldsContainer ,CustomTypeFieldsContainer)
 
-**DPF Framework Reference:** [modal_superposition operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_superposition.md)
+**DPF Framework Reference:** [modal_superposition operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/modal_superposition.md)
 
 **Parameters:**
 

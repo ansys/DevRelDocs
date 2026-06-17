@@ -10,7 +10,7 @@ available inputs: `cs_id` (Int32), `streams_container` (StreamsContainer) (optio
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [coordinate_system operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/coordinate_system.md)
+**DPF Framework Reference:** [coordinate_system operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/coordinate_system.md)
 
 **Parameters:**
 

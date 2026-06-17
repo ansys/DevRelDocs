@@ -16,7 +16,7 @@ available inputs: `field` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [sqr operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sqr.md)
+**DPF Framework Reference:** [sqr operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/sqr.md)
 
 **Parameters:**
 

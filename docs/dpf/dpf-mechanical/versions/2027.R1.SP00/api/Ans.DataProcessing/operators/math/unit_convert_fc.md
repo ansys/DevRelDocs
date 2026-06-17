@@ -20,7 +20,7 @@ available inputs: `fields_container` (FieldsContainer), `unit_name` (string)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [unit_convert_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert_fc.md)
+**DPF Framework Reference:** [unit_convert_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert_fc.md)
 
 **Parameters:**
 

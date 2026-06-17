@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.matrix_product
 
 # *class* matrix_product(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-matrix_product()
-matrix_product(fieldA: object, fieldB: object, config: OperatorConfig)
-matrix_product(config: OperatorConfig)
+matrix_product()
+
+matrix_product(fieldA: object, fieldB: object, config: OperatorConfig)
+
+matrix_product(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [matrix_product operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/matrix_product.md)
+
+**DPF Framework Reference:** [matrix_product operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/matrix_product.md)
 
 **Parameters:**
 

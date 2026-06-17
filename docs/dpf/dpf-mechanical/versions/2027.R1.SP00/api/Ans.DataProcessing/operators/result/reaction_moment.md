@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.reaction_moment
 
 # *class* reaction_moment(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-reaction_moment()
-reaction_moment(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-reaction_moment(config: OperatorConfig)
+reaction_moment()
+
+reaction_moment(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+reaction_moment(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reaction_moment operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment.md)
+
+**DPF Framework Reference:** [reaction_moment operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reaction_moment.md)
 
 **Parameters:**
 

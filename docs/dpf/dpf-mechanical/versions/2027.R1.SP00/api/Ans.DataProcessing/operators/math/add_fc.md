@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.add_fc
 
 # *class* add_fc(fields_container1: object = None, fields_container2: object = None, config: OperatorConfig = None)
 
-add_fc()
-add_fc(fields_container1: object, fields_container2: object, config: OperatorConfig)
-add_fc(config: OperatorConfig)
+add_fc()
+
+add_fc(fields_container1: object, fields_container2: object, config: OperatorConfig)
+
+add_fc(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [add_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add_fc.md)
+
+**DPF Framework Reference:** [add_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/add_fc.md)
 
 **Parameters:**
 
