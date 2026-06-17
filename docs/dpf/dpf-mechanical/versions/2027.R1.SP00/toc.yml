@@ -111,6 +111,8 @@
       href: api/Ans.DataProcessing/Workflow.md
     - name: locations
       href: api/Ans.DataProcessing/locations.md
+  - name: Ans.DataProcessing.internal_objects
+    href: api/Ans.DataProcessing/internal_objects/index.md
   - name: Ans.DataProcessing.operators
     href: api/Ans.DataProcessing/operators/index.md
     items:
