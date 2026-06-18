@@ -370,3 +370,5 @@
       href: modelcenter-java-api-md/mc_api/com.phoenix_int.ModelCenter.util/-p-h-x-u-r-l-class-loader/index.md
     - name: ValueHolder
       href: modelcenter-java-api-md/mc_api/com.phoenix_int.ModelCenter.util/-value-holder/index.md
+- name: Changelog
+  href: changelog.md

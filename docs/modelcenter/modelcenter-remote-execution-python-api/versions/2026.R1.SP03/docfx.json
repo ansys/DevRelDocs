@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ModelCenter Remote Execution Python ScriptWrapper API 2026 R1",
+      "summary": "Python ScriptWrapper API for ModelCenter Remote Execution, 2026 R1.",
+      "version": "2026 R1",
+      "product": "ModelCenter",
+      "programming language": "Python",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}

@@ -61,7 +61,7 @@ An example configuration might look like this:
         "MaxParallel" : 2
     }
 }  
-```
+```json
 
 <a id="supported-input-output"></a>
 
