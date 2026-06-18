@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.MeshSelectionManager
 
 # MeshSelectionManager class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 MeshSelectionManager()
 

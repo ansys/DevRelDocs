@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.Node
 
 # Node class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 Node(id: int, ptr: IntPtr)
 

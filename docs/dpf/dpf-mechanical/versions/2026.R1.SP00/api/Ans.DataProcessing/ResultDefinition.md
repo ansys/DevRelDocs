@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.ResultDefinition
 
 # ResultDefinition class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 ResultDefinition()
 

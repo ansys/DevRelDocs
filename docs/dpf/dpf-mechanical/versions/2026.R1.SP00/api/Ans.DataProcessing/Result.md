@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.Result
 
 # Result class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 Result(ptrRes: IntPtr)
 
