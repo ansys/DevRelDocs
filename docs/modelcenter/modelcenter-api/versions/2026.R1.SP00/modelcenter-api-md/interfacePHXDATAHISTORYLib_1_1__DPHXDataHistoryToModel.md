@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel"></a>
 # Interface PHXDATAHISTORYLib::\_DPHXDataHistoryToModel
 
 ![][IDL]
@@ -24,9 +25,11 @@ The Data History to Model connector is the piece that connects a Data History to
 
 ![][public]
 
+
 ```
 BOOL PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canSaveToModel(LPDISPATCH dataHistory, long run)
 ```
+
 
 
 
@@ -56,14 +59,22 @@ TRUE if the run could be saved, FALSE if not
 
 **Return type**: BOOL
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canSaveToModel"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a6efbbc76935609344ddfe8b48eaac5c1"></a>
 ### Function saveToModel
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryToModel::saveToModel(LPDISPATCH dataHistory, long run)
 ```
+
 
 
 
@@ -89,14 +100,22 @@ Notify that a user has requested to save the indicated run to the model. <br/>
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::saveToModel"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a080673db51fe153fd870e46b9dd4f221"></a>
 ### Function canRerunRuns
 
 ![][public]
 
+
 ```
 BOOL PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canRerunRuns(LPDISPATCH dataHistory, VARIANT runs)
 ```
+
 
 
 
@@ -126,14 +145,22 @@ True if the runs can be re-run, false if not.
 
 **Return type**: BOOL
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canRerunRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a2d1c0808d8fcdfe748d3194c45eda87a"></a>
 ### Function rerunRuns
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryToModel::rerunRuns(LPDISPATCH dataHistory, VARIANT runs)
 ```
+
 
 
 
@@ -158,14 +185,22 @@ Notify that the user has requested to re-run a set of runs. Does not wait for th
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::rerunRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a9ead478fc2486a3ac01b73ee8b3962be"></a>
 ### Function closeDataHistory
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryToModel::closeDataHistory(LPDISPATCH dataHistory)
 ```
+
 
 
 
@@ -193,6 +228,12 @@ Notify that the user is attempting to close the given data history.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::closeDataHistory"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

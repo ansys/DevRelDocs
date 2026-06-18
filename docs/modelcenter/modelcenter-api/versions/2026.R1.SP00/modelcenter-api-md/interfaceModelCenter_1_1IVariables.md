@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IVariables"></a>
 # Interface ModelCenter::IVariables
 
 ![][IDL]
@@ -23,9 +24,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IVariables::Count
 ```
+
 
 
 
@@ -35,6 +38,12 @@ Number of variables.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariables::Count"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IVariables_1a68b42951fd19cf993eef52d372dbdb84"></a>
@@ -42,9 +51,11 @@ Number of variables.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IVariables::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +83,12 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariables::Item"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
