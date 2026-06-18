@@ -8,3 +8,4 @@ For detailed usage and integration information, please refer to the following se
 - [Properties and renderer options](./properties.md): Supported HTML attributes and renderer customization options.
 - [Methods](./methods.md): JavaScript API methods for interacting with the component.
 - [Events](./events.md): Custom events and event handling.
+
