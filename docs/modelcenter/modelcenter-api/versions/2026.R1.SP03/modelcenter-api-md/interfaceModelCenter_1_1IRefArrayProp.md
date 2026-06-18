@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IRefArrayProp"></a>
 # Interface ModelCenter::IRefArrayProp
 
 ![][IDL]
@@ -27,9 +28,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::enumValues
 ```
+
 
 
 
@@ -39,6 +42,12 @@ Enumerated values of the reference array property.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::enumValues"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a6a71677c0367f53bb39861474c8ce11e"></a>
 ### Property isInput
 
@@ -46,9 +55,11 @@ Enumerated values of the reference array property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IRefArrayProp::isInput
 ```
+
 
 
 
@@ -58,6 +69,12 @@ Enumerated values of the reference array property.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::isInput"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IRefArrayProp_1aaa7d8507dbf83d2cad6eea2266fa98fb"></a>
 ### Property title
 
@@ -65,9 +82,11 @@ Enumerated values of the reference array property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::title
 ```
+
 
 
 
@@ -77,6 +96,12 @@ Title of the reference array property.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::title"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a0b98819f11c5c2e7c916a4e629199d48"></a>
 ### Property description
 
@@ -84,9 +109,11 @@ Title of the reference array property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::description
 ```
+
 
 
 
@@ -96,6 +123,12 @@ Description of the reference array property.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::description"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a625e640f8adae51bd6f65a88c7f67299"></a>
@@ -103,9 +136,11 @@ Description of the reference array property.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::getName()
 ```
+
 
 
 
@@ -124,14 +159,22 @@ The name of the reference array property.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a60190ee41cfbc6624a138dba5c790d00"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::getType()
 ```
+
 
 
 
@@ -150,6 +193,12 @@ The type of the reference array property.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::getType"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

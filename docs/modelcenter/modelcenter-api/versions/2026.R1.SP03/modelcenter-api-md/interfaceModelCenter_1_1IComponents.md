@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IComponents"></a>
 # Interface ModelCenter::IComponents
 
 ![][IDL]
@@ -23,9 +24,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IComponents::Count
 ```
+
 
 
 
@@ -35,6 +38,12 @@ Number of Components.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponents::Count"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IComponents_1a497784a98d679aa2ed109130ae004e0a"></a>
@@ -42,9 +51,11 @@ Number of Components.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IComponents::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +83,12 @@ IDispatch* to an [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMod
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponents::Item"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

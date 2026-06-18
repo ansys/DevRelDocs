@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IVariableDescription"></a>
 # Interface ModelCenter::IVariableDescription
 
 ![][IDL]
@@ -29,9 +30,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::name
 ```
+
 
 
 
@@ -41,6 +44,12 @@ Name of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::name"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1aa3c8267507d2f0d6cbbd35a33de0fca3"></a>
 ### Property fullName
 
@@ -48,9 +57,11 @@ Name of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::fullName
 ```
+
 
 
 
@@ -60,6 +71,12 @@ Full ModelCenter path of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::fullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1ace7a19354a1c40a3f64464fb87b992ba"></a>
 ### Property state
 
@@ -67,9 +84,11 @@ Full ModelCenter path of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 short ModelCenter::IVariableDescription::state
 ```
+
 
 
 
@@ -88,6 +107,12 @@ Possible states:
 
 **Return type**: short
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::state"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1abea210199b644bc3da685775950b9368"></a>
 ### Property units
 
@@ -95,9 +120,11 @@ Possible states:
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::units
 ```
+
 
 
 
@@ -107,6 +134,12 @@ Units of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::units"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1ae6ba3b64b599b6df11a39f0c3fa1b078"></a>
 ### Property isCustom
 
@@ -114,9 +147,11 @@ Units of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IVariableDescription::isCustom
 ```
+
 
 
 
@@ -126,6 +161,12 @@ Whether or not the variable is custom.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::isCustom"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1aa42abd87b11af98fcb67926472408801"></a>
 ### Property equation
 
@@ -133,9 +174,11 @@ Whether or not the variable is custom.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::equation
 ```
+
 
 
 
@@ -145,6 +188,12 @@ Equation of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::equation"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1a8fc783420e2ab3163a2552436d694d0a"></a>
 ### Property type
 
@@ -152,9 +201,11 @@ Equation of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::type
 ```
+
 
 
 
@@ -164,6 +215,12 @@ Type of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::type"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableDescription_1ac7d823563278b1abbc458b61aa5eb686"></a>
 ### Property isNumeric
 
@@ -171,9 +228,11 @@ Type of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IVariableDescription::isNumeric
 ```
+
 
 
 
@@ -183,6 +242,12 @@ Whether or not the variable is numeric.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableDescription::isNumeric"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

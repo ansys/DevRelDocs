@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IVariableLink"></a>
 # Interface ModelCenter::IVariableLink
 
 ![][IDL]
@@ -26,9 +27,11 @@ Represents a link between variables.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableLink::LHS
 ```
+
 
 
 
@@ -38,6 +41,12 @@ The left hand side of the equation. Read only. Will always be a simple variable 
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLink::LHS"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableLink_1a05eff77b1fab3100869de855008d8b02"></a>
 ### Property RHS
 
@@ -45,9 +54,11 @@ The left hand side of the equation. Read only. Will always be a simple variable 
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableLink::RHS
 ```
+
 
 
 
@@ -57,6 +68,12 @@ The right hand side of the equation. You can change the link by changing this va
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLink::RHS"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IVariableLink_1a8a637411378f91597e5612e2e03c959d"></a>
@@ -64,9 +81,11 @@ The right hand side of the equation. You can change the link by changing this va
 
 ![][public]
 
+
 ```
 void ModelCenter::IVariableLink::suspendLink()
 ```
+
 
 
 
@@ -76,14 +95,22 @@ Causes the link to be suspended.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLink::suspendLink"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableLink_1a38ec9f0f44714dd151f7683721bd7ce8"></a>
 ### Function resumeLink
 
 ![][public]
 
+
 ```
 void ModelCenter::IVariableLink::resumeLink()
 ```
+
 
 
 
@@ -93,14 +120,22 @@ Resumes the link if it was suspended.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLink::resumeLink"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IVariableLink_1a0e2397280fb0a53c07ecee27bdff89bd"></a>
 ### Function breakLink
 
 ![][public]
 
+
 ```
 void ModelCenter::IVariableLink::breakLink()
 ```
+
 
 
 
@@ -110,6 +145,12 @@ Breaks this link and removes the dependencies between the LHS and RHS of the equ
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLink::breakLink"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
