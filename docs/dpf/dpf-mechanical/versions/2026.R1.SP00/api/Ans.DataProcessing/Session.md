@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.Session
 
 # Session class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 Session()
 
