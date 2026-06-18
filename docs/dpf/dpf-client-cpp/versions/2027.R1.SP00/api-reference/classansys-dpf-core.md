@@ -26,12 +26,14 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 * [assertInstantiate](classansys-dpf-core.md#classansys-dpf-core-1ac729e14b3132c112e50982614be304aa)
 * [availableOperators](classansys-dpf-core.md#classansys-dpf-core-1a4ff73d65cea2aa6f69436ec673cb8934)
 * [availableOperators](classansys-dpf-core.md#classansys-dpf-core-1aca0296747cd46c61c955b8cdaa1ed16f)
+* [clearStepIndex](classansys-dpf-core.md#classansys-dpf-core-1a03d79f5bc63307fe5e39ba2d135dc7e7)
 * [connectToFbsServer](classansys-dpf-core.md#classansys-dpf-core-1a8db49a31a767102e225f9b0de89aabc1)
 * [connectToFbsServer](classansys-dpf-core.md#classansys-dpf-core-1af59369ee9906684fed5f2deab51d6c78)
 * [copyTo](classansys-dpf-core.md#classansys-dpf-core-1af26687fad53552d2263864bc46f935c8)
 * [core](classansys-dpf-core.md#classansys-dpf-core-1a451565ef11de326224de4b0b9f80e9fa)
 * [defaultOperatorConfig](classansys-dpf-core.md#classansys-dpf-core-1a20f37512490ec6131335f52be7f2f28d)
 * [getAndReleaseFromDatabase](classansys-dpf-core.md#classansys-dpf-core-1afb289372003268d7656638b51adc54cd)
+* [getCacheMaxMemory](classansys-dpf-core.md#classansys-dpf-core-1a9e32ed5a23961325449e59f1f8f6ec92)
 * [getOperatorSpecification](classansys-dpf-core.md#classansys-dpf-core-1ae9c538db9a8802e9ec28e9e7b40267b5)
 * [getOrStartFbsServer](classansys-dpf-core.md#classansys-dpf-core-1ae1f05f981693332e70380141f61a2bc0)
 * [getRuntimeClientConfig](classansys-dpf-core.md#classansys-dpf-core-1a4825a05c0f34be426942c0c519ee3b74)
@@ -39,6 +41,8 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 * [getRuntimeCoreConfig](classansys-dpf-core.md#classansys-dpf-core-1a26d52ede300647e78b0a538690e5ffb8)
 * [getServerVersion](classansys-dpf-core.md#classansys-dpf-core-1ae3472a9ced3aff887f623d3a46943d5d)
 * [getServerVersionFull](classansys-dpf-core.md#classansys-dpf-core-1a816f74283747eb9906949dfe61af99d8)
+* [getStepIndexCurrentMemory](classansys-dpf-core.md#classansys-dpf-core-1a1f019bb156aafda8b39610dfabaf6495)
+* [getStepIndexOperatorStatuses](classansys-dpf-core.md#classansys-dpf-core-1a433263d40e0819e0c93009abe04184ca)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1addc032f5882185bcf940ce7adf293327)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1aa9921dd047827c618f977e01ee088694)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1a74f7e10fc172292bc61582304787c30f)
@@ -58,6 +62,7 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 * [releaseDpf](classansys-dpf-core.md#classansys-dpf-core-1a8dd035c5ee368c43a4bc0d25b356e28a)
 * [releaseFromDatabase](classansys-dpf-core.md#classansys-dpf-core-1a344424c85e16b6bb44cf7e27f021aa45)
 * [releaseServer](classansys-dpf-core.md#classansys-dpf-core-1a2a7492837eb46b2d3ec75cd4e3e76c9f)
+* [setCacheMaxMemory](classansys-dpf-core.md#classansys-dpf-core-1ae06950c8974ffa940b0c6c7d778ac259)
 * [startFbsServer](classansys-dpf-core.md#classansys-dpf-core-1a3b38833684ca509339ffe007ada5a030)
 * [workflowById](classansys-dpf-core.md#classansys-dpf-core-1a723856ec83974fcb2cc61549f3cb89dd)
 * [workflowById](classansys-dpf-core.md#classansys-dpf-core-1ae3c3f567efed3342df687fac9889c878)
@@ -1260,6 +1265,62 @@ the [RuntimeClientConfig](classansys-dpf-runtimeclientconfig.md#classansys-dpf-r
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getRuntimeClientConfig"}]}`
 -->
 
+<a id="classansys-dpf-core-1ae06950c8974ffa940b0c6c7d778ac259"></a>
+### Function setCacheMaxMemory
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::setCacheMaxMemory(dp_double megaBytes)
+```
+
+
+Sets the maximum memory (in MB) that the global workflow step cache can hold. If the current cache exceeds this limit, lowest-priority steps are evicted.
+
+
+
+
+
+**Parameters**:
+
+* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **megaBytes**: [in] Maximum memory in megabytes. Use 0 to disable caching.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::setCacheMaxMemory"}]}`
+-->
+
+<a id="classansys-dpf-core-1a9e32ed5a23961325449e59f1f8f6ec92"></a>
+### Function getCacheMaxMemory
+
+![][public]
+![][static]
+
+
+```cpp
+static int ansys::dpf::core::getCacheMaxMemory()
+```
+
+
+Gets the memory upper bound (in MB) of the global workflow step cache.
+
+
+
+
+
+**Return type**: int
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getCacheMaxMemory"}]}`
+-->
+
 <a id="classansys-dpf-core-1a3b38833684ca509339ffe007ada5a030"></a>
 ### Function startFbsServer
 
@@ -1459,6 +1520,88 @@ Fills all version components of the In-Process server.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getServerVersionFull"}]}`
+-->
+
+<a id="classansys-dpf-core-1a1f019bb156aafda8b39610dfabaf6495"></a>
+### Function getStepIndexCurrentMemory
+
+![][public]
+![][static]
+
+
+```cpp
+static int ansys::dpf::core::getStepIndexCurrentMemory()
+```
+
+
+
+
+**Returns**:
+
+Current heap memory (in MB) held by the workflow step index.
+
+
+
+**Return type**: int
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getStepIndexCurrentMemory"}]}`
+-->
+
+<a id="classansys-dpf-core-1a433263d40e0819e0c93009abe04184ca"></a>
+### Function getStepIndexOperatorStatuses
+
+![][public]
+![][static]
+
+
+```cpp
+static GenericDataContainer ansys::dpf::core::getStepIndexOperatorStatuses()
+```
+
+
+
+
+**Returns**:
+
+A GenericDataContainer with operator statuses from the workflow step index. Keys are "opName_opId", values are int (E_OperatorState).
+
+
+
+**Return type**: GenericDataContainer
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getStepIndexOperatorStatuses"}]}`
+-->
+
+<a id="classansys-dpf-core-1a03d79f5bc63307fe5e39ba2d135dc7e7"></a>
+### Function clearStepIndex
+
+![][public]
+![][static]
+
+
+```cpp
+static void ansys::dpf::core::clearStepIndex()
+```
+
+
+Clears all entries from the workflow step index.
+
+
+
+
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::clearStepIndex"}]}`
 -->
 
 <a id="classansys-dpf-core-1af26687fad53552d2263864bc46f935c8"></a>

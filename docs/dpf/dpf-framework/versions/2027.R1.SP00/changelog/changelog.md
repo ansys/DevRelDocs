@@ -27,7 +27,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [4 items](#Features_femutils) |[18 items](#Fixes_femutils) |
+| femutils | [5 items](#Features_femutils) |[18 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [3 items](#Features_framework) |[11 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
@@ -46,7 +46,7 @@ The following table shows which components have updates in each category.
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [14 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[5 items](#Fixes_mesh) |
+| mesh | [2 items](#Features_mesh) |[6 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[23 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
@@ -478,6 +478,11 @@ The following table shows which components have updates in each category.
 
 ## femutils
 ### <a id="Features_femutils"></a> Features
+
+- Use the definition from input stress field:
+  > 
+  >
+  > 
 
 - Add vector principle stress operator:
   > 
@@ -2120,6 +2125,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mesh"></a> Fixes
+
+- Support elements with dropped nodes in skin operator:
+  > 
+  >
+  > Fix bug in `skin` operator for elements with dropped nodes (the operator correctly skins them now).
+  >
+  > 
+  >
+  > 
 
 - Add support for edge2, edge3, beam3 and beam4 eltypes in skin operator:
   > 
@@ -4278,6 +4292,8 @@ The following table shows which components have updates in each category.
 
   > 0.2.11: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
 
+  > 0.2.12: Add support for line elements.
+
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
@@ -4746,6 +4762,8 @@ Upgraded documentation
   > 0.0.2: Internal change to share pointers of property fields and mesh.
 
   > 0.0.3: Added support for Edge2, Edge3 and Beam4 elements.
+
+  > 1.0.0: Added support for elements with dropped nodes, as its faces may have been incorrectly added to the output skin mesh before.
 
 
 - [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_fields.md)
