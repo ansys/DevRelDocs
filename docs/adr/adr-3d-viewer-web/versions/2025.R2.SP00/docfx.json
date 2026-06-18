@@ -2,7 +2,7 @@
     "build": {
       "globalMetadata": {
         "title": "ADR 3D Viewer Web Component 2025 R2",
-        "summary": "Web component for 3D geometry in the browser or over VNC; setup, properties, JS API, and events.",
+        "summary": "",
         "version": "2025 R2",
         "product": "ADR 3D Viewer Web Component",
         "programming language": "",
