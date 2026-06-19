@@ -1,3 +1,4 @@
+<a id="namespaceModelCenter"></a>
 # Namespace ModelCenter
 
 ![][IDL]
@@ -68,6 +69,7 @@ ModelCenter API
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 31)
 
+
 ```
 enum MetadataType {
   METADATA_TYPE_STRING = 0,
@@ -78,6 +80,7 @@ enum MetadataType {
   METADATA_TYPE_FORCE_TO_32_BITS = 65536
 }
 ```
+
 
 
 
@@ -127,12 +130,19 @@ Type of metadata.
 
 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::MetadataType"}]}`
+-->
+
 <a id="namespaceModelCenter_1afea526d882aa1a4fd48b5a28b7b1c9dc"></a>
 ### Enumeration type MetadataAccess
 
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 44)
+
 
 ```
 enum MetadataAccess {
@@ -142,6 +152,7 @@ enum MetadataAccess {
   METADATA_ACCESS_FORCE_TO_32_BITS = 65536
 }
 ```
+
 
 
 
@@ -177,12 +188,19 @@ Access allowed for metadata.
 
 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::MetadataAccess"}]}`
+-->
+
 <a id="namespaceModelCenter_1af45bfe44662b4647910a30bb0ba41dca"></a>
 ### Enumeration type TradeStudyFormat
 
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 55)
+
 
 ```
 enum TradeStudyFormat {
@@ -192,6 +210,7 @@ enum TradeStudyFormat {
   TS_FORMAT_TSTUDY = 3
 }
 ```
+
 
 
 
@@ -236,12 +255,19 @@ This file format is deprecated and files can no longer be saved in this format.
 
 Used to signify that the format TSTUDY was selected and that a file should be saved in that format
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::TradeStudyFormat"}]}`
+-->
+
 <a id="namespaceModelCenter_1a1abdd6ad1a16bfaa9539e9a1ccc3c1a0"></a>
 ### Enumeration type VersionStatus
 
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 657)
+
 
 ```
 enum VersionStatus {
@@ -250,6 +276,7 @@ enum VersionStatus {
   DO_VERSIONING_IF_POSSIBLE = 2
 }
 ```
+
 
 
 
@@ -278,12 +305,19 @@ Versioning option for saving to [ModelCenter](namespaceModelCenter.md#namespaceM
 
 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::VersionStatus"}]}`
+-->
+
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625"></a>
 ### Enumeration type AssemblyStyle
 
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 3809)
+
 
 ```
 enum AssemblyStyle {
@@ -295,6 +329,7 @@ enum AssemblyStyle {
   ASSEMBLY_STYLE_FORCE_32_BITS = 65536
 }
 ```
+
 
 
 
@@ -344,12 +379,19 @@ Set to auto-N^2 view. Only valid for Data Dependency assemblies.
 
 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::AssemblyStyle"}]}`
+-->
+
 <a id="namespaceModelCenter_1a916012c305b3ade57ea11ed7fe1f6af2"></a>
 ### Enumeration type OnConnectionErrorMode
 
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5038)
+
 
 ```
 enum OnConnectionErrorMode {
@@ -358,6 +400,7 @@ enum OnConnectionErrorMode {
   CONN_ERR_USEDIALOG = -1
 }
 ```
+
 
 
 
@@ -386,6 +429,12 @@ Ignore the error and continue loading (as if user has pressed "Ignore" in the di
 
 (option not available when running ModelCenter in server mode) Shows the error as if the user were loading the file manually with full control.
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::OnConnectionErrorMode"}]}`
+-->
+
 ## Functions
 
 <a id="namespaceModelCenter_1ac27ed4a9b1a4fd02d9a3191c3ffbfbed"></a>
@@ -393,9 +442,11 @@ Ignore the error and continue loading (as if user has pressed "Ignore" in the di
 
 ![][private]
 
+
 ```
 ModelCenter::importlib("stdole32.tlb")
 ```
+
 
 
 
@@ -409,6 +460,12 @@ ModelCenter::importlib("stdole32.tlb")
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::importlib"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -1,3 +1,4 @@
+<a id="ComponentPlugIn_8odl"></a>
 # File ComponentPlugIn.odl
 
 ![][IDL]
@@ -17,6 +18,7 @@
 * [ComponentPlugIn](namespaceComponentPlugIn.md#namespaceComponentPlugIn)
 
 ## Source
+
 
 ```
 // ComponentPlugIn.odl : type library source for ComponentPlugIn.dll
@@ -63,6 +65,7 @@ library ComponentPlugIn
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IDoubleVariable"></a>
 # Interface ModelCenter::IDoubleVariable
 
 ![][IDL]
@@ -65,6 +66,7 @@ COM Instance
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IDoubleVariable::hasChanged
 ```
@@ -75,7 +77,14 @@ boolean ModelCenter::IDoubleVariable::hasChanged
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::hasChanged"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IDoubleVariable_1ac8bae6ed29215d02364f98a876f2ccfa"></a>
 ### Property hide
@@ -83,6 +92,7 @@ boolean ModelCenter::IDoubleVariable::hasChanged
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 boolean ModelCenter::IDoubleVariable::hide
@@ -94,7 +104,14 @@ boolean ModelCenter::IDoubleVariable::hide
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::hide"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IDoubleVariable_1ad15c38a3b89a2fa2be6e2f6b88268fd2"></a>
 ### Property OwningComponent
@@ -102,6 +119,7 @@ boolean ModelCenter::IDoubleVariable::hide
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::OwningComponent
@@ -113,7 +131,14 @@ LPDISPATCH ModelCenter::IDoubleVariable::OwningComponent
 
 
 
+
 **Return type**: LPDISPATCH
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::OwningComponent"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IDoubleVariable_1aa7a7d4145814425b6ea93e831854d84c"></a>
 ### Property value
@@ -122,9 +147,11 @@ LPDISPATCH ModelCenter::IDoubleVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IDoubleVariable::value
 ```
+
 
 
 
@@ -134,6 +161,12 @@ Value of the variable.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::value"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a364aa148101fa8ea9ddc2d624f96fcf5"></a>
 ### Property valueAbsolute
 
@@ -141,9 +174,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IDoubleVariable::valueAbsolute
 ```
+
 
 
 
@@ -153,6 +188,12 @@ The value of the variable. (Fetched without attempting to validate)
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::valueAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a8d74ea79cd0203c477fa96e2410ba176"></a>
 ### Property lowerBound
 
@@ -160,9 +201,11 @@ The value of the variable. (Fetched without attempting to validate)
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IDoubleVariable::lowerBound
 ```
+
 
 
 
@@ -172,6 +215,12 @@ Lower bound of the variable.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::lowerBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a7585c786507e272216ec790ce278fd10"></a>
 ### Property upperBound
 
@@ -179,9 +228,11 @@ Lower bound of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IDoubleVariable::upperBound
 ```
+
 
 
 
@@ -191,6 +242,12 @@ Upper bound of the variable.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::upperBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1ad5b4b178eafbe9ebf4e55b3f5e158622"></a>
 ### Property units
 
@@ -198,9 +255,11 @@ Upper bound of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::units
 ```
+
 
 
 
@@ -210,6 +269,12 @@ Units of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::units"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a491df2e849d05621978fe706bb48de85"></a>
 ### Property description
 
@@ -217,9 +282,11 @@ Units of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::description
 ```
+
 
 
 
@@ -229,6 +296,12 @@ Description of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::description"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a0c6cd245f4c6bacc15398f88522a2992"></a>
 ### Property enumValues
 
@@ -236,9 +309,11 @@ Description of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::enumValues
 ```
+
 
 
 
@@ -248,6 +323,12 @@ Enumerated values of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::enumValues"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a531c146537c198a1c71e5c5826757b01"></a>
 ### Property enumAliases
 
@@ -255,9 +336,11 @@ Enumerated values of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::enumAliases
 ```
+
 
 
 
@@ -267,6 +350,12 @@ Enumerated aliases of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::enumAliases"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a6181c6c0985068e31fdb725d719ddb35"></a>
 ### Property format
 
@@ -274,9 +363,11 @@ Enumerated aliases of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::format
 ```
+
 
 
 
@@ -286,6 +377,12 @@ Format of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::format"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a1b873587774671d25664c294323beae8"></a>
@@ -293,9 +390,11 @@ Format of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleVariable::isValid()
 ```
+
 
 
 
@@ -316,14 +415,22 @@ True if variable is valid. False if the variable is not valid.
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a602d42ee0595c1c0408a536c31c61adb)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::isValid"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1abddc8770d26e37ac9319be5b90bc6e3e"></a>
 ### Function validate
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::validate()
 ```
+
 
 
 
@@ -335,14 +442,22 @@ Validates the variable by running the component if needed.
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6748764fba94242fbe35ae2f4d49c9ef)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::validate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a10978bbb428eadf01141d2ceb2373c7a"></a>
 ### Function getName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::getName()
 ```
+
 
 
 
@@ -363,14 +478,22 @@ The name of the variable.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ae1ad6db87e29a4b265ec310295fb3843)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a00a7eca52d31c8f86e049dc1896d2434"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::getFullName()
 ```
+
 
 
 
@@ -391,14 +514,22 @@ The full ModelCenter path of the variable.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a05a46370dd23d612bf0f09f146ba32a0)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::getFullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a974708d2da959d48ee301088918719fd"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::getType()
 ```
+
 
 
 
@@ -419,14 +550,22 @@ The type of the variable as a string.
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ab7fadd397a7779f29005048383a9f187)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::getType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a162bb6a2a0c8cf5a2f3ee15daaaf85c2"></a>
 ### Function isInput
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleVariable::isInput()
 ```
+
 
 
 
@@ -448,14 +587,22 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a875481ba3799c222c5085c6c3ca802a7)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::isInput"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a59f1d75b8e24323ea9bf523159f04f69"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::toString()
 ```
+
 
 
 
@@ -476,14 +623,22 @@ The value of the variable as a string.
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6421656e090846e8d7c079b8511fa9d2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::toString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a1128d6c344adde4e9f9d95b0c19f87b9"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -508,14 +663,22 @@ Sets the value of the variable from the specified string.
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a3f6325a128422d445705553f11563904)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::fromString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a89797e61eedee333bd67b55b653ec21f"></a>
 ### Function toStringAbsolute
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -536,14 +699,22 @@ The value of the variable as a string.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a5e66075d2bff0f7de435056cdc6c011e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::toStringAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a9abf6ea522bbff16d7c2266202b5bdae"></a>
 ### Function invalidate
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::invalidate()
 ```
+
 
 
 
@@ -555,14 +726,22 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1addc5f809058b5573390f62d34b5f5498)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::invalidate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a7a14b5ef10935109b178062205b91b7a"></a>
 ### Function directPrecedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -594,14 +773,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a655ce10f3a6e2839f11161e8bf13b0c2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::directPrecedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a6178082dc3de5e1f6665f4faebcb8c36"></a>
 ### Function directDependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -633,14 +820,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a64c800317037f03a43c8522061885835)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::directDependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a8bf056e8b989223191b2e8c7595c0753"></a>
 ### Function precedentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -670,14 +865,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a9d52333bc9a07146e23124f0fe95db6f)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::precedentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a385019a97e3ddbae4351fd6dd591a49c"></a>
 ### Function dependentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -707,14 +910,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a1e52cc38574fbdf83e9dba836dfc5959)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::dependentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1ac65d0d53de6aee17106700d60161e9cf"></a>
 ### Function precedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -746,14 +957,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ad1f5d5ba3e96e9c2fab7a4b0d6c4df36)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::precedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a04becbe1d34e232e21208333c0700e3c"></a>
 ### Function dependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -785,14 +1004,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6f42f3176eb8fa2fbf9ca1b9a01fc7ce)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::dependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a18112e5a20ca1711e97f8a5514995a49"></a>
 ### Function isInputToComponent
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleVariable::isInputToComponent()
 ```
+
 
 
 
@@ -814,14 +1041,22 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a81ddff978026124a52063b1fad430b27)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::isInputToComponent"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a34bbd8b682a39cbe120f972f0be7b1cd"></a>
 ### Function isInputToModel
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleVariable::isInputToModel()
 ```
+
 
 
 
@@ -843,14 +1078,22 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a0bd883d3757e361b75e0f81627e6ce98)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::isInputToModel"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a499a962844cae63886b79779e39db700"></a>
 ### Function setMetadata
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -883,14 +1126,22 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1af7cbf8f2c8d128c760fb09254819bf64)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::setMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a40ecee96822db8b700fe1a814b2ab3b1"></a>
 ### Function getMetadata
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IDoubleVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -920,14 +1171,22 @@ Metadata value.
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a610297790a8c506c339586740f1d3022)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::getMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a34b3939cccf3f8862301863629b63434"></a>
 ### Function setInitialValue
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::setInitialValue(double value)
 ```
+
 
 
 
@@ -950,14 +1209,22 @@ Sets the initial value of the variable.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::setInitialValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a18723d07a18cb720d07bebee26f35d2f"></a>
 ### Function hasLowerBound
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleVariable::hasLowerBound()
 ```
+
 
 
 
@@ -976,14 +1243,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::hasLowerBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1aa78deb300d4f268523777fcabe898ce5"></a>
 ### Function hasUpperBound
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleVariable::hasUpperBound()
 ```
+
 
 
 
@@ -1002,14 +1277,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::hasUpperBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a1fb28d4b74c3d0121725f15773f7d1bb"></a>
 ### Function toFormattedString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::toFormattedString()
 ```
+
 
 
 
@@ -1028,14 +1311,22 @@ A formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::toFormattedString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1ac054c3628e2d617a1972dc195cacec60"></a>
 ### Function fromFormattedString
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::fromFormattedString(BSTR value)
 ```
+
 
 
 
@@ -1058,14 +1349,22 @@ Sets the value from a formatted string.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::fromFormattedString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1ac4e47bfae3990e33c748b44580244be3"></a>
 ### Function toFormattedStringAbsolute
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleVariable::toFormattedStringAbsolute()
 ```
+
 
 
 
@@ -1084,14 +1383,22 @@ An absolute formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::toFormattedStringAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1aa8846eb2c93d138bf7b6c31d78f0dc56"></a>
 ### Function clearUpperBound
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::clearUpperBound()
 ```
+
 
 
 
@@ -1101,14 +1408,22 @@ Clears the upper bound property of the variable if it has previously been set.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::clearUpperBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IDoubleVariable_1a72ee20ae45907f6f6738dbba0ea63655"></a>
 ### Function clearLowerBound
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleVariable::clearLowerBound()
 ```
+
 
 
 
@@ -1118,6 +1433,12 @@ Clears the lower bound property of the variable if it has previously been set.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleVariable::clearLowerBound"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

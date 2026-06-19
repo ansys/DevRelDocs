@@ -1,3 +1,4 @@
+<a id="interfaceTradeStudyPlugIn_1_1ICombinedPlugIn"></a>
 # Interface TradeStudyPlugIn::ICombinedPlugIn
 
 ![][IDL]
@@ -11,7 +12,7 @@ This interface is used for cases where a plug-in must be both an IComponentPlugI
 
 **Inherits from**:
 
-* [IComponentPlugIn](undefined.md#undefined)
+* IComponentPlugIn
 * [TradeStudyPlugIn::ITradeStudyPlugIn](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn)
 
 ## Members
@@ -21,6 +22,6 @@ This interface is used for cases where a plug-in must be both an IComponentPlugI
 * [show](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn_1a7238385b054e9afddbe65c65644826e4)
 * [toString](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn_1a58cdb46e4e8dca27761d7bd976c8fcf2)
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

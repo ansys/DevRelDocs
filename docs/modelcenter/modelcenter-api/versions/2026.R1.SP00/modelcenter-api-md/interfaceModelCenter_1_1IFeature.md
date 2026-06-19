@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IFeature"></a>
 # Interface ModelCenter::IFeature
 
 ![][IDL]
@@ -20,9 +21,11 @@ COM Instance.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFeature::checkin()
 ```
+
 
 
 
@@ -32,6 +35,12 @@ Checks in the feature associated with an object (asserts if no feature is curren
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFeature::checkin"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
