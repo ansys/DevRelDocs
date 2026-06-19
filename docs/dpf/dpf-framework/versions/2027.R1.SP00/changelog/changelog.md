@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-17).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -41,7 +41,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [25 items](#Features_mapdl) |[57 items](#Fixes_mapdl) |
+| mapdl | [26 items](#Features_mapdl) |[57 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [14 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1286,6 +1286,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Read element results on adaptive meshes:
+  > Allow reading of elementary results on adaptive meshes
+  >
+  > 
+  >
+  > 
 
 - Add beta support of thermal surface load elements SURF151 and SURF152:
   > Add beta support of thermal surface load elements SURF151 and SURF152
