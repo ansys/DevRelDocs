@@ -15,7 +15,7 @@ The `JSON.parse` and `JSON.stringify` Javascript functions can be used for conve
 The `backend.onSettingsChanged` and `backend.onCommitSettingsRequested` signals can be used to react to external settings changes (from optiSLang scope, for example, when the settings user interface is shown for the first time) and when the settings are requested to be commited.
 
 Class QMLBackEnd synopsis:
-```
+```cpp
 	class QMLBackEnd : public QObject
 	{
 		const QString & settings() const;
@@ -33,10 +33,10 @@ Class QMLBackEnd synopsis:
 		void settingsChanged();
 		void commitSettingsRequested();
 	};
-```
+```cpp
 
 The `backend.onSettingsChanged` and `backend.onCommitSettingsRequested` signals can, for example, be used in a QML connections declaration:
-```
+```qml
 Connections {
 	    target: backend // sender
 	    onSettingsChanged: {
@@ -49,7 +49,7 @@ Connections {
 	        backend.settings = JSON.stringify(settings_json);
 	    }
 	}
-```
+```qml
 
 ## Calling Custom Python Functionality
 You may need to execute custom Python functionality from within the QML scope. To do this:
@@ -62,7 +62,7 @@ You may need to execute custom Python functionality from within the QML scope. T
 The first option blocks the main thread and returns results after execution. The second option calls functionality in a separate thread. Results are available using `_execute_callback` after execution finalizes The `_execute_arg` argument is a JSON arbitrary JSON value passed to the Python functionality. The result is also an arbitrary JSON value returned by the Python functionality.
 
 Example Python code:
-```
+```python
 def ExecuteCustom(args):
 		""" 
 		Args:
@@ -73,10 +73,10 @@ def ExecuteCustom(args):
 		"""    
 		ret = {'success': True, 'args': args[1]}
 	    return json.dumps (ret)
-```
+```python
 
 Example QML code:
-```
+```qml
 Button {
 		id: button1
 		text: "Execute custom functionality in a separate thread"
@@ -88,7 +88,7 @@ Button {
 	        })
 	    }
 	}
-```
+```qml
 
 ## Sending Log Messages
 Use the following functions to send log messages:

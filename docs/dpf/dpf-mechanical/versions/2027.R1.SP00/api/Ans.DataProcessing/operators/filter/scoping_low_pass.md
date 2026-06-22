@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `threshold` (double, Field),
 
 available outputs: `scoping` (Scoping)
 
-**DPF Framework Reference:** [scoping_low_pass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/scoping_low_pass.md)
+**DPF Framework Reference:** [scoping_low_pass operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/scoping_low_pass.md)
 
 **Parameters:**
 

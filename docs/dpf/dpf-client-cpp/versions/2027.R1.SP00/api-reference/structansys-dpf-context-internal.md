@@ -36,7 +36,7 @@ static int ansys::dpf::Context::internal::getAPIVersion(Context const &context)
 
 **Parameters**:
 
-* [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b) const & **context**
+* [Context](classansys-dpf-context.md#classansys-dpf-context) const & **context**
 
 **Return type**: int
 
@@ -66,7 +66,7 @@ static DataTree ansys::dpf::Context::internal::contextToDataTree(Context const &
 
 **Parameters**:
 
-* [Context](classansys-dpf-context.md#classansys-dpf-context-1ae26354fe1dea7b2691e115275704278b) const & **context**
+* [Context](classansys-dpf-context.md#classansys-dpf-context) const & **context**
 * [Client](classansys-dpf-client.md#classansys-dpf-client) const *const **client** = nullptr 
 
 **Return type**: [DataTree](classansys-dpf-datatree.md#classansys-dpf-datatree)

@@ -1,3 +1,4 @@
+<a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult"></a>
 # Interface TradeStudyPlugIn::ITradeStudy3JobResult
 
 ![][IDL]
@@ -32,9 +33,11 @@ Interface representing the results of running a job. May be backed internally by
 
 **Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 249)
 
+
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::numRuns
 ```
+
 
 Get the number of runs.
 
@@ -44,6 +47,12 @@ Get the number of runs.
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::numRuns"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1a3d8795dd3559fce3f610e63872b8808b"></a>
 ### Property numVariables
 
@@ -51,9 +60,11 @@ Get the number of runs.
 
 **Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 254)
 
+
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::numVariables
 ```
+
 
 Get the number of inputs.
 
@@ -63,6 +74,12 @@ Get the number of inputs.
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::numVariables"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1a5889d5d7712934aa30c0983452c875bb"></a>
 ### Property dataHistory
 
@@ -70,9 +87,11 @@ Get the number of inputs.
 
 **Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 285)
 
+
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::dataHistory
 ```
+
 
 Get the data history associated with this job result, if any.
 
@@ -82,6 +101,12 @@ Get the data history associated with this job result, if any.
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::dataHistory"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1a56114078a1e476ce5e5ec70314f6fb73"></a>
 ### Property isRunning
 
@@ -89,9 +114,11 @@ Get the data history associated with this job result, if any.
 
 **Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 289)
 
+
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::isRunning
 ```
+
 
 Is the current job still running.
 
@@ -101,6 +128,12 @@ Is the current job still running.
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::isRunning"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1a2248d0fcfa9dbf3b0de48e5b75ff4df5"></a>
 ### Property isCanceled
 
@@ -108,9 +141,11 @@ Is the current job still running.
 
 **Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 293)
 
+
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::isCanceled
 ```
+
 
 Was the current job canceled?
 
@@ -120,6 +155,12 @@ Was the current job canceled?
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::isCanceled"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1ad63d367bc060e84ccd0edc96747bd082"></a>
@@ -127,9 +168,11 @@ Was the current job canceled?
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobResult::getVariableEquation(long index)
 ```
+
 
 Get the equation for the variable at the specified index.
 
@@ -150,14 +193,22 @@ The equation.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::getVariableEquation"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1a84850e887d89eb20d7793933316ad752"></a>
 ### Function getVariableDisplayName
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobResult::getVariableDisplayName(long index)
 ```
+
 
 Get the unique display name of a variable.
 
@@ -178,14 +229,22 @@ The display name.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::getVariableDisplayName"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1ac933f79559b7a0cf45fe49a6cb1e77d0"></a>
 ### Function isDesignVariable
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobResult::isDesignVariable(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -205,15 +264,23 @@ The variable type.
 * VARIANT **which**
 
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::isDesignVariable"}]}`
+-->
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1a01b2afba0cae246a236a56555ffd3e05"></a>
 ### Function isInput
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobResult::isInput(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -234,14 +301,22 @@ The variable type.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::isInput"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1aa5d136ea9f5d9dce819e2c6414f1febe"></a>
 ### Function cancelAsync
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobResult::cancelAsync()
 ```
+
 
 Halt the current job asynchronously.
 
@@ -251,14 +326,22 @@ Halt the current job asynchronously.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::cancelAsync"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult_1ad76c0b31771a31a827235d0306529ebc"></a>
 ### Function waitForCompletion
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobResult::waitForCompletion()
 ```
+
 
 Wait for the trade study to finish.
 
@@ -270,6 +353,12 @@ Wait for the trade study to finish.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobResult::waitForCompletion"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

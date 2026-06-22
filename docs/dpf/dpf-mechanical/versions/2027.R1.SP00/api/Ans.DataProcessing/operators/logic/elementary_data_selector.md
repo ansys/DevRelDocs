@@ -10,7 +10,7 @@ available inputs: `field` (Field, FieldsContainer), `elementary_data_index` (Int
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [elementary_data_selector operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/elementary_data_selector.md)
+**DPF Framework Reference:** [elementary_data_selector operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/elementary_data_selector.md)
 
 **Parameters:**
 

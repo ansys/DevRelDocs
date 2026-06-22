@@ -10,7 +10,11 @@ license: None
 
 ## Description
 
-Computes the absolute value of each data value in the input field component-wise, without performing vector norm operations.
+
+Applies the [absolute value](https://en.wikipedia.org/wiki/Absolute_value) function component-wise
+to each scalar data entry: $\mathrm{out}[i] = |\mathrm{in}[i]|$.
+This is a per-component operation and does not compute a vector norm.
+
 
 ## Inputs
 
@@ -48,7 +52,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Field with absolute values applied to each component
+Field with $|\mathrm{in}[i]|$ applied to each data component, preserving the input unit and dimensionality.
 
 
 ## Configurations

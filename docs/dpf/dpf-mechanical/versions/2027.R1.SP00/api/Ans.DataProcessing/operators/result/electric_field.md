@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.electric_field
 
 # *class* electric_field(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-electric_field()
-electric_field(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-electric_field(config: OperatorConfig)
+electric_field()
+
+electric_field(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+electric_field(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [electric_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_field.md)
+
+**DPF Framework Reference:** [electric_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/electric_field.md)
 
 **Parameters:**
 

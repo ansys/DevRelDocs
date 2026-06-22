@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IObjectVariable"></a>
 # Interface ModelCenter::IObjectVariable
 
 ![][IDL]
@@ -103,6 +104,7 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasChanged
 ```
@@ -113,7 +115,14 @@ boolean ModelCenter::IObjectVariable::hasChanged
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::hasChanged"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IObjectVariable_1a70d41ee491cb94eaa45dd1e3e6c805c9"></a>
 ### Property hide
@@ -121,6 +130,7 @@ boolean ModelCenter::IObjectVariable::hasChanged
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 boolean ModelCenter::IObjectVariable::hide
@@ -132,7 +142,14 @@ boolean ModelCenter::IObjectVariable::hide
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::hide"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IObjectVariable_1a2cd4745b4fe97b79d205b876bd91835d"></a>
 ### Property OwningComponent
@@ -140,6 +157,7 @@ boolean ModelCenter::IObjectVariable::hide
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 LPDISPATCH ModelCenter::IObjectVariable::OwningComponent
@@ -151,7 +169,14 @@ LPDISPATCH ModelCenter::IObjectVariable::OwningComponent
 
 
 
+
 **Return type**: LPDISPATCH
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::OwningComponent"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IObjectVariable_1a778d71ffd4daf5160b2594672b0cb7c8"></a>
 ### Property value
@@ -160,9 +185,11 @@ LPDISPATCH ModelCenter::IObjectVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IObjectVariable::value
 ```
+
 
 
 
@@ -172,6 +199,12 @@ Value of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::value"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a73b60bd367cc0e6783f9e5ad0bf96811"></a>
 ### Property description
 
@@ -179,9 +212,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IObjectVariable::description
 ```
+
 
 
 
@@ -191,6 +226,12 @@ The description of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::description"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IObjectVariable_1a88a80a771329337246e883b3ce034400"></a>
@@ -198,9 +239,11 @@ The description of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isValid()
 ```
+
 
 
 
@@ -221,14 +264,22 @@ True if variable is valid. False if the variable is not valid.
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a602d42ee0595c1c0408a536c31c61adb)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::isValid"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a56e476d33f05ee8b4faa077396704fa6"></a>
 ### Function validate
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::validate()
 ```
+
 
 
 
@@ -240,14 +291,22 @@ Validates the variable by running the component if needed.
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6748764fba94242fbe35ae2f4d49c9ef)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::validate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a1ec0c0bce4884b2c8c1decf29f4d5b86"></a>
 ### Function getName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getName()
 ```
+
 
 
 
@@ -268,14 +327,22 @@ The name of the variable.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ae1ad6db87e29a4b265ec310295fb3843)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a7d1acdd7a964ceb7d189c87a19e9bcb3"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getFullName()
 ```
+
 
 
 
@@ -296,14 +363,22 @@ The full ModelCenter path of the variable.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a05a46370dd23d612bf0f09f146ba32a0)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getFullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a40cc49ff4f6fd51695549d4ad32a4384"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getType()
 ```
+
 
 
 
@@ -324,14 +399,22 @@ The type of the variable as a string.
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ab7fadd397a7779f29005048383a9f187)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1adb2ffa6d382f3874d63cab8c53f956c6"></a>
 ### Function isInput
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isInput()
 ```
+
 
 
 
@@ -353,14 +436,22 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a875481ba3799c222c5085c6c3ca802a7)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::isInput"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1acc675e2c9045387d4ceb956d7d7d9f70"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::toString()
 ```
+
 
 
 
@@ -381,14 +472,22 @@ The value of the variable as a string.
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6421656e090846e8d7c079b8511fa9d2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::toString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aca195574fffbfac6577eb4b0d54f3dd8"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -413,14 +512,22 @@ Sets the value of the variable from the specified string.
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a3f6325a128422d445705553f11563904)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::fromString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1af042cdd3c4908daa767f6b0dce043e75"></a>
 ### Function toStringAbsolute
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -441,14 +548,22 @@ The value of the variable as a string.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a5e66075d2bff0f7de435056cdc6c011e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::toStringAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aff411bdfa6a95ccc904878f1ffecba6b"></a>
 ### Function invalidate
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::invalidate()
 ```
+
 
 
 
@@ -460,14 +575,22 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1addc5f809058b5573390f62d34b5f5498)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::invalidate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aac5eb818fb62f131d6ecb13fd3f6aa34"></a>
 ### Function directPrecedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -499,14 +622,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a655ce10f3a6e2839f11161e8bf13b0c2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::directPrecedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1af1b4238d92307aa3586b4f7070e497be"></a>
 ### Function directDependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -538,14 +669,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a64c800317037f03a43c8522061885835)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::directDependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a25a478d55d4855cdbf4f8753b6cd6062"></a>
 ### Function precedentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -575,14 +714,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a9d52333bc9a07146e23124f0fe95db6f)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::precedentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1af52780ea6b4984f40b16c8c072e1b005"></a>
 ### Function dependentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -612,14 +759,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a1e52cc38574fbdf83e9dba836dfc5959)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::dependentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a8c987c7df5766ca31115f25ce36f1f91"></a>
 ### Function precedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -651,14 +806,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ad1f5d5ba3e96e9c2fab7a4b0d6c4df36)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::precedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ae106e94dca5f19c46ed9f82c67772660"></a>
 ### Function dependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -690,14 +853,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6f42f3176eb8fa2fbf9ca1b9a01fc7ce)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::dependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aff062edf68ee2b0ff7db9b81cba0899a"></a>
 ### Function isInputToComponent
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isInputToComponent()
 ```
+
 
 
 
@@ -719,14 +890,22 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a81ddff978026124a52063b1fad430b27)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::isInputToComponent"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aa0e5a61596a334437a407396c4a38e44"></a>
 ### Function isInputToModel
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isInputToModel()
 ```
+
 
 
 
@@ -748,14 +927,22 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a0bd883d3757e361b75e0f81627e6ce98)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::isInputToModel"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a1d611e44da36abed0a41c6f688344841"></a>
 ### Function setMetadata
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -788,14 +975,22 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1af7cbf8f2c8d128c760fb09254819bf64)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a6fe6bbfed4b08df8c9f9a4c86cb49ca5"></a>
 ### Function getMetadata
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -825,14 +1020,22 @@ Metadata value.
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a610297790a8c506c339586740f1d3022)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a7cd400b4cd38cacd370b5c2b6246375c"></a>
 ### Function getClassURL
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getClassURL()
 ```
+
 
 
 
@@ -851,14 +1054,22 @@ The URL for the class.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getClassURL"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a7143a8eed8b14b1b6b7772e82f472cd8"></a>
 ### Function getMemberValue
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberValue(BSTR member)
 ```
+
 
 
 
@@ -886,14 +1097,22 @@ The value of the member.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a75f4995da0954629b58243f202e1681e"></a>
 ### Function getMemberValueAbsolute
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberValueAbsolute(BSTR member)
 ```
+
 
 
 
@@ -921,14 +1140,22 @@ The value of the member.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberValueAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a44df8b08cf7cb9cf6d1a5b72136d5f52"></a>
 ### Function setMemberValue
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberValue(BSTR member, BSTR value)
 ```
+
 
 
 
@@ -953,14 +1180,22 @@ Sets the value of a member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a6cef469cbdd030f510d7bb51e686c257"></a>
 ### Function setMember
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMember(BSTR member, BSTR value, BSTR type)
 ```
+
 
 
 
@@ -987,14 +1222,22 @@ Sets the value of a member. A new member will be created if the member does not 
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMember"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a30200ac90fd4115c2eb6c5641a77eddb"></a>
 ### Function deleteMember
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::deleteMember(BSTR member)
 ```
+
 
 
 
@@ -1017,14 +1260,22 @@ Delete a member for non-strict type object. An error will be thrown for strict t
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::deleteMember"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a763852aed64e16a58160d166c8addd23"></a>
 ### Function deleteAllMembers
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::deleteAllMembers()
 ```
+
 
 
 
@@ -1034,14 +1285,22 @@ Delete all members for non-strict type object. An error will be thrown for stric
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::deleteAllMembers"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ab1c0d770f00a0c466eacecda838b3850"></a>
 ### Function callMethod
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::callMethod(BSTR method)
 ```
+
 
 
 
@@ -1069,14 +1328,22 @@ Value of the method.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::callMethod"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ac232ce8558a68f9f27661644fbcee3b8"></a>
 ### Function isNonStrictType
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isNonStrictType()
 ```
+
 
 
 
@@ -1095,14 +1362,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::isNonStrictType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a9e16b89241b7593088803ace922f5ced"></a>
 ### Function toXML
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::toXML()
 ```
+
 
 
 
@@ -1121,14 +1396,22 @@ An XML representation of the object.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::toXML"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a4697fd5d09c8ade51e7a905a4202e5e9"></a>
 ### Function fromXML
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::fromXML(BSTR str)
 ```
+
 
 
 
@@ -1151,14 +1434,22 @@ Update the object from an XML string.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::fromXML"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a1b153917fd978107a15c2b2283d9f1a0"></a>
 ### Function hasMember
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasMember(BSTR member)
 ```
+
 
 
 
@@ -1186,14 +1477,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::hasMember"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a068348508497bc740975b56559316baf"></a>
 ### Function isNumericMember
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isNumericMember(BSTR member)
 ```
+
 
 
 
@@ -1221,14 +1520,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::isNumericMember"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a481f787db359b10b814f9ff279bb1471"></a>
 ### Function reinitialize
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::reinitialize()
 ```
+
 
 
 
@@ -1238,14 +1545,22 @@ Reinitialize the object using the current class type.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::reinitialize"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1acc1266cc18716f9973ec60f57c4a657d"></a>
 ### Function getMemberLength
 
 ![][public]
 
+
 ```
 long ModelCenter::IObjectVariable::getMemberLength(BSTR member, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1275,14 +1590,22 @@ The length of the array member.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberLength"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aec74047ec9cf7e9b93b0b4509da57f15"></a>
 ### Function setMemberLength
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberLength(BSTR member, long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1309,14 +1632,22 @@ Set length of an array member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberLength"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a4e889147b9f6274163e2ede028fbf1b5"></a>
 ### Function setMemberDimensions
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberDimensions(BSTR member, long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1359,14 +1690,22 @@ Set dimension of an array member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberDimensions"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a558bd8128469e74dacaae9236e57eed0"></a>
 ### Function getMemberNumDimensions
 
 ![][public]
 
+
 ```
 long ModelCenter::IObjectVariable::getMemberNumDimensions(BSTR member)
 ```
+
 
 
 
@@ -1394,14 +1733,22 @@ The number of dimensions of an array member.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberNumDimensions"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ac7ead6acd3c9f25b85e9670c396babbe"></a>
 ### Function getMemberDimensions
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberDimensions(BSTR member)
 ```
+
 
 
 
@@ -1429,14 +1776,22 @@ The number of demensions of the member.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberDimensions"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aa0e74d911fa3c06e65ae0061bb0a1740"></a>
 ### Function getMemberType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberType(BSTR member)
 ```
+
 
 
 
@@ -1464,14 +1819,22 @@ The type of the member.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a2870271930867129b9102eec3c778b28"></a>
 ### Function hasMemberLowerBound
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasMemberLowerBound(BSTR member)
 ```
+
 
 
 
@@ -1499,14 +1862,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::hasMemberLowerBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ac291b12d8f349c09c18162cda4299a4a"></a>
 ### Function hasMemberUpperBound
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasMemberUpperBound(BSTR member)
 ```
+
 
 
 
@@ -1534,14 +1905,22 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::hasMemberUpperBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1afd9fba6ca47b0bf5fc48a2d210654d1c"></a>
 ### Function getMemberLowerBound
 
 ![][public]
 
+
 ```
 double ModelCenter::IObjectVariable::getMemberLowerBound(BSTR member)
 ```
+
 
 
 
@@ -1569,14 +1948,22 @@ The lowerBound of the member.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberLowerBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a1af9965da5833253a2234df86f677093"></a>
 ### Function setMemberLowerBound
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberLowerBound(BSTR member, double lowerBound)
 ```
+
 
 
 
@@ -1601,14 +1988,22 @@ Set lowerBound of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberLowerBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1acbf0879d4bf1acfaf7cac4f32ef9df0e"></a>
 ### Function getMemberUpperBound
 
 ![][public]
 
+
 ```
 double ModelCenter::IObjectVariable::getMemberUpperBound(BSTR member)
 ```
+
 
 
 
@@ -1636,14 +2031,22 @@ The upperBlound of the member.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberUpperBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ac86c323427541c659a79974e19ad2692"></a>
 ### Function setMemberUpperBound
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberUpperBound(BSTR member, double upperBound)
 ```
+
 
 
 
@@ -1668,14 +2071,22 @@ Set upperBound of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberUpperBound"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a58394bc10f092128be001e36d890c0be"></a>
 ### Function getMemberEnumValues
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberEnumValues(BSTR member)
 ```
+
 
 
 
@@ -1703,14 +2114,22 @@ The enum values of the member.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberEnumValues"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aa2399f22fd7fc4daf9687fab4e4e512a"></a>
 ### Function setMemberEnumValues
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberEnumValues(BSTR member, BSTR enumValues)
 ```
+
 
 
 
@@ -1735,14 +2154,22 @@ Set enum values of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberEnumValues"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ae8008b1c066e802a5838dfdc9775785d"></a>
 ### Function getMemberEnumAliases
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberEnumAliases(BSTR member)
 ```
+
 
 
 
@@ -1770,14 +2197,22 @@ The enum aliases of the member.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberEnumAliases"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a18bf5de57cd2d0343bb90267608621d8"></a>
 ### Function setMemberEnumAliases
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberEnumAliases(BSTR member, BSTR enumAliases)
 ```
+
 
 
 
@@ -1802,14 +2237,22 @@ Set enum aliases of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberEnumAliases"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1abb5cd702a72b774a9b93a50c1a4a4270"></a>
 ### Function getMemberDescription
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberDescription(BSTR member)
 ```
+
 
 
 
@@ -1837,14 +2280,22 @@ The description of the member.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberDescription"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a7f78fbf9eec449dd61dd06f9d18cbfd6"></a>
 ### Function setMemberDescription
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberDescription(BSTR member, BSTR description)
 ```
+
 
 
 
@@ -1869,14 +2320,22 @@ Set description of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberDescription"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1aa893e48f7214f7b0c31f5628c16ebb0a"></a>
 ### Function getMemberUnits
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberUnits(BSTR member)
 ```
+
 
 
 
@@ -1904,14 +2363,22 @@ The units of the member.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberUnits"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a033310bf93afceacc24f097ce738a135"></a>
 ### Function setMemberUnits
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberUnits(BSTR member, BSTR units)
 ```
+
 
 
 
@@ -1936,14 +2403,22 @@ Set units of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberUnits"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ac9fe0949b94f5f8243a2b783ed2a65b1"></a>
 ### Function getMemberProperty
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberProperty(BSTR member, BSTR propertyName)
 ```
+
 
 
 
@@ -1973,14 +2448,22 @@ The value of the property of the member. <br/>
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberProperty"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a15c71dd9da7797408006e31677e9901f"></a>
 ### Function setMemberProperty
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberProperty(BSTR member, BSTR propertyName, BSTR propertyValue)
 ```
+
 
 
 
@@ -2007,14 +2490,22 @@ Set value of a property of the member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setMemberProperty"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a06be37e0fa407f4197aff2e534f61eb7"></a>
 ### Function getMemberList
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberList(BSTR member)
 ```
+
 
 
 
@@ -2042,14 +2533,22 @@ The list of child members.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMemberList"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a1ad90418c9d492ed35dbb1d20943035e"></a>
 ### Function getMethodList
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMethodList()
 ```
+
 
 
 
@@ -2068,14 +2567,22 @@ The list of methods.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getMethodList"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a6bd774581876d61cdeaf9637e470b0fe"></a>
 ### Function toFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::toFile(BSTR member, BSTR fileName, VARIANT encoding)
 ```
+
 
 
 
@@ -2102,14 +2609,22 @@ Write a file member to a file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::toFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a5e4a925c2918b6ac9da355b2287e3d04"></a>
 ### Function fromFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::fromFile(BSTR member, BSTR fileName)
 ```
+
 
 
 
@@ -2134,14 +2649,22 @@ Load a file into a file member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::fromFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a4904889be1812816c742b23763d0229e"></a>
 ### Function toFileAbsolute
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::toFileAbsolute(BSTR member, BSTR fileName, VARIANT encoding)
 ```
+
 
 
 
@@ -2168,14 +2691,22 @@ Write a file member to a file without validating the variable.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::toFileAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1afaad0639d6eeb9543d9ead12e9164094"></a>
 ### Function getIsBinary
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::getIsBinary(BSTR member)
 ```
+
 
 
 
@@ -2203,14 +2734,22 @@ True if the binary property of the file is true, else false.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getIsBinary"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ad6f0e0cc2595b7a2726f8d38ec573e2e"></a>
 ### Function setIsBinary
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setIsBinary(BSTR member, boolean isBinary)
 ```
+
 
 
 
@@ -2235,14 +2774,22 @@ Sets the binary property of the file object. File variables are either binary or
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setIsBinary"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a8f71ab194f3468c084aea4beca2c43b9"></a>
 ### Function getFileName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getFileName(BSTR member)
 ```
+
 
 
 
@@ -2270,14 +2817,22 @@ The name of the file.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getFileName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a6824345c22985533b8e284b84e1c83f0"></a>
 ### Function setFileName
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setFileName(BSTR member, BSTR fileName)
 ```
+
 
 
 
@@ -2302,14 +2857,22 @@ Sets the file name of the file object. Also sets the file extension if given in 
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setFileName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a610338503721a3cd0992fa5af793b718"></a>
 ### Function getFileExtension
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getFileExtension(BSTR member)
 ```
+
 
 
 
@@ -2337,14 +2900,22 @@ The file extension, or empty string if no extension exists.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getFileExtension"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1ab1a52e485c1d4c0384d17dca0a2f74be"></a>
 ### Function setFileExtension
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setFileExtension(BSTR member, BSTR fileExtension)
 ```
+
 
 
 
@@ -2369,14 +2940,22 @@ Sets the file extension of the object file. The method adds the preceding '.' if
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setFileExtension"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a7b6b51c7f0eb9a262d1ba0a2bf831368"></a>
 ### Function getArrayMemberValueAbsolute
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMemberValueAbsolute(BSTR member, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -2424,14 +3003,22 @@ Value of the array element.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getArrayMemberValueAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a13f1700a491d9f13070a854092887b20"></a>
 ### Function getArrayMemberValue
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMemberValue(BSTR member, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -2479,14 +3066,22 @@ Value of the array element.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getArrayMemberValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1adc14eb60074b51d08f58f5f080f830b3"></a>
 ### Function setArrayMemberValue
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setArrayMemberValue(BSTR member, BSTR value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -2531,14 +3126,22 @@ Set value of an array member.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setArrayMemberValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a24b1cc73d5868b9e8a3014209689d088"></a>
 ### Function getArrayMemberAbsolute
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMemberAbsolute(BSTR member)
 ```
+
 
 
 
@@ -2566,14 +3169,22 @@ Array values (variant of safe array).
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getArrayMemberAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a5dc9de363afe0659af36716807543b05"></a>
 ### Function getArrayMember
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMember(BSTR member)
 ```
+
 
 
 
@@ -2601,14 +3212,22 @@ Array values (variant of safe array).
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::getArrayMember"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IObjectVariable_1a667cf875a43fda4c97325c3734ef9ed1"></a>
 ### Function setArrayMember
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setArrayMember(BSTR member, VARIANT array)
 ```
+
 
 
 
@@ -2633,6 +3252,12 @@ Set values of an array member from a safe array. Create an array member if the m
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IObjectVariable::setArrayMember"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

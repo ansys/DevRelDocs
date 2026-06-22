@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1INetworkLocations"></a>
 # Interface ModelCenter::INetworkLocations
 
 ![][IDL]
@@ -22,9 +23,11 @@ Caches network location credentials and fetches them when needed to avoid reauth
 
 ![][public]
 
+
 ```
 void ModelCenter::INetworkLocations::add(BSTR address, BSTR username, BSTR password)
 ```
+
 
 
 
@@ -51,14 +54,22 @@ Add the specified network location to the list.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::INetworkLocations::add"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1INetworkLocations_1a6e6cf7b365025116e67b9ddd575b10b1"></a>
 ### Function exists
 
 ![][public]
 
+
 ```
 boolean ModelCenter::INetworkLocations::exists(BSTR address)
 ```
+
 
 
 
@@ -86,14 +97,22 @@ True if the address exists, else false.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::INetworkLocations::exists"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1INetworkLocations_1aa7869edab5e7d597c67804e2d5dcf561"></a>
 ### Function removeAddress
 
 ![][public]
 
+
 ```
 void ModelCenter::INetworkLocations::removeAddress(BSTR address)
 ```
+
 
 
 
@@ -116,6 +135,12 @@ Remove the specified network location to the list.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::INetworkLocations::removeAddress"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

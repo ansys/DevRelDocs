@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field), `fieldB` (Field)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [combine_levelset operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/combine_levelset.md)
+**DPF Framework Reference:** [combine_levelset operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/combine_levelset.md)
 
 **Parameters:**
 

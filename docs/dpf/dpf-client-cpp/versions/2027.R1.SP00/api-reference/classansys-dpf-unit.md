@@ -164,7 +164,7 @@ bool ansys::dpf::Unit::operator==(Unit const &unit) const
 
 **Parameters**:
 
-* Unit const & **unit**
+* [Unit](classansys-dpf-unit.md#classansys-dpf-unit) const & **unit**
 
 **Return type**: bool
 
@@ -196,7 +196,7 @@ Multiplication factor required to convert to new unit system.
 
 **Parameters**:
 
-* Unit const & **rhs**: [in] [Unit](classansys-dpf-unit.md#classansys-dpf-unit) system to which to convert.
+* [Unit](classansys-dpf-unit.md#classansys-dpf-unit) const & **rhs**: [in] [Unit](classansys-dpf-unit.md#classansys-dpf-unit) system to which to convert.
 
 **Return type**: double
 
@@ -228,7 +228,7 @@ Additive factor required to convert to new unit system.
 
 **Parameters**:
 
-* Unit const & **rhs**: [in] [Unit](classansys-dpf-unit.md#classansys-dpf-unit) system to which to convert.
+* [Unit](classansys-dpf-unit.md#classansys-dpf-unit) const & **rhs**: [in] [Unit](classansys-dpf-unit.md#classansys-dpf-unit) system to which to convert.
 
 **Return type**: double
 
@@ -260,7 +260,7 @@ Indication of same measurement quantities.
 
 **Parameters**:
 
-* Unit const &
+* [Unit](classansys-dpf-unit.md#classansys-dpf-unit) const &
 
 **Return type**: bool
 
@@ -378,9 +378,9 @@ Works only for in process API.
 
 **Parameters**:
 
-* Unit const & **rhs**
+* [Unit](classansys-dpf-unit.md#classansys-dpf-unit) const & **rhs**
 
-**Return type**: Unit
+**Return type**: [Unit](classansys-dpf-unit.md#classansys-dpf-unit)
 
 <!--
 **TODO**:
@@ -412,9 +412,9 @@ Works only for in process API.
 
 **Parameters**:
 
-* Unit const & **rhs**
+* [Unit](classansys-dpf-unit.md#classansys-dpf-unit) const & **rhs**
 
-**Return type**: Unit
+**Return type**: [Unit](classansys-dpf-unit.md#classansys-dpf-unit)
 
 <!--
 **TODO**:
@@ -444,7 +444,7 @@ Works only for in process API.
 
 
 
-**Return type**: Unit
+**Return type**: [Unit](classansys-dpf-unit.md#classansys-dpf-unit)
 
 <!--
 **TODO**:
@@ -478,7 +478,7 @@ Works only for in process API.
 
 * double **power**
 
-**Return type**: Unit
+**Return type**: [Unit](classansys-dpf-unit.md#classansys-dpf-unit)
 
 <!--
 **TODO**:

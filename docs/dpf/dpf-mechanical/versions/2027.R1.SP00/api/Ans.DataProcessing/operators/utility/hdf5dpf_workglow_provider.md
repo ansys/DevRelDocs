@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping) 
 
 available outputs: `field_or_fields_container` (Workflow)
 
-**DPF Framework Reference:** [hdf5dpf_workglow_provider operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/hdf5dpf_workglow_provider.md)
+**DPF Framework Reference:** [hdf5dpf_workglow_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/hdf5dpf_workglow_provider.md)
 
 **Parameters:**
 

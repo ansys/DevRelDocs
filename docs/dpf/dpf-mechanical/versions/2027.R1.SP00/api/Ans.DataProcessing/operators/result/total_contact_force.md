@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.total_contact_force
 
 # *class* total_contact_force(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-total_contact_force()
-total_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_contact_force(config: OperatorConfig)
+total_contact_force()
+
+total_contact_force(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_contact_force(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [total_contact_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_contact_force.md)
+
+**DPF Framework Reference:** [total_contact_force operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_contact_force.md)
 
 **Parameters:**
 

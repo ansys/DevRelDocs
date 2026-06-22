@@ -10,7 +10,7 @@ available inputs: `field_beam_end_condition` (DataSources, Field), `field_beam_m
 
 available outputs: `field_euler_critical_load` (Field), `field_euler_critical_load_yy` (Field), `field_euler_critical_load_zz` (Field)
 
-**DPF Framework Reference:** [euler_load_buckling operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/euler_load_buckling.md)
+**DPF Framework Reference:** [euler_load_buckling operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/euler_load_buckling.md)
 
 **Parameters:**
 

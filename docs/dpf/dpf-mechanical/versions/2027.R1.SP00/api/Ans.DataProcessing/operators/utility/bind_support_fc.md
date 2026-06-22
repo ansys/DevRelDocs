@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `support` (MeshedRegion,
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [bind_support_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/bind_support_fc.md)
+**DPF Framework Reference:** [bind_support_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/bind_support_fc.md)
 
 **Parameters:**
 

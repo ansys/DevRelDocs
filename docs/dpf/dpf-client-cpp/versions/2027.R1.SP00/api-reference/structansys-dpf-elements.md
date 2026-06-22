@@ -15,6 +15,12 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [beam4](structansys-dpf-elements.md#structansys-dpf-elements-1a7651898827538618d188da12cb8be51a)
 * [descriptor](structansys-dpf-elements.md#structansys-dpf-elements-1a30e8daf92a36604a3c176d9f7b5d1f35)
 * [eBeam](structansys-dpf-elements.md#structansys-dpf-elements-1a52e134d27c3ea7a5158ad3707d0af86da79f8bbaf009f29ba6735fd6bf114b2cf)
+* [edge2](structansys-dpf-elements.md#structansys-dpf-elements-1adc428a89ed87dbb0688ce2ba08aa4421)
+* [edge2with1extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a384985ddd70985c0dc7ee9735128dc55)
+* [edge2with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1ae33024b2472df0925d7104f3f362fc42)
+* [edge3](structansys-dpf-elements.md#structansys-dpf-elements-1ac392e05d325dd5dc79130d905cecb365)
+* [edge3with1extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a2b205716e8fb082c05d412d846e4bf23)
+* [edge3with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a4525fd622b9e82496258d6c491853b67)
 * [EElementType](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551c)
 * [EElementType](structansys-dpf-elements.md#structansys-dpf-elements-1a15f94658f6da65e43f52199c682eaa41)
 * [EShape](structansys-dpf-elements.md#structansys-dpf-elements-1a52e134d27c3ea7a5158ad3707d0af86d)
@@ -28,7 +34,11 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [kAnsBeam3](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caac61ff8dd9d8584d6690075806aa7b72)
 * [kAnsBeam4](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cabee4a9bbd4b236cfcf12e58d0962b75a)
 * [kAnsEdge2](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca4f1706ac9b5f90dec84a38199bea0738)
+* [kAnsEdge2With1ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca59cad073c4d63377bd3665c05382b259)
+* [kAnsEdge2With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca87e632e20b50c2d1e48b6ddb81af0e6f)
 * [kAnsEdge3](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caa2de5de4de3719a432d68bd539947984)
+* [kAnsEdge3With1ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca252ac3da909b46b2f983a6501788baa9)
+* [kAnsEdge3With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca2a1a5b8123ff7800efc081bd5033bae8)
 * [kAnsEMagArc](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca1dc72aa179e2dc4db2e7e0e085bb8340)
 * [kAnsEMagCircle](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca8189d7ab818e0813cc925a3343dee0dc)
 * [kAnsEMagLine](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cad9fa65d0cdb08af4a12ec2419a26936c)
@@ -37,6 +47,7 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [kAnsHex20](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca36c0a1abea2e4fc9dcb84482a0d4619a)
 * [kAnsHex8](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca2303b6c8f3509c8bf9ef4b6830d97d42)
 * [kAnsLine2](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cac5b7cfc5a8352b1d159ff4fe0668311c)
+* [kAnsLine2With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caae07761b66fcfaad61972818e02f3832)
 * [kAnsLine3](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca9a53ea970a6345464d7ce0e983b19d19)
 * [kAnsNumElementTypes](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca6d87d3d53faa782037c6c618bcba907a)
 * [kAnsPoint1](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca7724a9a49aef3a205ac09756c42f0e0f)
@@ -49,9 +60,17 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [kAnsQuadShell4](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cacdfd5ca276d9a4b2e767e2b1b402a3a3)
 * [kAnsQuadShell8](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caaa1d3cc37e3cc23f85eeef7a29adb319)
 * [kAnsSurface3](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caf86ed8c6ac108c71ad1ea987e4969e42)
+* [kAnsSurface3With1ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cab7ad1651e517de0c506745dda8dde4a8)
+* [kAnsSurface3With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caf64c3f01bd590b8b959be6ec118da6a2)
 * [kAnsSurface4](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca926190eb354a9033667de4d7ed0f8975)
+* [kAnsSurface4With1ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca7121c3ab4febfb11e84fe898e0e2651b)
+* [kAnsSurface4With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cad1624cc8692104867dab50cdf354d75e)
 * [kAnsSurface6](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca504633ec5853b9f456dd6d27971fb1c3)
+* [kAnsSurface6With1ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca04fa6cd0c61aa4366ca85ab318c7f713)
+* [kAnsSurface6With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca36dec0ecfb63d625f64ac316763594b0)
 * [kAnsSurface8](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cacb77216ecd8f572584342523302ee1f0)
+* [kAnsSurface8With1ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caeaaf5bd93d8ddc154cfe031fa8bd0a09)
+* [kAnsSurface8With2ExtraNode](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca9aeb70c053d04f71455eddcbbc2e673a)
 * [kAnsTet10](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca5867a639e1407cc108ab408b0a5898a8)
 * [kAnsTet4](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca716ba3ac28b29b4f7701de2d79bcb38e)
 * [kAnsTri3](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca8aa1be158e8da7c3b99139b92dbe72de)
@@ -62,6 +81,7 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [kAnsWedge15](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cab3d36ca15493097b79a0872f54ea0639)
 * [kAnsWedge6](structansys-dpf-elements.md#structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca2f65855869afd4d8c3388f42c583d9c7)
 * [line2](structansys-dpf-elements.md#structansys-dpf-elements-1a52f6751afe46909ad6c83c0b0510491d)
+* [line2with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a84ff43873866d6e0a137ded1d7783042)
 * [line3](structansys-dpf-elements.md#structansys-dpf-elements-1ae353ec6c1cb895bb0ee8b2dd59f2033e)
 * [linears](structansys-dpf-elements.md#structansys-dpf-elements-1a5553bdd8a5ab865ec9f66f59f4103707)
 * [point1](structansys-dpf-elements.md#structansys-dpf-elements-1a42c776bd25670e7ca0c2cc9fc91e2829)
@@ -75,6 +95,18 @@ Predefined [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-
 * [quadShell4](structansys-dpf-elements.md#structansys-dpf-elements-1ac9194bac632c648b744f96a2306b428b)
 * [quadShell8](structansys-dpf-elements.md#structansys-dpf-elements-1a93a4e8340f6e8aa6c8eaddc53f4f597d)
 * [solid_elements](structansys-dpf-elements.md#structansys-dpf-elements-1a4abe6329bb8b96b9a4b7f3ecd8fc7f2e)
+* [surface3](structansys-dpf-elements.md#structansys-dpf-elements-1aeaafcdd9d84385ca219cf195eddbb72f)
+* [surface3with1extranode](structansys-dpf-elements.md#structansys-dpf-elements-1abf968665b1e7b3953031a88ff92286c6)
+* [surface3with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a04f411a1eb2cb9b6436efb27a6180df3)
+* [surface4](structansys-dpf-elements.md#structansys-dpf-elements-1adfb835d017701691920f5100054151d9)
+* [surface4with1extranode](structansys-dpf-elements.md#structansys-dpf-elements-1afd0dd3ad8db540374dd4145f3b2f1013)
+* [surface4with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1ae9b0925ad8e0350760bcc1dc79ef4d9b)
+* [surface6](structansys-dpf-elements.md#structansys-dpf-elements-1a2ccd6895583481131aeb2b0c907620a7)
+* [surface6with1extranode](structansys-dpf-elements.md#structansys-dpf-elements-1aef9887e8a16dd91acb64f5b30f6947b6)
+* [surface6with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1adb25ba5fd274ab81df267a982b3b1663)
+* [surface8](structansys-dpf-elements.md#structansys-dpf-elements-1a56eb17153935927a0750ecd0070a500f)
+* [surface8with1extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a8f2a8aee3372ec1b32dc37744d78dd30)
+* [surface8with2extranode](structansys-dpf-elements.md#structansys-dpf-elements-1a1533e09324f8edad020dc17bb69b19c2)
 * [tet10](structansys-dpf-elements.md#structansys-dpf-elements-1a7f276f248180559409b323fdedb70582)
 * [tet4](structansys-dpf-elements.md#structansys-dpf-elements-1a05d59369acd4f4ac6819645f2413ee22)
 * [tri3](structansys-dpf-elements.md#structansys-dpf-elements-1ac6ff34f1a725f25b7e0a095aff779136)
@@ -132,7 +164,20 @@ enum EElementType {
   kAnsGeneralPlaceholder = 32,
   kAnsPolygon = 33,
   kAnsPolyhedron = 34,
-  kAnsActualNumElementTypes = 35
+  kAnsEdge2With1ExtraNode = 35,
+  kAnsEdge2With2ExtraNode = 36,
+  kAnsEdge3With1ExtraNode = 37,
+  kAnsEdge3With2ExtraNode = 38,
+  kAnsSurface3With1ExtraNode = 39,
+  kAnsSurface4With1ExtraNode = 40,
+  kAnsSurface6With1ExtraNode = 41,
+  kAnsSurface8With1ExtraNode = 42,
+  kAnsSurface3With2ExtraNode = 43,
+  kAnsSurface4With2ExtraNode = 44,
+  kAnsSurface6With2ExtraNode = 45,
+  kAnsSurface8With2ExtraNode = 46,
+  kAnsLine2With2ExtraNode = 47,
+  kAnsActualNumElementTypes = 48
 }
 ```
 
@@ -397,6 +442,97 @@ enum EElementType {
 
 <a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca015d8d84385a4237a4d93e5052f5052c"></a>
 #### Enumerator kAnsPolyhedron
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca59cad073c4d63377bd3665c05382b259"></a>
+#### Enumerator kAnsEdge2With1ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca87e632e20b50c2d1e48b6ddb81af0e6f"></a>
+#### Enumerator kAnsEdge2With2ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca252ac3da909b46b2f983a6501788baa9"></a>
+#### Enumerator kAnsEdge3With1ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca2a1a5b8123ff7800efc081bd5033bae8"></a>
+#### Enumerator kAnsEdge3With2ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cab7ad1651e517de0c506745dda8dde4a8"></a>
+#### Enumerator kAnsSurface3With1ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca7121c3ab4febfb11e84fe898e0e2651b"></a>
+#### Enumerator kAnsSurface4With1ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca04fa6cd0c61aa4366ca85ab318c7f713"></a>
+#### Enumerator kAnsSurface6With1ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caeaaf5bd93d8ddc154cfe031fa8bd0a09"></a>
+#### Enumerator kAnsSurface8With1ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caf64c3f01bd590b8b959be6ec118da6a2"></a>
+#### Enumerator kAnsSurface3With2ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551cad1624cc8692104867dab50cdf354d75e"></a>
+#### Enumerator kAnsSurface4With2ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca36dec0ecfb63d625f64ac316763594b0"></a>
+#### Enumerator kAnsSurface6With2ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551ca9aeb70c053d04f71455eddcbbc2e673a"></a>
+#### Enumerator kAnsSurface8With2ExtraNode
+
+
+
+
+
+<a id="structansys-dpf-elements-1a26cd9737847a69cd1f856a8936c3551caae07761b66fcfaad61972818e02f3832"></a>
+#### Enumerator kAnsLine2With2ExtraNode
 
 
 
@@ -966,6 +1102,58 @@ Quadratic 3-nodes Line.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::line3"}]}`
 -->
 
+<a id="structansys-dpf-elements-1adc428a89ed87dbb0688ce2ba08aa4421"></a>
+### Variable edge2
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge2
+```
+
+
+
+
+Linear 2-nodes Edge( lined shaped edge of SURF).
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge2"}]}`
+-->
+
+<a id="structansys-dpf-elements-1ac392e05d325dd5dc79130d905cecb365"></a>
+### Variable edge3
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge3
+```
+
+
+
+
+Quadratic 3-nodes Edge( lined shaped edge of SURF).
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge3"}]}`
+-->
+
 <a id="structansys-dpf-elements-1a07ea15edb478efe2cb580ba86a65b89e"></a>
 ### Variable beam3
 
@@ -1120,6 +1308,448 @@ Unknown element type.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::unknown"}]}`
+-->
+
+<a id="structansys-dpf-elements-1aeaafcdd9d84385ca219cf195eddbb72f"></a>
+### Variable surface3
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface3
+```
+
+
+
+
+Linear 3-nodes Surface.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface3"}]}`
+-->
+
+<a id="structansys-dpf-elements-1adfb835d017701691920f5100054151d9"></a>
+### Variable surface4
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface4
+```
+
+
+
+
+Linear 4-nodes Surface.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface4"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a2ccd6895583481131aeb2b0c907620a7"></a>
+### Variable surface6
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface6
+```
+
+
+
+
+Quadratic 6-nodes Surface.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface6"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a56eb17153935927a0750ecd0070a500f"></a>
+### Variable surface8
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface8
+```
+
+
+
+
+Quadratic 8-nodes Surface.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface8"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a384985ddd70985c0dc7ee9735128dc55"></a>
+### Variable edge2with1extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge2with1extranode
+```
+
+
+
+
+Linear 2-nodes Edge with 1 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge2with1extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1ae33024b2472df0925d7104f3f362fc42"></a>
+### Variable edge2with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge2with2extranode
+```
+
+
+
+
+Linear 2-nodes Edge with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge2with2extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a2b205716e8fb082c05d412d846e4bf23"></a>
+### Variable edge3with1extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge3with1extranode
+```
+
+
+
+
+Quadratic 3-nodes Edge with 1 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge3with1extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a4525fd622b9e82496258d6c491853b67"></a>
+### Variable edge3with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::edge3with2extranode
+```
+
+
+
+
+Quadratic 3-nodes Edge with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::edge3with2extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1abf968665b1e7b3953031a88ff92286c6"></a>
+### Variable surface3with1extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface3with1extranode
+```
+
+
+
+
+Linear 3-nodes Surface with 1 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface3with1extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1afd0dd3ad8db540374dd4145f3b2f1013"></a>
+### Variable surface4with1extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface4with1extranode
+```
+
+
+
+
+Linear 4-nodes Surface with 1 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface4with1extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1aef9887e8a16dd91acb64f5b30f6947b6"></a>
+### Variable surface6with1extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface6with1extranode
+```
+
+
+
+
+Quadratic 6-nodes Surface with 1 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface6with1extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a8f2a8aee3372ec1b32dc37744d78dd30"></a>
+### Variable surface8with1extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface8with1extranode
+```
+
+
+
+
+Quadratic 8-nodes Surface with 1 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface8with1extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a04f411a1eb2cb9b6436efb27a6180df3"></a>
+### Variable surface3with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface3with2extranode
+```
+
+
+
+
+Linear 3-nodes Surface with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface3with2extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1ae9b0925ad8e0350760bcc1dc79ef4d9b"></a>
+### Variable surface4with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface4with2extranode
+```
+
+
+
+
+Linear 4-nodes Surface with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface4with2extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1adb25ba5fd274ab81df267a982b3b1663"></a>
+### Variable surface6with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface6with2extranode
+```
+
+
+
+
+Quadratic 6-nodes Surface with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface6with2extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a1533e09324f8edad020dc17bb69b19c2"></a>
+### Variable surface8with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::surface8with2extranode
+```
+
+
+
+
+Quadratic 8-nodes Surface with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::surface8with2extranode"}]}`
+-->
+
+<a id="structansys-dpf-elements-1a84ff43873866d6e0a137ded1d7783042"></a>
+### Variable line2with2extranode
+
+![][public]
+![][static]
+
+
+```cpp
+const ElementDescriptor ansys::dpf::elements::line2with2extranode
+```
+
+
+
+
+Linear 2-nodes Line with 2 extra nodes.
+
+
+
+**Type**: const [ElementDescriptor](structansys-dpf-elementdescriptor.md#structansys-dpf-elementdescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::elements::line2with2extranode"}]}`
 -->
 
 <a id="structansys-dpf-elements-1a5553bdd8a5ab865ec9f66f59f4103707"></a>

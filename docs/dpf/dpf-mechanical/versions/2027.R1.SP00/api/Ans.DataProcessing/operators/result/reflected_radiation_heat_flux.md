@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.reflected_radiation_heat_flux
 
 # *class* reflected_radiation_heat_flux(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-reflected_radiation_heat_flux()
-reflected_radiation_heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-reflected_radiation_heat_flux(config: OperatorConfig)
+reflected_radiation_heat_flux()
+
+reflected_radiation_heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+reflected_radiation_heat_flux(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [reflected_radiation_heat_flux operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reflected_radiation_heat_flux.md)
+
+**DPF Framework Reference:** [reflected_radiation_heat_flux operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/reflected_radiation_heat_flux.md)
 
 **Parameters:**
 

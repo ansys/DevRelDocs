@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.displacement
 
 # *class* displacement(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-displacement()
-displacement(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-displacement(config: OperatorConfig)
+displacement()
+
+displacement(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+displacement(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [displacement operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement.md)
+
+**DPF Framework Reference:** [displacement operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/displacement.md)
 
 **Parameters:**
 

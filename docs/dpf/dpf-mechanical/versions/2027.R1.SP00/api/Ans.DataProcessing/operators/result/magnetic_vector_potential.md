@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.magnetic_vector_potential
 
 # *class* magnetic_vector_potential(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-magnetic_vector_potential()
-magnetic_vector_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-magnetic_vector_potential(config: OperatorConfig)
+magnetic_vector_potential()
+
+magnetic_vector_potential(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+magnetic_vector_potential(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [magnetic_vector_potential operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_vector_potential.md)
+
+**DPF Framework Reference:** [magnetic_vector_potential operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/magnetic_vector_potential.md)
 
 **Parameters:**
 

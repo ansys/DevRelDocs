@@ -12,12 +12,6 @@ license: None
 
 Reads coordinate systems data from the result files contained in the streams or data sources.
 
-## Supported file types
-
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
-
-- mapdl: rst, rstp, rth 
-
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.

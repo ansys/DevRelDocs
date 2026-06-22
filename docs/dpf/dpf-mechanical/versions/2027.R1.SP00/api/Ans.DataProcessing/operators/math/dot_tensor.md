@@ -4,13 +4,13 @@ uid: Ans.DataProcessing.operators.math.dot_tensor
 
 # *class* dot_tensor(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-DEPRECATED, PLEASE USE GENERALIZED INNER PRODUCT. Computes element-wise dot product between two tensor fields.
+DEPRECATED, PLEASE USE GENERALIZED INNER PRODUCT. Computes entity-wise dot product between two tensor fields.
 
 available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [dot_tensor operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/dot_tensor.md)
+**DPF Framework Reference:** [dot_tensor operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/dot_tensor.md)
 
 **Parameters:**
 

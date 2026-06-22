@@ -10,7 +10,7 @@ available inputs: `time_scoping` (Scoping, IList int, System.Collections.IEnumer
 
 available outputs: `fields_container` (FieldsContainer), `meshes_container` (MeshesContainer)
 
-**DPF Framework Reference:** [strain_eqv_as_mechanical operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/strain_eqv_as_mechanical.md)
+**DPF Framework Reference:** [strain_eqv_as_mechanical operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/strain_eqv_as_mechanical.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping), `extension` (
 
 available outputs: `meshed_region` (MeshedRegion)
 
-**DPF Framework Reference:** [mesh_extraction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_extraction.md)
+**DPF Framework Reference:** [mesh_extraction operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_extraction.md)
 
 **Parameters:**
 

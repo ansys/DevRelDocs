@@ -10,7 +10,12 @@ license: None
 
 ## Description
 
-Shifts the phase of a real and an imaginary field (in 0 and 1) of a given angle (in 3) of a unit (in 4). The resulting field is computed as field_out = real_field`*`cos(angle) - imaginary_field`*`sin(angle).
+
+Projects a [phasor](https://en.wikipedia.org/wiki/Phasor) field onto a given phase angle $\theta$:
+$\mathrm{out}[i] = \mathrm{fieldReal}[i] \cdot \cos(\theta) - \mathrm{fieldImaginary}[i] \cdot \sin(\theta)$.
+When pin 4 is true, the absolute value of the projection is returned instead.
+If the imaginary field is absent and pin 5 is true, the imaginary part is treated as zero.
+
 
 ## Inputs
 
@@ -50,7 +55,7 @@ field or fields container with only one field is expected
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-
+Phase angle $\theta$ to project onto, in the unit specified by pin 3 (default: radians).
 
 <a id="input_3"></a>
 ### unit_name (Pin 3)
@@ -66,7 +71,7 @@ String Unit. Supported values: "deg" or "rad". Default: "rad".
 - **Required:** Yes
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-
+If true, the absolute value of the projection is returned (default: false).
 
 <a id="input_5"></a>
 ### imaginary_part_null (Pin 5)
@@ -93,7 +98,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Projected field $\mathrm{fieldReal} \cdot \cos(\theta) - \mathrm{fieldImaginary} \cdot \sin(\theta)$, with the unit of pin 0.
 
 
 ## Configurations

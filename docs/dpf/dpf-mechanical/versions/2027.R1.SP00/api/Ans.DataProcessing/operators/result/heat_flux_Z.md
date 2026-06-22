@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.heat_flux_Z
 
 # *class* heat_flux_Z(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-heat_flux_Z()
-heat_flux_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-heat_flux_Z(config: OperatorConfig)
+heat_flux_Z()
+
+heat_flux_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+heat_flux_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [heat_flux_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_flux_Z.md)
+
+**DPF Framework Reference:** [heat_flux_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_flux_Z.md)
 
 **Parameters:**
 

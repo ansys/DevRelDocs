@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.modal_basis
 
 # *class* modal_basis(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-modal_basis()
-modal_basis(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-modal_basis(config: OperatorConfig)
+modal_basis()
+
+modal_basis(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_basis(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_basis operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_basis.md)
+
+**DPF Framework Reference:** [modal_basis operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_basis.md)
 
 **Parameters:**
 

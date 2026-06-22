@@ -44,7 +44,7 @@ Point on a local element data within a mesh.
 * `definition {"type":"element","name":"definition","attributes":{},"children":[{"type":"text","text":"friend class MeshedRegion"}]}`
 * `argsstring {"type":"element","name":"argsstring","attributes":{},"children":[]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ElementCursor::MeshedRegion"}]}`
-* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"MeshedRegion"}]},{"type":"text","text":"\n        "}]}`
+* `param {"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"type","attributes":{},"children":[{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"classansys_1_1dpf_1_1MeshedRegion"},"children":[{"type":"text","text":"MeshedRegion"}]}]},{"type":"text","text":"\n        "}]}`
 -->
 
 ## Public functions
@@ -93,7 +93,7 @@ ansys::dpf::ElementCursor::ElementCursor(ElementCursor const &)=delete
 
 **Parameters**:
 
-* ElementCursor const &
+* [ElementCursor](classansys-dpf-elementcursor.md#classansys-dpf-elementcursor) const &
 
 **Return type**: 
 
@@ -122,7 +122,7 @@ ansys::dpf::ElementCursor::ElementCursor(ElementCursor &&)=delete
 
 **Parameters**:
 
-* ElementCursor &&
+* [ElementCursor](classansys-dpf-elementcursor.md#classansys-dpf-elementcursor) &&
 
 **Return type**: 
 

@@ -10,7 +10,7 @@ available inputs: `nodal_scoping` (Scoping, ScopingsContainer) (optional), `elem
 
 available outputs: `force_accumulation` (FieldsContainer), `moment_accumulation` (FieldsContainer), `forces_on_nodes` (FieldsContainer), `moments_on_nodes` (FieldsContainer)
 
-**DPF Framework Reference:** [force_summation_psd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/force_summation_psd.md)
+**DPF Framework Reference:** [force_summation_psd operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/force_summation_psd.md)
 
 **Parameters:**
 

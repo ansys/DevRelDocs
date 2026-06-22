@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.total_strain
 
 # *class* total_strain(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-total_strain()
-total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-total_strain(config: OperatorConfig)
+total_strain()
+
+total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+total_strain(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [total_strain operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain.md)
+
+**DPF Framework Reference:** [total_strain operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain.md)
 
 **Parameters:**
 

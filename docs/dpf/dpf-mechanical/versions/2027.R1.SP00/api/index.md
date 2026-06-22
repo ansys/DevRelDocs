@@ -7,6 +7,7 @@ uid: index
 ## Namespaces
 
 - [Ans.DataProcessing](Ans.DataProcessing/index.md)
+- [Ans.DataProcessing.internal_objects](Ans.DataProcessing/internal_objects/index.md)
 - [Ans.DataProcessing.operators](Ans.DataProcessing/operators/index.md)
 - [Ans.DataProcessing.operators.averaging](Ans.DataProcessing/operators/averaging/index.md)
 - [Ans.DataProcessing.operators.compression](Ans.DataProcessing/operators/compression/index.md)
@@ -25,7 +26,6 @@ uid: index
 - [Ans.DataProcessing.operators.min_max](Ans.DataProcessing/operators/min_max/index.md)
 - [Ans.DataProcessing.operators.other](Ans.DataProcessing/operators/other/index.md)
 - [Ans.DataProcessing.operators.result](Ans.DataProcessing/operators/result/index.md)
-- [Ans.DataProcessing.operators.result.mapdl](Ans.DataProcessing/operators/result/mapdl/index.md)
 - [Ans.DataProcessing.operators.scoping](Ans.DataProcessing/operators/scoping/index.md)
 - [Ans.DataProcessing.operators.serialization](Ans.DataProcessing/operators/serialization/index.md)
 - [Ans.DataProcessing.operators.server](Ans.DataProcessing/operators/server/index.md)

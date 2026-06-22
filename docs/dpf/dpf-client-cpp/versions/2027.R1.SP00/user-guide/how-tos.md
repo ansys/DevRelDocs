@@ -12,9 +12,11 @@ This section gathers pages related to DPF tutorials.
 
 [Writing a DPF operator](write-an-operator.md)
 
+[Logging in DPF operators and plugins](logging-in-dpf.md)
+
 > **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >
-> Check the [DPF Framework documentation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.
+> Check the [DPF Framework documentation](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/index.md) to learn more about DPF and its capabilities.
 >
-> Check the [DPF page](https://ansys-a.devportal.io/docs/dpf) on the Developer Portal to review all available developer documentation.
+> Check the [DPF page](https://developer-a.synopsys.com/docs/dpf) on the Developer Portal to review all available developer documentation.

@@ -26,7 +26,7 @@ available inputs: `source_mesh` (MeshedRegion, Field), `source_mesh_id` (Int32),
 
 available outputs: `mapped_data` (FieldsContainer), `apply_output` (Any)
 
-**DPF Framework Reference:** [apply_mechanical_native_mapping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/apply_mechanical_native_mapping.md)
+**DPF Framework Reference:** [apply_mechanical_native_mapping operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mapping/apply_mechanical_native_mapping.md)
 
 **Parameters:**
 

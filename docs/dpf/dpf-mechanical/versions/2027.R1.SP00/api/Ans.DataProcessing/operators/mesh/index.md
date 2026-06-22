@@ -22,7 +22,7 @@ uid: Ans.DataProcessing.operators.mesh
 | [iso_surfaces](Ans_DataProcessing_operators_mesh_iso_surfaces.md) | iso_surfaces() |
 | [make_plane_levelset](Ans_DataProcessing_operators_mesh_make_plane_levelset.md) | Computes the level set for a plane using coordinates.   ///available inputs: coordinates (MeshedRegion, Field), normal (Field), origin (Field) |
 | [make_sphere_levelset](Ans_DataProcessing_operators_mesh_make_sphere_levelset.md) | Computes the level set for a sphere using coordinates.   ///available inputs: coordinates (MeshedRegion, Field), origin (Field), radius (double) |
-| [mesh_clip](Ans_DataProcessing_operators_mesh_mesh_clip.md) | mesh_clip() |
+| [mesh_clip](Ans_DataProcessing_operators_mesh_mesh_clip.md) | Clips a volume mesh along an iso value x, and construct the volume mesh defined by v < x.   ///available inputs: field (Field), iso_value (double), closed_surface (Int32), mesh (MeshedRegion) (optional), slice_surfaces (bool) |
 | [mesh_cut](Ans_DataProcessing_operators_mesh_mesh_cut.md) | Extracts a skin of the mesh in triangles in a new meshed region.   ///available inputs: field (Field), iso_value (double), closed_surface (Int32), mesh (MeshedRegion) (optional), slice_surfaces (bool) |
 | [mesh_extraction](Ans_DataProcessing_operators_mesh_mesh_extraction.md) | Take a mesh and a scoping (elemental or nodal) and create a new mesh that contains this selection only.   ///available inputs: mesh (MeshedRegion), mesh_scoping (Scoping), extension (Int32) (optional) |
 | [mesh_get_attribute](Ans_DataProcessing_operators_mesh_mesh_get_attribute.md) | Uses the MeshedRegion APIs to return a given attribute of the mesh in input.   ///available inputs: meshed_region (MeshedRegion), property_name (string), property_identifier (Int32, string) (optional) |
@@ -30,8 +30,8 @@ uid: Ans.DataProcessing.operators.mesh
 | [mesh_provider](Ans_DataProcessing_operators_mesh_mesh_provider.md) | Reads a mesh from result files. |
 | [mesh_to_graphics](Ans_DataProcessing_operators_mesh_mesh_to_graphics.md) | Generate tessellation for input mesh   ///available inputs: mesh_scoping (Scoping) (optional), node_normals (bool) (optional), mesh (MeshedRegion) |
 | [mesh_to_graphics_edges](Ans_DataProcessing_operators_mesh_mesh_to_graphics_edges.md) | Generate edges of surface elements for input mesh   ///available inputs: mesh_scoping (Scoping) (optional), include_mid_nodes (bool) (optional), mesh (MeshedRegion) |
-| [mesh_to_pyvista](Ans_DataProcessing_operators_mesh_mesh_to_pyvista.md) | Export a MeshedRegion in the pyVista format.   ///available inputs: coordinates (Field) (optional), as_linear (bool) (optional), mesh (MeshedRegion), vtk_updated (bool) (optional), as_poly (bool) (optional) |
-| [mesh_to_tetra](Ans_DataProcessing_operators_mesh_mesh_to_tetra.md) | mesh_to_tetra() |
+| [mesh_to_pyvista](Ans_DataProcessing_operators_mesh_mesh_to_pyvista.md) | Export a MeshedRegion to the pyVista format. |
+| [mesh_to_tetra](Ans_DataProcessing_operators_mesh_mesh_to_tetra.md) | Converts 3D meshes of arbitrary 3D element types into a tetrahedral mesh, output at pin (0). Non 3D elements are ignored. Scopings providing the mapping from resulting nodes & elements to their original ID in the input mesh are provided, output pins (1) & (2) respectively.   ///available inputs: mesh (MeshedRegion) |
 | [meshes_provider](Ans_DataProcessing_operators_mesh_meshes_provider.md) | Reads meshes from result files. Meshes can be spatially or temporally varying. |
 | [node_coordinates](Ans_DataProcessing_operators_mesh_node_coordinates.md) | Returns the node coordinates of the mesh(es) in input.   ///available inputs: mesh (MeshedRegion, MeshesContainer) |
 | [point_cloud_search](Ans_DataProcessing_operators_mesh_point_cloud_search.md) | point_cloud_search() |

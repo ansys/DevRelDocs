@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [faces_area operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/faces_area.md)
+**DPF Framework Reference:** [faces_area operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/faces_area.md)
 
 **Parameters:**
 

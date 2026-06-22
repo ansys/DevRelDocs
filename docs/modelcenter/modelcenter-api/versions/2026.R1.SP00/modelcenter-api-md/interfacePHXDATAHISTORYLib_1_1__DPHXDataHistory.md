@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory"></a>
 # Interface PHXDATAHISTORYLib::\_DPHXDataHistory
 
 ![][IDL]
@@ -11,7 +12,7 @@ The Data History is the back-end data storage piece of a Data Explorer. It conta
 
 **Inherits from**:
 
-* [PHXDataHistoryEvents](undefined.md#undefined)
+* PHXDataHistoryEvents
 
 ## Members
 
@@ -107,9 +108,11 @@ The Data History is the back-end data storage piece of a Data Explorer. It conta
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::suggestedIndependantVar
 ```
+
 
 
 
@@ -122,6 +125,12 @@ The name of the suggested independent Variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::suggestedIndependantVar"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a1713976f65a0fdc2d37e9606bbc8672b"></a>
 ### Property suggestedIndependentVar
 
@@ -129,9 +138,11 @@ The name of the suggested independent Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::suggestedIndependentVar
 ```
+
 
 
 
@@ -141,6 +152,12 @@ The name of the suggested independent Variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::suggestedIndependentVar"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ae1e8705d32948c759d3ab3e59bf6306b"></a>
 ### Property suggestedDependentVars
 
@@ -148,9 +165,11 @@ The name of the suggested independent Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::suggestedDependentVars
 ```
+
 
 
 
@@ -160,6 +179,12 @@ An array of strings which are the suggested Variable names to use for dependent 
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::suggestedDependentVars"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a07162878a7dcf1c2a6ea41a56c9ddb6b"></a>
 ### Property suggestedCountFrom
 
@@ -167,9 +192,11 @@ An array of strings which are the suggested Variable names to use for dependent 
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::suggestedCountFrom
 ```
+
 
 
 
@@ -179,6 +206,12 @@ Suggested number to use when showing the runs in a GUI as the first run number. 
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::suggestedCountFrom"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a1a709440522385b3161831eea313c15d"></a>
 ### Property id
 
@@ -186,9 +219,11 @@ Suggested number to use when showing the runs in a GUI as the first run number. 
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 178)
 
+
 ```
 settingRun PHXDATAHISTORYLib::_DPHXDataHistory::id
 ```
+
 
 
 
@@ -198,12 +233,19 @@ settingRun PHXDATAHISTORYLib::_DPHXDataHistory::id
 
 **Return type**: settingRun
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::id"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a226709acf22397c41215acd7f0ab0605"></a>
 ### Property centerLinkServer
 
 ![][private]
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
+
 
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkServer
@@ -215,7 +257,14 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkServer
 
 
 
+
 **Return type**: BSTR
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkServer"}]}`
+-->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a61514463a5c0f82163d4789cd9e60f8a"></a>
 ### Property centerLinkRunMatrixID
@@ -223,6 +272,7 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkServer
 ![][private]
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
+
 
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkRunMatrixID
@@ -234,7 +284,14 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkRunMatrixID
 
 
 
+
 **Return type**: BSTR
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkRunMatrixID"}]}`
+-->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1af8f87624e919e067935bb5403261b63f"></a>
 ### Property centerLinkJobConnector
@@ -242,6 +299,7 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkRunMatrixID
 ![][private]
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
+
 
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkJobConnector
@@ -253,7 +311,14 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkJobConnector
 
 
 
+
 **Return type**: BSTR
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkJobConnector"}]}`
+-->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aac2a1a4d2bc65319ac7e94f0f20368b1"></a>
 ### Property centerLinkQueue
@@ -261,6 +326,7 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkJobConnector
 ![][private]
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
+
 
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkQueue
@@ -272,7 +338,14 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkQueue
 
 
 
+
 **Return type**: BSTR
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkQueue"}]}`
+-->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a4c0b3167dd18062593fb1a221bce40af"></a>
 ### Property dataHistoryToModel
@@ -281,9 +354,11 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkQueue
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 LPDISPATCH PHXDATAHISTORYLib::_DPHXDataHistory::dataHistoryToModel
 ```
+
 
 
 
@@ -293,6 +368,12 @@ Get or set the Data History to Model object (see [\_DPHXDataHistoryToModel](inte
 
 **Return type**: LPDISPATCH
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::dataHistoryToModel"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ac68974459907dcaf6b35ea631bba2801"></a>
 ### Property warmStartStudyComplete
 
@@ -300,9 +381,11 @@ Get or set the Data History to Model object (see [\_DPHXDataHistoryToModel](inte
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::warmStartStudyComplete
 ```
+
 
 
 
@@ -312,6 +395,12 @@ Gets/Sets warm-start trade study complete flag.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::warmStartStudyComplete"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aeecce56460ab6c1c203c9d56433f4371"></a>
 ### Property tradeStudyModelFile
 
@@ -319,9 +408,11 @@ Gets/Sets warm-start trade study complete flag.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::tradeStudyModelFile
 ```
+
 
 
 
@@ -331,6 +422,12 @@ Gets/Sets the temp model file name saved for crash recovery of trade studies. Th
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::tradeStudyModelFile"}]}`
+-->
+
 ## Public functions
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a9a819127adb7f83be0acfa4e79f4643d"></a>
@@ -338,9 +435,11 @@ Gets/Sets the temp model file name saved for crash recovery of trade studies. Th
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addVariable(LPDISPATCH var)
 ```
+
 
 
 
@@ -363,14 +462,22 @@ Adds a Variable to the Data History. All existing runs are appended with a blank
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::addVariable"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a8ee93fde7260e85a34331b2c32a1289c"></a>
 ### Function setNumExpectedRuns
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setNumExpectedRuns(long numRuns)
 ```
+
 
 
 
@@ -393,14 +500,22 @@ Sets the expected number of runs. Used for informational and GUI purposes.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setNumExpectedRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a74028f784809522e15bf71133d8fd23c"></a>
 ### Function startRuns
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::startRuns()
 ```
+
 
 
 
@@ -410,14 +525,22 @@ Identifies that the runs are starting.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::startRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a0576632449bf05bc8b0274fb341a3332"></a>
 ### Function endRuns
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::endRuns()
 ```
+
 
 
 
@@ -427,14 +550,22 @@ Tells the Data History that all runs are now complete. It will pass the data alo
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::endRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ac08c8abcc799991d7b12548ae1172378"></a>
 ### Function getNumFailedRuns
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumFailedRuns()
 ```
+
 
 
 
@@ -447,14 +578,22 @@ The number of failed runs.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumFailedRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a90e9fc9cfb0d469c4169504e6f2c9cd4"></a>
 ### Function getErrorID
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getErrorID(long run)
 ```
+
 
 
 
@@ -482,14 +621,22 @@ The error ID. 0 means success. All other values mean failure.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getErrorID"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a876302a3d26eda812e93bdd8b15bb26d"></a>
 ### Function getErrorMessage
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getErrorMessage(long run)
 ```
+
 
 
 
@@ -517,14 +664,22 @@ The error message of the run.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getErrorMessage"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a51fddca34fae5fbd0a5f5c858eddac26"></a>
 ### Function setError
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setError(long run, long errorID, BSTR message)
 ```
+
 
 
 
@@ -551,14 +706,22 @@ Sets the error for a run.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setError"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a59b24c674a512a94640f4c5a890e9309"></a>
 ### Function getNumRuns
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumRuns()
 ```
+
 
 
 
@@ -571,14 +734,22 @@ The total number of runs.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aca767f94c4b80412c79eba62214eebfd"></a>
 ### Function getNumVariables
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumVariables()
 ```
+
 
 
 
@@ -591,14 +762,22 @@ The number of variables.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumVariables"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a9260828e57d6cee2ec51e26dcef48ea7"></a>
 ### Function setResult
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setResult(VARIANT index, long run, VARIANT value, boolean valid, boolean modified)
 ```
+
 
 
 
@@ -629,14 +808,22 @@ Sets the result for a run.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setResult"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a43d806edede4bc2efa5e88c7615189ed"></a>
 ### Function getValue
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getValue(VARIANT index, long run)
 ```
+
 
 
 
@@ -666,14 +853,22 @@ The value of the variable.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getValue"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a55e6f50a94f58d4c39bb6fe06c5398da"></a>
 ### Function isValid
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isValid(VARIANT index, long run)
 ```
+
 
 
 
@@ -703,14 +898,22 @@ True if the variable is valid, else false.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::isValid"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1af7b8598fa12d5b516344517c0593a983"></a>
 ### Function isModified
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isModified(VARIANT index, long run)
 ```
+
 
 
 
@@ -740,14 +943,22 @@ True if the modified flag is true, else false.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::isModified"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a582bd6a4ad61e03070dcde9e4df76812"></a>
 ### Function toCSVFile
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::toCSVFile(BSTR fileName, [optional] VARIANT variablesInRows, [optional] VARIANT includeFailed)
 ```
+
 
 
 
@@ -774,14 +985,22 @@ Writes a CSV file of all the data in the Data History.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::toCSVFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ac6e672dc87278a4037bbf085b76f6aa4"></a>
 ### Function toXML
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::toXML([optional]VARIANT includeRunData)
 ```
+
 
 
 
@@ -809,14 +1028,22 @@ The XML string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::toXML"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a7d11e224b1eaac4fab085ed9fa3d183b"></a>
 ### Function toXMLFile
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::toXMLFile(BSTR fileName, [optional]VARIANT includeRunData)
 ```
+
 
 
 
@@ -841,14 +1068,22 @@ Writes the Data History contents to an XML file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::toXMLFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a1649ee497672683a575cc6cd6b78c9a6"></a>
 ### Function fromXML
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromXML(BSTR xmlStr, [optional] VARIANT root)
 ```
+
 
 
 
@@ -873,14 +1108,22 @@ Tells the Data History to load its state from the XML string passed in.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::fromXML"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a3b65f441a218c193aae8863e6354cc2d"></a>
 ### Function fromXMLFile
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromXMLFile(BSTR fileName, [optional] VARIANT root)
 ```
+
 
 
 
@@ -905,14 +1148,22 @@ Tells the Data History to load its state from the XML file passed in.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::fromXMLFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ada3b86a293b267a74999e35c70fea775"></a>
 ### Function toCSV
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::toCSV([optional] VARIANT variablesInRows, [optional] VARIANT includeFailed)
 ```
+
 
 
 
@@ -942,14 +1193,22 @@ The string of comma-seperated values.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::toCSV"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ac1ad590e863b19678c6e47ae4ff3e521"></a>
 ### Function getNumNonEmptyRuns
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumNonEmptyRuns()
 ```
+
 
 
 
@@ -962,14 +1221,22 @@ The number of runs that contain data.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumNonEmptyRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a074ed759e40eb4931c5b6e23f2c72e02"></a>
 ### Function getVariable
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::getVariable(VARIANT index)
 ```
+
 
 
 
@@ -997,14 +1264,22 @@ An IDispatch* to the [IDHVariable](interfacePHXDATAHISTORYLib_1_1IDHVariable.md#
 
 **Return type**: IDispatch *
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getVariable"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a68acd508b225f5c74c27daf848f3ae27"></a>
 ### Function createVariable
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::createVariable()
 ```
+
 
 
 
@@ -1017,14 +1292,22 @@ An IDispatch* to a newly created [IDHVariable](interfacePHXDATAHISTORYLib_1_1IDH
 
 **Return type**: IDispatch *
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::createVariable"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ab045302c25ef3b584eb3736b9071569b"></a>
 ### Function isRunning
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isRunning()
 ```
+
 
 
 
@@ -1037,14 +1320,22 @@ True if running flag is set, else false.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::isRunning"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a250340a6fc41c19a43783cd3171db63d"></a>
 ### Function getNumExpectedRuns
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumExpectedRuns()
 ```
+
 
 
 
@@ -1057,14 +1348,22 @@ The number of expected runs.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumExpectedRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a42f819d3a26184898d9487b42894d4e2"></a>
 ### Function getRunName
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getRunName(long runNum)
 ```
+
 
 
 
@@ -1092,14 +1391,22 @@ The name of the particular run.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getRunName"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1adff96af9fbbb349cd4d0d69aab8a1b43"></a>
 ### Function setRunName
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setRunName(long runNum, BSTR name)
 ```
+
 
 
 
@@ -1124,14 +1431,22 @@ Sets the name of a run. This name typically will show up in the run header for t
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setRunName"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ab64f03fca9f43b3a491393d44c9144d5"></a>
 ### Function insertRun
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::insertRun(long insertBefore)
 ```
+
 
 
 
@@ -1154,14 +1469,22 @@ Inserts a blank run.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::insertRun"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a0be98d87ed201827314037c9100e8fce"></a>
 ### Function deleteRun
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::deleteRun(long run)
 ```
+
 
 
 
@@ -1184,14 +1507,22 @@ Deletes all the data for a numbered run.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::deleteRun"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1af26d20927c5ef5ccd3304b1c3ba220c4"></a>
 ### Function deleteVariable
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::deleteVariable(VARIANT index)
 ```
+
 
 
 
@@ -1214,14 +1545,22 @@ Deletes a Variable from the Data History
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::deleteVariable"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a45bea3dd1938199a0846f46c3d024503"></a>
 ### Function getFormattedValue
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getFormattedValue(VARIANT index, long run)
 ```
+
 
 
 
@@ -1251,14 +1590,22 @@ The formatted value of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getFormattedValue"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a9d98950fdb4e2e3f07519c40580c8ae9"></a>
 ### Function setFormattedResult
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setFormattedResult(VARIANT index, long run, BSTR value, boolean valid, boolean modified)
 ```
+
 
 
 
@@ -1289,14 +1636,22 @@ Sets the result for a run using formatted string text.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setFormattedResult"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a0b2e2ab12279325bc63b9db7330d6bab"></a>
 ### Function getNumCustomVars
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumCustomVars()
 ```
+
 
 
 
@@ -1309,14 +1664,22 @@ The number of custom variables.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumCustomVars"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a01538f2f06fba2512c31fb7a35a04b4d"></a>
 ### Function getUniqueID
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getUniqueID()
 ```
+
 
 
 
@@ -1329,14 +1692,22 @@ The unique ID for this DataHistory object.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getUniqueID"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a03fd55d685a75a6041202d00e676e052"></a>
 ### Function getVariableValues
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getVariableValues(VARIANT index)
 ```
+
 
 
 
@@ -1359,14 +1730,22 @@ Gets all the values of a variable as an array of variants.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getVariableValues"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1adb61a037918e5f45dfc6a43541023970"></a>
 ### Function createDesignVariable
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::createDesignVariable(VARIANT index)
 ```
+
 
 
 
@@ -1394,14 +1773,22 @@ The index of the newly created variable.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::createDesignVariable"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a156c9828bc7c8251e68886297349ccab"></a>
 ### Function addVariableAt
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addVariableAt(LPDISPATCH var, long location)
 ```
+
 
 
 
@@ -1426,14 +1813,22 @@ Adds a Variable to the Data History. All existing runs are appended with a blank
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::addVariableAt"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aff837e76c92ab15ac33eebfe3f348c99"></a>
 ### Function setVariableValues
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setVariableValues(VARIANT index, long run, VARIANT values, boolean valid, boolean modified)
 ```
+
 
 
 
@@ -1464,14 +1859,22 @@ Sets all values of a variable as a chunk.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setVariableValues"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a81c862c59a3b280376afc1b9bd221116"></a>
 ### Function isHighlighted
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isHighlighted(long run)
 ```
+
 
 
 
@@ -1499,14 +1902,22 @@ True if hightlighted, false otherwise.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::isHighlighted"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a77749479f2bbdf8caa1f90119e6112fd"></a>
 ### Function highlight
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::highlight(long run, boolean highlight, boolean handleEvent)
 ```
+
 
 
 
@@ -1536,14 +1947,22 @@ Highlight or unhighlight a run.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::highlight"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ade57b335d32a772b6de31d129b6374bc"></a>
 ### Function getNumDesignVariables
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumDesignVariables()
 ```
+
 
 
 
@@ -1556,14 +1975,22 @@ The number of design variables.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumDesignVariables"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1acfc1654be0cc6fbe5469b487f9576bb9"></a>
 ### Function setTradeStudySetup
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setTradeStudySetup(BSTR setup)
 ```
+
 
 
 
@@ -1580,14 +2007,22 @@ Sets the trade study XML setup data.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setTradeStudySetup"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a5f068466f0c9b18f8ba1681d97c2ddf9"></a>
 ### Function getTradeStudySetup
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getTradeStudySetup()
 ```
+
 
 
 
@@ -1600,14 +2035,22 @@ The XML representaion of the trady study setup.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getTradeStudySetup"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a7e9c912ffb74926c67437bf50b8b944f"></a>
 ### Function setTradeStudyType
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setTradeStudyType(BSTR type)
 ```
+
 
 
 
@@ -1624,14 +2067,22 @@ Sets the trade study type that generated the data ("DOE", "PAT", etc).
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setTradeStudyType"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a9f51a8f280c8bc80f4cebcb9de40ab5e"></a>
 ### Function getTradeStudyType
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getTradeStudyType()
 ```
+
 
 
 
@@ -1644,14 +2095,22 @@ The type of trade study.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getTradeStudyType"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ae53e12cca23a7988b0d8c7dfdbe14308"></a>
 ### Function setShortVariableNames
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setShortVariableNames(boolean shortenVariableNames)
 ```
+
 
 
 
@@ -1674,14 +2133,22 @@ Sets a flag that determines if variables will be returned in long or short form.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setShortVariableNames"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aa6fcc8d517001f5b1e1c2b4cb9d6a95c"></a>
 ### Function setRunValues
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setRunValues(long run, VARIANT values, BOOL valid, BOOL modified)
 ```
+
 
 
 
@@ -1710,14 +2177,22 @@ Sets all values of a variable as a chunk.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setRunValues"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a2acdef5238b168dae7f3294ba1629c77"></a>
 ### Function getFailedRunIndexes
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getFailedRunIndexes()
 ```
+
 
 
 
@@ -1730,14 +2205,22 @@ An array of long values.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getFailedRunIndexes"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a21df6ed38dc18c8cc9054f40f1f9daaf"></a>
 ### Function toXMLSaveContext
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::toXMLSaveContext(LPDISPATCH saveContext, [optional] VARIANT includeRunData)
 ```
+
 
 
 
@@ -1762,14 +2245,22 @@ Writes the Data History contents to an XML file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::toXMLSaveContext"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ad00d42b514b490170b0d28930b4bd32b"></a>
 ### Function fromXMLSaveContext
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromXMLSaveContext(LPDISPATCH saveContext, [optional] VARIANT root)
 ```
+
 
 
 
@@ -1794,14 +2285,22 @@ Tells the Data History to load its state from the XML file passed in.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::fromXMLSaveContext"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a434f332ecfce0734f8f940da4b722cc6"></a>
 ### Function getCompletedRunIndices
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getCompletedRunIndices()
 ```
+
 
 
 
@@ -1814,14 +2313,22 @@ An array of long values.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getCompletedRunIndices"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ad0d48129784f8ce140ff3dfb76ee8ba3"></a>
 ### Function isRunComplete
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isRunComplete(long run)
 ```
+
 
 
 
@@ -1843,14 +2350,22 @@ Whether the run has completed or not
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::isRunComplete"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a9e6d72c9c2f589323e745f69426aaefb"></a>
 ### Function addCheckpoint
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addCheckpoint(long runNumber, BSTR value)
 ```
+
 
 
 
@@ -1869,14 +2384,22 @@ Add a warm start checkpoint to the cache
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::addCheckpoint"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ae1070b5293d700b8e095477fbb54b80c"></a>
 ### Function getNumCheckpoints
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumCheckpoints()
 ```
+
 
 
 
@@ -1889,14 +2412,22 @@ the number of warm start checkpoints available
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumCheckpoints"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ae28168a3a789a8d8c2413e6c58c635d0"></a>
 ### Function getCheckpointValue
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getCheckpointValue(long checkpointIndex)
 ```
+
 
 
 
@@ -1918,14 +2449,22 @@ the checkpoint value
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getCheckpointValue"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a71781fe2343b7ef49d1fb80ed91d295a"></a>
 ### Function getCheckpointRunNumber
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getCheckpointRunNumber(long checkpointIndex)
 ```
+
 
 
 
@@ -1947,14 +2486,22 @@ the checkpoint run number
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getCheckpointRunNumber"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1adc572aab955548292d15997e1b519434"></a>
 ### Function setUniqueID
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setUniqueID(long identifier)
 ```
+
 
 
 
@@ -1971,14 +2518,22 @@ Sets an ID that uniquely identifies this Data History.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setUniqueID"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a023f64de843e0e97d47e37b9cfbac5ae"></a>
 ### Function getNumCompletedRuns
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumCompletedRuns()
 ```
+
 
 
 
@@ -1997,14 +2552,22 @@ The number of completed runs for the current trade study
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getNumCompletedRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a76a5d19e76fdfe69e61d6910917acb32"></a>
 ### Function getCompletedRunData
 
 ![][public]
 
+
 ```
 ULONG PHXDATAHISTORYLib::_DPHXDataHistory::getCompletedRunData([out] VARIANT *runIDs, [out] VARIANT *errorIDs, [out] VARIANT *errorMessages, [out] VARIANT *variableValues, [out] LONG *endSequenceNumber, [in, defaultvalue(0)] ULONG startSequenceNumber, [in, defaultvalue(0xFFFFFFFF)] ULONG maxLength, [in, defaultvalue(FALSE)] boolean allVariables)
 ```
+
 
 
 
@@ -2047,14 +2610,22 @@ next startSequenceNumber to use in next call to getCompletedRunData. This value 
 
 **Return type**: ULONG
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getCompletedRunData"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ab7998245db9550b3e7c21a25b37ce7bf"></a>
 ### Function getHighlightedRuns
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getHighlightedRuns()
 ```
+
 
 
 
@@ -2067,14 +2638,22 @@ the set of currently highlighted run indices as an array of integers
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getHighlightedRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aea1fd966af29d2f3d0f7d95ac8f93ce3"></a>
 ### Function setHighlightedRuns
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setHighlightedRuns(VARIANT selectedRunIndices)
 ```
+
 
 
 
@@ -2099,14 +2678,22 @@ Specify the set of currently highlighted run indices.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setHighlightedRuns"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a9bf37e7831e0c32cfe17225f019c9cc4"></a>
 ### Function addVariableStructs
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addVariableStructs(VARIANT dhVarStructs, long run)
 ```
+
 
 
 
@@ -2125,6 +2712,12 @@ Sets the results for a run. This method will add variables to the DataHistory if
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::addVariableStructs"}]}`
+-->
+
 ## Private functions
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a3ff1b9e535edf561dfa7f575814f1792"></a>
@@ -2132,9 +2725,11 @@ Sets the results for a run. This method will add variables to the DataHistory if
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromCenterLink(BSTR serverName, BSTR runMatrixID, BSTR userName, BSTR password)
 ```
+
 
 
 
@@ -2151,14 +2746,22 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::fromCenterLink(BSTR serverName, BSTR r
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::fromCenterLink"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ab6b36fde7ab38b09357add72dcbaf225"></a>
 ### Function setUsernamePassword
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setUsernamePassword(BSTR username, BSTR password)
 ```
+
 
 
 
@@ -2173,14 +2776,22 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::setUsernamePassword(BSTR username, BST
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setUsernamePassword"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a8fe368442becfe48a2642b16d9a73e3c"></a>
 ### Function setResultAsFile
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setResultAsFile(VARIANT index, long run, boolean valid, boolean modified, BSTR tempFileName, BSTR tempFileDir)
 ```
+
 
 
 
@@ -2199,10 +2810,17 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::setResultAsFile(VARIANT index, long ru
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setResultAsFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aaecbc010eb87c6a2fbe894a646d83a4e"></a>
 ### Function getDatabaseFile
 
 ![][private]
+
 
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getDatabaseFile()
@@ -2214,16 +2832,25 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getDatabaseFile()
 
 
 
+
 **Return type**: BSTR
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getDatabaseFile"}]}`
+-->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1ae38c2eeccd0c6e3c6c2e68063bd7008a"></a>
 ### Function setDatabaseFile
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setDatabaseFile(BSTR filename)
 ```
+
 
 
 
@@ -2237,10 +2864,17 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::setDatabaseFile(BSTR filename)
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::setDatabaseFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a222463b648be93775c026887adf9d75f"></a>
 ### Function removeAutosave
 
 ![][private]
+
 
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::removeAutosave()
@@ -2252,16 +2886,25 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::removeAutosave()
 
 
 
+
 **Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::removeAutosave"}]}`
+-->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1a03430a06338ca51c6f5c45421a47f320"></a>
 ### Function getVariable2
 
 ![][private]
 
+
 ```
 IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::getVariable2(VARIANT index)
 ```
+
 
 
 
@@ -2275,14 +2918,22 @@ IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::getVariable2(VARIANT index)
 
 **Return type**: IDispatch *
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getVariable2"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory_1aee367d3da3f483f1d9d476e832c7bb9a"></a>
 ### Function getVariableTempDir
 
 ![][private]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getVariableTempDir(VARIANT index)
 ```
+
 
 
 
@@ -2296,6 +2947,12 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getVariableTempDir(VARIANT index)
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistory::getVariableTempDir"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

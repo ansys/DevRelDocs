@@ -10,7 +10,7 @@ available inputs: `data_sources` (DataSources)
 
 available outputs: `mass` (double)
 
-**DPF Framework Reference:** [total_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_mass.md)
+**DPF Framework Reference:** [total_mass operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_mass.md)
 
 **Parameters:**
 

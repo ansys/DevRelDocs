@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.equivalent_mass
 
 # *class* equivalent_mass(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, all_dofs: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-equivalent_mass()
-equivalent_mass(time_scoping: object, mesh_scoping: object, data_sources: object, all_dofs: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-equivalent_mass(config: OperatorConfig)
+equivalent_mass()
+
+equivalent_mass(time_scoping: object, mesh_scoping: object, data_sources: object, all_dofs: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+equivalent_mass(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [equivalent_mass operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/equivalent_mass.md)
+
+**DPF Framework Reference:** [equivalent_mass operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/equivalent_mass.md)
 
 **Parameters:**
 

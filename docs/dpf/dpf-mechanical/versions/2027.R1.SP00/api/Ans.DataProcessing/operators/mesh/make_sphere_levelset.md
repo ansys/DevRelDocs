@@ -10,7 +10,7 @@ available inputs: `coordinates` (MeshedRegion, Field), `origin` (Field), `radius
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [make_sphere_levelset operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_sphere_levelset.md)
+**DPF Framework Reference:** [make_sphere_levelset operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_sphere_levelset.md)
 
 **Parameters:**
 

@@ -102,7 +102,7 @@ ansys::dpf::MeshInfo::MeshInfo(MeshInfo const &)
 
 **Parameters**:
 
-* MeshInfo const &
+* [MeshInfo](classansys-dpf-meshinfo.md#classansys-dpf-meshinfo) const &
 
 **Return type**: 
 
@@ -131,9 +131,9 @@ MeshInfo & ansys::dpf::MeshInfo::operator=(MeshInfo const &)
 
 **Parameters**:
 
-* MeshInfo const &
+* [MeshInfo](classansys-dpf-meshinfo.md#classansys-dpf-meshinfo) const &
 
-**Return type**: MeshInfo &
+**Return type**: [MeshInfo](classansys-dpf-meshinfo.md#classansys-dpf-meshinfo) &
 
 <!--
 **TODO**:

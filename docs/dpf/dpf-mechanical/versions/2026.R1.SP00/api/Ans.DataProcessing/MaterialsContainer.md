@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.MaterialsContainer
 
 # MaterialsContainer class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 MaterialsContainer(pMaterialsContainer: IntPtr)
 

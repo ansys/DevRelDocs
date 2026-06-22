@@ -1,3 +1,4 @@
+<a id="PlugInMetaData_8odl"></a>
 # File PlugInMetaData.odl
 
 ![][IDL]
@@ -17,6 +18,7 @@
 * [PlugInMetaData](namespacePlugInMetaData.md#namespacePlugInMetaData)
 
 ## Source
+
 
 ```
 // PlugInMetaData.odl : type library source for PlugInMetaData.dll
@@ -63,6 +65,7 @@ library PlugInMetaData
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

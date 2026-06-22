@@ -10,7 +10,7 @@ available inputs: `fieldA` (Field, FieldsContainer), `fieldB` (Field, FieldsCont
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [scale_by_field operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale_by_field.md)
+**DPF Framework Reference:** [scale_by_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/scale_by_field.md)
 
 **Parameters:**
 

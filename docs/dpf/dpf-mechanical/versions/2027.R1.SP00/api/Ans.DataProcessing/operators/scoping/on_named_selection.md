@@ -10,7 +10,7 @@ available inputs: `requested_location` (string), `named_selection_name` (string)
 
 available outputs: `mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [on_named_selection operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_named_selection.md)
+**DPF Framework Reference:** [on_named_selection operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_named_selection.md)
 
 **Parameters:**
 

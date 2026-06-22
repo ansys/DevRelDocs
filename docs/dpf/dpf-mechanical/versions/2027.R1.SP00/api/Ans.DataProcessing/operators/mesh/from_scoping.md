@@ -10,7 +10,7 @@ available inputs: `scoping` (Scoping), `inclusive` (Int32) (optional), `nodes_on
 
 available outputs: `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [from_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scoping.md)
+**DPF Framework Reference:** [from_scoping operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scoping.md)
 
 **Parameters:**
 

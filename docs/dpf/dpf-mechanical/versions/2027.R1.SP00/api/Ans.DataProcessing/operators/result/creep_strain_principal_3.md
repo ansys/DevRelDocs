@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.creep_strain_principal_3
 
 # *class* creep_strain_principal_3(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-creep_strain_principal_3()
-creep_strain_principal_3(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-creep_strain_principal_3(config: OperatorConfig)
+creep_strain_principal_3()
+
+creep_strain_principal_3(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+creep_strain_principal_3(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [creep_strain_principal_3 operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_3.md)
+
+**DPF Framework Reference:** [creep_strain_principal_3 operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_3.md)
 
 **Parameters:**
 

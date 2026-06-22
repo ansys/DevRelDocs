@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Computes element-wise field[i]^p.
+Computes entity-wise field[i]^p.
 
 ## Inputs
 

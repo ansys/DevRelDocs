@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.utility.compute_time_scoping
 
 # *class* compute_time_scoping(time_freq_values: object = None, step: object = None, interpolation_type: object = None, time_freq_support: object = None, config: OperatorConfig = None)
 
-compute_time_scoping()
-compute_time_scoping(time_freq_values: object, step: object, interpolation_type: object, time_freq_support: object, config: OperatorConfig)
-compute_time_scoping(config: OperatorConfig)
+compute_time_scoping()
+
+compute_time_scoping(time_freq_values: object, step: object, interpolation_type: object, time_freq_support: object, config: OperatorConfig)
+
+compute_time_scoping(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_time_scoping operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/compute_time_scoping.md)
+
+**DPF Framework Reference:** [compute_time_scoping operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/compute_time_scoping.md)
 
 **Parameters:**
 

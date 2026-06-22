@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.stress_Y
 
 # *class* stress_Y(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-stress_Y()
-stress_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-stress_Y(config: OperatorConfig)
+stress_Y()
+
+stress_Y(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+stress_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [stress_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_Y.md)
+
+**DPF Framework Reference:** [stress_Y operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/stress_Y.md)
 
 **Parameters:**
 

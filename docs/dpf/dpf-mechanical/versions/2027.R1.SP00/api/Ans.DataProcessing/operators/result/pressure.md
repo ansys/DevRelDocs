@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.pressure
 
 # *class* pressure(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-pressure()
-pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-pressure(config: OperatorConfig)
+pressure()
+
+pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/pressure.md)
+
+**DPF Framework Reference:** [pressure operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/pressure.md)
 
 **Parameters:**
 

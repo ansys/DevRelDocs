@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `label` (string) (option
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [accumulate_level_over_label_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_level_over_label_fc.md)
+**DPF Framework Reference:** [accumulate_level_over_label_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_level_over_label_fc.md)
 
 **Parameters:**
 

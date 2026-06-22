@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.plastic_strain_Z
 
 # *class* plastic_strain_Z(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-plastic_strain_Z()
-plastic_strain_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-plastic_strain_Z(config: OperatorConfig)
+plastic_strain_Z()
+
+plastic_strain_Z(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+plastic_strain_Z(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [plastic_strain_Z operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_Z.md)
+
+**DPF Framework Reference:** [plastic_strain_Z operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/plastic_strain_Z.md)
 
 **Parameters:**
 

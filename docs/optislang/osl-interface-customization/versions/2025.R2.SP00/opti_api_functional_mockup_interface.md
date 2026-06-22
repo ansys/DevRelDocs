@@ -8,6 +8,7 @@ You can export a Metamodel of Optimal Prognosis (MOP) or an Adaptive Metamodel o
 - Moving least squares
 
 To export as an FMU:
+
 1. Open the **Functional Mock-up Unit** dialog box.
    - After the calculation has finished, right-click the **MOP** or **AMOP** node and select **Export FMU** from the context menu.
    - Import a monitoring database file that has already been saved into an **MOP Solver** node, then right-click the node and select **Export FMU** from the context menu.

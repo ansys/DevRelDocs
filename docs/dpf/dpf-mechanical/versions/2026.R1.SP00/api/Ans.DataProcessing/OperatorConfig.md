@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.OperatorConfig
 
 # OperatorConfig class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 OperatorConfig(operatorName: str)
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.incident_radiation_heat_flux
 
 # *class* incident_radiation_heat_flux(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-incident_radiation_heat_flux()
-incident_radiation_heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-incident_radiation_heat_flux(config: OperatorConfig)
+incident_radiation_heat_flux()
+
+incident_radiation_heat_flux(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+incident_radiation_heat_flux(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [incident_radiation_heat_flux operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/incident_radiation_heat_flux.md)
+
+**DPF Framework Reference:** [incident_radiation_heat_flux operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/incident_radiation_heat_flux.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `meshes` (MeshedRegion, MeshesContainer), `coordinate_system` 
 
 available outputs: `meshed_region` (MeshedRegion ,MeshesContainer)
 
-**DPF Framework Reference:** [change_cs operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/change_cs.md)
+**DPF Framework Reference:** [change_cs operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/change_cs.md)
 
 **Parameters:**
 

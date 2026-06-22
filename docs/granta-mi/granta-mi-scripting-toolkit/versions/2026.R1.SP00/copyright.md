@@ -42,4 +42,4 @@ third-party software. If you are unable to access the Legal Notice, contact ANSY
 
 Published in the U.S.A.
 
-[View third-party licenses](https://innovationspace.ansys.com/wp-content/uploads/granta/2025R2/miscriptingtoolkit/)
+[View third-party licenses](https://innovationspace.ansys.com/wp-content/uploads/granta/2026R1/miscriptingtoolkit/)

@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion)
 
 available outputs: `mesh` (MeshedRegion), `nodes_mesh_scoping` (Scoping), `elements_mesh_scoping` (Scoping)
 
-**DPF Framework Reference:** [external_layer operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/external_layer.md)
+**DPF Framework Reference:** [external_layer operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/external_layer.md)
 
 **Parameters:**
 

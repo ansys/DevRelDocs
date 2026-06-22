@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.kinetic_energy
 
 # *class* kinetic_energy(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-kinetic_energy()
-kinetic_energy(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
-kinetic_energy(config: OperatorConfig)
+kinetic_energy()
+
+kinetic_energy(time_scoping: object, mesh_scoping: object, data_sources: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+
+kinetic_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [kinetic_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/kinetic_energy.md)
+
+**DPF Framework Reference:** [kinetic_energy operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/kinetic_energy.md)
 
 **Parameters:**
 

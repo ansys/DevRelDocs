@@ -18,7 +18,7 @@ available inputs: `rescoping_value` (double) (optional), `reference_scoping_inde
 
 available outputs: `merged_fields` (Field)
 
-**DPF Framework Reference:** [concatenate_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/concatenate_fields.md)
+**DPF Framework Reference:** [concatenate_fields operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/concatenate_fields.md)
 
 **Parameters:**
 

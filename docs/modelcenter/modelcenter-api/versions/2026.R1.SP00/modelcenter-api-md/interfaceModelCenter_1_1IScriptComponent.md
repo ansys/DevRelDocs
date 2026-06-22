@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IScriptComponent"></a>
 # Interface ModelCenter::IScriptComponent
 
 ![][IDL]
@@ -57,6 +58,7 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IScriptComponent::Variables
 ```
@@ -67,7 +69,14 @@ VARIANT ModelCenter::IScriptComponent::Variables
 
 
 
+
 **Return type**: VARIANT
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::Variables"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a6d041596bb6e0be6dd0710c6c9e0e8c9"></a>
 ### Property Groups
@@ -75,6 +84,7 @@ VARIANT ModelCenter::IScriptComponent::Variables
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 VARIANT ModelCenter::IScriptComponent::Groups
@@ -86,7 +96,14 @@ VARIANT ModelCenter::IScriptComponent::Groups
 
 
 
+
 **Return type**: VARIANT
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::Groups"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1ade9f3ed3c58d1f3eb9914c3a395eb7a6"></a>
 ### Property userData
@@ -94,6 +111,7 @@ VARIANT ModelCenter::IScriptComponent::Groups
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 VARIANT ModelCenter::IScriptComponent::userData
@@ -105,7 +123,14 @@ VARIANT ModelCenter::IScriptComponent::userData
 
 
 
+
 **Return type**: VARIANT
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::userData"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a42162de74b1b046b277b927ace2dd403"></a>
 ### Property AssociatedFiles
@@ -113,6 +138,7 @@ VARIANT ModelCenter::IScriptComponent::userData
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 VARIANT ModelCenter::IScriptComponent::AssociatedFiles
@@ -124,7 +150,14 @@ VARIANT ModelCenter::IScriptComponent::AssociatedFiles
 
 
 
+
 **Return type**: VARIANT
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::AssociatedFiles"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a20f2c6a05beb38eb4d95a010cb48f94e"></a>
 ### Property IndexInParent
@@ -132,6 +165,7 @@ VARIANT ModelCenter::IScriptComponent::AssociatedFiles
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 int ModelCenter::IScriptComponent::IndexInParent
@@ -143,7 +177,14 @@ int ModelCenter::IScriptComponent::IndexInParent
 
 
 
+
 **Return type**: int
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::IndexInParent"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a48996a90eb72b62a9dff1119708c9d42"></a>
 ### Property ParentAssembly
@@ -151,6 +192,7 @@ int ModelCenter::IScriptComponent::IndexInParent
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 LPDISPATCH ModelCenter::IScriptComponent::ParentAssembly
@@ -162,7 +204,14 @@ LPDISPATCH ModelCenter::IScriptComponent::ParentAssembly
 
 
 
+
 **Return type**: LPDISPATCH
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::ParentAssembly"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1af3d2bdfd6cd0c29ada055bee3686b2ff"></a>
 ### Property language
@@ -171,9 +220,11 @@ LPDISPATCH ModelCenter::IScriptComponent::ParentAssembly
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IScriptComponent::language
 ```
+
 
 
 
@@ -183,6 +234,12 @@ The script language. Must be set prior to setting the source.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::language"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a3a0d87f35ccd9845a8dc70e1ccf531eb"></a>
 ### Property timeout
 
@@ -190,9 +247,11 @@ The script language. Must be set prior to setting the source.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IScriptComponent::timeout
 ```
+
 
 
 
@@ -202,6 +261,12 @@ The script timeout in seconds. Use -1 to set no timeout.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::timeout"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1aedc1fa62c68c5512ccfe6913e018610c"></a>
 ### Property forwardSchedule
 
@@ -209,9 +274,11 @@ The script timeout in seconds. Use -1 to set no timeout.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IScriptComponent::forwardSchedule
 ```
+
 
 
 
@@ -221,6 +288,12 @@ True to run the component in forward scheduling mode.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::forwardSchedule"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a0f82cdd3e9fa556568265ef51c8bc0de"></a>
 ### Property prevalidate
 
@@ -228,9 +301,11 @@ True to run the component in forward scheduling mode.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IScriptComponent::prevalidate
 ```
+
 
 
 
@@ -240,6 +315,12 @@ True to pre-validate the component.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::prevalidate"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a88c3162ff460faee36d43d3903c7a498"></a>
@@ -247,9 +328,11 @@ True to pre-validate the component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getName()
 ```
+
 
 
 
@@ -270,14 +353,22 @@ The name of the Component.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a19763f04596904ff5cab2f4f72f6f501)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a7e4a9eb5127e60bfbbd90640e35b32a7"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getFullName()
 ```
+
 
 
 
@@ -298,14 +389,22 @@ the full ModelCenter path of the Component.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a9309a89032b2d7d28baf279a3b76b5e8)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getFullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1afcc83d74aabc7ddd66da4fccb708f0e9"></a>
 ### Function run
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::run()
 ```
+
 
 
 
@@ -317,14 +416,22 @@ Runs the Component.
 
 **Reimplements**: [run](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1adf60ad0c84852250f14d27cfa689d8d0)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::run"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a3dc2690409dd67fc5b3023e50d7abed0"></a>
 ### Function getSource
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getSource()
 ```
+
 
 
 
@@ -345,14 +452,22 @@ The source of the Component.
 
 **Reimplements**: [getSource](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a7ee6752f95f3bdfbe83132a3a7794cb2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getSource"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a03484bf5c7636d2015b3b11c3849ac30"></a>
 ### Function invokeMethod
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::invokeMethod(BSTR method)
 ```
+
 
 
 
@@ -377,14 +492,22 @@ Invokes one of the Component's methods.
 
 **Reimplements**: [invokeMethod](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1afaddb2c21be03b26716594af883a51ee)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::invokeMethod"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a70b40fcdb20ca2991b3db649f77eb55f"></a>
 ### Function invalidate
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::invalidate()
 ```
+
 
 
 
@@ -396,14 +519,22 @@ Invalidates the Component and all of its variables.
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a73c230184c72f5abcb7d3af5f91c9d1e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::invalidate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a716d694026d6ef45a78ab51a8d1f6eae"></a>
 ### Function reconnect
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::reconnect()
 ```
+
 
 
 
@@ -415,14 +546,22 @@ Reconnect a Component.
 
 **Reimplements**: [reconnect](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a44d641cc9d4a797f88e56495c466479c)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::reconnect"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1ae380bd13a2c92b3392432f879e87baf2"></a>
 ### Function downloadValues
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::downloadValues()
 ```
+
 
 
 
@@ -434,14 +573,22 @@ Downloads the component's variable values from [ModelCenter](namespaceModelCente
 
 **Reimplements**: [downloadValues](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a761c665246557b5b4201873a722d6fed)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::downloadValues"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1ad88148c419a4c75c4c79b9d5e3c41eb6"></a>
 ### Function getVariable
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IScriptComponent::getVariable(BSTR name)
 ```
+
 
 
 
@@ -471,10 +618,17 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Reimplements**: [getVariable](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1afb270ae53383589c63f87b4e3385f128)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getVariable"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1aa032eb6b3c27a69052a8eb81053dfc34"></a>
 ### Function getPositionX
 
 ![][public]
+
 
 ```
 int ModelCenter::IScriptComponent::getPositionX()
@@ -486,14 +640,22 @@ int ModelCenter::IScriptComponent::getPositionX()
 
 
 
+
 **Return type**: int
 
 **Reimplements**: [getPositionX](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a0c3e0c952584ba25801114e01010eab0)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getPositionX"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a7b5ce3f6ce5bfd44702ff1fb874fb9fd"></a>
 ### Function getPositionY
 
 ![][public]
+
 
 ```
 int ModelCenter::IScriptComponent::getPositionY()
@@ -505,18 +667,27 @@ int ModelCenter::IScriptComponent::getPositionY()
 
 
 
+
 **Return type**: int
 
 **Reimplements**: [getPositionY](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1ad3da2b98a973112ea897cf3b146f0276)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getPositionY"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IScriptComponent_1a775db6663f994e82bb2529efe6585c8d"></a>
 ### Function rename
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::rename(BSTR name)
 ```
+
 
 
 
@@ -541,14 +712,22 @@ Renames the current Component.
 
 **Reimplements**: [rename](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a9cae71e48e01e94d48c0353d3db4d90c)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::rename"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a551d15c4f328f341d8cba0fe28bfd2b0"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getType()
 ```
+
 
 
 
@@ -584,14 +763,22 @@ The type of the component.
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1a04395c5a8d6ceff26ae08e6c001bdd45)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1ad7d6f94d38270f36b80ed3c0109312dd"></a>
 ### Function show
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::show()
 ```
+
 
 
 
@@ -603,14 +790,22 @@ Show the GUI form associated with the component, if any.
 
 **Reimplements**: [show](interfaceModelCenter_1_1IComponent.md#interfaceModelCenter_1_1IComponent_1aa35c0fb45f677b3c2daf475e53107773)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::show"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1ab41aea5c06252f82fc831ea6af40e1b1"></a>
 ### Function setSourceFromString
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::setSourceFromString(BSTR script)
 ```
+
 
 
 
@@ -627,14 +822,22 @@ Sets the source script code of the script component to the given string. The sou
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::setSourceFromString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1aa34064721143d9012bfe5c0c899415a8"></a>
 ### Function setSourceFromFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::setSourceFromFile(BSTR file)
 ```
+
 
 
 
@@ -651,14 +854,22 @@ Sets the source script code of the script component to the contents of the file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::setSourceFromFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a04bbcea36b9bb694385e8620fa0a6b11"></a>
 ### Function addVariable
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IScriptComponent::addVariable(BSTR name, BSTR type, BSTR state)
 ```
+
 
 
 
@@ -684,14 +895,22 @@ the [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVa
 
 **Return type**: LPDISPATCH
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::addVariable"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a6b191d44fea8ec432315202d094acdb0"></a>
 ### Function removeVariable
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::removeVariable(BSTR name)
 ```
+
 
 
 
@@ -708,14 +927,22 @@ Removes the variable from the component.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::removeVariable"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1a03a16eed6dbd98df2286d42f3a47db56"></a>
 ### Function setVariables
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::setVariables(VARIANT inputs, BSTR outputs)
 ```
+
 
 
 
@@ -734,14 +961,22 @@ Sets the variables of the component. Previous variables of this component are re
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::setVariables"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IScriptComponent_1af377a582a930edbc7b4a56b57cd54375"></a>
 ### Function getSourceScript
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getSourceScript()
 ```
+
 
 
 
@@ -754,6 +989,12 @@ the source script
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IScriptComponent::getSourceScript"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.heat_transport_rate
 
 # *class* heat_transport_rate(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-heat_transport_rate()
-heat_transport_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-heat_transport_rate(config: OperatorConfig)
+heat_transport_rate()
+
+heat_transport_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+heat_transport_rate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [heat_transport_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_transport_rate.md)
+
+**DPF Framework Reference:** [heat_transport_rate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/heat_transport_rate.md)
 
 **Parameters:**
 

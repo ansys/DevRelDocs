@@ -10,7 +10,7 @@ available inputs: `string_fields1` (StringField), `string_fields2` (StringField)
 
 available outputs: `string_field` (StringField)
 
-**DPF Framework Reference:** [merge_string_fields operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_string_fields.md)
+**DPF Framework Reference:** [merge_string_fields operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_string_fields.md)
 
 **Parameters:**
 

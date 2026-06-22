@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.static_pressure
 
 # *class* static_pressure(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-static_pressure()
-static_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-static_pressure(config: OperatorConfig)
+static_pressure()
+
+static_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+static_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [static_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/static_pressure.md)
+
+**DPF Framework Reference:** [static_pressure operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/static_pressure.md)
 
 **Parameters:**
 

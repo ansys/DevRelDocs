@@ -10,7 +10,7 @@ available inputs: `try_generate_iterable` (bool) (optional), `iterable` (Any) (o
 
 available outputs: `iterator` (Any)
 
-**DPF Framework Reference:** [make_producer_consumer_for_each_iterator operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_producer_consumer_for_each_iterator.md)
+**DPF Framework Reference:** [make_producer_consumer_for_each_iterator operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_producer_consumer_for_each_iterator.md)
 
 **Parameters:**
 

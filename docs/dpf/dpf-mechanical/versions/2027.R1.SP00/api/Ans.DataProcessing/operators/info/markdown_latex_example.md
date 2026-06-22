@@ -132,7 +132,7 @@ available inputs: `bogus_input` (string) (optional)
 
 available outputs: `bogus_output` (Any)
 
-**DPF Framework Reference:** [markdown_latex_example operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/info/markdown_latex_example.md)
+**DPF Framework Reference:** [markdown_latex_example operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/info/markdown_latex_example.md)
 
 **Parameters:**
 
