@@ -15,8 +15,8 @@ For the full class reference, see the [Python API](modelcenter-python-api.md). F
 ## Use the API in a Script Wrapper
 
 1. In your Script Wrapper script, the `wrapper` global object is an instance of `PHXScriptWrapperObject`.
-1. Declare variables at the top of your script using the standard Script Wrapper syntax.
-1. Use the API methods to add variables, publicize methods, and access run directories at runtime.
+2. Declare variables at the top of your script using the standard Script Wrapper syntax.
+3. Use the API methods to add variables, publicize methods, and access run directories at runtime.
 
 Example:
 
