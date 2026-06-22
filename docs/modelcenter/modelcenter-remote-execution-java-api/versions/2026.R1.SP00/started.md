@@ -15,8 +15,8 @@ For package summaries and API organization, see the [Overview](overview-summary.
 ## Add the API to your classpath
 
 1. Locate the Java API JAR files provided with your ModelCenter Remote Execution installation or SDK package.
-1. Add those JARs to your project classpath (IDE module dependencies, Maven `system` scope, or Gradle `files()` dependency, depending on your build).
-1. Import the client classes you need, for example `com.phoenix_int.aserver.client.v2.AnalysisServerClient`.
+2. Add those JARs to your project classpath (IDE module dependencies, Maven `system` scope, or Gradle `files()` dependency, depending on your build).
+3. Import the client classes you need, for example `com.phoenix_int.aserver.client.v2.AnalysisServerClient`.
 
 ## Connect to ModelCenter Remote Execution
 
