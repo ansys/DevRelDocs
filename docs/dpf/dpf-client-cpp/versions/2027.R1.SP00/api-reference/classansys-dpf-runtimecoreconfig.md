@@ -17,7 +17,6 @@ enables to set runtime configuration options to the DPF process (DataProcessingC
 
 * [getAvailableOptions](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1add61c48a143d2603ab22e1028dc8a25f)
 * [getBoolValue](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1aa611e355441057cef04ef164008da8c8)
-* [getCacheMaxMemory](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig-1a58127fe4106746c0d291550acc570401)
 * [getDoubleValue](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1abcbfdbc481d8fe2c2d5454830104b216)
 * [getIntValue](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1a155763466ea3c190bf5b5090080edeae)
 * [getNumberOfThreadsToUse](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig-1a4ae882d7ed1e89ad3d03a761f6f485c1)
@@ -30,7 +29,6 @@ enables to set runtime configuration options to the DPF process (DataProcessingC
 * [set](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1a02d687d1252675cab169991475aa343d)
 * [set](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1af559e97f012ddd2a31dbbf4185b4cfe5)
 * [set](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1aef94b87f0abba8d508181b8fa62af304)
-* [setCacheMaxMemory](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig-1ac80f6a8f0cb8064a6fe1bc3093d6dfe7)
 * [setNumberOfThreadsToUse](classansys-dpf-runtimecoreconfig.md#classansys-dpf-runtimecoreconfig-1af02bd1ff8d573d83cecefcdd647f0a0b)
 * [setSubOption](classansys-dpf-runtimeconfig.md#classansys-dpf-runtimeconfig-1aa7dcdc58bbf5639bad4036ded9785905)
 
@@ -151,63 +149,6 @@ The default number of threads to use for all operators.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeCoreConfig::getNumberOfThreadsToUse"}]}`
--->
-
-<a id="classansys-dpf-runtimecoreconfig-1ac80f6a8f0cb8064a6fe1bc3093d6dfe7"></a>
-### Function setCacheMaxMemory
-
-![][public]
-
-
-```cpp
-void ansys::dpf::RuntimeCoreConfig::setCacheMaxMemory(dp_double megaBytes)
-```
-
-
-
-
-Sets the maximum memory (in megabytes) allowed for the workflow step index cache. Use 0 to disable caching.
-
-
-
-**Parameters**:
-
-* [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **megaBytes**
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeCoreConfig::setCacheMaxMemory"}]}`
--->
-
-<a id="classansys-dpf-runtimecoreconfig-1a58127fe4106746c0d291550acc570401"></a>
-### Function getCacheMaxMemory
-
-![][public]
-![][const]
-
-
-```cpp
-dp_double ansys::dpf::RuntimeCoreConfig::getCacheMaxMemory() const
-```
-
-
-
-
-**Returns**:
-
-The maximum memory (in megabytes) allowed for the workflow step index cache.
-
-
-
-**Return type**: [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::RuntimeCoreConfig::getCacheMaxMemory"}]}`
 -->
 
 <!--

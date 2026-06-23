@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-19).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-22).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -29,7 +29,7 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [5 items](#Features_femutils) |[18 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [3 items](#Features_framework) |[11 items](#Fixes_framework) |
+| framework | [4 items](#Features_framework) |[11 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [2 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -661,6 +661,11 @@ The following table shows which components have updates in each category.
   > 
 ## framework
 ### <a id="Features_framework"></a> Features
+
+- Add structured exception types to the kernel:
+  > 
+  >
+  > 
 
 - Add ThermalCompliance Homogeneity:
   > 
