@@ -8,7 +8,7 @@ uid: Ans.DataProcessing
 
 | Class | Description |
 |-------|-------------|
-| [Any](Ans_DataProcessing_Any.md) | Any(value: int) |
+| [Any](Ans_DataProcessing_Any.md) | Represents a generic DPF container that can hold any supported DPF data type |
 | [Changelog](Ans_DataProcessing_Changelog.md) | Represents the version-history changelog of a DPF operator. |
 | [Collection](Ans_DataProcessing_Collection.md) | Collection[T]() |
 | [Core](Ans_DataProcessing_Core.md) | Contains DPF main actions |
@@ -33,7 +33,7 @@ uid: Ans.DataProcessing
 | [OperatorSpecification](Ans_DataProcessing_OperatorSpecification.md) | OperatorSpecification(name: str) |
 | [PinDescription](Ans_DataProcessing_PinDescription.md) | PinDescription(index: int, name: str, description: str, isOptional: bool, isEllipsis: bool, typeNames: IEnumerable[str], aliases: IEnumerable[str]) |
 | [ProgressInformationNotifier](Ans_DataProcessing_ProgressInformationNotifier.md) | ProgressInformationNotifier() |
-| [PropertyField](Ans_DataProcessing_PropertyField.md) | PropertyField(pField: IntPtr) |
+| [PropertyField](Ans_DataProcessing_PropertyField.md) | The property field is a field object that contains int values. |
 | [Result](Ans_DataProcessing_Result.md) | Result(ptrRes: IntPtr) |
 | [ResultDefinition](Ans_DataProcessing_ResultDefinition.md) | ResultDefinition() |
 | [ResultInfo](Ans_DataProcessing_ResultInfo.md) | Entity describing what the result files contains: the available results, the unit system, the analysis type... |

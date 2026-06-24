@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-22).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-23).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -37,7 +37,7 @@ The following table shows which components have updates in each category.
 | hdf5 | [11 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
 | hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [4 items](#Features_kernel) |[11 items](#Fixes_kernel) |
+| kernel | [4 items](#Features_kernel) |[12 items](#Fixes_kernel) |
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
@@ -1183,6 +1183,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Fixing non thread-safe methods of the mesh:
+  > Fixing non-thread-safe methods of the mesh by using atomic variables.
+  >
+  > 
+  >
+  > 
 
 - Improve performance of GenPassOperators cache:
   > 
