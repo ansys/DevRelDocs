@@ -1,3 +1,4 @@
+<a id="interfaceTradeStudyPlugIn_1_1IWindowed"></a>
 # Interface TradeStudyPlugIn::IWindowed
 
 ![][IDL]
@@ -20,9 +21,11 @@
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::IWindowed::closeWindow()
 ```
+
 
 
 
@@ -35,6 +38,12 @@ true if the user allowed the window to close.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::IWindowed::closeWindow"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
