@@ -95,6 +95,7 @@
 * [eraseWorkflowFromRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1ae2407ad29bf6a4c815a13fa454c746e5)
 * [firstOperator](classansys-dpf-workflow.md#classansys-dpf-workflow-1a240864c97ab88338e9ba6ef8c4ad9ed3)
 * [generateDerivativeFor](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6ff6d7e57c9639e781573723058c4490)
+* [getActiveOperators](classansys-dpf-workflow.md#classansys-dpf-workflow-1a47dc60d2a6575b6cf8bc674ea4842237)
 * [getClient](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1a968afd9daa0b0f13b65a2ac61369d73a)
 * [getCopy](classansys-dpf-workflow.md#classansys-dpf-workflow-1a850d7aa707b7b9017bd679defc9d2845)
 * [getCustomOutput](classansys-dpf-workflow.md#classansys-dpf-workflow-1a3d181c629d1808c570ac90e485a6c5f9)
@@ -1560,6 +1561,34 @@ std::vector< Operator > ansys::dpf::Workflow::getOperators() const
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOperators"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1a47dc60d2a6575b6cf8bc674ea4842237"></a>
+### Function getActiveOperators
+
+![][public]
+![][const]
+
+
+```cpp
+GenericDataContainer ansys::dpf::Workflow::getActiveOperators() const
+```
+
+
+
+
+**Returns**:
+
+GenericDataContainer with active operators info (name_id -> status).
+
+
+
+**Return type**: GenericDataContainer
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getActiveOperators"}]}`
 -->
 
 <a id="classansys-dpf-workflow-1a21d864839aa5e8df007f9596ec69a58a"></a>

@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-23).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -51,7 +51,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [13 items](#Features_native) |[27 items](#Fixes_native) |
+| native | [15 items](#Features_native) |[27 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -61,7 +61,7 @@ The following table shows which components have updates in each category.
 | utilities |  |[1 item](#Fixes_utilities) |
 | vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
 | workflows | [3 items](#Features_workflows) |[3 items](#Fixes_workflows) |
-| xml |  |[2 items](#Fixes_xml) |
+| xml |  |[3 items](#Fixes_xml) |
 
 
 ## 1297620
@@ -2626,6 +2626,20 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Memory improvements for distributed data sources cases for results:
+  > Memory efficiency improved for reading results for large distributed cases.
+  >
+  > 
+
+- Add num_fields attribute to fc_get_attribute:
+  > - Added the output "num_fields" to the operator _fc_get_attribute_, which returns the number of fields in the input fields container.
+  >
+  > - Added the output "datasize" to the operators _field::get_attribute_, _customtypefield::get_attribute_, _propertyfield::get_attribute_, _stringfield::get_attribute_, which returns the size of the data.
+  >
+  > 
+  >
+  > 
+
 - Performance improvements for distributed data sources cases for mesh:
   > Performance improvements for distributed data sources cases for the mesh and merge mesh operator.
   >
@@ -3183,6 +3197,11 @@ The following table shows which components have updates in each category.
 ## xml
 
 ### <a id="Fixes_xml"></a> Fixes
+
+- Add Hgp API for AEL config:
+  > 
+  >
+  > 
 
 - Correction path DLL AEL':
   > 
