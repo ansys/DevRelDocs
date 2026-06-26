@@ -19,7 +19,7 @@ With DPF, you can perform complex preprocessing or postprocessing of large amoun
 DPF is an independent, physics-agnostic tool that you can plug into many apps for both data input and data output, including visualization and result plots.
 The following table shows an exhaustive list of solver apps supported by DPF and their related formats:
 
-|     **Solver**     |    **File format**              |   **DPF version required**       |
+|     **Solver**     |    **File format**              |   **DPF version required**          |
 |--------------------|---------------------------------|-------------------------------------|
 | MAPDL              | .rst, .mode, .rth, .rfrq, .rdsp | **1.0** (*2021 R1*) and later       |
 | MAPDL              | .psd, .prs                      | **10.0** (*2025 R2 pre0*) and later |
