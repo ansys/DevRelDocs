@@ -1679,6 +1679,8 @@
       href: operator-specifications/utility/for_each.md
     - name: generic support get attribute
       href: operator-specifications/utility/generic_support_get_attribute.md
+    - name: get active operators
+      href: operator-specifications/utility/get_active_operators.md
     - name: get operators
       href: operator-specifications/utility/get_operators.md
     - name: hdf5dpf workglow provider

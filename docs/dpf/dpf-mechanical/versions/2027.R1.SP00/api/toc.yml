@@ -85,8 +85,6 @@
     href: Ans.DataProcessing/Workflow.md
   - name: locations
     href: Ans.DataProcessing/locations.md
-- name: Ans.DataProcessing.internal_objects
-  href: Ans.DataProcessing/internal_objects/index.md
 - name: Ans.DataProcessing.operators
   href: Ans.DataProcessing/operators/index.md
   items:
@@ -1738,6 +1736,8 @@
       href: Ans.DataProcessing/operators/utility/forward_fields_container.md
     - name: forward_meshes_container
       href: Ans.DataProcessing/operators/utility/forward_meshes_container.md
+    - name: get_active_operators
+      href: Ans.DataProcessing/operators/utility/get_active_operators.md
     - name: get_operators
       href: Ans.DataProcessing/operators/utility/get_operators.md
     - name: hdf5dpf_workglow_provider

@@ -275,7 +275,7 @@ This contour output can be requested and computed afterwards to be plotted.
 
 * **op** - Operator where the output to request is
 * **pin** - Pin number on the Operator "op" to request. Printing the Operator or checking out the documentation will help.
-* **gfxCntrType** (*optional*)
+* **gfxCntrType** (*optional*) - Contour graphics type used to define how contour data should be interpreted for plotting.
 
 #### SetOutputMesh(op: BaseOperator, pin: int) -> None
 

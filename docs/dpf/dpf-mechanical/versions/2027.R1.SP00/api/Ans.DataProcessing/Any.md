@@ -4,33 +4,37 @@ uid: Ans.DataProcessing.Any
 
 # *class* Any(value: int)
 
-Any(value: int)
-Any(value: float)
-Any(value: str)
-Any(value: Field)
-Any(value: FieldsContainer)
-Any(value: Scoping)
-Any(value: ScopingsContainer)
-Any(value: DataSources)
-Any(value: MeshesContainer)
-Any(value: PropertyField)
-Any(value: DataTree)
-Any(value: Workflow)
-Any(value: TimeFreqSupport)
-Any(value: MeshedRegion)
-Any(value: CyclicSupport)
-Any(value: MaterialsContainer)
-Any(value: StreamsContainer)
-Any(value: ResultInfo)
-Any(value: BaseOperator)
-Any(value: GenericDataContainer)
-Any(value: StringField)
-Any(dpfObject: DpfType)
+ Represents a generic DPF container that can hold any supported DPF data type
 
+ or a primitive value (int, double, string).
 
 **Parameters:**
 
 * **value**
+
+**Example:**
+
+```python
+ Any a = new Any(myField);
+
+ if (a.ObjectIsOfType<Field>())
+
+     Field f = a.GetAs<Field>();
+
+
+
+ Any b = new Any(42);
+
+ int v = b.GetAs<int>();
+```
+
+**Notes:**
+
+`Any` is typically used when the exact output type of an operator or workflow
+
+ is not known at compile time. Once you have an `Any` instance, call
+
+  to unwrap it into the concrete type.
 
 ## Methods
 

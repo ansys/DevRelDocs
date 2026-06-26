@@ -4,14 +4,22 @@ uid: Ans.DataProcessing.PropertyField
 
 # *class* PropertyField(numEntities: int, elementaryDataSize: int)
 
-PropertyField(pField: IntPtr)
-PropertyField(numEntities: int, elementaryDataSize: int)
+The property field is a field object that contains int values.
 
+It describes properties such as connectivity.
 
 **Parameters:**
 
 * **numEntities**
 * **elementaryDataSize**
+
+**Example:**
+
+```python
+my_property_field = dpf.PropertyField(0, 3) # create property field with 0 entities of size 3 (vector)
+
+my_property_field.Add(1, new List<int>{ 1, 3, 7 }) # add values to the vector entity number one
+```
 
 ## Methods
 
