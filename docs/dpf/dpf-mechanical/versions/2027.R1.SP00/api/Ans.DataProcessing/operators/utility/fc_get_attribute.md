@@ -8,7 +8,7 @@ Uses the FieldsContainer APIs to return a given attribute of the fields containe
 
 available inputs: `fields_container` (FieldsContainer), `property_name` (string), `property_identifier` (string, Int32) (optional)
 
-available outputs: `property` (Scoping ,IList int  ,TimeFreqSupport ,LabelSpace ,Field ,string ,StringField ,System.Collections.IEnumerable)
+available outputs: `property` (Scoping ,IList int  ,TimeFreqSupport ,LabelSpace ,Field ,Int32 ,string ,StringField ,System.Collections.IEnumerable)
 
 **DPF Framework Reference:** [fc_get_attribute operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/fc_get_attribute.md)
 
@@ -35,7 +35,7 @@ op = fc_get_attribute(fields_container=my_fields_container,property_name=my_prop
 
 ### property_name
 
-Supported property names are: "label_scoping", "label_values", "time_freq_support", "labels", "field_scoping", "base_name", "field_names" and "field".
+Supported property names are: "label_scoping", "label_values", "time_freq_support", "labels", "field_scoping", "base_name", "field_names", "field" and "num_fields".
 
 **Type:** *LinkableInput*
 
@@ -49,7 +49,7 @@ Additional pin for some property : the label name for "label_scoping" or "label_
 
 ### property
 
-Returns a Scoping for property: "label_scoping", a vector of int for "label_values", a time freq support for "time_freq_support", a vector of string for "labels", a LabelSpace for "field_scoping", and a "field" for "field". For "base_name" the container name (string) and for "field_names" a StringField containing individual field names.
+Returns a Scoping for property: "label_scoping", a vector of int for "label_values", a time freq support for "time_freq_support", a vector of string for "labels", a LabelSpace for "field_scoping", a Field for "field", and an integer for "num_fields". For "base_name" the container name (string) and for "field_names" a StringField containing individual field names.
 
 **Type:** *LinkableOutput*
 

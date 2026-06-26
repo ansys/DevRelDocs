@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-24).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-25).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -41,7 +41,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [26 items](#Features_mapdl) |[57 items](#Fixes_mapdl) |
+| mapdl | [26 items](#Features_mapdl) |[58 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [14 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1538,6 +1538,19 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix corrupted ENF fields and wrong fsum in transient analysis with contact results:
+  > 
+  >
+  > When reading element nodal forces results on contacts, they might lack damping and inertia components in an analysis with damping and inertia, writing incorrect fields and wrong force_summation results. The damping and inertia results are now 0.
+  >
+  > 
+  >
+  > For result files where the analysis cannot be determined (transient analysis before mapdl 242), the damping and inertia results are not available.
+  >
+  > 
+  >
+  > 
 
 - Correct spec for result.material_property_of_element:
   > 
@@ -3769,10 +3782,13 @@ The following table shows which components have updates in each category.
   > 
 
 - [customtypefield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/customtypefield_get_attribute.md):
-  > Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
+  > Gets a property from an input field / fields container. A CustomTypeField in pin 0 and a property name (string) in pin 1 are expected as inputs.
 
 - [cyclic_support_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/cyclic_support_get_attribute.md):
   > A CyclicSupport in pin 0 and a property name (string) in pin 1 are expected in input.
+
+- [get_active_operators](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/get_active_operators.md):
+  > Get all active operators in the evaluation chain of a workflow's output pins. Returns a GenericDataContainer with keys 'opName_opId' and int values corresponding to E_OperatorState.
 
 - [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
@@ -3781,7 +3797,7 @@ The following table shows which components have updates in each category.
   > Return a GenericDataContainer used to instantiate the Changelog of an operator based on its name.
 
 - [propertyfield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/propertyfield_get_attribute.md):
-  > Gets a property from an input field/field container. A PropertyFieldin pin 0, a property name (string) in pin 1 are expected as inputs
+  > Gets a property from an input field / fields container. A PropertyField in pin 0 and a property name (string) in pin 1 are expected as inputs.
 
 
 
@@ -5559,6 +5575,13 @@ Upgraded documentation
 - [fc_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/fc_get_attribute.md)
 
   > 0.1.0: Add new supported property names 'base_name' that returns a string and 'field_names' that returns a StringField.
+
+  > 0.2.0: Add new supported property name 'num_fields' that returns an integer.
+
+
+- [field_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/field_get_attribute.md)
+
+  > 0.1.0: Add new supported property name 'datasize' that returns an integer.
 
 
 - [for_each](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/for_each.md)

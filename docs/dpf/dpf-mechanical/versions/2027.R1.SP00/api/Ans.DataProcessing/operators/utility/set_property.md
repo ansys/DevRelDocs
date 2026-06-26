@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.set_property
 
 # *class* set_property(field: object = None, property_name: object = None, property: object = None, config: OperatorConfig = None)
 
-Sets a property to an input field/field container. A Fieldin pin 0, a property name (string) in pin 1 and a valid property value in pin 2 are expected as inputs
+Sets a property to an input field / fields container. A Field in pin 0, a property name (string) in pin 1 and a valid property value in pin 2 are expected as inputs.
 
 available inputs: `field` (Field, FieldsContainer), `property_name` (string), `property` (string, TimeFreqSupport, Scoping, DataTree, Int32, double)
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.customtypefield_get_attribute
 
 # *class* customtypefield_get_attribute(custom_type_field: object = None, property_name: object = None, config: OperatorConfig = None)
 
-Gets a property from an input field/field container. A CustomTypeFieldin pin 0, a property name (string) in pin 1 are expected as inputs
+Gets a property from an input field / fields container. A CustomTypeField in pin 0 and a property name (string) in pin 1 are expected as inputs.
 
 available inputs: `custom_type_field` (CustomTypeField, CustomTypeFieldsContainer), `property_name` (string)
 
@@ -34,7 +34,7 @@ op = customtypefield_get_attribute(custom_type_field=my_custom_type_field,proper
 
 ### property_name
 
-Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping' and 'header'.
+Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header' and 'datasize'.
 
 **Type:** *LinkableInput*
 

@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.utility.propertyfield_get_attribute
 
 # *class* propertyfield_get_attribute(property_field: object = None, property_name: object = None, config: OperatorConfig = None)
 
-Gets a property from an input field/field container. A PropertyFieldin pin 0, a property name (string) in pin 1 are expected as inputs
+Gets a property from an input field / fields container. A PropertyField in pin 0 and a property name (string) in pin 1 are expected as inputs.
 
 available inputs: `property_field` (PropertyField, PropertyFieldsContainer), `property_name` (string)
 
@@ -34,7 +34,7 @@ op = propertyfield_get_attribute(property_field=my_property_field,property_name=
 
 ### property_name
 
-Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping' and 'header'.
+Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header' and 'datasize'.
 
 **Type:** *LinkableInput*
 
