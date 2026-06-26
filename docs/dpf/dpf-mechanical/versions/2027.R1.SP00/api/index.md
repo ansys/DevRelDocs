@@ -7,7 +7,6 @@ uid: index
 ## Namespaces
 
 - [Ans.DataProcessing](Ans.DataProcessing/index.md)
-- [Ans.DataProcessing.internal_objects](Ans.DataProcessing/internal_objects/index.md)
 - [Ans.DataProcessing.operators](Ans.DataProcessing/operators/index.md)
 - [Ans.DataProcessing.operators.averaging](Ans.DataProcessing/operators/averaging/index.md)
 - [Ans.DataProcessing.operators.compression](Ans.DataProcessing/operators/compression/index.md)

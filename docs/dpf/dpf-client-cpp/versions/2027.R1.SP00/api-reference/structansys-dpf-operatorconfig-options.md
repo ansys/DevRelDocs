@@ -11,6 +11,7 @@
 
 ## Members
 
+* [allowAnsysElementLibraryComputation](structansys-dpf-operatorconfig-options.md#structansys-dpf-operatorconfig-options-1a309a87bcf60526bd5d4885415d62da5e)
 * [allowReverseGrpcConnection](structansys-dpf-operatorconfig-options.md#structansys-dpf-operatorconfig-options-1af6465fee4298a1643b825eeae2a643c6)
 * [binaryOperation](structansys-dpf-operatorconfig-options.md#structansys-dpf-operatorconfig-options-1a89974852ac80945de22f255b292fdc68)
 * [incremental](structansys-dpf-operatorconfig-options.md#structansys-dpf-operatorconfig-options-1a39fb6ebfb0d4c4d574e6e104cfbb01c6)
@@ -309,6 +310,32 @@ std::string ansys::dpf::OperatorConfig::options::allowReverseGrpcConnection
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorConfig::options::allowReverseGrpcConnection"}]}`
+-->
+
+<a id="structansys-dpf-operatorconfig-options-1a309a87bcf60526bd5d4885415d62da5e"></a>
+### Variable allowAnsysElementLibraryComputation
+
+![][public]
+![][static]
+
+
+```cpp
+std::string ansys::dpf::OperatorConfig::options::allowAnsysElementLibraryComputation
+```
+
+
+
+
+
+
+
+
+**Type**: std::string
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorConfig::options::allowAnsysElementLibraryComputation"}]}`
 -->
 
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

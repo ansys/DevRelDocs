@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Gets a property from an input field/field container. A Fieldin pin 0, a property name (string) in pin 1 are expected as inputs
+Gets a property from an input field / fields container. A Field in pin 0 and a property name (string) in pin 1 are expected as inputs.
 
 ## Inputs
 
@@ -38,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping' and 'header'.
+Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header' and 'datasize'.
 
 
 ## Outputs
