@@ -11,12 +11,15 @@ Comprehensive guides for working with DPF IronPython.
 ## Core Concepts
 
 ### [Understanding DPF](core-concepts.md)
+
 Learn the fundamental concepts and architecture of DPF.
 
 ### [Data Model](data-model.md)
+
 Understand how DPF organizes and represents simulation data.
 
 ### [Operators and Workflows](operators-workflows.md)
+
 Learn about DPF's operator-based processing model.
 
 ## Working with Data
