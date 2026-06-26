@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.artificial_hourglass_energy
 
 # *class* artificial_hourglass_energy(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-artificial_hourglass_energy()
-artificial_hourglass_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-artificial_hourglass_energy(config: OperatorConfig)
+artificial_hourglass_energy()
+
+artificial_hourglass_energy(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+artificial_hourglass_energy(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [artificial_hourglass_energy operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/artificial_hourglass_energy.md)
+
+**DPF Framework Reference:** [artificial_hourglass_energy operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/artificial_hourglass_energy.md)
 
 **Parameters:**
 

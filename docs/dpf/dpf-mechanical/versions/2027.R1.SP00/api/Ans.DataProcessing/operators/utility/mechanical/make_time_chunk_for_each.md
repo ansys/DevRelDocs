@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.utility.mechanical.make_time_chunk_for_each
 
 # *class* make_time_chunk_for_each(target_time_freq_values: object = None, operator_to_iterate: object = None, pin_index: object = None, meshed_region: object = None, chunk_config: object = None, producer_op11: object = None, producer_op12: object = None, output_pin_of_producer_op12: object = None, input_pin_of_consumer_op12: object = None, consumer_op12: object = None, config: OperatorConfig = None)
 
-make_time_chunk_for_each()
-make_time_chunk_for_each(target_time_freq_values: object, operator_to_iterate: object, pin_index: object, meshed_region: object, chunk_config: object, producer_op11: object, producer_op12: object, output_pin_of_producer_op12: object, input_pin_of_consumer_op12: object, consumer_op12: object, config: OperatorConfig)
-make_time_chunk_for_each(config: OperatorConfig)
+make_time_chunk_for_each()
+
+make_time_chunk_for_each(target_time_freq_values: object, operator_to_iterate: object, pin_index: object, meshed_region: object, chunk_config: object, producer_op11: object, producer_op12: object, output_pin_of_producer_op12: object, input_pin_of_consumer_op12: object, consumer_op12: object, config: OperatorConfig)
+
+make_time_chunk_for_each(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [make_time_chunk_for_each operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_time_chunk_for_each.md)
+
+**DPF Framework Reference:** [make_time_chunk_for_each operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_time_chunk_for_each.md)
 
 **Parameters:**
 

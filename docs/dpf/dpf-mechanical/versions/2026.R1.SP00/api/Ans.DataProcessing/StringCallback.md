@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.StringCallback
 
 # StringCallback class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 StringCallback(object: object, method: IntPtr)
 

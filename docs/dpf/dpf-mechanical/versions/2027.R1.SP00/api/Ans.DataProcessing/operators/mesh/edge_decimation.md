@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `angular_limit_in_radian` (double)
 
 available outputs: `wireframe` (MeshedRegion)
 
-**DPF Framework Reference:** [edge_decimation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/edge_decimation.md)
+**DPF Framework Reference:** [edge_decimation operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/edge_decimation.md)
 
 **Parameters:**
 

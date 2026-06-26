@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping) (optional), `r
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [normals_provider_nl operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/normals_provider_nl.md)
+**DPF Framework Reference:** [normals_provider_nl operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/normals_provider_nl.md)
 
 **Parameters:**
 

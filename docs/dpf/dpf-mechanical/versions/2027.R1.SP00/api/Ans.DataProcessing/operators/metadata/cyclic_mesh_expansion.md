@@ -10,7 +10,7 @@ available inputs: `sector_meshed_region` (MeshedRegion, MeshesContainer) (option
 
 available outputs: `meshed_region` (MeshedRegion), `cyclic_support` (CyclicSupport)
 
-**DPF Framework Reference:** [cyclic_mesh_expansion operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/cyclic_mesh_expansion.md)
+**DPF Framework Reference:** [cyclic_mesh_expansion operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/metadata/cyclic_mesh_expansion.md)
 
 **Parameters:**
 

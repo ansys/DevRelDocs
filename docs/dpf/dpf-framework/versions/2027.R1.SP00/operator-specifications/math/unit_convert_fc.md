@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Converts an input fields container of a given unit to another unit.
+
+Converts a fields container from one unit to another using the linear relation
+$v_\mathrm{out}[i] = k \cdot v_\mathrm{in}[i] + \delta$,
+where $k$ and $\delta$ are the unit conversion factor and shift.
+All fields must be homogeneous with the target unit.
+When the permissive option is enabled and units are not homogeneous,
+the container is returned unchanged.
+
 
 ## Inputs
 
@@ -30,7 +37,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container to convert. All fields are converted in place.
 
 <a id="input_1"></a>
 ### unit_name (Pin 1)
@@ -57,7 +64,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-FieldsContainer with converted units (inplace operation)
+Fields container with all field data converted to the requested unit, modified in place.
 
 
 ## Configurations

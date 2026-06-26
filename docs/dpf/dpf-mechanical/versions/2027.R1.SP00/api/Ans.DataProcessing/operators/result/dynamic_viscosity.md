@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.dynamic_viscosity
 
 # *class* dynamic_viscosity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-dynamic_viscosity()
-dynamic_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-dynamic_viscosity(config: OperatorConfig)
+dynamic_viscosity()
+
+dynamic_viscosity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+dynamic_viscosity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [dynamic_viscosity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/dynamic_viscosity.md)
+
+**DPF Framework Reference:** [dynamic_viscosity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/dynamic_viscosity.md)
 
 **Parameters:**
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.compute_invariant_terms_rbd
 
 # *class* compute_invariant_terms_rbd(rom_matrices: object = None, mode_shapes: object = None, lumped_mass: object = None, model_data: object = None, center_of_mass: object = None, inertia_relief: object = None, model_size: object = None, field_coordinates: object = None, nod: object = None, constraint_mode_check: object = None, config: OperatorConfig = None)
 
-compute_invariant_terms_rbd()
-compute_invariant_terms_rbd(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, field_coordinates: object, nod: object, constraint_mode_check: object, config: OperatorConfig)
-compute_invariant_terms_rbd(config: OperatorConfig)
+compute_invariant_terms_rbd()
+
+compute_invariant_terms_rbd(rom_matrices: object, mode_shapes: object, lumped_mass: object, model_data: object, center_of_mass: object, inertia_relief: object, model_size: object, field_coordinates: object, nod: object, constraint_mode_check: object, config: OperatorConfig)
+
+compute_invariant_terms_rbd(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [compute_invariant_terms_rbd operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_invariant_terms_rbd.md)
+
+**DPF Framework Reference:** [compute_invariant_terms_rbd operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/compute_invariant_terms_rbd.md)
 
 **Parameters:**
 

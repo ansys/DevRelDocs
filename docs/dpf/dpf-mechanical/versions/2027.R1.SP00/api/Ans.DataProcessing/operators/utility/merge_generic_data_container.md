@@ -10,7 +10,7 @@ available inputs: `generic_data_container1` (GenericDataContainer), `generic_dat
 
 available outputs: `generic_data_container` (GenericDataContainer)
 
-**DPF Framework Reference:** [merge_generic_data_container operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_generic_data_container.md)
+**DPF Framework Reference:** [merge_generic_data_container operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_generic_data_container.md)
 
 **Parameters:**
 

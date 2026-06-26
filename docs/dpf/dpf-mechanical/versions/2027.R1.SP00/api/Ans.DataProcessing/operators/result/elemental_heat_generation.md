@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.elemental_heat_generation
 
 # *class* elemental_heat_generation(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-elemental_heat_generation()
-elemental_heat_generation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-elemental_heat_generation(config: OperatorConfig)
+elemental_heat_generation()
+
+elemental_heat_generation(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+elemental_heat_generation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [elemental_heat_generation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_heat_generation.md)
+
+**DPF Framework Reference:** [elemental_heat_generation operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_heat_generation.md)
 
 **Parameters:**
 

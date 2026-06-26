@@ -10,7 +10,7 @@ available inputs: `streams_container` (StreamsContainer) (optional), `data_sourc
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [interface_resultant_contact_force operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/interface_resultant_contact_force.md)
+**DPF Framework Reference:** [interface_resultant_contact_force operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/interface_resultant_contact_force.md)
 
 **Parameters:**
 

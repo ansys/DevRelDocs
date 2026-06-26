@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion, Me
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [equivalent_radiated_power operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/equivalent_radiated_power.md)
+**DPF Framework Reference:** [equivalent_radiated_power operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/equivalent_radiated_power.md)
 
 **Parameters:**
 

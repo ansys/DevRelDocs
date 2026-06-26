@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.TimeFreqScopingFactory
 
 # TimeFreqScopingFactory class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 ## Summary
 

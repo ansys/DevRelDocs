@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.Element
 
 # Element class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 Element(id: int, ptr: IntPtr)
 

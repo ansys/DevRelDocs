@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.temperature_grad_X
 
 # *class* temperature_grad_X(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-temperature_grad_X()
-temperature_grad_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-temperature_grad_X(config: OperatorConfig)
+temperature_grad_X()
+
+temperature_grad_X(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+temperature_grad_X(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [temperature_grad_X operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/temperature_grad_X.md)
+
+**DPF Framework Reference:** [temperature_grad_X operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/temperature_grad_X.md)
 
 **Parameters:**
 

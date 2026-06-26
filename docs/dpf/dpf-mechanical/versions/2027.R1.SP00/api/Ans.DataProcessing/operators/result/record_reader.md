@@ -10,7 +10,7 @@ available inputs: `streams` (StreamsContainer) (optional), `data_sources` (DataS
 
 available outputs: `field` (PropertyField ,Field)
 
-**DPF Framework Reference:** [record_reader operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/record_reader.md)
+**DPF Framework Reference:** [record_reader operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/record_reader.md)
 
 **Parameters:**
 

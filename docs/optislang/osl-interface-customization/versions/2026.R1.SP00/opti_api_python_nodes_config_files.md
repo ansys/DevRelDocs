@@ -62,7 +62,7 @@ An example configuration might look like this:
         "DelayBetweenExecutions" : 3000
     }
 }  
-```
+```json
 
 ## Supported InputSlots/OutputSlots Types
 - Bool

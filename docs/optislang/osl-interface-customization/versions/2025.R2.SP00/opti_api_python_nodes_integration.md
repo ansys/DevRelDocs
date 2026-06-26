@@ -87,9 +87,9 @@ This function serves as flexible, general-purpose, signal and information channe
 
 The execute_custom function can be triggered from the QML layer using the following:
 
-```
+```javascript
 backend.executeCustom(JSON.stringify(info_container))
-```
+```javascript
 
 Information exchange between the QML and Python layers using `execute_custom` occurs using JSON which is represented as a dictionary on the Python side.
 

@@ -12,3 +12,5 @@ The ModelCenter API empowers you to easily perform important tasks, including:
 
 * [ModelCenter COM API](modelcenter-api-md/index.md)
 * [ModelCenter Java API](modelcenter-java-api-md/index.md)
+* [ModelCenter Common API](modelcenter-common-md/index.md)
+* [ModelCenter Plugin API](modelcenter-plugin-md/index.md)

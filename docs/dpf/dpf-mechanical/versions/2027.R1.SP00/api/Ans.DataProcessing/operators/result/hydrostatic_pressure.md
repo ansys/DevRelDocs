@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.hydrostatic_pressure
 
 # *class* hydrostatic_pressure(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-hydrostatic_pressure()
-hydrostatic_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
-hydrostatic_pressure(config: OperatorConfig)
+hydrostatic_pressure()
+
+hydrostatic_pressure(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, config: OperatorConfig)
+
+hydrostatic_pressure(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [hydrostatic_pressure operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/hydrostatic_pressure.md)
+
+**DPF Framework Reference:** [hydrostatic_pressure operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/hydrostatic_pressure.md)
 
 **Parameters:**
 

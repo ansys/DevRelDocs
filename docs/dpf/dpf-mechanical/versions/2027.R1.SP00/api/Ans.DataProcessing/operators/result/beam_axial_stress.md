@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.beam_axial_stress
 
 # *class* beam_axial_stress(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, integration_point: object = None, unit_system: object = None, config: OperatorConfig = None)
 
-beam_axial_stress()
-beam_axial_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
-beam_axial_stress(config: OperatorConfig)
+beam_axial_stress()
+
+beam_axial_stress(time_scoping: object, mesh_scoping: object, data_sources: object, integration_point: object, unit_system: object, config: OperatorConfig)
+
+beam_axial_stress(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [beam_axial_stress operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_stress.md)
+
+**DPF Framework Reference:** [beam_axial_stress operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/beam_axial_stress.md)
 
 **Parameters:**
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.flow_rate
 
 # *class* flow_rate(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-flow_rate()
-flow_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-flow_rate(config: OperatorConfig)
+flow_rate()
+
+flow_rate(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+flow_rate(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [flow_rate operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/flow_rate.md)
+
+**DPF Framework Reference:** [flow_rate operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/flow_rate.md)
 
 **Parameters:**
 

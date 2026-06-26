@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.PinDescription
 
 # PinDescription class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 PinDescription(index: int, name: str, description: str, isOptional: bool, isEllipsis: bool, typeNames: IEnumerable[str], aliases: IEnumerable[str])
 

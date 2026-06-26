@@ -11,34 +11,34 @@ For terminology used in this guide, please refer to the [Glossary](glossary.md).
 ### Install the TestUI application
 
 1. Start from the `artifacts` folder in the `CAMPluginSDK` zip file.
-1. Move the downloaded zip file to your development machine.
-1. Locate the `TestUI` folder which contains the TestUI.exe application needed later. This location is later referred to as `[TestUI_Install_Directory]`.
+2. Move the downloaded zip file to your development machine.
+3. Locate the `TestUI` folder which contains the TestUI.exe application needed later. This location is later referred to as `[TestUI_Install_Directory]`.
 
 **NOTE**: The TestUI is not a production tool. It was written extremely quickly and did not follow the standard software process and as such is funky in a number of ways. However, many people have found it a very useful tool.
 
 ### Configure Visual Studio to use the NuGet repository
 
 1. Inside Visual Studio 2019 or 2022, right-click the solution item in Solution Explorer
-1. Select "Manage NuGet Packages for Solution…"  
+2. Select "Manage NuGet Packages for Solution…"  
    ![Manage NuGet Packages](graphics/configure_visual_studio_1.png)
-1. Click the gear icon to bring up settings  
+3. Click the gear icon to bring up settings  
    ![Settings Gear](graphics/configure_visual_studio_2.png)
-1. Click the + icon to add a new package source  
+4. Click the + icon to add a new package source  
    ![Add Package Source](graphics/configure_visual_studio_3.png)
-1. Change the Source text field to point to the `artifacts` folder in the `CAMpluginSDK` ZIP file
-1. Change the name field to "Desktop Packages" or any other descriptive string  
+5. Change the Source text field to point to the `artifacts` folder in the `CAMpluginSDK` ZIP file
+6. Change the name field to "Desktop Packages" or any other descriptive string  
    ![Configure Source](graphics/configure_visual_studio_4.png)
-1. After accepting changes, you should now see "Desktop Packages" as an option in the Package Source dropdown menu  
+7. After accepting changes, you should now see "Desktop Packages" as an option in the Package Source dropdown menu  
    ![Package Source Added](graphics/configure_visual_studio_5.png)
-1. Click "Install" for `Phoenix.ComponentPlugInSDK`  
+8. Click "Install" for `Phoenix.ComponentPlugInSDK`  
    ![Install SDK](graphics/configure_visual_studio_6.png)
 
 ### Optionally install the PACZ component plug-in wizard for Visual Studio
 
 1. Requires Visual Studio 2019 (not yet supported in Visual Studio 2022)
-1. Adjacent to the TestUI folder is the `ComponentPlugInSDKTemplate` folder
-1. Double-click the `Phoenix.ComponentPlugInSDKTemplateWizard.vsix` file
-1. Complete the VSIX installer wizard
+2. Adjacent to the TestUI folder is the `ComponentPlugInSDKTemplate` folder
+3. Double-click the `Phoenix.ComponentPlugInSDKTemplateWizard.vsix` file
+4. Complete the VSIX installer wizard
 
 The Wizard creates a stub plug-in project ready to be implemented. If you do not wish to or
 cannot use it, copy a [sample plug-in](examples.md)
@@ -51,37 +51,37 @@ In Visual Studio, create a new project.
 **On the "Create a new project" page:**
 
 1. Select the template that was installed earlier: "PACZ Plug-In Template"
-1. Press Next
+2. Press Next
 
 **On the "Configure your new project" page:**
 
 1. Enter the project name (this is used as the default namespace and plug-in name)
-1. This name is referred to as `[Name]` throughout this document
-1. Choose the project location
-1. For Framework, choose at least .NET Framework 4.6.2
-1. Press Create
+2. This name is referred to as `[Name]` throughout this document
+3. Choose the project location
+4. For Framework, choose at least .NET Framework 4.6.2
+5. Press Create
 
 **On the "New PACZ Plug-In Project Wizard" dialog:**
 
 1. Choose "Variable Based"
-1. Press OK
+2. Press OK
 
 Visual Studio creates a new project for you.
 
 **NOTE**: Visual Studio 2019 has a bug where the project may take some time before it builds as it resolves package dependencies. If the project references do not show `Phoenix.ComponentPlugInSDK`, try these steps:
 
 1. Right-click the solution in Solution Explorer
-1. Choose "Restore NuGet Packages"
-1. Close and reopen the solution
+2. Choose "Restore NuGet Packages"
+3. Close and reopen the solution
 
 ### Debugging with Visual Studio
 
 After building your plug-in and deploying it to ModelCenter or TestUI, you can debug it using Visual Studio:
 
 1. Set breakpoints in your code at key functions like `ConstructAsync`, `RunAsync`, `SetupView`, etc.
-1. In Visual Studio, go to Debug → Attach to Process
-1. Find and attach to `Phoenix.OutOfProcessBuilderUIHost` or `TestUI` depending on how you are running the plug-in
-1. Run your component to trigger breakpoints
+2. In Visual Studio, go to Debug → Attach to Process
+3. Find and attach to `Phoenix.OutOfProcessBuilderUIHost` or `TestUI` depending on how you are running the plug-in
+4. Run your component to trigger breakpoints
 
 **NOTE**: Breakpoints on `ConstructAsync` do not work when running from ModelCenter as it is called
 immediately after starting `Phoenix.OutOfProcessBuilderUIHost`, before you can attach to the process.
@@ -91,8 +91,8 @@ immediately after starting `Phoenix.OutOfProcessBuilderUIHost`, before you can a
 To add a custom icon to your plug-in:
 
 1. Create a new folder `Images` at the Visual Studio project root level
-1. Copy your icon file to this folder
-1. Un-comment and rename `[PlugInIcon("Images/placeholder.ico")]` in the main plug-in class file
+2. Copy your icon file to this folder
+3. Un-comment and rename `[PlugInIcon("Images/placeholder.ico")]` in the main plug-in class file
 
 ## Getting started in Java
 
@@ -175,17 +175,17 @@ This class provides access to the plug-in's variables:
 ### Test with TestUI
 
 1. Build the plug-in project
-1. Copy the `Debug` folder (from `[PlugIn Dir]/bin`) to the `Plug-Ins` folder of the TestUI App
-1. Run TestUI
-1. Create a new component
-1. Navigate to `Plug-Ins / Debug / [Name]`
-1. The new component wizard appears (same as in ModelCenter)
+2. Copy the `Debug` folder (from `[PlugIn Dir]/bin`) to the `Plug-Ins` folder of the TestUI App
+3. Run TestUI
+4. Create a new component
+5. Navigate to `Plug-Ins / Debug / [Name]`
+6. The new component wizard appears (same as in ModelCenter)
 
 After making changes:
 
 1. Rebuild the project
-1. Replace the directory in the TestUI app
-1. Rerun TestUI
+2. Replace the directory in the TestUI app
+3. Rerun TestUI
 
 **Advanced Tip**: Use `mklink` to create a soft link from the TestUI `Plug-Ins` folder to your project's compile output folder, eliminating manual copying after each build.
 
@@ -194,11 +194,11 @@ After making changes:
 ### Test with ModelCenter 14.5+
 
 1. Install ModelCenter version 14.5 or higher
-1. Copy the `Debug` folder (from `[PlugIn Dir]/bin`) to the `Plug-Ins` folder of your ModelCenter installation  
+2. Copy the `Debug` folder (from `[PlugIn Dir]/bin`) to the `Plug-Ins` folder of your ModelCenter installation  
    (Typically: `C:\Program Files\Phoenix Integration\ModelCenter 14.5\Plug-Ins`)
-1. Open ModelCenter and create a new workflow
-1. Locate your plug-in in the Server Browser under `component plug-in / [your plug-in's name]`
-1. Drag the plug-in icon into the workflow to launch the new component wizard
+3. Open ModelCenter and create a new workflow
+4. Locate your plug-in in the Server Browser under `component plug-in / [your plug-in's name]`
+5. Drag the plug-in icon into the workflow to launch the new component wizard
 
 ## Customizing your plug-in
 
@@ -271,8 +271,8 @@ Help users create variables programmatically:
 To use the `SelectVariables` form:
 
 1. Pass lists of available inputs and outputs
-1. Call `SelectVariables()` method of the `AbstractBuilderUI` object
-1. Users can filter and select which variables to include
+2. Call `SelectVariables()` method of the `AbstractBuilderUI` object
+3. Users can filter and select which variables to include
 
 #### `GetTreeProperties()`
 

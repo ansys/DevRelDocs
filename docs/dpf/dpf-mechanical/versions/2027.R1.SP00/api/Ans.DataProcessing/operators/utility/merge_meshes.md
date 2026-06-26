@@ -10,7 +10,7 @@ available inputs: `naive_merge_elements` (bool) (optional), `should_merge_named_
 
 available outputs: `merges_mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [merge_meshes operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_meshes.md)
+**DPF Framework Reference:** [merge_meshes operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_meshes.md)
 
 **Parameters:**
 

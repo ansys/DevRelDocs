@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.acceleration_Y
 
 # *class* acceleration_Y(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-acceleration_Y()
-acceleration_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-acceleration_Y(config: OperatorConfig)
+acceleration_Y()
+
+acceleration_Y(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+acceleration_Y(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [acceleration_Y operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration_Y.md)
+
+**DPF Framework Reference:** [acceleration_Y operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/acceleration_Y.md)
 
 **Parameters:**
 

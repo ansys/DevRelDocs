@@ -465,6 +465,10 @@
       href: operator-specifications/math/make_one_on_comp.md
     - name: matrix inverse
       href: operator-specifications/math/matrix_inverse.md
+    - name: matrix product
+      href: operator-specifications/math/matrix_product.md
+    - name: matrix product fc
+      href: operator-specifications/math/matrix_product_fc.md
     - name: mechanical min max over time
       href: operator-specifications/math/mechanical_min_max_over_time.md
     - name: minus
@@ -1065,6 +1069,8 @@
       href: operator-specifications/result/global_total_energy.md
     - name: global total mass
       href: operator-specifications/result/global_total_mass.md
+    - name: global to nodal
+      href: operator-specifications/result/global_to_nodal.md
     - name: global velocity
       href: operator-specifications/result/global_velocity.md
     - name: heat conductivity rate
@@ -1625,6 +1631,8 @@
       href: operator-specifications/utility/concatenate_fields.md
     - name: concatenate fields containers
       href: operator-specifications/utility/concatenate_fields_containers.md
+    - name: csharp generator
+      href: operator-specifications/utility/csharp_generator.md
     - name: customtypefield get attribute
       href: operator-specifications/utility/customtypefield_get_attribute.md
     - name: cyclic support get attribute
@@ -1781,5 +1789,6 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
+  
 - name: Changelog
   href: changelog/changelog.md

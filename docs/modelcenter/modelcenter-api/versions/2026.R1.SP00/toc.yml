@@ -370,3 +370,261 @@
       href: modelcenter-java-api-md/mc_api/com.phoenix_int.ModelCenter.util/-p-h-x-u-r-l-class-loader/index.md
     - name: ValueHolder
       href: modelcenter-java-api-md/mc_api/com.phoenix_int.ModelCenter.util/-value-holder/index.md
+- name: Common API
+  href: modelcenter-common-md/index.md
+  items:
+  - name: ComponentPlugIn
+    items:
+    - name: IComponentPlugIn
+      href: modelcenter-common-md/interfaceComponentPlugIn_1_1IComponentPlugIn.md
+  - name: ModelCenter
+    items:
+    - name: Application
+      href: modelcenter-common-md/classModelCenter_1_1Application.md
+    - name: IAddToModel
+      href: modelcenter-common-md/interfaceModelCenter_1_1IAddToModel.md
+    - name: IArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IArray.md
+    - name: IAssemblies
+      href: modelcenter-common-md/interfaceModelCenter_1_1IAssemblies.md
+    - name: IAssembly
+      href: modelcenter-common-md/interfaceModelCenter_1_1IAssembly.md
+    - name: IBooleanArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IBooleanArray.md
+    - name: IBooleanVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IBooleanVariable.md
+    - name: ICachePin
+      href: modelcenter-common-md/interfaceModelCenter_1_1ICachePin.md
+    - name: IComponent
+      href: modelcenter-common-md/interfaceModelCenter_1_1IComponent.md
+    - name: IComponents
+      href: modelcenter-common-md/interfaceModelCenter_1_1IComponents.md
+    - name: ICustomDesignPoint
+      href: modelcenter-common-md/interfaceModelCenter_1_1ICustomDesignPoint.md
+    - name: IDataCollector
+      href: modelcenter-common-md/interfaceModelCenter_1_1IDataCollector.md
+    - name: IDataMonitor
+      href: modelcenter-common-md/interfaceModelCenter_1_1IDataMonitor.md
+    - name: IDoubleArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IDoubleArray.md
+    - name: IDoubleVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IDoubleVariable.md
+    - name: IFeature
+      href: modelcenter-common-md/interfaceModelCenter_1_1IFeature.md
+    - name: IFileArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IFileArray.md
+    - name: IFileSystemInfo
+      href: modelcenter-common-md/interfaceModelCenter_1_1IFileSystemInfo.md
+    - name: IFileVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IFileVariable.md
+    - name: IGeometryVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IGeometryVariable.md
+    - name: IGlobalParameters
+      href: modelcenter-common-md/interfaceModelCenter_1_1IGlobalParameters.md
+    - name: IGroup
+      href: modelcenter-common-md/interfaceModelCenter_1_1IGroup.md
+    - name: IGroups
+      href: modelcenter-common-md/interfaceModelCenter_1_1IGroups.md
+    - name: IIfComponent
+      href: modelcenter-common-md/interfaceModelCenter_1_1IIfComponent.md
+    - name: IIntegerArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IIntegerArray.md
+    - name: IIntegerVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IIntegerVariable.md
+    - name: IJobManager
+      href: modelcenter-common-md/interfaceModelCenter_1_1IJobManager.md
+    - name: ILogger
+      href: modelcenter-common-md/interfaceModelCenter_1_1ILogger.md
+    - name: ILoginCallback
+      href: modelcenter-common-md/interfaceModelCenter_1_1ILoginCallback.md
+    - name: IModelCenter
+      href: modelcenter-common-md/interfaceModelCenter_1_1IModelCenter.md
+    - name: INetworkLocations
+      href: modelcenter-common-md/interfaceModelCenter_1_1INetworkLocations.md
+    - name: IObjectVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IObjectVariable.md
+    - name: IPHXFormat
+      href: modelcenter-common-md/interfaceModelCenter_1_1IPHXFormat.md
+    - name: IRefArrayProp
+      href: modelcenter-common-md/interfaceModelCenter_1_1IRefArrayProp.md
+    - name: IRefProp
+      href: modelcenter-common-md/interfaceModelCenter_1_1IRefProp.md
+    - name: IReferenceArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IReferenceArray.md
+    - name: IReferenceVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IReferenceVariable.md
+    - name: IScriptComponent
+      href: modelcenter-common-md/interfaceModelCenter_1_1IScriptComponent.md
+    - name: IShowHelpEvents
+      href: modelcenter-common-md/interfaceModelCenter_1_1IShowHelpEvents.md
+    - name: IStringArray
+      href: modelcenter-common-md/interfaceModelCenter_1_1IStringArray.md
+    - name: IStringVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IStringVariable.md
+    - name: ITradeStudyEvents
+      href: modelcenter-common-md/interfaceModelCenter_1_1ITradeStudyEvents.md
+    - name: IVariable
+      href: modelcenter-common-md/interfaceModelCenter_1_1IVariable.md
+    - name: IVariableDescription
+      href: modelcenter-common-md/interfaceModelCenter_1_1IVariableDescription.md
+    - name: IVariableLink
+      href: modelcenter-common-md/interfaceModelCenter_1_1IVariableLink.md
+    - name: IVariableLinks
+      href: modelcenter-common-md/interfaceModelCenter_1_1IVariableLinks.md
+    - name: IVariables
+      href: modelcenter-common-md/interfaceModelCenter_1_1IVariables.md
+    - name: IVizContainer
+      href: modelcenter-common-md/interfaceModelCenter_1_1IVizContainer.md
+  - name: PHXDATAEXPLORERLib
+    items:
+    - name: IDataExplorerFacadeOwner
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner.md
+    - name: ILegacyVisiblity
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity.md
+    - name: IPHXDEKeepalive
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1IPHXDEKeepalive.md
+    - name: IPHXDataExplorerPointer
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer.md
+    - name: IPageVisibility
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1IPageVisibility.md
+    - name: PHXDataExplorer
+      href: modelcenter-common-md/classPHXDATAEXPLORERLib_1_1PHXDataExplorer.md
+    - name: PHXDataExplorerPointer
+      href: modelcenter-common-md/classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer.md
+    - name: _DPHXDataExplorer
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md
+    - name: _DPHXDataExplorerEvents
+      href: modelcenter-common-md/interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md
+  - name: PHXDATAHISTORYLib
+    items:
+    - name: DataHistoryVariableMetadata
+      href: modelcenter-common-md/classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata.md
+    - name: DataHistoryVariableMetadataStruct
+      href: modelcenter-common-md/structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct.md
+    - name: DataHistoryVariableStruct
+      href: modelcenter-common-md/structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct.md
+    - name: IDHVariable
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1IDHVariable.md
+    - name: IPHXMenuItems
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1IPHXMenuItems.md
+    - name: ISaveContext
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1ISaveContext.md
+    - name: PHXDataExplorerExportPlugIn
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1PHXDataExplorerExportPlugIn.md
+    - name: PHXDataExplorerPlugIn
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn.md
+    - name: PHXDataHistory
+      href: modelcenter-common-md/classPHXDATAHISTORYLib_1_1PHXDataHistory.md
+    - name: _DPHXDataHistory
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory.md
+    - name: _DPHXDataHistoryEvents
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents.md
+    - name: _DPHXDataHistoryToModel
+      href: modelcenter-common-md/interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md
+  - name: PlugInMetaData
+    items:
+    - name: IPlugInMetaData
+      href: modelcenter-common-md/interfacePlugInMetaData_1_1IPlugInMetaData.md
+  - name: TradeStudyPlugIn
+    items:
+    - name: ICombinedPlugIn
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ICombinedPlugIn.md
+    - name: ITradeStudy3JobInfo
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudy3JobInfo.md
+    - name: ITradeStudy3JobManager
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager.md
+    - name: ITradeStudy3JobResult
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult.md
+    - name: ITradeStudyCallback
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudyCallback.md
+    - name: ITradeStudyPlugIn
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn.md
+    - name: ITradeStudyPlugIn2
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2.md
+    - name: ITradeStudyPlugIn3
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3.md
+    - name: IVariableMetaDataProvider
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider.md
+    - name: IWindowed
+      href: modelcenter-common-md/interfaceTradeStudyPlugIn_1_1IWindowed.md
+    - name: TradeStudyPlugIn
+      href: modelcenter-common-md/classTradeStudyPlugIn_1_1TradeStudyPlugIn.md
+    - name: TradeStudyPlugIn2
+      href: modelcenter-common-md/classTradeStudyPlugIn_1_1TradeStudyPlugIn2.md
+- name: Plugin API
+  href: modelcenter-plugin-md/index.md
+  items:
+  - name: Phoenix.DotNetUtils
+    href: modelcenter-plugin-md/namespacePhoenix_1_1DotNetUtils.md
+  - name: Phoenix.ModelCenter
+    href: modelcenter-plugin-md/namespacePhoenix_1_1ModelCenter.md
+  - name: Phoenix.ModelCenter.Common
+    href: modelcenter-plugin-md/namespacePhoenix_1_1ModelCenter_1_1Common.md
+    items:
+    - name: IArrayIndexer
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1Common_1_1IArrayIndexer.md
+  - name: Phoenix.ModelCenter.PlugIn
+    href: modelcenter-plugin-md/namespacePhoenix_1_1ModelCenter_1_1PlugIn.md
+    items:
+    - name: AbstractModelCenterPlugIn
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1AbstractModelCenterPlugIn.md
+    - name: AbstractTradeStudyPlugIn
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1AbstractTradeStudyPlugIn.md
+    - name: AnalyzerUtils
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1AnalyzerUtils.md
+    - name: AnalyzerVariableAddedEventArgs
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1AnalyzerVariableAddedEventArgs.md
+    - name: ArrayIndexer
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ArrayIndexer.md
+    - name: ComponentPlugInAttribute
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ComponentPlugInAttribute.md
+    - name: ComponentSerializer
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ComponentSerializer.md
+    - name: DataCollectorCreatedEventArgs
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1DataCollectorCreatedEventArgs.md
+    - name: DataCollectorPlugInAttribute
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1DataCollectorPlugInAttribute.md
+    - name: DropUtils
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1DropUtils.md
+    - name: FormUtils
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1FormUtils.md
+    - name: IAnalyzerVariableInfo
+      href: modelcenter-plugin-md/interfacePhoenix_1_1ModelCenter_1_1PlugIn_1_1IAnalyzerVariableInfo.md
+    - name: IDotNetPlugIn
+      href: modelcenter-plugin-md/interfacePhoenix_1_1ModelCenter_1_1PlugIn_1_1IDotNetPlugIn.md
+    - name: IStringSerializer
+      href: modelcenter-plugin-md/interfacePhoenix_1_1ModelCenter_1_1PlugIn_1_1IStringSerializer.md
+    - name: ModelCenterFavoritesProvider
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ModelCenterFavoritesProvider.md
+    - name: ModelCenterHelpProvider
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ModelCenterHelpProvider.md
+    - name: ModelCenterHost
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ModelCenterHost.md
+    - name: ModelCenterLogger
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ModelCenterLogger.md
+    - name: ModelCenterPlugInForm
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ModelCenterPlugInForm.md
+    - name: ModelCenterVariableUtils
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1ModelCenterVariableUtils.md
+    - name: NameSubstitutionFile
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1NameSubstitutionFile.md
+    - name: PlugInAttribute
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1PlugInAttribute.md
+    - name: SModelCenterHost
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1SModelCenterHost.md
+    - name: TradeStudyCallback
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1TradeStudyCallback.md
+    - name: TradeStudyCancelableEventArgs
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1TradeStudyCancelableEventArgs.md
+    - name: TradeStudyDataCollectorEventArgs
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1TradeStudyDataCollectorEventArgs.md
+    - name: TradeStudyEventArgs
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1TradeStudyEventArgs.md
+    - name: TradeStudyPlugInAttribute
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1TradeStudyPlugInAttribute.md
+    - name: TradeStudySerializer
+      href: modelcenter-plugin-md/classPhoenix_1_1ModelCenter_1_1PlugIn_1_1TradeStudySerializer.md
+  - name: Phoenix.SModelCenter
+    href: modelcenter-plugin-md/namespacePhoenix_1_1SModelCenter.md
+- name: Changelog
+  href: changelog.md

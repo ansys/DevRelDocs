@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `mesh` (MeshedRegion, Me
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [gauss_to_node_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/gauss_to_node_fc.md)
+**DPF Framework Reference:** [gauss_to_node_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/gauss_to_node_fc.md)
 
 **Parameters:**
 

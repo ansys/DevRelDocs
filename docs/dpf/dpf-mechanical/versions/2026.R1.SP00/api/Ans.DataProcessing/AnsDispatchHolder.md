@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.AnsDispatchHolder
 
 # AnsDispatchHolder class
 
-**Namespace:** [Ans.DataProcessing](Ans_DataProcessing.md)
+**Namespace:** [Ans.DataProcessing](index.md)
 
 AnsDispatchHolder(obj: object)
 

@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.modal_velocity
 
 # *class* modal_velocity(time_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-modal_velocity()
-modal_velocity(time_scoping: object, data_sources: object, config: OperatorConfig)
-modal_velocity(config: OperatorConfig)
+modal_velocity()
+
+modal_velocity(time_scoping: object, data_sources: object, config: OperatorConfig)
+
+modal_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [modal_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_velocity.md)
+
+**DPF Framework Reference:** [modal_velocity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/modal_velocity.md)
 
 **Parameters:**
 

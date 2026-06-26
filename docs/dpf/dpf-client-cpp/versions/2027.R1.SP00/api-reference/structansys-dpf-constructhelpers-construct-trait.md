@@ -12,7 +12,7 @@ traits specialized below to handle derived class of [CustomContainerBase](classa
 **Template parameters**:
 
 * typename DataT
-* typename IsGDC = typename [HasGenericDataContainerConstructor](namespaceansys-dpf.md#namespaceansys-dpf-1acc01990faa84aba04f8d6534727dd204)<DataT>::type 
+* typename IsGDC = typename [HasGenericDataContainerConstructor](namespaceansys-dpf.md#namespaceansys-dpf-1a5f3f18dc09482854dd40ed01d0d6e583)<DataT>::type 
 
 ## Members
 

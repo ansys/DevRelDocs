@@ -10,7 +10,7 @@ available inputs: `field` (Field), `id` (Int32)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [make_overall operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_overall.md)
+**DPF Framework Reference:** [make_overall operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/make_overall.md)
 
 **Parameters:**
 

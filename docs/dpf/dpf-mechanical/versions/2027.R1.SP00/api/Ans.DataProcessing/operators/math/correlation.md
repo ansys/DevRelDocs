@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.math.correlation
 
 # *class* correlation(fieldA: object = None, fieldB: object = None, weights: object = None, absoluteValue: object = None, config: OperatorConfig = None)
 
-correlation()
-correlation(fieldA: object, fieldB: object, weights: object, absoluteValue: object, config: OperatorConfig)
-correlation(config: OperatorConfig)
+correlation()
+
+correlation(fieldA: object, fieldB: object, weights: object, absoluteValue: object, config: OperatorConfig)
+
+correlation(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [correlation operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/correlation.md)
+
+**DPF Framework Reference:** [correlation operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/correlation.md)
 
 **Parameters:**
 

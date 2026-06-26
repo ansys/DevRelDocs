@@ -339,7 +339,7 @@ Pin definition.
 
 * std::string const & **n**: [in] Name of pin.
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -371,7 +371,7 @@ Pin definition.
 
 * std::string const & **n**: [in] Name of the derived class.
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -403,7 +403,7 @@ Pin definition.
 
 * int **n**: [in] Postion of pin.
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -435,7 +435,7 @@ Pin definition.
 
 * std::string const & **n**: [in] Pin description.
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -467,7 +467,7 @@ Pin definition.
 
 * bool **n**: [in] Flag indicating if pin is optional.
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -498,7 +498,7 @@ Pin definition.
 
 * bool **n**
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -529,7 +529,7 @@ Pin definition.
 
 * std::vector< [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor) > const & **n**
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -560,7 +560,7 @@ Pin definition.
 
 * std::vector< std::string > const & **n**
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:
@@ -591,7 +591,7 @@ Pin definition.
 
 * std::string const & **alias**
 
-**Return type**: PinDefinition &
+**Return type**: [PinDefinition](structansys-dpf-pindefinition.md#structansys-dpf-pindefinition) &
 
 <!--
 **TODO**:

@@ -10,7 +10,7 @@ available inputs: `strain_field` (Field, FieldsContainer)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [strain_from_voigt operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/strain_from_voigt.md)
+**DPF Framework Reference:** [strain_from_voigt operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/strain_from_voigt.md)
 
 **Parameters:**
 

@@ -10,7 +10,7 @@ available inputs: `field` (Field), `iso_value` (double), `closed_surface` (Int32
 
 available outputs: `mesh` (MeshedRegion)
 
-**DPF Framework Reference:** [mesh_cut operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_cut.md)
+**DPF Framework Reference:** [mesh_cut operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_cut.md)
 
 **Parameters:**
 

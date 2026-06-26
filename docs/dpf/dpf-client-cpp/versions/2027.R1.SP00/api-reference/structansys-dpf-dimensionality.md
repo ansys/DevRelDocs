@@ -176,7 +176,7 @@ ENature ansys::dpf::Dimensionality::nature
 
 
 
-[ENature](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality-1af4666dee615e27f2fe603240631b932f) enum value to describe the dimension of the entity.
+ENature enum value to describe the dimension of the entity.
 
 
 
@@ -235,7 +235,7 @@ ansys::dpf::Dimensionality::Dimensionality(ENature innature, std::vector< int > 
 **Parameters**:
 
 * [ENature](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality-1af4666dee615e27f2fe603240631b932f) **innature**
-* std::vector< int > const & **incomponents**: [in] [ENature](structansys-dpf-dimensionality.md#structansys-dpf-dimensionality-1af4666dee615e27f2fe603240631b932f) enum value to describe the dimension of the entity.
+* std::vector< int > const & **incomponents**: [in] ENature enum value to describe the dimension of the entity.
 
 **Return type**: 
 
@@ -259,7 +259,8 @@ dp_int ansys::dpf::Dimensionality::numberOfComponents() const
 
 
 
-[in] Vector defining size of each dimension.
+[in] Vector defining size of each dimension. <br/>
+
 **Returns**:
 
 The number of components of the described entity.

@@ -10,7 +10,7 @@ available inputs: `scopings_container` (ScopingsContainer), `inclusive` (Int32) 
 
 available outputs: `meshes` (MeshesContainer)
 
-**DPF Framework Reference:** [from_scopings operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
+**DPF Framework Reference:** [from_scopings operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
 
 **Parameters:**
 

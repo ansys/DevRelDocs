@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `reference_node_id` (Int
 
 available outputs: `fields_container` (FieldsContainer), `translation_field` (Field), `rotation_field` (Field), `center_field` (Field)
 
-**DPF Framework Reference:** [remove_rigid_body_motion_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/remove_rigid_body_motion_fc.md)
+**DPF Framework Reference:** [remove_rigid_body_motion_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/remove_rigid_body_motion_fc.md)
 
 **Parameters:**
 

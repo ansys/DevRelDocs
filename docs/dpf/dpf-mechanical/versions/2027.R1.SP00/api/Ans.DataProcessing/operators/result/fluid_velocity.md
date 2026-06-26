@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.fluid_velocity
 
 # *class* fluid_velocity(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-fluid_velocity()
-fluid_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-fluid_velocity(config: OperatorConfig)
+fluid_velocity()
+
+fluid_velocity(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+fluid_velocity(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [fluid_velocity operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/fluid_velocity.md)
+
+**DPF Framework Reference:** [fluid_velocity operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/fluid_velocity.md)
 
 **Parameters:**
 

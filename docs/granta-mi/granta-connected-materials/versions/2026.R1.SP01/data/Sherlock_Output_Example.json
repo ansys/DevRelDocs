@@ -1,0 +1,535 @@
+{
+  "materials": [
+    {
+      "materialName": "Aluminum, 2014, T6",
+      "materialId": "ebfa1de2-4b6e-4829-a945-a6e27731e891",
+      "databaseKey": "MI_MaterialUniverse",
+      "databaseName": "MaterialUniverse",
+      "tableName": "MaterialUniverse",
+      "unitSystem": "SI (Consistent)",
+      "absoluteUnits": false,
+      "exportDateTime": "2025-09-24T17:13:27Z",
+      "traceabilityNotes": "Material data from Granta MI\r\nRecord name: Aluminum, 2014, T6\r\nTable name: MaterialUniverse\r\nDate: 2025-09-24 (UTC)",
+      "models": [
+        {
+          "modelName": "Classification",
+          "modelId": "classification",
+          "constraints": [],
+          "properties": [
+            {"name": "Material class", "stringValue": "Metal"},
+            {"name": "Material family", "stringValue": "Metal (non-ferrous)"},
+            {"name": "Material sub-class", "stringValue": "Aluminum alloy"},
+            {"name": "Material form", "stringValue": "Bulk material"},
+            {"name": "Material state", "stringValue": "Solid"}
+          ]
+        },
+        {
+          "modelName": "Density",
+          "modelId": "density",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Density",
+              "symbol": "rho",
+              "unit": "kg/m^3",
+              "numericValue": 2799.8392337217879
+            }
+          ]
+        },
+        {
+          "modelName": "Description",
+          "modelId": "description",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Description",
+              "stringValue": "Aluminum, 2014, T6, wrought"
+            }
+          ]
+        },
+        {
+          "modelName": "Elasticity, isotropic",
+          "modelId": "elasticity.isotropic",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Tensile modulus",
+              "symbol": "E",
+              "unit": "Pa",
+              "numericValue": 74458041875.945145
+            },
+            {
+              "name": "Poisson's ratio",
+              "symbol": "v",
+              "numericValue": 0.33412197190299409
+            }
+          ]
+        },
+        {
+          "modelName": "Elasticity, isotropic with temperature",
+          "modelId": "elasticity.isotropic.with.temp",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Tensile modulus",
+              "columns": [
+                {
+                  "name": "Tensile modulus",
+                  "symbol": "E",
+                  "unit": "Pa",
+                  "isFreeParameter": false,
+                  "numericValues": [
+                    81040000000,
+                    79960000000,
+                    77420000000,
+                    74370000000,
+                    71250000000,
+                    68060000000,
+                    64310000000,
+                    59030000000,
+                    50770000000,
+                    37640000000
+                  ],
+                  "implicitConstraints": []
+                },
+                {
+                  "name": "Temperature",
+                  "symbol": "T",
+                  "unit": "°C",
+                  "isFreeParameter": true,
+                  "numericValues": [
+                    -270.1,
+                    -184.6,
+                    -99.04000000000002,
+                    -13.480000000000018,
+                    72.07,
+                    157.60000000000002,
+                    243.19999999999993,
+                    328.69999999999993,
+                    414.30000000000007,
+                    499.9
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Poisson's ratio",
+              "symbol": "v",
+              "numericValue": 0.33412197190299409
+            }
+          ]
+        },
+        {
+          "modelName": "Glass transition temperature",
+          "modelId": "glass.transition.temperature",
+          "constraints": [],
+          "properties": []
+        },
+        {
+          "modelName": "Rendering",
+          "modelId": "rendering",
+          "constraints": [],
+          "properties": [
+            {"name": "Red", "symbol": "R", "numericValue": 234},
+            {"name": "Green", "symbol": "G", "numericValue": 234},
+            {"name": "Blue", "symbol": "B", "numericValue": 234},
+            {"name": "Opacity", "numericValue": 1},
+            {"name": "Metallic finish", "boolValue": true}
+          ]
+        },
+        {
+          "modelName": "Simple failure",
+          "modelId": "simple.failure",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Tensile strength, yield",
+              "symbol": "YS",
+              "unit": "Pa",
+              "numericValue": 377571185.34125453
+            },
+            {
+              "name": "Tensile strength, ultimate",
+              "symbol": "UTS",
+              "unit": "Pa",
+              "numericValue": 434902287.87625384
+            },
+            {
+              "name": "Tensile elongation",
+              "symbol": "e",
+              "unit": "strain",
+              "numericValue": 0.034641016151377546
+            }
+          ]
+        },
+        {
+          "modelName": "Specific heat capacity",
+          "modelId": "specific.heat.capacity",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Specific heat capacity",
+              "symbol": "Cp",
+              "unit": "J/kg.°C",
+              "numericValue": 896.48681556040344
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal conductivity",
+          "modelId": "thermal.conductivity",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal conductivity",
+              "symbol": "k",
+              "unit": "W/m.°C",
+              "numericValue": 160.38562543192813,
+              "implicitConstraints": [
+                {"name": "Temperature", "numericValue": 296.15, "unit": "K"}
+              ]
+            }
+          ],
+          "notes": [
+            "Column 'Thermal conductivity' contains interpolated values"
+          ]
+        },
+        {
+          "modelName": "Thermal conductivity with temperature",
+          "modelId": "thermal.conductivity.with.temp",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal conductivity",
+              "columns": [
+                {
+                  "name": "Thermal conductivity",
+                  "symbol": "k",
+                  "unit": "W/m.°C",
+                  "isFreeParameter": false,
+                  "numericValues": [
+                    54.67,
+                    84.6,
+                    99.8,
+                    111.1,
+                    120.9,
+                    129.5,
+                    137.5,
+                    144.8,
+                    151.6,
+                    157.9,
+                    163.6,
+                    168.9,
+                    173.7,
+                    178.2,
+                    182.2,
+                    186,
+                    189.4,
+                    192.6,
+                    195.5,
+                    198.3
+                  ],
+                  "implicitConstraints": []
+                },
+                {
+                  "name": "Temperature",
+                  "symbol": "T",
+                  "unit": "°C",
+                  "isFreeParameter": true,
+                  "numericValues": [
+                    -250.2,
+                    -221.2,
+                    -192.3,
+                    -163.3,
+                    -134.4,
+                    -105.4,
+                    -76.47,
+                    -47.52000000000001,
+                    -18.569999999999993,
+                    10.379999999999995,
+                    39.319999999999993,
+                    68.269999999999982,
+                    97.220000000000027,
+                    126.19999999999999,
+                    155.10000000000002,
+                    184.10000000000002,
+                    213,
+                    242,
+                    270.9,
+                    299.9
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal expansion coefficient",
+          "modelId": "thermal.expansion.coefficient",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal expansion coefficient",
+              "symbol": "CTE",
+              "unit": "strain/°C",
+              "numericValue": 2.31784390199252E-05
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal expansion coefficient with temperature",
+          "modelId": "thermal.expansion.coefficient.with.temp",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal expansion coefficient",
+              "columns": [
+                {
+                  "name": "Thermal expansion coefficient",
+                  "symbol": "CTE",
+                  "unit": "strain/°C",
+                  "isFreeParameter": false,
+                  "numericValues": [
+                    1.662E-05,
+                    1.847E-05,
+                    1.947E-05,
+                    2.008E-05,
+                    2.0599999999999996E-05,
+                    2.106E-05,
+                    2.148E-05,
+                    2.1849999999999996E-05,
+                    2.2179999999999998E-05,
+                    2.2469999999999997E-05,
+                    2.2739999999999996E-05,
+                    2.297E-05,
+                    2.319E-05,
+                    2.3389999999999998E-05,
+                    2.357E-05,
+                    2.3749999999999998E-05,
+                    2.392E-05,
+                    2.4089999999999998E-05,
+                    2.427E-05,
+                    2.445E-05
+                  ],
+                  "implicitConstraints": []
+                },
+                {
+                  "name": "Temperature",
+                  "symbol": "T",
+                  "unit": "°C",
+                  "isFreeParameter": true,
+                  "numericValues": [
+                    -210.2,
+                    -182.8,
+                    -155.4,
+                    -128,
+                    -100.69999999999999,
+                    -73.31,
+                    -45.94,
+                    -18.569999999999993,
+                    8.7970000000000255,
+                    36.170000000000016,
+                    63.529999999999973,
+                    90.899999999999977,
+                    118.30000000000001,
+                    145.60000000000002,
+                    173,
+                    200.39999999999998,
+                    227.7,
+                    255.10000000000002,
+                    282.5,
+                    309.9
+                  ]
+                }
+              ]
+            },
+            {"name": "Reference temperature", "unit": "°C", "numericValue": 20}
+          ]
+        }
+      ]
+    },
+    {
+      "materialName": "AGC Nelco | M-Ply, Prepreg, 106 construction, 2.088 mil",
+      "materialId": "fecfac34-1db2-4277-a455-1c52dafe08b4",
+      "databaseKey": "MI_Electromagnetic_Materials",
+      "databaseName": "Electromagnetic Materials",
+      "tableName": "Electromagnetic Materials",
+      "unitSystem": "SI (Consistent)",
+      "absoluteUnits": false,
+      "exportDateTime": "2025-09-24T17:17:58Z",
+      "traceabilityNotes": "Material data from Granta MI\r\nRecord name: AGC Nelco | M-Ply, Prepreg, 106 construction, 2.088 mil\r\nTable name: Electromagnetic Materials\r\nDate: 2025-09-24 (UTC)",
+      "models": [
+        {
+          "modelName": "Classification",
+          "modelId": "classification",
+          "constraints": [],
+          "properties": [
+            {"name": "Material class", "stringValue": "PCB laminate - Prepreg"}
+          ]
+        },
+        {
+          "modelName": "Density",
+          "modelId": "density",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Density",
+              "symbol": "rho",
+              "unit": "kg/m^3",
+              "numericValue": 2000
+            }
+          ]
+        },
+        {
+          "modelName": "Description",
+          "modelId": "description",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Description",
+              "stringValue": "PCB laminate - Prepreg - AGC Nelco - M-Ply"
+            },
+            {
+              "name": "Estimation notes",
+              "stringValue": "The following properties are estimated: Density, Specific heat capacity, Young's modulus, z direction"
+            }
+          ]
+        },
+        {
+          "modelName": "Elasticity, isotropic",
+          "modelId": "elasticity.isotropic",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Tensile modulus",
+              "symbol": "E",
+              "unit": "Pa",
+              "numericValue": 18600000000
+            },
+            {"name": "Poisson's ratio", "symbol": "v", "numericValue": 0.19}
+          ]
+        },
+        {
+          "modelName": "Elasticity, isotropic with temperature",
+          "modelId": "elasticity.isotropic.with.temp",
+          "constraints": [],
+          "properties": [
+            {"name": "Poisson's ratio", "symbol": "v", "numericValue": 0.19}
+          ]
+        },
+        {
+          "modelName": "Elasticity, orthotropic",
+          "modelId": "elasticity.orthotropic",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Tensile modulus, xy direction",
+              "unit": "Pa",
+              "numericValue": 18600000000
+            },
+            {
+              "name": "Tensile modulus, z direction",
+              "unit": "Pa",
+              "numericValue": 3400000000
+            }
+          ]
+        },
+        {
+          "modelName": "Glass transition temperature",
+          "modelId": "glass.transition.temperature",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Glass transition temperature",
+              "symbol": "Tg",
+              "unit": "°C",
+              "numericValue": 200
+            }
+          ]
+        },
+        {
+          "modelName": "Rendering",
+          "modelId": "rendering",
+          "constraints": [],
+          "properties": [{"name": "Opacity", "numericValue": 1}]
+        },
+        {
+          "modelName": "Simple failure",
+          "modelId": "simple.failure",
+          "constraints": [],
+          "properties": []
+        },
+        {
+          "modelName": "Specific heat capacity",
+          "modelId": "specific.heat.capacity",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Specific heat capacity",
+              "symbol": "Cp",
+              "unit": "J/kg.°C",
+              "numericValue": 0.84
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal conductivity",
+          "modelId": "thermal.conductivity",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal conductivity",
+              "symbol": "k",
+              "unit": "W/m.°C",
+              "numericValue": 0.4
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal conductivity with temperature",
+          "modelId": "thermal.conductivity.with.temp",
+          "constraints": [],
+          "properties": []
+        },
+        {
+          "modelName": "Thermal expansion coefficient",
+          "modelId": "thermal.expansion.coefficient",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal expansion coefficient",
+              "symbol": "CTE",
+              "unit": "strain/°C",
+              "numericValue": 1.4E-05
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal expansion coefficient, orthotropic",
+          "modelId": "thermal.expansion.coefficient.orthotropic",
+          "constraints": [],
+          "properties": [
+            {
+              "name": "Thermal expansion coefficient, xy direction",
+              "symbol": "CTExy",
+              "unit": "strain/°C",
+              "numericValue": 1.4E-05
+            },
+            {
+              "name": "Thermal expansion coefficient, z direction",
+              "symbol": "CTEz",
+              "unit": "strain/°C",
+              "numericValue": 5.4999999999999995E-05
+            }
+          ]
+        },
+        {
+          "modelName": "Thermal expansion coefficient with temperature",
+          "modelId": "thermal.expansion.coefficient.with.temp",
+          "constraints": [],
+          "properties": []
+        }
+      ]
+    }
+  ]
+}

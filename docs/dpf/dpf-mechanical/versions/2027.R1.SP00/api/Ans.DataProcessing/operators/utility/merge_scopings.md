@@ -10,7 +10,7 @@ available inputs: `scopings1` (Scoping, ScopingsContainer), `scopings2` (Scoping
 
 available outputs: `merged_scoping` (Scoping)
 
-**DPF Framework Reference:** [merge_scopings operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_scopings.md)
+**DPF Framework Reference:** [merge_scopings operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/merge_scopings.md)
 
 **Parameters:**
 

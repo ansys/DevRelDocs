@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `component_number` (Int3
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [component_transformer_fc operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/component_transformer_fc.md)
+**DPF Framework Reference:** [component_transformer_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/logic/component_transformer_fc.md)
 
 **Parameters:**
 

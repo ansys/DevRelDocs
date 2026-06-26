@@ -1,3 +1,4 @@
+<a id="structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct"></a>
 # Structure PHXDATAHISTORYLib::DataHistoryVariableStruct
 
 ![][IDL]
@@ -26,9 +27,11 @@ The [DataHistoryVariableStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableSt
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 110)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableStruct::index
 ```
+
 
 
 
@@ -38,6 +41,12 @@ Either a 0 based index to the Variable, or the name of a Variable.
 
 **Type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::DataHistoryVariableStruct::index"}]}`
+-->
+
 <a id="structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct_1a44619a37f14a5ff181483dcf993d1424"></a>
 ### Variable varValue
 
@@ -45,9 +54,11 @@ Either a 0 based index to the Variable, or the name of a Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 114)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableStruct::varValue
 ```
+
 
 
 
@@ -57,6 +68,12 @@ The value of the Variable.
 
 **Type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::DataHistoryVariableStruct::varValue"}]}`
+-->
+
 <a id="structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct_1a55153c5a8cc53d611839b0b55bb3e8a2"></a>
 ### Variable isValid
 
@@ -64,9 +81,11 @@ The value of the Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 118)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableStruct::isValid
 ```
+
 
 
 
@@ -76,6 +95,12 @@ Whether this value is valid.
 
 **Type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::DataHistoryVariableStruct::isValid"}]}`
+-->
+
 <a id="structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct_1a0e1c5e9cd74d1f2516fc1d35eea45b17"></a>
 ### Variable isModified
 
@@ -83,9 +108,11 @@ Whether this value is valid.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 122)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableStruct::isModified
 ```
+
 
 
 
@@ -95,6 +122,12 @@ Whether this value's modified flag is set.
 
 **Type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::DataHistoryVariableStruct::isModified"}]}`
+-->
+
 <a id="structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct_1adad4bb3cc571df3df8a8df37d634fe72"></a>
 ### Variable metadata
 
@@ -102,9 +135,11 @@ Whether this value's modified flag is set.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 126)
 
+
 ```
 DataHistoryVariableMetadataStruct PHXDATAHISTORYLib::DataHistoryVariableStruct::metadata
 ```
+
 
 
 
@@ -114,6 +149,12 @@ The metadata for the Variable
 
 **Type**: [DataHistoryVariableMetadataStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct.md#structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::DataHistoryVariableStruct::metadata"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

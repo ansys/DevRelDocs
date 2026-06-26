@@ -10,7 +10,7 @@ available inputs: `fields_container` (FieldsContainer), `property_fields_contain
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [mapdl_split_to_acmo_facet_indices operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_split_to_acmo_facet_indices.md)
+**DPF Framework Reference:** [mapdl_split_to_acmo_facet_indices operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_split_to_acmo_facet_indices.md)
 
 **Parameters:**
 

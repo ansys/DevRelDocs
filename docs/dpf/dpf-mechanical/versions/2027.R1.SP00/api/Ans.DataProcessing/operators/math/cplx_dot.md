@@ -4,13 +4,23 @@ uid: Ans.DataProcessing.operators.math.cplx_dot
 
 # *class* cplx_dot(fields_containerA: object = None, fields_containerB: object = None, config: OperatorConfig = None)
 
-Computes product between two field containers containing complex fields.
+Computes the real-valued inner product
+
+$\mathrm{out}[i] = \mathrm{Re}_1[i] \cdot \mathrm{Re}_2[i] + \mathrm{Im}_1[i] \cdot \mathrm{Im}_2[i]$
+
+between matching fields in two complex-valued fields containers.
+
+This equals the real part of the [Hermitian inner product](https://en.wikipedia.org/wiki/Dot_product#Complex_vectors)
+
+$\mathrm{Re}(z_1 \cdot \overline{z_2})$.
+
+Only the real-part result fields (complex label 0) are produced.
 
 available inputs: `fields_containerA` (FieldsContainer), `fields_containerB` (FieldsContainer)
 
 available outputs: `fields_container` (FieldsContainer)
 
-**DPF Framework Reference:** [cplx_dot operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_dot.md)
+**DPF Framework Reference:** [cplx_dot operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/math/cplx_dot.md)
 
 **Parameters:**
 

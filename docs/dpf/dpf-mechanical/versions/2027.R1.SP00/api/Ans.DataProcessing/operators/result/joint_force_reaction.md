@@ -4,12 +4,15 @@ uid: Ans.DataProcessing.operators.result.joint_force_reaction
 
 # *class* joint_force_reaction(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-joint_force_reaction()
-joint_force_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
-joint_force_reaction(config: OperatorConfig)
+joint_force_reaction()
+
+joint_force_reaction(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+
+joint_force_reaction(config: OperatorConfig)
 
 
-**DPF Framework Reference:** [joint_force_reaction operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_force_reaction.md)
+
+**DPF Framework Reference:** [joint_force_reaction operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/joint_force_reaction.md)
 
 **Parameters:**
 

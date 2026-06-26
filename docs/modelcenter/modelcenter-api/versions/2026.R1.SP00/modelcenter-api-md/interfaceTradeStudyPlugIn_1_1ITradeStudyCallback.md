@@ -1,3 +1,4 @@
+<a id="interfaceTradeStudyPlugIn_1_1ITradeStudyCallback"></a>
 # Interface TradeStudyPlugIn::ITradeStudyCallback
 
 ![][IDL]
@@ -23,9 +24,11 @@ The Trade Study Callback connector is the piece that connects a Trade Study Plug
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyCallback::dataCollectorCreated(LPDISPATCH tradeStudy, LPDISPATCH dataCollector)
 ```
+
 
 
 
@@ -56,14 +59,22 @@ The data collector should not be shown before being passed.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyCallback::dataCollectorCreated"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyCallback_1a05d371f3256cbd0515c1786d4ca42b46"></a>
 ### Function runStarting
 
 ![][public]
 
+
 ```
 BOOL TradeStudyPlugIn::ITradeStudyCallback::runStarting(LPDISPATCH tradeStudy)
 ```
+
 
 
 
@@ -97,14 +108,22 @@ returns true if trade study is allowed to continue running; otherwise false.
 
 **Return type**: BOOL
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyCallback::runStarting"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyCallback_1af1ec5576a28a72b94eca35294a49dff1"></a>
 ### Function runEnded
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyCallback::runEnded(LPDISPATCH tradeStudy)
 ```
+
 
 
 
@@ -127,14 +146,22 @@ Called when the trade study has completed it's run.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyCallback::runEnded"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyCallback_1a9434138abbfd489946e6657ce904dcac"></a>
 ### Function tradeStudyClosed
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyCallback::tradeStudyClosed(LPDISPATCH tradeStudy)
 ```
+
 
 
 
@@ -157,6 +184,12 @@ Called to signal that the trade study has closed.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyCallback::tradeStudyClosed"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -10,7 +10,7 @@ available inputs: `mesh` (MeshedRegion), `file_path` (string)
 
 available outputs: `data_sources` (DataSources)
 
-**DPF Framework Reference:** [stl_export operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/stl_export.md)
+**DPF Framework Reference:** [stl_export operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/mesh/stl_export.md)
 
 **Parameters:**
 

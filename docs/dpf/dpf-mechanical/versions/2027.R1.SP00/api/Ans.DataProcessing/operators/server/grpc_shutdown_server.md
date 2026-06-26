@@ -10,7 +10,7 @@ available inputs: `grpc_stream` (StreamsContainer)
 
 available outputs:
 
-**DPF Framework Reference:** [grpc_shutdown_server operator specification](https://developer.ansys.com/docs/dpf-framework-2027-r1/operator-specifications/server/grpc_shutdown_server.md)
+**DPF Framework Reference:** [grpc_shutdown_server operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/server/grpc_shutdown_server.md)
 
 **Parameters:**
 

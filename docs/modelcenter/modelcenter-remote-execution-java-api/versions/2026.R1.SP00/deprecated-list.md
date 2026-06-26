@@ -3,6 +3,7 @@
 <a id="deprecated-interfaces"></a>
 
 ## Deprecated interfaces
+
 | Interface and Description |
 | --- |
 | [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>see [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md) |
@@ -28,6 +29,7 @@
 <a id="deprecated-enums"></a>
 
 ## Deprecated enums
+
 | Enum and Description |
 | --- |
 | [com.phoenix_int.pacz.api.RunFolderPreference](com/phoenix_int/pacz/api/RunFolderPreference.md)<br>see [`com.phoenix_int.pacz.api.v2.RunFolderPreference`](com/phoenix_int/pacz/api/v2/RunFolderPreference.md) |
@@ -36,6 +38,7 @@
 <a id="deprecated-fields"></a>
 
 ## Deprecated fields
+
 | Field and Description |
 | --- |
 | [com.phoenix_int.aserver.util.PHXFileParser.AUTOMATIC](com/phoenix_int/aserver/util/PHXFileParser.md)<br>in favor of [Parser.Mode.AUTOMATIC](com/phoenix_int/aserver/util/Parser.Mode.md) |
@@ -49,6 +52,7 @@
 <a id="deprecated-methods"></a>
 
 ## Deprecated methods
+
 | Method and Description |
 | --- |
 | [com.phoenix_int.aserver.types.PHXTypeFactory.allocateArray(String)](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br>Prefer [PHXTypeFactory.allocateVariable2(java.lang.String)](com/phoenix_int/aserver/types/PHXTypeFactory.md) which can properly differentiate between arrays and non-array types. |
@@ -64,6 +68,7 @@
 <a id="deprecated-constructors"></a>
 
 ## Deprecated construtors
+
 | Constructor and Description |
 | --- |
 | [com.phoenix_int.aserver.util.PHXFileParser(String, int)](com/phoenix_int/aserver/util/PHXFileParser.md)<br>in favor of [PHXFileParser.PHXFileParser(String, Parser.Mode)](com/phoenix_int/aserver/util/PHXFileParser.md) |

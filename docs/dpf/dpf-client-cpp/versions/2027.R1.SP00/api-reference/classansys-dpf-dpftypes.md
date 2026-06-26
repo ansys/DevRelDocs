@@ -300,7 +300,7 @@ Indicate if the current object reference the same underlying DPF object than the
 
 **Parameters**:
 
-* DpfTypes const & **rhs**
+* [DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes) const & **rhs**
 
 **Return type**: bool
 
