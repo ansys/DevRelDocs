@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-26).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-29).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -34,7 +34,7 @@ The following table shows which components have updates in each category.
 | grpc | [2 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [11 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
+| hdf5 | [11 items](#Features_hdf5) |[6 items](#Fixes_hdf5) |
 | hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[12 items](#Fixes_kernel) |
@@ -998,6 +998,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Surface structured errors with context in h5dpf custom and make_result_file operators:
+  > 
+  >
+  > The `hdf5::h5dpf::custom` and `hdf5::h5dpf::make_result_file` operators now throw structured, typed exceptions when I/O errors, unknown format versions, invalid compression settings, or missing inputs occur. Each error includes a clear description of what went wrong, an actionable suggestion, and machine-readable attributes (identifier, compression level, threshold, etc.) for programmatic handling and localization.
+  >
+  > 
+  >
+  > 
 
 - Fix missing fields during append operation:
   > fix missing fields on HdfView under references group when using append operation
@@ -5517,12 +5526,16 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
+
 
 - [hdf5dpf_generate_result_file](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Fix use of odd and even in pin description
+
+  > 0.0.3: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
 
 - [import_symbolic_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/import_symbolic_workflow.md)
