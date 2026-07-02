@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-29).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-01).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -27,9 +27,9 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [5 items](#Features_femutils) |[18 items](#Fixes_femutils) |
+| femutils | [6 items](#Features_femutils) |[18 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [4 items](#Features_framework) |[11 items](#Fixes_framework) |
+| framework | [4 items](#Features_framework) |[12 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [2 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -51,7 +51,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [15 items](#Features_native) |[27 items](#Fixes_native) |
+| native | [15 items](#Features_native) |[28 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -479,6 +479,15 @@ The following table shows which components have updates in each category.
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
+- Typed exceptions in mesh::by_scoping and mesh::from_scopings:
+  > 
+  >
+  > `mesh::by_scoping` and `mesh::from_scopings` operators now throw structured, typed exceptions instead of generic errors. Each failure includes a human-readable description of what went wrong and an actionable suggestion to help users fix the issue.
+  >
+  > 
+  >
+  > 
+
 - Use the definition from input stress field:
   > 
   >
@@ -699,6 +708,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fixing issues distorted elements in find_reduced_coordinates and mapping operators and numerical problems:
+  > Fixing issue with distorted elements in `find_reduced_coordinates` and `mapping` operators and numerical problems.
+  >
+  > 
 
 - Fix solid_to_skin:
   > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
@@ -2770,6 +2784,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Keep the input scoping support unchanged:
+  > Avoid changing the input scoping support
+  >
+  > 
+  >
+  > 
+
 - Correct spec for result.material_property_of_element:
   > 
   >
@@ -4303,6 +4324,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.2: Internal refactoring to use Scoping Iterators.
 
+  > 0.1.3: Fix tolerance problem with distorted elements.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
 
@@ -4313,6 +4336,8 @@ The following table shows which components have updates in each category.
   > 0.3.0: Fix bug with missing results and use_quadratic_elements pin.
 
   > 0.3.1: Update the operator and pin descriptions.
+
+  > 0.3.2: Fix tolerance problem with distorted elements.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
@@ -4719,6 +4744,11 @@ Upgraded documentation
 
 #### mesh
 
+- [acmo_mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/acmo_mesh_provider.md)
+
+  > 0.0.1: Improved error reporting: errors now include structured context and a remediation suggestion.
+
+
 - [change_cs](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/change_cs.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
@@ -4752,6 +4782,8 @@ Upgraded documentation
 
   > 0.3.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.3.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
 
@@ -4760,6 +4792,8 @@ Upgraded documentation
   > 0.0.2: Fixing issue with connectivity.
 
   > 0.1.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
+
+  > 0.1.1: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
 
 - [make_plane_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_plane_levelset.md)
@@ -5438,6 +5472,8 @@ Upgraded documentation
   > 0.0.1: Fix exception type preservation during parallel execution.
 
   > 0.0.2: Fix issue when input FieldsContainer and ScopingsContainer don't share labels.
+
+  > 0.0.3: Add check on scoping of field to rescope and input scoping locations.
 
 
 - [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/intersect.md)
