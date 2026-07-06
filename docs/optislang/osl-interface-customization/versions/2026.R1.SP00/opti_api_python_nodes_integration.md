@@ -50,8 +50,8 @@ This function is called when opening the node’s edit dialog box. In this funct
 
 **Return Values**
 - List of two elements:
-    - [InputValueDefinition](#table-13-contents-of-inputvaluedefinition)
-    - [OutputValueDefinition](#table-14-contents-of-outputvaluedefinition)
+    - List of [InputValueDefinition](#table-13-contents-of-inputvaluedefinition)
+    - List of [OutputValueDefinition](#table-14-contents-of-outputvaluedefinition)
 
 ### execute
 This function is used to call your solver.
