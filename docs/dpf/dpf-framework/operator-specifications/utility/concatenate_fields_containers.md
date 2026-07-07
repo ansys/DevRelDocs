@@ -34,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>-3</strong> | [rescoping_value](/docs/dpf/dpf-framework/operator-specifications/utility/concatenate_fields_containers) |  |[`double`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>-2</strong> | [reference_scoping_index](/docs/dpf/dpf-framework/operator-specifications/utility/concatenate_fields_containers) |  |[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>-1</strong> | [field_support](/docs/dpf/dpf-framework/operator-specifications/utility/concatenate_fields_containers) |  |`abstract_field_support` |
-| <strong>0</strong> | [fields_containers](/docs/dpf/dpf-framework/operator-specifications/utility/concatenate_fields_containers) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector&lt;fields_container&gt;`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [fields_containers](/docs/dpf/dpf-framework/operator-specifications/utility/concatenate_fields_containers) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`vector&lt;fields_container&gt;`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 
 
 <a id="input_-3"></a>

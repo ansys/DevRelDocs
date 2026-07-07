@@ -20,10 +20,10 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [iterable](/docs/dpf/dpf-framework/operator-specifications/utility/for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>0</strong> | [iterable](/docs/dpf/dpf-framework/operator-specifications/utility/for_each) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>| |
 | <strong>1</strong> | [iterable_values](/docs/dpf/dpf-framework/operator-specifications/utility/for_each) |  | |
 | <strong>2</strong> | [pin_index](/docs/dpf/dpf-framework/operator-specifications/utility/for_each) |  |[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
-| <strong>3</strong> | [forward](/docs/dpf/dpf-framework/operator-specifications/utility/for_each) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>3</strong> | [forward](/docs/dpf/dpf-framework/operator-specifications/utility/for_each) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>| |
 
 
 <a id="input_0"></a>

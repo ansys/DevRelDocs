@@ -20,7 +20,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [invariant_fc_operator](/docs/dpf/dpf-framework/operator-specifications/filter/filtering_max_over_time) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [invariant_fc_operator](/docs/dpf/dpf-framework/operator-specifications/filter/filtering_max_over_time) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>1</strong> | [output_pin](/docs/dpf/dpf-framework/operator-specifications/filter/filtering_max_over_time) |  |[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>2</strong> | [list_of_results](/docs/dpf/dpf-framework/operator-specifications/filter/filtering_max_over_time) |  |[`vector&lt;string&gt;`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>3</strong> | [threshold](/docs/dpf/dpf-framework/operator-specifications/filter/filtering_max_over_time) |  |[`double`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |

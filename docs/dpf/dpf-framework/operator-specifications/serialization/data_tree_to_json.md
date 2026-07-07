@@ -20,7 +20,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [data_tree](/docs/dpf/dpf-framework/operator-specifications/serialization/data_tree_to_json) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_data_tree`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [data_tree](/docs/dpf/dpf-framework/operator-specifications/serialization/data_tree_to_json) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`abstract_data_tree`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>1</strong> | [path](/docs/dpf/dpf-framework/operator-specifications/serialization/data_tree_to_json) |  |[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 
 

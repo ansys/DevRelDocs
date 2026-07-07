@@ -20,7 +20,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [field](/docs/dpf/dpf-framework/operator-specifications/mapping/fft) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [field](/docs/dpf/dpf-framework/operator-specifications/mapping/fft) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>3</strong> | [scale_forward_transform](/docs/dpf/dpf-framework/operator-specifications/mapping/fft) |  |[`double`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>4</strong> | [inplace](/docs/dpf/dpf-framework/operator-specifications/mapping/fft) |  |[`bool`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>5</strong> | [force_fft_points](/docs/dpf/dpf-framework/operator-specifications/mapping/fft) |  |[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |

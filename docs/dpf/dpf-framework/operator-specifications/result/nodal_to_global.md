@@ -20,8 +20,8 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fieldA](/docs/dpf/dpf-framework/operator-specifications/result/nodal_to_global) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
-| <strong>1</strong> | [fieldB](/docs/dpf/dpf-framework/operator-specifications/result/nodal_to_global) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [fieldA](/docs/dpf/dpf-framework/operator-specifications/result/nodal_to_global) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>1</strong> | [fieldB](/docs/dpf/dpf-framework/operator-specifications/result/nodal_to_global) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>200</strong> | [inverse_rotation](/docs/dpf/dpf-framework/operator-specifications/result/nodal_to_global) |  |[`bool`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 
 

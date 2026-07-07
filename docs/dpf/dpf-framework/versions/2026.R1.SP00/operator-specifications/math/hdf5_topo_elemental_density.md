@@ -24,7 +24,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>1</strong> | [mesh_scoping](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/math/hdf5_topo_elemental_density) |  |[`scoping`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>3</strong> | [streams](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/math/hdf5_topo_elemental_density) |  |[`streams_container`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/math/hdf5_topo_elemental_density) |  |[`data_sources`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
-| <strong>200</strong> | [custom_ponderation_name](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/math/hdf5_topo_elemental_density) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
+| <strong>200</strong> | [custom_ponderation_name](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/math/hdf5_topo_elemental_density) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 
 
 <a id="input_0"></a>

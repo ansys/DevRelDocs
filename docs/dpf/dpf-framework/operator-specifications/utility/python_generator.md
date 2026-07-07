@@ -20,8 +20,8 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [dll_source_path](/docs/dpf/dpf-framework/operator-specifications/utility/python_generator) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
-| <strong>1</strong> | [output_path](/docs/dpf/dpf-framework/operator-specifications/utility/python_generator) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [dll_source_path](/docs/dpf/dpf-framework/operator-specifications/utility/python_generator) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>1</strong> | [output_path](/docs/dpf/dpf-framework/operator-specifications/utility/python_generator) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>2</strong> | [load_symbol](/docs/dpf/dpf-framework/operator-specifications/utility/python_generator) |  |[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>3</strong> | [library_key](/docs/dpf/dpf-framework/operator-specifications/utility/python_generator) |  |[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 
