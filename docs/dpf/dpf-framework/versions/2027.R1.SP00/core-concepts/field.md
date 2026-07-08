@@ -44,7 +44,7 @@ The size of elementary data depends on the field's location:
 
 ### ElementalNodal fields and element-type properties
 
-For `Elemental` and `ElementalNodal` fields, the size of each elementary data block
+For `ElementalNodal` fields, the size of each elementary data block
 depends on the **element type** of the entity it describes. Mixed-element meshes
 therefore produce **variable-size** ElementalNodal fields: each element contributes
 `n_nodes_per_element × n_components × n_layers` consecutive values, with no padding
