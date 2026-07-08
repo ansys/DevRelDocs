@@ -1,0 +1,33 @@
+# MCSVIS
+
+    
+    
+    MCSVIS    MCSVIS    MCSVIS    MCSVIS    MCSVIS    MCSVIS    MCSVIS    
+              **********************************************
+                        **************************
+                                  ******
+    
+    SUBROUTINE MCSVIS (T, RMCWRK, VIS)
+    Returns the array of pure species viscosities, given temperature.
+    
+    INPUT
+    T         - Real scalar, temperature.
+                   cgs units, K
+    RMCWRK(*) - Real workspace array; dimension at least LENRMC.
+    
+    OUTPUT
+    VIS(*)    - Real array, species viscosities;
+                dimension at least KK, the total species count.
+                   cgs units, gm/cm*s
+
+[ « 9.17. MCSDIF](pgfId-1070817.md)
+
+
+
+Contains proprietary and confidential information of ANSYS, Inc. and its
+subsidiaries and affiliates.
+
+Release 2026 R1 - (C) ANSYS, Inc. All rights reserved.
+
+Draft Published: 2024-07-05T13:14:42-04:00
+

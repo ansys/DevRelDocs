@@ -1,0 +1,438 @@
+# Class ForcePropertyDocument<TProp\>
+<a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1"></a>
+
+Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
+Assembly: VMDFB.dll  
+
+This base class is to represent the force document.
+
+```csharp
+public abstract class ForcePropertyDocument<TProp> : PropertyDocument<TProp>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IDocument, IObject, IEventProvider, IContainer, ILinkContainer, IOwned, IHasID, IEnableManager, IRelatedDocument, IHistorySupport, IPropertyDocument, IUnitChange, IXMLFormatable, IForcePropertyDocument where TProp : PropertyForce, IFileProperty, new()
+```
+
+#### Type Parameters
+
+`TProp` 
+
+The type of the prop.
+
+#### Inheritance
+
+object ← 
+ObservableObject ← 
+[LinkableBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs) ← 
+LinkContainer ← 
+Container ← 
+Document ← 
+[PropertyDocumentBase](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs) ← 
+[PropertyDocument<TProp\>](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs) ← 
+[ForcePropertyDocument<TProp\>](VM.Managed.DAFUL.Force.ForcePropertyDocument\-1.md)
+
+#### Implements
+
+IObservableObject, 
+IDisposableObject, 
+ILinkable, 
+ILinkContainerEvent, 
+IVerifiable, 
+IDocument, 
+IObject, 
+IEventProvider, 
+IContainer, 
+ILinkContainer, 
+IOwned, 
+IHasID, 
+IEnableManager, 
+IRelatedDocument, 
+[IHistorySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMHist/Interfaces.cs), 
+IPropertyDocument, 
+IUnitChange, 
+IXMLFormatable, 
+IForcePropertyDocument
+
+#### Inherited Members
+
+[PropertyDocument<TProp\>.Save\(TextWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.Load\(TextReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.Property](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.UntypedPropertyOwner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.FilePropertyOwner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocument<TProp\>.PropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Save\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SerializeObj<T\>\(XmlWriter, T, string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.DeserializeObj<T\>\(XmlReader, string, Type\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Save\(TextWriter\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Save\(Stream\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Load\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Load\(TextReader\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Load\(Stream\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SetUnit\(Unit\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.AddReferenceDocument\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.RemoveReferenceDocument\(Document\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.FindLocal\(string\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Add\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OnPostAdd\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.AddImpl\(ObjectBase\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.IsTypeSupported\(Type\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.CreateView\(UIntPtr\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.TriggerPostMakeDocument\(PropertyDocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OnPostMakeDocument\(DocCreateInfo\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.GetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SetData\(XmlNode\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Reload](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.UntypedProperty](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.PropertyType](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.Modified](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.UntypedPropertyOwner](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.DocumentSessionOverride](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.SetDocumentSessionOverride](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OwnedList](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.OwnedCollection](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.CanClose](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+[PropertyDocumentBase.IsPropertySupport](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMObjBase/PropertyDocument.cs), 
+Document.g\_OpenDocuments, 
+Document.m\_unit, 
+Document.m\_unitKernal, 
+Document.raise\_OnChildAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnChildRemoved\(object, DocumentEventArgs\), 
+Document.raise\_OnChildRenamed\(object, DocumentEventArgs\), 
+Document.raise\_OnChildUpdated\(object, DocumentEventArgs\), 
+Document.raise\_OnChildUpdatedEnable\(object, DocumentEventArgs\), 
+Document.raise\_OnChildUpdatedAll\(object, DocumentEventArgs\), 
+Document.raise\_OnChildDocNameUpdated\(object, DocumentEventArgs\), 
+Document.raise\_OnDependentDocumentAdded\(object, DependentDocEventArgs\), 
+Document.raise\_OnDependentDocumentRemoved\(object, DependentDocEventArgs\), 
+Document.raise\_OnClearSelectNavigator\(object, DocumentEventArgs\), 
+Document.raise\_OnChildRootSelect\(object, DocumentEventArgs\), 
+Document.raise\_OnChangeIconForNodalModal\(object, DocumentEventArgs\), 
+Document.raise\_OnDoingImport\(object, DocumentEventArgs\), 
+Document.raise\_OnSkipChildAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnSimulationCaseUpdated\(object, EventArgs\), 
+Document.raise\_OnSubentityRefreshed\(object, EventArgs\), 
+Document.raise\_OnSubentityAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnChildMultiAdded\(object, DocumentEventArgs\), 
+Document.raise\_OnSingleObjectSelected\(object, ObjectBaseEventArgs\), 
+Document.raise\_Destroying\(object, EventArgs\), 
+Document.raise\_ChildAdded\(object, Identifier\), 
+Document.raise\_ChildRemoved\(object, Identifier\), 
+Document.raise\_ChildReplacing\(object, Identifier\), 
+Document.raise\_ChildReplaced\(object, Identifier\), 
+Document.raise\_SelectionChanged\(object, IEnumerable<Identifier\>\), 
+Document.Initialize\(Document.OpenDoc, Document.BrowseFile, Document.IsOpenDoc, Document.GetDocFromOpenedDoc, Document.ActiveDocChange, Document.ActiveViewChange\), 
+Document.Open\(string, bool, bool\), 
+Document.Open\(string, bool\), 
+Document.Open\(string\), 
+Document.Open\(string, string, bool\), 
+Document.Open\(string, string\), 
+Document.TryOpen\(string, LoadSerializeContext, bool\), 
+Document.TryOpen\(string, string, bool\), 
+Document.TryOpen\(string, string\), 
+Document.GetDocumentFromOpenedDocument\(string\), 
+Document.IsOpen\(string\), 
+Document.ActiveChangedDoc\(\), 
+Document.ActiveChangedView\(\), 
+Document.Save\(string\), 
+Document.PostSave\(List<Document\>, bool\), 
+Document.CreateView\(UIntPtr\), 
+Document.CloseView\(View\), 
+Document.Add\(ObjectBase\), 
+Document.UpdateEnable\(ObjectBase, bool\), 
+Document.UpdateInterface\(ObjectBase, bool\), 
+Document.IsTypeSupported\(Type\), 
+Document.AddToSelectionList\(ObjectBase\), 
+Document.CancelSelection\(bool, bool\), 
+Document.ExitCommandMode\(\), 
+Document.PostOpenDocument\(\), 
+Document.PostOpenDocumentAfterHookEvent\(\), 
+Document.PostOpenDocumentAfterErrCheckEvent\(\), 
+Document.PostOpenDocumentAfterRestoreObjectID\(\), 
+Document.PostOpenDocumentAfterSetFilePath\(\), 
+Document.PostCloseDocument\(\), 
+Document.LinkRequestDestroy\(object, LinkEventArgs\), 
+Document.PostOpenDocumentAndInitLayer\(\), 
+Document.DisplayModeShape\(int, double\), 
+Document.EnableModeShape\(bool\), 
+Document.GetData\(XmlNode\), 
+Document.SetData\(XmlNode\), 
+Document.OperationBegin\(\), 
+Document.OperationEnd\(\), 
+Document.GetCopyOfUnit\(\), 
+Document.GetCopyOfKernelUnit\(\), 
+Document.FastToConvertUnitLength\(bool\), 
+Document.ContainsNameAttribute\(string\), 
+Document.ReplacesNameAttribute\(string, string\), 
+Document.GetUniqueNameAttribute\(string\), 
+Document.UpdateItemInNavigaterForUndoRedo\(IObjectBase\), 
+Document.AddItemToNavigaterForUndoRedo\(ObjectBase\), 
+Document.RemoveItemFromNavigaterForUndoRedo\(ObjectBase\), 
+Document.RenameItemFromNavigaterForUndoRedo\(ObjectBase\), 
+Document.UpdateAllItemInNavigaterForUndoRedo\(\), 
+Document.UpdateSimulationConfigurationForUndoRedo\(\), 
+Document.AddItemToSubEntityForUndoRedo\(ObjectBase\), 
+Document.AddReferenceForUndoRedo\(ObjectBase\), 
+Document.RefreshReferenceForUndoRedo\(ObjectBase\), 
+Document.AddToIDMap\(IObject\), 
+Document.FindObjectFromID\(Identifier\), 
+Document.FindObjectFromKey\(UIntPtr\), 
+Document.RemoveFromIDMap\(IObject\), 
+Document.WriteIDInformation\(\), 
+Document.GetNextIdentifier\(\), 
+Document.GetChildren\(\), 
+Document.Close\(\), 
+Document.SetUnit\(Unit\), 
+Document.SetKernelUnit\(string\), 
+Document.IsEnabledImpl\(ObjectBase\), 
+Document.SetEnableImpl\(ObjectBase, bool\), 
+Document.OnDeserialization\(object\), 
+Document.OnPostMakeDocument\(DocCreateInfo\), 
+Document.RegisterAddon\(\), 
+Document.OnContainerDestroy\(object, LinkEventArgs\), 
+Document.ClearDocument\(\), 
+Document.Dispose\(bool\), 
+Document.KeepOldKernelUnit, 
+Document.ClearChildInfoBeforeDeserialize, 
+Document.ExpressionParser, 
+Document.IsHideEntityListWindow, 
+Document.IsHideFilterWindow, 
+Document.SelectedLayoutAlgorithmType, 
+Document.FilterdTypes, 
+Document.CloseAllDialogWhenCloseDoc, 
+Document.DoingOpen, 
+Document.DoingClose, 
+Document.Attributes, 
+Document.AutoSaved, 
+Document.IsChildExternable, 
+Document.IsExternable, 
+Document.IsReplaced, 
+Document.FilePath, 
+Document.DocumentName, 
+Document.InitialConvertFactor, 
+Document.DocumentSessionOverride, 
+Document.CanClose, 
+Document.Modified, 
+Document.SelectionChanged, 
+Document.ChildReplaced, 
+Document.ChildReplacing, 
+Document.ChildRemoved, 
+Document.ChildAdded, 
+Document.Destroying, 
+Document.OnSingleObjectSelected, 
+Document.OnChildMultiAdded, 
+Document.OnSubentityAdded, 
+Document.OnSubentityRefreshed, 
+Document.OnSimulationCaseUpdated, 
+Document.OnSkipChildAdded, 
+Document.OnDoingImport, 
+Document.OnChangeIconForNodalModal, 
+Document.OnChildRootSelect, 
+Document.OnClearSelectNavigator, 
+Document.OnDependentDocumentRemoved, 
+Document.OnDependentDocumentAdded, 
+Document.OnChildDocNameUpdated, 
+Document.OnChildUpdatedAll, 
+Document.OnChildUpdatedEnable, 
+Document.OnChildUpdated, 
+Document.OnChildRenamed, 
+Document.OnChildRemoved, 
+Document.OnChildAdded, 
+Container.Find\(string\), 
+Container.FindLocal\(string\), 
+Container.GetUnnamedObjectName\(object\), 
+Container.GetNewEntityName\(string, bool, int, int\), 
+Container.GetNewEntityName\(string, bool, int\), 
+Container.GetNewEntityName\(string\), 
+LinkContainer.SetModified\(\), 
+LinkContainer.raise\_OnUpdating\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnUpdate\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnDestroying\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnDestroy\(object, LinkEventArgs\), 
+LinkContainer.raise\_OnAdded\(object, AddToDocEventArgs\), 
+LinkContainer.raise\_OnRemoved\(object, RemoveFromDocEventArgs\), 
+LinkContainer.GetTargetListForUpdate\(\), 
+LinkContainer.SkipUpdateObjectImpl\(\), 
+LinkContainer.Initialize\(Unit.ConvertFactor\), 
+LinkContainer.SetFlagWhenXMLFile\(string, bool\), 
+LinkContainer.IsSerializableEvent\(Delegate\), 
+LinkContainer.CustomGetObjectData\(SerializationInfo, StreamingContext\), 
+LinkContainer.GetSerializedData\(SerializationInfo, StreamingContext\), 
+LinkContainer.LinkRequestUpdating\(object, LinkEventArgs\), 
+LinkContainer.LinkRequestUpdate\(object, LinkEventArgs\), 
+LinkContainer.LinkRequestDestroying\(object, LinkEventArgs\), 
+LinkContainer.LinkRequestDestroy\(object, LinkEventArgs\), 
+LinkContainer.LinkAddedToDocument\(object, AddToDocEventArgs\), 
+LinkContainer.LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\), 
+LinkContainer.OnLinkReserved\(ILink, object, EventArgs\), 
+LinkContainer.CanBeDestroy\(object\), 
+LinkContainer.DisposeManagedResources\(\), 
+LinkContainer.SetContainer\(IOwned, bool\), 
+LinkContainer.OnChildUpdated\(object, LinkEventArgs\), 
+LinkContainer.OnContainerDestroy\(object, LinkEventArgs\), 
+LinkContainer.OnDeserialization\(object\), 
+LinkContainer.Verify\(VerifiedResult\), 
+LinkContainer.GetCopy\(object\), 
+LinkContainer.Dispose\(bool\), 
+LinkContainer.ClearChildInfoBeforeDeserialize, 
+LinkContainer.Container, 
+LinkContainer.Owner, 
+LinkContainer.Document, 
+LinkContainer.ID, 
+LinkContainer.IsChildExternable, 
+LinkContainer.IsExternable, 
+LinkContainer.OnRemoved, 
+LinkContainer.OnAdded, 
+LinkContainer.OnDestroy, 
+LinkContainer.OnDestroying, 
+LinkContainer.OnUpdate, 
+LinkContainer.OnUpdating, 
+[LinkableBase.OnDeserialization\(object\)](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/Pre/Data/VM.Models.Pre/Models/LinkableBase.cs), 
+ObservableObject.Dispose\(\), 
+ObservableObject.RaisePropertyChanged\(string\), 
+ObservableObject.RaisePropertyChanged\(string, object, object\), 
+ObservableObject.Dispose\(bool\), 
+ObservableObject.DisposeManagedResources\(\), 
+ObservableObject.DisposeUnmanagedResources\(\), 
+ObservableObject.IsDisposed, 
+ObservableObject.TryDisposing, 
+ObservableObject.Disposed, 
+ObservableObject.Disposing, 
+ObservableObject.PropertyChanged
+
+#### Extension Methods
+
+[LinkPropertyItemCache.GetLinkProperties\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkProperties\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkPropertiesAndValues\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkPropertiesAndValues\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkedObjects<T\>\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkedObjects\_\_1\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_)
+
+## Constructors
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1__ctor"></a> ForcePropertyDocument\(\)
+
+Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForcePropertyDocument%601" data-throw-if-not-resolved="false"></xref> class.
+
+```csharp
+public ForcePropertyDocument()
+```
+
+## Methods
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_AddImpl_VM_Managed_ObjectBase_"></a> AddImpl\(ObjectBase\)
+
+Adds the specified object [implementation].
+
+```csharp
+protected override void AddImpl(ObjectBase obj)
+```
+
+#### Parameters
+
+`obj` ObjectBase
+
+The object.
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_FindLocal_System_String_"></a> FindLocal\(string\)
+
+Finds an object that matches a specified name in local.
+
+```csharp
+public override IObjectBase FindLocal(string strName)
+```
+
+#### Parameters
+
+`strName` string
+
+Name to search for.
+
+#### Returns
+
+ IObjectBase
+
+An object that matches a specified name.
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_IsEnabledImpl_VM_Managed_ObjectBase_"></a> IsEnabledImpl\(ObjectBase\)
+
+Determines whether is enabled [the specified object] [implemetation].
+
+```csharp
+protected override bool IsEnabledImpl(ObjectBase ob)
+```
+
+#### Parameters
+
+`ob` ObjectBase
+
+The object.
+
+#### Returns
+
+ bool
+
+<code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_IsTypeSupported_System_Type_"></a> IsTypeSupported\(Type\)
+
+Determines whether is [type supported] [the specified type].
+
+```csharp
+public override void IsTypeSupported(Type type)
+```
+
+#### Parameters
+
+`type` Type
+
+The type.
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
+
+Called when [post make document].
+
+```csharp
+protected override void OnPostMakeDocument(DocCreateInfo docCreateInfo)
+```
+
+#### Parameters
+
+`docCreateInfo` DocCreateInfo
+
+The [document create] information.
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_SetEnableImpl_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnableImpl\(ObjectBase, bool\)
+
+Sets the enable [implemetation].
+
+```csharp
+protected override void SetEnableImpl(ObjectBase ob, bool bEnable)
+```
+
+#### Parameters
+
+`ob` ObjectBase
+
+The object.
+
+`bEnable` bool
+
+if set to <code>true</code> enable.
+
+### <a id="VM_Managed_DAFUL_Force_ForcePropertyDocument_1_UpdateEnable_VM_Managed_ObjectBase_System_Boolean_"></a> UpdateEnable\(ObjectBase, bool\)
+
+Updates the enable.
+
+```csharp
+public override void UpdateEnable(ObjectBase obj, bool bEnabled)
+```
+
+#### Parameters
+
+`obj` ObjectBase
+
+The object.
+
+`bEnabled` bool
+
+if set to <code>true</code> enabled.
+

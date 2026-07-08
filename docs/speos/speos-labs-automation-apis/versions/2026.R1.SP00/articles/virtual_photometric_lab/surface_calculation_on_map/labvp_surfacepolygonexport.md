@@ -1,0 +1,34 @@
+# SurfacePolygonExport
+
+## Description
+
+Exports a XMP map or a text file of the selected polygonal surface. Returns a value different from 0 if no error has occurred.
+
+## Syntax
+
+*object*.SurfacePolygonExport\(double dXPos, double dYPos, double dWidth, double dHeight, string bstrFileName, integer iFormat\) As Short
+
+- *object*: Virtual Photometric Lab object
+
+- *dXPos*: horizontal coordinate of the center of the rectangle
+
+- *dYPos*: vertical coordinate of the center of the rectangle
+
+- *dWidth*: horizontal size of the rectangle
+
+- *dHeight*: vertical size of the rectangle
+
+- *bstrFileName*: path and filename of the output file. Should end by **.xmp** for XMP map or **.txt** for a text file.
+
+- *iFormat*: format of the output file, 0 for text file, 1 for XMP map.
+
+***Example***
+
+```Dim VirtualPhotometricLab As Object
+Dim vPtx1 As Variant, vPty1 As Variant
+Set VirtualPhotometricLab = CreateObject("XmpViewer.Application")
+vPtx1 = Array(-10, 10, 10, -10)
+vPty1 = Array(-15, -15, 15, 15)
+retval = VirtualPhotometricLab.OpenFile(MyPath)
+PolygonRetval = XMPviewer.SurfacePolygonExport(vPtx1, vPty1, MySurfacePolygonExport, 0)
+```

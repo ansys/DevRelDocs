@@ -1,0 +1,118 @@
+# Enum UnitsData.UnitsType
+
+Namespace: [OpenTD](OpenTD.md)  
+Assembly: OpenTD.dll  
+
+Physical dimensions.
+
+```csharp
+public enum UnitsData.UnitsType
+```
+
+## Fields
+
+`ANGLE = 7` 
+
+`AREA = 14` 
+
+`COND = 15` 
+
+`COND_PER_AREA = 9` 
+
+`COND_PER_LENGTH = 8` 
+
+`CURRENT = 45` 
+
+`DENSITY = 10` 
+
+`DIMENSIONLESS = -1` 
+
+`ENERGY = 3` 
+
+`ENERGY_PER_AREA = 38` 
+
+`ENERGY_PER_LENGTH = 25` 
+
+`ENERGY_PER_MASS = 23` 
+
+`ENTHALPY = 32` 
+
+`ENTROPY = 33` 
+
+`FLUX = 17` 
+
+`FORCE = 30` 
+
+`GRAVITY = 24` 
+
+`HEAT_RATE = 16` 
+
+`HEAT_RATE_PER_DEG = 43` 
+
+`INERTIAL = 34` 
+
+`INVERSE_PRESSURE = 48` 
+
+`INVERSE_VOLUME = 39` 
+
+`MASS = 5` 
+
+`MASS_FLOWRATE = 19` 
+
+`MASS_FLOWRATE_PER_ENTHALPY = 50` 
+
+`MASS_FLOWRATE_PER_PRESSURE = 49` 
+
+`MASS_FLUX = 37` 
+
+`MASS_PER_LENGTH = 21` 
+
+`MODEL_LENGTH = 1` 
+
+`MOMENTOFINERTIA = 41` 
+
+`MULTIUNITS = 36` 
+
+`ORBIT_LENGTH = 0` 
+
+`PRESSURE = 6` 
+
+`PRESSUREPERVOLUME = 35` 
+
+`RESISTANCE = 46` 
+
+`RESISTIVITY = 47` 
+
+`ROTATION = 40` 
+
+`SPEC_HEAT = 11` 
+
+`SURFACE_TENSION = 31` 
+
+`TEMP = 4` 
+
+`TEMP_ABS = 22` 
+
+`THERMAL_MASS = 13` 
+
+`TIME = 2` 
+
+`TORQUE = 42` 
+
+`UNITS_NOT_SET = 27` 
+
+`VELOCITY = 26` 
+
+`VISCOSITY = 29` 
+
+`VOLTAGE = 44` 
+
+`VOLTS_PER_TEMP = 28` 
+
+`VOLUME = 12` 
+
+`VOLUME_FLOWRATE = 20` 
+
+`VOLUME_Q = 18` 
+
+

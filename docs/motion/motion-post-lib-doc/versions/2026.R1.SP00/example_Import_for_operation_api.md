@@ -1,0 +1,100 @@
+# Example
+The following sample code illustrates how to create a simple example.
+* The examples provided below can be found within the 'Install_Path\Motion\Document\Postprocessor API for Python.zip' compressed file.
+
+## Numeric Import
+Here is an example of importing curve results from a file.
+```python
+# OperationAPI_NumericImport.py
+import sys
+
+# Get the current file's path and set the path for external modules.
+current_dir = __file__.rsplit('\\', 1)[0]
+external_modules_path = current_dir + '\\..\\..\\Modules'
+sys.path.append(external_modules_path)
+
+# Import necessary modules
+from OperationAPI import *
+
+# Start the headless application interface
+applicationHandler = ApplicationHandler()
+
+# Import result file
+result_file_path = get_result_file_path()
+
+# Set array about result file
+filepaths = List[str]()
+filepaths.Add(result_file_path)
+
+# Open about result files
+# This will open the result file in the application.
+# When the result is first opened, a Page is created and an Animation View is created on that Page.
+applicationHandler.AddDocument(filepaths)
+
+# Get Active Page
+# This retrieves the currently active page in the application.
+page = applicationHandler.GetActivePage()
+
+# Creating a Chart
+# Create a new Chart View on the page
+# This will create a new chart view with the specified name.
+chartView = page.CreateChart("Chart")
+
+# Set array about combination of characteristic and component
+curvePaths = List[str]()
+curvePaths.Add(r'Displacement/Magnitude')
+curvePaths.Add(r'Displacement/Z')
+
+# Create a PlotParameters object to specify the parameters for the plot.
+# Set the Entity to Plot.
+# The Target is the name of the target for which you want to retrieve the curves.
+# Set the paths for the curves you want to retrieve.
+# This is where you specify the characteristics and components you want to plot.
+parameters = PlotParameters()
+parameters.Paths = curvePaths
+parameters.Target = "Crank"
+
+# Add Curves (FilePath, Curve Parameter)
+# FilePath - The path of the result to access.
+# parameters - The class used as a parameter of the AddCurve function.
+# The instance of the curve.
+curves = chartView.AddCurves(result_file_path, parameters)
+
+index = 0
+for curve in curves :
+    curve.SeriesName = "NameChange_{0}".format(index)
+    index = index + 1
+
+# File Dialog Open
+# chart1.ExportAllDataSeries()
+
+# use not file dialog
+output_dir = get_output_directory()
+file_path = combine_path(output_dir, r'curvedata.txt')
+chartView.ExportAllCurves(export_filepath)
+
+# Importing Numeric Data
+parameters = List[INumericParameter](2)
+
+# To create a curve from a file, create a NumericParameter.
+# Name - The name of the curve to be created.
+# TargetX - The name of the X-axis data.
+# TargetY - The name of the Y-axis data.
+# In this example, a curve named 'OrderTrackingCurve' is created, and data corresponding to the X and Y headers is retrieved from the file.
+parameter = NumericParameter()
+parameter.Name = r'NameChange_10'
+parameter.TargetX = r'Time(sec)'
+parameter.TargetY = r'NameChange_1'
+parameters.Add(parameter)
+
+# file_path - The path to the file containing the numeric data.
+# parameters - The list of numeric parameters that define how to interpret the data in the file.
+chartView.ImportNumeric(file_path, parameters)
+
+# Close the Pages
+page.Close()
+
+# Close the Document
+applicationHandler.CloseDocument(result_file_path)
+
+```

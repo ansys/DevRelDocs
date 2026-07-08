@@ -1,0 +1,133 @@
+- name: Introduction
+  href: UDA/add_api/introduction/topics/disco_api_intro.md
+- name: Creating Add-in applications
+  href: UDA/add_api/creating_addin_apps/topics/c_disco_api_addin.md
+  items:
+  - name: Getting started
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_addin_gettingstarted.md
+  - name: Creating a C# add-in
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_create_csharp.md
+  - name: Creating manifest files
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_manifest.md
+  - name: Creating custom commands
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_create_custom.md
+  - name: Customizing the ribbon
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_ribbon_customize.md
+  - name: Customizing tools
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_tool_customize.md
+  - name: Custom objects and custom tree
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_objects_custom_tree.md
+    items:
+    - name: Custom object wrappers
+      href: UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_object_wrappers.md
+      items:
+      - name: CustomWrapper
+        href: UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_custom_wrappers.md
+      - name: DiscoveryCustomWrapper
+        href: UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_discovery_custom_wrappers.md
+      - name: PhysicsCustomWrapper
+        href: UDA/add_api/creating_addin_apps/topics/custom_object_wrappers/c_disco_api_physics_custom_wrappers.md
+    - name: Custom tree
+      href: UDA/add_api/creating_addin_apps/topics/c_disco_api_custom_tree.md
+  - name: Sample projects
+    href: UDA/add_api/creating_addin_apps/topics/c_disco_api_samples.md
+- name: Geometry API overview
+  href: UDA/add_api/geometry_overview/topics/geo_overview.md
+  items:
+  - name: Doc objects
+    href: UDA/add_api/geometry_overview/topics/geo_doc_objects.md
+  - name: Document structure
+    href: UDA/add_api/geometry_overview/topics/geo_doc_structure.md
+  - name: Part structure
+    href: UDA/add_api/geometry_overview/topics/geo_part_structure.md
+- name: Geometry architecture
+  href: UDA/add_api/architecture/c_disco_api_architecture.md
+  items:
+  - name: Documents and doc objects
+    href: UDA/add_api/architecture/doc_objects/document_doc_objects.md
+    items:
+    - name: Parent-child hierarchy
+      href: UDA/add_api/architecture/doc_objects/parent_child_hierarchy.md
+    - name: Parts and components
+      href: UDA/add_api/architecture/doc_objects/parts_components.md
+    - name: Occurrence chains
+      href: UDA/add_api/architecture/doc_objects/occurrence_chains.md
+    - name: General objects and masters
+      href: UDA/add_api/architecture/doc_objects/gen_objects_masters.md
+    - name: Originals and masters
+      href: UDA/add_api/architecture/doc_objects/originals_masters.md
+    - name: Transforming to master-space
+      href: UDA/add_api/architecture/doc_objects/transform_master_space.md
+    - name: Getting cccurrences
+      href: UDA/add_api/architecture/doc_objects/getting_occurrences.md
+  - name: Application integration
+    href: UDA/add_api/architecture/application_integration/app_integration.md
+    items:
+    - name: Persistent identifiers
+      href: UDA/add_api/architecture/application_integration/persist_ids.md
+    - name: Replacements
+      href: UDA/add_api/architecture/application_integration/replacements.md
+    - name: Update states
+      href: UDA/add_api/architecture/application_integration/update_states.md
+  - name: Storing custom data
+    href: UDA/add_api/architecture/storing_custom_data/storing_custom_data.md
+    items:
+    - name: Document properties
+      href: UDA/add_api/architecture/storing_custom_data/doc_properties.md
+    - name: Custom attributes
+      href: UDA/add_api/architecture/storing_custom_data/custom_attributes.md
+    - name: Attribute propagation
+      href: UDA/add_api/architecture/storing_custom_data/attribute_propagation.md
+  - name: Identifiers during export
+    href: UDA/add_api/architecture/id_objects/ID_during_export.md
+    items:
+    - name: Identifying objects in ACIS and Parasolid files
+      href: UDA/add_api/architecture/id_objects/ID_objects.md
+    - name: Foreign identifiers during import and export
+      href: UDA/add_api/architecture/id_objects/foreign_ID.md
+  - name: Geometry and topology
+    href: UDA/add_api/architecture/geo_topology/geo_topology.md
+    items:
+    - name: Unbounded geometry and trimmed objects
+      href: UDA/add_api/architecture/geo_topology/unbound_geo_trim_obj.md
+    - name: Topology
+      href: UDA/add_api/architecture/geo_topology/topology.md
+    - name: Doc objects and geometry
+      href: UDA/add_api/architecture/geo_topology/doc_obj_geo.md
+    - name: Design curves
+      href: UDA/add_api/architecture/geo_topology/design_curves.md
+    - name: Design bodies
+      href: UDA/add_api/architecture/geo_topology/design_bodies.md
+    - name: Shape in general
+      href: UDA/add_api/architecture/geo_topology/shape_general.md
+  - name: Accuracy
+    href: UDA/add_api/architecture/accuracy/accuracy.md
+    items:
+    - name: Linear and angular resolution
+      href: UDA/add_api/architecture/accuracy/linear_angular_res.md
+    - name: Comparing lengths and angles
+      href: UDA/add_api/architecture/accuracy/compare_angles_lengths.md
+    - name: Comparing XYZ objects
+      href: UDA/add_api/architecture/accuracy/compare_xyz.md
+    - name: Comparing UV objects
+      href: UDA/add_api/architecture/accuracy/compare_uv.md
+    - name: Comparing geometry
+      href: UDA/add_api/architecture/accuracy/compare_geo.md
+  - name: Units
+    href: UDA/add_api/architecture/units/units.md
+    items:
+    - name: System units and user units
+      href: UDA/add_api/architecture/units/system_units.md
+    - name: Outputting values
+      href: UDA/add_api/architecture/units/output_vals.md
+    - name: Inputting values
+      href: UDA/add_api/architecture/units/input_vals.md
+    - name: Custom conversions
+      href: UDA/add_api/architecture/units/custom_conversion.md
+- name: Changelog
+  href: UDA/add_api/changelog/c_disco_api_addin_changelog.md
+  items:
+  - name: Version 2024 R2
+    href: UDA/add_api/changelog/V24-r2.md
+# -  name: Copyright and trademark information
+  # href: shared/c_legal_frontmatter.md

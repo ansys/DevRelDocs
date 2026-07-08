@@ -1,0 +1,341 @@
+- name: Introduction
+  href: libraries/libraries.md
+- name: Libraries
+  items:
+  - name: Bitfield
+    href: libraries/bitfield/bitfield.md
+    items:
+    - name: BitsMask
+      href: libraries/bitfield/bitfield__bitsmask.md
+    - name: ClrBit
+      href: libraries/bitfield/bitfield__clrbit.md
+    - name: ClrBitMask
+      href: libraries/bitfield/bitfield__clrbitmask.md
+    - name: CopyBit
+      href: libraries/bitfield/bitfield__copybit.md
+    - name: FromBool
+      href: libraries/bitfield/bitfield__frombool.md
+    - name: FromByte
+      href: libraries/bitfield/bitfield__frombyte.md
+    - name: GetBit
+      href: libraries/bitfield/bitfield__getbit.md
+    - name: GetBits
+      href: libraries/bitfield/bitfield__getbits.md
+    - name: High
+      href: libraries/bitfield/bitfield__high.md
+    - name: Low
+      href: libraries/bitfield/bitfield__low.md
+    - name: Make
+      href: libraries/bitfield/bitfield__make.md
+    - name: PutBit
+      href: libraries/bitfield/bitfield__putbit.md
+    - name: PutBits
+      href: libraries/bitfield/bitfield__putbits.md
+    - name: PutBitsMask
+      href: libraries/bitfield/bitfield__putbitsmask.md
+    - name: RotBitLt
+      href: libraries/bitfield/bitfield__rotbitlt.md
+    - name: RotBitRt
+      href: libraries/bitfield/bitfield__rotbitrt.md
+    - name: SetBit
+      href: libraries/bitfield/bitfield__setbit.md
+    - name: SetBitMask
+      href: libraries/bitfield/bitfield__setbitmask.md
+    - name: SetBits
+      href: libraries/bitfield/bitfield__setbits.md
+    - name: ShiftBitLt
+      href: libraries/bitfield/bitfield__shiftbitlt.md
+    - name: ShiftBitRt
+      href: libraries/bitfield/bitfield__shiftbitrt.md
+    - name: Split
+      href: libraries/bitfield/bitfield__split.md
+    - name: ToBool
+      href: libraries/bitfield/bitfield__tobool.md
+    - name: ToByte
+      href: libraries/bitfield/bitfield__tobyte.md
+    - name: ToggleBitMask
+      href: libraries/bitfield/bitfield__togglebitmask.md
+    - name: ToggleBits
+      href: libraries/bitfield/bitfield__togglebits.md
+    - name: TstBitLnMask
+      href: libraries/bitfield/bitfield__tstbitlnmask.md
+    - name: TstBitMask
+      href: libraries/bitfield/bitfield__tstbitmask.md
+    - name: TstParityEven
+      href: libraries/bitfield/bitfield__tstparityeven.md
+  - name: Check
+    href: libraries/check/check.md
+    items:
+    - name: Always
+      href: libraries/check/check__always.md
+    - name: AlwaysAfterCond
+      href: libraries/check/check__alwaysaftercond.md
+    - name: AlwaysAfterN
+      href: libraries/check/check__alwaysaftern.md
+    - name: AtLeastCond
+      href: libraries/check/check__atleastcond.md
+    - name: AtLeastN
+      href: libraries/check/check__atleastn.md
+    - name: AtMostCond
+      href: libraries/check/check__atmostcond.md
+    - name: AtMostN
+      href: libraries/check/check__atmostn.md
+    - name: BeforeCond
+      href: libraries/check/check__beforecond.md
+    - name: BeforeN
+      href: libraries/check/check__beforen.md
+    - name: BetweenCond
+      href: libraries/check/check__betweencond.md
+    - name: BetweenN
+      href: libraries/check/check__betweenn.md
+    - name: Bounds
+      href: libraries/check/check__bounds.md
+    - name: ConfirmN
+      href: libraries/check/check__confirmn.md
+    - name: Cycles
+      href: libraries/check/check__cycles.md
+    - name: Gap
+      href: libraries/check/check__gap.md
+    - name: Gradient
+      href: libraries/check/check__gradient.md
+    - name: IgnoreCond
+      href: libraries/check/check__ignorecond.md
+    - name: IgnoreN
+      href: libraries/check/check__ignoren.md
+    - name: Implies
+      href: libraries/check/check__implies.md
+    - name: ImpliesCond
+      href: libraries/check/check__impliescond.md
+    - name: ImpliesN
+      href: libraries/check/check__impliesn.md
+    - name: LowerBound
+      href: libraries/check/check__lowerbound.md
+    - name: Never
+      href: libraries/check/check__never.md
+    - name: Once
+      href: libraries/check/check__once.md
+    - name: UpperBound
+      href: libraries/check/check__upperbound.md
+  - name: Digital
+    href: libraries/digital/digital.md
+    items:
+    - name: EitherEdge
+      href: libraries/digital/digital__eitheredge.md
+    - name: FallingEdge
+      href: libraries/digital/digital__fallingedge.md
+    - name: FallingEdgeBufferedNoRetrigger
+      href: libraries/digital/digital__fallingedgebufferednoretrigger.md
+    - name: FallingEdgeBufferedRetrigger
+      href: libraries/digital/digital__fallingedgebufferedretrigger.md
+    - name: RisingEdge
+      href: libraries/digital/digital__risingedge.md
+    - name: RisingEdgeBufferedNoRetrigger
+      href: libraries/digital/digital__risingedgebufferednoretrigger.md
+    - name: RisingEdgeBufferedRetrigger
+      href: libraries/digital/digital__risingedgebufferedretrigger.md
+  - name: Float
+    href: libraries/float/float.md
+    items:
+    - name: RelPrecision
+      href: libraries/float/float__relprecision.md
+    - name: EQ
+      href: libraries/float/float__eq.md
+    - name: GE
+      href: libraries/float/float__ge.md
+    - name: GT
+      href: libraries/float/float__gt.md
+    - name: LE
+      href: libraries/float/float__le.md
+    - name: LT
+      href: libraries/float/float__lt.md
+    - name: NE
+      href: libraries/float/float__ne.md
+    - name: RelEQ
+      href: libraries/float/float__releq.md
+    - name: RelGE
+      href: libraries/float/float__relge.md
+    - name: RelGT
+      href: libraries/float/float__relgt.md
+    - name: RelLE
+      href: libraries/float/float__relle.md
+    - name: RelLT
+      href: libraries/float/float__rellt.md
+    - name: RelNE
+      href: libraries/float/float__relne.md
+  - name: Flows
+    href: libraries/flows/flows.md
+    items:
+    - name: BoundedEventCountDown
+      href: libraries/flows/flows__boundedeventcountdown.md
+    - name: BoundedEventCountUp
+      href: libraries/flows/flows__boundedeventcountup.md
+    - name: Delay
+      href: libraries/flows/flows__delay.md
+    - name: DetectChange
+      href: libraries/flows/flows__detectchange.md
+    - name: EventCountDown
+      href: libraries/flows/flows__eventcountdown.md
+    - name: EventCountUp
+      href: libraries/flows/flows__eventcountup.md
+    - name: Max
+      href: libraries/flows/flows__max.md
+    - name: Min
+      href: libraries/flows/flows__min.md
+    - name: Times
+      href: libraries/flows/flows__times.md
+  - name: Math::Common
+    href: libraries/common/math_common.md
+    items:
+    - name: Abs
+      href: libraries/common/common__abs.md
+    - name: Cbrt
+      href: libraries/common/common__cbrt.md
+    - name: Ceil
+      href: libraries/common/common__ceil.md
+    - name: Exp
+      href: libraries/common/common__exp.md
+    - name: Floor
+      href: libraries/common/common__floor.md
+    - name: Fmod
+      href: libraries/common/common__fmod.md
+    - name: Log
+      href: libraries/common/common__log.md
+    - name: Log2
+      href: libraries/common/common__log2.md
+    - name: Log10
+      href: libraries/common/common__log10.md
+    - name: Max
+      href: libraries/common/common__max.md
+    - name: Max3
+      href: libraries/common/common__max3.md
+    - name: MaxN
+      href: libraries/common/common__maxn.md
+    - name: Min
+      href: libraries/common/common__min.md
+    - name: Min3
+      href: libraries/common/common__min3.md
+    - name: MinN
+      href: libraries/common/common__minn.md
+    - name: Polynomial
+      href: libraries/common/common__polynomial.md
+    - name: Pow
+      href: libraries/common/common__pow.md
+    - name: Sign
+      href: libraries/common/common__sign.md
+    - name: Sqr
+      href: libraries/common/common__sqr.md
+    - name: Sqrt
+      href: libraries/common/common__sqrt.md
+    - name: Trunc
+      href: libraries/common/common__trunc.md
+  - name: Math::Complex
+    href: libraries/complex/math_complex.md
+    items:
+    - name: Add
+      href: libraries/complex/complex__add.md
+    - name: Arg
+      href: libraries/complex/complex__arg.md
+    - name: Conj
+      href: libraries/complex/complex__conj.md
+    - name: Div
+      href: libraries/complex/complex__div.md
+    - name: EQ
+      href: libraries/complex/complex__eq.md
+    - name: FromNum
+      href: libraries/complex/complex__fromnum.md
+    - name: FromPolar
+      href: libraries/complex/complex__frompolar.md
+    - name: Im
+      href: libraries/complex/complex__im.md
+    - name: IsImaginary
+      href: libraries/complex/complex__isimaginary.md
+    - name: IsReal
+      href: libraries/complex/complex__isreal.md
+    - name: Mod
+      href: libraries/complex/complex__modulus.md
+    - name: Mul
+      href: libraries/complex/complex__mul.md
+    - name: NE
+      href: libraries/complex/complex__ne.md
+    - name: Neg
+      href: libraries/complex/complex__neg.md
+    - name: Re
+      href: libraries/complex/complex__re.md
+    - name: Rec
+      href: libraries/complex/complex__rec.md
+    - name: Sqr
+      href: libraries/complex/complex__sqr.md
+    - name: SqrMod
+      href: libraries/complex/complex__sqrmod.md
+    - name: Sub
+      href: libraries/complex/complex__sub.md
+    - name: ToNum
+      href: libraries/complex/complex__tonum.md
+    - name: ToPolar
+      href: libraries/complex/complex__topolar.md
+  - name: Math::Trigo
+    href: libraries/trigo/math_trigo.md
+    items:
+    - name: ArcCosine
+      href: libraries/trigo/trigo__arccosine.md
+    - name: ArcSine
+      href: libraries/trigo/trigo__arcsine.md
+    - name: ArcTan
+      href: libraries/trigo/trigo__arctan.md
+    - name: ArcTan2
+      href: libraries/trigo/trigo__arctan2.md
+    - name: Cosine
+      href: libraries/trigo/trigo__cosine.md
+    - name: ReducePi
+      href: libraries/trigo/trigo__reducepi.md
+    - name: ReducePi2
+      href: libraries/trigo/trigo__reducepi2.md
+    - name: Sine
+      href: libraries/trigo/trigo__sine.md
+    - name: Tan
+      href: libraries/trigo/trigo__tangent.md
+  - name: Sources
+    href: libraries/sources/sources.md
+    items:
+    - name: Sources::N
+      href: libraries/sources/sources_n.md
+      items:
+      - name: Pwm
+        href: libraries/sources/n__pwm.md
+      - name: Ramp
+        href: libraries/sources/n__ramp.md
+      - name: Ramps
+        href: libraries/sources/n__ramps.md
+      - name: Sawtooth
+        href: libraries/sources/n__sawtooth.md
+      - name: Sequence
+        href: libraries/sources/n__sequence.md
+      - name: Sine
+        href: libraries/sources/n__sine.md
+      - name: Square
+        href: libraries/sources/n__square.md
+      - name: Step
+        href: libraries/sources/n__step.md
+      - name: Triangular
+        href: libraries/sources/n__triangular.md
+    - name: Sources::T
+      href: libraries/sources/sources_t.md
+      items:
+      - name: Pwm
+        href: libraries/sources/t__pwm.md
+      - name: Ramp
+        href: libraries/sources/t__ramp.md
+      - name: Ramps
+        href: libraries/sources/t__ramps.md
+      - name: Sawtooth
+        href: libraries/sources/t__sawtooth.md
+      - name: Sequence
+        href: libraries/sources/t__sequence.md
+      - name: Sine
+        href: libraries/sources/t__sine.md
+      - name: Square
+        href: libraries/sources/t__square.md
+      - name: Step
+        href: libraries/sources/t__step.md
+      - name: Triangular
+        href: libraries/sources/t__triangular.md

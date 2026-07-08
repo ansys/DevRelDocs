@@ -1,0 +1,16 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Rocky Solver SDK 2026 R1",
+        "summary": "",
+        "version": "2026 R1",
+        "product": "Rocky",
+        "programming language": "C++",
+        "product collection": "Fluids",
+        "physics": "Fluids"
+      }
+    }
+ }
+
+
+

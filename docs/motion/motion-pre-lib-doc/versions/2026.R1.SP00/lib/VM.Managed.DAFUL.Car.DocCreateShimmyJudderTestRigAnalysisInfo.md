@@ -1,0 +1,62 @@
+# Class DocCreateShimmyJudderTestRigAnalysisInfo
+<a id="VM_Managed_DAFUL_Car_DocCreateShimmyJudderTestRigAnalysisInfo"></a>
+
+Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
+Assembly: VMDFullCar.dll  
+
+The tire testrig analysis document create information
+
+```csharp
+public class DocCreateShimmyJudderTestRigAnalysisInfo : DocCreateFullCarAnalysisInfoExceptWheel
+```
+
+#### Inheritance
+
+object ← 
+DocCreateInfo ← 
+DocFromTemplateInfo ← 
+[DocCreateCarAnalysisInfo](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs) ← 
+[DocCreateFullCarAnalysisInfoExceptWheel](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs) ← 
+[DocCreateShimmyJudderTestRigAnalysisInfo](VM.Managed.DAFUL.Car.DocCreateShimmyJudderTestRigAnalysisInfo.md)
+
+#### Inherited Members
+
+[DocCreateFullCarAnalysisInfoExceptWheel.AssemblyPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.FrontSuspensionPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.RearSuspensionPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.SteeringPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.BodyPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.TestRigPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.BrakePath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.PowerTrainPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.OtherPath](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.IsBreak](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.IsPowerTrain](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateFullCarAnalysisInfoExceptWheel.IsOther](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/FullCarTestRigDocument.cs), 
+[DocCreateCarAnalysisInfo.GravityX](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs), 
+[DocCreateCarAnalysisInfo.GravityY](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs), 
+[DocCreateCarAnalysisInfo.GravityZ](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs), 
+[DocCreateCarAnalysisInfo.IconSize](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs), 
+[DocCreateCarAnalysisInfo.IncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs), 
+[DocCreateCarAnalysisInfo.UseIncrementTime](https://github.com/AnsysVirtualMotion/DAFUL/blob/9110677a5f6a53d7604f8dfd35b4c5fceb59e8e0/DAFUL/ClassicPre/Data/VMDCar/TestRigDocument.cs), 
+DocFromTemplateInfo.TemplatePath, 
+DocCreateInfo.ModeChangeOperation, 
+DocCreateInfo.ActiveMode, 
+DocCreateInfo.KernelLengthUnit, 
+DocCreateInfo.Unit, 
+DocCreateInfo.DocumentName
+
+#### Extension Methods
+
+[LinkPropertyItemCache.GetLinkProperties\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkProperties\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkPropertiesAndValues\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkPropertiesAndValues\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkedObjects<T\>\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkedObjects\_\_1\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_)
+
+## Constructors
+
+### <a id="VM_Managed_DAFUL_Car_DocCreateShimmyJudderTestRigAnalysisInfo__ctor"></a> DocCreateShimmyJudderTestRigAnalysisInfo\(\)
+
+```csharp
+public DocCreateShimmyJudderTestRigAnalysisInfo()
+```
+

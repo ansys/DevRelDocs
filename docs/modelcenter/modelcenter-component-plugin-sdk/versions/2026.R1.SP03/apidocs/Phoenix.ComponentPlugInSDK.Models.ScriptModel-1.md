@@ -1,0 +1,74 @@
+# Class ScriptModel<LANGUAGE>
+
+Namespace: [Phoenix.ComponentPlugInSDK.Models](Phoenix.ComponentPlugInSDK.Models.md)  
+Assembly: Phoenix.ComponentPlugInSDK.dll
+
+Concrete implementation of the model from the MVVM pattern for a script
+based Builder UI.
+
+```csharp
+public class ScriptModel<LANGUAGE> : ScriptModel, IBuilderUIModel, IDisposable where LANGUAGE : IScriptLanguage, new()
+
+```
+
+#### Type Parameters
+
+`LANGUAGE`
+
+The IScriptLanguage for the language being used. Must
+implement `Phoenix.ComponentPlugInSDK.Models.IScriptLanguage` and have a default constructor.
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ←
+AbstractDisposable ←
+[AbstractBuilderModel](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.md) ←
+[ScriptModel](Phoenix.ComponentPlugInSDK.Models.ScriptModel.md) ←
+[ScriptModel<LANGUAGE>](Phoenix.ComponentPlugInSDK.Models.ScriptModel-1.md)
+
+#### Implements
+
+[IBuilderUIModel](Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.md),
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[ScriptModel.ScriptLanguage](Phoenix.ComponentPlugInSDK.Models.ScriptModel.ScriptLanguage.md#Phoenix_ComponentPlugInSDK_Models_ScriptModel_ScriptLanguage),
+[ScriptModel.Timeout](Phoenix.ComponentPlugInSDK.Models.ScriptModel.Timeout.md#Phoenix_ComponentPlugInSDK_Models_ScriptModel_Timeout),
+[ScriptModel.BodyText](Phoenix.ComponentPlugInSDK.Models.ScriptModel.BodyText.md#Phoenix_ComponentPlugInSDK_Models_ScriptModel_BodyText),
+[ScriptModel.FromPaczAsync(IReadOnlyExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.ScriptModel.FromPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_ScriptModel_FromPaczAsync_Phoenix_PaczAPI_IReadOnlyExtractedPacz_),
+[ScriptModel.ToPaczAsync(IExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.ScriptModel.ToPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_ScriptModel_ToPaczAsync_Phoenix_PaczAPI_IExtractedPacz_),
+[AbstractBuilderModel.IsReadOnly](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.IsReadOnly.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_IsReadOnly),
+[AbstractBuilderModel.ExternalMetadata](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.ExternalMetadata.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_ExternalMetadata),
+[AbstractBuilderModel.InputVariables](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.InputVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_InputVariables),
+[AbstractBuilderModel.MoveInputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.MoveInputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_MoveInputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.CloneInputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.CloneInputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_CloneInputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.OutputVariables](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.OutputVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_OutputVariables),
+[AbstractBuilderModel.MoveOutputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.MoveOutputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_MoveOutputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.CloneOutputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.CloneOutputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_CloneOutputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.RuntimeVariableToPHXVariable(IRuntimeVariable, bool, VariableValueScope)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.RuntimeVariableToPHXVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_RuntimeVariableToPHXVariable_Phoenix_PaczAPI_IRuntimeVariable_System_Boolean_Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[AbstractBuilderModel.PHXVariableToRuntimeVariable(PHXVariable)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.PHXVariableToRuntimeVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_PHXVariableToRuntimeVariable_Phoenix_ModelCenter_Common_PHXVariable_),
+[AbstractBuilderModel.RuntimeVariablesToPHXVariables(IEnumerable<IRuntimeVariable>, IEnumerable<IRuntimeVariable>, VariableValueScope)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.RuntimeVariablesToPHXVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_RuntimeVariablesToPHXVariables_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[AbstractBuilderModel.PHXVariablesToRuntimeVariables(IEnumerable<PHXVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.PHXVariablesToRuntimeVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_PHXVariablesToRuntimeVariables_System_Collections_Generic_IEnumerable_Phoenix_ModelCenter_Common_PHXVariable__),
+[AbstractBuilderModel.FromPaczAsync(IReadOnlyExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.FromPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_FromPaczAsync_Phoenix_PaczAPI_IReadOnlyExtractedPacz_),
+[AbstractBuilderModel.ToPaczAsync(IExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.ToPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_ToPaczAsync_Phoenix_PaczAPI_IExtractedPacz_),
+[AbstractBuilderModel.SetVariablesAsPHXVariable(IEnumerable<PHXVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.SetVariablesAsPHXVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_SetVariablesAsPHXVariable_System_Collections_Generic_IEnumerable_Phoenix_ModelCenter_Common_PHXVariable__),
+[AbstractBuilderModel.GetVariablesAsPHXVariable(VariableValueScope)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.GetVariablesAsPHXVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_GetVariablesAsPHXVariable_Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[AbstractBuilderModel.Dispose(bool)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.Dispose.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_Dispose_System_Boolean_),
+AbstractDisposable.disposed,
+AbstractDisposable.Dispose(),
+AbstractDisposable.IsDisposed,
+AbstractDisposable.Dispose(bool),
+[object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring),
+[object.Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)),
+[object.Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)),
+[object.ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals),
+[object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode),
+[object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype),
+[object.MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+
+## Properties
+
+[ScriptLanguage](Phoenix.ComponentPlugInSDK.Models.ScriptModel-1.ScriptLanguage.md#Phoenix_ComponentPlugInSDK_Models_ScriptModel_1_ScriptLanguage)
+
+The active scripting language.

@@ -1,0 +1,63 @@
+# Class CategoryInfo.TypeInfo.CategoryType
+
+Namespace: [VM.Managed](VM.Managed.md)  
+Assembly: VMAppCore.dll  
+
+This class is to represent the catergry type in type information.
+
+```csharp
+public class CategoryInfo.TypeInfo.CategoryType
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[CategoryInfo.TypeInfo.CategoryType](VM.Managed.CategoryInfo.TypeInfo.CategoryType.md)
+
+#### Extension Methods
+
+[LinkPropertyItemCache.GetLinkProperties\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkProperties\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkPropertiesAndValues\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkPropertiesAndValues\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkedObjects<T\>\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkedObjects\_\_1\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_)
+
+## Constructors
+
+### CategoryType\(\)
+
+```csharp
+public CategoryType()
+```
+
+## Fields
+
+### Category
+
+```csharp
+public string Category
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### Image
+
+```csharp
+public string Image
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+### Name
+
+```csharp
+public string Name
+```
+
+#### Field Value
+
+ [string](https://learn.microsoft.com/dotnet/api/system.string)
+
+

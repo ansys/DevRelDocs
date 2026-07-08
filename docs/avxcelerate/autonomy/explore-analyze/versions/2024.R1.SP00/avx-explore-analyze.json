@@ -1,0 +1,2434 @@
+{
+    "swagger": "2.0",
+    "basePath": "/api/tsa",
+    "paths": {
+      "/v1/tsa/sut-config": {
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Fetched all available Tags from SUT configuration."
+            },
+            "500": {
+              "description": "Error fetching SUT configuration Tags."
+            },
+            "404": {
+              "description": "SUT configuration Tags not found!"
+            }
+          },
+          "summary": "Retrieve available SUT configuration tags",
+          "operationId": "get_sut_configuration_tags",
+          "tags": [
+            "SUT Configuration"
+          ]
+        }
+      },
+      "/v1/tsa/sut-config/{sut_config_tag}": {
+        "get": {
+          "responses": {
+            "500": {
+              "description": "Error fetching versions for the selected Tag. Contact admin!"
+            },
+            "404": {
+              "description": "No version was found!"
+            },
+            "200": {
+              "description": "Fetched all available versions for the selected SUT Tag."
+            }
+          },
+          "summary": "Retrieve SUT versions for given sut_config_tag",
+          "operationId": "get_sut_configuration_versions",
+          "parameters": [
+            {
+              "name": "sut_config_tag",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "Tag of the Sut Config to read "
+            }
+          ],
+          "tags": [
+            "SUT Configuration"
+          ]
+        }
+      },
+      "/v1/tsa/sut-config/{sut_config_tag}/{sut_config_version}": {
+        "get": {
+          "responses": {
+            "500": {
+              "description": "Error fetching SUT configuration. Contact admin!"
+            },
+            "404": {
+              "description": "SUT Config for the <tag>:<version> not found."
+            },
+            "200": {
+              "description": "Fetched SUT Config for the provided <tag>:<version>."
+            }
+          },
+          "summary": "Retrieve a specific SUT Config by its unique pair of identifiers <tag>:<version>",
+          "operationId": "get_sut_configuration",
+          "parameters": [
+            {
+              "name": "sut_config_tag",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "Tag ID of the Sut Config to get "
+            },
+            {
+              "name": "sut_config_version",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "Supported version for the chosen Tag "
+            }
+          ],
+          "tags": [
+            "SUT Configuration"
+          ]
+        }
+      },
+      "/v2/tsa": {
+        "post": {
+          "responses": {
+            "500": {
+              "description": "Internal Server Error. Triggering the TSA airflow job failed. Contact Admin. The server has encountered a situation it does not know how to handle."
+            },
+            "400": {
+              "description": "Bad Request. Couldn't trigger the TSA airflow job - check that the input parameters are correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The TSA airflow job was successfully triggered."
+            }
+          },
+          "summary": "Trigger a TSA airflow job",
+          "operationId": "post_tsa_airflow_job",
+          "parameters": [
+            {
+              "name": "payload",
+              "required": true,
+              "in": "body",
+              "schema": {
+                "$ref": "#/definitions/TsaConfig"
+              }
+            }
+          ],
+          "tags": [
+            "Airflow Pipeline"
+          ]
+        }
+      },
+      "/v2/tsa-airflow-resample/{job_id}/{chunk_id}/{job_iteration}": {
+        "post": {
+          "responses": {
+            "500": {
+              "description": "Internal Server Error. Triggering the TSA airflow job failed. Contact Admin. The server has encountered a situation it does not know how to handle."
+            },
+            "400": {
+              "description": "Bad Request. Couldn't trigger the TSA airflow job - check that the input parameters are correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The TSA airflow job was successfully triggered."
+            }
+          },
+          "summary": "Trigger a TSA airflow job",
+          "operationId": "post_tsa_airflow_resample_job",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job chunk within the job"
+            },
+            {
+              "name": "job_iteration",
+              "in": "path",
+              "required": true,
+              "type": "integer",
+              "description": "Job iteration number"
+            }
+          ],
+          "tags": [
+            "Airflow Pipeline"
+          ]
+        }
+      },
+      "/v2/tsa/algorithms": {
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Retrieved all available information on algorithms."
+            },
+            "400": {
+              "description": "Bad Request. Couldn't find algorithm information. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            }
+          },
+          "summary": "Retrieve all information available for algorithms",
+          "operationId": "get_algorithms",
+          "parameters": [
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Algorithms"
+          ]
+        }
+      },
+      "/v2/tsa/health": {
+        "get": {
+          "responses": {
+            "204": {
+              "description": "No Content. There is no content to send for this request, but the headers may be useful. The user agent may update its cached headers for this resource with the new ones. "
+            },
+            "200": {
+              "description": "The request succeeded. The service is healthy."
+            }
+          },
+          "summary": "Get the health status of the service",
+          "operationId": "get_tsa_monitoring_health",
+          "tags": [
+            "Monitoring"
+          ]
+        }
+      },
+      "/v2/tsa/jobs": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Couldn't retrieve the TSA jobs status. Please check the TSA job ID and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Job"
+                }
+              }
+            }
+          },
+          "summary": "Retrieve the status and configuration of all TSA jobs - deprecated on 11/8/2023",
+          "operationId": "get_tsa_jobs",
+          "parameters": [
+            {
+              "required": false,
+              "in": "query",
+              "description": "Filtering one or more column entries with list of values",
+              "name": "in",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Ordering a column in ascending (asc) or descending (desc) order",
+              "name": "order_by",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Condition like startswith for filtering column/ columns based on partial string",
+              "name": "like",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Type of the job for which the records need to be filtered by",
+              "name": "job_type",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Scenario for which the records need to be filtered by",
+              "name": "scenario",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "System under test for which the records need to be filtered by",
+              "name": "SUT",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Id of the job for which the records need to be filtered by",
+              "name": "job_id",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Status of the job for which the records need to be filtered by",
+              "name": "status",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Source of the jobs data",
+              "name": "source",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Starting index to return the records from(offset value or the number of records to skip)",
+              "name": "skip",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of records to return in the response",
+              "name": "limit",
+              "type": "string"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "deprecated": true,
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/cancel/{job_id}": {
+        "post": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The job couldn't be canceled. Check the job ID is correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "\"Success. A message will appear to confirm cancellation. {\"status\": \"cancelling\", \"message\": \"Job cancellation started\"}"
+            }
+          },
+          "summary": "Cancel the job based on the job ID and update the job status in the database",
+          "operationId": "post_tsa_job_cancel",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "payload",
+              "required": true,
+              "in": "body",
+              "schema": {
+                "$ref": "#/definitions/Job_Cancel_Request"
+              }
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/chunk_files/{job_id}/{chunk_id}": {
+        "parameters": [
+          {
+            "name": "job_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "get": {
+          "responses": {
+            "500": {
+              "description": "Internal Server Error. Contact admin. The server has encountered a situation it does not know how to handle."
+            },
+            "404": {
+              "description": "Not Found. Check the TSA job ID and chunk_id is correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+            },
+            "400": {
+              "description": "Bad Request. Couldn't retrieve the file. Check the TSA job ID and chunk_id and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The file content has been retrieved."
+            }
+          },
+          "operationId": "get_tsa_chunk_file",
+          "parameters": [
+            {
+              "name": "chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job chunk"
+            },
+            {
+              "required": true,
+              "enum": [
+                "kpi",
+                "parameter",
+                "parquet"
+              ],
+              "in": "query",
+              "description": "Type of file",
+              "name": "file_type",
+              "type": "string"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/files/{job_id}/{sample_id}": {
+        "get": {
+          "responses": {
+            "500": {
+              "description": "Internal Server Error. Contact admin. The server has encountered a situation it does not know how to handle."
+            },
+            "404": {
+              "description": "Not Found. Check the TSA job ID and sample_id is correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+            },
+            "400": {
+              "description": "Bad Request. Couldn't retrieve the file. Check the TSA job ID and sample_id and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The file content has been retrieved."
+            }
+          },
+          "summary": "Retrieve scenario/kpi/simulation log file content of based on the sample ID of the TSA job",
+          "operationId": "get_tsa_sample_file",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "sample_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "Sample identifier"
+            },
+            {
+              "required": true,
+              "enum": [
+                "kpi",
+                "scenario",
+                "sensor_error",
+                "simulation_log",
+                "simulation_trace_log"
+              ],
+              "in": "query",
+              "description": "Type of file",
+              "name": "file_type",
+              "type": "string"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/log_run_time/{job_id}/{chunk_id}": {
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Success. The run time for the TSA job chunk was logged."
+            }
+          },
+          "operationId": "get_tsa_log_run_time",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job chunk within the job"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/pause/{job_id}": {
+        "post": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The job couldn't be paused. Check the job ID is correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. A message will appear to confirm the job has been paused. {\"status\": \"pausing\", \"message\": \"Job pausing started\"}"
+            }
+          },
+          "summary": "Pause job based on the job ID and update the job status in the database",
+          "operationId": "post_tsa_job_pause",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "payload",
+              "required": true,
+              "in": "body",
+              "schema": {
+                "$ref": "#/definitions/Job_Pause_Request"
+              }
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/resume/{job_id}": {
+        "post": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The job couldn't be resumed. Check the job ID is correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. A message will appear to confirm the job has been resumed. {\"status\": \"resuming\", \"message\": \"Job resume started\"}"
+            }
+          },
+          "summary": "Resume the job based on the job ID and update the job status in the database",
+          "operationId": "post_tsa_job_resume",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/save_task_status/{job_id}/{job_chunk_id}": {
+        "post": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The request to save task status of TSA job {job_id} {job_chunk_id} couldn't be completed. Check the job ID and the job chunk ID and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The request to save task status of TSA job {job_id} {job_chunk_id} has been completed."
+            }
+          },
+          "summary": "Save the task status of a TSA job identified by its job ID",
+          "operationId": "post_save_tsa_job_task_status",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "job_chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The chunk identifier of the TSA job"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/simulation_status/{job_chunk_id}": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Couldn't retrieve the simulation status, check the job chunk id is correct and try again."
+            },
+            "200": {
+              "description": "Success. Retrieved simulation status of TSA job chunk id."
+            }
+          },
+          "operationId": "get_sim_status",
+          "parameters": [
+            {
+              "name": "job_chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job_chunk"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/simulation_status/{job_chunk_id}/stats": {
+        "post": {
+          "responses": {
+            "201": {
+              "description": "Reported successfully"
+            }
+          },
+          "summary": "Report the change of active simulations at the moment",
+          "description": "Relative values are considered (±1)",
+          "operationId": "post_simulation_status_metric",
+          "parameters": [
+            {
+              "name": "job_chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The TSA job-chunk-id for which statistics are reported."
+            },
+            {
+              "name": "payload",
+              "required": true,
+              "in": "body",
+              "schema": {
+                "$ref": "#/definitions/Job_Chunk_Id_Status_Update"
+              }
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/task_status/{job_id}/{job_chunk_id}": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Couldn't retrieve the status of TSA job {job_id}, check the job ID an dthe chunk ID are correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Job_Task_Status"
+                }
+              }
+            }
+          },
+          "summary": "Retrieve the status of a TSA job identified with its job ID",
+          "operationId": "get_tsa_job_task_status",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "job_chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The chunk identifier of the TSA job"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/jobs/{job_id}": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The status of TSA job {job_id} couldn't be retrieved. Check the job ID is correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/Job"
+              }
+            }
+          },
+          "summary": "Retrieve the status of a TSA job identified by the job ID",
+          "operationId": "get_tsa_job",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios": {
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/LogicalScenario"
+                }
+              }
+            },
+            "400": {
+              "description": "Bad Request. Could not retrieve available logical scenarios. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            }
+          },
+          "summary": "Retrieve a list of all available logical scenarios",
+          "operationId": "get_logical_scenarios",
+          "parameters": [
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/config": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Could not retrieve logical scenario config file. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. Retrieved logical scenario config file."
+            }
+          },
+          "summary": "Retrieve contents of a scenario config file",
+          "operationId": "get_scenario_config",
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/group-type": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Could not retrieve group-type data. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/GroupType"
+                }
+              }
+            }
+          },
+          "summary": "Retrieve group types data for scenarios",
+          "operationId": "get_group_types",
+          "parameters": [
+            {
+              "name": "name",
+              "in": "query",
+              "type": "string",
+              "description": "Name of the group-type"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/groups": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Could not retrieve logical scenario group data. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/Group"
+              }
+            }
+          },
+          "summary": "Retrieve groups data for scenarios",
+          "operationId": "get_groups",
+          "parameters": [
+            {
+              "name": "name",
+              "in": "query",
+              "type": "string",
+              "description": "Name of the group"
+            },
+            {
+              "name": "type",
+              "in": "query",
+              "type": "string",
+              "description": "Type of the group"
+            },
+            {
+              "name": "source_id",
+              "in": "query",
+              "type": "string",
+              "description": "Type of the group"
+            },
+            {
+              "name": "enabled",
+              "in": "query",
+              "type": "boolean",
+              "description": "Enabled flag of the group"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/id/{scenario_id}": {
+        "get": {
+          "responses": {
+            "404": {
+              "description": "Not Found. Could not retrieve logical scenario. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+            },
+            "400": {
+              "description": "Bad Request. Could not retrieve logical scenario. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/LogicalScenario"
+              }
+            }
+          },
+          "summary": "Retrieve logical scenario by ID",
+          "operationId": "get_logical_scenario_id",
+          "parameters": [
+            {
+              "name": "scenario_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "scenario_id of logical scenario "
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "fields to include in response. comma separated without space as a single string. example : id,label,parameters[].name",
+              "name": "fields",
+              "type": "string"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "deprecated": true,
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/id/{scenario_id}/versions/{version}": {
+        "get": {
+          "responses": {
+            "404": {
+              "description": "Not Found. Could not retrieve logical scenario. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+            },
+            "400": {
+              "description": "Bad Request. Could not retrieve logical scenario. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/LogicalScenario"
+              }
+            }
+          },
+          "summary": "Retrieve logical scenario by ID",
+          "operationId": "get_logical_scenario_id_and_version",
+          "parameters": [
+            {
+              "name": "scenario_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "scenario_id of logical scenario "
+            },
+            {
+              "name": "version",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "version of logical scenario "
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "fields to include in response. comma separated without space as a single string. example : id,label,parameters[].name",
+              "name": "fields",
+              "type": "string"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/kpis": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Could not retrieve KPI data. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/KPI"
+                }
+              }
+            }
+          },
+          "summary": "Retrieve KPI data for logical scenarios",
+          "operationId": "get_kpis",
+          "parameters": [
+            {
+              "name": "name",
+              "in": "query",
+              "type": "array",
+              "description": "comma-saperated list of kpis names",
+              "items": {
+                "type": "string"
+              },
+              "collectionFormat": "csv"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/{scenario_id}/assets": {
+        "parameters": [
+          {
+            "name": "scenario_id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "get": {
+          "responses": {
+            "404": {
+              "description": "Not Found. The scenario does not exist. Check the scenario ID and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+            },
+            "400": {
+              "description": "Bad request. the scenario ID was not provided in the request. Add the scenario ID and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/asset"
+                }
+              }
+            }
+          },
+          "summary": "Retrieve asset list for a specific logical scenario",
+          "operationId": "get_logical_scenario_id_assets_link",
+          "parameters": [
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/{scenario_name}": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Could not retrieve details of the logical scenario {scenario_name}. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/LogicalScenario"
+              }
+            }
+          },
+          "summary": "Retrieve details of a specific logical scenario",
+          "operationId": "get_logical_scenario_resource",
+          "parameters": [
+            {
+              "name": "scenario_name",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The scenario Name"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/logical-scenarios/{scenario_name}/versions": {
+        "get": {
+          "responses": {
+            "500": {
+              "description": "Internal Server Error. Versions of the logical scenario could not be retrieved. The server has encountered a situation it does not know how to handle. Contact Admin."
+            },
+            "404": {
+              "description": "Bad Request. Logical scenario not found. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. Retrieved versions of the logical scenario."
+            }
+          },
+          "summary": "Retrieve all versions for the given logical scenario",
+          "operationId": "get_scenario_versions",
+          "parameters": [
+            {
+              "name": "scenario_name",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The logical scenario name"
+            }
+          ],
+          "tags": [
+            "Logical Scenario"
+          ]
+        }
+      },
+      "/v2/tsa/maprfs-health": {
+        "get": {
+          "responses": {
+            "204": {
+              "description": "No Content. The test to access the MapR file system failed. There is no content to send for this request, but the headers may be useful. The user agent may update its cached headers for this resource with the new ones."
+            },
+            "200": {
+              "description": "The test to access the MapR file system succeeded."
+            }
+          },
+          "summary": "Get the health status of the service",
+          "operationId": "get_tsa_monitoring_maprfs_health",
+          "tags": [
+            "Monitoring"
+          ]
+        }
+      },
+      "/v2/tsa/metric": {
+        "post": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Please check your request and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The monitoring data has been added."
+            }
+          },
+          "operationId": "post_tsa_monitoring_metrics",
+          "parameters": [
+            {
+              "required": false,
+              "in": "query",
+              "description": "Other simulation cases like no kpis, invalid scenario, etc.",
+              "name": "other_simulations",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of logical scenarios",
+              "name": "no_of_logical_scenarios",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of failed simulations",
+              "name": "no_of_failed_simulations",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of successful simulations",
+              "name": "no_of_successful_simulations",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of valid concrete scenarios created",
+              "name": "no_of_valid_concrete_scenarios",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of invalid concrete scenarios created",
+              "name": "no_of_invalid_concrete_scenarios",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of jobs created",
+              "name": "number_of_jobs_created",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Distance driven",
+              "name": "distance_driven",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Date",
+              "name": "date",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Job ID",
+              "name": "job_id",
+              "type": "string"
+            }
+          ],
+          "tags": [
+            "Monitoring"
+          ]
+        },
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Success. The metrics for the service have been retrieved."
+            }
+          },
+          "summary": "Retrieve the metrics of the service",
+          "operationId": "get_tsa_monitoring_metrics",
+          "tags": [
+            "Monitoring"
+          ]
+        }
+      },
+      "/v2/tsa/model": {
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/ParameterBounds"
+              }
+            }
+          },
+          "operationId": "get_tsa_airflow_model",
+          "parameters": [
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Airflow Pipeline"
+          ]
+        }
+      },
+      "/v2/tsa/ping": {
+        "get": {
+          "responses": {
+            "200": {
+              "description": "Successfully pinged"
+            }
+          },
+          "summary": "Ping the service",
+          "operationId": "get_tsa_monitoring_ping",
+          "tags": [
+            "Monitoring"
+          ]
+        }
+      },
+      "/v2/tsa/reports/analytics-result/{job_id}": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The request to retrieve analytics results for {job_id} couldn't be completed. Check that the job ID is correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The analytics results for the {job_id} have been retrieved."
+            }
+          },
+          "summary": "Retrieve analytics results of a specific TSA job ID",
+          "operationId": "get_tsa_analytics_result",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            }
+          ],
+          "tags": [
+            "Simulation Reports"
+          ]
+        }
+      },
+      "/v2/tsa/reports/post-processor-result/{job_id}/{chunk_id}": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. The post processor results for {chunk_id} couldn't be retrieved. Check that the job ID and chunk ID are correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The KPI post processor results for  {chunk_id} have been retrieved."
+            }
+          },
+          "summary": "Retrieve post processor results for given TSA job chunk ID",
+          "operationId": "get_post_processor_results",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job "
+            },
+            {
+              "name": "chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job chunk"
+            }
+          ],
+          "tags": [
+            "Simulation Reports"
+          ]
+        }
+      },
+      "/v2/tsa/reports/{job_id}/{chunk_id}": {
+        "get": {
+          "responses": {
+            "404": {
+              "description": "Not Found. The report couldn't be retrieved because the TSA job or TSA chunk were not found. Check that the job ID and chunk ID are correct and try again. The server cannot find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 Forbidden to hide the existence of a resource from an unauthorized client. This response code is probably the most well known due to its frequent occurrence on the web."
+            },
+            "400": {
+              "description": "Bad Request. The request to retrieve the {job_id} report couldn't be completed. Check that the job ID and chunk ID are correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "$ref": "#/definitions/JobReport"
+              }
+            }
+          },
+          "summary": "Retrieve generated report according to the Job ID",
+          "operationId": "get_tsa_report2",
+          "parameters": [
+            {
+              "name": "job_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job"
+            },
+            {
+              "name": "chunk_id",
+              "in": "path",
+              "required": true,
+              "type": "string",
+              "description": "The identifier of the TSA job chunk within the job or 'all'"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "Simulation Reports"
+          ]
+        }
+      },
+      "/v3/tsa": {
+        "post": {
+          "responses": {
+            "500": {
+              "description": "Internal Server Error. Triggering the TSA airflow job failed. Contact Admin. The server has encountered a situation it does not know how to handle."
+            },
+            "400": {
+              "description": "Bad Request. Couldn't trigger the TSA airflow job - check that the input parameters are correct and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success. The TSA airflow job was successfully triggered."
+            }
+          },
+          "summary": "Trigger a TSA airflow job",
+          "operationId": "post_tsa_airflow_job_experimental",
+          "parameters": [
+            {
+              "name": "parameter_json",
+              "in": "formData",
+              "type": "file"
+            },
+            {
+              "name": "kpi_json",
+              "in": "formData",
+              "type": "file"
+            },
+            {
+              "name": "job_config",
+              "in": "formData",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "driver_input",
+              "in": "formData",
+              "type": "file"
+            }
+          ],
+          "consumes": [
+            "multipart/form-data"
+          ],
+          "tags": [
+            "Airflow Pipeline"
+          ]
+        }
+      },
+      "/v3/tsa/jobs": {
+        "get": {
+          "responses": {
+            "400": {
+              "description": "Bad Request. Couldn't retrieve the TSA jobs status. Please check the TSA job ID and try again. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+            },
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/Tsa_Jobs_Response"
+                }
+              }
+            }
+          },
+          "summary": "Retrieve the status and configuration of all TSA jobs",
+          "operationId": "get_tsa_jobs_v3",
+          "parameters": [
+            {
+              "required": false,
+              "in": "query",
+              "description": "Filtering one or more column entries with list of values",
+              "name": "in",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Ordering a column in ascending (asc) or descending (desc) order",
+              "name": "order_by",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Condition like startswith for filtering column/ columns based on partial string",
+              "name": "like",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "User ID by which the records need to be filtered",
+              "name": "user_id",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Type of the job for which the records need to be filtered by",
+              "name": "job_type",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Scenario for which the records need to be filtered by",
+              "name": "scenario",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "System under test for which the records need to be filtered by",
+              "name": "SUT",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Id of the job for which the records need to be filtered by",
+              "name": "job_id",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Status of the job for which the records need to be filtered by",
+              "name": "status",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Source of the jobs data",
+              "name": "source",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Starting index to return the records from(offset value or the number of records to skip)",
+              "name": "skip",
+              "type": "string"
+            },
+            {
+              "required": false,
+              "in": "query",
+              "description": "Number of records to return in the response",
+              "name": "limit",
+              "type": "string"
+            },
+            {
+              "name": "X-Fields",
+              "in": "header",
+              "type": "string",
+              "format": "mask",
+              "description": "An optional fields mask"
+            }
+          ],
+          "tags": [
+            "TSA-job"
+          ]
+        }
+      }
+    },
+    "info": {
+      "title": "AVxcelerate Explore & Analyze",
+      "version": "2024 R1",
+      "description": "This is the REST API for the Explore and Analyze application that is part of the Ansys AVxcelerate Autonomous Driving Toolchain.",
+      "contact": {
+        "name": "support@ansys.com",
+        "email": "support@ansys.com",
+        "url": "https://ansys.com"
+      },
+      "license": {
+        "name": "Ansys software"
+      }
+    },
+    "produces": [
+      "application/json"
+    ],
+    "consumes": [
+      "application/json"
+    ],
+    "securityDefinitions": {
+      "apikey": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "Authorization"
+      }
+    },
+    "security": [
+      {
+        "apikey": []
+      }
+    ],
+    "tags": [
+      {
+        "name": "Logical Scenario",
+        "description": "Endpoints to manage logical scenarios and associated data"
+      },
+      {
+        "name": "Algorithms",
+        "description": "Endpoints to manage algorithms"
+      },
+      {
+        "name": "Monitoring",
+        "description": "Endpoints to monitor the health of the services"
+      },
+      {
+        "name": "TSA-job",
+        "description": "The endpoints that manage the configuration and status of the tsa-job in the Explore and Analyze application."
+      },
+      {
+        "name": "Simulation Reports",
+        "description": "The endpoints used to generate simulation reports"
+      },
+      {
+        "name": "Airflow Pipeline",
+        "description": "The endpoints used to trigger a test-space analytics run with Airflow."
+      },
+      {
+        "name": "SUT Configuration",
+        "description": "This section is not used in this REST API, please use the dedicated SUT REST API to manage SUT endpoints"
+      }
+    ],
+    "definitions": {
+      "LogicalScenario": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "ID of LogicalScenario."
+          },
+          "name": {
+            "type": "string",
+            "description": "The name of this LogicalScenario."
+          },
+          "label": {
+            "type": "string",
+            "description": "The label of this LogicalScenario."
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of this LogicalScenario."
+          },
+          "parameters": {
+            "type": "array",
+            "description": "The parameters of this LogicalScenario.",
+            "items": {
+              "$ref": "#/definitions/ParameterDescription"
+            }
+          },
+          "kpis": {
+            "type": "array",
+            "description": "The kpis of this LogicalScenario.",
+            "default": [],
+            "items": {
+              "$ref": "#/definitions/KPI"
+            }
+          },
+          "file_format": {
+            "type": "string",
+            "description": "File format of concrete scenario file"
+          },
+          "user_data": {
+            "type": "object",
+            "description": "User data for the logical scenario."
+          }
+        },
+        "type": "object"
+      },
+      "ParameterDescription": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this ParameterDescription."
+          },
+          "label": {
+            "type": "string",
+            "description": "User friendly label for this parameter."
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of this ParameterDescription."
+          },
+          "data_type": {
+            "type": "string",
+            "description": "The type of this ParameterDescription",
+            "enum": [
+              "double",
+              "integer",
+              "string",
+              "boolean"
+            ]
+          },
+          "unit": {
+            "type": "string",
+            "description": "The unit of this ParameterDescription if applicable"
+          },
+          "constraints": {
+            "type": "array",
+            "items": {
+              "description": "Constraints on the parameter",
+              "allOf": [
+                {
+                  "$ref": "#/definitions/Constraints"
+                }
+              ]
+            }
+          },
+          "default_value": {
+            "type": "string",
+            "description": "The default value for this parameter"
+          }
+        },
+        "type": "object"
+      },
+      "Constraints": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "The unique identifier of this constraint"
+          },
+          "rule": {
+            "type": "string",
+            "description": "Rule to be applied on the constraint",
+            "enum": [
+              "==",
+              ">",
+              "<",
+              ">=",
+              "<=",
+              "<>"
+            ]
+          },
+          "formula": {
+            "type": "string",
+            "description": "Formula to be implemented in constraint"
+          },
+          "group": {
+            "type": "integer",
+            "description": "Index of the corresponding constraint group (0-indexed)"
+          }
+        },
+        "type": "object"
+      },
+      "KPI": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this KPI"
+          },
+          "label": {
+            "type": "string",
+            "description": "User friendly label for this KPI"
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of this KPI"
+          },
+          "data_type": {
+            "type": "string",
+            "description": "The data type of this KPI",
+            "enum": [
+              "double",
+              "integer",
+              "string",
+              "boolean"
+            ]
+          },
+          "unit": {
+            "type": "string",
+            "description": "The unit of this KPI if applicable"
+          }
+        },
+        "type": "object"
+      },
+      "Group": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Auto generated id of the group"
+          },
+          "name": {
+            "type": "string",
+            "description": "User defined unique name of the group"
+          },
+          "description": {
+            "type": "string",
+            "description": "User defined description of the group"
+          },
+          "source_id": {
+            "type": "string",
+            "description": "Source of Truth for the group."
+          },
+          "enabled": {
+            "type": "boolean",
+            "description": "Enable flag of groups"
+          },
+          "scenarios": {
+            "type": "array",
+            "description": "List of referenced scenarios",
+            "items": {
+              "$ref": "#/definitions/ScenarioReference"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "ScenarioReference": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Id of the attached scenario"
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the attached scenario"
+          },
+          "label": {
+            "type": "string",
+            "description": "label of the attached scenario"
+          }
+        },
+        "type": "object"
+      },
+      "GroupType": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Auto generated id of the group type"
+          },
+          "name": {
+            "type": "string",
+            "description": "User defined unique name of the group type"
+          },
+          "description": {
+            "type": "string",
+            "description": "User defined description of the group type"
+          },
+          "groups": {
+            "type": "array",
+            "description": "List of referenced groups",
+            "items": {
+              "$ref": "#/definitions/GroupReference"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "GroupReference": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Id of the attached group"
+          },
+          "name": {
+            "type": "string",
+            "description": "Id of the attached scenario"
+          },
+          "scenarios": {
+            "type": "array",
+            "description": "List of referenced scenarios",
+            "items": {
+              "$ref": "#/definitions/ScenarioReference"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "asset": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "The unique identifier of asset"
+          },
+          "name": {
+            "type": "string",
+            "description": "The Name of asset"
+          },
+          "file_type": {
+            "type": "string",
+            "description": "Type of the asset"
+          },
+          "version": {
+            "type": "string",
+            "description": "creation date/version"
+          }
+        },
+        "type": "object"
+      },
+      "Job_Task_Status": {
+        "properties": {
+          "duration": {
+            "type": "string",
+            "description": "Duration in seconds taken to complete task"
+          },
+          "end_date": {
+            "type": "string",
+            "description": "DateTime when task execution completed"
+          },
+          "execution_date": {
+            "type": "string",
+            "description": "DateTime when Job iteration was submitted for execution"
+          },
+          "max_tries": {
+            "type": "string",
+            "description": "Maximum tries of this task "
+          },
+          "queued_dttm": {
+            "type": "string",
+            "description": "DateTime when task was queued for execution"
+          },
+          "start_date": {
+            "type": "string",
+            "description": "DateTime when task execution started"
+          },
+          "state": {
+            "type": "string",
+            "description": "State of this task"
+          },
+          "task_name": {
+            "type": "string",
+            "description": "Name of this task"
+          },
+          "task_label": {
+            "type": "string",
+            "description": "Label of this task"
+          },
+          "airflow_run_id": {
+            "type": "string",
+            "description": "Airflow run id "
+          }
+        },
+        "type": "object"
+      },
+      "Job": {
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "description": "The job_id of this Job."
+          },
+          "job_config": {
+            "type": "object",
+            "description": "The job_config of this Job."
+          },
+          "number_of_chunks": {
+            "type": "string",
+            "description": "The number_of_chunks of this Job."
+          },
+          "status": {
+            "type": "string",
+            "description": "The status of this Job."
+          },
+          "start_time": {
+            "type": "string",
+            "description": "DateTime when job was created."
+          },
+          "end_time": {
+            "type": "string",
+            "description": "DateTime when job ended."
+          },
+          "source": {
+            "type": "string",
+            "description": "Source from where job was created."
+          },
+          "job_type": {
+            "type": "string",
+            "description": "Type of job."
+          },
+          "job_chunks": {
+            "type": "object",
+            "description": "The job_config of this Job."
+          },
+          "total_samples": {
+            "type": "integer",
+            "description": "Total number of samples for this Job."
+          },
+          "operator_config": {
+            "type": "object",
+            "description": "The operator config of this Job."
+          },
+          "user_id": {
+            "type": "string",
+            "description": "User name of the user who created the job"
+          },
+          "kpi_json_present": {
+            "type": "boolean",
+            "description": "Flag to determine if KPI file is uploaded"
+          },
+          "comment": {
+            "type": "string",
+            "description": "Comment added by user when job was created"
+          }
+        },
+        "type": "object"
+      },
+      "Tsa_Jobs_Response": {
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "The list of TSA Jobs",
+            "items": {
+              "$ref": "#/definitions/Job"
+            }
+          },
+          "limit": {
+            "type": "integer",
+            "description": "Number of records to return in the response"
+          },
+          "offset": {
+            "type": "integer",
+            "description": "Starting index to return the records from(offset value or the number of records to skip)"
+          },
+          "total": {
+            "type": "integer",
+            "description": "The total number of TSA Jobs"
+          }
+        },
+        "type": "object"
+      },
+      "Job_Chunk_Id_Status_Update": {
+        "required": [
+          "value"
+        ],
+        "properties": {
+          "value": {
+            "type": "integer",
+            "description": "Simulation status change"
+          },
+          "type": {
+            "type": "string",
+            "description": "Type of the change: only relative supported",
+            "default": "rel",
+            "enum": [
+              "rel"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "Job_Cancel_Request": {
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Cancellation message/reason."
+          }
+        },
+        "type": "object"
+      },
+      "Job_Pause_Request": {
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Pause message/reason."
+          }
+        },
+        "type": "object"
+      },
+      "JobReport": {
+        "properties": {
+          "job_id": {
+            "type": "string",
+            "description": "The job_id of this Job."
+          },
+          "chunks": {
+            "type": "array",
+            "description": "List of chunks for the job",
+            "items": {
+              "$ref": "#/definitions/JobChunk"
+            }
+          },
+          "kpis": {
+            "type": "array",
+            "description": "List of kpis and related metadata",
+            "items": {
+              "$ref": "#/definitions/KPI"
+            }
+          },
+          "parameters": {
+            "type": "array",
+            "description": "List of parameters and related metadata",
+            "items": {
+              "$ref": "#/definitions/Parameter"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "JobChunk": {
+        "properties": {
+          "chunk_id": {
+            "type": "string",
+            "description": "Chunk id"
+          },
+          "samples": {
+            "type": "array",
+            "description": "List of samples for the chunk",
+            "items": {
+              "$ref": "#/definitions/Sample"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "Sample": {
+        "properties": {
+          "sample_id": {
+            "type": "integer",
+            "description": "Sample Identifier"
+          },
+          "sample_status": {
+            "type": "array",
+            "description": "List of task status for this sample",
+            "items": {
+              "$ref": "#/definitions/SampleStatus"
+            }
+          },
+          "safe": {
+            "type": "boolean",
+            "description": "Tells if the sample if safe (True) or unsafe (False) with respect to failure_state KPI"
+          },
+          "sample_params": {
+            "type": "object",
+            "description": "Name value pairs of parameters for this sample"
+          },
+          "scenario_json_file_path": {
+            "type": "string",
+            "description": ""
+          },
+          "kpi_results": {
+            "type": "object",
+            "description": "Name value pairs of kpis for this sample"
+          },
+          "kpis_json_file_path": {
+            "type": "string",
+            "description": ""
+          }
+        },
+        "type": "object"
+      },
+      "SampleStatus": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Task name for the sample"
+          },
+          "completed_time": {
+            "type": "string",
+            "description": "Time at which the task for this sample was complete"
+          },
+          "status": {
+            "type": "string",
+            "description": "Status of the task for this sample"
+          }
+        },
+        "type": "object"
+      },
+      "Parameter": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this Parameter."
+          },
+          "label": {
+            "type": "string",
+            "description": "User friendly label for this Parameter"
+          },
+          "description": {
+            "type": "string",
+            "description": "The description of this Parameter"
+          },
+          "data_type": {
+            "type": "string",
+            "description": "The type of this Parameter",
+            "enum": [
+              "double",
+              "integer",
+              "string",
+              "boolean"
+            ]
+          },
+          "unit": {
+            "type": "string",
+            "description": "The unit of this Parameter if applicable"
+          }
+        },
+        "type": "object"
+      },
+      "ParameterBounds": {
+        "properties": {
+          "constant": {
+            "type": "string",
+            "description": "The constant of this ParameterBounds."
+          },
+          "constant_type": {
+            "type": "string",
+            "description": "Treat constant parameters as given data type",
+            "enum": [
+              "double",
+              "integer",
+              "string",
+              "boolean"
+            ]
+          },
+          "discrete_type": {
+            "type": "string",
+            "description": "Treat discrete parameters as given data type",
+            "enum": [
+              "double",
+              "integer",
+              "string",
+              "boolean"
+            ]
+          },
+          "discrete_values": {
+            "type": "array",
+            "description": "The discrete values of this ParameterBounds.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "distribution_type": {
+            "type": "string",
+            "description": "The distribution_type of this ParameterBounds",
+            "enum": [
+              "continuous",
+              "constant",
+              "discrete"
+            ]
+          },
+          "min": {
+            "type": "number",
+            "description": "The min of this ParameterBounds."
+          },
+          "max": {
+            "type": "number",
+            "description": "The max of this ParameterBounds."
+          },
+          "pdf": {
+            "description": "The pdf of this ParameterBounds.",
+            "allOf": [
+              {
+                "$ref": "#/definitions/ProbabilityDistributionFunction"
+              }
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "ProbabilityDistributionFunction": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this ProbabilityDistributionFunction."
+          },
+          "variables": {
+            "type": "object",
+            "description": "The variables of this ProbabilityDistributionFunction.",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "TsaConfig": {
+        "required": [
+          "source",
+          "system_under_test_config"
+        ],
+        "properties": {
+          "parameter_bounds": {
+            "type": "object",
+            "description": "Dictionary with parameter name as key and parameter_bounds data as value.",
+            "additionalProperties": {
+              "$ref": "#/definitions/ParameterBounds"
+            }
+          },
+          "scenario_config": {
+            "description": "The scenario_config of this TsaConfig",
+            "allOf": [
+              {
+                "$ref": "#/definitions/ScenarioConfig"
+              }
+            ]
+          },
+          "custom_configs": {
+            "description": "The custom_configs of this TsaConfig",
+            "allOf": [
+              {
+                "$ref": "#/definitions/CustomConfigs"
+              }
+            ]
+          },
+          "sampling_algorithm_config": {
+            "description": "The sampling_algorithm_config of this TsaConfig.",
+            "allOf": [
+              {
+                "$ref": "#/definitions/SamplingAlgorithmConfig"
+              }
+            ]
+          },
+          "system_under_test_config": {
+            "description": "The system_under_test_config of this TsaConfig.",
+            "allOf": [
+              {
+                "$ref": "#/definitions/SystemUnderTest"
+              }
+            ]
+          },
+          "analytics_algorithm_config": {
+            "description": "The analytics_algorithm_config of this TsaConfig.",
+            "allOf": [
+              {
+                "$ref": "#/definitions/AnalyticsAlgorithmConfig"
+              }
+            ]
+          },
+          "source": {
+            "type": "string",
+            "description": "Source from where this job is getting created."
+          },
+          "job_type": {
+            "type": "string",
+            "description": "Type of the job.",
+            "enum": [
+              "sensitivity_analysis",
+              "reliability_analysis"
+            ]
+          },
+          "skip_error_injection": {
+            "type": "boolean",
+            "description": "Skip Error Injection step or not"
+          },
+          "validate_kpis_definition": {
+            "type": "boolean",
+            "description": "Validate kpis definition or not"
+          },
+          "comment": {
+            "type": "string",
+            "description": "Comment added by user when job was created"
+          }
+        },
+        "type": "object"
+      },
+      "ScenarioConfig": {
+        "required": [
+          "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this ScenarioConfig."
+          },
+          "version": {
+            "type": "string",
+            "description": "The version of this Scenario."
+          },
+          "file_format": {
+            "type": "string",
+            "description": "File format of concrete scenario file"
+          },
+          "parameter_bounds": {
+            "type": "object",
+            "description": "Dictionary with parameter name as key and parameter_bounds data as value.",
+            "additionalProperties": {
+              "$ref": "#/definitions/ParameterBounds"
+            }
+          },
+          "parameter_correlations": {
+            "type": "array",
+            "description": "List of all pair-wise parameter correlations.",
+            "items": {
+              "$ref": "#/definitions/ParameterCorrelations"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "ParameterCorrelations": {
+        "properties": {
+          "x": {
+            "type": "string",
+            "description": "The name of the first parameter to be correlated."
+          },
+          "y": {
+            "type": "string",
+            "description": "The name of the second parameter to be correlated."
+          },
+          "value": {
+            "type": "number",
+            "description": "The correlation between the two parameters."
+          }
+        },
+        "type": "object"
+      },
+      "CustomConfigs": {
+        "properties": {
+          "error_injection": {
+            "type": "object",
+            "description": "The error_injection config of CustomConfigs of this TsaConfig",
+            "additionalProperties": {
+              "type": "object"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "SamplingAlgorithmConfig": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this SamplingAlgorithmConfig."
+          },
+          "settings": {
+            "type": "object",
+            "description": "The settings of this SamplingAlgorithmConfig.",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "SystemUnderTest": {
+        "properties": {
+          "release": {
+            "type": "string",
+            "description": "Identifier of the release container."
+          },
+          "target": {
+            "type": "string",
+            "description": "Executable inside the release container to run the simulation with the ad function."
+          },
+          "*": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        },
+        "type": "object"
+      },
+      "AnalyticsAlgorithmConfig": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The name of this AnalyticsAlgorithmConfig."
+          },
+          "settings": {
+            "type": "object",
+            "description": "The settings of this AnalyticsAlgorithmConfig.",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        },
+        "type": "object"
+      }
+    },
+    "responses": {
+      "ParseError": {
+        "description": "When a mask can't be parsed"
+      },
+      "MaskError": {
+        "description": "When any error occurs on mask"
+      }
+    }
+  }
+  

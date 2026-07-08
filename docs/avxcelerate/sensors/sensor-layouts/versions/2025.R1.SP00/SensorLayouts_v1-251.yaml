@@ -1,0 +1,519 @@
+openapi: 3.0.1
+info:
+  title: Sensor Layouts
+  description: >-
+    The Sensor Layouts REST API allows you to manage your Sensor Layouts
+    Library, create new sensor layouts or update existing ones, and download
+    sensor layouts as files.
+  version: v1
+paths:
+  /avx-sensorlabs/v1/sensorlayouts/{id}:
+    delete:
+      tags:
+        - SensorLayouts
+      summary: Delete the sensor layout from the library.
+      parameters:
+        - name: id
+          in: path
+          description: Unique identifier of the sensor layout in the library.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LayoutRead.Identifier'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+    get:
+      tags:
+        - SensorLayouts
+      summary: Read the sensor layout with the given id.
+      description: >-
+        The existing identifiers in the library can be seen in
+        <code>SensorLayoutLibrary -> GET: /sensorlayouts</code>.
+      parameters:
+        - name: id
+          in: path
+          description: Unique identifier of the sensor layout in the library.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LayoutEdit.Layout.LayoutData'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+    put:
+      tags:
+        - SensorLayouts
+      summary: >-
+        Update the sensor layout given by its id with the information in the
+        body
+      description: >-
+        To get the correct json structure, use the <code>GET:
+        /sensors/{id}</code><code>GET: /sensorlayouts/{id}</code> service.
+      parameters:
+        - name: id
+          in: path
+          description: Unique identifier of the sensor layout in the library.
+          required: true
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: "<br>Json containing all properties of the sensor layout\r\n<br>Example to add a Camera to the layout is as follows,\r\n<br>{\"metadata\":{\"name\":\"SensorLayout\",\"vehicleModel\":\"\",\"manufacturer\":\"\",\"version\":\"\",\"comment\":\"\"},\"root\":{\"nodeName\":\"SensorReferential\",\"sensorInfo\":null,\"transform\":{\"position\":{\"x\":0,\"y\":0,\"z\":0},\"rotation\":{\"x\":0,\"y\":0,\"z\":0}},\"children\":[{\"nodeName\":\"Camera\",\"sensorInfo\":{\"type\":{\"type\":\"Camera\"},\"id\":{\"id\":\"8798a6ac-fff9-4a1a-858e-846b696bdc9d\"},\"name\":\"Camera\"},\"transform\":{\"position\":{\"x\":0,\"y\":0,\"z\":0},\"rotation\":{\"x\":0,\"y\":0,\"z\":0}},\"children\":[]}]}}\r\n<br>Example to add a Camera and Fisheye Camera is as follows,\r\n<br>{\"metadata\":{\"name\":\"SensorLayout\",\"vehicleModel\":\"\",\"manufacturer\":\"\",\"version\":\"\",\"comment\":\"\"},\"root\":{\"nodeName\":\"SensorReferential\",\"sensorInfo\":null,\"transform\":{\"position\":{\"x\":0,\"y\":0,\"z\":0},\"rotation\":{\"x\":0,\"y\":0,\"z\":0}},\"children\":[{\"nodeName\":\"Camera\",\"sensorInfo\":{\"type\":{\"type\":\"Camera\"},\"id\":{\"id\":\"8798a6ac-fff9-4a1a-858e-846b696bdc9d\"},\"name\":\"Camera\"},\"transform\":{\"position\":{\"x\":0,\"y\":0,\"z\":0},\"rotation\":{\"x\":0,\"y\":0,\"z\":0}},\"children\":[]},{\"nodeName\":\"Fisheye Camera\",\"sensorInfo\":{\"type\":{\"type\":\"FishEyeCamera\"},\"id\":{\"id\":\"06cff0e5-4d21-4b65-86a8-52a28b6048a6\"},\"name\":\"Fisheye Camera\"},\"transform\":{\"position\":{\"x\":0,\"y\":0,\"z\":0},\"rotation\":{\"x\":0,\"y\":0,\"z\":0}},\"children\":[]}]}}"
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LayoutEdit.Layout.LayoutData'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/LayoutEdit.Layout.LayoutData'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/LayoutEdit.Layout.LayoutData'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LayoutEdit.Identifier'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+  /avx-sensorlabs/v1/sensorlayouts:
+    delete:
+      tags:
+        - SensorLayouts
+      summary: Delete all the sensor layouts from the library.
+      responses:
+        '200':
+          description: Success
+    get:
+      tags:
+        - SensorLayouts
+      summary: List all sensors layouts available in the library.
+      description: "<br>Valid sensor layouts will be displayed under validLayouts, with their id, name and metadata.\r\n<br>\r\n                    If there are any corrupted sensor layouts, they are deleted from the library and their names will appear in corruptedLayoutNames,\r\n                    or if the name cannot be retrieved, the flag anyDeleted will be set to true.\r\n                "
+      parameters:
+        - name: offset
+          in: query
+          description: Number of initial sensor layouts to skip.
+          schema:
+            type: integer
+            format: int32
+            default: 0
+        - name: limit
+          in: query
+          description: Number of sensor layouts to retrieve.
+          schema:
+            type: integer
+            format: int32
+            default: 5
+        - name: sortByName
+          in: query
+          description: Should sensor layouts be sorted by name.
+          schema:
+            type: boolean
+            default: true
+        - name: pattern
+          in: query
+          description: Filter sensor layouts by names containing pattern substring.
+          schema:
+            type: string
+        - name: name
+          in: query
+          description: Search sensor layouts matching name.
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LayoutRead.LayoutsInformation'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+    post:
+      tags:
+        - SensorLayouts
+      summary: Create a new empty sensor layout.
+      parameters:
+        - name: copyOf
+          in: query
+          description: >-
+            Create a copy of the sensor with the given id. In this case the POST
+            body should contain the desired name.
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        description: Name of the sensor layout to create.
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LayoutRead.LayoutName'
+          text/json:
+            schema:
+              $ref: '#/components/schemas/LayoutRead.LayoutName'
+          application/*+json:
+            schema:
+              $ref: '#/components/schemas/LayoutRead.LayoutName'
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LayoutRead.Identifier'
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+  /avx-sensorlabs/v1/sensorlayouts/{id}/packed/{sensorLayoutName}:
+    get:
+      tags:
+        - SensorLayouts
+      summary: Download a sensor layout to a file with the specified name.
+      parameters:
+        - name: id
+          in: path
+          description: Unique identifier of the  sensor layout in the library.
+          required: true
+          schema:
+            type: string
+            format: uuid
+        - name: sensorLayoutName
+          in: path
+          description: Desired name for the packed sensor layout file.
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Bad Request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+        '404':
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Response.ProblemDetails'
+  /avx-sensorlabs/v1/sensorlayouts/packed:
+    post:
+      tags:
+        - SensorLayouts
+      summary: Upload a packed sensor layout and add it to the library.
+      description: >-
+        Conflicts might appear if a sensor layout with the same name already
+        exists in the library or if sensors with the same name already exist in
+        the library.
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+                sensorLayoutName:
+                  type: string
+                overwrite:
+                  type: boolean
+                sensorUpdatesJson:
+                  type: string
+            encoding:
+              file:
+                style: form
+              sensorLayoutName:
+                style: form
+              overwrite:
+                style: form
+              sensorUpdatesJson:
+                style: form
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/LayoutRead.Identifier'
+components:
+  schemas:
+    LayoutEdit.Identifier:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+      additionalProperties: false
+      description: Identifier as Guid.
+    LayoutEdit.Layout.LayoutData:
+      type: object
+      properties:
+        metadata:
+          $ref: '#/components/schemas/LayoutEdit.Layout.Metadata'
+        root:
+          $ref: '#/components/schemas/LayoutEdit.Layout.TreeNode'
+        missingSensorNames:
+          type: array
+          items:
+            type: string
+          description: List of missing sensor names.
+          nullable: true
+      additionalProperties: false
+      description: Layout data.
+    LayoutEdit.Layout.Metadata:
+      type: object
+      properties:
+        name:
+          type: string
+          description: Name of the layout.
+          nullable: true
+        manufacturer:
+          type: string
+          description: Manufacturer.
+          nullable: true
+        version:
+          type: string
+          description: Version.
+          nullable: true
+        comment:
+          type: string
+          description: Comment.
+          nullable: true
+        vehicleModel:
+          type: string
+          description: Vehicle model.
+          nullable: true
+      additionalProperties: false
+      description: Metadata of the layout.
+    LayoutEdit.Layout.Position:
+      type: object
+      properties:
+        x:
+          type: number
+          description: Translation following X direction (m).
+          format: double
+        'y':
+          type: number
+          description: Translation following Y direction (m).
+          format: double
+        z:
+          type: number
+          description: Translation following Z direction (m).
+          format: double
+      additionalProperties: false
+      description: Position.
+    LayoutEdit.Layout.Rotation:
+      type: object
+      properties:
+        x:
+          type: number
+          description: Rotation X value (deg).
+          format: double
+        'y':
+          type: number
+          description: Rotation Y value (deg).
+          format: double
+        z:
+          type: number
+          description: Rotation Z value (deg).
+          format: double
+      additionalProperties: false
+      description: Rotation.
+    LayoutEdit.Layout.Transform:
+      type: object
+      properties:
+        position:
+          $ref: '#/components/schemas/LayoutEdit.Layout.Position'
+        rotation:
+          $ref: '#/components/schemas/LayoutEdit.Layout.Rotation'
+      additionalProperties: false
+      description: Transform.
+    LayoutEdit.Layout.TreeNode:
+      type: object
+      properties:
+        nodeName:
+          type: string
+          nullable: true
+        transform:
+          $ref: '#/components/schemas/LayoutEdit.Layout.Transform'
+        sensorInfo:
+          $ref: '#/components/schemas/LayoutEdit.Sensor.SensorInfo'
+        children:
+          type: array
+          items:
+            $ref: '#/components/schemas/LayoutEdit.Layout.TreeNode'
+          nullable: true
+      additionalProperties: false
+      description: Represents Tree node.
+    LayoutEdit.Sensor.SensorInfo:
+      type: object
+      properties:
+        id:
+          $ref: '#/components/schemas/LayoutEdit.Identifier'
+        type:
+          $ref: '#/components/schemas/LayoutEdit.Sensor.SensorType'
+        name:
+          type: string
+          description: Sensor name.
+          nullable: true
+      additionalProperties: false
+      description: Sensor information.
+    LayoutEdit.Sensor.SensorType:
+      type: object
+      properties:
+        type:
+          type: string
+          nullable: true
+      additionalProperties: false
+      description: Sensor type.
+    LayoutRead.Identifier:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+      additionalProperties: false
+      description: Identifier as Guid.
+    LayoutRead.LayoutData:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        name:
+          type: string
+          nullable: true
+        metadata:
+          $ref: '#/components/schemas/LayoutRead.Metadata'
+      additionalProperties: false
+      description: Layout data.
+    LayoutRead.LayoutName:
+      type: object
+      properties:
+        name:
+          type: string
+          nullable: true
+      additionalProperties: false
+      description: Layout name.
+    LayoutRead.LayoutsInformation:
+      type: object
+      properties:
+        totalLayoutsCount:
+          type: integer
+          description: Layout count.
+          format: int32
+        validLayouts:
+          type: array
+          items:
+            $ref: '#/components/schemas/LayoutRead.LayoutData'
+          description: Valid layouts count.
+          nullable: true
+        anyDeleted:
+          type: boolean
+          description: Indicate if any of the corrupted layout is deleted
+        corruptedLayoutNames:
+          type: array
+          items:
+            type: string
+          description: List of corrupted layouts.
+          nullable: true
+      additionalProperties: false
+      description: Layout information.
+    LayoutRead.Metadata:
+      type: object
+      properties:
+        manufacturer:
+          type: string
+          description: Manufacturer.
+          nullable: true
+        version:
+          type: string
+          description: Version.
+          nullable: true
+        comment:
+          type: string
+          description: Comment.
+          nullable: true
+        vehicleModel:
+          type: string
+          description: Vehicle model.
+          nullable: true
+        cameraCount:
+          type: integer
+          description: Number of Cameras present inside the layout.
+          format: int32
+        fisheyeCameraCount:
+          type: integer
+          description: Number of Fisheye Cameras present inside the layout.
+          format: int32
+        flashingLidarCount:
+          type: integer
+          description: Number of Flashing Lidars present inside the layout.
+          format: int32
+        rotatingLidarCount:
+          type: integer
+          description: Number of Rotating Lidars present inside the layout.
+          format: int32
+        radarCount:
+          type: integer
+          description: Number of Radars present inside the layout.
+          format: int32
+      additionalProperties: false
+      description: Represents metadata.
+    Response.ProblemDetails:
+      type: object
+      properties:
+        type:
+          type: string
+          nullable: true
+        title:
+          type: string
+          nullable: true
+        status:
+          type: integer
+          format: int32
+          nullable: true
+        detail:
+          type: string
+          nullable: true
+        instance:
+          type: string
+          nullable: true
+      additionalProperties: {}

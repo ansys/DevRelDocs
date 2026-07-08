@@ -1,0 +1,49 @@
+# Unsupported features and limitations
+
+## Unsupported features
+
+### Import
+
+- glTF import
+
+### Materials
+
+- Load of scene using unsupported file as rdr file
+- Polarization plate <!--1175078-->
+
+### Sources
+
+- Ambient source MODTRAN
+- Source group <!--1151840 1175113-->
+
+### Sensors
+
+- 3D energy density sensor
+- LiDAR sensor
+- Timeline parameters in sensor
+- Thermic unit of FLIR thermal camera sensor
+
+### Components
+
+- Timeline parameters in Speos Lightbox
+- Speos pattern from Speos Lightbox <!--1175652-->
+
+### Simulations
+
+- Simulation with Timeline <!--1161170-->
+- Light Expert
+- RayTracer selection for simulation
+- Multi-GPU compute
+- Fast Transmission Gathering (FTG) usage
+- Percentage of error during the simulation run
+
+## Limitations
+
+### Layer separation by source
+
+Let's consider that you load, in the scene, a *.speos file that contains:
+- supported sources by Speos RPC
+- unsupported sources by Speos RPC (see list above)
+- a sensor using the layer separation by source.
+The order of sources in the layer list of the XMP generated out of Speos RPC job, and the order of source in the layer list of the XMP generated out of the *.speos are different.
+Why does the order change? This is due to the unsupported sources by Speos RPC. The Speos RPC job reorders the sources, placing the unsupported sources first, then the supported sources in the layer list. As a consequence, the potential XML template generated out of the XMP (from the *.speos file) cannot be applied to the XMP (from the Speos RPC job).

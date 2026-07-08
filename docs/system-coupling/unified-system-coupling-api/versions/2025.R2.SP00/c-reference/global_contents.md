@@ -1,0 +1,913 @@
+# Contents
+
+* [SyscCellData](structSyscCellData.md#structSyscCellData) Structure
+  * [cellIds](structSyscCellData.md#structSyscCellData_1a18489ae2d9c8c4098cf5d2ac229ad98e) Variable
+  * [cellTypes](structSyscCellData.md#structSyscCellData_1a46f408f73e98f145d1bbf2972d3a68a5) Variable
+  * [cellNodeConnectivity](structSyscCellData.md#structSyscCellData_1a8b84210695305eb77feac6d31f726650) Variable
+* [SyscCellIdData](structSyscCellIdData.md#structSyscCellIdData) Structure
+  * [cellIds](structSyscCellIdData.md#structSyscCellIdData_1a29e35d9dd1a0fa97fa751f934487b6de) Variable
+* [SyscCouplingInterface](structSyscCouplingInterface.md#structSyscCouplingInterface) Structure
+  * [name](structSyscCouplingInterface.md#structSyscCouplingInterface_1a9e710b35f442c7e5e95c64b45df2ff24) Variable
+* [SyscDataTransfer](structSyscDataTransfer.md#structSyscDataTransfer) Structure
+  * [sourceVariable](structSyscDataTransfer.md#structSyscDataTransfer_1a75ab076255c5c6861138810f25ce9a46) Variable
+  * [targetVariable](structSyscDataTransfer.md#structSyscDataTransfer_1a71ca350ac0121f402db52a74e84edfa0) Variable
+  * [targetSide](structSyscDataTransfer.md#structSyscDataTransfer_1ab79ebf125798afce8652e2f40cb33e91) Variable
+* [SyscDimensionality](structSyscDimensionality.md#structSyscDimensionality) Structure
+  * [length](structSyscDimensionality.md#structSyscDimensionality_1ade2aab9da75df70b06a24decd849a28a) Variable
+  * [time](structSyscDimensionality.md#structSyscDimensionality_1a0800961b23f992e62860634b94f239c8) Variable
+  * [mass](structSyscDimensionality.md#structSyscDimensionality_1aa2b7a661b200b1e3215213c03395357b) Variable
+  * [temperature](structSyscDimensionality.md#structSyscDimensionality_1a4178e31fd49a0bc202c9252953978eeb) Variable
+  * [amountOfSubstance](structSyscDimensionality.md#structSyscDimensionality_1a7cb2bcc42a70ccbcbc067d2f8e3537f1) Variable
+  * [current](structSyscDimensionality.md#structSyscDimensionality_1a2c8448dbd321dd0ba7eea2948af0267a) Variable
+  * [luminousIntensity](structSyscDimensionality.md#structSyscDimensionality_1a7c44af07621ed3d5a1e6f21fdc7f0451) Variable
+  * [angle](structSyscDimensionality.md#structSyscDimensionality_1a97ee853763b54b62bbd1ead7cbd1a761) Variable
+* [SyscElementIdData](structSyscElementIdData.md#structSyscElementIdData) Structure
+  * [elementIds](structSyscElementIdData.md#structSyscElementIdData_1a876ea4ad83f4555fe2bf825517c8131b) Variable
+* [SyscElementNodeConnectivityData](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData) Structure
+  * [elementNodeIds](structSyscElementNodeConnectivityData.md#structSyscElementNodeConnectivityData_1a08dfd1139cb4d1b40de4480d91a87565) Variable
+* [SyscElementNodeCountData](structSyscElementNodeCountData.md#structSyscElementNodeCountData) Structure
+  * [elementNodeCounts](structSyscElementNodeCountData.md#structSyscElementNodeCountData_1a7b8d330429782be5862b24638866be6b) Variable
+* [SyscElementTypeData](structSyscElementTypeData.md#structSyscElementTypeData) Structure
+  * [elementTypes](structSyscElementTypeData.md#structSyscElementTypeData_1a19c71338f6ede3812e004456d525c5dd) Variable
+* [SyscError](structSyscError.md#structSyscError) Structure
+  * [retcode](structSyscError.md#structSyscError_1afbc03fa7fe0724b2810626b319364f27) Variable
+  * [message](structSyscError.md#structSyscError_1a166e507f0606a321e1e076f7889d5844) Variable
+* [SyscFaceCellConnectivityData](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData) Structure
+  * [cell0Ids](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData_1a33553e003b9aa6c8d85a4e1aa4f28367) Variable
+  * [cell1Ids](structSyscFaceCellConnectivityData.md#structSyscFaceCellConnectivityData_1af531282e2ae53cea1989f7ff6bb5eb82) Variable
+* [SyscFaceData](structSyscFaceData.md#structSyscFaceData) Structure
+  * [faceIds](structSyscFaceData.md#structSyscFaceData_1ab06db951659e8d349a540904d6831b38) Variable
+  * [faceTypes](structSyscFaceData.md#structSyscFaceData_1ab78be0450a2fade5154ad69875cff375) Variable
+  * [faceNodeCounts](structSyscFaceData.md#structSyscFaceData_1a1834bd4b6994f302fa8e91f101eadb9f) Variable
+  * [faceNodeConnectivity](structSyscFaceData.md#structSyscFaceData_1a0ecb329fe163fb5fc7591fcd7531569a) Variable
+  * [faceCellConnectivity](structSyscFaceData.md#structSyscFaceData_1a12560838da4a3f554793e027b6c43bc9) Variable
+* [SyscInputComplexScalarData](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData) Structure
+  * [primitiveType](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1a68e7a5dcd79c528810151c82f29affdb) Variable
+  * [data1](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1aee021b7ac05827ac6d4d8dffc97605f5) Variable
+  * [data2](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1a57b73d00a5b261093b572c2f02c8e6a0) Variable
+  * [size](structSyscInputComplexScalarData.md#structSyscInputComplexScalarData_1a3f5223d8696f734edf5ed4efe2ec21f8) Variable
+* [SyscInputComplexVectorData](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData) Structure
+  * [primitiveType](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a1f799ec78d9babcefb9a7195907ccd49) Variable
+  * [data1](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a3a584326b77b4bc3dbc15b8c42986828) Variable
+  * [data2](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a2b1a0d69642aef4b9e05352d712e43f2) Variable
+  * [data3](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a5350c0280e94c2bee78563f7df8ee268) Variable
+  * [data4](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a6cb8d7df178c8362fa57bfbdd5aabfad) Variable
+  * [data5](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1ab18d20fe4e644c34826b86f196e3f176) Variable
+  * [data6](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a67098938eceac2528a7f542cad590f60) Variable
+  * [size](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1a2c78eecf36502d7d088ec6f08c6f7289) Variable
+  * [dimension](structSyscInputComplexVectorData.md#structSyscInputComplexVectorData_1abaab56144b52c4e2807ed6eab30aef82) Variable
+* [SyscInputScalarData](structSyscInputScalarData.md#structSyscInputScalarData) Structure
+  * [primitiveType](structSyscInputScalarData.md#structSyscInputScalarData_1ab177e62c0635afebce589c1a411144fe) Variable
+  * [data](structSyscInputScalarData.md#structSyscInputScalarData_1a1a84599e793064d8c6275084ffe16cfe) Variable
+  * [size](structSyscInputScalarData.md#structSyscInputScalarData_1aab4ae5518bec7d42d01359b5459bf7e2) Variable
+* [SyscInputVectorData](structSyscInputVectorData.md#structSyscInputVectorData) Structure
+  * [primitiveType](structSyscInputVectorData.md#structSyscInputVectorData_1a9f94dd62dccc2b3899c69b2ce1c6d1ea) Variable
+  * [data0](structSyscInputVectorData.md#structSyscInputVectorData_1a5d82442ce980b42b83952c7cc5add7c1) Variable
+  * [data1](structSyscInputVectorData.md#structSyscInputVectorData_1a55afda92952939d2ff72b07e3792e509) Variable
+  * [data2](structSyscInputVectorData.md#structSyscInputVectorData_1a8e8fa224f82b93e781c57d6b9db9fe19) Variable
+  * [size](structSyscInputVectorData.md#structSyscInputVectorData_1aef2f006ed5084f3c78dd98f7b4bf5429) Variable
+  * [dimension](structSyscInputVectorData.md#structSyscInputVectorData_1a7bb398945453b66b673ddc252458f69d) Variable
+* [SyscIntegerAttribute](structSyscIntegerAttribute.md#structSyscIntegerAttribute) Structure
+  * [name](structSyscIntegerAttribute.md#structSyscIntegerAttribute_1ab13f95caf8c2c7b73b3c3f2435876f27) Variable
+  * [value](structSyscIntegerAttribute.md#structSyscIntegerAttribute_1a272f235cfc28cb256a9f5793cb3d51f4) Variable
+  * [modifiable](structSyscIntegerAttribute.md#structSyscIntegerAttribute_1a00f7c6e6e82db0990246f8405e207a3c) Variable
+* [SyscNodeData](structSyscNodeData.md#structSyscNodeData) Structure
+  * [nodeIds](structSyscNodeData.md#structSyscNodeData_1a227ac3d62c2c7224c7844028b014d6c8) Variable
+  * [nodeCoords](structSyscNodeData.md#structSyscNodeData_1a4da0b55605c39346dd83b830ab7eb54e) Variable
+* [SyscOutputComplexScalarData](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData) Structure
+  * [primitiveType](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1aacc2944e127d01c2063a7b6ccb129009) Variable
+  * [data1](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1abd9b452fbcdb3e8873a49230f214367f) Variable
+  * [data2](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1a9d10751192e85779a192ff20697eac77) Variable
+  * [size](structSyscOutputComplexScalarData.md#structSyscOutputComplexScalarData_1a07857702e4d8dffa2716d229f0a25c2b) Variable
+* [SyscOutputComplexVectorData](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData) Structure
+  * [primitiveType](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a0fd4c3b0092b3660b66a346bea054f9c) Variable
+  * [data1](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a28b975c4a9d48419b5162deb5cd4728c) Variable
+  * [data2](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a201cd6d4355bd5b468cb6b61d49efa04) Variable
+  * [data3](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a8c1978eb601b0e42e1b16f9f0d06b3b8) Variable
+  * [data4](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a1399d5d1c99f11a1106980a7c5a9a6f3) Variable
+  * [data5](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a5d9f58e44482894f6eabc9613772a83a) Variable
+  * [data6](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a024c9011d6a570535e7d13426b80aec8) Variable
+  * [size](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1a9a4f55e6a3ed7fb8d7197eb407fa9062) Variable
+  * [dimension](structSyscOutputComplexVectorData.md#structSyscOutputComplexVectorData_1aad377341c9a3a26865e1a867761a5f2b) Variable
+* [SyscOutputIntegerData](structSyscOutputIntegerData.md#structSyscOutputIntegerData) Structure
+  * [primitiveType](structSyscOutputIntegerData.md#structSyscOutputIntegerData_1a208237662f53658a829a9ee82cfe3b24) Variable
+  * [data](structSyscOutputIntegerData.md#structSyscOutputIntegerData_1a27cf91c94d9a2550d8697e562831e2d4) Variable
+  * [size](structSyscOutputIntegerData.md#structSyscOutputIntegerData_1a4bfb506a93651c8c2519f6dd094ae53f) Variable
+* [SyscOutputScalarData](structSyscOutputScalarData.md#structSyscOutputScalarData) Structure
+  * [primitiveType](structSyscOutputScalarData.md#structSyscOutputScalarData_1a8d379fbb21a0db72ca1e91725b1c4f17) Variable
+  * [data](structSyscOutputScalarData.md#structSyscOutputScalarData_1ac6e4962585166fdc6b76161f513525f8) Variable
+  * [size](structSyscOutputScalarData.md#structSyscOutputScalarData_1a22d6699f074b01a21ee6072272cfa0f3) Variable
+* [SyscOutputVectorData](structSyscOutputVectorData.md#structSyscOutputVectorData) Structure
+  * [primitiveType](structSyscOutputVectorData.md#structSyscOutputVectorData_1a1db75a7cee8680c78f2d5e9199ed2a98) Variable
+  * [data0](structSyscOutputVectorData.md#structSyscOutputVectorData_1ab5b43e2fbbdd158e838e34b6061a547a) Variable
+  * [data1](structSyscOutputVectorData.md#structSyscOutputVectorData_1a07d6e4c76622e108c8d55052bf24a06b) Variable
+  * [data2](structSyscOutputVectorData.md#structSyscOutputVectorData_1ad05ef31b30bf25b8337e221af20c4f44) Variable
+  * [size](structSyscOutputVectorData.md#structSyscOutputVectorData_1abb605a01aa1090eec8d79b34caf9463b) Variable
+  * [dimension](structSyscOutputVectorData.md#structSyscOutputVectorData_1a563bb9ca0465602dcdd88b572cb2a74a) Variable
+* [SyscParameter](structSyscParameter.md#structSyscParameter) Structure
+  * [name](structSyscParameter.md#structSyscParameter_1af4cc31b045f137e214d4f790987ca42d) Variable
+  * [displayName](structSyscParameter.md#structSyscParameter_1a28dadb5ca8618970f5019270c94fd582) Variable
+* [SyscParticipantInfo](structSyscParticipantInfo.md#structSyscParticipantInfo) Structure
+  * [scHost](structSyscParticipantInfo.md#structSyscParticipantInfo_1a04b95234f786ebe57fd1650eca58f411) Variable
+  * [scPort](structSyscParticipantInfo.md#structSyscParticipantInfo_1a39c22384e8889c14c55ae7e4921873cb) Variable
+  * [participantName](structSyscParticipantInfo.md#structSyscParticipantInfo_1afda543c3aeea91e0136520fca2487d6b) Variable
+  * [buildInformation](structSyscParticipantInfo.md#structSyscParticipantInfo_1aa341c59a4953b40db05064cd5495d9f7) Variable
+  * [transcriptFilename](structSyscParticipantInfo.md#structSyscParticipantInfo_1a622cd703147ec31e2c80b1933ea773a1) Variable
+* [SyscPointCloud](structSyscPointCloud.md#structSyscPointCloud) Structure
+  * [nodeIds](structSyscPointCloud.md#structSyscPointCloud_1ae200d24d8c00514493ced578df4833c6) Variable
+  * [nodeCoords](structSyscPointCloud.md#structSyscPointCloud_1ab4031cb1a5a369dff916411c7f9f88f7) Variable
+  * [connectivityStamp](structSyscPointCloud.md#structSyscPointCloud_1aa4379bbf1a298606cf6e1a6c3bf5c186) Variable
+  * [coordinatesStamp](structSyscPointCloud.md#structSyscPointCloud_1ae3533d603b8bec31f67aebfe52a1c0dd) Variable
+  * [partitioningStamp](structSyscPointCloud.md#structSyscPointCloud_1aca4b9a3dd0f435423692745c200abb16) Variable
+* [SyscRealAttribute](structSyscRealAttribute.md#structSyscRealAttribute) Structure
+  * [name](structSyscRealAttribute.md#structSyscRealAttribute_1a6be2003fdd58b29a31513f1025a44218) Variable
+  * [value](structSyscRealAttribute.md#structSyscRealAttribute_1ac6dd95726f82ff857471b1967c42b235) Variable
+  * [dimensionality](structSyscRealAttribute.md#structSyscRealAttribute_1a4a2a0d3d61d37523416b353c3dc2585c) Variable
+  * [modifiable](structSyscRealAttribute.md#structSyscRealAttribute_1a0b5530cca7ffd744f52c838388d320bc) Variable
+* [SyscRegion](structSyscRegion.md#structSyscRegion) Structure
+  * [name](structSyscRegion.md#structSyscRegion_1a9ad96fdd8a6a46c8d0b4ac7ffb23d7a8) Variable
+  * [topology](structSyscRegion.md#structSyscRegion_1a7fd5681f99d4737e705ef1c670ad6268) Variable
+  * [regionDiscretizationType](structSyscRegion.md#structSyscRegion_1aba2c044546a908f37b3419408410b3a5) Variable
+  * [displayName](structSyscRegion.md#structSyscRegion_1ac6572b0ff5814075613806b50506d7dd) Variable
+* [SyscResultsInfo](structSyscResultsInfo.md#structSyscResultsInfo) Structure
+  * [baseFileName](structSyscResultsInfo.md#structSyscResultsInfo_1aa79e88371b089b864d993170968c2a50) Variable
+* [SyscSetupFileInfo](structSyscSetupFileInfo.md#structSyscSetupFileInfo) Structure
+  * [setupFileName](structSyscSetupFileInfo.md#structSyscSetupFileInfo_1ab2c5f41a9396745b156bc62d5ea4e860) Variable
+  * [restartsSupported](structSyscSetupFileInfo.md#structSyscSetupFileInfo_1aa14b79eae6d4d1bc320ac13358a7f09f) Variable
+* [SyscSetupInfo](structSyscSetupInfo.md#structSyscSetupInfo) Structure
+  * [analysisType](structSyscSetupInfo.md#structSyscSetupInfo_1ac769cbb25b2b34dbb5bc44f281299780) Variable
+  * [restartsSupported](structSyscSetupInfo.md#structSyscSetupInfo_1a50a3305a3b93fedcc8f4435bd43b9aa1) Variable
+  * [dimension](structSyscSetupInfo.md#structSyscSetupInfo_1a8f4b32e8360553ac5bb5d179efb58b81) Variable
+  * [timeIntegration](structSyscSetupInfo.md#structSyscSetupInfo_1a8044b6d9483952f222aef29315ac2711) Variable
+  * [participantType](structSyscSetupInfo.md#structSyscSetupInfo_1a68b5379863a9f8dab98fdc4ba7e83716) Variable
+* [SyscSolutionControl](structSyscSolutionControl.md#structSyscSolutionControl) Structure
+  * [minimumIterations](structSyscSolutionControl.md#structSyscSolutionControl_1af68269f003f864fb6931168f6d131478) Variable
+  * [maximumIterations](structSyscSolutionControl.md#structSyscSolutionControl_1a197d10eabb539d2eff515cd3895d7b2e) Variable
+* [SyscSurfaceMesh](structSyscSurfaceMesh.md#structSyscSurfaceMesh) Structure
+  * [nodes](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1afec3edb82f09c5907cf562a5b7561073) Variable
+  * [faces](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a087162c1bc756237bc7fff5d6edc5a93) Variable
+  * [side0](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a6e87f7a6198b1ca86544ea73df6235b5) Variable
+  * [side1](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a7b43da70685af52a3ca8444b29b769e8) Variable
+  * [connectivityStamp](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a3316249d696bd73986f538f76d8caf4b) Variable
+  * [coordinatesStamp](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a11d7b54aad0e70cb5a5b7f197d0fbfc0) Variable
+  * [partitioningStamp](structSyscSurfaceMesh.md#structSyscSurfaceMesh_1a8f343bec777e3c98c927797e002c4182) Variable
+* [SyscTimeStep](structSyscTimeStep.md#structSyscTimeStep) Structure
+  * [timeStepNumber](structSyscTimeStep.md#structSyscTimeStep_1a95502a2d37654fa3cd767392b07c4088) Variable
+  * [startTime](structSyscTimeStep.md#structSyscTimeStep_1a73ab2a39df940f48522d8bd3854dbe9b) Variable
+  * [timeStepSize](structSyscTimeStep.md#structSyscTimeStep_1a10efd15748ecfc0e40ac8ad411467a3e) Variable
+* [SyscVariable](structSyscVariable.md#structSyscVariable) Structure
+  * [name](structSyscVariable.md#structSyscVariable_1a2eba6c9ae1b937d16229bb14abfd0b8c) Variable
+  * [quantityType](structSyscVariable.md#structSyscVariable_1ac986a066454132f9f70180349586ab8b) Variable
+  * [location](structSyscVariable.md#structSyscVariable_1a417605c130a691478393fbb05840a5ab) Variable
+  * [displayName](structSyscVariable.md#structSyscVariable_1a04451c3da4978114e5aba6bcf2713731) Variable
+  * [tensorType](structSyscVariable.md#structSyscVariable_1a0293955653368e2f48d36587d4d90ca8) Variable
+  * [isExtensive](structSyscVariable.md#structSyscVariable_1aed5ddca8dd956e1b4935aa69c323e011) Variable
+  * [dataType](structSyscVariable.md#structSyscVariable_1aedd58bab04a4c0036cd07cef9016a91c) Variable
+* [SyscVolumeMesh](structSyscVolumeMesh.md#structSyscVolumeMesh) Structure
+  * [nodes](structSyscVolumeMesh.md#structSyscVolumeMesh_1a3b96b3e7b16a3dc292d5645fde68bc6b) Variable
+  * [faces](structSyscVolumeMesh.md#structSyscVolumeMesh_1a20300f5632818f7755cb5e68915a5fc5) Variable
+  * [cells](structSyscVolumeMesh.md#structSyscVolumeMesh_1a13e403f46c840923ccfcf3d8003927fc) Variable
+  * [connectivityStamp](structSyscVolumeMesh.md#structSyscVolumeMesh_1ac79a8a4e024bf5df6495b20d8cd533fc) Variable
+  * [coordinatesStamp](structSyscVolumeMesh.md#structSyscVolumeMesh_1a4c9b66b024653d14861a7b0c3bbc5c3c) Variable
+  * [partitioningStamp](structSyscVolumeMesh.md#structSyscVolumeMesh_1afffad005aa559eb275891f7ce643b6a4) Variable
+* [syscAttribute.h](syscAttribute_8h.md#syscAttribute_8h) File
+  * [syscGetRealAttribute](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1ga7025ebcdef40667b4c2df0d2b087f600) Function
+  * [syscGetRealAttributeVDM](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1ga65737d6497a88298c80afab5d62f7687) Function
+  * [syscGetIntegerAttribute](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1gaf6d02a55f607a7af07039957b21ab511) Function
+  * [syscGetIntegerAttributeVM](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1gac3ae9103fa3cad3c60b1f794ecb27752) Function
+* [syscCommonTypes.h](syscCommonTypes_8h.md#syscCommonTypes_8h) File
+  * [SYSC\_STRING\_LENGTH](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab4cd55b5b37dd76c5755020302086b15) Macro
+  * [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) Enumeration type
+  * [SyscNode](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade42aba1a68acbbf5956edcd388cdcdaae4692f269a846a3f5bec23a9e61f0b8b) Enumerator
+  * [SyscElement](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade42aba1a68acbbf5956edcd388cdcdaa0a0e08aa104422e8676637671cf2a482) Enumerator
+  * [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) Enumeration type
+  * [SyscScalar](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga007e2fd66e7263a63c114a6d12b3808dacb8fa2f95d3959accf13d5f9da32bec2) Enumerator
+  * [SyscVector](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga007e2fd66e7263a63c114a6d12b3808da7b45d832dc633190003739983e661ea1) Enumerator
+  * [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) Enumeration type
+  * [SyscSurface](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggabf36499a0f333dc9b856c4bcbb25385aa8247153584a945a1be42cfea251acbdb) Enumerator
+  * [SyscVolume](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggabf36499a0f333dc9b856c4bcbb25385aa38f18def976473946d3405a115fbd6d0) Enumerator
+  * [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45) Enumeration type
+  * [SyscMeshRegion](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga83942e23c7ff51ec76e4632612a34d45a8693102131c222ff51685d060bc8d1d3) Enumerator
+  * [SyscPointCloudRegion](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga83942e23c7ff51ec76e4632612a34d45a72b4ce23e1c7d4a5981f5ffe6a1928b6) Enumerator
+  * [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5) Enumeration type
+  * [SyscInterfaceSide\_One](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggacf32f1d9c1566f28bee2b348b2dcd9f5a7c5c48f8ed70c17f777260b3d5963ea3) Enumerator
+  * [SyscInterfaceSide\_Two](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggacf32f1d9c1566f28bee2b348b2dcd9f5aca2e8fc2e6fa8407ae40a13bfbedb3ff) Enumerator
+  * [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) Enumeration type
+  * [SyscD2](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggac5a5f66ee72fd8015eab632a642cf26da0c9eff9b65e904d28255b8b08777b297) Enumerator
+  * [SyscD3](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggac5a5f66ee72fd8015eab632a642cf26da322819738b608cfda776ab25cf6a5200) Enumerator
+  * [SyscTimeIntegration](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaedf008f34febb068e44cb21292dc167f) Enumeration type
+  * [SyscImplicit](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaedf008f34febb068e44cb21292dc167fa593d91cbed6aa180b936b20b74a54b71) Enumerator
+  * [SyscExplicit](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaedf008f34febb068e44cb21292dc167faadc57672e0587e6a52b44f367095b500) Enumerator
+  * [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) Enumeration type
+  * [SyscUnspecified](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12af38a3461bab7f9a97b75952b43b40e59) Enumerator
+  * [SyscForce](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ae6aa8fd95dcfbbbbc5c31a6c25f64bd5) Enumerator
+  * [SyscIncrementalDisplacement](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12acc64cea65ff9ea214fefb2308a5b0b80) Enumerator
+  * [SyscTemperature](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ac04825292451f0435241336e6bf9d586) Enumerator
+  * [SyscHeatRate](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ad3ae742f14341f0cab7b7866aea51dac) Enumerator
+  * [SyscHeatTransferCoefficient](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ab27e48f0cf93d6e42aaabf065e51c0ae) Enumerator
+  * [SyscConvectionReferenceTemperature](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12a249378fcb9803c0d94fa56b9db0e0136) Enumerator
+  * [SyscModeShape](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ac67477bfe4fbe7f99b4ceb8e00ba679e) Enumerator
+  * [SyscElectricalConductivity](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12aa1b2cf043f26c7e4b42a86fd62c0ab58) Enumerator
+  * [SyscDataType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1e750bcf34a1c16aed218b03a95ee7ed) Enumeration type
+  * [SyscDataType\_Real](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga1e750bcf34a1c16aed218b03a95ee7eda6b75c7944f0ea0fb9185ffe4f405e45e) Enumerator
+  * [SyscDataType\_Complex](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga1e750bcf34a1c16aed218b03a95ee7edacff35d3f643883c35a2390b28e4f73a1) Enumerator
+  * [SyscConvergenceStatus](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga10ce3774353dfbc811147a9ad211b3cd) Enumeration type
+  * [SyscDiverging](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cda7466043ed7106086c08d595333e17f52) Enumerator
+  * [SyscNotYetConverged](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cdac97f645aa14099d533bbaea696aae752) Enumerator
+  * [SyscConverged](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cda90e0d458e61026cacc99e563aae9bf5e) Enumerator
+  * [SyscComplete](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cda69c6ee0eaef6f36ff519c6386cbb33fc) Enumerator
+  * [SyscNotEvaluated](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cdae11a117c36c99017d0ab07b5f3ba20e0) Enumerator
+  * [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) Enumeration type
+  * [SyscSteady](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga7d5b3786948265c902f7231abe6d79b5ad0d53c33e61857fdfe41e2501eebc8dd) Enumerator
+  * [SyscTransient](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga7d5b3786948265c902f7231abe6d79b5ac22067ff2e9230dd35621612f4ab4365) Enumerator
+  * [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c) Enumeration type
+  * [SyscFloat](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3ca6ecfee4aefddc0fd0e974f4949883f0f) Enumerator
+  * [SyscDouble](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3ca3c8390a23ce87c17dcaffccfd72fe344) Enumerator
+  * [SyscInt32](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3ca21752be8ce378ed3c47cddd1210657f2) Enumerator
+  * [SyscInt64](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3cad2b2abd943a30d3ec7509f53cb5b1239) Enumerator
+  * [SyscUnsignedInt16](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3cadd05bd1ee15d3dd17e7836e2a96c4f52) Enumerator
+  * [SyscUnsignedInt64](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3caba28d71a9abf40c318a16365a2eb091c) Enumerator
+  * [SyscParticipantType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab997855544b4c0ac77104b89faffae5d) Enumeration type
+  * [SyscDEFAULT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da1f314de13dbd0c48f0339c633203741e) Enumerator
+  * [SyscCFX](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da6e0f41b213afb0edc478f680075324cc) Enumerator
+  * [SyscFLUENT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dac8857c92c41c39b56581f08cc236f176) Enumerator
+  * [SyscMAPDL](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dabd0c957458ea1368773e54818d15435c) Enumerator
+  * [SyscAEDT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5daf1b337725648c27ffc0f7ade76d2a6cc) Enumerator
+  * [SyscFMU](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da0f20720c60a86e4a909a46820586334c) Enumerator
+  * [SyscFMU\_PROXY](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dade3420bdc27918d3c2c70518f7c9cc19) Enumerator
+  * [SyscEXTERNALDATA](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5daf45662ff29c501232068091a5e19a336) Enumerator
+  * [SyscFORTE](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da87d294213bc3285652129a5a97a24d21) Enumerator
+  * [SyscDEFAULT\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da5d362f01300701305b1a228eccac06f0) Enumerator
+  * [SyscMECH\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da0932e47107334a3c6e520b74dd2279b9) Enumerator
+  * [SyscCFD\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dad4851acec7cfe371b4a6b9a9d8e8a6ac) Enumerator
+  * [SyscSCDT\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da38d1e472e60e35f9a8044ccb93a5e5b3) Enumerator
+  * [SyscTHERMAL\_DESKTOP](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dacf58fe46486ad60bb7b0930cbe29826c) Enumerator
+  * [SyscLS\_DYNA](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da154ed7cf7815e00c77d7239ea0cfe184) Enumerator
+  * [SyscROCKY](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dad9bcd21c67d707283ef0a44e57b69f22) Enumerator
+  * [SyscSolutionControl](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaaabd83bdde051f257f11c5c0cdd73990) Typedef
+  * [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) Typedef
+  * [SyscSetupInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga80be2caaea1dd7e82a2da155c7283875) Typedef
+  * [SyscSetupFileInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga97036eb61b15d6efd5f9602bd19bb562) Typedef
+  * [SyscResultsInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacab0987c6f6f3da0ae499505c3f67d9e) Typedef
+  * [SyscParticipantInfo](syscCommonTypes_8h.md#syscCommonTypes_8h_1a29cac2a7bcb30e8f76c639e8aa8316bf) Typedef
+  * [syscGetDimensionality](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga22ab81fcb82b1eb1b58bac1dd3fbcf0d) Function
+  * [syscGetSyscError](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1d656df31d1a737654883968e029eb72) Function
+  * [syscGetSetupInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga65a1735a49d0e0ab7f32d03f27f325a3) Function
+  * [syscGetSetupInfoA](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae399cbc645966a48cc2928bb51018d9b) Function
+  * [syscGetSetupInfoAR](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga49c86c342e0c0d2881958a7a752eb99b) Function
+  * [syscGetSetupInfoARD](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae3a34c9ed638c50c65e1d87dabe66737) Function
+  * [syscGetSetupInfoARDT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaf3b03ee2974bbd198008e70e15dd1d1a) Function
+  * [syscGetSetupInfoARDTP](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga34fa5345c4ca947eca11bd6ee25f09ab) Function
+  * [syscGetSetupFileInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac80fa7c7f1ebe9a8d9ef3c4f90d274eb) Function
+  * [syscGetResultsInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf49efc0bc2492b1c8198ba9bd3dab06) Function
+  * [syscGetParticipantInfo](syscCommonTypes_8h.md#syscCommonTypes_8h_1a9071ddbfc5cf54e03c28c0747e924fa1) Function
+  * [syscGetParticipantInfoB](syscCommonTypes_8h.md#syscCommonTypes_8h_1a1bfc8232912e47178cbc2f6f28997e2b) Function
+  * [syscGetParticipantInfoBT](syscCommonTypes_8h.md#syscCommonTypes_8h_1ac22d0523ec1309af395e2f852afbf173) Function
+* [syscCouplingInterface.h](syscCouplingInterface_8h.md#syscCouplingInterface_8h) File
+  * [SyscCouplingInterface](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga828a191dd9fffcb117c398848b9ad10b) Typedef
+  * [syscGetCouplingInterface](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gae356c9cb4c0dd69f5e1ea9eef6a7c63b) Function
+  * [syscAddSideOneRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gaa8401af709fa7638f76f168aa05784a3) Function
+  * [syscAddSideTwoRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga3bbbec8ccb73b5da2997d2cdcd7abb6b) Function
+  * [syscAddDataTransfer](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gaec7e1373da295e5fb0c7ecfc52409888) Function
+  * [syscCouplingInterfaceGetNumDataTransfers](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gade11af63d2e79ab75e7db7919998e6b5) Function
+  * [syscCouplingInterfaceGetNumSideOneRegions](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga13eed5fd3144989e2f7dc2265f6a199e) Function
+  * [syscCouplingInterfaceGetNumSideTwoRegions](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gaf2e509aada51179b4ddab8d343f5e392) Function
+  * [syscCouplingInterfaceGetDataTransfer](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga40ed5be0892f1d14a520221f8b439a45) Function
+  * [syscCouplingInterfaceGetSideOneRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga7ab5c93d920b15c8d2e7ba6baddddb28) Function
+  * [syscCouplingInterfaceGetSideTwoRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga1747f6ce3729ff459e26175ded7059f0) Function
+* [syscDataTransfer.h](syscDataTransfer_8h.md#syscDataTransfer_8h) File
+  * [SyscDataTransfer](syscDataTransfer_8h.md#group__SyscParticipantLibraryCAPI_1ga8e23d76b7478495ca52b0e1f719607fc) Typedef
+  * [syscGetDataTransfer](syscDataTransfer_8h.md#group__SyscParticipantLibraryCAPI_1ga10c3562aba2bdcef468fbde205008112) Function
+  * [syscGetDataTransferST](syscDataTransfer_8h.md#group__SyscParticipantLibraryCAPI_1gadb07659695562864d8bc0df67bec847e) Function
+* [syscElementTypes.h](syscElementTypes_8h.md#syscElementTypes_8h) File
+  * [SyscElementTypes](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab18060c2493ddba0678016696642f005) Enumeration type
+  * [SyscTri3](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a77470006c9f90e0699d34cb4529977bd) Enumerator
+  * [SyscTri6](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005ad973b33a8c615a7088218bb68c95cef1) Enumerator
+  * [SyscQuad4](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005ac829eb996aacda6977a2633d3d4b6ae0) Enumerator
+  * [SyscQuad8](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005aefd1fe32f0987d59a023071a8d6729a9) Enumerator
+  * [SyscTet4](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005afb767ddc846b275cc9f06f4c552ef8ea) Enumerator
+  * [SyscTet10](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a706ca034c9b7e05f8f2a87301b72a6be) Enumerator
+  * [SyscHex8](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a15bbc3ed5ebf288d89e4e9af7ce9e0ae) Enumerator
+  * [SyscHex20](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a4eaa66437832a76bdcbc92a727dfedd1) Enumerator
+  * [SyscWedge6](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a05727b1e9b0ab410f1d5f9c31337b508) Enumerator
+  * [SyscWedge15](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a53a4340e11f6e1a6b75f084f2518649a) Enumerator
+  * [SyscPyramid5](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a6389c588d45313437139bcea52d94866) Enumerator
+  * [SyscPyramid13](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a366c507804e6022a52b6f38852861b1b) Enumerator
+  * [SyscPolygon](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005ac46af723ae879263d8c74a0cd91dfb9e) Enumerator
+  * [SyscPolyhedron](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005aa1667251e6eb0b96ab2b003591a8983f) Enumerator
+* [syscFunctionTypes.h](syscFunctionTypes_8h.md#syscFunctionTypes_8h) File
+  * [SyscInputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaaf3788ac706a730edbf6093c7e543681) Typedef
+  * [SyscInputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad41922f1a4f5abb891d5a913ba5fcccf) Typedef
+  * [SyscInputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga844dc6322bd6e4eabc2d3d2d9e69bdb1) Typedef
+  * [SyscInputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga8d5f53de4e65a4bacef0f25ba8b46483) Typedef
+  * [SyscInputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae7c6372393f3ec720b8d6d1535fcf9b3) Typedef
+  * [SyscInputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae2e92f1b7ae911c36bf3606c60a01511) Typedef
+  * [SyscOutputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabd35283796cae3d3dbc851ac66b8564f) Typedef
+  * [SyscOutputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab378ed75ffd9b081ad7eccf8107a5542) Typedef
+  * [SyscOutputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7767f728d880014dfbd853bbb8e0eb07) Typedef
+  * [SyscOutputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae99c8cb78199403b9e74217557be206a) Typedef
+  * [SyscOutputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab30cbe5478bf769c81f5c0a07e885afd) Typedef
+  * [SyscOutputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1d6d5d9fa806ac5820d9a6ed85811804) Typedef
+  * [SyscInputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab388f936f3a73b9b480a792c401a95a1) Typedef
+  * [SyscInputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7a0c5889de7b17b59d44595d7636747e) Typedef
+  * [SyscInputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gace54794852b48d8725b930f1aed89c4d) Typedef
+  * [SyscInputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga68dcce877e8cc69f13bee845c76f1b4d) Typedef
+  * [SyscOutputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17d96c2c29a44374309efafdfb8fef62) Typedef
+  * [SyscOutputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71ac4910edd87d8d62e871001258c698) Typedef
+  * [SyscOutputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga65a0f3a119f2cec715ac89798f16a97c) Typedef
+  * [SyscOutputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga18e31a00d833843895c731e69ca006b0) Typedef
+  * [SyscSurfMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71e4eb102d00dd0a211f6dc2f4d24222) Typedef
+  * [SyscSurfaceMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafbfb299099d65e3f232bb67a04d1a8e9) Typedef
+  * [SyscSurfaceMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga9ffe052c4c28ff40b4a14b32cd9f227c) Typedef
+  * [SyscVolumeMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad0ff77c2af045d3294b149219123a084) Typedef
+  * [SyscVolumeMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gadcb6262e27485836632696e52cf80fb9) Typedef
+  * [SyscVolumeMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaf381b799bec1baf9f3ab727b61458b59) Typedef
+  * [SyscPointCloudAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae999907f608779e525e34f60d2803038) Typedef
+  * [SyscPointCloudAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafa62fd6d86905625ae071dea4749a8df) Typedef
+  * [SyscPointCloudMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac4a0788f14f0d473372f07638e9dceaa) Typedef
+  * [SyscZoneCountAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaabc0678095ad5a5efb8be4d666ce2677) Typedef
+  * [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga6d3934571a8dcc03e2ecbe724a808c1b) Typedef
+* [syscInputComplexScalarData.h](syscInputComplexScalarData_8h.md#syscInputComplexScalarData_8h) File
+  * [syscGetInputComplexScalarData](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga1843bbb3648ac07766c7e6ea9f309a54) Function
+  * [syscGetInputComplexScalarDataSplitDouble](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1gaaed0337275d991d2cd2a1ec4dbf2a595) Function
+  * [syscGetInputComplexScalarDataSplitFloat](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga11c65e99f509cd226f13b0932aba8eb7) Function
+  * [syscGetInputComplexScalarDataCompactDouble](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga5cbb0ff3aa857c03d3626038e3a20ffa) Function
+  * [syscGetInputComplexScalarDataCompactFloat](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0ff093e80497efd6dccb6ea29c9face3) Function
+* [syscInputComplexVectorData.h](syscInputComplexVectorData_8h.md#syscInputComplexVectorData_8h) File
+  * [syscGetInputComplexVectorData](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaa7291e96ae240db79de4b35ad82c4cc0) Function
+  * [syscGetInputCompactComplexCompactVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga311e2b750be4212f60557b49870f1eac) Function
+  * [syscGetInputCompactComplexCompactVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga5396c1513b3448bfd783c2db743606d2) Function
+  * [syscGetInputSplitComplexCompactVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga8cce8fbb7655b448cd3c6c08772e1766) Function
+  * [syscGetInputSplitComplexCompactVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga0c9104179a6e98a7a043e4412f1dafd5) Function
+  * [syscGetInputCompactComplexSplitVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga7eefc4444dbdf8924e4074046de5eba2) Function
+  * [syscGetInputCompactComplexSplitVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga513ecaae813a2904f6926c5839cc11a1) Function
+  * [syscGetInputSplitComplexSplitVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1fd576a79df5e1b27247f4b71e2afbf0) Function
+  * [syscGetInputSplitComplexSplitVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga6b650f50fa53c996a07147474343f55f) Function
+  * [syscGetInputCompactComplexCompactVectorDataDoubleDim](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga93d5fd27a2899ea57f88958aa29506cd) Function
+  * [syscGetInputCompactComplexCompactVectorDataFloatDim](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga6fa6c5f2890928560f68ebb6d45cabc9) Function
+* [syscInputScalarData.h](syscInputScalarData_8h.md#syscInputScalarData_8h) File
+  * [syscGetInputScalarData](syscInputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga4f26c699d6b93f7d62ad88e69822e1e2) Function
+  * [syscGetInputScalarDataDouble](syscInputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga3b76afcedb8ced51695a0a56dabfb3af) Function
+  * [syscGetInputScalarDataFloat](syscInputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga09e03b4996d73e37c1748eb00a8c76c8) Function
+* [syscInputVectorData.h](syscInputVectorData_8h.md#syscInputVectorData_8h) File
+  * [syscGetInputVectorData](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga8609363d94eccb5ac5113332b5bd0d77) Function
+  * [syscGetInputVectorDataCompactDouble](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga21f7b8327230f78d41e61bdac3f073c0) Function
+  * [syscGetInputVectorDataCompactFloat](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1dab4c326c88b20cb402ca06c84d39c2) Function
+  * [syscGetInputVectorDataSplitDouble](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga5432989ff9b68845634e551c6246e42e) Function
+  * [syscGetInputVectorDataSplitFloat](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga774cdf0f3bb11efe50a587e6a11e7539) Function
+  * [syscGetInputVectorDataCompactDoubleDim](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gadc1d6ed1a05cf21b0b38af4ea8247eb3) Function
+  * [syscGetInputVectorDataCompactFloatDim](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga0e5591d56881dec17e9ebaa087a7a198) Function
+  * [syscGetInput2DVectorDataSplitDouble](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gab707ea57d70a474cfdab07c35dc7dcf7) Function
+  * [syscGetInput2DVectorDataSplitFloat](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gad39531d8943485fe6a586ce4dbdc5107) Function
+* [syscLegacyInterfaces.h](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h) File
+  * [SyscInputScalarVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a4c9447d8bf1f2ff342d3106ca6354fc8) Typedef
+  * [SyscInputVectorVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1af9a8c22052da26bc0a1f59cae3b10c49) Typedef
+  * [SyscOutputScalarVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a5a048dafdcd30450abd59ba8efce06a4) Typedef
+  * [SyscOutputVectorVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a28c4453b0889a06dc227190145fa1324) Typedef
+  * [syscCompleteCouplingSetup](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a783cf517609f48fb1a26c57bf9f7ee8b) Function
+  * [syscCompleteCouplingSetupTransient](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a363a9d7573b36139a2fdda8814d1211d) Function
+  * [syscRegisterInputScalarVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a92307cea739c9c0c140d0855b2824b18) Function
+  * [syscRegisterInputVectorVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a27db89b4e6b29d28a5a6ccf28bdf747a) Function
+  * [syscRegisterOutputScalarVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a8253ec6d984411829f920f966776bab9) Function
+  * [syscRegisterOutputVectorVariableAccess](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a8768de1fab6089b7eaf134818027ded6) Function
+  * [syscGetVolumeMesh](syscLegacyInterfaces_8h.md#syscLegacyInterfaces_8h_1a21768f0d4d4a65c2aa37727bd4789ccf) Function
+* [syscMeshDefinition.h](syscMeshDefinition_8h.md#syscMeshDefinition_8h) File
+  * [syscGetNodeData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaf412d269c5805e7e6b8600f2690cb874) Function
+  * [syscGetNodeDataIC](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga8b43e51f7a5fa3f6a2d280c177ca3f8e) Function
+  * [syscGetNodeDataC](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaf5a3d9825d0c59c4517ccaccb332e6b5) Function
+  * [syscGetElementTypeDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gac9a38bc69d5b0a77d09be64f73693f46) Function
+  * [syscGetElementTypeData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga0edaf6355561dfffffeeea47d5ff796d) Function
+  * [syscGetElementNodeCountDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga621f044b4d075369865572cc0d68aa97) Function
+  * [syscGetElementNodeCountData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga69b8dd901387b03935a8f2aa4c576903) Function
+  * [syscGetElementNodeConnectivityDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga827af0f4c18717284c76b8804056a24d) Function
+  * [syscGetElementNodeConnectivityData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gae4888763deed0388634cd4174e06a027) Function
+  * [syscGetFaceCellConnectivityDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga5efb9f82d5def3b2399291a763d72d65) Function
+  * [syscGetFaceCellConnectivityData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga604b682ca22d2b4898d6aedae4d9fb1c) Function
+  * [syscGetCellIdDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga9c98c0bc4f190c90ec8bb034ab6e6781) Function
+  * [syscGetCellIdData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaf52ba7465086cb0c3faf0a6b9473853e) Function
+  * [syscGetElementIdDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga7c6f7645530e97adaa7fca97bebbf050) Function
+  * [syscGetElementIdData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga1d1688e7751b27c15a57a78a244b0261) Function
+  * [syscGetFaceDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga5fe1aa7a9f98270030fc7138c4860217) Function
+  * [syscGetFaceDataITCNF](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gadc25b2855aac9a4c02706bb94cb1d47e) Function
+  * [syscGetFaceDataICNF](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gab1f554f37a4e5dc06cdfc15d7ca4b6c7) Function
+  * [syscGetFaceDataITN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga7fecaea46eac9057909b0d0901cfbea8) Function
+  * [syscGetFaceDataCN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gae75c9db974a962c76ce593cc24ddd85c) Function
+  * [syscGetCellDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaea5a7a8c0e8b5424fbaa50edb7bc32ce) Function
+  * [syscGetCellDataITN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gabc9c52c2b18a3bbb00d87891b4039315) Function
+  * [syscGetCellDataI](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gadb4f24988bf2684dd5bb9d6032a37fca) Function
+  * [syscGetCellDataTN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga900dee185f65895511a89b29af40c6f8) Function
+* [syscOutputComplexScalarData.h](syscOutputComplexScalarData_8h.md#syscOutputComplexScalarData_8h) File
+  * [syscGetOutputComplexScalarData](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga1ed999efcf217211831e6e440c9b6789) Function
+  * [syscGetOutputComplexScalarDataSplitDouble](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga55ed1d17c6d2f849b9588531d7c516d9) Function
+  * [syscGetOutputComplexScalarDataSplitFloat](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0e86f0bfb33258007eb2b2ecd6b44dec) Function
+  * [syscGetOutputComplexScalarDataCompactDouble](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga08d88f4495f347260e4678ab6bedbf75) Function
+  * [syscGetOutputComplexScalarDataCompactFloat](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga3d806d095d2d333f2a78abb38f7cddf6) Function
+* [syscOutputComplexVectorData.h](syscOutputComplexVectorData_8h.md#syscOutputComplexVectorData_8h) File
+  * [syscGetOutputComplexVectorData](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gafd1174430666266b1337c8e1d3569aa6) Function
+  * [syscGetOutputCompactComplexCompactVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gab9832696d96ffd32917b2211497c31e1) Function
+  * [syscGetOutputCompactComplexCompactVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1bddd7590dc1c4e4b488981694a723fc) Function
+  * [syscGetOutputSplitComplexCompactVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga619a769c0b474a093ca8df07fa23c745) Function
+  * [syscGetOutputSplitComplexCompactVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga9c6fb47e5c54e7f1ee9bfdd2a6b78f96) Function
+  * [syscGetOutputCompactComplexSplitVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga36581954b1bed9e21ddd6d6951478a45) Function
+  * [syscGetOutputCompactComplexSplitVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga6fab1156fcb4f29d454bd3574b7472a7) Function
+  * [syscGetOutputSplitComplexSplitVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaceabb4ea93346ecbbdda387e7f067465) Function
+  * [syscGetOutputSplitComplexSplitVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga3d957a5fa32db290017e2f23d15311f2) Function
+  * [syscGetOutputCompactComplexCompactVectorDataDoubleDim](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gac98c66232a8c5c204c4bad9f0dd5585c) Function
+  * [syscGetOutputCompactComplexCompactVectorDataFloatDim](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gab1ea60c9d226cf14e580d6d3c945f3ab) Function
+* [syscOutputIntegerData.h](syscOutputIntegerData_8h.md#syscOutputIntegerData_8h) File
+  * [syscGetOutputIntegerData](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1gac46cbb29463ecf81dfbba42a81e5b5c9) Function
+  * [syscGetOutputIntegerDataInt32](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1gaea5bb5bd0b4ddd4217745dad38b405b2) Function
+  * [syscGetOutputIntegerDataInt64](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1ga43be8cb6b2e2b156d7c40fa3cbf28f03) Function
+  * [syscGetOutputIntegerDataUInt16](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1ga46a87bfd729531e482d320f695537c0b) Function
+  * [syscGetOutputIntegerDataUInt64](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1gaed7a48d94e2545e78562b8ff911dfd2a) Function
+* [syscOutputScalarData.h](syscOutputScalarData_8h.md#syscOutputScalarData_8h) File
+  * [syscGetOutputScalarData](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0097e203d597949f887e2f804c01fd21) Function
+  * [syscGetOutputScalarDataDouble](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga8a2803af36638c2ce3387bf89b83cda0) Function
+  * [syscGetOutputScalarDataFloat](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0b0ae9e5ede552958b8bce1efd9b4978) Function
+  * [syscGetOutputScalarDataInt32](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga2334c8e25481b098d4263a2f60a7dac2) Function
+  * [syscGetOutputScalarDataInt64](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga7a305d185afe565e1d3e8de66d7beca3) Function
+  * [syscGetOutputScalarDataUInt16](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1gabfcf7be83419cc31611e2ad100fdecb6) Function
+  * [syscGetOutputScalarDataUInt64](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga6645e1e9d1b163cea069ce42077f419f) Function
+* [syscOutputVectorData.h](syscOutputVectorData_8h.md#syscOutputVectorData_8h) File
+  * [syscGetOutputVectorData](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga950a6f2a746b4667aa10216ad3adfba6) Function
+  * [syscGetOutputVectorDataCompactDouble](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gacb630e9f5b846eb243f4cb6e67907885) Function
+  * [syscGetOutputVectorDataCompactFloat](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1bec0ed33e0603a25d69f98efd68177a) Function
+  * [syscGetOutputVectorDataSplitDouble](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaaa51c47ef1d83c217ac1d10080de120c) Function
+  * [syscGetOutputVectorDataSplitFloat](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gac91454fccf5ff91fdb82fa976bf5bc3c) Function
+  * [syscGetOutputVectorDataCompactDoubleDim](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga3ff75e8ebe2bf6e850544f378cb240c6) Function
+  * [syscGetOutputVectorDataCompactFloatDim](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaa09a2e4358b2a5459db179c5da641be8) Function
+  * [syscGetOutput2DVectorDataSplitDouble](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gac737552145182f1de70e347531477a88) Function
+  * [syscGetOutput2DVectorDataSplitFloat](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga22d069eb2d95a8060a0dfdaf9a5d43aa) Function
+* [syscParameter.h](syscParameter_8h.md#syscParameter_8h) File
+  * [SyscParameter](syscParameter_8h.md#group__SyscParticipantLibraryCAPI_1ga9d97e53f3f34b91249f3002d73dc939e) Typedef
+  * [syscGetParameter](syscParameter_8h.md#group__SyscParticipantLibraryCAPI_1gaf44d7cf2e3d05e5cf0990b6fe946c50d) Function
+  * [syscGetParameterD](syscParameter_8h.md#group__SyscParticipantLibraryCAPI_1gafa0e858b9dc47ded43bd3fbf97c25206) Function
+* [syscPartLib.h](syscPartLib_8h.md#syscPartLib_8h) File
+* [syscPointCloud.h](syscPointCloud_8h.md#syscPointCloud_8h) File
+  * [syscGetPointCloudEmpty](syscPointCloud_8h.md#group__SyscParticipantLibraryCAPI_1ga256e2f74a04a52d19232bd163921131c) Function
+  * [syscGetPointCloud](syscPointCloud_8h.md#group__SyscParticipantLibraryCAPI_1ga0a8b0fe8c0c57374a3ef69d1f678fdab) Function
+* [syscRegion.h](syscRegion_8h.md#syscRegion_8h) File
+  * [SyscRegion](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gac5687e76cd2c5d1249d8b3ac43ff29b4) Typedef
+  * [syscGetRegion](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gaf8dee311cddc012ce6b54998fde8e29f) Function
+  * [syscGetRegionT](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga26c8d2435b5cd3c525d5221298ad3aaa) Function
+  * [syscGetRegionDT](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga88d428a1852eeec9b7b7156e33b57822) Function
+  * [syscGetRegionTM](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga9e0af352921275419da93341f7186f46) Function
+  * [syscGetRegionDTM](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gaaae89f288494cc67e8f05cab0f5d1b8b) Function
+  * [syscAddInputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga9ae6fafcce6987fa18ba762a1ee7a7be) Function
+  * [syscAddOutputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga9615f371d829935af745eb63a1ea99bc) Function
+  * [syscGetNumInputVariables](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gabec39110fe9da4d54a32653e6bf43196) Function
+  * [syscGetInputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gaef15224138a4f29e892a63e5e8db2feb) Function
+  * [syscGetNumOutputVariables](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga99fda03ac99e590196d180ea23214217) Function
+  * [syscGetOutputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga55a99079e5dc9d025f3816d5e7bdd163) Function
+* [syscSurfaceMesh.h](syscSurfaceMesh_8h.md#syscSurfaceMesh_8h) File
+  * [syscGetSurfaceMesh](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga9f7aaa68f00cc2d98f98c458b5388f3a) Function
+  * [syscGetSurfaceMeshNF](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1gafad33a17c7266f386e1bf42c66a9340f) Function
+  * [syscGetSurfaceMeshNTCI](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1gaf61b2f4b29e77812cee161e63ff28e34) Function
+  * [syscGetSurfaceMeshNCI](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga239ac08da048715f5832302851960053) Function
+  * [syscGetSurfaceMeshNCIF](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga734facb70a9948732d08eaccf4bb5102) Function
+  * [syscGetSurfaceMeshNTI](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga481a20e443f5b245640441f47e455c67) Function
+  * [syscGetSurfaceMeshA](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga0241a6779e5c1e1dc0a339893805a9dd) Function
+  * [syscGetSurfaceMeshB](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga0745adffa475d10edb703906ed5d2772) Function
+* [syscSystemCoupling.h](syscSystemCoupling_8h.md#syscSystemCoupling_8h) File
+  * [syscStartStandaloneParallel](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga862e7375111dcee847bc05463c72b329) Function
+  * [syscConnect](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1404ad75fb1f5b1515dae967b71b1725) Function
+  * [syscConnectParallel](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga68a9b5b64715ad6ffde1c7b145bb4d0f) Function
+  * [syscConnectUseStruct](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga8d84278ef4d48a739948f0a952cb2a00) Function
+  * [syscConnectParallelUseStruct](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gac695e9f06d272958b8fc81bff07708fb) Function
+  * [syscAddRegion](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3c895512d255076ce0b7dcc0b527991b) Function
+  * [syscAddInputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga360d447bbaffa2035ddd9675457027cc) Function
+  * [syscAddOutputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf25cfa8761182ab33ee1a58171ba8aff) Function
+  * [syscGetNumInputParameters](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga0c8432c9735a99af8f502a0d399fcb53) Function
+  * [syscGetNumOutputParameters](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa589afb854fc7ccbc1aadd35148748c4) Function
+  * [syscGetAddedInputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga0a1c350da5591ae0ece58abaa8dfd9d2) Function
+  * [syscGetAddedOutputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa7fff9647ad264d5f2d6231472667e0d) Function
+  * [syscGetNumRealAttributes](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gac60dbcde01c9373bfd367aaaa956cba5) Function
+  * [syscGetNumIntegerAttributes](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf49b872e961009e614ed67759e1a60d4) Function
+  * [syscGetAddedRealAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaefc1d756871febf4805c2df08334e7b8) Function
+  * [syscGetAddedIntegerAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga700bc8178a51d4eeaa596eb6d4737fcb) Function
+  * [syscAddRealAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad0272110e6eaf4c7f16bf96d3556106e) Function
+  * [syscAddIntegerAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga7ef7712e40081015520c18ae54509930) Function
+  * [syscGetParameterValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga534e802afae31ae7134e23a00d2872f9) Function
+  * [syscSetParameterValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga67c13bf8cd7fedeb86ac32b6d919eeb0) Function
+  * [syscGetRealAttributeValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf5625adaeb366d18725d1e9560d5910d) Function
+  * [syscGetIntegerAttributeValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga126dcce7d793eb854bdccd42e6a62e10) Function
+  * [syscAddCouplingInterface](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5330416d093678fc96231257a88ea337) Function
+  * [syscAddCouplingInterfaceA](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gadec9e44f001d4ec2b8139e096ab93ac7) Function
+  * [syscCompleteSetup](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga831884747873b947fcdc57ef31adce27) Function
+  * [syscRegisterInputScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga06c366cb935ade55b7b90de9691d3f38) Function
+  * [syscRegisterInputScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga04bbb44826997f602707b9e01d07d78e) Function
+  * [syscRegisterInputScalarDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga6b2aee555f07109357958edc9898b8b5) Function
+  * [syscRegisterInputVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga36e9fe53c70f9c15cbcfc3957f80852b) Function
+  * [syscRegisterInputVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga46b386f0c3ed52071dd851b55763b1c8) Function
+  * [syscRegisterInputVectorDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad7774418be78b8b39c9b45b7fcade1d3) Function
+  * [syscRegisterOutputScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga6e187589ca426402ee045ccecfec21d3) Function
+  * [syscRegisterOutputScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga2c90e2ea571de3b7ce5e1ca65a996d8a) Function
+  * [syscRegisterOutputScalarDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga7880daf983c8bac7db920281fdc937c1) Function
+  * [syscRegisterOutputVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa3956909f65a425bec64c86ec5d5515b) Function
+  * [syscRegisterOutputVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga9793fb31fe905768b175842ceab722e5) Function
+  * [syscRegisterOutputVectorDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad5c33007c0067ab6edf8a72ab422ff7d) Function
+  * [syscRegisterInputComplexScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1f4ab3d781755660f64b5a2cb691abe9) Function
+  * [syscRegisterInputComplexScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga55a307bf13f2d002f05660d781fef50e) Function
+  * [syscRegisterInputComplexVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf281613584c91fb460de5e4557f16767) Function
+  * [syscRegisterInputComplexVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gadfee511d3a3021907ee187716fff0944) Function
+  * [syscRegisterOutputComplexScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1c0e074f2239faf10594e3139d32efe1) Function
+  * [syscRegisterOutputComplexScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5a7faf0c3fe80ffc7925da217ecce202) Function
+  * [syscRegisterOutputComplexVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1cb92c5ccc643abce68fba25f61e3d41) Function
+  * [syscRegisterOutputComplexVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga859961191e2943afd73b8e31cbd010c9) Function
+  * [syscRegisterSurfMeshAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga044974d4f159fd35669b77e5111fe7e0) Function
+  * [syscRegisterSurfaceMeshAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gadddd0903fcab2450b14f54157e283302) Function
+  * [syscRegisterSurfaceMeshMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3261b0b3eb6278c380a5b59894a7b533) Function
+  * [syscRegisterVolumeMeshAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga27ba2e330c4d2c20b692a7ab66852721) Function
+  * [syscRegisterVolumeMeshAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3b90426f24a434668b5270930192fec6) Function
+  * [syscRegisterVolumeMeshMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gab71a3bc5775e830b2dac81dd6828cb13) Function
+  * [syscRegisterPointCloudAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gade30d8ccbbad0236ace57edfe55181d5) Function
+  * [syscRegisterPointCloudAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaedae298744b65c453c7dac3e8dc1d68a) Function
+  * [syscRegisterPointCloudMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga77d6e90a118be65eeb86ce08a3a3dea5) Function
+  * [syscRegisterZoneCountAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad49e03082ae93fdd7f96a3b7601ca9a8) Function
+  * [syscRegisterRestartPointCreation](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga30880d98428a08962ab027267c66c2ae) Function
+  * [syscInitializeAnalysis](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa26049072c61f17c4e1296490c00abc5) Function
+  * [syscDoIteration](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaea2bf4afeff9dd606125e00bb6c475a0) Function
+  * [syscDoTimeStep](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf701624f0add6b5d7a5fd2d9dcf8e298) Function
+  * [syscGetCurrentTimeStep](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gace1009120d02713ffe0b625d1cadd33d) Function
+  * [syscUpdateInputs](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga8445069f0234978743203e1d5c0cb62c) Function
+  * [syscUpdateOutputs](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3b5e8e0315bbbe48526324439c422733) Function
+  * [syscDisconnect](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga09a7259037537f2d3d0403788d80e2e1) Function
+  * [syscFatalError](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga009687c58ccf588d2c94d879a2769541) Function
+  * [syscNonFatalError](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gafc80abbd0874c5da3d80ec2d8258eb02) Function
+  * [syscCheckSurfaceMeshValidity](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga456487cb20f8a9b6c392eec4d0eaceb7) Function
+  * [syscWriteSetupFile](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad55adabb4ed5bdb44833c06671541921) Function
+  * [syscWriteResults](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gafb6abc910fc014d46cb46dc86cf48c60) Function
+  * [syscGetNumRegions](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5783653d3a5994b0bccb7471843e72eb) Function
+  * [syscGetAddedRegion](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga73a2e2125fd1a583b152012a8d7f9ce9) Function
+  * [syscGetSolutionControl](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga47273dac1bc54d406c085bee823c5131) Function
+  * [syscGetNumCouplingInterfaces](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga8987dbe52eb06c7d089663d4c29c17ed) Function
+  * [syscGetAddedCouplingInterface](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga13a0798c28a54535f42c8cf240ed7d40) Function
+* [syscVariable.h](syscVariable_8h.md#syscVariable_8h) File
+  * [SyscVariable](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga7a8d294476240d2f3844a608e71efe29) Typedef
+  * [syscGetVariable](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga11cda8cc3f7f76d71b87baabbfe53304) Function
+  * [syscGetVariableDTELQD](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga41420b43584d7b7ab11d94c2c4e4ccdb) Function
+  * [syscGetVariableTE](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga3aceb66e0d37a5de11b76fd4c1d7293d) Function
+  * [syscGetVariableTEQ](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga8c3a0f01eb353ffcb981281a76dde4b3) Function
+  * [syscGetVariableQ](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1gabcbdf21641e68a17e941a6c8da2afdc9) Function
+  * [syscVariableAddRealAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga36e1b9748fe759040360468c2b863753) Function
+  * [syscVariableAddIntegerAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga2c8d8b670d660f646fbe0d81dbc7914b) Function
+  * [syscVariableGetNumRealAttributes](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga3cb95d52ef66ec8339bff5dc9c2c28bb) Function
+  * [syscVariableGetNumIntegerAttributes](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1gae744a1029ca1d356c8ef9a81b6a41df6) Function
+  * [syscVariableGetRealAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga7d8fce6af6169d53f48e92cb90224bff) Function
+  * [syscVariableGetIntegerAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1gacd6d89e8e016b12cf558b312619201a4) Function
+* [syscVolumeMesh.h](syscVolumeMesh_8h.md#syscVolumeMesh_8h) File
+  * [syscGetVolumeMeshEmpty](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga44f0210eb99864864b6ea802b5c8c857) Function
+  * [syscGetVolumeMeshNFC](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1gaa082ad5a3f9a308f6dfb794e8bdcd8cd) Function
+  * [syscGetVolumeMeshElementBased](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1gacdd4cb0f44e5d2e94a0ed34e0dc96bbe) Function
+  * [syscGetVolumeMeshFaceBased](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1gae426344ef494aa92411c8c3856cdcb7f) Function
+* [C Interfaces for Participant Library](group__SyscParticipantLibraryCAPI.md#group__SyscParticipantLibraryCAPI) Module
+  * [SyscLocation](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade42aba1a68acbbf5956edcd388cdcda) Enumeration type
+  * [SyscNode](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade42aba1a68acbbf5956edcd388cdcdaae4692f269a846a3f5bec23a9e61f0b8b) Enumerator
+  * [SyscElement](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade42aba1a68acbbf5956edcd388cdcdaa0a0e08aa104422e8676637671cf2a482) Enumerator
+  * [SyscTensorType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga007e2fd66e7263a63c114a6d12b3808d) Enumeration type
+  * [SyscScalar](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga007e2fd66e7263a63c114a6d12b3808dacb8fa2f95d3959accf13d5f9da32bec2) Enumerator
+  * [SyscVector](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga007e2fd66e7263a63c114a6d12b3808da7b45d832dc633190003739983e661ea1) Enumerator
+  * [SyscTopology](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf36499a0f333dc9b856c4bcbb25385a) Enumeration type
+  * [SyscSurface](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggabf36499a0f333dc9b856c4bcbb25385aa8247153584a945a1be42cfea251acbdb) Enumerator
+  * [SyscVolume](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggabf36499a0f333dc9b856c4bcbb25385aa38f18def976473946d3405a115fbd6d0) Enumerator
+  * [SyscRegionDiscretizationType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga83942e23c7ff51ec76e4632612a34d45) Enumeration type
+  * [SyscMeshRegion](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga83942e23c7ff51ec76e4632612a34d45a8693102131c222ff51685d060bc8d1d3) Enumerator
+  * [SyscPointCloudRegion](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga83942e23c7ff51ec76e4632612a34d45a72b4ce23e1c7d4a5981f5ffe6a1928b6) Enumerator
+  * [SyscInterfaceSide](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacf32f1d9c1566f28bee2b348b2dcd9f5) Enumeration type
+  * [SyscInterfaceSide\_One](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggacf32f1d9c1566f28bee2b348b2dcd9f5a7c5c48f8ed70c17f777260b3d5963ea3) Enumerator
+  * [SyscInterfaceSide\_Two](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggacf32f1d9c1566f28bee2b348b2dcd9f5aca2e8fc2e6fa8407ae40a13bfbedb3ff) Enumerator
+  * [SyscDimension](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac5a5f66ee72fd8015eab632a642cf26d) Enumeration type
+  * [SyscD2](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggac5a5f66ee72fd8015eab632a642cf26da0c9eff9b65e904d28255b8b08777b297) Enumerator
+  * [SyscD3](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggac5a5f66ee72fd8015eab632a642cf26da322819738b608cfda776ab25cf6a5200) Enumerator
+  * [SyscTimeIntegration](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaedf008f34febb068e44cb21292dc167f) Enumeration type
+  * [SyscImplicit](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaedf008f34febb068e44cb21292dc167fa593d91cbed6aa180b936b20b74a54b71) Enumerator
+  * [SyscExplicit](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaedf008f34febb068e44cb21292dc167faadc57672e0587e6a52b44f367095b500) Enumerator
+  * [SyscQuantityType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaa28a3de6c7c91003a8a15721a5301f12) Enumeration type
+  * [SyscUnspecified](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12af38a3461bab7f9a97b75952b43b40e59) Enumerator
+  * [SyscForce](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ae6aa8fd95dcfbbbbc5c31a6c25f64bd5) Enumerator
+  * [SyscIncrementalDisplacement](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12acc64cea65ff9ea214fefb2308a5b0b80) Enumerator
+  * [SyscTemperature](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ac04825292451f0435241336e6bf9d586) Enumerator
+  * [SyscHeatRate](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ad3ae742f14341f0cab7b7866aea51dac) Enumerator
+  * [SyscHeatTransferCoefficient](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ab27e48f0cf93d6e42aaabf065e51c0ae) Enumerator
+  * [SyscConvectionReferenceTemperature](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12a249378fcb9803c0d94fa56b9db0e0136) Enumerator
+  * [SyscModeShape](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12ac67477bfe4fbe7f99b4ceb8e00ba679e) Enumerator
+  * [SyscElectricalConductivity](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggaa28a3de6c7c91003a8a15721a5301f12aa1b2cf043f26c7e4b42a86fd62c0ab58) Enumerator
+  * [SyscDataType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1e750bcf34a1c16aed218b03a95ee7ed) Enumeration type
+  * [SyscDataType\_Real](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga1e750bcf34a1c16aed218b03a95ee7eda6b75c7944f0ea0fb9185ffe4f405e45e) Enumerator
+  * [SyscDataType\_Complex](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga1e750bcf34a1c16aed218b03a95ee7edacff35d3f643883c35a2390b28e4f73a1) Enumerator
+  * [SyscConvergenceStatus](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga10ce3774353dfbc811147a9ad211b3cd) Enumeration type
+  * [SyscDiverging](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cda7466043ed7106086c08d595333e17f52) Enumerator
+  * [SyscNotYetConverged](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cdac97f645aa14099d533bbaea696aae752) Enumerator
+  * [SyscConverged](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cda90e0d458e61026cacc99e563aae9bf5e) Enumerator
+  * [SyscComplete](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cda69c6ee0eaef6f36ff519c6386cbb33fc) Enumerator
+  * [SyscNotEvaluated](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga10ce3774353dfbc811147a9ad211b3cdae11a117c36c99017d0ab07b5f3ba20e0) Enumerator
+  * [SyscAnalysisType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7d5b3786948265c902f7231abe6d79b5) Enumeration type
+  * [SyscSteady](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga7d5b3786948265c902f7231abe6d79b5ad0d53c33e61857fdfe41e2501eebc8dd) Enumerator
+  * [SyscTransient](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gga7d5b3786948265c902f7231abe6d79b5ac22067ff2e9230dd35621612f4ab4365) Enumerator
+  * [SyscPrimitiveType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gade3becc3625d881bdd988111e0895a3c) Enumeration type
+  * [SyscFloat](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3ca6ecfee4aefddc0fd0e974f4949883f0f) Enumerator
+  * [SyscDouble](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3ca3c8390a23ce87c17dcaffccfd72fe344) Enumerator
+  * [SyscInt32](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3ca21752be8ce378ed3c47cddd1210657f2) Enumerator
+  * [SyscInt64](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3cad2b2abd943a30d3ec7509f53cb5b1239) Enumerator
+  * [SyscUnsignedInt16](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3cadd05bd1ee15d3dd17e7836e2a96c4f52) Enumerator
+  * [SyscUnsignedInt64](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggade3becc3625d881bdd988111e0895a3caba28d71a9abf40c318a16365a2eb091c) Enumerator
+  * [SyscParticipantType](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab997855544b4c0ac77104b89faffae5d) Enumeration type
+  * [SyscDEFAULT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da1f314de13dbd0c48f0339c633203741e) Enumerator
+  * [SyscCFX](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da6e0f41b213afb0edc478f680075324cc) Enumerator
+  * [SyscFLUENT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dac8857c92c41c39b56581f08cc236f176) Enumerator
+  * [SyscMAPDL](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dabd0c957458ea1368773e54818d15435c) Enumerator
+  * [SyscAEDT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5daf1b337725648c27ffc0f7ade76d2a6cc) Enumerator
+  * [SyscFMU](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da0f20720c60a86e4a909a46820586334c) Enumerator
+  * [SyscFMU\_PROXY](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dade3420bdc27918d3c2c70518f7c9cc19) Enumerator
+  * [SyscEXTERNALDATA](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5daf45662ff29c501232068091a5e19a336) Enumerator
+  * [SyscFORTE](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da87d294213bc3285652129a5a97a24d21) Enumerator
+  * [SyscDEFAULT\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da5d362f01300701305b1a228eccac06f0) Enumerator
+  * [SyscMECH\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da0932e47107334a3c6e520b74dd2279b9) Enumerator
+  * [SyscCFD\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dad4851acec7cfe371b4a6b9a9d8e8a6ac) Enumerator
+  * [SyscSCDT\_SRV](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da38d1e472e60e35f9a8044ccb93a5e5b3) Enumerator
+  * [SyscTHERMAL\_DESKTOP](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dacf58fe46486ad60bb7b0930cbe29826c) Enumerator
+  * [SyscLS\_DYNA](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5da154ed7cf7815e00c77d7239ea0cfe184) Enumerator
+  * [SyscROCKY](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab997855544b4c0ac77104b89faffae5dad9bcd21c67d707283ef0a44e57b69f22) Enumerator
+  * [SyscElementTypes](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab18060c2493ddba0678016696642f005) Enumeration type
+  * [SyscTri3](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a77470006c9f90e0699d34cb4529977bd) Enumerator
+  * [SyscTri6](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005ad973b33a8c615a7088218bb68c95cef1) Enumerator
+  * [SyscQuad4](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005ac829eb996aacda6977a2633d3d4b6ae0) Enumerator
+  * [SyscQuad8](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005aefd1fe32f0987d59a023071a8d6729a9) Enumerator
+  * [SyscTet4](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005afb767ddc846b275cc9f06f4c552ef8ea) Enumerator
+  * [SyscTet10](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a706ca034c9b7e05f8f2a87301b72a6be) Enumerator
+  * [SyscHex8](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a15bbc3ed5ebf288d89e4e9af7ce9e0ae) Enumerator
+  * [SyscHex20](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a4eaa66437832a76bdcbc92a727dfedd1) Enumerator
+  * [SyscWedge6](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a05727b1e9b0ab410f1d5f9c31337b508) Enumerator
+  * [SyscWedge15](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a53a4340e11f6e1a6b75f084f2518649a) Enumerator
+  * [SyscPyramid5](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a6389c588d45313437139bcea52d94866) Enumerator
+  * [SyscPyramid13](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005a366c507804e6022a52b6f38852861b1b) Enumerator
+  * [SyscPolygon](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005ac46af723ae879263d8c74a0cd91dfb9e) Enumerator
+  * [SyscPolyhedron](syscElementTypes_8h.md#group__SyscParticipantLibraryCAPI_1ggab18060c2493ddba0678016696642f005aa1667251e6eb0b96ab2b003591a8983f) Enumerator
+  * [SyscSolutionControl](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaaabd83bdde051f257f11c5c0cdd73990) Typedef
+  * [SyscOpaqueDataAccess](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17ef60969b3c919163ba2471eb95a28b) Typedef
+  * [SyscSetupInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga80be2caaea1dd7e82a2da155c7283875) Typedef
+  * [SyscSetupFileInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga97036eb61b15d6efd5f9602bd19bb562) Typedef
+  * [SyscResultsInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gacab0987c6f6f3da0ae499505c3f67d9e) Typedef
+  * [SyscCouplingInterface](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga828a191dd9fffcb117c398848b9ad10b) Typedef
+  * [SyscDataTransfer](syscDataTransfer_8h.md#group__SyscParticipantLibraryCAPI_1ga8e23d76b7478495ca52b0e1f719607fc) Typedef
+  * [SyscInputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaaf3788ac706a730edbf6093c7e543681) Typedef
+  * [SyscInputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad41922f1a4f5abb891d5a913ba5fcccf) Typedef
+  * [SyscInputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga844dc6322bd6e4eabc2d3d2d9e69bdb1) Typedef
+  * [SyscInputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga8d5f53de4e65a4bacef0f25ba8b46483) Typedef
+  * [SyscInputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae7c6372393f3ec720b8d6d1535fcf9b3) Typedef
+  * [SyscInputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae2e92f1b7ae911c36bf3606c60a01511) Typedef
+  * [SyscOutputScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabd35283796cae3d3dbc851ac66b8564f) Typedef
+  * [SyscOutputScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab378ed75ffd9b081ad7eccf8107a5542) Typedef
+  * [SyscOutputScalarDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7767f728d880014dfbd853bbb8e0eb07) Typedef
+  * [SyscOutputVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae99c8cb78199403b9e74217557be206a) Typedef
+  * [SyscOutputVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab30cbe5478bf769c81f5c0a07e885afd) Typedef
+  * [SyscOutputVectorDataMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1d6d5d9fa806ac5820d9a6ed85811804) Typedef
+  * [SyscInputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab388f936f3a73b9b480a792c401a95a1) Typedef
+  * [SyscInputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga7a0c5889de7b17b59d44595d7636747e) Typedef
+  * [SyscInputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gace54794852b48d8725b930f1aed89c4d) Typedef
+  * [SyscInputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga68dcce877e8cc69f13bee845c76f1b4d) Typedef
+  * [SyscOutputComplexScalarDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga17d96c2c29a44374309efafdfb8fef62) Typedef
+  * [SyscOutputComplexScalarDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71ac4910edd87d8d62e871001258c698) Typedef
+  * [SyscOutputComplexVectorDataAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga65a0f3a119f2cec715ac89798f16a97c) Typedef
+  * [SyscOutputComplexVectorDataAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga18e31a00d833843895c731e69ca006b0) Typedef
+  * [SyscSurfMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga71e4eb102d00dd0a211f6dc2f4d24222) Typedef
+  * [SyscSurfaceMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafbfb299099d65e3f232bb67a04d1a8e9) Typedef
+  * [SyscSurfaceMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga9ffe052c4c28ff40b4a14b32cd9f227c) Typedef
+  * [SyscVolumeMeshAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gad0ff77c2af045d3294b149219123a084) Typedef
+  * [SyscVolumeMeshAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gadcb6262e27485836632696e52cf80fb9) Typedef
+  * [SyscVolumeMeshMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaf381b799bec1baf9f3ab727b61458b59) Typedef
+  * [SyscPointCloudAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae999907f608779e525e34f60d2803038) Typedef
+  * [SyscPointCloudAccessWithPointer](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gafa62fd6d86905625ae071dea4749a8df) Typedef
+  * [SyscPointCloudMultiZoneAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac4a0788f14f0d473372f07638e9dceaa) Typedef
+  * [SyscZoneCountAccess](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaabc0678095ad5a5efb8be4d666ce2677) Typedef
+  * [SyscRestartPointCreation](syscFunctionTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga6d3934571a8dcc03e2ecbe724a808c1b) Typedef
+  * [SyscParameter](syscParameter_8h.md#group__SyscParticipantLibraryCAPI_1ga9d97e53f3f34b91249f3002d73dc939e) Typedef
+  * [SyscRegion](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gac5687e76cd2c5d1249d8b3ac43ff29b4) Typedef
+  * [SyscVariable](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga7a8d294476240d2f3844a608e71efe29) Typedef
+  * [syscGetRealAttribute](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1ga7025ebcdef40667b4c2df0d2b087f600) Function
+  * [syscGetRealAttributeVDM](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1ga65737d6497a88298c80afab5d62f7687) Function
+  * [syscGetIntegerAttribute](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1gaf6d02a55f607a7af07039957b21ab511) Function
+  * [syscGetIntegerAttributeVM](syscAttribute_8h.md#group__SyscParticipantLibraryCAPI_1gac3ae9103fa3cad3c60b1f794ecb27752) Function
+  * [syscGetDimensionality](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga22ab81fcb82b1eb1b58bac1dd3fbcf0d) Function
+  * [syscGetSyscError](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga1d656df31d1a737654883968e029eb72) Function
+  * [syscGetSetupInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga65a1735a49d0e0ab7f32d03f27f325a3) Function
+  * [syscGetSetupInfoA](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae399cbc645966a48cc2928bb51018d9b) Function
+  * [syscGetSetupInfoAR](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga49c86c342e0c0d2881958a7a752eb99b) Function
+  * [syscGetSetupInfoARD](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gae3a34c9ed638c50c65e1d87dabe66737) Function
+  * [syscGetSetupInfoARDT](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gaf3b03ee2974bbd198008e70e15dd1d1a) Function
+  * [syscGetSetupInfoARDTP](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1ga34fa5345c4ca947eca11bd6ee25f09ab) Function
+  * [syscGetSetupFileInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gac80fa7c7f1ebe9a8d9ef3c4f90d274eb) Function
+  * [syscGetResultsInfo](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gabf49efc0bc2492b1c8198ba9bd3dab06) Function
+  * [syscGetCouplingInterface](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gae356c9cb4c0dd69f5e1ea9eef6a7c63b) Function
+  * [syscAddSideOneRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gaa8401af709fa7638f76f168aa05784a3) Function
+  * [syscAddSideTwoRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga3bbbec8ccb73b5da2997d2cdcd7abb6b) Function
+  * [syscAddDataTransfer](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gaec7e1373da295e5fb0c7ecfc52409888) Function
+  * [syscCouplingInterfaceGetNumDataTransfers](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gade11af63d2e79ab75e7db7919998e6b5) Function
+  * [syscCouplingInterfaceGetNumSideOneRegions](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga13eed5fd3144989e2f7dc2265f6a199e) Function
+  * [syscCouplingInterfaceGetNumSideTwoRegions](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1gaf2e509aada51179b4ddab8d343f5e392) Function
+  * [syscCouplingInterfaceGetDataTransfer](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga40ed5be0892f1d14a520221f8b439a45) Function
+  * [syscCouplingInterfaceGetSideOneRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga7ab5c93d920b15c8d2e7ba6baddddb28) Function
+  * [syscCouplingInterfaceGetSideTwoRegion](syscCouplingInterface_8h.md#group__SyscParticipantLibraryCAPI_1ga1747f6ce3729ff459e26175ded7059f0) Function
+  * [syscGetDataTransfer](syscDataTransfer_8h.md#group__SyscParticipantLibraryCAPI_1ga10c3562aba2bdcef468fbde205008112) Function
+  * [syscGetDataTransferST](syscDataTransfer_8h.md#group__SyscParticipantLibraryCAPI_1gadb07659695562864d8bc0df67bec847e) Function
+  * [syscGetInputComplexScalarData](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga1843bbb3648ac07766c7e6ea9f309a54) Function
+  * [syscGetInputComplexScalarDataSplitDouble](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1gaaed0337275d991d2cd2a1ec4dbf2a595) Function
+  * [syscGetInputComplexScalarDataSplitFloat](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga11c65e99f509cd226f13b0932aba8eb7) Function
+  * [syscGetInputComplexScalarDataCompactDouble](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga5cbb0ff3aa857c03d3626038e3a20ffa) Function
+  * [syscGetInputComplexScalarDataCompactFloat](syscInputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0ff093e80497efd6dccb6ea29c9face3) Function
+  * [syscGetInputComplexVectorData](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaa7291e96ae240db79de4b35ad82c4cc0) Function
+  * [syscGetInputCompactComplexCompactVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga311e2b750be4212f60557b49870f1eac) Function
+  * [syscGetInputCompactComplexCompactVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga5396c1513b3448bfd783c2db743606d2) Function
+  * [syscGetInputSplitComplexCompactVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga8cce8fbb7655b448cd3c6c08772e1766) Function
+  * [syscGetInputSplitComplexCompactVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga0c9104179a6e98a7a043e4412f1dafd5) Function
+  * [syscGetInputCompactComplexSplitVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga7eefc4444dbdf8924e4074046de5eba2) Function
+  * [syscGetInputCompactComplexSplitVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga513ecaae813a2904f6926c5839cc11a1) Function
+  * [syscGetInputSplitComplexSplitVectorDataDouble](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1fd576a79df5e1b27247f4b71e2afbf0) Function
+  * [syscGetInputSplitComplexSplitVectorDataFloat](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga6b650f50fa53c996a07147474343f55f) Function
+  * [syscGetInputCompactComplexCompactVectorDataDoubleDim](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga93d5fd27a2899ea57f88958aa29506cd) Function
+  * [syscGetInputCompactComplexCompactVectorDataFloatDim](syscInputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga6fa6c5f2890928560f68ebb6d45cabc9) Function
+  * [syscGetInputScalarData](syscInputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga4f26c699d6b93f7d62ad88e69822e1e2) Function
+  * [syscGetInputScalarDataDouble](syscInputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga3b76afcedb8ced51695a0a56dabfb3af) Function
+  * [syscGetInputScalarDataFloat](syscInputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga09e03b4996d73e37c1748eb00a8c76c8) Function
+  * [syscGetInputVectorData](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga8609363d94eccb5ac5113332b5bd0d77) Function
+  * [syscGetInputVectorDataCompactDouble](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga21f7b8327230f78d41e61bdac3f073c0) Function
+  * [syscGetInputVectorDataCompactFloat](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1dab4c326c88b20cb402ca06c84d39c2) Function
+  * [syscGetInputVectorDataSplitDouble](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga5432989ff9b68845634e551c6246e42e) Function
+  * [syscGetInputVectorDataSplitFloat](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga774cdf0f3bb11efe50a587e6a11e7539) Function
+  * [syscGetInputVectorDataCompactDoubleDim](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gadc1d6ed1a05cf21b0b38af4ea8247eb3) Function
+  * [syscGetInputVectorDataCompactFloatDim](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga0e5591d56881dec17e9ebaa087a7a198) Function
+  * [syscGetInput2DVectorDataSplitDouble](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gab707ea57d70a474cfdab07c35dc7dcf7) Function
+  * [syscGetInput2DVectorDataSplitFloat](syscInputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gad39531d8943485fe6a586ce4dbdc5107) Function
+  * [syscGetNodeData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaf412d269c5805e7e6b8600f2690cb874) Function
+  * [syscGetNodeDataIC](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga8b43e51f7a5fa3f6a2d280c177ca3f8e) Function
+  * [syscGetNodeDataC](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaf5a3d9825d0c59c4517ccaccb332e6b5) Function
+  * [syscGetElementTypeDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gac9a38bc69d5b0a77d09be64f73693f46) Function
+  * [syscGetElementTypeData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga0edaf6355561dfffffeeea47d5ff796d) Function
+  * [syscGetElementNodeCountDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga621f044b4d075369865572cc0d68aa97) Function
+  * [syscGetElementNodeCountData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga69b8dd901387b03935a8f2aa4c576903) Function
+  * [syscGetElementNodeConnectivityDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga827af0f4c18717284c76b8804056a24d) Function
+  * [syscGetElementNodeConnectivityData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gae4888763deed0388634cd4174e06a027) Function
+  * [syscGetFaceCellConnectivityDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga5efb9f82d5def3b2399291a763d72d65) Function
+  * [syscGetFaceCellConnectivityData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga604b682ca22d2b4898d6aedae4d9fb1c) Function
+  * [syscGetCellIdDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga9c98c0bc4f190c90ec8bb034ab6e6781) Function
+  * [syscGetCellIdData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaf52ba7465086cb0c3faf0a6b9473853e) Function
+  * [syscGetElementIdDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga7c6f7645530e97adaa7fca97bebbf050) Function
+  * [syscGetElementIdData](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga1d1688e7751b27c15a57a78a244b0261) Function
+  * [syscGetFaceDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga5fe1aa7a9f98270030fc7138c4860217) Function
+  * [syscGetFaceDataITCNF](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gadc25b2855aac9a4c02706bb94cb1d47e) Function
+  * [syscGetFaceDataICNF](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gab1f554f37a4e5dc06cdfc15d7ca4b6c7) Function
+  * [syscGetFaceDataITN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga7fecaea46eac9057909b0d0901cfbea8) Function
+  * [syscGetFaceDataCN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gae75c9db974a962c76ce593cc24ddd85c) Function
+  * [syscGetCellDataEmpty](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gaea5a7a8c0e8b5424fbaa50edb7bc32ce) Function
+  * [syscGetCellDataITN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gabc9c52c2b18a3bbb00d87891b4039315) Function
+  * [syscGetCellDataI](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1gadb4f24988bf2684dd5bb9d6032a37fca) Function
+  * [syscGetCellDataTN](syscMeshDefinition_8h.md#group__SyscParticipantLibraryCAPI_1ga900dee185f65895511a89b29af40c6f8) Function
+  * [syscGetOutputComplexScalarData](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga1ed999efcf217211831e6e440c9b6789) Function
+  * [syscGetOutputComplexScalarDataSplitDouble](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga55ed1d17c6d2f849b9588531d7c516d9) Function
+  * [syscGetOutputComplexScalarDataSplitFloat](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0e86f0bfb33258007eb2b2ecd6b44dec) Function
+  * [syscGetOutputComplexScalarDataCompactDouble](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga08d88f4495f347260e4678ab6bedbf75) Function
+  * [syscGetOutputComplexScalarDataCompactFloat](syscOutputComplexScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga3d806d095d2d333f2a78abb38f7cddf6) Function
+  * [syscGetOutputComplexVectorData](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gafd1174430666266b1337c8e1d3569aa6) Function
+  * [syscGetOutputCompactComplexCompactVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gab9832696d96ffd32917b2211497c31e1) Function
+  * [syscGetOutputCompactComplexCompactVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1bddd7590dc1c4e4b488981694a723fc) Function
+  * [syscGetOutputSplitComplexCompactVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga619a769c0b474a093ca8df07fa23c745) Function
+  * [syscGetOutputSplitComplexCompactVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga9c6fb47e5c54e7f1ee9bfdd2a6b78f96) Function
+  * [syscGetOutputCompactComplexSplitVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga36581954b1bed9e21ddd6d6951478a45) Function
+  * [syscGetOutputCompactComplexSplitVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga6fab1156fcb4f29d454bd3574b7472a7) Function
+  * [syscGetOutputSplitComplexSplitVectorDataDouble](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaceabb4ea93346ecbbdda387e7f067465) Function
+  * [syscGetOutputSplitComplexSplitVectorDataFloat](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga3d957a5fa32db290017e2f23d15311f2) Function
+  * [syscGetOutputCompactComplexCompactVectorDataDoubleDim](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gac98c66232a8c5c204c4bad9f0dd5585c) Function
+  * [syscGetOutputCompactComplexCompactVectorDataFloatDim](syscOutputComplexVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gab1ea60c9d226cf14e580d6d3c945f3ab) Function
+  * [syscGetOutputIntegerData](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1gac46cbb29463ecf81dfbba42a81e5b5c9) Function
+  * [syscGetOutputIntegerDataInt32](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1gaea5bb5bd0b4ddd4217745dad38b405b2) Function
+  * [syscGetOutputIntegerDataInt64](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1ga43be8cb6b2e2b156d7c40fa3cbf28f03) Function
+  * [syscGetOutputIntegerDataUInt16](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1ga46a87bfd729531e482d320f695537c0b) Function
+  * [syscGetOutputIntegerDataUInt64](syscOutputIntegerData_8h.md#group__SyscParticipantLibraryCAPI_1gaed7a48d94e2545e78562b8ff911dfd2a) Function
+  * [syscGetOutputScalarData](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0097e203d597949f887e2f804c01fd21) Function
+  * [syscGetOutputScalarDataDouble](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga8a2803af36638c2ce3387bf89b83cda0) Function
+  * [syscGetOutputScalarDataFloat](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga0b0ae9e5ede552958b8bce1efd9b4978) Function
+  * [syscGetOutputScalarDataInt32](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga2334c8e25481b098d4263a2f60a7dac2) Function
+  * [syscGetOutputScalarDataInt64](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga7a305d185afe565e1d3e8de66d7beca3) Function
+  * [syscGetOutputScalarDataUInt16](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1gabfcf7be83419cc31611e2ad100fdecb6) Function
+  * [syscGetOutputScalarDataUInt64](syscOutputScalarData_8h.md#group__SyscParticipantLibraryCAPI_1ga6645e1e9d1b163cea069ce42077f419f) Function
+  * [syscGetOutputVectorData](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga950a6f2a746b4667aa10216ad3adfba6) Function
+  * [syscGetOutputVectorDataCompactDouble](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gacb630e9f5b846eb243f4cb6e67907885) Function
+  * [syscGetOutputVectorDataCompactFloat](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga1bec0ed33e0603a25d69f98efd68177a) Function
+  * [syscGetOutputVectorDataSplitDouble](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaaa51c47ef1d83c217ac1d10080de120c) Function
+  * [syscGetOutputVectorDataSplitFloat](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gac91454fccf5ff91fdb82fa976bf5bc3c) Function
+  * [syscGetOutputVectorDataCompactDoubleDim](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga3ff75e8ebe2bf6e850544f378cb240c6) Function
+  * [syscGetOutputVectorDataCompactFloatDim](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gaa09a2e4358b2a5459db179c5da641be8) Function
+  * [syscGetOutput2DVectorDataSplitDouble](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1gac737552145182f1de70e347531477a88) Function
+  * [syscGetOutput2DVectorDataSplitFloat](syscOutputVectorData_8h.md#group__SyscParticipantLibraryCAPI_1ga22d069eb2d95a8060a0dfdaf9a5d43aa) Function
+  * [syscGetParameter](syscParameter_8h.md#group__SyscParticipantLibraryCAPI_1gaf44d7cf2e3d05e5cf0990b6fe946c50d) Function
+  * [syscGetParameterD](syscParameter_8h.md#group__SyscParticipantLibraryCAPI_1gafa0e858b9dc47ded43bd3fbf97c25206) Function
+  * [syscGetPointCloudEmpty](syscPointCloud_8h.md#group__SyscParticipantLibraryCAPI_1ga256e2f74a04a52d19232bd163921131c) Function
+  * [syscGetPointCloud](syscPointCloud_8h.md#group__SyscParticipantLibraryCAPI_1ga0a8b0fe8c0c57374a3ef69d1f678fdab) Function
+  * [syscGetRegion](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gaf8dee311cddc012ce6b54998fde8e29f) Function
+  * [syscGetRegionT](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga26c8d2435b5cd3c525d5221298ad3aaa) Function
+  * [syscGetRegionDT](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga88d428a1852eeec9b7b7156e33b57822) Function
+  * [syscGetRegionTM](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga9e0af352921275419da93341f7186f46) Function
+  * [syscGetRegionDTM](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gaaae89f288494cc67e8f05cab0f5d1b8b) Function
+  * [syscAddInputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga9ae6fafcce6987fa18ba762a1ee7a7be) Function
+  * [syscAddOutputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga9615f371d829935af745eb63a1ea99bc) Function
+  * [syscGetNumInputVariables](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gabec39110fe9da4d54a32653e6bf43196) Function
+  * [syscGetInputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1gaef15224138a4f29e892a63e5e8db2feb) Function
+  * [syscGetNumOutputVariables](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga99fda03ac99e590196d180ea23214217) Function
+  * [syscGetOutputVariable](syscRegion_8h.md#group__SyscParticipantLibraryCAPI_1ga55a99079e5dc9d025f3816d5e7bdd163) Function
+  * [syscGetSurfaceMesh](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga9f7aaa68f00cc2d98f98c458b5388f3a) Function
+  * [syscGetSurfaceMeshNF](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1gafad33a17c7266f386e1bf42c66a9340f) Function
+  * [syscGetSurfaceMeshNTCI](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1gaf61b2f4b29e77812cee161e63ff28e34) Function
+  * [syscGetSurfaceMeshNCI](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga239ac08da048715f5832302851960053) Function
+  * [syscGetSurfaceMeshNCIF](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga734facb70a9948732d08eaccf4bb5102) Function
+  * [syscGetSurfaceMeshNTI](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga481a20e443f5b245640441f47e455c67) Function
+  * [syscGetSurfaceMeshA](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga0241a6779e5c1e1dc0a339893805a9dd) Function
+  * [syscGetSurfaceMeshB](syscSurfaceMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga0745adffa475d10edb703906ed5d2772) Function
+  * [syscStartStandaloneParallel](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga862e7375111dcee847bc05463c72b329) Function
+  * [syscConnect](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1404ad75fb1f5b1515dae967b71b1725) Function
+  * [syscConnectParallel](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga68a9b5b64715ad6ffde1c7b145bb4d0f) Function
+  * [syscConnectUseStruct](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga8d84278ef4d48a739948f0a952cb2a00) Function
+  * [syscConnectParallelUseStruct](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gac695e9f06d272958b8fc81bff07708fb) Function
+  * [syscAddRegion](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3c895512d255076ce0b7dcc0b527991b) Function
+  * [syscAddInputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga360d447bbaffa2035ddd9675457027cc) Function
+  * [syscAddOutputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf25cfa8761182ab33ee1a58171ba8aff) Function
+  * [syscGetNumInputParameters](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga0c8432c9735a99af8f502a0d399fcb53) Function
+  * [syscGetNumOutputParameters](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa589afb854fc7ccbc1aadd35148748c4) Function
+  * [syscGetAddedInputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga0a1c350da5591ae0ece58abaa8dfd9d2) Function
+  * [syscGetAddedOutputParameter](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa7fff9647ad264d5f2d6231472667e0d) Function
+  * [syscGetNumRealAttributes](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gac60dbcde01c9373bfd367aaaa956cba5) Function
+  * [syscGetNumIntegerAttributes](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf49b872e961009e614ed67759e1a60d4) Function
+  * [syscGetAddedRealAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaefc1d756871febf4805c2df08334e7b8) Function
+  * [syscGetAddedIntegerAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga700bc8178a51d4eeaa596eb6d4737fcb) Function
+  * [syscAddRealAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad0272110e6eaf4c7f16bf96d3556106e) Function
+  * [syscAddIntegerAttribute](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga7ef7712e40081015520c18ae54509930) Function
+  * [syscGetParameterValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga534e802afae31ae7134e23a00d2872f9) Function
+  * [syscSetParameterValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga67c13bf8cd7fedeb86ac32b6d919eeb0) Function
+  * [syscGetRealAttributeValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf5625adaeb366d18725d1e9560d5910d) Function
+  * [syscGetIntegerAttributeValue](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga126dcce7d793eb854bdccd42e6a62e10) Function
+  * [syscAddCouplingInterface](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5330416d093678fc96231257a88ea337) Function
+  * [syscAddCouplingInterfaceA](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gadec9e44f001d4ec2b8139e096ab93ac7) Function
+  * [syscCompleteSetup](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga831884747873b947fcdc57ef31adce27) Function
+  * [syscRegisterInputScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga06c366cb935ade55b7b90de9691d3f38) Function
+  * [syscRegisterInputScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga04bbb44826997f602707b9e01d07d78e) Function
+  * [syscRegisterInputScalarDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga6b2aee555f07109357958edc9898b8b5) Function
+  * [syscRegisterInputVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga36e9fe53c70f9c15cbcfc3957f80852b) Function
+  * [syscRegisterInputVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga46b386f0c3ed52071dd851b55763b1c8) Function
+  * [syscRegisterInputVectorDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad7774418be78b8b39c9b45b7fcade1d3) Function
+  * [syscRegisterOutputScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga6e187589ca426402ee045ccecfec21d3) Function
+  * [syscRegisterOutputScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga2c90e2ea571de3b7ce5e1ca65a996d8a) Function
+  * [syscRegisterOutputScalarDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga7880daf983c8bac7db920281fdc937c1) Function
+  * [syscRegisterOutputVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa3956909f65a425bec64c86ec5d5515b) Function
+  * [syscRegisterOutputVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga9793fb31fe905768b175842ceab722e5) Function
+  * [syscRegisterOutputVectorDataMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad5c33007c0067ab6edf8a72ab422ff7d) Function
+  * [syscRegisterInputComplexScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1f4ab3d781755660f64b5a2cb691abe9) Function
+  * [syscRegisterInputComplexScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga55a307bf13f2d002f05660d781fef50e) Function
+  * [syscRegisterInputComplexVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf281613584c91fb460de5e4557f16767) Function
+  * [syscRegisterInputComplexVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gadfee511d3a3021907ee187716fff0944) Function
+  * [syscRegisterOutputComplexScalarDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1c0e074f2239faf10594e3139d32efe1) Function
+  * [syscRegisterOutputComplexScalarDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5a7faf0c3fe80ffc7925da217ecce202) Function
+  * [syscRegisterOutputComplexVectorDataAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga1cb92c5ccc643abce68fba25f61e3d41) Function
+  * [syscRegisterOutputComplexVectorDataAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga859961191e2943afd73b8e31cbd010c9) Function
+  * [syscRegisterSurfMeshAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga044974d4f159fd35669b77e5111fe7e0) Function
+  * [syscRegisterSurfaceMeshAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gadddd0903fcab2450b14f54157e283302) Function
+  * [syscRegisterSurfaceMeshMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3261b0b3eb6278c380a5b59894a7b533) Function
+  * [syscRegisterVolumeMeshAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga27ba2e330c4d2c20b692a7ab66852721) Function
+  * [syscRegisterVolumeMeshAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3b90426f24a434668b5270930192fec6) Function
+  * [syscRegisterVolumeMeshMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gab71a3bc5775e830b2dac81dd6828cb13) Function
+  * [syscRegisterPointCloudAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gade30d8ccbbad0236ace57edfe55181d5) Function
+  * [syscRegisterPointCloudAccessWithPointer](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaedae298744b65c453c7dac3e8dc1d68a) Function
+  * [syscRegisterPointCloudMultiZoneAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga77d6e90a118be65eeb86ce08a3a3dea5) Function
+  * [syscRegisterZoneCountAccess](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad49e03082ae93fdd7f96a3b7601ca9a8) Function
+  * [syscRegisterRestartPointCreation](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga30880d98428a08962ab027267c66c2ae) Function
+  * [syscInitializeAnalysis](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaa26049072c61f17c4e1296490c00abc5) Function
+  * [syscDoIteration](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaea2bf4afeff9dd606125e00bb6c475a0) Function
+  * [syscDoTimeStep](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gaf701624f0add6b5d7a5fd2d9dcf8e298) Function
+  * [syscGetCurrentTimeStep](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gace1009120d02713ffe0b625d1cadd33d) Function
+  * [syscUpdateInputs](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga8445069f0234978743203e1d5c0cb62c) Function
+  * [syscUpdateOutputs](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga3b5e8e0315bbbe48526324439c422733) Function
+  * [syscDisconnect](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga09a7259037537f2d3d0403788d80e2e1) Function
+  * [syscFatalError](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga009687c58ccf588d2c94d879a2769541) Function
+  * [syscNonFatalError](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gafc80abbd0874c5da3d80ec2d8258eb02) Function
+  * [syscCheckSurfaceMeshValidity](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga456487cb20f8a9b6c392eec4d0eaceb7) Function
+  * [syscWriteSetupFile](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gad55adabb4ed5bdb44833c06671541921) Function
+  * [syscWriteResults](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1gafb6abc910fc014d46cb46dc86cf48c60) Function
+  * [syscGetNumRegions](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga5783653d3a5994b0bccb7471843e72eb) Function
+  * [syscGetAddedRegion](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga73a2e2125fd1a583b152012a8d7f9ce9) Function
+  * [syscGetSolutionControl](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga47273dac1bc54d406c085bee823c5131) Function
+  * [syscGetNumCouplingInterfaces](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga8987dbe52eb06c7d089663d4c29c17ed) Function
+  * [syscGetAddedCouplingInterface](syscSystemCoupling_8h.md#group__SyscParticipantLibraryCAPI_1ga13a0798c28a54535f42c8cf240ed7d40) Function
+  * [syscGetVariable](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga11cda8cc3f7f76d71b87baabbfe53304) Function
+  * [syscGetVariableDTELQD](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga41420b43584d7b7ab11d94c2c4e4ccdb) Function
+  * [syscGetVariableTE](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga3aceb66e0d37a5de11b76fd4c1d7293d) Function
+  * [syscGetVariableTEQ](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga8c3a0f01eb353ffcb981281a76dde4b3) Function
+  * [syscGetVariableQ](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1gabcbdf21641e68a17e941a6c8da2afdc9) Function
+  * [syscVariableAddRealAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga36e1b9748fe759040360468c2b863753) Function
+  * [syscVariableAddIntegerAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga2c8d8b670d660f646fbe0d81dbc7914b) Function
+  * [syscVariableGetNumRealAttributes](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga3cb95d52ef66ec8339bff5dc9c2c28bb) Function
+  * [syscVariableGetNumIntegerAttributes](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1gae744a1029ca1d356c8ef9a81b6a41df6) Function
+  * [syscVariableGetRealAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1ga7d8fce6af6169d53f48e92cb90224bff) Function
+  * [syscVariableGetIntegerAttribute](syscVariable_8h.md#group__SyscParticipantLibraryCAPI_1gacd6d89e8e016b12cf558b312619201a4) Function
+  * [syscGetVolumeMeshEmpty](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1ga44f0210eb99864864b6ea802b5c8c857) Function
+  * [syscGetVolumeMeshNFC](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1gaa082ad5a3f9a308f6dfb794e8bdcd8cd) Function
+  * [syscGetVolumeMeshElementBased](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1gacdd4cb0f44e5d2e94a0ed34e0dc96bbe) Function
+  * [syscGetVolumeMeshFaceBased](syscVolumeMesh_8h.md#group__SyscParticipantLibraryCAPI_1gae426344ef494aa92411c8c3856cdcb7f) Function
+  * [SYSC\_STRING\_LENGTH](syscCommonTypes_8h.md#group__SyscParticipantLibraryCAPI_1gab4cd55b5b37dd76c5755020302086b15) Macro

@@ -1,0 +1,14 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Sherlock APIs 2026 R1",
+        "summary": "",
+        "version": "2026 R1",
+        "product": "Sherlock",
+        "status": "Published",
+        "programming-language": "Python",
+        "product-collection": "Structures",
+        "physics": "Structures"
+      }
+    }
+ }

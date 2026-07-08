@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Motion Standalone Preprocessor C sharp library 2025 R1",
+      "summary": "",
+      "version": "2025 R1",
+      "product": "Motion",
+      "programming language": "C#",
+      "product collection": "Structures",
+      "physics": "Structures"
+    }
+  }
+}

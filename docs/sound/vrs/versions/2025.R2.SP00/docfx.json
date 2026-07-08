@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "VR Sound API 2025 R2",
+        "summary": "",
+        "version": "2025 R2",
+        "product": "Ansys Sound",
+        "programming language": "OSC",
+        "physics": "Acoustics"
+      }
+    }
+ }

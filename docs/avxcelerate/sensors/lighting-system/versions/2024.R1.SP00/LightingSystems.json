@@ -1,0 +1,2149 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+        "title": "Lighting Systems",
+        "description": " The Lighting Systems REST API allows you to create, update and manage advanced Lighting Systems.
+      
+        In Ansys AVxcelerate Sensors Simulator, a lighting system defines the ego vehicle's lightings which are rendered in camera simulation outputs.
+        
+        A lighting system is composed of: 
+          - projectors, usually 2 (front right and front left)
+          - one or several modules in each projector,
+          - one or several lamps in each module.
+             
+          For more information about the Lighting System elements and their properties, refer to [Advanced Lighting System](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v241/en/Optis_UG_VSS/Optis/UG_VSS/C_UG_VSS_advanced_lighting_system.html) in AVxcelerate Sensors Simulator User's Guide.
+        
+        With the Lighting Systems REST API you can:
+          - create a new lighting system, all its elements and set their respective properties,
+          - upload a packed lighting system, then add/remove or edit its elements or properties,
+          - download the lighting system as a file once the lighting system and its elements created and properties set.
+        
+          **Note**: In this API, a lighting system, as well as each element that it includes has a unique identifier which is automatically generated and not editable.
+          To read or update the properties of an element and to delete an element, the required input parameters are the element's identifier and the identifier of all its predecessors. For example, to update a lamp's properties, the required input parameters are: the lighting system identifier, the projector identifier, the module identifier and the lamp identifier.        
+          To create a new element, the required input parameters are the identifier of all its predecessors. For example, to create a new lamp, the required input parameters are: the lighting system identifier, the projector identifier and the module identifier.
+        
+        To access the AVxcelerate Lighting Systems API, start the server using the script provided in the *Lighting_System_Creation_API* folder:
+          - on Windows: `lighting-systems-api.ps1` 
+          - on Linux: `lighting-systems-api.sh` 
+        
+        An interactive version of the API documentation, with a Swagger interface, is available when running the script with the `start-doc` argument. 
+        
+           **Important Note**: The Lighting Systems Creation REST API is a non persistent service. Any data created or updated via REST calls is lost as soon as the service is stopped. To save your work, always download a packed version of the created or edited lighting system(s) before stopping the service.",
+        "version": "v1"
+    },
+    "paths": {
+        "/avx-lightingsystem/v1/spectrums/{id}": {
+            "delete": {
+                "tags": [
+                    "Spectrum"
+                ],
+                "summary": "Delete the spectrum file with the given identifier.",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Unique identifier of a spectrum file.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a spectrum file.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Spectrum"
+                ],
+                "summary": "Download the spectrum file with the given identifier.",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Unique identifier of a spectrum file.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a spectrum file.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/ies/{id}": {
+            "delete": {
+                "tags": [
+                    "Ies"
+                ],
+                "summary": "Delete the IES file with the given identifier.",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Unique identifier of a IES file.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a IES file.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Ies"
+                ],
+                "summary": "Download the IES file with the given identifier.",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Unique identifier of a IES file.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a IES file.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}": {
+            "delete": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "Delete a lighting system with the given identifier.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Unique identifier of a lighting system in the library.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a lighting system in the library.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "Read a lighting system with the given identifier.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Unique identifier of a lighting system in the library.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a lighting system in the library.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/LightingSystemName"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "patch": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "Update the name of an existing lighting system.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Unique identifier of a lighting system.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Unique identifier of a lighting system.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "New name.",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/LightingSystemName"
+                            }
+                        },
+                        "text/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/LightingSystemName"
+                            }
+                        },
+                        "application/*+json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/LightingSystemName"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "204": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/projectors/{projectorIdentifier}": {
+            "delete": {
+                "tags": [
+                    "Projector"
+                ],
+                "summary": "Delete a projector.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the projector to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the projector to delete.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector to delete.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Projector"
+                ],
+                "summary": "Read a projector.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the projector to read.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the projector to read.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Projector"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "patch": {
+                "tags": [
+                    "Projector"
+                ],
+                "summary": "Update the properties of an existing projector.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the projector to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the projector to update.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector to update.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Object containing the properties of the projector.",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Projector"
+                            }
+                        },
+                        "text/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Projector"
+                            }
+                        },
+                        "application/*+json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Projector"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "204": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/projectors/{projectorIdentifier}/modules/{moduleIdentifier}": {
+            "delete": {
+                "tags": [
+                    "Module"
+                ],
+                "summary": "Delete a module.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the module to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the module to delete.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector containing the module to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector containing the module to delete.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module to delete.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Module"
+                ],
+                "summary": "Read a module.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the module to read.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the module to read.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector containing the module to read.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector containing the module to read.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module to read.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module to read.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Module"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "patch": {
+                "tags": [
+                    "Module"
+                ],
+                "summary": "Update the properties of an existing Module.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the module to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the module to update.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector containing the module to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector containing the module to update.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module to update.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Object containing the properties of the module.",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Module"
+                            }
+                        },
+                        "text/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Module"
+                            }
+                        },
+                        "application/*+json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Module"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "204": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/projectors/{projectorIdentifier}/modules/{moduleIdentifier}/lamps/{lampIdentifier}": {
+            "delete": {
+                "tags": [
+                    "Lamp"
+                ],
+                "summary": "Delete a lamp.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the lamp to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the lamp to delete.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector containing the lamp to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector containing the lamp to delete.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module containing the lamp to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module containing the lamp to delete.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "lampIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lamp to delete.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the lamp to delete.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "get": {
+                "tags": [
+                    "Lamp"
+                ],
+                "summary": "Read a lamp.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "lampIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lamp to read.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the lamp to read.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Lamp"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "patch": {
+                "tags": [
+                    "Lamp"
+                ],
+                "summary": "Update the properties of an existing Lamp.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing the lamp to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing the lamp to update.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector containing the lamp to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector containing the lamp to update.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module containing the lamp to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module containing the lamp to update.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "lampIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lamp to update.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the lamp to update.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "requestBody": {
+                    "description": "Object containing the properties of the lamp.",
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Lamp"
+                            }
+                        },
+                        "text/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Lamp"
+                            }
+                        },
+                        "application/*+json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/Lamp"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "204": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/spectrums": {
+            "get": {
+                "tags": [
+                    "Spectrum"
+                ],
+                "summary": "List all the spectrum files.",
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/BlobInfo"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Spectrum"
+                ],
+                "summary": "Upload a spectrum file.",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "file": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "nullable": true
+                                    }
+                                }
+                            },
+                            "encoding": {
+                                "file": {
+                                    "style": "form"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Identifier"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/ies": {
+            "get": {
+                "tags": [
+                    "Ies"
+                ],
+                "summary": "List all the IES files.",
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/BlobInfo"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Ies"
+                ],
+                "summary": "Upload a IES file.",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "file": {
+                                        "type": "string",
+                                        "format": "binary",
+                                        "nullable": true
+                                    }
+                                }
+                            },
+                            "encoding": {
+                                "file": {
+                                    "style": "form"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Identifier"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems": {
+            "get": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "List all lighting systems.",
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/Identifier"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "Create a new empty lighting system.",
+                "responses": {
+                    "201": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Identifier"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/packed": {
+            "get": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "Download a packed lighting system to a file with the specified name or as json string.",
+                "description": "<br>If the <b>Accept</b> header is set to \"application/octet-stream\" the request result will be a *.lightingsystemx file.\r\n<br>\r\n  <code>curl -X GET \"http://localhost:5006/avx-lightingsystem/v1/lightingsystems/a91c4485-3019-4a14-b3ea-3af17654f8e6/packed?fileName=test\" -H  \"accept: application/octet-stream\"</code>\r\n\r\n<br>If the <b>Accept</b> header is set to \"application/json\" the request result will be a json string.\r\n<br>\r\n  <code>curl -X GET \"http://localhost:5006/avx-lightingsystem/v1/lightingsystems/a91c4485-3019-4a14-b3ea-3af17654f8e6/packed\" -H  \"accept: application/json\"</code>\r\n",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system in the library.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system in the library.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "fileName",
+                        "in": "query",
+                        "description": "Desired name for the packed lighting system file.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Desired name for the packed lighting system file."
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success"
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/octet-stream": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/octet-stream": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            },
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/projectors": {
+            "get": {
+                "tags": [
+                    "Projector"
+                ],
+                "summary": "List all projectors.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system containing all the projectors.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system containing all the projectors.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/IndexIdentifier"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Projector"
+                ],
+                "summary": "Create a new empty projector.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system in which the projector will be created.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system in which the projector will be created.",
+                            "format": "uuid"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/IndexIdentifier"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/projectors/{projectorIdentifier}/modules": {
+            "get": {
+                "tags": [
+                    "Module"
+                ],
+                "summary": "List all the modules contained in one of the projectors of a lighting system.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/IndexIdentifier"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Module"
+                ],
+                "summary": "Create a new empty module.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system where the module will be created.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system where the module will be created.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector where the module will be instantiated.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector where the module will be instantiated.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/IndexIdentifier"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/{lightingSystemIdentifier}/projectors/{projectorIdentifier}/modules/{moduleIdentifier}/lamps": {
+            "get": {
+                "tags": [
+                    "Lamp"
+                ],
+                "summary": "List all lamps contained in the module of a lighting system.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/IndexIdentifier"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "post": {
+                "tags": [
+                    "Lamp"
+                ],
+                "summary": "Create a new empty lamp.",
+                "parameters": [
+                    {
+                        "name": "lightingSystemIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the lighting system.",
+                        "required": true,
+                        "schema": {
+                            "type": "string",
+                            "description": "Identifier of the lighting system.",
+                            "format": "uuid"
+                        }
+                    },
+                    {
+                        "name": "projectorIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the projector.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the projector.",
+                            "format": "int32"
+                        }
+                    },
+                    {
+                        "name": "moduleIdentifier",
+                        "in": "path",
+                        "description": "Identifier of the module in which the lamp will be created.",
+                        "required": true,
+                        "schema": {
+                            "type": "integer",
+                            "description": "Identifier of the module in which the lamp will be created.",
+                            "format": "int32"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Success",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/IndexIdentifier"
+                                }
+                            }
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/avx-lightingsystem/v1/lightingsystems/packed": {
+            "post": {
+                "tags": [
+                    "Lighting system"
+                ],
+                "summary": "Upload a packed lighting system.",
+                "description": "<br>If the <b>Accept</b> header is set to \"application/octet-stream\" the request input will be a *.lightingsystemx file.\r\n<br>\r\n  <code>curl -X GET \"http://localhost:5006/avx-lightingsystem/v1/lightingsystems/a91c4485-3019-4a14-b3ea-3af17654f8e6/packed?fileName=test\" -H  \"accept: application/octet-stream\"</code>\r\n\r\n<br>If the <b>Accept</b> header is set to \"application/json\" the request input will be a json string.\r\n<br>\r\n  <code>curl -X GET \"http://localhost:5006/avx-lightingsystem/v1/lightingsystems/a91c4485-3019-4a14-b3ea-3af17654f8e6/packed\" -H  \"accept: application/json\"</code>\r\n",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "fileName": {
+                                        "type": "string",
+                                        "description": "Name of the packed lighting system file to upload.",
+                                        "format": "binary",
+                                        "nullable": true
+                                    }
+                                }
+                            },
+                            "encoding": {
+                                "fileName": {
+                                    "style": "form"
+                                }
+                            }
+                        },
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "fileName": {
+                                        "type": "string",
+                                        "description": "Name of the packed lighting system file to upload.",
+                                        "format": "binary",
+                                        "nullable": true
+                                    }
+                                }
+                            },
+                            "encoding": {
+                                "fileName": {
+                                    "style": "form"
+                                }
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "201": {
+                        "description": "Success"
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    },
+                    "default": {
+                        "description": "Error",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ProblemDetails"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "ProblemDetails": {
+                "type": "object",
+                "properties": {
+                    "type": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "title": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "status": {
+                        "type": "integer",
+                        "format": "int32",
+                        "nullable": true
+                    },
+                    "detail": {
+                        "type": "string",
+                        "nullable": true
+                    },
+                    "instance": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "additionalProperties": {}
+            },
+            "LightingSystemName": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "additionalProperties": false
+            },
+            "Translation": {
+                "type": "object",
+                "properties": {
+                    "x": {
+                        "type": "number",
+                        "description": "X value of translation (Meter).",
+                        "format": "double"
+                    },
+                    "y": {
+                        "type": "number",
+                        "description": "Y value of translation (Meter).",
+                        "format": "double"
+                    },
+                    "z": {
+                        "type": "number",
+                        "description": "Z value of translation (Meter).",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false,
+                "description": "Represents translation."
+            },
+            "Rotation": {
+                "type": "object",
+                "properties": {
+                    "x": {
+                        "type": "number",
+                        "description": "X value of rotation (Degree).",
+                        "format": "double"
+                    },
+                    "y": {
+                        "type": "number",
+                        "description": "Y value of rotation (Degree).",
+                        "format": "double"
+                    },
+                    "z": {
+                        "type": "number",
+                        "description": "Z value of rotation (Degree).",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false,
+                "description": "Represents rotation."
+            },
+            "Projector": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the projector.",
+                        "nullable": true
+                    },
+                    "translation": {
+                        "$ref": "#/components/schemas/Translation"
+                    },
+                    "rotation": {
+                        "$ref": "#/components/schemas/Rotation"
+                    }
+                },
+                "additionalProperties": false,
+                "description": "Represents a projector."
+            },
+            "Identifier": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "format": "uuid"
+                    }
+                },
+                "additionalProperties": false
+            },
+            "Module": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the module.",
+                        "nullable": true
+                    },
+                    "translation": {
+                        "$ref": "#/components/schemas/Translation"
+                    },
+                    "rotation": {
+                        "$ref": "#/components/schemas/Rotation"
+                    },
+                    "spectrumId": {
+                        "$ref": "#/components/schemas/Identifier"
+                    }
+                },
+                "additionalProperties": false,
+                "description": "Represents a module."
+            },
+            "Lamp": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string",
+                        "description": "The name of the lamp.",
+                        "nullable": true
+                    },
+                    "intensityId": {
+                        "$ref": "#/components/schemas/Identifier"
+                    },
+                    "flux": {
+                        "type": "number",
+                        "description": "The flux (Lumen).",
+                        "format": "double"
+                    }
+                },
+                "additionalProperties": false,
+                "description": "Represents a lamp."
+            },
+            "BlobInfo": {
+                "type": "object",
+                "properties": {
+                    "identifier": {
+                        "type": "string",
+                        "format": "uuid"
+                    },
+                    "name": {
+                        "type": "string",
+                        "nullable": true
+                    }
+                },
+                "additionalProperties": false
+            },
+            "IndexIdentifier": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "format": "int32"
+                    }
+                },
+                "additionalProperties": false
+            }
+        }
+    }
+}

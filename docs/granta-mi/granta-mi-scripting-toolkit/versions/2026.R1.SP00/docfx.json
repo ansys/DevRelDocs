@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Granta MI Scripting Toolkit 5.0",
+        "summary": "Granta MI Scripting Toolkit documentation",
+        "version": "5.0",
+        "product": "Granta MI",
+        "programming language": "Python",
+        "physics": "Connect"
+      }
+    }
+ }

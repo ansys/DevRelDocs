@@ -1,0 +1,30 @@
+- name: Introduction
+  href: index.md
+- name: User guide
+  items:
+  - name: EnSight command interface
+    href: user-guide/ensight-command.md
+  - name: EnSight Python interface
+    href: user-guide/ensight__grpc.md
+- name: Reference
+  items:
+  - name: Classes
+    items:
+    - name: EnSightGRPC
+      href: reference/classes/classensight__grpc_1_1_en_sight_g_r_p_c.md
+  - name: Files
+    items:
+    - name: dynamic_scene_graph.proto
+      href: reference/files/dynamic__scene__graph_8proto.md
+    - name: dynamic_scene_graph_service_entities.md
+      href: reference/files/dynamic__scene__graph__service__entities_8md.md
+    - name: ensight.proto
+      href: reference/files/ensight_8proto.md
+    - name: ensight_grpc.py
+      href: reference/files/ensight__grpc_8py.md
+  - name: Namespaces
+    items:
+    - name: ensight_grpc
+      href: reference/namespaces/namespaceensight__grpc.md
+- name: Changelog
+  href: changelog.md
