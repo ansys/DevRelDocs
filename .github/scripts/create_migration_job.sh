@@ -111,27 +111,35 @@ get_product_documentation_metadata() {
   local -n _ref_product_version=$4
   local -n _ref_physics=$5
 
+  # Determine the baseline commit for git-diff. Fall back to HEAD~1 if
+  # BEFORE_SHA is empty (force push) or all-zeros (new branch).
+  local _base_commit="${BEFORE_SHA:-}"
+  if ! git rev-parse --verify -q "${_base_commit}" >/dev/null; then
+    _base_commit="HEAD~1"
+  fi
+
+  echo "Comparing baseline commit (${_base_commit}) with head (HEAD)"
+
   # Identify affected product version directories.
-  local _version_dirs
-  # Do not skip merge commits with multiple parents!
-  _version_dirs=$(git diff-tree --no-commit-id --name-only -r -m HEAD | grep -oP "${PRODUCT_VERSION_DIR_REGEX}" | sort -u || true)
-  if [[ -z "${_version_dirs}" ]]; then
+  local _affected_dirs
+  _affected_dirs=$(git diff --name-only "${_base_commit}" HEAD | grep -oP "${PRODUCT_VERSION_DIR_REGEX}" | sort -u || true)
+  if [[ -z "${_affected_dirs}" ]]; then
     echo "No product documentation changes detected. Exiting."
     return 2
   fi
 
-  # Check how many version directories are found.
-  local _version_dir_count
-  _version_dir_count=$(echo "${_version_dirs}" | wc -l)
-  if [ "${_version_dir_count}" -gt 1 ]; then
-    local _version_dir_list
-    _version_dir_list=$(echo "${_version_dirs}" | xargs -d '\n')
-    echo "::error::Multiple product documentation changes detected: ${_version_dir_list}." >&2
+  # Check how many version directories are affected.
+  local _affected_dir_count
+  _affected_dir_count=$(echo "${_affected_dirs}" | wc -l)
+  if [ "${_affected_dir_count}" -gt 1 ]; then
+    local _affected_dir_list
+    _affected_dir_list=$(echo "${_affected_dirs}" | xargs -d '\n')
+    echo "::error::Multiple product documentation changes detected: ${_affected_dir_list}." >&2
     return 1
   fi
 
   # The product documentation's source path.
-  _ref_source_path="${_version_dirs}"
+  _ref_source_path="${_affected_dirs}"
   echo "Product documentation changes detected in ${_ref_source_path}"
 
   # Locate docfx.json.
