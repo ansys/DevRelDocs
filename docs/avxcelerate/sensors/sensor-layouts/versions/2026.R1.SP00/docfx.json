@@ -1,0 +1,11 @@
+{
+  "build": {
+    "globalMetadata": {
+      "summary": "Sensor Layouts for AVxcelerate 2026 R1 SP00",
+      "description": "This document is intended for developers who need to streamline the preparation of AVX assets and tracks, AVxcelerate Asset Preparation API exposes the interfaces required to prepare AVX assets and tracks.",
+      "product": "AVxcelerate Sensors",
+      "physics": "Autonomous Vehicle Simulation",
+      "doc_type": "rest_api"
+    }
+  }
+}

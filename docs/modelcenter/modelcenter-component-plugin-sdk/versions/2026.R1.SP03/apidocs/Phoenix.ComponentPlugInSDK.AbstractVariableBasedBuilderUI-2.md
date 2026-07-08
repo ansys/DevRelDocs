@@ -1,0 +1,102 @@
+# Class AbstractVariableBasedBuilderUI<RUNNER, MODEL>
+
+Namespace: [Phoenix.ComponentPlugInSDK](Phoenix.ComponentPlugInSDK.md)  
+Assembly: Phoenix.ComponentPlugInSDK.dll
+
+This class provides a common UI for a variable based HarnessBuilderUI component.
+
+```csharp
+public abstract class AbstractVariableBasedBuilderUI<RUNNER, MODEL> : AbstractModelBasedBuilderUI<RUNNER, MODEL>, IHarnessBuilderUI<RUNNER>, IHarnessBuilderUIBase, IDisposable where RUNNER : IHarnessRunner where MODEL : VariableBasedBuilderModel, new()
+
+```
+
+#### Type Parameters
+
+`RUNNER`
+
+The type of IHarnessRunner that this builder edits.
+
+`MODEL`
+
+A type that extends VariableBasedBuilderModel to use as the Model for this instance.
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ←
+AbstractDisposable ←
+[AbstractBuilderUI<RUNNER>](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.md) ←
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.md) ←
+[AbstractVariableBasedBuilderUI<RUNNER, MODEL>](Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.md)
+
+#### Implements
+
+IHarnessBuilderUI<RUNNER>,
+IHarnessBuilderUIBase,
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>.LoadFromPaczAsync(IExtractedPacz)](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.LoadFromPaczAsync.md#Phoenix_ComponentPlugInSDK_AbstractModelBasedBuilderUI_2_LoadFromPaczAsync_Phoenix_PaczAPI_IExtractedPacz_),
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>.SaveToPaczAsync(IExtractedPacz)](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.SaveToPaczAsync.md#Phoenix_ComponentPlugInSDK_AbstractModelBasedBuilderUI_2_SaveToPaczAsync_Phoenix_PaczAPI_IExtractedPacz_),
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>.Model](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.Model.md#Phoenix_ComponentPlugInSDK_AbstractModelBasedBuilderUI_2_Model),
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>.ConstructAsync(IHarnessBuilderUIHost<RUNNER>)](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.ConstructAsync.md#Phoenix_ComponentPlugInSDK_AbstractModelBasedBuilderUI_2_ConstructAsync_Phoenix_ComponentBuilderAPI_IHarnessBuilderUIHost__0__),
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>._saveAsync(IBuilderUIModel)](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2._saveAsync.md#Phoenix_ComponentPlugInSDK_AbstractModelBasedBuilderUI_2__saveAsync_Phoenix_ComponentPlugInSDK_Models_IBuilderUIModel_),
+[AbstractModelBasedBuilderUI<RUNNER, MODEL>.Dispose(bool)](Phoenix.ComponentPlugInSDK.AbstractModelBasedBuilderUI-2.Dispose.md#Phoenix_ComponentPlugInSDK_AbstractModelBasedBuilderUI_2_Dispose_System_Boolean_),
+[AbstractBuilderUI<RUNNER>._window](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1._window.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1__window),
+[AbstractBuilderUI<RUNNER>.Dispose(bool)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.Dispose.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_Dispose_System_Boolean_),
+[AbstractBuilderUI<RUNNER>.ComponentName](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ComponentName.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_ComponentName),
+[AbstractBuilderUI<RUNNER>.ComponentIcon](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ComponentIcon.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_ComponentIcon),
+[AbstractBuilderUI<RUNNER>.CreateWindow()](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.CreateWindow.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_CreateWindow),
+[AbstractBuilderUI<RUNNER>.AddMenuItem(ItemsControl, string, RoutedEventHandler)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddMenuItem.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_AddMenuItem_System_Windows_Controls_ItemsControl_System_String_System_Windows_RoutedEventHandler_),
+[AbstractBuilderUI<RUNNER>.AddAsyncMenuItem(ItemsControl, string, AbstractBuilderUI<RUNNER>.RoutedEventHandlerAsync)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddAsyncMenuItem.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_AddAsyncMenuItem_System_Windows_Controls_ItemsControl_System_String_Phoenix_ComponentPlugInSDK_AbstractBuilderUI__0__RoutedEventHandlerAsync_),
+[AbstractBuilderUI<RUNNER>.AddMenuItem(ItemsControl, string, ImageType, bool, RoutedEventHandler)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddMenuItem.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_AddMenuItem_System_Windows_Controls_ItemsControl_System_String_Phoenix_ComponentPlugInSDK_Images_ImageType_System_Boolean_System_Windows_RoutedEventHandler_),
+[AbstractBuilderUI<RUNNER>.AddAsyncMenuItem(ItemsControl, string, ImageType, bool, AbstractBuilderUI<RUNNER>.RoutedEventHandlerAsync)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddAsyncMenuItem.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_AddAsyncMenuItem_System_Windows_Controls_ItemsControl_System_String_Phoenix_ComponentPlugInSDK_Images_ImageType_System_Boolean_Phoenix_ComponentPlugInSDK_AbstractBuilderUI__0__RoutedEventHandlerAsync_),
+[AbstractBuilderUI<RUNNER>.AddMenuItem(ItemsControl, string, ImageSource, bool, RoutedEventHandler)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddMenuItem.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_AddMenuItem_System_Windows_Controls_ItemsControl_System_String_System_Windows_Media_ImageSource_System_Boolean_System_Windows_RoutedEventHandler_),
+[AbstractBuilderUI<RUNNER>.AddAsyncMenuItem(ItemsControl, string, ImageSource, bool, AbstractBuilderUI<RUNNER>.RoutedEventHandlerAsync)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.AddAsyncMenuItem.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_AddAsyncMenuItem_System_Windows_Controls_ItemsControl_System_String_System_Windows_Media_ImageSource_System_Boolean_Phoenix_ComponentPlugInSDK_AbstractBuilderUI__0__RoutedEventHandlerAsync_),
+[AbstractBuilderUI<RUNNER>.SelectVariables(IEnumerable<IRuntimeVariable>, IEnumerable<IRuntimeVariable>, IPlugInViewModel, string, string, string)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.SelectVariables.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_SelectVariables_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__Phoenix_ComponentPlugInSDK_ViewModels_IPlugInViewModel_System_String_System_String_System_String_),
+[AbstractBuilderUI<RUNNER>.SelectVariables(AbstractVariableProvider, IPlugInViewModel, string)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.SelectVariables.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_SelectVariables_Phoenix_ComponentPlugInSDK_AbstractVariableProvider_Phoenix_ComponentPlugInSDK_ViewModels_IPlugInViewModel_System_String_),
+[AbstractBuilderUI<RUNNER>.SetPaczIcon(Uri, string)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.SetPaczIcon.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_SetPaczIcon_System_Uri_System_String_),
+[AbstractBuilderUI<RUNNER>.HarnessType](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.HarnessType.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_HarnessType),
+[AbstractBuilderUI<RUNNER>.WindowClosed](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.WindowClosed.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_WindowClosed),
+[AbstractBuilderUI<RUNNER>.Host](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.Host.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_Host),
+[AbstractBuilderUI<RUNNER>.ConstructAsync(IHarnessBuilderUIHost<RUNNER>)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ConstructAsync.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_ConstructAsync_Phoenix_ComponentBuilderAPI_IHarnessBuilderUIHost__0__),
+[AbstractBuilderUI<RUNNER>.ShowAsync()](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.ShowAsync.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_ShowAsync),
+[AbstractBuilderUI<RUNNER>.TrySaveAsync()](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.TrySaveAsync.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_TrySaveAsync),
+[AbstractBuilderUI<RUNNER>.DisplayException(Exception)](Phoenix.ComponentPlugInSDK.AbstractBuilderUI-1.DisplayException.md#Phoenix_ComponentPlugInSDK_AbstractBuilderUI_1_DisplayException_System_Exception_),
+AbstractDisposable.disposed,
+AbstractDisposable.Dispose(),
+AbstractDisposable.IsDisposed,
+AbstractDisposable.Dispose(bool),
+[object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring),
+[object.Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)),
+[object.Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)),
+[object.ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals),
+[object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode),
+[object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype),
+[object.MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+
+## Methods
+
+[CreateWindow()](Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.CreateWindow.md#Phoenix_ComponentPlugInSDK_AbstractVariableBasedBuilderUI_2_CreateWindow)
+
+Creates the Main Window of the Builder UI. It is recommended that all implementations return
+a Window that implements `Phoenix.ComponentPlugInSDK.Views.ISaveableWindow`. If the window does not, then requests
+from the OEM to save the UI via `Phoenix.ComponentBuilderAPI.IHarnessBuilderUIBase.TrySaveAsync` will silently
+return true.
+
+[GetFileLoadProperties()](Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.GetFileLoadProperties.md#Phoenix_ComponentPlugInSDK_AbstractVariableBasedBuilderUI_2_GetFileLoadProperties)
+
+Gets the properties for file loading.
+This included the function to call to load a file, and the file filter.
+
+[GetTreeProperties()](Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.GetTreeProperties.md#Phoenix_ComponentPlugInSDK_AbstractVariableBasedBuilderUI_2_GetTreeProperties)
+
+Gets the properties for configuring the VariableTree.
+
+[SetupView(IExtractedPacz, VariableBasedBuilderViewModel, Menu)](Phoenix.ComponentPlugInSDK.AbstractVariableBasedBuilderUI-2.SetupView.md#Phoenix_ComponentPlugInSDK_AbstractVariableBasedBuilderUI_2_SetupView_Phoenix_PaczAPI_IExtractedPacz_Phoenix_ComponentPlugInSDK_ViewModels_VariableBasedBuilderViewModel_System_Windows_Controls_Menu_)
+
+Called before the mainWindow is shown.
+This is where the view should be initialized. And Builder options loaded from the Pacz.
+Allows setup and customization of the mainMenu for windows that have them.
+This should be called by CreateWindow to allow derived classes to customize the menu.
+The mainMenu is visible by default, and already has an apply button that saves the builder.

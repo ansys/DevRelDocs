@@ -1,0 +1,11 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "AVxcelerate Simulation Framework 2026 R1",
+      "summary": "",
+      "version": "2026 R1",
+      "product": "AVxcelerate Autonomy API",
+      "physics": "Autonomous Vehicle Simulation"
+    }
+  }
+}

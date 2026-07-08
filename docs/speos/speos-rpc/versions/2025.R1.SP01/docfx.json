@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Speos RPC 2025 R1 SP01",
+        "summary": "",
+        "version": "2025 R1 SP01",
+        "product": "Speos",
+        "programming language": "IronPython",
+        "product collection": "Optics",
+        "physics": "Optics"
+      }
+    }
+ }

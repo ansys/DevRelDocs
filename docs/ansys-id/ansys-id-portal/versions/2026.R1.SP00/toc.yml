@@ -1,0 +1,6 @@
+- name: Overview
+  href: index.md
+- name: Entra ID setup
+  href: entra-setup.md
+
+

@@ -1,0 +1,13 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "optiSLang Python API 2026 R1",
+            "summary": "optiSLang Python API",
+            "version": "2026 R1",
+            "product": "optiSLang",
+            "programming language": "Python",
+            "product collection": "Connect",
+            "physics": "Connect"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "VR Sound API 2026 R1",
+        "summary": "",
+        "version": "2026 R1",
+        "product": "Ansys Sound",
+        "programming language": "OSC",
+        "physics": "Acoustics"
+      }
+    }
+ }

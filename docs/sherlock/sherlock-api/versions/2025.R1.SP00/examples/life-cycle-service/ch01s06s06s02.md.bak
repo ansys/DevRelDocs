@@ -1,0 +1,55 @@
+# Example: Add Random Vibe Profiles
+
+## Proto Request Example
+
+
+
+    {
+      "project": "Tutorial Project",
+      "randomVibeProfiles": [
+        {
+          "phaseName": "On The Road",
+          "eventName": "1 - Vibration",
+          "profileName": "First Random Vibe Profile",
+          "freqUnits": "HZ",
+          "amplUnits": "G2/Hz",
+          "randomVibeProfileEntries": [
+            {
+              "freq": 10,
+              "ampl": 15
+            },
+            {
+              "freq": 100,
+              "ampl": 10
+            }
+          ]
+        },
+        {
+          "phaseName": "Environmental",
+          "eventName": "Test RV",
+          "profileName": "Second Random Vibe Profile",
+          "freqUnits": "HZ",
+          "amplUnits": "G2/Hz",
+          "randomVibeProfileEntries": [
+            {
+              "freq": 100,
+              "ampl": 150
+            },
+            {
+              "freq": 1000,
+              "ampl": 100
+            }
+          ]
+        }
+      ]
+    }
+
+## Python Example
+
+For a Python example, refer to the online [PySherlock Reference](https://sherlock.docs.pyansys.com/version/stable/api/index.html).
+
+* * *
+
+| [Prev](../ch01s06s06.md) | [Up](../ch01s06s06.md) / [Contents](../index.md) / [Home](../../../index.htm) | [Next](../ch01s06s06s03.md) |
+| --------------------- | -------------------------------------------------------------------- | ------------------------ |
+

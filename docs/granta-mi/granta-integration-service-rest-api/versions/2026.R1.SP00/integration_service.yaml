@@ -1,0 +1,479 @@
+openapi: 3.0.0
+info:
+  version: 1.0.0
+  title: Granta Integration Service
+  description: Integration Service OpenAPI
+
+servers:
+  - url: https://integration.service/api/v1/
+
+components:
+  securitySchemes:
+    OpenId:
+      type: openIdConnect
+      openIdConnectUrl: https://azeww22wpoidc01.win.ansys.com/
+
+  schemas:
+    Themes:
+      description: Themes available in the Granta Material Picker application.
+      type: string
+      enum:
+        # Due to a bug in the C# code generator, we need to put the default option first
+        - auto
+        - classic
+        - light
+        - dark
+      # This does nothing in C# generator. Instead we rely on first item being default.
+      default: auto
+
+    SessionSettings:
+      description: Information associated with a session.
+      type: object
+      properties:
+        title:
+          description: (Required) The name of the host application. This will be displayed at the top of your Granta Material Picker application. For example, if you specify 'MyApplicationName' it will appear as "Granta Material Picker > MyApplicationName.
+          type: string
+          default: None
+        packageName:
+          description: "The analysis package that the material model data is required to be compatible with. Filters the material models that can be selected in the Granta Material Picker. Supported package names are: Workbench, Mechanical, LS-DYNA, Discovery, Electronics Desktop, Motor-CAD, Sherlock, Fluent."
+          type: string
+          default: None
+        exportUnitSystem:
+          description: The unit system that the Material Model Output data from a Session Data GET will conform to.
+          type: string
+          default: "SI (Consistent)"
+        displayUnitSystem:
+          description: The unit system that will be used to display attribute values and search results in the Granta Material Picker.
+          type: string
+          default: "Metric"
+        multiselectEnabled:
+          description: Enables multiple selection of materials in the Granta Material Picker.
+          type: boolean
+          default: true
+        maxRecordBatch:
+          description: The maximum number of Material Model records that will be returned in a Session Data GET request.
+          type: integer
+          minimum: 1
+          maximum: 255
+          default: 50
+        pollSeconds:
+          description: The maximum number of seconds that a Session Data GET request will block.
+          type: integer
+          minimum: 0
+          maximum: 86400
+          default: 50
+        mmsApiVersion:
+          description: The version of the Granta Material Model Service API to use.
+          type: string
+          default: "v1"
+        theme:
+          description: The theme to use in the Granta Material Picker application.
+          $ref: '#/components/schemas/Themes'
+
+    SessionRequest:
+      description: Data for creating a session by a POST session request.
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          description: A name associated with the session. The name may be unique to a session or could be shared by several sessions.
+          type: string
+          minLength: 1
+        settings:
+          description: The settings to be used for this session.
+          $ref: '#/components/schemas/SessionSettings'
+
+    Session:
+      description: The data returned from a successful POST session request.
+      allOf:
+        - $ref: '#/components/schemas/SessionRequest'
+        - type: object
+          required:
+            - id
+            - expiresAt
+          properties:
+            id:
+              description: The unique global identifier for this session.
+              type: string
+              format: uuid
+            expiresAt:
+              description: The date and time when this Session expires. UTC ISO8601 format (YYYY:MM:DDTHH:MM:SSZ). .
+              type: string
+              format: date-time
+
+    Data:
+      description: Holds Session data uploaded by the Granta Material Picker via a Sessions data POST request
+      type: object
+      required:
+        - value
+      properties:
+        value:
+          description: JSON string holding the data. For the Granta Integration Service, this is currently JSON object text.
+          type: string
+
+    SequencedData:
+      description: Result of a GET sessions data request. This is the session data tagged with a sequence id.
+      allOf:
+        - $ref: '#/components/schemas/Data'
+        - type: object
+          required:
+            - id
+          properties:
+            id:
+              description: Sequence identity. Message count value used to diffentiate messages for a given session.
+              type: integer
+
+    HttpError:
+      description: Returned by requests if an error occurs. Holds HTTP status code and message
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          description: "Fixed field indicating this is an error"
+          type: object
+          required:
+            - code
+            - message
+          properties:
+            code:
+              description: Text representation of Http status code category
+              type: string
+            message:
+              description: A string describing the specific error that occurred.
+              type: string
+
+    DeletionReason:
+      description: Reason for deleting a session
+      type: string
+      enum:
+        - unspecified
+        - completed
+        - canceled
+
+  parameters:
+    SessionUid:
+      description: Universally Unique identifier for a session.
+      name: uid
+      in: path
+      required: true
+      schema:
+        type: string
+        format: uuid
+    DataSid:
+      description: Sequence identifier for a session data message.
+      name: id
+      in: query
+      schema:
+        type: integer
+    ReasonForSessionDeletion:
+      description: Reason for deleting a session.
+      name: reason
+      in: query
+      required: false
+      schema:
+        $ref: '#/components/schemas/DeletionReason'
+         
+security:
+  - OpenId:
+      - is_read
+      - is_write
+      - is_read_write
+
+paths:
+  /sessions:
+    post:
+      operationId: sessions-post
+      description: >
+        Creates a new session with a given name and settings (including display name of session in the Granta Material Picker).
+        Returns original session request data together with a unique id and expiry date and time.
+      x-aspnetcore-produces:
+        - application/json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SessionRequest'
+      responses:
+        '201':
+          description: Session object was successfully created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Session'
+        '400':
+          description: Bad request data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '507':
+          description: Number of sessions limit reached
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+  /sessions/{uid}:
+    get:
+      operationId: sessions-uid-get
+      description: Gets session info for the given session
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+      x-aspnetcore-produces:
+        - application/json
+      responses:
+        '200':
+          description: Session object was successfully retrieved
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Session'
+        '400':
+          description: Malformed UUID
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Required Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Required Session object not present
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+    delete:
+      operationId: sessions-uid-delete
+      description: Deletes the given session
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+        - $ref: '#/components/parameters/ReasonForSessionDeletion'
+      x-aspnetcore-produces:
+        - application/json
+      responses:
+        '204':
+          description: Session object was successfully deleted
+        '400':
+          description: Malformed UUID or query param has invalid value
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Required Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Required Session object not present
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+  /sessions/{uid}/deleted:
+    get:
+      operationId: sessions-uid-deleted-get
+      description: Obtains session deleted notification via SSE event.
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+      x-aspnetcore-produces:
+        - text/event-stream
+      responses:
+        '200':
+          description: >
+            Event stream that returns the following notifications: 'accepted'
+            when the request for notification is received, and 'deleted' (with reason for session deletion)
+            when the session is successfully deleted.
+          content:
+            text/event-stream:
+              schema:
+                type: object
+                properties:
+                  event:
+                    type: string
+                    enum: [deleted,accepted]
+                  data:
+                    type: object
+                    properties:
+                      reason:
+                        $ref: '#/components/schemas/DeletionReason'
+        '400':
+          description: Malformed session UUID or data sid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Session not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+
+  /sessions/{uid}/data:
+    get:
+      operationId: sessions-uid-data-get
+      description: Obtains model data for a session
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+        - $ref: '#/components/parameters/DataSid'
+      x-aspnetcore-produces:
+        - application/json
+      responses:
+        '200':
+          description: Successfully obtained session data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SequencedData'
+        '204':
+          description: Timed out waiting for data. Try again.
+        '400':
+          description: Malformed session UUID or data sid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Required Session object not present
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '410':
+          description: Required data was previously deleted.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+    post:
+      operationId: sessions-uid-data-post
+      description: Upload model data for a session
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+      x-aspnetcore-produces:
+        - application/json
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Data'
+      responses:
+        '201':
+          description: Successfully uploaded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SequencedData'
+        '400':
+          description: Bad request data (Malformed UUID or invalid JSON)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Required Session object not present
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+    delete:
+      operationId: sessions-uid-data-delete
+      description: Deletes model data for a session
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+        - $ref: '#/components/parameters/DataSid'
+      x-aspnetcore-produces:
+        - application/json
+      responses:
+        '204':
+          description: Successfully deleted
+        '400':
+          description: Malformed session UUID or data sid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Session not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+  /sessions/{uid}/data/sse:
+    get:
+      operationId: sessions-uid-data-sse-get
+      description: >
+        Obtains model data for a session via SSE events.
+        Events either start from the given data sid or
+        from the lowest data sid currently available for the session.
+      parameters:
+        - $ref: '#/components/parameters/SessionUid'
+        - $ref: '#/components/parameters/DataSid'
+      x-aspnetcore-produces:
+        - text/event-stream
+      responses:
+        '200':
+          description: Successfully obtained session data
+          content:
+            text/event-stream:
+              schema:
+                $ref: '#/components/schemas/SequencedData'
+        '400':
+          description: Malformed session UUID or data sid
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '403':
+          description: Session is not owned by user
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+        '404':
+          description: Session not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HttpError'
+
+                

@@ -1,0 +1,14 @@
+name: GitHub actions wf
+ 
+on:
+  push:
+    branches:
+      - main
+ 
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+ 
+    steps:
+      - name: Checkout PR files
+        uses: actions/checkout@v4

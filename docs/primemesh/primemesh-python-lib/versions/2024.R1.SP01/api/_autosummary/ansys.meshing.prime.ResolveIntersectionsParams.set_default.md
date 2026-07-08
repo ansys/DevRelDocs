@@ -1,0 +1,11 @@
+# ansys.meshing.prime.ResolveIntersectionsParams.set_default
+
+#### *static* ResolveIntersectionsParams.set_default(number_of_threads=None)
+
+Set the default values of ResolveIntersectionsParams.
+
+* **Parameters:**
+  **number_of_threads: int, optional**
+  : Number of threads for resolve intersections multithreaded operation.
+
+<!-- !! processed by numpydoc !! -->

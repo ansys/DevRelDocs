@@ -1,0 +1,746 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Sensor Layouts",
+    "description": "The Sensor Layouts REST API allows you to manage your Sensor Layouts Library, create new sensor layouts or update existing ones, and download sensor layouts as files.",
+    "version": "v2"
+  },
+  "paths": {
+    "/avx-sensorlabs/v2/sensorlayouts/{id}": {
+      "delete": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Delete the sensor layout from the library.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of the sensor layout in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LayoutRead.Identifier"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Read the sensor layout with the given id.",
+        "description": "The existing identifiers in the library can be seen in ```SensorLayoutLibrary -> GET: /sensorlayouts```.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of the sensor layout in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Update the sensor layout given by its id with the information in the body",
+        "description": "To get the correct json structure, use the ```GET: /sensorlayouts/{id}``` service.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of the sensor layout in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Json containing all properties of the sensor layout.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LayoutRead.Identifier"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v2/sensorlayouts": {
+      "delete": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Delete all the sensor layouts from the library.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "List all sensors layouts available in the library.",
+        "description": "<br>Valid sensor layouts will be displayed under validLayouts, with their id, name and metadata.\r\n<br>\r\n                    If there are any corrupted sensor layouts, they are deleted from the library and their names will appear in corruptedLayoutNames,\r\n                    or if the name cannot be retrieved, the flag anyDeleted will be set to true.\r\n                ",
+        "parameters": [
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Number of initial sensor layouts to skip.",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 0
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Number of sensor layouts to retrieve.",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 5
+            }
+          },
+          {
+            "name": "sortByName",
+            "in": "query",
+            "description": "Should sensor layouts be sorted by name.",
+            "schema": {
+              "type": "boolean",
+              "default": true
+            }
+          },
+          {
+            "name": "Pattern",
+            "in": "query",
+            "description": "Filters sensor layouts by sensor layout name, Accepted formats are:\r\n<br>\r\n    for exact match: ```name```.\r\n<br>\r\n    for match containing text: ```_name_```.\r\n",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SensorType",
+            "in": "query",
+            "description": "Filters sensor layouts by type(s) of sensors (Camera, FisheyeCamera,ThermalCamera, RotatingLidar, FlashingLidar, Radar) the layouts include.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "VehicleModel",
+            "in": "query",
+            "description": "Filters sensor layouts by vehicle model.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Manufacturer",
+            "in": "query",
+            "description": "Filters sensor layouts by manufacturer.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Version",
+            "in": "query",
+            "description": "Filters sensor layouts by version.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutsInformation"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Create a new empty sensor layout.",
+        "parameters": [
+          {
+            "name": "copyOf",
+            "in": "query",
+            "description": "Create a copy of the sensor with the given id. In this case the POST body should contain the desired name.",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "layoutName",
+            "in": "query",
+            "description": "Name of the sensor layout to create.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LayoutRead.Identifier"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v2/sensorlayouts/{id}/packed/{sensorLayoutName}": {
+      "get": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Download a sensor layout to a file with the specified name.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of the  sensor layout in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "sensorLayoutName",
+            "in": "path",
+            "description": "Desired name for the packed sensor layout file.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v2/sensorlayouts/packed": {
+      "post": {
+        "tags": [
+          "SensorLayouts"
+        ],
+        "summary": "Upload a packed sensor layout and add it to the library.",
+        "description": "Conflicts might appear if a sensor layout with the same name already exists in the library or if sensors with the same name already exist in the library.",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "sensorLayoutName": {
+                    "type": "string"
+                  },
+                  "overwrite": {
+                    "type": "boolean"
+                  },
+                  "sensorUpdatesJson": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                },
+                "sensorLayoutName": {
+                  "style": "form"
+                },
+                "overwrite": {
+                  "style": "form"
+                },
+                "sensorUpdatesJson": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LayoutRead.Identifier"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "LayoutRead.Identifier": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v2.Data.LayoutData": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutMetadata"
+          },
+          "root": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.TreeNode"
+          },
+          "missingSensorNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of missing sensor names.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v2.Data.LayoutInfo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Metadata"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v2.Data.LayoutMetadata": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the layout.",
+            "nullable": true
+          },
+          "manufacturer": {
+            "type": "string",
+            "description": "Manufacturer.",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "description": "Version.",
+            "nullable": true
+          },
+          "comment": {
+            "type": "string",
+            "description": "Comment.",
+            "nullable": true
+          },
+          "vehicleModel": {
+            "type": "string",
+            "description": "Vehicle model.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Metadata of the layout."
+      },
+      "Pre.SensorLayouts.v2.Data.LayoutsInformation": {
+        "type": "object",
+        "properties": {
+          "totalLayoutsCount": {
+            "type": "integer",
+            "description": "Layout count.",
+            "format": "int32"
+          },
+          "validLayouts": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.LayoutInfo"
+            },
+            "description": "Valid layouts count.",
+            "nullable": true
+          },
+          "anyDeleted": {
+            "type": "boolean",
+            "description": "Indicate if any of the corrupted layout is deleted"
+          },
+          "corruptedLayoutNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of corrupted layouts.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Layout information."
+      },
+      "Pre.SensorLayouts.v2.Data.Metadata": {
+        "type": "object",
+        "properties": {
+          "manufacturer": {
+            "type": "string",
+            "description": "Manufacturer.",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "description": "Version.",
+            "nullable": true
+          },
+          "comment": {
+            "type": "string",
+            "description": "Comment.",
+            "nullable": true
+          },
+          "vehicleModel": {
+            "type": "string",
+            "description": "Vehicle model.",
+            "nullable": true
+          },
+          "cameraCount": {
+            "type": "integer",
+            "description": "Number of Cameras present inside the layout.",
+            "format": "int32"
+          },
+          "fisheyeCameraCount": {
+            "type": "integer",
+            "description": "Number of Fisheye Cameras present inside the layout.",
+            "format": "int32"
+          },
+          "thermalCameraCount": {
+            "type": "integer",
+            "description": "Number of Thermal Cameras present inside the layout.",
+            "format": "int32"
+          },
+          "flashingLidarCount": {
+            "type": "integer",
+            "description": "Number of Flashing Lidars present inside the layout.",
+            "format": "int32"
+          },
+          "rotatingLidarCount": {
+            "type": "integer",
+            "description": "Number of Rotating Lidars present inside the layout.",
+            "format": "int32"
+          },
+          "radarCount": {
+            "type": "integer",
+            "description": "Number of Radars present inside the layout.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Represents metadata."
+      },
+      "Pre.SensorLayouts.v2.Data.Position": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "Translation following X direction (m).",
+            "format": "double"
+          },
+          "y": {
+            "type": "number",
+            "description": "Translation following Y direction (m).",
+            "format": "double"
+          },
+          "z": {
+            "type": "number",
+            "description": "Translation following Z direction (m).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Position."
+      },
+      "Pre.SensorLayouts.v2.Data.Rotation": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "Rotation X value (deg).",
+            "format": "double"
+          },
+          "y": {
+            "type": "number",
+            "description": "Rotation Y value (deg).",
+            "format": "double"
+          },
+          "z": {
+            "type": "number",
+            "description": "Rotation Z value (deg).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Rotation."
+      },
+      "Pre.SensorLayouts.v2.Data.SensorInfo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Sensor id.",
+            "format": "uuid"
+          },
+          "type": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.SensorType"
+          },
+          "name": {
+            "type": "string",
+            "description": "Sensor name.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v2.Data.SensorType": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v2.Data.Transform": {
+        "type": "object",
+        "properties": {
+          "position": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Position"
+          },
+          "rotation": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Rotation"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.SensorLayouts.v2.Data.TreeNode": {
+        "type": "object",
+        "properties": {
+          "nodeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "transform": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.Transform"
+          },
+          "sensorInfo": {
+            "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.SensorInfo"
+          },
+          "children": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pre.SensorLayouts.v2.Data.TreeNode"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Response.ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+# getHasChanged
+
+
+public [getHasChanged](get-has-changed.md)(): [Boolean](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html)
+
+Boolean which indicates if the variable has changed since the last time the boolean was reset. Typically used only by Plug-Ins for their own variables (to avoid conflicting use by different Plug-Ins, macros, or tools). Set the value to false and it will automatically flip to true any time the value changes.
+
+#### Return
+
+whether the variable has been changed or not
+
+#### Throws
+
+| |
+|---|
+| [ModelCenterException](../-model-center-exception/index.md) |

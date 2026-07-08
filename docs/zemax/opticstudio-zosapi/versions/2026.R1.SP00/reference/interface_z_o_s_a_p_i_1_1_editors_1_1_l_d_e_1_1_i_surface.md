@@ -1,0 +1,182 @@
+# Interface ZOSAPI::Editors::LDE::ISurface
+
+<a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface"></a>
+
+![][C#]
+![][public]
+
+**Definition**:
+
+
+**Inherited by**:
+
+* [ZOSAPI.Editors.LDE.ISurfaceABCD](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_b_c_d.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_b_c_d)
+* [ZOSAPI.Editors.LDE.ISurfaceAPBC](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_p_b_c.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_a_p_b_c)
+* [ZOSAPI.Editors.LDE.ISurfaceAtmospheric](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_atmospheric.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_atmospheric)
+* [ZOSAPI.Editors.LDE.ISurfaceBiconic](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic)
+* [ZOSAPI.Editors.LDE.ISurfaceBiconicZernike](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic_zernike.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_biconic_zernike)
+* [ZOSAPI.Editors.LDE.ISurfaceBinary3](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary3.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary3)
+* [ZOSAPI.Editors.LDE.ISurfaceBinary4](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_binary4)
+* [ZOSAPI.Editors.LDE.ISurfaceBirefringentIn](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_birefringent_in)
+* [ZOSAPI.Editors.LDE.ISurfaceBlackBoxLens](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_black_box_lens.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_black_box_lens)
+* [ZOSAPI.Editors.LDE.ISurfaceChebyShv](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cheby_shv)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_P\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_even_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_P\_NthPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___p___nth_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_R\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_even_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_R\_NthPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___r___nth_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_X1P1X2P2\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x1_p1_x2_p2___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x1_p1_x2_p2___nth_even_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_X\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_X\_NthEvenPower\_8](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___x___nth_even_power__8)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_Y\_NthEvenPower](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power)
+* [ZOSAPI.Editors.LDE.ISurfaceCoeff\_Y\_NthEvenPower\_8](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power__8.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coeff___y___nth_even_power__8)
+* [ZOSAPI.Editors.LDE.ISurfaceConjugate](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_conjugate)
+* [ZOSAPI.Editors.LDE.ISurfaceCoordinateBreak](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coordinate_break.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_coordinate_break)
+* [ZOSAPI.Editors.LDE.ISurfaceCubicSpline](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cubic_spline)
+* [ZOSAPI.Editors.LDE.ISurfaceCylinderFrensel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_frensel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_frensel)
+* [ZOSAPI.Editors.LDE.ISurfaceCylinderFresnel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_fresnel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_cylinder_fresnel)
+* [ZOSAPI.Editors.LDE.ISurfaceData](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_data.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_data)
+* [ZOSAPI.Editors.LDE.ISurfaceDiffractionGrating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_diffraction_grating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_diffraction_grating)
+* [ZOSAPI.Editors.LDE.ISurfaceEvenAspheric](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_even_aspheric.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_even_aspheric)
+* [ZOSAPI.Editors.LDE.ISurfaceExtendedCubicSpline](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_cubic_spline.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_cubic_spline)
+* [ZOSAPI.Editors.LDE.ISurfaceExtendedFresnel](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_fresnel.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_fresnel)
+* [ZOSAPI.Editors.LDE.ISurfaceExtendedOddAsphere](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_odd_asphere.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_extended_odd_asphere)
+* [ZOSAPI.Editors.LDE.ISurfaceFreeformNthZernike](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_nth_zernike.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_nth_zernike)
+* [ZOSAPI.Editors.LDE.ISurfaceFreeformXYPolynomial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_x_y_polynomial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_freeform_x_y_polynomial)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient1](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient1.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient1)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient10](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient10.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient10)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient12](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient12.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient12)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient2](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient2.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient2)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient3](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient3.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient3)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient4](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient4.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient4)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient5](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient5)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient6](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient6.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient6)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient7](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient7.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient7)
+* [ZOSAPI.Editors.LDE.ISurfaceGradient9](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradient9)
+* [ZOSAPI.Editors.LDE.ISurfaceGradium](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_gradium)
+* [ZOSAPI.Editors.LDE.ISurfaceGridGradient](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_gradient.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_gradient)
+* [ZOSAPI.Editors.LDE.ISurfaceGridPhase](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_phase.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_grid_phase)
+* [ZOSAPI.Editors.LDE.ISurfaceHologram1](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram1.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram1)
+* [ZOSAPI.Editors.LDE.ISurfaceHologram2](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram2.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_hologram2)
+* [ZOSAPI.Editors.LDE.ISurfaceIrregular](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_irregular)
+* [ZOSAPI.Editors.LDE.ISurfaceJonesMatrix](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_jones_matrix)
+* [ZOSAPI.Editors.LDE.ISurfaceMuellerMatrix](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_mueller_matrix.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_mueller_matrix)
+* [ZOSAPI.Editors.LDE.ISurfaceNonSequential](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_non_sequential)
+* [ZOSAPI.Editors.LDE.ISurfaceNthEvenOrderTerms](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_even_order_terms.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_even_order_terms)
+* [ZOSAPI.Editors.LDE.ISurfaceNthOrderTerms](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_order_terms.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_order_terms)
+* [ZOSAPI.Editors.LDE.ISurfaceNthThickness](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_thickness.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_thickness)
+* [ZOSAPI.Editors.LDE.ISurfaceNthZernike](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_zernike.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_nth_zernike)
+* [ZOSAPI.Editors.LDE.ISurfaceParaxial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial)
+* [ZOSAPI.Editors.LDE.ISurfaceParaxialXY](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_paraxial_x_y)
+* [ZOSAPI.Editors.LDE.ISurfacePeriodic](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_periodic)
+* [ZOSAPI.Editors.LDE.ISurfaceQTypeAsphere](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_asphere.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_asphere)
+* [ZOSAPI.Editors.LDE.ISurfaceQTypeFreeform](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_freeform.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_q_type_freeform)
+* [ZOSAPI.Editors.LDE.ISurfaceRadialNurbs](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_radial_nurbs.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_radial_nurbs)
+* [ZOSAPI.Editors.LDE.ISurfaceRetroReflect](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_retro_reflect.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_retro_reflect)
+* [ZOSAPI.Editors.LDE.ISurfaceSlide](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_slide.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_slide)
+* [ZOSAPI.Editors.LDE.ISurfaceStandard](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_standard.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_standard)
+* [ZOSAPI.Editors.LDE.ISurfaceSuperconic](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_superconic.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_superconic)
+* [ZOSAPI.Editors.LDE.ISurfaceTilted](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_tilted)
+* [ZOSAPI.Editors.LDE.ISurfaceToroidalGrat](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_grat.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_grat)
+* [ZOSAPI.Editors.LDE.ISurfaceToroidalNurbs](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_toroidal_nurbs)
+* [ZOSAPI.Editors.LDE.ISurfaceVariableLineSpaceGrating](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_variable_line_space_grating.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_variable_line_space_grating)
+* [ZOSAPI.Editors.LDE.ISurfaceXYPolynomial](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_x_y_polynomial.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_x_y_polynomial)
+
+## Members
+
+* [Id](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1a3bebde6bca998efc4929dd5944f56a05)
+* [IsValid](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1accb58c34eb8388c0a77b9eb425329977)
+* [Row](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1a0478da8afc6b3d5b1ee2e3efc8c8092d)
+* [Type](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1aeb55c88397724346dbfef66d1fb3d497)
+
+## Properties
+
+### Property Type
+
+<a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1aeb55c88397724346dbfef66d1fb3d497"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+SurfaceType ZOSAPI.Editors.LDE.ISurface.Type
+```
+
+
+**Return type**: [SurfaceType](namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e.md#namespace_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1a1481c47c02108d8faf7204b17fcc25ad)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurface.Type"}]}`
+-->
+
+### Property Row
+
+<a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1a0478da8afc6b3d5b1ee2e3efc8c8092d"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+ILDERow ZOSAPI.Editors.LDE.ISurface.Row
+```
+
+
+**Return type**: [ILDERow](interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_row.md#interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_l_d_e_row)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurface.Row"}]}`
+-->
+
+### Property IsValid
+
+<a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1accb58c34eb8388c0a77b9eb425329977"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+bool ZOSAPI.Editors.LDE.ISurface.IsValid
+```
+
+
+**Return type**: bool
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurface.IsValid"}]}`
+-->
+
+### Property Id
+
+<a id="interface_z_o_s_a_p_i_1_1_editors_1_1_l_d_e_1_1_i_surface_1a3bebde6bca998efc4929dd5944f56a05"></a>
+
+![][public]
+
+**Definition**:
+
+
+```csharp
+long ZOSAPI.Editors.LDE.ISurface.Id
+```
+
+
+**Return type**: long
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ZOSAPI.Editors.LDE.ISurface.Id"}]}`
+-->
+
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C#]: https://img.shields.io/badge/language-C%23-blue (C#)

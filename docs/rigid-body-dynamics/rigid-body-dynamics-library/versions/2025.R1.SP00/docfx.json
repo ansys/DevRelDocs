@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Command Reference for Rigid Dynamics Systems 2025 R1",
+      "summary": "",
+      "version": "2025 R1",
+      "product": "Rigid",
+      "programming language": "Python",
+      "product collection": "Structures",
+      "physics": "Multiphysics"
+    }
+  }
+}

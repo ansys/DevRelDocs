@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Discovery extensibility and add-ins developer guide 2024 R2",
+      "summary": "",
+      "version": "2024 R2",
+      "product": "Discovery",
+      "programming language": "C#",
+      "product collection": "3D Design",
+      "physics": "3D Design"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+Quantity,CGS (Consistent),SI (Consistent),FPS (Consistent),IPS (Consistent),Metric,UK Imperial,US Customary,mmNs (Consistent),mm-g-ms (Consistent),Dimensions of Quantity
+"length, position ",cm,m,ft,in,"m,cm,mm,dm,km,µm","microinches,mil,in,ft,yd,miles,mile","microinches,mil,in,ft,yd,miles,mile",mm,mm,L
+mass ,g,kg,slug,lbf.s^2/in,"kg,g,tonne,Mt","lb,ton, s. ton","lb,ton, s. ton",tonne,g,M
+time ,s,s,s,s,"s,min,hr,week,yr,day,month,year","s,min,hr,week,yr,day,month,year","s,min,hr,week,yr,day,month,year",s,s,T
+force ,dyn,N,lbf,lbf,"N,kgf,kN",lbf,lbf,N,N,M L / T^2
+energy,erg,J,ft.lbf,in.lbf,"J,kJ,kWh,eV,MJ","BTU,cal,kcal","BTU,cal,kcal",N.mm,N.mm,M L^2 / T^2
+power ,erg/s,W,ft.lbf/s,in.lbf/s,"W,kW,MW,GW",BTU/hr,BTU/hr,N.mm/s,N.mm/ms,M L^2 / T^3
+pressure ,"Ba,dyn/cm^2",Pa,lbf/ft^2,psi,"Pa,MPa,GPa,atm,bar,torr,mb","psi, ksi, 10^6psi,atm,torr,inHg","psi, ksi, 10^6psi,atm,torr,inHg",N/mm^2,MPa,M / L T^2
+dynamic viscosity ,P,Pa.s,lbf.s/ft^2,lbf.s/in^2,"Pa.s,P",P,P,N/mm^2.s,MPa.ms,M / L T
+electrical resistance,ohm,ohm,ohm,ohm,"ohm,µohm","ohm,µohm","ohm,µohm",ohm,ohm,M L^2 / A^2 T^3
+magnetic flux density,G,T,T,T,T,T,T,T,T,M / A T^2
+Magnetizing force,Oe,A/m,A/ft,A/in,A/m,A/m,A/m,A/mm,A/mm,A / L
+Energy product,,,,,,,,,,
+electric conductance,"Siemens,S","Siemens,S","Siemens,S","Siemens,S","Siemens,%IACS,MS,S","Siemens,%IACS,S","Siemens,%IACS,S","Siemens,S","Siemens, S",A^2 T^3 / M L^2
+Electric current,A,A,A,A,A,A,A,A,A,A
+Voltage,V,V,V,V,"V,kV,MV","V,kV,MV","V,kV,MV",V,V,M L^2 / A T^3
+Magnetic flux,Mx,Wb,Wb,Wb,Wb,Wb,Wb,Wb,Wb,M L^2 / A T^2
+luminous intensity,cd,cd,cd,cd,cd,cd,cd,cd,cd,
+temperature,"°C,K","°C,K","°F,°R","°F,°R","°C,K","°F,°R","°F,°R","°C,K","°C,K",T
+amount of substance,"mol,ppb,ppm","mol,ppb,ppm","mol,ppb,ppm","mol,ppb,ppm","mol,ppb,kmol,ppm","mol,ppb,kmol,ppm","mol,ppb,kmol,ppm","mol,ppb,ppm","mol,ppb,ppm",
+electric charge,C,C,C,C,C,C,C,C,C,A T
+electric capacitance,F,F,F,F,F,F,F,F,F,A^2 T^4 / M L^2
+electric inductance,H,H,H,H,H,H,H,H,H,M L^2 / A^2 T^2
+frequency,Hz,Hz,Hz,Hz,Hz,Hz,Hz,Hz,Hz,1 / T
+currency,currency,currency,currency,currency,currency,currency,currency,currency,currency,
+strain,strain,strain,strain,strain,"% strain,strain,µstrain","% strain,strain,µstrain","% strain,strain,µstrain",strain,strain,
+cycles,"cycles,cycle","cycles,cycle","cycles,cycle","cycles,cycle","cycles,cycle","cycles,cycle","cycles,cycle","cycles,cycles","cycles,cycles",
+percentage,%,%,%,%,%,%,%,%,%,
+eco unit,millipoint,millipoint,millipoint,millipoint,millipoint,millipoint,millipoint,millipoint,millipoint,
+volume,,,,,"l,ml","pint UK, gal UK,fl oz UK","pint US, gal US,fl oz US",,,L^3
+angle,"°,Rad","°,Rad","°,Rad","°,Rad","°,Rad","°,Rad","°,Rad","°,Rad","°,Rad",
+unit (e.g. per part),unit,unit,unit,unit,unit,unit,unit,unit,unit,
+linear mass density (textiles),"tex, denier","tex, denier","tex, denier","tex, denier","tex, denier","tex, denier","tex, denier","tex, denier","tex, denier",
+other,"dpa,neutron","dpa,neutron","dpa,neutron","dpa,neutron","dpa,neutron","dpa,neutron","dpa,neutron","dpa,neutron","dpa,neutron",
