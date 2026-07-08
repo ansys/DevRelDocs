@@ -21,7 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>7</strong> | [sector_meshed_region](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/metadata/cyclic_mesh_expansion) |  |[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types), [`meshes_container`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
-| <strong>16</strong> | [cyclic_support](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/metadata/cyclic_mesh_expansion) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`cyclic_support`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
+| <strong>16</strong> | [cyclic_support](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/metadata/cyclic_mesh_expansion) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`cyclic_support`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>18</strong> | [sectors_to_expand](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/metadata/cyclic_mesh_expansion) |  |[`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types), [`scoping`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types), [`scopings_container`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 
 

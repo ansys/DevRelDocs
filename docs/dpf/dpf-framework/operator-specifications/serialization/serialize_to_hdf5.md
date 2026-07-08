@@ -20,10 +20,10 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [file_path](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [file_path](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>1</strong> | [export_floats](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5) |  |[`bool`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>2</strong> | [export_flat_vectors](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5) |  |[`bool`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
-| <strong>3</strong> | [data](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>3</strong> | [data](/docs/dpf/dpf-framework/operator-specifications/serialization/serialize_to_hdf5) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>| |
 
 
 <a id="input_0"></a>

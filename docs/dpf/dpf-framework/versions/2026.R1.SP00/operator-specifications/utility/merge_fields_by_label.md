@@ -20,8 +20,8 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fields_container](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_fields_by_label) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
-| <strong>1</strong> | [label](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_fields_by_label) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
+| <strong>0</strong> | [fields_container](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_fields_by_label) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`fields_container`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
+| <strong>1</strong> | [label](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_fields_by_label) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`string`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>2</strong> | [merged_field_support](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_fields_by_label) |  |`abstract_field_support` |
 | <strong>3</strong> | [sum_merge](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_fields_by_label) |  |[`bool`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 

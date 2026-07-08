@@ -20,9 +20,9 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [generic_support_A](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`class dataProcessing::GenericSupport` |
-| <strong>1</strong> | [generic_support_B](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`class dataProcessing::GenericSupport` |
-| <strong>2</strong> | [double_value](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
+| <strong>0</strong> | [generic_support_A](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|`class dataProcessing::GenericSupport` |
+| <strong>1</strong> | [generic_support_B](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|`class dataProcessing::GenericSupport` |
+| <strong>2</strong> | [double_value](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`double`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>3</strong> | [double_tolerance](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/logic/identical_generic_supports) |  |[`double`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 
 

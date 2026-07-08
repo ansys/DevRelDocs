@@ -48,7 +48,7 @@ displacements $\vec{X}$ from Mechanical and calculates the damping force
 $\vec{F}$ using the following formula:
 
 $$
-\vec&#123;F&#125; = - c \frac&#123;d\vec&#123;X&#125;&#125;&#123;dt&#125;
+\vec{F} = - c \frac{d\vec{X}}{dt}
 $$
 
 where $c$ is the damping coefficient and $\frac{d\vec{X}}{dt}$ is the rate of change

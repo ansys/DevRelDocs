@@ -22,7 +22,7 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>-2</strong> | [sum_merge](/docs/dpf/dpf-framework/operator-specifications/utility/merge_fields) |  |[`bool`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>-1</strong> | [merged_support](/docs/dpf/dpf-framework/operator-specifications/utility/merge_fields) |  |`abstract_field_support` |
-| <strong>0</strong> | [fields](/docs/dpf/dpf-framework/operator-specifications/utility/merge_fields) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;field&gt;>`, [`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [fields](/docs/dpf/dpf-framework/operator-specifications/utility/merge_fields) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|`vector<shared_ptr&lt;field&gt;>`, [`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`fields_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 
 
 <a id="input_-2"></a>

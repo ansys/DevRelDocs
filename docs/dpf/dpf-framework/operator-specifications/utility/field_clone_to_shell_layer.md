@@ -20,8 +20,8 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [field](/docs/dpf/dpf-framework/operator-specifications/utility/field_clone_to_shell_layer) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
-| <strong>1</strong> | [shell_layer](/docs/dpf/dpf-framework/operator-specifications/utility/field_clone_to_shell_layer) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types), `enum dataProcessing::EShellLayers` |
+| <strong>0</strong> | [field](/docs/dpf/dpf-framework/operator-specifications/utility/field_clone_to_shell_layer) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>1</strong> | [shell_layer](/docs/dpf/dpf-framework/operator-specifications/utility/field_clone_to_shell_layer) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types), `enum dataProcessing::EShellLayers` |
 | <strong>2</strong> | [duplicate_scoping](/docs/dpf/dpf-framework/operator-specifications/utility/field_clone_to_shell_layer) |  |[`bool`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 
 

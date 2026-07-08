@@ -20,7 +20,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [ids](/docs/dpf/dpf-framework/operator-specifications/utility/ints_to_scoping) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`scoping`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [ids](/docs/dpf/dpf-framework/operator-specifications/utility/ints_to_scoping) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`scoping`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>1</strong> | [location](/docs/dpf/dpf-framework/operator-specifications/utility/ints_to_scoping) |  |[`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>2</strong> | [upper_bound](/docs/dpf/dpf-framework/operator-specifications/utility/ints_to_scoping) |  |[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`scoping`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 

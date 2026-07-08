@@ -22,7 +22,7 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>2</strong> | [coordinates](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/mesh_to_pyvista) |  |[`field`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>6</strong> | [as_linear](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/mesh_to_pyvista) |  |[`bool`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
-| <strong>7</strong> | [mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/mesh_to_pyvista) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
+| <strong>7</strong> | [mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/mesh_to_pyvista) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`abstract_meshed_region`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>60</strong> | [vtk_updated](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/mesh_to_pyvista) |  |[`bool`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>200</strong> | [as_poly](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/mesh_to_pyvista) |  |[`bool`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 

@@ -20,7 +20,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [assembly_mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/acmo_mesh_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`ans_dispatch_holder`, `struct IAnsDispatch` |
+| <strong>0</strong> | [assembly_mesh](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/acmo_mesh_provider) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|`ans_dispatch_holder`, `struct IAnsDispatch` |
 | <strong>1</strong> | [unit](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/mesh/acmo_mesh_provider) |  |[`string`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 
 

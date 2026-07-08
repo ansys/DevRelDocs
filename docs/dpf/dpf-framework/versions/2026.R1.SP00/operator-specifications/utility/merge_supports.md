@@ -21,7 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>-200</strong> | [should_merge_named_selections](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_supports) |  |[`bool`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
-| <strong>0</strong> | [supports](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_supports) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr&lt;abstract_field_support&gt;>`, `abstract_field_support` |
+| <strong>0</strong> | [supports](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/merge_supports) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|`vector<shared_ptr&lt;abstract_field_support&gt;>`, `abstract_field_support` |
 
 
 <a id="input_-200"></a>

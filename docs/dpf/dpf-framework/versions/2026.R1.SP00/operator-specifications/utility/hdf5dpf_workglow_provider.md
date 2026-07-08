@@ -25,7 +25,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>3</strong> | [streams](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`streams_container`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`data_sources`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
 | <strong>24</strong> | [meta_data](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/hdf5dpf_workglow_provider) |  |[`abstract_data_tree`](/docs/dpf/dpf-framework/versions/2026.R1.SP00/core-concepts/dpf-types) |
-| <strong>60</strong> | [result_name](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/hdf5dpf_workglow_provider) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>| |
+| <strong>60</strong> | [result_name](/docs/dpf/dpf-framework/versions/2026.R1.SP00/operator-specifications/utility/hdf5dpf_workglow_provider) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>| |
 
 
 <a id="input_0"></a>

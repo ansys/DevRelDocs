@@ -20,7 +20,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fields](/docs/dpf/dpf-framework/operator-specifications/scoping/rescope_custom_type_field) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`custom_type_fields_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`custom_type_field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>0</strong> | [fields](/docs/dpf/dpf-framework/operator-specifications/scoping/rescope_custom_type_field) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`custom_type_fields_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`custom_type_field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>1</strong> | [mesh_scoping](/docs/dpf/dpf-framework/operator-specifications/scoping/rescope_custom_type_field) |  |[`scoping`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`vector&lt;int32&gt;`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>2</strong> | [default_value](/docs/dpf/dpf-framework/operator-specifications/scoping/rescope_custom_type_field) |  |[`custom_type_field`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`custom_type_field`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 

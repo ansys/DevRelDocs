@@ -31,7 +31,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>3</strong> | [streams_container](/docs/dpf/dpf-framework/operator-specifications/result/global_eroded_hourglass_energy) |  |[`streams_container`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
-| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/operator-specifications/result/global_eroded_hourglass_energy) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
+| <strong>4</strong> | [data_sources](/docs/dpf/dpf-framework/operator-specifications/result/global_eroded_hourglass_energy) |  <span style={{backgroundColor:"#d93025",color:"white",padding:"2px 6px",borderRadius:"3px",fontSize:"0.75em"}} title="This pin is required">Required</span>|[`data_sources`](/docs/dpf/dpf-framework/core-concepts/dpf-types) |
 | <strong>50</strong> | [unit_system](/docs/dpf/dpf-framework/operator-specifications/result/global_eroded_hourglass_energy) |  |[`int32`](/docs/dpf/dpf-framework/core-concepts/dpf-types), [`string`](/docs/dpf/dpf-framework/core-concepts/dpf-types), `class dataProcessing::unit::CUnitSystem` |
 
 
