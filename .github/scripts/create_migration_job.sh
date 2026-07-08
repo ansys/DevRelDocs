@@ -113,8 +113,8 @@ get_product_documentation_metadata() {
 
   # Identify affected product version directories.
   local _version_dirs
-  _version_dirs=$(git diff-tree --no-commit-id --name-only -r HEAD | grep -oP "${PRODUCT_VERSION_DIR_REGEX}" | sort -u || true)
-
+  # Do not skip merge commits with multiple parents!
+  _version_dirs=$(git diff-tree --no-commit-id --name-only -r -m HEAD | grep -oP "${PRODUCT_VERSION_DIR_REGEX}" | sort -u || true)
   if [[ -z "${_version_dirs}" ]]; then
     echo "No product documentation changes detected. Exiting."
     return 2
