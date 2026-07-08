@@ -123,13 +123,13 @@ If the icon will be used in the UI only in one specific size, the design should 
 
 Taking the example of a 12px icon, we can see that the one on the right has sharper details.
 
-![image](media/e939535659a00131f5d0df583dbdd01f.png)
+![Figure 37](media/e939535659a00131f5d0df583dbdd01f.png)
 
 Figure 37: Icons without Pixel Pushing (Left) and with Pixel Pushing (Right)
 
 Looking at these icons closely, notice that the elements are different. The icon on the right renders more crisply in smaller sizes because the colors are not partially allotted to a pixel (which leads to blur and fuzziness).
 
-![image](media/4234c1b17de7ceffd2513f82448b4609.png)
+![Figure 38](media/4234c1b17de7ceffd2513f82448b4609.png)
 
 Figure 38: Zoomed-In View of Icons Shown Above
 
