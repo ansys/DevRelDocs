@@ -39,6 +39,8 @@ jobs:
           fi
 
       - name: Run migration script
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
         run: |
           echo "::group::Environment check"
           echo "Preparing to run migration script..."
