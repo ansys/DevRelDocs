@@ -91,18 +91,28 @@ field. This information lives on the [`meshed_region`](./dpf-types.md#meshed-reg
 not on the field. Two element-type properties are central to interpreting the data
 layout:
 
-- **Dimensionality** (`0D`, `1D`, `2D`, `3D` -> point, beam, shell, solid). It
-  governs the geometric role of the element and which nodes carry physically
-  meaningful results.
-- **Second-order flag**. Second-order elements add **mid-side nodes** between the
-  corner nodes. When set, the element contributes additional nodal rows to an
-  ElementalNodal field for those mid-nodes (when the solver file stores values for
-  them).
+- **Shape** (`0D`, `1D`, `2D`, `3D` -> point, beam, shell, solid), exposed on the
+  meshed region as the `elshape` property. It governs the geometric role of the
+  element and which nodes carry physically meaningful results. (Note that
+  `dimensionality` in DPF is a distinct, field-level concept - scalar, vector,
+  tensor - and does not describe element geometry.)
+- **Order**. Second-order (quadratic) element types have **mid-side nodes** in
+  addition to their corner nodes. This is a topology fact of the element type
+  itself.
 
-Dimensionality and second-order are properties of the **element type itself**; they
-are not field-level concepts. The field's `location` only states *where* the data
-sits (`Nodal`, `Elemental`, `ElementalNodal`); it does not encode the element
-shape, order, or node count.
+Shape and order are properties of the **element type**; they are not field-level
+concepts. The field's `location` only states *where* the data sits (`Nodal`,
+`Elemental`, `ElementalNodal`); it does not encode the element shape, order, or
+node count.
+
+Whether an ElementalNodal field defined on a mesh with second-order elements
+actually contains rows for those mid-side nodes is a separate, **field-level**
+property. It is recorded as a boolean flag on the [field definition](#field-definition)
+(`has_midnode_data` in the C++ API). Two ElementalNodal fields can share the same
+support and still differ in how much data they store per second-order element: one
+may carry only corner-node rows, another the full corner + mid-node layout. See
+[Mid-node values and `extend_to_mid_nodes`](#mid-node-values-and-extend_to_mid_nodes)
+below for how to move between the two.
 
 #### Entity ID uniqueness across element types
 
