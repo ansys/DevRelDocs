@@ -115,17 +115,20 @@ for a fields container). It interpolates corner-node values onto the mid-side no
 producing a field whose elementary data sizes match the full corner + mid-node
 layout.
 
-#### Homogeneous sub-fields per shape
+#### Homogeneous sub-fields per element type
 
 When downstream code needs to process the data array as a regular block - for
 example reshaping it as `(n_entities, rows_per_entity * components)` - the
 variable-size layout of a mixed-element ElementalNodal field becomes an obstacle.
-The recommended strategy is to **split by shape**: use the
+The recommended strategy is to **split by element type**: use the
 [`split_on_property_type`](../operator-specifications/scoping/split_on_property_type.md)
-operator with the `elshape` property to produce one scoping per shape class
+operator with the `eltype` property to produce one scoping per element type
 (triangles, quads, tets, hexes, ...). Re-evaluating (or rescoping) the result for
-each scoping yields homogeneous-size sub-fields, one per shape, that can each be
-processed as a regular block without per-element bookkeeping.
+each scoping yields homogeneous-size sub-fields, one per element type, that can
+each be processed as a regular block without per-element bookkeeping. Splitting
+on the coarser `elshape` property (solid, shell, beam, point) is not sufficient
+on its own: a single shape class can still mix element types with different node
+counts (for example `tet4` and `hex8` are both solids).
 
 ### Unit
 
