@@ -17,8 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          # Needed for the Bash script to get the list of changed files.
-          fetch-depth: 2
+          # Fetch the whole history to be able to run a git diff properly.
+          fetch-depth: 0
+          # Do not fetch historical file contents.
+          filter: blob:none
 
       - name: Set environment context
         run: |
