@@ -1,0 +1,86 @@
+# Class VariableBasedBuilderModel
+
+Namespace: [Phoenix.ComponentPlugInSDK.Models](Phoenix.ComponentPlugInSDK.Models.md)  
+Assembly: Phoenix.ComponentPlugInSDK.dll
+
+Model from the MVVM pattern for a BuilderUI that is based upon an external tool
+that provides a list of available variables that the user can downselect.
+
+```csharp
+public class VariableBasedBuilderModel : AbstractBuilderModel, IBuilderUIModel, IDisposable
+
+```
+
+#### Inheritance
+
+[object](https://learn.microsoft.com/dotnet/api/system.object) ←
+AbstractDisposable ←
+[AbstractBuilderModel](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.md) ←
+[VariableBasedBuilderModel](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.md)
+
+#### Implements
+
+[IBuilderUIModel](Phoenix.ComponentPlugInSDK.Models.IBuilderUIModel.md),
+[IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
+
+#### Inherited Members
+
+[AbstractBuilderModel.IsReadOnly](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.IsReadOnly.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_IsReadOnly),
+[AbstractBuilderModel.ExternalMetadata](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.ExternalMetadata.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_ExternalMetadata),
+[AbstractBuilderModel.InputVariables](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.InputVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_InputVariables),
+[AbstractBuilderModel.MoveInputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.MoveInputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_MoveInputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.CloneInputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.CloneInputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_CloneInputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.OutputVariables](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.OutputVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_OutputVariables),
+[AbstractBuilderModel.MoveOutputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.MoveOutputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_MoveOutputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.CloneOutputVariablesFrom(IEnumerable<IRuntimeVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.CloneOutputVariablesFrom.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_CloneOutputVariablesFrom_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__),
+[AbstractBuilderModel.RuntimeVariableToPHXVariable(IRuntimeVariable, bool, VariableValueScope)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.RuntimeVariableToPHXVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_RuntimeVariableToPHXVariable_Phoenix_PaczAPI_IRuntimeVariable_System_Boolean_Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[AbstractBuilderModel.PHXVariableToRuntimeVariable(PHXVariable)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.PHXVariableToRuntimeVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_PHXVariableToRuntimeVariable_Phoenix_ModelCenter_Common_PHXVariable_),
+[AbstractBuilderModel.RuntimeVariablesToPHXVariables(IEnumerable<IRuntimeVariable>, IEnumerable<IRuntimeVariable>, VariableValueScope)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.RuntimeVariablesToPHXVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_RuntimeVariablesToPHXVariables_System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__System_Collections_Generic_IEnumerable_Phoenix_PaczAPI_IRuntimeVariable__Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[AbstractBuilderModel.PHXVariablesToRuntimeVariables(IEnumerable<PHXVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.PHXVariablesToRuntimeVariables.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_PHXVariablesToRuntimeVariables_System_Collections_Generic_IEnumerable_Phoenix_ModelCenter_Common_PHXVariable__),
+[AbstractBuilderModel.FromPaczAsync(IReadOnlyExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.FromPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_FromPaczAsync_Phoenix_PaczAPI_IReadOnlyExtractedPacz_),
+[AbstractBuilderModel.ToPaczAsync(IExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.ToPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_ToPaczAsync_Phoenix_PaczAPI_IExtractedPacz_),
+[AbstractBuilderModel.SetVariablesAsPHXVariable(IEnumerable<PHXVariable>)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.SetVariablesAsPHXVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_SetVariablesAsPHXVariable_System_Collections_Generic_IEnumerable_Phoenix_ModelCenter_Common_PHXVariable__),
+[AbstractBuilderModel.GetVariablesAsPHXVariable(VariableValueScope)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.GetVariablesAsPHXVariable.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_GetVariablesAsPHXVariable_Phoenix_ModelCenter_Common_Types_VariableValueScope_),
+[AbstractBuilderModel.Dispose(bool)](Phoenix.ComponentPlugInSDK.Models.AbstractBuilderModel.Dispose.md#Phoenix_ComponentPlugInSDK_Models_AbstractBuilderModel_Dispose_System_Boolean_),
+AbstractDisposable.disposed,
+AbstractDisposable.Dispose(),
+AbstractDisposable.IsDisposed,
+AbstractDisposable.Dispose(bool),
+[object.ToString()](https://learn.microsoft.com/dotnet/api/system.object.tostring),
+[object.Equals(object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)),
+[object.Equals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)),
+[object.ReferenceEquals(object, object)](https://learn.microsoft.com/dotnet/api/system.object.referenceequals),
+[object.GetHashCode()](https://learn.microsoft.com/dotnet/api/system.object.gethashcode),
+[object.GetType()](https://learn.microsoft.com/dotnet/api/system.object.gettype),
+[object.MemberwiseClone()](https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone)
+
+## Fields
+
+[FILEPATH_PROPERTYKEY](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FILEPATH_PROPERTYKEY.md#Phoenix_ComponentPlugInSDK_Models_VariableBasedBuilderModel_FILEPATH_PROPERTYKEY)
+
+Key for the FilePath property in the Pacz.Config.Properties
+
+## Properties
+
+[ExtractionFolder](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.ExtractionFolder.md#Phoenix_ComponentPlugInSDK_Models_VariableBasedBuilderModel_ExtractionFolder)
+
+The folder where the files exist. May be a temporary folder, or the original
+
+[FilePath](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FilePath.md#Phoenix_ComponentPlugInSDK_Models_VariableBasedBuilderModel_FilePath)
+
+The path of the file for the builder to load. If the path is within the extraction folder this will return a relative path,
+otherwise the path will be an absolute path to the file.
+
+[FilePathAbsolute](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FilePathAbsolute.md#Phoenix_ComponentPlugInSDK_Models_VariableBasedBuilderModel_FilePathAbsolute)
+
+The absolute path to the file for the builder to load.
+
+## Methods
+
+[FromPaczAsync(IReadOnlyExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.FromPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_VariableBasedBuilderModel_FromPaczAsync_Phoenix_PaczAPI_IReadOnlyExtractedPacz_)
+
+Reads this model in from the given `Phoenix.PaczAPI.IReadOnlyExtractedPacz`
+
+[ToPaczAsync(IExtractedPacz)](Phoenix.ComponentPlugInSDK.Models.VariableBasedBuilderModel.ToPaczAsync.md#Phoenix_ComponentPlugInSDK_Models_VariableBasedBuilderModel_ToPaczAsync_Phoenix_PaczAPI_IExtractedPacz_)
+
+Writes out this model to the passed in `Phoenix.PaczAPI.IExtractedPacz`
