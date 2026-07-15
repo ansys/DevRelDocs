@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ModelCenter scriptWrapper API 2027 R1",
+      "summary": "ScriptWrapper APIs (VBScript, Python, Java) for ModelCenter Remote Execution 2027 R1.",
+      "version": "2027 R1",
+      "product": "ModelCenter",
+      "programming language": "",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}
