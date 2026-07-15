@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ModelCenter Remote Execution Java API 2027 R1",
+      "summary": "Java API for ModelCenter Remote Execution integration, 2027 R1.",
+      "version": "2027 R1",
+      "product": "ModelCenter",
+      "programming language": "Java",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}
