@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "optiSLang postprocessing python scripting 2027 R1",
+        "summary": "Python scripting API for optiSLang 3D postprocessing, 2027 R1.",
+        "version": "2027 R1",
+        "product": "optiSLang",
+        "programming language": "Python",
+        "product collection": "Connect",
+        "physics": "Connect"
+      }
+    }
+ }
