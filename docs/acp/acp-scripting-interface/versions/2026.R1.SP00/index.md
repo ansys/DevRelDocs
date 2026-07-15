@@ -4,6 +4,8 @@ The Ansys Composite Prep™ (ACP) application is a preprocessor for defining and
 
 The ACP in-app scripting API enables you to easily automate layup definitions, parameterize models, and interact with third-party Python packages.
 
+This documentation targets simulation engineers and developers who want to automate ACP workflows using Python.
+
 To start using ACP through its Python API, see [Getting started](getting_started_acp.md).
 
 Table of contents:
