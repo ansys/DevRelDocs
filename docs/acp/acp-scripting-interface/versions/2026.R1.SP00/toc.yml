@@ -5487,3 +5487,5 @@
         href: _autosummary/compolyx.plot_data.UserDefinedData.user_script_default.md
       - name: visit
         href: _autosummary/compolyx.plot_data.UserDefinedData.visit.md
+- name: Changelog
+  href: changelog/changelog.md
