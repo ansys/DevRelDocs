@@ -8,6 +8,7 @@
 - restored Integration Node API anchor links
 - corrected `reset_hid` incoming argument name and cross-reference
 - clarified load return-value list wording on Integration Node topic
+- fixed unclosed `execute_custom` code fence on Basic, Integration, and MOP Node topics (#1477589)
 
 ## 2025 R2 
 
