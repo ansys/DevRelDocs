@@ -8,6 +8,14 @@ Released 2026-04-13.
 
 - `StdErrIndicatesError` integration-specific configuration setting.
 
+### Changed
+
+- updated `ScriptInterfaceVersion` description in configuration files topic
+- restored Integration Node API anchor links
+- corrected `reset_hid` incoming argument name and cross-reference
+- clarified load return-value list wording on Integration Node topic
+- fixed unclosed `execute_custom` code fence on Basic, Integration, and MOP Node topics
+
 ## 2026 R1
 
 Released 2025-11-01.
