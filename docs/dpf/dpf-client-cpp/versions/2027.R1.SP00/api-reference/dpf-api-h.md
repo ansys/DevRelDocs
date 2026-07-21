@@ -41,6 +41,7 @@
 * [ansys::dpf::ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer)
 * [ansys::dpf::MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer)
 * [ansys::dpf::CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer)
+* [ansys::dpf::PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
 * [ansys::dpf::Collection](classansys-dpf-collection.md#classansys-dpf-collection)
 * [ansys::dpf::DataSources](classansys-dpf-datasources.md#classansys-dpf-datasources)
 * [ansys::dpf::ExternalStream](classansys-dpf-externalstream.md#classansys-dpf-externalstream)
@@ -99,6 +100,7 @@
 * [ansys::dpf::reflect\< LabelSpace \>](structansys-dpf-reflect-labelspace.md#structansys-dpf-reflect-labelspace-4)
 * [ansys::dpf::reflect\< GenericDataContainer \>](structansys-dpf-reflect-genericdatacontainer.md#structansys-dpf-reflect-genericdatacontainer-4)
 * [ansys::dpf::reflect\< CustomTypeFieldsContainer \>](structansys-dpf-reflect-customtypefieldscontainer.md#structansys-dpf-reflect-customtypefieldscontainer-4)
+* [ansys::dpf::reflect\< PropertyFieldsContainer \>](structansys-dpf-reflect-propertyfieldscontainer.md#structansys-dpf-reflect-propertyfieldscontainer-4)
 * [ansys::dpf::LicenseContextManager](classansys-dpf-licensecontextmanager.md#classansys-dpf-licensecontextmanager)
 
 ## Namespaces

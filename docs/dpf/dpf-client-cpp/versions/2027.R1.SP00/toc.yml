@@ -172,6 +172,8 @@
       href: api-reference/classansys-dpf-propfieldcursor.md
     - name: ansys::dpf::PropertyField
       href: api-reference/classansys-dpf-propertyfield.md
+    - name: ansys::dpf::PropertyFieldsContainer
+      href: api-reference/classansys-dpf-propertyfieldscontainer.md
     - name: ansys::dpf::PropertyType
       href: api-reference/structansys-dpf-propertytype.md
     - name: ansys::dpf::QuantityType
@@ -284,6 +286,8 @@
       href: api-reference/structansys-dpf-reflect-operator.md
     - name: ansys::dpf::reflect< PropertyField >
       href: api-reference/structansys-dpf-reflect-propertyfield.md
+    - name: ansys::dpf::reflect< PropertyFieldsContainer >
+      href: api-reference/structansys-dpf-reflect-propertyfieldscontainer.md
     - name: ansys::dpf::reflect< RemoteOperator >
       href: api-reference/structansys-dpf-reflect-remoteoperator.md
     - name: ansys::dpf::reflect< RemoteWorkflow >

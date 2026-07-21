@@ -23,7 +23,6 @@ being an environment variable defining the root of the Ansys Inc or [DPF Server]
 **DPF_HGP_ROOT environment variable** must be set to define the location of those files and **must be set to follow this tutorial**.
 
 Here is the command for Windows:
-
 ```bat
 set DPF_HGP_ROOT=%AWP_ROOT271%/dpf/include
 ```
@@ -31,7 +30,6 @@ set DPF_HGP_ROOT=%AWP_ROOT271%/dpf/include
 It can also be set by editing the environment variables in Windows settings.
 
 Here is the command for Linux:
-
 ```bash
 export DPF_HGP_ROOT=${AWP_ROOT271}/dpf/include
 ```
