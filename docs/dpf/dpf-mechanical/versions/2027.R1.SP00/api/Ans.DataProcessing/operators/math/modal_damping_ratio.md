@@ -59,7 +59,7 @@ global stiffness matrix multiplier
 
 ### field
 
-field of modal damping ratio.
+Field of modal damping ratios $\xi_i$, one value per mode, in the same order as the input natural frequencies.
 
 **Type:** *LinkableOutput*
 

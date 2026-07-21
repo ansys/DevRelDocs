@@ -190,6 +190,14 @@
         href: api/Ans.DataProcessing/operators/compression/quantization_fc.md
       - name: zfp_decompress
         href: api/Ans.DataProcessing/operators/compression/zfp_decompress.md
+      - name: zstd_compress
+        href: api/Ans.DataProcessing/operators/compression/zstd_compress.md
+      - name: zstd_compress_fc
+        href: api/Ans.DataProcessing/operators/compression/zstd_compress_fc.md
+      - name: zstd_decompress
+        href: api/Ans.DataProcessing/operators/compression/zstd_decompress.md
+      - name: zstd_decompress_fc
+        href: api/Ans.DataProcessing/operators/compression/zstd_decompress_fc.md
     - name: filter
       href: api/Ans.DataProcessing/operators/filter/index.md
       items:
@@ -1766,6 +1774,10 @@
         href: api/Ans.DataProcessing/operators/utility/get_active_operators.md
       - name: get_operators
         href: api/Ans.DataProcessing/operators/utility/get_operators.md
+      - name: get_workflow_step_index_current_memory
+        href: api/Ans.DataProcessing/operators/utility/get_workflow_step_index_current_memory.md
+      - name: get_workflow_step_index_operator_statuses
+        href: api/Ans.DataProcessing/operators/utility/get_workflow_step_index_operator_statuses.md
       - name: hdf5dpf_workglow_provider
         href: api/Ans.DataProcessing/operators/utility/hdf5dpf_workglow_provider.md
       - name: html_doc
