@@ -1,4 +1,0 @@
-# Long
-
-
-[Long](index.md)
