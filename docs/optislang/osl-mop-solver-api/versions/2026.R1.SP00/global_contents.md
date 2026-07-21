@@ -24,8 +24,6 @@
   * [dmop2_getReferenceValuePerParameter](mopsolver__api2_8h.md#mopsolver__api2_8h_1aa37255246161c9b90c89f8fd546c801e) Function
   * [dmop2_getCoPValuesPerResponse](mopsolver__api2_8h.md#mopsolver__api2_8h_1a7812100fa3283c0d8a99ec20d7f150e3) Function
   * [dmop2_getFilteredStatesPerResponse](mopsolver__api2_8h.md#mopsolver__api2_8h_1a95cb0c5d1a7b4f7c9f2099525c843c1a) Function
-* [mopsolver_dlpublic.h](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h) File
-  * [DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710) Macro
 * [mopsolver_api2_shared.h](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h) File
   * [DMOP2_SOLVE_FLAG](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0b) Enumeration type
   * [SOLVE_EXTRAPOLATE](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0babdf84129bd1eddedb34a7cb60847a038) Enumerator
@@ -57,6 +55,11 @@
   * [dmop2_get_version_str](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a3de6521ea7642d7979ad944643edea2b) Function
   * [dmop2_cleanup](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1abaaf6eb148aeb3e5368597475f6b7a75) Function
   * [dmop2_set_paths_for_custom_interface](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a3b7b35bbecdf38a33b2eb150e61add8f) Function
+* [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h) File
+  * [DYNARDO_DLPUBLIC_SHARED_EXPORT](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1ae979a0ff1bc860330a2fa37a6a14ea0c) Macro
+  * [DYNARDO_DLPUBLIC_SHARED_IMPORT](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1ab8539bb97d05941714dca90767399a6f) Macro
+  * [DYNARDO_MOPSOLVER_DLPUBLIC](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1a773ff27005f9085333e0c17ea06c55ec) Macro
+  * [DYNARDO_MOPSOLVER_API](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1a79ee3a37f5ec39e0aea4b02170bee65f) Macro
 * [mopsolver_api.h](mopsolver__api_8h.md#mopsolver__api_8h) File
   * [dmop_hasSurrogate](mopsolver__api_8h.md#mopsolver__api_8h_1a25df2ddd6172194afab9ed8ee0b36387) Function
   * [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) Function
@@ -113,8 +116,5 @@
   * [dmop_cleanup](mopsolver__api_8h.md#mopsolver__api_8h_1a1e20adf4d59744ee53958b84f6061f0c) Function
   * [dmop_set_paths_for_custom_interface](mopsolver__api_8h.md#mopsolver__api_8h_1a2efd4dcee48cfca4046498c55fb44dde) Function
 * [MOPSolver API Version 2](indexpage.md#indexpage) Page
-* [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h) File
-  * [DYNARDO_DLPUBLIC_SHARED_EXPORT](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1ae979a0ff1bc860330a2fa37a6a14ea0c) Macro
-  * [DYNARDO_DLPUBLIC_SHARED_IMPORT](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1ab8539bb97d05941714dca90767399a6f) Macro
-  * [DYNARDO_MOPSOLVER_DLPUBLIC](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1a773ff27005f9085333e0c17ea06c55ec) Macro
-  * [DYNARDO_MOPSOLVER_API](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1a79ee3a37f5ec39e0aea4b02170bee65f) Macro
+* [mopsolver_dlpublic.h](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h) File
+  * [DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710) Macro

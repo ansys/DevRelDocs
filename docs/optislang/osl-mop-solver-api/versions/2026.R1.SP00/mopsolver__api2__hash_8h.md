@@ -24,7 +24,7 @@ click 2 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
 2 --> 3
 
 3["mopsolver_api_shared.h"]
-click 3 "mopsolver__api__shared_8h.md#source"
+click 3 "mopsolver__api__shared_8h_source.md#mopsolver__api__shared_8h_source"
 
 ```
 
@@ -45,9 +45,7 @@ DYNARDO_MOPSOLVER_API int dmop2_hasSurrogate_hash(const char *_omdbfile, const c
 
 
 test binfile if it contains Surrogate Data 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang database file (*.omdb) containing MOP
 * **_hash**: zero terminated character string containing the hash value
@@ -59,9 +57,7 @@ zero if Surrogate is found
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_hash**
@@ -82,9 +78,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getDimensions_hash(const char *_omdbfile, unsign
 
 
 retrieves problem dimensions based on the flags 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_flags**: uint value representing the specified flags (see enum DMOP_DIMENSION_FLAG in [mopsolver_api2.h](mopsolver__api2_8h.md#mopsolver__api2_8h))
@@ -99,9 +93,7 @@ zero if the dimensions could be determined
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_flags**
@@ -125,9 +117,7 @@ DYNARDO_MOPSOLVER_API int dmop2_solve_hash(const char *_omdbfile, unsigned int _
 
 
 approximates the active response values based on their best metamodel for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which response values should be approximated
@@ -145,9 +135,7 @@ zero if the approximation succeeded
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -174,9 +162,7 @@ DYNARDO_MOPSOLVER_API int dmop2_get_per_response_hash(const char *_omdbfile, uns
 
 
 approximates the active response values based on their best metamodel for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which response values should be approximated
@@ -195,9 +181,7 @@ zero if the approximation succeeded
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -225,9 +209,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getNames_hash(const char *_omdbfile, DMOP2_NAME_
 
 
 retrieves the names of all criteria. The array sizes depend on the number of criteria determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_flag**: DMOP_NAME_FLAG value specifying which names to return (see enum DMOP_NAME_FLAG in [mopsolver_api2.h](mopsolver__api2_8h.md#mopsolver__api2_8h))
@@ -241,9 +223,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * [DMOP2_NAME_FLAG](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993) **_flag**
@@ -266,9 +246,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getNamesWithDelimiter_hash(const char *_omdbfile
 
 
 retrieves the names of all criteria. The array sizes depend on the number of criteria determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_flag**: DMOP_NAME_FLAG value specifying which names to return (see enum DMOP_NAME_FLAG in [mopsolver_api2.h](mopsolver__api2_8h.md#mopsolver__api2_8h))
@@ -283,9 +261,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * [DMOP2_NAME_FLAG](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a919e4b2e211e2d3c06a2cd81f75a5993) **_flag**
@@ -309,9 +285,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getInputBounds_hash(const char *_omdbfile, doubl
 
 
 retrieves the sampling bounds for all parameters. The array size depends on the number of inputs. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_limits**: pointer to array of parameter limits, been given alternetly min1, max1, min2, max2 ... . The length of the array is to be expected as ( 2 * dmop_getDimensions._num_inputs ).
@@ -324,9 +298,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * double * **_limits**
@@ -348,9 +320,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getInputBoundsPerParameter_hash(const char *_omd
 
 
 retrieves the sampling bounds for given parameters. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_param_name**: zero terminated character string containing the name of the parameter
@@ -364,9 +334,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -389,9 +357,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getReferenceValuePerParameter_hash(const char *_
 
 
 retrieves the Reference Value for given parameter. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_param_name**: zero terminated character string containing the name of the parameter
@@ -405,9 +371,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -430,9 +394,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getCoPValuesPerResponse_hash(const char *_omdbfi
 
 
 retrieves the CoP values for given response. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_response_name**: zero terminated character string containing the name of the response
@@ -446,9 +408,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -471,9 +431,7 @@ DYNARDO_MOPSOLVER_API int dmop2_getFilteredStatesPerResponse_hash(const char *_o
 
 
 retrieves the filtered states for given response. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_response_name**: zero terminated character string containing the name of the response
@@ -487,9 +445,7 @@ zero if the name arrays were created and filled
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**

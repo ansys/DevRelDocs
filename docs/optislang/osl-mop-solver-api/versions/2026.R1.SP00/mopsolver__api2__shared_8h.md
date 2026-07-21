@@ -21,7 +21,7 @@ click 1 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
 1 --> 2
 
 2["mopsolver_api_shared.h"]
-click 2 "mopsolver__api__shared_8h.md#source"
+click 2 "mopsolver__api__shared_8h_source.md#mopsolver__api__shared_8h_source"
 
 ```
 
@@ -348,9 +348,7 @@ DYNARDO_MOPSOLVER_API int dmop2_free(void *_pointer)
 
 
 Frees the memory allocated at the specified pointer 
- 
 **Parameters**:
-
 
 * **_pointer**: Pointer to the memory that should be freed
 
@@ -361,9 +359,7 @@ zero if the memory was successfully freed
 
 
 
- 
 **Parameters**:
-
 
 * void * **_pointer**
 
@@ -430,9 +426,7 @@ set up custom interface application-wide
 
 
 
- 
 **Parameters**:
-
 
 * const char * **_program_path**
 * const char * **_python_home**
