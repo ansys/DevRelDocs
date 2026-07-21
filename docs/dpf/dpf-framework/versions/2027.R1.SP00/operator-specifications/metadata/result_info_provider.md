@@ -2,6 +2,11 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  vtk: [vtk]
 ---
 
 # metadata:result info provider
@@ -11,6 +16,15 @@ license: None
 ## Description
 
 Reads the result information, such as available results or unit systems from the results files contained in the streams or data sources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
+- hdf5: h5dpf 
+- vtk: vtk 
 
 ## Inputs
 

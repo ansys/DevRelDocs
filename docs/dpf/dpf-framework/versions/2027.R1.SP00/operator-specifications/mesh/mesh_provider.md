@@ -2,6 +2,11 @@
 category: mesh
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
+  hdf5: [h5dpf]
+  vtk: [vtk]
 ---
 
 # mesh:mesh provider
@@ -15,6 +20,15 @@ Reads a mesh from result files.
 The operator attempts to read mesh data from the provided data sources.
 When the `permissive` configuration is enabled, the operator silently skips result files that cannot be opened or have unsupported namespaces.
 If `permissive` is disabled (default), errors are thrown for invalid files.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
+- hdf5: h5dpf 
+- vtk: vtk 
 
 ## Inputs
 

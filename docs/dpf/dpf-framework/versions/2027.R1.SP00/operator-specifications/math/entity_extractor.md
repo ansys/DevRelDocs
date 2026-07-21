@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Extracts an entity from a field, based on its ID.
+
+Extracts a single scalar value from a field by its zero-based scoping index $k$ (pin 1).
+The output field contains one entity: the entity whose scoping index is $k$,
+with its entity ID resolved from the input scoping and its first data component copied.
+Only the first component is extracted regardless of the input field's dimensionality.
+Note: $k$ is the index within the field's scoping, not the entity ID.
+
 
 ## Inputs
 
@@ -30,7 +36,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Input field from which the entity is extracted.
 
 <a id="input_1"></a>
 ### scalar_int (Pin 1)
@@ -38,7 +44,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-
+Zero-based scoping index $k$ of the entity to extract.
 
 
 ## Outputs
@@ -50,6 +56,7 @@ Each output is detailed in the sections that follow the table.
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [field](#output_0) |[`field`](../../core-concepts/dpf-types.md#field) |
+|  **1**| [int32](#output_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="output_0"></a>
@@ -57,7 +64,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
+Single-entity scalar field holding the first component of the extracted entity. The entity ID is the ID of the $k$-th entity in the input scoping. Always scalar regardless of the input field's dimensionality.
 
+<a id="output_1"></a>
+### int32 (Pin 1)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Echo of the input index $k$ (pin 1).
 
 
 ## Configurations
@@ -105,6 +119,7 @@ ansys::dpf::Operator op("entity_extractor"); // operator instantiation
 op.connect(0, my_fieldA);
 op.connect(1, my_scalar_int);
 ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
+int my_int32 = op.getOutput<int>(1);
 ```
 </details>
 
@@ -118,6 +133,7 @@ op = dpf.operators.math.None() # operator instantiation
 op.inputs.fieldA.connect(my_fieldA)
 op.inputs.scalar_int.connect(my_scalar_int)
 my_field = op.outputs.field()
+my_int32 = op.outputs.int32()
 ```
 </details>
 
@@ -132,6 +148,7 @@ op = dpf.operators.math.None() # operator instantiation
 op.inputs.fieldA.Connect(my_fieldA)
 op.inputs.scalar_int.Connect(my_scalar_int)
 my_field = op.outputs.field.GetData()
+my_int32 = op.outputs.int32.GetData()
 ```
 </details>
 <br>

@@ -37,6 +37,8 @@
 - [generic support get attribute](generic_support_get_attribute.md)
 - [get active operators](get_active_operators.md)
 - [get operators](get_operators.md)
+- [get workflow step index current memory](get_workflow_step_index_current_memory.md)
+- [get workflow step index operator statuses](get_workflow_step_index_operator_statuses.md)
 - [hdf5dpf workglow provider](hdf5dpf_workglow_provider.md)
 - [html doc](html_doc.md)
 - [incremental concatenate as fc](incremental_concatenate_as_fc.md)

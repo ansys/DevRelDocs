@@ -110,6 +110,14 @@
       href: operator-specifications/compression/quantization_fc.md
     - name: zfp decompress
       href: operator-specifications/compression/zfp_decompress.md
+    - name: zstd compress
+      href: operator-specifications/compression/zstd_compress.md
+    - name: zstd compress fc
+      href: operator-specifications/compression/zstd_compress_fc.md
+    - name: zstd decompress
+      href: operator-specifications/compression/zstd_decompress.md
+    - name: zstd decompress fc
+      href: operator-specifications/compression/zstd_decompress_fc.md
   - name: filter
     href: operator-specifications/filter/filter_category.md
     items:
@@ -1683,6 +1691,10 @@
       href: operator-specifications/utility/get_active_operators.md
     - name: get operators
       href: operator-specifications/utility/get_operators.md
+    - name: get workflow step index current memory
+      href: operator-specifications/utility/get_workflow_step_index_current_memory.md
+    - name: get workflow step index operator statuses
+      href: operator-specifications/utility/get_workflow_step_index_operator_statuses.md
     - name: hdf5dpf workglow provider
       href: operator-specifications/utility/hdf5dpf_workglow_provider.md
     - name: html doc

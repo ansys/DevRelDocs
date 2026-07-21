@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-06-25).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-21).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -17,7 +17,7 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [4 items](#Features_compression) |[2 items](#Fixes_compression) |
+| compression | [5 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
@@ -27,31 +27,31 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [5 items](#Features_femutils) |[18 items](#Fixes_femutils) |
+| femutils | [7 items](#Features_femutils) |[19 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [4 items](#Features_framework) |[11 items](#Fixes_framework) |
+| framework | [4 items](#Features_framework) |[12 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [2 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[4 items](#Fixes_h5dpf) |
-| hdf5 | [11 items](#Features_hdf5) |[5 items](#Fixes_hdf5) |
-| hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
+| hdf5 | [11 items](#Features_hdf5) |[6 items](#Fixes_hdf5) |
+| hgp | [9 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [4 items](#Features_kernel) |[12 items](#Fixes_kernel) |
-| lsdyna | [4 items](#Features_lsdyna) | |
+| kernel | [5 items](#Features_kernel) |[12 items](#Fixes_kernel) |
+| lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [26 items](#Features_mapdl) |[58 items](#Fixes_mapdl) |
+| mapdl | [27 items](#Features_mapdl) |[61 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [14 items](#Features_math) |[2 items](#Fixes_math) |
+| math | [15 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[6 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[23 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [15 items](#Features_native) |[27 items](#Fixes_native) |
+| native | [16 items](#Features_native) |[29 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -238,6 +238,13 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
+
+- Add generic operators to compress fields and fields containers:
+  > Create operators to compress and decompress data of fields and fields containers.
+  >
+  > 
+  >
+  > 
 
 - Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Compression:
   > 
@@ -479,6 +486,28 @@ The following table shows which components have updates in each category.
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
+- Clarify centroid algorithm and measure support with validation and tests:
+  > 
+  >
+  > 
+  >
+  > This change improves the element centroid computation experience by clearly documenting supported input combinations, rejecting unsupported combinations with an explicit error, and expanding test coverage for centroid and measure outputs.
+  >
+  > It helps users understand which settings are valid and provides more predictable behavior when invalid combinations are requested.
+  >
+  > 
+  >
+  > 
+
+- Typed exceptions in mesh::by_scoping and mesh::from_scopings:
+  > 
+  >
+  > `mesh::by_scoping` and `mesh::from_scopings` operators now throw structured, typed exceptions instead of generic errors. Each failure includes a human-readable description of what went wrong and an actionable suggestion to help users fix the issue.
+  >
+  > 
+  >
+  > 
+
 - Use the definition from input stress field:
   > 
   >
@@ -503,6 +532,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Improve performance of solid_to_skin for Elemental and ElementalNodal fields:
+  > 
+  >
+  > Improve performance of solid_to_skin for Elemental and ElementalNodal fields containers.
+  >
+  > 
+  >
+  > 
 
 - Support line elements in solid_to_skin:
   > 
@@ -699,6 +737,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fixing issues distorted elements in find_reduced_coordinates and mapping operators and numerical problems:
+  > Fixing issue with distorted elements in `find_reduced_coordinates` and `mapping` operators and numerical problems.
+  >
+  > 
 
 - Fix solid_to_skin:
   > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
@@ -999,6 +1042,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Surface structured errors with context in h5dpf custom and make_result_file operators:
+  > 
+  >
+  > The `hdf5::h5dpf::custom` and `hdf5::h5dpf::make_result_file` operators now throw structured, typed exceptions when I/O errors, unknown format versions, invalid compression settings, or missing inputs occur. Each error includes a clear description of what went wrong, an actionable suggestion, and machine-readable attributes (identifier, compression level, threshold, etc.) for programmatic handling and localization.
+  >
+  > 
+  >
+  > 
+
 - Fix missing fields during append operation:
   > fix missing fields on HdfView under references group when using append operation
   >
@@ -1031,6 +1083,11 @@ The following table shows which components have updates in each category.
   > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
+
+- Exposure of Property Fields Container in HGP:
+  > Exposure of Property Fields Container in HGP.
+  >
+  > 
 
 - Add StringField::dataPointer() via DpfVector-safe C-layer path:
   > 
@@ -1152,6 +1209,11 @@ The following table shows which components have updates in each category.
 ## kernel
 ### <a id="Features_kernel"></a> Features
 
+- Cache the scoping hash so it can be reused:
+  > 
+  >
+  > 
+
 - Switch the internals of the Scoping to use boost::unordered_fla...:
   > 
   >
@@ -1267,6 +1329,9 @@ The following table shows which components have updates in each category.
   >
   > 
 
+- Redefine TimeFreqSupport for binout branches (#271):
+  > 
+
 - Support d3plot DEM results (#262):
   > 
 
@@ -1298,6 +1363,15 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Replace generic throws with structured exceptions in split_on_facet_indices:
+  > 
+  >
+  > Errors from the `mapdl::split_on_facet_indices` and `mapdl::split_to_acmo_facet_indices` operators now surface as structured, named exception types. Each error carries the operator name, the failing input pin name, and an actionable suggestion, making CGNS pressure-mapping failures distinguishable from upstream mesh errors.
+  >
+  > 
+  >
+  > 
 
 - Read element results on adaptive meshes:
   > Allow reading of elementary results on adaptive meshes
@@ -1538,6 +1612,31 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix ElementalNodal data reordering in mapdl::split_on_facet_indices:
+  > 
+  >
+  > Fix ElementalNodal data reordering in `mapdl::split_on_facet_indices`. This operators handled the facet id differences between DPF convention and MAPDL convention. However, for 2 given equivalent DPF and MAPDL element facets, the node ordering between the faces also differs, which affects ElementalNodal fields. This is now fixed.
+  >
+  > 
+  >
+  > 
+
+- Set the location to the scoping of nodal euler angle:
+  > 
+  >
+  > Correctly set the location of the scoping of the output of the Nodal Euler Angle operator.
+  >
+  > 
+  >
+  > 
+
+- ARM started failing because of mechanical crash while evaluating MAC:
+  > For rst without any time step defined, we did not output euler angles (skip the process). The fix was just to set up properly the time step needed in the method regarding if the mesh is adaptive or if the rst has a timeStep defined in it (if not, set a default one).
+  >
+  > 
+  >
+  > 
 
 - Fix corrupted ENF fields and wrong fsum in transient analysis with contact results:
   > 
@@ -1992,6 +2091,13 @@ The following table shows which components have updates in each category.
   > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Update expansion::psd operator to compute response PSD:
+  > In addition to 1-sigma response, expansion::psd operator now allows to compute response PSD from mode shapes and modal PSD matrices or from harmonic analysis results and input PSD matrix
+  >
+  > 
+  >
+  > 
 
 - Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Math:
   > 
@@ -2639,6 +2745,15 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Improve performance of Rescope operators:
+  > 
+  >
+  > Performance improvements in the `Rescope`, `Rescope_pf`, `Rescope_ctf`, `rescope_fc` and `solid_to_skin_fc` operators.
+  >
+  > 
+  >
+  > 
+
 - Memory improvements for distributed data sources cases for results:
   > Memory efficiency improved for reading results for large distributed cases.
   >
@@ -2755,6 +2870,18 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Handle time or frequency steps location correctly for the rescope operator:
+  > Handle time or frequency steps location correctly for the rescope operator.
+  >
+  > 
+
+- Keep the input scoping support unchanged:
+  > Avoid changing the input scoping support
+  >
+  > 
+  >
+  > 
 
 - Correct spec for result.material_property_of_element:
   > 
@@ -3246,6 +3373,18 @@ The following table shows which components have updates in each category.
   > The truncated value in the original scale has to be computed by doing \\(2\varepsilon q(x) \\).
   > 
   > To truncate a number to \\(n\\) decimal places, the threshold must be chosen as \\(10^{-n}\\).
+
+- [zstd_compress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/zstd_compress.md):
+  > Compresses the data of a field with ZSTD compression algorithm.
+
+- [zstd_compress_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/zstd_compress_fc.md):
+  > Compresses a fields container with ZSTD compression algorithm.
+
+- [zstd_decompress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/zstd_decompress.md):
+  > Decompresses a field compressed with ZSTD compression algorithm.
+
+- [zstd_decompress_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/compression/zstd_decompress_fc.md):
+  > Decompresses a fields container compressed with ZSTD compression algorithm.
 
 
 #### info
@@ -3793,6 +3932,12 @@ The following table shows which components have updates in each category.
 - [get_operators](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/get_operators.md):
   > Getter on operators inside a workflow.
 
+- [get_workflow_step_index_current_memory](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/get_workflow_step_index_current_memory.md):
+  > Get the current heap memory (in MB) held by the workflow's step index.
+
+- [get_workflow_step_index_operator_statuses](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/get_workflow_step_index_operator_statuses.md):
+  > Get the status of every operator tracked by the workflow's step index. Returns a GenericDataContainer with keys 'opName_opId' and int values corresponding to E_OperatorState.
+
 - [operator_changelog](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/operator_changelog.md):
   > Return a GenericDataContainer used to instantiate the Changelog of an operator based on its name.
 
@@ -4289,6 +4434,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.2: Internal refactoring to use Scoping Iterators.
 
+  > 0.1.3: Fix tolerance problem with distorted elements.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
 
@@ -4299,6 +4446,8 @@ The following table shows which components have updates in each category.
   > 0.3.0: Fix bug with missing results and use_quadratic_elements pin.
 
   > 0.3.1: Update the operator and pin descriptions.
+
+  > 0.3.2: Fix tolerance problem with distorted elements.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
@@ -4348,6 +4497,8 @@ The following table shows which components have updates in each category.
 
   > 0.2.12: Add support for line elements.
 
+  > 0.2.13: Performance improvement for Elemental and ElementalNodal fields.
+
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
@@ -4372,6 +4523,8 @@ The following table shows which components have updates in each category.
   > 0.2.7: Fix data race on exception short-circuit flag in the parallel OMP loop by using std::atomic<bool>.
 
   > 0.2.8: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
+
+  > 0.2.9: Performance improvement for Elemental and ElementalNodal fields containers.
 
 
 
@@ -4410,6 +4563,11 @@ The following table shows which components have updates in each category.
 - [accumulate_over_label_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulate_over_label_fc.md)
 
   > 0.0.1: Fixed issue with crash due to empty label.
+
+
+- [accumulation_per_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulation_per_scoping.md)
+
+  > 0.0.1: Rewrite the operator description to clarify entity-wise summation per field and label-agnostic behaviour, document input pins 0, 3, 4 and 5, document the two output pins, and mark the streams and data sources pins as optional.
 
 
 - [add](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/add.md)
@@ -4472,6 +4630,11 @@ Upgraded documentation
   > 0.0.1: Improve operator description with conjugate formula and Wikipedia link. Add input and output pin descriptions.
 
 
+- [correlation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/correlation.md)
+
+  > 0.0.1: Rewrite description with LaTeX weighted inner product formula, mark pins 2 and 3 optional, correct the absoluteValue pin description.
+
+
 - [cos](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/cos.md)
 
   > 0.0.1: Improve operator description to document unit constraints and formula. Improve input and output pin descriptions. Add Wikipedia link.
@@ -4504,7 +4667,7 @@ Upgraded documentation
 
 - [entity_extractor](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/entity_extractor.md)
 
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
+  > 0.0.1: Correct description to clarify index-based (not ID-based) extraction, document all pins, and declare the previously undocumented output pin 1.
 
 
 - [exponential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential.md)
@@ -4554,12 +4717,12 @@ Upgraded documentation
 
 - [mac](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/mac.md)
 
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
+  > 0.0.1: Rewrite description with MAC formula and LaTeX notation, mark pin 2 optional, document all pins, and fix typo in original description.
 
 
 - [make_one_on_comp](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/make_one_on_comp.md)
 
-  > 0.0.1: Internal refactoring to use Scoping Iterators.
+  > 0.0.1: Rewrite description to clarify index-based (not ID-based) selection and standard-basis-vector semantics, document all pins.
 
 
 - [minus](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/minus.md)
@@ -4570,6 +4733,11 @@ Upgraded documentation
 - [minus_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/minus_fc.md)
 
   > 0.0.1: Improve operator description to document formula, broadcast behaviour, unit handling, and temperature-difference unit. Improve output pin description. Add entity-wise subtraction synonym.
+
+
+- [modal_damping_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_damping_ratio.md)
+
+  > 0.0.1: Rewrite description to use LaTeX Rayleigh damping formula and identify each input coefficient.
 
 
 - [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_participation.md)
@@ -4705,6 +4873,11 @@ Upgraded documentation
 
 #### mesh
 
+- [acmo_mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/acmo_mesh_provider.md)
+
+  > 0.0.1: Improved error reporting: errors now include structured context and a remediation suggestion.
+
+
 - [change_cs](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/change_cs.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
@@ -4738,6 +4911,8 @@ Upgraded documentation
 
   > 0.3.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.3.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
 
@@ -4746,6 +4921,8 @@ Upgraded documentation
   > 0.0.2: Fixing issue with connectivity.
 
   > 0.1.0: Improvement in the performance for cases with non shared scoping between property fields and mesh.
+
+  > 0.1.1: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
 
 - [make_plane_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/make_plane_levelset.md)
@@ -5198,6 +5375,11 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
 
+- [migrate_to_h5dpf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/migrate_to_h5dpf.md)
+
+  > 0.1.0: Results that don't contain any field are now skipped from the export
+
+
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
@@ -5425,10 +5607,21 @@ Upgraded documentation
 
   > 0.0.2: Fix issue when input FieldsContainer and ScopingsContainer don't share labels.
 
+  > 0.0.3: Add check on scoping of field to rescope and input scoping locations.
+
+  > 0.0.4: Performance improvement.
+
+
+- [compute_element_centroids](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/compute_element_centroids.md)
+
+  > 0.1.0: Added arithmetic_average centroid algorithm and explicit pin-combination validation/documentation.
+
 
 - [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/intersect.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Performance improvement when scop1 is included in scop2. The operator will return scop1 without any transformation.
 
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_property.md)
@@ -5451,6 +5644,10 @@ Upgraded documentation
 
   > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
 
+  > 0.1.3: Handle time or frequency steps location correctly.
+
+  > 0.1.4: Performance improvement.
+
 
 - [rescope_custom_type_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_custom_type_field.md)
 
@@ -5459,6 +5656,10 @@ Upgraded documentation
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
   > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
+
+  > 0.1.3: Handle time or frequency steps location correctly.
+
+  > 0.1.4: Performance improvement.
 
 
 - [rescope_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_fc.md)
@@ -5469,6 +5670,12 @@ Upgraded documentation
 
   > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
 
+  > 0.1.3: Handle time or frequency steps location correctly.
+
+  > 0.1.4: Performance improvement.
+
+  > 0.1.5: Enable parallelism.
+
 
 - [rescope_property_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/rescope_property_field.md)
 
@@ -5477,6 +5684,10 @@ Upgraded documentation
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
   > 0.1.2: Fix null pointer dereference before null check in extrapolation path.
+
+  > 0.1.3: Handle time or frequency steps location correctly.
+
+  > 0.1.4: Performance improvement.
 
 
 - [transpose](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/transpose.md)
@@ -5498,6 +5709,11 @@ Upgraded documentation
   > 1.0.0: Fixed issue while reading csv with multiple fields and common time id between fields.
 
 
+- [deserializer](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/deserializer.md)
+
+  > 1.0.0: The stream_type input is made optional.
+
+
 - [export_symbolic_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/export_symbolic_workflow.md)
 
   > 0.1.0: Changed the default name of input pin 1 to 'workflow_path', the previous name 'path' is kept as an alias.
@@ -5512,12 +5728,16 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
+
 
 - [hdf5dpf_generate_result_file](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/hdf5dpf_generate_result_file.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Fix use of odd and even in pin description
+
+  > 0.0.3: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
 
 - [import_symbolic_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/import_symbolic_workflow.md)
@@ -5530,6 +5750,11 @@ Upgraded documentation
 - [serialize_to_hdf5](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/serialize_to_hdf5.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [serializer](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/serializer.md)
+
+  > 1.0.0: Changed default value of stream_type input pin from ASCII to binary.
 
 
 - [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_pydpf.md)
@@ -5666,8 +5891,6 @@ Upgraded documentation
 #### add_rigid_body_motion
 
 #### add_rigid_body_motion_fc
-
-#### cgns_result_provider
 
 #### cms_dst_table_provider
 
