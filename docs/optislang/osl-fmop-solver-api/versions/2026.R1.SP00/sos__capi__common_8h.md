@@ -7,22 +7,22 @@
 C-API for utility functions (load/unload library, license management, error handling)
 
 **copyright**\
-Ansys Austria GmbH
+DYNARDO Austria GmbH
 
 ## Included by
 
 * [FMOPSolver.h](_f_m_o_p_solver_8h.md#_f_m_o_p_solver_8h)
-* [fmop_solver.h](fmop_solver.md#fmop__solver_8h)
+* [fmop_solver.h](fmop__solver_8h.md#fmop__solver_8h)
 * [sos_capi_script.h](sos__capi__script_8h.md#sos__capi__script_8h)
 
 
 ```mermaid
 graph RL
 2["FMOPSolver.h"]
-click 2 "_f_m_o_p_solver_8h.md#source"
+click 2 "_f_m_o_p_solver_8h_source.md#_f_m_o_p_solver_8h_source"
 
 3["fmop_solver.h"]
-click 3 "fmop_solver.md#fmop__solver_8h"
+click 3 "fmop__solver_8h.md#fmop__solver_8h"
 2 --> 3
 
 1["sos_capi_common.h"]
@@ -783,9 +783,9 @@ DYNARDO_FMOP_API fmop_error_t FMOP_unloadLibrary();
 
 #endif // DYNARDO_SOS_CAPI_COMMON_H
 
-// (c) 2017, Ansys Austria GmbH (proprietary license)
+// (c) 2017, DYNARDO Austria GmbH (proprietary license)
 ```
 
 
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

@@ -1,7 +1,11 @@
 # File FMOPSolver.c
 
+![][C++]
 
 **Location**: `doc/FMOPSolver.c`
+
+
+
 
 
 ## Includes
@@ -48,6 +52,13 @@ click 1 "_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c"
 #define REF_NUM_PARAMS 6
 ```
 
+
+
+
+
+
+
+
 ## Functions
 
 <a id="_f_m_o_p_solver_8c_1af3ed9c200de85b53c94cd18764b246a2"></a>
@@ -61,12 +72,63 @@ int main(int argc, char *const argv[])
 ```
 
 
-FMOPSolver interface example using the sos_demo database provided with your oSP3D installation.
+FMOPSolver interface example using the sos_demo database provided with your SoS installation.
 
 **copyright**\
-2026, Ansys Austria GmbH
+2019, DYNARDO Austria GmbH
 
-## Example
+Additional absolute license search path, e.g. the users home directory, or the executable home path (optional)
+
+
+
+
+
+Path to the input database
+
+
+
+
+
+The FMOP ident to query
+
+
+
+
+
+The input parameters to evaluate the FMOP at
+
+
+
+
+
+The requested feature
+
+
+
+
+
+The database handle
+
+
+
+
+
+The FMOP handle
+
+
+
+
+
+Prepend the content of the SOS_PUBLIC_DIR environment variable if defined
+
+**Parameters**:
+
+* int **argc**
+* char *const **argv****Return type**: int
+
+## Source
+
+
 ```cpp
 
 #include <stdlib.h>
@@ -264,12 +326,12 @@ int main ( int argc, char* const argv[] )
     }
 
     {
-        printf ( "INFO  | Load the oSP3D demo database\n" );
+        printf ( "INFO  | Load the SoS demo database\n" );
 
 //        if ( FMOP_loadDbFile ( & database, db_path ) )
         if ( FMOP_loadDbFileWMesh ( & database, db_path ) )
         {
-            fprintf ( stderr, "FATAL | Loading the oSP3D demo database. The library reports:\n%s\n",
+            fprintf ( stderr, "FATAL | Loading the SoS demo database. The library reports:\n%s\n",
                       FMOP_getLastErrorString () );
             return FMOP_getLastErrno ();
         }
@@ -511,9 +573,9 @@ int main ( int argc, char* const argv[] )
     return num_errors;
 }
 
-// (c) 2019, Ansys Austria GmbH (proprietary license)
+// (c) 2019, DYNARDO Austria GmbH (proprietary license)
 ```
 
 
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

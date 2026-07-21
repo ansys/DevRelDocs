@@ -1,20 +1,39 @@
 # File fmop_solver.h
 
+![][C++]
+
 **Location**: `fmop_solver.h`
+
+C-API to evaluate a Field Meta model of Optimal Prognosis (FMOP)
+
+**copyright**\
+DYNARDO Austria GmbH
+
+
+
+
+
+
+
 
 * This API follows the _Basic_ exception safety _rule_. If any of the operations fail, the original data, e.g. the fmop_handle*_t, might have been overwritten, but there should be no resource leak.
 
 * Return values are typically of type [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec). To get a human readalbe interpretation forward this value to [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) or call [FMOP_getLastErrorString()](sos__capi__common_8h.md#sos__capi__common_8h_1aa79c50f0e38654fc5bf42e052b229748). More information can be found in the Error Handling section
 
-* Log messages from the oSP3D kernel are all bufferd in an internal variable. Unless otherwise stated in a function description, this internal variable gets reset(!) right at the beginning of each function call. Therefore, the user is forced into fetching all log messages of interest before proceeding.
+* Log messages from the SoS kernel are all bufferd in an internal variable. Unless otherwise stated in a function description, this internal variable gets reset(!) right at the beginning of each function call. Therefore, the user is forced into fetching all log messages of interest before proceeding.
 
 
 
-> **Warning** \
+
+
+
+
+
+!> **Warning** \
 Concurrent library calls are NOT supported
 
 
-> **Warning** \
+!> **Warning** \
 Unless otherwise stated, every function call overwrites any log message of any previous function call
 
 ## Includes
@@ -25,7 +44,7 @@ Unless otherwise stated, every function call overwrites any log message of any p
 ```mermaid
 graph LR
 1["fmop_solver.h"]
-click 1 "fmop_solver.md#fmop__solver_8h"
+click 1 "fmop__solver_8h.md#fmop__solver_8h"
 1 --> 2
 
 2["sos_capi_common.h"]
@@ -42,10 +61,10 @@ click 2 "sos__capi__common_8h.md#sos__capi__common_8h"
 ```mermaid
 graph RL
 2["FMOPSolver.h"]
-click 2 "_f_m_o_p_solver_8h.md#source"
+click 2 "_f_m_o_p_solver_8h_source.md#_f_m_o_p_solver_8h_source"
 
 1["fmop_solver.h"]
-click 1 "fmop_solver.md#fmop__solver_8h"
+click 1 "fmop__solver_8h.md#fmop__solver_8h"
 2 --> 1
 
 ```
@@ -62,18 +81,18 @@ API handling data object life time
 
 
 ```cpp
-fmop_error_t FMOP_getModel(fmop_db_handle_t database, fmop_dataobject_types data_type, const char *const fmop_ident, fmop_handle_t *fmop)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModel(fmop_db_handle_t database, fmop_dataobject_types data_type, const char *const fmop_ident, fmop_handle_t *fmop)
 ```
 
 
-Loads a [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object from the database given.
+Loads a [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object from the database given.
 
 **Parameters**:
 
 * **database**: The already initialized database handle
 * **data_type**: The data type in question
 * **fmop_ident**: The FMOP ident to be loaded from the database given
-* **fmop**: On input _*fmop_ must point to NULL. Returns an initialized fmop handle to the requested _fmop_ident_ on output. Pointer ownership is up to the caller after return. Call FMOP_releaseModel ([fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) *) at the end of lifetime.
+* **fmop**: On input _*fmop_ must point to NULL. Returns an initialized fmop handle to the requested _fmop_ident_ on output. Pointer ownership is up to the caller after return. Call FMOP_releaseModel ([fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) *) at the end of lifetime.
 
 
 **Returns**:
@@ -83,7 +102,7 @@ Loads a [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the _fmop_ argument does not hold a NULL pointer on input
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_model_missing](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becaedda7a6dbd4f5dd3eedecca9ec7dc1e9) if the handle initialization fails
 
@@ -95,7 +114,7 @@ Loads a [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that FMOP_initialize() returned fmop_model_success
+?> Assumes that FMOP_initialize() returned fmop_model_success
 
 
 **Returns**:
@@ -106,12 +125,12 @@ A success indicator. Call FMOP_getErrnoString to get a human readable representa
 
 **Parameters**:
 
-* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * const char *const **fmop_ident**
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a0ad6b75479bad22c19004ccf3078f235"></a>
 ### Function FMOP_loadDbBuf
@@ -120,19 +139,19 @@ A success indicator. Call FMOP_getErrnoString to get a human readable representa
 
 
 ```cpp
-fmop_error_t FMOP_loadDbBuf(fmop_db_handle_t *database, const char *buffer, size_t length)
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbBuf(fmop_db_handle_t *database, const char *buffer, size_t length)
 ```
 
 
-Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database array.
+Initializes a [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved Statistics on Structures (SoS) database array.
 
-> **Warning** \
+!> **Warning** \
 Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
 
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
 * **buffer**: A character array
 * **length**: The length of the character array
 
@@ -144,7 +163,7 @@ Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the buffer or length argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
@@ -159,11 +178,11 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **buffer**
 * size_t **length**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1ab77fe12cab675bb1d50232deacf23a34"></a>
 ### Function FMOP_loadDbBufWMesh
@@ -172,19 +191,19 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_loadDbBufWMesh(fmop_db_handle_t *database, const char *buffer, size_t length)
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbBufWMesh(fmop_db_handle_t *database, const char *buffer, size_t length)
 ```
 
 
-Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database array This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
+Initializes a [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved Statistics on Structures (SoS) database array This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
 
-> **Warning** \
+!> **Warning** \
 Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
 
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the buffer content given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
 * **buffer**: A character array
 * **length**: The length of the character array
 
@@ -196,7 +215,7 @@ Draft only. CURRENTLY NOT IMPLEMENTED. Returns fmop_not_implemented
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the buffer or length argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
@@ -211,11 +230,11 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **buffer**
 * size_t **length**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1adf36057836bc12095f01665fa068ba4c"></a>
 ### Function FMOP_loadDbFile
@@ -224,16 +243,16 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_loadDbFile(fmop_db_handle_t *database, const char *path)
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbFile(fmop_db_handle_t *database, const char *path)
 ```
 
 
-Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database.
+Initializes a [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved Statistics on Structures (SoS) database.
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
-* **path**: The path to the oSP3D database file as a NULL terminated character array
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **path**: The path to the SoS database file as a NULL terminated character array
 
 
 **Returns**:
@@ -243,11 +262,11 @@ Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b9
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the path argument doesn't point to an existing file
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
-* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
+* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
 
 
 **Returns**:
@@ -258,10 +277,10 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **path**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1ab3f6b6b4a84878f3c774a12a2b4cf958"></a>
 ### Function FMOP_loadDbFileWMesh
@@ -270,16 +289,16 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_loadDbFileWMesh(fmop_db_handle_t *database, const char *path)
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbFileWMesh(fmop_db_handle_t *database, const char *path)
 ```
 
 
-Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved optiSLang Postprocessing 3D (oSP3D) database This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
+Initializes a [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object from a previously saved Statistics on Structures (SoS) database This function also builds up all internal data structures needed to represent FEM meshes. Hence it may need more CPU time and RAM.
 
 **Parameters**:
 
-* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
-* **path**: The path to the oSP3D database file as a NULL terminated character array
+* **database**: On input _*database_ must point to NULL. Returns an initialized handle to the loaded database on ouptut. The database of the returned handle has been set to the content of the file path given. Pointer ownership is up to the caller after return. Call FMOP_releaseDb ([fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) *) at the end of lifetime.
+* **path**: The path to the SoS database file as a NULL terminated character array
 
 
 **Returns**:
@@ -289,11 +308,11 @@ Initializes a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b9
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the path argument doesn't point to an existing file
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to load a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
-* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
+* [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) if the [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) has been initialized successfully
 
 
 **Returns**:
@@ -304,10 +323,10 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 * const char * **path**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1af36d28d4c5c718284a0f4236f2740e06"></a>
 ### Function FMOP_releaseDb
@@ -316,21 +335,21 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_releaseDb(fmop_db_handle_t *database)
+DYNARDO_FMOP_API fmop_error_t FMOP_releaseDb(fmop_db_handle_t *database)
 ```
 
 
-Releases a [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object and dedicated memory.
+Releases a [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) object and dedicated memory.
 
 **Parameters**:
 
-* **database**: The [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) to be released. Set to NULLptr on return.
+* **database**: The [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) to be released. Set to NULLptr on return.
 
 
 **Returns**:
 
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
@@ -345,9 +364,9 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
+* [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) * **database**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c"></a>
 ### Function FMOP_releaseIdents
@@ -356,7 +375,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_releaseIdents(char ***const idents, const size_t *num_idents)
+DYNARDO_FMOP_API fmop_error_t FMOP_releaseIdents(char ***const idents, const size_t *num_idents)
 ```
 
 
@@ -393,7 +412,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 * char ***const **idents**
 * const size_t * **num_idents**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a3ad01c460ed6e409b79e258a523d0bf9"></a>
 ### Function FMOP_releaseModel
@@ -402,21 +421,21 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_releaseModel(fmop_handle_t *fmop)
+DYNARDO_FMOP_API fmop_error_t FMOP_releaseModel(fmop_handle_t *fmop)
 ```
 
 
-Releases a [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) object and dedicated memory.
+Releases a [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) object and dedicated memory.
 
 **Parameters**:
 
-* **fmop**: The [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) to be released. Set to NULLptr on return.
+* **fmop**: The [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) to be released. Set to NULLptr on return.
 
 
 **Returns**:
 
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) if any other failure get invoked
 
@@ -431,9 +450,9 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) * **fmop**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 ## Query properties
 
@@ -446,7 +465,7 @@ API to query idents and properties of a "Field Meta Model of Optimal Prognosis" 
 
 
 ```cpp
-fmop_error_t FMOP_getDataDim(const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t *num_mesh_items)
+DYNARDO_FMOP_API fmop_error_t FMOP_getDataDim(const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t *num_mesh_items)
 ```
 
 
@@ -454,7 +473,7 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type to be queried (node, element, scalar)
 * **num_mesh_items**: An already initialized scalar data object. Contains the size of the data vectors for the givvemn data type on return
 
@@ -464,7 +483,7 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the num_mesh_items pointer is a NULL pointer
 
@@ -478,17 +497,17 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that FMOP_initialize() returned fmop_model_success
+?> Assumes that FMOP_initialize() returned fmop_model_success
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * size_t * **num_mesh_items**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a535bee00c4d200d31fdf4118e49c1f05"></a>
 ### Function FMOP_getDataPointCoors
@@ -497,7 +516,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getDataPointCoors(fmop_handle_t fmop, char axis, double *coors)
+DYNARDO_FMOP_API fmop_error_t FMOP_getDataPointCoors(fmop_handle_t fmop, char axis, double *coors)
 ```
 
 
@@ -505,7 +524,7 @@ Returns the cartesian data point coordinates for each data point.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **axis**: Controls coordinate output. The following integers are accepted:
 * 0... asks for x-coordinates only
 
@@ -514,14 +533,14 @@ Returns the cartesian data point coordinates for each data point.
 * 2... asks for z-coordinates only
 
 * 3... asks for x-, y- and z-coordinates
-* **coors**: An already initialized array of size `formula {"type":"element","name":"formula","attributes":{"id":"0"},"children":[{"type":"text","text":"$ ( 1 + \\lfloor \\frac{\\mathit{axis}}{3} \\rfloor ) * \\mathit{num_mesh_items} $"}]}`. Call [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) to get _num_mesh_items_. On output contains the following coordinate values:
+* **coors**: An already initialized array of size `formula {"type":"element","name":"formula","attributes":{"id":"0"},"children":[{"type":"text","text":"$ ( 1 + \\lfloor \\frac{\\mathit{axis}}{3} \\rfloor ) * \\mathit{num\_mesh\_items} $"}]}`. Call [FMOP_getModelDim()](fmop__solver_8h.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) to get _num_mesh_items_. On output contains the following coordinate values:
 * finite element nodes for an FMOP of type [fmop_node_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75aaf0fb275c161febc56c4f10e62987049)
 
 * finite elements using their center coordinate in space for an FMOP of type [fmop_element_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75a1ec31fe31f3b8a9fd9dd902b014499ef)
 
 * an FMOP of type [fmop_scalar_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75a16a14aa0d55901638e165fb3a39b3870) invokes an [fmop_exception_occurred](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becadac3d9086cdab852d265dc924070c198) error Follows the scheme: `formula {"type":"element","name":"formula","attributes":{"id":"1"},"children":[{"type":"text","text":"$ \\mathit{coors} \\lbrack k+ \\mathit{axis} \\bmod 3 \\rbrack $"}]}` with <br/>
  k...internal mesh item ident, e.g. internal signal position, internal element number <br/>
- Call [FMOP_getDataPointIndices()](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
+ Call [FMOP_getDataPointIndices()](fmop__solver_8h.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
 
 
 **Returns**:
@@ -529,7 +548,7 @@ Returns the cartesian data point coordinates for each data point.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the axis parameter is out-of-bounds, or the coors pointer is a NULL pointer
 
@@ -543,21 +562,21 @@ Returns the cartesian data point coordinates for each data point.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
-> **Warning** \
+!> **Warning** \
 Calling this function for FMOP models of type [fmop_element_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75a1ec31fe31f3b8a9fd9dd902b014499ef) multiplies resource consumption!
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * char **axis**
 * double * **coors**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31"></a>
 ### Function FMOP_getDataPointIndices
@@ -566,7 +585,7 @@ Calling this function for FMOP models of type [fmop_element_data](sos__capi__com
 
 
 ```cpp
-fmop_error_t FMOP_getDataPointIndices(fmop_handle_t fmop, unsigned int *part_ids, unsigned int *item_ids)
+DYNARDO_FMOP_API fmop_error_t FMOP_getDataPointIndices(fmop_handle_t fmop, unsigned int *part_ids, unsigned int *item_ids)
 ```
 
 
@@ -574,14 +593,14 @@ Maps internal node/element numbering to the external scheme consisting of part a
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **part_ids**: Either an already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65), or a NULL pointer. Note, most of the meshes consists of a single part only, e.g. signals. If the argument is initialized, it contains the external part IDs on output. A NULL pointer otherwise<br/>
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **part_ids**: Either an already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop__solver_8h.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65), or a NULL pointer. Note, most of the meshes consists of a single part only, e.g. signals. If the argument is initialized, it contains the external part IDs on output. A NULL pointer otherwise<br/>
  
 ```cpp
 external( internal[k] ) = PART_ID [k], item_id [k] 
 ```
  k...mesh item, e.g. signal position, element number
-* **item_ids**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65). On output contains the external node/element ID <br/>
+* **item_ids**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop__solver_8h.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65). On output contains the external node/element ID <br/>
  
 ```cpp
 external( internal[k] ) = part_id [k], ITEM_ID [k] 
@@ -594,7 +613,7 @@ external( internal[k] ) = part_id [k], ITEM_ID [k]
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the item_id pointer is a NULL pointer
 
@@ -608,17 +627,17 @@ external( internal[k] ) = part_id [k], ITEM_ID [k]
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int * **part_ids**
 * unsigned int * **item_ids**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a8ca72d6a865df21ce5a5180475c71cda"></a>
 ### Function FMOP_getElementsAtNode
@@ -627,7 +646,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getElementsAtNode(fmop_handle_t fmop, unsigned int node_idx, unsigned int *elements)
+DYNARDO_FMOP_API fmop_error_t FMOP_getElementsAtNode(fmop_handle_t fmop, unsigned int node_idx, unsigned int *elements)
 ```
 
 
@@ -635,9 +654,9 @@ Identifies the elements connected to a given node.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **node_idx**: the node index (0.. numNodes). This node index refers to the index in the FMOP data vectors.
-* **elements**: An already initialized array of size as returned by [FMOP_getNumElementsAtNode()](fmop_solver.md#fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54). On output contains the internal element ID that are connected to the given node.
+* **elements**: An already initialized array of size as returned by [FMOP_getNumElementsAtNode()](fmop__solver_8h.md#fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54). On output contains the internal element ID that are connected to the given node.
 
 
 **Returns**:
@@ -645,7 +664,7 @@ Identifies the elements connected to a given node.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the item_id pointer is a NULL pointer
 
@@ -659,17 +678,17 @@ Identifies the elements connected to a given node.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **node_idx**
 * unsigned int * **elements**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a3eea3398149b5f0f6177ccc4a649ab79"></a>
 ### Function FMOP_getElementTypeIdent
@@ -678,7 +697,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-const char * FMOP_getElementTypeIdent(fmop_handle_t fmop, unsigned int element_idx)
+DYNARDO_FMOP_API const char * FMOP_getElementTypeIdent(fmop_handle_t fmop, unsigned int element_idx)
 ```
 
 
@@ -686,7 +705,7 @@ Identifies the element type ident of a given element.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **element_idx**: the element index (0.. numElements). This element index refers to the index in the FMOP data vectors.
 
 
@@ -695,10 +714,10 @@ Identifies the element type ident of a given element.
 On success the element type identifier at array position num_ident from the database given, othewise an empty string.
 
 
-> Calling this function changes the error number to:
+?> Calling this function changes the error number to:
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the database or fmop_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the param_ident pointer does not hold a NULL pointer on input
 
@@ -709,16 +728,16 @@ On success the element type identifier at array position num_ident from the data
 * [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) elsewise. Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **element_idx**
 
-**Return type**: const char *
+**Return type**: DYNARDO_FMOP_API const char *
 
 <a id="fmop__solver_8h_1a185c515c2fe8b0528ccb5f95f543a3be"></a>
 ### Function FMOP_getModelAvgFCoP
@@ -727,7 +746,7 @@ On success the element type identifier at array position num_ident from the data
 
 
 ```cpp
-fmop_error_t FMOP_getModelAvgFCoP(const fmop_handle_t fmop, double *fcops)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelAvgFCoP(const fmop_handle_t fmop, double *fcops)
 ```
 
 
@@ -735,7 +754,7 @@ Returns the Field Coefficients of Prognosis per active scalar input parameter.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **fcops**: An already initialized array of size num_params as returned by FMOP_getModelNumParams() On output contains the average Field Coefficient of Prognosis per active scalar input parameter Follows the scheme: fcops[i] (i..i'th active scalar input parameter).
 
 
@@ -744,7 +763,7 @@ Returns the Field Coefficients of Prognosis per active scalar input parameter.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the fcops pointer is a NULL pointer
 
@@ -758,16 +777,16 @@ Returns the Field Coefficients of Prognosis per active scalar input parameter.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **fcops**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65"></a>
 ### Function FMOP_getModelDim
@@ -776,7 +795,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getModelDim(const fmop_handle_t fmop, size_t *num_mesh_items)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelDim(const fmop_handle_t fmop, size_t *num_mesh_items)
 ```
 
 
@@ -784,7 +803,7 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **num_mesh_items**: An already initialized scalar data object. Contains the size of the FCoP vector on return
 
 
@@ -793,7 +812,7 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the num_mesh_items pointer is a NULL pointer
 
@@ -807,16 +826,16 @@ Returns the size of the FCoP vector, aka the number of mesh items.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * size_t * **num_mesh_items**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f"></a>
 ### Function FMOP_getModelIdent
@@ -825,15 +844,15 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-const char * FMOP_getModelIdent(const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t num_ident)
+DYNARDO_FMOP_API const char * FMOP_getModelIdent(const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t num_ident)
 ```
 
 
-Returns the n-th known FMOP identifier from the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
+Returns the n-th known FMOP identifier from the [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type in question
 * **num_ident**: Defines the position in the fmop_idents char* array []. Notice that the first element has a position of 0
 
@@ -843,10 +862,10 @@ Returns the n-th known FMOP identifier from the [fmop_db_handle_t](fmop_solver.m
 On succes the FMOP identifier at array position num_ident from the database given, otherwise an empty string. The returned string will be overwritten by this function at the next call and will be destroyed on program termination
 
 
-> Calling this function changes the error number to:
+?> Calling this function changes the error number to:
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the database or fmop_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the fmop_idents pointer does not hold a NULL pointer on input
 
@@ -857,17 +876,17 @@ On succes the FMOP identifier at array position num_ident from the database give
 * [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) elsewise. Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * size_t **num_ident**
 
-**Return type**: const char *
+**Return type**: DYNARDO_FMOP_API const char *
 
 <a id="fmop__solver_8h_1a22d6e807dc869fa28442d26e29ddbc27"></a>
 ### Function FMOP_getModelIdents
@@ -876,17 +895,17 @@ On succes the FMOP identifier at array position num_ident from the database give
 
 
 ```cpp
-fmop_error_t FMOP_getModelIdents(const fmop_db_handle_t database, fmop_dataobject_types data_type, char ***const fmop_idents, size_t *num_idents)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelIdents(const fmop_db_handle_t database, fmop_dataobject_types data_type, char ***const fmop_idents, size_t *num_idents)
 ```
 
 
-Returns all known FMOP identifier from the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
+Returns all known FMOP identifier from the [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type in question
-* **fmop_idents**: On input _*fmop_idents_ must point to NULL. On return contains all known FMOP identifier from the database given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](fmop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
+* **fmop_idents**: On input _*fmop_idents_ must point to NULL. On return contains all known FMOP identifier from the database given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](fmop__solver_8h.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
 * **num_idents**: An already initialized scalar data object. Contains the number of FMOP idents, aka the size of the fmop_idents char* array []
 
 
@@ -895,7 +914,7 @@ Returns all known FMOP identifier from the [fmop_db_handle_t](fmop_solver.md#fmo
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the database or fmop_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the fmop_idents pointer does not hold a NULL pointer on input
 
@@ -911,21 +930,21 @@ Returns all known FMOP identifier from the [fmop_db_handle_t](fmop_solver.md#fmo
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
-> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelIdentsDim()](fmop_solver.md#fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc) followed by [FMOP_getModelIdent()](fmop_solver.md#fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f) to query known idents one by one
+?> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelIdentsDim()](fmop__solver_8h.md#fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc) followed by [FMOP_getModelIdent()](fmop__solver_8h.md#fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f) to query known idents one by one
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * char ***const **fmop_idents**
 * size_t * **num_idents**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc"></a>
 ### Function FMOP_getModelIdentsDim
@@ -934,15 +953,15 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getModelIdentsDim(const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t *num_idents)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelIdentsDim(const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t *num_idents)
 ```
 
 
-Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
+Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) given.
 
 **Parameters**:
 
-* **database**: A successfully initialized [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
+* **database**: A successfully initialized [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) data object
 * **data_type**: The data type in question
 * **num_idents**: An already initialized scalar data object. Contains the number of FMOP idents, aka the size of the fmop_idents char* array []
 
@@ -952,7 +971,7 @@ Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](f
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the database or fmop_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the num_idents pointer is a NULL pointer
 
@@ -966,17 +985,17 @@ Returns the total number of known FMOP identifiers from the [fmop_db_handle_t](f
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
+* const [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) **database**
 * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) **data_type**
 * size_t * **num_idents**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb"></a>
 ### Function FMOP_getModelParamIdent
@@ -985,7 +1004,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-const char * FMOP_getModelParamIdent(const fmop_handle_t fmop, size_t num_param)
+DYNARDO_FMOP_API const char * FMOP_getModelParamIdent(const fmop_handle_t fmop, size_t num_param)
 ```
 
 
@@ -993,7 +1012,7 @@ Returns the n-th active parameter identifier from the fmop handle given.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **num_param**: Defines the position in the fmop_idents char* array []. Notice that the first element has a position of 0
 
 
@@ -1002,10 +1021,10 @@ Returns the n-th active parameter identifier from the fmop handle given.
 On success the parameter identifier at array position num_ident from the database given, othewise an empty string. The returned string will be overwritten by this function at the next call and will be destroyed on program termination
 
 
-> Calling this function changes the error number to:
+?> Calling this function changes the error number to:
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the database or fmop_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the param_ident pointer does not hold a NULL pointer on input
 
@@ -1016,16 +1035,16 @@ On success the parameter identifier at array position num_ident from the databas
 * [fmop_success](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca41a0a2e83b0ac20d414f4b015522ce55) elsewise. Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * size_t **num_param**
 
-**Return type**: const char *
+**Return type**: DYNARDO_FMOP_API const char *
 
 <a id="fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f"></a>
 ### Function FMOP_getModelParamIdents
@@ -1034,7 +1053,7 @@ On success the parameter identifier at array position num_ident from the databas
 
 
 ```cpp
-fmop_error_t FMOP_getModelParamIdents(const fmop_handle_t fmop, char ***const param_idents, size_t *num_params)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelParamIdents(const fmop_handle_t fmop, char ***const param_idents, size_t *num_params)
 ```
 
 
@@ -1042,8 +1061,8 @@ Returns all active scalar inputer parameters for the fmop handle given.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **param_idents**: Requires a NULL pointer on input. On return contains all active scalar input parameters used in the fmop handle given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](fmop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **param_idents**: Requires a NULL pointer on input. On return contains all active scalar input parameters used in the fmop handle given. Pointer ownership is up to the caller after return. Call [FMOP_releaseIdents()](fmop__solver_8h.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) at the end of life
 * **num_params**: An already initialized scalar data object. Contains the number of active scalar input parameters used in the fmop handle given, aka the size of the param_idents char* array []
 
 
@@ -1052,7 +1071,7 @@ Returns all active scalar inputer parameters for the fmop handle given.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop or param_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the param_idents pointer does not hold a NULL pointer on input
 
@@ -1068,20 +1087,20 @@ Returns all active scalar inputer parameters for the fmop handle given.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
-> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelParamIdentsDim()](fmop_solver.md#fmop__solver_8h_1adabef430a391d15eb077fe30e134f368) followed by [FMOP_getModelParamIdent()](fmop_solver.md#fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb) to query known idents one by one
+?> Many languages offers the possiblity to call functions from an external C-library, e.g. Java, python and Matlab. If you are running in some limitations due to our tripple pointer requirement, please use the wrapper functions [FMOP_getModelParamIdentsDim()](fmop__solver_8h.md#fmop__solver_8h_1adabef430a391d15eb077fe30e134f368) followed by [FMOP_getModelParamIdent()](fmop__solver_8h.md#fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb) to query known idents one by one
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * char ***const **param_idents**
 * size_t * **num_params**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1adabef430a391d15eb077fe30e134f368"></a>
 ### Function FMOP_getModelParamIdentsDim
@@ -1090,7 +1109,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getModelParamIdentsDim(const fmop_handle_t fmop, size_t *num_params)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelParamIdentsDim(const fmop_handle_t fmop, size_t *num_params)
 ```
 
 
@@ -1098,7 +1117,7 @@ Returns the total number of active parameter identifiers from the fmop handle gi
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **num_params**: An already initialized scalar data object. Contains the number of active scalar input parameters used in the fmop handle given, aka the size of the param_idents char* array []
 
 
@@ -1107,7 +1126,7 @@ Returns the total number of active parameter identifiers from the fmop handle gi
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop or param_idents arguments is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the num_params pointer is a NULL pointer
 
@@ -1121,16 +1140,16 @@ Returns the total number of active parameter identifiers from the fmop handle gi
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * size_t * **num_params**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a1ff6f33cf199015b78c5837e40d90f42"></a>
 ### Function FMOP_getModelTotalAvgFCoP
@@ -1139,7 +1158,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getModelTotalAvgFCoP(const fmop_handle_t fmop, double *fcop)
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelTotalAvgFCoP(const fmop_handle_t fmop, double *fcop)
 ```
 
 
@@ -1147,7 +1166,7 @@ Returns the total average Field Coefficient of Prognosis for the fmop handle giv
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **fcop**: An already initialized scalar data object on input. On output contains the total average Field Coefficient of Prognosis
 
 
@@ -1156,7 +1175,7 @@ Returns the total average Field Coefficient of Prognosis for the fmop handle giv
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the fcop pointer is a NULL pointer
 
@@ -1170,16 +1189,16 @@ Returns the total average Field Coefficient of Prognosis for the fmop handle giv
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **fcop**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a03080c2458b8c03eb85ce9eb97926711"></a>
 ### Function FMOP_getNodesAtElement
@@ -1188,7 +1207,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getNodesAtElement(fmop_handle_t fmop, unsigned int element_idx, unsigned int *nodes)
+DYNARDO_FMOP_API fmop_error_t FMOP_getNodesAtElement(fmop_handle_t fmop, unsigned int element_idx, unsigned int *nodes)
 ```
 
 
@@ -1196,9 +1215,9 @@ Identifies the nodes connected to a given element.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **element_idx**: the element index (0.. numElements). This element index refers to the index in the FMOP data vectors.
-* **nodes**: An already initialized array of size as returned by [FMOP_getNumNodesAtElement()](fmop_solver.md#fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d). On output contains the internal node ID that are connected to the given element.
+* **nodes**: An already initialized array of size as returned by [FMOP_getNumNodesAtElement()](fmop__solver_8h.md#fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d). On output contains the internal node ID that are connected to the given element.
 
 
 **Returns**:
@@ -1206,7 +1225,7 @@ Identifies the nodes connected to a given element.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the item_id pointer is a NULL pointer
 
@@ -1220,17 +1239,17 @@ Identifies the nodes connected to a given element.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **element_idx**
 * unsigned int * **nodes**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54"></a>
 ### Function FMOP_getNumElementsAtNode
@@ -1239,7 +1258,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getNumElementsAtNode(fmop_handle_t fmop, unsigned int node_idx, unsigned int *num_elements)
+DYNARDO_FMOP_API fmop_error_t FMOP_getNumElementsAtNode(fmop_handle_t fmop, unsigned int node_idx, unsigned int *num_elements)
 ```
 
 
@@ -1247,7 +1266,7 @@ Identifies the elements connected to a given node.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **node_idx**: the node index (0.. numNodes). This node index refers to the index in the FMOP data vectors.
 * **num_elements**: a pointer to an unsigned integer number. On output it will contain the number of connected elements.
 
@@ -1257,7 +1276,7 @@ Identifies the elements connected to a given node.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the item_id pointer is a NULL pointer
 
@@ -1271,17 +1290,17 @@ Identifies the elements connected to a given node.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **node_idx**
 * unsigned int * **num_elements**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d"></a>
 ### Function FMOP_getNumNodesAtElement
@@ -1290,7 +1309,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getNumNodesAtElement(fmop_handle_t fmop, unsigned int element_idx, unsigned int *num_nodes)
+DYNARDO_FMOP_API fmop_error_t FMOP_getNumNodesAtElement(fmop_handle_t fmop, unsigned int element_idx, unsigned int *num_nodes)
 ```
 
 
@@ -1298,7 +1317,7 @@ Identifies the nodes connected to a given element.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **element_idx**: the element index (0.. numElements). This element index refers to the index in the FMOP data vectors.
 * **num_nodes**: a pointer to an unsigned integer number. On output it will contain the number of connected nodes.
 
@@ -1308,7 +1327,7 @@ Identifies the nodes connected to a given element.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the item_id pointer is a NULL pointer
 
@@ -1322,17 +1341,17 @@ Identifies the nodes connected to a given element.
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **element_idx**
 * unsigned int * **num_nodes**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1abaed2ac2af6a304f8356e51b9cb98442"></a>
 ### Function FMOP_getParamLowerBounds
@@ -1341,7 +1360,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getParamLowerBounds(const fmop_handle_t fmop, double *lower_bounds)
+DYNARDO_FMOP_API fmop_error_t FMOP_getParamLowerBounds(const fmop_handle_t fmop, double *lower_bounds)
 ```
 
 
@@ -1349,8 +1368,8 @@ Returns lower bound values of input parameters used to train the FMOP, aka the l
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **lower_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of lower bound values of all active scalar input parameters used to train the FMOP, e.g. lower_bounds[j] (j..index of the active scalar input parameter).
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **lower_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of lower bound values of all active scalar input parameters used to train the FMOP, e.g. lower_bounds[j] (j..index of the active scalar input parameter).
 
 
 **Returns**:
@@ -1358,7 +1377,7 @@ Returns lower bound values of input parameters used to train the FMOP, aka the l
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the lower_bounds pointer is a NULL pointer
 
@@ -1372,16 +1391,16 @@ Returns lower bound values of input parameters used to train the FMOP, aka the l
 Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **lower_bounds**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a301cfcf26e28ec7ba4b2c730facb679c"></a>
 ### Function FMOP_getParamUpperBounds
@@ -1390,7 +1409,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_getParamUpperBounds(const fmop_handle_t fmop, double *upper_bounds)
+DYNARDO_FMOP_API fmop_error_t FMOP_getParamUpperBounds(const fmop_handle_t fmop, double *upper_bounds)
 ```
 
 
@@ -1398,8 +1417,8 @@ Returns upper bound values of input parameters used to train the FMOP, aka the u
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **upper_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of upper bound values of all active scalar input parameters used to train the FMOP, e.g. upper_bounds[j] (j..index of the active scalar input parameter).
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **upper_bounds**: An already initialized array of size num_params as returned by [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) On output contains the vector of upper bound values of all active scalar input parameters used to train the FMOP, e.g. upper_bounds[j] (j..index of the active scalar input parameter).
 
 
 **Returns**:
@@ -1407,7 +1426,7 @@ Returns upper bound values of input parameters used to train the FMOP, aka the u
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the upper_bounds pointer is a NULL pointer
 
@@ -1421,16 +1440,16 @@ Returns upper bound values of input parameters used to train the FMOP, aka the u
 Call FMOP_getErrnoString to get a human readable representation
 
 
-> Assumes that [FMOP_getModel()](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
+?> Assumes that [FMOP_getModel()](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) returned fmop_success
 
 
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * double * **upper_bounds**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a1ff1451cc5f1c6cefa7a67c6a906d653"></a>
 ### Function FMOP_isNodePartOfBoundary
@@ -1439,7 +1458,7 @@ Call FMOP_getErrnoString to get a human readable representation
 
 
 ```cpp
-fmop_error_t FMOP_isNodePartOfBoundary(fmop_handle_t fmop, unsigned int node_idx, unsigned int *is_part_of_boundary)
+DYNARDO_FMOP_API fmop_error_t FMOP_isNodePartOfBoundary(fmop_handle_t fmop, unsigned int node_idx, unsigned int *is_part_of_boundary)
 ```
 
 
@@ -1447,7 +1466,7 @@ Identifies if the given node is on the surface.
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
 * **node_idx**: the node index (0.. numNodes). This node index refers to the index in the FMOP data vectors.
 * **is_part_of_boundary**: a pointer to an unsigned integer number. On output it will contain
 * 1 if the node is on the boundary
@@ -1460,7 +1479,7 @@ Identifies if the given node is on the surface.
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop argument is a NULL pointer
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the item_id pointer is a NULL pointer
 
@@ -1477,11 +1496,11 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * unsigned int **node_idx**
 * unsigned int * **is_part_of_boundary**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 ## Operations
 
@@ -1494,7 +1513,7 @@ API used to evalute a Field Meta Model of Optimal Prognosis (FMOP)
 
 
 ```cpp
-fmop_error_t FMOP_approxField(const fmop_handle_t fmop, const double *param_values, double *field)
+DYNARDO_FMOP_API fmop_error_t FMOP_approxField(const fmop_handle_t fmop, const double *param_values, double *field)
 ```
 
 
@@ -1502,14 +1521,14 @@ Approximates a field response based on a vector of given active scalar input par
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
- param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
- sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values must not be located outside the initial sampling bounds.
-* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
+ param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
+ sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values must not be located outside the initial sampling bounds.
+* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop__solver_8h.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
  Follows the scheme: `formula {"type":"element","name":"formula","attributes":{"id":"2"},"children":[{"type":"text","text":"$ field[k] $"}]}` <br/>
  k...internal mesh item ident, e.g. internal signal position, internal element number <br/>
- Call [FMOP_getDataPointIndices()](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
+ Call [FMOP_getDataPointIndices()](fmop__solver_8h.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
 
 
 **Returns**:
@@ -1517,7 +1536,7 @@ Approximates a field response based on a vector of given active scalar input par
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop handle is not allocated.
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the param_values or field array argument is a NULL pointer
 
@@ -1534,11 +1553,11 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * const double * **param_values**
 * double * **field**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 <a id="fmop__solver_8h_1a4380a704857be093fc6444aa5b8fdadc"></a>
 ### Function FMOP_approxFieldExtrapolate
@@ -1547,7 +1566,7 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 
 ```cpp
-fmop_error_t FMOP_approxFieldExtrapolate(const fmop_handle_t fmop, const double *param_values, double *field)
+DYNARDO_FMOP_API fmop_error_t FMOP_approxFieldExtrapolate(const fmop_handle_t fmop, const double *param_values, double *field)
 ```
 
 
@@ -1555,14 +1574,14 @@ Approximates a field response based on a vector of given active scalar input par
 
 **Parameters**:
 
-* **fmop**: A successfully initialized [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
-* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
- param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
- sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values may be located outside the initial sampling bounds.
-* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
+* **fmop**: A successfully initialized [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) data object
+* **param_values**: Vector of a single sample of all active scalar input parameters. Size and parameter order are defined by the return values of [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f)<br/>
+ param_values [j]... the index j matches the parameter input name position returned in the param_idents argument of [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) <br/>
+ sizeof ( param_values ) ... must match the num_params argument of [FMOP_getModelParamIdents()](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) The values may be located outside the initial sampling bounds.
+* **field**: An already initialized array of size num_mesh_items as returned by [FMOP_getModelDim()](fmop__solver_8h.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) On output contains the approximated field response. <br/>
  Follows the scheme: `formula {"type":"element","name":"formula","attributes":{"id":"2"},"children":[{"type":"text","text":"$ field[k] $"}]}` <br/>
  k...internal mesh item ident, e.g. internal signal position, internal element number <br/>
- Call [FMOP_getDataPointIndices()](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
+ Call [FMOP_getDataPointIndices()](fmop__solver_8h.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) to map internal to external numbering scheme
 
 
 **Returns**:
@@ -1570,7 +1589,7 @@ Approximates a field response based on a vector of given active scalar input par
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the fmop handle is not allocated.
 
-* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a oSP3D license for 1D meshes, e.g. signals, only
+* [fmop_license_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacf8dfe2eaba2eada73a26e487a04f8fe) if a license error occurs, e.g. no license has been acquired so far or one tries to release a 3D mesh but acquired a SoS license for 1D meshes, e.g. signals, only
 
 * [fmop_settings_error](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8beca4040927e4d05d13e93b9f2c7373ca0cd) if the param_values or field array argument is a NULL pointer
 
@@ -1587,11 +1606,11 @@ Call [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcd
 
 **Parameters**:
 
-* const [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
+* const [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) **fmop**
 * const double * **param_values**
 * double * **field**
 
-**Return type**: [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
+**Return type**: DYNARDO_FMOP_API [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec)
 
 ## Typedefs
 
@@ -1610,7 +1629,7 @@ typedef void* fmop_db_handle_t
 
 Contains all the data being required to post-process any FMOP.
 
-> Since we had some unresolved troubles in Matlab using the forward declaration 
+?> Since we had some unresolved troubles in Matlab using the forward declaration 
 ```cpp
 typedef struct FMOP_Database* fmop_db_handle_t; 
 ```
@@ -1635,7 +1654,7 @@ typedef void* fmop_handle_t
 
 Contains one specific single or cross correlated FMOP.
 
-> Since we had some unresolved troubles in Matlab using the forward declaration 
+?> Since we had some unresolved troubles in Matlab using the forward declaration 
 ```cpp
 typedef struct FMOP* fmop_handle_t; 
 ```
@@ -1676,58 +1695,58 @@ extern "C" {
 
 /*********************************************/
 
-fmop_error_t FMOP_loadDbFile ( fmop_db_handle_t * database, const char* path );
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbFile ( fmop_db_handle_t * database, const char* path );
 
-fmop_error_t FMOP_loadDbFileWMesh ( fmop_db_handle_t * database, const char* path );
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbFileWMesh ( fmop_db_handle_t * database, const char* path );
 
 #ifndef DOXYGEN_IGNORE
-fmop_error_t FMOP_loadDbBuf
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbBuf
     ( fmop_db_handle_t * database, const char* buffer,  size_t length );
-fmop_error_t FMOP_loadDbBufWMesh
+DYNARDO_FMOP_API fmop_error_t FMOP_loadDbBufWMesh
     ( fmop_db_handle_t * database, const char* buffer, size_t length );
 #endif
-fmop_error_t FMOP_getModel ( fmop_db_handle_t database, fmop_dataobject_types data_type,
+DYNARDO_FMOP_API fmop_error_t FMOP_getModel ( fmop_db_handle_t database, fmop_dataobject_types data_type,
                                               const char * const fmop_ident, fmop_handle_t * fmop );
-fmop_error_t FMOP_releaseModel ( fmop_handle_t * fmop );
-fmop_error_t FMOP_releaseDb ( fmop_db_handle_t * database );
-fmop_error_t FMOP_releaseIdents ( char *** const idents, const size_t * num_idents );
+DYNARDO_FMOP_API fmop_error_t FMOP_releaseModel ( fmop_handle_t * fmop );
+DYNARDO_FMOP_API fmop_error_t FMOP_releaseDb ( fmop_db_handle_t * database );
+DYNARDO_FMOP_API fmop_error_t FMOP_releaseIdents ( char *** const idents, const size_t * num_idents );
 
 
 /*********************************************/
 
-fmop_error_t FMOP_getModelIdents
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelIdents
     ( const fmop_db_handle_t database, fmop_dataobject_types data_type, char *** const fmop_idents, size_t * num_idents );
-fmop_error_t FMOP_getModelIdentsDim
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelIdentsDim
     ( const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t * num_idents );
-const char * FMOP_getModelIdent
+DYNARDO_FMOP_API const char * FMOP_getModelIdent
     ( const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t num_ident );
-fmop_error_t FMOP_getModelParamIdents
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelParamIdents
     ( const fmop_handle_t fmop, char *** const param_idents, size_t * num_params );
-fmop_error_t FMOP_getModelParamIdentsDim ( const fmop_handle_t fmop, size_t * num_params );
-const char * FMOP_getModelParamIdent ( const fmop_handle_t fmop, size_t num_param );
-fmop_error_t FMOP_getParamLowerBounds ( const fmop_handle_t fmop, double * lower_bounds );
-fmop_error_t FMOP_getParamUpperBounds ( const fmop_handle_t fmop, double * upper_bounds );
-fmop_error_t FMOP_getModelTotalAvgFCoP ( const fmop_handle_t fmop, double * fcop );
-fmop_error_t FMOP_getModelAvgFCoP ( const fmop_handle_t fmop, double * fcops );
-fmop_error_t FMOP_getModelDim ( const fmop_handle_t fmop, size_t * num_mesh_items );
-fmop_error_t FMOP_getDataDim ( const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t * num_mesh_items );
-fmop_error_t FMOP_getDataPointIndices ( fmop_handle_t fmop, unsigned int * part_ids, unsigned int * item_ids );
-fmop_error_t FMOP_getDataPointCoors (fmop_handle_t fmop, char axis, double * coors );
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelParamIdentsDim ( const fmop_handle_t fmop, size_t * num_params );
+DYNARDO_FMOP_API const char * FMOP_getModelParamIdent ( const fmop_handle_t fmop, size_t num_param );
+DYNARDO_FMOP_API fmop_error_t FMOP_getParamLowerBounds ( const fmop_handle_t fmop, double * lower_bounds );
+DYNARDO_FMOP_API fmop_error_t FMOP_getParamUpperBounds ( const fmop_handle_t fmop, double * upper_bounds );
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelTotalAvgFCoP ( const fmop_handle_t fmop, double * fcop );
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelAvgFCoP ( const fmop_handle_t fmop, double * fcops );
+DYNARDO_FMOP_API fmop_error_t FMOP_getModelDim ( const fmop_handle_t fmop, size_t * num_mesh_items );
+DYNARDO_FMOP_API fmop_error_t FMOP_getDataDim ( const fmop_db_handle_t database, fmop_dataobject_types data_type, size_t * num_mesh_items );
+DYNARDO_FMOP_API fmop_error_t FMOP_getDataPointIndices ( fmop_handle_t fmop, unsigned int * part_ids, unsigned int * item_ids );
+DYNARDO_FMOP_API fmop_error_t FMOP_getDataPointCoors (fmop_handle_t fmop, char axis, double * coors );
 
 
-fmop_error_t FMOP_getNumElementsAtNode ( fmop_handle_t fmop, unsigned int node_idx, unsigned int * num_elements );
-fmop_error_t FMOP_getElementsAtNode ( fmop_handle_t fmop, unsigned int node_idx, unsigned int * elements );
-fmop_error_t FMOP_isNodePartOfBoundary (fmop_handle_t fmop, unsigned int node_idx, unsigned int * is_part_of_boundary);
-fmop_error_t FMOP_getNumNodesAtElement ( fmop_handle_t fmop, unsigned int element_idx, unsigned int * num_nodes );
-fmop_error_t FMOP_getNodesAtElement ( fmop_handle_t fmop, unsigned int element_idx, unsigned int * nodes );
-const char * FMOP_getElementTypeIdent ( fmop_handle_t fmop, unsigned int element_idx );
+DYNARDO_FMOP_API fmop_error_t FMOP_getNumElementsAtNode ( fmop_handle_t fmop, unsigned int node_idx, unsigned int * num_elements );
+DYNARDO_FMOP_API fmop_error_t FMOP_getElementsAtNode ( fmop_handle_t fmop, unsigned int node_idx, unsigned int * elements );
+DYNARDO_FMOP_API fmop_error_t FMOP_isNodePartOfBoundary (fmop_handle_t fmop, unsigned int node_idx, unsigned int * is_part_of_boundary);
+DYNARDO_FMOP_API fmop_error_t FMOP_getNumNodesAtElement ( fmop_handle_t fmop, unsigned int element_idx, unsigned int * num_nodes );
+DYNARDO_FMOP_API fmop_error_t FMOP_getNodesAtElement ( fmop_handle_t fmop, unsigned int element_idx, unsigned int * nodes );
+DYNARDO_FMOP_API const char * FMOP_getElementTypeIdent ( fmop_handle_t fmop, unsigned int element_idx );
 
 /*********************************************/
 
-fmop_error_t FMOP_approxField
+DYNARDO_FMOP_API fmop_error_t FMOP_approxField
     ( const fmop_handle_t fmop, const double * param_values, double * field );
 
-fmop_error_t FMOP_approxFieldExtrapolate
+DYNARDO_FMOP_API fmop_error_t FMOP_approxFieldExtrapolate
     ( const fmop_handle_t fmop, const double * param_values, double * field );
 
 
@@ -1737,8 +1756,10 @@ fmop_error_t FMOP_approxFieldExtrapolate
 #endif
 
 #endif // DYNARDO_FMOP_H
+
+// (c) 2017, DYNARDO Austria GmbH (proprietary license)
 ```
 
-**copyright**
 
-Copyright © 2026 Synopsys, Inc. and ANSYS, Inc. All rights reserved.
+[public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

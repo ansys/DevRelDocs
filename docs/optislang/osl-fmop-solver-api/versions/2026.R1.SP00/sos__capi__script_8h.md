@@ -4,10 +4,10 @@
 
 **Location**: `sos_capi_script.h`
 
-C-API to run oSP3D scripts and exchange basic data.
+C-API to run SoS scripts and exchange basic data.
 
 **copyright**\
-Ansys Austria GmbH
+DYNARDO Austria GmbH
 
 
 
@@ -20,7 +20,7 @@ Ansys Austria GmbH
 
 * Return values are typically of type [fmop_error_t](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8bec). To get a human readalbe interpretation forward this value to [FMOP_getErrnoString()](sos__capi__common_8h.md#sos__capi__common_8h_1a4dcdde79d3a37a80540e3a7f5b486110) or call [FMOP_getLastErrorString()](sos__capi__common_8h.md#sos__capi__common_8h_1aa79c50f0e38654fc5bf42e052b229748). More information can be found in the Error Handling section
 
-* Log messages from the oSP3D kernel are all bufferd in an internal variable. Unless otherwise stated in a function description, this internal variable gets reset(!) right at the beginning of each function call. Therefore, the user is forced into fetching all log messages of interest before proceeding.
+* Log messages from the SoS kernel are all bufferd in an internal variable. Unless otherwise stated in a function description, this internal variable gets reset(!) right at the beginning of each function call. Therefore, the user is forced into fetching all log messages of interest before proceeding.
 
 
 
@@ -61,7 +61,7 @@ click 1 "sos__capi__script_8h.md#sos__capi__script_8h"
 ```mermaid
 graph RL
 2["FMOPSolver.h"]
-click 2 "_f_m_o_p_solver_8h.md#source"
+click 2 "_f_m_o_p_solver_8h_source.md#_f_m_o_p_solver_8h_source"
 
 1["sos_capi_script.h"]
 click 1 "sos__capi__script_8h.md#sos__capi__script_8h"
@@ -90,7 +90,7 @@ Get the handle to the global script engine from the initialized library. The rou
 **Returns**:
 
 
-* [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) if the FMOP library was previously initialized with [FMOP_initializeLibrary()](sos__capi__common_8h.md#sos__capi__common_8h_1a9c8f0f808d3f27c57a3a57d5f9cf4834)
+* [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) if the FMOP library was previously initialized with [FMOP_initializeLibrary()](sos__capi__common_8h.md#sos__capi__common_8h_1a9c8f0f808d3f27c57a3a57d5f9cf4834)
 
 * [fmop_invalid_handle](sos__capi__common_8h.md#sos__capi__common_8h_1a4847f3fa2943ffd694eb6cbe169a8becacef5c059b0dd649f97d5404db95c3ccf) if the global script engine is unavailable
 
@@ -234,7 +234,7 @@ DYNARDO_FMOP_API fmop_error_t FMOP_script_execute(fmop_script_handle_t context, 
 
 Execute Lua script code. The script engine has the ability to parse and execute:
 
-* any oSP3D script code (check the command log in the oSP3D GUI and the scripting examples provided with your oSP3D installation, in the public documents folder on Windows)
+* any SoS script code (check the command log in the SoS GUI and the scripting examples provided with your SoS installation, in the public documents folder on Windows)
 
 * any Lua code 
 **Parameters**:
@@ -520,9 +520,9 @@ DYNARDO_FMOP_API bool FMOP_script_identExists(fmop_script_handle_t context, cons
 
 #endif // DYNARDO_SOS_SCRIPT_H
 
-// (c) 2018, Ansys Austria GmbH (proprietary license)
+// (c) 2018, DYNARDO Austria GmbH (proprietary license)
 ```
 
 
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
