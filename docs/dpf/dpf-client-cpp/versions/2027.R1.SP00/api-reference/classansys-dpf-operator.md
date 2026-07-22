@@ -32,6 +32,7 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a6f9e628bf2429fc5a805871c61c69a17)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1aad1b060bfb2886c3b3dd75f1385f6222)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a5add81029b92a785398586268a0112a9)
+* [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a03a8e31439cd8d397b84c70b3d6ac638)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a5e5cbe01690fca3a27bbf8cd4a21f530)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1af13e07e9f51973d31c33dd4c80930c0f)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a9006d2db6a9e078acc0b293ec1439863)
@@ -69,6 +70,7 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a7fc609c2f4538038c30ec8034f22ddb8)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ab0a16ba648b2e088b1b1bbb6c6d57bf1)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a8e9cb2e84276a62ecbfac15fc34eb987)
+* [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a196fecf93c582c710a8c2c8c9c5f0ed8)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a055daebf6e09e2f8cadbd71218de629e)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a6a6d0fca683a19dded250760f9f67b4b)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a72c6e272e3a18c77d170ae638943e6a5)
@@ -142,6 +144,8 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [getOutputOperator](classansys-dpf-operator.md#classansys-dpf-operator-1a255fa07a2e0a12152f915ee8f5b5a524)
 * [getOutputPropertyField](classansys-dpf-operator.md#classansys-dpf-operator-1a58ea7f5128ab677787afb696b0293267)
 * [getOutputPropertyField](classansys-dpf-operator.md#classansys-dpf-operator-1ae726557dc3c40abd7afe411fc2ce278c)
+* [getOutputPropertyFieldsContainer](classansys-dpf-operator.md#classansys-dpf-operator-1a5572ba10829cb4f482c5265df5c2be55)
+* [getOutputPropertyFieldsContainer](classansys-dpf-operator.md#classansys-dpf-operator-1a85531ed5d40a0230ca9eaeb1431b3f31)
 * [getOutputResultInfo](classansys-dpf-operator.md#classansys-dpf-operator-1aeb719093c2406e06455423370eed3cd8)
 * [getOutputResultInfo](classansys-dpf-operator.md#classansys-dpf-operator-1acea4c808d2f4d01adea5539b3da95d33)
 * [getOutputScoping](classansys-dpf-operator.md#classansys-dpf-operator-1a08ab4421b7cc47bb6c5baeafdebe641f)
@@ -1062,6 +1066,36 @@ Connect [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyf
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
 * [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const & **data**: [in] [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) data to connect to pin.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
+-->
+
+<a id="classansys-dpf-operator-1a03a8e31439cd8d397b84c70b3d6ac638"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Operator::connect(dp_index input_pin, PropertyFieldsContainer const &data)
+```
+
+
+
+
+Connect [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to input_pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
+* [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) const & **data**: [in] [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to connect to pin.
 
 **Return type**: void
 
@@ -2328,6 +2362,37 @@ Connect [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyf
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
 * [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) const & **data**: [in] [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyfield) data to connect to pin.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
+-->
+
+<a id="classansys-dpf-operator-1a196fecf93c582c710a8c2c8c9c5f0ed8"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Operator::connect(dp_index input_pin, PropertyFieldsContainer const &data, DpfError &error)
+```
+
+
+
+
+Connect [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to input_pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
+* [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) const & **data**: [in] [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to connect to pin.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -3813,6 +3878,42 @@ CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContain
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputCustomTypeFieldsContainer"}]}`
 -->
 
+<a id="classansys-dpf-operator-1a5572ba10829cb4f482c5265df5c2be55"></a>
+### Function getOutputPropertyFieldsContainer
+
+![][public]
+
+
+```cpp
+PropertyFieldsContainer ansys::dpf::Operator::getOutputPropertyFieldsContainer(dp_index pin_index)
+```
+
+
+
+
+**Returns**:
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) output on pin_index.
+
+
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
+
+**Return type**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputPropertyFieldsContainer"}]}`
+-->
+
 <a id="classansys-dpf-operator-1a4cb5af4bf08b8a0498dce57de049c51e"></a>
 ### Function getOutputCustomContainer
 
@@ -4826,6 +4927,38 @@ CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContain
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputCustomTypeFieldsContainer"}]}`
+-->
+
+<a id="classansys-dpf-operator-1a85531ed5d40a0230ca9eaeb1431b3f31"></a>
+### Function getOutputPropertyFieldsContainer
+
+![][public]
+
+
+```cpp
+PropertyFieldsContainer ansys::dpf::Operator::getOutputPropertyFieldsContainer(dp_index pin_index, DpfError &error)
+```
+
+
+
+
+**Returns**:
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) output on pin_index.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputPropertyFieldsContainer"}]}`
 -->
 
 <a id="classansys-dpf-operator-1aaca3f1d0e1fa835f15ffe8b8d2f3368e"></a>
