@@ -2,6 +2,9 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  cff: [cas, flprj]
+  cgns: [cgns]
 ---
 
 # metadata:mesh info provider
@@ -11,6 +14,13 @@ license: None
 ## Description
 
 Reads the mesh information, such as number of elements (common property), number of faces (Cff plugins) or scoping of parts (LSDYNA plugins) on files contained in the streams or data sources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cff: cas, flprj 
+- cgns: cgns 
 
 ## Inputs
 

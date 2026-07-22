@@ -31,7 +31,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-0 for ASCII (default), and 1 for binary
+0 for ASCII, and 1 for binary (default)
 
 <a id="input_0"></a>
 ### file_path (Pin 0)

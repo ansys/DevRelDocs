@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  cgns: [cgns]
 ---
 
 # result:result provider
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute user defined result by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+
+- cgns: cgns 
 
 ## Inputs
 
