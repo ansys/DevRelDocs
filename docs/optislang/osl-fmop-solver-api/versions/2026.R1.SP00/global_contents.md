@@ -1,6 +1,5 @@
 # Contents
 
-* [FMOPSolver.h](_f_m_o_p_solver_8h.md#_f_m_o_p_solver_8h) File
 * [sos_capi_common.h](sos__capi__common_8h.md#sos__capi__common_8h) File
   * [fmop_dataobject_types](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75) Enumeration type
   * [fmop_node_data](sos__capi__common_8h.md#sos__capi__common_8h_1a69eb42c1b3b49f22b9e73c6c9869cb75aaf0fb275c161febc56c4f10e62987049) Enumerator
@@ -34,9 +33,44 @@
   * [FMOP_getVersionString](sos__capi__common_8h.md#sos__capi__common_8h_1a14d4d11f425cfcd2f7149798ad4d9274) Function
   * [FMOP_initializeLibrary](sos__capi__common_8h.md#sos__capi__common_8h_1a9c8f0f808d3f27c57a3a57d5f9cf4834) Function
   * [FMOP_unloadLibrary](sos__capi__common_8h.md#sos__capi__common_8h_1ae0af273cc642061f90933b4af2a958ad) Function
+* [FMOPSolver.h](_f_m_o_p_solver_8h.md#_f_m_o_p_solver_8h) File
+* [fmop_solver.h](fmop__solver_8h.md#fmop__solver_8h) File
+  * [FMOP_getModel](fmop__solver_8h.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) Function
+  * [FMOP_loadDbBuf](fmop__solver_8h.md#fmop__solver_8h_1a0ad6b75479bad22c19004ccf3078f235) Function
+  * [FMOP_loadDbBufWMesh](fmop__solver_8h.md#fmop__solver_8h_1ab77fe12cab675bb1d50232deacf23a34) Function
+  * [FMOP_loadDbFile](fmop__solver_8h.md#fmop__solver_8h_1adf36057836bc12095f01665fa068ba4c) Function
+  * [FMOP_loadDbFileWMesh](fmop__solver_8h.md#fmop__solver_8h_1ab3f6b6b4a84878f3c774a12a2b4cf958) Function
+  * [FMOP_releaseDb](fmop__solver_8h.md#fmop__solver_8h_1af36d28d4c5c718284a0f4236f2740e06) Function
+  * [FMOP_releaseIdents](fmop__solver_8h.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) Function
+  * [FMOP_releaseModel](fmop__solver_8h.md#fmop__solver_8h_1a3ad01c460ed6e409b79e258a523d0bf9) Function
+  * [FMOP_getDataDim](fmop__solver_8h.md#fmop__solver_8h_1a878106f886ca5f1ce112e6c5e238d80e) Function
+  * [FMOP_getDataPointCoors](fmop__solver_8h.md#fmop__solver_8h_1a535bee00c4d200d31fdf4118e49c1f05) Function
+  * [FMOP_getDataPointIndices](fmop__solver_8h.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) Function
+  * [FMOP_getElementsAtNode](fmop__solver_8h.md#fmop__solver_8h_1a8ca72d6a865df21ce5a5180475c71cda) Function
+  * [FMOP_getElementTypeIdent](fmop__solver_8h.md#fmop__solver_8h_1a3eea3398149b5f0f6177ccc4a649ab79) Function
+  * [FMOP_getModelAvgFCoP](fmop__solver_8h.md#fmop__solver_8h_1a185c515c2fe8b0528ccb5f95f543a3be) Function
+  * [FMOP_getModelDim](fmop__solver_8h.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) Function
+  * [FMOP_getModelIdent](fmop__solver_8h.md#fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f) Function
+  * [FMOP_getModelIdents](fmop__solver_8h.md#fmop__solver_8h_1a22d6e807dc869fa28442d26e29ddbc27) Function
+  * [FMOP_getModelIdentsDim](fmop__solver_8h.md#fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc) Function
+  * [FMOP_getModelParamIdent](fmop__solver_8h.md#fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb) Function
+  * [FMOP_getModelParamIdents](fmop__solver_8h.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) Function
+  * [FMOP_getModelParamIdentsDim](fmop__solver_8h.md#fmop__solver_8h_1adabef430a391d15eb077fe30e134f368) Function
+  * [FMOP_getModelTotalAvgFCoP](fmop__solver_8h.md#fmop__solver_8h_1a1ff6f33cf199015b78c5837e40d90f42) Function
+  * [FMOP_getNodesAtElement](fmop__solver_8h.md#fmop__solver_8h_1a03080c2458b8c03eb85ce9eb97926711) Function
+  * [FMOP_getNumElementsAtNode](fmop__solver_8h.md#fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54) Function
+  * [FMOP_getNumNodesAtElement](fmop__solver_8h.md#fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d) Function
+  * [FMOP_getParamLowerBounds](fmop__solver_8h.md#fmop__solver_8h_1abaed2ac2af6a304f8356e51b9cb98442) Function
+  * [FMOP_getParamUpperBounds](fmop__solver_8h.md#fmop__solver_8h_1a301cfcf26e28ec7ba4b2c730facb679c) Function
+  * [FMOP_isNodePartOfBoundary](fmop__solver_8h.md#fmop__solver_8h_1a1ff1451cc5f1c6cefa7a67c6a906d653) Function
+  * [FMOP_approxField](fmop__solver_8h.md#fmop__solver_8h_1a1bd5d62d9c5ba6d327b0368a8b4e2e31) Function
+  * [FMOP_approxFieldExtrapolate](fmop__solver_8h.md#fmop__solver_8h_1a4380a704857be093fc6444aa5b8fdadc) Function
+  * [fmop_db_handle_t](fmop__solver_8h.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) Typedef
+  * [fmop_handle_t](fmop__solver_8h.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) Typedef
 * [FMOPSolver.c](_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c) File
   * [REF_NUM_PARAMS](_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c_1ae7c3138bceee1d3e419dadbea1c80fa5) Macro
   * [main](_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c_1af3ed9c200de85b53c94cd18764b246a2) Function
+* [Deprecated List](deprecated.md#deprecated) Page
 * [sos_capi_script.h](sos__capi__script_8h.md#sos__capi__script_8h) File
   * [FMOP_globalScriptEngine](sos__capi__script_8h.md#sos__capi__script_8h_1ace6f8c522f626dddbf5fc12d4d1d7a11) Function
   * [FMOP_script_createMatrix](sos__capi__script_8h.md#sos__capi__script_8h_1a86518674fc7aa5571d44f5d8544879f0) Function
@@ -48,37 +82,3 @@
   * [FMOP_script_getString](sos__capi__script_8h.md#sos__capi__script_8h_1ac1304b306d77e15fcfd1e99603bbff62) Function
   * [FMOP_script_identExists](sos__capi__script_8h.md#sos__capi__script_8h_1adaf34349f4a16e537f5fe8a5ceb52856) Function
   * [fmop_script_handle_t](sos__capi__script_8h.md#sos__capi__script_8h_1aab8ff16aaa9cf05fccc70920f4b62bfb) Typedef
-* [fmop_solver.h](fmop_solver.md#fmop__solver_8h) File
-  * [FMOP_getModel](fmop_solver.md#fmop__solver_8h_1aae65fdf242dba6c37b9de818be7c9dcc) Function
-  * [FMOP_loadDbBuf](fmop_solver.md#fmop__solver_8h_1a0ad6b75479bad22c19004ccf3078f235) Function
-  * [FMOP_loadDbBufWMesh](fmop_solver.md#fmop__solver_8h_1ab77fe12cab675bb1d50232deacf23a34) Function
-  * [FMOP_loadDbFile](fmop_solver.md#fmop__solver_8h_1adf36057836bc12095f01665fa068ba4c) Function
-  * [FMOP_loadDbFileWMesh](fmop_solver.md#fmop__solver_8h_1ab3f6b6b4a84878f3c774a12a2b4cf958) Function
-  * [FMOP_releaseDb](fmop_solver.md#fmop__solver_8h_1af36d28d4c5c718284a0f4236f2740e06) Function
-  * [FMOP_releaseIdents](fmop_solver.md#fmop__solver_8h_1a37bdee678571cd855ac0bb10675b1d8c) Function
-  * [FMOP_releaseModel](fmop_solver.md#fmop__solver_8h_1a3ad01c460ed6e409b79e258a523d0bf9) Function
-  * [FMOP_getDataDim](fmop_solver.md#fmop__solver_8h_1a878106f886ca5f1ce112e6c5e238d80e) Function
-  * [FMOP_getDataPointCoors](fmop_solver.md#fmop__solver_8h_1a535bee00c4d200d31fdf4118e49c1f05) Function
-  * [FMOP_getDataPointIndices](fmop_solver.md#fmop__solver_8h_1add2527ad2ad1bf1df141e5fa5b4c2e31) Function
-  * [FMOP_getElementsAtNode](fmop_solver.md#fmop__solver_8h_1a8ca72d6a865df21ce5a5180475c71cda) Function
-  * [FMOP_getElementTypeIdent](fmop_solver.md#fmop__solver_8h_1a3eea3398149b5f0f6177ccc4a649ab79) Function
-  * [FMOP_getModelAvgFCoP](fmop_solver.md#fmop__solver_8h_1a185c515c2fe8b0528ccb5f95f543a3be) Function
-  * [FMOP_getModelDim](fmop_solver.md#fmop__solver_8h_1a24e43563d67cc64bffb7bccddbaada65) Function
-  * [FMOP_getModelIdent](fmop_solver.md#fmop__solver_8h_1a9b6e5c7baeb1353a17f5efde188d0d8f) Function
-  * [FMOP_getModelIdents](fmop_solver.md#fmop__solver_8h_1a22d6e807dc869fa28442d26e29ddbc27) Function
-  * [FMOP_getModelIdentsDim](fmop_solver.md#fmop__solver_8h_1a600dca69efae1f2eafc63f9f6a0067fc) Function
-  * [FMOP_getModelParamIdent](fmop_solver.md#fmop__solver_8h_1ae2ab3659b0419a9ab56ba3d7722708fb) Function
-  * [FMOP_getModelParamIdents](fmop_solver.md#fmop__solver_8h_1a485827623b3d01cf3157c0a16559908f) Function
-  * [FMOP_getModelParamIdentsDim](fmop_solver.md#fmop__solver_8h_1adabef430a391d15eb077fe30e134f368) Function
-  * [FMOP_getModelTotalAvgFCoP](fmop_solver.md#fmop__solver_8h_1a1ff6f33cf199015b78c5837e40d90f42) Function
-  * [FMOP_getNodesAtElement](fmop_solver.md#fmop__solver_8h_1a03080c2458b8c03eb85ce9eb97926711) Function
-  * [FMOP_getNumElementsAtNode](fmop_solver.md#fmop__solver_8h_1a4413f3e2bc5f893b9030631aceb03c54) Function
-  * [FMOP_getNumNodesAtElement](fmop_solver.md#fmop__solver_8h_1a031be0f125c4fbeb450f03bb960e207d) Function
-  * [FMOP_getParamLowerBounds](fmop_solver.md#fmop__solver_8h_1abaed2ac2af6a304f8356e51b9cb98442) Function
-  * [FMOP_getParamUpperBounds](fmop_solver.md#fmop__solver_8h_1a301cfcf26e28ec7ba4b2c730facb679c) Function
-  * [FMOP_isNodePartOfBoundary](fmop_solver.md#fmop__solver_8h_1a1ff1451cc5f1c6cefa7a67c6a906d653) Function
-  * [FMOP_approxField](fmop_solver.md#fmop__solver_8h_1a1bd5d62d9c5ba6d327b0368a8b4e2e31) Function
-  * [FMOP_approxFieldExtrapolate](fmop_solver.md#fmop__solver_8h_1a4380a704857be093fc6444aa5b8fdadc) Function
-  * [fmop_db_handle_t](fmop_solver.md#fmop__solver_8h_1a4f3b1f4672b1b913e04f95def14d3572) Typedef
-  * [fmop_handle_t](fmop_solver.md#fmop__solver_8h_1aed65d1ae14f8c298a702ad5b828a70ef) Typedef
-* [Deprecated List](deprecated.md#deprecated) Page
