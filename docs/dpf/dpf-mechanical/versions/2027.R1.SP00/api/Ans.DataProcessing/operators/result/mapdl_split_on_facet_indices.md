@@ -34,7 +34,7 @@ op = mapdl_split_on_facet_indices(fields_container=my_fields_container,property_
 
 ### fields_container
 
-Fields container to split, with generic number of labels (e.g. time, zone, complex...), and the Fields of the FieldsContainer will have location Elemental and the Scoping Ids will be the Element Ids on the skin mesh.
+Fields container to split, with generic number of labels (e.g. time, zone, complex...). Fields may have Elemental or ElementalNodal location; scoping ids are skin element ids.
 
 **Type:** *LinkableInput*
 

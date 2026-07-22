@@ -164,6 +164,14 @@
       href: Ans.DataProcessing/operators/compression/quantization_fc.md
     - name: zfp_decompress
       href: Ans.DataProcessing/operators/compression/zfp_decompress.md
+    - name: zstd_compress
+      href: Ans.DataProcessing/operators/compression/zstd_compress.md
+    - name: zstd_compress_fc
+      href: Ans.DataProcessing/operators/compression/zstd_compress_fc.md
+    - name: zstd_decompress
+      href: Ans.DataProcessing/operators/compression/zstd_decompress.md
+    - name: zstd_decompress_fc
+      href: Ans.DataProcessing/operators/compression/zstd_decompress_fc.md
   - name: filter
     href: Ans.DataProcessing/operators/filter/index.md
     items:
