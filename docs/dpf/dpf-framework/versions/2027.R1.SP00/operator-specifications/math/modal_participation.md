@@ -1,7 +1,7 @@
 ---
 category: math
 plugin: core
-license: any_dpf_supported_increments
+license: None
 ---
 
 # math:modal participation
@@ -115,7 +115,7 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Internal name**: harmonic::modal_participation
 
- **License**: any_dpf_supported_increments
+ **License**: None
 
 ## Examples
 

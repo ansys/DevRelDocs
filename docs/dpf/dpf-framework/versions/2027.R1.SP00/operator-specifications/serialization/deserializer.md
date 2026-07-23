@@ -20,17 +20,17 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>-1</strong> | [stream_type](#input_-1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>-1</strong> | [stream_type](#input_-1) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>0</strong> | [file_path](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_-1"></a>
 ### stream_type (Pin -1)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-0 for ASCII (default), and 1 for binary
+0 for ASCII (default), and 1 for binary. If not provided, the type is auto-detected from the file.
 
 <a id="input_0"></a>
 ### file_path (Pin 0)
