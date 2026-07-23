@@ -4,15 +4,12 @@
 
 **Location**: `mopsolver_api.h`
 
-
-
 **version**\
 $Rev$
 
 ## Includes
 
 * [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h)
-
 
 ```mermaid
 graph LR
@@ -21,10 +18,8 @@ click 1 "mopsolver__api_8h.md#mopsolver__api_8h"
 1 --> 2
 
 2["mopsolver_api_shared.h"]
-click 2 "mopsolver__api__shared_8h.md#source"
 
 ```
-
 
 ## Functions
 
@@ -33,32 +28,20 @@ click 2 "mopsolver__api__shared_8h.md#source"
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_hasSurrogate(const char *_omdbfile)
 ```
 
-
-
-
-test binfile if it contains Surrogate Data.
-
- 
+test binfile if it contains Surrogate Data 
 **Parameters**:
 
-
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang database file (*.omdb) containing MOP
-
 
 **Returns**:
 
 zero if Surrogate is found
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 
@@ -69,33 +52,22 @@ zero if Surrogate is found
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getDimensions(const char *_omdbfile, int *_num_inputs, int *_num_responses)
 ```
 
-
-
-
 retrieves problem dimensions i.e. number of active inputs and responses 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_inputs**: pointer to an integer variable into which the number of active inputs should be written
 * **_num_responses**: pointer to an integer variable into which the number of active responses of type scalar should be written
 
-
 **Returns**:
 
 zero if the dimensions could be determined
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * int * **_num_inputs**
@@ -108,18 +80,12 @@ zero if the dimensions could be determined
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_solve_extrapolate(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double *_responses, int _extrapolate)
 ```
 
-
-
-
 approximates the active response values based on their best metamodel for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which response values should be approximated
@@ -127,16 +93,11 @@ approximates the active response values based on their best metamodel for any gi
 * **_responses**: array of consecutive response values approximated per design point. The length of the array is to be expected as ( _num_designs * dmop_getDimensions._num_responses )
 * **_extrapolate**: one or zero to make the mop solver extrapolate the data
 
-
 **Returns**:
 
 zero if the aproximation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -151,34 +112,23 @@ zero if the aproximation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_solve(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double *_responses)
 ```
 
-
-
-
 approximates the active response values based on their best metamodel for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which response values should be approximated
 * **_inputs**: pointer to array of consecutive input values per design point. The length of the array is to be expected as ( _num_designs * dmop_getDimensions._num_inputs )
 * **_responses**: pointer to array of consecutive response values approximated per design point. The length of the array is to be expected as ( _num_designs * dmop_getDimensions._num_responses )
 
-
 **Returns**:
 
 zero if the approximation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -192,18 +142,12 @@ zero if the approximation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_extrapolate(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_gradients, int _extrapolate)
 ```
 
-
-
-
 calculates the gradients based on the best metamodels for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which gradients should be calculated
@@ -212,16 +156,11 @@ calculates the gradients based on the best metamodels for any given design point
 * **_gradients**: pointer to array of consecutive gradients calculated per design point. The length of the array is to be expected as ( _num_designs * dmop_getDimensions._num_inputs )
 * **_extrapolate**: one or zero to make the mop solver extrapolate the data
 
-
 **Returns**:
 
 zero if the calculation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -237,18 +176,12 @@ zero if the calculation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_gradients_per_response(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_gradients)
 ```
 
-
-
-
 calculates the gradients based on the best metamodels for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which gradients should be calculated
@@ -256,16 +189,11 @@ calculates the gradients based on the best metamodels for any given design point
 * **_response_name**: zero terminated character string containing the name of the response
 * **_gradients**: pointer to array of consecutive gradients calculated per design point. The length of the array is to be expected as ( _num_designs * dmop_getDimensions._num_inputs )
 
-
 **Returns**:
 
 zero if the calculation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -280,18 +208,12 @@ zero if the calculation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_errors_per_response_extrapolate(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_errors, int _extrapolate)
 ```
 
-
-
-
 calculates the errors based on the best metamodels for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which errors should be calculated
@@ -300,16 +222,11 @@ calculates the errors based on the best metamodels for any given design point
 * **_errors**: pointer to array of consecutive errors calculated per design point. The length of the array is to be expected as ( _num_designs * 4 )
 * **_extrapolate**: one or zero to make the mop solver extrapolate the data
 
-
 **Returns**:
 
 zero if the calculation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -325,18 +242,12 @@ zero if the calculation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_errors_per_response(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_errors)
 ```
 
-
-
-
 calculates the errors based on the best metamodels for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which errors should be calculated
@@ -344,16 +255,11 @@ calculates the errors based on the best metamodels for any given design point
 * **_response_name**: zero terminated character string containing the name of the response
 * **_errors**: pointer to array of consecutive errors calculated per design point. The length of the array is to be expected as ( _num_designs * 4 )
 
-
 **Returns**:
 
 zero if the calculation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -368,18 +274,12 @@ zero if the calculation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_density_per_response_extrapolate(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_density, unsigned int _size_density, int _extrapolate)
 ```
 
-
-
-
 calculates the density based on the best metamodels for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which density should be calculated
@@ -389,16 +289,11 @@ calculates the density based on the best metamodels for any given design point
 * **_size_density**: length of the _density array. Expected to be _num_designs
 * **_extrapolate**: one or zero to make the mop solver extrapolate the data
 
-
 **Returns**:
 
 zero if the calculation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -415,18 +310,12 @@ zero if the calculation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_density_per_response(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_density, unsigned int _size_density)
 ```
 
-
-
-
 calculates the density based on the best metamodels for any given design point 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_num_designs**: number of design points for which density should be calculated
@@ -435,16 +324,11 @@ calculates the density based on the best metamodels for any given design point
 * **_density**: pointer to array of consecutive density calculated per design point. The length of the array is to be expected as ( _num_designs )
 * **_size_density**: length of the _density array. Expected to be _num_designs
 
-
 **Returns**:
 
 zero if the calculation succeeded
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -460,32 +344,21 @@ zero if the calculation succeeded
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputNames(const char *_omdbfile, char **_input_names)
 ```
 
-
-
-
 retrieves the names of all active, scalar inputs. The array sizes depend on the number of inputs determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_input_names**: pointer to an array of zero-terminated C-strings. The array is going to be created internally
-
 
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_input_names**
@@ -497,33 +370,22 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputNamesWithDelimiter(const char *_omdbfile, char **_input_names, const char *_delimiter)
 ```
 
-
-
-
 retrieves the names of all active, scalar inputs. The array sizes depend on the number of inputs determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_input_names**: pointer to an array of zero-terminated C-strings. The array is going to be created internally
 * **_delimiter**: Character to use as a delimiter for the different variable names. Can be used to achieve connectivity to different programs which cannot handle '\0' properly. Passing an empty string will use '\0'.
 
-
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_input_names**
@@ -536,32 +398,21 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getOutputNames(const char *_omdbfile, char **_response_names)
 ```
 
-
-
-
 retrieves the names of all responses. The array sizes depend on the number of inputs and responses determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_response_names**: pointer to an array of zero-terminated C-strings. The array is going to be created internally
-
 
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_response_names**
@@ -573,33 +424,22 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getOutputNamesWithDelimiter(const char *_omdbfile, char **_response_names, const char *_delimiter)
 ```
 
-
-
-
 retrieves the names of all responses. The array sizes depend on the number of responses determined in [dmop_getDimensions](mopsolver__api_8h.md#mopsolver__api_8h_1a05681e0a24f0aa4edde06acfc34830a5) 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_response_names**: pointer to an array of zero-terminated C-strings. The array is going to be created internally
 * **_delimiter**: Character to use as a delimiter for the different variable names. Can be used to achieve connectivity to different programs which cannot handle '\0' properly. Passing an empty string will use '\0'.
 
-
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_response_names**
@@ -612,32 +452,21 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputBounds(const char *_omdbfile, double *_limits)
 ```
 
-
-
-
 retrieves the sampling bounds for all parameters. The array size depends on the number of inputs. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_limits**: pointer to array of parameter limits, been given alternetly min1, max1, min2, max2 ... . The length of the array is to be expected as ( 2 * dmop_getDimensions._num_inputs ).
-
 
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * double * **_limits**
@@ -649,33 +478,22 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputBoundsPerParameter(const char *_omdbfile, const char *_param_name, double *_limits)
 ```
 
-
-
-
 retrieves the sampling bounds for given parameters. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_param_name**: zero terminated character string containing the name of the parameter
 * **_limits**: pointer to array of parameter limits, first element is min, second is max. The length of the array is 2.
 
-
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -688,33 +506,22 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getReferenceValuePerParameter(const char *_omdbfile, const char *_param_name, double *_ref_val)
 ```
 
-
-
-
 retrieves the Reference Value for given parameter. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_param_name**: zero terminated character string containing the name of the parameter
 * **_ref_val**: pointer to reference value.
 
-
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -727,33 +534,22 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getCoPValuesPerResponse(const char *_omdbfile, const char *_response_name, double *_cop_vals)
 ```
 
-
-
-
 retrieves the CoP values for given response. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_response_name**: zero terminated character string containing the name of the response
 * **_cop_vals**: pointer to array of CoP values, containing single CoP values for each parameter plus the total CoP. The length of the array is to be expected dmop_getDimensions._num_inputs+1.
 
-
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -766,33 +562,22 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getFilteredStatesPerResponse(const char *_omdbfile, const char *_response_name, int *_filtered_states)
 ```
 
-
-
-
 retrieves the filtered states for given response. 
- 
 **Parameters**:
-
 
 * **_omdbfile**: zero terminated character string containing the filesystem path to the optiSLang monitoring database file (*.omdb) containing MOP
 * **_response_name**: zero terminated character string containing the name of the response
 * **_filtered_states**: pointer to array of filtered states, 0 is not filtered, 1 is filtered, if the last entry is 1 this means that there is no total CoP. The length of the array is to be expected dmop_getDimensions._num_inputs+1.
 
-
 **Returns**:
 
 zero if the name arrays were created and filled
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -805,20 +590,14 @@ zero if the name arrays were created and filled
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API const char * dmop_getLastError()
 ```
-
-
-
 
 Calling a solver API function will reset the string, so you'll need to check for errors immediately after the function call. 
 **Returns**:
 
 String describing last error or <code>nullptr</code> if no error occured.
-
-
 
 **Return type**: DYNARDO_MOPSOLVER_API const char *
 
@@ -827,21 +606,13 @@ String describing last error or <code>nullptr</code> if no error occured.
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBounds(const char *_omdbfile, double **_limits)
 ```
 
-
-
-
 some functionalities also exist with the possibility of internal memory allocation management data put to given pointer is valid up to next call of any dmop_ function (except a call of [dmop_getLastError()](mopsolver__api_8h.md#mopsolver__api_8h_1afd899e90ed1d65bc3d4a6877e2b24600))
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * double ** **_limits**
@@ -853,21 +624,11 @@ some functionalities also exist with the possibility of internal memory allocati
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBoundsPerParameter(const char *_omdbfile, const char *_param_name, double **_limits)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -880,21 +641,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBoundsPerParameter(const cha
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getCoPValuesPerResponse(const char *_omdbfile, const char *_response_name, double **_cop_vals)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -907,21 +658,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getCoPValuesPerResponse(const char *
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getFilteredStatesPerResponse(const char *_omdbfile, const char *_response_name, int **_filtered_states)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -934,21 +675,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getFilteredStatesPerResponse(const c
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_extrapolate(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double **_responses, int _extrapolate)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -963,21 +694,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_extrapolate(const char *_omdbf
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double **_responses)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -991,21 +712,13 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve(const char *_omdbfile, unsigne
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_hasSurrogate_hash(const char *_omdbfile, const char *_hash)
 ```
 
-
-
-
 each functionality which needs a file path also exists with a signature check of the given file to ensure that the file was not exchanged by comparing the given value with the internally calculated
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_hash**
@@ -1017,21 +730,11 @@ each functionality which needs a file path also exists with a signature check of
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getDimensions_hash(const char *_omdbfile, int *_num_inputs, int *_num_responses, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * int * **_num_inputs**
@@ -1045,21 +748,11 @@ DYNARDO_MOPSOLVER_API int dmop_getDimensions_hash(const char *_omdbfile, int *_n
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_solve_extrapolate_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double *_responses, int _extrapolate, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1075,21 +768,11 @@ DYNARDO_MOPSOLVER_API int dmop_solve_extrapolate_hash(const char *_omdbfile, uns
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_extrapolate_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double **_responses, int _extrapolate, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1105,21 +788,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_extrapolate_hash(const char *_
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_solve_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double *_responses, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1134,21 +807,11 @@ DYNARDO_MOPSOLVER_API int dmop_solve_hash(const char *_omdbfile, unsigned int _n
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_extrapolate_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_gradients, int _extrapolate, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1165,21 +828,11 @@ DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_extrapolate_hash(const cha
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_gradients, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1195,21 +848,11 @@ DYNARDO_MOPSOLVER_API int dmop_gradients_per_response_hash(const char *_omdbfile
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_errors_per_response_extrapolate_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_errors, int _extrapolate, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1226,21 +869,11 @@ DYNARDO_MOPSOLVER_API int dmop_errors_per_response_extrapolate_hash(const char *
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_errors_per_response_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_errors, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1256,21 +889,11 @@ DYNARDO_MOPSOLVER_API int dmop_errors_per_response_hash(const char *_omdbfile, u
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_density_per_response_extrapolate_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_density, unsigned int _size_density, int _extrapolate, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1288,21 +911,11 @@ DYNARDO_MOPSOLVER_API int dmop_density_per_response_extrapolate_hash(const char 
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_density_per_response_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, const char *_response_name, double *_density, unsigned int _size_density, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1319,21 +932,11 @@ DYNARDO_MOPSOLVER_API int dmop_density_per_response_hash(const char *_omdbfile, 
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_hash(const char *_omdbfile, unsigned int _num_designs, const double *_inputs, double **_responses, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * unsigned int **_num_designs**
@@ -1348,21 +951,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_solve_hash(const char *_omdbfile, un
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputNames_hash(const char *_omdbfile, char **_input_names, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_input_names**
@@ -1375,21 +968,11 @@ DYNARDO_MOPSOLVER_API int dmop_getInputNames_hash(const char *_omdbfile, char **
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputNamesWithDelimiter_hash(const char *_omdbfile, char **_input_names, const char *_delimiter, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_input_names**
@@ -1403,21 +986,11 @@ DYNARDO_MOPSOLVER_API int dmop_getInputNamesWithDelimiter_hash(const char *_omdb
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getOutputNames_hash(const char *_omdbfile, char **_response_names, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_response_names**
@@ -1430,21 +1003,11 @@ DYNARDO_MOPSOLVER_API int dmop_getOutputNames_hash(const char *_omdbfile, char *
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getOutputNamesWithDelimiter_hash(const char *_omdbfile, char **_response_names, const char *_delimiter, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * char ** **_response_names**
@@ -1458,21 +1021,11 @@ DYNARDO_MOPSOLVER_API int dmop_getOutputNamesWithDelimiter_hash(const char *_omd
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputBounds_hash(const char *_omdbfile, double *_limits, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * double * **_limits**
@@ -1485,21 +1038,11 @@ DYNARDO_MOPSOLVER_API int dmop_getInputBounds_hash(const char *_omdbfile, double
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBounds_hash(const char *_omdbfile, double **_limits, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * double ** **_limits**
@@ -1512,21 +1055,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBounds_hash(const char *_omd
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getInputBoundsPerParameter_hash(const char *_omdbfile, const char *_param_name, double *_limits, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -1540,21 +1073,11 @@ DYNARDO_MOPSOLVER_API int dmop_getInputBoundsPerParameter_hash(const char *_omdb
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBoundsPerParameter_hash(const char *_omdbfile, const char *_param_name, double **_limits, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -1568,21 +1091,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getInputBoundsPerParameter_hash(cons
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getReferenceValuePerParameter_hash(const char *_omdbfile, const char *_param_name, double *_ref_val, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_param_name**
@@ -1596,21 +1109,11 @@ DYNARDO_MOPSOLVER_API int dmop_getReferenceValuePerParameter_hash(const char *_o
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getCoPValuesPerResponse_hash(const char *_omdbfile, const char *_response_name, double *_cop_vals, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -1624,21 +1127,11 @@ DYNARDO_MOPSOLVER_API int dmop_getCoPValuesPerResponse_hash(const char *_omdbfil
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getCoPValuesPerResponse_hash(const char *_omdbfile, const char *_response_name, double **_cop_vals, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -1652,21 +1145,11 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getCoPValuesPerResponse_hash(const c
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_getFilteredStatesPerResponse_hash(const char *_omdbfile, const char *_response_name, int *_filtered_states, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -1680,21 +1163,11 @@ DYNARDO_MOPSOLVER_API int dmop_getFilteredStatesPerResponse_hash(const char *_om
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_allocate_and_getFilteredStatesPerResponse_hash(const char *_omdbfile, const char *_response_name, int **_filtered_states, const char *_hash)
 ```
 
-
-
-
-
-
-
-
- 
 **Parameters**:
-
 
 * const char * **_omdbfile**
 * const char * **_response_name**
@@ -1708,20 +1181,14 @@ DYNARDO_MOPSOLVER_API int dmop_allocate_and_getFilteredStatesPerResponse_hash(co
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API const char * dmop_get_version_str()
 ```
-
-
-
 
 get current api version info 
 **Returns**:
 
 version info as string
-
-
 
 **Return type**: DYNARDO_MOPSOLVER_API const char *
 
@@ -1730,20 +1197,14 @@ version info as string
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_cleanup()
 ```
-
-
-
 
 cleans-up all the memory allocated by the API, use this after you've finished using the API. Objects pointing to memory provided by this API are going to be invalidated. 
 **Returns**:
 
 zero
-
-
 
 **Return type**: DYNARDO_MOPSOLVER_API int
 
@@ -1752,21 +1213,13 @@ zero
 
 ![][public]
 
-
 ```cpp
 DYNARDO_MOPSOLVER_API int dmop_set_paths_for_custom_interface(const char *_program_path, const char *_python_home, const char *const *_python_paths, unsigned int _num_python_paths, const char *const *_script_paths, unsigned int _num_script_paths, const char *_oop_path)
 ```
 
-
-
-
 set up custom interface application-wide
 
-
-
- 
 **Parameters**:
-
 
 * const char * **_program_path**
 * const char * **_python_home**
@@ -1780,9 +1233,7 @@ set up custom interface application-wide
 
 ## Source
 
-
 ```cpp
-
 
 #ifndef DYNARDO_MOPSOLVERAPI_H
 #define DYNARDO_MOPSOLVERAPI_H
@@ -1866,48 +1317,38 @@ DYNARDO_MOPSOLVER_API
 int dmop_getInputNames(const char* _omdbfile,
     char **_input_names);
 
-
 DYNARDO_MOPSOLVER_API
 int dmop_getInputNamesWithDelimiter(const char* _omdbfile,
     char **_input_names,
     const char * _delimiter);
 
-
 DYNARDO_MOPSOLVER_API
 int dmop_getOutputNames(const char* _omdbfile,
     char **_response_names);
-
 
 DYNARDO_MOPSOLVER_API
 int dmop_getOutputNamesWithDelimiter(const char* _omdbfile,
     char **_response_names,
     const char * _delimiter);
 
-
 DYNARDO_MOPSOLVER_API
 int dmop_getInputBounds(const char* _omdbfile,
     double *_limits);
-
 
 DYNARDO_MOPSOLVER_API
 int dmop_getInputBoundsPerParameter(const char* _omdbfile,
     const char* _param_name,
     double *_limits);
 
-
 DYNARDO_MOPSOLVER_API
 int dmop_getReferenceValuePerParameter(const char* _omdbfile,
     const char* _param_name,
     double * _ref_val);
 
-
-
 DYNARDO_MOPSOLVER_API
 int dmop_getCoPValuesPerResponse(const char* _omdbfile,
     const char* _response_name,
     double *_cop_vals);
-
-
 
 DYNARDO_MOPSOLVER_API
 int dmop_getFilteredStatesPerResponse(const char* _omdbfile,
@@ -1944,7 +1385,6 @@ int dmop_allocate_and_solve(const char*  _omdbfile,
 
 DYNARDO_MOPSOLVER_API
 int dmop_hasSurrogate_hash(const char* _omdbfile, const char* _hash);
-
 
 DYNARDO_MOPSOLVER_API
 int dmop_getDimensions_hash(const char* _omdbfile,
@@ -2133,7 +1573,6 @@ int dmop_set_paths_for_custom_interface(const char* _program_path,
 
 #endif // DYNARDO_MOPSOLVERAPI_H
 ```
-
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
