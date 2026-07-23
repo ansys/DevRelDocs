@@ -8,7 +8,7 @@ Compresses a fields container with ZSTD compression algorithm.
 
 available inputs: `input_fc` (FieldsContainer, CustomTypeFieldsContainer), `zstd_level` (Int32) (optional), `num_threads` (Int32) (optional)
 
-available outputs: `compressed_fc` (AnyCollection), `output_bytes_size` (Int32)
+available outputs: `compressed_fc` (AnyCollection), `output_bytes_size` (ulong)
 
 **DPF Framework Reference:** [zstd_compress_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/zstd_compress_fc.md)
 

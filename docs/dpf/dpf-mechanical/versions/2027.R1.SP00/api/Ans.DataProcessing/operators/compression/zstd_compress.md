@@ -8,7 +8,7 @@ Compresses the data of a field with ZSTD compression algorithm.
 
 available inputs: `input_field` (Field, CustomTypeField), `zstd_level` (Int32) (optional), `num_threads` (Int32) (optional)
 
-available outputs: `compressed_output` (GenericDataContainer), `output_bytes_size` (Int32)
+available outputs: `compressed_output` (GenericDataContainer), `output_bytes_size` (ulong)
 
 **DPF Framework Reference:** [zstd_compress operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/compression/zstd_compress.md)
 
