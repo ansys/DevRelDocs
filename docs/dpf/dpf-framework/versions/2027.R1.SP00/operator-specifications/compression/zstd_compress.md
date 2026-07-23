@@ -60,7 +60,7 @@ Each output is detailed in the sections that follow the table.
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [compressed_output](#output_0) |[`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container) |
-|  **1**| [output_bytes_size](#output_1) |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+|  **1**| [output_bytes_size](#output_1) |[`uint64`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="output_0"></a>
@@ -79,7 +79,7 @@ Generic data container containing the following elements needed for decompressio
 <a id="output_1"></a>
 ### output_bytes_size (Pin 1)
 
-- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`uint64`](../../core-concepts/dpf-types.md#standard-types)
 
 Total size of compressed data in bytes.
 
@@ -130,7 +130,7 @@ op.connect(0, my_input_field);
 op.connect(2, my_zstd_level);
 op.connect(3, my_num_threads);
 ansys::dpf::GenericDataContainer my_compressed_output = op.getOutput<ansys::dpf::GenericDataContainer>(0);
-int my_output_bytes_size = op.getOutput<int>(1);
+ansys::dpf::Uint64 my_output_bytes_size = op.getOutput<ansys::dpf::Uint64>(1);
 ```
 </details>
 

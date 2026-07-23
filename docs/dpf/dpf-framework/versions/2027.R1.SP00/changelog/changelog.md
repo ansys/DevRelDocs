@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-22).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-23).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -20,6 +20,7 @@ The following table shows which components have updates in each category.
 | compression | [5 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
+| csharp | [1 item](#Features_csharp) | |
 | cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
@@ -29,13 +30,13 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [9 items](#Features_femutils) |[19 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [4 items](#Features_framework) |[12 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[12 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [2 items](#Features_grpc) |[5 items](#Fixes_grpc) |
+| grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[5 items](#Fixes_h5dpf) |
 | hdf5 | [11 items](#Features_hdf5) |[8 items](#Fixes_hdf5) |
-| hgp | [9 items](#Features_hgp) |[6 items](#Fixes_hgp) |
+| hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[12 items](#Fixes_kernel) |
 | lsdyna | [5 items](#Features_lsdyna) | |
@@ -51,7 +52,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [17 items](#Features_native) |[30 items](#Fixes_native) |
+| native | [18 items](#Features_native) |[31 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -333,6 +334,16 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## csharp
+### <a id="Features_csharp"></a> Features
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
+
 ## cyclic
 ### <a id="Features_cyclic"></a> Features
 
@@ -709,6 +720,13 @@ The following table shows which components have updates in each category.
 ## framework
 ### <a id="Features_framework"></a> Features
 
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
+
 - Add structured exception types to the kernel:
   > 
   >
@@ -860,6 +878,13 @@ The following table shows which components have updates in each category.
   > 
 ## grpc
 ### <a id="Features_grpc"></a> Features
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
 
 - Add StringField::dataPointer() via DpfVector-safe C-layer path:
   > 
@@ -1113,6 +1138,13 @@ The following table shows which components have updates in each category.
   > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
 
 - Exposure of Property Fields Container in HGP:
   > Exposure of Property Fields Container in HGP.
@@ -2782,6 +2814,13 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Update time_freq_interpolation to support integration in log-log scale:
+  > update time_freq_interpolation to support integration in log-log scale
+  >
+  > 
+  >
+  > 
+
 - Internal refactoring of the Rescope_fc operator:
   > 
   >
@@ -2912,6 +2951,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix CScopingProviderProperty for HDF5:
+  > 
+  >
+  > Support of HDF5 for CScopingProviderProperty for the properties **mapdl_element_type** and **material**
+  >
+  > 
+  >
+  > 
 
 - Change default value of stream_type pin in serializer operator:
   > 
