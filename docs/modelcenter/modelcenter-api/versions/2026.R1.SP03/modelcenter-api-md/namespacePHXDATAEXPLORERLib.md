@@ -1,3 +1,4 @@
+<a id="namespacePHXDATAEXPLORERLib"></a>
 # Namespace PHXDATAEXPLORERLib
 
 ![][IDL]
@@ -27,9 +28,11 @@ Data Explorer API
 
 ![][private]
 
+
 ```
 PHXDATAEXPLORERLib::importlib(STDOLE_TLB)
 ```
+
 
 
 
@@ -43,14 +46,22 @@ PHXDATAEXPLORERLib::importlib(STDOLE_TLB)
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::importlib"}]}`
+-->
+
 <a id="namespacePHXDATAEXPLORERLib_1adfc3e518adcb9b631d6b3cd9f7dd728b"></a>
 ### Function importlib
 
 ![][private]
 
+
 ```
 PHXDATAEXPLORERLib::importlib(STDTYPE_TLB)
 ```
+
 
 
 
@@ -64,6 +75,12 @@ PHXDATAEXPLORERLib::importlib(STDTYPE_TLB)
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::importlib"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

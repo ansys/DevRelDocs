@@ -1,3 +1,4 @@
+<a id="namespaceComponentPlugIn"></a>
 # Namespace ComponentPlugIn
 
 ![][IDL]
@@ -19,9 +20,11 @@
 
 ![][public]
 
+
 ```
 ComponentPlugIn::importlib("stdole32.tlb")
 ```
+
 
 
 
@@ -35,14 +38,22 @@ ComponentPlugIn::importlib("stdole32.tlb")
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::importlib"}]}`
+-->
+
 <a id="ComponentPlugIn_8odl_1a2cf599b993bafcd3fef5f5b7c34495e3"></a>
 ### Function importlib
 
 ![][public]
 
+
 ```
 ComponentPlugIn::importlib("stdole2.tlb")
 ```
+
 
 
 
@@ -56,6 +67,12 @@ ComponentPlugIn::importlib("stdole2.tlb")
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::importlib"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

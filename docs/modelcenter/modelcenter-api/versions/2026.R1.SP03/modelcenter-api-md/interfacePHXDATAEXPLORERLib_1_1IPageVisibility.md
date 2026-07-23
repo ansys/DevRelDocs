@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility"></a>
 # Interface PHXDATAEXPLORERLib::IPageVisibility
 
 ![][IDL]
@@ -24,9 +25,11 @@ An interface that represents something that has a number of pages which all have
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::IPageVisibility::hide(long index)
 ```
+
 
 
 
@@ -43,14 +46,22 @@ Hide the page at the specified index. Does nothing if the page is already hidden
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::hide"}]}`
+-->
+
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1a0e233fef605747c79f16a6032e4ebd01"></a>
 ### Function show
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::IPageVisibility::show(long index)
 ```
+
 
 
 
@@ -67,14 +78,22 @@ Show the page at the specified index. Does nothing if the page is already shown.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::show"}]}`
+-->
+
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1aa52adfedbec735ae4d1e34c4daf66455"></a>
 ### Function isVisible
 
 ![][public]
 
+
 ```
 boolean PHXDATAEXPLORERLib::IPageVisibility::isVisible(long index)
 ```
+
 
 
 
@@ -92,14 +111,22 @@ Get whether or not the page at the specified index is currently visible.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::isVisible"}]}`
+-->
+
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1a00bc608cb2e87ea6a12c4da4497c4768"></a>
 ### Function getDataViewHWND
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::IPageVisibility::getDataViewHWND()
 ```
+
 
 
 
@@ -112,14 +139,22 @@ the HWND representing the Data View
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::getDataViewHWND"}]}`
+-->
+
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1a19d4d225ecc6463333715ddde8c5f65f"></a>
 ### Function getViewHWND
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::IPageVisibility::getViewHWND(long index)
 ```
+
 
 
 
@@ -141,6 +176,12 @@ the HWND representing the page or view
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::getViewHWND"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

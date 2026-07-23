@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IGroup"></a>
 # Interface ModelCenter::IGroup
 
 ![][IDL]
@@ -26,9 +27,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IGroup::Variables
 ```
+
 
 
 
@@ -47,6 +50,12 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroup::Variables"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IGroup_1afab9254fdafc011806a8834430af982f"></a>
 ### Property Groups
 
@@ -54,9 +63,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IGroup::Groups
 ```
+
 
 
 
@@ -75,6 +86,12 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroup::Groups"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IGroup_1ab263da951c24595b88adc5b86fe93540"></a>
 ### Property iconID
 
@@ -82,9 +99,11 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IGroup::iconID
 ```
+
 
 
 
@@ -94,6 +113,12 @@ The ID number of the icon to use for the Group.
 
 **Return type**: int
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroup::iconID"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IGroup_1ae9bccfbc2ecd401d1f1403594c0ff513"></a>
@@ -101,9 +126,11 @@ The ID number of the icon to use for the Group.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGroup::getName()
 ```
+
 
 
 
@@ -122,14 +149,22 @@ The name of the Group.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroup::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IGroup_1ab1dc7ab3547d2631e64f683968bd0989"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGroup::getFullName()
 ```
+
 
 
 
@@ -148,6 +183,12 @@ The full ModelCenter path of the Group.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroup::getFullName"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
