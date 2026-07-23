@@ -32,7 +32,7 @@ op = serializer(stream_type=my_stream_type,file_path=my_file_path,any_input1=my_
 
 ### stream_type
 
-0 for ASCII (default), and 1 for binary
+0 for ASCII, and 1 for binary (default)
 
 **Type:** *LinkableInput*
 
