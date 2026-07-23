@@ -322,8 +322,8 @@
       href: api-reference/structansys-dpf-reflect-int8-t.md
     - name: ansys::dpf::reflect< short >
       href: api-reference/structansys-dpf-reflect-short.md
-    - name: ansys::dpf::reflect< size_t >
-      href: api-reference/structansys-dpf-reflect-size-t.md
+    - name: ansys::dpf::reflect< uint64_t >
+      href: api-reference/structansys-dpf-reflect-uint64-t.md
     - name: ansys::dpf::reflect< unsigned int >
       href: api-reference/structansys-dpf-reflect-unsigned-int.md
     - name: ansys::dpf::reflect< unsigned short >

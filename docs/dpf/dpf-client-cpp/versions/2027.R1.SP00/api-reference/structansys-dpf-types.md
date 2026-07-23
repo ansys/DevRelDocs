@@ -43,6 +43,8 @@ Predefined TypeDescriptors.
 * [stringVector](structansys-dpf-types.md#structansys-dpf-types-1af817abd6d08d95f7750a18197db74fed)
 * [support](structansys-dpf-types.md#structansys-dpf-types-1a2dd4f30d4bd8a24632ac9acd77e4e453)
 * [time_freq_support](structansys-dpf-types.md#structansys-dpf-types-1a47aee41447edf07259b66ec6d420239a)
+* [uint64](structansys-dpf-types.md#structansys-dpf-types-1aa30ee96d193a92ca9dd34f730c51b81b)
+* [uint64Vector](structansys-dpf-types.md#structansys-dpf-types-1af9a8bd5f9f05368dce689efdc3258be8)
 * [unit_system](structansys-dpf-types.md#structansys-dpf-types-1a800614ddcefefba1d683e616632a0688)
 * [workflow](structansys-dpf-types.md#structansys-dpf-types-1acf75ebca42a0a125d9947ba26b362228)
 
@@ -688,6 +690,32 @@ Integer type.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::integer"}]}`
 -->
 
+<a id="structansys-dpf-types-1aa30ee96d193a92ca9dd34f730c51b81b"></a>
+### Variable uint64
+
+![][public]
+![][static]
+
+
+```cpp
+const TypeDescriptor ansys::dpf::types::uint64
+```
+
+
+
+
+Unsigned integer type.
+
+
+
+**Type**: const [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::uint64"}]}`
+-->
+
 <a id="structansys-dpf-types-1a6711f0516d421535f51d7f0d27621e57"></a>
 ### Variable doubleValue
 
@@ -790,6 +818,32 @@ Vector of integers type.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::intVector"}]}`
+-->
+
+<a id="structansys-dpf-types-1af9a8bd5f9f05368dce689efdc3258be8"></a>
+### Variable uint64Vector
+
+![][public]
+![][static]
+
+
+```cpp
+const TypeDescriptor ansys::dpf::types::uint64Vector
+```
+
+
+
+
+Vector of unsigned integers type.
+
+
+
+**Type**: const [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::uint64Vector"}]}`
 -->
 
 <a id="structansys-dpf-types-1accd7cc0df8b6a1bafbff699d724463a1"></a>

@@ -28,6 +28,7 @@
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6ce835a6bd7213846e9f2a54c3c0a26b)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a0359e496cfe9ef8b635df5ced09ee4ed)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a784a219175f41f4a6c7da7703f45defe)
+* [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a84c7e95e6ce6f0ef58b52bc0633ce109)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a2bbb7a7147a954812864d12b21ded9b3)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a667f3d115d92aab65b3220e1ab64fb28)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1af22209afa4cb0826c3848bf9c99bdcd5)
@@ -150,6 +151,8 @@
 * [getOutputSupport](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac72d8c2dcd1440727a32eab2dd116de5)
 * [getOutputTimeFreqSupport](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac087d530db5bea30250a6110054f204a)
 * [getOutputTimeFreqSupport](classansys-dpf-workflow.md#classansys-dpf-workflow-1ae52042f810882873efc0ba757202e886)
+* [getOutputUInt](classansys-dpf-workflow.md#classansys-dpf-workflow-1af358c6fd7d0c089aab1e2251bdd2d012)
+* [getOutputUInt](classansys-dpf-workflow.md#classansys-dpf-workflow-1ae51613d555b44ca05ff4ae8c8b427668)
 * [getOutputUnit](classansys-dpf-workflow.md#classansys-dpf-workflow-1abeff5a7ffd64f443c6da0be2e254563c)
 * [getOutputUnit](classansys-dpf-workflow.md#classansys-dpf-workflow-1af8eb2c09487a34ec09f8166072c5ca2c)
 * [getOutputWorkflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6291348781887726efc7afe9e31a5fb9)
@@ -2363,6 +2366,37 @@ Boolean result for given output pin.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputBool"}]}`
 -->
 
+<a id="classansys-dpf-workflow-1af358c6fd7d0c089aab1e2251bdd2d012"></a>
+### Function getOutputUInt
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::Workflow::getOutputUInt(std::string const &pin_name)
+```
+
+
+
+
+**Returns**:
+
+Unsigned 64-bit integer result for given output pin.
+
+
+
+**Parameters**:
+
+* std::string const & **pin_name**: [in] Output pin name.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputUInt"}]}`
+-->
+
 <a id="classansys-dpf-workflow-1a59d4b94233be7f750d0a1af78accd6ba"></a>
 ### Function getOutputString
 
@@ -3255,6 +3289,38 @@ Boolean result for given output pin.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputBool"}]}`
 -->
 
+<a id="classansys-dpf-workflow-1ae51613d555b44ca05ff4ae8c8b427668"></a>
+### Function getOutputUInt
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::Workflow::getOutputUInt(std::string const &pin_name, DpfError &error)
+```
+
+
+
+
+**Returns**:
+
+Unsigned 64-bit integer result for given output pin.
+
+
+
+**Parameters**:
+
+* std::string const & **pin_name**: [in] Output pin name.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputUInt"}]}`
+-->
+
 <a id="classansys-dpf-workflow-1aaa166e26a853f3619f66841f394cbb90"></a>
 ### Function getOutputString
 
@@ -3474,6 +3540,39 @@ Connect double to input pin.
 
 * std::string const & **pin_name**: [in] Input pin name.
 * [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **f**: [in] Double data.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::connect"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1a84c7e95e6ce6f0ef58b52bc0633ce109"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Workflow::connect(std::string const &pin_name, uint64_t f)
+```
+
+
+
+
+Connect unsigned 64-bit integer to input pin. 
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Parameters**:
+
+* std::string const & **pin_name**: [in] Input pin name.
+* uint64_t **f**: [in] Unsigned 64-bit integer data.
 
 **Return type**: void
 

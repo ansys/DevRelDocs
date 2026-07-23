@@ -138,7 +138,7 @@ List of Classes:
 - [ansys::dpf::reflect< int64_t >](structansys-dpf-reflect-int64-t.md)
 - [ansys::dpf::reflect< int8_t >](structansys-dpf-reflect-int8-t.md)
 - [ansys::dpf::reflect< short >](structansys-dpf-reflect-short.md)
-- [ansys::dpf::reflect< size_t >](structansys-dpf-reflect-size-t.md)
+- [ansys::dpf::reflect< uint64_t >](structansys-dpf-reflect-uint64-t.md)
 - [ansys::dpf::reflect< unsigned int >](structansys-dpf-reflect-unsigned-int.md)
 - [ansys::dpf::reflect< unsigned short >](structansys-dpf-reflect-unsigned-short.md)
 - [ansys::dpf::reflect< wchar_t >](structansys-dpf-reflect-wchar-t.md)
