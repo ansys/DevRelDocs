@@ -1,8 +1,8 @@
 # File FMOPSolver.c
 
+![][C++]
 
 **Location**: `doc/FMOPSolver.c`
-
 
 ## Includes
 
@@ -11,7 +11,6 @@
 * <string.h>
 * include/sos_capi_script.h
 * include/fmop_solver.h
-
 
 ```mermaid
 graph LR
@@ -35,14 +34,12 @@ click 1 "_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c"
 
 ```
 
-
 ## Macros
 
 <a id="_f_m_o_p_solver_8c_1ae7c3138bceee1d3e419dadbea1c80fa5"></a>
 ### Macro REF_NUM_PARAMS
 
 ![][public]
-
 
 ```cpp
 #define REF_NUM_PARAMS 6
@@ -55,18 +52,38 @@ click 1 "_f_m_o_p_solver_8c.md#_f_m_o_p_solver_8c"
 
 ![][public]
 
-
 ```cpp
 int main(int argc, char *const argv[])
 ```
 
-
-FMOPSolver interface example using the sos_demo database provided with your oSP3D installation.
+FMOPSolver interface example using the sos_demo database provided with your SoS installation.
 
 **copyright**\
-2026, Ansys Austria GmbH
+2019, DYNARDO Austria GmbH
 
-## Example
+Additional absolute license search path, e.g. the users home directory, or the executable home path (optional)
+
+Path to the input database
+
+The FMOP ident to query
+
+The input parameters to evaluate the FMOP at
+
+The requested feature
+
+The database handle
+
+The FMOP handle
+
+Prepend the content of the SOS_PUBLIC_DIR environment variable if defined
+
+**Parameters**:
+
+* int **argc**
+* char *const **argv****Return type**: int
+
+## Source
+
 ```cpp
 
 #include <stdlib.h>
@@ -135,7 +152,6 @@ int main ( int argc, char* const argv[] )
          public_dir != NULL )
     {
         printf ( "INFO  | Using sos_demo database from public documents dir.\n" );
-
 
         const char* db_rel_path = "/examples/sos_demo.sdb";
         db_path = malloc ( strlen (public_dir) + strlen (db_rel_path) + 1 );
@@ -264,12 +280,12 @@ int main ( int argc, char* const argv[] )
     }
 
     {
-        printf ( "INFO  | Load the oSP3D demo database\n" );
+        printf ( "INFO  | Load the SoS demo database\n" );
 
 //        if ( FMOP_loadDbFile ( & database, db_path ) )
         if ( FMOP_loadDbFileWMesh ( & database, db_path ) )
         {
-            fprintf ( stderr, "FATAL | Loading the oSP3D demo database. The library reports:\n%s\n",
+            fprintf ( stderr, "FATAL | Loading the SoS demo database. The library reports:\n%s\n",
                       FMOP_getLastErrorString () );
             return FMOP_getLastErrno ();
         }
@@ -404,7 +420,6 @@ int main ( int argc, char* const argv[] )
 
         }
 
-
         {
             printf ( "INFO  | Query active scalar input parameter boundaries defined by the applied DOE\n" );
 
@@ -511,9 +526,8 @@ int main ( int argc, char* const argv[] )
     return num_errors;
 }
 
-// (c) 2019, Ansys Austria GmbH (proprietary license)
+// (c) 2019, DYNARDO Austria GmbH (proprietary license)
 ```
 
-
-[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
+[C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)
