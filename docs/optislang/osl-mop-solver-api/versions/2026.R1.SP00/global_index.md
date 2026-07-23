@@ -104,7 +104,6 @@
 
 ## M
 
-* [MOPSolver API Version 2](indexpage.md#indexpage) Page
 * [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h) File
 * [mopsolver_api.h](mopsolver__api_8h.md#mopsolver__api_8h) File
 * [mopsolver_api2_hash.h](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h) File
