@@ -32,6 +32,7 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a6f9e628bf2429fc5a805871c61c69a17)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1aad1b060bfb2886c3b3dd75f1385f6222)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a5add81029b92a785398586268a0112a9)
+* [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a03a8e31439cd8d397b84c70b3d6ac638)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a5e5cbe01690fca3a27bbf8cd4a21f530)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1af13e07e9f51973d31c33dd4c80930c0f)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a9006d2db6a9e078acc0b293ec1439863)
@@ -50,6 +51,7 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ae76c6c18901c49692e9d15d59b784d79)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a21dfe41f3f388752fa35bd28b7cb82a7)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1af9629fd0bf6f14054969bd1a17a3c01a)
+* [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a218d7f8cea0d8382f70d2f1c329b85d2)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ae5bd39532c17864b402d36cbf299e0a6)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a5c1afb9023b4dcede90cbb689d44235b)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1af0cc66b849378593d484d64fd884f534)
@@ -69,6 +71,7 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a7fc609c2f4538038c30ec8034f22ddb8)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ab0a16ba648b2e088b1b1bbb6c6d57bf1)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a8e9cb2e84276a62ecbfac15fc34eb987)
+* [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a196fecf93c582c710a8c2c8c9c5f0ed8)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a055daebf6e09e2f8cadbd71218de629e)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a6a6d0fca683a19dded250760f9f67b4b)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a72c6e272e3a18c77d170ae638943e6a5)
@@ -81,6 +84,7 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ae2825474b8c81df35899c9f4f2d99564)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1acfd6ae4496cac17382d290385b016b46)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a35815dd63725ce35d51b791dea1713e3)
+* [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ad5bfefab97939ef5afd96f51e42ed3d7)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ac9f70f22925540444a489da7c389cd2c)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1a0dccc56a240f176d4406901fa3779ae8)
 * [connect](classansys-dpf-operator.md#classansys-dpf-operator-1ab319e553b676692001a5fd6ea54a791c)
@@ -142,6 +146,8 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [getOutputOperator](classansys-dpf-operator.md#classansys-dpf-operator-1a255fa07a2e0a12152f915ee8f5b5a524)
 * [getOutputPropertyField](classansys-dpf-operator.md#classansys-dpf-operator-1a58ea7f5128ab677787afb696b0293267)
 * [getOutputPropertyField](classansys-dpf-operator.md#classansys-dpf-operator-1ae726557dc3c40abd7afe411fc2ce278c)
+* [getOutputPropertyFieldsContainer](classansys-dpf-operator.md#classansys-dpf-operator-1a5572ba10829cb4f482c5265df5c2be55)
+* [getOutputPropertyFieldsContainer](classansys-dpf-operator.md#classansys-dpf-operator-1a85531ed5d40a0230ca9eaeb1431b3f31)
 * [getOutputResultInfo](classansys-dpf-operator.md#classansys-dpf-operator-1aeb719093c2406e06455423370eed3cd8)
 * [getOutputResultInfo](classansys-dpf-operator.md#classansys-dpf-operator-1acea4c808d2f4d01adea5539b3da95d33)
 * [getOutputScoping](classansys-dpf-operator.md#classansys-dpf-operator-1a08ab4421b7cc47bb6c5baeafdebe641f)
@@ -158,6 +164,8 @@ The [Operator](classansys-dpf-operator.md#classansys-dpf-operator) is the main o
 * [getOutputSupport](classansys-dpf-operator.md#classansys-dpf-operator-1aa818d55166583977ae4e4ecbd709b56e)
 * [getOutputTimeFreqSupport](classansys-dpf-operator.md#classansys-dpf-operator-1ad2bfffac019485c51c8d3cc88c94ebd0)
 * [getOutputTimeFreqSupport](classansys-dpf-operator.md#classansys-dpf-operator-1ab6015d4542961222e37a107e699dfc2e)
+* [getOutputUInt](classansys-dpf-operator.md#classansys-dpf-operator-1a74c3403cdcd79a4fc262bd91a2a4d231)
+* [getOutputUInt](classansys-dpf-operator.md#classansys-dpf-operator-1a87689e72739ab2b4533f6eb4728b7691)
 * [getOutputWorkflow](classansys-dpf-operator.md#classansys-dpf-operator-1ab43c2d56664e3db3bfb386bb6895fc9c)
 * [getOutputWorkflow](classansys-dpf-operator.md#classansys-dpf-operator-1a0875bb76f8121ba69f3e5e001deb7ea2)
 * [getRemoteId](classansys-dpf-operator.md#classansys-dpf-operator-1a3450f744e8f833a2862686431855c990)
@@ -1071,6 +1079,36 @@ Connect [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyf
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
 -->
 
+<a id="classansys-dpf-operator-1a03a8e31439cd8d397b84c70b3d6ac638"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Operator::connect(dp_index input_pin, PropertyFieldsContainer const &data)
+```
+
+
+
+
+Connect [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to input_pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
+* [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) const & **data**: [in] [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to connect to pin.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
+-->
+
 <a id="classansys-dpf-operator-1a5e5cbe01690fca3a27bbf8cd4a21f530"></a>
 ### Function connect
 
@@ -1656,6 +1694,39 @@ Connect double data to input_pin.
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
 * [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **data**: [in] Double data to connect to pin.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
+-->
+
+<a id="classansys-dpf-operator-1a218d7f8cea0d8382f70d2f1c329b85d2"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Operator::connect(dp_index input_pin, uint64_t data)
+```
+
+
+
+
+Connect unsigned 64-bit integer data to input_pin. 
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
+* uint64_t **data**: [in] Unsigned 64-bit integer data to connect to pin.
 
 **Return type**: void
 
@@ -2338,6 +2409,37 @@ Connect [PropertyField](classansys-dpf-propertyfield.md#classansys-dpf-propertyf
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
 -->
 
+<a id="classansys-dpf-operator-1a196fecf93c582c710a8c2c8c9c5f0ed8"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Operator::connect(dp_index input_pin, PropertyFieldsContainer const &data, DpfError &error)
+```
+
+
+
+
+Connect [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to input_pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
+* [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) const & **data**: [in] [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) data to connect to pin.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
+-->
+
 <a id="classansys-dpf-operator-1a055daebf6e09e2f8cadbd71218de629e"></a>
 ### Function connect
 
@@ -2700,6 +2802,37 @@ Connect double data to input_pin.
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
 * [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **data**: [in] Double data to connect to pin.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::connect"}]}`
+-->
+
+<a id="classansys-dpf-operator-1ad5bfefab97939ef5afd96f51e42ed3d7"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Operator::connect(dp_index input_pin, uint64_t data, DpfError &error)
+```
+
+
+
+
+Connect unsigned 64-bit integer data to input_pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **input_pin**: [in] Input pin.
+* uint64_t **data**: [in] Unsigned 64-bit integer data to connect to pin.
 * [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
 
 **Return type**: void
@@ -3813,6 +3946,42 @@ CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContain
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputCustomTypeFieldsContainer"}]}`
 -->
 
+<a id="classansys-dpf-operator-1a5572ba10829cb4f482c5265df5c2be55"></a>
+### Function getOutputPropertyFieldsContainer
+
+![][public]
+
+
+```cpp
+PropertyFieldsContainer ansys::dpf::Operator::getOutputPropertyFieldsContainer(dp_index pin_index)
+```
+
+
+
+
+**Returns**:
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) output on pin_index.
+
+
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
+
+**Return type**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputPropertyFieldsContainer"}]}`
+-->
+
 <a id="classansys-dpf-operator-1a4cb5af4bf08b8a0498dce57de049c51e"></a>
 ### Function getOutputCustomContainer
 
@@ -3992,6 +4161,42 @@ Boolean output on pin_index.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputBool"}]}`
+-->
+
+<a id="classansys-dpf-operator-1a74c3403cdcd79a4fc262bd91a2a4d231"></a>
+### Function getOutputUInt
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::Operator::getOutputUInt(dp_index pin_index)
+```
+
+
+
+
+**Returns**:
+
+Unsigned 64-bit integer output on pin_index.
+
+
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputUInt"}]}`
 -->
 
 <a id="classansys-dpf-operator-1a6774a55e67fa544d5711c6c0faa34397"></a>
@@ -4828,6 +5033,38 @@ CustomTypeFieldsContainer ansys::dpf::Operator::getOutputCustomTypeFieldsContain
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputCustomTypeFieldsContainer"}]}`
 -->
 
+<a id="classansys-dpf-operator-1a85531ed5d40a0230ca9eaeb1431b3f31"></a>
+### Function getOutputPropertyFieldsContainer
+
+![][public]
+
+
+```cpp
+PropertyFieldsContainer ansys::dpf::Operator::getOutputPropertyFieldsContainer(dp_index pin_index, DpfError &error)
+```
+
+
+
+
+**Returns**:
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) output on pin_index.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputPropertyFieldsContainer"}]}`
+-->
+
 <a id="classansys-dpf-operator-1aaca3f1d0e1fa835f15ffe8b8d2f3368e"></a>
 ### Function getOutputString
 
@@ -4954,6 +5191,38 @@ int output on pin_index.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputInt"}]}`
+-->
+
+<a id="classansys-dpf-operator-1a87689e72739ab2b4533f6eb4728b7691"></a>
+### Function getOutputUInt
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::Operator::getOutputUInt(dp_index pin_index, DpfError &error)
+```
+
+
+
+
+**Returns**:
+
+Unsigned 64-bit integer output on pin_index.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Pin from which to get output.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Operator::getOutputUInt"}]}`
 -->
 
 <a id="classansys-dpf-operator-1a14bed5d34060b6376dbb4c9d4781f704"></a>

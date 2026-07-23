@@ -28,6 +28,7 @@
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6ce835a6bd7213846e9f2a54c3c0a26b)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a0359e496cfe9ef8b635df5ced09ee4ed)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a784a219175f41f4a6c7da7703f45defe)
+* [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a84c7e95e6ce6f0ef58b52bc0633ce109)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a2bbb7a7147a954812864d12b21ded9b3)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1a667f3d115d92aab65b3220e1ab64fb28)
 * [connect](classansys-dpf-workflow.md#classansys-dpf-workflow-1af22209afa4cb0826c3848bf9c99bdcd5)
@@ -150,6 +151,8 @@
 * [getOutputSupport](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac72d8c2dcd1440727a32eab2dd116de5)
 * [getOutputTimeFreqSupport](classansys-dpf-workflow.md#classansys-dpf-workflow-1ac087d530db5bea30250a6110054f204a)
 * [getOutputTimeFreqSupport](classansys-dpf-workflow.md#classansys-dpf-workflow-1ae52042f810882873efc0ba757202e886)
+* [getOutputUInt](classansys-dpf-workflow.md#classansys-dpf-workflow-1af358c6fd7d0c089aab1e2251bdd2d012)
+* [getOutputUInt](classansys-dpf-workflow.md#classansys-dpf-workflow-1ae51613d555b44ca05ff4ae8c8b427668)
 * [getOutputUnit](classansys-dpf-workflow.md#classansys-dpf-workflow-1abeff5a7ffd64f443c6da0be2e254563c)
 * [getOutputUnit](classansys-dpf-workflow.md#classansys-dpf-workflow-1af8eb2c09487a34ec09f8166072c5ca2c)
 * [getOutputWorkflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6291348781887726efc7afe9e31a5fb9)
@@ -183,6 +186,9 @@
 * [record](classansys-dpf-workflow.md#classansys-dpf-workflow-1a304ee206ac4927f7aa757c63b0ec00b5)
 * [renameInputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1a22fba3c96a8a6e9eda279fd1c4b5358f)
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
+* [shareStepIndexWith](classansys-dpf-workflow.md#classansys-dpf-workflow-1acfeb4ac138a1ec9e4b6e0d7fae14abb5)
+* [stepIndexCurrentMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a7cc02b047d1d37c1bb92440f4fade050)
+* [stepIndexOperatorStatuses](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5a24c6e5128c940559d976e236c58ec5)
 * [tryReplaceWorkflowInRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1a478c1be621d4c49916771b42d4b10ba9)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a808195b2d92b18f8f3a362e4bd701f39)
 * [Workflow](classansys-dpf-workflow.md#classansys-dpf-workflow-1a8a36b36629bde25afe03b12b0ed5a958)
@@ -1591,6 +1597,62 @@ GenericDataContainer with active operators info (name_id -> status).
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getActiveOperators"}]}`
 -->
 
+<a id="classansys-dpf-workflow-1a7cc02b047d1d37c1bb92440f4fade050"></a>
+### Function stepIndexCurrentMemoryMB
+
+![][public]
+![][const]
+
+
+```cpp
+int ansys::dpf::Workflow::stepIndexCurrentMemoryMB() const
+```
+
+
+
+
+**Returns**:
+
+Current heap memory (in MB) held by this workflow's step index.
+
+
+
+**Return type**: int
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::stepIndexCurrentMemoryMB"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1a5a24c6e5128c940559d976e236c58ec5"></a>
+### Function stepIndexOperatorStatuses
+
+![][public]
+![][const]
+
+
+```cpp
+GenericDataContainer ansys::dpf::Workflow::stepIndexOperatorStatuses() const
+```
+
+
+
+
+**Returns**:
+
+GenericDataContainer with step-index operator statuses (name_id -> int E_OperatorState).
+
+
+
+**Return type**: GenericDataContainer
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::stepIndexOperatorStatuses"}]}`
+-->
+
 <a id="classansys-dpf-workflow-1a21d864839aa5e8df007f9596ec69a58a"></a>
 ### Function getOutputField
 
@@ -2302,6 +2364,37 @@ Boolean result for given output pin.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputBool"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1af358c6fd7d0c089aab1e2251bdd2d012"></a>
+### Function getOutputUInt
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::Workflow::getOutputUInt(std::string const &pin_name)
+```
+
+
+
+
+**Returns**:
+
+Unsigned 64-bit integer result for given output pin.
+
+
+
+**Parameters**:
+
+* std::string const & **pin_name**: [in] Output pin name.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputUInt"}]}`
 -->
 
 <a id="classansys-dpf-workflow-1a59d4b94233be7f750d0a1af78accd6ba"></a>
@@ -3196,6 +3289,38 @@ Boolean result for given output pin.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputBool"}]}`
 -->
 
+<a id="classansys-dpf-workflow-1ae51613d555b44ca05ff4ae8c8b427668"></a>
+### Function getOutputUInt
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::Workflow::getOutputUInt(std::string const &pin_name, DpfError &error)
+```
+
+
+
+
+**Returns**:
+
+Unsigned 64-bit integer result for given output pin.
+
+
+
+**Parameters**:
+
+* std::string const & **pin_name**: [in] Output pin name.
+* [DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror) & **error**: [out] Status of call.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::getOutputUInt"}]}`
+-->
+
 <a id="classansys-dpf-workflow-1aaa166e26a853f3619f66841f394cbb90"></a>
 ### Function getOutputString
 
@@ -3415,6 +3540,39 @@ Connect double to input pin.
 
 * std::string const & **pin_name**: [in] Input pin name.
 * [dp_double](namespaceansys-dpf.md#namespaceansys-dpf-1acb480013bfed185b5e34a0bdcb0e3790) **f**: [in] Double data.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::connect"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1a84c7e95e6ce6f0ef58b52bc0633ce109"></a>
+### Function connect
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Workflow::connect(std::string const &pin_name, uint64_t f)
+```
+
+
+
+
+Connect unsigned 64-bit integer to input pin. 
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Parameters**:
+
+* std::string const & **pin_name**: [in] Input pin name.
+* uint64_t **f**: [in] Unsigned 64-bit integer data.
 
 **Return type**: void
 
@@ -5542,6 +5700,35 @@ void ansys::dpf::Workflow::enableCache(bool b)
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::enableCache"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1acfeb4ac138a1ec9e4b6e0d7fae14abb5"></a>
+### Function shareStepIndexWith
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Workflow::shareStepIndexWith(Workflow const &other)
+```
+
+
+
+
+Attach this workflow to the same step index as <code>other</code>, so both share the step cache.
+
+
+
+**Parameters**:
+
+* Workflow const & **other**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::shareStepIndexWith"}]}`
 -->
 
 <a id="classansys-dpf-workflow-1abd60834d5d8fb9b037f9546f80d1cb0f"></a>
