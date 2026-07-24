@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-23).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,17 +35,17 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[5 items](#Fixes_h5dpf) |
-| hdf5 | [11 items](#Features_hdf5) |[8 items](#Fixes_hdf5) |
+| hdf5 | [12 items](#Features_hdf5) |[9 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[12 items](#Fixes_kernel) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [27 items](#Features_mapdl) |[61 items](#Fixes_mapdl) |
+| mapdl | [28 items](#Features_mapdl) |[61 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| math | [16 items](#Features_math) |[2 items](#Fixes_math) |
+| math | [17 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[6 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[23 items](#Fixes_misc) |
@@ -1014,6 +1014,11 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Expose coordinate systems data in hdf5:
+  > Make coordinate systems data available in hdf5 file, either from a migrate from rst file or a live analysis from mapdl.
+  >
+  > 
+
 - Reevaluating caching logic:
   > This change removes caching for result fields and mesh data structures. The following lightweight entities remain cached intentionally due to their low memory footprint and high reuse frequency:
   >
@@ -1082,6 +1087,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Fix appending to tfs after restart analysis from MAPDL ':
+  > Allowing restart analysis from MAPDL to use h5 file and append new results with matching TFS from original file.
+  >
+  > 
 
 - Skip empty results:
   > 
@@ -1425,6 +1435,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add beta support of structural surface load elements SURF153 and SURF154:
+  > Addition of beta support for SURF153 & SURF154, these elements will now appear in the mesh and elemental results when applicable.
+  >
+  > 
+  >
+  > 
 
 - Replace generic throws with structured exceptions in split_on_facet_indices:
   > 
@@ -2153,6 +2170,11 @@ The following table shows which components have updates in each category.
   > 
 ## math
 ### <a id="Features_math"></a> Features
+
+- Export optimization data at the end of each iteration in HDF5:
+  > 
+  >
+  > 
 
 - Add optimizeWorkflow operator:
   > Add an optimization operator that supports minimizing or maximizing an objective function, as well as driving it toward a target value. The objective function can take input variables of type integer or double.
@@ -4781,12 +4803,12 @@ Upgraded documentation
 
 - [exponential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential.md)
 
-  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+  > 0.1.0: Add permissive config option to bypass unit check.
 
 
 - [exponential_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/exponential_fc.md)
 
-  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+  > 0.1.0: Add input pin 1 which allows to apply the exponential to the time/freq support of the input FC. Also add permissive config option to bypass unit check.
 
 
 - [generalized_inner_product](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/generalized_inner_product.md)
@@ -4818,10 +4840,12 @@ Upgraded documentation
 
   > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
 
+  > 0.1.0: Add permissive config option to bypass unit check.
+
 
 - [ln_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/ln_fc.md)
 
-  > 0.0.1: Improve operator description with formula and dimensionless constraint. Improve input and output pin descriptions. Add Wikipedia link.
+  > 0.1.0: Add input pin 1 which allows to apply the natural log to the time/freq support of the input FC. Also add permissive config option to bypass unit check.
 
 
 - [mac](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/mac.md)
@@ -4967,6 +4991,8 @@ Upgraded documentation
 - [time_freq_interpolation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/time_freq_interpolation.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators. Improve operator description with interpolation formula and Wikipedia link. Add missing output pin 1 (TimeFreqSupport). Improve pin descriptions.
+
+  > 0.1.0: Add new input pin 5 which allows to interpolate in log-log scale
 
 
 - [unit_convert](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/unit_convert.md)
@@ -5168,6 +5194,11 @@ Upgraded documentation
 
 
 #### min_max
+
+- [min_max_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_fc.md)
+
+  > 0.0.1: Ignore empty fields to calculate maximum & minimum values. A zero value will be output if the field is empty.
+
 
 - [min_max_fc_inc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/min_max/min_max_fc_inc.md)
 
@@ -5493,6 +5524,8 @@ Upgraded documentation
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
 
+  > 2.0.0: averaging is blocked.
+
 
 - [nodal_to_global](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nodal_to_global.md)
 
@@ -5584,6 +5617,8 @@ Upgraded documentation
 - [smisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/smisc.md)
 
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
+
+  > 2.0.0: averaging is blocked.
 
 
 - [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/state_variable.md)
@@ -5738,6 +5773,8 @@ Upgraded documentation
   > 1.0.0: Remove pin "inclusive"
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 1.0.2: Allow the operator use for h5dpf files.
 
 
 - [reduce_sampling](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/reduce_sampling.md)

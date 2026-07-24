@@ -130,7 +130,7 @@ op.connect(0, my_input_fc);
 op.connect(2, my_zstd_level);
 op.connect(3, my_num_threads);
 ansys::dpf::AnyCollection my_compressed_fc = op.getOutput<ansys::dpf::AnyCollection>(0);
-ansys::dpf::Uint64 my_output_bytes_size = op.getOutput<ansys::dpf::Uint64>(1);
+uint64_t my_output_bytes_size = op.getOutput<uint64_t>(1);
 ```
 </details>
 
