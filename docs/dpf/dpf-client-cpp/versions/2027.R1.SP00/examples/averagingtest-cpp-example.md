@@ -106,7 +106,7 @@ TEST(AveragingPerBody, Nodal)
     scoping_op.connect(13, std::string("mat")); // split per body with mat attribute
     ansys::dpf::ScopingsContainer scopings_per_body = scoping_op.getOutputScopingsContainer(0);
 
-    EXPECT_EQ(scopings_per_body.size(), 4);
+    EXPECT_EQ(scopings_per_body.size(), 5);
 
     // Get split result
     // ----------------
@@ -127,7 +127,7 @@ TEST(AveragingPerBody, Nodal)
     // Compute output FieldsContainer
     ansys::dpf::FieldsContainer result_fc = stress_op.getOutputFieldsContainer(0);
 
-    EXPECT_EQ(result_fc.size(), 4);
+    EXPECT_EQ(result_fc.size(), 5);
 }
 ```
 
