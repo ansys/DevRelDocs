@@ -29,9 +29,9 @@
 * [getInputField](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a064e47615a3d7beb23ee8ab9f589844e)
 * [getInputFieldsContainer](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ae3a8077aa63c688e42dbe707a5bbe320)
 * [getInputGenericDataContainer](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a6c877ce71b260e6a540a8cff6bec8acd)
+* [getInputInt64](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1abc8f1a12dda42ce3762b414f79acddec)
 * [getInputInteger](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ab313f7215443f3bd16dac73d5bbea480)
 * [getInputLabelSpace](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a86ba9637ed2ad87246690b2407ce8033)
-* [getInputLongLong](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ad227f6658d46455cc795c0e8e2e26c22)
 * [getInputMeshedRegion](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1abf3941daef165cb449d4159b106a23fd)
 * [getInputMeshesContainer](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a33d2b9d8e6408e42547340f056fdecee)
 * [getInputOperator](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a0fb8663005dd50e7aff666a463d7064c)
@@ -45,9 +45,11 @@
 * [getInputStringField](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a16741789fff23ceca3d49d71a2c5e9d4)
 * [getInputSupport](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1abd71f83c649a04e7f2f7813384255f29)
 * [getInputTimeFreqSupport](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a772955b40f867d944a2420934a969e92)
+* [getInputUInt64](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1adcf7e063620b6613db3b565820e2831e)
 * [getInputVecDouble](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1accaaa7cf0b5753e3ac603e833df5f79c)
 * [getInputVecInt](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a1f0a8b9bfdb1068237ea65e9ced21b4d)
 * [getInputVecString](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a0655fe1b44a5385e2dbc8ddc4fca8e35)
+* [getInputVecUInt64](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a9b32fd8b72604b9f74aa4e19d24520ac)
 * [getInputWorkflow](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ab7c167dbd3257b0683906edc2cc27a65)
 * [getNumInputs](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a041b07a72607c574cd81a878f9e16e41)
 * [getNumThreads](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a5c2957fff4ff41671e98489faf5530ee)
@@ -84,7 +86,9 @@
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a604b24756c0ee9f63941e1943ce029ad)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a0c74f0785a142a82c33796feaced4542)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ad6d1c029bc239f8b47f7ae34d011a4ad)
-* [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a9ddd1af34ae1cc9b0274203471cfadc6)
+* [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ac3179d72d416414c8187981e6cf99be3)
+* [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a37e9b49b12293fc27e47a6193e633a13)
+* [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1acb9a49a02246ae0e7557b8db67fd936d)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a13cd3ab170883dae7943255b33078cba)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a08c3ec2a45807e4f9e7ca10d7fee867b)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ade2fb9f881cb1a54fb9e916faceb0c93)
@@ -2028,14 +2032,14 @@ Set double value for given output pin.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::setOutput"}]}`
 -->
 
-<a id="classansys-dpf-operatormain-1ad227f6658d46455cc795c0e8e2e26c22"></a>
-### Function getInputLongLong
+<a id="classansys-dpf-operatormain-1abc8f1a12dda42ce3762b414f79acddec"></a>
+### Function getInputInt64
 
 ![][public]
 
 
 ```cpp
-long long int ansys::dpf::OperatorMain::getInputLongLong(dp_index pin_index)
+int64_t ansys::dpf::OperatorMain::getInputInt64(dp_index pin_index)
 ```
 
 
@@ -2043,7 +2047,7 @@ long long int ansys::dpf::OperatorMain::getInputLongLong(dp_index pin_index)
 
 **Returns**:
 
-Long long int value for given input pin.
+Int64 value for given input pin.
 
 
 
@@ -2051,35 +2055,96 @@ Long long int value for given input pin.
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Input pin for which to get value.
 
-**Return type**: long long int
+**Return type**: int64_t
 
 <!--
 **TODO**:
 
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputLongLong"}]}`
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputInt64"}]}`
 -->
 
-<a id="classansys-dpf-operatormain-1a9ddd1af34ae1cc9b0274203471cfadc6"></a>
+<a id="classansys-dpf-operatormain-1ac3179d72d416414c8187981e6cf99be3"></a>
 ### Function setOutput
 
 ![][public]
 
 
 ```cpp
-void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, long long int f)
+void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, int64_t f)
 ```
 
 
 
 
-Set long long int value for given output pin.
+Set int64 value for given output pin.
 
 
 
 **Parameters**:
 
 * [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Output pin for which to set value.
-* long long int **f**: [in] Long long int value to assign to output pin.
+* int64_t **f**: [in] Int64 value to assign to output pin.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::setOutput"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1adcf7e063620b6613db3b565820e2831e"></a>
+### Function getInputUInt64
+
+![][public]
+
+
+```cpp
+uint64_t ansys::dpf::OperatorMain::getInputUInt64(dp_index pin_index)
+```
+
+
+
+
+**Returns**:
+
+UInt64 value for given input pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Input pin for which to get value.
+
+**Return type**: uint64_t
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputUInt64"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1a37e9b49b12293fc27e47a6193e633a13"></a>
+### Function setOutput
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, uint64_t f)
+```
+
+
+
+
+Set uint64 value for given output pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Output pin for which to set value.
+* uint64_t **f**: [in] UInt64 value to assign to output pin.
 
 **Return type**: void
 
@@ -2180,6 +2245,67 @@ Vector of strings for given input pin.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputVecString"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1a9b32fd8b72604b9f74aa4e19d24520ac"></a>
+### Function getInputVecUInt64
+
+![][public]
+
+
+```cpp
+std::vector< uint64_t > ansys::dpf::OperatorMain::getInputVecUInt64(dp_index pin_index)
+```
+
+
+
+
+**Returns**:
+
+Vector of uint64_t for given input pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Input pin for which to get value.
+
+**Return type**: std::vector< uint64_t >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputVecUInt64"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1acb9a49a02246ae0e7557b8db67fd936d"></a>
+### Function setOutput
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, std::vector< uint64_t > const &out)
+```
+
+
+
+
+Set vector of uint64_t for given output pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Output pin for which to set value.
+* std::vector< uint64_t > const & **out**: [in] Vector of uint64_t to assign to output pin.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::setOutput"}]}`
 -->
 
 <a id="classansys-dpf-operatormain-1a13cd3ab170883dae7943255b33078cba"></a>

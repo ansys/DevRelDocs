@@ -33,6 +33,7 @@ Predefined TypeDescriptors.
 * [meshes_container](structansys-dpf-types.md#structansys-dpf-types-1aa5aef8db0de66f13c7d824cc7fc3deaa)
 * [operators](structansys-dpf-types.md#structansys-dpf-types-1aa6514ce8d3c27091d3b4a510f8a3260c)
 * [property_field](structansys-dpf-types.md#structansys-dpf-types-1a64e3b69e41834d5713e61cb6a032d71b)
+* [property_fields_container](structansys-dpf-types.md#structansys-dpf-types-1a66518d1b7aee68278c8e87a61b25ce7f)
 * [result_info](structansys-dpf-types.md#structansys-dpf-types-1af809418d3ce134e74935fb71f67309f1)
 * [scoping](structansys-dpf-types.md#structansys-dpf-types-1a70eb3fbf8f74e6582f60e6530001ea61)
 * [scopings_container](structansys-dpf-types.md#structansys-dpf-types-1a599190c382fbb28272d0cc561e83fbfd)
@@ -42,6 +43,8 @@ Predefined TypeDescriptors.
 * [stringVector](structansys-dpf-types.md#structansys-dpf-types-1af817abd6d08d95f7750a18197db74fed)
 * [support](structansys-dpf-types.md#structansys-dpf-types-1a2dd4f30d4bd8a24632ac9acd77e4e453)
 * [time_freq_support](structansys-dpf-types.md#structansys-dpf-types-1a47aee41447edf07259b66ec6d420239a)
+* [uint64](structansys-dpf-types.md#structansys-dpf-types-1aa30ee96d193a92ca9dd34f730c51b81b)
+* [uint64Vector](structansys-dpf-types.md#structansys-dpf-types-1af9a8bd5f9f05368dce689efdc3258be8)
 * [unit_system](structansys-dpf-types.md#structansys-dpf-types-1a800614ddcefefba1d683e616632a0688)
 * [workflow](structansys-dpf-types.md#structansys-dpf-types-1acf75ebca42a0a125d9947ba26b362228)
 
@@ -579,6 +582,34 @@ const TypeDescriptor ansys::dpf::types::custom_type_fields_container
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::custom_type_fields_container"}]}`
 -->
 
+<a id="structansys-dpf-types-1a66518d1b7aee68278c8e87a61b25ce7f"></a>
+### Variable property_fields_container
+
+![][public]
+![][static]
+
+
+```cpp
+const TypeDescriptor ansys::dpf::types::property_fields_container
+```
+
+
+
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) type. 
+
+**See also**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+
+
+**Type**: const [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::property_fields_container"}]}`
+-->
+
 <a id="structansys-dpf-types-1aa849c5f6a1f203c22325010179f6be3f"></a>
 ### Variable any
 
@@ -657,6 +688,32 @@ Integer type.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::integer"}]}`
+-->
+
+<a id="structansys-dpf-types-1aa30ee96d193a92ca9dd34f730c51b81b"></a>
+### Variable uint64
+
+![][public]
+![][static]
+
+
+```cpp
+const TypeDescriptor ansys::dpf::types::uint64
+```
+
+
+
+
+Unsigned integer type.
+
+
+
+**Type**: const [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::uint64"}]}`
 -->
 
 <a id="structansys-dpf-types-1a6711f0516d421535f51d7f0d27621e57"></a>
@@ -761,6 +818,32 @@ Vector of integers type.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::intVector"}]}`
+-->
+
+<a id="structansys-dpf-types-1af9a8bd5f9f05368dce689efdc3258be8"></a>
+### Variable uint64Vector
+
+![][public]
+![][static]
+
+
+```cpp
+const TypeDescriptor ansys::dpf::types::uint64Vector
+```
+
+
+
+
+Vector of unsigned integers type.
+
+
+
+**Type**: const [TypeDescriptor](structansys-dpf-typedescriptor.md#structansys-dpf-typedescriptor)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::types::uint64Vector"}]}`
 -->
 
 <a id="structansys-dpf-types-1accd7cc0df8b6a1bafbff699d724463a1"></a>

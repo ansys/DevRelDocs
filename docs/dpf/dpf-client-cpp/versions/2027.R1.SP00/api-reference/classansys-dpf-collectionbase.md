@@ -19,6 +19,7 @@
 * [ansys::dpf::CustomTypeFieldsContainer](classansys-dpf-customtypefieldscontainer.md#classansys-dpf-customtypefieldscontainer)
 * [ansys::dpf::FieldsContainer](classansys-dpf-fieldscontainer.md#classansys-dpf-fieldscontainer)
 * [ansys::dpf::MeshesContainer](classansys-dpf-meshescontainer.md#classansys-dpf-meshescontainer)
+* [ansys::dpf::PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
 * [ansys::dpf::ScopingsContainer](classansys-dpf-scopingscontainer.md#classansys-dpf-scopingscontainer)
 
 ## Members

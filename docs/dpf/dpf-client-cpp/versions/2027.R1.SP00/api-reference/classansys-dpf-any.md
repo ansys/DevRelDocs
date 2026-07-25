@@ -45,6 +45,7 @@
 * [getAsMeshesContainer](classansys-dpf-any.md#classansys-dpf-any-1aee25715543d8396d96a2826cf1d84a98)
 * [getAsOperator](classansys-dpf-any.md#classansys-dpf-any-1a5c1f49a671fa9d9d53b5b98fefdbd33b)
 * [getAsPropertyField](classansys-dpf-any.md#classansys-dpf-any-1a91f7cbddb5ec5ce949a7a9f692d1d113)
+* [getAsPropertyFieldsContainer](classansys-dpf-any.md#classansys-dpf-any-1ad305863576e44ad632de6acde30d9caf)
 * [getAsResultInfo](classansys-dpf-any.md#classansys-dpf-any-1ab65ba60185b1136c36b4ed181521bfb1)
 * [getAsScoping](classansys-dpf-any.md#classansys-dpf-any-1a1fede102c77bed4303bc8aa9210863b2)
 * [getAsScopingsContainer](classansys-dpf-any.md#classansys-dpf-any-1abcc1dc4052f9679abd3f13538ada623e)
@@ -1110,6 +1111,39 @@ CustomTypeFieldsContainer ansys::dpf::Any::getAsCustomTypeFieldsContainer() cons
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::getAsCustomTypeFieldsContainer"}]}`
+-->
+
+<a id="classansys-dpf-any-1ad305863576e44ad632de6acde30d9caf"></a>
+### Function getAsPropertyFieldsContainer
+
+![][public]
+![][const]
+
+
+```cpp
+PropertyFieldsContainer ansys::dpf::Any::getAsPropertyFieldsContainer() const
+```
+
+
+
+
+**Returns**:
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) held in the [Any](classansys-dpf-any.md#classansys-dpf-any) object.
+
+
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Return type**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::getAsPropertyFieldsContainer"}]}`
 -->
 
 <a id="classansys-dpf-any-1a971efc6d276a05d1e2e047878cdfb56a"></a>

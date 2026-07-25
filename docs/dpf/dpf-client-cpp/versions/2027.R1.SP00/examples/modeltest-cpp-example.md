@@ -24,14 +24,14 @@ TEST(Model, readMetaData)
     ansys::dpf::MeshedRegion mesh = model.getMesh();
 
     auto numEle = mesh.numberOfElements();
-    EXPECT_TRUE(numEle == 165);
+    EXPECT_TRUE(numEle == 169);
     auto numNodes = mesh.numberOfNodes();
     EXPECT_TRUE(numNodes == 344);
 
     ansys::dpf::Field fieldCoord = mesh.nodesCoordinates();
     EXPECT_EQ(fieldCoord.dataSize(), 344 * 3);
     ansys::dpf::PropertyField elementsConnectivity = mesh.connectivity();
-    EXPECT_EQ(elementsConnectivity.dataSize(), 1562);
+    EXPECT_EQ(elementsConnectivity.dataSize(), 1594);
     
 
     ansys::dpf::TimeFreqSupport timeSupport = model.getTimeFreqSupport();
@@ -198,7 +198,7 @@ TEST(Model, ReleaseHandles)
     ansys::dpf::MeshedRegion mesh = model.getMesh();
 
     auto numEle = mesh.numberOfElements();
-    EXPECT_TRUE(numEle == 165);
+    EXPECT_TRUE(numEle == 169);
     auto numNodes = mesh.numberOfNodes();
     EXPECT_TRUE(numNodes == 344);
 

@@ -52,7 +52,7 @@ Many tools are available to render Graphviz diagrams in useful formats such as S
 
 When you use a Graphviz diagram in combination with a Natvis view, you can see the content of each operator of a workflow (using their IDs).
 
-![Graph combo](../images/graph-combo.png)
+![](../images/graph-combo.png)
 
 ## <a name="debug4"></a>Usages for the CodeDV Property Sheet
 

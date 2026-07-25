@@ -172,6 +172,8 @@
       href: api-reference/classansys-dpf-propfieldcursor.md
     - name: ansys::dpf::PropertyField
       href: api-reference/classansys-dpf-propertyfield.md
+    - name: ansys::dpf::PropertyFieldsContainer
+      href: api-reference/classansys-dpf-propertyfieldscontainer.md
     - name: ansys::dpf::PropertyType
       href: api-reference/structansys-dpf-propertytype.md
     - name: ansys::dpf::QuantityType
@@ -284,6 +286,8 @@
       href: api-reference/structansys-dpf-reflect-operator.md
     - name: ansys::dpf::reflect< PropertyField >
       href: api-reference/structansys-dpf-reflect-propertyfield.md
+    - name: ansys::dpf::reflect< PropertyFieldsContainer >
+      href: api-reference/structansys-dpf-reflect-propertyfieldscontainer.md
     - name: ansys::dpf::reflect< RemoteOperator >
       href: api-reference/structansys-dpf-reflect-remoteoperator.md
     - name: ansys::dpf::reflect< RemoteWorkflow >
@@ -318,8 +322,8 @@
       href: api-reference/structansys-dpf-reflect-int8-t.md
     - name: ansys::dpf::reflect< short >
       href: api-reference/structansys-dpf-reflect-short.md
-    - name: ansys::dpf::reflect< size_t >
-      href: api-reference/structansys-dpf-reflect-size-t.md
+    - name: ansys::dpf::reflect< uint64_t >
+      href: api-reference/structansys-dpf-reflect-uint64-t.md
     - name: ansys::dpf::reflect< unsigned int >
       href: api-reference/structansys-dpf-reflect-unsigned-int.md
     - name: ansys::dpf::reflect< unsigned short >
