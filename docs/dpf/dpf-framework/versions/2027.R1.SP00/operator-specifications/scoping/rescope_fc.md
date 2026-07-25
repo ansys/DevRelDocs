@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Rescopes a field on the given scoping. If an ID does not exist in the original field, the default value (in 2) is used when defined.
+Rescopes a fields container on the given scoping. If an ID does not exist in the original fields container, the default value (in 2) is used when defined.
 
 ## Inputs
 

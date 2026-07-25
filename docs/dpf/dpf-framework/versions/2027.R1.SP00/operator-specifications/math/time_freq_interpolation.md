@@ -33,6 +33,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>2</strong> | [step](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>3</strong> | [interpolation_type](#input_3) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>4</strong> | [force_new_time_freq_support](#input_4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> | [interpolation_scale](#input_5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>8</strong> | [time_freq_support](#input_8) |  |[`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
 
 
@@ -75,6 +76,14 @@ if a Field is set as input, the step ids should be its scoping.
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
 If set to true, the output fields container will always have a new time freq support rescoped to the output time_freq_values (default is false). If set to false, the time freq support is only recreated when time or frequency values are between existing ones.
+
+<a id="input_5"></a>
+### interpolation_scale (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Integer indicating the scale in which interpolation is performed: 0 (linear scale - default), 1 (log-log scale).
 
 <a id="input_8"></a>
 ### time_freq_support (Pin 8)
@@ -166,6 +175,7 @@ op.connect(1, my_time_freq_values);
 op.connect(2, my_step);
 op.connect(3, my_interpolation_type);
 op.connect(4, my_force_new_time_freq_support);
+op.connect(5, my_interpolation_scale);
 op.connect(8, my_time_freq_support);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ansys::dpf::TimeFreqSupport my_time_freq_support = op.getOutput<ansys::dpf::TimeFreqSupport>(1);
@@ -184,6 +194,7 @@ op.inputs.time_freq_values.connect(my_time_freq_values)
 op.inputs.step.connect(my_step)
 op.inputs.interpolation_type.connect(my_interpolation_type)
 op.inputs.force_new_time_freq_support.connect(my_force_new_time_freq_support)
+op.inputs.interpolation_scale.connect(my_interpolation_scale)
 op.inputs.time_freq_support.connect(my_time_freq_support)
 my_fields_container = op.outputs.fields_container()
 my_time_freq_support = op.outputs.time_freq_support()
@@ -203,6 +214,7 @@ op.inputs.time_freq_values.Connect(my_time_freq_values)
 op.inputs.step.Connect(my_step)
 op.inputs.interpolation_type.Connect(my_interpolation_type)
 op.inputs.force_new_time_freq_support.Connect(my_force_new_time_freq_support)
+op.inputs.interpolation_scale.Connect(my_interpolation_scale)
 op.inputs.time_freq_support.Connect(my_time_freq_support)
 my_fields_container = op.outputs.fields_container.GetData()
 my_time_freq_support = op.outputs.time_freq_support.GetData()

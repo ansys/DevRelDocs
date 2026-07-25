@@ -110,6 +110,14 @@
       href: operator-specifications/compression/quantization_fc.md
     - name: zfp decompress
       href: operator-specifications/compression/zfp_decompress.md
+    - name: zstd compress
+      href: operator-specifications/compression/zstd_compress.md
+    - name: zstd compress fc
+      href: operator-specifications/compression/zstd_compress_fc.md
+    - name: zstd decompress
+      href: operator-specifications/compression/zstd_decompress.md
+    - name: zstd decompress fc
+      href: operator-specifications/compression/zstd_decompress_fc.md
   - name: filter
     href: operator-specifications/filter/filter_category.md
     items:

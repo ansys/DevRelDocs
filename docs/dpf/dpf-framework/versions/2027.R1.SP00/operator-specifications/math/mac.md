@@ -10,7 +10,19 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Computes MAC Matrix between two fields container, both for real and complex cases. For mixed cases (real-complex and complex) only the real part is considered. Providing inputs with the same component scoping is an user responsability.
+
+Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_thry/thy_post16.html)
+matrix between two sets of mode shapes.
+For each pair of modes $\phi_i$ (from container A) and $\phi_j$ (from container B):
+
+$$MAC_{ij} = \frac{|\phi_i^{\,*T} M \phi_j|^2}{(\phi_i^{\,*T} M \phi_i)(\phi_j^{\,*T} M \phi_j)}$$
+
+where $^{*T}$ denotes the conjugate transpose and $M$ is the optional mass weighting matrix.
+When $M$ is omitted, the standard (unweighted) inner product is used.
+
+For mixed real-complex input (one container real, one complex), only the real parts are used.
+Both containers must share the same number of components; this is not verified by the operator.
+
 
 ## Inputs
 
@@ -22,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [fields_containerA](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 | <strong>1</strong> | [fields_containerB](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [weights](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong> | [weights](#input_2) |  |[`field`](../../core-concepts/dpf-types.md#field) |
 
 
 <a id="input_0"></a>
@@ -31,7 +43,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields Container A.
+Fields container $A$. Must have a time label and contain one field per mode shape.
 
 <a id="input_1"></a>
 ### fields_containerB (Pin 1)
@@ -39,15 +51,15 @@ Fields Container A.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields Container B.
+Fields container $B$. Must have a time label and contain one field per mode shape.
 
 <a id="input_2"></a>
 ### weights (Pin 2)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Field M, optional weighting for MAC Matrix computation.
+Optional mass weighting field $M$. When omitted, the standard unweighted inner product is used.
 
 
 ## Outputs
@@ -66,7 +78,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-MAC Matrix for all the combinations between mode fields of Field Container A and Field Container B. Results listed row by row.
+MAC matrix of size $N_A \times N_B$, where $N_A$ and $N_B$ are the number of mode shapes in containers A and B respectively. Entries are stored row by row: entry at position $(i,j)$ is $MAC_{ij}$.
 
 
 ## Configurations

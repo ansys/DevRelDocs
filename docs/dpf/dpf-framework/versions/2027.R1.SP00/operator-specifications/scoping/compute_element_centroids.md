@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Computes the element centroids of the mesh. It also outputs the element measure.
+Computes the element centroids of the mesh and optionally the element measure.
 
 ## Inputs
 
@@ -21,6 +21,8 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>1</strong> | [element_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>2</strong> | [algorithm](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>3</strong> | [compute_measure](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
 
@@ -31,6 +33,22 @@ Each parameter is detailed in the sections that follow the table.
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
 If provided, only the centroids of the elements in the scoping are computed.
+
+<a id="input_2"></a>
+### algorithm (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+Centroid algorithm: weighted_average = 1 (default), arithmetic_average = 2. Note: arithmetic_average only supports compute_measure = false.
+
+<a id="input_3"></a>
+### compute_measure (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true (default), computes and returns measure on pin 1. If false, only centroids are returned. Note: compute_measure = true is only supported with weighted_average algorithm.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -65,7 +83,7 @@ element centroids.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-element measure (length, surface or volume depending on the dimension of the element).
+element measure (length, surface or volume depending on the dimension of the element), returned only when compute_measure is true.
 
 
 ## Configurations
@@ -118,6 +136,8 @@ Each example shows how to instantiate the operator, connect the required inputs,
 
 ansys::dpf::Operator op("compute_element_centroids"); // operator instantiation
 op.connect(1, my_element_scoping);
+op.connect(2, my_algorithm);
+op.connect(3, my_compute_measure);
 op.connect(7, my_mesh);
 ansys::dpf::Field my_centroids = op.getOutput<ansys::dpf::Field>(0);
 ansys::dpf::Field my_measure = op.getOutput<ansys::dpf::Field>(1);
@@ -132,6 +152,8 @@ import ansys.dpf.core as dpf
 
 op = dpf.operators.scoping.compute_element_centroids() # operator instantiation
 op.inputs.element_scoping.connect(my_element_scoping)
+op.inputs.algorithm.connect(my_algorithm)
+op.inputs.compute_measure.connect(my_compute_measure)
 op.inputs.mesh.connect(my_mesh)
 my_centroids = op.outputs.centroids()
 my_measure = op.outputs.measure()
@@ -147,6 +169,8 @@ import Ans.DataProcessing as dpf
 
 op = dpf.operators.scoping.compute_element_centroids() # operator instantiation
 op.inputs.element_scoping.Connect(my_element_scoping)
+op.inputs.algorithm.Connect(my_algorithm)
+op.inputs.compute_measure.Connect(my_compute_measure)
 op.inputs.mesh.Connect(my_mesh)
 my_centroids = op.outputs.centroids.GetData()
 my_measure = op.outputs.measure.GetData()
