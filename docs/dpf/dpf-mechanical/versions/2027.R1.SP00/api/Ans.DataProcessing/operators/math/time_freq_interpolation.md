@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.math.time_freq_interpolation
 ---
 
-# *class* time_freq_interpolation(fields_container: object = None, time_freq_values: object = None, step: object = None, interpolation_type: object = None, force_new_time_freq_support: object = None, time_freq_support: object = None, config: OperatorConfig = None)
+# *class* time_freq_interpolation(fields_container: object = None, time_freq_values: object = None, step: object = None, interpolation_type: object = None, force_new_time_freq_support: object = None, interpolation_scale: object = None, time_freq_support: object = None, config: OperatorConfig = None)
 
 time_freq_interpolation()
 
-time_freq_interpolation(fields_container: object, time_freq_values: object, step: object, interpolation_type: object, force_new_time_freq_support: object, time_freq_support: object, config: OperatorConfig)
+time_freq_interpolation(fields_container: object, time_freq_values: object, step: object, interpolation_type: object, force_new_time_freq_support: object, interpolation_scale: object, time_freq_support: object, config: OperatorConfig)
 
 time_freq_interpolation(config: OperatorConfig)
 
@@ -21,6 +21,7 @@ time_freq_interpolation(config: OperatorConfig)
 * **step**
 * **interpolation_type**
 * **force_new_time_freq_support**
+* **interpolation_scale**
 * **time_freq_support**
 * **config**
 
@@ -51,6 +52,12 @@ if a Field is set as input, the step ids should be its scoping.
 ### force_new_time_freq_support
 
 If set to true, the output fields container will always have a new time freq support rescoped to the output time_freq_values (default is false). If set to false, the time freq support is only recreated when time or frequency values are between existing ones.
+
+**Type:** *LinkableInput*
+
+### interpolation_scale
+
+Integer indicating the scale in which interpolation is performed: 0 (linear scale - default), 1 (log-log scale).
 
 **Type:** *LinkableInput*
 

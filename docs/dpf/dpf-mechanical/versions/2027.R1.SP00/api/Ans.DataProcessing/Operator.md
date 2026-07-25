@@ -157,6 +157,18 @@ fields_container = my_op.outputs.fields_container.GetData()
 
 * **i** (*optional*)
 
+#### GetOutputAsUInt64Collection(i: int = 0) -> Collection
+
+**Parameters:**
+
+* **i** (*optional*)
+
+#### GetOutputAsUIntCollection(i: int = 0) -> Collection
+
+**Parameters:**
+
+* **i** (*optional*)
+
 #### GetOutputAsWorkflow(i: int = 0) -> Workflow
 
 **Parameters:**

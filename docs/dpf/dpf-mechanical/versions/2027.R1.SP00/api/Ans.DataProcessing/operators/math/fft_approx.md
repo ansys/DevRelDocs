@@ -4,9 +4,21 @@ uid: Ans.DataProcessing.operators.math.fft_approx
 
 # *class* fft_approx(time_scoping: object = None, mesh_scoping: object = None, entity_to_fit: object = None, component_number: object = None, first_derivative: object = None, second_derivative: object = None, fit_data: object = None, cutoff_fr: object = None, config: OperatorConfig = None)
 
-Computes the fitting curve using FFT filtering and cubic fitting in space (node i: x=time, y=data), with the possibility to compute the first and the second derivatives of the curve.
+Computes a frequency-filtered smooth curve fitting using the
 
-available inputs: `time_scoping` (IList int, Scoping, System.Collections.IEnumerable) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional), `entity_to_fit` (FieldsContainer), `component_number` (Int32), `first_derivative` (bool), `second_derivative` (bool), `fit_data` (bool), `cutoff_fr` (double, Int32) (optional)
+[Fast Fourier Transform](https://en.wikipedia.org/wiki/Fast_Fourier_transform)
+
+and cubic spline interpolation, operating along the time axis for each spatial entity.
+
+For each entity (node i), the time-series $y(t)$ is fitted; the FFT filter removes
+
+frequency components above the cutoff frequency (pin 7), and the cubic spline reconstructs
+
+the filtered signal at the original time steps.
+
+First and second time derivatives of the fitted curve are available at output pins 1 and 2.
+
+available inputs: `time_scoping` (IList int, Scoping, System.Collections.IEnumerable) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional), `entity_to_fit` (FieldsContainer), `component_number` (Int32), `first_derivative` (bool) (optional), `second_derivative` (bool) (optional), `fit_data` (bool) (optional), `cutoff_fr` (double, Int32) (optional)
 
 available outputs: `fitted_entity_y` (FieldsContainer), `first_der_dy` (FieldsContainer), `second_der_d2y` (FieldsContainer)
 
@@ -36,49 +48,49 @@ op = fft_approx(time_scoping=my_time_scoping,mesh_scoping=my_mesh_scoping,entity
 
 ### time_scoping
 
-A time scoping to rescope / split the fields container given as input.
+Time scoping to select which time steps are used as input. When omitted, all time steps in the fields container are used.
 
 **Type:** *LinkableInput*
 
 ### mesh_scoping
 
-A space (mesh entities) scoping (or scopings container) to rescope / split the fields container given as input.
+Spatial scoping to restrict which entities are processed. When omitted, all entities in the fields container are processed.
 
 **Type:** *LinkableInput*
 
 ### entity_to_fit
 
-Data changing in time to be fitted.
+Time-varying fields container to fit. Nodal and elemental locations are supported (elemental-nodal inputs are averaged to elemental).
 
 **Type:** *LinkableInput*
 
 ### component_number
 
-Component number as an integer, for example '0' for X-displacement, '1' for Y-displacement, and so on.
+Zero-based index of the component to fit. For example, $0$ for the X-component, $1$ for Y, and so on. Required when the input has more than one component.
 
 **Type:** *LinkableInput*
 
 ### first_derivative
 
-Calculate the first derivative (bool). The default is false.
+When true, computes the first time derivative of the fitted curve at output pin 1. Default is false.
 
 **Type:** *LinkableInput*
 
 ### second_derivative
 
-Calculate the second derivative (bool). The default is false.
+When true, computes the second time derivative of the fitted curve at output pin 2. Default is false.
 
 **Type:** *LinkableInput*
 
 ### fit_data
 
-Calculate the fitted values (bool). The default is false
+When true, computes the fitted values at output pin 0. Default is false.
 
 **Type:** *LinkableInput*
 
 ### cutoff_fr
 
-Cutoff frequency.
+Cutoff frequency for the FFT filter. Harmonics above this frequency are removed before spline fitting. Default is $10$.
 
 **Type:** *LinkableInput*
 
@@ -86,19 +98,19 @@ Cutoff frequency.
 
 ### fitted_entity_y
 
-The fitted entity is fitted using FFT along the space scoping (node i: x=time, y=data). Fitted Y is expected to be close to the input data.
+Fitted time-series fields container. Only produced when pin 6 is true. Same spatial and time layout as the input.
 
 **Type:** *LinkableOutput*
 
 ### first_der_dy
 
-The first derivative (dY) from the fitted Y.
+First time derivative $\mathrm{d}y/\mathrm{d}t$ of the fitted curve. Only produced when pin 4 is true. Same layout as pin 0.
 
 **Type:** *LinkableOutput*
 
 ### second_der_d2y
 
-The second derivative (d2Y) from the fitted Y.
+Second time derivative $\mathrm{d}^2y/\mathrm{d}t^2$ of the fitted curve. Only produced when pin 5 is true. Same layout as pin 0.
 
 **Type:** *LinkableOutput*
 

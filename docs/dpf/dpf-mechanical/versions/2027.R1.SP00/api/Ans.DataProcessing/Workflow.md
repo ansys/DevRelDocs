@@ -191,6 +191,24 @@ to compute progress while a workflow is running.
 
 * **outputPinName**
 
+#### GetOutputAsUInt64Collection(outputPinName: str) -> Collection
+
+**Parameters:**
+
+* **outputPinName**
+
+#### GetOutputAsUIntCollection(outputPinName: str) -> Collection
+
+**Parameters:**
+
+* **outputPinName**
+
+#### GetOutputAsULong(outputPinName: str) -> UInt64
+
+**Parameters:**
+
+* **outputPinName**
+
 #### GetRecordedId() -> int
 
 #### HasTag(tag: WorkFlowTags) -> bool

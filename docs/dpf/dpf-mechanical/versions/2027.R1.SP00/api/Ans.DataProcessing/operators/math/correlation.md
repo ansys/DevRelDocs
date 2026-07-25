@@ -26,19 +26,19 @@ correlation(config: OperatorConfig)
 
 ### fieldA
 
-Field a. The reference field.
+Reference field $a$.
 
 **Type:** *LinkableInput*
 
 ### fieldB
 
-Field b. If a fields container is provided, correlation is computed for each field.
+Field $b$, or a fields container. When a fields container is provided, the correlation is computed independently for each field against the reference field $a$.
 
 **Type:** *LinkableInput*
 
 ### weights
 
-Field M, optional weighting for correlation computation.
+Optional weighting field $M$. When omitted, the standard unweighted $L^2$ inner product is used.
 
 **Type:** *LinkableInput*
 
@@ -50,7 +50,7 @@ Deprecated alias of: weights
 
 ### absoluteValue
 
-If true, correlation factor is ||aMb||/(||aMa||.||bMb||)
+When true, returns $|\rho|$ instead of $\rho$.
 
 **Type:** *LinkableInput*
 
@@ -58,13 +58,13 @@ If true, correlation factor is ||aMb||/(||aMa||.||bMb||)
 
 ### field
 
-Correlation factor for each input field b.
+Correlation coefficient for each input field $b$. The output field contains one entity per input field, labelled from $1$ to $N$.
 
 **Type:** *LinkableOutput*
 
 ### index
 
-If several b are provided, this output contains the index of the highest correlation factor.
+Zero-based index of the field in the input fields container that produced the highest correlation coefficient. Only meaningful when pin 1 receives a fields container.
 
 **Type:** *LinkableOutput*
 

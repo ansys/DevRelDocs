@@ -4,7 +4,17 @@ uid: Ans.DataProcessing.operators.math.time_derivation
 
 # *class* time_derivation(field: object = None, spline_fitting: object = None, config: OperatorConfig = None)
 
-Derives a field of time varying quantities with respect to time
+Computes the time [derivative](https://en.wikipedia.org/wiki/Derivative) of a scalar
+
+time-varying field.
+
+The input field must have a time-frequency support that provides the time values.
+
+When `spline_fitting` (pin 1) is true, the derivative is computed from a
+
+[cubic spline](https://en.wikipedia.org/wiki/Cubic_spline) fit through the input data,
+
+producing smooth derivatives. When false (default), finite differences are used.
 
 available inputs: `field` (Field), `spline_fitting` (bool) (optional)
 
@@ -30,19 +40,21 @@ op = time_derivation(field=my_field,spline_fitting=my_spline_fitting)
 
 ### field
 
-field
+Scalar time-varying field to differentiate. Must have a time-frequency support.
 
 **Type:** *LinkableInput*
 
 ### spline_fitting
 
-Uses spline fitting on the input field to compute smooth derivatives
+When true, fits a cubic spline to the input data and computes the derivative analytically from the spline. When false (default), uses finite differences.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### field
+
+Time derivative field. Has the same time support and scoping as the input. Unit is (input unit / second).
 
 **Type:** *LinkableOutput*
 

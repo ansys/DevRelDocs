@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.result.write_motion_dfmf_file
 ---
 
-# *class* write_motion_dfmf_file(model_data: object = None, mode_shapes: object = None, lumped_mass: object = None, field_coordinates: object = None, nod: object = None, used_node_index: object = None, eigenvalue: object = None, translational_mode_shape: object = None, rotational_mode_shape: object = None, invrt_1: object = None, invrt_2: object = None, invrt_3: object = None, invrt_4: object = None, invrt_5: object = None, invrt_6: object = None, invrt_7: object = None, invrt_8: object = None, dfmffile_path: object = None, rstfile_path: object = None, config: OperatorConfig = None)
+# *class* write_motion_dfmf_file(model_data: object = None, mode_shapes: object = None, lumped_mass: object = None, field_coordinates: object = None, nod: object = None, used_node_index: object = None, eigenvalue: object = None, translational_mode_shape: object = None, rotational_mode_shape: object = None, invrt_1: object = None, invrt_2: object = None, invrt_3: object = None, invrt_4: object = None, invrt_5: object = None, invrt_6: object = None, invrt_7: object = None, invrt_8: object = None, dfmffile_path: object = None, rstfile_path: object = None, output_node_type: object = None, wireframe_threshold_scale: object = None, edge_decimation_angular_limit_in_radian: object = None, config: OperatorConfig = None)
 
 write_motion_dfmf_file()
 
-write_motion_dfmf_file(model_data: object, mode_shapes: object, lumped_mass: object, field_coordinates: object, nod: object, used_node_index: object, eigenvalue: object, translational_mode_shape: object, rotational_mode_shape: object, invrt_1: object, invrt_2: object, invrt_3: object, invrt_4: object, invrt_5: object, invrt_6: object, invrt_7: object, invrt_8: object, dfmffile_path: object, rstfile_path: object, config: OperatorConfig)
+write_motion_dfmf_file(model_data: object, mode_shapes: object, lumped_mass: object, field_coordinates: object, nod: object, used_node_index: object, eigenvalue: object, translational_mode_shape: object, rotational_mode_shape: object, invrt_1: object, invrt_2: object, invrt_3: object, invrt_4: object, invrt_5: object, invrt_6: object, invrt_7: object, invrt_8: object, dfmffile_path: object, rstfile_path: object, output_node_type: object, wireframe_threshold_scale: object, edge_decimation_angular_limit_in_radian: object, config: OperatorConfig)
 
 write_motion_dfmf_file(config: OperatorConfig)
 
@@ -35,6 +35,9 @@ write_motion_dfmf_file(config: OperatorConfig)
 * **invrt_8**
 * **dfmffile_path**
 * **rstfile_path**
+* **output_node_type**
+* **wireframe_threshold_scale**
+* **edge_decimation_angular_limit_in_radian**
 * **config**
 
 ## Inputs
@@ -122,6 +125,24 @@ path with motion dfmf extension where the export occurs
 **Type:** *LinkableInput*
 
 ### rstfile_path
+
+**Type:** *LinkableInput*
+
+### output_node_type
+
+defines the output node type (0: all nodes, 1: use wireframe, 2: used wireframe + edge decimation, default: 0)
+
+**Type:** *LinkableInput*
+
+### wireframe_threshold_scale
+
+defines the threshold scale for wireframe (default: 2.0)
+
+**Type:** *LinkableInput*
+
+### edge_decimation_angular_limit_in_radian
+
+defines the angular limit in radian for edge decimation (default: 1.0)
 
 **Type:** *LinkableInput*
 
