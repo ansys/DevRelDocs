@@ -1,0 +1,29 @@
+name: Validate prod promotion request
+
+on:
+  pull_request:
+    types:
+      - labeled
+    branches:
+      - sandbox
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  validate:
+    name: Validate ready-for-prod label
+    if: github.event.label.name == 'ready-for-prod'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate promotion request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: bash .github/scripts/validate_promotion_request.sh "${{ github.event.pull_request.number }}"
