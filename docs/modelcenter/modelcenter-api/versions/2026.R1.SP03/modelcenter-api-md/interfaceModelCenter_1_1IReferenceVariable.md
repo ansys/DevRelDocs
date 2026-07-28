@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IReferenceVariable"></a>
 # Interface ModelCenter::IReferenceVariable
 
 ![][IDL]
@@ -71,12 +70,6 @@ boolean ModelCenter::IReferenceVariable::hasChanged
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::hasChanged"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a598cb6023fcbcb265cc44618529c3040"></a>
 ### Property hide
 
@@ -97,12 +90,6 @@ boolean ModelCenter::IReferenceVariable::hide
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::hide"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a853702bf341480c261b01988dfd15513"></a>
 ### Property OwningComponent
@@ -125,12 +112,6 @@ LPDISPATCH ModelCenter::IReferenceVariable::OwningComponent
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::OwningComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a2e307144f16d81645b5ce2cc30b01ae3"></a>
 ### Property value
 
@@ -151,12 +132,6 @@ Value of the variable.
 
 
 **Return type**: double
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::value"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1abfacc6a5417c7fab810ac6e34a885657"></a>
 ### Property reference
@@ -179,12 +154,6 @@ Reference of the variable.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::reference"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a21758071b908ac4fe720dffdafe75592"></a>
 ### Property referencedVariables
 
@@ -206,12 +175,6 @@ Gets the referenced variables.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::referencedVariables"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a3ae2ecb1742ecac66cec298a6d2cd011"></a>
 ### Property referencedVariable
 
@@ -232,12 +195,6 @@ Gets the referenced variable. Convenience method for if there is only one refere
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::referencedVariable"}]}`
--->
 
 ## Public functions
 
@@ -271,12 +228,6 @@ True if variable is valid. False if the variable is not valid.
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a602d42ee0595c1c0408a536c31c61adb)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a16aec4b64f98c5dfb3f66c497691e447"></a>
 ### Function validate
 
@@ -297,12 +248,6 @@ Validates the variable by running the component if needed.
 **Return type**: void
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6748764fba94242fbe35ae2f4d49c9ef)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::validate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1aa01b77111d4a975cc12ca3e0a16d845b"></a>
 ### Function getName
@@ -334,12 +279,6 @@ The name of the variable.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ae1ad6db87e29a4b265ec310295fb3843)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a3e427b90dbf2f763c2486cdd774c2d49"></a>
 ### Function getFullName
 
@@ -370,12 +309,6 @@ The full ModelCenter path of the variable.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a05a46370dd23d612bf0f09f146ba32a0)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::getFullName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ab946d679180e3e65433c8b4b2d61d39e"></a>
 ### Function getType
 
@@ -405,12 +338,6 @@ The type of the variable as a string.
 **Return type**: BSTR
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ab7fadd397a7779f29005048383a9f187)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::getType"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1aa61fe715fadff86e98c35d4bf6aa16e0"></a>
 ### Function isInput
@@ -443,12 +370,6 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a875481ba3799c222c5085c6c3ca802a7)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::isInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a6675d6a6451c20b11b43ad594af28bcc"></a>
 ### Function toString
 
@@ -478,12 +399,6 @@ The value of the variable as a string.
 **Return type**: BSTR
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6421656e090846e8d7c079b8511fa9d2)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::toString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1aa52a8fe2a76861302ee8ab0f8f3a614c"></a>
 ### Function fromString
@@ -519,12 +434,6 @@ Sets the value of the variable from the specified string.
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a3f6325a128422d445705553f11563904)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::fromString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a510fd4577f2a29cf0fef6d1c8fe43c94"></a>
 ### Function toStringAbsolute
 
@@ -555,12 +464,6 @@ The value of the variable as a string.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a5e66075d2bff0f7de435056cdc6c011e)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::toStringAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a3a460ef81527173ce0c272d2bdf69da6"></a>
 ### Function invalidate
 
@@ -581,12 +484,6 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 **Return type**: void
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1addc5f809058b5573390f62d34b5f5498)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::invalidate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a0e11aede2642dd050f0c5254a36b4a71"></a>
 ### Function directPrecedents
@@ -629,12 +526,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a655ce10f3a6e2839f11161e8bf13b0c2)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::directPrecedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a24fa52bf29a92c4f1d6a79e2991e9ae5"></a>
 ### Function directDependents
 
@@ -676,12 +567,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a64c800317037f03a43c8522061885835)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::directDependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ac4f846dce2494b7c4a9b8482af321c96"></a>
 ### Function precedentLinks
 
@@ -721,12 +606,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a9d52333bc9a07146e23124f0fe95db6f)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::precedentLinks"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a4c704741da375408b052eeddc6ed90dc"></a>
 ### Function dependentLinks
 
@@ -765,12 +644,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 **Return type**: LPDISPATCH
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a1e52cc38574fbdf83e9dba836dfc5959)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::dependentLinks"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ae2d07bb6bf73c064a1a492bb6ff2806a"></a>
 ### Function precedents
@@ -813,12 +686,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ad1f5d5ba3e96e9c2fab7a4b0d6c4df36)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::precedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1aceffce4238d22a19c211658f675491ee"></a>
 ### Function dependents
 
@@ -860,12 +727,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6f42f3176eb8fa2fbf9ca1b9a01fc7ce)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::dependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ac551ae6997c725cbb3ef71bd6217f89a"></a>
 ### Function isInputToComponent
 
@@ -897,12 +758,6 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a81ddff978026124a52063b1fad430b27)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::isInputToComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ad8a6169868d4d186b658946403eae2ab"></a>
 ### Function isInputToModel
 
@@ -933,12 +788,6 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 **Return type**: boolean
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a0bd883d3757e361b75e0f81627e6ce98)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::isInputToModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1afee8a9cb2ea3d6728cacba4aeaa9ff7a"></a>
 ### Function setMetadata
@@ -982,12 +831,6 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1af7cbf8f2c8d128c760fb09254819bf64)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a122afef9ff20a0de02d08ab41eb4e5bb"></a>
 ### Function getMetadata
 
@@ -1026,12 +869,6 @@ Metadata value.
 **Return type**: VARIANT
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a610297790a8c506c339586740f1d3022)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::getMetadata"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1a0063ff442e879a9ca2986bc63eb9adc7"></a>
 ### Function createRefProp
@@ -1073,12 +910,6 @@ IDispatch* to an [IRefProp](interfaceModelCenter_1_1IRefProp.md#interfaceModelCe
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::createRefProp"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ad90bbc18df836afc454157bd06523d75"></a>
 ### Function getRefPropValue
 
@@ -1116,12 +947,6 @@ The value as a variant.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::getRefPropValue"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IReferenceVariable_1af41e2e8abdbc5959543416e21bc73793"></a>
 ### Function setRefPropValue
 
@@ -1155,12 +980,6 @@ Sets the value of a specified reference property for the variable.
 * BSTR **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::setRefPropValue"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IReferenceVariable_1ae45fa34070d38d9de3593d815e86b1fc"></a>
 ### Function getRefPropValueAbsolute
@@ -1198,12 +1017,6 @@ The value as a variant.
 * BSTR **name**
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IReferenceVariable::getRefPropValueAbsolute"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

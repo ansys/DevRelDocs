@@ -1,4 +1,3 @@
-<a id="namespacePHXDATAEXPLORERLib"></a>
 # Namespace PHXDATAEXPLORERLib
 
 ![][IDL]
@@ -11,8 +10,8 @@ Data Explorer API
 
 ## Classes
 
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
 * [PHXDATAEXPLORERLib::IDataExplorerFacadeOwner](interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner.md#interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner)
 * [PHXDATAEXPLORERLib::ILegacyVisiblity](interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity.md#interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity)
 * [PHXDATAEXPLORERLib::IPageVisibility](interfacePHXDATAEXPLORERLib_1_1IPageVisibility.md#interfacePHXDATAEXPLORERLib_1_1IPageVisibility)
@@ -46,12 +45,6 @@ PHXDATAEXPLORERLib::importlib(STDOLE_TLB)
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::importlib"}]}`
--->
-
 <a id="namespacePHXDATAEXPLORERLib_1adfc3e518adcb9b631d6b3cd9f7dd728b"></a>
 ### Function importlib
 
@@ -74,12 +67,6 @@ PHXDATAEXPLORERLib::importlib(STDTYPE_TLB)
 * STDTYPE_TLB
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::importlib"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

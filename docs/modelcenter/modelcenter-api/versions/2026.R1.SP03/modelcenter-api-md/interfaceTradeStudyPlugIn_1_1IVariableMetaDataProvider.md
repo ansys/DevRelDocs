@@ -1,10 +1,9 @@
-<a id="interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider"></a>
 # Interface TradeStudyPlugIn::IVariableMetaDataProvider
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 311)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 311)
 
 
 
@@ -48,12 +47,6 @@ the metadata object (IDHVariable, from DataHistory plugin)
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::IVariableMetaDataProvider::getVariableMetaData"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider_1aa2d00c56cf6df0f49ed49a864e281f45"></a>
 ### Function SAFEARRAY
 
@@ -84,12 +77,6 @@ the list of variables (as IDHVariable objects, from DataHistory plugin)
 * IDispatch *
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::IVariableMetaDataProvider::SAFEARRAY"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

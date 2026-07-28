@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ILoginCallback"></a>
 # Interface ModelCenter::ILoginCallback
 
 ![][IDL]
@@ -62,12 +61,6 @@ true if username/password is submitted, false otherwise
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILoginCallback::requestAuthCredentials"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILoginCallback_1a4b7dc5df7be75023f025f8d83fff7579"></a>
 ### Function loginSucceeded
 
@@ -100,12 +93,6 @@ Called when [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) succeeds
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILoginCallback::loginSucceeded"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILoginCallback_1a9c27b392b3c109f6abe689251e1e27c7"></a>
 ### Function verifySslWarning
 
@@ -136,12 +123,6 @@ true if [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) should proce
 * BSTR **msg**
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILoginCallback::verifySslWarning"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IShowHelpEvents"></a>
 # Interface ModelCenter::IShowHelpEvents
 
 ![][IDL]
@@ -41,12 +40,6 @@ Function that is called when help is requested.
 * long **context**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IShowHelpEvents::ShowHelp"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

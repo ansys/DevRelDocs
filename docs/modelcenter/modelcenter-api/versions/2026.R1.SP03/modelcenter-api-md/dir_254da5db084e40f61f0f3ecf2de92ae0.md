@@ -1,7 +1,6 @@
-<a id="dir_254da5db084e40f61f0f3ecf2de92ae0"></a>
-# Directory ModelCenter/src/InterfaceDLL\_PlugInMetaData
+# Directory ModelCenter/src/InterfaceDLL_PlugInMetaData
 
-**Location**: `ModelCenter/src/InterfaceDLL\_PlugInMetaData/`
+**Location**: `ModelCenter/src/InterfaceDLL_PlugInMetaData/`
 
 
 

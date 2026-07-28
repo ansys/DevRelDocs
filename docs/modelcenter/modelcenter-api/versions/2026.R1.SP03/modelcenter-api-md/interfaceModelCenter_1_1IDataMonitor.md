@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IDataMonitor"></a>
 # Interface ModelCenter::IDataMonitor
 
 ![][IDL]
@@ -78,12 +77,6 @@ The name of the row.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1afbfd0ce277fb01a5539d791b371ab0de"></a>
 ### Function setName
 
@@ -117,12 +110,6 @@ Sets the display name of the specified row in the Data Monitor.
 * BSTR **name**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setName"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1add033400b2b1694d63f67126639c198f"></a>
 ### Function isRenamed
@@ -161,12 +148,6 @@ Determines whether the name of a row in the Data Monitor lines up to the ModelCe
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::isRenamed"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a9861b3ad530a4efbe4925c89550e8cc5"></a>
 ### Function getLink
 
@@ -203,12 +184,6 @@ Retrieves the ModelCenter variable associated with a given row in the Data Monit
 * long **row**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getLink"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1a89561753d60d803cc6427c6af5005484"></a>
 ### Function setLink
@@ -249,12 +224,6 @@ Sets the ModelCenter variable associated with a given row in the Data Monitor.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setLink"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a4b0569ecb495f20688d98060df763895"></a>
 ### Function addItem
 
@@ -294,12 +263,6 @@ Add an item to the Data Monitor that links to a variable in the model.
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::addItem"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a8b2b470a890a2177bc1028408c7275e6"></a>
 ### Function addUnlinkedItem
 
@@ -337,12 +300,6 @@ Add an item to the Data Monitor that does not link to a variable within ModelCen
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::addUnlinkedItem"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a6137208858071bb7fa35bebadcbaea47"></a>
 ### Function removeItem
 
@@ -374,12 +331,6 @@ Removes the selected row from the Data Monitor.
 * long **row**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::removeItem"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1ad8044ca189f473cbbf095756dd2668f9"></a>
 ### Function removeLink
@@ -413,12 +364,6 @@ Removes the associated link from the row specified in the Data Monitor.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::removeLink"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a0cd9a14f007afaa719e20b54439ea98d"></a>
 ### Function getDisplayFullNames
 
@@ -447,12 +392,6 @@ Get the status of the "Display Full Names" option.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getDisplayFullNames"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a8be2f10ef4448bc73d4dc7c57f3350ca"></a>
 ### Function setDisplayFullNames
 
@@ -475,12 +414,6 @@ Sets the "Display Full Names" option.
 * boolean
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setDisplayFullNames"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1a163f13ac67226dfe0d816950061cc386"></a>
 ### Function getAutoDelete
@@ -510,12 +443,6 @@ Gets the status of the Auto Delete option.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getAutoDelete"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a19e11dabaf88dae88622b82e9e53954a"></a>
 ### Function setAutoDelete
 
@@ -538,12 +465,6 @@ Sets the status of the Auto Delete option.
 * boolean
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setAutoDelete"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1ac11b644fdbd9f5e184a120a3bb6c7eb0"></a>
 ### Function getDisplayUnits
@@ -573,12 +494,6 @@ Get the status of the "Display Units" option.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getDisplayUnits"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1aeac431029c07dddd0397914f6fb4d9d1"></a>
 ### Function setDisplayUnits
 
@@ -601,12 +516,6 @@ Sets the "Display Units" option.
 * boolean
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setDisplayUnits"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1aa7c5595c9eabf857b3adc02d30dcbb8e"></a>
 ### Function getColWidth
@@ -645,12 +554,6 @@ The column width.
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getColWidth"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1ade404d7ea696919bbc331c9027315c0e"></a>
 ### Function setColWidth
 
@@ -685,12 +588,6 @@ Sets the width of the specified column.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setColWidth"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1abc151c7ba70d7f1e6249942a627e2171"></a>
 ### Function isValid
 
@@ -719,12 +616,6 @@ Yes (TRUE) or no (FALSE).
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1ae6aab41ece2d9cf2ac4285aa10cf156e"></a>
 ### Function getTitle
 
@@ -752,12 +643,6 @@ The title of the Data Monitor.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getTitle"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1a74456073f4bc7e13d954972991583b58"></a>
 ### Function setTitle
@@ -791,12 +676,6 @@ Sets the title of the Data Monitor.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setTitle"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1adb51a1067e48f2e1ab9b79874a2d8a66"></a>
 ### Function getWidth
 
@@ -825,12 +704,6 @@ The width of the Data Monitor.
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getWidth"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a906ba9f57a9a472e1a70c151a50b1155"></a>
 ### Function getHeight
 
@@ -858,12 +731,6 @@ The height of the Data Monitor.
 
 
 **Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getHeight"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1ad76100b2b7c20def871a1ffdc745e5da"></a>
 ### Function setSize
@@ -899,12 +766,6 @@ Sets the height and width of the Data Monitor.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setSize"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a610ec59f3295fe819e3a1aadd043927b"></a>
 ### Function getX
 
@@ -933,12 +794,6 @@ The value of the X position of the Data Monitor.
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getX"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataMonitor_1a15d2803f54702b2198a2f0dc3f36d80d"></a>
 ### Function getY
 
@@ -966,12 +821,6 @@ The value of the Y position of the Data Monitor.
 
 
 **Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::getY"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataMonitor_1abb2aeef39615e67a90e950314ea02744"></a>
 ### Function setLocation
@@ -1006,12 +855,6 @@ Sets the x and y location of the Data Monitor in the Analysis View.
 * int **y**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataMonitor::setLocation"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
