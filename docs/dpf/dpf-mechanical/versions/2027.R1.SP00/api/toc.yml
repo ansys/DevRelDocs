@@ -1222,8 +1222,6 @@
       href: Ans.DataProcessing/operators/result/mapdl_material_properties.md
     - name: mapdl_section
       href: Ans.DataProcessing/operators/result/mapdl_section.md
-    - name: mapdl_split_on_facet_indices
-      href: Ans.DataProcessing/operators/result/mapdl_split_on_facet_indices.md
     - name: mapdl_split_to_acmo_facet_indices
       href: Ans.DataProcessing/operators/result/mapdl_split_to_acmo_facet_indices.md
     - name: mass_flow_rate
@@ -1844,6 +1842,8 @@
       href: Ans.DataProcessing/operators/utility/strain_from_voigt.md
     - name: strain_from_voigt_fc
       href: Ans.DataProcessing/operators/utility/strain_from_voigt_fc.md
+    - name: transpose_fields_container
+      href: Ans.DataProcessing/operators/utility/transpose_fields_container.md
     - name: txt_file_to_dpf
       href: Ans.DataProcessing/operators/utility/txt_file_to_dpf.md
     - name: unitary_field
