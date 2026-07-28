@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAHISTORYLib_1_1ISaveContext"></a>
 # Interface PHXDATAHISTORYLib::ISaveContext
 
 ![][IDL]
@@ -27,9 +28,11 @@ Object for assisting in save and restoring files.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::ISaveContext::saveFile(BSTR sourceLocation, BSTR context)
 ```
+
 
 
 
@@ -53,14 +56,22 @@ true if the file was saved successfully; false otherwise
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::saveFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a90cd640253dfeb285c7c66803e61f6ac"></a>
 ### Function restoreFile
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::ISaveContext::restoreFile(BSTR fileID, BSTR targetLocation)
 ```
+
 
 
 
@@ -84,14 +95,22 @@ true if a file with the given id was restored, false on failure
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::restoreFile"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a314e254f112778f1bb9839e157fcc532"></a>
 ### Function close
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::ISaveContext::close()
 ```
+
 
 
 
@@ -101,14 +120,22 @@ Closes the save context.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::close"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a02bf3019e5a957a4db2daff6dda6ca28"></a>
 ### Function getSaveLocation
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::ISaveContext::getSaveLocation()
 ```
+
 
 
 
@@ -121,14 +148,22 @@ the save context file path
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::getSaveLocation"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a840d41a9c874a046867c9d25c8a0d628"></a>
 ### Function saveFileStream
 
 ![][public]
 
+
 ```
 LPUNKNOWN PHXDATAHISTORYLib::ISaveContext::saveFileStream(BSTR context)
 ```
+
 
 
 
@@ -150,14 +185,22 @@ output stream for saving
 
 **Return type**: LPUNKNOWN
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::saveFileStream"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1ad11ce33d8317c86c335597d0e8389578"></a>
 ### Function restoreFileStream
 
 ![][public]
 
+
 ```
 LPUNKNOWN PHXDATAHISTORYLib::ISaveContext::restoreFileStream(BSTR fileID)
 ```
+
 
 
 
@@ -179,14 +222,22 @@ input stream for restoring
 
 **Return type**: LPUNKNOWN
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::restoreFileStream"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1ab69f2a1eba739bfa1e95a1b5ba2cc8c8"></a>
 ### Function getFileFormat
 
 ![][public]
 
+
 ```
 int PHXDATAHISTORYLib::ISaveContext::getFileFormat()
 ```
+
 
 
 
@@ -199,14 +250,22 @@ save context file format
 
 **Return type**: int
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::getFileFormat"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1ad30b0ac3ddc36ac47b0f03662d3d4d0a"></a>
 ### Function setFileFormat
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::ISaveContext::setFileFormat(int fileFormat)
 ```
+
 
 
 
@@ -223,6 +282,12 @@ Set the file format of the save context.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::setFileFormat"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

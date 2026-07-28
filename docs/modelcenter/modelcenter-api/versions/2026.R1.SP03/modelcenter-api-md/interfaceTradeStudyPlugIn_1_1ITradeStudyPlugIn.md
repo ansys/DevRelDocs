@@ -1,3 +1,4 @@
+<a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn"></a>
 # Interface TradeStudyPlugIn::ITradeStudyPlugIn
 
 ![][IDL]
@@ -28,9 +29,11 @@
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn::construct(IDispatch *modelCenter, IDispatch *addToModel, [defaultvalue(NULL)]IDispatch *dataCollector)
 ```
+
 
 
 
@@ -50,14 +53,22 @@ void TradeStudyPlugIn::ITradeStudyPlugIn::construct(IDispatch *modelCenter, IDis
 
 * [construct](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2_1ad233e5489d31c81b6b1fe09d9a3a886e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn::construct"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn_1a7238385b054e9afddbe65c65644826e4"></a>
 ### Function show
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudyPlugIn::show()
 ```
+
 
 
 
@@ -71,14 +82,22 @@ boolean TradeStudyPlugIn::ITradeStudyPlugIn::show()
 
 * [show](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2_1a81aebef74679c6364f184219c22da93a)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn::show"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn_1a58cdb46e4e8dca27761d7bd976c8fcf2"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudyPlugIn::toString()
 ```
+
 
 
 
@@ -92,14 +111,22 @@ BSTR TradeStudyPlugIn::ITradeStudyPlugIn::toString()
 
 * [toString](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2_1aaff0d58b0b3d2d90566fae1277ea4a45)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn::toString"}]}`
+-->
+
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn_1a8c4352f776b3919a9a56aa61ff78c5d0"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn::fromString(BSTR setupString)
 ```
+
 
 
 
@@ -117,6 +144,12 @@ void TradeStudyPlugIn::ITradeStudyPlugIn::fromString(BSTR setupString)
 
 * [fromString](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2_1a3dd50d2ce70b8e0534dd9be60e9bec5c)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn::fromString"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

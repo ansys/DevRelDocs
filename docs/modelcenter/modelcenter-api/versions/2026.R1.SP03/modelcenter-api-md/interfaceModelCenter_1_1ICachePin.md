@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1ICachePin"></a>
 # Interface ModelCenter::ICachePin
 
 ![][IDL]
@@ -26,9 +27,11 @@ A set of methods for cache pin functions. A cache pin is a "smart" pointer that 
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::ICachePin::Url
 ```
+
 
 
 
@@ -47,6 +50,12 @@ The original URI of the resource, or an invalid URI if nothing pinned.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICachePin::Url"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1ICachePin_1abfc95b5a36c4544b8f58aaffc0d74751"></a>
 ### Property LocalPath
 
@@ -54,9 +63,11 @@ The original URI of the resource, or an invalid URI if nothing pinned.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::ICachePin::LocalPath
 ```
+
 
 
 
@@ -75,6 +86,12 @@ The local path of the file in the cache, or empty if nothing pinned.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICachePin::LocalPath"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1ICachePin_1a6dd8e8226f7d5b089ef7e4ae49ca8b87"></a>
 ### Property IsValid
 
@@ -82,9 +99,11 @@ The local path of the file in the cache, or empty if nothing pinned.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::ICachePin::IsValid
 ```
+
 
 
 
@@ -103,6 +122,12 @@ Is this object pinning a file?
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICachePin::IsValid"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1ICachePin_1a4349fd2038cad3cc22e04eba3d9effe5"></a>
@@ -110,9 +135,11 @@ Is this object pinning a file?
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ICachePin::releasePin()
 ```
+
 
 
 
@@ -131,14 +158,22 @@ Unpin the current file if a file is pinned. Does not guarantee that the file wil
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICachePin::releasePin"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1ICachePin_1af839cced75ed11439b0027a55c6ab604"></a>
 ### Function checkinOnFlush
 
 ![][public]
 
+
 ```
 void ModelCenter::ICachePin::checkinOnFlush(BSTR message)
 ```
+
 
 
 
@@ -161,6 +196,12 @@ Checkin with the specified message when the file is unpinned. It must be open fo
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICachePin::checkinOnFlush"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

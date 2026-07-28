@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IFileVariable"></a>
 # Interface ModelCenter::IFileVariable
 
 ![][IDL]
@@ -60,6 +61,7 @@ COM Instance
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::hasChanged
 ```
@@ -70,7 +72,14 @@ boolean ModelCenter::IFileVariable::hasChanged
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::hasChanged"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IFileVariable_1a6c602247c4c00069af837d7dcbfb3862"></a>
 ### Property hide
@@ -78,6 +87,7 @@ boolean ModelCenter::IFileVariable::hasChanged
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 boolean ModelCenter::IFileVariable::hide
@@ -89,7 +99,14 @@ boolean ModelCenter::IFileVariable::hide
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::hide"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IFileVariable_1a75e79199eccdfb4f00ce0d27f2f1c593"></a>
 ### Property OwningComponent
@@ -97,6 +114,7 @@ boolean ModelCenter::IFileVariable::hide
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 LPDISPATCH ModelCenter::IFileVariable::OwningComponent
@@ -108,7 +126,14 @@ LPDISPATCH ModelCenter::IFileVariable::OwningComponent
 
 
 
+
 **Return type**: LPDISPATCH
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::OwningComponent"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IFileVariable_1a44a74adf54ce33e5e11d52ff561b37ad"></a>
 ### Property value
@@ -117,9 +142,11 @@ LPDISPATCH ModelCenter::IFileVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileVariable::value
 ```
+
 
 
 
@@ -129,6 +156,12 @@ Value of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::value"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a2d900fe8d944b0dceaea355cf64ba5a8"></a>
 ### Property isBinary
 
@@ -136,9 +169,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::isBinary
 ```
+
 
 
 
@@ -148,6 +183,12 @@ Whether or not the file is binary.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::isBinary"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ad161b90c198e19be1132a9e5592e9416"></a>
 ### Property fileExtension
 
@@ -155,9 +196,11 @@ Whether or not the file is binary.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileVariable::fileExtension
 ```
+
 
 
 
@@ -167,6 +210,12 @@ File extension of the variable. Used when opening the file in [ModelCenter](name
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::fileExtension"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ac0f28c2d059dc02d18d3dd8eaba19f31"></a>
 ### Property description
 
@@ -174,9 +223,11 @@ File extension of the variable. Used when opening the file in [ModelCenter](name
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileVariable::description
 ```
+
 
 
 
@@ -186,6 +237,12 @@ The description of the variable.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::description"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a4ad8feb4200950e76e3ea66afcee286b"></a>
 ### Property saveWithModel
 
@@ -193,9 +250,11 @@ The description of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::saveWithModel
 ```
+
 
 
 
@@ -205,6 +264,12 @@ Flag to indicate whether the file content to be saved with the Model file.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::saveWithModel"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a248392894f6cd7f2662f29c3f110d7af"></a>
 ### Property directTransfer
 
@@ -212,9 +277,11 @@ Flag to indicate whether the file content to be saved with the Model file.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::directTransfer
 ```
+
 
 
 
@@ -224,6 +291,12 @@ Flag to indicate whether direct file transfer is used for incoming link.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::directTransfer"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IFileVariable_1a2d8ceabbeb9640dffb9f6a9e654bbd79"></a>
@@ -231,9 +304,11 @@ Flag to indicate whether direct file transfer is used for incoming link.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isValid()
 ```
+
 
 
 
@@ -254,14 +329,22 @@ True if variable is valid. False if the variable is not valid.
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a602d42ee0595c1c0408a536c31c61adb)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::isValid"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1aa3fdf5883f1849f93bf87256b9100d0b"></a>
 ### Function validate
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::validate()
 ```
+
 
 
 
@@ -273,14 +356,22 @@ Validates the variable by running the component if needed.
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6748764fba94242fbe35ae2f4d49c9ef)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::validate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1adbaa029c76034043ccdf2bf84bbd0e7f"></a>
 ### Function getName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::getName()
 ```
+
 
 
 
@@ -301,14 +392,22 @@ The name of the variable.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ae1ad6db87e29a4b265ec310295fb3843)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a5b0b8db5aec4ebfbd8e7918568c71b70"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::getFullName()
 ```
+
 
 
 
@@ -329,14 +428,22 @@ The full ModelCenter path of the variable.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a05a46370dd23d612bf0f09f146ba32a0)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::getFullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1aec7c7bb8f9e43d411c457d7b091e5378"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::getType()
 ```
+
 
 
 
@@ -357,14 +464,22 @@ The type of the variable as a string.
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ab7fadd397a7779f29005048383a9f187)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::getType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a92363045c1f3285c5c1127ad149c0250"></a>
 ### Function isInput
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isInput()
 ```
+
 
 
 
@@ -386,14 +501,22 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a875481ba3799c222c5085c6c3ca802a7)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::isInput"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ae28a776965df5807d9ce8b2e0d995867"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::toString()
 ```
+
 
 
 
@@ -414,14 +537,22 @@ The value of the variable as a string.
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6421656e090846e8d7c079b8511fa9d2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::toString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ac7654e743af45785904858d2c581058d"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -446,14 +577,22 @@ Sets the value of the variable from the specified string.
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a3f6325a128422d445705553f11563904)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::fromString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a0dda099769e13bdd8c5c076fc7d9378a"></a>
 ### Function toStringAbsolute
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -474,14 +613,22 @@ The value of the variable as a string.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a5e66075d2bff0f7de435056cdc6c011e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::toStringAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a2beb5e20db0843a92acf8d0cc961e3af"></a>
 ### Function invalidate
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::invalidate()
 ```
+
 
 
 
@@ -493,14 +640,22 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1addc5f809058b5573390f62d34b5f5498)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::invalidate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1aea8561351c3ff1e003d463616682a838"></a>
 ### Function directPrecedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -532,14 +687,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a655ce10f3a6e2839f11161e8bf13b0c2)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::directPrecedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a9347c073e1dc6ca62f1b3c7cd6fbec71"></a>
 ### Function directDependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -571,14 +734,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a64c800317037f03a43c8522061885835)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::directDependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a4bc52bbf01e5d0a0f95e67e03cce4547"></a>
 ### Function precedentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -608,14 +779,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a9d52333bc9a07146e23124f0fe95db6f)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::precedentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a46a1da5e2a3f39c2e413b520ec33407f"></a>
 ### Function dependentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -645,14 +824,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a1e52cc38574fbdf83e9dba836dfc5959)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::dependentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a8db95046419c83467475175b216efe84"></a>
 ### Function precedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -684,14 +871,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ad1f5d5ba3e96e9c2fab7a4b0d6c4df36)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::precedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ac63897b5927f1ad28965384718c0de6b"></a>
 ### Function dependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -723,14 +918,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6f42f3176eb8fa2fbf9ca1b9a01fc7ce)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::dependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a8ca654408734e709fddeb945e81a5d29"></a>
 ### Function isInputToComponent
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isInputToComponent()
 ```
+
 
 
 
@@ -752,14 +955,22 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a81ddff978026124a52063b1fad430b27)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::isInputToComponent"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a7bd0dbfb0063987f2484dce0cd61c8d1"></a>
 ### Function isInputToModel
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isInputToModel()
 ```
+
 
 
 
@@ -781,14 +992,22 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a0bd883d3757e361b75e0f81627e6ce98)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::isInputToModel"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ad532913f25d0b0d02cc2c27105e7ecc8"></a>
 ### Function setMetadata
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -821,14 +1040,22 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1af7cbf8f2c8d128c760fb09254819bf64)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::setMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a730717369f8ddb8fccfcb3405c56afe3"></a>
 ### Function getMetadata
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IFileVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -858,14 +1085,22 @@ Metadata value.
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a610297790a8c506c339586740f1d3022)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::getMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1aa3da8eb730cd02ed21080272cc41deb5"></a>
 ### Function toFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::toFile(BSTR fileName, [optional] VARIANT encoding)
 ```
+
 
 
 
@@ -890,14 +1125,22 @@ Writes the value of the variable to a file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::toFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a9ca208f1854ac22bb31e38119e2e2af5"></a>
 ### Function fromFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::fromFile(BSTR fileName)
 ```
+
 
 
 
@@ -920,14 +1163,22 @@ Sets the value of the variable from a specified file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::fromFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ac5ccf89eeca381ed315bbc4080c5df6b"></a>
 ### Function writeFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::writeFile(BSTR fileName)
 ```
+
 
 
 
@@ -950,14 +1201,22 @@ Writes the value of the variable to a file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::writeFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a93be7b40a50c1d8b612037a105f8fd5f"></a>
 ### Function readFile
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::readFile(BSTR fileName)
 ```
+
 
 
 
@@ -980,14 +1239,22 @@ Sets the value of the variable from a specified file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::readFile"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1a45afd477c357c9c3002a4046c1eefd32"></a>
 ### Function toFileAbsolute
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::toFileAbsolute(BSTR fileName, [optional] VARIANT encoding)
 ```
+
 
 
 
@@ -1012,14 +1279,22 @@ Writes the absolute value of the variable to a file. Optional parameter to speci
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::toFileAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IFileVariable_1ae4220f9f0731a8078169bab709fb9198"></a>
 ### Function writeFileAbsolute
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::writeFileAbsolute(BSTR fileName)
 ```
+
 
 
 
@@ -1042,6 +1317,12 @@ Writes the absolute value of the variable to a file.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileVariable::writeFileAbsolute"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

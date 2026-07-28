@@ -1,3 +1,4 @@
+<a id="PHXDataHistory_8odl"></a>
 # File PHXDataHistory.odl
 
 ![][IDL]
@@ -32,6 +33,7 @@
 * <olectl.h>
 * <idispids.h>
 
+
 ```mermaid
 graph LR
 1["LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl"]
@@ -45,7 +47,9 @@ click 1 "PHXDataHistory_8odl.md#PHXDataHistory_8odl"
 
 ```
 
+
 ## Source
+
 
 ```
 // PHXDataHistory.odl : type library source for ActiveX Control project.
@@ -464,6 +468,7 @@ library PHXDATAHISTORYLib
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

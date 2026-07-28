@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner"></a>
 # Interface PHXDATAEXPLORERLib::IDataExplorerFacadeOwner
 
 ![][IDL]
@@ -11,6 +12,6 @@ An interface that represents something that can own a facade DataExplorer. Imple
 
 ## Members
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

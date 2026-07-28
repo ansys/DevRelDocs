@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IPHXFormat"></a>
 # Interface ModelCenter::IPHXFormat
 
 ![][IDL]
@@ -13,7 +14,8 @@ Allows you to do custom formatting the same way ModelCenter does.
 
 
 
-Example: ```
+Example: 
+```
 Dim formatter
 Set formatter=app.getFormatter("# ?/2")
 MsgBox formatter.doubleToString(12.5)
@@ -38,9 +40,11 @@ MsgBox formatter.doubleToString(12.5)
 
 ![][public]
 
+
 ```
 void ModelCenter::IPHXFormat::setFormat(BSTR format)
 ```
+
 
 
 
@@ -63,14 +67,22 @@ Sets the format string to use in this object. Formats accepted are a sub-set of 
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::setFormat"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1a9e0774cef531d24731ac6c320cfd837c"></a>
 ### Function stringToLong
 
 ![][public]
 
+
 ```
 long ModelCenter::IPHXFormat::stringToLong(BSTR str)
 ```
+
 
 
 
@@ -98,14 +110,22 @@ The value of the string.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::stringToLong"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1a2576f20eaa4ec6133a734ea09d86130a"></a>
 ### Function stringToDouble
 
 ![][public]
 
+
 ```
 double ModelCenter::IPHXFormat::stringToDouble(BSTR str)
 ```
+
 
 
 
@@ -133,14 +153,22 @@ The value of the string.
 
 **Return type**: double
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::stringToDouble"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1a175332e4916d1d86855b1b707831e308"></a>
 ### Function longToString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::longToString(long val)
 ```
+
 
 
 
@@ -168,14 +196,22 @@ The formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::longToString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1afdb6c65e615c3d5176129b51a1d44318"></a>
 ### Function doubleToString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::doubleToString(double val)
 ```
+
 
 
 
@@ -203,14 +239,22 @@ The formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::doubleToString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1a6c3566f301404af75e38676198a8bf1e"></a>
 ### Function getFormat
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::getFormat()
 ```
+
 
 
 
@@ -229,14 +273,22 @@ Returns the current format style being used in this object.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::getFormat"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1ac1b65cffaf6712d53e58935e3c1592c9"></a>
 ### Function stringToString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::stringToString(BSTR str)
 ```
+
 
 
 
@@ -264,14 +316,22 @@ The formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::stringToString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1a2d5f201c8a8166ffeca606bac90d4b3d"></a>
 ### Function longToEditableString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::longToEditableString(long val)
 ```
+
 
 
 
@@ -299,14 +359,22 @@ The formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::longToEditableString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IPHXFormat_1a596665cb30835ccad7c6df17afffd8bd"></a>
 ### Function doubleToEditableString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::doubleToEditableString(double val)
 ```
+
 
 
 
@@ -334,6 +402,12 @@ The formatted string.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IPHXFormat::doubleToEditableString"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

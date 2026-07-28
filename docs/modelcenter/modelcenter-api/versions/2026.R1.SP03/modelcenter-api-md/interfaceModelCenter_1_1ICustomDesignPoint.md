@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1ICustomDesignPoint"></a>
 # Interface ModelCenter::ICustomDesignPoint
 
 ![][IDL]
@@ -21,9 +22,11 @@ COM Instance.
 
 ![][public]
 
+
 ```
 void ModelCenter::ICustomDesignPoint::addVariable(BSTR name, BSTR equation, BOOL isNumeric, BOOL isValid, BOOL isInput, BSTR type, BSTR units, BSTR value)
 ```
+
 
 
 
@@ -60,14 +63,22 @@ Adds a variable to the custom design point.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICustomDesignPoint::addVariable"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1ICustomDesignPoint_1a7c8bc37e4f17ff29cc066d8e9645d9dd"></a>
 ### Function runFailed
 
 ![][public]
 
+
 ```
 void ModelCenter::ICustomDesignPoint::runFailed(BSTR reason)
 ```
+
 
 
 
@@ -90,6 +101,12 @@ Tells the Data Collector that this run failed.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICustomDesignPoint::runFailed"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

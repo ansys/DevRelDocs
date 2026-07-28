@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity"></a>
 # Interface PHXDATAEXPLORERLib::ILegacyVisiblity
 
 ![][IDL]
@@ -21,9 +22,11 @@ An interface facilitating the ability to show a legacy DataExplorer
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::ILegacyVisiblity::showLegacy()
 ```
+
 
 
 
@@ -33,14 +36,22 @@ Will show the Legacy DataExplorer associated with this object.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::ILegacyVisiblity::showLegacy"}]}`
+-->
+
 <a id="interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity_1a7a2562683a18b86dee7b0cb60564b5e6"></a>
 ### Function getLegacyHWND
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::ILegacyVisiblity::getLegacyHWND()
 ```
+
 
 
 
@@ -53,6 +64,12 @@ the HWND
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::ILegacyVisiblity::getLegacyHWND"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

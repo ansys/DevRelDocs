@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IBooleanArray"></a>
 # Interface ModelCenter::IBooleanArray
 
 ![][IDL]
@@ -69,6 +70,7 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanArray::hasChanged
 ```
@@ -79,7 +81,14 @@ boolean ModelCenter::IBooleanArray::hasChanged
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::hasChanged"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IBooleanArray_1aa6cabd1afd2f36f8e431da7342e9bdb7"></a>
 ### Property hide
@@ -87,6 +96,7 @@ boolean ModelCenter::IBooleanArray::hasChanged
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 boolean ModelCenter::IBooleanArray::hide
@@ -98,7 +108,14 @@ boolean ModelCenter::IBooleanArray::hide
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::hide"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IBooleanArray_1a22fbdf9f77a399b4c536aa78bcd826bf"></a>
 ### Property OwningComponent
@@ -106,6 +123,7 @@ boolean ModelCenter::IBooleanArray::hide
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 LPDISPATCH ModelCenter::IBooleanArray::OwningComponent
@@ -117,7 +135,14 @@ LPDISPATCH ModelCenter::IBooleanArray::OwningComponent
 
 
 
+
 **Return type**: LPDISPATCH
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::OwningComponent"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IBooleanArray_1ada4924e975e5e04d2c6f7104f2626212"></a>
 ### Property size
@@ -125,6 +150,7 @@ LPDISPATCH ModelCenter::IBooleanArray::OwningComponent
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 long ModelCenter::IBooleanArray::size
@@ -136,7 +162,14 @@ long ModelCenter::IBooleanArray::size
 
 
 
+
 **Return type**: long
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::size"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IBooleanArray_1a3edf21f87f8614c2b603aafba6f10cd2"></a>
 ### Property numDimensions
@@ -144,6 +177,7 @@ long ModelCenter::IBooleanArray::size
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 long ModelCenter::IBooleanArray::numDimensions
@@ -155,7 +189,14 @@ long ModelCenter::IBooleanArray::numDimensions
 
 
 
+
 **Return type**: long
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::numDimensions"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IBooleanArray_1ae3788aac4468e5c4d62e002663e8e729"></a>
 ### Property description
@@ -164,9 +205,11 @@ long ModelCenter::IBooleanArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IBooleanArray::description
 ```
+
 
 
 
@@ -176,6 +219,12 @@ Description of the array.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::description"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aafaaa11ebda98ac168f489abd5385422"></a>
 ### Property value
 
@@ -183,9 +232,11 @@ Description of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 936)
 
+
 ```
 VARIANT ModelCenter::IBooleanArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -218,6 +269,12 @@ The value.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::value"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a71678d5b3009123d0401d7715c5dcdf6"></a>
 ### Property value
 
@@ -225,9 +282,11 @@ The value.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 952)
 
+
 ```
 BOOL ModelCenter::IBooleanArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -256,6 +315,12 @@ Set the value of an array element.
 
 **Return type**: BOOL
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::value"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IBooleanArray_1a9d13fb275a266aa85280b6beed8be176"></a>
@@ -263,9 +328,11 @@ Set the value of an array element.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isValid()
 ```
+
 
 
 
@@ -286,14 +353,22 @@ yes(TRUE) or no(FALSE).
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a20792cdbe6866825f978a2e30affca88)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::isValid"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aa221cef15629c5acf569329c0e089b3a"></a>
 ### Function validate
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::validate()
 ```
+
 
 
 
@@ -305,14 +380,22 @@ Causes the array to validate itself.
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a31cda88a70c11ef884e9105ef4ee7d20)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::validate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a471100848db5a6f0c08f2920aa283ac6"></a>
 ### Function getName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::getName()
 ```
+
 
 
 
@@ -333,14 +416,22 @@ The name of the array.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ace7a0aeb83a64535f7caa63600783fa7)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a498741fde4d9eeec6eb3f8171e3161d8"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::getFullName()
 ```
+
 
 
 
@@ -361,14 +452,22 @@ The full ModelCenter path of the array.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a699cf890f3743699cb25a7432c0f7f68)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getFullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1ad8d2b43dd9f4b3656dba1e8570f7f747"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::getType()
 ```
+
 
 
 
@@ -389,14 +488,22 @@ The type of the array as a string.
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1adf1ee02ba4bdf03ef0366e2f0a62b344)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aa87e846de03852ee40e909935c2ec470"></a>
 ### Function isInput
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isInput()
 ```
+
 
 
 
@@ -418,14 +525,22 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1af18eb203bc12f95a61b5876279ee17a9)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::isInput"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a39294beb6d830e498ee8aca7a25cc4a6"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toString()
 ```
+
 
 
 
@@ -446,14 +561,22 @@ String representation of the array.
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a6ff821435a5704253ffdfb9334cc2dc4)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::toString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1af5d6c192774673f4f4bf7514b35f8ccf"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -479,14 +602,22 @@ For <code>nD</code> arrays, the specification is of the form <code>'bounds[2,2,2
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a97b06c86c2783603221e0b0215dc75c8)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::fromString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aa07f73fa1f449045d77725b0fef00739"></a>
 ### Function toStringAbsolute
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toStringAbsolute()
 ```
+
 
 
 
@@ -507,14 +638,22 @@ String representation of the array.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ad5ecd4799e995bf2c97015c718606550)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::toStringAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a04e162fdfae6e99e6dcfd926adfca7b1"></a>
 ### Function invalidate
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::invalidate()
 ```
+
 
 
 
@@ -526,14 +665,22 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1abfaa3f2b5bff1412199f5014ca10c4d5)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::invalidate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a605c25813e75d1709e364eef080f68e9"></a>
 ### Function directPrecedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -565,14 +712,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a0367bcfe5c12848d1d10e1266a0a868e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::directPrecedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a6ed20fe44044c682471c7066ae2bd303"></a>
 ### Function directDependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -604,14 +759,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a834a8ad8bfec0c4b0220b21979e82fca)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::directDependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a428a6e6a2a2be52d77bfe96323fea64f"></a>
 ### Function precedentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -641,14 +804,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8f2364939bd5efaab13ecdbc3cb7df51)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::precedentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1abadb81820fd0b415fa9e78ce6c867c55"></a>
 ### Function dependentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -678,14 +849,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1aecc2dc18b0ee43d5175503d44ca259c3)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::dependentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a9d7349a2273e5b9eaaab5271918eed6f"></a>
 ### Function precedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -717,14 +896,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ab185a76064278e30ee48682164364e72)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::precedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a386477ffe54e2d0f351f9dc7fbb49712"></a>
 ### Function dependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -756,14 +943,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a7cb300d678991e0b6449ad7b0d004906)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::dependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a871c46c1f732b2885e2ef1fa2080a3e8"></a>
 ### Function isInputToComponent
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isInputToComponent()
 ```
+
 
 
 
@@ -785,14 +980,22 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a74e3e9729c8de2d3d091a6f22f7cb45b)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::isInputToComponent"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a364726a017aca71bdb22d43530cc9426"></a>
 ### Function isInputToModel
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isInputToModel()
 ```
+
 
 
 
@@ -814,14 +1017,22 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a87cc3a01fd30ce7c6380b5d1d6ff7df9)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::isInputToModel"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a772ffc624a737a4808eb8dfc9ff41e0d"></a>
 ### Function setMetadata
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -854,14 +1065,22 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8b1a6f24260a22b01e738ed2fb1d4523)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::setMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aa6b44db219dbaf49be81841dc459f4ae"></a>
 ### Function getMetadata
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IBooleanArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -891,14 +1110,22 @@ Metadata value.
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a53f2d3f772584c3c43341ff4236402c9)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1af151b1686dbe379f876131afd8c2c71e"></a>
 ### Function toStringEx
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toStringEx(long index)
 ```
+
 
 
 
@@ -928,14 +1155,22 @@ The value of the element as a string.
 
 **Reimplements**: [toStringEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a37c622ae9f50579f714ce98c0379cd98)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::toStringEx"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a8d7b18dca2bbe96aa0ee3718e433e272"></a>
 ### Function fromStringEx
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -962,14 +1197,22 @@ Sets the value of an array element from a specified string.
 
 **Reimplements**: [fromStringEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ad23f4082662c464be07251d6d1695a2d)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::fromStringEx"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aaa425c05112e2f9568bb13886800dbba"></a>
 ### Function toStringAbsoluteEx
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -999,14 +1242,22 @@ The value of the element as a string.
 
 **Reimplements**: [toStringAbsoluteEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a2e3041440581aab716c684fe88d2ee87)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::toStringAbsoluteEx"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1ad9da4a66a831de9a501a7aca13a6a84f"></a>
 ### Function getLength
 
 ![][public]
 
+
 ```
 long ModelCenter::IBooleanArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1036,14 +1287,22 @@ Length(size) of the array.
 
 **Reimplements**: [getLength](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8a6965fe1217428d63d594384a634bfb)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getLength"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a2bf47781f038fae8dc22e6edb04149a9"></a>
 ### Function setLength
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1070,14 +1329,22 @@ Sets the length of the n'th dimension of the array
 
 **Reimplements**: [setLength](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ac632aa0e8bc7a6fcac41245e151beec8)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::setLength"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a6a526c3b8680b1f5ececc326a340d14b"></a>
 ### Function setDimensions
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1120,14 +1387,22 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 **Reimplements**: [setDimensions](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1af881060e37aae0ff4c2c2238683db950)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::setDimensions"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a9aa72924449a81d937830715bbe7503e"></a>
 ### Function getValue
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::getValue(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1173,14 +1448,22 @@ The value.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1aa3bdaab478a67db1dd4cb7921de5ed72"></a>
 ### Function setValue
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setValue(BOOL value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1223,14 +1506,22 @@ Sets the value of an array element.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::setValue"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1ac522da7a239f7d74e52a445351e5996a"></a>
 ### Function getArray
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IBooleanArray::getArray()
 ```
+
 
 
 
@@ -1249,14 +1540,22 @@ The COM array.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getArray"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1a783239a87a41ba31461d61df639dd5f4"></a>
 ### Function setArray
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setArray(VARIANT array)
 ```
+
 
 
 
@@ -1279,14 +1578,22 @@ Sets the COM array.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::setArray"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IBooleanArray_1ad975bca587185786df34ddd600d7fe96"></a>
 ### Function getValueAbsolute
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::getValueAbsolute(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1332,6 +1639,12 @@ The value.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanArray::getValueAbsolute"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

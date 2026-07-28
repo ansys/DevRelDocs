@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IGlobalParameters"></a>
 # Interface ModelCenter::IGlobalParameters
 
 ![][IDL]
@@ -26,9 +27,11 @@ A set of name/value pairs that can be used for programmatic purposes. Values are
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IGlobalParameters::count
 ```
+
 
 
 
@@ -38,6 +41,12 @@ The count of the name/value pairs.
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::count"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IGlobalParameters_1a1fdee032bf053c5f99b0291bf04dcaec"></a>
 ### Property item
 
@@ -45,9 +54,11 @@ The count of the name/value pairs.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 6451)
 
+
 ```
 VARIANT ModelCenter::IGlobalParameters::item
 ```
+
 
 
 
@@ -83,12 +94,19 @@ Receives the value of a particular parameter.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::item"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IGlobalParameters_1a63a265a486f6a3a5df9cde8b65217d5f"></a>
 ### Property \_item
 
 ![][private]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 6460)
+
 
 ```
 VARIANT ModelCenter::IGlobalParameters::_item
@@ -100,7 +118,14 @@ VARIANT ModelCenter::IGlobalParameters::_item
 
 
 
+
 **Return type**: VARIANT
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::_item"}]}`
+-->
 
 ## Public functions
 
@@ -109,9 +134,11 @@ VARIANT ModelCenter::IGlobalParameters::_item
 
 ![][public]
 
+
 ```
 void ModelCenter::IGlobalParameters::setExportToRemoteComponents(VARIANT index, boolean bexport)
 ```
+
 
 
 
@@ -136,14 +163,22 @@ Sets whether this name/value pair is passed to external servers when a component
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::setExportToRemoteComponents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IGlobalParameters_1ae838217b346390c972f8173e9a55361c"></a>
 ### Function Remove
 
 ![][public]
 
+
 ```
 void ModelCenter::IGlobalParameters::Remove(VARIANT index)
 ```
+
 
 
 
@@ -166,6 +201,12 @@ Removes a named parameter.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::Remove"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

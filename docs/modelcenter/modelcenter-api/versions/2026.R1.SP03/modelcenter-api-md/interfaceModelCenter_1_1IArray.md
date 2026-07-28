@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IArray"></a>
 # Interface ModelCenter::IArray
 
 ![][IDL]
@@ -76,6 +77,7 @@ Arrays start at 0 length by default. So you must set the size before you can ass
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IArray::hasChanged
 ```
@@ -86,7 +88,14 @@ boolean ModelCenter::IArray::hasChanged
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::hasChanged"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IArray_1ac7ae926ce6dea385cb26901c86c7fccd"></a>
 ### Property hide
@@ -94,6 +103,7 @@ boolean ModelCenter::IArray::hasChanged
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 boolean ModelCenter::IArray::hide
@@ -105,7 +115,14 @@ boolean ModelCenter::IArray::hide
 
 
 
+
 **Return type**: boolean
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::hide"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IArray_1aab060b2f29895c77882494f7194f55e0"></a>
 ### Property OwningComponent
@@ -113,6 +130,7 @@ boolean ModelCenter::IArray::hide
 ![][public]
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
+
 
 ```
 LPDISPATCH ModelCenter::IArray::OwningComponent
@@ -124,7 +142,14 @@ LPDISPATCH ModelCenter::IArray::OwningComponent
 
 
 
+
 **Return type**: LPDISPATCH
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::OwningComponent"}]}`
+-->
 
 <a id="interfaceModelCenter_1_1IArray_1a9a38726b51caed75a30ae66b82959f64"></a>
 ### Property size
@@ -133,9 +158,11 @@ LPDISPATCH ModelCenter::IArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IArray::size
 ```
+
 
 
 
@@ -145,6 +172,12 @@ Alias for length property
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::size"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1aca63a47369d69cbbf53532286b64a611"></a>
 ### Property autoSize
 
@@ -152,9 +185,11 @@ Alias for length property
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IArray::autoSize
 ```
+
 
 
 
@@ -164,6 +199,12 @@ Whether or not the array is set to automatically size itself. If false and the a
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::autoSize"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a29af128098031d3d75f20bb0fafe633a"></a>
 ### Property numDimensions
 
@@ -171,9 +212,11 @@ Whether or not the array is set to automatically size itself. If false and the a
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IArray::numDimensions
 ```
+
 
 
 
@@ -183,6 +226,12 @@ Number of dimensions this array has. Defaults to 1. Changing the number of dimen
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::numDimensions"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1af118bdf4b120050d6700a7ceae7f5bec"></a>
 ### Property length
 
@@ -190,9 +239,11 @@ Number of dimensions this array has. Defaults to 1. Changing the number of dimen
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IArray::length
 ```
+
 
 
 
@@ -202,6 +253,12 @@ Size of the array. Alias for the length property. Only useful if the array is 1 
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::length"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IArray_1a20792cdbe6866825f978a2e30affca88"></a>
@@ -209,9 +266,11 @@ Size of the array. Alias for the length property. Only useful if the array is 1 
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isValid()
 ```
+
 
 
 
@@ -241,14 +300,22 @@ yes(TRUE) or no(FALSE).
 * [isValid](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a366cf132edcae4c78ff3c3c29d81ad03)
 * [isValid](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a8b738f7eef3f9a3f8a723cede3809f47)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::isValid"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a31cda88a70c11ef884e9105ef4ee7d20"></a>
 ### Function validate
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::validate()
 ```
+
 
 
 
@@ -269,14 +336,22 @@ Causes the array to validate itself.
 * [validate](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1af1dd28c351fcda3e3fea31facbd4fca3)
 * [validate](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a86b82bcfb1ccfa2428968307eaa07108)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::validate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1ace7a0aeb83a64535f7caa63600783fa7"></a>
 ### Function getName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::getName()
 ```
+
 
 
 
@@ -306,14 +381,22 @@ The name of the array.
 * [getName](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a282d98574e8d65d85c9908b6799321b7)
 * [getName](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a0a90870618bd396edc53c27ff0b8c9af)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a699cf890f3743699cb25a7432c0f7f68"></a>
 ### Function getFullName
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::getFullName()
 ```
+
 
 
 
@@ -343,14 +426,22 @@ The full ModelCenter path of the array.
 * [getFullName](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a44ebe17869a3b1b95568ea46299a9f3f)
 * [getFullName](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a4ca185e60b69ce2ff41d19a2270bc28b)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getFullName"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1adf1ee02ba4bdf03ef0366e2f0a62b344"></a>
 ### Function getType
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::getType()
 ```
+
 
 
 
@@ -380,14 +471,22 @@ The type of the array as a string.
 * [getType](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1ac3c3f33a239fe1182da434d7570346df)
 * [getType](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a582f9e8e47e60eca8041b98c996a4f4f)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getType"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1af18eb203bc12f95a61b5876279ee17a9"></a>
 ### Function isInput
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isInput()
 ```
+
 
 
 
@@ -418,14 +517,22 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 * [isInput](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1ae7e5c76cfd592a71fc7e5785c7cf6394)
 * [isInput](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a3b7b397239f04cf9ea9358f9477ee2c4)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::isInput"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a6ff821435a5704253ffdfb9334cc2dc4"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toString()
 ```
+
 
 
 
@@ -455,14 +562,22 @@ The converted string value of the array.
 * [toString](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1aaa37debc6216a5419715e0c542555850)
 * [toString](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1aa735025db3ac6e13cb486f8629b86a69)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::toString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a97b06c86c2783603221e0b0215dc75c8"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -498,14 +613,22 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 * [fromString](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a9cb9dab871b4e86ed66fb53cc5473ebd)
 * [fromString](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a65a839b63dfb0495f577bf70ca87a320)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::fromString"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1ad5ecd4799e995bf2c97015c718606550"></a>
 ### Function toStringAbsolute
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toStringAbsolute()
 ```
+
 
 
 
@@ -535,14 +658,22 @@ The converted string value of the array.
 * [toStringAbsolute](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a1a0ecbbccb3fe3404c79976e9f07b8db)
 * [toStringAbsolute](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1adfb1dee0a1fd5b541eacba1e4cbba7ad)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::toStringAbsolute"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1abfaa3f2b5bff1412199f5014ca10c4d5"></a>
 ### Function invalidate
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::invalidate()
 ```
+
 
 
 
@@ -563,14 +694,22 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 * [invalidate](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a56ea1d83eb42dda4a7c06b6fbbf6ffd5)
 * [invalidate](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1ac6dd084c61d7ce2631d207242eca89bf)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::invalidate"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a0367bcfe5c12848d1d10e1266a0a868e"></a>
 ### Function directPrecedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -611,14 +750,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 * [directPrecedents](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1aa8041fca418266f2bee129804654abab)
 * [directPrecedents](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a40c76b900187ef244f14c5c8e9bb65bf)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::directPrecedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a834a8ad8bfec0c4b0220b21979e82fca"></a>
 ### Function directDependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -659,14 +806,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 * [directDependents](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a862a4306dbf867e3db316d9547cea277)
 * [directDependents](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a4820176e7ca9e1c3173d602308144c62)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::directDependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a8f2364939bd5efaab13ecdbc3cb7df51"></a>
 ### Function precedentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -705,14 +860,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 * [precedentLinks](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a084d49d02b9ff5812166721fcdc86018)
 * [precedentLinks](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a19c1ae9d08b968bae4b6fdd1ec74fc3e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::precedentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1aecc2dc18b0ee43d5175503d44ca259c3"></a>
 ### Function dependentLinks
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -751,14 +914,22 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 * [dependentLinks](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1add9bd8c41cd4a5c77f7e762768b441a5)
 * [dependentLinks](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a4227d6aca4e2d7791cea69efeb5b81fd)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::dependentLinks"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1ab185a76064278e30ee48682164364e72"></a>
 ### Function precedents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -799,14 +970,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 * [precedents](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1aea1973c58e45bafe3aeea797b91a4f6b)
 * [precedents](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a913272799193e5d02033c63c746ead9e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::precedents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a7cb300d678991e0b6449ad7b0d004906"></a>
 ### Function dependents
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -847,14 +1026,22 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 * [dependents](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a7a3b136537fb09914b87b5997b937df0)
 * [dependents](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a392d8e4080854c954c165833bb89a7db)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::dependents"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a74e3e9729c8de2d3d091a6f22f7cb45b"></a>
 ### Function isInputToComponent
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isInputToComponent()
 ```
+
 
 
 
@@ -885,14 +1072,22 @@ Checks whether or not the variable is an input. Returns true if the variable was
 * [isInputToComponent](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a317b7b47fa55798e212c426b4ac8f014)
 * [isInputToComponent](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1ad59d273bea1a7e02540520e9b4428264)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::isInputToComponent"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a87cc3a01fd30ce7c6380b5d1d6ff7df9"></a>
 ### Function isInputToModel
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isInputToModel()
 ```
+
 
 
 
@@ -923,14 +1118,22 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 * [isInputToModel](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a2d16dbc50ee0f77d5ca99b8a600e5023)
 * [isInputToModel](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1af1da4c99c6359d527ad57c9433333a36)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::isInputToModel"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a8b1a6f24260a22b01e738ed2fb1d4523"></a>
 ### Function setMetadata
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -972,14 +1175,22 @@ Sets the meta data value of the given meta data key name.
 * [setMetadata](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a31e14e94dd9316f40bf963a9da9939f7)
 * [setMetadata](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a495551c5a05027a8537ffce75f333f8e)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::setMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a53f2d3f772584c3c43341ff4236402c9"></a>
 ### Function getMetadata
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -1018,14 +1229,22 @@ Metadata value.
 * [getMetadata](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1ac6becc1bb1c5206e972c266164f838ca)
 * [getMetadata](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1ac730dc0fbfc8ae56788048e6c0fb80fa)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getMetadata"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a37c622ae9f50579f714ce98c0379cd98"></a>
 ### Function toStringEx
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toStringEx(long index)
 ```
+
 
 
 
@@ -1062,14 +1281,22 @@ The value of the element as a string.
 * [toStringEx](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1af2ff697565c81552d49c0237cfc89ef7)
 * [toStringEx](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a9013b29e3ca18c5a0ecaff8dc6d19b5f)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::toStringEx"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1ad23f4082662c464be07251d6d1695a2d"></a>
 ### Function fromStringEx
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1103,14 +1330,22 @@ Sets the value of an array element from a specified string.
 * [fromStringEx](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a2a286a07b606f7e90ac4e1d281a49d38)
 * [fromStringEx](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a8fa6aff7c64224c1c488d5866dfc4865)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::fromStringEx"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a2e3041440581aab716c684fe88d2ee87"></a>
 ### Function toStringAbsoluteEx
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1147,14 +1382,22 @@ The value of the element as a string.
 * [toStringAbsoluteEx](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1aac2b33985ad310362db7c8c878096ae8)
 * [toStringAbsoluteEx](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a3684e3b0b2d36a599f75236a6f5e90e7)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::toStringAbsoluteEx"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a8a6965fe1217428d63d594384a634bfb"></a>
 ### Function getLength
 
 ![][public]
 
+
 ```
 long ModelCenter::IArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1191,14 +1434,22 @@ Length(size) of the array.
 * [getLength](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1ad88eff947daa184ab953839666729ae5)
 * [getLength](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1a39098992a1f29458010e4d18385d3681)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getLength"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1ac632aa0e8bc7a6fcac41245e151beec8"></a>
 ### Function setLength
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1232,14 +1483,22 @@ Sets the length of the n'th dimension of the array
 * [setLength](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a2cfaecd2a821841d414f0d9ac505659f)
 * [setLength](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1ab20a6b27ddb532d0186532a52a148d91)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::setLength"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1af881060e37aae0ff4c2c2238683db950"></a>
 ### Function setDimensions
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1289,14 +1548,22 @@ Sets the number of dimensions of an array and the length of each dimension in on
 * [setDimensions](interfaceModelCenter_1_1IReferenceArray.md#interfaceModelCenter_1_1IReferenceArray_1a3526172d364bb842ab3bc25f1cedf31b)
 * [setDimensions](interfaceModelCenter_1_1IStringArray.md#interfaceModelCenter_1_1IStringArray_1aa3a9cdee8b632a3adda4e2d1814c66f8)
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::setDimensions"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a3d171136e0b219dd4e2d0d1b4bb9aa1f"></a>
 ### Function getSize
 
 ![][public]
 
+
 ```
 long ModelCenter::IArray::getSize([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1324,14 +1591,22 @@ Size of the dimension
 
 **Return type**: long
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getSize"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a8b7b41ca5463a86aecb2368d73464c0e"></a>
 ### Function setSize
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setSize(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1356,14 +1631,22 @@ Alias for the [setLength()](interfaceModelCenter_1_1IArray.md#interfaceModelCent
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::setSize"}]}`
+-->
+
 <a id="interfaceModelCenter_1_1IArray_1a83abe70ccf5e8a0a582748d84e3d7956"></a>
 ### Function getDimensions
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IArray::getDimensions()
 ```
+
 
 
 
@@ -1382,6 +1665,12 @@ Variant - either a single integer, in the case of a 1D array, or an array of int
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IArray::getDimensions"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

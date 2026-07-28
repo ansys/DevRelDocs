@@ -1,3 +1,4 @@
+<a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn"></a>
 # Interface PHXDATAHISTORYLib::PHXDataExplorerPlugIn
 
 ![][IDL]
@@ -32,9 +33,11 @@ An interface which represents a Data Explorer Page. An object must implement thi
 
 ![][public]
 
+
 ```
 LPDISPATCH PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getDataHistory()
 ```
+
 
 
 
@@ -47,14 +50,22 @@ The IDispatch of the associated Data History object.
 
 **Return type**: LPDISPATCH
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getDataHistory"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a530e372d5d75f87574b4f5a7f8f25347"></a>
 ### Function setDataHistory
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setDataHistory(LPDISPATCH dataHistory)
 ```
+
 
 
 
@@ -71,14 +82,22 @@ Passes the associated Data History for this page.
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setDataHistory"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1ab914e1d1c1dd883a0a1b6201cde0577f"></a>
 ### Function getModelCenter
 
 ![][public]
 
+
 ```
 LPDISPATCH PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getModelCenter()
 ```
+
 
 
 
@@ -91,14 +110,22 @@ The associated ModelCenter object.
 
 **Return type**: LPDISPATCH
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getModelCenter"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a38e366a60626a29afa74869e40f156c6"></a>
 ### Function setModelCenter
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setModelCenter(LPDISPATCH modelCenter)
 ```
+
 
 
 
@@ -115,14 +142,22 @@ Passes the associated ModelCenter object for this Plug-In. Plug-Ins should not e
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setModelCenter"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a38ed1207dbcb350057bc22b0450eb009"></a>
 ### Function getPageTitle
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getPageTitle()
 ```
+
 
 
 
@@ -135,14 +170,22 @@ The page title.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getPageTitle"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a075c34c41b0461b36077d19c314fdc2a"></a>
 ### Function toString
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::PHXDataExplorerPlugIn::toString()
 ```
+
 
 
 
@@ -155,14 +198,22 @@ The string representation of the Plug-In.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::toString"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a889e85b07599a03c7a262297629d0763"></a>
 ### Function fromString
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::fromString(BSTR str)
 ```
+
 
 
 
@@ -185,14 +236,22 @@ Tells this Data Explorer Plug-In to load its state from the given string. This d
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::fromString"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1ad899f49a6bef9cd0f56292b7c92d8503"></a>
 ### Function getMenuItems
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getMenuItems(LPDISPATCH iPHXMenuItem)
 ```
+
 
 
 
@@ -215,14 +274,22 @@ The Plug-In should fill in the passed in object with any context dependent menu 
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getMenuItems"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1afe6db966ff1b5790a8ae887d70294dc3"></a>
 ### Function invokeMenuItem
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::invokeMenuItem(long id)
 ```
+
 
 
 
@@ -245,14 +312,22 @@ Tells the Plug-In that the user is attempting to invoke a menu item related to t
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::invokeMenuItem"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a7259c195e2711d0fb54579e22752adb2"></a>
 ### Function isMenuItemEnabled
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::PHXDataExplorerPlugIn::isMenuItemEnabled(long id)
 ```
+
 
 
 
@@ -280,14 +355,22 @@ True if valid/enabled, else false.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::isMenuItemEnabled"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1a6394212eddc67589ac43fbd85826bbc2"></a>
 ### Function updateHint
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::PHXDataExplorerPlugIn::updateHint()
 ```
+
 
 
 
@@ -300,14 +383,22 @@ False if an exception is thrown, else true.
 
 **Return type**: boolean
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::updateHint"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1ab7f82a38962d77ab437299dd6cbe50a1"></a>
 ### Function setStartContext
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setStartContext(BSTR str)
 ```
+
 
 
 
@@ -324,14 +415,22 @@ Passes in the "context" in which this plug-in is being invoked. The context is t
 
 **Return type**: void
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setStartContext"}]}`
+-->
+
 <a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn_1af5f2203aace2cd54bac6c8789b1782c5"></a>
 ### Function getThumbnail
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getThumbnail(BSTR hints)
 ```
+
 
 
 
@@ -359,6 +458,12 @@ The name of the file containing the thumbnail image.
 
 **Return type**: BSTR
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getThumbnail"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

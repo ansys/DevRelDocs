@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IGroups"></a>
 # Interface ModelCenter::IGroups
 
 ![][IDL]
@@ -23,9 +24,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IGroups::Count
 ```
+
 
 
 
@@ -35,6 +38,12 @@ Number of Groups.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroups::Count"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IGroups_1a4a71e44eeb916bcdc8bee4ab891b237d"></a>
@@ -42,9 +51,11 @@ Number of Groups.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IGroups::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +83,12 @@ IDispatch* to an [IGroup](interfaceModelCenter_1_1IGroup.md#interfaceModelCenter
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroups::Item"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

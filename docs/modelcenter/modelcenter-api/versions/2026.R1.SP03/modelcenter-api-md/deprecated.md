@@ -1,3 +1,4 @@
+<a id="deprecated"></a>
 # Deprecated List
 
 
@@ -61,6 +62,12 @@ This file format is deprecated and files can no longer be saved in this format.
 <a id="deprecated_1_deprecated000010"></a>
 (misspelling)
 
+<!--
+**TODO**:
+
+* `location  {"type":"element","name":"location","attributes":{"file":"deprecated"},"children":[]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

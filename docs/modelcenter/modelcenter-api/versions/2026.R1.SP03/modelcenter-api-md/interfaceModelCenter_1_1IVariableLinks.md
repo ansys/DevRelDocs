@@ -1,3 +1,4 @@
+<a id="interfaceModelCenter_1_1IVariableLinks"></a>
 # Interface ModelCenter::IVariableLinks
 
 ![][IDL]
@@ -23,9 +24,11 @@ A collection of [IVariableLink](interfaceModelCenter_1_1IVariableLink.md#interfa
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IVariableLinks::Count
 ```
+
 
 
 
@@ -35,6 +38,12 @@ Number of Links.
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLinks::Count"}]}`
+-->
+
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IVariableLinks_1af1e6de7d83b5af2ae699785b1d61fb1c"></a>
@@ -42,9 +51,11 @@ Number of Links.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IVariableLinks::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +83,12 @@ IDispatch* to an [IVariableLink](interfaceModelCenter_1_1IVariableLink.md#interf
 
 **Return type**: VARIANT
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariableLinks::Item"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -1,3 +1,4 @@
+<a id="namespacePHXDATAHISTORYLib"></a>
 # Namespace PHXDATAHISTORYLib
 
 ![][IDL]
@@ -32,6 +33,7 @@ Data History API
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1003)
 
+
 ```
 enum PHXMENU_PREDEFS {
   PHXMENU_CUT =-1,
@@ -44,6 +46,7 @@ enum PHXMENU_PREDEFS {
   PHXMENU_TOOLTIP =-8
 }
 ```
+
 
 
 
@@ -107,6 +110,12 @@ Page/Export Page...
 
 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXMENU_PREDEFS"}]}`
+-->
+
 ## Functions
 
 <a id="namespacePHXDATAHISTORYLib_1aebeea567338ef111ceead76bc59bf072"></a>
@@ -114,9 +123,11 @@ Page/Export Page...
 
 ![][private]
 
+
 ```
 PHXDATAHISTORYLib::importlib(STDOLE_TLB)
 ```
+
 
 
 
@@ -130,14 +141,22 @@ PHXDATAHISTORYLib::importlib(STDOLE_TLB)
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::importlib"}]}`
+-->
+
 <a id="namespacePHXDATAHISTORYLib_1a0e2d7a999f42bdf583341c632c923d8e"></a>
 ### Function importlib
 
 ![][private]
 
+
 ```
 PHXDATAHISTORYLib::importlib(STDTYPE_TLB)
 ```
+
 
 
 
@@ -151,6 +170,12 @@ PHXDATAHISTORYLib::importlib(STDTYPE_TLB)
 
 **Return type**: 
 
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::importlib"}]}`
+-->
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

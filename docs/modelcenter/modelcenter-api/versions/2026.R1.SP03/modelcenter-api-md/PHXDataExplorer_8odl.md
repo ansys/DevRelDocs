@@ -1,3 +1,4 @@
+<a id="PHXDataExplorer_8odl"></a>
 # File PHXDataExplorer.odl
 
 ![][IDL]
@@ -29,6 +30,7 @@
 * <olectl.h>
 * <idispids.h>
 
+
 ```mermaid
 graph LR
 1["LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl"]
@@ -42,7 +44,9 @@ click 1 "PHXDataExplorer_8odl.md#PHXDataExplorer_8odl"
 
 ```
 
+
 ## Source
+
 
 ```
 // PHXDataExplorer.odl : type library source for ActiveX Control project.
@@ -271,6 +275,7 @@ library PHXDATAEXPLORERLib
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
