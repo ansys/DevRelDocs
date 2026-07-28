@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-25).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-28).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,7 +35,7 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[5 items](#Fixes_h5dpf) |
-| hdf5 | [12 items](#Features_hdf5) |[9 items](#Fixes_hdf5) |
+| hdf5 | [14 items](#Features_hdf5) |[9 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[12 items](#Fixes_kernel) |
@@ -1020,6 +1020,20 @@ The following table shows which components have updates in each category.
   > 
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
+
+- Add FilterMaterialsData operator for materials data processing and expose them in h5dpf:
+  > Expose materials data in H5DPF as a generic data container
+  >
+  > 
+  >
+  > 
+
+- Create links between DataTrees to enhance HDFView visualization:
+  > Improvement of the representation of DataTrees on H5DPF file. Deduplication of DataTrees when possible.
+  >
+  > 
+  >
+  > 
 
 - Expose coordinate systems data in hdf5:
   > Make coordinate systems data available in hdf5 file, either from a migrate from rst file or a live analysis from mapdl.
@@ -4094,6 +4108,27 @@ The following table shows which components have updates in each category.
 - [propertyfield_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/propertyfield_get_attribute.md):
   > Gets a property from an input field / fields container. A PropertyField in pin 0 and a property name (string) in pin 1 are expected as inputs.
 
+- [transpose_fields_container](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/transpose_fields_container.md):
+  > Transposes a fields container so that the fields' scoping becomes the container's scoping and a chosen label (default: time) becomes the fields' scoping.
+  > 
+  > Input layout (example with time label, 2 body labels, 3 nodes):
+  >   FC labels: [time, body]
+  >   Field 0: {time:1, body:1} -> scoping {n1, n2, n3}, data [...]
+  >   Field 1: {time:1, body:2} -> scoping {n4, n5}, data [...]
+  >   Field 2: {time:2, body:1} -> scoping {n1, n2, n3}, data [...]
+  >   Field 3: {time:2, body:2} -> scoping {n4, n5}, data [...]
+  > 
+  > Output layout (transposed on time):
+  >   FC labels: [Nodal, body]
+  >   Field 0: {Nodal:n1, body:1} -> scoping {t1, t2}, data [gathered from fields 0,2]
+  >   Field 1: {Nodal:n2, body:1} -> scoping {t1, t2}, data [gathered from fields 0,2]
+  >   Field 1: {Nodal:n3, body:1} -> scoping {t1, t2}, data [gathered from fields 0,2]
+  >   Field 2: {Nodal:n4, body:2} -> scoping {t1, t2}, data [gathered from fields 1,3]
+  >   Field 3: {Nodal:n5, body:2} -> scoping {t1, t2}, data [gathered from fields 1,3]
+  >   ...
+  > 
+  > Each output field gathers one entity's data across all values of the transposed label from the input fields that share the same non-transposed labels. All input fields sharing a labelspace where only the transposed label changes must have the same scoping and location.
+
 
 
 ### Changed operators
@@ -4892,6 +4927,8 @@ Upgraded documentation
 - [modal_damping_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_damping_ratio.md)
 
   > 0.0.1: Rewrite description to use LaTeX Rayleigh damping formula and identify each input coefficient.
+
+  > 0.1.0: Input pin 0 now accepts a field or a time/freq support.
 
 
 - [modal_participation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/modal_participation.md)

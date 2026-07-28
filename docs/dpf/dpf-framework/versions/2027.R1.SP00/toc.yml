@@ -1793,6 +1793,8 @@
       href: operator-specifications/utility/strain_from_voigt.md
     - name: strain from voigt fc
       href: operator-specifications/utility/strain_from_voigt_fc.md
+    - name: transpose fields container
+      href: operator-specifications/utility/transpose_fields_container.md
     - name: txt file to dpf
       href: operator-specifications/utility/txt_file_to_dpf.md
     - name: unitary field
