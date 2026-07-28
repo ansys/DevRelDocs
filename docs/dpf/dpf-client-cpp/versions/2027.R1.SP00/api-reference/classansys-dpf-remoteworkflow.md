@@ -191,6 +191,7 @@
 * [RemoteWorkflow](classansys-dpf-remoteworkflow.md#classansys-dpf-remoteworkflow-1a7fe3018d374672149e4568929736729f)
 * [renameInputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1a22fba3c96a8a6e9eda279fd1c4b5358f)
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
+* [setStepIndexMaxMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6c3700bdf7cf0fb38a12c15cf8213205)
 * [shareStepIndexWith](classansys-dpf-workflow.md#classansys-dpf-workflow-1acfeb4ac138a1ec9e4b6e0d7fae14abb5)
 * [stepIndexCurrentMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a7cc02b047d1d37c1bb92440f4fade050)
 * [stepIndexOperatorStatuses](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5a24c6e5128c940559d976e236c58ec5)
