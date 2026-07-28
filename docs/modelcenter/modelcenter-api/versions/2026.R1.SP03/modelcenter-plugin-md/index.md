@@ -11,9 +11,9 @@
 # Index pages
 
 * [Global index](global_index.md)
-* [Classes](class_index.md)
-* [Interfaces](interface_index.md)
-* [Namespaces](namespace_index.md)
-* [Files](file_index.md)
-* [Directories](dir_index.md)
-* [Pages](page_index.md)
+* [Classes index](class_index.md)
+* [Interfaces index](interface_index.md)
+* [Namespaces index](namespace_index.md)
+* [Files index](file_index.md)
+* [Directories index](dir_index.md)
+* [Pages index](page_index.md)
