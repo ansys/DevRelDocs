@@ -1,9 +1,8 @@
-<a id="namespaceTradeStudyPlugIn"></a>
 # Namespace TradeStudyPlugIn
 
 ![][IDL]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 7)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 7)
 
 
 
@@ -49,12 +48,6 @@ TradeStudyPlugIn::importlib("stdole32.tlb")
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::importlib"}]}`
--->
-
 <a id="TradeStudyPlugIn_8odl_1a6f9be822941ca29fb4380a23d65b3994"></a>
 ### Function importlib
 
@@ -77,12 +70,6 @@ TradeStudyPlugIn::importlib("stdole2.tlb")
 * "stdole2.tlb"
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::importlib"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

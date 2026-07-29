@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ITradeStudyEvents"></a>
 # Interface ModelCenter::ITradeStudyEvents
 
 ![][IDL]
@@ -38,12 +37,6 @@ Function that is called when a trade study has started its run.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ITradeStudyEvents::StartToolRun"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ITradeStudyEvents_1a2fd4f50429de83a6469ff4146c2202eb"></a>
 ### Function EndToolRun
 
@@ -62,12 +55,6 @@ Function that is called when a trade study has finished running.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ITradeStudyEvents::EndToolRun"}]}`
--->
 
 <a id="interfaceModelCenter_1_1ITradeStudyEvents_1aceebb769e27511c9b87462b8fa9ef16f"></a>
 ### Function ToolClosed
@@ -95,12 +82,6 @@ Function that is called when a trade study has closed.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ITradeStudyEvents::ToolClosed"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ITradeStudyEvents_1a09c0d68be95fb162874e4da3d0965749"></a>
 ### Function ModelXMLExtensionsChanged
 
@@ -119,12 +100,6 @@ This event is raised whenever the XML extensions for the main model are changed.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ITradeStudyEvents::ModelXMLExtensionsChanged"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

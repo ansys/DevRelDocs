@@ -1,10 +1,9 @@
-<a id="interfaceComponentPlugIn_1_1IComponentPlugIn"></a>
 # Interface ComponentPlugIn::IComponentPlugIn
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_ComponentPlugIn/ComponentPlugIn.odl` (line 18)
+**Definition**: `ModelCenter/src/InterfaceDLL_ComponentPlugIn/ComponentPlugIn.odl` (line 18)
 
 
 
@@ -46,12 +45,6 @@ void ComponentPlugIn::IComponentPlugIn::construct(IDispatch *modelCenter, IDispa
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::IComponentPlugIn::construct"}]}`
--->
-
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1adeb4964522dc6e485c3de4bef39a9019"></a>
 ### Function show
 
@@ -71,12 +64,6 @@ boolean ComponentPlugIn::IComponentPlugIn::show()
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::IComponentPlugIn::show"}]}`
--->
-
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1a14fe2c260d7d43a7f6d1cf661a34189d"></a>
 ### Function toString
 
@@ -95,12 +82,6 @@ BSTR ComponentPlugIn::IComponentPlugIn::toString()
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::IComponentPlugIn::toString"}]}`
--->
 
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1a3e35deaee9587905584aa8926b2076de"></a>
 ### Function fromString
@@ -125,12 +106,6 @@ void ComponentPlugIn::IComponentPlugIn::fromString(BSTR setupString)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::IComponentPlugIn::fromString"}]}`
--->
-
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1a8745a0b6d995a55b708876bcf0b6d7ab"></a>
 ### Function run
 
@@ -150,12 +125,6 @@ void ComponentPlugIn::IComponentPlugIn::run()
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::IComponentPlugIn::run"}]}`
--->
-
 <a id="interfaceComponentPlugIn_1_1IComponentPlugIn_1aa280f5643ed0afe304a3ea2556b41159"></a>
 ### Function onEnd
 
@@ -174,12 +143,6 @@ void ComponentPlugIn::IComponentPlugIn::onEnd()
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ComponentPlugIn::IComponentPlugIn::onEnd"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

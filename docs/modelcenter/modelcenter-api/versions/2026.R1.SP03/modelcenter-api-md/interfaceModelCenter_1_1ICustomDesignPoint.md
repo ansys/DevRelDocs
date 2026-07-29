@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ICustomDesignPoint"></a>
 # Interface ModelCenter::ICustomDesignPoint
 
 ![][IDL]
@@ -63,12 +62,6 @@ Adds a variable to the custom design point.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICustomDesignPoint::addVariable"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ICustomDesignPoint_1a7c8bc37e4f17ff29cc066d8e9645d9dd"></a>
 ### Function runFailed
 
@@ -100,12 +93,6 @@ Tells the Data Collector that this run failed.
 * BSTR **reason**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ICustomDesignPoint::runFailed"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

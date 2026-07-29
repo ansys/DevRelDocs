@@ -1,4 +1,3 @@
-<a id="namespaceModelCenter"></a>
 # Namespace ModelCenter
 
 ![][IDL]
@@ -89,52 +88,46 @@ Type of metadata.
 
 
 <a id="namespaceModelCenter_1a59560dc5274b3a18daae06b531055153ab0ea415d391c664f7c4c20e41e6a5b5b"></a>
-#### Enumerator METADATA\_TYPE\_STRING
+#### Enumerator METADATA_TYPE_STRING
 
 
 
 
 
 <a id="namespaceModelCenter_1a59560dc5274b3a18daae06b531055153a1ef8fb522f41ea233866f7058fde8a23"></a>
-#### Enumerator METADATA\_TYPE\_DOUBLE
+#### Enumerator METADATA_TYPE_DOUBLE
 
 
 
 
 
 <a id="namespaceModelCenter_1a59560dc5274b3a18daae06b531055153a7f0cc46935e8f50a3ff7125e9ccac82a"></a>
-#### Enumerator METADATA\_TYPE\_LONG
+#### Enumerator METADATA_TYPE_LONG
 
 
 
 
 
 <a id="namespaceModelCenter_1a59560dc5274b3a18daae06b531055153a0cb9ab8e21174262b86c899965d618c5"></a>
-#### Enumerator METADATA\_TYPE\_BOOLEAN
+#### Enumerator METADATA_TYPE_BOOLEAN
 
 
 
 
 
 <a id="namespaceModelCenter_1a59560dc5274b3a18daae06b531055153a934405f69eb259b948fdda69fda36cdd"></a>
-#### Enumerator METADATA\_TYPE\_XML
+#### Enumerator METADATA_TYPE_XML
 
 
 
 
 
 <a id="namespaceModelCenter_1a59560dc5274b3a18daae06b531055153afd2104e48eb6bb48323751a8b15395c2"></a>
-#### Enumerator METADATA\_TYPE\_FORCE\_TO\_32\_BITS
+#### Enumerator METADATA_TYPE_FORCE_TO_32_BITS
 
 
 
 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::MetadataType"}]}`
--->
 
 <a id="namespaceModelCenter_1afea526d882aa1a4fd48b5a28b7b1c9dc"></a>
 ### Enumeration type MetadataAccess
@@ -161,38 +154,32 @@ Access allowed for metadata.
 
 
 <a id="namespaceModelCenter_1afea526d882aa1a4fd48b5a28b7b1c9dca193d415dae56a753d64d37bcb67a2285"></a>
-#### Enumerator METADATA\_ACCESS\_PRIVATE
+#### Enumerator METADATA_ACCESS_PRIVATE
 
 
 
 
 
 <a id="namespaceModelCenter_1afea526d882aa1a4fd48b5a28b7b1c9dcae1023b575b4ff76a772e10c9162dd467"></a>
-#### Enumerator METADATA\_ACCESS\_READONLY
+#### Enumerator METADATA_ACCESS_READONLY
 
 
 
 
 
 <a id="namespaceModelCenter_1afea526d882aa1a4fd48b5a28b7b1c9dcaed115b108b3a38e88e5f5a3a1e17cf13"></a>
-#### Enumerator METADATA\_ACCESS\_PUBLIC
+#### Enumerator METADATA_ACCESS_PUBLIC
 
 
 
 
 
 <a id="namespaceModelCenter_1afea526d882aa1a4fd48b5a28b7b1c9dca637668ae8a3b4e7805346e7f1db302d5"></a>
-#### Enumerator METADATA\_ACCESS\_FORCE\_TO\_32\_BITS
+#### Enumerator METADATA_ACCESS_FORCE_TO_32_BITS
 
 
 
 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::MetadataAccess"}]}`
--->
 
 <a id="namespaceModelCenter_1af45bfe44662b4647910a30bb0ba41dca"></a>
 ### Enumeration type TradeStudyFormat
@@ -219,7 +206,7 @@ An enumeration of the different trade study file formats
 
 
 <a id="namespaceModelCenter_1af45bfe44662b4647910a30bb0ba41dcaac6d6ad08981541727efbbf8c181674cf"></a>
-#### Enumerator TS\_FORMAT\_PXTZ
+#### Enumerator TS_FORMAT_PXTZ
 
 
 
@@ -229,7 +216,7 @@ Used to signify that the format PXTZ was selected and that a file should be save
 This file format is deprecated and files can no longer be saved in this format.
 
 <a id="namespaceModelCenter_1af45bfe44662b4647910a30bb0ba41dcaac387037adbfc62827fa1523fc69a1278"></a>
-#### Enumerator TS\_FORMAT\_PXT\_COMPRESSED
+#### Enumerator TS_FORMAT_PXT_COMPRESSED
 
 
 
@@ -239,7 +226,7 @@ Used to signify that the format PXT (Compressed) was selected and that a file sh
 This file format is deprecated and files can no longer be saved in this format.
 
 <a id="namespaceModelCenter_1af45bfe44662b4647910a30bb0ba41dcaaeead4e562c092545f613d220eb2df08e"></a>
-#### Enumerator TS\_FORMAT\_PXT\_UNCOMPRESSED
+#### Enumerator TS_FORMAT_PXT_UNCOMPRESSED
 
 
 
@@ -249,17 +236,11 @@ Used to signify that the format PXT (Uncompressed) was selected and that a file 
 This file format is deprecated and files can no longer be saved in this format.
 
 <a id="namespaceModelCenter_1af45bfe44662b4647910a30bb0ba41dcaa3332e2d8a655365e5c1fee1d8f1fa436"></a>
-#### Enumerator TS\_FORMAT\_TSTUDY
+#### Enumerator TS_FORMAT_TSTUDY
 
 
 
 Used to signify that the format TSTUDY was selected and that a file should be saved in that format
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::TradeStudyFormat"}]}`
--->
 
 <a id="namespaceModelCenter_1a1abdd6ad1a16bfaa9539e9a1ccc3c1a0"></a>
 ### Enumeration type VersionStatus
@@ -285,31 +266,25 @@ Versioning option for saving to [ModelCenter](namespaceModelCenter.md#namespaceM
 
 
 <a id="namespaceModelCenter_1a1abdd6ad1a16bfaa9539e9a1ccc3c1a0a1db01871f227cbb9c0ff450f45faeb85"></a>
-#### Enumerator DO\_VERSIONING
+#### Enumerator DO_VERSIONING
 
 
 
 
 
 <a id="namespaceModelCenter_1a1abdd6ad1a16bfaa9539e9a1ccc3c1a0ab728b53581051a989c0a4a20d5a0b7ac"></a>
-#### Enumerator DO\_NOT\_VERSION
+#### Enumerator DO_NOT_VERSION
 
 
 
 
 
 <a id="namespaceModelCenter_1a1abdd6ad1a16bfaa9539e9a1ccc3c1a0a0f9c1842a82241069e6d7de3b1164023"></a>
-#### Enumerator DO\_VERSIONING\_IF\_POSSIBLE
+#### Enumerator DO_VERSIONING_IF_POSSIBLE
 
 
 
 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::VersionStatus"}]}`
--->
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625"></a>
 ### Enumeration type AssemblyStyle
@@ -338,52 +313,46 @@ Ways to display an assembly.
 
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625a6b01dbb284343f3c49f9ac2318be4aa3"></a>
-#### Enumerator ASSEMBLY\_STYLE\_COLLAPSED
+#### Enumerator ASSEMBLY_STYLE_COLLAPSED
 
 
 
 Collapse the assembly. Not allowed for the model.
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625ae5a9a245bacc433385a01acb31722bf8"></a>
-#### Enumerator ASSEMBLY\_STYLE\_EXPANDED
+#### Enumerator ASSEMBLY_STYLE_EXPANDED
 
 
 
 Expand the assembly. No effect for the model.
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625a853070b6a8d1299e8d9e7f846a1f2e69"></a>
-#### Enumerator ASSEMBLY\_STYLE\_CLASSIC
+#### Enumerator ASSEMBLY_STYLE_CLASSIC
 
 
 
 Set to classic view. Only valid for Data Dependency assemblies.
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625af225405c171ad35d8e7caad44414d736"></a>
-#### Enumerator ASSEMBLY\_STYLE\_N\_SQUARED
+#### Enumerator ASSEMBLY_STYLE_N_SQUARED
 
 
 
 Set to N^2 view. Only valid for Data Dependency assemblies.
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625a53d3ac52946f367fea3960b418f30626"></a>
-#### Enumerator ASSEMBLY\_STYLE\_AUTO\_N\_SQUARED
+#### Enumerator ASSEMBLY_STYLE_AUTO_N_SQUARED
 
 
 
 Set to auto-N^2 view. Only valid for Data Dependency assemblies.
 
 <a id="namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625ae20fa83961bd74d6133ceec0849d4c1c"></a>
-#### Enumerator ASSEMBLY\_STYLE\_FORCE\_32\_BITS
+#### Enumerator ASSEMBLY_STYLE_FORCE_32_BITS
 
 
 
 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::AssemblyStyle"}]}`
--->
 
 <a id="namespaceModelCenter_1a916012c305b3ade57ea11ed7fe1f6af2"></a>
 ### Enumeration type OnConnectionErrorMode
@@ -409,31 +378,25 @@ Mode of action to take when there is an error with connection. Used with [loadMo
 
 
 <a id="namespaceModelCenter_1a916012c305b3ade57ea11ed7fe1f6af2a32466c6ffbbfd1d8cae3f96e7565e049"></a>
-#### Enumerator CONN\_ERR\_ERROR
+#### Enumerator CONN_ERR_ERROR
 
 
 
 Abort loading and throw the error back to the caller.
 
 <a id="namespaceModelCenter_1a916012c305b3ade57ea11ed7fe1f6af2aa1a76a2bf1e5b53785d9e1c8389b9369"></a>
-#### Enumerator CONN\_ERR\_IGNORE
+#### Enumerator CONN_ERR_IGNORE
 
 
 
 Ignore the error and continue loading (as if user has pressed "Ignore" in the dialog).
 
 <a id="namespaceModelCenter_1a916012c305b3ade57ea11ed7fe1f6af2a4e520a601326fcb3e1324c9a950a541d"></a>
-#### Enumerator CONN\_ERR\_USEDIALOG
+#### Enumerator CONN_ERR_USEDIALOG
 
 
 
 (option not available when running ModelCenter in server mode) Shows the error as if the user were loading the file manually with full control.
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::OnConnectionErrorMode"}]}`
--->
 
 ## Functions
 
@@ -459,12 +422,6 @@ ModelCenter::importlib("stdole32.tlb")
 * "stdole32.tlb"
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::importlib"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

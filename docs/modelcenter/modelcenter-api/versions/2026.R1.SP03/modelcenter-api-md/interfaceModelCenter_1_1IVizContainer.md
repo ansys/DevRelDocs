@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IVizContainer"></a>
 # Interface ModelCenter::IVizContainer
 
 ![][IDL]
@@ -43,12 +42,6 @@ Indicates whether container is visible.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::Visible"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IVizContainer_1a4971d80a859be3f620c329dbc5019d7d"></a>
 ### Property HWnd
 
@@ -69,12 +62,6 @@ Returns the Hwnd for the container instance.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::HWnd"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IVizContainer_1a1022454788e8b96f6e84ad60e652bbe3"></a>
 ### Property id
@@ -97,12 +84,6 @@ Returns the COM instance of IDataExplorerPlugIn implementation of the container.
 
 **Return type**: DataExplorer
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::id"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IVizContainer_1a12129753b07898622d2e8a55801ef19d"></a>
@@ -124,12 +105,6 @@ Hides the container. Does not remove or close it.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::hide"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IVizContainer_1ae8ccfc592c21eb6adffad9502e4b28fb"></a>
 ### Function show
 
@@ -149,12 +124,6 @@ Displays the container and brings it to foreground.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::show"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IVizContainer_1a380f514b047b16f7cfb2fa4bacba4e6c"></a>
 ### Function fileSaved
 
@@ -173,12 +142,6 @@ Tell the container that the file was saved
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::fileSaved"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IVizContainer_1a69bf3249d5ef44ef0eee2152724f9457"></a>
 ### Function showAt
@@ -213,12 +176,6 @@ Displays the container at the given position in the given state.
 * _[optional]_ VARIANT **state**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVizContainer::showAt"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IRefArrayProp"></a>
 # Interface ModelCenter::IRefArrayProp
 
 ![][IDL]
@@ -42,12 +41,6 @@ Enumerated values of the reference array property.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::enumValues"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a6a71677c0367f53bb39861474c8ce11e"></a>
 ### Property isInput
 
@@ -68,12 +61,6 @@ Enumerated values of the reference array property.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::isInput"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IRefArrayProp_1aaa7d8507dbf83d2cad6eea2266fa98fb"></a>
 ### Property title
@@ -96,12 +83,6 @@ Title of the reference array property.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::title"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a0b98819f11c5c2e7c916a4e629199d48"></a>
 ### Property description
 
@@ -122,12 +103,6 @@ Description of the reference array property.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::description"}]}`
--->
 
 ## Public functions
 
@@ -159,12 +134,6 @@ The name of the reference array property.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IRefArrayProp_1a60190ee41cfbc6624a138dba5c790d00"></a>
 ### Function getType
 
@@ -192,12 +161,6 @@ The type of the reference array property.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefArrayProp::getType"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

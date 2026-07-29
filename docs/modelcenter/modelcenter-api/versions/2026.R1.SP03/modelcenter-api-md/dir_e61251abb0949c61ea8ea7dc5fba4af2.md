@@ -1,4 +1,3 @@
-<a id="dir_e61251abb0949c61ea8ea7dc5fba4af2"></a>
 # Directory ModelCenter
 
 **Location**: `ModelCenter/`

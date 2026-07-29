@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner"></a>
 # Interface PHXDATAEXPLORERLib::IDataExplorerFacadeOwner
 
 ![][IDL]

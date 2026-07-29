@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IAddToModel"></a>
 # Interface ModelCenter::IAddToModel
 
 ![][IDL]
@@ -122,12 +121,6 @@ atm.prevalidateInputs=false
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::prevalidateInputs"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1aa714911e950223667ee525a435b00b7a"></a>
 ### Property autoRun
 
@@ -165,12 +158,6 @@ atm.autoRun=True
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::autoRun"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IAddToModel_1a58f5f3bc676a7c683ea4fc9b531d608f"></a>
@@ -192,12 +179,6 @@ Adds a Trade Study or Data Collector Plug-In to the Model as a Component Plug-In
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addToModel"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a7f5a3a1914714827435dfd59e9be5e32"></a>
 ### Function updateComponent
 
@@ -216,12 +197,6 @@ Reinitializes the inputs and outputs of a Component Plug-In. The [addInput()](in
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::updateComponent"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1ae5ee8b89f3b20182eb2ab707460fe751"></a>
 ### Function getComponent
@@ -250,12 +225,6 @@ IDispatch* to an [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMod
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::getComponent"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1ac0dd856b24d06484c6ded0aba0199016"></a>
 ### Function getRegID
@@ -297,12 +266,6 @@ Registry ID of the Plug-In.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::getRegID"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1a62816c713535ea573159c78f709aa04e"></a>
 ### Function addInput
@@ -374,12 +337,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a073c5f4a93c492f05fe361ca1799974e"></a>
 ### Function addOutput
 
@@ -450,12 +407,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addOutput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a0b7490ab8fe0d89e8ecb6478cfbee8e9"></a>
 ### Function getProgID
 
@@ -497,12 +448,6 @@ ProgID of the COM Plug-In.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::getProgID"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a0799afa68197fad61909e0a271e28993"></a>
 ### Function setAuthor
 
@@ -534,12 +479,6 @@ Defines the author of this Plug-In. Use this method to set the Component metadat
 * BSTR **author**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setAuthor"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1a04419d1a39017fa8f13b83720fdca196"></a>
 ### Function setDescription
@@ -573,12 +512,6 @@ Defines the description of this Plug-In. Use this method to set the Component me
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setDescription"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a13e4e0a07dfd282fa44afcb16c06aac8"></a>
 ### Function setVersion
 
@@ -610,12 +543,6 @@ Defines the version of this Plug-In. Use this method to set the Component metada
 * BSTR **version**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setVersion"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1af83b75cc2e88ab4935fdbd04e094bc21"></a>
 ### Function setHelpURL
@@ -649,12 +576,6 @@ Defines the help URL of this Plug-In. Use this method to set the Component metad
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setHelpURL"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a1cafe3fad847bbafcea6adc616c2f97b"></a>
 ### Function setKeywords
 
@@ -687,12 +608,6 @@ Defines the keywords for this Plug-In. Use this method to set the Component meta
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setKeywords"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1aa73cb2b559ec21ef817b241e7f943e8a"></a>
 ### Function clearBusyFlag
 
@@ -711,12 +626,6 @@ Clears the busy state of [ModelCenter](namespaceModelCenter.md#namespaceModelCen
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::clearBusyFlag"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1ab0bc1abd000532d2d89d6179868431fc"></a>
 ### Function addToModel2
@@ -745,12 +654,6 @@ Whether or not the operation completed successfully.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addToModel2"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1a0b44c7a2dbdcac528e00911168a8ae05"></a>
 ### Function setComponentRequirements
@@ -784,12 +687,6 @@ Defines the requirements for this Plug-In. Use this method to set the Component 
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setComponentRequirements"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1ad14bf669563d84f430c220a1bc1bd94c"></a>
 ### Function setIcon
 
@@ -815,12 +712,6 @@ Sets the Plug-In icon.
 * BSTR **iconFile**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::setIcon"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1a1ef6ce942ff5def3c8faa1c4d6d52106"></a>
 ### Function addMethod
@@ -855,12 +746,6 @@ Adds the method.
 * _[optional]_ VARIANT **displayName**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addMethod"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAddToModel_1a915f8989fd54300d4ce830d37c2682bf"></a>
 ### Function addInput2
@@ -934,12 +819,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addInput2"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1a34633d249d8fd7b02a28c3158c6dbae6"></a>
 ### Function addOutput2
 
@@ -1012,12 +891,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addOutput2"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAddToModel_1ac2d1861e463ef89757948bb091502dbb"></a>
 ### Function addToModel3
 
@@ -1054,12 +927,6 @@ Whether or not the operation completed successfully.
 * BSTR **suggestedName**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAddToModel::addToModel3"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

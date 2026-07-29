@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IJobManager"></a>
 # Interface ModelCenter::IJobManager
 
 ![][IDL]
@@ -63,12 +62,6 @@ boolean ModelCenter::IJobManager::wasHalted
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::wasHalted"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IJobManager_1ab95c6155dd1c2dbd24441bf3641a5542"></a>
@@ -104,12 +97,6 @@ Adds an input to all runs in the Job Manager.
 * BSTR **label**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::addInput"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1abd6b3fa7a63b620f95141c191cd1c29e"></a>
 ### Function setInput
@@ -147,12 +134,6 @@ Sets the value for a specified input variable for a specified run.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::setInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a4591b4c0b98d14307aa691f42547c97e"></a>
 ### Function addOutput
 
@@ -187,12 +168,6 @@ Adds an output to all runs in the Job Manager.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::addOutput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a53f5cbf8459b20f9c748535d8013eafd"></a>
 ### Function getValidateAll
 
@@ -220,12 +195,6 @@ yes(TRUE) or no(FALSE).
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getValidateAll"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1aefca61419c9622f520429f257aa6061c"></a>
 ### Function setValidateAll
@@ -259,12 +228,6 @@ Sets whether or not the Job Manager will validate everything.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::setValidateAll"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1ae63c0e8eda0494dda49ee20141f11ece"></a>
 ### Function getNumRuns
 
@@ -292,12 +255,6 @@ The number of runs.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getNumRuns"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1a89e662a1a1c15ed27f8517b5a526b94d"></a>
 ### Function setNumRuns
@@ -330,12 +287,6 @@ Sets the number of runs that will take place in this job matrix.
 * long **numRuns**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::setNumRuns"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1ad1b204f5e684c57b28dc1e3dc733e285"></a>
 ### Function submit
@@ -373,12 +324,6 @@ Causes the run matrix to begin.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::submit"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a65bfecf019c1e9c8752fa3c90fd5d3a7"></a>
 ### Function waitForJobCompletion
 
@@ -397,12 +342,6 @@ Waits until the current run matrix has completed before continuing.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::waitForJobCompletion"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1a3e06470a8599a950a01c275f75c0d6cb"></a>
 ### Function addRerun
@@ -436,12 +375,6 @@ The job manager may alternately be used to re-run runs out of an existing Data C
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::addRerun"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1aa550897654f63d845e410ac9bda26b8a"></a>
 ### Function halt
 
@@ -474,12 +407,6 @@ Halt the running job in the Job Manager.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::halt"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1ad8dcd18454e462b191092edd4096ab0c"></a>
 ### Function getNumInputs
 
@@ -508,12 +435,6 @@ The number of inputs.
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getNumInputs"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a49fae6444ed2747c716f7829f8113969"></a>
 ### Function getNumOutputs
 
@@ -541,12 +462,6 @@ The number of outputs.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getNumOutputs"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1ac205f68299271d8e97adbc34f7c33655"></a>
 ### Function getInput
@@ -585,12 +500,6 @@ The input.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1aede4e8c73a70bff3143317d0fa8dca97"></a>
 ### Function getOutput
 
@@ -627,12 +536,6 @@ The output.
 * long **index**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getOutput"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1a4d6a218d3dfff84908b13db7016a947c"></a>
 ### Function getInputLabel
@@ -671,12 +574,6 @@ The label of the input.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getInputLabel"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a7665a71ea25ae6436d201cd2e339e976"></a>
 ### Function getOutputLabel
 
@@ -714,12 +611,6 @@ The label of the output.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getOutputLabel"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a2a6391025814c8b85861fe9d8eaebf58"></a>
 ### Function getNumThreads
 
@@ -748,12 +639,6 @@ The number of threads to use
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getNumThreads"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a8893b7830affcf596e4a6d149ab47753"></a>
 ### Function getRunInParallel
 
@@ -781,12 +666,6 @@ true if the job is to be ran in parallel false otherwise.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getRunInParallel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1a034974bf844d74af316ef687be4b84f7"></a>
 ### Function setNumThreads
@@ -820,12 +699,6 @@ Set the number of threads to use if the job is to be ran in parallel.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::setNumThreads"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a660d28f5c25a2efbe370cb162bc58f4e"></a>
 ### Function setRunInParallel
 
@@ -857,12 +730,6 @@ Tell the job manager to run the job in parallel.
 * boolean **runInParallel**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::setRunInParallel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1af28b9a4ab0944f31f2d157ab6826999c"></a>
 ### Function enableCache
@@ -901,12 +768,6 @@ Previous setting.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::enableCache"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a06a3f847d50eb2f10e3b061ea91b453b"></a>
 ### Function clearCache
 
@@ -925,12 +786,6 @@ Method to actively clear job manager's internal cache of executed runs.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::clearCache"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1a03b40110aba59370e9eb6aad1b6b2076"></a>
 ### Function getRunIndex
@@ -971,12 +826,6 @@ index of design in data explorer if design found else -1 <br/>
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::getRunIndex"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IJobManager_1a1bce7921ac7cedd5712423589b99afb2"></a>
 ### Function resume
 
@@ -1002,12 +851,6 @@ Pick up from the last checkpoint in a data history. If you subsequently pass a d
 * IDispatch * **dataHistory**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::resume"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IJobManager_1ad106f381c9834b32c12e169264f1272a"></a>
 ### Function setCustomMetadata
@@ -1044,12 +887,6 @@ Add custom metadata to a variable.
 * BSTR **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IJobManager::setCustomMetadata"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

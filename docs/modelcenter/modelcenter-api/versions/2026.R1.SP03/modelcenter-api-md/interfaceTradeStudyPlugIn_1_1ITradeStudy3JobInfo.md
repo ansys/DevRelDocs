@@ -1,10 +1,9 @@
-<a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobInfo"></a>
 # Interface TradeStudyPlugIn::ITradeStudy3JobInfo
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 193)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 193)
 
 
 
@@ -26,7 +25,7 @@
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 201)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 201)
 
 
 ```
@@ -42,18 +41,12 @@ Get the number of runs.
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobInfo::numRuns"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobInfo_1ae684750b56d166406294cfc78bda83b3"></a>
 ### Property numVariables
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 206)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 206)
 
 
 ```
@@ -68,12 +61,6 @@ Get the number of inputs.
 
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobInfo::numVariables"}]}`
--->
 
 ## Public functions
 
@@ -107,12 +94,6 @@ The equation.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobInfo::getVariableEquation"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobInfo_1a6e0f4277d79e93bd5d08fa7e548394a0"></a>
 ### Function getVariableDisplayName
 
@@ -142,12 +123,6 @@ The display name.
 * long **index**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobInfo::getVariableDisplayName"}]}`
--->
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobInfo_1abbcbe48e293004c4cd609b574ecf94fa"></a>
 ### Function isDesignVariable
@@ -179,12 +154,6 @@ The variable type.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobInfo::isDesignVariable"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobInfo_1a02ddc66a224fd3c8fe04ec8ec60959e5"></a>
 ### Function isInput
 
@@ -214,12 +183,6 @@ The variable type.
 * VARIANT **which**
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobInfo::isInput"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

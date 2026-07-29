@@ -1,5 +1,4 @@
-<a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel"></a>
-# Interface PHXDATAHISTORYLib::\_DPHXDataHistoryToModel
+# Interface PHXDATAHISTORYLib::_DPHXDataHistoryToModel
 
 ![][IDL]
 ![][public]
@@ -59,12 +58,6 @@ TRUE if the run could be saved, FALSE if not
 
 **Return type**: BOOL
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canSaveToModel"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a6efbbc76935609344ddfe8b48eaac5c1"></a>
 ### Function saveToModel
 
@@ -99,12 +92,6 @@ Notify that a user has requested to save the indicated run to the model. <br/>
 * long **run**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::saveToModel"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a080673db51fe153fd870e46b9dd4f221"></a>
 ### Function canRerunRuns
@@ -145,12 +132,6 @@ True if the runs can be re-run, false if not.
 
 **Return type**: BOOL
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canRerunRuns"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a2d1c0808d8fcdfe748d3194c45eda87a"></a>
 ### Function rerunRuns
 
@@ -184,12 +165,6 @@ Notify that the user has requested to re-run a set of runs. Does not wait for th
 * VARIANT **runs**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::rerunRuns"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel_1a9ead478fc2486a3ac01b73ee8b3962be"></a>
 ### Function closeDataHistory
@@ -227,12 +202,6 @@ Notify that the user is attempting to close the given data history.
 * LPDISPATCH **dataHistory**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryToModel::closeDataHistory"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
