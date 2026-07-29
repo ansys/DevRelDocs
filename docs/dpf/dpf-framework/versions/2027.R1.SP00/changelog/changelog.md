@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-28).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-29).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -52,7 +52,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [19 items](#Features_native) |[31 items](#Fixes_native) |
+| native | [20 items](#Features_native) |[32 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -2866,6 +2866,17 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Utility operators for the optimized SVD compression workflow:
+  > - Added operator _split_vector_elements_ which takes a vector and outputs each element in a separate pin.
+  >
+  > - Added operator _concatenate_objects_to_vector_ which creates a vector out of elements given in separate pins.
+  >
+  > - Added data attribute to _field::get_attribute_, _customtypefield::get_attribute_ and _propertyfield::get_attribute_
+  >
+  > 
+  >
+  > 
+
 - Operator to connect pins of a workflow:
   > 
   >
@@ -3008,6 +3019,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Make split_vector_elements and concatenate_objects_to_vector operators private:
+  > 
+  >
+  > Make `split_vector_elements` and `concatenate_objects_to_vector` operators private.
+  >
+  > 
+  >
+  > 
 
 - Fix CScopingProviderProperty for HDF5:
   > 

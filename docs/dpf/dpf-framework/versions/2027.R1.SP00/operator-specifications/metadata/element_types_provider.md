@@ -2,6 +2,8 @@
 category: metadata
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
 ---
 
 # metadata:element types provider
@@ -20,6 +22,12 @@ Reads element types data from the result files contained in the streams or data 
   - nodstr: Number of nodes per element having nodal stresses.
   - new_gen_element: Element of new generation.
 - If the output is a PropertyField, it contains the 200 possible ElementTypesProperties for each solver element type id. These properties are in the order documented in ansys/customize/include/echprm.inc and have the meaning documented in ansys/customize/include/elccmt.inc.
+
+## Supported file types
+
+This operator supports the following [result file types](../../index.md#overview-of-dpf) and associated file extensions:
+
+- hdf5: h5dpf 
 
 ## Inputs
 
