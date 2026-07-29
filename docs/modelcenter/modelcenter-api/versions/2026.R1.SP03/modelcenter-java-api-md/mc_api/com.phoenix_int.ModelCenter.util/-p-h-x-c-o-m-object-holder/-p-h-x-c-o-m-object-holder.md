@@ -1,4 +1,0 @@
-# PHXCOMObjectHolder
-
-
-constructor()

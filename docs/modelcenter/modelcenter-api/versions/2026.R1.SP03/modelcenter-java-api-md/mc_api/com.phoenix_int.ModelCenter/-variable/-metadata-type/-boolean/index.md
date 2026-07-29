@@ -1,4 +1,0 @@
-# Boolean
-
-
-[Boolean](index.md)

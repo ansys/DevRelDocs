@@ -1,4 +1,0 @@
-# Public
-
-
-[Public](index.md)

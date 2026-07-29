@@ -1,4 +1,0 @@
-# Double
-
-
-[Double](index.md)

@@ -1,4 +1,0 @@
-# Private
-
-
-[Private](index.md)

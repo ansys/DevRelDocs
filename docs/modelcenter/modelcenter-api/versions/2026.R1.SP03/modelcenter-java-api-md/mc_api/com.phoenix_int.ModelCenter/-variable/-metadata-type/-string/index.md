@@ -1,4 +1,0 @@
-# String
-
-
-[String](index.md)

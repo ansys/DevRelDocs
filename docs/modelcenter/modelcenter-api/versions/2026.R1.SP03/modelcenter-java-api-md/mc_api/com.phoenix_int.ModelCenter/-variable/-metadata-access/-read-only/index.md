@@ -1,4 +1,0 @@
-# ReadOnly
-
-
-[ReadOnly](index.md)
