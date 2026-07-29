@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IFileSystemInfo"></a>
 # Interface ModelCenter::IFileSystemInfo
 
 ![][IDL]
@@ -42,12 +41,6 @@ Indicates whether the object is valid.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileSystemInfo::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileSystemInfo_1a5f79e2722103398d5f02e9fbb3c08c8b"></a>
 ### Property exists
 
@@ -75,12 +68,6 @@ NOTE: other operations may fail or return default values if the object does not 
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileSystemInfo::exists"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileSystemInfo_1a349473cf74146c2b8c824e0c47c899e5"></a>
 ### Property isWritable
 
@@ -101,12 +88,6 @@ Indicates whether the object is writable (true) or read-only (false).
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileSystemInfo::isWritable"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileSystemInfo_1a0f840f7244ed0a52fa4d7c2a19a08264"></a>
 ### Property baseName
@@ -135,12 +116,6 @@ For example, if this is readme.txt, version 2, this function will return "readme
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileSystemInfo::baseName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileSystemInfo_1addbccbd60da206c6fb480eb4fe05e967"></a>
 ### Property url
 
@@ -161,12 +136,6 @@ Get the full URL of the object as a string.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileSystemInfo::url"}]}`
--->
 
 ## Public functions
 
@@ -220,12 +189,6 @@ IDispatch* to an [ICachePin](interfaceModelCenter_1_1ICachePin.md#interfaceModel
 * _[optional]_ VARIANT **forceCopy**
 
 **Return type**: LPDISPATCH
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileSystemInfo::pin"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

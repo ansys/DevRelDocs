@@ -4,7 +4,8 @@
 
 ### Changed
 
-- Regenerated COM/.NET/plugin API reference from upstream MC_API (Jenkins MC_API_ADO #476 Seaborg output). Added modelcenter-common-md/ and modelcenter-plugin-md/ packages; refreshed modelcenter-api-md/ (122 topics). Java API unchanged. #1471466
+- Regenerated COM API reference from upstream MC_API (Jenkins MC_API_ADO #476 Seaborg output). Refreshed modelcenter-api-md/ (122 topics). Java API unchanged. Common and Plugin API Seaborg outputs from MC_API are not published in this package. #1471466
+- Seaborg post-process (oSL recipe): strip pre-H1 `<a id>` anchors so Dev portal page titles use the H1 (`Class ModelCenter::Application`, etc.) instead of Doxygen refids. #1471466
 
 ## 2026 R1
 

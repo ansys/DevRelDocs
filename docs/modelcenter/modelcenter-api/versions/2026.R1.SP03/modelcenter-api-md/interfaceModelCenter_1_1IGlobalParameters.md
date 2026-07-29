@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IGlobalParameters"></a>
 # Interface ModelCenter::IGlobalParameters
 
 ![][IDL]
@@ -12,7 +11,7 @@ A set of name/value pairs that can be used for programmatic purposes. Values are
 
 ## Members
 
-* [\_item](interfaceModelCenter_1_1IGlobalParameters.md#interfaceModelCenter_1_1IGlobalParameters_1a63a265a486f6a3a5df9cde8b65217d5f)
+* [_item](interfaceModelCenter_1_1IGlobalParameters.md#interfaceModelCenter_1_1IGlobalParameters_1a63a265a486f6a3a5df9cde8b65217d5f)
 * [count](interfaceModelCenter_1_1IGlobalParameters.md#interfaceModelCenter_1_1IGlobalParameters_1a53be79855251a6bd40bd71f35c4f6d8d)
 * [item](interfaceModelCenter_1_1IGlobalParameters.md#interfaceModelCenter_1_1IGlobalParameters_1a1fdee032bf053c5f99b0291bf04dcaec)
 * [Remove](interfaceModelCenter_1_1IGlobalParameters.md#interfaceModelCenter_1_1IGlobalParameters_1ae838217b346390c972f8173e9a55361c)
@@ -40,12 +39,6 @@ The count of the name/value pairs.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::count"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IGlobalParameters_1a1fdee032bf053c5f99b0291bf04dcaec"></a>
 ### Property item
@@ -94,14 +87,8 @@ Receives the value of a particular parameter.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::item"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IGlobalParameters_1a63a265a486f6a3a5df9cde8b65217d5f"></a>
-### Property \_item
+### Property _item
 
 ![][private]
 
@@ -120,12 +107,6 @@ VARIANT ModelCenter::IGlobalParameters::_item
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::_item"}]}`
--->
 
 ## Public functions
 
@@ -163,12 +144,6 @@ Sets whether this name/value pair is passed to external servers when a component
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::setExportToRemoteComponents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IGlobalParameters_1ae838217b346390c972f8173e9a55361c"></a>
 ### Function Remove
 
@@ -200,12 +175,6 @@ Removes a named parameter.
 * VARIANT **index**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGlobalParameters::Remove"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

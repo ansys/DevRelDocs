@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1ISaveContext"></a>
 # Interface PHXDATAHISTORYLib::ISaveContext
 
 ![][IDL]
@@ -56,12 +55,6 @@ true if the file was saved successfully; false otherwise
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::saveFile"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a90cd640253dfeb285c7c66803e61f6ac"></a>
 ### Function restoreFile
 
@@ -95,12 +88,6 @@ true if a file with the given id was restored, false on failure
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::restoreFile"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a314e254f112778f1bb9839e157fcc532"></a>
 ### Function close
 
@@ -119,12 +106,6 @@ Closes the save context.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::close"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a02bf3019e5a957a4db2daff6dda6ca28"></a>
 ### Function getSaveLocation
@@ -147,12 +128,6 @@ the save context file path
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::getSaveLocation"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1a840d41a9c874a046867c9d25c8a0d628"></a>
 ### Function saveFileStream
@@ -185,12 +160,6 @@ output stream for saving
 
 **Return type**: LPUNKNOWN
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::saveFileStream"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1ad11ce33d8317c86c335597d0e8389578"></a>
 ### Function restoreFileStream
 
@@ -222,12 +191,6 @@ input stream for restoring
 
 **Return type**: LPUNKNOWN
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::restoreFileStream"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1ab69f2a1eba739bfa1e95a1b5ba2cc8c8"></a>
 ### Function getFileFormat
 
@@ -249,12 +212,6 @@ save context file format
 
 
 **Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::getFileFormat"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1ISaveContext_1ad30b0ac3ddc36ac47b0f03662d3d4d0a"></a>
 ### Function setFileFormat
@@ -281,12 +238,6 @@ Set the file format of the save context.
 * int **fileFormat**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::ISaveContext::setFileFormat"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

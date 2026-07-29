@@ -1,9 +1,8 @@
-<a id="PlugInMetaData_8odl"></a>
 # File PlugInMetaData.odl
 
 ![][IDL]
 
-**Location**: `ModelCenter/src/InterfaceDLL\_PlugInMetaData/PlugInMetaData.odl`
+**Location**: `ModelCenter/src/InterfaceDLL_PlugInMetaData/PlugInMetaData.odl`
 
 
 

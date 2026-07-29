@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IBooleanVariable"></a>
 # Interface ModelCenter::IBooleanVariable
 
 ![][IDL]
@@ -67,12 +66,6 @@ boolean ModelCenter::IBooleanVariable::hasChanged
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::hasChanged"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1aa3a5fa8309ca19d0bf787bbf7cbcbf54"></a>
 ### Property hide
 
@@ -93,12 +86,6 @@ boolean ModelCenter::IBooleanVariable::hide
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::hide"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a67bcc3bdedde454663601bb945dd5bff"></a>
 ### Property OwningComponent
@@ -121,12 +108,6 @@ LPDISPATCH ModelCenter::IBooleanVariable::OwningComponent
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::OwningComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a025854ed57fb252dde2b341182cd7e7a"></a>
 ### Property value
 
@@ -147,12 +128,6 @@ The value of the variable.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::value"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a875503e8827a33a2d15497b21c50b840"></a>
 ### Property valueAbsolute
@@ -175,12 +150,6 @@ The value of the variable. (Fetched without attempting to validate)
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::valueAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a8035fb2b8276762f7b0b2b3e8b7d8cf5"></a>
 ### Property description
 
@@ -201,12 +170,6 @@ Description of the variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::description"}]}`
--->
 
 ## Public functions
 
@@ -240,12 +203,6 @@ True if variable is valid. False if the variable is not valid.
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a602d42ee0595c1c0408a536c31c61adb)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1ae3cb5f6c787efb879f5d85a5ee5ee344"></a>
 ### Function validate
 
@@ -266,12 +223,6 @@ Validates the variable by running the component if needed.
 **Return type**: void
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6748764fba94242fbe35ae2f4d49c9ef)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::validate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1ac4595a4a7f2b81c6c5c2f1f5e3742f56"></a>
 ### Function getName
@@ -303,12 +254,6 @@ The name of the variable.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ae1ad6db87e29a4b265ec310295fb3843)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a19c8cfbcba0c9fc8eaae14bfaaa07d39"></a>
 ### Function getFullName
 
@@ -339,12 +284,6 @@ The full ModelCenter path of the variable.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a05a46370dd23d612bf0f09f146ba32a0)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::getFullName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a6e68844292a9f0b5e1924728465d02c0"></a>
 ### Function getType
 
@@ -374,12 +313,6 @@ The type of the variable as a string.
 **Return type**: BSTR
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ab7fadd397a7779f29005048383a9f187)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::getType"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1ab8445c95fe06a4eb82ed55034c26d34e"></a>
 ### Function isInput
@@ -412,12 +345,6 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a875481ba3799c222c5085c6c3ca802a7)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::isInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a97263640728fae5de92a272345ce0a01"></a>
 ### Function toString
 
@@ -447,12 +374,6 @@ The value of the variable as a string.
 **Return type**: BSTR
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6421656e090846e8d7c079b8511fa9d2)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::toString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a8b9fd88143b7b23e5f3ae9e229774a2b"></a>
 ### Function fromString
@@ -488,12 +409,6 @@ Sets the value of the variable from the specified string.
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a3f6325a128422d445705553f11563904)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::fromString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1ad3fdc29d883580eaf57b83a7b796c703"></a>
 ### Function toStringAbsolute
 
@@ -524,12 +439,6 @@ The value of the variable as a string.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a5e66075d2bff0f7de435056cdc6c011e)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::toStringAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a1eecc6708b4fb8e29bfe73ead410adaa"></a>
 ### Function invalidate
 
@@ -550,12 +459,6 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 **Return type**: void
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1addc5f809058b5573390f62d34b5f5498)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::invalidate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1ae54cdcd132e22278b8ddb00aaff236c7"></a>
 ### Function directPrecedents
@@ -598,12 +501,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a655ce10f3a6e2839f11161e8bf13b0c2)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::directPrecedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a40dedf6b7b841a6699d545ea058ad2cd"></a>
 ### Function directDependents
 
@@ -645,12 +542,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a64c800317037f03a43c8522061885835)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::directDependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1ab5b740c028c3b878f1341efea2df0116"></a>
 ### Function precedentLinks
 
@@ -690,12 +581,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a9d52333bc9a07146e23124f0fe95db6f)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::precedentLinks"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a69e716f024970454d8c555c73df17360"></a>
 ### Function dependentLinks
 
@@ -734,12 +619,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 **Return type**: LPDISPATCH
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a1e52cc38574fbdf83e9dba836dfc5959)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::dependentLinks"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1aa43bd8ee475029fc466b20cd3b1b686d"></a>
 ### Function precedents
@@ -782,12 +661,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ad1f5d5ba3e96e9c2fab7a4b0d6c4df36)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::precedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1afa6ea6f99c9eeb606ebe08b1e7d9c54d"></a>
 ### Function dependents
 
@@ -829,12 +702,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6f42f3176eb8fa2fbf9ca1b9a01fc7ce)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::dependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1af27600cef7dfba2a97acbeb31e2bbe43"></a>
 ### Function isInputToComponent
 
@@ -866,12 +733,6 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a81ddff978026124a52063b1fad430b27)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::isInputToComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a38875f7d7b47980f4d78d76a449bbb01"></a>
 ### Function isInputToModel
 
@@ -902,12 +763,6 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 **Return type**: boolean
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a0bd883d3757e361b75e0f81627e6ce98)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::isInputToModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a6771c11a9e1388bc4da11b9fae91e2e8"></a>
 ### Function setMetadata
@@ -951,12 +806,6 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1af7cbf8f2c8d128c760fb09254819bf64)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a74eae8f0c59826ea05228abfc9a9354a"></a>
 ### Function getMetadata
 
@@ -996,12 +845,6 @@ Metadata value.
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a610297790a8c506c339586740f1d3022)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::getMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IBooleanVariable_1a37b148f160421cc772d96d616cc58a67"></a>
 ### Function setInitialValue
 
@@ -1033,12 +876,6 @@ Sets the initial value of the variable.
 * BOOL **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IBooleanVariable::setInitialValue"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1ILogger"></a>
 # Interface ModelCenter::ILogger
 
 ![][IDL]
@@ -53,12 +52,6 @@ Returns whether the TRACE level is enabled for this logger.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::isTraceEnabled"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILogger_1adc9ab6356bfc5c95aad04ee887c21588"></a>
 ### Function isDebugEnabled
 
@@ -86,12 +79,6 @@ Returns whether the DEBUG level is enabled for this logger.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::isDebugEnabled"}]}`
--->
 
 <a id="interfaceModelCenter_1_1ILogger_1a4472be2e0c0f6302d2e73ad582fe6b9c"></a>
 ### Function isInfoEnabled
@@ -121,12 +108,6 @@ Returns whether the INFO level is enabled for this logger.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::isInfoEnabled"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILogger_1aeeb727ee61ec84c356257e23c8ac72da"></a>
 ### Function isWarnEnabled
 
@@ -155,12 +136,6 @@ Returns whether the WARN level is enabled for this logger.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::isWarnEnabled"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILogger_1aea7f6bb4163869086c07a72b5ec14666"></a>
 ### Function isErrorEnabled
 
@@ -188,12 +163,6 @@ Returns whether the ERROR level is enabled for this logger.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::isErrorEnabled"}]}`
--->
 
 <a id="interfaceModelCenter_1_1ILogger_1a97945d07f653d3cb3e483b512f7c569d"></a>
 ### Function trace
@@ -227,12 +196,6 @@ Logs a message at the TRACE level.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::trace"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILogger_1a1ff316d9091c838bcbdeaf5706e8216e"></a>
 ### Function debug
 
@@ -264,12 +227,6 @@ Logs a message at the DEBUG level.
 * BSTR **message**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::debug"}]}`
--->
 
 <a id="interfaceModelCenter_1_1ILogger_1a0a400bf773ffc4fd5d9c4440fd2d79da"></a>
 ### Function info
@@ -303,12 +260,6 @@ Logs a message at the INFO level.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::info"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILogger_1acf5456282ad4295bfbb5dc3d6c41b8b2"></a>
 ### Function warn
 
@@ -341,12 +292,6 @@ Logs a message at the WARN level.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::warn"}]}`
--->
-
 <a id="interfaceModelCenter_1_1ILogger_1a576c679c95d7e5c38917bcc0bab46296"></a>
 ### Function error
 
@@ -378,12 +323,6 @@ Logs a message at the ERROR level.
 * BSTR **message**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::ILogger::error"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

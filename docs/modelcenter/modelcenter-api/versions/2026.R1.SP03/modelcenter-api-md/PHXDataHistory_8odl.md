@@ -1,4 +1,3 @@
-<a id="PHXDataHistory_8odl"></a>
 # File PHXDataHistory.odl
 
 ![][IDL]
@@ -13,9 +12,9 @@
 
 * [PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct.md#structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct)
 * [PHXDATAHISTORYLib::DataHistoryVariableStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct.md#structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct)
-* [PHXDATAHISTORYLib::\_DPHXDataHistory](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory)
-* [PHXDATAHISTORYLib::\_DPHXDataHistoryToModel](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel)
-* [PHXDATAHISTORYLib::\_DPHXDataHistoryEvents](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents)
+* [PHXDATAHISTORYLib::_DPHXDataHistory](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory)
+* [PHXDATAHISTORYLib::_DPHXDataHistoryToModel](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel)
+* [PHXDATAHISTORYLib::_DPHXDataHistoryEvents](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents)
 * [PHXDATAHISTORYLib::PHXDataHistory](classPHXDATAHISTORYLib_1_1PHXDataHistory.md#classPHXDATAHISTORYLib_1_1PHXDataHistory)
 * [PHXDATAHISTORYLib::DataHistoryVariableMetadata](classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata.md#classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata)
 * [PHXDATAHISTORYLib::PHXDataExplorerPlugIn](interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn.md#interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn)

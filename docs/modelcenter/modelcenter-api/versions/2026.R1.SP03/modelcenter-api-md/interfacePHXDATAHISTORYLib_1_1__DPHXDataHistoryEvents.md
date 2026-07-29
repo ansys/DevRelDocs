@@ -1,5 +1,4 @@
-<a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents"></a>
-# Interface PHXDATAHISTORYLib::\_DPHXDataHistoryEvents
+# Interface PHXDATAHISTORYLib::_DPHXDataHistoryEvents
 
 ![][IDL]
 ![][public]
@@ -41,12 +40,6 @@ This event is called anytime Variables are added or removed.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::variablesChanged"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents_1a2f121535f7eedf77ce9e6edb9b512a51"></a>
 ### Function progressMeterChange
 
@@ -81,12 +74,6 @@ This event is fired any time a new progress meter information is available, typi
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterChange"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents_1aca4688267a060ab301972886d0c04d6e"></a>
 ### Function progressMeterStart
 
@@ -106,12 +93,6 @@ This event is fired when startRuns is called.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterStart"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents_1a0fb85ceb307de0a1c2a449be77890447"></a>
 ### Function progressMeterStop
 
@@ -130,12 +111,6 @@ This event is fired when endRuns is called.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterStop"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents_1aa6f5dbeba5082e060cb68696cd07d44f"></a>
 ### Function dataChanged
@@ -171,12 +146,6 @@ This event is fired any time any data item within the Data History is changed.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::dataChanged"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents_1af43f03e636994de756db750668ac86d6"></a>
 ### Function progressMeterEstimate
 
@@ -209,12 +178,6 @@ This event is fired when the process attempts to determine how long the job is g
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterEstimate"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents_1a84baf9536c489fbb318a5e13cbf6fef5"></a>
 ### Function highlightChanged
 
@@ -244,12 +207,6 @@ This event is fired when a different run is selected.
 * boolean **handleEvent**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::_DPHXDataHistoryEvents::highlightChanged"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

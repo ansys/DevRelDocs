@@ -1,9 +1,8 @@
-<a id="namespacePlugInMetaData"></a>
 # Namespace PlugInMetaData
 
 ![][IDL]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_PlugInMetaData/PlugInMetaData.odl` (line 7)
+**Definition**: `ModelCenter/src/InterfaceDLL_PlugInMetaData/PlugInMetaData.odl` (line 7)
 
 
 
@@ -38,12 +37,6 @@ PlugInMetaData::importlib("stdole32.tlb")
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::importlib"}]}`
--->
-
 <a id="PlugInMetaData_8odl_1ac015988798e4dff85180232ea6f9f0c5"></a>
 ### Function importlib
 
@@ -66,12 +59,6 @@ PlugInMetaData::importlib("stdole2.tlb")
 * "stdole2.tlb"
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::importlib"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity"></a>
 # Interface PHXDATAEXPLORERLib::ILegacyVisiblity
 
 ![][IDL]
@@ -36,12 +35,6 @@ Will show the Legacy DataExplorer associated with this object.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::ILegacyVisiblity::showLegacy"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity_1a7a2562683a18b86dee7b0cb60564b5e6"></a>
 ### Function getLegacyHWND
 
@@ -63,12 +56,6 @@ the HWND
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::ILegacyVisiblity::getLegacyHWND"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

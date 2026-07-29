@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1PHXDataExplorerExportPlugIn"></a>
 # Interface PHXDATAHISTORYLib::PHXDataExplorerExportPlugIn
 
 ![][IDL]
@@ -49,12 +48,6 @@ The plug-in should write an enhanced metafile out when this method is called.
 * BSTR **filename**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::PHXDataExplorerExportPlugIn::exportImage"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

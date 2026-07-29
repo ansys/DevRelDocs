@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IIntegerVariable"></a>
 # Interface ModelCenter::IIntegerVariable
 
 ![][IDL]
@@ -80,12 +79,6 @@ boolean ModelCenter::IIntegerVariable::hasChanged
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::hasChanged"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a0baef047e82cd94c3fe393690a129bb0"></a>
 ### Property hide
 
@@ -106,12 +99,6 @@ boolean ModelCenter::IIntegerVariable::hide
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::hide"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a7156a5b9cb1cd09eced27ffaacd9f521"></a>
 ### Property OwningComponent
@@ -134,12 +121,6 @@ LPDISPATCH ModelCenter::IIntegerVariable::OwningComponent
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::OwningComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a8626c616deb64d587178b6c1cbdc2974"></a>
 ### Property value
 
@@ -160,12 +141,6 @@ Value of the variable.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::value"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a5e2a2a61e1c4978200a2009c1f6ab74c"></a>
 ### Property valueAbsolute
@@ -188,12 +163,6 @@ The value of the variable (Fetched without attempting to validate).
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::valueAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a15d6fe654e10ea55a5df2e7bea934e75"></a>
 ### Property lowerBound
 
@@ -214,12 +183,6 @@ Lower bound of the variable.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::lowerBound"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1abc988cc945fcc8e2cf905c885a180542"></a>
 ### Property upperBound
@@ -242,12 +205,6 @@ Upper bound of the variable.
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::upperBound"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a3752ce74846eb04caed29711d1da302d"></a>
 ### Property units
 
@@ -268,12 +225,6 @@ Units of the variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::units"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a746f793efe758a7e3f36ba188d07ccee"></a>
 ### Property description
@@ -296,12 +247,6 @@ Description of the variable.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::description"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1af9ee5a112578385dcae1893f96f0143b"></a>
 ### Property enumValues
 
@@ -322,12 +267,6 @@ Enumerated values of the variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::enumValues"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1ac706776dfc20b9410c859471f981f43e"></a>
 ### Property enumAliases
@@ -350,12 +289,6 @@ Enumerated aliases of the variable.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::enumAliases"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1ac28287849865c6233468b6e1a9034248"></a>
 ### Property format
 
@@ -376,12 +309,6 @@ Format of the variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::format"}]}`
--->
 
 ## Public functions
 
@@ -415,12 +342,6 @@ True if variable is valid. False if the variable is not valid.
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a602d42ee0595c1c0408a536c31c61adb)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a2807c2dd1e70fe7d8eab0af0a64e2d74"></a>
 ### Function validate
 
@@ -441,12 +362,6 @@ Validates the variable by running the component if needed.
 **Return type**: void
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6748764fba94242fbe35ae2f4d49c9ef)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::validate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1abcd09429d47c396bab6dc63690e1a1c1"></a>
 ### Function getName
@@ -478,12 +393,6 @@ The name of the variable.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ae1ad6db87e29a4b265ec310295fb3843)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a6bbb377e1c98a99b660cfdfa3c61f191"></a>
 ### Function getFullName
 
@@ -514,12 +423,6 @@ The full ModelCenter path of the variable.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a05a46370dd23d612bf0f09f146ba32a0)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::getFullName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a38de94bbe44275b88d92522926b1a841"></a>
 ### Function getType
 
@@ -549,12 +452,6 @@ The type of the variable as a string.
 **Return type**: BSTR
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ab7fadd397a7779f29005048383a9f187)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::getType"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1ab441aa413516cf14c082aa39801250c4"></a>
 ### Function isInput
@@ -587,12 +484,6 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a875481ba3799c222c5085c6c3ca802a7)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::isInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a2ec6bbef037c4c0a6ab5e510f9063923"></a>
 ### Function toString
 
@@ -622,12 +513,6 @@ The value of the variable as a string.
 **Return type**: BSTR
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6421656e090846e8d7c079b8511fa9d2)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::toString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a180292624fd43a95348bd496b0fee8a6"></a>
 ### Function fromString
@@ -663,12 +548,6 @@ Sets the value of the variable from the specified string.
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a3f6325a128422d445705553f11563904)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::fromString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1ac13b9c8e85a30831a81cedcdca610e01"></a>
 ### Function toStringAbsolute
 
@@ -699,12 +578,6 @@ The value of the variable as a string.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a5e66075d2bff0f7de435056cdc6c011e)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::toStringAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a07f62e68cae660a8bea1d1e31d754fcf"></a>
 ### Function invalidate
 
@@ -725,12 +598,6 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 **Return type**: void
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1addc5f809058b5573390f62d34b5f5498)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::invalidate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a5c99fbda3111d689db126a61e0727106"></a>
 ### Function directPrecedents
@@ -773,12 +640,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a655ce10f3a6e2839f11161e8bf13b0c2)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::directPrecedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1ad783a3a7e231dd0aa00b869699a5bca4"></a>
 ### Function directDependents
 
@@ -820,12 +681,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a64c800317037f03a43c8522061885835)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::directDependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a02a977781b36247895725b38a725dca9"></a>
 ### Function precedentLinks
 
@@ -865,12 +720,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a9d52333bc9a07146e23124f0fe95db6f)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::precedentLinks"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a1328684b4767a3ee6b006feca4f0296d"></a>
 ### Function dependentLinks
 
@@ -909,12 +758,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 **Return type**: LPDISPATCH
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a1e52cc38574fbdf83e9dba836dfc5959)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::dependentLinks"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a902fe35d10c8e25b86a64e13953a62f1"></a>
 ### Function precedents
@@ -957,12 +800,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1ad1f5d5ba3e96e9c2fab7a4b0d6c4df36)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::precedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1aa8739ff163a52ceed99e867e5126330f"></a>
 ### Function dependents
 
@@ -1004,12 +841,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a6f42f3176eb8fa2fbf9ca1b9a01fc7ce)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::dependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a67665668e8c1abee8bc9db708b05e970"></a>
 ### Function isInputToComponent
 
@@ -1041,12 +872,6 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a81ddff978026124a52063b1fad430b27)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::isInputToComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a87d3f8de3185380e368fdb008466dfe3"></a>
 ### Function isInputToModel
 
@@ -1077,12 +902,6 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 **Return type**: boolean
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a0bd883d3757e361b75e0f81627e6ce98)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::isInputToModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1ad80d2a2e770297e5e57af0cd86601f83"></a>
 ### Function setMetadata
@@ -1126,12 +945,6 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1af7cbf8f2c8d128c760fb09254819bf64)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1aea17e7f7dc6d8979c2c83aec3f8a0c42"></a>
 ### Function getMetadata
 
@@ -1171,12 +984,6 @@ Metadata value.
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVariable_1a610297790a8c506c339586740f1d3022)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::getMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a4f198a32ba9ba7975e6a81f769a6df0f"></a>
 ### Function setInitialValue
 
@@ -1209,12 +1016,6 @@ Sets the initial value of the variable.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::setInitialValue"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a3f0459ca0bc1b7108721b4ee36304bc9"></a>
 ### Function hasLowerBound
 
@@ -1242,12 +1043,6 @@ yes(TRUE) or no(FALSE).
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::hasLowerBound"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a6434f421569bb898aabc32204d615f1a"></a>
 ### Function hasUpperBound
@@ -1277,12 +1072,6 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::hasUpperBound"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1abf09981270a02adab12c6bd420e07a22"></a>
 ### Function toFormattedString
 
@@ -1310,12 +1099,6 @@ The formatted value.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::toFormattedString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a647cc6b6832eefd008c51457a34c9ff5"></a>
 ### Function fromFormattedString
@@ -1349,12 +1132,6 @@ Sets the value from a formatted string.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::fromFormattedString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a7c3ea8978f890824c3e08134c7bf7747"></a>
 ### Function toFormattedStringAbsolute
 
@@ -1383,12 +1160,6 @@ The formatted value.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::toFormattedStringAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1aba1030008767dd31ae13f40f90ba58d8"></a>
 ### Function clearUpperBound
 
@@ -1408,12 +1179,6 @@ Clears the lower bound property of the variable if it has previously been set.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::clearUpperBound"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IIntegerVariable_1a16f466aa207ea88961361ee69a683850"></a>
 ### Function clearLowerBound
 
@@ -1432,12 +1197,6 @@ Clears the upper bound property of the variable if it has previously been set.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IIntegerVariable::clearLowerBound"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1IPHXMenuItems"></a>
 # Interface PHXDATAHISTORYLib::IPHXMenuItems
 
 ![][IDL]
@@ -40,12 +39,6 @@ The number of context dependent menu items. Set this first, then use [setMenuIte
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IPHXMenuItems::numItems"}]}`
--->
-
 ## Public functions
 
 <a id="interfacePHXDATAHISTORYLib_1_1IPHXMenuItems_1aa76ac2aefb1a69021d5f536db66c0c4b"></a>
@@ -84,12 +77,6 @@ Sets the data for a particular menu item.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IPHXMenuItems::setMenuItem"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IPHXMenuItems_1aa8491483ad472e4f1f9e51ea028561eb"></a>
 ### Function getMenuItemName
 
@@ -127,12 +114,6 @@ The menu item name.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IPHXMenuItems::getMenuItemName"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IPHXMenuItems_1a3213c537df82b4c00dd7f4df96b90712"></a>
 ### Function getMenuItemDescription
 
@@ -169,12 +150,6 @@ The value of the description field of the menu item.
 * long **index**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IPHXMenuItems::getMenuItemDescription"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

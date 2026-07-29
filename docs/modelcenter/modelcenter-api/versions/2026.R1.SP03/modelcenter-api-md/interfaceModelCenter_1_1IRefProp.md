@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IRefProp"></a>
 # Interface ModelCenter::IRefProp
 
 ![][IDL]
@@ -42,12 +41,6 @@ Enumerated values of the reference property.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefProp::enumValues"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IRefProp_1a0a8ec20895618292855526596a534f06"></a>
 ### Property isInput
 
@@ -68,12 +61,6 @@ Whether or not the reference property is an input.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefProp::isInput"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IRefProp_1ad9f9fdbe48e40c42f7d80eb57b072ae7"></a>
 ### Property title
@@ -96,12 +83,6 @@ Title of the reference property.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefProp::title"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IRefProp_1ade4ceb94fec2ee5eab541cce187b1eb3"></a>
 ### Property description
 
@@ -122,12 +103,6 @@ Description of the reference property.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefProp::description"}]}`
--->
 
 ## Public functions
 
@@ -153,12 +128,6 @@ The name of the reference property.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefProp::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IRefProp_1aa05642b60b5a5e44e9954c130d4686e1"></a>
 ### Function getType
 
@@ -180,12 +149,6 @@ The type of the reference property.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IRefProp::getType"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

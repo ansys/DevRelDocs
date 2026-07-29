@@ -1,10 +1,9 @@
-<a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3"></a>
 # Interface TradeStudyPlugIn::ITradeStudyPlugIn3
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 479)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 479)
 
 
 
@@ -36,7 +35,7 @@ COM Instance.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
 
 
 ```
@@ -52,18 +51,12 @@ Gets or sets the trade study callback object.
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::TradeStudyCallback"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1a98649448b98aa71aef4adc1e33c47570"></a>
 ### Property saveAllAnalyzerVariables
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
 
 
 ```
@@ -85,18 +78,12 @@ NOTE: not fully supported in MC 10.2 - you can (and should) set this value as ap
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::saveAllAnalyzerVariables"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1a2c98e62414b0d01303d7a009449f0871"></a>
 ### Property id
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 515)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 515)
 
 
 ```
@@ -112,18 +99,12 @@ Gets or sets the job manager to use.
 
 **Return type**: IDispatch
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::id"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1ac84a2866cfcedd306eeabd757d8c0877"></a>
 ### Property show
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 522)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 522)
 
 
 ```
@@ -148,18 +129,12 @@ false always
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::show"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1a3f6d767abcf9b50ee14ac7be20ef964a"></a>
 ### Property toString
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 529)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 529)
 
 
 ```
@@ -184,18 +159,12 @@ a string containing state information
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::toString"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1a541ccb54affa550f0ea2694b39e16c7c"></a>
 ### Property fromString
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 536)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 536)
 
 
 ```
@@ -220,18 +189,12 @@ Called to restore the state of a plug-in
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::fromString"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1afa9a6faf24f730938ea94ba9e846a381"></a>
 ### Property onEnd
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 542)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 542)
 
 
 ```
@@ -247,18 +210,12 @@ Called when the plug-in is about to be deleted. Informs the plug-in to do any ne
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::onEnd"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1a9e044579568a49b3f42c8771ccf8bbc3"></a>
 ### Property addAnalyzerVariable
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 555)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 555)
 
 
 ```
@@ -284,18 +241,12 @@ Call to add a variable from an analyzer product. If there are any analyzer varia
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::addAnalyzerVariable"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn3_1a1a94e6d8431bf19dee3fcf446e781070"></a>
 ### Property clearAnalyzerVariables
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 560)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 560)
 
 
 ```
@@ -310,12 +261,6 @@ Remove all analyzer variables.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudyPlugIn3::clearAnalyzerVariables"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

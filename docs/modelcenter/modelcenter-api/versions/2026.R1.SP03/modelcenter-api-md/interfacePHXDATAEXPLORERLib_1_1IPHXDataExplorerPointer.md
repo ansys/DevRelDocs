@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer"></a>
 # Interface PHXDATAEXPLORERLib::IPHXDataExplorerPointer
 
 ![][IDL]
@@ -34,12 +33,6 @@ Returns a new pointer to the associated Data Explorer Object. Do not store this 
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPHXDataExplorerPointer::getDataExplorer"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

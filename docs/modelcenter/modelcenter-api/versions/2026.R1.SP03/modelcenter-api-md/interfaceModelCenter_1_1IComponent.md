@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IComponent"></a>
 # Interface ModelCenter::IComponent
 
 ![][IDL]
@@ -72,12 +71,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::Variables"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1a4393774e2d80bd06dfe8070ef87b146f"></a>
 ### Property Groups
 
@@ -108,12 +101,6 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::Groups"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1ae7e1acce8fef11c88ba939aba11604ee"></a>
 ### Property userData
 
@@ -134,12 +121,6 @@ An arbitrary Variant which is not used internally by ModelCenter but can store d
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::userData"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1aecece7b57424f027ba567415051d3bb5"></a>
 ### Property AssociatedFiles
@@ -171,12 +152,6 @@ Variant containing the list of associated files (string or array of strings)
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::AssociatedFiles"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1aafafc5168a78769e88de4505174b0daf"></a>
 ### Property IndexInParent
 
@@ -197,12 +172,6 @@ Position of this component in the parent Assembly.
 
 
 **Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::IndexInParent"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1a2da9bef2e46c87080698e624d80710f0"></a>
 ### Property ParentAssembly
@@ -233,12 +202,6 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 
 **Return type**: LPDISPATCH
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::ParentAssembly"}]}`
--->
 
 ## Public functions
 
@@ -275,12 +238,6 @@ The name of the Component.
 * [getName](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a97c817507e162f9422b2f73ab5c8cef1)
 * [getName](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a88c3162ff460faee36d43d3903c7a498)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1a9309a89032b2d7d28baf279a3b76b5e8"></a>
 ### Function getFullName
 
@@ -314,12 +271,6 @@ the full ModelCenter path of the Component.
 * [getFullName](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a5766e80ec09baf80e3ad7c28e4dd3bd4)
 * [getFullName](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a7e4a9eb5127e60bfbbd90640e35b32a7)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getFullName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1adf60ad0c84852250f14d27cfa689d8d0"></a>
 ### Function run
 
@@ -343,12 +294,6 @@ Runs the Component.
 
 * [run](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a7891e5012feff9e7bbdec3bde6adb8e6)
 * [run](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1afcc83d74aabc7ddd66da4fccb708f0e9)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::run"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1a7ee6752f95f3bdfbe83132a3a7794cb2"></a>
 ### Function getSource
@@ -382,12 +327,6 @@ The source of the Component.
 
 * [getSource](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1ae4cad8560e705e807f793a2dade750e2)
 * [getSource](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a3dc2690409dd67fc5b3023e50d7abed0)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getSource"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1afaddb2c21be03b26716594af883a51ee"></a>
 ### Function invokeMethod
@@ -426,12 +365,6 @@ Invokes one of the Component's methods.
 * [invokeMethod](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a583b809498c69beadd39c1e21e2cebab)
 * [invokeMethod](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a03484bf5c7636d2015b3b11c3849ac30)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::invokeMethod"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1a73c230184c72f5abcb7d3af5f91c9d1e"></a>
 ### Function invalidate
 
@@ -455,12 +388,6 @@ Invalidates the Component and all of its variables.
 
 * [invalidate](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a78101d039853db9e2d989edef97f226b)
 * [invalidate](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a70b40fcdb20ca2991b3db649f77eb55f)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::invalidate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1a44d641cc9d4a797f88e56495c466479c"></a>
 ### Function reconnect
@@ -486,12 +413,6 @@ Reconnect a Component.
 * [reconnect](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a67e294fa372905721460635514adcd35)
 * [reconnect](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a716d694026d6ef45a78ab51a8d1f6eae)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::reconnect"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1a761c665246557b5b4201873a722d6fed"></a>
 ### Function downloadValues
 
@@ -515,12 +436,6 @@ Downloads the component's variable values from [ModelCenter](namespaceModelCente
 
 * [downloadValues](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a610d24ca2e023e09194b29c3115c6d84)
 * [downloadValues](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1ae380bd13a2c92b3392432f879e87baf2)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::downloadValues"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1afb270ae53383589c63f87b4e3385f128"></a>
 ### Function getVariable
@@ -564,12 +479,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 * [getVariable](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1af46fd2a7e5dda89d73e347b2fff75d16)
 * [getVariable](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1ad88148c419a4c75c4c79b9d5e3c41eb6)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getVariable"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1a9cae71e48e01e94d48c0353d3db4d90c"></a>
 ### Function rename
 
@@ -606,12 +515,6 @@ Renames the current Component.
 
 * [rename](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1ae64ae2e0082f2379391e6a49d5e57192)
 * [rename](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a775db6663f994e82bb2529efe6585c8d)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::rename"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1a04395c5a8d6ceff26ae08e6c001bdd45"></a>
 ### Function getType
@@ -661,12 +564,6 @@ The type of the component.
 * [getType](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a9cbf40ea5229f4240bdb241e8d88329c)
 * [getType](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a551d15c4f328f341d8cba0fe28bfd2b0)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getType"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1aa35c0fb45f677b3c2daf475e53107773"></a>
 ### Function show
 
@@ -690,12 +587,6 @@ Show the GUI form associated with the component, if any.
 
 * [show](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a344fe33286c0d548dfb35b472cfcc1d6)
 * [show](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1ad7d6f94d38270f36b80ed3c0109312dd)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::show"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IComponent_1a41eb816b08e0e89739822ba87e5416c6"></a>
 ### Function setMetadata
@@ -737,12 +628,6 @@ Sets the meta data value of the given meta data key name.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1a2bd6e585619f4cd76426932b62dcf60a"></a>
 ### Function getMetadata
 
@@ -780,12 +665,6 @@ Metadata value.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getMetadata"}]}`
--->
-
 ## Private functions
 
 <a id="interfaceModelCenter_1_1IComponent_1a0c3e0c952584ba25801114e01010eab0"></a>
@@ -812,12 +691,6 @@ int ModelCenter::IComponent::getPositionX()
 * [getPositionX](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a205b99507e64a1ad621ee6aeb6cd6d0c)
 * [getPositionX](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1aa032eb6b3c27a69052a8eb81053dfc34)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getPositionX"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IComponent_1ad3da2b98a973112ea897cf3b146f0276"></a>
 ### Function getPositionY
 
@@ -841,12 +714,6 @@ int ModelCenter::IComponent::getPositionY()
 
 * [getPositionY](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a6cddb9b21c6b3b60a23f2a28d60ea17a)
 * [getPositionY](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a7b5ce3f6ce5bfd44702ff1fb874fb9fd)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IComponent::getPositionY"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

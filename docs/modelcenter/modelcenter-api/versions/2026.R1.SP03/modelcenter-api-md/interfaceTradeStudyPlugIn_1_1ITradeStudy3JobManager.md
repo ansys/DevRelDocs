@@ -1,10 +1,9 @@
-<a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager"></a>
 # Interface TradeStudyPlugIn::ITradeStudy3JobManager
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 342)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 342)
 
 Class which does everything that a combination of a DataHistory and a JobManager can do. Can be implemented using the inputs to a normal construct(...) call, but can do something else entirely. Thread-safe.
 
@@ -40,7 +39,7 @@ Class which does everything that a combination of a DataHistory and a JobManager
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
 
 
 ```
@@ -56,18 +55,12 @@ Get or set the data history to use; one may be created if you don't specify it.
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::dataHistory"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a913715f9bb137763d7b099cfe8bd9b57"></a>
 ### Property validateAll
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
 
 
 ```
@@ -83,18 +76,12 @@ Hint on whether to force all outputs in the model to evaluate regardless of whet
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::validateAll"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a1e97168b7c275486400eaaf14e9a88d2"></a>
 ### Property runInParallel
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
 
 
 ```
@@ -110,18 +97,12 @@ Whether to run runs in parallel. May be ignored.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::runInParallel"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a2b92bb066c911d4102902525a3feae5f"></a>
 ### Property numThreads
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
 
 
 ```
@@ -137,18 +118,12 @@ The number of threads or instances to use for parallel execution. May be ignored
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::numThreads"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1ac665a3e053e07b9bf007c5b798af743e"></a>
 ### Property numRuns
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 376)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 376)
 
 
 ```
@@ -164,18 +139,12 @@ Get the number of runs.
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::numRuns"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1aafb31c9ee4a9e013e3f7f77900217492"></a>
 ### Property numVariables
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 381)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 381)
 
 
 ```
@@ -191,18 +160,12 @@ Get the number of inputs.
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::numVariables"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1afc7560080c238a34ac8d339d80175327"></a>
 ### Property supportsParallelExecution
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 413)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 413)
 
 
 ```
@@ -218,18 +181,12 @@ Can this job manager support parallel execution? If false, <code>runInParallel</
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::supportsParallelExecution"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a0736cdac1a4c8573ec1332477849458b"></a>
 ### Property canNewJob
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 418)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 418)
 
 
 ```
@@ -244,12 +201,6 @@ Can a new job be started now?
 
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::canNewJob"}]}`
--->
 
 ## Public functions
 
@@ -283,12 +234,6 @@ The equation.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::getVariableEquation"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a6fbac6e4218e6b82ed61d2f38f9b7af6"></a>
 ### Function getVariableDisplayName
 
@@ -318,12 +263,6 @@ The display name.
 * long **index**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::getVariableDisplayName"}]}`
--->
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1aa53ea93d24fd4476de06e3226a5b2e69"></a>
 ### Function isDesignVariable
@@ -355,12 +294,6 @@ The variable type.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::isDesignVariable"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a4f1199571453c7b851c484e88fb43a1a"></a>
 ### Function isInput
 
@@ -390,12 +323,6 @@ The variable type.
 * VARIANT **which**
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::isInput"}]}`
--->
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a49263a87ff0aacb9e2231bbe0e726d1a"></a>
 ### Function newJob
@@ -427,12 +354,6 @@ Start a new job. Discards existing data and run info. Does not clear out variabl
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::newJob"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1aeb34f0cf410ef02f4eee10d611b4a740"></a>
 ### Function clear
 
@@ -451,12 +372,6 @@ Clear out the current job and all variables.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::clear"}]}`
--->
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a44f6cc3111c89abd357dfcfeed23cf4a"></a>
 ### Function addVariable
@@ -487,12 +402,6 @@ Add a variable.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::addVariable"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a44b3d2bd5e6037197449aaa92c6fd725"></a>
 ### Function setInput
 
@@ -521,12 +430,6 @@ Set an input value.
 * VARIANT **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::setInput"}]}`
--->
 
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a2d73e6a448ba816d2f4025d5f95b285e"></a>
 ### Function setRunInputs
@@ -557,12 +460,6 @@ Set all of the inputs for a run.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::setRunInputs"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a5f77ca1741019e90b1d348a7b4c20b04"></a>
 ### Function setVariableInputs
 
@@ -592,12 +489,6 @@ Set all of the inputs for one variable.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::setVariableInputs"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a7cdc64aa2ca295ed608347a61e79b8ac"></a>
 ### Function runJobAsync
 
@@ -619,12 +510,6 @@ The result of the job, which will be populated in real-time.
 
 **Return type**: [ITradeStudy3JobResult](interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult.md#interfaceTradeStudyPlugIn_1_1ITradeStudy3JobResult) *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::runJobAsync"}]}`
--->
-
 <a id="interfaceTradeStudyPlugIn_1_1ITradeStudy3JobManager_1a2f8bcf1cea9355a81d408919e479013f"></a>
 ### Function getMetaDataProvider
 
@@ -643,12 +528,6 @@ Get the metadata provider for this job manager.
 
 
 **Return type**: [IVariableMetaDataProvider](interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider.md#interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider) *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"TradeStudyPlugIn::ITradeStudy3JobManager::getMetaDataProvider"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
