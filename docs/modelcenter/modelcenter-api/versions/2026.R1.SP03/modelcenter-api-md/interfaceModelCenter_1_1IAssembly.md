@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IAssembly"></a>
 # Interface ModelCenter::IAssembly
 
 ![][IDL]
@@ -66,12 +65,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::Variables"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1a1e5ca5f83e7c3debe3d63366948ad894"></a>
 ### Property Groups
 
@@ -101,12 +94,6 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::Groups"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAssembly_1a00afe3dedbc3bb8b8a1cbdf5bd6333a1"></a>
 ### Property Assemblies
@@ -138,12 +125,6 @@ IDispatch* to an [IAssemblies](interfaceModelCenter_1_1IAssemblies.md#interfaceM
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::Assemblies"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1ad4c0ef9792a2f760b3639357126e56f6"></a>
 ### Property Components
 
@@ -174,12 +155,6 @@ IDispatch* to an [IComponents](interfaceModelCenter_1_1IComponents.md#interfaceM
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::Components"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1af8ddf59c545db7695b90a2a64bdcc822"></a>
 ### Property iconID
 
@@ -201,12 +176,6 @@ The ID number of the icon to use for the Assembly.
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::iconID"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1a6e888824a16134a6797ec96745c9dd4f"></a>
 ### Property IndexInParent
 
@@ -227,12 +196,6 @@ Gets the position of the Assembly within the parent.
 
 
 **Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::IndexInParent"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAssembly_1a8cccd51f677c2d7c29c734a2c1009f45"></a>
 ### Property ParentAssembly
@@ -264,12 +227,6 @@ IDisplatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceMode
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::ParentAssembly"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1a12692b24f7c9fceec97847b204afecc4"></a>
 ### Property AssemblyType
 
@@ -291,12 +248,6 @@ Gets the type of the Assembly (Sequence, Assembly, etc).
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::AssemblyType"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1af405572d6c2bafc56164b2ce5b97b1a3"></a>
 ### Property userData
 
@@ -317,12 +268,6 @@ An arbitrary Variant which is not used internally by ModelCenter but can store d
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::userData"}]}`
--->
 
 ## Public functions
 
@@ -354,12 +299,6 @@ The name of the Assembly.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1aa62ac6d1100f85d3f212185812a9e517"></a>
 ### Function getFullName
 
@@ -387,12 +326,6 @@ The full ModelCenter path of the Assembly.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::getFullName"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAssembly_1a1a55454ec16eadd67d23a8e134fccce7"></a>
 ### Function addAssembly
@@ -432,12 +365,6 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 * _[optional]_ VARIANT **assemblyType**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::addAssembly"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAssembly_1af05ab7c452794c56cc54d77113cefdea"></a>
 ### Function addVariable
@@ -511,12 +438,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::addVariable"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1ac180bc4a2120cd22964998c75eed05f5"></a>
 ### Function rename
 
@@ -549,12 +470,6 @@ Renames the current Assembly.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::rename"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1a92a8b6a732ebcd29f6fb33a448f9f4c9"></a>
 ### Function deleteVariable
 
@@ -586,12 +501,6 @@ Deletes a variable from the current Assembly.
 * BSTR **name**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::deleteVariable"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAssembly_1a1c73a3675ee4a70e9b31d2f63c86e630"></a>
 ### Function addAssembly2
@@ -636,12 +545,6 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::addAssembly2"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1aa1e66114f498d0a1238237ad6caa1348"></a>
 ### Function setMetadata
 
@@ -682,12 +585,6 @@ Sets the meta data value of the given meta data key name.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1ad0ea6a9bc76c34b8158454e27bbfd9b8"></a>
 ### Function getMetadata
 
@@ -725,12 +622,6 @@ Metadata value.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::getMetadata"}]}`
--->
-
 ## Private functions
 
 <a id="interfaceModelCenter_1_1IAssembly_1a476766c4bdcb9fb07f1fdd0a12a04ac0"></a>
@@ -752,12 +643,6 @@ int ModelCenter::IAssembly::getPositionX()
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::getPositionX"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IAssembly_1ab58695afb7a8ecb8202a1b20011d384a"></a>
 ### Function getPositionY
 
@@ -776,12 +661,6 @@ int ModelCenter::IAssembly::getPositionY()
 
 
 **Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::getPositionY"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IAssembly_1afc8d8acd50c53726272ce0c983aa640f"></a>
 ### Function convertToSubmodel
@@ -807,12 +686,6 @@ void ModelCenter::IAssembly::convertToSubmodel(BSTR fileName, VersionStatus vers
 * BSTR **checkinMessage**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IAssembly::convertToSubmodel"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

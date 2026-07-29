@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IModelCenter"></a>
 # Interface ModelCenter::IModelCenter
 
 ![][IDL]
@@ -181,12 +180,6 @@ Directory of the current Model. If no model is open it will raise an error. If t
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::modelDirectory"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1acc9b3db9f6b75b711cf8106947576e89"></a>
 ### Property screenUpdating
 
@@ -208,12 +201,6 @@ Whether or not screen updating is turned on.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::screenUpdating"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1abb83f0e9475f2ccf8de46b09946d79e3"></a>
 ### Property modelFileName
 
@@ -234,12 +221,6 @@ The Full path of the current ModelCenter Model.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::modelFileName"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a1a5d90dca23414ddb8ef45e99c091ea4"></a>
 ### Property appName
@@ -271,12 +252,6 @@ Gets the [Application](classModelCenter_1_1Application.md#classModelCenter_1_1Ap
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::appName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a999bedcb3195dc2a12b034e0fa0222ec"></a>
 ### Property appFullPath
 
@@ -297,12 +272,6 @@ Gets the full path to the application.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::appFullPath"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a7fc1e5b5a0eee411b82f7508243f453f"></a>
 ### Property IsInteractive
@@ -325,12 +294,6 @@ Is ModelCenter running in interactive/GUI mode.
 
 **Return type**: BOOL
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::IsInteractive"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1acb08040260ee9e91a9a455c15d9fc0ad"></a>
 ### Property ProcessID
 
@@ -351,12 +314,6 @@ The process identifier of the [ModelCenter](namespaceModelCenter.md#namespaceMod
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::ProcessID"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a3072c85db32956a1c302668a49b031f8"></a>
 ### Property version
@@ -398,12 +355,6 @@ The requested version part.
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::version"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a5a57f078a8de6d78e6cc4f808c761fe8"></a>
@@ -433,12 +384,6 @@ The last error message.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getLastErrorMessage"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a21295b971e1a8854d7524b85332fcb3b"></a>
 ### Function loadFile
@@ -475,12 +420,6 @@ Loads a .pxc file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::loadFile"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a535535c056577a2306bfd089423a6e8b"></a>
 ### Function setValue
 
@@ -514,12 +453,6 @@ Sets the value of a variable.
 * BSTR **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setValue"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a8cacc6c81e217bf7affe180a59d21455"></a>
 ### Function getValue
@@ -557,12 +490,6 @@ The value as a variant.
 * BSTR **varName**
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getValue"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aa1c2ba41e8aeff2bc97408fd6d5e8832"></a>
 ### Function createComponent
@@ -604,12 +531,6 @@ Creates, or connects, to a new MCRE Component.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ac46503f8f560edbcddd87fb9c9045326"></a>
 ### Function createLink
 
@@ -644,12 +565,6 @@ Creates a link to the specified variable based on the specified equation.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createLink"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a90ad7c497e4da5b9474d747ba6bd9715"></a>
 ### Function newModel
 
@@ -682,12 +597,6 @@ Creates a new Model.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::newModel"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a16dc53d7c16d4517b6859acc1ee25a50"></a>
 ### Function saveModel
 
@@ -706,12 +615,6 @@ Saves the current Model.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::saveModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ab3fcf686594e1e2f81b7814bab8a6752"></a>
 ### Function saveModelAs
@@ -745,12 +648,6 @@ Saves the current Model to a specified file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::saveModelAs"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a00bcefae609c5a453dd1f4e0586820fc"></a>
 ### Function closeModel
 
@@ -769,12 +666,6 @@ Closes the current Model.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::closeModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ab57546e9e718895bbdfa25bc1b7d1e9d"></a>
 ### Function loadModel
@@ -810,12 +701,6 @@ Loads a .pxc file.
 * _[optional]_ VARIANT **onConnectError**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::loadModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1af87c3dde3f5645f1257ba0edb037889b"></a>
 ### Function getVariable
@@ -854,12 +739,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getVariable"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a779902b1a3f3c4c0db2b58484ec75fe0"></a>
 ### Function getComponent
 
@@ -897,12 +776,6 @@ IDispatch* to an [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMod
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1aba655ef2cf9a8f639acde2697d8319a2"></a>
 ### Function exit
 
@@ -924,12 +797,6 @@ No longer used.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::exit"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ad91dff33c09345053346ce2d831fd968"></a>
 ### Function createDataCollector
@@ -975,12 +842,6 @@ use [createDataExplorer()](interfaceModelCenter_1_1IModelCenter.md#interfaceMode
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createDataCollector"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a85f4a4b6557102133fc5dad3ef0a1ff8"></a>
 ### Function tradeStudyEnd
 
@@ -999,12 +860,6 @@ Lets ModelCenter know that a Trade Study has been completed.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::tradeStudyEnd"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a5878e18adeeafe78c1920e5544253442"></a>
 ### Function createJobManager
@@ -1048,12 +903,6 @@ IDispatch* to an [IJobManager](interfaceModelCenter_1_1IJobManager.md#interfaceM
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createJobManager"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a39de949b1cdace01114ee9391fc4a484"></a>
 ### Function tradeStudyStart
 
@@ -1072,12 +921,6 @@ Lets ModelCenter know that a Trade Study has been started.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::tradeStudyStart"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aa75908bb0ec202342833c666b10fcb66"></a>
 ### Function getHaltStatus
@@ -1107,12 +950,6 @@ yes(TRUE) or no(FALSE).
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getHaltStatus"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a5d42323e20b243257f4cef533dd58e7d"></a>
 ### Function getModel
 
@@ -1140,12 +977,6 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aa31343d27c063cc384336028b12abac2"></a>
 ### Function MessageBox
@@ -1180,12 +1011,6 @@ Creates a MessageBox dialog.
 * _[optional]_ VARIANT **force**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::MessageBox"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a04408aef2e249b325db44eb8e0ca6758"></a>
 ### Function getValueAbsolute
@@ -1223,12 +1048,6 @@ The value as a variant.
 * BSTR **varName**
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getValueAbsolute"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aa312b4e6e4585bd0f4d7cc9a69d1d7ec"></a>
 ### Function setScheduler
@@ -1271,12 +1090,6 @@ Note: all scheduler types are case sensitive.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setScheduler"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a7bbd736a48c08e2eb90c4af45872e6f5"></a>
 ### Function removeComponent
 
@@ -1308,12 +1121,6 @@ Removes the specified component from the Model.
 * BSTR **name**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::removeComponent"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a231cd11fa3198cc4a22db3ee0483b59c"></a>
 ### Function breakLink
@@ -1352,12 +1159,6 @@ mc.breakLink "Model.Linear.x"
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::breakLink"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1aaaa18b9967d91f5e9afa0f663fb4ddae"></a>
 ### Function getHWND
 
@@ -1385,12 +1186,6 @@ Value of the current HWND instance.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getHWND"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a5ea6a58aa4def0e7d48f5c48dfc46d35"></a>
 ### Function checkout
@@ -1428,12 +1223,6 @@ an [IFeature](interfaceModelCenter_1_1IFeature.md#interfaceModelCenter_1_1IFeatu
 * BSTR **feature**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::checkout"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a3b8e21abd2354b4fd537084f36c9a180"></a>
 ### Function checkout2
@@ -1474,12 +1263,6 @@ an [IFeature](interfaceModelCenter_1_1IFeature.md#interfaceModelCenter_1_1IFeatu
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::checkout2"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a762c9d09a2d611300bc3e09f9891c86e"></a>
 ### Function runMacro
 
@@ -1518,12 +1301,6 @@ Runs the specified macro.
 * _[optional]_ VARIANT **useMCObject**
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::runMacro"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a402db0953a58ac7573cf3585c938eafa"></a>
 ### Function createAssembly
@@ -1571,12 +1348,6 @@ Set assembly=mc.createAssembly("myAssembly", "Model")
 * _[optional]_ VARIANT **assemblyType**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createAssembly"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a72e28e9146e37b0854aaa3274b60362c"></a>
 ### Function createAssemblyVariable
@@ -1658,12 +1429,6 @@ Set var=mc.createAssemblyVariable("myVar", "double", "Model")
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createAssemblyVariable"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1adea9c027f61fb0c23ce34a0e47924679"></a>
 ### Function autoLink
 
@@ -1697,12 +1462,6 @@ Automatically links two components.
 * BSTR **destComp**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::autoLink"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ac83decf1799275a0d13ecadeffb008cd"></a>
 ### Function getLinks
@@ -1741,12 +1500,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getLinks"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a499de038ba95ad40b52862e5239bf18c"></a>
 ### Function getModelUUID
 
@@ -1774,12 +1527,6 @@ The ID string for the current model.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getModelUUID"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a1533da4a5c2e70aa5b196215af7637bc"></a>
 ### Function getFormatter
@@ -1818,12 +1565,6 @@ An IDispatch* to the [IPHXFormat](interfaceModelCenter_1_1IPHXFormat.md#interfac
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getFormatter"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a2a8f95eb131aad5e03597ada8251ef30"></a>
 ### Function invokeHelp
 
@@ -1855,12 +1596,6 @@ Invokes the specified context sensitive help item out of the ModelCenter help fi
 * long **pageID**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::invokeHelp"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a24726ff2cf91ef85884d6b2bea513ed4"></a>
 ### Function launchTradeStudy
@@ -1895,12 +1630,6 @@ Causes the specified Trade Study tool to be launched.
 * _[optional]_ VARIANT **setup**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::launchTradeStudy"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1afb0f2d3715e4a48c1ee1c865864c5314"></a>
 ### Function createPlugInFrame
@@ -1951,12 +1680,6 @@ Creates a new frame window with favorites in it which can be used by Plug-Ins as
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createPlugInFrame"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1aa9057344d6d2ffc28569709efdbdb5ad"></a>
 ### Function displayAboutBox
 
@@ -1975,12 +1698,6 @@ Display the "About" dialog for ModelCenter.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::displayAboutBox"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a4cde569f8ca3555ede7fd8d3d2cd4387"></a>
 ### Function halt
@@ -2001,12 +1718,6 @@ Stop execution of the Model currently running in ModelCenter.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::halt"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ae8f7829bf075209faf0fcecf742e76be"></a>
 ### Function displayPreferencesDialog
 
@@ -2025,12 +1736,6 @@ Display the "Preferences" dialog for ModelCenter.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::displayPreferencesDialog"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a158d8bbb37d23dd35bbf87b1340c95d6"></a>
 ### Function run
@@ -2064,12 +1769,6 @@ Runs a specified set of variables in the current Model.
 * BSTR **variableArray**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::run"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a6212fa2f41e2132f8f40d78164059eb7"></a>
 ### Function getDataMonitor
@@ -2109,12 +1808,6 @@ Retrieves the indexed Data Monitor associated with the specified Component.
 * VARIANT **index**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getDataMonitor"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ad86e8cd5714f0d22dc84b1b71979fdc5"></a>
 ### Function createDataMonitor
@@ -2159,12 +1852,6 @@ Creates a Data Monitor associated with a particular component.
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createDataMonitor"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1af91d7535a069da55220c52b759ca5238"></a>
 ### Function isOkToClose
 
@@ -2192,12 +1879,6 @@ True if no sub windows are open, else false.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::isOkToClose"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ada4b443f077f7c53744ada601a3c12be"></a>
 ### Function addIcon
@@ -2235,12 +1916,6 @@ The index of the icon in [ModelCenter](namespaceModelCenter.md#namespaceModelCen
 * BSTR **iconFile**
 
 **Return type**: short
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::addIcon"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a2dd2279b4d0250af8ae6d3506f55c57a"></a>
 ### Function removeDataMonitor
@@ -2281,12 +1956,6 @@ whether the data monitor was successfully found and deleted
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::removeDataMonitor"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a359b38b4b8bc935b9eb5cf9e68a3a34f"></a>
 ### Function setUserName
 
@@ -2318,12 +1987,6 @@ Sets the user name that ModelCenter will use for authentication.
 * BSTR **userName**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setUserName"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a677e2965bfb8998dc4546673f95355de"></a>
 ### Function setPassword
@@ -2357,12 +2020,6 @@ Sets the password that ModelCenter will use for authentication.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setPassword"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1adc47ef3cf5fa8d766117ec19c7dfab92"></a>
 ### Function getModelCenterPath
 
@@ -2390,12 +2047,6 @@ Full file path where ModelCenter is installed.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getModelCenterPath"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ae1bdc8f0abc612490b737852f189027a"></a>
 ### Function getDataExplorer
@@ -2434,12 +2085,6 @@ IDispatch* to an IDataExplorer object.
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getDataExplorer"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a29b8af2a820e24e728425e6467881067"></a>
 ### Function getDataCollector
 
@@ -2477,12 +2122,6 @@ IDispatch* to an [IDataCollector](interfaceModelCenter_1_1IDataCollector.md#inte
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getDataCollector"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1af2d28cb0c0290a80ebe0e31f91497f11"></a>
 ### Function getLogger
 
@@ -2510,12 +2149,6 @@ IDispatch* to an [ILogger](interfaceModelCenter_1_1ILogger.md#interfaceModelCent
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getLogger"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1acd338a67839da36df138a0521ee3aead"></a>
 ### Function createPlugInFrame2
@@ -2570,12 +2203,6 @@ Creates a new frame window with favorites in it which can be used by Plug-Ins as
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createPlugInFrame2"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a70986fc1018ab96fdbd507b4ebe568fc"></a>
 ### Function moveComponent
 
@@ -2611,12 +2238,6 @@ Moves the component to the parent at the given index.
 * _[optional]_ VARIANT **index**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::moveComponent"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1af1bef892aa57d153cd63b6f4ba9037f4"></a>
 ### Function setAssemblyStyle
@@ -2655,12 +2276,6 @@ Sets the assembly style of the component (collapse, expanded, N^2, etc).
 * _[optional]_ VARIANT **height**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setAssemblyStyle"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ab1d7ce6494121cd997115f91e91d795a"></a>
 ### Function getAssemblyStyle
@@ -2703,12 +2318,6 @@ AssemblyStyle
 
 **Return type**: [AssemblyStyle](namespaceModelCenter.md#namespaceModelCenter_1a91c424f9204166f9d85ca1d04b1cf625)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getAssemblyStyle"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a461a8c0e8efdd3353da6feb22b232029"></a>
 ### Function getAssembly
 
@@ -2745,12 +2354,6 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 * BSTR **name**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getAssembly"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a049e13b6d3ba54dd40a162a16d03bb66"></a>
 ### Function createAndInitComponent
@@ -2804,12 +2407,6 @@ The newly created [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMo
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createAndInitComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1af5bdeb0442c6f35c0e5db849b1a166fd"></a>
 ### Function getLicensingPath
 
@@ -2835,12 +2432,6 @@ Gets the licensing path used by ModelCenter. By default the path is the base Mod
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getLicensingPath"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a16bc3b79ea75a2c2e9c6aaf48591f840"></a>
 ### Function getMacroScript
@@ -2882,12 +2473,6 @@ A string representing the macro script.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getMacroScript"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ae2b0614b8c0367ab7893c5fb32e14b96"></a>
 ### Function setMacroScript
 
@@ -2924,12 +2509,6 @@ Sets a macro script
 * BSTR **script**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setMacroScript"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a8c930544d5f9fc2e49afb076b5ccee76"></a>
 ### Function getMacroScriptLanguage
@@ -2971,12 +2550,6 @@ A string representing the macro script language.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getMacroScriptLanguage"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a7b92a22213e11d5f4b3ad8dfe7a894f9"></a>
 ### Function setMacroScriptLanguage
 
@@ -3014,12 +2587,6 @@ Sets the language for a macro script
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setMacroScriptLanguage"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a9d209b30adb83ac9fe48f8efd1959f3a"></a>
 ### Function addNewMacro
 
@@ -3054,12 +2621,6 @@ Adds a new macro
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::addNewMacro"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ab180eb62170146926e7a6c2384d5ad66"></a>
 ### Function launchMacroEditor
 
@@ -3091,12 +2652,6 @@ Launches the macro editor tool, and show the macro script corresponding to macro
 * BSTR **macroName**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::launchMacroEditor"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a06c77786a3965c9ca7c72c6ba7af7ad3"></a>
 ### Function startGUIMode
@@ -3149,12 +2704,6 @@ Once this method is invoked, [ModelCenter](namespaceModelCenter.md#namespaceMode
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::startGUIMode"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a0f6aab6d238cbe899af59725ab0de842"></a>
 ### Function getNumUnitCategories
 
@@ -3182,12 +2731,6 @@ The number for unit categories, or -1 if there is an error.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getNumUnitCategories"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1abe07ee5b95ed640b926a165f2e02b7f1"></a>
 ### Function getUnitCategoryName
@@ -3226,12 +2769,6 @@ The name of the category, or empty string if there is an error.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getUnitCategoryName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ad6a35e6ac78e89ddcd4a68023bcdd651"></a>
 ### Function getNumUnits
 
@@ -3268,12 +2805,6 @@ The number of units, or -1 if there is an error.
 * BSTR **category**
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getNumUnits"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aab8bb46de63e10f150e9614ea36d0b9a"></a>
 ### Function getUnitName
@@ -3314,12 +2845,6 @@ The name of the unit, or empty string if there is an error.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getUnitName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ab18e9a5fa259695357cd26f155ee95dd"></a>
 ### Function createTradeStudy
 
@@ -3359,12 +2884,6 @@ An IDispatch* to the trade study object.
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createTradeStudy"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a375ab85c506633857e960502c208ed79"></a>
 ### Function getNetworkLocations
 
@@ -3392,12 +2911,6 @@ An IDispatch* to the [INetworkLocations](interfaceModelCenter_1_1INetworkLocatio
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getNetworkLocations"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ac658a0c1392f2fd8b851794c9ac1896f"></a>
 ### Function saveVersionedModel
@@ -3432,12 +2945,6 @@ Saves the current Model.
 * BSTR **checkinMessage**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::saveVersionedModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ab65847c07b712a58acfe6a21659518b5"></a>
 ### Function saveVersionedModelAs
@@ -3475,12 +2982,6 @@ Saves the current Model to a specified file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::saveVersionedModelAs"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1aebbf42a396f1eea5b917d13b85e0fb8e"></a>
 ### Function getVariableMetaData
 
@@ -3512,12 +3013,6 @@ the metadata, in the form of an IDHVariable (from [PHXDATAHISTORYLib](namespaceP
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getVariableMetaData"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a27b453e8058a238c25049c8fcb5121e4"></a>
 ### Function dumpComDebug
 
@@ -3536,12 +3031,6 @@ Dump COM debug information to TRACE(); only has an effect in debug builds.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::dumpComDebug"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a9dabff9569cfbb6c65ccdae26aab3ff7"></a>
 ### Function showFileBrowseDialog
@@ -3579,12 +3068,6 @@ URI of selected file, or empty string if none selected
 * _[optional]_ VARIANT **hwnd**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::showFileBrowseDialog"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a23ea9bc699e8f31401f96d2594f79ae6"></a>
 ### Function showFileSaveDialog
@@ -3627,12 +3110,6 @@ URI of selected file, or empty string if none selected
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::showFileSaveDialog"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a156c716bde56ad5bc070f00e2037a2da"></a>
 ### Function setLoginCallback
 
@@ -3659,12 +3136,6 @@ Sets the login callback to use for authentication.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setLoginCallback"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a5f2d90be1a4bed0126993b3021d24981"></a>
 ### Function createDataHistoryVariable
 
@@ -3683,12 +3154,6 @@ Create an IDHVariable object.
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createDataHistoryVariable"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a38682504615aef9e603a9c2f3d4bd2e8"></a>
 ### Function getRunOnlyMode
@@ -3717,12 +3182,6 @@ true if [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) is in Run-On
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getRunOnlyMode"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aba91dde2a4c0674816c3781ed873457e"></a>
 ### Function setRunOnlyMode
@@ -3762,12 +3221,6 @@ Note: This function can only be called if it is the first function to be called 
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setRunOnlyMode"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a3edba311337bb171b956e0d331cfa05f"></a>
 ### Function createDataExplorer
 
@@ -3796,7 +3249,7 @@ Creates a new Data Explorer. This documentation assumes you're creating it for a
 
 **Returns**:
 
-IDispatch* to an [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer) object.
+IDispatch* to an [PHXDATAEXPLORERLib::_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer) object.
 
 
 
@@ -3806,12 +3259,6 @@ IDispatch* to an [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLOR
 * BSTR **setup**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::createDataExplorer"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a6d6d38245d99b3f53fda689a1adee17f"></a>
 ### Function getFileSystemInfo
@@ -3845,12 +3292,6 @@ Gets the FileSystemInfo for a given URL.
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getFileSystemInfo"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1aa2ca200dd05dc8257c35af74035459e1"></a>
 ### Function SAFEARRAY
 
@@ -3876,12 +3317,6 @@ SAFEARRAY of filters for use in FileDialog of the files used by trade studies
 * BSTR
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::SAFEARRAY"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1af139d41f66681c63c80243adbd48cbc0"></a>
 ### Function saveTradeStudy
@@ -3912,12 +3347,6 @@ Save the trade study currently loaded in the DataExplorer to the given URI. It w
 * LPDISPATCH **dataExplorer**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::saveTradeStudy"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a59b46ca7b15c869fb190ecfeb70bf90a"></a>
 ### Function getDataCollectorForDataExplorer
@@ -3956,12 +3385,6 @@ IDispatch* to the [IDataCollector](interfaceModelCenter_1_1IDataCollector.md#int
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getDataCollectorForDataExplorer"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a434995395fc673c8197bfde7e1256240"></a>
 ### Function launchDataCollectorPlugIn
 
@@ -3995,12 +3418,6 @@ Launches a specific Data Collector PlugIn, by name, on the specified Data Explor
 * LPDISPATCH **dataExplorer**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::launchDataCollectorPlugIn"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a255ea30feb95451802aa280bdffcd7b8"></a>
 ### Function guiLoadFile
@@ -4040,12 +3457,6 @@ Loads a file in "GUI" mode, that is, unlike loadFile(...), will produce a prompt
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::guiLoadFile"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a8ad33e25dfad91e8ba248d399a1b6449"></a>
 ### Function guiSaveModel
 
@@ -4064,12 +3475,6 @@ Saves the currently open file in "GUI" mode; unlike saveModel, this can pop up a
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::guiSaveModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a18766ae9a0fda73f8febdb709adfceea"></a>
 ### Function getMacroTimeout
@@ -4111,12 +3516,6 @@ Number of seconds to allow a script to run before canceling it; -1 indicates no 
 
 **Return type**: double
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getMacroTimeout"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a559cd3b9f0e68e5ecc2c4006c8014667"></a>
 ### Function setMacroTimeout
 
@@ -4154,12 +3553,6 @@ Sets a macro's timeout.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setMacroTimeout"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a8708a9033fcd77731539b085a1c6c047"></a>
 ### Function guiCloseAllMultiplexers
 
@@ -4181,12 +3574,6 @@ true if the user allowed all multiplexers to close.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::guiCloseAllMultiplexers"}]}`
--->
 
 ## Private functions
 
@@ -4213,12 +3600,6 @@ void ModelCenter::IModelCenter::setAlternateParentFrame(long hwnd)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setAlternateParentFrame"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a24cc8bd489975150c9d5c5c3e9502b87"></a>
 ### Function destroyPlugInFrame
 
@@ -4241,12 +3622,6 @@ void ModelCenter::IModelCenter::destroyPlugInFrame(long hwnd)
 * long **hwnd**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::destroyPlugInFrame"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1ad1fc33915ad5917cd645e795251f01de"></a>
 ### Function showPlugInFrame
@@ -4271,12 +3646,6 @@ void ModelCenter::IModelCenter::showPlugInFrame(long hwnd)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::showPlugInFrame"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a806cc1860aaadaa5496d4caa0a51fe91"></a>
 ### Function hidePlugInFrame
 
@@ -4299,12 +3668,6 @@ void ModelCenter::IModelCenter::hidePlugInFrame(long hwnd)
 * long **hwnd**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::hidePlugInFrame"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a65a6502ad779fd4394d06f45adabc398"></a>
 ### Function setIconPlugInFrame
@@ -4330,12 +3693,6 @@ void ModelCenter::IModelCenter::setIconPlugInFrame(long hwnd, BSTR iconFile)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setIconPlugInFrame"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1aae5eb45abe323ca501a777f31b9ae5b8"></a>
 ### Function launchHTMLViewer
 
@@ -4360,12 +3717,6 @@ long ModelCenter::IModelCenter::launchHTMLViewer(BSTR url, boolean popup)
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::launchHTMLViewer"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a2d684049210e4062f14cf2e3e2abb031"></a>
 ### Function runAntFile
 
@@ -4389,12 +3740,6 @@ void ModelCenter::IModelCenter::runAntFile(BSTR fileName)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::runAntFile"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a2fac8021991150ab97e3673e4b0c0dc1"></a>
 ### Function getGlobalParameters
 
@@ -4413,12 +3758,6 @@ IDispatch * ModelCenter::IModelCenter::getGlobalParameters()
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getGlobalParameters"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a46b4e01256fa252da2f589af87833ac1"></a>
 ### Function closeHTMLViewer
@@ -4443,12 +3782,6 @@ boolean ModelCenter::IModelCenter::closeHTMLViewer(long hwnd)
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::closeHTMLViewer"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ad62471b3a17a7b182d7f8fa0df7048b7"></a>
 ### Function HTMLViewerWaitForClose
 
@@ -4472,12 +3805,6 @@ void ModelCenter::IModelCenter::HTMLViewerWaitForClose(long hwnd)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::HTMLViewerWaitForClose"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ad6f56123c0b435ffca19628deaa4169f"></a>
 ### Function HTMLViewerGetMyHWND
 
@@ -4497,12 +3824,6 @@ long ModelCenter::IModelCenter::HTMLViewerGetMyHWND()
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::HTMLViewerGetMyHWND"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a931fee19976a7a03e263284ec0ee9d53"></a>
 ### Function getActiveJobManager
 
@@ -4521,12 +3842,6 @@ IDispatch * ModelCenter::IModelCenter::getActiveJobManager()
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getActiveJobManager"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1aadc031780e0355e1ca2bba83cb13441a"></a>
 ### Function getPreference
@@ -4559,12 +3874,6 @@ preference value as a variant. <br/>
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getPreference"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ae91fcfa7f9dfe5fa3df62fb9d3c703c8"></a>
 ### Function internalLicensing
 
@@ -4588,12 +3897,6 @@ void ModelCenter::IModelCenter::internalLicensing(BSTR, long)
 * long
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::internalLicensing"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1a23a3683a4c5b5f4380e33232e2ca30be"></a>
 ### Function transformAVPoint
@@ -4622,12 +3925,6 @@ void ModelCenter::IModelCenter::transformAVPoint(int x, int y, boolean screen, V
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::transformAVPoint"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a7dc06d52fa432893eaf74db606db3864"></a>
 ### Function parallelInstance
 
@@ -4647,12 +3944,6 @@ IDispatch * ModelCenter::IModelCenter::parallelInstance()
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::parallelInstance"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a21a60528e3b43cbbbbc131adaf5a1151"></a>
 ### Function unAssociatedInstance
 
@@ -4671,12 +3962,6 @@ IDispatch * ModelCenter::IModelCenter::unAssociatedInstance()
 
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::unAssociatedInstance"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1acb8cad870e072bee4a80b1902476929a"></a>
 ### Function configureLogging
@@ -4710,12 +3995,6 @@ Configures the [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) logge
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::configureLogging"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1a70666088b3363b2c9738cd15ec446d8e"></a>
 ### Function setXMLExtension
 
@@ -4747,12 +4026,6 @@ Adds the XML as an XML extension node to the model file.
 * BSTR **xml**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setXMLExtension"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IModelCenter_1af94e33f84d46652cfad0af931db0d59b"></a>
 ### Function getXMLExtension
@@ -4795,12 +4068,6 @@ Gets an XML extension node from the model file that matches the specified query.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::getXMLExtension"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IModelCenter_1ac7c886a8b0333b565333d6b16d9ab824"></a>
 ### Function setPreference
 
@@ -4824,12 +4091,6 @@ void ModelCenter::IModelCenter::setPreference(BSTR pref, BSTR value)
 * BSTR **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IModelCenter::setPreference"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

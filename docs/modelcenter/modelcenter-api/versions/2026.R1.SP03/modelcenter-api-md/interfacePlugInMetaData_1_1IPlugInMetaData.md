@@ -1,10 +1,9 @@
-<a id="interfacePlugInMetaData_1_1IPlugInMetaData"></a>
 # Interface PlugInMetaData::IPlugInMetaData
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_PlugInMetaData/PlugInMetaData.odl` (line 18)
+**Definition**: `ModelCenter/src/InterfaceDLL_PlugInMetaData/PlugInMetaData.odl` (line 18)
 
 
 
@@ -40,12 +39,6 @@ BSTR PlugInMetaData::IPlugInMetaData::getDescription()
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::IPlugInMetaData::getDescription"}]}`
--->
-
 <a id="interfacePlugInMetaData_1_1IPlugInMetaData_1a302223e3912f3e34a512a5ef323e0939"></a>
 ### Function getAuthor
 
@@ -64,12 +57,6 @@ BSTR PlugInMetaData::IPlugInMetaData::getAuthor()
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::IPlugInMetaData::getAuthor"}]}`
--->
 
 <a id="interfacePlugInMetaData_1_1IPlugInMetaData_1a7cb8178dec412b370f22e7a9905eb3d9"></a>
 ### Function getVersion
@@ -90,12 +77,6 @@ BSTR PlugInMetaData::IPlugInMetaData::getVersion()
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::IPlugInMetaData::getVersion"}]}`
--->
-
 <a id="interfacePlugInMetaData_1_1IPlugInMetaData_1a81605db892f6e5dc71aa7a4f2d00686e"></a>
 ### Function getHelpURL
 
@@ -114,12 +95,6 @@ BSTR PlugInMetaData::IPlugInMetaData::getHelpURL()
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::IPlugInMetaData::getHelpURL"}]}`
--->
 
 <a id="interfacePlugInMetaData_1_1IPlugInMetaData_1a38d839895f9ee3493710062d2bf67c34"></a>
 ### Function getKeywords
@@ -140,12 +115,6 @@ BSTR PlugInMetaData::IPlugInMetaData::getKeywords()
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::IPlugInMetaData::getKeywords"}]}`
--->
-
 <a id="interfacePlugInMetaData_1_1IPlugInMetaData_1af49ffd75001ae0bfd3dade7f5b9562db"></a>
 ### Function getIconLocation
 
@@ -164,12 +133,6 @@ BSTR PlugInMetaData::IPlugInMetaData::getIconLocation()
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PlugInMetaData::IPlugInMetaData::getIconLocation"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

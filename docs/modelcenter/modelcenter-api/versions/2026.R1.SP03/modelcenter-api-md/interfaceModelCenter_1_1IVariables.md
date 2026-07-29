@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IVariables"></a>
 # Interface ModelCenter::IVariables
 
 ![][IDL]
@@ -38,12 +37,6 @@ Number of variables.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariables::Count"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IVariables_1a68b42951fd19cf993eef52d372dbdb84"></a>
@@ -82,12 +75,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 * VARIANT **id**
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IVariables::Item"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

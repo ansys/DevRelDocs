@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IFileArray"></a>
 # Interface ModelCenter::IFileArray
 
 ![][IDL]
@@ -88,12 +87,6 @@ boolean ModelCenter::IFileArray::hasChanged
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::hasChanged"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1ace9ef38b4495497cd17fc358d675cf58"></a>
 ### Property hide
 
@@ -114,12 +107,6 @@ boolean ModelCenter::IFileArray::hide
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::hide"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1aa0d97988f42416ca68f47e1fecfe6e73"></a>
 ### Property OwningComponent
@@ -142,12 +129,6 @@ LPDISPATCH ModelCenter::IFileArray::OwningComponent
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::OwningComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1aed6f1989cc53493063439e96852be675"></a>
 ### Property size
 
@@ -168,12 +149,6 @@ long ModelCenter::IFileArray::size
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::size"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a757e103b1c6f7e5921adf31b7b1049ca"></a>
 ### Property numDimensions
@@ -196,12 +171,6 @@ long ModelCenter::IFileArray::numDimensions
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::numDimensions"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a66fab48ff61be8f9c8e21bf0c9f96f45"></a>
 ### Property isBinary
 
@@ -222,12 +191,6 @@ Whether or not the file is binary.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::isBinary"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a8be2e0c977d8808648829d523c841d36"></a>
 ### Property description
@@ -250,12 +213,6 @@ Description of the array.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::description"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a2ce9625b3829cc7569fee6949e227dfe"></a>
 ### Property saveWithModel
 
@@ -276,12 +233,6 @@ Flag to indicate whether the file content to be saved with the Model file.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::saveWithModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a5b7408868a080c3d2b0b6812dc13a536"></a>
 ### Property value
@@ -327,12 +278,6 @@ The value.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::value"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1af89ea57b9feb5597f3e190af1c8b5bf9"></a>
 ### Property value
 
@@ -372,12 +317,6 @@ Set the value of an array element.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::value"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1ac8e13d4f87d1c0b784c5ebafd030fa57"></a>
 ### Property fileExtension
@@ -423,12 +362,6 @@ The file extension.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::fileExtension"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a12eb5e82033d54430ee309a0ca2ad254"></a>
 ### Property fileExtension
 
@@ -469,12 +402,6 @@ Sets the file extension of the variable. Used when opening the file in ModelCent
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::fileExtension"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IFileArray_1a1d3371b70abb06b2eff5d1ada8aa114f"></a>
@@ -507,12 +434,6 @@ yes(TRUE) or no(FALSE).
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a20792cdbe6866825f978a2e30affca88)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a506a66d66cb52b49d7385351bf0cfa46"></a>
 ### Function validate
 
@@ -533,12 +454,6 @@ Causes the array to validate itself.
 **Return type**: void
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a31cda88a70c11ef884e9105ef4ee7d20)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::validate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a3f04f85ebe4f50a88c7cc3a61ae597f6"></a>
 ### Function getName
@@ -570,12 +485,6 @@ The name of the array.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ace7a0aeb83a64535f7caa63600783fa7)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a7aada275954e2fff6bdea69b8a96bd0c"></a>
 ### Function getFullName
 
@@ -606,12 +515,6 @@ The full ModelCenter path of the array.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a699cf890f3743699cb25a7432c0f7f68)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::getFullName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a6614c3d1ae621d218762e8ed8ec58222"></a>
 ### Function getType
 
@@ -641,12 +544,6 @@ The type of the array as a string.
 **Return type**: BSTR
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1adf1ee02ba4bdf03ef0366e2f0a62b344)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::getType"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a9e45ea90908321e84979e5b8d2f50357"></a>
 ### Function isInput
@@ -679,12 +576,6 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1af18eb203bc12f95a61b5876279ee17a9)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::isInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a7ba909789490822b7ab12891075a9e56"></a>
 ### Function toString
 
@@ -714,12 +605,6 @@ The converted string value of the array.
 **Return type**: BSTR
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a6ff821435a5704253ffdfb9334cc2dc4)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::toString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1ab107312b8a5b1e8e96ae2a3678ef9897"></a>
 ### Function fromString
@@ -757,12 +642,6 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a97b06c86c2783603221e0b0215dc75c8)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::fromString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1ac8f43fca8b974b224bd64a78bd3bdda3"></a>
 ### Function toStringAbsolute
 
@@ -793,12 +672,6 @@ The converted string value of the array.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ad5ecd4799e995bf2c97015c718606550)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::toStringAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a7599948212f77bb66f8ef42fc98e53ce"></a>
 ### Function invalidate
 
@@ -819,12 +692,6 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 **Return type**: void
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1abfaa3f2b5bff1412199f5014ca10c4d5)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::invalidate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a9f84f73f3b65f16fa507678c53c67527"></a>
 ### Function directPrecedents
@@ -867,12 +734,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a0367bcfe5c12848d1d10e1266a0a868e)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::directPrecedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1ab61572acbd0617f5c51b04b2ae4bbdba"></a>
 ### Function directDependents
 
@@ -914,12 +775,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a834a8ad8bfec0c4b0220b21979e82fca)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::directDependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a998c2f1327219560aacd3d65d2c178b6"></a>
 ### Function precedentLinks
 
@@ -959,12 +814,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8f2364939bd5efaab13ecdbc3cb7df51)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::precedentLinks"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a90373b06919789f06f52dd22a0339847"></a>
 ### Function dependentLinks
 
@@ -1003,12 +852,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 **Return type**: LPDISPATCH
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1aecc2dc18b0ee43d5175503d44ca259c3)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::dependentLinks"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1abf61619be1e057cf2c42189456169041"></a>
 ### Function precedents
@@ -1051,12 +894,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ab185a76064278e30ee48682164364e72)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::precedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1af16a20eacc6734b343762565ec8b20d6"></a>
 ### Function dependents
 
@@ -1098,12 +935,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a7cb300d678991e0b6449ad7b0d004906)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::dependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a29e9bceef09e96ad83ce6c0618eb17dd"></a>
 ### Function isInputToComponent
 
@@ -1135,12 +966,6 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a74e3e9729c8de2d3d091a6f22f7cb45b)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::isInputToComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1accf93e4a9fe2c9eb205ccdf1704f3f9e"></a>
 ### Function isInputToModel
 
@@ -1171,12 +996,6 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 **Return type**: boolean
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a87cc3a01fd30ce7c6380b5d1d6ff7df9)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::isInputToModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a46a06089e51539cdb69a6404db042d28"></a>
 ### Function setMetadata
@@ -1220,12 +1039,6 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8b1a6f24260a22b01e738ed2fb1d4523)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1ae315b5cc3acb88a2edabaa8eea7a6690"></a>
 ### Function getMetadata
 
@@ -1264,12 +1077,6 @@ Metadata value.
 **Return type**: VARIANT
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a53f2d3f772584c3c43341ff4236402c9)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::getMetadata"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1afac8b4ceedd459ad68bed98ae18ea6a8"></a>
 ### Function toStringEx
@@ -1310,12 +1117,6 @@ The value of the element as a string.
 
 **Reimplements**: [toStringEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a37c622ae9f50579f714ce98c0379cd98)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::toStringEx"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1aa104ba67a0164c27a33017aabd29d83d"></a>
 ### Function fromStringEx
 
@@ -1351,12 +1152,6 @@ Sets the value of an array element from a specified string.
 **Return type**: void
 
 **Reimplements**: [fromStringEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ad23f4082662c464be07251d6d1695a2d)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::fromStringEx"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a15dfd2825b183a80b93d849ce3429ca3"></a>
 ### Function toStringAbsoluteEx
@@ -1397,12 +1192,6 @@ The value of the element as a string.
 
 **Reimplements**: [toStringAbsoluteEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a2e3041440581aab716c684fe88d2ee87)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::toStringAbsoluteEx"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1acb6d739a4e50bcbbda5a5cf053ae21db"></a>
 ### Function getLength
 
@@ -1442,12 +1231,6 @@ Length(size) of the array.
 
 **Reimplements**: [getLength](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8a6965fe1217428d63d594384a634bfb)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::getLength"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a66119cc8d733c8a2d6a8101569768662"></a>
 ### Function setLength
 
@@ -1483,12 +1266,6 @@ Sets the length of the n'th dimension of the array
 **Return type**: void
 
 **Reimplements**: [setLength](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ac632aa0e8bc7a6fcac41245e151beec8)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::setLength"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a791424f1645b40c0b9b9d509effb1df8"></a>
 ### Function setDimensions
@@ -1541,12 +1318,6 @@ Sets the number of dimensions of an array and the length of each dimension in on
 **Return type**: void
 
 **Reimplements**: [setDimensions](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1af881060e37aae0ff4c2c2238683db950)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::setDimensions"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1abea033ef41f0f2ad087b24387772e09b"></a>
 ### Function getFileExtension
@@ -1603,12 +1374,6 @@ The file extension.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::getFileExtension"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1ab92bd8b81525ab620509e01219d733fe"></a>
 ### Function setFileExtension
 
@@ -1660,12 +1425,6 @@ Sets the desired file extension for the file.
 * _[optional]_ VARIANT **d10**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::setFileExtension"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a21c5941a7054482e4f7fd13e55db2738"></a>
 ### Function toFile
@@ -1721,12 +1480,6 @@ Writes out contents to a file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::toFile"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IFileArray_1a83b3e976d1267ab9bb6e59be7bd741d1"></a>
 ### Function fromFile
 
@@ -1778,12 +1531,6 @@ Reads data from a file.
 * _[optional]_ VARIANT **d10**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::fromFile"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IFileArray_1a118321f9f4f870bd9ec196813546b6f3"></a>
 ### Function toFileAbsolute
@@ -1838,12 +1585,6 @@ Writes out contents to a file without validating the variable.
 * _[optional]_ VARIANT **d10**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IFileArray::toFileAbsolute"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

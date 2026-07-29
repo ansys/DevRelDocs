@@ -1,9 +1,8 @@
-<a id="TradeStudyPlugIn_8odl"></a>
 # File TradeStudyPlugIn.odl
 
 ![][IDL]
 
-**Location**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl`
+**Location**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl`
 
 
 

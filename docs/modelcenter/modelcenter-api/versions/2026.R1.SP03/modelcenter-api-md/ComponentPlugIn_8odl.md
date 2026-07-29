@@ -1,9 +1,8 @@
-<a id="ComponentPlugIn_8odl"></a>
 # File ComponentPlugIn.odl
 
 ![][IDL]
 
-**Location**: `ModelCenter/src/InterfaceDLL\_ComponentPlugIn/ComponentPlugIn.odl`
+**Location**: `ModelCenter/src/InterfaceDLL_ComponentPlugIn/ComponentPlugIn.odl`
 
 
 

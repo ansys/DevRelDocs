@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IDoubleArray"></a>
 # Interface ModelCenter::IDoubleArray
 
 ![][IDL]
@@ -97,12 +96,6 @@ boolean ModelCenter::IDoubleArray::hasChanged
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::hasChanged"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a009c7abd22ec22abd5367db1a29305ff"></a>
 ### Property hide
 
@@ -123,12 +116,6 @@ boolean ModelCenter::IDoubleArray::hide
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::hide"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1aa2e8150c160c33946dd92d8887b57d1f"></a>
 ### Property OwningComponent
@@ -151,12 +138,6 @@ LPDISPATCH ModelCenter::IDoubleArray::OwningComponent
 
 **Return type**: LPDISPATCH
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::OwningComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1aeb3ca2a904ddc619edad7828c6c4492f"></a>
 ### Property size
 
@@ -177,12 +158,6 @@ long ModelCenter::IDoubleArray::size
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::size"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a8bf3f208059aad7bc8a73fd4e6529053"></a>
 ### Property numDimensions
@@ -205,12 +180,6 @@ long ModelCenter::IDoubleArray::numDimensions
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::numDimensions"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a396e13c98a7680bc75354b6bf6b0487a"></a>
 ### Property lowerBound
 
@@ -231,12 +200,6 @@ Lower bound of the array.
 
 
 **Return type**: double
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::lowerBound"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ad4a4c720baa19775898e45381b881fcd"></a>
 ### Property upperBound
@@ -259,12 +222,6 @@ Upper bound of the array.
 
 **Return type**: double
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::upperBound"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a59b6ea0f39cadd0ec7b20b16c8d630ea"></a>
 ### Property description
 
@@ -285,12 +242,6 @@ Description of the array.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::description"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ae91fd63ce08d3af74fb22132b5626432"></a>
 ### Property units
@@ -313,12 +264,6 @@ Units of the array.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::units"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a9e195b698057e2d38fbb9c101ebeb827"></a>
 ### Property enumAliases
 
@@ -339,12 +284,6 @@ Enumerated aliases of the array.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::enumAliases"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1af625775f6fdd957bb0b37ed1c86a3051"></a>
 ### Property enumValues
@@ -367,12 +306,6 @@ Enumerated values of the array.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::enumValues"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1ad0078a54f0aa1ede8e3d6d78a00a4f7c"></a>
 ### Property format
 
@@ -393,12 +326,6 @@ Format of the variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::format"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ab6fd11161c6f26426d3205c88025a962"></a>
 ### Property value
@@ -444,12 +371,6 @@ The value.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::value"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1aceacfa8c1f90207042abb68d4175679d"></a>
 ### Property value
 
@@ -490,12 +411,6 @@ Set the value of an array element. You must set the array size first.
 
 **Return type**: double
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::value"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a4d7719052c0b341f91436d3a0da270cc"></a>
@@ -528,12 +443,6 @@ yes(TRUE) or no(FALSE).
 
 **Reimplements**: [isValid](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a20792cdbe6866825f978a2e30affca88)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::isValid"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1abc755512c485531a61f10d2bc5d691b0"></a>
 ### Function validate
 
@@ -554,12 +463,6 @@ Causes the array to validate itself.
 **Return type**: void
 
 **Reimplements**: [validate](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a31cda88a70c11ef884e9105ef4ee7d20)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::validate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1afe2789906f30f6a082e5d3d79e2b5bbc"></a>
 ### Function getName
@@ -591,12 +494,6 @@ The name of the array.
 
 **Reimplements**: [getName](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ace7a0aeb83a64535f7caa63600783fa7)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a225331135b6efad1b05c399869975962"></a>
 ### Function getFullName
 
@@ -627,12 +524,6 @@ The full ModelCenter path of the array.
 
 **Reimplements**: [getFullName](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a699cf890f3743699cb25a7432c0f7f68)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getFullName"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a59535b93acdadae5c47ebb3f148cc8a7"></a>
 ### Function getType
 
@@ -662,12 +553,6 @@ The type of the array as a string.
 **Return type**: BSTR
 
 **Reimplements**: [getType](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1adf1ee02ba4bdf03ef0366e2f0a62b344)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getType"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1aa0a3e17384092dbeb0cef004db873191"></a>
 ### Function isInput
@@ -700,12 +585,6 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 **Reimplements**: [isInput](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1af18eb203bc12f95a61b5876279ee17a9)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::isInput"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1af417ef0e71fabce8379be30e4d176355"></a>
 ### Function toString
 
@@ -735,12 +614,6 @@ The converted string value of the array.
 **Return type**: BSTR
 
 **Reimplements**: [toString](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a6ff821435a5704253ffdfb9334cc2dc4)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::toString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a3faefed33c99ee3ffb10b5e0e21d239a"></a>
 ### Function fromString
@@ -778,12 +651,6 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 **Reimplements**: [fromString](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a97b06c86c2783603221e0b0215dc75c8)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::fromString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1adbd82fbad4622d8c2d91533d536a7ea0"></a>
 ### Function toStringAbsolute
 
@@ -814,12 +681,6 @@ The converted string value of the array.
 
 **Reimplements**: [toStringAbsolute](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ad5ecd4799e995bf2c97015c718606550)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::toStringAbsolute"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a032e132c6c6a61f81370942921ab2edf"></a>
 ### Function invalidate
 
@@ -840,12 +701,6 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 **Return type**: void
 
 **Reimplements**: [invalidate](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1abfaa3f2b5bff1412199f5014ca10c4d5)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::invalidate"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a3ab4fe76950c76fbdd2e76ea3f4fb08b"></a>
 ### Function directPrecedents
@@ -888,12 +743,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directPrecedents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a0367bcfe5c12848d1d10e1266a0a868e)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::directPrecedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1afe14e74990edda2c656035bbcd8e2af2"></a>
 ### Function directDependents
 
@@ -935,12 +784,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [directDependents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a834a8ad8bfec0c4b0220b21979e82fca)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::directDependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a640715d1e272c8f15d8cc4c2b466d990"></a>
 ### Function precedentLinks
 
@@ -980,12 +823,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 **Reimplements**: [precedentLinks](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8f2364939bd5efaab13ecdbc3cb7df51)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::precedentLinks"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a0201276e7d000c4869e4798cfdb68d8b"></a>
 ### Function dependentLinks
 
@@ -1024,12 +861,6 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 **Return type**: LPDISPATCH
 
 **Reimplements**: [dependentLinks](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1aecc2dc18b0ee43d5175503d44ca259c3)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::dependentLinks"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a5973cfc6b1e41db214568a7e95979eef"></a>
 ### Function precedents
@@ -1072,12 +903,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [precedents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ab185a76064278e30ee48682164364e72)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::precedents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a6e0601946499c985be03e00354c8acb3"></a>
 ### Function dependents
 
@@ -1119,12 +944,6 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Reimplements**: [dependents](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a7cb300d678991e0b6449ad7b0d004906)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::dependents"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a86e51010b5f7765c036af36bd9452622"></a>
 ### Function isInputToComponent
 
@@ -1156,12 +975,6 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 **Reimplements**: [isInputToComponent](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a74e3e9729c8de2d3d091a6f22f7cb45b)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::isInputToComponent"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a78d5b37b715d259e29e0de79fa58508d"></a>
 ### Function isInputToModel
 
@@ -1192,12 +1005,6 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 **Return type**: boolean
 
 **Reimplements**: [isInputToModel](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a87cc3a01fd30ce7c6380b5d1d6ff7df9)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::isInputToModel"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a56d1d2b85ec3b4c43589c25887c1dd95"></a>
 ### Function setMetadata
@@ -1241,12 +1048,6 @@ Sets the meta data value of the given meta data key name.
 
 **Reimplements**: [setMetadata](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8b1a6f24260a22b01e738ed2fb1d4523)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::setMetadata"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a1a41489453d177315ae18ef464e8907b"></a>
 ### Function getMetadata
 
@@ -1285,12 +1086,6 @@ Metadata value.
 **Return type**: VARIANT
 
 **Reimplements**: [getMetadata](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a53f2d3f772584c3c43341ff4236402c9)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getMetadata"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ac16f0cbbb0d4c51cb5cc7dfc0c251f88"></a>
 ### Function toStringEx
@@ -1331,12 +1126,6 @@ The value of the element as a string.
 
 **Reimplements**: [toStringEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a37c622ae9f50579f714ce98c0379cd98)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::toStringEx"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1ad068bdf2a8fb66fea7cfb3a3111fb176"></a>
 ### Function fromStringEx
 
@@ -1372,12 +1161,6 @@ Sets the value of an array element from a specified string.
 **Return type**: void
 
 **Reimplements**: [fromStringEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ad23f4082662c464be07251d6d1695a2d)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::fromStringEx"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ab1252981582cec6fd3662321c9c4ce28"></a>
 ### Function toStringAbsoluteEx
@@ -1418,12 +1201,6 @@ The value of the element as a string.
 
 **Reimplements**: [toStringAbsoluteEx](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a2e3041440581aab716c684fe88d2ee87)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::toStringAbsoluteEx"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1ab0632e518febc3b1549fc35d932fd451"></a>
 ### Function getLength
 
@@ -1463,12 +1240,6 @@ Length(size) of the array.
 
 **Reimplements**: [getLength](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1a8a6965fe1217428d63d594384a634bfb)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getLength"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a5e70599413156ef04aa8ddfd03958320"></a>
 ### Function setLength
 
@@ -1504,12 +1275,6 @@ Sets the length of the n'th dimension of the array
 **Return type**: void
 
 **Reimplements**: [setLength](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1ac632aa0e8bc7a6fcac41245e151beec8)
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::setLength"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a397d1abf4ecf0a106e84112b5634efac"></a>
 ### Function setDimensions
@@ -1563,12 +1328,6 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 **Reimplements**: [setDimensions](interfaceModelCenter_1_1IArray.md#interfaceModelCenter_1_1IArray_1af881060e37aae0ff4c2c2238683db950)
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::setDimensions"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a4a319eba200eb23b04f76abf8780c1cd"></a>
 ### Function hasLowerBound
 
@@ -1597,12 +1356,6 @@ Yes (TRUE) or no (FALSE).
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::hasLowerBound"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a1460ab1d3ab8aeef7679c93c07fc8138"></a>
 ### Function hasUpperBound
 
@@ -1630,12 +1383,6 @@ Yes (TRUE) or no (FALSE).
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::hasUpperBound"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a2e4c0ae7dbfe8869f56ad932ba0b22db"></a>
 ### Function getValue
@@ -1692,12 +1439,6 @@ The value.
 
 **Return type**: double
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getValue"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1acbaaac83aab3ce3951ed1be15ad3f6ca"></a>
 ### Function setValue
 
@@ -1750,12 +1491,6 @@ Sets the value of an array element. You must set the array size first.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::setValue"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1afbdd49bff040a71b2be64a93e6705b21"></a>
 ### Function getArray
 
@@ -1783,12 +1518,6 @@ The primitive array
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getArray"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ad252c204a64ece94a946dcdd22e569df"></a>
 ### Function setArray
@@ -1821,12 +1550,6 @@ Sets the whole array at once using a single primitive array object in the langua
 * VARIANT **array**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::setArray"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1aac1d778fd393456a7097eb9f6ac40daa"></a>
 ### Function toFormattedStringEx
@@ -1865,12 +1588,6 @@ Formatted string.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::toFormattedStringEx"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1a21c8a18bd7cb6544d526fbe1c27e72ea"></a>
 ### Function fromFormattedStringEx
 
@@ -1904,12 +1621,6 @@ Loads a formatted string.
 * long **index**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::fromFormattedStringEx"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1ac4c96b591adc0b61b3db5eaa90c3b3cd"></a>
 ### Function toFormattedStringAbsoluteEx
@@ -1948,12 +1659,6 @@ An absolute formatted string.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::toFormattedStringAbsoluteEx"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1aa1657e3679484a86e997a20256eef5b1"></a>
 ### Function clearUpperBound
 
@@ -1973,12 +1678,6 @@ Clears the upper bound property of the array if it has previously been set.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::clearUpperBound"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDoubleArray_1ab93c1d5caa0fb18eb4d41499f5c708b7"></a>
 ### Function clearLowerBound
 
@@ -1997,12 +1696,6 @@ Clears the lower bound property of the array if it has previously been set.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::clearLowerBound"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDoubleArray_1a2d9a833f72d05827c32edda52d0584f3"></a>
 ### Function getValueAbsolute
@@ -2058,12 +1751,6 @@ The value.
 * _[optional]_ VARIANT **d10**
 
 **Return type**: double
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDoubleArray::getValueAbsolute"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

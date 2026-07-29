@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility"></a>
 # Interface PHXDATAEXPLORERLib::IPageVisibility
 
 ![][IDL]
@@ -46,12 +45,6 @@ Hide the page at the specified index. Does nothing if the page is already hidden
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::hide"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1a0e233fef605747c79f16a6032e4ebd01"></a>
 ### Function show
 
@@ -77,12 +70,6 @@ Show the page at the specified index. Does nothing if the page is already shown.
 * long **index**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::show"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1aa52adfedbec735ae4d1e34c4daf66455"></a>
 ### Function isVisible
@@ -111,12 +98,6 @@ Get whether or not the page at the specified index is currently visible.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::isVisible"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1a00bc608cb2e87ea6a12c4da4497c4768"></a>
 ### Function getDataViewHWND
 
@@ -138,12 +119,6 @@ the HWND representing the Data View
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::getDataViewHWND"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1IPageVisibility_1a19d4d225ecc6463333715ddde8c5f65f"></a>
 ### Function getViewHWND
@@ -175,12 +150,6 @@ the HWND representing the page or view
 * long **index**
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::IPageVisibility::getViewHWND"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

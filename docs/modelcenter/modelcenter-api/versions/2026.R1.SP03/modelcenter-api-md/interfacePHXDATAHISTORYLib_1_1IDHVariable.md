@@ -1,4 +1,3 @@
-<a id="interfacePHXDATAHISTORYLib_1_1IDHVariable"></a>
 # Interface PHXDATAHISTORYLib::IDHVariable
 
 ![][IDL]
@@ -60,12 +59,6 @@ The Variable name. May be a long, human readable string for Design Variables.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::name"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a3901f5a0e0dba161b1746d3869d83807"></a>
 ### Property equation
 
@@ -86,12 +79,6 @@ The equation for this Variable. This is typically only set for Design Variables 
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::equation"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a6429c927c6b4f5937ed8f046ebb618dc"></a>
 ### Property isDesignVar
@@ -114,12 +101,6 @@ Whether this Variable represents one of the Design Variables for the Trade Study
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::isDesignVar"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a72127ffab32587ffbec60628e70df2fc"></a>
 ### Property isNumeric
 
@@ -140,12 +121,6 @@ Whether this Variable is numeric.
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::isNumeric"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a36394ba4430c4f15bd18a02a96ff9c00"></a>
 ### Property isInput
@@ -168,12 +143,6 @@ Whether this Variable is an input (can be set in ModelCenter). Input Variables w
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::isInput"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1aee5d1b31138b410b58410abbc82cf441"></a>
 ### Property format
 
@@ -194,12 +163,6 @@ The print format for this Variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::format"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1ac0461a8fca66f784a7f1a66b77c952e7"></a>
 ### Property enumValues
@@ -222,12 +185,6 @@ The enumerated values for this Variable. String is a comma separated list which 
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::enumValues"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1af3b9b49e293ed90e0e36ac8cd64a1d5d"></a>
 ### Property enumAliases
 
@@ -248,12 +205,6 @@ The enumerated aliases for this Variable. String is a comma separated list which
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::enumAliases"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a559e14d8841091219ceb4c121ab8d1fb"></a>
 ### Property lowerBound
@@ -276,12 +227,6 @@ The lower bound for this Variable.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::lowerBound"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a5e7eff43bb2a4ca6eed5cd8e95b0e182"></a>
 ### Property upperBound
 
@@ -302,12 +247,6 @@ The upper bound of this Variable.
 
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::upperBound"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1ad46181f350249f42a737877eb3ce6c97"></a>
 ### Property type
@@ -330,12 +269,6 @@ The type of Variable.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::type"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1aff5fbd1ebbbe6b3d4bd7ce114a09f40e"></a>
 ### Property units
 
@@ -356,12 +289,6 @@ The units for this Variable.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::units"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a1fa79813f4fadc3f9f668aa5d433c431"></a>
 ### Property geomScript
@@ -384,12 +311,6 @@ For a Geometry File Variable, the geometry script associated with the Variable.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::geomScript"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a18d61da08976eabab25b4049726415a5"></a>
 ### Property isBinary
 
@@ -411,12 +332,6 @@ Whether this Variable, if it is a File Variable, represents a binary file.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::isBinary"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a441ac734f55bcc3351b2e475524bd890"></a>
 ### Property fileName
 
@@ -437,12 +352,6 @@ For a File Variable, the name of the file that this File Variable points to.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::fileName"}]}`
--->
 
 ## Public functions
 
@@ -467,12 +376,6 @@ The number of enumerated values for this variable.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::getNumEnumValues"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1ad6bfcac769bd40c96db19848232fad3f"></a>
 ### Function getEnumValue
@@ -511,12 +414,6 @@ The enumerated value.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::getEnumValue"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a5c03822c2d28cde3b9d0fdf4f335a594"></a>
 ### Function getEnumAlias
 
@@ -554,12 +451,6 @@ The particular enumerated alias. <br/>
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::getEnumAlias"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1ac865d961f3e4aa6fdb21c65f4960e7ee"></a>
 ### Function getNumEnumAliases
 
@@ -581,12 +472,6 @@ The number of enumerated aliases.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::getNumEnumAliases"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a9479fcb9ffceb4360b99be62d77eabad"></a>
 ### Function setMetaData
@@ -615,12 +500,6 @@ Sets the meta data value of the given meta data key name. It updates the value i
 * BSTR **value**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::setMetaData"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a5c33238aa348f88bd3a7c66cde890631"></a>
 ### Function getMetaData
@@ -653,12 +532,6 @@ The value of the meta data of the key name.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::getMetaData"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a34d198c9ed66b975c39ed058511a3181"></a>
 ### Function SAFEARRAY
 
@@ -682,12 +555,6 @@ Gets a list of metadata keys stored in this variable.
 
 **Return type**: 
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::SAFEARRAY"}]}`
--->
-
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1ae9e54933d6dd82e4d4aa5991b58b6ee3"></a>
 ### Function copyFrom
 
@@ -710,12 +577,6 @@ Copies data from another [IDHVariable](interfacePHXDATAHISTORYLib_1_1IDHVariable
 * LPDISPATCH **other**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::copyFrom"}]}`
--->
 
 <a id="interfacePHXDATAHISTORYLib_1_1IDHVariable_1a7bd9389ff771d6b63aa3643c961e7223"></a>
 ### Function removeMetadata
@@ -742,12 +603,6 @@ Removes the meta data value of the given meta data key name.
 * BSTR **key**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAHISTORYLib::IDHVariable::removeMetadata"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

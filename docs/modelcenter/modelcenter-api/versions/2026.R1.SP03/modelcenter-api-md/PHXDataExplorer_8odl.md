@@ -1,4 +1,3 @@
-<a id="PHXDataExplorer_8odl"></a>
 # File PHXDataExplorer.odl
 
 ![][IDL]
@@ -11,8 +10,8 @@
 
 ## Classes
 
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
 * [PHXDATAEXPLORERLib::PHXDataExplorer](classPHXDATAEXPLORERLib_1_1PHXDataExplorer.md#classPHXDATAEXPLORERLib_1_1PHXDataExplorer)
 * [PHXDATAEXPLORERLib::IPHXDataExplorerPointer](interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer.md#interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer)
 * [PHXDATAEXPLORERLib::PHXDataExplorerPointer](classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer.md#classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer)

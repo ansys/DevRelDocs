@@ -1,5 +1,4 @@
-<a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer"></a>
-# Interface PHXDATAEXPLORERLib::\_DPHXDataExplorer
+# Interface PHXDATAEXPLORERLib::_DPHXDataExplorer
 
 ![][IDL]
 ![][public]
@@ -96,12 +95,6 @@ The author of the data in this Data Explorer.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::author"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a29b8b160371c7db191f6e3dd0e1fc414"></a>
 ### Property description
 
@@ -122,12 +115,6 @@ A description of the data in this Data Explorer.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::description"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a5f8b196a046e313bc7d50d6ac80ec29d"></a>
 ### Property displayName
@@ -150,12 +137,6 @@ A display name for this Data Explorer.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::displayName"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aa3402e5d6822ebe510cc7fec192d5094"></a>
 ### Property id
 
@@ -176,12 +157,6 @@ A pointer to the associated ModelCenter session. Points to a [ModelCenter.Applic
 
 
 **Return type**: tradeStudyType
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::id"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a75bed8e4832c534f7d7842ec7921e652"></a>
 ### Property id
@@ -204,12 +179,6 @@ A pointer to the included Data History object.
 
 **Return type**: tradeStudySetup
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::id"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a145b2ba8b5de9c0bac5b0ac89ad7f960"></a>
 ### Property associatedModelFile
 
@@ -230,12 +199,6 @@ The filename of the associated model file for this Data Explorer.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::associatedModelFile"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ad91c318a844622c7673df74c0f92128b"></a>
 ### Property associatedModelFileUUID
@@ -258,12 +221,6 @@ The UUID of the associated Model.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::associatedModelFileUUID"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a4e0ab1e84c6e9f6ddd62ec774c75f42c"></a>
 ### Property creationDate
 
@@ -284,12 +241,6 @@ The creation date of the model.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::creationDate"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aefa05eb2c41402bebce7e388d06d08e8"></a>
 ### Property tradeStudyUri
@@ -312,12 +263,6 @@ The URI of the file loaded in this object, empty for no currently loaded file. C
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::tradeStudyUri"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a876e3d3fad4e109897eb41df8252cee4"></a>
 ### Property isVisible
 
@@ -338,12 +283,6 @@ Is the window visible?
 
 
 **Return type**: 
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::isVisible"}]}`
--->
 
 ## Public functions
 
@@ -368,12 +307,6 @@ The number of pages.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getNumPages"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a3da50454f5e424f4aa3971d84f7387c4"></a>
 ### Function getPage
@@ -411,12 +344,6 @@ An IDispatch for the requested page. This pointer is guaranteed to implement [PH
 * long **page**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getPage"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1af65679f9d81fa741896f22fb959f81d1"></a>
 ### Function addPage
@@ -459,12 +386,6 @@ The IDispatch of the newly created page. This pointer is guaranteed to implement
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::addPage"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a75118395c50e7e2dc424d3f3eeba8fa6"></a>
 ### Function removePage
 
@@ -496,12 +417,6 @@ Removes the requested page from the Data Explorer.
 * long **page**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::removePage"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aa890fee8f830a7ca7e04840962c2cece"></a>
 ### Function movePage
@@ -537,12 +452,6 @@ Moves a page within the Data Explorer.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::movePage"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2110d97cf0636bd118ea3197ef9ba134"></a>
 ### Function selectPage
 
@@ -575,12 +484,6 @@ Selects and makes visible the requested page.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::selectPage"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2dfa9fbb916798751f0fbac5ca3d2fa8"></a>
 ### Function getSelectedPage
 
@@ -602,12 +505,6 @@ The index of the currently selected page.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getSelectedPage"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a1925e33cfa2ae4e284cef4b8255c92dd"></a>
 ### Function pageCut
@@ -641,12 +538,6 @@ Causes the "page template" for the selected page to be put on the clipboard and 
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::pageCut"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a1241ff0682653a4b92dd9b6064d0bf42"></a>
 ### Function pageCopy
 
@@ -679,12 +570,6 @@ Causes the "page template" for the selected page to be put on the clipboard.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::pageCopy"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a08c390d4e7e3ff7f93a60283464c7826"></a>
 ### Function pagePaste
 
@@ -704,12 +589,6 @@ Causes the page template currently on the clipboard to be pasted into the Data E
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::pagePaste"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a0f0eb77a79bbc31706335b91e6a2923a"></a>
 ### Function invokeInsertPageGUI
 
@@ -728,12 +607,6 @@ Causes the "Add New Page" dialog to be presented to the user the same as if they
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::invokeInsertPageGUI"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a889efcee9f2e90cf7de94b3d521f4cdd"></a>
 ### Function toXMLFile
@@ -768,12 +641,6 @@ Saves the current state of the Data Explorer and all the included meta-data and 
 * _[optional]_ VARIANT **includeRunData**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::toXMLFile"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2e8a2fc452e5d1bad94bedf2edfe3ca5"></a>
 ### Function getPageType
@@ -812,12 +679,6 @@ The type of the requested page.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getPageType"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a4ea300c891cc45556fdd4b1e7988274d"></a>
 ### Function fromXMLFile
 
@@ -851,12 +712,6 @@ Loads the contents of the Data Explorer from an XML file.
 * _[optional]_ VARIANT **root**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::fromXMLFile"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1afc2dbe6d642993070f320d76f0b1f6b6"></a>
 ### Function toXML
@@ -895,12 +750,6 @@ An XML string representing the Data Explorer's state.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::toXML"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aef1e4bfd5cd8b8e28d6e26b06483629f"></a>
 ### Function fromXML
 
@@ -935,12 +784,6 @@ Loads the contents of the Data Explorer from an XML string.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::fromXML"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a1c15433a3ca058372e666abbaa1e1fa6"></a>
 ### Function getMenuItems
 
@@ -965,12 +808,6 @@ Deprecated. Do not use.
 * LPDISPATCH **iPHXMenuItem**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getMenuItems"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2a636f7492de925506cd78a80e37deca"></a>
 ### Function invokeMenuItem
@@ -997,12 +834,6 @@ Deprecated. Do not use.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::invokeMenuItem"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a23f32ddd6ea2d2d268351327a03e46b5"></a>
 ### Function isMenuItemEnabled
 
@@ -1028,12 +859,6 @@ Deprecated. Do not use.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::isMenuItemEnabled"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1adda950ce0660029538ab7bdb541c6f2c"></a>
 ### Function updateThumbHint
 
@@ -1058,12 +883,6 @@ Deprecated. Do not use.
 * long **id**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::updateThumbHint"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ac36fc1456cb55f50ccf9046d617b7187"></a>
 ### Function getPageSetup
@@ -1102,12 +921,6 @@ Returns the setup string for a page.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getPageSetup"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2dc01f47f79342cc3893c66a8be1fb12"></a>
 ### Function exportImage
 
@@ -1144,12 +957,6 @@ Causes a page to export an image to an enhanced metafile (emf) file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::exportImage"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ae2457af6aec2f86ffb328421ad2051e7"></a>
 ### Function multiPageCut
 
@@ -1175,12 +982,6 @@ Cuts multiple pages to the clipboard.
 * VARIANT **index**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::multiPageCut"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a1eca7b9ded4f6956ccfa95b11629021d"></a>
 ### Function multiPageCopy
@@ -1208,12 +1009,6 @@ Causes the comma-separated "page templates" for the selected indices to be put o
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::multiPageCopy"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ad9dc21008ad2ddd47dfc339328d454da"></a>
 ### Function multiDelete
 
@@ -1239,12 +1034,6 @@ Deletes the comma-separated "page templates" for the selected indices.
 * VARIANT **index**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::multiDelete"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a1945a9df23ff32406e48f560a14ea592"></a>
 ### Function loadTemplate
@@ -1279,12 +1068,6 @@ Causes the DataExplorer to remove all current pages, then import an XML document
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::loadTemplate"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a3919d10a314c536703149f6377f7f924"></a>
 ### Function saveTemplate
 
@@ -1316,12 +1099,6 @@ Causes the DataExplorer to export an XML document describing the current pages.
 * BSTR **str**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::saveTemplate"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a9ce95b6c36069c784ea2389d85dde7ec"></a>
 ### Function toXMLSaveContext
@@ -1357,12 +1134,6 @@ Writes the Data History contents to an XML file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::toXMLSaveContext"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a237c798449d1bd63e69905b53fe17d06"></a>
 ### Function fromXMLSaveContext
 
@@ -1397,12 +1168,6 @@ Tells the Data History to load its state from the XML file passed in.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::fromXMLSaveContext"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ad1f82e4921ee4c4db89b43fe92bf171d"></a>
 ### Function show
 
@@ -1422,12 +1187,6 @@ Show the associated window.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::show"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1adcc3bc6f74b07b516bbc98361b36d4d6"></a>
 ### Function hide
 
@@ -1446,12 +1205,6 @@ Hide the associated window.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::hide"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a91b7a788be45f38d1cea9579731e794c"></a>
 ### Function getPageTitle
@@ -1475,12 +1228,6 @@ Get the title for the specified page.
 * long **page**
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getPageTitle"}]}`
--->
 
 ## Private functions
 
@@ -1510,12 +1257,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::fromCenterLink(BSTR server, BSTR run
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::fromCenterLink"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a0c7a09c2192beadb073ce041aa0e8893"></a>
 ### Function ignoreDefaultPlotSetup
 
@@ -1534,12 +1275,6 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::ignoreDefaultPlotSetup()
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::ignoreDefaultPlotSetup"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a21238a932694565dbf0e2115c80ae59b"></a>
 ### Function setupPlotsPre
@@ -1560,12 +1295,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPre()
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPre"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2f726b811f8e11e39612bfd8b082ef68"></a>
 ### Function setupPlotsPost
 
@@ -1584,12 +1313,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPost()
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPost"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a89fb0170b61fdd2e320c52a8b370e99c"></a>
 ### Function showGeomTooltip
@@ -1616,12 +1339,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomTooltip(long run, long x, lo
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomTooltip"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a7d467a6fb859b8cb7f63c04f84f75dfa"></a>
 ### Function showGeomViewer
 
@@ -1647,12 +1364,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomViewer(long run, long x, lon
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomViewer"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ab9e6e926290d9a829d5e90b17911fb22"></a>
 ### Function updateGeomViewerHint
 
@@ -1675,12 +1386,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateGeomViewerHint(long viewerID)
 * long **viewerID**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::updateGeomViewerHint"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1af1cd6cc367767eafd9ee19b54cac0305"></a>
 ### Function setGeomViewerRunID
@@ -1706,12 +1411,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::setGeomViewerRunID(long viewerID, lo
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::setGeomViewerRunID"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ad687c055e59a0bb50aac411174fa9a70"></a>
 ### Function updateComparisonViewHint
 
@@ -1734,12 +1433,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateComparisonViewHint(BOOL restor
 * BOOL **restore**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::updateComparisonViewHint"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aa6aabcb973d32ab328fa815d38d2da7f"></a>
 ### Function isMenuItemChecked
@@ -1764,12 +1457,6 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::isMenuItemChecked(long id)
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::isMenuItemChecked"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aa30551e6356933878904d49df1239bd3"></a>
 ### Function removeFromComparisonList
 
@@ -1792,12 +1479,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::removeFromComparisonList(long runID)
 * long **runID**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::removeFromComparisonList"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2b46272c7cead32a5f75319eecddbc87"></a>
 ### Function addToComparisonList
@@ -1822,12 +1503,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::addToComparisonList(long runID)
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::addToComparisonList"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a7e608fa73c8645388956a6c1538438af"></a>
 ### Function addRunsToComparisonList
 
@@ -1851,12 +1526,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::addRunsToComparisonList(VARIANT runI
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::addRunsToComparisonList"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1af8150d8d7d5f6fc37eb3bdf0a27fc817"></a>
 ### Function getDaXType
 
@@ -1875,12 +1544,6 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXType()
 
 
 **Return type**: boolean
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXType"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a2559ee7d7f32bbcebd0d18bb145bd012"></a>
 ### Function getDaXFormat
@@ -1901,12 +1564,6 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXFormat()
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXFormat"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1ab5a2bb675d76aca81691538b7ef55ef9"></a>
 ### Function ensureRunDataAction
 
@@ -1925,12 +1582,6 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::ensureRunDataAction()
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::ensureRunDataAction"}]}`
--->
 
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1aa49db3c3a511089125f6ce44a1ec838f"></a>
 ### Function getKeepalive
@@ -1951,12 +1602,6 @@ IDispatch * PHXDATAEXPLORERLib::_DPHXDataExplorer::getKeepalive()
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getKeepalive"}]}`
--->
-
 <a id="interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer_1a27e733b7b61329799abe081c40b00394"></a>
 ### Function getHWND
 
@@ -1975,12 +1620,6 @@ long PHXDATAEXPLORERLib::_DPHXDataExplorer::getHWND()
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"PHXDATAEXPLORERLib::_DPHXDataExplorer::getHWND"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

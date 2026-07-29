@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IGroups"></a>
 # Interface ModelCenter::IGroups
 
 ![][IDL]
@@ -38,12 +37,6 @@ Number of Groups.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroups::Count"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IGroups_1a4a71e44eeb916bcdc8bee4ab891b237d"></a>
@@ -82,12 +75,6 @@ IDispatch* to an [IGroup](interfaceModelCenter_1_1IGroup.md#interfaceModelCenter
 * VARIANT **id**
 
 **Return type**: VARIANT
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IGroups::Item"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

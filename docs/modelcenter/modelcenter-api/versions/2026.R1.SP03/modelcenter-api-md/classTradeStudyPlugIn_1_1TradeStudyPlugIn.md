@@ -1,10 +1,9 @@
-<a id="classTradeStudyPlugIn_1_1TradeStudyPlugIn"></a>
 # Class TradeStudyPlugIn::TradeStudyPlugIn
 
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 596)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 596)
 
 
 

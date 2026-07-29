@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1IDataCollector"></a>
 # Interface ModelCenter::IDataCollector
 
 ![][IDL]
@@ -66,12 +65,6 @@ Determine if the data collector is visible
 
 **Return type**: BOOL
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::isVisible"}]}`
--->
-
 ## Public functions
 
 <a id="interfaceModelCenter_1_1IDataCollector_1aed3d0ea61e181d39e6bbf38a5ad0a401"></a>
@@ -92,12 +85,6 @@ Stores the current Model values into the Data Collector as a run.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::storeCurrentDesignPoint"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1aa2efe037d15784acff1d3291c482f276"></a>
 ### Function enableGraphTab
@@ -131,12 +118,6 @@ Enables or disables the graph tab.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::enableGraphTab"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a2dcb6077094c93a8484123a0c5633dae"></a>
 ### Function show
 
@@ -155,12 +136,6 @@ Displays the Data Collector GUI.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::show"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1acd3adc12cd4f94a2dbf436e8617cbf8a"></a>
 ### Function addCustom
@@ -196,12 +171,6 @@ Adds a custom variable to the Data Collector.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::addCustom"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a54fca30f8b9b840cd4d130fffef89ba8"></a>
 ### Function selectX
 
@@ -233,12 +202,6 @@ Selects the x-axis variable for the Data Collector graph.
 * BSTR **name**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::selectX"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1a82393da70a02822d7184a81430f45b94"></a>
 ### Function selectY
@@ -272,12 +235,6 @@ Selects a y-axis variable for the Data Collector graph. More than one y-axis var
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::selectY"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a2760890872ed478c72439fc063f4e9aa"></a>
 ### Function setNumExpectedRuns
 
@@ -310,12 +267,6 @@ Sets the range of the Data Collector progress meter.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::setNumExpectedRuns"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a4c2a3c1d083373801689d9dacc1fd530"></a>
 ### Function startRuns
 
@@ -335,12 +286,6 @@ Informs the Data Collector that data is about to be collected.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::startRuns"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1af2b0ccb145e2775fc9958d3500cfb4bc"></a>
 ### Function endRuns
 
@@ -359,12 +304,6 @@ Informs the Data Collector that data collection is complete.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::endRuns"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1aa169d7ec12253068db8fac00e201f6a9"></a>
 ### Function getNumFailedRuns
@@ -393,12 +332,6 @@ The number of failed runs.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getNumFailedRuns"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1a5fac36a5e20d349ab8941387af60a576"></a>
 ### Function getErrorID
@@ -437,12 +370,6 @@ The error ID.
 
 **Return type**: int
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getErrorID"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1ac93c96f43f475bc237f396b717bc5408"></a>
 ### Function getErrorMessage
 
@@ -480,12 +407,6 @@ The error message.
 
 **Return type**: BSTR
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getErrorMessage"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1abe6a941ef83e86184ba40149f775d3f8"></a>
 ### Function getNumRuns
 
@@ -514,12 +435,6 @@ The number of runs.
 
 **Return type**: long
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getNumRuns"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1acaa00471b667aa04d3462fa4e26f8d36"></a>
 ### Function getNumVariables
 
@@ -547,12 +462,6 @@ The number of variables.
 
 
 **Return type**: long
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getNumVariables"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1aa3502b40206d864d5bebd8cec59c71ed"></a>
 ### Function getValue
@@ -593,12 +502,6 @@ The value.
 
 **Return type**: VARIANT
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getValue"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a12a4f4daac61b17022aa54dcbb3ec84e"></a>
 ### Function getVariableDescription
 
@@ -635,12 +538,6 @@ An IDispatch* to the description of the variable.
 * VARIANT **index**
 
 **Return type**: IDispatch *
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getVariableDescription"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1a2d858bdac93de126a13ced552898b3f9"></a>
 ### Function isValid
@@ -680,12 +577,6 @@ yes(TRUE) or no(FALSE).
 * long **run**
 
 **Return type**: BOOL
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::isValid"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1a7d30505236a3c1c3b804da8f7f924e26"></a>
 ### Function save
@@ -727,12 +618,6 @@ Saves the data to a .pxt(ModelCenter Trade Study) file.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::save"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a75c4f95d0b30e6edb92f98e378f7c4be"></a>
 ### Function exportToCSV
 
@@ -765,12 +650,6 @@ Saves the Data Collector data as a comma separated list of values.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::exportToCSV"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1af9938e6a1943072ae9e89a19e4461a3f"></a>
 ### Function toString
 
@@ -798,12 +677,6 @@ Converted value of the Data Collector as a string.
 
 
 **Return type**: BSTR
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::toString"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1a42e57bafd047e98fff2902f213c48f61"></a>
 ### Function fromString
@@ -837,12 +710,6 @@ Restores the Data Collector data and setup from a string.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::fromString"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1aa0b0a16e2c3c1f600a8435d6dca0c096"></a>
 ### Function getDataExplorer
 
@@ -871,12 +738,6 @@ An IDispatch* to a IDataExplorer object.
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::getDataExplorer"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a75d77af56d17b13040ea831d957a4cab"></a>
 ### Function hide
 
@@ -895,12 +756,6 @@ Hides the Data Collector.
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::hide"}]}`
--->
 
 ## Private functions
 
@@ -929,12 +784,6 @@ void ModelCenter::IDataCollector::enableCarpetPlotTab(BSTR var1, BSTR var2, BSTR
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::enableCarpetPlotTab"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a0beef1e5e859c093f079e64792e9ed8e"></a>
 ### Function storeCustomDesignPoint
 
@@ -958,12 +807,6 @@ void ModelCenter::IDataCollector::storeCustomDesignPoint(IDispatch *customDesign
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::storeCustomDesignPoint"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1ab152e50d67d452b3f301ea18f732183d"></a>
 ### Function createEmptyRuns
 
@@ -986,12 +829,6 @@ void ModelCenter::IDataCollector::createEmptyRuns(long numEmptyRuns)
 * long **numEmptyRuns**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::createEmptyRuns"}]}`
--->
 
 <a id="interfaceModelCenter_1_1IDataCollector_1ae0c7fcaf40dc9a73c3818e08fda4c954"></a>
 ### Function setCustomRun
@@ -1017,12 +854,6 @@ void ModelCenter::IDataCollector::setCustomRun(long index, IDispatch *customDesi
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::setCustomRun"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a04f9887e54ecdb60a1f30abbdfbf975b"></a>
 ### Function newCustomDesignPoint
 
@@ -1042,12 +873,6 @@ IDispatch * ModelCenter::IDataCollector::newCustomDesignPoint()
 
 **Return type**: IDispatch *
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::newCustomDesignPoint"}]}`
--->
-
 <a id="interfaceModelCenter_1_1IDataCollector_1a11a172f0d359597318448e52fd991843"></a>
 ### Function enableMainEffectsTab
 
@@ -1066,12 +891,6 @@ void ModelCenter::IDataCollector::enableMainEffectsTab()
 
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::IDataCollector::enableMainEffectsTab"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)

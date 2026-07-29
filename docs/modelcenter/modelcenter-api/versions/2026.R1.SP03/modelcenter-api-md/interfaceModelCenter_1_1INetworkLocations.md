@@ -1,4 +1,3 @@
-<a id="interfaceModelCenter_1_1INetworkLocations"></a>
 # Interface ModelCenter::INetworkLocations
 
 ![][IDL]
@@ -54,12 +53,6 @@ Add the specified network location to the list.
 
 **Return type**: void
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::INetworkLocations::add"}]}`
--->
-
 <a id="interfaceModelCenter_1_1INetworkLocations_1a6e6cf7b365025116e67b9ddd575b10b1"></a>
 ### Function exists
 
@@ -97,12 +90,6 @@ True if the address exists, else false.
 
 **Return type**: boolean
 
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::INetworkLocations::exists"}]}`
--->
-
 <a id="interfaceModelCenter_1_1INetworkLocations_1aa7869edab5e7d597c67804e2d5dcf561"></a>
 ### Function removeAddress
 
@@ -134,12 +121,6 @@ Remove the specified network location to the list.
 * BSTR **address**
 
 **Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ModelCenter::INetworkLocations::removeAddress"}]}`
--->
 
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
