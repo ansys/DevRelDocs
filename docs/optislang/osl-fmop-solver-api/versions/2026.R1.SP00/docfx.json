@@ -2,10 +2,10 @@
     "build": {
         "globalMetadata": {
             "title": "optiSLang FMOPSolver API 2026 R1",
-            "summary": "",
+            "summary": "C API reference for the optiSLang FMOP solver, 2026 R1.",
             "version": "2026 R1",
             "product": "optiSLang",
-            "programming language": "C/C++",
+            "programming language": "C++",
             "physics": "Connect"
         }
     }
