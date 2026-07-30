@@ -28,6 +28,6 @@ uid: Ans.DataProcessing.operators.serialization
 | [txt_to_data_tree](Ans_DataProcessing_operators_serialization_txt_to_data_tree.md) | Reads a txt file or string to a DataTree   ///available inputs: string_or_path (string, DataSources) |
 | [vtk_export](Ans_DataProcessing_operators_serialization_vtk_export.md) | Write the input field and fields container into a given vtk path   ///available inputs: export_type (Int32) (optional), file_path (string), mesh (MeshedRegion) (optional), fields1 (FieldsContainer, Field), fields2 (FieldsContainer, Field) |
 | [vtk_to_fields](Ans_DataProcessing_operators_serialization_vtk_to_fields.md) | Write a field based on a vtk file.   ///available inputs: field_name (string) (optional), streams (StreamsContainer) (optional), data_sources (DataSources) |
-| [vtu_export](Ans_DataProcessing_operators_serialization_vtu_export.md) | Export DPF mesh and field data to **VTK Unstructured Grid (VTU)** format. |
+| [vtu_export](Ans_DataProcessing_operators_serialization_vtu_export.md) | vtu_export() |
 | [workflow_to_pydpf](Ans_DataProcessing_operators_serialization_workflow_to_pydpf.md) | Generates a PyDPF script that can recreate the given workflow. |
 | [workflow_to_workflow_topology](Ans_DataProcessing_operators_serialization_workflow_to_workflow_topology.md) | Creates a GenericDataContainer based on WorkflowTopology structure from a Workflow object, allowing to access its operators, operator connections, data connections, and exposed pins.   ///available inputs: workflow (Workflow) |

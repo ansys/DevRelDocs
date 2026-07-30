@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.filter.filtering_max_over_time
 
 # *class* filtering_max_over_time(invariant_fc_operator: object = None, output_pin: object = None, list_of_results: object = None, threshold: object = None, config: OperatorConfig = None)
 
-Creates a filtering workflow that will filter results based on a threshold of a selected invariant.
+filtering_max_over_time()
 
-available inputs: `invariant_fc_operator` (string), `output_pin` (Int32) (optional), `list_of_results` (string) (optional), `threshold` (double) (optional)
+filtering_max_over_time(invariant_fc_operator: object, output_pin: object, list_of_results: object, threshold: object, config: OperatorConfig)
 
-available outputs: `workflow` (Workflow)
+filtering_max_over_time(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [filtering_max_over_time operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/filter/filtering_max_over_time.md)
 
@@ -19,14 +21,6 @@ available outputs: `workflow` (Workflow)
 * **list_of_results**
 * **threshold**
 * **config**
-
-**Example:**
-
-```python
-op = filtering_max_over_time()
-
-op = filtering_max_over_time(invariant_fc_operator=my_invariant_fc_operator,output_pin=my_output_pin,list_of_results=my_list_of_results,threshold=my_threshold)
-```
 
 ## Inputs
 

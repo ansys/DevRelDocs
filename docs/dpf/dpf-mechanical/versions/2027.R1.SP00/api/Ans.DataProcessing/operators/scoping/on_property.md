@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.scoping.on_property
 
 # *class* on_property(requested_location: object = None, property_name: object = None, property_id: object = None, streams_container: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-Provides a scoping at a given location based on a given property name and a property number.
+on_property()
 
-available inputs: `requested_location` (string), `property_name` (string), `property_id` (Int32), `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources)
+on_property(requested_location: object, property_name: object, property_id: object, streams_container: object, data_sources: object, config: OperatorConfig)
 
-available outputs: `mesh_scoping` (Scoping)
+on_property(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [on_property operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_property.md)
 
@@ -20,14 +22,6 @@ available outputs: `mesh_scoping` (Scoping)
 * **streams_container**
 * **data_sources**
 * **config**
-
-**Example:**
-
-```python
-op = on_property()
-
-op = on_property(requested_location=my_requested_location,property_name=my_property_name,property_id=my_property_id,streams_container=my_streams_container,data_sources=my_data_sources)
-```
 
 ## Inputs
 

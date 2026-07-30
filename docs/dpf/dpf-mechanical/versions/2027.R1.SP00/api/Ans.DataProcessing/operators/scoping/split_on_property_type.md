@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.scoping.split_on_property_type
 
 # *class* split_on_property_type(mesh_scoping: object = None, mesh: object = None, requested_location: object = None, skin_case: object = None, label1: object = None, label2: object = None, config: OperatorConfig = None)
 
-Splits a given scoping or the mesh scoping (nodal or elemental) on given properties (elshape and/or material, since 2025R1 it supports any scalar property field name contained in the mesh property fields) and returns a scopings container with those split scopings.
+split_on_property_type()
 
-available inputs: `mesh_scoping` (Scoping) (optional), `mesh` (MeshedRegion), `requested_location` (string), `skin_case` (Int32) (optional), `label1` (string) (optional), `label2` (string) (optional)
+split_on_property_type(mesh_scoping: object, mesh: object, requested_location: object, skin_case: object, label1: object, label2: object, config: OperatorConfig)
 
-available outputs: `mesh_scoping` (ScopingsContainer)
+split_on_property_type(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [split_on_property_type operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/scoping/split_on_property_type.md)
 
@@ -21,14 +23,6 @@ available outputs: `mesh_scoping` (ScopingsContainer)
 * **label1**
 * **label2**
 * **config**
-
-**Example:**
-
-```python
-op = split_on_property_type()
-
-op = split_on_property_type(mesh_scoping=my_mesh_scoping,mesh=my_mesh,requested_location=my_requested_location,skin_case=my_skin_case,label1=my_label1,label2=my_label2)
-```
 
 ## Inputs
 
