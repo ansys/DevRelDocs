@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-29).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-30).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -17,8 +17,8 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [5 items](#Features_compression) |[2 items](#Fixes_compression) |
-| core |  |[1 item](#Fixes_core) |
+| compression | [6 items](#Features_compression) |[2 items](#Fixes_compression) |
+| core |  |[2 items](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
@@ -52,7 +52,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [20 items](#Features_native) |[32 items](#Fixes_native) |
+| native | [20 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
@@ -241,6 +241,13 @@ The following table shows which components have updates in each category.
 ## compression
 ### <a id="Features_compression"></a> Features
 
+- Accept svd_operator's pin 1 as double:
+  > Added the possibility to give a double to pin 1 of _svd_operator_
+  >
+  > 
+  >
+  > 
+
 - Add generic operators to compress fields and fields containers:
   > Create operators to compress and decompress data of fields and fields containers.
   >
@@ -288,6 +295,13 @@ The following table shows which components have updates in each category.
 ## core
 
 ### <a id="Fixes_core"></a> Fixes
+
+- TestInput throws if upstream operator does not have output:
+  > testInput was throwing if two operators were connected and the output of op1 was not defined and plug as an input of op2. For this specific usecase, the method return false now.
+  >
+  > 
+  >
+  > 
 
 - Avoid spawning too many threads:
   > 
@@ -3019,6 +3033,20 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix issue with result_provider:
+  > 
+  >
+  > 
+
+- Unique C# accessors for output pins with multiple list types:
+  > 
+  >
+  > Fixes a failure when generating the C# wrapper for an operator whose output pin accepts several list (vector) types. Previously the generated code defined two identically named accessor methods and failed to compile. Each list type now gets a distinct, type-aware accessor (for example `get<pin>_as_list_int` and `get<pin>_as_list_double`), and the existing `get<pin>_as_list` accessor is preserved when a pin has a single list type.
+  >
+  > 
+  >
+  > 
 
 - Make split_vector_elements and concatenate_objects_to_vector operators private:
   > 
@@ -6031,6 +6059,8 @@ Upgraded documentation
 - [field_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/field_get_attribute.md)
 
   > 0.1.0: Add new supported property name 'datasize' that returns an integer.
+
+  > 0.2.0: Add new supported property name 'data' that returns a vector of the field's data's type (double for field, int for property field, string for string field, char for custom type field).
 
 
 - [for_each](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/for_each.md)

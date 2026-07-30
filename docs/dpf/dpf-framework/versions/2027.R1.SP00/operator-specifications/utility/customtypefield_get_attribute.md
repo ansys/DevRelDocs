@@ -38,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header' and 'datasize'.
+Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header', 'datasize' and 'data'.
 
 
 ## Outputs
@@ -49,15 +49,15 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [property](#output_0) |[`string`](../../core-concepts/dpf-types.md#standard-types), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
+|  **0**| [property](#output_0) |[`string`](../../core-concepts/dpf-types.md#standard-types), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`vector<char>`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="output_0"></a>
 ### property (Pin 0)
 
-- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree)
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree), [`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`vector<char>`](../../core-concepts/dpf-types.md#standard-types)
 
-Property value that is returned. Accepted Outputs are: Field, PropertyField, CustomTypeField or their containers.
+Property value that is returned.
 
 
 ## Configurations
