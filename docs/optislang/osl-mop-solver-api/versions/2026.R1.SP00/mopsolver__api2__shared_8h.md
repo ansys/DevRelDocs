@@ -12,13 +12,12 @@ $Rev$
 * [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h)
 
 ```mermaid
-graph LR
-1["mopsolver_api2_shared.h"]
-click 1 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
-1 --> 2
-
-2["mopsolver_api_shared.h"]
-
+flowchart LR
+  n1["mopsolver_api2_shared.h"]
+  n2["mopsolver_api_shared.h"]
+  n1 --> n2
+  click n1 href "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
+  click n2 href "mopsolver__api__shared_8h.md#mopsolver__api__shared_8h"
 ```
 
 ## Included by
@@ -27,17 +26,15 @@ click 1 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
 * [mopsolver_api2_hash.h](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h)
 
 ```mermaid
-graph RL
-2["mopsolver_api2.h"]
-click 2 "mopsolver__api2_8h.md#mopsolver__api2_8h"
-
-3["mopsolver_api2_hash.h"]
-
-1["mopsolver_api2_shared.h"]
-click 1 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
-2 --> 1
-3 --> 1
-
+flowchart RL
+  n1["mopsolver_api2_shared.h"]
+  n2["mopsolver_api2.h"]
+  n3["mopsolver_api2_hash.h"]
+  n2 --> n1
+  n3 --> n1
+  click n1 href "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
+  click n2 href "mopsolver__api2_8h.md#mopsolver__api2_8h"
+  click n3 href "mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h"
 ```
 
 ## Enumeration types

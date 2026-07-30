@@ -12,13 +12,12 @@ $Rev$
 * [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h)
 
 ```mermaid
-graph LR
-1["mopsolver_api.h"]
-click 1 "mopsolver__api_8h.md#mopsolver__api_8h"
-1 --> 2
-
-2["mopsolver_api_shared.h"]
-
+flowchart LR
+  n1["mopsolver_api.h"]
+  n2["mopsolver_api_shared.h"]
+  n1 --> n2
+  click n1 href "mopsolver__api_8h.md#mopsolver__api_8h"
+  click n2 href "mopsolver__api__shared_8h.md#mopsolver__api__shared_8h"
 ```
 
 ## Functions
