@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-30).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-31).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -30,15 +30,15 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [10 items](#Features_femutils) |[19 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[12 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[13 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
-| h5dpf | [2 items](#Features_h5dpf) |[5 items](#Fixes_h5dpf) |
+| h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
 | hdf5 | [14 items](#Features_hdf5) |[9 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
-| kernel | [5 items](#Features_kernel) |[12 items](#Fixes_kernel) |
+| kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
@@ -786,6 +786,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Config passed to internal operators:
+  > Fix operator configuration not being correctly passed to operators instantiated by some "_fc" operators.
+  >
+  > 
+  >
+  > 
+
 - Fixing issues distorted elements in find_reduced_coordinates and mapping operators and numerical problems:
   > Fixing issue with distorted elements in `find_reduced_coordinates` and `mapping` operators and numerical problems.
   >
@@ -997,6 +1004,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_h5dpf"></a> Fixes
+
+- Fix scoping_provider_by_prop for distributed h5 files:
+  > 
+  >
+  > 
 
 - Add ENL results to H5DPF and export without TFS if not available:
   > Add mapdl ENL type of results to be available through H5DPF.
@@ -1352,6 +1364,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_kernel"></a> Fixes
+
+- Fix operators internal version:
+  > 
+  >
+  > 
 
 - Fixing non thread-safe methods of the mesh:
   > Fixing non-thread-safe methods of the mesh by using atomic variables.
