@@ -829,6 +829,8 @@
       href: operator-specifications/result/compute_total_strain_YZ.md
     - name: compute total strain Z
       href: operator-specifications/result/compute_total_strain_Z.md
+    - name: contact element heat flow
+      href: operator-specifications/result/contact_element_heat_flow.md
     - name: contact fluid penetration pressure
       href: operator-specifications/result/contact_fluid_penetration_pressure.md
     - name: contact friction stress
@@ -847,6 +849,8 @@
       href: operator-specifications/result/contact_surface_heat_flux.md
     - name: contact total stress
       href: operator-specifications/result/contact_total_stress.md
+    - name: convection heat flow rate
+      href: operator-specifications/result/convection_heat_flow_rate.md
     - name: coordinates
       href: operator-specifications/result/coordinates.md
     - name: coordinate system
@@ -1311,6 +1315,8 @@
       href: operator-specifications/result/pretension.md
     - name: radiation area
       href: operator-specifications/result/radiation_area.md
+    - name: radiation heat flow rate
+      href: operator-specifications/result/radiation_heat_flow_rate.md
     - name: raw acceleration
       href: operator-specifications/result/raw_acceleration.md
     - name: raw displacement

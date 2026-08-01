@@ -10,7 +10,26 @@ license: None
 
 ## Description
 
-Create two fields (0 min 1 max) by looping over the fields container in input and taking the min/max value by component through all the fields having the same id for the label set in input (in pin 1). If no label is specified or if the specified label doesn't exist, the operation is done over all the fields. The fields out are located on the label set in input, so their scoping are the labels ids.For each min max value, the label id for one other fields container labels is kept and returned in a scoping in pin 2 (min) and 3 (max).The field's scoping ids of the value kept in min max are also returned in the scopings in pin 4 (min) and 5 (max).
+
+Groups the fields of the input fields container by the given label and, within each group, computes the per-component minimum and maximum across all fields of the group.
+
+If the label is not set or does not exist in the fields container, the operation runs over all fields as a single group.
+
+Outputs:
+
+- Pins 0 and 1: fields of per-group, per-component minima and maxima. Their scoping is the set of label ids (or a single entity when no label applies).
+- Pins 2 and 3 (optional): for each output entry, the id of one remaining label of the input fields container corresponding to the field that provided the minimum and maximum, respectively.
+- Pins 4 and 5: for each output entry, the input scoping id of the entity within the source field that provided the minimum and maximum.
+
+Input fields with no data are excluded from the output.
+
+Within each input field, all elementary values contribute to the per-group reduction: elemental-nodal expansions and shell-layer values (when present) are folded into the same per-component min/max.
+
+**When to use:** fields in the container are indexed by one or more labels (for example `body`, `zone`) and you want one per-component extremum per label id, collapsing every entity of each group into a single output entry.
+Example: peak of each stress component per body when the container is labelled by body id.
+Without a label, all entities of all fields collapse into a single output entity, equivalent to `min_max(min_max_fc(...))`.
+Use `min_max_by_entity` to keep entity resolution instead, or `min_max_fc` to keep per-field resolution.
+
 
 ## Inputs
 
@@ -30,7 +49,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container whose fields are grouped by the label passed on pin 1.
 
 <a id="input_1"></a>
 ### label (Pin 1)
@@ -38,7 +57,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-label name from the fields container
+Name of the label used to group the fields of the input fields container. If not set or not present, all fields are used as a single group.
 
 
 ## Outputs
@@ -62,42 +81,42 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field of per-group, per-component minima. Scoped on the label ids used for grouping.
 
 <a id="output_1"></a>
 ### field_max (Pin 1)
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field of per-group, per-component maxima. Scoped on the label ids used for grouping.
 
 <a id="output_2"></a>
 ### domain_ids_min (Pin 2)
 
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+For each entry of the output minimum field, the id of one remaining label of the input fields container from the field that provided the minimum. Populated only when the input fields container has more than one label.
 
 <a id="output_3"></a>
 ### domain_ids_max (Pin 3)
 
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+For each entry of the output maximum field, the id of one remaining label of the input fields container from the field that provided the maximum. Populated only when the input fields container has more than one label.
 
 <a id="output_4"></a>
 ### scoping_ids_min (Pin 4)
 
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+For each entry of the output minimum field, the input scoping id of the entity within the source field that provided the minimum.
 
 <a id="output_5"></a>
 ### scoping_ids_max (Pin 5)
 
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+For each entry of the output maximum field, the input scoping id of the entity within the source field that provided the maximum.
 
 
 ## Configurations
@@ -122,9 +141,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: min_max_over_label_fc
 
- **Full name**: None
+ **Full name**: min_max.min_max_over_label_fc
 
  **Internal name**: min_max_over_label_fc
 
@@ -159,7 +178,7 @@ ansys::dpf::Scoping my_scoping_ids_max = op.getOutput<ansys::dpf::Scoping>(5);
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_over_label_fc() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.label.connect(my_label)
 my_field_min = op.outputs.field_min()
@@ -178,7 +197,7 @@ my_scoping_ids_max = op.outputs.scoping_ids_max()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_over_label_fc() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.label.Connect(my_label)
 my_field_min = op.outputs.field_min.GetData()

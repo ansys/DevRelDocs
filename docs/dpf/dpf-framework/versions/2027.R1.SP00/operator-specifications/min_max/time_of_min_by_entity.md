@@ -10,7 +10,14 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Evaluates time/frequency of minimum.
+
+Thin wrapper around `min_max_over_time_by_entity` that exposes only the time or frequency value at which each per-entity, per-component minimum occurred.
+
+The result forwarded on output pin 0 is pin 2 of `min_max_over_time_by_entity` (the `time_freq_of_min` fields container). It is populated only when the input carries a time-frequency support.
+
+**When to use:** you only need the time of minimum.
+Prefer `min_max_over_time_by_entity` directly when you also need the extremum value or the maximum-side outputs.
+
 
 ## Inputs
 
@@ -31,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container aggregated per entity across all time or frequency steps. Must expose the `time` label; otherwise the input is forwarded unchanged by the underlying operator.
 
 <a id="input_3"></a>
 ### abs_value (Pin 3)
@@ -39,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Should use absolute value.
+When `true`, absolute values of the field entries are used before the min is computed. Default: `false`.
 
 <a id="input_4"></a>
 ### compute_amplitude (Pin 4)
@@ -47,7 +54,7 @@ Should use absolute value.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Do calculate amplitude.
+When `true` and the input fields container has the `complex` label, the amplitude of the complex values is used before the min is computed. Ignored otherwise. Default: `false`.
 
 
 ## Outputs
@@ -66,7 +73,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Time or frequency at which each per-entity, per-component minimum occurred. Populated only when the input carries a time-frequency support. Same shape as pin 2 of `min_max_over_time_by_entity`.
 
 
 ## Configurations
@@ -91,9 +98,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: time_of_min_by_entity
 
- **Full name**: None
+ **Full name**: min_max.time_of_min_by_entity
 
  **Internal name**: time_of_min_by_entity
 
@@ -124,7 +131,7 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.time_of_min_by_entity() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.abs_value.connect(my_abs_value)
 op.inputs.compute_amplitude.connect(my_compute_amplitude)
@@ -139,7 +146,7 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.time_of_min_by_entity() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.abs_value.Connect(my_abs_value)
 op.inputs.compute_amplitude.Connect(my_compute_amplitude)

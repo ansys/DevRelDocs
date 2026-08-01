@@ -10,7 +10,16 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Compute the component-wise minimum (out 0) and maximum (out 1) over a fields container.
+
+Incremental variant that computes, for each time or frequency step of the input fields container, the per-component minimum and maximum across all successive calls of the operator.
+
+At each call, results are merged with the previously-cached extrema.
+The output minimum (pin 0) and maximum (pin 1) are fields with one entity per time or frequency step of the input.
+
+**When to use:** the full set of fields does not fit in memory and results must be aggregated over successive server calls, one fields container at a time.
+Example: peak of each stress component per time step accumulated over a long transient analysis processed one chunk of time steps at a time.
+Use `min_max_by_time` for the non-incremental variant, or `min_max_inc` when input arrives one field at a time instead of one fields container at a time.
+
 
 ## Inputs
 
@@ -29,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container for the current increment. Must expose a time-frequency support so that output entries can be indexed by time or frequency step.
 
 
 ## Outputs
@@ -49,14 +58,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field of per-step, per-component minima aggregated across all calls of the operator so far.
 
 <a id="output_1"></a>
 ### field_max (Pin 1)
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field of per-step, per-component maxima aggregated across all calls of the operator so far.
 
 
 ## Configurations
@@ -88,9 +97,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: min_max_fc_inc
 
- **Full name**: None
+ **Full name**: min_max.min_max_fc_inc
 
  **Internal name**: min_max_fc_inc
 
@@ -120,7 +129,7 @@ ansys::dpf::Field my_field_max = op.getOutput<ansys::dpf::Field>(1);
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_fc_inc() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 my_field_min = op.outputs.field_min()
 my_field_max = op.outputs.field_max()
@@ -134,7 +143,7 @@ my_field_max = op.outputs.field_max()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_fc_inc() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 my_field_min = op.outputs.field_min.GetData()
 my_field_max = op.outputs.field_max.GetData()

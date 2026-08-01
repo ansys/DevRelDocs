@@ -10,9 +10,20 @@ license: None
 
 ## Description
 
-For each entity and component, evaluates minimum and maximum over time/frequency.  
-Input pin 4 `compute_amplitude` is only effective when given `fields_container` contains the `complex` label.  
-if given input `fields_container` has a `time_freq_support`, output pins 2 and 3 `fields_container` contains time/freq indices of the minimum and maximum values.  
+
+For each entity, each component and each shell layer (when available), computes the minimum and maximum across all time or frequency steps of the input fields container.
+
+Elemental-nodal values are folded into the per-entity reduction; shell-layer values are preserved when the input exposes them.
+
+The input `compute_amplitude` pin has effect only when the input fields container carries the `complex` label: when `true`, the amplitude of the complex values is used before the extremum is computed.
+
+When the input has a time-frequency support, output pins 2 and 3 return fields containers holding the time or frequency value at which each per-entity, per-component minimum and maximum occurred.
+
+When `compute_absolute_value` is `true`, extrema are computed on the absolute values of the field entries.
+
+**When to use:** you want to keep the entity axis but reduce across time or frequency, giving one per-component min/max per entity across the whole history.
+Example: peak stress ever reached at each node over an entire transient analysis, along with the time at which each peak occurred (pins 2 and 3).
+Use `min_max_by_time` for the dual reduction (keep time, collapse entities), or `min_max_by_entity` when the fields are not indexed by time.
 
 
 ## Inputs
@@ -34,7 +45,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container aggregated per entity across all time or frequency steps. Must expose the `time` label; otherwise the input is forwarded unchanged.
 
 <a id="input_3"></a>
 ### compute_absolute_value (Pin 3)
@@ -42,7 +53,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Calculate the absolute value of field entities before computing the min/max.
+When `true`, absolute values of the field entries are used before the min and max are computed. Default: `false`.
 
 <a id="input_4"></a>
 ### compute_amplitude (Pin 4)
@@ -50,7 +61,7 @@ Calculate the absolute value of field entities before computing the min/max.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Do calculate amplitude.
+When `true` and the input fields container has the `complex` label, the amplitude of the complex values is used before the extremum is computed. Ignored otherwise. Default: `false`.
 
 
 ## Outputs
@@ -72,28 +83,28 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Per-entity, per-component minima aggregated across all time or frequency steps. Grouped by all input labels except `time` (and `complex` when `compute_amplitude` is active).
 
 <a id="output_1"></a>
 ### max (Pin 1)
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Per-entity, per-component maxima aggregated across all time or frequency steps. Grouped by all input labels except `time` (and `complex` when `compute_amplitude` is active).
 
 <a id="output_2"></a>
 ### time_freq_of_min (Pin 2)
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+For each entry of the output minimum, the time or frequency value at which it occurred. Populated only when the input carries a time-frequency support.
 
 <a id="output_3"></a>
 ### time_freq_of_max (Pin 3)
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+For each entry of the output maximum, the time or frequency value at which it occurred. Populated only when the input carries a time-frequency support.
 
 
 ## Configurations
@@ -125,9 +136,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: min_max_over_time_by_entity
 
- **Full name**: None
+ **Full name**: min_max.min_max_over_time_by_entity
 
  **Internal name**: min_max_over_time_by_entity
 
@@ -161,7 +172,7 @@ ansys::dpf::FieldsContainer my_time_freq_of_max = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_over_time_by_entity() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.compute_absolute_value.connect(my_compute_absolute_value)
 op.inputs.compute_amplitude.connect(my_compute_amplitude)
@@ -179,7 +190,7 @@ my_time_freq_of_max = op.outputs.time_freq_of_max()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_over_time_by_entity() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.compute_absolute_value.Connect(my_compute_absolute_value)
 op.inputs.compute_amplitude.Connect(my_compute_amplitude)

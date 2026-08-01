@@ -10,7 +10,21 @@ license: None
 
 ## Description
 
-Compute the component-wise minimum (out 0) and maximum (out 1) over a fields container.
+
+Computes, for each field of the input fields container and for each component, the minimum and the maximum across all entities of that field.
+
+Also known as component-wise min/max over a fields container.
+
+The output minimum (pin 0) and maximum (pin 1) are fields with one entity per input field.
+Each entity holds, for each component, the min or max value found in the corresponding input field.
+The entity ids in the output scoping are the input field indices in the fields container.
+
+Within each input field, all elementary values contribute to the reduction: elemental-nodal expansions and shell-layer values (when present) are folded into the same per-component min/max.
+
+**When to use:** you want one per-component summary per field of the container, without reducing across fields.
+Example: peak of each stress component per body when the container groups fields by body id.
+Use `min_max` for a single field, `min_max_by_entity` to keep per-entity resolution across fields, or `min_max_over_label_fc` to group fields by label before reducing.
+
 
 ## Inputs
 
@@ -29,7 +43,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container over which per-field, per-component minima and maxima are computed.
 
 
 ## Outputs
@@ -49,14 +63,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field of per-field, per-component minima. One entity per input field.
 
 <a id="output_1"></a>
 ### field_max (Pin 1)
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Field of per-field, per-component maxima. One entity per input field.
 
 
 ## Configurations
@@ -81,9 +95,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: min_max_fc
 
- **Full name**: None
+ **Full name**: min_max.min_max_fc
 
  **Internal name**: min_max_fc
 
@@ -113,7 +127,7 @@ ansys::dpf::Field my_field_max = op.getOutput<ansys::dpf::Field>(1);
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_fc() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 my_field_min = op.outputs.field_min()
 my_field_max = op.outputs.field_max()
@@ -127,7 +141,7 @@ my_field_max = op.outputs.field_max()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_fc() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 my_field_min = op.outputs.field_min.GetData()
 my_field_max = op.outputs.field_max.GetData()

@@ -10,7 +10,22 @@ license: None
 
 ## Description
 
-Evaluates minimum/maximum over time/frequency.
+
+Dispatch operator that selects and runs a minimum/maximum operator over time or frequency, based on the integer selector on pin 5.
+
+Selector values on pin 5:
+
+- `0`: `min_max_by_time` - per-step, per-component minimum and maximum, aggregating every entity of each field (elemental-nodal values collapse into the reduction).
+- `1`: `max_over_time_by_entity` - per-entity, per-component maximum across all time or frequency steps.
+- `2`: `time_of_max_by_entity` - time or frequency at which each per-entity, per-component maximum occurs.
+- `7`: `min_over_time_by_entity` - per-entity, per-component minimum across all time or frequency steps.
+- `8`: `time_of_min_by_entity` - time or frequency at which each per-entity, per-component minimum occurs.
+
+Selectors 1, 2, 7 and 8 keep the entity axis: the underlying operator (`min_max_over_time_by_entity`) returns one value per entity, per component and per shell layer when available. Selector 0 (`min_max_by_time`) reduces across entities instead.
+
+Output pin 0 holds the primary result of the selected operator.
+Output pin 1 is optional and populated only when the selected operator produces two outputs (currently only selector `0`).
+
 
 ## Inputs
 
@@ -30,7 +45,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Input fields container passed through to the selected underlying operator.
 
 <a id="input_5"></a>
 ### int32 (Pin 5)
@@ -38,7 +53,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Define min or max.
+Selector integer that chooses the underlying operator. Supported values: `0` (min_max_by_time), `1` (max_over_time_by_entity), `2` (time_of_max_by_entity), `7` (min_over_time_by_entity), `8` (time_of_min_by_entity).
 
 
 ## Outputs
@@ -58,14 +73,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Primary result forwarded from the selected underlying operator.
 
 <a id="output_1"></a>
 ### field_container_2 (Pin 1)
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Secondary result forwarded from the selected underlying operator. Populated only when the underlying operator produces two outputs (currently only selector `0` populates this pin).
 
 
 ## Configurations
@@ -90,9 +105,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: mechanical_min_max_over_time
 
- **Full name**: None
+ **Full name**: math.mechanical_min_max_over_time
 
  **Internal name**: mechanical::min_max_over_time
 
@@ -123,7 +138,7 @@ ansys::dpf::FieldsContainer my_field_container_2 = op.getOutput<ansys::dpf::Fiel
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.math.None() # operator instantiation
+op = dpf.operators.math.mechanical_min_max_over_time() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.int32.connect(my_int32)
 my_field_container_1 = op.outputs.field_container_1()
@@ -138,7 +153,7 @@ my_field_container_2 = op.outputs.field_container_2()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.math.None() # operator instantiation
+op = dpf.operators.math.mechanical_min_max_over_time() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.int32.Connect(my_int32)
 my_field_container_1 = op.outputs.field_container_1.GetData()
