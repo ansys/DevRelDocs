@@ -527,6 +527,8 @@
       href: Ans.DataProcessing/operators/math/matrix_product.md
     - name: matrix_product_fc
       href: Ans.DataProcessing/operators/math/matrix_product_fc.md
+    - name: mechanical_min_max_over_time
+      href: Ans.DataProcessing/operators/math/mechanical_min_max_over_time.md
     - name: minus
       href: Ans.DataProcessing/operators/math/minus.md
     - name: minus_fc
@@ -632,11 +634,6 @@
       href: Ans.DataProcessing/operators/math/hdf5/topo/elemental_density.md
     - name: nodal_density
       href: Ans.DataProcessing/operators/math/hdf5/topo/nodal_density.md
-  - name: math.mechanical
-    href: Ans.DataProcessing/operators/math/mechanical/index.md
-    items:
-    - name: min_max_over_time
-      href: Ans.DataProcessing/operators/math/mechanical/min_max_over_time.md
   - name: mesh
     href: Ans.DataProcessing/operators/mesh/index.md
     items:
@@ -894,6 +891,8 @@
       href: Ans.DataProcessing/operators/result/compute_total_strain_YZ.md
     - name: compute_total_strain_Z
       href: Ans.DataProcessing/operators/result/compute_total_strain_Z.md
+    - name: contact_element_heat_flow
+      href: Ans.DataProcessing/operators/result/contact_element_heat_flow.md
     - name: contact_fluid_penetration_pressure
       href: Ans.DataProcessing/operators/result/contact_fluid_penetration_pressure.md
     - name: contact_friction_stress
@@ -912,6 +911,8 @@
       href: Ans.DataProcessing/operators/result/contact_surface_heat_flux.md
     - name: contact_total_stress
       href: Ans.DataProcessing/operators/result/contact_total_stress.md
+    - name: convection_heat_flow_rate
+      href: Ans.DataProcessing/operators/result/convection_heat_flow_rate.md
     - name: coordinate_system
       href: Ans.DataProcessing/operators/result/coordinate_system.md
     - name: coordinates
@@ -1368,6 +1369,8 @@
       href: Ans.DataProcessing/operators/result/prns_to_field.md
     - name: radiation_area
       href: Ans.DataProcessing/operators/result/radiation_area.md
+    - name: radiation_heat_flow_rate
+      href: Ans.DataProcessing/operators/result/radiation_heat_flow_rate.md
     - name: raw_acceleration
       href: Ans.DataProcessing/operators/result/raw_acceleration.md
     - name: raw_displacement

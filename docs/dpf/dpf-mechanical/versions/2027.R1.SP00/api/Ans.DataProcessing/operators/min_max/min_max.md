@@ -4,7 +4,23 @@ uid: Ans.DataProcessing.operators.min_max.min_max
 
 # *class* min_max(field: object = None, config: OperatorConfig = None)
 
-Compute the component-wise minimum (out 0) and maximum (out 1) over a field.
+Computes, for each component of the input field, the minimum and the maximum across all entities.
+
+Also known as component-wise min/max over a field.
+
+The output minimum (pin 0) and maximum (pin 1) are scalar fields with one entity per component of the input.
+
+Each entity id in the output scoping is the id of the input entity that holds the returned minimum or maximum value for that component.
+
+Within the input field, all elementary values contribute to the reduction: elemental-nodal expansions and shell-layer values (when present) are folded into the same per-component min/max.
+
+If the input is a fields container, it must contain exactly one field.
+
+**When to use:** you have a single field and want the per-component extrema.
+
+Example: peak of each stress component over the whole mesh at one time step.
+
+Use `min_max_fc` when you have several fields and want one summary per field, or `min_max_by_entity` to keep the per-entity resolution while reducing over the fields axis.
 
 available inputs: `field` (Field, FieldsContainer)
 
@@ -37,9 +53,13 @@ field or fields container with only one field is expected
 
 ### field_min
 
+Scalar field of per-component minimum values. Its scoping ids point to the input entity that holds each minimum.
+
 **Type:** *LinkableOutput*
 
 ### field_max
+
+Scalar field of per-component maximum values. Its scoping ids point to the input entity that holds each maximum.
 
 **Type:** *LinkableOutput*
 

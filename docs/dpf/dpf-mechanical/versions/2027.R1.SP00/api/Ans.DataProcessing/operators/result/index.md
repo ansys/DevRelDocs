@@ -59,6 +59,7 @@ uid: Ans.DataProcessing.operators.result
 | [compute_total_strain_Y](Ans_DataProcessing_operators_result_compute_total_strain_Y.md) | compute_total_strain_Y() |
 | [compute_total_strain_YZ](Ans_DataProcessing_operators_result_compute_total_strain_YZ.md) | compute_total_strain_YZ() |
 | [compute_total_strain_Z](Ans_DataProcessing_operators_result_compute_total_strain_Z.md) | compute_total_strain_Z() |
+| [contact_element_heat_flow](Ans_DataProcessing_operators_result_contact_element_heat_flow.md) | contact_element_heat_flow() |
 | [contact_fluid_penetration_pressure](Ans_DataProcessing_operators_result_contact_fluid_penetration_pressure.md) | contact_fluid_penetration_pressure() |
 | [contact_friction_stress](Ans_DataProcessing_operators_result_contact_friction_stress.md) | contact_friction_stress() |
 | [contact_gap_distance](Ans_DataProcessing_operators_result_contact_gap_distance.md) | contact_gap_distance() |
@@ -68,6 +69,7 @@ uid: Ans.DataProcessing.operators.result
 | [contact_status](Ans_DataProcessing_operators_result_contact_status.md) | contact_status() |
 | [contact_surface_heat_flux](Ans_DataProcessing_operators_result_contact_surface_heat_flux.md) | contact_surface_heat_flux() |
 | [contact_total_stress](Ans_DataProcessing_operators_result_contact_total_stress.md) | contact_total_stress() |
+| [convection_heat_flow_rate](Ans_DataProcessing_operators_result_convection_heat_flow_rate.md) | convection_heat_flow_rate() |
 | [coordinate_system](Ans_DataProcessing_operators_result_coordinate_system.md) | Extracts the Rotation Matrix and Origin of a specific coordinate system.   ///available inputs: cs_id (Int32), streams_container (StreamsContainer) (optional), data_sources (DataSources) |
 | [coordinates](Ans_DataProcessing_operators_result_coordinates.md) | coordinates() |
 | [creep_strain](Ans_DataProcessing_operators_result_creep_strain.md) | creep_strain() |
@@ -296,6 +298,7 @@ uid: Ans.DataProcessing.operators.result
 | [pretension](Ans_DataProcessing_operators_result_pretension.md) | Reads the pretension adjustment and tension force. Rotation is not allowed for these results.   ///available inputs: time_scoping (ScopingsContainer, Scoping) (optional), mesh_scoping (ScopingsContainer, Scoping) (optional), fields_container (FieldsContainer) (optional), streams_container (StreamsContainer, Stream), data_sources (DataSources), mesh (MeshedRegion, MeshesContainer) (optional), read_cyclic (Int32) (optional), expanded_meshed_region (MeshedRegion, MeshesContainer) (optional), sectors_to_expand (IList int, Scoping, ScopingsContainer, System.Collections.IEnumerable) (optional), phi (double) (optional) |
 | [prns_to_field](Ans_DataProcessing_operators_result_prns_to_field.md) | Read the presol of nodal field generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32, IList int, System.Collections.IEnumerable) (optional) |
 | [radiation_area](Ans_DataProcessing_operators_result_radiation_area.md) | radiation_area() |
+| [radiation_heat_flow_rate](Ans_DataProcessing_operators_result_radiation_heat_flow_rate.md) | radiation_heat_flow_rate() |
 | [raw_acceleration](Ans_DataProcessing_operators_result_raw_acceleration.md) | raw_acceleration() |
 | [raw_displacement](Ans_DataProcessing_operators_result_raw_displacement.md) | raw_displacement() |
 | [raw_reaction_force](Ans_DataProcessing_operators_result_raw_reaction_force.md) | raw_reaction_force() |
