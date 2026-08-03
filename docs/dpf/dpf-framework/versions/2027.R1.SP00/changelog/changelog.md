@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-07-31).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-02).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -52,7 +52,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [20 items](#Features_native) |[34 items](#Fixes_native) |
+| native | [21 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [1 item](#Features_plugins) | |
@@ -2923,6 +2923,11 @@ The following table shows which components have updates in each category.
   > 
 ## native
 ### <a id="Features_native"></a> Features
+
+- Add total strain operator:
+  > 
+  >
+  > 
 
 - Utility operators for the optimized SVD compression workflow:
   > - Added operator _split_vector_elements_ which takes a vector and outputs each element in a separate pin.
