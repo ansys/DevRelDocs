@@ -1,18 +1,18 @@
 ---
-uid: Ans.DataProcessing.operators.result.total_strain
+uid: Ans.DataProcessing.operators.result.total_strain_eqv
 ---
 
-# *class* total_strain(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
+# *class* total_strain_eqv(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
-total_strain()
+total_strain_eqv()
 
-total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
+total_strain_eqv(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
 
-total_strain(config: OperatorConfig)
+total_strain_eqv(config: OperatorConfig)
 
 
 
-**DPF Framework Reference:** [total_strain operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain.md)
+**DPF Framework Reference:** [total_strain_eqv operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_eqv.md)
 
 **Parameters:**
 
@@ -54,12 +54,6 @@ result file container allowed to be kept open to cache data
 ### data_sources
 
 result file path container, used if no streams are set
-
-**Type:** *LinkableInput*
-
-### bool_rotate_to_global
-
-Rotate the result to the global coordinate system if rotations are available (default true). Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
 
 **Type:** *LinkableInput*
 

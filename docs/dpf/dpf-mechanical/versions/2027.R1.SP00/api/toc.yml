@@ -1541,6 +1541,30 @@
       href: Ans.DataProcessing/operators/result/total_pressure.md
     - name: total_strain
       href: Ans.DataProcessing/operators/result/total_strain.md
+    - name: total_strain_X
+      href: Ans.DataProcessing/operators/result/total_strain_X.md
+    - name: total_strain_XY
+      href: Ans.DataProcessing/operators/result/total_strain_XY.md
+    - name: total_strain_XZ
+      href: Ans.DataProcessing/operators/result/total_strain_XZ.md
+    - name: total_strain_Y
+      href: Ans.DataProcessing/operators/result/total_strain_Y.md
+    - name: total_strain_YZ
+      href: Ans.DataProcessing/operators/result/total_strain_YZ.md
+    - name: total_strain_Z
+      href: Ans.DataProcessing/operators/result/total_strain_Z.md
+    - name: total_strain_eqv
+      href: Ans.DataProcessing/operators/result/total_strain_eqv.md
+    - name: total_strain_intensity
+      href: Ans.DataProcessing/operators/result/total_strain_intensity.md
+    - name: total_strain_max_shear
+      href: Ans.DataProcessing/operators/result/total_strain_max_shear.md
+    - name: total_strain_principal_1
+      href: Ans.DataProcessing/operators/result/total_strain_principal_1.md
+    - name: total_strain_principal_2
+      href: Ans.DataProcessing/operators/result/total_strain_principal_2.md
+    - name: total_strain_principal_3
+      href: Ans.DataProcessing/operators/result/total_strain_principal_3.md
     - name: total_temperature
       href: Ans.DataProcessing/operators/result/total_temperature.md
     - name: transform_invariant_terms_rbd

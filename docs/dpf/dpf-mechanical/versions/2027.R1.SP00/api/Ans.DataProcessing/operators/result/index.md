@@ -384,6 +384,18 @@ uid: Ans.DataProcessing.operators.result
 | [total_mass](Ans_DataProcessing_operators_result_total_mass.md) | Reads total mass from mode file.   ///available inputs: data_sources (DataSources) |
 | [total_pressure](Ans_DataProcessing_operators_result_total_pressure.md) | total_pressure() |
 | [total_strain](Ans_DataProcessing_operators_result_total_strain.md) | total_strain() |
+| [total_strain_X](Ans_DataProcessing_operators_result_total_strain_X.md) | total_strain_X() |
+| [total_strain_XY](Ans_DataProcessing_operators_result_total_strain_XY.md) | total_strain_XY() |
+| [total_strain_XZ](Ans_DataProcessing_operators_result_total_strain_XZ.md) | total_strain_XZ() |
+| [total_strain_Y](Ans_DataProcessing_operators_result_total_strain_Y.md) | total_strain_Y() |
+| [total_strain_YZ](Ans_DataProcessing_operators_result_total_strain_YZ.md) | total_strain_YZ() |
+| [total_strain_Z](Ans_DataProcessing_operators_result_total_strain_Z.md) | total_strain_Z() |
+| [total_strain_eqv](Ans_DataProcessing_operators_result_total_strain_eqv.md) | total_strain_eqv() |
+| [total_strain_intensity](Ans_DataProcessing_operators_result_total_strain_intensity.md) | total_strain_intensity() |
+| [total_strain_max_shear](Ans_DataProcessing_operators_result_total_strain_max_shear.md) | total_strain_max_shear() |
+| [total_strain_principal_1](Ans_DataProcessing_operators_result_total_strain_principal_1.md) | total_strain_principal_1() |
+| [total_strain_principal_2](Ans_DataProcessing_operators_result_total_strain_principal_2.md) | total_strain_principal_2() |
+| [total_strain_principal_3](Ans_DataProcessing_operators_result_total_strain_principal_3.md) | total_strain_principal_3() |
 | [total_temperature](Ans_DataProcessing_operators_result_total_temperature.md) | total_temperature() |
 | [transform_invariant_terms_rbd](Ans_DataProcessing_operators_result_transform_invariant_terms_rbd.md) | transform_invariant_terms_rbd() |
 | [transient_rayleigh_integration](Ans_DataProcessing_operators_result_transient_rayleigh_integration.md) | Computes the transient Rayleigh integral   ///available inputs: fields_container (FieldsContainer), mesh (MeshedRegion, MeshesContainer), time_scoping (Int32, IList int, Scoping, System.Collections.IEnumerable), field (Field), observation_mesh (MeshedRegion), mass_density (double), speed_of_sound (double) |
