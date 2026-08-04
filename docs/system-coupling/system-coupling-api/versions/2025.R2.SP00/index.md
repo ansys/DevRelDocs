@@ -24,7 +24,7 @@ taking advantage of all the functionality provided by System Coupling.
 
 For more information, see:
 
-- [System Coupling Participant library capabilities](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-library-capabilities)
+- [System Coupling Participant library capabilities](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-libbrary-capabilities)
 - [Concepts and terminology](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/concepts-and-terminology)
 - [Steps to perform parallel data transfers](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-for-data-transfers)
 - [Steps to perform mapping](/docs/system-coupling/system-coupling-api/versions/2025.R2.SP00/user-guide/participant-steps-for-mapping)
