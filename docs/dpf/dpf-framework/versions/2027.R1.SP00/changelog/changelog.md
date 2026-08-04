@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-02).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -4183,6 +4183,80 @@ The following table shows which components have updates in each category.
 - [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
+- [total_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_X.md):
+  > Read/compute element nodal component total strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [total_strain_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_XY.md):
+  > Read/compute element nodal component total strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [total_strain_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_XZ.md):
+  > Read/compute element nodal component total strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [total_strain_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_Y.md):
+  > Read/compute element nodal component total strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [total_strain_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_YZ.md):
+  > Read/compute element nodal component total strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [total_strain_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_Z.md):
+  > Read/compute element nodal component total strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+
+- [total_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_eqv.md):
+  > Read/compute element nodal equivalent total strain by calling the readers defined by the datasources.
+  > - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
+  > - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
+  > 
+  > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
+  > |---------------------|---------------------|---------------|-----------------|
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > - The available 'elshape' values are:
+  > 
+  > | elshape | Related elements |
+  > |---------|------------------|
+  > | 1       | Shell (generic)  |
+  > | 2       | Solid            |
+  > | 3       | Beam             |
+  > | 4       | Skin             |
+  > | 5       | Contact          |
+  > | 6       | Load             |
+  > | 7       | Point            |
+  > | 8       | Shell with 1 result across thickness (membrane) |
+  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
+  > | 11      | Gasket          |
+  > | 12      | Multi-Point Constraint |
+  > | 13      | Pretension      |
+  > 
+  > 
+  > Total strain is computed as the sum of the available strain contributions: elastic strain (`EPEL`), plastic strain (`EPPL`), creep strain (`EPCR`), thermal strain (`ETH`) 
+
+- [total_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_intensity.md):
+  > Reads/computes element nodal component total strains, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [total_strain_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_max_shear.md):
+  > Reads/computes element nodal component total strains, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [total_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_principal_1.md):
+  > Read/compute element nodal component total strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
+- [total_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_principal_2.md):
+  > Read/compute element nodal component total strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
+- [total_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_principal_3.md):
+  > Read/compute element nodal component total strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
+
 - [view_factor_sum](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/view_factor_sum.md):
   > Read/compute view factor sum by calling the readers defined by the datasources.
 
@@ -6023,6 +6097,11 @@ Upgraded documentation
   > 1.0.0: The torque unit is now kept from the input units and not converted to N*m.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+
+- [total_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
 
 
 - [transient_rayleigh_integration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/transient_rayleigh_integration.md)

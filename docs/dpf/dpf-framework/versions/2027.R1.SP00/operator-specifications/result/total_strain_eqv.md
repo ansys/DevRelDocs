@@ -4,13 +4,13 @@ plugin: core
 license: None
 ---
 
-# result:creep strain
+# result:total strain eqv
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute element nodal component creep strains by calling the readers defined by the datasources.
+Read/compute element nodal equivalent total strain by calling the readers defined by the datasources.
 - The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
 - Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
 
@@ -43,6 +43,8 @@ Read/compute element nodal component creep strains by calling the readers define
 | 13      | Pretension      |
 
 
+Total strain is computed as the sum of the available strain contributions: elastic strain (`EPEL`), plastic strain (`EPPL`), creep strain (`EPCR`), thermal strain (`ETH`) 
+
 ## Inputs
 
 This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
@@ -56,7 +58,6 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>2</strong> | [fields_container](#input_2) |  |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 | <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
 | <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
-| <strong>5</strong> | [bool_rotate_to_global](#input_5) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 | <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>14</strong> | [read_cyclic](#input_14) |  |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
@@ -108,14 +109,6 @@ result file container allowed to be kept open to cache data
 - **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
 result file path container, used if no streams are set
-
-<a id="input_5"></a>
-### bool_rotate_to_global (Pin 5)
-
-- **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
-
-Rotate the result to the global coordinate system if rotations are available (default true). Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -260,11 +253,11 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: creep_strain
+ **Scripting name**: total_strain_eqv
 
- **Full name**: result.creep_strain
+ **Full name**: result.total_strain_eqv
 
- **Internal name**: EPCR
+ **Internal name**: EL_EQV
 
  **License**: None
 
@@ -279,13 +272,12 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("EPCR"); // operator instantiation
+ansys::dpf::Operator op("EL_EQV"); // operator instantiation
 op.connect(0, my_time_scoping);
 op.connect(1, my_mesh_scoping);
 op.connect(2, my_fields_container);
 op.connect(3, my_streams_container);
 op.connect(4, my_data_sources);
-op.connect(5, my_bool_rotate_to_global);
 op.connect(7, my_mesh);
 op.connect(9, my_requested_location);
 op.connect(14, my_read_cyclic);
@@ -306,13 +298,12 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.result.creep_strain() # operator instantiation
+op = dpf.operators.result.total_strain_eqv() # operator instantiation
 op.inputs.time_scoping.connect(my_time_scoping)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.streams_container.connect(my_streams_container)
 op.inputs.data_sources.connect(my_data_sources)
-op.inputs.bool_rotate_to_global.connect(my_bool_rotate_to_global)
 op.inputs.mesh.connect(my_mesh)
 op.inputs.requested_location.connect(my_requested_location)
 op.inputs.read_cyclic.connect(my_read_cyclic)
@@ -334,13 +325,12 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.result.creep_strain() # operator instantiation
+op = dpf.operators.result.total_strain_eqv() # operator instantiation
 op.inputs.time_scoping.Connect(my_time_scoping)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.streams_container.Connect(my_streams_container)
 op.inputs.data_sources.Connect(my_data_sources)
-op.inputs.bool_rotate_to_global.Connect(my_bool_rotate_to_global)
 op.inputs.mesh.Connect(my_mesh)
 op.inputs.requested_location.Connect(my_requested_location)
 op.inputs.read_cyclic.Connect(my_read_cyclic)

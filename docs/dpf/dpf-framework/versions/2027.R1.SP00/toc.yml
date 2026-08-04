@@ -1485,6 +1485,30 @@
       href: operator-specifications/result/total_pressure.md
     - name: total strain
       href: operator-specifications/result/total_strain.md
+    - name: total strain eqv
+      href: operator-specifications/result/total_strain_eqv.md
+    - name: total strain intensity
+      href: operator-specifications/result/total_strain_intensity.md
+    - name: total strain max shear
+      href: operator-specifications/result/total_strain_max_shear.md
+    - name: total strain principal 1
+      href: operator-specifications/result/total_strain_principal_1.md
+    - name: total strain principal 2
+      href: operator-specifications/result/total_strain_principal_2.md
+    - name: total strain principal 3
+      href: operator-specifications/result/total_strain_principal_3.md
+    - name: total strain X
+      href: operator-specifications/result/total_strain_X.md
+    - name: total strain XY
+      href: operator-specifications/result/total_strain_XY.md
+    - name: total strain XZ
+      href: operator-specifications/result/total_strain_XZ.md
+    - name: total strain Y
+      href: operator-specifications/result/total_strain_Y.md
+    - name: total strain YZ
+      href: operator-specifications/result/total_strain_YZ.md
+    - name: total strain Z
+      href: operator-specifications/result/total_strain_Z.md
     - name: total temperature
       href: operator-specifications/result/total_temperature.md
     - name: transform invariant terms rbd

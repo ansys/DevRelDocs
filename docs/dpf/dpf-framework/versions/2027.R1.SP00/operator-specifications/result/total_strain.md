@@ -4,13 +4,46 @@ plugin: core
 license: None
 ---
 
-# result:total strain (LSDyna)
+# result:total strain
 
 **Version: 0.0.0**
 
 ## Description
 
-Read/compute Total strain (LSDyna) by calling the readers defined by the datasources.
+Read/compute element nodal component total strains by calling the readers defined by the datasources.
+- The 'requested_location' and 'mesh_scoping' inputs are processed to see if they need scoping transposition or result averaging. The resulting output fields have a 'Nodal', 'ElementalNodal' or 'Elemental' location.
+- Once the need for averaging has been detected, the behavior of the combined connection of the 'split_shells' and 'shell_layer' pins is:
+
+| Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
+|---------------------|---------------------|---------------|-----------------|
+| No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
+| No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+| No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
+| No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
+| Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
+| Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
+| Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
+| Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+- The available 'elshape' values are:
+
+| elshape | Related elements |
+|---------|------------------|
+| 1       | Shell (generic)  |
+| 2       | Solid            |
+| 3       | Beam             |
+| 4       | Skin             |
+| 5       | Contact          |
+| 6       | Load             |
+| 7       | Point            |
+| 8       | Shell with 1 result across thickness (membrane) |
+| 9       | Shell with 2 results across thickness (top/bottom) |
+| 10      | Shell with 3 results across thickness (top/bottom/mid) |
+| 11      | Gasket          |
+| 12      | Multi-Point Constraint |
+| 13      | Pretension      |
+
+
+Total strain is computed as the sum of the available strain contributions: elastic strain (`EPEL`), plastic strain (`EPPL`), creep strain (`EPCR`), thermal strain (`ETH`) 
 
 ## Inputs
 
@@ -27,6 +60,15 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
 | <strong>5</strong> | [bool_rotate_to_global](#input_5) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>14</strong> | [read_cyclic](#input_14) |  |`enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>15</strong> | [expanded_meshed_region](#input_15) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>18</strong> | [sectors_to_expand](#input_18) |  |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+| <strong>19</strong> | [phi](#input_19) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>22</strong> | [read_beams](#input_22) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>26</strong> | [split_shells](#input_26) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>27</strong> | [shell_layer](#input_27) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>28</strong> | [extend_to_mid_nodes](#input_28) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -83,7 +125,79 @@ Rotate the result to the global coordinate system if rotations are available (de
 - **Required:** No
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
-prevents from reading the mesh in the result files
+mesh. If cylic expansion is to be done, mesh of the base sector
+
+<a id="input_9"></a>
+### requested_location (Pin 9)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+requested location Nodal, Elemental or ElementalNodal
+
+<a id="input_14"></a>
+### read_cyclic (Pin 14)
+
+- **Required:** No
+- **Expected type(s):** `enum dataProcessing::ECyclicReading`, [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1)
+
+<a id="input_15"></a>
+### expanded_meshed_region (Pin 15)
+
+- **Required:** No
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
+
+mesh expanded, use if cyclic expansion is to be done.
+
+<a id="input_18"></a>
+### sectors_to_expand (Pin 18)
+
+- **Required:** No
+- **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label, use if cyclic expansion is to be done.
+
+<a id="input_19"></a>
+### phi (Pin 19)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
+
+<a id="input_22"></a>
+### read_beams (Pin 22)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+elemental nodal beam results are read if this pin is set to true (default is false)
+
+<a id="input_26"></a>
+### split_shells (Pin 26)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true, this pin forces the results to be split by element shape, indicated by the presence of the 'elshape' label in the output. If false, the results for all elements shapes are combined. Default value is false if averaging is not required and true if averaging is required.
+
+<a id="input_27"></a>
+### shell_layer (Pin 27)
+
+- **Required:** No
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+
+If connected, this pin allows you to extract the result only on the selected shell layer(s). The available values are: 0: Top, 1: Bottom, 2: TopBottom, 3: Mid, 4: TopBottomMid.
+
+<a id="input_28"></a>
+### extend_to_mid_nodes (Pin 28)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+Compute mid nodes (when available) by averaging the neighbour corner nodes. Default: True
 
 
 ## Outputs
@@ -175,6 +289,15 @@ op.connect(3, my_streams_container);
 op.connect(4, my_data_sources);
 op.connect(5, my_bool_rotate_to_global);
 op.connect(7, my_mesh);
+op.connect(9, my_requested_location);
+op.connect(14, my_read_cyclic);
+op.connect(15, my_expanded_meshed_region);
+op.connect(18, my_sectors_to_expand);
+op.connect(19, my_phi);
+op.connect(22, my_read_beams);
+op.connect(26, my_split_shells);
+op.connect(27, my_shell_layer);
+op.connect(28, my_extend_to_mid_nodes);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ```
 </details>
@@ -193,6 +316,15 @@ op.inputs.streams_container.connect(my_streams_container)
 op.inputs.data_sources.connect(my_data_sources)
 op.inputs.bool_rotate_to_global.connect(my_bool_rotate_to_global)
 op.inputs.mesh.connect(my_mesh)
+op.inputs.requested_location.connect(my_requested_location)
+op.inputs.read_cyclic.connect(my_read_cyclic)
+op.inputs.expanded_meshed_region.connect(my_expanded_meshed_region)
+op.inputs.sectors_to_expand.connect(my_sectors_to_expand)
+op.inputs.phi.connect(my_phi)
+op.inputs.read_beams.connect(my_read_beams)
+op.inputs.split_shells.connect(my_split_shells)
+op.inputs.shell_layer.connect(my_shell_layer)
+op.inputs.extend_to_mid_nodes.connect(my_extend_to_mid_nodes)
 my_fields_container = op.outputs.fields_container()
 ```
 </details>
@@ -212,6 +344,15 @@ op.inputs.streams_container.Connect(my_streams_container)
 op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.bool_rotate_to_global.Connect(my_bool_rotate_to_global)
 op.inputs.mesh.Connect(my_mesh)
+op.inputs.requested_location.Connect(my_requested_location)
+op.inputs.read_cyclic.Connect(my_read_cyclic)
+op.inputs.expanded_meshed_region.Connect(my_expanded_meshed_region)
+op.inputs.sectors_to_expand.Connect(my_sectors_to_expand)
+op.inputs.phi.Connect(my_phi)
+op.inputs.read_beams.Connect(my_read_beams)
+op.inputs.split_shells.Connect(my_split_shells)
+op.inputs.shell_layer.Connect(my_shell_layer)
+op.inputs.extend_to_mid_nodes.Connect(my_extend_to_mid_nodes)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
