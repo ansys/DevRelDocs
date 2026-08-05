@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-03).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,14 +35,14 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [14 items](#Features_hdf5) |[9 items](#Fixes_hdf5) |
+| hdf5 | [15 items](#Features_hdf5) |[10 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [29 items](#Features_mapdl) |[62 items](#Fixes_mapdl) |
+| mapdl | [30 items](#Features_mapdl) |[62 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1053,6 +1053,17 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Write dpf stream helpers as attributes and add append tfs mode:
+  > **Old representation:**
+  >
+  > ![Screenshot 2026-07-29 121439.png](https://tfs.ansys.com:8443/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/708491/attachments/Screenshot%202026-07-29%20121439.png)
+  >
+  > **New representation**:
+  >
+  > ![image.png](https://tfs.ansys.com:8443/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/708491/attachments/image.png)
+  >
+  > 
+
 - Add FilterMaterialsData operator for materials data processing and expose them in h5dpf:
   > Expose materials data in H5DPF as a generic data container
   >
@@ -1140,6 +1151,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Fix non composites operators failing when connected with a distributed datasource:
+  > 
+  >
+  > Fixed an error when connecting a distributed data source as input of non distributed H5DPF operators without going through a stream provider.
+  >
+  > 
+  >
+  > 
 
 - Fix appending to tfs after restart analysis from MAPDL ':
   > Allowing restart analysis from MAPDL to use h5 file and append new results with matching TFS from original file.
@@ -1493,6 +1513,15 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Support Pipe Sections and PIPE288/289:
+  > - support reading of results from pipe288, pipe289 elements
+  >
+  > - support of pipe sections
+  >
+  > 
+  >
+  > 
 
 - Add misc reaction results:
   > Addition of operators to read Radiation heat flow rate, convection heat flow rate and contact element heat flow
