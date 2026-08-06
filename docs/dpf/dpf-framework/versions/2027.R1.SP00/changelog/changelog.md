@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-04).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-05).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -17,7 +17,7 @@ The following table shows which components have updates in each category.
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
-| compression | [6 items](#Features_compression) |[2 items](#Fixes_compression) |
+| compression | [7 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[2 items](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
@@ -55,7 +55,7 @@ The following table shows which components have updates in each category.
 | native | [21 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| plugins | [1 item](#Features_plugins) | |
+| plugins | [2 items](#Features_plugins) | |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | rbd | [1 item](#Features_rbd) | |
@@ -246,6 +246,11 @@ The following table shows which components have updates in each category.
   > 
 ## compression
 ### <a id="Features_compression"></a> Features
+
+- Creation of operators for delta compression:
+  > 
+  >
+  > 
 
 - Accept svd_operator's pin 1 as double:
   > Added the possibility to give a double to pin 1 of _svd_operator_
@@ -3446,6 +3451,11 @@ The following table shows which components have updates in each category.
   > 
 ## plugins
 ### <a id="Features_plugins"></a> Features
+
+- New default append mode for solver to hdf5 workflow:
+  > solver to hdf5 workflow now use the new append to just tfs append mode.
+  >
+  > 
 
 - Add workflows for FRF generation and PSD expansion:
   > Add 4 new workflows to perform the following operations:
