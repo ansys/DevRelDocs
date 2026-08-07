@@ -130,7 +130,6 @@ uid: Ans.DataProcessing.operators.result
 | [element_orientations_Y](Ans_DataProcessing_operators_result_element_orientations_Y.md) | element_orientations_Y() |
 | [element_orientations_Z](Ans_DataProcessing_operators_result_element_orientations_Z.md) | element_orientations_Z() |
 | [elemental_heat_generation](Ans_DataProcessing_operators_result_elemental_heat_generation.md) | elemental_heat_generation() |
-| [elemental_mass](Ans_DataProcessing_operators_result_elemental_mass.md) | elemental_mass() |
 | [elemental_volume](Ans_DataProcessing_operators_result_elemental_volume.md) | elemental_volume() |
 | [emissivity](Ans_DataProcessing_operators_result_emissivity.md) | emissivity() |
 | [emitted_radiation_heat_flux](Ans_DataProcessing_operators_result_emitted_radiation_heat_flux.md) | emitted_radiation_heat_flux() |
@@ -228,7 +227,7 @@ uid: Ans.DataProcessing.operators.result
 | [mapdl_split_to_acmo_facet_indices](Ans_DataProcessing_operators_result_mapdl_split_to_acmo_facet_indices.md) | This will retain the already existing labels from the input FC and will change the facet label to now mean ACMO facet indices.Each Field in the input will be split/merged into several Fields, redistributing the data to the appropriate entity.   ///available inputs: fields_container (FieldsContainer), property_fields_container_element_types (PropertyFieldsContainer) |
 | [mass_flow_rate](Ans_DataProcessing_operators_result_mass_flow_rate.md) | mass_flow_rate() |
 | [mass_fraction](Ans_DataProcessing_operators_result_mass_fraction.md) | mass_fraction() |
-| [material_property_of_element](Ans_DataProcessing_operators_result_material_property_of_element.md) | Reads a named scalar material property (pin 6) for each element from result files. |
+| [material_property_of_element](Ans_DataProcessing_operators_result_material_property_of_element.md) | Reads a material property for each element from result files. |
 | [mean_static_pressure](Ans_DataProcessing_operators_result_mean_static_pressure.md) | mean_static_pressure() |
 | [mean_temperature](Ans_DataProcessing_operators_result_mean_temperature.md) | mean_temperature() |
 | [mean_velocity](Ans_DataProcessing_operators_result_mean_velocity.md) | mean_velocity() |

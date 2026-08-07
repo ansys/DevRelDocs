@@ -34,7 +34,7 @@ op = scoping_get_attribute(scoping=my_scoping,property_name=my_property_name)
 
 ### property_name
 
-Supported property names are: "ids", "location".
+Supported property names are: "ids", "maximum_id", and "location".
 
 **Type:** *LinkableInput*
 
@@ -42,7 +42,7 @@ Supported property names are: "ids", "location".
 
 ### property
 
-Returns a vector of int for property: "ids" and a string for property: "location".
+Returns a vector of int for property: "ids" an int for  "maximum_id" and a string for property: "location".
 
 **Type:** *LinkableOutput*
 
