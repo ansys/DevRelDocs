@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-05).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-06).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [30 items](#Features_mapdl) |[62 items](#Fixes_mapdl) |
+| mapdl | [30 items](#Features_mapdl) |[63 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -55,7 +55,7 @@ The following table shows which components have updates in each category.
 | native | [21 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
-| plugins | [2 items](#Features_plugins) | |
+| plugins | [3 items](#Features_plugins) | |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
 | pydpf |  |[1 item](#Fixes_pydpf) |
 | rbd | [1 item](#Features_rbd) | |
@@ -1791,6 +1791,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Record ElementalMass for rth:
+  > Make ElementalMass a source operator
+  >
+  > Make MaterialPropertyOfElement a source operator
+  >
+  > 
+  >
+  > 
+
 - Mark mapdl_split_on_facet_indices as private:
   > 
   >
@@ -3451,6 +3460,11 @@ The following table shows which components have updates in each category.
   > 
 ## plugins
 ### <a id="Features_plugins"></a> Features
+
+- Improve the EnhancedPOD workflow with optimization of its parameters:
+  > 
+  >
+  > 
 
 - New default append mode for solver to hdf5 workflow:
   > solver to hdf5 workflow now use the new append to just tfs append mode.
@@ -5812,11 +5826,6 @@ Upgraded documentation
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
-- [elemental_mass](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_mass.md)
-
-  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
-
-
 - [elemental_volume](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_volume.md)
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
@@ -5896,7 +5905,7 @@ Upgraded documentation
 
 - [material_property_of_element](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/material_property_of_element.md)
 
-  > 0.1.0: Added missing input pins: mesh_scoping (pin 1), property_name (pin 6), default_value (pin 7), filter_zero_values (pin 8). Corrected and expanded all pin and operator documentation.
+  > 0.1.0: Added operator documentation and explicit pin contracts.
 
 
 - [members_in_bending_not_certified](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/members_in_bending_not_certified.md)
@@ -6242,6 +6251,11 @@ Upgraded documentation
   > 0.1.4: Performance improvement.
 
 
+- [scoping_get_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/scoping_get_attribute.md)
+
+  > 0.1.0: Add new supported property name 'maximum_id' returning an int.
+
+
 - [transpose](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/transpose.md)
 
   > 0.1.0: Improvement of performance
@@ -6514,6 +6528,8 @@ Upgraded documentation
 #### eigen_vectors_fc
 
 #### elastic_strain_rotation_by_euler_nodes
+
+#### elemental_mass
 
 #### enf_rotation_by_euler_nodes
 

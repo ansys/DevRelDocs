@@ -38,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Supported property names are: "ids", "location".
+Supported property names are: "ids", "maximum_id", and "location".
 
 
 ## Outputs
@@ -57,7 +57,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Returns a vector of int for property: "ids" and a string for property: "location".
+Returns a vector of int for property: "ids" an int for  "maximum_id" and a string for property: "location".
 
 
 ## Configurations
