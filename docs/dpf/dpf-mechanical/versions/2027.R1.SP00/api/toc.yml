@@ -1033,6 +1033,8 @@
       href: Ans.DataProcessing/operators/result/element_orientations_Z.md
     - name: elemental_heat_generation
       href: Ans.DataProcessing/operators/result/elemental_heat_generation.md
+    - name: elemental_mass
+      href: Ans.DataProcessing/operators/result/elemental_mass.md
     - name: elemental_volume
       href: Ans.DataProcessing/operators/result/elemental_volume.md
     - name: emissivity

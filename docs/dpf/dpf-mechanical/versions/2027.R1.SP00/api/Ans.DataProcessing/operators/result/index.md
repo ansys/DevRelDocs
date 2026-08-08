@@ -130,6 +130,7 @@ uid: Ans.DataProcessing.operators.result
 | [element_orientations_Y](Ans_DataProcessing_operators_result_element_orientations_Y.md) | element_orientations_Y() |
 | [element_orientations_Z](Ans_DataProcessing_operators_result_element_orientations_Z.md) | element_orientations_Z() |
 | [elemental_heat_generation](Ans_DataProcessing_operators_result_elemental_heat_generation.md) | elemental_heat_generation() |
+| [elemental_mass](Ans_DataProcessing_operators_result_elemental_mass.md) | Computes elemental mass by multiplying elemental volume (ENG_VOL) by elemental density (DENS).   ///available inputs: time_scoping (Scoping, IList int, Int32, System.Collections.IEnumerable) (optional), streams_container (StreamsContainer) (optional), data_sources (DataSources) |
 | [elemental_volume](Ans_DataProcessing_operators_result_elemental_volume.md) | elemental_volume() |
 | [emissivity](Ans_DataProcessing_operators_result_emissivity.md) | emissivity() |
 | [emitted_radiation_heat_flux](Ans_DataProcessing_operators_result_emitted_radiation_heat_flux.md) | emitted_radiation_heat_flux() |

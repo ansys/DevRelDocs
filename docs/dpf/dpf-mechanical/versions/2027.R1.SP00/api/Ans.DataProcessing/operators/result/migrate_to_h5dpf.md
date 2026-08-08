@@ -8,7 +8,7 @@ Read mesh properties from the results files contained in the streams or data sou
 
 available inputs: `h5_chunk_size` (Int32, GenericDataContainer) (optional), `dataset_size_compression_threshold` (Int32, GenericDataContainer) (optional), `h5_native_compression` (Int32, DataTree, GenericDataContainer) (optional), `export_floats` (bool, GenericDataContainer) (optional), `filename` (string), `comma_separated_list_of_results` (string) (optional), `all_time_sets` (bool) (optional), `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources) (optional), `compression_workflow` (Workflow, GenericDataContainer) (optional), `filtering_workflow` (Workflow, GenericDataContainer) (optional)
 
-available outputs: `migrated_file` (DataSources)
+available outputs: `migrated_file` (DataSources), `migrated_file_streams` (StreamsContainer)
 
 **DPF Framework Reference:** [migrate_to_h5dpf operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/migrate_to_h5dpf.md)
 
@@ -62,7 +62,7 @@ Converts double to float to reduce file size (default is true).If False, nodal r
 
 ### filename
 
-filename of the migrated file
+filename of the migrated file, or stream from a previous migration.
 
 **Type:** *LinkableInput*
 
@@ -80,13 +80,13 @@ Deprecated. Please use filtering workflows instead to select time scoping. Defau
 
 ### streams_container
 
-streams (result file container) (optional)
+Input stream to migrate (optional)
 
 **Type:** *LinkableInput*
 
 ### data_sources
 
-if the stream is null then we need to get the file path from the data sources
+Input data source to migrate. If the stream is null then we need to get the file path from the data sources
 
 **Type:** *LinkableInput*
 
@@ -105,6 +105,12 @@ Applies input filtering workflow.
 ## Outputs
 
 ### migrated_file
+
+**Type:** *LinkableOutput*
+
+### migrated_file_streams
+
+Stream of the migrated file, for reuse in incremental migration.
 
 **Type:** *LinkableOutput*
 
