@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-06).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-07).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [30 items](#Features_mapdl) |[63 items](#Fixes_mapdl) |
+| mapdl | [30 items](#Features_mapdl) |[64 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1790,6 +1790,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Make elemental mass public:
+  > 
+  >
+  > 
 
 - Record ElementalMass for rth:
   > Make ElementalMass a source operator
@@ -5927,6 +5932,8 @@ Upgraded documentation
 
   > 0.1.0: Results that don't contain any field are now skipped from the export
 
+  > 0.2.0: Add migrated_file_streams output pin to allow reuse of the migrated file in incremental migration
+
 
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
 
@@ -6528,8 +6535,6 @@ Upgraded documentation
 #### eigen_vectors_fc
 
 #### elastic_strain_rotation_by_euler_nodes
-
-#### elemental_mass
 
 #### enf_rotation_by_euler_nodes
 
