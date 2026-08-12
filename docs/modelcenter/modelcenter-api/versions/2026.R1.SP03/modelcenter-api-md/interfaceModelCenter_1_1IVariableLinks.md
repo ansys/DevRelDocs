@@ -23,9 +23,11 @@ A collection of [IVariableLink](interfaceModelCenter_1_1IVariableLink.md#interfa
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IVariableLinks::Count
 ```
+
 
 
 
@@ -42,9 +44,11 @@ Number of Links.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IVariableLinks::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +76,6 @@ IDispatch* to an [IVariableLink](interfaceModelCenter_1_1IVariableLink.md#interf
 
 **Return type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

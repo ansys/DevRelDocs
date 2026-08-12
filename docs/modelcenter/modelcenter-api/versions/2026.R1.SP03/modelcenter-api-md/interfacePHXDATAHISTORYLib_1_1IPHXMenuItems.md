@@ -25,9 +25,11 @@ An object which is used to get extra context dependent menu items from [PHXDataE
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 long PHXDATAHISTORYLib::IPHXMenuItems::numItems
 ```
+
 
 
 
@@ -44,9 +46,11 @@ The number of context dependent menu items. Set this first, then use [setMenuIte
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::IPHXMenuItems::setMenuItem(long index, BSTR name, BSTR description)
 ```
+
 
 
 
@@ -78,9 +82,11 @@ Sets the data for a particular menu item.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::IPHXMenuItems::getMenuItemName(long index)
 ```
+
 
 
 
@@ -113,9 +119,11 @@ The menu item name.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::IPHXMenuItems::getMenuItemDescription(long index)
 ```
+
 
 
 
@@ -143,6 +151,6 @@ The value of the description field of the menu item.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

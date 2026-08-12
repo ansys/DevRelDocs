@@ -57,9 +57,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IScriptComponent::Variables
 ```
+
 
 
 
@@ -76,9 +78,11 @@ VARIANT ModelCenter::IScriptComponent::Variables
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IScriptComponent::Groups
 ```
+
 
 
 
@@ -95,9 +99,11 @@ VARIANT ModelCenter::IScriptComponent::Groups
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IScriptComponent::userData
 ```
+
 
 
 
@@ -114,9 +120,11 @@ VARIANT ModelCenter::IScriptComponent::userData
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IScriptComponent::AssociatedFiles
 ```
+
 
 
 
@@ -133,9 +141,11 @@ VARIANT ModelCenter::IScriptComponent::AssociatedFiles
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IScriptComponent::IndexInParent
 ```
+
 
 
 
@@ -152,9 +162,11 @@ int ModelCenter::IScriptComponent::IndexInParent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IScriptComponent::ParentAssembly
 ```
+
 
 
 
@@ -171,9 +183,11 @@ LPDISPATCH ModelCenter::IScriptComponent::ParentAssembly
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IScriptComponent::language
 ```
+
 
 
 
@@ -190,9 +204,11 @@ The script language. Must be set prior to setting the source.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IScriptComponent::timeout
 ```
+
 
 
 
@@ -209,9 +225,11 @@ The script timeout in seconds. Use -1 to set no timeout.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IScriptComponent::forwardSchedule
 ```
+
 
 
 
@@ -228,9 +246,11 @@ True to run the component in forward scheduling mode.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IScriptComponent::prevalidate
 ```
+
 
 
 
@@ -247,9 +267,11 @@ True to pre-validate the component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getName()
 ```
+
 
 
 
@@ -275,9 +297,11 @@ The name of the Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getFullName()
 ```
+
 
 
 
@@ -303,9 +327,11 @@ the full ModelCenter path of the Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::run()
 ```
+
 
 
 
@@ -322,9 +348,11 @@ Runs the Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getSource()
 ```
+
 
 
 
@@ -350,9 +378,11 @@ The source of the Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::invokeMethod(BSTR method)
 ```
+
 
 
 
@@ -382,9 +412,11 @@ Invokes one of the Component's methods.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::invalidate()
 ```
+
 
 
 
@@ -401,9 +433,11 @@ Invalidates the Component and all of its variables.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::reconnect()
 ```
+
 
 
 
@@ -420,9 +454,11 @@ Reconnect a Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::downloadValues()
 ```
+
 
 
 
@@ -439,9 +475,11 @@ Downloads the component's variable values from [ModelCenter](namespaceModelCente
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IScriptComponent::getVariable(BSTR name)
 ```
+
 
 
 
@@ -476,9 +514,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 int ModelCenter::IScriptComponent::getPositionX()
 ```
+
 
 
 
@@ -495,9 +535,11 @@ int ModelCenter::IScriptComponent::getPositionX()
 
 ![][public]
 
+
 ```
 int ModelCenter::IScriptComponent::getPositionY()
 ```
+
 
 
 
@@ -514,9 +556,11 @@ int ModelCenter::IScriptComponent::getPositionY()
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::rename(BSTR name)
 ```
+
 
 
 
@@ -546,9 +590,11 @@ Renames the current Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getType()
 ```
+
 
 
 
@@ -589,9 +635,11 @@ The type of the component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::show()
 ```
+
 
 
 
@@ -608,9 +656,11 @@ Show the GUI form associated with the component, if any.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::setSourceFromString(BSTR script)
 ```
+
 
 
 
@@ -632,9 +682,11 @@ Sets the source script code of the script component to the given string. The sou
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::setSourceFromFile(BSTR file)
 ```
+
 
 
 
@@ -656,9 +708,11 @@ Sets the source script code of the script component to the contents of the file.
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IScriptComponent::addVariable(BSTR name, BSTR type, BSTR state)
 ```
+
 
 
 
@@ -689,9 +743,11 @@ the [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModelCenter_1_1IVa
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::removeVariable(BSTR name)
 ```
+
 
 
 
@@ -713,9 +769,11 @@ Removes the variable from the component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IScriptComponent::setVariables(VARIANT inputs, BSTR outputs)
 ```
+
 
 
 
@@ -739,9 +797,11 @@ Sets the variables of the component. Previous variables of this component are re
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IScriptComponent::getSourceScript()
 ```
+
 
 
 
@@ -754,6 +814,6 @@ the source script
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

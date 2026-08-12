@@ -12,9 +12,9 @@
 
 * [PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct.md#structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct)
 * [PHXDATAHISTORYLib::DataHistoryVariableStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct.md#structPHXDATAHISTORYLib_1_1DataHistoryVariableStruct)
-* [PHXDATAHISTORYLib::\_DPHXDataHistory](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory)
-* [PHXDATAHISTORYLib::\_DPHXDataHistoryToModel](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel)
-* [PHXDATAHISTORYLib::\_DPHXDataHistoryEvents](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents)
+* [PHXDATAHISTORYLib::_DPHXDataHistory](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistory)
+* [PHXDATAHISTORYLib::_DPHXDataHistoryToModel](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel)
+* [PHXDATAHISTORYLib::_DPHXDataHistoryEvents](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryEvents)
 * [PHXDATAHISTORYLib::PHXDataHistory](classPHXDATAHISTORYLib_1_1PHXDataHistory.md#classPHXDATAHISTORYLib_1_1PHXDataHistory)
 * [PHXDATAHISTORYLib::DataHistoryVariableMetadata](classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata.md#classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata)
 * [PHXDATAHISTORYLib::PHXDataExplorerPlugIn](interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn.md#interfacePHXDATAHISTORYLib_1_1PHXDataExplorerPlugIn)
@@ -32,6 +32,7 @@
 * <olectl.h>
 * <idispids.h>
 
+
 ```mermaid
 graph LR
 1["LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl"]
@@ -45,7 +46,9 @@ click 1 "PHXDataHistory_8odl.md#PHXDataHistory_8odl"
 
 ```
 
+
 ## Source
+
 
 ```
 // PHXDataHistory.odl : type library source for ActiveX Control project.
@@ -464,6 +467,7 @@ library PHXDATAHISTORYLib
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

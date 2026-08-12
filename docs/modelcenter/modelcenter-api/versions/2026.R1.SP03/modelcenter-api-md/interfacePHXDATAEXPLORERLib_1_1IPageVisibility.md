@@ -24,9 +24,11 @@ An interface that represents something that has a number of pages which all have
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::IPageVisibility::hide(long index)
 ```
+
 
 
 
@@ -48,9 +50,11 @@ Hide the page at the specified index. Does nothing if the page is already hidden
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::IPageVisibility::show(long index)
 ```
+
 
 
 
@@ -72,9 +76,11 @@ Show the page at the specified index. Does nothing if the page is already shown.
 
 ![][public]
 
+
 ```
 boolean PHXDATAEXPLORERLib::IPageVisibility::isVisible(long index)
 ```
+
 
 
 
@@ -97,9 +103,11 @@ Get whether or not the page at the specified index is currently visible.
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::IPageVisibility::getDataViewHWND()
 ```
+
 
 
 
@@ -117,9 +125,11 @@ the HWND representing the Data View
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::IPageVisibility::getViewHWND(long index)
 ```
+
 
 
 
@@ -141,6 +151,6 @@ the HWND representing the page or view
 
 **Return type**: long
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

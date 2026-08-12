@@ -23,9 +23,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IVariables::Count
 ```
+
 
 
 
@@ -42,9 +44,11 @@ Number of variables.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IVariables::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +76,6 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 **Return type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

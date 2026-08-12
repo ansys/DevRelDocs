@@ -26,9 +26,11 @@ Represents a link between variables.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableLink::LHS
 ```
+
 
 
 
@@ -45,9 +47,11 @@ The left hand side of the equation. Read only. Will always be a simple variable 
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableLink::RHS
 ```
+
 
 
 
@@ -64,9 +68,11 @@ The right hand side of the equation. You can change the link by changing this va
 
 ![][public]
 
+
 ```
 void ModelCenter::IVariableLink::suspendLink()
 ```
+
 
 
 
@@ -81,9 +87,11 @@ Causes the link to be suspended.
 
 ![][public]
 
+
 ```
 void ModelCenter::IVariableLink::resumeLink()
 ```
+
 
 
 
@@ -98,9 +106,11 @@ Resumes the link if it was suspended.
 
 ![][public]
 
+
 ```
 void ModelCenter::IVariableLink::breakLink()
 ```
+
 
 
 
@@ -110,6 +120,6 @@ Breaks this link and removes the dependencies between the LHS and RHS of the equ
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -54,9 +54,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IIfComponent::Variables
 ```
+
 
 
 
@@ -73,9 +75,11 @@ VARIANT ModelCenter::IIfComponent::Variables
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IIfComponent::Groups
 ```
+
 
 
 
@@ -92,9 +96,11 @@ VARIANT ModelCenter::IIfComponent::Groups
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IIfComponent::userData
 ```
+
 
 
 
@@ -111,9 +117,11 @@ VARIANT ModelCenter::IIfComponent::userData
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IIfComponent::AssociatedFiles
 ```
+
 
 
 
@@ -130,9 +138,11 @@ VARIANT ModelCenter::IIfComponent::AssociatedFiles
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IIfComponent::IndexInParent
 ```
+
 
 
 
@@ -149,9 +159,11 @@ int ModelCenter::IIfComponent::IndexInParent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IIfComponent::ParentAssembly
 ```
+
 
 
 
@@ -168,9 +180,11 @@ LPDISPATCH ModelCenter::IIfComponent::ParentAssembly
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IIfComponent::exclusive
 ```
+
 
 
 
@@ -196,9 +210,11 @@ Yes (TRUE) or no (FALSE).
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IIfComponent::runLastBranchByDefault
 ```
+
 
 
 
@@ -224,9 +240,11 @@ YES (TRUE) or no (FALSE).
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIfComponent::getName()
 ```
+
 
 
 
@@ -252,9 +270,11 @@ The name of the Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIfComponent::getFullName()
 ```
+
 
 
 
@@ -280,9 +300,11 @@ the full ModelCenter path of the Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::run()
 ```
+
 
 
 
@@ -299,9 +321,11 @@ Runs the Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIfComponent::getSource()
 ```
+
 
 
 
@@ -327,9 +351,11 @@ The source of the Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::invokeMethod(BSTR method)
 ```
+
 
 
 
@@ -359,9 +385,11 @@ Invokes one of the Component's methods.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::invalidate()
 ```
+
 
 
 
@@ -378,9 +406,11 @@ Invalidates the Component and all of its variables.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::reconnect()
 ```
+
 
 
 
@@ -397,9 +427,11 @@ Reconnect a Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::downloadValues()
 ```
+
 
 
 
@@ -416,9 +448,11 @@ Downloads the component's variable values from [ModelCenter](namespaceModelCente
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIfComponent::getVariable(BSTR name)
 ```
+
 
 
 
@@ -453,9 +487,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 int ModelCenter::IIfComponent::getPositionX()
 ```
+
 
 
 
@@ -481,9 +517,11 @@ The X position.
 
 ![][public]
 
+
 ```
 int ModelCenter::IIfComponent::getPositionY()
 ```
+
 
 
 
@@ -509,9 +547,11 @@ The Y position.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::rename(BSTR name)
 ```
+
 
 
 
@@ -541,9 +581,11 @@ Renames the current Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIfComponent::getType()
 ```
+
 
 
 
@@ -584,9 +626,11 @@ The type of the component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::show()
 ```
+
 
 
 
@@ -603,9 +647,11 @@ Show the GUI form associated with the component, if any.
 
 ![][public]
 
+
 ```
 int ModelCenter::IIfComponent::getNumBranches()
 ```
+
 
 
 
@@ -629,9 +675,11 @@ The number of branches.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIfComponent::getBranchCondition(int index)
 ```
+
 
 
 
@@ -664,9 +712,11 @@ The branch condition.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::setBranchCondition(int index, BSTR condition)
 ```
+
 
 
 
@@ -696,9 +746,11 @@ Sets the branch condition.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIfComponent::getBranchName(int index)
 ```
+
 
 
 
@@ -731,9 +783,11 @@ The name of the branch.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIfComponent::renameBranch(int index, BSTR name)
 ```
+
 
 
 
@@ -758,6 +812,6 @@ Renames the branch to the given name.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

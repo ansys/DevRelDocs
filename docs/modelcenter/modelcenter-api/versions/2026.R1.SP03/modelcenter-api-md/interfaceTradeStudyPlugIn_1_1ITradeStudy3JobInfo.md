@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 193)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 193)
 
 
 
@@ -25,11 +25,13 @@
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 201)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 201)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobInfo::numRuns
 ```
+
 
 Get the number of runs.
 
@@ -44,11 +46,13 @@ Get the number of runs.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 206)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 206)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobInfo::numVariables
 ```
+
 
 Get the number of inputs.
 
@@ -65,9 +69,11 @@ Get the number of inputs.
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobInfo::getVariableEquation(long index)
 ```
+
 
 Get the equation for the variable at the specified index.
 
@@ -93,9 +99,11 @@ The equation.
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobInfo::getVariableDisplayName(long index)
 ```
+
 
 Get the unique display name of a variable.
 
@@ -121,9 +129,11 @@ The display name.
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobInfo::isDesignVariable(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -149,9 +159,11 @@ The variable type.
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobInfo::isInput(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -172,6 +184,6 @@ The variable type.
 
 **Return type**: boolean
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

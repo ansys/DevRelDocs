@@ -22,9 +22,11 @@ The Login Callback allows non-ModelCenter processes to hook into [ModelCenter](n
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILoginCallback::requestAuthCredentials(BSTR uri, boolean isFailedAttempt, VARIANT *username, VARIANT *password, VARIANT *savePassword)
 ```
+
 
 
 
@@ -64,9 +66,11 @@ true if username/password is submitted, false otherwise
 
 ![][public]
 
+
 ```
 void ModelCenter::ILoginCallback::loginSucceeded(BSTR uri, BSTR username, BSTR password, boolean savePassword)
 ```
+
 
 
 
@@ -94,9 +98,11 @@ Called when [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) succeeds
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILoginCallback::verifySslWarning(BSTR msg)
 ```
+
 
 
 
@@ -118,6 +124,6 @@ true if [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) should proce
 
 **Return type**: boolean
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

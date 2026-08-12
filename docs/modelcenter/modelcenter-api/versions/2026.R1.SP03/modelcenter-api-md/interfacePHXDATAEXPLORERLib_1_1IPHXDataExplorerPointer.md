@@ -20,9 +20,11 @@ A pointer class used to prevent circular dependencies between Data Explorer, Dat
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAEXPLORERLib::IPHXDataExplorerPointer::getDataExplorer()
 ```
+
 
 
 
@@ -32,6 +34,6 @@ Returns a new pointer to the associated Data Explorer Object. Do not store this 
 
 **Return type**: IDispatch *
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

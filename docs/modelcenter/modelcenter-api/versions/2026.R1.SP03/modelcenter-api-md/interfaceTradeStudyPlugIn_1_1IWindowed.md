@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 566)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 566)
 
 
 
@@ -20,9 +20,11 @@
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::IWindowed::closeWindow()
 ```
+
 
 
 
@@ -35,6 +37,6 @@ true if the user allowed the window to close.
 
 **Return type**: boolean
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

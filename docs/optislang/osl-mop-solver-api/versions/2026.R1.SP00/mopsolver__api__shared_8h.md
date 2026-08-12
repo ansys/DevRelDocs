@@ -10,25 +10,21 @@
 * [mopsolver_api2_shared.h](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h)
 
 ```mermaid
-graph RL
-2["mopsolver_api.h"]
-click 2 "mopsolver__api_8h.md#mopsolver__api_8h"
-
-4["mopsolver_api2.h"]
-click 4 "mopsolver__api2_8h.md#mopsolver__api2_8h"
-
-5["mopsolver_api2_hash.h"]
-
-3["mopsolver_api2_shared.h"]
-click 3 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
-4 --> 3
-5 --> 3
-
-1["mopsolver_api_shared.h"]
-click 1 "mopsolver__api__shared_8h.md#mopsolver__api__shared_8h"
-2 --> 1
-3 --> 1
-
+flowchart RL
+  n1["mopsolver_api_shared.h"]
+  n2["mopsolver_api.h"]
+  n3["mopsolver_api2_shared.h"]
+  n4["mopsolver_api2.h"]
+  n5["mopsolver_api2_hash.h"]
+  n4 --> n3
+  n5 --> n3
+  n2 --> n1
+  n3 --> n1
+  click n1 href "mopsolver__api__shared_8h.md#mopsolver__api__shared_8h"
+  click n2 href "mopsolver__api_8h.md#mopsolver__api_8h"
+  click n3 href "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
+  click n4 href "mopsolver__api2_8h.md#mopsolver__api2_8h"
+  click n5 href "mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h"
 ```
 
 ## Macros

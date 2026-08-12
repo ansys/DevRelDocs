@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 311)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 311)
 
 
 
@@ -21,9 +21,11 @@ Class which provides variable metadata. Since a job manager is not always backed
 
 ![][public]
 
+
 ```
 LPDISPATCH TradeStudyPlugIn::IVariableMetaDataProvider::getVariableMetaData(BSTR fullName)
 ```
+
 
 
 
@@ -50,9 +52,11 @@ the metadata object (IDHVariable, from DataHistory plugin)
 
 ![][public]
 
+
 ```
 TradeStudyPlugIn::IVariableMetaDataProvider::SAFEARRAY(IDispatch *) getAllVariableMetaData(BSTR path)
 ```
+
 
 
 
@@ -74,6 +78,6 @@ the list of variables (as IDHVariable objects, from DataHistory plugin)
 
 **Return type**: 
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -45,9 +45,11 @@ COM Instance.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDataMonitor::getName(long row)
 ```
+
 
 
 
@@ -80,9 +82,11 @@ The name of the row.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setName(long row, BSTR name)
 ```
+
 
 
 
@@ -112,9 +116,11 @@ Sets the display name of the specified row in the Data Monitor.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDataMonitor::isRenamed(long row)
 ```
+
 
 
 
@@ -147,9 +153,11 @@ Determines whether the name of a row in the Data Monitor lines up to the ModelCe
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDataMonitor::getLink(long row)
 ```
+
 
 
 
@@ -182,9 +190,11 @@ Retrieves the ModelCenter variable associated with a given row in the Data Monit
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDataMonitor::setLink(long row, BSTR link)
 ```
+
 
 
 
@@ -219,9 +229,11 @@ Sets the ModelCenter variable associated with a given row in the Data Monitor.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::addItem(BSTR name, BSTR link)
 ```
+
 
 
 
@@ -256,9 +268,11 @@ Add an item to the Data Monitor that links to a variable in the model.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::addUnlinkedItem(BSTR name)
 ```
+
 
 
 
@@ -291,9 +305,11 @@ Add an item to the Data Monitor that does not link to a variable within ModelCen
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::removeItem(long row)
 ```
+
 
 
 
@@ -321,9 +337,11 @@ Removes the selected row from the Data Monitor.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::removeLink(long row)
 ```
+
 
 
 
@@ -351,9 +369,11 @@ Removes the associated link from the row specified in the Data Monitor.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDataMonitor::getDisplayFullNames()
 ```
+
 
 
 
@@ -377,9 +397,11 @@ Get the status of the "Display Full Names" option.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setDisplayFullNames(boolean)
 ```
+
 
 
 
@@ -398,9 +420,11 @@ Sets the "Display Full Names" option.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDataMonitor::getAutoDelete()
 ```
+
 
 
 
@@ -424,9 +448,11 @@ Gets the status of the Auto Delete option.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setAutoDelete(boolean)
 ```
+
 
 
 
@@ -445,9 +471,11 @@ Sets the status of the Auto Delete option.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDataMonitor::getDisplayUnits()
 ```
+
 
 
 
@@ -471,9 +499,11 @@ Get the status of the "Display Units" option.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setDisplayUnits(boolean)
 ```
+
 
 
 
@@ -492,9 +522,11 @@ Sets the "Display Units" option.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::getColWidth(long col)
 ```
+
 
 
 
@@ -527,9 +559,11 @@ The column width.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setColWidth(long col, int width)
 ```
+
 
 
 
@@ -559,9 +593,11 @@ Sets the width of the specified column.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDataMonitor::isValid()
 ```
+
 
 
 
@@ -585,9 +621,11 @@ Yes (TRUE) or no (FALSE).
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDataMonitor::getTitle()
 ```
+
 
 
 
@@ -611,9 +649,11 @@ The title of the Data Monitor.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setTitle(BSTR title)
 ```
+
 
 
 
@@ -641,9 +681,11 @@ Sets the title of the Data Monitor.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::getWidth()
 ```
+
 
 
 
@@ -667,9 +709,11 @@ The width of the Data Monitor.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::getHeight()
 ```
+
 
 
 
@@ -693,9 +737,11 @@ The height of the Data Monitor.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setSize(int width, int height)
 ```
+
 
 
 
@@ -725,9 +771,11 @@ Sets the height and width of the Data Monitor.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::getX()
 ```
+
 
 
 
@@ -751,9 +799,11 @@ The value of the X position of the Data Monitor.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataMonitor::getY()
 ```
+
 
 
 
@@ -777,9 +827,11 @@ The value of the Y position of the Data Monitor.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataMonitor::setLocation(int x, int y)
 ```
+
 
 
 
@@ -804,6 +856,6 @@ Sets the x and y location of the Data Monitor in the Analysis View.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

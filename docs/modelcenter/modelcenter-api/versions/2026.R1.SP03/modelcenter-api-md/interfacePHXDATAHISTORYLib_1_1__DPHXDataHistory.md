@@ -1,4 +1,4 @@
-# Interface PHXDATAHISTORYLib::\_DPHXDataHistory
+# Interface PHXDATAHISTORYLib::_DPHXDataHistory
 
 ![][IDL]
 ![][public]
@@ -11,7 +11,7 @@ The Data History is the back-end data storage piece of a Data Explorer. It conta
 
 **Inherits from**:
 
-* [PHXDataHistoryEvents](undefined.md#undefined)
+* PHXDataHistoryEvents
 
 ## Members
 
@@ -107,9 +107,11 @@ The Data History is the back-end data storage piece of a Data Explorer. It conta
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::suggestedIndependantVar
 ```
+
 
 
 
@@ -129,9 +131,11 @@ The name of the suggested independent Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::suggestedIndependentVar
 ```
+
 
 
 
@@ -148,9 +152,11 @@ The name of the suggested independent Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::suggestedDependentVars
 ```
+
 
 
 
@@ -167,9 +173,11 @@ An array of strings which are the suggested Variable names to use for dependent 
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::suggestedCountFrom
 ```
+
 
 
 
@@ -186,9 +194,11 @@ Suggested number to use when showing the runs in a GUI as the first run number. 
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 178)
 
+
 ```
 settingRun PHXDATAHISTORYLib::_DPHXDataHistory::id
 ```
+
 
 
 
@@ -205,9 +215,11 @@ settingRun PHXDATAHISTORYLib::_DPHXDataHistory::id
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkServer
 ```
+
 
 
 
@@ -224,9 +236,11 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkServer
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkRunMatrixID
 ```
+
 
 
 
@@ -243,9 +257,11 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkRunMatrixID
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkJobConnector
 ```
+
 
 
 
@@ -262,9 +278,11 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkJobConnector
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkQueue
 ```
+
 
 
 
@@ -281,13 +299,15 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::centerLinkQueue
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 LPDISPATCH PHXDATAHISTORYLib::_DPHXDataHistory::dataHistoryToModel
 ```
 
 
 
-Get or set the Data History to Model object (see [\_DPHXDataHistoryToModel](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel)).
+
+Get or set the Data History to Model object (see [_DPHXDataHistoryToModel](interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel.md#interfacePHXDATAHISTORYLib_1_1__DPHXDataHistoryToModel)).
 
 
 
@@ -300,9 +320,11 @@ Get or set the Data History to Model object (see [\_DPHXDataHistoryToModel](inte
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::warmStartStudyComplete
 ```
+
 
 
 
@@ -319,9 +341,11 @@ Gets/Sets warm-start trade study complete flag.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::tradeStudyModelFile
 ```
+
 
 
 
@@ -338,9 +362,11 @@ Gets/Sets the temp model file name saved for crash recovery of trade studies. Th
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addVariable(LPDISPATCH var)
 ```
+
 
 
 
@@ -368,9 +394,11 @@ Adds a Variable to the Data History. All existing runs are appended with a blank
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setNumExpectedRuns(long numRuns)
 ```
+
 
 
 
@@ -398,9 +426,11 @@ Sets the expected number of runs. Used for informational and GUI purposes.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::startRuns()
 ```
+
 
 
 
@@ -415,9 +445,11 @@ Identifies that the runs are starting.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::endRuns()
 ```
+
 
 
 
@@ -432,9 +464,11 @@ Tells the Data History that all runs are now complete. It will pass the data alo
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumFailedRuns()
 ```
+
 
 
 
@@ -452,9 +486,11 @@ The number of failed runs.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getErrorID(long run)
 ```
+
 
 
 
@@ -487,9 +523,11 @@ The error ID. 0 means success. All other values mean failure.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getErrorMessage(long run)
 ```
+
 
 
 
@@ -522,9 +560,11 @@ The error message of the run.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setError(long run, long errorID, BSTR message)
 ```
+
 
 
 
@@ -556,9 +596,11 @@ Sets the error for a run.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumRuns()
 ```
+
 
 
 
@@ -576,9 +618,11 @@ The total number of runs.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumVariables()
 ```
+
 
 
 
@@ -596,9 +640,11 @@ The number of variables.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setResult(VARIANT index, long run, VARIANT value, boolean valid, boolean modified)
 ```
+
 
 
 
@@ -634,9 +680,11 @@ Sets the result for a run.
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getValue(VARIANT index, long run)
 ```
+
 
 
 
@@ -671,9 +719,11 @@ The value of the variable.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isValid(VARIANT index, long run)
 ```
+
 
 
 
@@ -708,9 +758,11 @@ True if the variable is valid, else false.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isModified(VARIANT index, long run)
 ```
+
 
 
 
@@ -745,9 +797,11 @@ True if the modified flag is true, else false.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::toCSVFile(BSTR fileName, [optional] VARIANT variablesInRows, [optional] VARIANT includeFailed)
 ```
+
 
 
 
@@ -779,9 +833,11 @@ Writes a CSV file of all the data in the Data History.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::toXML([optional]VARIANT includeRunData)
 ```
+
 
 
 
@@ -814,9 +870,11 @@ The XML string.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::toXMLFile(BSTR fileName, [optional]VARIANT includeRunData)
 ```
+
 
 
 
@@ -846,9 +904,11 @@ Writes the Data History contents to an XML file.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromXML(BSTR xmlStr, [optional] VARIANT root)
 ```
+
 
 
 
@@ -878,9 +938,11 @@ Tells the Data History to load its state from the XML string passed in.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromXMLFile(BSTR fileName, [optional] VARIANT root)
 ```
+
 
 
 
@@ -910,9 +972,11 @@ Tells the Data History to load its state from the XML file passed in.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::toCSV([optional] VARIANT variablesInRows, [optional] VARIANT includeFailed)
 ```
+
 
 
 
@@ -947,9 +1011,11 @@ The string of comma-seperated values.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumNonEmptyRuns()
 ```
+
 
 
 
@@ -967,9 +1033,11 @@ The number of runs that contain data.
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::getVariable(VARIANT index)
 ```
+
 
 
 
@@ -1002,9 +1070,11 @@ An IDispatch* to the [IDHVariable](interfacePHXDATAHISTORYLib_1_1IDHVariable.md#
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::createVariable()
 ```
+
 
 
 
@@ -1022,9 +1092,11 @@ An IDispatch* to a newly created [IDHVariable](interfacePHXDATAHISTORYLib_1_1IDH
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isRunning()
 ```
+
 
 
 
@@ -1042,9 +1114,11 @@ True if running flag is set, else false.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumExpectedRuns()
 ```
+
 
 
 
@@ -1062,9 +1136,11 @@ The number of expected runs.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getRunName(long runNum)
 ```
+
 
 
 
@@ -1097,9 +1173,11 @@ The name of the particular run.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setRunName(long runNum, BSTR name)
 ```
+
 
 
 
@@ -1129,9 +1207,11 @@ Sets the name of a run. This name typically will show up in the run header for t
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::insertRun(long insertBefore)
 ```
+
 
 
 
@@ -1159,9 +1239,11 @@ Inserts a blank run.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::deleteRun(long run)
 ```
+
 
 
 
@@ -1189,9 +1271,11 @@ Deletes all the data for a numbered run.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::deleteVariable(VARIANT index)
 ```
+
 
 
 
@@ -1219,9 +1303,11 @@ Deletes a Variable from the Data History
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getFormattedValue(VARIANT index, long run)
 ```
+
 
 
 
@@ -1256,9 +1342,11 @@ The formatted value of the variable.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setFormattedResult(VARIANT index, long run, BSTR value, boolean valid, boolean modified)
 ```
+
 
 
 
@@ -1294,9 +1382,11 @@ Sets the result for a run using formatted string text.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumCustomVars()
 ```
+
 
 
 
@@ -1314,9 +1404,11 @@ The number of custom variables.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getUniqueID()
 ```
+
 
 
 
@@ -1334,9 +1426,11 @@ The unique ID for this DataHistory object.
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getVariableValues(VARIANT index)
 ```
+
 
 
 
@@ -1364,9 +1458,11 @@ Gets all the values of a variable as an array of variants.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::createDesignVariable(VARIANT index)
 ```
+
 
 
 
@@ -1399,9 +1495,11 @@ The index of the newly created variable.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addVariableAt(LPDISPATCH var, long location)
 ```
+
 
 
 
@@ -1431,9 +1529,11 @@ Adds a Variable to the Data History. All existing runs are appended with a blank
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setVariableValues(VARIANT index, long run, VARIANT values, boolean valid, boolean modified)
 ```
+
 
 
 
@@ -1469,9 +1569,11 @@ Sets all values of a variable as a chunk.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isHighlighted(long run)
 ```
+
 
 
 
@@ -1504,9 +1606,11 @@ True if hightlighted, false otherwise.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::highlight(long run, boolean highlight, boolean handleEvent)
 ```
+
 
 
 
@@ -1541,9 +1645,11 @@ Highlight or unhighlight a run.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumDesignVariables()
 ```
+
 
 
 
@@ -1561,9 +1667,11 @@ The number of design variables.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setTradeStudySetup(BSTR setup)
 ```
+
 
 
 
@@ -1585,9 +1693,11 @@ Sets the trade study XML setup data.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getTradeStudySetup()
 ```
+
 
 
 
@@ -1605,9 +1715,11 @@ The XML representaion of the trady study setup.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setTradeStudyType(BSTR type)
 ```
+
 
 
 
@@ -1629,9 +1741,11 @@ Sets the trade study type that generated the data ("DOE", "PAT", etc).
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getTradeStudyType()
 ```
+
 
 
 
@@ -1649,9 +1763,11 @@ The type of trade study.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setShortVariableNames(boolean shortenVariableNames)
 ```
+
 
 
 
@@ -1679,9 +1795,11 @@ Sets a flag that determines if variables will be returned in long or short form.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setRunValues(long run, VARIANT values, BOOL valid, BOOL modified)
 ```
+
 
 
 
@@ -1715,9 +1833,11 @@ Sets all values of a variable as a chunk.
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getFailedRunIndexes()
 ```
+
 
 
 
@@ -1735,9 +1855,11 @@ An array of long values.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::toXMLSaveContext(LPDISPATCH saveContext, [optional] VARIANT includeRunData)
 ```
+
 
 
 
@@ -1767,9 +1889,11 @@ Writes the Data History contents to an XML file.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromXMLSaveContext(LPDISPATCH saveContext, [optional] VARIANT root)
 ```
+
 
 
 
@@ -1799,9 +1923,11 @@ Tells the Data History to load its state from the XML file passed in.
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getCompletedRunIndices()
 ```
+
 
 
 
@@ -1819,9 +1945,11 @@ An array of long values.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::_DPHXDataHistory::isRunComplete(long run)
 ```
+
 
 
 
@@ -1848,9 +1976,11 @@ Whether the run has completed or not
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addCheckpoint(long runNumber, BSTR value)
 ```
+
 
 
 
@@ -1874,9 +2004,11 @@ Add a warm start checkpoint to the cache
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumCheckpoints()
 ```
+
 
 
 
@@ -1894,9 +2026,11 @@ the number of warm start checkpoints available
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getCheckpointValue(long checkpointIndex)
 ```
+
 
 
 
@@ -1923,9 +2057,11 @@ the checkpoint value
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getCheckpointRunNumber(long checkpointIndex)
 ```
+
 
 
 
@@ -1952,9 +2088,11 @@ the checkpoint run number
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setUniqueID(long identifier)
 ```
+
 
 
 
@@ -1976,9 +2114,11 @@ Sets an ID that uniquely identifies this Data History.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::_DPHXDataHistory::getNumCompletedRuns()
 ```
+
 
 
 
@@ -2002,9 +2142,11 @@ The number of completed runs for the current trade study
 
 ![][public]
 
+
 ```
 ULONG PHXDATAHISTORYLib::_DPHXDataHistory::getCompletedRunData([out] VARIANT *runIDs, [out] VARIANT *errorIDs, [out] VARIANT *errorMessages, [out] VARIANT *variableValues, [out] LONG *endSequenceNumber, [in, defaultvalue(0)] ULONG startSequenceNumber, [in, defaultvalue(0xFFFFFFFF)] ULONG maxLength, [in, defaultvalue(FALSE)] boolean allVariables)
 ```
+
 
 
 
@@ -2052,9 +2194,11 @@ next startSequenceNumber to use in next call to getCompletedRunData. This value 
 
 ![][public]
 
+
 ```
 VARIANT PHXDATAHISTORYLib::_DPHXDataHistory::getHighlightedRuns()
 ```
+
 
 
 
@@ -2072,9 +2216,11 @@ the set of currently highlighted run indices as an array of integers
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setHighlightedRuns(VARIANT selectedRunIndices)
 ```
+
 
 
 
@@ -2104,9 +2250,11 @@ Specify the set of currently highlighted run indices.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::addVariableStructs(VARIANT dhVarStructs, long run)
 ```
+
 
 
 
@@ -2132,9 +2280,11 @@ Sets the results for a run. This method will add variables to the DataHistory if
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::fromCenterLink(BSTR serverName, BSTR runMatrixID, BSTR userName, BSTR password)
 ```
+
 
 
 
@@ -2156,9 +2306,11 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::fromCenterLink(BSTR serverName, BSTR r
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setUsernamePassword(BSTR username, BSTR password)
 ```
+
 
 
 
@@ -2178,9 +2330,11 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::setUsernamePassword(BSTR username, BST
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setResultAsFile(VARIANT index, long run, boolean valid, boolean modified, BSTR tempFileName, BSTR tempFileDir)
 ```
+
 
 
 
@@ -2204,9 +2358,11 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::setResultAsFile(VARIANT index, long ru
 
 ![][private]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getDatabaseFile()
 ```
+
 
 
 
@@ -2221,9 +2377,11 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getDatabaseFile()
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::setDatabaseFile(BSTR filename)
 ```
+
 
 
 
@@ -2242,9 +2400,11 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::setDatabaseFile(BSTR filename)
 
 ![][private]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistory::removeAutosave()
 ```
+
 
 
 
@@ -2259,9 +2419,11 @@ void PHXDATAHISTORYLib::_DPHXDataHistory::removeAutosave()
 
 ![][private]
 
+
 ```
 IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::getVariable2(VARIANT index)
 ```
+
 
 
 
@@ -2280,9 +2442,11 @@ IDispatch * PHXDATAHISTORYLib::_DPHXDataHistory::getVariable2(VARIANT index)
 
 ![][private]
 
+
 ```
 BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getVariableTempDir(VARIANT index)
 ```
+
 
 
 
@@ -2296,6 +2460,6 @@ BSTR PHXDATAHISTORYLib::_DPHXDataHistory::getVariableTempDir(VARIANT index)
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

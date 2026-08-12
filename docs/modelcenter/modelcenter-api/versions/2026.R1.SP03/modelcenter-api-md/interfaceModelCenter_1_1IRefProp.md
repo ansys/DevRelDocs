@@ -27,9 +27,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefProp::enumValues
 ```
+
 
 
 
@@ -46,9 +48,11 @@ Enumerated values of the reference property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IRefProp::isInput
 ```
+
 
 
 
@@ -65,9 +69,11 @@ Whether or not the reference property is an input.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefProp::title
 ```
+
 
 
 
@@ -84,9 +90,11 @@ Title of the reference property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefProp::description
 ```
+
 
 
 
@@ -103,9 +111,11 @@ Description of the reference property.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IRefProp::getName()
 ```
+
 
 
 
@@ -123,9 +133,11 @@ The name of the reference property.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IRefProp::getType()
 ```
+
 
 
 
@@ -138,6 +150,6 @@ The type of the reference property.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

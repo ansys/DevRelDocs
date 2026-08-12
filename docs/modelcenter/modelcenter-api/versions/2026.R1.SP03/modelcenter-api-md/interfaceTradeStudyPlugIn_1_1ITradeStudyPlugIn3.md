@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 479)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 479)
 
 
 
@@ -35,11 +35,13 @@ COM Instance.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 LPDISPATCH TradeStudyPlugIn::ITradeStudyPlugIn3::TradeStudyCallback
 ```
+
 
 
 
@@ -54,11 +56,13 @@ Gets or sets the trade study callback object.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 boolean TradeStudyPlugIn::ITradeStudyPlugIn3::saveAllAnalyzerVariables
 ```
+
 
 
 
@@ -79,11 +83,13 @@ NOTE: not fully supported in MC 10.2 - you can (and should) set this value as ap
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 515)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 515)
+
 
 ```
 IDispatch TradeStudyPlugIn::ITradeStudyPlugIn3::id( IDispatch modelCenter, IDispatch addToModel)(IDispatch modelCenter, IDispatch addToModel)
 ```
+
 
 
 
@@ -98,11 +104,13 @@ Gets or sets the job manager to use.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 522)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 522)
+
 
 ```
 boolean TradeStudyPlugIn::ITradeStudyPlugIn3::show
 ```
+
 
 
 
@@ -126,11 +134,13 @@ false always
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 529)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 529)
+
 
 ```
 BSTR TradeStudyPlugIn::ITradeStudyPlugIn3::toString
 ```
+
 
 
 
@@ -154,11 +164,13 @@ a string containing state information
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 536)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 536)
+
 
 ```
 BSTR TradeStudyPlugIn::ITradeStudyPlugIn3::fromString
 ```
+
 
 
 
@@ -182,11 +194,13 @@ Called to restore the state of a plug-in
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 542)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 542)
+
 
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn3::onEnd
 ```
+
 
 
 
@@ -201,11 +215,13 @@ Called when the plug-in is about to be deleted. Informs the plug-in to do any ne
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 555)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 555)
+
 
 ```
 VARIANT TradeStudyPlugIn::ITradeStudyPlugIn3::addAnalyzerVariable( BSTR formula)(BSTR formula)
 ```
+
 
 
 
@@ -230,11 +246,13 @@ Call to add a variable from an analyzer product. If there are any analyzer varia
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 560)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 560)
+
 
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn3::clearAnalyzerVariables
 ```
+
 
 
 
@@ -244,6 +262,6 @@ Remove all analyzer variables.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

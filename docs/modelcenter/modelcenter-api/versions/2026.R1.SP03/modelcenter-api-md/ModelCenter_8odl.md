@@ -65,6 +65,7 @@
 
 ## Source
 
+
 ```
 // ModelCenter.odl : type library source for ModelCenter.exe
 
@@ -1708,7 +1709,7 @@ library ModelCenter
 #if defined(STKOEM)
 
    [uuid(5fD16F36-7345-41F2-A95E-1EF9FAEF5D60)]
-   coclass STK1200Application
+   coclass STK1300Application
    {
       [default] dispinterface IModelCenter;
       [default, source] dispinterface ITradeStudyEvents;
@@ -2441,6 +2442,7 @@ library ModelCenter
 
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

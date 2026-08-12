@@ -42,9 +42,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IAssembly::Variables
 ```
+
 
 
 
@@ -70,9 +72,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IAssembly::Groups
 ```
+
 
 
 
@@ -98,9 +102,11 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IAssembly::Assemblies
 ```
+
 
 
 
@@ -126,9 +132,11 @@ IDispatch* to an [IAssemblies](interfaceModelCenter_1_1IAssemblies.md#interfaceM
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IAssembly::Components
 ```
+
 
 
 
@@ -154,9 +162,11 @@ IDispatch* to an [IComponents](interfaceModelCenter_1_1IComponents.md#interfaceM
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IAssembly::iconID
 ```
+
 
 
 
@@ -173,9 +183,11 @@ The ID number of the icon to use for the Assembly.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IAssembly::IndexInParent
 ```
+
 
 
 
@@ -192,9 +204,11 @@ Gets the position of the Assembly within the parent.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IAssembly::ParentAssembly
 ```
+
 
 
 
@@ -220,9 +234,11 @@ IDisplatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceMode
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IAssembly::AssemblyType
 ```
+
 
 
 
@@ -239,9 +255,11 @@ Gets the type of the Assembly (Sequence, Assembly, etc).
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IAssembly::userData
 ```
+
 
 
 
@@ -258,9 +276,11 @@ An arbitrary Variant which is not used internally by ModelCenter but can store d
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IAssembly::getName()
 ```
+
 
 
 
@@ -284,9 +304,11 @@ The name of the Assembly.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IAssembly::getFullName()
 ```
+
 
 
 
@@ -310,9 +332,11 @@ The full ModelCenter path of the Assembly.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAssembly::addAssembly(BSTR name, [optional]VARIANT assemblyType)
 ```
+
 
 
 
@@ -347,9 +371,11 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAssembly::addVariable(BSTR name, BSTR type)
 ```
+
 
 
 
@@ -417,9 +443,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 void ModelCenter::IAssembly::rename(BSTR name)
 ```
+
 
 
 
@@ -447,9 +475,11 @@ Renames the current Assembly.
 
 ![][public]
 
+
 ```
 void ModelCenter::IAssembly::deleteVariable(BSTR name)
 ```
+
 
 
 
@@ -477,9 +507,11 @@ Deletes a variable from the current Assembly.
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IAssembly::addAssembly2(BSTR name, VARIANT xPos, VARIANT yPos, [optional]VARIANT assemblyType)
 ```
+
 
 
 
@@ -518,9 +550,11 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 ![][public]
 
+
 ```
 void ModelCenter::IAssembly::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -556,9 +590,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IAssembly::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -593,9 +629,11 @@ Metadata value.
 
 ![][private]
 
+
 ```
 int ModelCenter::IAssembly::getPositionX()
 ```
+
 
 
 
@@ -610,9 +648,11 @@ int ModelCenter::IAssembly::getPositionX()
 
 ![][private]
 
+
 ```
 int ModelCenter::IAssembly::getPositionY()
 ```
+
 
 
 
@@ -627,9 +667,11 @@ int ModelCenter::IAssembly::getPositionY()
 
 ![][private]
 
+
 ```
 void ModelCenter::IAssembly::convertToSubmodel(BSTR fileName, VersionStatus versionStatus, BSTR checkinMessage)
 ```
+
 
 
 
@@ -645,6 +687,6 @@ void ModelCenter::IAssembly::convertToSubmodel(BSTR fileName, VersionStatus vers
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

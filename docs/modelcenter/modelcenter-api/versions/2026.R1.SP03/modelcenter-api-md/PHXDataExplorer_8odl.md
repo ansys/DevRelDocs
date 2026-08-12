@@ -10,8 +10,8 @@
 
 ## Classes
 
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
 * [PHXDATAEXPLORERLib::PHXDataExplorer](classPHXDATAEXPLORERLib_1_1PHXDataExplorer.md#classPHXDATAEXPLORERLib_1_1PHXDataExplorer)
 * [PHXDATAEXPLORERLib::IPHXDataExplorerPointer](interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer.md#interfacePHXDATAEXPLORERLib_1_1IPHXDataExplorerPointer)
 * [PHXDATAEXPLORERLib::PHXDataExplorerPointer](classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer.md#classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer)
@@ -29,6 +29,7 @@
 * <olectl.h>
 * <idispids.h>
 
+
 ```mermaid
 graph LR
 1["LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl"]
@@ -42,7 +43,9 @@ click 1 "PHXDataExplorer_8odl.md#PHXDataExplorer_8odl"
 
 ```
 
+
 ## Source
+
 
 ```
 // PHXDataExplorer.odl : type library source for ActiveX Control project.
@@ -271,6 +274,7 @@ library PHXDATAEXPLORERLib
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
