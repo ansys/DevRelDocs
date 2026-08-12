@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 342)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 342)
 
 Class which does everything that a combination of a DataHistory and a JobManager can do. Can be implemented using the inputs to a normal construct(...) call, but can do something else entirely. Thread-safe.
 
@@ -39,11 +39,13 @@ Class which does everything that a combination of a DataHistory and a JobManager
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 LPDISPATCH TradeStudyPlugIn::ITradeStudy3JobManager::dataHistory
 ```
+
 
 Get or set the data history to use; one may be created if you don't specify it.
 
@@ -58,11 +60,13 @@ Get or set the data history to use; one may be created if you don't specify it.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobManager::validateAll
 ```
+
 
 Hint on whether to force all outputs in the model to evaluate regardless of whether it would be necessary to get the responses/outputs that have been requested. Default: false.
 
@@ -77,11 +81,13 @@ Hint on whether to force all outputs in the model to evaluate regardless of whet
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobManager::runInParallel
 ```
+
 
 Whether to run runs in parallel. May be ignored.
 
@@ -96,11 +102,13 @@ Whether to run runs in parallel. May be ignored.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 long TradeStudyPlugIn::ITradeStudy3JobManager::numThreads
 ```
+
 
 The number of threads or instances to use for parallel execution. May be ignored.
 
@@ -115,11 +123,13 @@ The number of threads or instances to use for parallel execution. May be ignored
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 376)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 376)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobManager::numRuns
 ```
+
 
 Get the number of runs.
 
@@ -134,11 +144,13 @@ Get the number of runs.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 381)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 381)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobManager::numVariables
 ```
+
 
 Get the number of inputs.
 
@@ -153,11 +165,13 @@ Get the number of inputs.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 413)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 413)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobManager::supportsParallelExecution
 ```
+
 
 Can this job manager support parallel execution? If false, <code>runInParallel</code> and <code>numThreads</code> are ignored.
 
@@ -172,11 +186,13 @@ Can this job manager support parallel execution? If false, <code>runInParallel</
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 418)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 418)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobManager::canNewJob
 ```
+
 
 Can a new job be started now?
 
@@ -193,9 +209,11 @@ Can a new job be started now?
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobManager::getVariableEquation(long index)
 ```
+
 
 Get the equation for the variable at the specified index.
 
@@ -221,9 +239,11 @@ The equation.
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobManager::getVariableDisplayName(long index)
 ```
+
 
 Get the unique display name of a variable.
 
@@ -249,9 +269,11 @@ The display name.
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobManager::isDesignVariable(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -277,9 +299,11 @@ The variable type.
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobManager::isInput(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -305,9 +329,11 @@ The variable type.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobManager::newJob(long numRuns)
 ```
+
 
 Start a new job. Discards existing data and run info. Does not clear out variables. Note: whether you can start a new job while one is running depends on implementation.
 
@@ -333,9 +359,11 @@ Start a new job. Discards existing data and run info. Does not clear out variabl
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobManager::clear()
 ```
+
 
 Clear out the current job and all variables.
 
@@ -350,9 +378,11 @@ Clear out the current job and all variables.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobManager::addVariable(BSTR equation, BSTR displayName, boolean isInput)
 ```
+
 
 Add a variable.
 
@@ -377,9 +407,11 @@ Add a variable.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobManager::setInput(long runIndex, VARIANT which, VARIANT value)
 ```
+
 
 Set an input value.
 
@@ -404,9 +436,11 @@ Set an input value.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobManager::setRunInputs(long runIndex, SAFEARRAY(VARIANT) values, [optional] SAFEARRAY(VARIANT) which)
 ```
+
 
 Set all of the inputs for a run.
 
@@ -431,9 +465,11 @@ Set all of the inputs for a run.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobManager::setVariableInputs(VARIANT which, SAFEARRAY(VARIANT) values, [optional] SAFEARRAY(long) runIndices)
 ```
+
 
 Set all of the inputs for one variable.
 
@@ -458,9 +494,11 @@ Set all of the inputs for one variable.
 
 ![][public]
 
+
 ```
 ITradeStudy3JobResult * TradeStudyPlugIn::ITradeStudy3JobManager::runJobAsync()
 ```
+
 
 Execute the job.
 
@@ -477,9 +515,11 @@ The result of the job, which will be populated in real-time.
 
 ![][public]
 
+
 ```
 IVariableMetaDataProvider * TradeStudyPlugIn::ITradeStudy3JobManager::getMetaDataProvider()
 ```
+
 
 Get the metadata provider for this job manager.
 
@@ -489,6 +529,6 @@ Get the metadata provider for this job manager.
 
 **Return type**: [IVariableMetaDataProvider](interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider.md#interfaceTradeStudyPlugIn_1_1IVariableMetaDataProvider) *
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

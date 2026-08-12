@@ -69,9 +69,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanArray::hasChanged
 ```
+
 
 
 
@@ -88,9 +90,11 @@ boolean ModelCenter::IBooleanArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanArray::hide
 ```
+
 
 
 
@@ -107,9 +111,11 @@ boolean ModelCenter::IBooleanArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::OwningComponent
 ```
+
 
 
 
@@ -126,9 +132,11 @@ LPDISPATCH ModelCenter::IBooleanArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IBooleanArray::size
 ```
+
 
 
 
@@ -145,9 +153,11 @@ long ModelCenter::IBooleanArray::size
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IBooleanArray::numDimensions
 ```
+
 
 
 
@@ -164,9 +174,11 @@ long ModelCenter::IBooleanArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IBooleanArray::description
 ```
+
 
 
 
@@ -183,9 +195,11 @@ Description of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 936)
 
+
 ```
 VARIANT ModelCenter::IBooleanArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -225,9 +239,11 @@ The value.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 952)
 
+
 ```
 BOOL ModelCenter::IBooleanArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -263,9 +279,11 @@ Set the value of an array element.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isValid()
 ```
+
 
 
 
@@ -291,9 +309,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::validate()
 ```
+
 
 
 
@@ -310,9 +330,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::getName()
 ```
+
 
 
 
@@ -338,9 +360,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::getFullName()
 ```
+
 
 
 
@@ -366,9 +390,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::getType()
 ```
+
 
 
 
@@ -394,9 +420,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isInput()
 ```
+
 
 
 
@@ -423,9 +451,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toString()
 ```
+
 
 
 
@@ -451,9 +481,11 @@ String representation of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -484,9 +516,11 @@ For <code>nD</code> arrays, the specification is of the form <code>'bounds[2,2,2
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toStringAbsolute()
 ```
+
 
 
 
@@ -512,9 +546,11 @@ String representation of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::invalidate()
 ```
+
 
 
 
@@ -531,9 +567,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -570,9 +608,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -609,9 +649,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -646,9 +688,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -683,9 +727,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -722,9 +768,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -761,9 +809,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isInputToComponent()
 ```
+
 
 
 
@@ -790,9 +840,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::isInputToModel()
 ```
+
 
 
 
@@ -819,9 +871,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -859,9 +913,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IBooleanArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -896,9 +952,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toStringEx(long index)
 ```
+
 
 
 
@@ -933,9 +991,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -967,9 +1027,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1004,9 +1066,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IBooleanArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1041,9 +1105,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1075,9 +1141,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1125,9 +1193,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::getValue(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1178,9 +1248,11 @@ The value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setValue(BOOL value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1228,9 +1300,11 @@ Sets the value of an array element.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IBooleanArray::getArray()
 ```
+
 
 
 
@@ -1254,9 +1328,11 @@ The COM array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanArray::setArray(VARIANT array)
 ```
+
 
 
 
@@ -1284,9 +1360,11 @@ Sets the COM array.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanArray::getValueAbsolute(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1332,6 +1410,6 @@ The value.
 
 **Return type**: boolean
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

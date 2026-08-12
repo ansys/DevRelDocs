@@ -23,9 +23,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IGroups::Count
 ```
+
 
 
 
@@ -42,9 +44,11 @@ Number of Groups.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IGroups::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +76,6 @@ IDispatch* to an [IGroup](interfaceModelCenter_1_1IGroup.md#interfaceModelCenter
 
 **Return type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

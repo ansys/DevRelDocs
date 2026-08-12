@@ -21,9 +21,11 @@ An interface facilitating the ability to show a legacy DataExplorer
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::ILegacyVisiblity::showLegacy()
 ```
+
 
 
 
@@ -38,9 +40,11 @@ Will show the Legacy DataExplorer associated with this object.
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::ILegacyVisiblity::getLegacyHWND()
 ```
+
 
 
 
@@ -53,6 +57,6 @@ the HWND
 
 **Return type**: long
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

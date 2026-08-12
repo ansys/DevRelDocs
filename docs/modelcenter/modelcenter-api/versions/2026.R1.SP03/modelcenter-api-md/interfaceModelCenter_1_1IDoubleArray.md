@@ -82,9 +82,11 @@ An array of double (real) values. <br/>
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IDoubleArray::hasChanged
 ```
+
 
 
 
@@ -101,9 +103,11 @@ boolean ModelCenter::IDoubleArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IDoubleArray::hide
 ```
+
 
 
 
@@ -120,9 +124,11 @@ boolean ModelCenter::IDoubleArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::OwningComponent
 ```
+
 
 
 
@@ -139,9 +145,11 @@ LPDISPATCH ModelCenter::IDoubleArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IDoubleArray::size
 ```
+
 
 
 
@@ -158,9 +166,11 @@ long ModelCenter::IDoubleArray::size
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IDoubleArray::numDimensions
 ```
+
 
 
 
@@ -177,9 +187,11 @@ long ModelCenter::IDoubleArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IDoubleArray::lowerBound
 ```
+
 
 
 
@@ -196,9 +208,11 @@ Lower bound of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IDoubleArray::upperBound
 ```
+
 
 
 
@@ -215,9 +229,11 @@ Upper bound of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleArray::description
 ```
+
 
 
 
@@ -234,9 +250,11 @@ Description of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleArray::units
 ```
+
 
 
 
@@ -253,9 +271,11 @@ Units of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleArray::enumAliases
 ```
+
 
 
 
@@ -272,9 +292,11 @@ Enumerated aliases of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleArray::enumValues
 ```
+
 
 
 
@@ -291,9 +313,11 @@ Enumerated values of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IDoubleArray::format
 ```
+
 
 
 
@@ -310,9 +334,11 @@ Format of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1822)
 
+
 ```
 VARIANT ModelCenter::IDoubleArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -352,9 +378,11 @@ The value.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1838)
 
+
 ```
 double ModelCenter::IDoubleArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -390,9 +418,11 @@ Set the value of an array element. You must set the array size first.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleArray::isValid()
 ```
+
 
 
 
@@ -418,9 +448,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::validate()
 ```
+
 
 
 
@@ -437,9 +469,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::getName()
 ```
+
 
 
 
@@ -465,9 +499,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::getFullName()
 ```
+
 
 
 
@@ -493,9 +529,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::getType()
 ```
+
 
 
 
@@ -521,9 +559,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleArray::isInput()
 ```
+
 
 
 
@@ -550,9 +590,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::toString()
 ```
+
 
 
 
@@ -578,9 +620,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -612,9 +656,11 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::toStringAbsolute()
 ```
+
 
 
 
@@ -640,9 +686,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::invalidate()
 ```
+
 
 
 
@@ -659,9 +707,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -698,9 +748,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -737,9 +789,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -774,9 +828,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -811,9 +867,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -850,9 +908,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IDoubleArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -889,9 +949,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleArray::isInputToComponent()
 ```
+
 
 
 
@@ -918,9 +980,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleArray::isInputToModel()
 ```
+
 
 
 
@@ -947,9 +1011,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -987,9 +1053,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IDoubleArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -1024,9 +1092,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::toStringEx(long index)
 ```
+
 
 
 
@@ -1061,9 +1131,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1095,9 +1167,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1132,9 +1206,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IDoubleArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1169,9 +1245,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1203,9 +1281,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1253,9 +1333,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleArray::hasLowerBound()
 ```
+
 
 
 
@@ -1279,9 +1361,11 @@ Yes (TRUE) or no (FALSE).
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IDoubleArray::hasUpperBound()
 ```
+
 
 
 
@@ -1305,9 +1389,11 @@ Yes (TRUE) or no (FALSE).
 
 ![][public]
 
+
 ```
 double ModelCenter::IDoubleArray::getValue(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1358,9 +1444,11 @@ The value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::setValue(double value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1408,9 +1496,11 @@ Sets the value of an array element. You must set the array size first.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IDoubleArray::getArray()
 ```
+
 
 
 
@@ -1434,9 +1524,11 @@ The primitive array
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::setArray(VARIANT array)
 ```
+
 
 
 
@@ -1464,9 +1556,11 @@ Sets the whole array at once using a single primitive array object in the langua
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::toFormattedStringEx(long index)
 ```
+
 
 
 
@@ -1499,9 +1593,11 @@ Formatted string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::fromFormattedStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1531,9 +1627,11 @@ Loads a formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDoubleArray::toFormattedStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1566,9 +1664,11 @@ An absolute formatted string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::clearUpperBound()
 ```
+
 
 
 
@@ -1583,9 +1683,11 @@ Clears the upper bound property of the array if it has previously been set.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDoubleArray::clearLowerBound()
 ```
+
 
 
 
@@ -1600,9 +1702,11 @@ Clears the lower bound property of the array if it has previously been set.
 
 ![][public]
 
+
 ```
 double ModelCenter::IDoubleArray::getValueAbsolute(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1648,6 +1752,6 @@ The value.
 
 **Return type**: double
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

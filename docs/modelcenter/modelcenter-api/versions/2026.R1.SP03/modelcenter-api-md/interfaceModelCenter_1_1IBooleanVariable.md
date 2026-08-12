@@ -52,9 +52,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanVariable::hasChanged
 ```
+
 
 
 
@@ -71,9 +73,11 @@ boolean ModelCenter::IBooleanVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanVariable::hide
 ```
+
 
 
 
@@ -90,9 +94,11 @@ boolean ModelCenter::IBooleanVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::OwningComponent
 ```
+
 
 
 
@@ -109,9 +115,11 @@ LPDISPATCH ModelCenter::IBooleanVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanVariable::value
 ```
+
 
 
 
@@ -128,9 +136,11 @@ The value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IBooleanVariable::valueAbsolute
 ```
+
 
 
 
@@ -147,9 +157,11 @@ The value of the variable. (Fetched without attempting to validate)
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IBooleanVariable::description
 ```
+
 
 
 
@@ -166,9 +178,11 @@ Description of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanVariable::isValid()
 ```
+
 
 
 
@@ -194,9 +208,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanVariable::validate()
 ```
+
 
 
 
@@ -213,9 +229,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanVariable::getName()
 ```
+
 
 
 
@@ -241,9 +259,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanVariable::getFullName()
 ```
+
 
 
 
@@ -269,9 +289,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanVariable::getType()
 ```
+
 
 
 
@@ -297,9 +319,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanVariable::isInput()
 ```
+
 
 
 
@@ -326,9 +350,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanVariable::toString()
 ```
+
 
 
 
@@ -354,9 +380,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -386,9 +414,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IBooleanVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -414,9 +444,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanVariable::invalidate()
 ```
+
 
 
 
@@ -433,9 +465,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -472,9 +506,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -511,9 +547,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -548,9 +586,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -585,9 +625,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -624,9 +666,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IBooleanVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -663,9 +707,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanVariable::isInputToComponent()
 ```
+
 
 
 
@@ -692,9 +738,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IBooleanVariable::isInputToModel()
 ```
+
 
 
 
@@ -721,9 +769,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -761,9 +811,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IBooleanVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -798,9 +850,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IBooleanVariable::setInitialValue(BOOL value)
 ```
+
 
 
 
@@ -823,6 +877,6 @@ Sets the initial value of the variable.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -23,9 +23,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IAssemblies::Count
 ```
+
 
 
 
@@ -42,9 +44,11 @@ Number of Assemblies.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IAssemblies::Item(VARIANT id)
 ```
+
 
 
 
@@ -72,6 +76,6 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 **Return type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

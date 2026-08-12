@@ -26,9 +26,11 @@ The [DataHistoryVariableStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableSt
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 110)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableStruct::index
 ```
+
 
 
 
@@ -45,9 +47,11 @@ Either a 0 based index to the Variable, or the name of a Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 114)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableStruct::varValue
 ```
+
 
 
 
@@ -64,9 +68,11 @@ The value of the Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 118)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableStruct::isValid
 ```
+
 
 
 
@@ -83,9 +89,11 @@ Whether this value is valid.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 122)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableStruct::isModified
 ```
+
 
 
 
@@ -102,9 +110,11 @@ Whether this value's modified flag is set.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 126)
 
+
 ```
 DataHistoryVariableMetadataStruct PHXDATAHISTORYLib::DataHistoryVariableStruct::metadata
 ```
+
 
 
 
@@ -114,6 +124,6 @@ The metadata for the Variable
 
 **Type**: [DataHistoryVariableMetadataStruct](structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct.md#structPHXDATAHISTORYLib_1_1DataHistoryVariableMetadataStruct)
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

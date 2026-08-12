@@ -80,3 +80,5 @@
     href: modules/_optiSLang_Actors.md
   - name: _optiSLang_Kernel
     href: modules/_optiSLang_Kernel.md
+- name: Changelog
+  href: changelog.md

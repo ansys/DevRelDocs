@@ -26,9 +26,11 @@ A set of methods for cache pin functions. A cache pin is a "smart" pointer that 
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::ICachePin::Url
 ```
+
 
 
 
@@ -54,9 +56,11 @@ The original URI of the resource, or an invalid URI if nothing pinned.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::ICachePin::LocalPath
 ```
+
 
 
 
@@ -82,9 +86,11 @@ The local path of the file in the cache, or empty if nothing pinned.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::ICachePin::IsValid
 ```
+
 
 
 
@@ -110,9 +116,11 @@ Is this object pinning a file?
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ICachePin::releasePin()
 ```
+
 
 
 
@@ -136,9 +144,11 @@ Unpin the current file if a file is pinned. Does not guarantee that the file wil
 
 ![][public]
 
+
 ```
 void ModelCenter::ICachePin::checkinOnFlush(BSTR message)
 ```
+
 
 
 
@@ -161,6 +171,6 @@ Checkin with the specified message when the file is unpinned. It must be open fo
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

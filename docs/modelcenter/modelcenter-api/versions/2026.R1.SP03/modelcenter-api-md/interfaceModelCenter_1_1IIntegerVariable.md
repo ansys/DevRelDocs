@@ -65,9 +65,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IIntegerVariable::hasChanged
 ```
+
 
 
 
@@ -84,9 +86,11 @@ boolean ModelCenter::IIntegerVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IIntegerVariable::hide
 ```
+
 
 
 
@@ -103,9 +107,11 @@ boolean ModelCenter::IIntegerVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::OwningComponent
 ```
+
 
 
 
@@ -122,9 +128,11 @@ LPDISPATCH ModelCenter::IIntegerVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerVariable::value
 ```
+
 
 
 
@@ -141,9 +149,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerVariable::valueAbsolute
 ```
+
 
 
 
@@ -160,9 +170,11 @@ The value of the variable (Fetched without attempting to validate).
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerVariable::lowerBound
 ```
+
 
 
 
@@ -179,9 +191,11 @@ Lower bound of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerVariable::upperBound
 ```
+
 
 
 
@@ -198,9 +212,11 @@ Upper bound of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::units
 ```
+
 
 
 
@@ -217,9 +233,11 @@ Units of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::description
 ```
+
 
 
 
@@ -236,9 +254,11 @@ Description of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::enumValues
 ```
+
 
 
 
@@ -255,9 +275,11 @@ Enumerated values of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::enumAliases
 ```
+
 
 
 
@@ -274,9 +296,11 @@ Enumerated aliases of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::format
 ```
+
 
 
 
@@ -293,9 +317,11 @@ Format of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerVariable::isValid()
 ```
+
 
 
 
@@ -321,9 +347,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::validate()
 ```
+
 
 
 
@@ -340,9 +368,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::getName()
 ```
+
 
 
 
@@ -368,9 +398,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::getFullName()
 ```
+
 
 
 
@@ -396,9 +428,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::getType()
 ```
+
 
 
 
@@ -424,9 +458,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerVariable::isInput()
 ```
+
 
 
 
@@ -453,9 +489,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::toString()
 ```
+
 
 
 
@@ -481,9 +519,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -513,9 +553,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -541,9 +583,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::invalidate()
 ```
+
 
 
 
@@ -560,9 +604,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -599,9 +645,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -638,9 +686,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -675,9 +725,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -712,9 +764,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -751,9 +805,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -790,9 +846,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerVariable::isInputToComponent()
 ```
+
 
 
 
@@ -819,9 +877,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerVariable::isInputToModel()
 ```
+
 
 
 
@@ -848,9 +908,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -888,9 +950,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IIntegerVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -925,9 +989,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::setInitialValue(long value)
 ```
+
 
 
 
@@ -955,9 +1021,11 @@ Sets the initial value of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerVariable::hasLowerBound()
 ```
+
 
 
 
@@ -981,9 +1049,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerVariable::hasUpperBound()
 ```
+
 
 
 
@@ -1007,9 +1077,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::toFormattedString()
 ```
+
 
 
 
@@ -1033,9 +1105,11 @@ The formatted value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::fromFormattedString(BSTR value)
 ```
+
 
 
 
@@ -1063,9 +1137,11 @@ Sets the value from a formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerVariable::toFormattedStringAbsolute()
 ```
+
 
 
 
@@ -1089,9 +1165,11 @@ The formatted value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::clearUpperBound()
 ```
+
 
 
 
@@ -1106,9 +1184,11 @@ Clears the lower bound property of the variable if it has previously been set.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerVariable::clearLowerBound()
 ```
+
 
 
 
@@ -1118,6 +1198,6 @@ Clears the upper bound property of the variable if it has previously been set.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
