@@ -20,9 +20,11 @@ Help system event functions that ModelCenter can send.
 
 ![][public]
 
+
 ```
 void ModelCenter::IShowHelpEvents::ShowHelp(long context)
 ```
+
 
 
 
@@ -39,6 +41,6 @@ Function that is called when help is requested.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

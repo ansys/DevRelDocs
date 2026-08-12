@@ -1,4 +1,4 @@
-# Interface PHXDATAHISTORYLib::\_DPHXDataHistoryToModel
+# Interface PHXDATAHISTORYLib::_DPHXDataHistoryToModel
 
 ![][IDL]
 ![][public]
@@ -24,9 +24,11 @@ The Data History to Model connector is the piece that connects a Data History to
 
 ![][public]
 
+
 ```
 BOOL PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canSaveToModel(LPDISPATCH dataHistory, long run)
 ```
+
 
 
 
@@ -61,9 +63,11 @@ TRUE if the run could be saved, FALSE if not
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryToModel::saveToModel(LPDISPATCH dataHistory, long run)
 ```
+
 
 
 
@@ -94,9 +98,11 @@ Notify that a user has requested to save the indicated run to the model. <br/>
 
 ![][public]
 
+
 ```
 BOOL PHXDATAHISTORYLib::_DPHXDataHistoryToModel::canRerunRuns(LPDISPATCH dataHistory, VARIANT runs)
 ```
+
 
 
 
@@ -131,9 +137,11 @@ True if the runs can be re-run, false if not.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryToModel::rerunRuns(LPDISPATCH dataHistory, VARIANT runs)
 ```
+
 
 
 
@@ -163,9 +171,11 @@ Notify that the user has requested to re-run a set of runs. Does not wait for th
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryToModel::closeDataHistory(LPDISPATCH dataHistory)
 ```
+
 
 
 
@@ -193,6 +203,6 @@ Notify that the user is attempting to close the given data history.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

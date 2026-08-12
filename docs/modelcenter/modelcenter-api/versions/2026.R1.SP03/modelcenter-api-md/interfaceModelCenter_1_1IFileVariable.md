@@ -60,9 +60,11 @@ COM Instance
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::hasChanged
 ```
+
 
 
 
@@ -79,9 +81,11 @@ boolean ModelCenter::IFileVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::hide
 ```
+
 
 
 
@@ -98,9 +102,11 @@ boolean ModelCenter::IFileVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::OwningComponent
 ```
+
 
 
 
@@ -117,9 +123,11 @@ LPDISPATCH ModelCenter::IFileVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileVariable::value
 ```
+
 
 
 
@@ -136,9 +144,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::isBinary
 ```
+
 
 
 
@@ -155,9 +165,11 @@ Whether or not the file is binary.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileVariable::fileExtension
 ```
+
 
 
 
@@ -174,9 +186,11 @@ File extension of the variable. Used when opening the file in [ModelCenter](name
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileVariable::description
 ```
+
 
 
 
@@ -193,9 +207,11 @@ The description of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::saveWithModel
 ```
+
 
 
 
@@ -212,9 +228,11 @@ Flag to indicate whether the file content to be saved with the Model file.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileVariable::directTransfer
 ```
+
 
 
 
@@ -231,9 +249,11 @@ Flag to indicate whether direct file transfer is used for incoming link.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isValid()
 ```
+
 
 
 
@@ -259,9 +279,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::validate()
 ```
+
 
 
 
@@ -278,9 +300,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::getName()
 ```
+
 
 
 
@@ -306,9 +330,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::getFullName()
 ```
+
 
 
 
@@ -334,9 +360,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::getType()
 ```
+
 
 
 
@@ -362,9 +390,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isInput()
 ```
+
 
 
 
@@ -391,9 +421,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::toString()
 ```
+
 
 
 
@@ -419,9 +451,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -451,9 +485,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -479,9 +515,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::invalidate()
 ```
+
 
 
 
@@ -498,9 +536,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -537,9 +577,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -576,9 +618,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -613,9 +657,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -650,9 +696,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -689,9 +737,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -728,9 +778,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isInputToComponent()
 ```
+
 
 
 
@@ -757,9 +809,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileVariable::isInputToModel()
 ```
+
 
 
 
@@ -786,9 +840,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -826,9 +882,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IFileVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -863,9 +921,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::toFile(BSTR fileName, [optional] VARIANT encoding)
 ```
+
 
 
 
@@ -895,9 +955,11 @@ Writes the value of the variable to a file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::fromFile(BSTR fileName)
 ```
+
 
 
 
@@ -925,9 +987,11 @@ Sets the value of the variable from a specified file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::writeFile(BSTR fileName)
 ```
+
 
 
 
@@ -955,9 +1019,11 @@ Writes the value of the variable to a file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::readFile(BSTR fileName)
 ```
+
 
 
 
@@ -985,9 +1051,11 @@ Sets the value of the variable from a specified file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::toFileAbsolute(BSTR fileName, [optional] VARIANT encoding)
 ```
+
 
 
 
@@ -1017,9 +1085,11 @@ Writes the absolute value of the variable to a file. Optional parameter to speci
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileVariable::writeFileAbsolute(BSTR fileName)
 ```
+
 
 
 
@@ -1042,6 +1112,6 @@ Writes the absolute value of the variable to a file.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

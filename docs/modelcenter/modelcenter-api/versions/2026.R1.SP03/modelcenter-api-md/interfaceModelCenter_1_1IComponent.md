@@ -48,9 +48,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IComponent::Variables
 ```
+
 
 
 
@@ -76,9 +78,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IComponent::Groups
 ```
+
 
 
 
@@ -104,9 +108,11 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IComponent::userData
 ```
+
 
 
 
@@ -123,9 +129,11 @@ An arbitrary Variant which is not used internally by ModelCenter but can store d
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IComponent::AssociatedFiles
 ```
+
 
 
 
@@ -151,9 +159,11 @@ Variant containing the list of associated files (string or array of strings)
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IComponent::IndexInParent
 ```
+
 
 
 
@@ -170,9 +180,11 @@ Position of this component in the parent Assembly.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IComponent::ParentAssembly
 ```
+
 
 
 
@@ -198,9 +210,11 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IComponent::getName()
 ```
+
 
 
 
@@ -229,9 +243,11 @@ The name of the Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IComponent::getFullName()
 ```
+
 
 
 
@@ -260,9 +276,11 @@ the full ModelCenter path of the Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::run()
 ```
+
 
 
 
@@ -282,9 +300,11 @@ Runs the Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IComponent::getSource()
 ```
+
 
 
 
@@ -313,9 +333,11 @@ The source of the Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::invokeMethod(BSTR method)
 ```
+
 
 
 
@@ -348,9 +370,11 @@ Invokes one of the Component's methods.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::invalidate()
 ```
+
 
 
 
@@ -370,9 +394,11 @@ Invalidates the Component and all of its variables.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::reconnect()
 ```
+
 
 
 
@@ -392,9 +418,11 @@ Reconnect a Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::downloadValues()
 ```
+
 
 
 
@@ -414,9 +442,11 @@ Downloads the component's variable values from [ModelCenter](namespaceModelCente
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IComponent::getVariable(BSTR name)
 ```
+
 
 
 
@@ -454,9 +484,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::rename(BSTR name)
 ```
+
 
 
 
@@ -489,9 +521,11 @@ Renames the current Component.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IComponent::getType()
 ```
+
 
 
 
@@ -535,9 +569,11 @@ The type of the component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::show()
 ```
+
 
 
 
@@ -557,9 +593,11 @@ Show the GUI form associated with the component, if any.
 
 ![][public]
 
+
 ```
 void ModelCenter::IComponent::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -595,9 +633,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IComponent::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -632,9 +672,11 @@ Metadata value.
 
 ![][private]
 
+
 ```
 int ModelCenter::IComponent::getPositionX()
 ```
+
 
 
 
@@ -654,9 +696,11 @@ int ModelCenter::IComponent::getPositionX()
 
 ![][private]
 
+
 ```
 int ModelCenter::IComponent::getPositionY()
 ```
+
 
 
 
@@ -671,6 +715,6 @@ int ModelCenter::IComponent::getPositionY()
 * [getPositionY](interfaceModelCenter_1_1IIfComponent.md#interfaceModelCenter_1_1IIfComponent_1a6cddb9b21c6b3b60a23f2a28d60ea17a)
 * [getPositionY](interfaceModelCenter_1_1IScriptComponent.md#interfaceModelCenter_1_1IScriptComponent_1a7b5ce3f6ce5bfd44702ff1fb874fb9fd)
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -82,9 +82,11 @@ COM Instance
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IIntegerArray::hasChanged
 ```
+
 
 
 
@@ -101,9 +103,11 @@ boolean ModelCenter::IIntegerArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IIntegerArray::hide
 ```
+
 
 
 
@@ -120,9 +124,11 @@ boolean ModelCenter::IIntegerArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::OwningComponent
 ```
+
 
 
 
@@ -139,9 +145,11 @@ LPDISPATCH ModelCenter::IIntegerArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerArray::size
 ```
+
 
 
 
@@ -158,9 +166,11 @@ long ModelCenter::IIntegerArray::size
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerArray::numDimensions
 ```
+
 
 
 
@@ -177,9 +187,11 @@ long ModelCenter::IIntegerArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerArray::lowerBound
 ```
+
 
 
 
@@ -196,9 +208,11 @@ Lower bound of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IIntegerArray::upperBound
 ```
+
 
 
 
@@ -215,9 +229,11 @@ Upper bound of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerArray::description
 ```
+
 
 
 
@@ -234,9 +250,11 @@ Description of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerArray::units
 ```
+
 
 
 
@@ -253,9 +271,11 @@ Units of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerArray::enumAliases
 ```
+
 
 
 
@@ -272,9 +292,11 @@ Enumerated aliases of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerArray::enumValues
 ```
+
 
 
 
@@ -291,9 +313,11 @@ Enumerated values of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IIntegerArray::format
 ```
+
 
 
 
@@ -310,9 +334,11 @@ Format of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 3309)
 
+
 ```
 VARIANT ModelCenter::IIntegerArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -352,9 +378,11 @@ The value.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 3325)
 
+
 ```
 long ModelCenter::IIntegerArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -390,9 +418,11 @@ Sets the value of an array element.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerArray::isValid()
 ```
+
 
 
 
@@ -418,9 +448,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::validate()
 ```
+
 
 
 
@@ -437,9 +469,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::getName()
 ```
+
 
 
 
@@ -465,9 +499,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::getFullName()
 ```
+
 
 
 
@@ -493,9 +529,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::getType()
 ```
+
 
 
 
@@ -521,9 +559,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerArray::isInput()
 ```
+
 
 
 
@@ -550,9 +590,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::toString()
 ```
+
 
 
 
@@ -578,9 +620,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -612,9 +656,11 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::toStringAbsolute()
 ```
+
 
 
 
@@ -640,9 +686,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::invalidate()
 ```
+
 
 
 
@@ -659,9 +707,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -698,9 +748,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -737,9 +789,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -774,9 +828,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -811,9 +867,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -850,9 +908,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IIntegerArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -889,9 +949,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerArray::isInputToComponent()
 ```
+
 
 
 
@@ -918,9 +980,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerArray::isInputToModel()
 ```
+
 
 
 
@@ -947,9 +1011,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -987,9 +1053,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IIntegerArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -1024,9 +1092,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::toStringEx(long index)
 ```
+
 
 
 
@@ -1061,9 +1131,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1095,9 +1167,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1132,9 +1206,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IIntegerArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1169,9 +1245,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1203,9 +1281,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1253,9 +1333,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerArray::hasLowerBound()
 ```
+
 
 
 
@@ -1279,9 +1361,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IIntegerArray::hasUpperBound()
 ```
+
 
 
 
@@ -1305,9 +1389,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 long ModelCenter::IIntegerArray::getValue(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1358,9 +1444,11 @@ The value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::setValue(long value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1408,9 +1496,11 @@ Sets the value of an array element.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IIntegerArray::getArray()
 ```
+
 
 
 
@@ -1434,9 +1524,11 @@ The COM array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::setArray(VARIANT array)
 ```
+
 
 
 
@@ -1464,9 +1556,11 @@ Sets the COM array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::toFormattedStringEx(long index)
 ```
+
 
 
 
@@ -1499,9 +1593,11 @@ The formatted string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::fromFormattedStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1531,9 +1627,11 @@ Loads a formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IIntegerArray::toFormattedStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1566,9 +1664,11 @@ The formatted string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::clearUpperBound()
 ```
+
 
 
 
@@ -1583,9 +1683,11 @@ Clears the upper bound property of the array if it has previously been set.
 
 ![][public]
 
+
 ```
 void ModelCenter::IIntegerArray::clearLowerBound()
 ```
+
 
 
 
@@ -1600,9 +1702,11 @@ Clears the lower bound property of the array if it has previously been set.
 
 ![][public]
 
+
 ```
 long ModelCenter::IIntegerArray::getValueAbsolute(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1648,6 +1752,6 @@ The value.
 
 **Return type**: long
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

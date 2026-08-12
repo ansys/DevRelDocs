@@ -20,9 +20,11 @@ COM Instance.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFeature::checkin()
 ```
+
 
 
 
@@ -32,6 +34,6 @@ Checks in the feature associated with an object (asserts if no feature is curren
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

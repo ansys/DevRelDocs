@@ -71,9 +71,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IStringArray::hasChanged
 ```
+
 
 
 
@@ -90,9 +92,11 @@ boolean ModelCenter::IStringArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IStringArray::hide
 ```
+
 
 
 
@@ -109,9 +113,11 @@ boolean ModelCenter::IStringArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::OwningComponent
 ```
+
 
 
 
@@ -128,9 +134,11 @@ LPDISPATCH ModelCenter::IStringArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IStringArray::size
 ```
+
 
 
 
@@ -147,9 +155,11 @@ long ModelCenter::IStringArray::size
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IStringArray::numDimensions
 ```
+
 
 
 
@@ -166,9 +176,11 @@ long ModelCenter::IStringArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringArray::description
 ```
+
 
 
 
@@ -185,9 +197,11 @@ Description of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringArray::enumAliases
 ```
+
 
 
 
@@ -204,9 +218,11 @@ Enumerated aliases of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringArray::enumValues
 ```
+
 
 
 
@@ -223,9 +239,11 @@ Enumerated values of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5578)
 
+
 ```
 VARIANT ModelCenter::IStringArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -265,9 +283,11 @@ The value.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5594)
 
+
 ```
 BSTR ModelCenter::IStringArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -303,9 +323,11 @@ Value of an array element.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringArray::isValid()
 ```
+
 
 
 
@@ -331,9 +353,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::validate()
 ```
+
 
 
 
@@ -350,9 +374,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::getName()
 ```
+
 
 
 
@@ -378,9 +404,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::getFullName()
 ```
+
 
 
 
@@ -406,9 +434,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::getType()
 ```
+
 
 
 
@@ -434,9 +464,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringArray::isInput()
 ```
+
 
 
 
@@ -463,9 +495,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::toString()
 ```
+
 
 
 
@@ -491,9 +525,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -525,9 +561,11 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::toStringAbsolute()
 ```
+
 
 
 
@@ -553,9 +591,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::invalidate()
 ```
+
 
 
 
@@ -572,9 +612,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -611,9 +653,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -650,9 +694,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -687,9 +733,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -724,9 +772,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -763,9 +813,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -802,9 +854,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringArray::isInputToComponent()
 ```
+
 
 
 
@@ -831,9 +885,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringArray::isInputToModel()
 ```
+
 
 
 
@@ -860,9 +916,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -900,9 +958,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IStringArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -937,9 +997,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::toStringEx(long index)
 ```
+
 
 
 
@@ -974,9 +1036,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1008,9 +1072,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1045,9 +1111,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IStringArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1082,9 +1150,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1116,9 +1186,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1166,9 +1238,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::getValue(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1219,9 +1293,11 @@ The value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::setValue(BSTR value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1269,9 +1345,11 @@ Sets the value of an array element.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IStringArray::getArray()
 ```
+
 
 
 
@@ -1295,9 +1373,11 @@ The COM array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringArray::setArray(VARIANT array)
 ```
+
 
 
 
@@ -1325,9 +1405,11 @@ Sets the COM array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringArray::getValueAbsolute(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1373,6 +1455,6 @@ The value.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

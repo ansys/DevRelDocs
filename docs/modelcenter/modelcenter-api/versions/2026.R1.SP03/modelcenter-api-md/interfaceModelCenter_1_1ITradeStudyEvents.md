@@ -23,9 +23,11 @@ Event functions that ModelCenter can send.
 
 ![][public]
 
+
 ```
 void ModelCenter::ITradeStudyEvents::StartToolRun()
 ```
+
 
 
 
@@ -40,9 +42,11 @@ Function that is called when a trade study has started its run.
 
 ![][public]
 
+
 ```
 void ModelCenter::ITradeStudyEvents::EndToolRun()
 ```
+
 
 
 
@@ -57,9 +61,11 @@ Function that is called when a trade study has finished running.
 
 ![][public]
 
+
 ```
 void ModelCenter::ITradeStudyEvents::ToolClosed(BSTR type)
 ```
+
 
 
 
@@ -81,9 +87,11 @@ Function that is called when a trade study has closed.
 
 ![][public]
 
+
 ```
 void ModelCenter::ITradeStudyEvents::ModelXMLExtensionsChanged()
 ```
+
 
 
 
@@ -93,6 +101,6 @@ This event is raised whenever the XML extensions for the main model are changed.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -9,13 +9,11 @@
 * dlvisibility.h
 
 ```mermaid
-graph LR
-1["mopsolver_dlpublic.h"]
-click 1 "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
-1 --> 2
-
-2["dlvisibility.h"]
-
+flowchart LR
+  n1["mopsolver_dlpublic.h"]
+  n2["dlvisibility.h"]
+  n1 --> n2
+  click n1 href "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
 ```
 
 ## Macros

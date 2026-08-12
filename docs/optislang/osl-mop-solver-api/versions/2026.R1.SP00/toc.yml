@@ -6,6 +6,20 @@
       href: global_contents.md
     - name: Files
       href: file_contents.md
+    - name: Header files
+      items:
+        - name: mopsolver_api2.h
+          href: mopsolver__api2_8h.md
+        - name: mopsolver_api2_shared.h
+          href: mopsolver__api2__shared_8h.md
+        - name: mopsolver_api.h
+          href: mopsolver__api_8h.md
+        - name: mopsolver_api2_hash.h
+          href: mopsolver__api2__hash_8h.md
+        - name: mopsolver_api_shared.h
+          href: mopsolver__api__shared_8h.md
+        - name: mopsolver_dlpublic.h
+          href: mopsolver__dlpublic_8h.md
 - name: Index pages
   items:
     - name: Global index

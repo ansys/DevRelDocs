@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 240)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 240)
 
 Interface representing the results of running a job. May be backed internally by a PHXDataCollector, or not.
 
@@ -30,11 +30,13 @@ Interface representing the results of running a job. May be backed internally by
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 249)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 249)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::numRuns
 ```
+
 
 Get the number of runs.
 
@@ -49,11 +51,13 @@ Get the number of runs.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 254)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 254)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::numVariables
 ```
+
 
 Get the number of inputs.
 
@@ -68,11 +72,13 @@ Get the number of inputs.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 285)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 285)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::dataHistory
 ```
+
 
 Get the data history associated with this job result, if any.
 
@@ -87,11 +93,13 @@ Get the data history associated with this job result, if any.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 289)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 289)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::isRunning
 ```
+
 
 Is the current job still running.
 
@@ -106,11 +114,13 @@ Is the current job still running.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 293)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 293)
+
 
 ```
 TradeStudyPlugIn::ITradeStudy3JobResult::isCanceled
 ```
+
 
 Was the current job canceled?
 
@@ -127,9 +137,11 @@ Was the current job canceled?
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobResult::getVariableEquation(long index)
 ```
+
 
 Get the equation for the variable at the specified index.
 
@@ -155,9 +167,11 @@ The equation.
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudy3JobResult::getVariableDisplayName(long index)
 ```
+
 
 Get the unique display name of a variable.
 
@@ -183,9 +197,11 @@ The display name.
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobResult::isDesignVariable(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -211,9 +227,11 @@ The variable type.
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudy3JobResult::isInput(VARIANT which)
 ```
+
 
 Get the type associated with the specified variable.
 
@@ -239,9 +257,11 @@ The variable type.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobResult::cancelAsync()
 ```
+
 
 Halt the current job asynchronously.
 
@@ -256,9 +276,11 @@ Halt the current job asynchronously.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudy3JobResult::waitForCompletion()
 ```
+
 
 Wait for the trade study to finish.
 
@@ -270,6 +292,6 @@ Wait for the trade study to finish.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

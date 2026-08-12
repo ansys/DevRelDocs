@@ -1,4 +1,4 @@
-# Interface PHXDATAEXPLORERLib::\_DPHXDataExplorer
+# Interface PHXDATAEXPLORERLib::_DPHXDataExplorer
 
 ![][IDL]
 ![][public]
@@ -81,9 +81,11 @@ The Data Explorer object represents a Data Explorer window, the enclosed Data Hi
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::author
 ```
+
 
 
 
@@ -100,9 +102,11 @@ The author of the data in this Data Explorer.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::description
 ```
+
 
 
 
@@ -119,9 +123,11 @@ A description of the data in this Data Explorer.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::displayName
 ```
+
 
 
 
@@ -138,9 +144,11 @@ A display name for this Data Explorer.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 66)
 
+
 ```
 tradeStudyType PHXDATAEXPLORERLib::_DPHXDataExplorer::id
 ```
+
 
 
 
@@ -157,9 +165,11 @@ A pointer to the associated ModelCenter session. Points to a [ModelCenter.Applic
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 74)
 
+
 ```
 tradeStudySetup PHXDATAEXPLORERLib::_DPHXDataExplorer::id
 ```
+
 
 
 
@@ -176,9 +186,11 @@ A pointer to the included Data History object.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::associatedModelFile
 ```
+
 
 
 
@@ -195,9 +207,11 @@ The filename of the associated model file for this Data Explorer.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::associatedModelFileUUID
 ```
+
 
 
 
@@ -214,9 +228,11 @@ The UUID of the associated Model.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::creationDate
 ```
+
 
 
 
@@ -233,9 +249,11 @@ The creation date of the model.
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 1)
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::tradeStudyUri
 ```
+
 
 
 
@@ -252,9 +270,11 @@ The URI of the file loaded in this object, empty for no currently loaded file. C
 
 **Definition**: `LIBS/DataExplorer/PHXDataExplorer/PHXDataExplorer.odl` (line 347)
 
+
 ```
 PHXDATAEXPLORERLib::_DPHXDataExplorer::isVisible
 ```
+
 
 
 
@@ -271,9 +291,11 @@ Is the window visible?
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::_DPHXDataExplorer::getNumPages()
 ```
+
 
 
 
@@ -291,9 +313,11 @@ The number of pages.
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAEXPLORERLib::_DPHXDataExplorer::getPage(long page)
 ```
+
 
 
 
@@ -326,9 +350,11 @@ An IDispatch for the requested page. This pointer is guaranteed to implement [PH
 
 ![][public]
 
+
 ```
 IDispatch * PHXDATAEXPLORERLib::_DPHXDataExplorer::addPage(BSTR type, VARIANT insertBefore, VARIANT setupString)
 ```
+
 
 
 
@@ -365,9 +391,11 @@ The IDispatch of the newly created page. This pointer is guaranteed to implement
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::removePage(long page)
 ```
+
 
 
 
@@ -395,9 +423,11 @@ Removes the requested page from the Data Explorer.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::movePage(long page, long insertBefore)
 ```
+
 
 
 
@@ -427,9 +457,11 @@ Moves a page within the Data Explorer.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::selectPage(long page)
 ```
+
 
 
 
@@ -457,9 +489,11 @@ Selects and makes visible the requested page.
 
 ![][public]
 
+
 ```
 long PHXDATAEXPLORERLib::_DPHXDataExplorer::getSelectedPage()
 ```
+
 
 
 
@@ -477,9 +511,11 @@ The index of the currently selected page.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::pageCut(long index)
 ```
+
 
 
 
@@ -507,9 +543,11 @@ Causes the "page template" for the selected page to be put on the clipboard and 
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::pageCopy(long index)
 ```
+
 
 
 
@@ -537,9 +575,11 @@ Causes the "page template" for the selected page to be put on the clipboard.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::pagePaste()
 ```
+
 
 
 
@@ -554,9 +594,11 @@ Causes the page template currently on the clipboard to be pasted into the Data E
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::invokeInsertPageGUI()
 ```
+
 
 
 
@@ -571,9 +613,11 @@ Causes the "Add New Page" dialog to be presented to the user the same as if they
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::toXMLFile(BSTR fileName, [optional]VARIANT includeRunData)
 ```
+
 
 
 
@@ -603,9 +647,11 @@ Saves the current state of the Data Explorer and all the included meta-data and 
 
 ![][public]
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::getPageType(long page)
 ```
+
 
 
 
@@ -638,9 +684,11 @@ The type of the requested page.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::fromXMLFile(BSTR fileName, [optional]VARIANT root)
 ```
+
 
 
 
@@ -670,9 +718,11 @@ Loads the contents of the Data Explorer from an XML file.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::toXML([optional]VARIANT includeRunData)
 ```
+
 
 
 
@@ -705,9 +755,11 @@ An XML string representing the Data Explorer's state.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::fromXML(BSTR xml, [optional] VARIANT root)
 ```
+
 
 
 
@@ -737,9 +789,11 @@ Loads the contents of the Data Explorer from an XML string.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::getMenuItems(LPDISPATCH iPHXMenuItem)
 ```
+
 
 
 
@@ -760,9 +814,11 @@ Deprecated. Do not use.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::invokeMenuItem(long id)
 ```
+
 
 
 
@@ -783,9 +839,11 @@ Deprecated. Do not use.
 
 ![][public]
 
+
 ```
 boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::isMenuItemEnabled(long id)
 ```
+
 
 
 
@@ -806,9 +864,11 @@ Deprecated. Do not use.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateThumbHint(long id)
 ```
+
 
 
 
@@ -829,9 +889,11 @@ Deprecated. Do not use.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::getPageSetup(long page)
 ```
+
 
 
 
@@ -864,9 +926,11 @@ Returns the setup string for a page.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::exportImage(long page, BSTR hints, BSTR filename)
 ```
+
 
 
 
@@ -898,9 +962,11 @@ Causes a page to export an image to an enhanced metafile (emf) file.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::multiPageCut(VARIANT index)
 ```
+
 
 
 
@@ -922,9 +988,11 @@ Cuts multiple pages to the clipboard.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::multiPageCopy(VARIANT index)
 ```
+
 
 
 
@@ -946,9 +1014,11 @@ Causes the comma-separated "page templates" for the selected indices to be put o
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::multiDelete(VARIANT index)
 ```
+
 
 
 
@@ -970,9 +1040,11 @@ Deletes the comma-separated "page templates" for the selected indices.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::loadTemplate(BSTR str)
 ```
+
 
 
 
@@ -1001,9 +1073,11 @@ Causes the DataExplorer to remove all current pages, then import an XML document
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::saveTemplate(BSTR str)
 ```
+
 
 
 
@@ -1031,9 +1105,11 @@ Causes the DataExplorer to export an XML document describing the current pages.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::toXMLSaveContext(LPDISPATCH saveContext, [optional] VARIANT includeRunData)
 ```
+
 
 
 
@@ -1063,9 +1139,11 @@ Writes the Data History contents to an XML file.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::fromXMLSaveContext(LPDISPATCH saveContext, [optional] VARIANT root)
 ```
+
 
 
 
@@ -1095,9 +1173,11 @@ Tells the Data History to load its state from the XML file passed in.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::show()
 ```
+
 
 
 
@@ -1112,9 +1192,11 @@ Show the associated window.
 
 ![][public]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::hide()
 ```
+
 
 
 
@@ -1129,9 +1211,11 @@ Hide the associated window.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAEXPLORERLib::_DPHXDataExplorer::getPageTitle(long page)
 ```
+
 
 
 
@@ -1152,9 +1236,11 @@ Get the title for the specified page.
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::fromCenterLink(BSTR server, BSTR runMatrixID, BSTR userName, BSTR password)
 ```
+
 
 
 
@@ -1176,9 +1262,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::fromCenterLink(BSTR server, BSTR run
 
 ![][private]
 
+
 ```
 boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::ignoreDefaultPlotSetup()
 ```
+
 
 
 
@@ -1193,9 +1281,11 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::ignoreDefaultPlotSetup()
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPre()
 ```
+
 
 
 
@@ -1210,9 +1300,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPre()
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPost()
 ```
+
 
 
 
@@ -1227,9 +1319,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::setupPlotsPost()
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomTooltip(long run, long x, long y)
 ```
+
 
 
 
@@ -1250,9 +1344,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomTooltip(long run, long x, lo
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomViewer(long run, long x, long y)
 ```
+
 
 
 
@@ -1273,9 +1369,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::showGeomViewer(long run, long x, lon
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateGeomViewerHint(long viewerID)
 ```
+
 
 
 
@@ -1294,9 +1392,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateGeomViewerHint(long viewerID)
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::setGeomViewerRunID(long viewerID, long runID)
 ```
+
 
 
 
@@ -1316,9 +1416,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::setGeomViewerRunID(long viewerID, lo
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateComparisonViewHint(BOOL restore)
 ```
+
 
 
 
@@ -1337,9 +1439,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::updateComparisonViewHint(BOOL restor
 
 ![][private]
 
+
 ```
 boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::isMenuItemChecked(long id)
 ```
+
 
 
 
@@ -1358,9 +1462,11 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::isMenuItemChecked(long id)
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::removeFromComparisonList(long runID)
 ```
+
 
 
 
@@ -1379,9 +1485,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::removeFromComparisonList(long runID)
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::addToComparisonList(long runID)
 ```
+
 
 
 
@@ -1400,9 +1508,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::addToComparisonList(long runID)
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::addRunsToComparisonList(VARIANT runIDs)
 ```
+
 
 
 
@@ -1421,9 +1531,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::addRunsToComparisonList(VARIANT runI
 
 ![][private]
 
+
 ```
 boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXType()
 ```
+
 
 
 
@@ -1438,9 +1550,11 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXType()
 
 ![][private]
 
+
 ```
 boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXFormat()
 ```
+
 
 
 
@@ -1455,9 +1569,11 @@ boolean PHXDATAEXPLORERLib::_DPHXDataExplorer::getDaXFormat()
 
 ![][private]
 
+
 ```
 void PHXDATAEXPLORERLib::_DPHXDataExplorer::ensureRunDataAction()
 ```
+
 
 
 
@@ -1472,9 +1588,11 @@ void PHXDATAEXPLORERLib::_DPHXDataExplorer::ensureRunDataAction()
 
 ![][private]
 
+
 ```
 IDispatch * PHXDATAEXPLORERLib::_DPHXDataExplorer::getKeepalive()
 ```
+
 
 
 
@@ -1489,6 +1607,7 @@ IDispatch * PHXDATAEXPLORERLib::_DPHXDataExplorer::getKeepalive()
 
 ![][private]
 
+
 ```
 long PHXDATAEXPLORERLib::_DPHXDataExplorer::getHWND()
 ```
@@ -1499,8 +1618,9 @@ long PHXDATAEXPLORERLib::_DPHXDataExplorer::getHWND()
 
 
 
+
 **Return type**: long
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

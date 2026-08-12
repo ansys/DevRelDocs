@@ -22,9 +22,11 @@ Caches network location credentials and fetches them when needed to avoid reauth
 
 ![][public]
 
+
 ```
 void ModelCenter::INetworkLocations::add(BSTR address, BSTR username, BSTR password)
 ```
+
 
 
 
@@ -56,9 +58,11 @@ Add the specified network location to the list.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::INetworkLocations::exists(BSTR address)
 ```
+
 
 
 
@@ -91,9 +95,11 @@ True if the address exists, else false.
 
 ![][public]
 
+
 ```
 void ModelCenter::INetworkLocations::removeAddress(BSTR address)
 ```
+
 
 
 
@@ -116,6 +122,6 @@ Remove the specified network location to the list.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

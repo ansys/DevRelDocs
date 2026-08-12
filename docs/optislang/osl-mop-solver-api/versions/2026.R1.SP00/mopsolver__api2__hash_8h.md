@@ -9,17 +9,15 @@
 * [mopsolver_api2_shared.h](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h)
 
 ```mermaid
-graph LR
-1["mopsolver_api2_hash.h"]
-click 1 "mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h"
-1 --> 2
-
-2["mopsolver_api2_shared.h"]
-click 2 "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
-2 --> 3
-
-3["mopsolver_api_shared.h"]
-
+flowchart LR
+  n1["mopsolver_api2_hash.h"]
+  n2["mopsolver_api2_shared.h"]
+  n3["mopsolver_api_shared.h"]
+  n1 --> n2
+  n2 --> n3
+  click n1 href "mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h"
+  click n2 href "mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h"
+  click n3 href "mopsolver__api__shared_8h.md#mopsolver__api__shared_8h"
 ```
 
 ## Functions
