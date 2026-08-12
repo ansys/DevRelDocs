@@ -31,7 +31,7 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [natural_freq](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>0</strong> | [natural_freq](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support) |
 | <strong>1</strong> | [const_ratio](#input_1) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>2</strong> | [ratio_by_modes](#input_2) |  |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>3</strong> | [m_coefficient](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`double`](../../core-concepts/dpf-types.md#standard-types) |
@@ -42,7 +42,7 @@ Each parameter is detailed in the sections that follow the table.
 ### natural_freq (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`vector<double>`](../../core-concepts/dpf-types.md#standard-types), [`field`](../../core-concepts/dpf-types.md#field), [`time_freq_support`](../../core-concepts/dpf-types.md#time-freq-support)
 
 input vector expects natural frequencies.
 

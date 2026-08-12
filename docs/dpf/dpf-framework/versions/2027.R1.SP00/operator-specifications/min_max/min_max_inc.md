@@ -10,7 +10,17 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Compute the component-wise minimum (out 0) and maximum (out 1) over coming fields.
+
+Incremental variant that computes, for each component, the minimum and the maximum of successive input fields across all calls of the operator.
+
+At each call, the per-component minimum and maximum are updated by comparing the current input field with the previously-cached extrema.
+
+When the optional `domain_id` pin is connected, outputs 2 and 3 return, for each component, the domain id of the call that produced the minimum and maximum, respectively.
+
+**When to use:** successive fields arrive one at a time (typically streamed from a solver) and the full history does not fit in memory.
+Example: running envelope of nodal stress updated at each iteration of a transient run.
+Use `min_max` for the non-incremental variant, or `min_max_fc_inc` when input arrives one fields container at a time.
+
 
 ## Inputs
 
@@ -30,7 +40,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Input field for the current increment. Combined with the previously-cached extrema.
 
 <a id="input_17"></a>
 ### domain_id (Pin 17)
@@ -38,7 +48,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-
+Optional identifier for the current call. When set, outputs 2 and 3 track the domain id that produced each per-component minimum and maximum.
 
 
 ## Outputs
@@ -60,28 +70,28 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Per-component minimum aggregated across all calls of the operator so far.
 
 <a id="output_1"></a>
 ### field_max (Pin 1)
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Per-component maximum aggregated across all calls of the operator so far.
 
 <a id="output_2"></a>
 ### domain_ids_min (Pin 2)
 
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+For each component of the output minimum, the id of the call (as passed on the `domain_id` input pin) that produced the current minimum. Populated only when the `domain_id` input pin is connected.
 
 <a id="output_3"></a>
 ### domain_ids_max (Pin 3)
 
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+For each component of the output maximum, the id of the call (as passed on the `domain_id` input pin) that produced the current maximum. Populated only when the `domain_id` input pin is connected.
 
 
 ## Configurations
@@ -106,9 +116,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: min_max_inc
 
- **Full name**: None
+ **Full name**: min_max.min_max_inc
 
  **Internal name**: min_max_inc
 
@@ -141,7 +151,7 @@ ansys::dpf::Scoping my_domain_ids_max = op.getOutput<ansys::dpf::Scoping>(3);
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_inc() # operator instantiation
 op.inputs.field.connect(my_field)
 op.inputs.domain_id.connect(my_domain_id)
 my_field_min = op.outputs.field_min()
@@ -158,7 +168,7 @@ my_domain_ids_max = op.outputs.domain_ids_max()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_inc() # operator instantiation
 op.inputs.field.Connect(my_field)
 op.inputs.domain_id.Connect(my_domain_id)
 my_field_min = op.outputs.field_min.GetData()

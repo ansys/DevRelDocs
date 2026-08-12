@@ -110,7 +110,7 @@ if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansi
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-elemental nodal beam results are read if this pin is set to true (default is false)
+elemental nodal beam results are read if this pin is set to true (default is true)
 
 
 ## Outputs

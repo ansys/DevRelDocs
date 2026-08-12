@@ -829,6 +829,8 @@
       href: operator-specifications/result/compute_total_strain_YZ.md
     - name: compute total strain Z
       href: operator-specifications/result/compute_total_strain_Z.md
+    - name: contact element heat flow
+      href: operator-specifications/result/contact_element_heat_flow.md
     - name: contact fluid penetration pressure
       href: operator-specifications/result/contact_fluid_penetration_pressure.md
     - name: contact friction stress
@@ -847,6 +849,8 @@
       href: operator-specifications/result/contact_surface_heat_flux.md
     - name: contact total stress
       href: operator-specifications/result/contact_total_stress.md
+    - name: convection heat flow rate
+      href: operator-specifications/result/convection_heat_flow_rate.md
     - name: coordinates
       href: operator-specifications/result/coordinates.md
     - name: coordinate system
@@ -1311,6 +1315,8 @@
       href: operator-specifications/result/pretension.md
     - name: radiation area
       href: operator-specifications/result/radiation_area.md
+    - name: radiation heat flow rate
+      href: operator-specifications/result/radiation_heat_flow_rate.md
     - name: raw acceleration
       href: operator-specifications/result/raw_acceleration.md
     - name: raw displacement
@@ -1479,6 +1485,30 @@
       href: operator-specifications/result/total_pressure.md
     - name: total strain
       href: operator-specifications/result/total_strain.md
+    - name: total strain eqv
+      href: operator-specifications/result/total_strain_eqv.md
+    - name: total strain intensity
+      href: operator-specifications/result/total_strain_intensity.md
+    - name: total strain max shear
+      href: operator-specifications/result/total_strain_max_shear.md
+    - name: total strain principal 1
+      href: operator-specifications/result/total_strain_principal_1.md
+    - name: total strain principal 2
+      href: operator-specifications/result/total_strain_principal_2.md
+    - name: total strain principal 3
+      href: operator-specifications/result/total_strain_principal_3.md
+    - name: total strain X
+      href: operator-specifications/result/total_strain_X.md
+    - name: total strain XY
+      href: operator-specifications/result/total_strain_XY.md
+    - name: total strain XZ
+      href: operator-specifications/result/total_strain_XZ.md
+    - name: total strain Y
+      href: operator-specifications/result/total_strain_Y.md
+    - name: total strain YZ
+      href: operator-specifications/result/total_strain_YZ.md
+    - name: total strain Z
+      href: operator-specifications/result/total_strain_Z.md
     - name: total temperature
       href: operator-specifications/result/total_temperature.md
     - name: transform invariant terms rbd
@@ -1793,6 +1823,8 @@
       href: operator-specifications/utility/strain_from_voigt.md
     - name: strain from voigt fc
       href: operator-specifications/utility/strain_from_voigt_fc.md
+    - name: transpose fields container
+      href: operator-specifications/utility/transpose_fields_container.md
     - name: txt file to dpf
       href: operator-specifications/utility/txt_file_to_dpf.md
     - name: unitary field

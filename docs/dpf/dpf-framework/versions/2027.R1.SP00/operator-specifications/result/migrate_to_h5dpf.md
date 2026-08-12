@@ -71,7 +71,7 @@ Converts double to float to reduce file size (default is true).If False, nodal r
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-filename of the migrated file
+filename of the migrated file, or stream from a previous migration.
 
 <a id="input_1"></a>
 ### comma_separated_list_of_results (Pin 1)
@@ -95,7 +95,7 @@ Deprecated. Please use filtering workflows instead to select time scoping. Defau
 - **Required:** No
 - **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
 
-streams (result file container) (optional)
+Input stream to migrate (optional)
 
 <a id="input_4"></a>
 ### data_sources (Pin 4)
@@ -103,7 +103,7 @@ streams (result file container) (optional)
 - **Required:** No
 - **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
-if the stream is null then we need to get the file path from the data sources
+Input data source to migrate. If the stream is null then we need to get the file path from the data sources
 
 <a id="input_6"></a>
 ### compression_workflow (Pin 6)
@@ -131,6 +131,7 @@ Each output is detailed in the sections that follow the table.
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [migrated_file](#output_0) |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+|  **1**| [migrated_file_streams](#output_1) |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
 
 
 <a id="output_0"></a>
@@ -139,6 +140,13 @@ Each output is detailed in the sections that follow the table.
 - **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
 
+
+<a id="output_1"></a>
+### migrated_file_streams (Pin 1)
+
+- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
+
+Stream of the migrated file, for reuse in incremental migration.
 
 
 ## Configurations
@@ -195,6 +203,7 @@ op.connect(4, my_data_sources);
 op.connect(6, my_compression_workflow);
 op.connect(7, my_filtering_workflow);
 ansys::dpf::DataSources my_migrated_file = op.getOutput<ansys::dpf::DataSources>(0);
+ansys::dpf::Streams my_migrated_file_streams = op.getOutput<ansys::dpf::Streams>(1);
 ```
 </details>
 
@@ -217,6 +226,7 @@ op.inputs.data_sources.connect(my_data_sources)
 op.inputs.compression_workflow.connect(my_compression_workflow)
 op.inputs.filtering_workflow.connect(my_filtering_workflow)
 my_migrated_file = op.outputs.migrated_file()
+my_migrated_file_streams = op.outputs.migrated_file_streams()
 ```
 </details>
 
@@ -240,6 +250,7 @@ op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.compression_workflow.Connect(my_compression_workflow)
 op.inputs.filtering_workflow.Connect(my_filtering_workflow)
 my_migrated_file = op.outputs.migrated_file.GetData()
+my_migrated_file_streams = op.outputs.migrated_file_streams.GetData()
 ```
 </details>
 <br>
