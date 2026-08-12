@@ -19,7 +19,7 @@ Reads the result information, such as available results or unit systems from the
 
 ## Supported file types
 
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+This operator supports the following [result file types](../../index.md#overview-of-dpf) and associated file extensions:
 
 - cff: cas, flprj 
 - cgns: cgns 

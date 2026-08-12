@@ -17,7 +17,7 @@ Reads the mesh information, such as number of elements (common property), number
 
 ## Supported file types
 
-This operator supports the following keys ([file formats](../../index.md#overview-of-dpf)) for each listed namespace (plugin/solver):
+This operator supports the following [result file types](../../index.md#overview-of-dpf) and associated file extensions:
 
 - cff: cas, flprj 
 - cgns: cgns 
