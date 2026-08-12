@@ -48,9 +48,11 @@ Allows you to set up a matrix of runs and runs them in parallel or serial depend
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IJobManager::wasHalted
 ```
+
 
 
 
@@ -67,9 +69,11 @@ boolean ModelCenter::IJobManager::wasHalted
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::addInput(BSTR name, BSTR label)
 ```
+
 
 
 
@@ -99,9 +103,11 @@ Adds an input to all runs in the Job Manager.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::setInput(long run, BSTR name, BSTR value)
 ```
+
 
 
 
@@ -133,9 +139,11 @@ Sets the value for a specified input variable for a specified run.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::addOutput(BSTR name, BSTR label)
 ```
+
 
 
 
@@ -165,9 +173,11 @@ Adds an output to all runs in the Job Manager.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IJobManager::getValidateAll()
 ```
+
 
 
 
@@ -191,9 +201,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::setValidateAll(boolean flag)
 ```
+
 
 
 
@@ -221,9 +233,11 @@ Sets whether or not the Job Manager will validate everything.
 
 ![][public]
 
+
 ```
 long ModelCenter::IJobManager::getNumRuns()
 ```
+
 
 
 
@@ -247,9 +261,11 @@ The number of runs.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::setNumRuns(long numRuns)
 ```
+
 
 
 
@@ -277,9 +293,11 @@ Sets the number of runs that will take place in this job matrix.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::submit(IDispatch *dataCollector, [optional]VARIANT description, [optional]VARIANT fireAndForget)
 ```
+
 
 
 
@@ -311,9 +329,11 @@ Causes the run matrix to begin.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::waitForJobCompletion()
 ```
+
 
 
 
@@ -328,9 +348,11 @@ Waits until the current run matrix has completed before continuing.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::addRerun(long run)
 ```
+
 
 
 
@@ -358,9 +380,11 @@ The job manager may alternately be used to re-run runs out of an existing Data C
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::halt(boolean halt)
 ```
+
 
 
 
@@ -388,9 +412,11 @@ Halt the running job in the Job Manager.
 
 ![][public]
 
+
 ```
 long ModelCenter::IJobManager::getNumInputs()
 ```
+
 
 
 
@@ -414,9 +440,11 @@ The number of inputs.
 
 ![][public]
 
+
 ```
 long ModelCenter::IJobManager::getNumOutputs()
 ```
+
 
 
 
@@ -440,9 +468,11 @@ The number of outputs.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IJobManager::getInput(long index)
 ```
+
 
 
 
@@ -475,9 +505,11 @@ The input.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IJobManager::getOutput(long index)
 ```
+
 
 
 
@@ -510,9 +542,11 @@ The output.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IJobManager::getInputLabel(long index)
 ```
+
 
 
 
@@ -545,9 +579,11 @@ The label of the input.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IJobManager::getOutputLabel(long index)
 ```
+
 
 
 
@@ -580,9 +616,11 @@ The label of the output.
 
 ![][public]
 
+
 ```
 long ModelCenter::IJobManager::getNumThreads()
 ```
+
 
 
 
@@ -606,9 +644,11 @@ The number of threads to use
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IJobManager::getRunInParallel()
 ```
+
 
 
 
@@ -632,9 +672,11 @@ true if the job is to be ran in parallel false otherwise.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::setNumThreads(long numThreads)
 ```
+
 
 
 
@@ -662,9 +704,11 @@ Set the number of threads to use if the job is to be ran in parallel.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::setRunInParallel(boolean runInParallel)
 ```
+
 
 
 
@@ -692,9 +736,11 @@ Tell the job manager to run the job in parallel.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IJobManager::enableCache(boolean enable)
 ```
+
 
 
 
@@ -727,9 +773,11 @@ Previous setting.
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::clearCache()
 ```
+
 
 
 
@@ -744,9 +792,11 @@ Method to actively clear job manager's internal cache of executed runs.
 
 ![][public]
 
+
 ```
 long ModelCenter::IJobManager::getRunIndex(VARIANT names, VARIANT values)
 ```
+
 
 
 
@@ -781,9 +831,11 @@ index of design in data explorer if design found else -1 <br/>
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::resume(IDispatch *dataHistory)
 ```
+
 
 
 
@@ -805,9 +857,11 @@ Pick up from the last checkpoint in a data history. If you subsequently pass a d
 
 ![][public]
 
+
 ```
 void ModelCenter::IJobManager::setCustomMetadata(BSTR name, BSTR key, BSTR value)
 ```
+
 
 
 
@@ -834,6 +888,6 @@ Add custom metadata to a variable.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

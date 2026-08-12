@@ -54,9 +54,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IStringVariable::hasChanged
 ```
+
 
 
 
@@ -73,9 +75,11 @@ boolean ModelCenter::IStringVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IStringVariable::hide
 ```
+
 
 
 
@@ -92,9 +96,11 @@ boolean ModelCenter::IStringVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::OwningComponent
 ```
+
 
 
 
@@ -111,9 +117,11 @@ LPDISPATCH ModelCenter::IStringVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringVariable::value
 ```
+
 
 
 
@@ -130,9 +138,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringVariable::valueAbsolute
 ```
+
 
 
 
@@ -149,9 +159,11 @@ The value of the variable. (Fetched without attempting to validate)
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringVariable::description
 ```
+
 
 
 
@@ -168,9 +180,11 @@ Description of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringVariable::enumValues
 ```
+
 
 
 
@@ -187,9 +201,11 @@ Enumerated values of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IStringVariable::enumAliases
 ```
+
 
 
 
@@ -206,9 +222,11 @@ Enumerated aliases of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringVariable::isValid()
 ```
+
 
 
 
@@ -234,9 +252,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringVariable::validate()
 ```
+
 
 
 
@@ -253,9 +273,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringVariable::getName()
 ```
+
 
 
 
@@ -281,9 +303,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringVariable::getFullName()
 ```
+
 
 
 
@@ -309,9 +333,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringVariable::getType()
 ```
+
 
 
 
@@ -337,9 +363,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringVariable::isInput()
 ```
+
 
 
 
@@ -366,9 +394,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringVariable::toString()
 ```
+
 
 
 
@@ -394,9 +424,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -426,9 +458,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IStringVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -454,9 +488,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringVariable::invalidate()
 ```
+
 
 
 
@@ -473,9 +509,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -512,9 +550,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -551,9 +591,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -588,9 +630,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -625,9 +669,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -664,9 +710,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IStringVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -703,9 +751,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringVariable::isInputToComponent()
 ```
+
 
 
 
@@ -732,9 +782,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IStringVariable::isInputToModel()
 ```
+
 
 
 
@@ -761,9 +813,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -801,9 +855,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IStringVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -838,9 +894,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IStringVariable::setInitialValue(BSTR value)
 ```
+
 
 
 
@@ -863,6 +921,6 @@ Sets the initial value of the variable.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

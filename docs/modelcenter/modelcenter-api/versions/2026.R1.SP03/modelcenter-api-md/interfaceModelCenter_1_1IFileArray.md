@@ -73,9 +73,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileArray::hasChanged
 ```
+
 
 
 
@@ -92,9 +94,11 @@ boolean ModelCenter::IFileArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileArray::hide
 ```
+
 
 
 
@@ -111,9 +115,11 @@ boolean ModelCenter::IFileArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::OwningComponent
 ```
+
 
 
 
@@ -130,9 +136,11 @@ LPDISPATCH ModelCenter::IFileArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IFileArray::size
 ```
+
 
 
 
@@ -149,9 +157,11 @@ long ModelCenter::IFileArray::size
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IFileArray::numDimensions
 ```
+
 
 
 
@@ -168,9 +178,11 @@ long ModelCenter::IFileArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileArray::isBinary
 ```
+
 
 
 
@@ -187,9 +199,11 @@ Whether or not the file is binary.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileArray::description
 ```
+
 
 
 
@@ -206,9 +220,11 @@ Description of the array.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileArray::saveWithModel
 ```
+
 
 
 
@@ -225,9 +241,11 @@ Flag to indicate whether the file content to be saved with the Model file.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 2751)
 
+
 ```
 VARIANT ModelCenter::IFileArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -267,9 +285,11 @@ The value.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 2767)
 
+
 ```
 BSTR ModelCenter::IFileArray::value( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -305,9 +325,11 @@ Set the value of an array element.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 2826)
 
+
 ```
 VARIANT ModelCenter::IFileArray::fileExtension( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9)
 ```
+
 
 
 
@@ -347,9 +369,11 @@ The file extension.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 2842)
 
+
 ```
 BSTR ModelCenter::IFileArray::fileExtension( VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)(VARIANT d1,[optional] VARIANT d2,[optional] VARIANT d3,[optional] VARIANT d4,[optional] VARIANT d5,[optional] VARIANT d6,[optional] VARIANT d7,[optional] VARIANT d8,[optional] VARIANT d9,[optional] VARIANT d10)
 ```
+
 
 
 
@@ -385,9 +409,11 @@ Sets the file extension of the variable. Used when opening the file in ModelCent
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileArray::isValid()
 ```
+
 
 
 
@@ -413,9 +439,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::validate()
 ```
+
 
 
 
@@ -432,9 +460,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::getName()
 ```
+
 
 
 
@@ -460,9 +490,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::getFullName()
 ```
+
 
 
 
@@ -488,9 +520,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::getType()
 ```
+
 
 
 
@@ -516,9 +550,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileArray::isInput()
 ```
+
 
 
 
@@ -545,9 +581,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::toString()
 ```
+
 
 
 
@@ -573,9 +611,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -607,9 +647,11 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::toStringAbsolute()
 ```
+
 
 
 
@@ -635,9 +677,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::invalidate()
 ```
+
 
 
 
@@ -654,9 +698,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -693,9 +739,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -732,9 +780,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -769,9 +819,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -806,9 +858,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -845,9 +899,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -884,9 +940,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileArray::isInputToComponent()
 ```
+
 
 
 
@@ -913,9 +971,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IFileArray::isInputToModel()
 ```
+
 
 
 
@@ -942,9 +1002,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -982,9 +1044,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IFileArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -1019,9 +1083,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::toStringEx(long index)
 ```
+
 
 
 
@@ -1056,9 +1122,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1090,9 +1158,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1127,9 +1197,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IFileArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1164,9 +1236,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1198,9 +1272,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1248,9 +1324,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IFileArray::getFileExtension(VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1301,9 +1379,11 @@ The file extension.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::setFileExtension(BSTR value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1351,9 +1431,11 @@ Sets the desired file extension for the file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::toFile(BSTR fileName, VARIANT encoding, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1403,9 +1485,11 @@ Writes out contents to a file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::fromFile(BSTR fileName, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1453,9 +1537,11 @@ Reads data from a file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IFileArray::toFileAbsolute(BSTR fileName, VARIANT encoding, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1500,6 +1586,6 @@ Writes out contents to a file without validating the variable.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

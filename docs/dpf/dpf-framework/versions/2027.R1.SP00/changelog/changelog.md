@@ -3131,6 +3131,7 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+<<<<<<< HEAD
 - Fix issue with result_provider:
   > 
   >
@@ -3154,6 +3155,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
+=======
+>>>>>>> sandbox
 - Fix CScopingProviderProperty for HDF5:
   > 
   >

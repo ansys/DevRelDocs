@@ -29,9 +29,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::name
 ```
+
 
 
 
@@ -48,9 +50,11 @@ Name of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::fullName
 ```
+
 
 
 
@@ -67,9 +71,11 @@ Full ModelCenter path of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 short ModelCenter::IVariableDescription::state
 ```
+
 
 
 
@@ -95,9 +101,11 @@ Possible states:
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::units
 ```
+
 
 
 
@@ -114,9 +122,11 @@ Units of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IVariableDescription::isCustom
 ```
+
 
 
 
@@ -133,9 +143,11 @@ Whether or not the variable is custom.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::equation
 ```
+
 
 
 
@@ -152,9 +164,11 @@ Equation of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IVariableDescription::type
 ```
+
 
 
 
@@ -171,9 +185,11 @@ Type of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IVariableDescription::isNumeric
 ```
+
 
 
 
@@ -183,6 +199,6 @@ Whether or not the variable is numeric.
 
 **Return type**: boolean
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

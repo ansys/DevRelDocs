@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_ComponentPlugIn/ComponentPlugIn.odl` (line 18)
+**Definition**: `ModelCenter/src/InterfaceDLL_ComponentPlugIn/ComponentPlugIn.odl` (line 18)
 
 
 
@@ -25,9 +25,11 @@
 
 ![][public]
 
+
 ```
 void ComponentPlugIn::IComponentPlugIn::construct(IDispatch *modelCenter, IDispatch *addToModel, [defaultvalue(NULL)]IDispatch *dataCollector)
 ```
+
 
 
 
@@ -48,9 +50,11 @@ void ComponentPlugIn::IComponentPlugIn::construct(IDispatch *modelCenter, IDispa
 
 ![][public]
 
+
 ```
 boolean ComponentPlugIn::IComponentPlugIn::show()
 ```
+
 
 
 
@@ -65,9 +69,11 @@ boolean ComponentPlugIn::IComponentPlugIn::show()
 
 ![][public]
 
+
 ```
 BSTR ComponentPlugIn::IComponentPlugIn::toString()
 ```
+
 
 
 
@@ -82,9 +88,11 @@ BSTR ComponentPlugIn::IComponentPlugIn::toString()
 
 ![][public]
 
+
 ```
 void ComponentPlugIn::IComponentPlugIn::fromString(BSTR setupString)
 ```
+
 
 
 
@@ -103,9 +111,11 @@ void ComponentPlugIn::IComponentPlugIn::fromString(BSTR setupString)
 
 ![][public]
 
+
 ```
 void ComponentPlugIn::IComponentPlugIn::run()
 ```
+
 
 
 
@@ -120,6 +130,7 @@ void ComponentPlugIn::IComponentPlugIn::run()
 
 ![][public]
 
+
 ```
 void ComponentPlugIn::IComponentPlugIn::onEnd()
 ```
@@ -130,8 +141,9 @@ void ComponentPlugIn::IComponentPlugIn::onEnd()
 
 
 
+
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

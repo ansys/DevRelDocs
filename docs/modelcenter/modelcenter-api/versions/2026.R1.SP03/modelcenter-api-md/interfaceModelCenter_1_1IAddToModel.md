@@ -91,9 +91,11 @@ atm.updateComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IAddToModel::prevalidateInputs
 ```
+
 
 
 
@@ -126,9 +128,11 @@ atm.prevalidateInputs=false
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IAddToModel::autoRun
 ```
+
 
 
 
@@ -161,9 +165,11 @@ atm.autoRun=True
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::addToModel()
 ```
+
 
 
 
@@ -178,9 +184,11 @@ Adds a Trade Study or Data Collector Plug-In to the Model as a Component Plug-In
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::updateComponent()
 ```
+
 
 
 
@@ -195,9 +203,11 @@ Reinitializes the inputs and outputs of a Component Plug-In. The [addInput()](in
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAddToModel::getComponent()
 ```
+
 
 
 
@@ -221,9 +231,11 @@ IDispatch* to an [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMod
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IAddToModel::getRegID()
 ```
+
 
 
 
@@ -246,6 +258,7 @@ Str=atm.getRegID()
 
 
 
+
 **Returns**:
 
 Registry ID of the Plug-In.
@@ -259,9 +272,11 @@ Registry ID of the Plug-In.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAddToModel::addInput(BSTR name, BSTR type, [optional]VARIANT value)
 ```
+
 
 
 
@@ -327,9 +342,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAddToModel::addOutput(BSTR name, BSTR type, [optional]VARIANT value)
 ```
+
 
 
 
@@ -395,9 +412,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IAddToModel::getProgID()
 ```
+
 
 
 
@@ -420,6 +439,7 @@ Str=atm.getProgID()
 
 
 
+
 **Returns**:
 
 ProgID of the COM Plug-In.
@@ -433,9 +453,11 @@ ProgID of the COM Plug-In.
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setAuthor(BSTR author)
 ```
+
 
 
 
@@ -463,9 +485,11 @@ Defines the author of this Plug-In. Use this method to set the Component metadat
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setDescription(BSTR description)
 ```
+
 
 
 
@@ -493,9 +517,11 @@ Defines the description of this Plug-In. Use this method to set the Component me
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setVersion(BSTR version)
 ```
+
 
 
 
@@ -523,9 +549,11 @@ Defines the version of this Plug-In. Use this method to set the Component metada
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setHelpURL(BSTR helpURL)
 ```
+
 
 
 
@@ -553,9 +581,11 @@ Defines the help URL of this Plug-In. Use this method to set the Component metad
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setKeywords(BSTR keywords)
 ```
+
 
 
 
@@ -583,9 +613,11 @@ Defines the keywords for this Plug-In. Use this method to set the Component meta
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::clearBusyFlag()
 ```
+
 
 
 
@@ -600,9 +632,11 @@ Clears the busy state of [ModelCenter](namespaceModelCenter.md#namespaceModelCen
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IAddToModel::addToModel2()
 ```
+
 
 
 
@@ -626,9 +660,11 @@ Whether or not the operation completed successfully.
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setComponentRequirements(BSTR compReq)
 ```
+
 
 
 
@@ -656,9 +692,11 @@ Defines the requirements for this Plug-In. Use this method to set the Component 
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::setIcon(BSTR iconFile)
 ```
+
 
 
 
@@ -680,9 +718,11 @@ Sets the Plug-In icon.
 
 ![][public]
 
+
 ```
 void ModelCenter::IAddToModel::addMethod(BSTR name, [optional]VARIANT displayName)
 ```
+
 
 
 
@@ -712,9 +752,11 @@ Adds the method.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAddToModel::addInput2(BSTR name, BSTR type, BSTR classURL, [optional]VARIANT value)
 ```
+
 
 
 
@@ -782,9 +824,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IAddToModel::addOutput2(BSTR name, BSTR type, BSTR classURL, [optional]VARIANT value)
 ```
+
 
 
 
@@ -852,9 +896,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IAddToModel::addToModel3(BSTR suggestedName)
 ```
+
 
 
 
@@ -882,6 +928,6 @@ Whether or not the operation completed successfully.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

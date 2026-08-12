@@ -13,7 +13,8 @@ Allows you to do custom formatting the same way ModelCenter does.
 
 
 
-Example: ```
+Example: 
+```
 Dim formatter
 Set formatter=app.getFormatter("# ?/2")
 MsgBox formatter.doubleToString(12.5)
@@ -38,9 +39,11 @@ MsgBox formatter.doubleToString(12.5)
 
 ![][public]
 
+
 ```
 void ModelCenter::IPHXFormat::setFormat(BSTR format)
 ```
+
 
 
 
@@ -68,9 +71,11 @@ Sets the format string to use in this object. Formats accepted are a sub-set of 
 
 ![][public]
 
+
 ```
 long ModelCenter::IPHXFormat::stringToLong(BSTR str)
 ```
+
 
 
 
@@ -103,9 +108,11 @@ The value of the string.
 
 ![][public]
 
+
 ```
 double ModelCenter::IPHXFormat::stringToDouble(BSTR str)
 ```
+
 
 
 
@@ -138,9 +145,11 @@ The value of the string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::longToString(long val)
 ```
+
 
 
 
@@ -173,9 +182,11 @@ The formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::doubleToString(double val)
 ```
+
 
 
 
@@ -208,9 +219,11 @@ The formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::getFormat()
 ```
+
 
 
 
@@ -234,9 +247,11 @@ Returns the current format style being used in this object.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::stringToString(BSTR str)
 ```
+
 
 
 
@@ -269,9 +284,11 @@ The formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::longToEditableString(long val)
 ```
+
 
 
 
@@ -304,9 +321,11 @@ The formatted string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IPHXFormat::doubleToEditableString(double val)
 ```
+
 
 
 
@@ -334,6 +353,6 @@ The formatted string.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

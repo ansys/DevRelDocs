@@ -29,9 +29,11 @@ A set of methods for logging status and error messages. ILogger has 5 levels: TR
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILogger::isTraceEnabled()
 ```
+
 
 
 
@@ -55,9 +57,11 @@ Returns whether the TRACE level is enabled for this logger.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILogger::isDebugEnabled()
 ```
+
 
 
 
@@ -81,9 +85,11 @@ Returns whether the DEBUG level is enabled for this logger.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILogger::isInfoEnabled()
 ```
+
 
 
 
@@ -107,9 +113,11 @@ Returns whether the INFO level is enabled for this logger.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILogger::isWarnEnabled()
 ```
+
 
 
 
@@ -133,9 +141,11 @@ Returns whether the WARN level is enabled for this logger.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::ILogger::isErrorEnabled()
 ```
+
 
 
 
@@ -159,9 +169,11 @@ Returns whether the ERROR level is enabled for this logger.
 
 ![][public]
 
+
 ```
 void ModelCenter::ILogger::trace(BSTR message)
 ```
+
 
 
 
@@ -189,9 +201,11 @@ Logs a message at the TRACE level.
 
 ![][public]
 
+
 ```
 void ModelCenter::ILogger::debug(BSTR message)
 ```
+
 
 
 
@@ -219,9 +233,11 @@ Logs a message at the DEBUG level.
 
 ![][public]
 
+
 ```
 void ModelCenter::ILogger::info(BSTR message)
 ```
+
 
 
 
@@ -249,9 +265,11 @@ Logs a message at the INFO level.
 
 ![][public]
 
+
 ```
 void ModelCenter::ILogger::warn(BSTR message)
 ```
+
 
 
 
@@ -279,9 +297,11 @@ Logs a message at the WARN level.
 
 ![][public]
 
+
 ```
 void ModelCenter::ILogger::error(BSTR message)
 ```
+
 
 
 
@@ -304,6 +324,6 @@ Logs a message at the ERROR level.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
