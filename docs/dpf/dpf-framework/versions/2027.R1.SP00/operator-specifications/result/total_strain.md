@@ -173,7 +173,7 @@ angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-elemental nodal beam results are read if this pin is set to true (default is false)
+elemental nodal beam results are read if this pin is set to true (default is true)
 
 <a id="input_26"></a>
 ### split_shells (Pin 26)
