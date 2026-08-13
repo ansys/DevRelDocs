@@ -4,8 +4,8 @@
 
 Twin Builder, formerly known as Simplorer, supports journaling through Python or Visual Basic scripting and includes the PyAnsys library, PyTwin.
 
-* [PyTwin documentation (PyAnsys)](https://twin.docs.pyansys.com/)
+* [PyTwin documentation (PyAnsys)](https://twin.docs.pyansys.synopsys.com/)
 
 ### Ansys Twin Builder training material
 
-* [Boost your Ansys Digital Twin with PyAnsys: Learn How](https://www.ansys.com/en-gb/webinars/boost-your-ansys-digital-twin-with-pyansys-learn-how)
+* [Boost your Ansys Digital Twin with PyAnsys: Learn How](https://www.ansys.synopsys.com/en-gb/webinars/boost-your-ansys-digital-twin-with-pyansys-learn-how)

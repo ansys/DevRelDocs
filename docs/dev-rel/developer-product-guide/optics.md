@@ -6,14 +6,14 @@ The Lumerical Automation API let's you interact with Lumerical’s solvers and p
 
 PyLumerical is a simplified and modernized way to access the Lumerical Python API. Available since 2025 R2.3, PyLumerical can be used to interact with the Lumerical tools Ansys Lumerical FDTD™, Ansys Lumerical MODE™, Ansys Lumerical Multiphysics™, and Ansys Lumerical INTERCONNECT™.
 
-* [Lumerical for developers (Developer Portal documentation)](https://developer.ansys.com/docs/lumerical)
-* [PyLumerical documentation (PyAnsys)](https://lumerical.docs.pyansys.com/)
+* [Lumerical for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/lumerical)
+* [PyLumerical documentation (PyAnsys)](https://lumerical.docs.pyansys.synopsys.com/)
 
 ### Ansys Lumerical training
 
-* [Ansys Lumerical Scripting (AIC)](https://innovationspace.ansys.com/courses/learning-track/ansys-lumerical-scripting/)
-* [Scripting Basics Using Ansys Lumerical - Lesson 1 (AIC)](https://innovationspace.ansys.com/courses/index.php/courses/lumerical-scripting-first-scripting/lessons/scripting-basics-using-ansys-lumerical-scripting-lesson-1/)
-* [Getting Started with lumopt - Python API](https://optics.ansys.com/hc/en-us/articles/360050995394-Getting-Started-with-lumopt-Python-API)
+* [Ansys Lumerical Scripting (AIC)](https://innovationspace.ansys.synopsys.com/courses/learning-track/ansys-lumerical-scripting/)
+* [Scripting Basics Using Ansys Lumerical - Lesson 1 (AIC)](https://innovationspace.ansys.synopsys.com/courses/index.php/courses/lumerical-scripting-first-scripting/lessons/scripting-basics-using-ansys-lumerical-scripting-lesson-1/)
+* [Getting Started with lumopt - Python API](https://optics.ansys.synopsys.com/hc/en-us/articles/360050995394-Getting-Started-with-lumopt-Python-API)
 
 ### Non-Ansys Lumerical training
 
@@ -25,8 +25,8 @@ PyLumerical is a simplified and modernized way to access the Lumerical Python AP
 
 Speos has a variety of developer tools available.
 
-* [Speos for developers (Developer Portal documentation)](https://developer.ansys.com/docs/speos)
-* [PySpeos documentation (PyAnsys)](https://speos.docs.pyansys.com/version/stable/index.html)
+* [Speos for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/speos)
+* [PySpeos documentation (PyAnsys)](https://speos.docs.pyansys.synopsys.com/version/stable/index.html)
 
 The following is a summary of what is available.
 
@@ -39,8 +39,8 @@ The following is a summary of what is available.
 
 ### Ansys Speos Training
 
-* [Ansys Speos Scripting (ALH)](https://www.ansys.com/training-center/course-catalog/optics/ansys-speos-scripting)
-* [Ansys Speos Scripting Parameters (ALH)](https://www.ansys.com/training-center/course-catalog/optics/ansys-speos-scripting-parameters)
+* [Ansys Speos Scripting (ALH)](https://www.ansys.synopsys.com/training-center/course-catalog/optics/ansys-speos-scripting)
+* [Ansys Speos Scripting Parameters (ALH)](https://www.ansys.synopsys.com/training-center/course-catalog/optics/ansys-speos-scripting-parameters)
 
 ## Zemax
 
@@ -53,9 +53,9 @@ This API is a COM-enabled .NET library available for Windows, with templates and
 * MATLAB
 * Mathematica
 
-For more information, see [Ansys Zemax OpticStudio for developers (Developer Portal documentation)](https://developer.ansys.com/docs/zemax)
+For more information, see [Ansys Zemax OpticStudio for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/zemax)
 
 ### Ansys Zemax training material
 
 * [Getting Started with ZOS-API](https://support.zemax.com/hc/en-us/articles/23511411341331-Getting-Started-with-ZOS-API)
-* [Programming for All: How to Enhance Simulation with OpticStudio and ZOS-API](https://www.ansys.com/en-gb/blog/programming-for-all)
+* [Programming for All: How to Enhance Simulation with OpticStudio and ZOS-API](https://www.ansys.synopsys.com/en-gb/blog/programming-for-all)

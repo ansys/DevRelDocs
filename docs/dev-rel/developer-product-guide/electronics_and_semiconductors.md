@@ -6,7 +6,7 @@ Ansys provides access to many electronics and semiconductor products through Ans
 
 AEDT supports ACT Python scripting (including journaling) and the PyAEDT and PyEDB (Ansys Electronics Database) PyAnsys libraries. It also supports Visual Basic scripting alongside IronPython and CPython.
 
-* [PyAEDT (PyAnsys)](https://aedt.docs.pyansys.com/)
+* [PyAEDT (PyAnsys)](https://aedt.docs.pyansys.synopsys.com/)
   * HFSS and HFSS 3D Layout
   * Icepak
   * Maxwell 2D, Maxwell 3D, and RMXprt
@@ -15,19 +15,19 @@ AEDT supports ACT Python scripting (including journaling) and the PyAEDT and PyE
   * Nexxim
   * EDB
   * Twin Builder
-* [PyEDB (PyAnsys)](https://edb.docs.pyansys.com/)
+* [PyEDB (PyAnsys)](https://edb.docs.pyansys.synopsys.com/)
   * EDB
   * HFSS 3D Layout
   * Icepak
 
 The Magnet Segmentation Toolkit integrates with PyAEDT to automate the segmentation and skew of inner rotor interior permanent magnet and surface permanent magnet motors.
 
-* [Magnet Segmentation Toolkit documentation (PyAnsys)](https://magnet.segmentation.toolkit.docs.pyansys.com/version/stable/index.html)
+* [Magnet Segmentation Toolkit documentation (PyAnsys)](https://magnet.segmentation.toolkit.docs.pyansys.synopsys.com/version/stable/index.html)
 
 ### AEDT training material
 
-* [Ansys Electronics Desktop Automation with PyAEDT getting started (ALH)](https://www.ansys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
-* [Introduction to PyAEDT](https://developer.ansys.com/blog/introduction-pyaedt)
+* [Ansys Electronics Desktop Automation with PyAEDT getting started (ALH)](https://www.ansys.synopsys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
+* [Introduction to PyAEDT](https://developer.synopsys.com/blog/introduction-pyaedt)
 * [Overview of PyAEDT: Drive innovation in virtual prototyping with PyAEDT](https://www.youtube.com/watch?v=yFUboNyJeGk)
 * [PyAEDT examples and use cases: Virtual compliance framework](https://www.youtube.com/watch?v=MnACOZ1Axd4)
 
@@ -41,8 +41,8 @@ There are no developer tools available at this time.
 
 ## ConceptEV
 
-* [ConceptEV REST API](https://conceptev.ansys.com/api/docs)
-* [PyConceptEV documentation (PyAnsys)](https://conceptev.docs.pyansys.com/)
+* [ConceptEV REST API](https://conceptev.ansys.synopsys.com/api/docs)
+* [PyConceptEV documentation (PyAnsys)](https://conceptev.docs.pyansys.synopsys.com/)
 
 ## EMC Plus
 
@@ -68,7 +68,7 @@ See AEDT.
 
 ## MotorCAD
 
-* [PyMotorCAD documentation (PyAnsys)](https://motorcad.docs.pyansys.com/)
+* [PyMotorCAD documentation (PyAnsys)](https://motorcad.docs.pyansys.synopsys.com/)
 
 ## Nuhertz Filter Solutions+
 
@@ -118,7 +118,7 @@ There are no developer tools available at this time.
 
 RedHawkSC and TotemSC include a Pythonic library called PySeascape, available as part of PyAnsys. PySeascape provides a remotable interface to both RedHawkSC and TotemSC. For more information, see the documentation linked below.
 
-* [PySeascape documentation (PyAnsys)](https://seascape.docs.pyansys.com/version/stable/)
+* [PySeascape documentation (PyAnsys)](https://seascape.docs.pyansys.synopsys.com/version/stable/)
 
 ## SIwave+
 

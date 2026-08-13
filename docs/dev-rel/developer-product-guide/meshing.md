@@ -6,8 +6,8 @@ While not an actual Ansys product collection, meshing products warrant their own
 
 Ansys Prime Mesh provides core Ansys meshing technology for building meshes of different types for various physics simulations.
 
-* [Ansys Prime Mesh for developers (Developer Portal documentation)](https://developer.ansys.com/docs/primemesh)
-* [PyPrimeMesh documentation (PyAnsys)](https://prime.docs.pyansys.com/version/stable/)
+* [Ansys Prime Mesh for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/primemesh)
+* [PyPrimeMesh documentation (PyAnsys)](https://prime.docs.pyansys.synopsys.com/version/stable/)
 
 Developers can interface with Prime Mesh through two options using the Ansys Prime Server:
 

@@ -4,8 +4,8 @@
 
 ### Ansys SpaceClaim training material
 
-* [Scripting in Ansys SpaceClaim (ALH)](https://ansys.com/training-center/course-catalog/structures/scripting-in-ansys-spaceclaim-advanced)
-* [Geometry Scripting in Ansys SpaceClaim for Rapid Model Changes](https://www.ansys.com/en-gb/blog/spaceclaim-geometry-scripting)
+* [Scripting in Ansys SpaceClaim (ALH)](https://ansys.synopsys.com/training-center/course-catalog/structures/scripting-in-ansys-spaceclaim-advanced)
+* [Geometry Scripting in Ansys SpaceClaim for Rapid Model Changes](https://www.ansys.synopsys.com/en-gb/blog/spaceclaim-geometry-scripting)
 
 ### Non-Ansys SpaceClaim training material
 
@@ -18,15 +18,15 @@
 
 Ansys Discovery has journaling using Python scripting. It also has an Extensibility guide that uses .NET to create custom ribbons and tools. It's also possible to build custom Add-ins using C#.
 
-* [Discovery for developers (Developer Portal documentation)](https://developer.ansys.com/docs/discovery)
+* [Discovery for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/discovery)
   * Includes links to variety of resources
-* [Customization in Ansys Discovery (white paper)](https://www.ansys.com/en-gb/resource-center/white-paper/customization-ansys-discovery)
+* [Customization in Ansys Discovery (white paper)](https://www.ansys.synopsys.com/en-gb/resource-center/white-paper/customization-ansys-discovery)
 
 ### Ansys Discovery training material
 
-* [Scripting in Ansys Discovery Modeling (AIC)](https://innovationspace.ansys.com/product/scripting-in-ansys-discovery-modeling/)
-* [Scripting in Ansys Discovery (ALH)](https://www.ansys.com/training-center/course-catalog/3d-design/scripting-in-ansys-discovery)
-* [Advanced Scripting in Ansys Discovery (AIC)](https://innovationspace.ansys.com/product/advanced-scripting-in-ansys-discovery/)
+* [Scripting in Ansys Discovery Modeling (AIC)](https://innovationspace.ansys.synopsys.com/product/scripting-in-ansys-discovery-modeling/)
+* [Scripting in Ansys Discovery (ALH)](https://www.ansys.synopsys.com/training-center/course-catalog/3d-design/scripting-in-ansys-discovery)
+* [Advanced Scripting in Ansys Discovery (AIC)](https://innovationspace.ansys.synopsys.com/product/advanced-scripting-in-ansys-discovery/)
 
 ### Non-Ansys Discovery training material
 

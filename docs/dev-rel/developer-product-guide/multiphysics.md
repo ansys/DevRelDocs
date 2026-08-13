@@ -6,8 +6,8 @@ While not an actual Ansys product collection, multiphysics products warrant thei
 
 Ansys Sherlock has an open-source Python interface named PySherlock.
 
-* [Sherlock for developers (Developer Portal documentation)](https://developer.ansys.com/docs/sherlock)
-* [PySherlock documentation (PyAnsys)](https://sherlock.docs.pyansys.com/)
+* [Sherlock for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/sherlock)
+* [PySherlock documentation (PyAnsys)](https://sherlock.docs.pyansys.synopsys.com/)
 
 ### Ansys Sherlock training material
 
@@ -19,5 +19,5 @@ Ansys Sherlock has an open-source Python interface named PySherlock.
 
 Ansys System Coupling provides two main developer tools: participant libraries and PySystemCoupling. The participant libraries are closed-source and available in multiple languages. PySystemCoupling is an open-source PyAnsys library.
 
-* [System coupling for developers (Developer portal documentation)](https://developer.ansys.com/docs/system-coupling)
-* [PySystemCoupling documentation (PyAnsys)](https://systemcoupling.docs.pyansys.com/)
+* [System coupling for developers (Developer portal documentation)](https://developer.synopsys.com/docs/system-coupling)
+* [PySystemCoupling documentation (PyAnsys)](https://systemcoupling.docs.pyansys.synopsys.com/)
