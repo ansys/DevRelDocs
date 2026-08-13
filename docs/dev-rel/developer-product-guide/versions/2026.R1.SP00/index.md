@@ -8,7 +8,7 @@ This page provides links to general information useful for all Ansys developers.
 
 ## Useful links
 
-* [App catalog](https://catalog.ansys.com/)
+* [App catalog](https://developer.synopsys.com/app-catalog/catalog)
 * [Ansys developer forum](https://discuss.ansys.com/)
 * [PyAnsys (Python package documentation for using Ansys products)](https://docs.pyansys.com/)
 * [Ansys GitHub account](https://github.com/ansys)
