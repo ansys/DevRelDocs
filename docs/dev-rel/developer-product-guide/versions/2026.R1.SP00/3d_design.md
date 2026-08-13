@@ -4,7 +4,7 @@
 
 ### Ansys SpaceClaim training material
 
-* [Scripting in Ansys SpaceClaim (ALH)](https://ansys.com/training-center/course-catalog/structures/scripting-in-ansys-spaceclaim-advanced)
+* [Scripting in Ansys SpaceClaim (ALH)](https://ansys.synopsys.com/training-center/course-catalog/structures/scripting-in-ansys-spaceclaim-advanced)
 * [Geometry Scripting in Ansys SpaceClaim for Rapid Model Changes](https://www.ansys.com/en-gb/blog/spaceclaim-geometry-scripting)
 
 ### Non-Ansys SpaceClaim training material
@@ -18,7 +18,7 @@
 
 Ansys Discovery has journaling using Python scripting. It also has an Extensibility guide that uses .NET to create custom ribbons and tools. It's also possible to build custom Add-ins using C#.
 
-* [Discovery for developers (Developer Portal documentation)](https://developer.ansys.com/docs/discovery)
+* [Discovery for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/discovery)
   * Includes links to variety of resources
 * [Customization in Ansys Discovery (white paper)](https://www.ansys.com/en-gb/resource-center/white-paper/customization-ansys-discovery)
 

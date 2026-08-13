@@ -26,11 +26,11 @@ The Ansys Mechanical product consists of two aspects: Mechanical and Mechanical 
 
 Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two ways to access the same solver. There are four principal developer tools associated with them plus a fifth that's only available as part of the Mechanical Premium and Enterprise products.
 
-* **Mechanical scripting interface:** Available within Mechanical, this is a Python scripting interface used for programmatically interacting with the Mechanical UI. For more information, see [Mechanical scripting interface (Developer Portal documentation)](https://developer.ansys.com/docs/mechanical-scripting-interface/index.md).
+* **Mechanical scripting interface:** Available within Mechanical, this is a Python scripting interface used for programmatically interacting with the Mechanical UI. For more information, see [Mechanical scripting interface (Developer Portal documentation)](https://developer.synopsys.com/docs/mechanical-scripting-interface/index.md).
 * **APDL:** A FORTRAN-like scripting language that directly interacts with the underlying solver of both MAPDL and Mechanical.
 * **PyMAPDL:** An open-source Python wrapper for APDL that can call APDL commands from within Python scripts when installed alongside a compatible installation of MAPDL. For more information, see [PyMAPDL documentation (PyAnsys)](https://mapdl.docs.pyansys.com/).
 * **PyMechanical:** An open-source Python interface with the Mechanical UI. This interface has access to the .NET objects available in ACT. For more information, see [PyMechanical documentation (PyAnsys)](https://mechanical.docs.pyansys.com/).
-* **Ansys Rigid Body Dynamics:** An analysis system within the Ansys Mechanical Premium and Enterprise products that allows you to study the kinematics of mechanical systems. This system takes the form of an IronPython library within ACT. For more information, see [Ansys Rigid Body Dynamics for developers (Developer Portal documentation)](https://developer.ansys.com/docs/rigid-body-dynamics).
+* **Ansys Rigid Body Dynamics:** An analysis system within the Ansys Mechanical Premium and Enterprise products that allows you to study the kinematics of mechanical systems. This system takes the form of an IronPython library within ACT. For more information, see [Ansys Rigid Body Dynamics for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/rigid-body-dynamics).
 
 ### Ansys Mechanical and MAPDL training material
 
@@ -42,11 +42,11 @@ Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two
 * [PyMAPDL Tutorial](https://tutorials.mapdl.docs.pyansys.com/tutorials/01-pymapdl.html)
 * [PyAnsys Training: Overview of PyMAPDL and PyMechanical](https://www.youtube.com/watch?v=Qh4Y07OZdms)
 * [PyAnsys Training: PyMAPDL Examples and Use Cases](https://www.youtube.com/watch?v=H_i-O712wQE)
-* [Exploring PyMechanical access methods: A brief overview](https://developer.ansys.com/blog/exploring-pymechanical-access-methods-brief-overview)
+* [Exploring PyMechanical access methods: A brief overview](https://developer.synopsys.com/blog/exploring-pymechanical-access-methods-brief-overview)
 * [Introduction to Ansys ACT in Mechanical (ALH)](https://www.ansys.com/training-center/course-catalog/structures/introduction-to-ansys-act-mechanical)
 * [Ansys Mechanical Scripting (ALH)](https://learninghub.ansys.com/learn/courses/902/ansys-mechanical-scripting)
 * [Introduction to Ansys ACT Wizards (ALH)](https://www.ansys.com/training-center/course-catalog/structures/introduction-to-ansys-act-wizards)
-* [Create a report from a saved Mechanical session (.mechdb or .mechdat)](https://developer.ansys.com/blog/create-report-saved-mechanical-session-mechdb-or-mechdat)
+* [Create a report from a saved Mechanical session (.mechdb or .mechdat)](https://developer.synopsys.com/blog/create-report-saved-mechanical-session-mechdb-or-mechdat)
 
 ### Non-Ansys Mechanical and MAPDL training material
 
@@ -64,10 +64,10 @@ Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two
 
 Ansys Motion provides both a preprocessor C# library and a postprocessor C# library.
 
-[Motion for developers (Developer Portal documentation)](https://developer.ansys.com/docs/motion)
+[Motion for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/motion)
 
-* [Motion Standalone Preprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-preprocessor-c-sharp-library-2024-r2/index.md)
-* [Motion Standalone Postprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-postprocessor-c-sharp-library-2024-r2/index.md)
+* [Motion Standalone Preprocessor C# library 2024 R2](https://developer.synopsys.com/docs/motion-standalone-preprocessor-c-sharp-library-2024-r2/index.md)
+* [Motion Standalone Postprocessor C# library 2024 R2](https://developer.synopsys.com/docs/motion-standalone-postprocessor-c-sharp-library-2024-r2/index.md)
 
 ## nCode DesignLife
 

@@ -6,7 +6,7 @@ The Lumerical Automation API let's you interact with Lumerical’s solvers and p
 
 PyLumerical is a simplified and modernized way to access the Lumerical Python API. Available since 2025 R2.3, PyLumerical can be used to interact with the Lumerical tools Ansys Lumerical FDTD™, Ansys Lumerical MODE™, Ansys Lumerical Multiphysics™, and Ansys Lumerical INTERCONNECT™.
 
-* [Lumerical for developers (Developer Portal documentation)](https://developer.ansys.com/docs/lumerical)
+* [Lumerical for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/lumerical)
 * [PyLumerical documentation (PyAnsys)](https://lumerical.docs.pyansys.com/)
 
 ### Ansys Lumerical training
@@ -25,7 +25,7 @@ PyLumerical is a simplified and modernized way to access the Lumerical Python AP
 
 Speos has a variety of developer tools available.
 
-* [Speos for developers (Developer Portal documentation)](https://developer.ansys.com/docs/speos)
+* [Speos for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/speos)
 * [PySpeos documentation (PyAnsys)](https://speos.docs.pyansys.com/version/stable/index.html)
 
 The following is a summary of what is available.
@@ -53,7 +53,7 @@ This API is a COM-enabled .NET library available for Windows, with templates and
 * MATLAB
 * Mathematica
 
-For more information, see [Ansys Zemax OpticStudio for developers (Developer Portal documentation)](https://developer.ansys.com/docs/zemax)
+For more information, see [Ansys Zemax OpticStudio for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/zemax)
 
 ### Ansys Zemax training material
 

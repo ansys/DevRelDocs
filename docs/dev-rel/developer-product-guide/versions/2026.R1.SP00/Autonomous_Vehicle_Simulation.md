@@ -2,7 +2,7 @@
 
 ## AVxcelerate Autonomy
 
-[Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.ansys.com/docs/avxcelerate)
+[Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/avxcelerate)
 
 AVxcelerate Autonomy APIs provide several REST APIs and the AVxcelerate Simulation Framework library.
 
@@ -19,7 +19,7 @@ AVxcelerate Headlamp measures are accessible through a C++ API, Ansys SCADE conn
 
 ## AVxcelerate Sensors
 
-[Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.ansys.com/docs/avxcelerate)
+[Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/avxcelerate)
 
 AVxcelerate Sensors APIs include several REST and gRPC APIs.
 

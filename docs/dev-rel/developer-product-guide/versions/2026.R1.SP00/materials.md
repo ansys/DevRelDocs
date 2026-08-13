@@ -8,7 +8,7 @@ There are no developer tools available at this time.
 
 ## Granta MI
 
-Granta MI has several developer tools. For more information, see [Granta MI for developers](https://developer.ansys.com/docs/granta-mi).
+Granta MI has several developer tools. For more information, see [Granta MI for developers](https://developer.synopsys.com/docs/granta-mi).
 
 Granta MI also has several PyAnsys packages:
 
@@ -18,7 +18,7 @@ Granta MI also has several PyAnsys packages:
 
 Granta MI also has closed-source developer tools:
 
-* [Granta MI Scripting Toolkit 4.0](https://developer.ansys.com/docs/granta-mi-scripting-toolkit-40/welcome.md)
+* [Granta MI Scripting Toolkit 4.0](https://developer.synopsys.com/docs/granta-mi-scripting-toolkit-40/welcome.md)
 * MI Servicelayer API - SOAP API (There is no public documentation at this time.)
 
 ### Ansys Granta MI training material
