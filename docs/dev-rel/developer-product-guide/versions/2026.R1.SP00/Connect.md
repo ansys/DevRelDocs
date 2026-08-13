@@ -8,7 +8,7 @@ Minerva provides the Minerva Transfer Client, which gives access to the Minerva 
 
 ## ModelCenter
 
-* [ModelCenter for developers (Developer Portal documentation)](https://developer.ansys.com/docs/model-center)
+* [ModelCenter for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/model-center)
 * [Ansys ModelCenter Workflow documentation (PyAnsys)](https://modelcenter.docs.pyansys.com/version/stable/)
 
 ### Ansys ModelCenter training material
@@ -17,7 +17,7 @@ Minerva provides the Minerva Transfer Client, which gives access to the Minerva 
 
 ## optiSLang
 
-* [optiSLang for developers (Developer Portal documentation)](https://developer.ansys.com/docs/optislang)
+* [optiSLang for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/optislang)
 * [PyOptiSLang documentation (PyAnsys)](https://optislang.docs.pyansys.com/)
 
 optiSLang APIs and libraries are available for Windows and Linux in these languages:

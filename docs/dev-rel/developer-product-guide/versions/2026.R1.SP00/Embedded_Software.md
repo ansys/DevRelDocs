@@ -4,7 +4,7 @@
 
 Scade One is the new generation of SCADE. In the Scade One environment, you use the Swan language. Scade One also includes PyScadeOne, an open-source Python library.
 
-- [Scade One for developers (Developer portal documentation)](https://developer.ansys.com/docs/scade-one)
+- [Scade One for developers (Developer portal documentation)](https://developer.synopsys.com/docs/scade-one)
 - [PyScadeOne repository (PyAnsys)](https://github.com/ansys/pyscadeone)
 - [PyScadeOne documentation (PyAnsys)](https://scadeone.docs.pyansys.com/)
 
@@ -12,7 +12,7 @@ Scade One is the new generation of SCADE. In the Scade One environment, you use 
 
 The SCADE environment includes an API, a native language, and operator libraries. It also includes an assortment of SCADE projects to assist in your SCADE work and supports many SCADE tools provided as OSS PyAnsys libraries.
 
-- [SCADE for developers (Developer portal documentation)](https://developer.ansys.com/docs/scade)
+- [SCADE for developers (Developer portal documentation)](https://developer.synopsys.com/docs/scade)
 - [Ansys SCADE API Tools documentation (PyAnsys)](https://apitools.scade.docs.pyansys.com/)
 - [Ansys SCADE GUI Tools documentation (PyAnsys](https://guitools.scade.docs.pyansys.com/)
 - [Ansys SCADE Wrapper Tools documentation (PyAnsys)](https://wux.scade.docs.pyansys.com/)

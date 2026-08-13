@@ -8,14 +8,14 @@ See Ansys Discovery.
 
 ## Ansys Composite PrepPost (ACP)
 
-* [Ansys Composite PrepPost (ACP) for developers (Developer Portal documentation)](https://developer.ansys.com/docs/acp)
+* [Ansys Composite PrepPost (ACP) for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/acp)
 * [PyACP documentation (PyAnsys)](https://acp.docs.pyansys.com/version/dev/)
 
 ## Data Processing Framework (DPF)
 
 DPF is a Python library tool available within many Ansys applications. DPF includes multiple developer tools, such as a C++/C# client library, a Python result object accessed through ACT, and three PyAnsys libraries.
 
-* [Data Processing Framework (DPF) for developers (Developer Portal documentation)](https://developer.ansys.com/docs/dpf)
+* [Data Processing Framework (DPF) for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/dpf)
 * [PyDPF-Core documentation (PyAnsys)](https://dpf.docs.pyansys.com/version/stable/index.html)
 * [PyDPF-Post documentation (PyAnsys)](https://post.docs.pyansys.com/version/stable/index.html)
 * [PyDPF Composites documentation (PyAnsys)](https://composites.dpf.docs.pyansys.com/version/stable/index.html)
@@ -45,10 +45,10 @@ There are two primary ADR Python interfaces and PyDynamicReporting, a PyAnsys OS
 
 ### Ansys Dynamic Reporting training material
 
-* [A Guide to Streamlining CFD Simulations and Reporting](https://developer.ansys.com/blog/guide-streamlining-cfd-simulations-and-reporting)
-* [Embedding PyDynamicReporting into applications](https://developer.ansys.com/blog/embedding-pydynamicreporting-applications)
-* [Ansys Dynamic Reporting: generate a custom number of plots with any number of variables](https://developer.ansys.com/blog/ansys-dynamic-reporting-generate-custom-number-plots-any-number-variables )
-* [How to manipulate report HTML: a user example](https://developer.ansys.com/blog/how-manipulate-report-html-user-example)
+* [A Guide to Streamlining CFD Simulations and Reporting](https://developer.synopsys.com/blog/guide-streamlining-cfd-simulations-and-reporting)
+* [Embedding PyDynamicReporting into applications](https://developer.synopsys.com/blog/embedding-pydynamicreporting-applications)
+* [Ansys Dynamic Reporting: generate a custom number of plots with any number of variables](https://developer.synopsys.com/blog/ansys-dynamic-reporting-generate-custom-number-plots-any-number-variables )
+* [How to manipulate report HTML: a user example](https://developer.synopsys.com/blog/how-manipulate-report-html-user-example)
 * [Ansys Dynamic Reporting HowTos](https://nexusdemo.ensight.com/docs/en/html/DynamicReportingHowTos.html)
 
 ## Geometry
@@ -80,7 +80,7 @@ The PyAnsys workflow repository contains multi-physics examples.
 
 Ansys Notebook is a Jupyter-like environment that provides access to Ansys solvers over the web using PyAnsys.
 
-* [Ansys Notebook for developers (Developer Portal documentation)](https://developer.ansys.com/docs/notebook)
+* [Ansys Notebook for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/notebook)
 
 ## Product Instance Management (PIM)
 
@@ -108,7 +108,7 @@ Ansys Workbench provides Python journaling capabilities. The Python interpreter 
 
 ### Ansys Workbench training material
 
-* [Scripting for Mechanical Engineers](https://developer.ansys.com/blog/scripting-mechanical-engineers)
+* [Scripting for Mechanical Engineers](https://developer.synopsys.com/blog/scripting-mechanical-engineers)
 
 ### Non-Ansys Workbench training material
 

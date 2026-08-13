@@ -2,7 +2,7 @@
 
 ## Sound
 
-* [Ansys Sound for developers (Developer Portal documentation)](https://developer.ansys.com/docs/sound)
+* [Ansys Sound for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/sound)
 * [PyAnsys Sound documentation (PyAnsys)](https://sound.docs.pyansys.com/version/stable/)
 
 Sound APIs for Active Sound Design for Electric Vehicles (ASDforEV), Car Sound Simulator (CSS), and Virtual Reality Sound (VRS) use the Open Sound Control (OSC) protocol, which runs over User Datagram Protocol (UDP). These APIs work independently of the operating system and language, even though Ansys Sound is only available on Windows.

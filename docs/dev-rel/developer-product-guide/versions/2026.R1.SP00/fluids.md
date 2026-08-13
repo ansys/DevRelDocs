@@ -1,6 +1,6 @@
 # Fluids
 
-The Ansys Common Fluids Format SDK provides APIs, data models, and example programs to access or write data to Ansys Common Fluids Format files. This format is also used by Ansys Fluids products. For more information, see [Ansys Common Fluids Format SDK for developers (Developer Portal documentation)](https://developer.ansys.com/docs/cff).
+The Ansys Common Fluids Format SDK provides APIs, data models, and example programs to access or write data to Ansys Common Fluids Format files. This format is also used by Ansys Fluids products. For more information, see [Ansys Common Fluids Format SDK for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/cff).
 
 ## BladeModeler
 
@@ -31,7 +31,7 @@ As of Ansys Chemkin 2025 R2 there is now a PyChemkin PyAnsys library.
 
 EnSight includes a command-language journaling feature and an embedded Python interpreter.
 
-* [Post-processing for developers, which includes Ensight (Developer Portal documentation)](https://developer.ansys.com/docs/post-processing)
+* [Post-processing for developers, which includes Ensight (Developer Portal documentation)](https://developer.synopsys.com/docs/post-processing)
 * [PyEnsight documentation (PyAnsys)](https://ensight.docs.pyansys.com/version/stable/)
 * [PyEnSight Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=AnsysDevelopers.pyensight)
 
@@ -72,7 +72,7 @@ Few developer-exclusive training resources are available for Fluent. However, mo
 * [Getting Started With PyFluent (ALH)](https://www.ansys.com/training-center/course-catalog/fluids/getting-started-with-pyfluent)
 * [Getting Started With PyFluent (AIC)](https://innovationspace.ansys.com/product/getting-started-with-pyfluent/)
 * [PyAnsys Training: Overview of PyFluent](https://www.youtube.com/watch?v=BY2FJ5qATCM)
-* [A Guide to Streamlining CFD Simulations and Reporting](https://developer.ansys.com/blog/guide-streamlining-cfd-simulations-and-reporting)
+* [A Guide to Streamlining CFD Simulations and Reporting](https://developer.synopsys.com/blog/guide-streamlining-cfd-simulations-and-reporting)
 
 ### Non-Ansys Fluent training material
 
@@ -95,7 +95,7 @@ There are no developer tools available at this time.
 
 Ansys Rocky provides three main interfaces: PrePost scripting (Python), Solver SDK (C++ and CUDA), and PyRocky (open-source, Python).
 
-* [Rocky for developers (Developer Portal documentation)](https://developer.ansys.com/docs/rocky)
+* [Rocky for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/rocky)
 * [PyRocky documentation (PyAnsys)](https://rocky.docs.pyansys.com/version/stable/)
 
 ### Ansys Rocky training material
@@ -107,7 +107,7 @@ Ansys Rocky provides three main interfaces: PrePost scripting (Python), Solver S
 
 Thermal Desktop includes a .NET API named OpenTD.
 
-* [Thermal Desktop for developers (Developer Portal documentation)](https://developer.ansys.com/docs/thermal-desktop)
+* [Thermal Desktop for developers (Developer Portal documentation)](https://developer.synopsys.com/docs/thermal-desktop)
 * [Application Programming Interface (API) for Thermal Desktop](https://www.crtech.com/opentd-thermal-desktop-api)
 
 ### Ansys Thermal Desktop training material
