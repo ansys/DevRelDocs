@@ -27,7 +27,7 @@ The Magnet Segmentation Toolkit integrates with PyAEDT to automate the segmentat
 ### AEDT training material
 
 * [Ansys Electronics Desktop Automation with PyAEDT getting started (ALH)](https://www.ansys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
-* [Introduction to PyAEDT](https://developer.ansys.com/blog/introduction-pyaedt)
+* [Introduction to PyAEDT](https://developer.synopsys.com/blog/introduction-pyaedt)
 * [Overview of PyAEDT: Drive innovation in virtual prototyping with PyAEDT](https://www.youtube.com/watch?v=yFUboNyJeGk)
 * [PyAEDT examples and use cases: Virtual compliance framework](https://www.youtube.com/watch?v=MnACOZ1Axd4)
 

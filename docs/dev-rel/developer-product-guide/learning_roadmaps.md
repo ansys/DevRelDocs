@@ -10,7 +10,7 @@
   <summary>Click to expand</summary>
 
 * [Install and Launch to Verify](https://mechanical.docs.pyansys.com/version/stable/getting_started/installation.html)
-* [Blog: Ansys Python Manager](https://developer.ansys.com/ansys-python-manager)
+* [Blog: Ansys Python Manager](https://developer.synopsys.com/ansys-python-manager)
   * Install PyMechanical
 * [Know Different ways to Launch](https://mechanical.docs.pyansys.com/version/stable/getting_started/running_mechanical.html#)
 * Know Supported Versions
@@ -30,7 +30,7 @@
 * 2 Modes of PyMechanical
   * [Open an Embedded Instance of Mechanical in Python](https://mechanical.docs.pyansys.com/version/stable/user_guide_embedding/index.html)
   * [Create a Remote Session (Instance) and send commands](https://mechanical.docs.pyansys.com/version/stable/user_guide_session/index.html)
-* [Blog: Exploring PyMechanical access methods](https://developer.ansys.com/blog/exploring-pymechanical-access-methods-brief-overview)
+* [Blog: Exploring PyMechanical access methods](https://developer.synopsys.com/blog/exploring-pymechanical-access-methods-brief-overview)
 
 </details>
 
@@ -62,13 +62,13 @@
 <details>
   <summary>Click to expand</summary>
 
-* [Blog: Scripting for Mechanical Engineers](https://developer.ansys.com/blog/scripting-mechanical-engineers)
+* [Blog: Scripting for Mechanical Engineers](https://developer.synopsys.com/blog/scripting-mechanical-engineers)
 
 * Mechanical (Scripting)
   * [Recording APIs](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v251/en/act_script/mech_script_record.html)
   * [Mechanical Scripting Guide - Ansys Help](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v242/en/act_script/act_mech_apis.html)
   * [Mechanical Scripting - Course on Ansys Learning Hub](https://learninghub.ansys.com/learn/courses/902/ansys-mechanical-scripting)
-  * [Mechanical API Reference on Dev Portal](https://developer.ansys.com/docs/mechanical-scripting-interface/api/ansys/mechanical/stubs/v251/index.md)
+  * [Mechanical API Reference on Dev Portal](https://developer.synopsys.com/docs/mechanical-scripting-interface/api/ansys/mechanical/stubs/v251/index.md)
     * [(same as) API Reference in PyAnsys Docs](https://scripting.mechanical.docs.pyansys.com/version/dev/api/ansys/mechanical/stubs/v251/index.html)
 
 * PyMechanical
@@ -106,10 +106,10 @@
   * [All NameSpaces in Mechanical](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v251/en/act_ref/act_ref.html)
   * [PyMechanical Architecture](https://mechanical.docs.pyansys.com/version/stable/architecture.html)
   * [Threading](https://mechanical.docs.pyansys.com/version/stable/user_guide_scripting/threading.html)
-  * [Blog - Create a report from a saved Mechanical session (.mechdb or .mechdat)](https://developer.ansys.com/blog/create-report-saved-mechanical-session-mechdb-or-mechdat)
+  * [Blog - Create a report from a saved Mechanical session (.mechdb or .mechdat)](https://developer.synopsys.com/blog/create-report-saved-mechanical-session-mechdb-or-mechdat)
 
 </details>
 
 ### More ...
 
-* [Developer Guide PyMechanical entry](https://developer.ansys.com/docs/ansys-developer-product-guide/structures.md#ansys-mechanical-and-mapdl)
+* [Developer Guide PyMechanical entry](https://developer.synopsys.com/docs/ansys-developer-product-guide/structures.md#ansys-mechanical-and-mapdl)
