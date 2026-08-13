@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-11).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -21,7 +21,7 @@ The following table shows which components have updates in each category.
 | core |  |[2 items](#Fixes_core) |
 | cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
-| cyclic | [1 item](#Features_cyclic) |[1 item](#Fixes_cyclic) |
+| cyclic | [1 item](#Features_cyclic) |[2 items](#Fixes_cyclic) |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
@@ -35,7 +35,7 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [15 items](#Features_hdf5) |[10 items](#Fixes_hdf5) |
+| hdf5 | [15 items](#Features_hdf5) |[11 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
@@ -380,6 +380,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_cyclic"></a> Fixes
+
+- Fix cyclic expansion for Nodal Integrated quantities:
+  > 
+  >
+  > 
 
 - Fix composite nodal cyclic request by scoping:
   > 
@@ -1156,6 +1161,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Fix for default time step when requesting result to match rst default:
+  > Provide last time step when requesting result without time_scoping.
+  >
+  > 
 
 - Fix non composites operators failing when connected with a distributed datasource:
   > 
@@ -3131,7 +3141,6 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
-<<<<<<< HEAD
 - Fix issue with result_provider:
   > 
   >
@@ -3155,8 +3164,6 @@ The following table shows which components have updates in each category.
   >
   > 
 
-=======
->>>>>>> sandbox
 - Fix CScopingProviderProperty for HDF5:
   > 
   >
