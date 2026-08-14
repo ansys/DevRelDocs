@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-12).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-13).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,7 +35,7 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [15 items](#Features_hdf5) |[11 items](#Fixes_hdf5) |
+| hdf5 | [15 items](#Features_hdf5) |[12 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
@@ -1161,6 +1161,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Set header for scoped results via HDF5 file:
+  > Fix h5dpf results not rotated to global when a mesh scoping is used
+  >
+  > 
 
 - Fix for default time step when requesting result to match rst default:
   > Provide last time step when requesting result without time_scoping.
