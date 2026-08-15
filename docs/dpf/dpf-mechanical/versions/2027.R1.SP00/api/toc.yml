@@ -1604,8 +1604,12 @@
     items:
     - name: adapt_with_scopings_container
       href: Ans.DataProcessing/operators/scoping/adapt_with_scopings_container.md
+    - name: adapt_with_scopings_container_pfc
+      href: Ans.DataProcessing/operators/scoping/adapt_with_scopings_container_pfc.md
     - name: change_fc
       href: Ans.DataProcessing/operators/scoping/change_fc.md
+    - name: change_pfc
+      href: Ans.DataProcessing/operators/scoping/change_pfc.md
     - name: compute_element_centroids
       href: Ans.DataProcessing/operators/scoping/compute_element_centroids.md
     - name: connectivity_ids
