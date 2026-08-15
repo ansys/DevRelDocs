@@ -1548,8 +1548,12 @@
     items:
     - name: adapt with scopings container
       href: operator-specifications/scoping/adapt_with_scopings_container.md
+    - name: adapt with scopings container pfc
+      href: operator-specifications/scoping/adapt_with_scopings_container_pfc.md
     - name: change fc
       href: operator-specifications/scoping/change_fc.md
+    - name: change pfc
+      href: operator-specifications/scoping/change_pfc.md
     - name: compute element centroids
       href: operator-specifications/scoping/compute_element_centroids.md
     - name: connectivity ids

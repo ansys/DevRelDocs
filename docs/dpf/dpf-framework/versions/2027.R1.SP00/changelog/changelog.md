@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-13).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,8 +35,8 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [15 items](#Features_hdf5) |[12 items](#Fixes_hdf5) |
-| hgp | [10 items](#Features_hgp) |[6 items](#Fixes_hgp) |
+| hdf5 | [16 items](#Features_hdf5) |[12 items](#Fixes_hdf5) |
+| hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | lsdyna | [5 items](#Features_lsdyna) | |
@@ -1063,6 +1063,11 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Implement shell_position_provider operator for h5 files:
+  > Implement shell_position_provider operator for h5 files
+  >
+  > 
+
 - Write dpf stream helpers as attributes and add append tfs mode:
   > **Old representation:**
   >
@@ -1327,6 +1332,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Fixing short name in ElementDescriptor for hex20:
+  > Fixing short name in ElementDescriptor for hex20.
+  >
+  > 
 
 - Complete the work to fully support GenericSupport as Any:
   > 
@@ -4340,6 +4350,12 @@ The following table shows which components have updates in each category.
 
 
 #### scoping
+
+- [adapt_with_scopings_container_pfc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/adapt_with_scopings_container_pfc.md):
+  > Rescopes/splits a property fields container to correspond to a scopings container. Each property field from the input container is rescoped using each scoping from the scopings container, creating a cartesian product of rescoped property fields.
+
+- [change_pfc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/change_pfc.md):
+  > DEPRECATED, PLEASE USE ADAPT WITH SCOPINGS CONTAINER. Rescopes/splits a property fields container to correspond to a scopings container.
 
 - [extend_midside_nodal_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/extend_midside_nodal_scoping.md):
   > Extends the input nodal scoping with the neighbor corner nodes of every midside node in the input. For each midside node in the scoping, the two corner nodes that bound it on the element edge are added to the output scoping. 
