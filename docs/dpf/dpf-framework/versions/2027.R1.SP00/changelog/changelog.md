@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-14).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-17).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,7 +28,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [10 items](#Features_femutils) |[19 items](#Fixes_femutils) |
+| femutils | [10 items](#Features_femutils) |[20 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [5 items](#Features_framework) |[13 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
@@ -589,6 +589,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Add support for missing element types in solid_to_skin:
+  > 
+  >
+  > All surface elements (and also point elements) are now supported in `solid_to_skin` operators.
+  >
+  > 
+  >
+  > 
 
 - Improve performance of solid_to_skin for Elemental and ElementalNodal fields:
   > 
