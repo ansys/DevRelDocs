@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-17).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [30 items](#Features_mapdl) |[64 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[64 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1552,6 +1552,13 @@ The following table shows which components have updates in each category.
 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Read all mesh properties by default:
+  > All available mesh properties are read by default ("mat", "section", "apdl_element_type", "elprops", "apdl_tshape", "apdl_real_id", "apdl_esys_id", "mapdl_element_type_id")
+  >
+  > 
+  >
+  > 
 
 - Support Pipe Sections and PIPE288/289:
   > - support reading of results from pipe288, pipe289 elements
@@ -5019,6 +5026,8 @@ The following table shows which components have updates in each category.
 
   > 0.2.13: Performance improvement for Elemental and ElementalNodal fields.
 
+  > 0.2.14: Add support for surface elements.
+
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
 
@@ -5045,6 +5054,8 @@ The following table shows which components have updates in each category.
   > 0.2.8: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
 
   > 0.2.9: Performance improvement for Elemental and ElementalNodal fields containers.
+
+  > 0.2.10: Add support for surface elements.
 
 
 
