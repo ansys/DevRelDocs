@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-18).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-19).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -30,7 +30,7 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [10 items](#Features_femutils) |[20 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[13 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[14 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[64 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -810,6 +810,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Fix frequency unit for SOLVER_UMKS UnitSystem:
+  > 
+  >
+  > The frequency unit for the SOLVER_UMKS UnitSystem was incorrectly set to `MHz`. It has been corrected to `Hz`.
+  >
+  > 
+  >
+  > 
 
 - Config passed to internal operators:
   > Fix operator configuration not being correctly passed to operators instantiated by some "_fc" operators.
@@ -1831,6 +1840,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Correction of some integrated quantities:
+  > 
+  >
+  > 
 
 - Make elemental mass public:
   > 
