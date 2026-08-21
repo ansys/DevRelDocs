@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-19).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-20).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -42,7 +42,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[66 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1840,6 +1840,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix mapdl run crash on filtering ENF for contact elements.:
+  > Fix mapdl run crash on filtering ENF for contact elements.
+  >
+  > 
+  >
+  > 
 
 - Correction of some integrated quantities:
   > 
