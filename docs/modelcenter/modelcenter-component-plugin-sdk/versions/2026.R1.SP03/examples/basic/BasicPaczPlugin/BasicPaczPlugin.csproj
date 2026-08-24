@@ -55,6 +55,9 @@
     <Compile Include="BasicPaczPlugin.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Ansys.Util.AbstractDisposable">
+      <Version>0.1.1</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Logging">
       <Version>7.0.0</Version>
     </PackageReference>

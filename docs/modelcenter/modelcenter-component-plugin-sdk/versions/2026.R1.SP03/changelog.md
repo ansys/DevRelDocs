@@ -23,6 +23,7 @@ Documentation review aligned with SDK drop **26.1.1** / **PACZComponentPlugInSDK
 - Getting started screenshots (#1498565) — 27 `graphics/gs-*.png` wired in `started.md` from Taurik walkthrough (2026-08-18); Leslie may still crop/replace from `screenshots-raw/`
 - Bundled **BasicPaczPlugin** sample under `examples/basic/` (#1498537 doc side)
 - Downloadable sample zip `examples/BasicPaczPlugin-sample-26.1.1.zip` (#1498537)
+- Added `Ansys.Util.AbstractDisposable` 0.1.1 package reference to the BasicPaczPlugin sample so it compiles against SDK 26.1.1 (#1504190)
 - **A working example** section in getting started; **Useful classes** moved after debugging (Taurik walkthrough merge)
 
 ### Pending
