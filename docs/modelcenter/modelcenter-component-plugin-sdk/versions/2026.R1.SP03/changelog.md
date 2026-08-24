@@ -2,7 +2,7 @@
 
 ## 2026 R1 SP03
 
-Documentation review aligned with SDK drop **26.1.1** / **PACZComponentPlugInSDK-26.1.1c** (ADO [#1498519](https://ado.internal.synopsys.com/tfs/ANSYS_Development/Portfolio/_workitems/edit/1498519)).
+Documentation review aligned with SDK drop **26.1.1** / **PACZComponentPlugInSDK-26.1.1c** (internal doc ticket 1498519).
 
 ### Changed
 

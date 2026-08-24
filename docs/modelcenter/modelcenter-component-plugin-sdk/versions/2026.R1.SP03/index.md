@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to the parametric analysis component zipped (PACZ) component plug-in 2026R1 SDK documentation. This guide is intended to help plug-in developers extend the capabilities of Ansys products by adding connections to external data and analysis tools such as Excel, databases, CAD systems, and other engineering applications.
+Welcome to the parametric analysis component zipped (PACZ) plug-in SDK documentation for ModelCenter 2026 R1. This guide helps plug-in developers extend Ansys workflows by adding connections to external data and analysis tools such as Excel, databases, CAD systems, and other engineering applications.
 
 This plug-in framework is intended to cover analyses that take a design point as inputs and produce the resultant outputs. For co-simulation, time, ordinary differential equations (ODE), and eventing based systems, use the much more complex FMI standard.
 
