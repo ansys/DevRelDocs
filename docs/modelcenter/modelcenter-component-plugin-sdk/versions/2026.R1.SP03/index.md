@@ -32,9 +32,11 @@ This SDK is designed for:
 
 Before you begin developing component plug-ins, you should have:
 
-- **Development environment**: Visual Studio 2019 or later (VS 2022 recommended), or a Java development environment
-- **Programming knowledge**: Familiarity with .NET Framework 4.6.2 or Java
-- **SDK access**: Access to the SDK ZIP file which contains the `Phoenix.ComponentPlugInSDK` NuGet package and optionally the Visual Studio template extension
+- **Development environment**: Visual Studio 2022 (Community, Pro, or Enterprise)
+- **Programming knowledge**: Familiarity with .NET Framework 4.7.2
+- **SDK access**: Access to the SDK ZIP file, which contains the `Phoenix.ComponentPlugInSDK` NuGet packages and the Visual Studio template extension (VSIX). Installing the VSIX wizard is optional (see [Getting started](started.md)).
+
+Java plug-in development is planned for a future release; see the [Getting started](started.md) guide for current .NET-only support.
 
 ### Obtaining SDK access
 
