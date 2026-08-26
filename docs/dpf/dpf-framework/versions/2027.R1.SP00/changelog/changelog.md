@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-21).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-25).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -19,7 +19,7 @@ The following table shows which components have updates in each category.
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [7 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[2 items](#Fixes_core) |
-| cs | [4 items](#Features_cs) |[1 item](#Fixes_cs) |
+| cs | [5 items](#Features_cs) |[1 item](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic | [1 item](#Features_cyclic) |[2 items](#Fixes_cyclic) |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
@@ -42,11 +42,11 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[66 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[67 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
-| mechanical | [4 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
+| mechanical | [4 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[23 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
@@ -324,6 +324,15 @@ The following table shows which components have updates in each category.
   > 
 ## cs
 ### <a id="Features_cs"></a> Features
+
+- Expose int and double vector inputs/outputs in managed client:
+  > 
+  >
+  > The .NET client now provides typed accessors for integer and double vector data. Operators and workflows can return `vector<int>` and `vector<double>` outputs through `GetOutputAsIntCollection` and `GetOutputAsDoubleCollection`, and a workflow input can be connected from a list of doubles. This matches the accessors already available for unsigned integer vectors and for scalar values.
+  >
+  > 
+  >
+  > 
 
 - Add Operator.GetVersion():
   > Add a new `GetVersion` method to the `Operator` class in the DPF C# client API to request the version of the operator.
@@ -1841,6 +1850,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Fix ENF filter for axisymmetric plane elements with torsion:
+  > Fix ENF filter for axisymmetric plane elements with torsion
+  >
+  > 
+  >
+  > 
+
 - Fix mapdl run crash on filtering ENF for contact elements.:
   > Fix mapdl run crash on filtering ENF for contact elements.
   >
@@ -2502,6 +2518,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mechanical"></a> Fixes
+
+- Fix the amplitude calculation for complex fields on shell nodes:
+  > 
+  >
+  > 
 
 - Fix documentation generation of mechanical::linearized_stress:
   > 
