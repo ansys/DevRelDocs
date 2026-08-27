@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-25).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-26).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,20 +35,20 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[12 items](#Fixes_hdf5) |
+| hdf5 | [16 items](#Features_hdf5) |[13 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[67 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[68 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
-| misc | [16 items](#Features_misc) |[23 items](#Fixes_misc) |
+| misc | [16 items](#Features_misc) |[24 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
@@ -1194,6 +1194,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Skip hashing collections when in append tfs mode (deduplication from plugin):
+  > 
+  >
+  > 
+
 - Set header for scoped results via HDF5 file:
   > Fix h5dpf results not rotated to global when a mesh scoping is used
   >
@@ -1849,6 +1854,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Elemental nodal forces not available on PILO elements:
+  > Skip TARGE elements with PILO shape in ENF filtering function
+  >
+  > 
+  >
+  > 
 
 - Fix ENF filter for axisymmetric plane elements with torsion:
   > Fix ENF filter for axisymmetric plane elements with torsion
@@ -2789,6 +2801,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_misc"></a> Fixes
+
+- Elastic_strain_eqv operator is now available for modal results:
+  > elastic_strain_eqv MAPDL operator was not accessible for modal results, this is now fixed.
+  >
+  > 
+  >
+  > 
 
 - Properly use even and odd in operators description:
   > 
