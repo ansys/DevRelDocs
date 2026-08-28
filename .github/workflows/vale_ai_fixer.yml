@@ -1,0 +1,50 @@
+name: Vale + AI Fixer
+
+on:
+  workflow_dispatch:
+
+jobs:
+  vale_ai_fixer:
+    runs-on: ubuntu-latest
+
+    env:
+      AZURE_OPENAI_KEY: ${{ secrets.AZURE_OPENAI_KEY }}
+      AZURE_OPENAI_ENDPOINT: ${{ secrets.AZURE_OPENAI_ENDPOINT }}
+      OPENAI_API_VERSION: ${{ secrets.OPENAI_API_VERSION }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install openai
+
+    - name: Install Vale
+      run: |
+        curl -sL https://github.com/errata-ai/vale/releases/download/v3.12.0/vale_3.12.0_Linux_64-bit.tar.gz | tar -xz
+        sudo mv vale /usr/local/bin/
+        vale sync
+
+    - name: Run Vale
+      run: |
+        vale gh_action_testing/ --output=JSON > vale_report.json || true
+
+    - name: Run AI fixer
+      run: |
+        python ai_fixer_azureopenai.py vale_report.json gh_action_testing
+
+    - name: Diff changes  and create patch (do NOT push)
+      run: |
+        git diff
+        git diff > ai_fixer.patch
+    - uses: actions/upload-artifact@v4
+      with:
+        name: ai-fixer-patch
+        path: ai_fixer.patch
