@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-26).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,14 +35,15 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[13 items](#Fixes_hdf5) |
+| hdf5 | [16 items](#Features_hdf5) |[16 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
+| licensing |  |[1 item](#Fixes_licensing) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[68 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[69 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1194,6 +1195,23 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Fix unintended lock on file:
+  > 
+  >
+  > 
+
+- Migrate to export model data as double precision by default:
+  > Migrate to export model data as double precision by default to match MAPDL default.
+  >
+  > 
+  >
+  > 
+
+- Reduce reads/decompression by chunk slice grouping:
+  > Improve H5DPF I/O by fewer reads from the file.
+  >
+  > 
+
 - Skip hashing collections when in append tfs mode (deduplication from plugin):
   > 
   >
@@ -1527,6 +1545,18 @@ The following table shows which components have updates in each category.
 
 - Complete unit strings for existing Unit Systems (#248):
   > 
+## licensing
+
+### <a id="Fixes_licensing"></a> Fixes
+
+- Fix elastic licensing in standalone:
+  > 
+  >
+  > Fixed Web Shared Licensing in DPF Standalone
+  >
+  > 
+  >
+  > 
 ## lsdyna
 ### <a id="Features_lsdyna"></a> Features
 
@@ -1854,6 +1884,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix performance issues with mode chunking:
+  > Fix performance issues for Modal superposition with mode chunking option enabled
+  >
+  > 
+  >
+  > 
 
 - Elemental nodal forces not available on PILO elements:
   > Skip TARGE elements with PILO shape in ENF filtering function
