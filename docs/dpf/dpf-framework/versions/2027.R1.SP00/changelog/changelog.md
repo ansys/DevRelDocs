@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-27).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-28).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -6087,6 +6087,8 @@ Upgraded documentation
   > 0.1.0: Results that don't contain any field are now skipped from the export
 
   > 0.2.0: Add migrated_file_streams output pin to allow reuse of the migrated file in incremental migration
+
+  > 0.3.0: Change on the export_floats behavior, if no value is provided, model data and nodal results are exported as double precision and elemental results as single precision
 
 
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)

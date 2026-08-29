@@ -63,7 +63,7 @@ Integer value / DataTree that defines the h5 native compression used For Integer
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types), [`generic_data_container`](../../core-concepts/dpf-types.md#generic-data-container)
 
-Converts double to float to reduce file size (default is true).If False, nodal results are exported as double precision and elemental results as single precision.
+Converts double to float to reduce file size (default is true).If no value is provided, nodal results are exported as double precision and elemental results as single precision.
 
 <a id="input_0"></a>
 ### filename (Pin 0)
