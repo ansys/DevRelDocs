@@ -56,7 +56,7 @@ Integer value / DataTree that defines the h5 native compression used For Integer
 
 ### export_floats
 
-Converts double to float to reduce file size (default is true).If False, nodal results are exported as double precision and elemental results as single precision.
+Converts double to float to reduce file size (default is true).If no value is provided, nodal results are exported as double precision and elemental results as single precision.
 
 **Type:** *LinkableInput*
 
