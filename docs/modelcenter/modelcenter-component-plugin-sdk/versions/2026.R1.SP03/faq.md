@@ -119,7 +119,7 @@ public async Task RunAsync(IReadOnlyDictionary<string, VariableState> inputs, Va
 
 **A8:** There are several ways, depending on your use case.
 
-The simplest is to just use `SafeValue.VaraibleType`, which is an enumeration of all the possible types (`Integer`, `Real`, `String`, `Boolean`, `File`, `IntegerArray`, `RealArray`, `StringArray`, `BooleanArray`, `FileArray`).
+The simplest is to just use `SafeValue.VariableType`, which is an enumeration of all the possible types (`Integer`, `Real`, `String`, `Boolean`, `File`, `IntegerArray`, `RealArray`, `StringArray`, `BooleanArray`, `FileArray`).
 
 You can also use the safe type conversion capabilities of C# such as `inputs[key].SafeValue As StrinValue`, which returns the converted value
 or `null` if it is not the correct type.

@@ -1,9 +1,9 @@
-{
+﻿{
   "build": {
     "globalMetadata": {
-      "title": "Component Plug-In SDK 2026 R1",
-      "summary": "SDK for building ModelCenter component plug-ins (PACZ) for 2026 R1.",
-      "version": "2026 R1",
+      "title": "Component Plug-In SDK 2026 R1 SP03",
+      "summary": "Getting started, examples, guides, and API reference for the ModelCenter Component Plug-In SDK 2026 R1 SP03.",
+      "version": "2026 R1 SP03",
       "product": "ModelCenter",
       "programming language": "C#",
       "product collection": "Connect",

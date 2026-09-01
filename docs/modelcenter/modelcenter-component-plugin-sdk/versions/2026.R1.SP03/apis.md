@@ -12,4 +12,4 @@
 
 Here is a class diagram of the interfaces and abstract base classes relevant for a plug-in developer:
 
-![Class diagram of key plug-in interfaces and abstract base classes](apidocs/images/PACZComponentPlugInClassDiagram.drawio.svg)
+![class diagram](graphics/PACZComponentPlugInsClassDiagram.png "class diagram")
