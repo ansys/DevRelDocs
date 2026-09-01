@@ -1,8 +1,8 @@
-﻿{
+{
   "build": {
     "globalMetadata": {
       "title": "Component Plug-In SDK 2026 R1 SP03",
-      "summary": "Getting started, examples, guides, and API reference for the ModelCenter Component Plug-In SDK 2026 R1 SP03.",
+      "summary": "Getting started, examples, guides, and API reference for the ModelCenter Component Plug-In SDK.",
       "version": "2026 R1 SP03",
       "product": "ModelCenter",
       "programming language": "C#",
