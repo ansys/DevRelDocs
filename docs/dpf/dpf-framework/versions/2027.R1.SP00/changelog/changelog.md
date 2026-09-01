@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-28).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-31).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -13,7 +13,7 @@ The following table shows which components have updates in each category.
 | averaging |  |[1 item](#Fixes_averaging) |
 | build |  |[1 item](#Fixes_build) |
 | c# |  |[1 item](#Fixes_c#) |
-| cff | [2 items](#Features_cff) |[6 items](#Fixes_cff) |
+| cff | [2 items](#Features_cff) |[7 items](#Fixes_cff) |
 | cgns | [1 item](#Features_cgns) | |
 | changelog | [2 items](#Features_changelog) |[1 item](#Fixes_changelog) |
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[69 items](#Fixes_mapdl) |
+| mapdl | [31 items](#Features_mapdl) |[70 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -51,7 +51,7 @@ The following table shows which components have updates in each category.
 | mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[24 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
-| multiphysicsmapper |  |[6 items](#Fixes_multiphysicsmapper) |
+| multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
 | native | [21 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
@@ -138,6 +138,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_cff"></a> Fixes
+
+- Visualization problem in a Fluent mesh with different mesh sizes:
+  > 
+  >
+  > 
 
 - Fixing issue with error messages:
   > 
@@ -1885,6 +1890,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Avoid loop on all nodes when getting only non zero nodal euler angles:
+  > 
+  >
+  > 
+
 - Fix performance issues with mode chunking:
   > Fix performance issues for Modal superposition with mode chunking option enabled
   >
@@ -3044,6 +3054,11 @@ The following table shows which components have updates in each category.
 ## multiphysicsmapper
 
 ### <a id="Fixes_multiphysicsmapper"></a> Fixes
+
+- Support shell offset field (plugins):
+  > 
+  >
+  > 
 
 - Kriging (Volumetric/Surface) Import Failure for Coordinates inputs instead of MeshedRegion:
   > 
