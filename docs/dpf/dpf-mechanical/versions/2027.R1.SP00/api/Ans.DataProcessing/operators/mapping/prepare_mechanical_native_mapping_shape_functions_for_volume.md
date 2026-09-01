@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mapping.prepare_mechanical_native_mapping_shape_functions_for_volume
 ---
 
-# *class* prepare_mechanical_native_mapping_shape_functions_for_volume(source_mesh: object = None, target_mesh: object = None, target_mesh_scoping: object = None, unit: object = None, location: object = None, dimensionality: object = None, e_shell_layers: object = None, html_report_path: object = None, threads_user_requested: object = None, scale: object = None, edge_tolerance: object = None, conservative: object = None, ignore_outside_nodes: object = None, is_element_centroidal_data_mapping: object = None, projection_options: object = None, dynamic_coordinate_system: object = None, source_dimension: object = None, wb_external_data_info: object = None, target_dimension: object = None, config: OperatorConfig = None)
+# *class* prepare_mechanical_native_mapping_shape_functions_for_volume(source_mesh: object = None, target_mesh: object = None, target_mesh_scoping: object = None, unit: object = None, location: object = None, dimensionality: object = None, e_shell_layers: object = None, html_report_path: object = None, threads_user_requested: object = None, scale: object = None, edge_tolerance: object = None, conservative: object = None, ignore_outside_nodes: object = None, is_element_centroidal_data_mapping: object = None, projection_options: object = None, dynamic_coordinate_system: object = None, source_dimension: object = None, wb_external_data_info: object = None, target_dimension: object = None, shell_offset_field: object = None, config: OperatorConfig = None)
 
 Prepares field data mapping from source mesh to target mesh using **finite element shape functions** on volume elements (hexahedra, tetrahedra, wedges, pyramids).
 
@@ -14,7 +14,7 @@ Note: shape functions near the apex of pyramid elements exhibit singular behavio
 
 For further details on the algorithm and its settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
-available inputs: `source_mesh` (MeshedRegion), `target_mesh` (MeshedRegion, Field), `target_mesh_scoping` (Scoping) (optional), `unit` (string) (optional), `location` (string), `dimensionality` (Int32), `e_shell_layers` (Int32) (optional), `html_report_path` (string) (optional), `threads_user_requested` (Int32) (optional), `scale` (Int32) (optional), `edge_tolerance` (double) (optional), `conservative` (bool) (optional), `ignore_outside_nodes` (bool) (optional), `is_element_centroidal_data_mapping` (bool) (optional), `projection_options` (DataTree) (optional), `dynamic_coordinate_system` (DataTree) (optional), `source_dimension` (string) (optional), `wb_external_data_info` (DataTree) (optional), `target_dimension` (string) (optional)
+available inputs: `source_mesh` (MeshedRegion), `target_mesh` (MeshedRegion, Field), `target_mesh_scoping` (Scoping) (optional), `unit` (string) (optional), `location` (string), `dimensionality` (Int32), `e_shell_layers` (Int32) (optional), `html_report_path` (string) (optional), `threads_user_requested` (Int32) (optional), `scale` (Int32) (optional), `edge_tolerance` (double) (optional), `conservative` (bool) (optional), `ignore_outside_nodes` (bool) (optional), `is_element_centroidal_data_mapping` (bool) (optional), `projection_options` (DataTree) (optional), `dynamic_coordinate_system` (DataTree) (optional), `source_dimension` (string) (optional), `wb_external_data_info` (DataTree) (optional), `target_dimension` (string) (optional), `shell_offset_field` (Field) (optional)
 
 available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `target_mesh` (MeshedRegion), `target_mesh_id` (Int32), `mapping_manager_data` (Any), `target_scoping` (Scoping), `prepare_output` (Any)
 
@@ -41,6 +41,7 @@ available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `targ
 * **source_dimension**
 * **wb_external_data_info**
 * **target_dimension**
+* **shell_offset_field**
 * **config**
 
 **Example:**
@@ -48,7 +49,7 @@ available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `targ
 ```python
 op = prepare_mechanical_native_mapping_shape_functions_for_volume()
 
-op = prepare_mechanical_native_mapping_shape_functions_for_volume(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_mesh_scoping=my_target_mesh_scoping,unit=my_unit,location=my_location,dimensionality=my_dimensionality,e_shell_layers=my_e_shell_layers,html_report_path=my_html_report_path,threads_user_requested=my_threads_user_requested,scale=my_scale,edge_tolerance=my_edge_tolerance,conservative=my_conservative,ignore_outside_nodes=my_ignore_outside_nodes,is_element_centroidal_data_mapping=my_is_element_centroidal_data_mapping,projection_options=my_projection_options,dynamic_coordinate_system=my_dynamic_coordinate_system,source_dimension=my_source_dimension,wb_external_data_info=my_wb_external_data_info,target_dimension=my_target_dimension)
+op = prepare_mechanical_native_mapping_shape_functions_for_volume(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_mesh_scoping=my_target_mesh_scoping,unit=my_unit,location=my_location,dimensionality=my_dimensionality,e_shell_layers=my_e_shell_layers,html_report_path=my_html_report_path,threads_user_requested=my_threads_user_requested,scale=my_scale,edge_tolerance=my_edge_tolerance,conservative=my_conservative,ignore_outside_nodes=my_ignore_outside_nodes,is_element_centroidal_data_mapping=my_is_element_centroidal_data_mapping,projection_options=my_projection_options,dynamic_coordinate_system=my_dynamic_coordinate_system,source_dimension=my_source_dimension,wb_external_data_info=my_wb_external_data_info,target_dimension=my_target_dimension,shell_offset_field=my_shell_offset_field)
 ```
 
 ## Inputs
@@ -154,6 +155,12 @@ Default is empty. This data tree contains the Rigid & Analytical transformations
 ### target_dimension
 
 Default is empty string. The string contains either "2D" or "3D" which specifies the target dimension
+
+**Type:** *LinkableInput*
+
+### shell_offset_field
+
+Optional nodal field with 3 components per target node. Each value is the displacement from the midsurface node location to the shell mapping location (top/bottom per shell thickness factor), matching native External File target mesh offset behavior.
 
 **Type:** *LinkableInput*
 
