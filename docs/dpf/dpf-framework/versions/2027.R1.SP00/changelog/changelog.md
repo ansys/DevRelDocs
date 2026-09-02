@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-08-31).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-01).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,7 +35,7 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[16 items](#Fixes_hdf5) |
+| hdf5 | [16 items](#Features_hdf5) |[17 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [31 items](#Features_mapdl) |[70 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[72 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1200,6 +1200,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Fix a deadlock when merging distributed H5DPF files into one.:
+  > 
+  >
+  > Fix a potential deadlock in the HDF5 operators when writing H5DPF files with other H5DPF files as data source.
+  >
+  > 
+  >
+  > 
+
 - Fix unintended lock on file:
   > 
   >
@@ -1611,6 +1620,13 @@ The following table shows which components have updates in each category.
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
+- Implement draft method to check field homogeneity:
+  > In order to not degrade the performance while reading MAPDL results, we need to ensure that the field ply support is attached where it is needed. Field homogeneity here is related to position count (or shell layer count) + layer count (in term of ply). The field support is only needed if in a same field with have disparity of elements regarding those metrics.
+  >
+  > 
+  >
+  > 
+
 - Read all mesh properties by default:
   > All available mesh properties are read by default ("mat", "section", "apdl_element_type", "elprops", "apdl_tshape", "apdl_real_id", "apdl_esys_id", "mapdl_element_type_id")
   >
@@ -1889,6 +1905,32 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix reaction forces for axisymmetric planes with torsion:
+  > Fix reaction forces for axisymmetric planes with torsion
+  >
+  > 
+  >
+  > 
+
+- Fix MSUP expansion with partial modal coordinates scoping:
+  > Fix wrong results in MSUP expansion when both of the two following conditions are met:
+  >
+  > - the use pass data source (.rfrq or .rdsp file) does not contain the modal coordinates for all the modes stored in the generation pass data source (.mode file )
+  >
+  > - the N stored modal coordinates do not correspond to the N first modes in the generation pass data source
+  >
+  > 
+  >
+  > Typical examples of this issue are:
+  >
+  > - MSUP expansion is performed with the set of modes from min_mode to max_mode and min_mode > 1
+  >
+  > - Modal analysis contains both residual vectors and static shapes (enforced motion) and MSUP expansion is performed without the residual vectors
+  >
+  > 
+  >
+  > 
 
 - Avoid loop on all nodes when getting only non zero nodal euler angles:
   > 
@@ -5714,6 +5756,11 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Allow to make integration even if the time freq support contains several steps (for example multiple RPM), only if the provided scoping correspond to frequencies of a unique RPM.
+
+
+- [is_cyclic](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/is_cyclic.md)
+
+  > 1.0.0: If the operator is not implemented and permissive mode is activated, returns an empty string.
 
 
 - [mesh_selection_manager_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/metadata/mesh_selection_manager_provider.md)

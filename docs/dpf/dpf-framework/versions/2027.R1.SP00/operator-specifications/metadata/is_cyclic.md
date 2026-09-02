@@ -38,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
 
-streams (result file container) (optional)
+Streams (result file container) (optional)
 
 <a id="input_4"></a>
 ### data_sources (Pin 4)
@@ -65,7 +65,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-returns 'single_stage' or 'multi_stage' or an empty string for non cyclic model
+Returns 'single_stage' or 'multi_stage' or 'not_cyclic' or an empty string if the information is missing.
 
 
 ## Configurations
