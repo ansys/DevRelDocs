@@ -6,7 +6,7 @@ uid: Ans.DataProcessing.operators.result.pres_to_field
 
 Read the presol generated file from mapdl.
 
-available inputs: `filepath` (string), `columns_to_read` (Int32) (optional)
+available inputs: `filepath` (string), `columns_to_read` (Int32, IList int, System.Collections.IEnumerable) (optional), `element_type_to_ignore` () (optional)
 
 available outputs: `field` (Field)
 
@@ -36,7 +36,7 @@ filepath
 
 ### columns_to_read
 
-columns_to_read
+Indeces of the columns to read. By default it reads all the components.
 
 **Type:** *LinkableInput*
 
