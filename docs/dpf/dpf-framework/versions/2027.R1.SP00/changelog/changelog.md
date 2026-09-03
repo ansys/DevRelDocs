@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-01).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-02).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,14 +28,14 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [10 items](#Features_femutils) |[20 items](#Fixes_femutils) |
+| femutils | [10 items](#Features_femutils) |[21 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [5 items](#Features_framework) |[14 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[17 items](#Fixes_hdf5) |
+| hdf5 | [16 items](#Features_hdf5) |[18 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[72 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[73 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -53,7 +53,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [21 items](#Features_native) |[34 items](#Fixes_native) |
+| native | [22 items](#Features_native) |[35 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -604,6 +604,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Wrong shell results on skin with elemental averaging:
+  > 
+  >
+  > Mixed solid and shell meshes now retain correct shell-layer information when results are mapped to a skin, preventing incorrect downstream shell values during elemental conversion.
+  >
+  > 
+  >
+  > 
 
 - Add support for missing element types in solid_to_skin:
   > 
@@ -1199,6 +1208,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Improving performance of reading scoped results with multiple time steps:
+  > 
+  >
+  > 
 
 - Fix a deadlock when merging distributed H5DPF files into one.:
   > 
@@ -1905,6 +1919,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- PRES_reader doesn't read all nodes:
+  > - The operator _PRES_reader_ was stopping reading data when the list of nodes of an element was split by some text.
+  >
+  > - Exposed pin 2 to specify element types to ignore which was missing in the specification
+  >
+  > 
+  >
+  > 
 
 - Fix reaction forces for axisymmetric planes with torsion:
   > Fix reaction forces for axisymmetric planes with torsion
@@ -3168,6 +3191,15 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Add an option in concatenation operators to ignore empty fields:
+  > The operators _concatenate_fields_ and _concatenate_fields_containers_ were ignoring empty fields for concatenating.
+  >
+  > An option has been added to choose between ignore them or add their number of components to the resulting field.
+  >
+  > 
+  >
+  > 
+
 - Add total strain operator:
   > 
   >
@@ -3326,6 +3358,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fixing issue with composite results without previously calling the mesh provider operator:
+  > Fixing issue with composite results without previously calling the mesh provider operator.
+  >
+  > 
 
 - Fix issue with result_provider:
   > 
