@@ -75,7 +75,7 @@ The default value is 0.
 
 ### InfiniteRayLength
 
-`RayLength InfiniteRayLength`
+`float InfiniteRayLength`
 
 Gets or sets the infinite ray length.
 
@@ -104,7 +104,7 @@ The default value is 0.
 
 ### RequiredFaces
 
-`Faces RequiredFaces`
+`list[int] RequiredFaces`
 
 Gets or sets requiered faces tag.
 
@@ -129,7 +129,7 @@ The default value is 0.
 
 ### RejectedFaces
 
-`Faces RejectedFaces`
+`list[int] RejectedFaces`
 
 Gets or sets rejected faces tag.
 

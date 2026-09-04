@@ -167,7 +167,10 @@ A base class for all feature Builders.
 | --- | --- |
 | [ShowResult](#showresult) | public |
 | [Feature](#feature) | public |
+| [Status](#status) | public |
 | [Name](#name) | public |
+| [FullName](#fullname) | public |
+| [NameWithContext](#namewithcontext) | public |
 
 ## Public Member Functions
 
@@ -181,12 +184,23 @@ Updates the feature to reflect the result of an edit to the feature for all buil
 
 ### Feature
 
-`Builder Feature`
+`Feature Feature`
 
 Returns the feature being edited, or the created feature if the builder is being used in creation mode.
 
 Returns the feature currently being edited by this builder.  
 If a new feature is being created, and the builder has not yet been commited, returns Null.
+
+---
+
+### Status
+
+`int Status`
+
+Returns the status of the feature being edited.
+
+Returns a value corresponding to the status of the feature being edited.  
+**Value type**: Integer.
 
 ---
 
@@ -199,3 +213,25 @@ Gets or sets the name of the feature being edited.
 **Value type**: String.  
   
 The default value is the current feature name.
+
+---
+
+### FullName
+
+`Name FullName`
+
+Gets the full name of the feature being edited.
+
+**Value type**: String.  
+  
+The default value is the current feature full name.
+
+---
+
+### NameWithContext
+
+`str NameWithContext`
+
+Gets the name with context of the feature being edited.
+
+**Value type**: String.

@@ -47,7 +47,7 @@ Represents the builder for a 3D irradiance sensor.
 
 ### MeasureType
 
-`Type MeasureType`
+`int MeasureType`
 
 Gets or sets the measure type.
 
@@ -77,7 +77,7 @@ The default value is False.
 
 ### RayFileFormat
 
-`Format RayFileFormat`
+`int RayFileFormat`
 
 Gets or sets the ray file format.
 
@@ -98,7 +98,7 @@ The default value is 0.
 
 ### IntegrationType
 
-`Type IntegrationType`
+`int IntegrationType`
 
 Gets or sets the integration type.
 
@@ -126,7 +126,7 @@ The default value is an empty list.
 
 ### LayerType
 
-`Type LayerType`
+`int LayerType`
 
 Gets or sets the layer type.
 

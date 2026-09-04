@@ -45,6 +45,7 @@ A base class for all Simulation Builders.
 | [Sources](#sources) | public |
 | [Geometries](#geometries) | public |
 | [Sensors](#sensors) | public |
+| [EstimatedRam](#estimatedram) | public |
 | [LightExpert](#lightexpert) | public |
 | [UseAmbientMaterial](#useambientmaterial) | public |
 | [AmbientMaterial](#ambientmaterial) | public |
@@ -83,7 +84,7 @@ Gets or sets the current source features that are in the simulation.
 
 ### Geometries
 
-`list Geometries`
+`list[int] Geometries`
 
 Gets or sets geometries tag.
 
@@ -99,6 +100,16 @@ Gets or sets sensor features.
 
 Gets or sets the current sensor features that are in the simulation.  
 **Value type**: List of Feature object.
+
+---
+
+### EstimatedRam
+
+`str EstimatedRam`
+
+Gets the estimated RAM usage.
+
+**Value type**: String.
 
 ---
 
@@ -118,7 +129,7 @@ The default value is False.
 
 ### UseAmbientMaterial
 
-`AmbientMaterial UseAmbientMaterial`
+`bool UseAmbientMaterial`
 
 Gets or sets the property to enable ambient material.
 
@@ -159,7 +170,7 @@ The default value is 0.05.
 
 ### UsePresetSettings
 
-`PresetSettings UsePresetSettings`
+`bool UsePresetSettings`
 
 Gets or sets the property to enable preset settings.
 
@@ -173,7 +184,7 @@ The default value is False.
 
 ### Preset
 
-`Preset Preset`
+`DataModels::CPreset Preset`
 
 Gets or sets the Preset object.
 
@@ -186,7 +197,7 @@ The default value is None.
 
 ### AllPreset
 
-`Preset AllPreset`
+`list[DataModels::CPreset] AllPreset`
 
 Gets all Preset.
 
@@ -196,7 +207,7 @@ Gets all Preset.
 
 ### Settings
 
-`SimulationSettings Settings`
+`DataModels::CSimulationSettings Settings`
 
 Gets or sets the simulation settings.
 

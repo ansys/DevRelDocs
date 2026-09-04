@@ -84,7 +84,7 @@ The default value is an empty file path (string).
 
 ### MappingType
 
-`Type MappingType`
+`int MappingType`
 
 Gets or sets the mapping.
 
@@ -178,7 +178,7 @@ The default value is 100.0 mm.
 
 ### RectangularXDistance
 
-`Distance RectangularXDistance`
+`float RectangularXDistance`
 
 Gets or sets the X distance between patterns for rectangular mapping.
 
@@ -192,7 +192,7 @@ The default value is 1.0 mm.
 
 ### RectangularYDistance
 
-`Distance RectangularYDistance`
+`float RectangularYDistance`
 
 Gets or sets the Y distance between patterns for rectangular mapping.
 
@@ -232,7 +232,7 @@ The default value is 0.0 degree.
 
 ### CircularRadialDistance
 
-`Distance CircularRadialDistance`
+`float CircularRadialDistance`
 
 Gets or sets the radial distance for circular mapping.
 
@@ -246,7 +246,7 @@ The default value is 1.0 mm.
 
 ### CircularMappingAreaRadius
 
-`Radius CircularMappingAreaRadius`
+`float CircularMappingAreaRadius`
 
 Gets or sets the mapping area radius for circular mapping.
 
@@ -260,7 +260,7 @@ The default value is 100.0 mm.
 
 ### CircularRingsDistance
 
-`Distance CircularRingsDistance`
+`float CircularRingsDistance`
 
 Gets or sets the distance between two rings for circular mapping.
 
@@ -287,7 +287,7 @@ The default value is 0.0 degree.
 
 ### HexagonalXWidth
 
-`Width HexagonalXWidth`
+`float HexagonalXWidth`
 
 Gets or sets the hexagon width for hexagonal mapping.
 
@@ -301,7 +301,7 @@ The default value is 0.7 mm.
 
 ### HexagonalYHeight
 
-`Height HexagonalYHeight`
+`float HexagonalYHeight`
 
 Gets or sets the hexagon height for hexagonal mapping.
 
@@ -383,7 +383,7 @@ The default value is 1.0 mm.
 
 ### HexagonalCentersDistance
 
-`Distance HexagonalCentersDistance`
+`float HexagonalCentersDistance`
 
 Gets or sets the hexagon distance between centers for hexagonal mapping.
 
@@ -559,7 +559,7 @@ The default value is 1.0.
 
 ### StartIndex
 
-`Index StartIndex`
+`int StartIndex`
 
 Gets or sets the start index.
 
@@ -572,7 +572,7 @@ The default value is 1.
 
 ### EndIndex
 
-`Index EndIndex`
+`int EndIndex`
 
 Gets or sets the end index.
 
@@ -585,7 +585,7 @@ The default value is 2.
 
 ### MaxPointToDisplay
 
-`Display MaxPointToDisplay`
+`int MaxPointToDisplay`
 
 Gets or sets the max point to display.
 

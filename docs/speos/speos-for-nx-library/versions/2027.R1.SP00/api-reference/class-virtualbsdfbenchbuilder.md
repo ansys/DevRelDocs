@@ -107,7 +107,7 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### PresetSettings
 
-`Settings PresetSettings`
+`bool PresetSettings`
 
 ---
 
@@ -137,7 +137,7 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### NumberOfRays
 
-`list[NumberOfRay] NumberOfRays`
+`int NumberOfRays`
 
 ---
 
@@ -161,7 +161,7 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 ---
 
@@ -173,13 +173,13 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### SourceThetaSampling
 
-`Sampling SourceThetaSampling`
+`int SourceThetaSampling`
 
 ---
 
 ### SourcePhiSampling
 
-`Sampling SourcePhiSampling`
+`int SourcePhiSampling`
 
 ---
 
@@ -197,7 +197,7 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### SensorType
 
-`Type SensorType`
+`int SensorType`
 
 ---
 
@@ -209,7 +209,7 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### SensorAutomaticSampling
 
-`Sampling SensorAutomaticSampling`
+`bool SensorAutomaticSampling`
 
 ---
 
@@ -221,13 +221,13 @@ Constructs a CVirtualBSDFBenchBuilder with the specified implementation.
 
 ### SensorThetaSampling
 
-`Sampling SensorThetaSampling`
+`int SensorThetaSampling`
 
 ---
 
 ### SensorPhiSampling
 
-`Sampling SensorPhiSampling`
+`int SensorPhiSampling`
 
 ---
 

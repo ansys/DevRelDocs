@@ -8,8 +8,19 @@ Represents a Preset.
 
 | Member | Type |
 | --- | --- |
+| [Name](#name) | public |
 | [Rename](#rename) | public |
 | [Delete](#delete) | public |
+
+## Public Static Attributes
+
+### Name
+
+`str Name`
+
+Gets or sets the preset name.
+
+**Value type**: String.
 
 ## Public Member Functions
 

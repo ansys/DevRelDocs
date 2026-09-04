@@ -78,7 +78,7 @@ The default value is 50.0 cd/m2.
 
 ### InfiniteContrast
 
-`Contrast InfiniteContrast`
+`bool InfiniteContrast`
 
 Gets or sets the property to enable infinite contrast ratio.
 
@@ -145,7 +145,7 @@ The default value is 50.0 mm.
 
 ### XMirroredExtent
 
-`MirroredExtent XMirroredExtent`
+`bool XMirroredExtent`
 
 Gets or sets the sensor X dimension mirrored value.
 
@@ -183,7 +183,7 @@ The default value is 50.0 mm.
 
 ### YMirroredExtent
 
-`MirroredExtent YMirroredExtent`
+`bool YMirroredExtent`
 
 Gets or sets the sensor Y dimension mirrored value.
 
@@ -197,7 +197,7 @@ The default value is False.
 
 ### IntensityType
 
-`Type IntensityType`
+`int IntensityType`
 
 Gets or sets the intensity diagram.
 
@@ -347,7 +347,7 @@ The default value is 0.
 
 ### WhitePointType
 
-`Type WhitePointType`
+`int WhitePointType`
 
 Gets or sets the white point type of the standard illuminant.
 
@@ -458,7 +458,7 @@ The default value is 75.0 mm.
 
 ### ShowIntensityDistribution
 
-`Value ShowIntensityDistribution`
+`bool ShowIntensityDistribution`
 
 Gets or sets the property to show the intensity distribution in the 3D view.
 
@@ -473,7 +473,7 @@ The default value is False.
 
 ### ShowImage
 
-`Value ShowImage`
+`bool ShowImage`
 
 Gets or sets the property to show the image.
 

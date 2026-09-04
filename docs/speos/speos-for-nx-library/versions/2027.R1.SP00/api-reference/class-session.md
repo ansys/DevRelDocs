@@ -12,7 +12,6 @@ Represents the Speos For NX session.
 | [NXSessionTag](#nxsessiontag) | public |
 | [Parts](#parts) | public |
 | [InitCrashHandler](#initcrashhandler) | public |
-| [ForceDllToNotUnload](#forcedlltonotunload) | public |
 
 ## Public Static Attributes
 
@@ -28,7 +27,7 @@ Returns the singleton for [Session](class-session.md).
 
 ### NXSessionTag
 
-`Tag NXSessionTag`
+`int NXSessionTag`
 
 Gets the NX Session Tag.
 
@@ -38,7 +37,7 @@ Returns the Tag for the NX Session.
 
 ### Parts
 
-`list[Part] Parts`
+`PartCollection Parts`
 
 Gets the part collection.
 
@@ -57,13 +56,3 @@ In case of unhandled exception, 0 divide... a dump file is generated in WorkingF
 **Parameters**:
 
 - `str WorkingFolder`
-
----
-
-### ForceDllToNotUnload
-
-`private: void ForceDllToNotUnload(self)`
-
-Gets the session Speos Preferences.
-
-Returns the [Preferences](class-preferences.md) belonging to this session.

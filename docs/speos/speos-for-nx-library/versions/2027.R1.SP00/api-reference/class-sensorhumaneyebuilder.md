@@ -45,7 +45,10 @@ Represents a Human Eye Sensor Builder.
 | [VisionFieldVerticalSampling](#visionfieldverticalsampling) | public |
 | [VisionFieldVerticalResolution](#visionfieldverticalresolution) | public |
 | [VisionFieldVerticalMirroredExtent](#visionfieldverticalmirroredextent) | public |
+| [WavelengthStart](#wavelengthstart) | public |
+| [WavelengthEnd](#wavelengthend) | public |
 | [WavelengthSampling](#wavelengthsampling) | public |
+| [WavelengthResolution](#wavelengthresolution) | public |
 | [PupilDiameter](#pupildiameter) | public |
 | [ShowGrid](#showgrid) | public |
 | [GridOriginX](#gridoriginx) | public |
@@ -72,7 +75,7 @@ The default value is 0.
 
 ### LayerType
 
-`Type LayerType`
+`int LayerType`
 
 Gets or sets the layer mode.
 
@@ -173,7 +176,7 @@ The default value is 20.0 degrees.
 
 ### VisionFieldHorizontalSampling
 
-`Sampling VisionFieldHorizontalSampling`
+`int VisionFieldHorizontalSampling`
 
 Gets the horizontal sampling for vision field.
 
@@ -195,7 +198,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 
 ### VisionFieldHorizontalMirroredExtent
 
-`MirroredExtent VisionFieldHorizontalMirroredExtent`
+`bool VisionFieldHorizontalMirroredExtent`
 
 Gets or sets the mirrored extent property for horizontal vision field.
 
@@ -239,7 +242,7 @@ The default value is 10.0 degrees.
 
 ### VisionFieldVerticalSampling
 
-`Sampling VisionFieldVerticalSampling`
+`int VisionFieldVerticalSampling`
 
 Gets the vertical sampling for vision field.
 
@@ -261,7 +264,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 
 ### VisionFieldVerticalMirroredExtent
 
-`MirroredExtent VisionFieldVerticalMirroredExtent`
+`bool VisionFieldVerticalMirroredExtent`
 
 Gets or sets the mirrored extent property for vertical vision field.
 
@@ -275,9 +278,33 @@ The default value is False.
 
 ---
 
+### WavelengthStart
+
+`float WavelengthStart`
+
+Gets the lower value of the wavelength range to be considered by the sensor.
+
+**Value type**: Double (in nm).  
+  
+The default value is 360.0 nm.
+
+---
+
+### WavelengthEnd
+
+`float WavelengthEnd`
+
+Gets the higher value of the wavelength range to be considered by the sensor.
+
+**Value type**: Double (in nm).  
+  
+The default value is 830.0 nm.
+
+---
+
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -285,6 +312,16 @@ Gets or sets the wavelength sampling.
 **Range**: The value must be superior to 0.  
   
 The default value is 13.
+
+---
+
+### WavelengthResolution
+
+`float WavelengthResolution`
+
+Gets or sets the Wavelength resolution
+
+**Value type**: Double.
 
 ---
 

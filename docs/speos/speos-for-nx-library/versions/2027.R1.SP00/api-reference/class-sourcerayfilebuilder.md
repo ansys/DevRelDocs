@@ -155,7 +155,7 @@ The default value is an empty string.
 
 ### ExitGeometries
 
-`Geometries ExitGeometries`
+`list[int] ExitGeometries`
 
 Gets or sets exit geometries.
 

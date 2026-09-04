@@ -25,7 +25,7 @@ Gets or sets the name of the group.
 
 ### ContributionSurfaces
 
-`Faces ContributionSurfaces`
+`SelectFaceList ContributionSurfaces`
 
 Returns the contribution surfaces object.
 

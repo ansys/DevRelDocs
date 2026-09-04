@@ -44,6 +44,7 @@ Represents a Polarization Plate Component Builder.
 | [RetarderOptimalWavelength](#retarderoptimalwavelength) | public |
 | [RetardanceMultiplicator](#retardancemultiplicator) | public |
 | [RetardanceDivisor](#retardancedivisor) | public |
+| [Thickness](#thickness) | public |
 
 ## Public Static Attributes
 
@@ -115,7 +116,7 @@ The default value is 1.0 mm.
 
 ### XMirroredExtent
 
-`MirroredExtent XMirroredExtent`
+`bool XMirroredExtent`
 
 Gets or sets the component X dimension mirrored extent value.
 
@@ -129,7 +130,7 @@ The default value is False.
 
 ### YMirroredExtent
 
-`MirroredExtent YMirroredExtent`
+`bool YMirroredExtent`
 
 Gets or sets the component Y dimension mirrored extent value.
 
@@ -143,7 +144,7 @@ The default value is False.
 
 ### PolarizationType
 
-`Type PolarizationType`
+`int PolarizationType`
 
 Gets or sets the polarization type of the component.
 
@@ -164,7 +165,7 @@ The default value is 1.
 
 ### DiattenuatorType
 
-`Type DiattenuatorType`
+`int DiattenuatorType`
 
 Gets or sets the DiattenuatorType type of the component.
 
@@ -223,7 +224,7 @@ The default value is an empty string.
 
 ### RetarderOptimalWavelength
 
-`Wavelength RetarderOptimalWavelength`
+`float RetarderOptimalWavelength`
 
 Gets or sets the retarder optimal wavelength value.
 
@@ -257,3 +258,14 @@ Gets or sets the retardance deivisor value.
 **Value type**: Double.  
   
 The default value is 2.0.
+
+---
+
+### Thickness
+
+`float Thickness`
+
+Gets the Thickness value.
+
+**Prerequisite**: The WavelengthIncidenceDependency property must be True.  
+**Value type**: Double.

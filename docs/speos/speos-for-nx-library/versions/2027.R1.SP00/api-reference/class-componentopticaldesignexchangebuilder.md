@@ -75,7 +75,7 @@ The default value is false.
 
 ### CustomAxisSystem
 
-`AxisSystem CustomAxisSystem`
+`bool CustomAxisSystem`
 
 Gets or sets the property to activate or deactivate the use of a custom axis system.
 

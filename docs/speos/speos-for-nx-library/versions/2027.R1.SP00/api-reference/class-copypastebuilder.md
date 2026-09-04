@@ -31,7 +31,7 @@ Represents a Copy/Paste Builder.
 
 ### Feature
 
-`Builder Feature`
+`Feature Feature`
 
 Returns the copy of the feature.
 

@@ -92,7 +92,7 @@ The default value is 683.0 lm for FluxUnitType = 0, 1.0 W for FluxUnitType = 1 a
 
 ### UseFluxFromFile
 
-`FluxFromFile UseFluxFromFile`
+`bool UseFluxFromFile`
 
 Gets or sets the property to use the flux from file.
 
@@ -193,7 +193,7 @@ The default value is an empty string.
 
 ### EmissiveFaces
 
-`Faces EmissiveFaces`
+`SourceSurfaceEmissiveFaces EmissiveFaces`
 
 Returns the interface to edit the emissive faces of the source.
 
@@ -220,7 +220,7 @@ The default value is False.
 
 ### ExitanceXDirectionReversed
 
-`XDirectionReversed ExitanceXDirectionReversed`
+`bool ExitanceXDirectionReversed`
 
 Gets or sets the property to reverse the exitance of X direction.
 
@@ -236,7 +236,7 @@ The default value is False.
 
 ### ExitanceYDirectionReversed
 
-`YDirectionReversed ExitanceYDirectionReversed`
+`bool ExitanceYDirectionReversed`
 
 Gets or sets the property to reverse the exitance of Y direction.
 
@@ -252,7 +252,7 @@ The default value is False.
 
 ### IntensityType
 
-`Type IntensityType`
+`int IntensityType`
 
 Gets or sets the intensity type of the light source.
 
@@ -353,7 +353,7 @@ The default value is an empty string.
 
 ### IntensityOrientation
 
-`Orientation IntensityOrientation`
+`int IntensityOrientation`
 
 Gets or sets the orientation type.
 
@@ -411,7 +411,7 @@ The default value is False.
 
 ### AssociatedGeometries
 
-`Geometries AssociatedGeometries`
+`list[int] AssociatedGeometries`
 
 Gets or sets associated geometries.
 
@@ -424,7 +424,7 @@ The default value is an empty list.
 
 ### ExitGeometries
 
-`Geometries ExitGeometries`
+`list[int] ExitGeometries`
 
 Gets or sets the exit geometries.
 
@@ -437,7 +437,7 @@ The default value is an empty list.
 
 ### IntensityXDirectionReversed
 
-`XDirectionReversed IntensityXDirectionReversed`
+`bool IntensityXDirectionReversed`
 
 Gets or sets the property to reverse the intensity X direction.
 
@@ -453,7 +453,7 @@ The default value is False.
 
 ### IntensityYDirectionReversed
 
-`YDirectionReversed IntensityYDirectionReversed`
+`bool IntensityYDirectionReversed`
 
 Gets or sets the property to reverse the intensity Y direction.
 

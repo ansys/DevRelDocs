@@ -101,7 +101,7 @@ The default value is an empty string.
 
 ### Temperature
 
-`str Temperature`
+`float Temperature`
 
 Gets or sets the temperature.
 

@@ -56,7 +56,7 @@ The default value is 0.
 
 ### XSize
 
-`Size XSize`
+`float XSize`
 
 Gets or sets the X size.
 
@@ -69,7 +69,7 @@ The default value is 50.0 mm.
 
 ### XSampling
 
-`Sampling XSampling`
+`int XSampling`
 
 Gets or sets the X sampling.
 
@@ -82,7 +82,7 @@ The default value is 100.
 
 ### YSize
 
-`Size YSize`
+`float YSize`
 
 Gets or sets the Y size.
 
@@ -95,7 +95,7 @@ The default value is 50.0 mm.
 
 ### YSampling
 
-`Sampling YSampling`
+`int YSampling`
 
 Gets or sets the Y sampling.
 
@@ -108,7 +108,7 @@ The default value is 100.
 
 ### ZSize
 
-`Size ZSize`
+`float ZSize`
 
 Gets or sets the Z size.
 
@@ -121,7 +121,7 @@ The default value is 50.0 mm.
 
 ### ZSampling
 
-`Sampling ZSampling`
+`int ZSampling`
 
 Gets or sets the Z sampling.
 

@@ -113,7 +113,7 @@ The default value is 0.
 
 ### WhitePointType
 
-`Type WhitePointType`
+`int WhitePointType`
 
 Gets or sets the white point type of the standard illuminant.
 
@@ -198,7 +198,7 @@ The default value is an empty string.
 
 ### PreviewSize
 
-`Size PreviewSize`
+`float PreviewSize`
 
 Gets or sets the preview arrows size.
 

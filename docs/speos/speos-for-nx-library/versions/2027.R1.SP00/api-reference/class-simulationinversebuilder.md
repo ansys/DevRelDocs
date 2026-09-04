@@ -90,7 +90,7 @@ The default value is 5.
 
 ### StopOnDuration
 
-`Duration StopOnDuration`
+`bool StopOnDuration`
 
 Gets or sets the duration.
 
@@ -161,7 +161,7 @@ The default value is an empty list.
 
 ### SourcesOptions
 
-`list[SourceOptions] SourcesOptions`
+`list[DataModels::CSourceOptions] SourcesOptions`
 
 Gets the list of source options.
 
@@ -173,7 +173,7 @@ The number of elements corresponds to the number of sources in the simulation.
 
 ### GeometriesOptions
 
-`list[GeometryOptions] GeometriesOptions`
+`list[DataModels::CGeometryOptions] GeometriesOptions`
 
 Gets the list of geometry options.
 
@@ -185,7 +185,7 @@ The number of elements corresponds to the number of geometries in the simulation
 
 ### SensorsOptions
 
-`list[SensorOptions] SensorsOptions`
+`list[DataModels::CSensorOptions] SensorsOptions`
 
 Gets the list of sensor options.
 

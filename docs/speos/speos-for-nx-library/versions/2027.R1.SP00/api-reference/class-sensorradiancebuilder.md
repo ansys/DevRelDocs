@@ -43,10 +43,14 @@ Represents a Radiance Sensor Builder.
 | [ObserverPoint](#observerpoint) | public |
 | [ObserverFrontDirection](#observerfrontdirection) | public |
 | [ObserverTopDirection](#observertopdirection) | public |
+| [ObserverFrontDirectionReversed](#observerfrontdirectionreversed) | public |
+| [ObserverTopDirectionReversed](#observertopdirectionreversed) | public |
 | [ObserverHorizontalFOV](#observerhorizontalfov) | public |
 | [ObserverVerticalFOV](#obserververticalfov) | public |
 | [ObserverHorizontalSampling](#observerhorizontalsampling) | public |
 | [ObserverVerticalSampling](#obserververticalsampling) | public |
+| [ObserverHorizontalResolution](#observerhorizontalresolution) | public |
+| [ObserverVerticalResolution](#obserververticalresolution) | public |
 | [UseAutomaticFraming](#useautomaticframing) | public |
 
 ## Public Static Attributes
@@ -97,7 +101,7 @@ The default value is 1.33.
 
 ### ObserverType
 
-`Type ObserverType`
+`int ObserverType`
 
 Gets or sets the observer type.
 
@@ -130,7 +134,7 @@ The default value is 250.0 mm.
 
 ### FrameObserverPoint
 
-`ObserverPoint FrameObserverPoint`
+`int FrameObserverPoint`
 
 Gets or sets the frame observer point.
 
@@ -175,7 +179,7 @@ The default value is 0.
 
 ### ObserverFrontDirection
 
-`Direction ObserverFrontDirection`
+`int ObserverFrontDirection`
 
 Gets or sets the observer front direction.
 
@@ -190,7 +194,7 @@ The default value is 0.
 
 ### ObserverTopDirection
 
-`Direction ObserverTopDirection`
+`int ObserverTopDirection`
 
 Gets or sets the observer top direction.
 
@@ -200,6 +204,38 @@ The property observer top direction takes a feature tag and returns a feature ta
 **Value type**: Integer.  
   
 The default value is 0.
+
+---
+
+### ObserverFrontDirectionReversed
+
+`bool ObserverFrontDirectionReversed`
+
+Gets or sets the reverse direction of observer front direction.
+
+**Prerequisite**: The DefinitionType must be 2.  
+  
+True: Reverses the observer front direction.  
+False: Does not reverse the Observer Front Direction.  
+**Value type**: Boolean.  
+  
+The default value is False.
+
+---
+
+### ObserverTopDirectionReversed
+
+`bool ObserverTopDirectionReversed`
+
+Gets or sets the reverse direction of observer top direction.
+
+**Prerequisite**: The DefinitionType must be 2.  
+  
+True: Reverses the Observer top Direction.  
+False: Does not reverse the observer top direction.  
+**Value type**: Boolean.  
+  
+The default value is False.
 
 ---
 
@@ -233,7 +269,7 @@ The default value is 2.0 degrees.
 
 ### ObserverHorizontalSampling
 
-`Sampling ObserverHorizontalSampling`
+`int ObserverHorizontalSampling`
 
 Gets or sets the observer horizontal sampling.
 
@@ -247,7 +283,7 @@ The default value is 100.
 
 ### ObserverVerticalSampling
 
-`Sampling ObserverVerticalSampling`
+`int ObserverVerticalSampling`
 
 Gets or sets the observer vertical sampling.
 
@@ -256,6 +292,28 @@ Gets or sets the observer vertical sampling.
 **Range**: The value must be superior to 0.  
   
 The default value is 100.
+
+---
+
+### ObserverHorizontalResolution
+
+`float ObserverHorizontalResolution`
+
+Gets or sets the observer horizontal resolution.
+
+**Prerequisite**: The DefinitionType must be 2.  
+**Value type**: Integer.
+
+---
+
+### ObserverVerticalResolution
+
+`float ObserverVerticalResolution`
+
+Gets or sets the observer vertical resolution.
+
+**Prerequisite**: The DefinitionType must be 2.  
+**Value type**: Integer.
 
 ---
 

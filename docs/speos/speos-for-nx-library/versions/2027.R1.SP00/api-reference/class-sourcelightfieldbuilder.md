@@ -40,7 +40,7 @@ Represents a light field source builder.
 
 ### CustomAxisSystem
 
-`AxisSystem CustomAxisSystem`
+`bool CustomAxisSystem`
 
 Gets or sets the custom axis system property.
 

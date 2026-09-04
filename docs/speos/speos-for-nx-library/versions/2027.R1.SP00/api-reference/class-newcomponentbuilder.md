@@ -57,7 +57,7 @@ The default value is "Entire Part" Reference Set.
 
 ### NewComponent
 
-`Component NewComponent`
+`int NewComponent`
 
 Returns the created component tag.
 

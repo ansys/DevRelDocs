@@ -31,7 +31,7 @@ Represents a Speos Optical Component Design Exchange feature.
 
 ### Results
 
-`list[FeatureComponentOpticalDesignExchangeResult] Results`
+`ComponentOpticalDesignExchangeResultCollection Results`
 
 Gets the result collection.
 

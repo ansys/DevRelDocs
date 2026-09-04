@@ -36,7 +36,7 @@ Represents a Speos simulation feature.
 
 ### Results
 
-`list[FeatureComponentOpticalDesignExchangeResult] Results`
+`ResultCollection Results`
 
 Gets the result collection.
 

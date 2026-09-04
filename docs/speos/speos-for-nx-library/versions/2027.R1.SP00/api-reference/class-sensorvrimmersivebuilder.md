@@ -30,6 +30,7 @@ Represents the builder for an immersive sensor.
 | Member | Type |
 | --- | --- |
 | [Sampling](#sampling) | public |
+| [Resolution](#resolution) | public |
 | [LayerType](#layertype) | public |
 | [Stereo](#stereo) | public |
 | [InterocularDistance](#interoculardistance) | public |
@@ -65,9 +66,19 @@ The default value is 600.
 
 ---
 
+### Resolution
+
+`float Resolution`
+
+Gets the resolution.
+
+**Value type**: Double.
+
+---
+
 ### LayerType
 
-`Type LayerType`
+`int LayerType`
 
 Gets or sets the layer type.
 
@@ -98,7 +109,7 @@ The default value is False.
 
 ### InterocularDistance
 
-`Distance InterocularDistance`
+`float InterocularDistance`
 
 Gets or sets the interocular distance.
 
@@ -112,7 +123,7 @@ The default value is 65.0 mm.
 
 ### AxisSystem
 
-`Value AxisSystem`
+`DataModels::CAxisSystem AxisSystem`
 
 Gets the axis system.
 
@@ -268,7 +279,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -291,7 +302,7 @@ Gets or sets the Wavelength resolution
 
 ### PreviewSize
 
-`Size PreviewSize`
+`float PreviewSize`
 
 Gets or sets the preview arrows size.
 

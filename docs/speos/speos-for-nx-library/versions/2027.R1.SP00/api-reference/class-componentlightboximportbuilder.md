@@ -30,8 +30,10 @@ Represents a Component Light Box Import Builder.
 | Member | Type |
 | --- | --- |
 | [SpeosLightBoxFilePath](#speoslightboxfilepath) | public |
+| [PasswordRequired](#passwordrequired) | public |
 | [PreviewMode](#previewmode) | public |
 | [CustomAxisSystem](#customaxissystem) | public |
+| [BlackBox](#blackbox) | public |
 | [Trajectory](#trajectory) | public |
 | [TrajectoryFilePath](#trajectoryfilepath) | public |
 
@@ -46,6 +48,19 @@ Gets or sets the Speos light box file path.
 **Value type**: String.  
   
 The default value is an empty file path (string).
+
+---
+
+### PasswordRequired
+
+`bool PasswordRequired`
+
+Gets the property to know if a password is required to read the Speos light box file.
+
+Returns true if a password is required to read the Speos light box file, otherwise returns false.  
+**Value type**: Boolean.  
+  
+The default value is false.
 
 ---
 
@@ -66,7 +81,7 @@ The default value is 1.
 
 ### CustomAxisSystem
 
-`AxisSystem CustomAxisSystem`
+`bool CustomAxisSystem`
 
 Gets or sets the property to activate or deactivate the use of a custom axis system.
 
@@ -75,6 +90,19 @@ False: Disables custom axis system.
 **Value type**: Boolean.  
   
 The default value is False.
+
+---
+
+### BlackBox
+
+`bool BlackBox`
+
+Gets the property to know if the Speos light box file is protected.
+
+Returns true if the Speos light box file is protected, otherwise returns false.  
+**Value type**: Boolean.  
+  
+The default value is false.
 
 ---
 

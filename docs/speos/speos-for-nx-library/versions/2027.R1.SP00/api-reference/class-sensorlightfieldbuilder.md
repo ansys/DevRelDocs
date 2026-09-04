@@ -32,8 +32,12 @@ Represents a light field sensor builder.
 | [Type](#type) | public |
 | [Selections](#selections) | public |
 | [CustomAxisSystem](#customaxissystem) | public |
+| [IncidentStart](#incidentstart) | public |
+| [IncidentEnd](#incidentend) | public |
 | [IncidentSampling](#incidentsampling) | public |
 | [IncidentResolution](#incidentresolution) | public |
+| [AzimuthStart](#azimuthstart) | public |
+| [AzimuthEnd](#azimuthend) | public |
 | [AzimuthSampling](#azimuthsampling) | public |
 | [AzimuthResolution](#azimuthresolution) | public |
 | [WavelengthStart](#wavelengthstart) | public |
@@ -72,7 +76,7 @@ Returns the interface to select the oriented faces and bodies on which to measur
 
 ### CustomAxisSystem
 
-`AxisSystem CustomAxisSystem`
+`bool CustomAxisSystem`
 
 Gets or sets the custom axis system property.
 
@@ -84,9 +88,33 @@ The default value is False.
 
 ---
 
+### IncidentStart
+
+`float IncidentStart`
+
+Gets the incident angle start.
+
+**Value type**: Double (in degree).  
+  
+The default value is 0 deg.
+
+---
+
+### IncidentEnd
+
+`float IncidentEnd`
+
+Gets the incident angle end.
+
+**Value type**: Double (in degree).  
+  
+The default value is 90 deg.
+
+---
+
 ### IncidentSampling
 
-`Sampling IncidentSampling`
+`int IncidentSampling`
 
 Gets or sets the incident sampling.
 
@@ -110,9 +138,33 @@ The default value is 9 deg.
 
 ---
 
+### AzimuthStart
+
+`float AzimuthStart`
+
+Gets the azimuth start.
+
+**Value type**: Double (in degree).  
+  
+The default value is 0 deg.
+
+---
+
+### AzimuthEnd
+
+`float AzimuthEnd`
+
+Gets the azimuth end.
+
+**Value type**: Double (in degree).  
+  
+The default value is 360 deg.
+
+---
+
 ### AzimuthSampling
 
-`Sampling AzimuthSampling`
+`int AzimuthSampling`
 
 Gets or sets the azimuth sampling.
 
@@ -164,7 +216,7 @@ The default value is 700 nm.
 
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 

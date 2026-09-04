@@ -35,6 +35,8 @@ Represents a Camera Sensor Builder.
 | [DisplayObjectField](#displayobjectfield) | public |
 | [VisualizationRadius](#visualizationradius) | public |
 | [DisplayAperture](#displayaperture) | public |
+| [HorizontalFOV](#horizontalfov) | public |
+| [VerticalFOV](#verticalfov) | public |
 | [FocalLength](#focallength) | public |
 | [FNumber](#fnumber) | public |
 | [ImagerDistance](#imagerdistance) | public |
@@ -62,6 +64,9 @@ Represents a Camera Sensor Builder.
 | [WavelengthStart](#wavelengthstart) | public |
 | [WavelengthEnd](#wavelengthend) | public |
 | [WavelengthSampling](#wavelengthsampling) | public |
+| [WavelengthResolution](#wavelengthresolution) | public |
+| [DistortionVersion](#distortionversion) | public |
+| [DistortionWithDiffraction](#distortionwithdiffraction) | public |
 | [UpdateWavelengthSamplingFromResolution](#updatewavelengthsamplingfromresolution) | public |
 
 ## Public Static Attributes
@@ -83,7 +88,7 @@ The default value is 0.
 
 ### LayerType
 
-`Type LayerType`
+`int LayerType`
 
 Gets or sets the layer mode.
 
@@ -126,7 +131,7 @@ The default value is True.
 
 ### VisualizationRadius
 
-`Radius VisualizationRadius`
+`float VisualizationRadius`
 
 Gets or sets the Visualization radius.
 
@@ -149,6 +154,26 @@ False: Does not display the Aperture
 **Value type**: Boolean.  
   
 The default value is True.
+
+---
+
+### HorizontalFOV
+
+`float HorizontalFOV`
+
+Gets the Horizontal Field of View.
+
+**Value type**: Double.
+
+---
+
+### VerticalFOV
+
+`float VerticalFOV`
+
+Gets the Vertical Field of View.
+
+**Value type**: Double.
 
 ---
 
@@ -182,7 +207,7 @@ The default value is 15.0.
 
 ### ImagerDistance
 
-`Distance ImagerDistance`
+`float ImagerDistance`
 
 Gets or sets the Image Distance.
 
@@ -519,7 +544,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -528,6 +553,37 @@ Gets or sets the wavelength sampling.
 **Range**: The value must be superior to 0.  
   
 The default value is 13.
+
+---
+
+### WavelengthResolution
+
+`float WavelengthResolution`
+
+Gets the Wavelength resolution.
+
+**Prerequisite**: The CameraMode property must be 1.  
+**Value type**: Double.
+
+---
+
+### DistortionVersion
+
+`float DistortionVersion`
+
+Gets the distortion version.
+
+**Value type**: Double.
+
+---
+
+### DistortionWithDiffraction
+
+`bool DistortionWithDiffraction`
+
+Gets whether the distortion file includes diffraction parameters.
+
+**Value type**: Boolean.
 
 ## Public Member Functions
 

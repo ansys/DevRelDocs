@@ -25,15 +25,28 @@ Represents a Speos result feature.
 
 | Member | Type |
 | --- | --- |
+| [Filename](#filename) | public |
 | [AssociatedLPFResult](#associatedlpfresult) | public |
 | [Measures](#measures) | public |
 | [Rules](#rules) | public |
 
 ## Public Static Attributes
 
+### Filename
+
+`Name Filename`
+
+Gets the result file name with its extension.
+
+**value type**: String.  
+  
+The default value is an empty string.
+
+---
+
 ### AssociatedLPFResult
 
-`Feature AssociatedLPFResult`
+`ResultFeature AssociatedLPFResult`
 
 Returns the LPF result feature associated to this XMP result feature.
 

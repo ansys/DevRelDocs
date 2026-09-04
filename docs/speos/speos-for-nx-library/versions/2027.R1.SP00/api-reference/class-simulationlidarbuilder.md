@@ -60,7 +60,7 @@ Represents an LiDAR Simulation Builder.
 
 ### Geometries
 
-`list Geometries`
+`list[int] Geometries`
 
 Gets or sets geometries tag.
 
@@ -92,7 +92,7 @@ Gets the simulation feature in order to launch simulations.
 
 ### StopOnRaysNumber
 
-`RaysNumber StopOnRaysNumber`
+`bool StopOnRaysNumber`
 
 Gets or sets the property to enable stop on rays number.
 
@@ -141,7 +141,7 @@ The default value is 1.
 
 ### StopOnDuration
 
-`Duration StopOnDuration`
+`bool StopOnDuration`
 
 Gets or sets the property to stop on duration.
 
@@ -171,7 +171,7 @@ The default value is 1800.0 s.
 
 ### SourceGridSampling
 
-`Sampling SourceGridSampling`
+`int SourceGridSampling`
 
 Gets or sets the grid sampling of the source.
 
@@ -184,7 +184,7 @@ The default value is 100000.
 
 ### SensorPixelGridSampling
 
-`Sampling SensorPixelGridSampling`
+`int SensorPixelGridSampling`
 
 Gets or sets the pixel grid sampling of the sensor.
 
@@ -239,7 +239,7 @@ The default value is 500.0 s.
 
 ### UseAmbientMaterial
 
-`AmbientMaterial UseAmbientMaterial`
+`bool UseAmbientMaterial`
 
 Gets or sets the property to enable ambient material.
 
@@ -308,7 +308,7 @@ The default value is True.
 
 ### UsePresetSettings
 
-`PresetSettings UsePresetSettings`
+`bool UsePresetSettings`
 
 Gets or sets the property to enable preset settings.
 
@@ -322,7 +322,7 @@ The default value is False.
 
 ### Preset
 
-`Preset Preset`
+`DataModels::CPreset Preset`
 
 Gets or sets the Preset object.
 
@@ -335,7 +335,7 @@ The default value is None.
 
 ### AllPreset
 
-`Preset AllPreset`
+`list[DataModels::CPreset] AllPreset`
 
 Gets all Preset.
 
@@ -345,7 +345,7 @@ Gets all Preset.
 
 ### Settings
 
-`SimulationSettings Settings`
+`DataModels::CSimulationSettings Settings`
 
 Gets or sets the simulation settings.
 

@@ -83,7 +83,7 @@ The default value is 0.0.
 
 ### UseConstringence
 
-`Constringence UseConstringence`
+`bool UseConstringence`
 
 Gets or sets the use of constringence property.
 

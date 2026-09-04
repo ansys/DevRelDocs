@@ -29,6 +29,7 @@ Represents a Thermic Surface Source Builder.
 
 | Member | Type |
 | --- | --- |
+| [Flux](#flux) | public |
 | [FluxUnit](#fluxunit) | public |
 | [Temperature](#temperature) | public |
 | [EmittanceType](#emittancetype) | public |
@@ -49,6 +50,18 @@ Represents a Thermic Surface Source Builder.
 | [EmissiveFaces](#emissivefaces) | public |
 
 ## Public Static Attributes
+
+### Flux
+
+`float Flux`
+
+Gets the flux.
+
+**Value type**: Double.  
+  
+The default value is 0.
+
+---
 
 ### FluxUnit
 
@@ -81,7 +94,7 @@ The default value is 8000.0 Kelvin.
 
 ### EmittanceType
 
-`Type EmittanceType`
+`int EmittanceType`
 
 Gets or sets the emittance type.
 
@@ -109,7 +122,7 @@ The default value is an empty string.
 
 ### EmittanceXDirectionReversed
 
-`XDirectionReversed EmittanceXDirectionReversed`
+`bool EmittanceXDirectionReversed`
 
 Gets or sets the property to reverse the emittance of X direction.
 
@@ -125,7 +138,7 @@ The default value is False.
 
 ### EmittanceYDirectionReversed
 
-`YDirectionReversed EmittanceYDirectionReversed`
+`bool EmittanceYDirectionReversed`
 
 Gets or sets the property to reverse the emittance of Y direction.
 
@@ -141,7 +154,7 @@ The default value is False.
 
 ### IntensityType
 
-`Type IntensityType`
+`int IntensityType`
 
 Gets or sets the intensity diagram.
 
@@ -171,7 +184,7 @@ The default value is 3.0.
 
 ### SOPType
 
-`Type SOPType`
+`int SOPType`
 
 Gets or sets the surface optical properties.
 
@@ -283,7 +296,7 @@ The default value is Meshing (0).
 
 ### EnableAutomaticUpdate
 
-`Update EnableAutomaticUpdate`
+`bool EnableAutomaticUpdate`
 
 Gets or sets the property to enable/disable the automatic update.
 
@@ -297,7 +310,7 @@ The default value is False.
 
 ### EmissiveFaces
 
-`Faces EmissiveFaces`
+`SourceSurfaceEmissiveFaces EmissiveFaces`
 
 Returns the interface to edit the emissive faces of the source.
 

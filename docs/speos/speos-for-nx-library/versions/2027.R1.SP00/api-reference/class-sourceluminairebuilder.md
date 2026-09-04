@@ -175,7 +175,7 @@ The default value is 75.0 mm.
 
 ### ShowIntensityDistribution
 
-`Value ShowIntensityDistribution`
+`bool ShowIntensityDistribution`
 
 Gets or sets the property to show the intensity distribution in the 3D view.
 

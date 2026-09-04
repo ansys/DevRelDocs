@@ -53,6 +53,8 @@ Represents a LiDAR sensor Builder.
 | [SensorTransmittanceFilePath](#sensortransmittancefilepath) | public |
 | [SensorFocalLength](#sensorfocallength) | public |
 | [SensorPupilDiameter](#sensorpupildiameter) | public |
+| [SensorHorizontalFOV](#sensorhorizontalfov) | public |
+| [SensorVerticalFOV](#sensorverticalfov) | public |
 | [SensorImagerWidth](#sensorimagerwidth) | public |
 | [SensorImagerHeight](#sensorimagerheight) | public |
 | [SensorResolution](#sensorresolution) | public |
@@ -70,7 +72,7 @@ Represents a LiDAR sensor Builder.
 
 ### SensorType
 
-`Type SensorType`
+`int SensorType`
 
 Gets or sets the sensor type.
 
@@ -114,7 +116,7 @@ The default value is True.
 
 ### ObjectFieldRadius
 
-`Radius ObjectFieldRadius`
+`float ObjectFieldRadius`
 
 Gets or sets the object field radius.
 
@@ -195,7 +197,7 @@ The default value is an empty string.
 
 ### SourceSpectrumType
 
-`Type SourceSpectrumType`
+`int SourceSpectrumType`
 
 Gets or sets the spectrum type of the source.
 
@@ -210,7 +212,7 @@ The default value is 1.
 
 ### SourceWavelength
 
-`Wavelength SourceWavelength`
+`float SourceWavelength`
 
 Gets or sets the wavelength of the source.
 
@@ -236,7 +238,7 @@ The default value is an empty string.
 
 ### SourceIntensityType
 
-`IntensityType SourceIntensityType`
+`int SourceIntensityType`
 
 Gets or sets the intensity type of the source.
 
@@ -264,7 +266,7 @@ The default value is an empty string.
 
 ### SourceIntensityTotalAngle
 
-`IntensityTotalAngle SourceIntensityTotalAngle`
+`float SourceIntensityTotalAngle`
 
 Gets or sets the total angle of emission of the source.
 
@@ -370,7 +372,7 @@ The default value is an empty string.
 
 ### SensorFocalLength
 
-`FocalLength SensorFocalLength`
+`float SensorFocalLength`
 
 Gets or sets the focal length of the sensor.
 
@@ -383,7 +385,7 @@ The default value is 15.0 mm.
 
 ### SensorPupilDiameter
 
-`PupilDiameter SensorPupilDiameter`
+`float SensorPupilDiameter`
 
 Gets or sets the pupil diameter of the sensor.
 
@@ -394,9 +396,29 @@ The default value is 10.0 mm.
 
 ---
 
+### SensorHorizontalFOV
+
+`float SensorHorizontalFOV`
+
+Gets the horizontal field of view of the sensor.
+
+**Value type**: Double.
+
+---
+
+### SensorVerticalFOV
+
+`float SensorVerticalFOV`
+
+Gets the vertical field of view of the sensor.
+
+**Value type**: Double.
+
+---
+
 ### SensorImagerWidth
 
-`Width SensorImagerWidth`
+`float SensorImagerWidth`
 
 Gets or sets the image width of the sensor.
 
@@ -409,7 +431,7 @@ The default value is 3.2.
 
 ### SensorImagerHeight
 
-`Height SensorImagerHeight`
+`float SensorImagerHeight`
 
 Gets or sets the image height of the sensor.
 
@@ -436,7 +458,7 @@ The default value is False.
 
 ### SensorHorizontalPixels
 
-`HorizontalPixels SensorHorizontalPixels`
+`int SensorHorizontalPixels`
 
 Gets or sets the number of horizontal pixels of the sensor.
 
@@ -449,7 +471,7 @@ The default value is 64.
 
 ### SensorVerticalPixels
 
-`VerticalPixels SensorVerticalPixels`
+`int SensorVerticalPixels`
 
 Gets or sets the number of vertical pixels of the sensor.
 
@@ -515,7 +537,7 @@ The default value is False.
 
 ### AimingAreaType
 
-`Type AimingAreaType`
+`int AimingAreaType`
 
 Gets or sets the aiming area type.
 
@@ -530,7 +552,7 @@ The default value is 1.
 
 ### AimingAreaWidth
 
-`Width AimingAreaWidth`
+`float AimingAreaWidth`
 
 Gets or sets the aiming area width of the sensor.
 
@@ -543,7 +565,7 @@ The default value is 0.0.
 
 ### AimingAreaHeight
 
-`Height AimingAreaHeight`
+`float AimingAreaHeight`
 
 Gets or sets the aiming area height of the sensor.
 

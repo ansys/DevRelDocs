@@ -80,7 +80,7 @@ The default value is True.
 
 ### VOPType
 
-`Type VOPType`
+`int VOPType`
 
 Gets or sets the volume optical properties type.
 
@@ -99,7 +99,7 @@ The default value is 1.
 
 ### VOPIndex
 
-`Index VOPIndex`
+`float VOPIndex`
 
 Gets or sets the volume optical properties index.
 
@@ -113,7 +113,7 @@ The default value is 1.5.
 
 ### VOPAbsorption
 
-`Absorption VOPAbsorption`
+`float VOPAbsorption`
 
 Gets or sets the volume optical properties absorption.
 
@@ -127,7 +127,7 @@ The default value is 0.0.
 
 ### UseVOPConstringence
 
-`VOPConstringence UseVOPConstringence`
+`bool UseVOPConstringence`
 
 Gets or sets the volume optical properties constringence property.
 
@@ -143,7 +143,7 @@ The default value is False.
 
 ### VOPConstringence
 
-`Constringence VOPConstringence`
+`float VOPConstringence`
 
 Gets or sets the volume optical properties constringence.
 
@@ -170,7 +170,7 @@ The default value is an empty string.
 
 ### SOPType
 
-`Type SOPType`
+`int SOPType`
 
 Gets or sets the surface optical properties.
 
@@ -287,7 +287,7 @@ The default value is 1.
 
 ### MeshingSagValue
 
-`Value MeshingSagValue`
+`float MeshingSagValue`
 
 Gets or sets the meshing sag value.
 
@@ -317,7 +317,7 @@ The default value is 1.
 
 ### MeshingStepValue
 
-`Value MeshingStepValue`
+`float MeshingStepValue`
 
 Gets or sets the meshing step value.
 
@@ -348,7 +348,7 @@ The default value is False.
 
 ### MeshingEdgeSagValue
 
-`Value MeshingEdgeSagValue`
+`float MeshingEdgeSagValue`
 
 Gets or sets the meshing edge sag value.
 

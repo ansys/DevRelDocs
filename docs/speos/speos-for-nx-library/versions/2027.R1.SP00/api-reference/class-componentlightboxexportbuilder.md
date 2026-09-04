@@ -67,7 +67,7 @@ The default value is 0.
 
 ### MeshingSagValue
 
-`Value MeshingSagValue`
+`float MeshingSagValue`
 
 Gets or sets the meshing sag value.
 
@@ -95,7 +95,7 @@ The default value is 0.
 
 ### MeshingStepValue
 
-`Value MeshingStepValue`
+`float MeshingStepValue`
 
 Gets or sets the meshing step fixed value.
 
@@ -169,7 +169,7 @@ The default value is 10.0 degrees.
 
 ### CustomAxisSystem
 
-`AxisSystem CustomAxisSystem`
+`bool CustomAxisSystem`
 
 Gets or sets the property to enable custom axis system.
 
@@ -183,7 +183,7 @@ The default value is False.
 
 ### AxisSystem
 
-`AxisSystem AxisSystem`
+`DataModels::CAxisSystem AxisSystem`
 
 Gets the axis system.
 
@@ -205,7 +205,7 @@ Gets the current source features that are in the component.
 
 ### Geometries
 
-`list Geometries`
+`list[int] Geometries`
 
 Gets geometries tag.
 
@@ -215,7 +215,7 @@ The Geometries property returns a list of feature tag.
 
 ### GeometriesOptions
 
-`list[GeometryOptions] GeometriesOptions`
+`list[DataModels::CGeometryOptions] GeometriesOptions`
 
 Gets the list of geometry options.
 

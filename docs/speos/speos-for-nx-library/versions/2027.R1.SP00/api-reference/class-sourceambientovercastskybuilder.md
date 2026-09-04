@@ -44,7 +44,7 @@ Represents the builder for an Ambient Source with CIE Standard Overcast Sky type
 
 ### ZenithDirection
 
-`Direction ZenithDirection`
+`int ZenithDirection`
 
 Gets or sets the zenith direction.
 

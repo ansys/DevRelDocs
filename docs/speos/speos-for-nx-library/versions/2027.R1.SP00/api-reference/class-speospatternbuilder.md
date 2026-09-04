@@ -117,7 +117,7 @@ The default value is True.
 
 ### RayFileFlux
 
-`Flux RayFileFlux`
+`float RayFileFlux`
 
 Gets or sets the flux of the ray file source.
 
@@ -131,7 +131,7 @@ By default the value comes from the ray file, otherwise value is 683. lumen.
 
 ### RayFileFluxUnit
 
-`FluxUnit RayFileFluxUnit`
+`int RayFileFluxUnit`
 
 Gets or sets the flux unit of the ray file source.
 
@@ -147,7 +147,7 @@ The default value is 0.
 
 ### RayFileFluxFromFile
 
-`FluxFromFile RayFileFluxFromFile`
+`bool RayFileFluxFromFile`
 
 Gets or sets the property to enable fetching the flux from file.
 
@@ -161,7 +161,7 @@ The default value is True.
 
 ### RayFileSpectrumType
 
-`Type RayFileSpectrumType`
+`int RayFileSpectrumType`
 
 Gets or sets the spectrum type.
 
@@ -177,7 +177,7 @@ The default value is 0.
 
 ### RayFileWavelength
 
-`Wavelength RayFileWavelength`
+`float RayFileWavelength`
 
 Gets or sets the wavelength.
 
@@ -190,7 +190,7 @@ The default value is 555.0 nm.
 
 ### RayFileTemperature
 
-`Temperature RayFileTemperature`
+`float RayFileTemperature`
 
 Gets or sets the temperature.
 

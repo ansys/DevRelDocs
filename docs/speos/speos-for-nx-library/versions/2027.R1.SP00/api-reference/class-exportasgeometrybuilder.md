@@ -29,6 +29,7 @@ Represents a Export As Geometry Builder.
 | [ExportMode](#exportmode) | public |
 | [PartName](#partname) | public |
 | [ExportComponent](#exportcomponent) | public |
+| [UseExportTemplate](#useexporttemplate) | public |
 | [ExportTemplateName](#exporttemplatename) | public |
 
 ## Public Static Attributes
@@ -76,7 +77,7 @@ The default value is Speos Export Part.
 
 ### ExportComponent
 
-`Component ExportComponent`
+`int ExportComponent`
 
 Gets or sets the component used to export geometry.
 
@@ -85,6 +86,20 @@ The Features property takes and returns a list of feature objects.
 **Value type**: Component tag.  
   
 The default value is an empty.
+
+---
+
+### UseExportTemplate
+
+`bool UseExportTemplate`
+
+Gets or sets the Part template activation .
+
+True: Use Part template.  
+False: Does not use Part template.  
+**Value type**: Boolean.  
+  
+The default value is False.
 
 ---
 

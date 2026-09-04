@@ -72,7 +72,7 @@ The default value is 0.
 
 ### MeshingSagValue
 
-`Value MeshingSagValue`
+`float MeshingSagValue`
 
 Gets or sets the meshing sag value.
 
@@ -100,7 +100,7 @@ The default value is 0.
 
 ### MeshingStepValue
 
-`Value MeshingStepValue`
+`float MeshingStepValue`
 
 Gets or sets the meshing step fixed value.
 
@@ -501,7 +501,7 @@ The default value is 0.
 
 ### AmbientSampling
 
-`Sampling AmbientSampling`
+`int AmbientSampling`
 
 Gets or sets the ambient sampling.
 
@@ -610,7 +610,7 @@ The default value is 100.
 
 ### MaxSearchRadius
 
-`Radius MaxSearchRadius`
+`float MaxSearchRadius`
 
 Gets or sets the maximum search radius.
 

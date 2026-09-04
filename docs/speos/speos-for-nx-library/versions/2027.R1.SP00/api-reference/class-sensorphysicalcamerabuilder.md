@@ -104,7 +104,7 @@ The default value is 0.
 
 ### RayTracerPrecisionType
 
-`Type RayTracerPrecisionType`
+`int RayTracerPrecisionType`
 
 Gets or sets the ray tracer type.
 

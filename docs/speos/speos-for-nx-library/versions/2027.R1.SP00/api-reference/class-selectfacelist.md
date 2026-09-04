@@ -89,7 +89,7 @@ Returns True if the given face exists in the list, False otherwise.
 
 ### Array
 
-`int Array`
+`list[int] Array`
 
 Gets or sets the faces.
 
@@ -102,7 +102,7 @@ The default value is an empty list.
 
 ### Faces
 
-`int Faces`
+`list[int] Faces`
 
 Gets the faces that are alive.
 

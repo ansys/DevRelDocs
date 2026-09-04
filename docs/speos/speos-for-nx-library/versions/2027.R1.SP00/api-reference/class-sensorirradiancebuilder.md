@@ -57,7 +57,7 @@ The default value is False.
 
 ### RayFileFormat
 
-`Format RayFileFormat`
+`int RayFileFormat`
 
 Gets or sets the ray file format.
 
@@ -78,7 +78,7 @@ The default value is 0.
 
 ### IntegrationType
 
-`Type IntegrationType`
+`int IntegrationType`
 
 Gets or sets the integration type.
 
@@ -112,7 +112,7 @@ The default value is False.
 
 ### OutputFaces
 
-`Faces OutputFaces`
+`list[int] OutputFaces`
 
 Gets or sets the output faces.
 

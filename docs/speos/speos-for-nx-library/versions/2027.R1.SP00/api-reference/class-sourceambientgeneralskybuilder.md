@@ -55,7 +55,7 @@ The default value is 1000.0 cd/m2.
 
 ### CIEType
 
-`Type CIEType`
+`int CIEType`
 
 Gets or sets the CIE type.
 
@@ -83,7 +83,7 @@ The default value is 5.
 
 ### SunType
 
-`Type SunType`
+`int SunType`
 
 Gets or sets the Sun type.
 

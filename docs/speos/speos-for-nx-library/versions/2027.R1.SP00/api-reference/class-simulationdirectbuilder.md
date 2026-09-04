@@ -50,7 +50,7 @@ Represents an Direct Simulation Builder.
 
 ### StopOnRaysNumber
 
-`RaysNumber StopOnRaysNumber`
+`bool StopOnRaysNumber`
 
 Gets or sets the property to enable stop on rays number.
 
@@ -99,7 +99,7 @@ The default value is 1.
 
 ### StopOnDuration
 
-`Duration StopOnDuration`
+`bool StopOnDuration`
 
 Gets or sets the property to stop on duration.
 
@@ -143,7 +143,7 @@ The default value is False.
 
 ### RayFileFormat
 
-`Format RayFileFormat`
+`int RayFileFormat`
 
 Gets or sets the ray file format.
 
@@ -209,7 +209,7 @@ The default value is an empty list.
 
 ### GeometriesOptions
 
-`list[GeometryOptions] GeometriesOptions`
+`list[DataModels::CGeometryOptions] GeometriesOptions`
 
 Gets the list of geometry options.
 
@@ -222,7 +222,7 @@ The default value is an empty list.
 
 ### SensorsOptions
 
-`list[SensorOptions] SensorsOptions`
+`list[DataModels::CSensorOptions] SensorsOptions`
 
 Gets the list of sensor options.
 

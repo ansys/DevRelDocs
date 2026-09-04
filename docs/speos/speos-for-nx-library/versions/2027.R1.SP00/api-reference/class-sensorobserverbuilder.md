@@ -96,7 +96,7 @@ The default value is 50.0 mm.
 
 ### LayerType
 
-`Type LayerType`
+`int LayerType`
 
 Gets or sets the layer type.
 
@@ -111,7 +111,7 @@ The default value is 0.
 
 ### InterocularDistance
 
-`Distance InterocularDistance`
+`float InterocularDistance`
 
 Gets or sets the interocular distance.
 
@@ -141,7 +141,7 @@ The default value is False.
 
 ### AxisSystem
 
-`AxisSystem AxisSystem`
+`DataModels::CAxisSystem AxisSystem`
 
 Gets the axis system.
 
@@ -177,7 +177,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -228,7 +228,7 @@ The default value is 180.0 degrees.
 
 ### VisionFieldHorizontalSampling
 
-`Sampling VisionFieldHorizontalSampling`
+`int VisionFieldHorizontalSampling`
 
 Gets or sets the horizontal sampling for vision field.
 
@@ -253,7 +253,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 
 ### VisionFieldHorizontalMirroredExtent
 
-`MirroredExtent VisionFieldHorizontalMirroredExtent`
+`bool VisionFieldHorizontalMirroredExtent`
 
 Gets or sets the mirrored extent property for horizontal vision field.
 
@@ -297,7 +297,7 @@ The default value is 90.0 degrees.
 
 ### VisionFieldVerticalSampling
 
-`Sampling VisionFieldVerticalSampling`
+`int VisionFieldVerticalSampling`
 
 Gets or sets the vertical sampling for vision field.
 
@@ -322,7 +322,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 
 ### VisionFieldVerticalMirroredExtent
 
-`MirroredExtent VisionFieldVerticalMirroredExtent`
+`bool VisionFieldVerticalMirroredExtent`
 
 Gets or sets the mirrored extent property for vertical vision field.
 
@@ -362,7 +362,7 @@ The default value is 50.0 mm.
 
 ### DimensionHorizontalSampling
 
-`Sampling DimensionHorizontalSampling`
+`int DimensionHorizontalSampling`
 
 Gets or sets the horizontal sampling for dimension.
 
@@ -385,7 +385,7 @@ Gets or sets the horizontal resolution for dimension.
 
 ### DimensionHorizontalMirroredExtent
 
-`MirroredExtent DimensionHorizontalMirroredExtent`
+`bool DimensionHorizontalMirroredExtent`
 
 Gets or sets the mirrored extent property for horizontal dimension.
 
@@ -423,7 +423,7 @@ The default value is 50.0 mm.
 
 ### DimensionVerticalSampling
 
-`Sampling DimensionVerticalSampling`
+`int DimensionVerticalSampling`
 
 Gets or sets the vertical sampling for dimension.
 
@@ -446,7 +446,7 @@ Gets or sets the vertical resolution for dimension.
 
 ### DimensionVerticalMirroredExtent
 
-`MirroredExtent DimensionVerticalMirroredExtent`
+`bool DimensionVerticalMirroredExtent`
 
 Gets or sets the mirrored extent property for vertical dimension.
 

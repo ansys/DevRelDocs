@@ -113,7 +113,7 @@ The default value is 50.0 mm.
 
 ### XSampling
 
-`Sampling XSampling`
+`int XSampling`
 
 Gets or sets the Sensor X dimension sampling value.
 
@@ -135,7 +135,7 @@ Gets or sets the Sensor X dimension resolution value.
 
 ### XMirroredExtent
 
-`MirroredExtent XMirroredExtent`
+`bool XMirroredExtent`
 
 Gets the Sensor X dimension mirrored extent value.
 
@@ -173,7 +173,7 @@ The default value is 50.0 mm.
 
 ### YSampling
 
-`Sampling YSampling`
+`int YSampling`
 
 Gets or sets the Sensor Y dimension sampling value.
 
@@ -195,7 +195,7 @@ Gets or sets the Sensor Y dimension resolution value.
 
 ### YMirroredExtent
 
-`MirroredExtent YMirroredExtent`
+`bool YMirroredExtent`
 
 Gets the Sensor Y dimension mirrored extent value.
 
@@ -239,7 +239,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`Sampling WavelengthSampling`
+`int WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -316,7 +316,7 @@ The default value is an empty string.
 
 ### TemplateType
 
-`Type TemplateType`
+`int TemplateType`
 
 Gets or sets the template type
 

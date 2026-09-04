@@ -40,7 +40,7 @@ Represents the builder for an U.S Standard Atmosphere 1976 Source.
 
 ### SunType
 
-`Type SunType`
+`int SunType`
 
 Gets or sets the Sun type.
 

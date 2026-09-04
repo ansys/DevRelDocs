@@ -40,8 +40,12 @@ Represents an Intensity Sensor Builder.
 | [ConoscopicThetaMax](#conoscopicthetamax) | public |
 | [ConoscopicSampling](#conoscopicsampling) | public |
 | [ConoscopicResolution](#conoscopicresolution) | public |
+| [PolarHStart](#polarhstart) | public |
+| [PolarHEnd](#polarhend) | public |
 | [PolarHSampling](#polarhsampling) | public |
 | [PolarHResolution](#polarhresolution) | public |
+| [PolarVStart](#polarvstart) | public |
+| [PolarVEnd](#polarvend) | public |
 | [PolarVSampling](#polarvsampling) | public |
 | [PolarVResolution](#polarvresolution) | public |
 | [NearField](#nearfield) | public |
@@ -93,7 +97,7 @@ The default value is 0.
 
 ### AdaptiveSampling
 
-`Sampling AdaptiveSampling`
+`bool AdaptiveSampling`
 
 Gets or sets the property to enable adaptive sampling.
 
@@ -135,7 +139,7 @@ The default value is 90.0.
 
 ### ConoscopicSampling
 
-`Sampling ConoscopicSampling`
+`int ConoscopicSampling`
 
 Gets or sets the Conoscopic sampling.
 
@@ -158,9 +162,31 @@ Gets or sets the Conoscopic resolution.
 
 ---
 
+### PolarHStart
+
+`float PolarHStart`
+
+Gets the polar H start.
+
+**Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+**Value type**: Double.
+
+---
+
+### PolarHEnd
+
+`float PolarHEnd`
+
+Gets the polar H end.
+
+**Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+**Value type**: Double.
+
+---
+
 ### PolarHSampling
 
-`Sampling PolarHSampling`
+`int PolarHSampling`
 
 Gets or sets the polar H sampling.
 
@@ -185,9 +211,31 @@ Gets or sets the polar H resolution.
 
 ---
 
+### PolarVStart
+
+`float PolarVStart`
+
+Gets the polar V start.
+
+**Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+**Value type**: Double.
+
+---
+
+### PolarVEnd
+
+`float PolarVEnd`
+
+Gets the polar V end.
+
+**Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+**Value type**: Double.
+
+---
+
 ### PolarVSampling
 
-`Sampling PolarVSampling`
+`int PolarVSampling`
 
 Gets or sets the polar V sampling.
 
@@ -227,7 +275,7 @@ False: Disables Near Field.
 
 ### CellDistance
 
-`Distance CellDistance`
+`float CellDistance`
 
 Gets or sets the cell distance.
 
@@ -254,7 +302,7 @@ The default value is 174.9773 mm.
 
 ### IntensityResultViewingDirection
 
-`Direction IntensityResultViewingDirection`
+`int IntensityResultViewingDirection`
 
 Gets or sets the intensity result viewing direction.
 

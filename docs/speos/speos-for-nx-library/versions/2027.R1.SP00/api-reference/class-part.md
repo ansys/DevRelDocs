@@ -16,7 +16,7 @@ Represents a Speos For NX part.
 
 ### Features
 
-`list[ComponentOpticalDesignExchangeResultFeature] Features`
+`FeatureCollection Features`
 
 Returns the [FeatureCollection](class-featurecollection.md) instance belonging to this part.
 
