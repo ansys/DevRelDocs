@@ -44,7 +44,7 @@ Represents the builder for a luminaire source.
 
 ### IntensityFilePath
 
-`str IntensityFilePath`
+`FilePath IntensityFilePath`
 
 Gets or sets the intensity distribution file path.  
 **Value type**: String.  
@@ -136,7 +136,7 @@ The default value is 2856.0 Kelvin.
 
 ### SpectrumFilePath
 
-`str SpectrumFilePath`
+`FilePath SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 
@@ -175,7 +175,7 @@ The default value is 75.0 mm.
 
 ### ShowIntensityDistribution
 
-`bool ShowIntensityDistribution`
+`Value ShowIntensityDistribution`
 
 Gets or sets the property to show the intensity distribution in the 3D view.
 

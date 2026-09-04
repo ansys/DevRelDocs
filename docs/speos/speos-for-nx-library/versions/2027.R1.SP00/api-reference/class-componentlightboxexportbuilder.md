@@ -67,7 +67,7 @@ The default value is 0.
 
 ### MeshingSagValue
 
-`float MeshingSagValue`
+`Value MeshingSagValue`
 
 Gets or sets the meshing sag value.
 
@@ -95,7 +95,7 @@ The default value is 0.
 
 ### MeshingStepValue
 
-`float MeshingStepValue`
+`Value MeshingStepValue`
 
 Gets or sets the meshing step fixed value.
 
@@ -141,7 +141,7 @@ The default value is False.
 
 Gets or sets the meshing edge sag value.
 
-**Prerequisite**The SpecificFacetEdgesParameters property must be True.  
+**Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum distance between the geometry and the meshing on the edges. The Meshing edge sag value always uses the Fixed mode.  
 **Value type**: Double (in mm).  
@@ -157,7 +157,7 @@ The default value is 0.1 mm.
 
 Gets or sets the meshing edge angle.
 
-**Prerequisite**The SpecificFacetEdgesParameters property must be True.  
+**Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum angular variation in degrees between successive tangents for all points along a solid edge.  
 **Value type**: Double (in degrees).  
@@ -187,7 +187,7 @@ The default value is False.
 
 Gets the axis system.
 
-**Prerequisite**The CustomAxisSystem property must be True.  
+**Prerequisite** The CustomAxisSystem property must be True.  
 **Value type**: AxisSystem object.
 
 ---
@@ -285,4 +285,4 @@ The DeleteGeometries function takes a list of geometry tag as parameter.
 `str GeneratePassword(self)`
 
 Generates and store a new password.  
-**Prerequisite**The EnablePassword property must be True.
+**Prerequisite** The EnablePassword property must be True.

@@ -72,7 +72,7 @@ Represents a 3D Texture component Builder.
 
 ### Texture3DMappingFilePath
 
-`str Texture3DMappingFilePath`
+`FilePath Texture3DMappingFilePath`
 
 Gets or sets the texture 3D Mapping file path.
 
@@ -84,7 +84,7 @@ The default value is an empty file path (string).
 
 ### MappingType
 
-`int MappingType`
+`Type MappingType`
 
 Gets or sets the mapping.
 
@@ -178,7 +178,7 @@ The default value is 100.0 mm.
 
 ### RectangularXDistance
 
-`float RectangularXDistance`
+`Distance RectangularXDistance`
 
 Gets or sets the X distance between patterns for rectangular mapping.
 
@@ -192,7 +192,7 @@ The default value is 1.0 mm.
 
 ### RectangularYDistance
 
-`float RectangularYDistance`
+`Distance RectangularYDistance`
 
 Gets or sets the Y distance between patterns for rectangular mapping.
 
@@ -232,7 +232,7 @@ The default value is 0.0 degree.
 
 ### CircularRadialDistance
 
-`float CircularRadialDistance`
+`Distance CircularRadialDistance`
 
 Gets or sets the radial distance for circular mapping.
 
@@ -246,7 +246,7 @@ The default value is 1.0 mm.
 
 ### CircularMappingAreaRadius
 
-`float CircularMappingAreaRadius`
+`Radius CircularMappingAreaRadius`
 
 Gets or sets the mapping area radius for circular mapping.
 
@@ -260,7 +260,7 @@ The default value is 100.0 mm.
 
 ### CircularRingsDistance
 
-`float CircularRingsDistance`
+`Distance CircularRingsDistance`
 
 Gets or sets the distance between two rings for circular mapping.
 
@@ -287,7 +287,7 @@ The default value is 0.0 degree.
 
 ### HexagonalXWidth
 
-`float HexagonalXWidth`
+`Width HexagonalXWidth`
 
 Gets or sets the hexagon width for hexagonal mapping.
 
@@ -301,7 +301,7 @@ The default value is 0.7 mm.
 
 ### HexagonalYHeight
 
-`float HexagonalYHeight`
+`Height HexagonalYHeight`
 
 Gets or sets the hexagon height for hexagonal mapping.
 
@@ -383,7 +383,7 @@ The default value is 1.0 mm.
 
 ### HexagonalCentersDistance
 
-`float HexagonalCentersDistance`
+`Distance HexagonalCentersDistance`
 
 Gets or sets the hexagon distance between centers for hexagonal mapping.
 
@@ -559,7 +559,7 @@ The default value is 1.0.
 
 ### StartIndex
 
-`int StartIndex`
+`Index StartIndex`
 
 Gets or sets the start index.
 
@@ -572,7 +572,7 @@ The default value is 1.
 
 ### EndIndex
 
-`int EndIndex`
+`Index EndIndex`
 
 Gets or sets the end index.
 
@@ -585,7 +585,7 @@ The default value is 2.
 
 ### MaxPointToDisplay
 
-`int MaxPointToDisplay`
+`Display MaxPointToDisplay`
 
 Gets or sets the max point to display.
 

@@ -115,7 +115,7 @@ The default value is 1.0 mm.
 
 ### XMirroredExtent
 
-`bool XMirroredExtent`
+`MirroredExtent XMirroredExtent`
 
 Gets or sets the component X dimension mirrored extent value.
 
@@ -129,7 +129,7 @@ The default value is False.
 
 ### YMirroredExtent
 
-`bool YMirroredExtent`
+`MirroredExtent YMirroredExtent`
 
 Gets or sets the component Y dimension mirrored extent value.
 
@@ -143,7 +143,7 @@ The default value is False.
 
 ### PolarizationType
 
-`int PolarizationType`
+`Type PolarizationType`
 
 Gets or sets the polarization type of the component.
 
@@ -164,7 +164,7 @@ The default value is 1.
 
 ### DiattenuatorType
 
-`int DiattenuatorType`
+`Type DiattenuatorType`
 
 Gets or sets the DiattenuatorType type of the component.
 
@@ -197,7 +197,7 @@ The default value is 0.0.
 
 ### PolarizerFilePath
 
-`str PolarizerFilePath`
+`FilePath PolarizerFilePath`
 
 Gets or sets the polarizer file path.
 
@@ -210,7 +210,7 @@ The default value is an empty string.
 
 ### RetarderMaterialFilePath
 
-`str RetarderMaterialFilePath`
+`FilePath RetarderMaterialFilePath`
 
 Gets or sets the retarder material file path.
 
@@ -223,7 +223,7 @@ The default value is an empty string.
 
 ### RetarderOptimalWavelength
 
-`float RetarderOptimalWavelength`
+`Wavelength RetarderOptimalWavelength`
 
 Gets or sets the retarder optimal wavelength value.
 

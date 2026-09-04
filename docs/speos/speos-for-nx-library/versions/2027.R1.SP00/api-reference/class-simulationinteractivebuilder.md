@@ -39,7 +39,7 @@ Represents an Interactive Simulation Builder.
 
 ### InfiniteRayLength
 
-`float InfiniteRayLength`
+`RayLength InfiniteRayLength`
 
 Gets or sets the infinite ray length.
 

@@ -50,7 +50,7 @@ Represents an Direct Simulation Builder.
 
 ### StopOnRaysNumber
 
-`bool StopOnRaysNumber`
+`RaysNumber StopOnRaysNumber`
 
 Gets or sets the property to enable stop on rays number.
 
@@ -99,7 +99,7 @@ The default value is 1.
 
 ### StopOnDuration
 
-`bool StopOnDuration`
+`Duration StopOnDuration`
 
 Gets or sets the property to stop on duration.
 
@@ -143,7 +143,7 @@ The default value is False.
 
 ### RayFileFormat
 
-`int RayFileFormat`
+`Format RayFileFormat`
 
 Gets or sets the ray file format.
 

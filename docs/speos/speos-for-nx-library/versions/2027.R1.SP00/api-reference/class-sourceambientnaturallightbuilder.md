@@ -42,7 +42,7 @@ Represents the builder for an Ambient Source with Natural Light type.
 
 ### SunType
 
-`int SunType`
+`Type SunType`
 
 Gets or sets the Sun type.
 

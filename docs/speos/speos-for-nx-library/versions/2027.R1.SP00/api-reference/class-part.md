@@ -18,7 +18,7 @@ Represents a Speos For NX part.
 
 `list[ComponentOpticalDesignExchangeResultFeature] Features`
 
-Returns the @link FeatureCollection @endlink instance belonging to this part.
+Returns the [FeatureCollection](class-featurecollection.md) instance belonging to this part.
 
 ## Public Member Functions
 

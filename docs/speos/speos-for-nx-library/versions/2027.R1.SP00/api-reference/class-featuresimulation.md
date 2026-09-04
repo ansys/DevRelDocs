@@ -36,11 +36,11 @@ Represents a Speos simulation feature.
 
 ### Results
 
-`ResultCollection Results`
+`list[FeatureComponentOpticalDesignExchangeResult] Results`
 
 Gets the result collection.
 
-Returns the @link ResultCollection @endlink belonging to this simulation.
+Returns the [ResultCollection](class-resultcollection.md) belonging to this simulation.
 
 ---
 

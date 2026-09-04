@@ -72,7 +72,7 @@ The default value is 0.
 
 ### MeshingSagValue
 
-`float MeshingSagValue`
+`Value MeshingSagValue`
 
 Gets or sets the meshing sag value.
 
@@ -100,7 +100,7 @@ The default value is 0.
 
 ### MeshingStepValue
 
-`float MeshingStepValue`
+`Value MeshingStepValue`
 
 Gets or sets the meshing step fixed value.
 
@@ -146,7 +146,7 @@ The default value is False.
 
 Gets or sets the meshing edge sag value.
 
-**Prerequisite**The SpecificFacetEdgesParameters property must be True.  
+**Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum distance between the geometry and the meshing on the edges. The Meshing edge sag value always uses the Fixed mode.  
 **Value type**: Double (in mm).  
@@ -162,7 +162,7 @@ The default value is 0.1 mm.
 
 Gets or sets the meshing edge angle.
 
-**Prerequisite**The SpecificFacetEdgesParameters property must be True.  
+**Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum angular variation in degrees between successive tangents for all points along a solid edge.  
 **Value type**: Double (in degrees).  
@@ -252,7 +252,7 @@ The default value is True.
 
 Gets or sets the minimum energy percentage.
 
-**Prerequisite**The UseWeight property must be True.  
+**Prerequisite** The UseWeight property must be True.  
   
 The Minimum energy percentage value defines the minimum energy ratio to continue to propagate a ray with weight.  
 **Value type**: Double.  
@@ -501,7 +501,7 @@ The default value is 0.
 
 ### AmbientSampling
 
-`int AmbientSampling`
+`Sampling AmbientSampling`
 
 Gets or sets the ambient sampling.
 
@@ -610,7 +610,7 @@ The default value is 100.
 
 ### MaxSearchRadius
 
-`float MaxSearchRadius`
+`Radius MaxSearchRadius`
 
 Gets or sets the maximum search radius.
 

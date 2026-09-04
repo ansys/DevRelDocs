@@ -72,7 +72,7 @@ The default value is 0.
 
 ### LayerType
 
-`int LayerType`
+`Type LayerType`
 
 Gets or sets the layer mode.
 
@@ -116,7 +116,7 @@ The default value is False.
 
 ### TemplateFilePath
 
-`str TemplateFilePath`
+`FilePath TemplateFilePath`
 
 Gets or sets the XM3 template file.
 
@@ -173,7 +173,7 @@ The default value is 20.0 degrees.
 
 ### VisionFieldHorizontalSampling
 
-`int VisionFieldHorizontalSampling`
+`Sampling VisionFieldHorizontalSampling`
 
 Gets the horizontal sampling for vision field.
 
@@ -195,7 +195,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 
 ### VisionFieldHorizontalMirroredExtent
 
-`bool VisionFieldHorizontalMirroredExtent`
+`MirroredExtent VisionFieldHorizontalMirroredExtent`
 
 Gets or sets the mirrored extent property for horizontal vision field.
 
@@ -239,7 +239,7 @@ The default value is 10.0 degrees.
 
 ### VisionFieldVerticalSampling
 
-`int VisionFieldVerticalSampling`
+`Sampling VisionFieldVerticalSampling`
 
 Gets the vertical sampling for vision field.
 
@@ -261,7 +261,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 
 ### VisionFieldVerticalMirroredExtent
 
-`bool VisionFieldVerticalMirroredExtent`
+`MirroredExtent VisionFieldVerticalMirroredExtent`
 
 Gets or sets the mirrored extent property for vertical vision field.
 
@@ -277,7 +277,7 @@ The default value is False.
 
 ### WavelengthSampling
 
-`int WavelengthSampling`
+`Sampling WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 

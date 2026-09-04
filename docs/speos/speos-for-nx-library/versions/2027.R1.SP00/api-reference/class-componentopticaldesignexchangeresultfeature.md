@@ -31,8 +31,8 @@ Represents a Speos Optical Design Exchange result feature.
 
 ### Results
 
-`Feature Results`
+`list[FeatureComponentOpticalDesignExchangeResult] Results`
 
 Gets the result collection.
 
-Returns the @link ResultCollection @endlink belonging to this feature.
+Returns the [ResultCollection](class-resultcollection.md) belonging to this feature.

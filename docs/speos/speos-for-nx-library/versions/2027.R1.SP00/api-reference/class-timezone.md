@@ -27,7 +27,7 @@ Represents a Timezone.
 
 ### UserDefinedLocation
 
-`bool UserDefinedLocation`
+`Location UserDefinedLocation`
 
 Gets or sets the property to enable/disable the user defined location.
 

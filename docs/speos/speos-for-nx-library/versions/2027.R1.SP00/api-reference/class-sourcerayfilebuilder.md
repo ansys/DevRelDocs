@@ -45,7 +45,7 @@ Represents the builder for a ray file source.
 
 ### RayFilePath
 
-`str RayFilePath`
+`FilePath RayFilePath`
 
 Gets or sets the ray file path.
 
@@ -142,7 +142,7 @@ The default value is 2856.0 K.
 
 ### SpectrumFilePath
 
-`str SpectrumFilePath`
+`FilePath SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 
@@ -155,7 +155,7 @@ The default value is an empty string.
 
 ### ExitGeometries
 
-`list[int] ExitGeometries`
+`Geometries ExitGeometries`
 
 Gets or sets exit geometries.
 

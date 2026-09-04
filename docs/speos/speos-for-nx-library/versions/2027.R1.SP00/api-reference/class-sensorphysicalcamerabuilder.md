@@ -41,7 +41,7 @@ Represents a Sensor Physical Camera builder.
 
 ### LightBoxFilePath
 
-`str LightBoxFilePath`
+`FilePath LightBoxFilePath`
 
 Gets or sets the property light box file path.
 
@@ -65,7 +65,7 @@ False: Disables Sequence File.
 
 ### SequenceFilePath
 
-`str SequenceFilePath`
+`FilePath SequenceFilePath`
 
 Gets or sets the property sequence file path.
 
@@ -104,7 +104,7 @@ The default value is 0.
 
 ### RayTracerPrecisionType
 
-`int RayTracerPrecisionType`
+`Type RayTracerPrecisionType`
 
 Gets or sets the ray tracer type.
 

@@ -113,7 +113,7 @@ The default value is 50.0 mm.
 
 ### XSampling
 
-`int XSampling`
+`Sampling XSampling`
 
 Gets or sets the Sensor X dimension sampling value.
 
@@ -135,7 +135,7 @@ Gets or sets the Sensor X dimension resolution value.
 
 ### XMirroredExtent
 
-`bool XMirroredExtent`
+`MirroredExtent XMirroredExtent`
 
 Gets the Sensor X dimension mirrored extent value.
 
@@ -173,7 +173,7 @@ The default value is 50.0 mm.
 
 ### YSampling
 
-`int YSampling`
+`Sampling YSampling`
 
 Gets or sets the Sensor Y dimension sampling value.
 
@@ -195,7 +195,7 @@ Gets or sets the Sensor Y dimension resolution value.
 
 ### YMirroredExtent
 
-`bool YMirroredExtent`
+`MirroredExtent YMirroredExtent`
 
 Gets the Sensor Y dimension mirrored extent value.
 
@@ -239,7 +239,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`int WavelengthSampling`
+`Sampling WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -304,7 +304,7 @@ The default value is False.
 
 ### TemplateFilePath
 
-`str TemplateFilePath`
+`FilePath TemplateFilePath`
 
 Gets or sets the template file's path.
 
@@ -316,7 +316,7 @@ The default value is an empty string.
 
 ### TemplateType
 
-`int TemplateType`
+`Type TemplateType`
 
 Gets or sets the template type
 

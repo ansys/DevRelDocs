@@ -70,7 +70,7 @@ Represents a LiDAR sensor Builder.
 
 ### SensorType
 
-`int SensorType`
+`Type SensorType`
 
 Gets or sets the sensor type.
 
@@ -114,7 +114,7 @@ The default value is True.
 
 ### ObjectFieldRadius
 
-`float ObjectFieldRadius`
+`Radius ObjectFieldRadius`
 
 Gets or sets the object field radius.
 
@@ -142,7 +142,7 @@ The default value is True.
 
 ### SourceScanningSequenceFilePath
 
-`str SourceScanningSequenceFilePath`
+`SequenceFilePath SourceScanningSequenceFilePath`
 
 Gets or sets the scanning sequence file of the source.
 
@@ -155,7 +155,7 @@ The default value is an empty string.
 
 ### SourceRotatingSequenceFilePath
 
-`str SourceRotatingSequenceFilePath`
+`SequenceFilePath SourceRotatingSequenceFilePath`
 
 Gets or sets the rotating sequence file of the source.
 
@@ -182,7 +182,7 @@ The default value is True.
 
 ### SourceTrajectoryFilePath
 
-`str SourceTrajectoryFilePath`
+`TrajectoryFilePath SourceTrajectoryFilePath`
 
 Gets or sets the trajectory file of the source.
 
@@ -195,7 +195,7 @@ The default value is an empty string.
 
 ### SourceSpectrumType
 
-`int SourceSpectrumType`
+`Type SourceSpectrumType`
 
 Gets or sets the spectrum type of the source.
 
@@ -210,7 +210,7 @@ The default value is 1.
 
 ### SourceWavelength
 
-`float SourceWavelength`
+`Wavelength SourceWavelength`
 
 Gets or sets the wavelength of the source.
 
@@ -223,7 +223,7 @@ The default value is 940.0 nm.
 
 ### SourceSpectrumFilePath
 
-`str SourceSpectrumFilePath`
+`SpectrumFilePath SourceSpectrumFilePath`
 
 Gets or sets the spectrum file of the source.
 
@@ -236,7 +236,7 @@ The default value is an empty string.
 
 ### SourceIntensityType
 
-`int SourceIntensityType`
+`IntensityType SourceIntensityType`
 
 Gets or sets the intensity type of the source.
 
@@ -251,7 +251,7 @@ The default value is 1.
 
 ### SourceIntensityFilePath
 
-`str SourceIntensityFilePath`
+`IntensityFilePath SourceIntensityFilePath`
 
 Gets or sets the intensity distribution file of the source.
 
@@ -264,7 +264,7 @@ The default value is an empty string.
 
 ### SourceIntensityTotalAngle
 
-`float SourceIntensityTotalAngle`
+`IntensityTotalAngle SourceIntensityTotalAngle`
 
 Gets or sets the total angle of emission of the source.
 
@@ -329,7 +329,7 @@ The default value is 1.0.
 
 ### SensorDistortionFilePath
 
-`str SensorDistortionFilePath`
+`DistortionFilePath SensorDistortionFilePath`
 
 Gets or sets the distortion file of the sensor.
 
@@ -355,7 +355,7 @@ The default value is 85.0.
 
 ### SensorTransmittanceFilePath
 
-`str SensorTransmittanceFilePath`
+`TransmittanceFilePath SensorTransmittanceFilePath`
 
 Gets or sets the transmittance file of the sensor.
 
@@ -370,7 +370,7 @@ The default value is an empty string.
 
 ### SensorFocalLength
 
-`float SensorFocalLength`
+`FocalLength SensorFocalLength`
 
 Gets or sets the focal length of the sensor.
 
@@ -383,7 +383,7 @@ The default value is 15.0 mm.
 
 ### SensorPupilDiameter
 
-`float SensorPupilDiameter`
+`PupilDiameter SensorPupilDiameter`
 
 Gets or sets the pupil diameter of the sensor.
 
@@ -396,7 +396,7 @@ The default value is 10.0 mm.
 
 ### SensorImagerWidth
 
-`float SensorImagerWidth`
+`Width SensorImagerWidth`
 
 Gets or sets the image width of the sensor.
 
@@ -409,7 +409,7 @@ The default value is 3.2.
 
 ### SensorImagerHeight
 
-`float SensorImagerHeight`
+`Height SensorImagerHeight`
 
 Gets or sets the image height of the sensor.
 
@@ -436,7 +436,7 @@ The default value is False.
 
 ### SensorHorizontalPixels
 
-`int SensorHorizontalPixels`
+`HorizontalPixels SensorHorizontalPixels`
 
 Gets or sets the number of horizontal pixels of the sensor.
 
@@ -449,7 +449,7 @@ The default value is 64.
 
 ### SensorVerticalPixels
 
-`int SensorVerticalPixels`
+`VerticalPixels SensorVerticalPixels`
 
 Gets or sets the number of vertical pixels of the sensor.
 
@@ -515,7 +515,7 @@ The default value is False.
 
 ### AimingAreaType
 
-`int AimingAreaType`
+`Type AimingAreaType`
 
 Gets or sets the aiming area type.
 
@@ -530,7 +530,7 @@ The default value is 1.
 
 ### AimingAreaWidth
 
-`float AimingAreaWidth`
+`Width AimingAreaWidth`
 
 Gets or sets the aiming area width of the sensor.
 
@@ -543,7 +543,7 @@ The default value is 0.0.
 
 ### AimingAreaHeight
 
-`float AimingAreaHeight`
+`Height AimingAreaHeight`
 
 Gets or sets the aiming area height of the sensor.
 

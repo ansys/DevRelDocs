@@ -90,7 +90,7 @@ The default value is 5.
 
 ### StopOnDuration
 
-`float StopOnDuration`
+`Duration StopOnDuration`
 
 Gets or sets the duration.
 

@@ -118,7 +118,7 @@ The default value is False.
 
 ### UseAmbientMaterial
 
-`bool UseAmbientMaterial`
+`AmbientMaterial UseAmbientMaterial`
 
 Gets or sets the property to enable ambient material.
 
@@ -159,7 +159,7 @@ The default value is 0.05.
 
 ### UsePresetSettings
 
-`bool UsePresetSettings`
+`PresetSettings UsePresetSettings`
 
 Gets or sets the property to enable preset settings.
 

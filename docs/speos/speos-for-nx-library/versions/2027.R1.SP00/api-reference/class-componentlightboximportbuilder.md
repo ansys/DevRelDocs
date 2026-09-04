@@ -39,7 +39,7 @@ Represents a Component Light Box Import Builder.
 
 ### SpeosLightBoxFilePath
 
-`str SpeosLightBoxFilePath`
+`LightBoxFilePath SpeosLightBoxFilePath`
 
 Gets or sets the Speos light box file path.
 
@@ -94,7 +94,7 @@ The default value is False.
 
 ### TrajectoryFilePath
 
-`str TrajectoryFilePath`
+`FilePath TrajectoryFilePath`
 
 Gets or sets the trajectory file path.
 

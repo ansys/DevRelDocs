@@ -78,7 +78,7 @@ The default value is 50.0 cd/m2.
 
 ### InfiniteContrast
 
-`bool InfiniteContrast`
+`Contrast InfiniteContrast`
 
 Gets or sets the property to enable infinite contrast ratio.
 
@@ -108,7 +108,7 @@ The default value is 500.
 
 ### ImageFilePath
 
-`str ImageFilePath`
+`FilePath ImageFilePath`
 
 Gets or sets the image file.
 
@@ -145,7 +145,7 @@ The default value is 50.0 mm.
 
 ### XMirroredExtent
 
-`bool XMirroredExtent`
+`MirroredExtent XMirroredExtent`
 
 Gets or sets the sensor X dimension mirrored value.
 
@@ -183,7 +183,7 @@ The default value is 50.0 mm.
 
 ### YMirroredExtent
 
-`bool YMirroredExtent`
+`MirroredExtent YMirroredExtent`
 
 Gets or sets the sensor Y dimension mirrored value.
 
@@ -197,7 +197,7 @@ The default value is False.
 
 ### IntensityType
 
-`int IntensityType`
+`Type IntensityType`
 
 Gets or sets the intensity diagram.
 
@@ -286,7 +286,7 @@ The default value is 30.0 degrees.
 
 ### IntensityFilePath
 
-`str IntensityFilePath`
+`FilePath IntensityFilePath`
 
 Gets or sets the intensity file for Library distribution.
 
@@ -347,7 +347,7 @@ The default value is 0.
 
 ### WhitePointType
 
-`int WhitePointType`
+`Type WhitePointType`
 
 Gets or sets the white point type of the standard illuminant.
 
@@ -393,7 +393,7 @@ The default value is 0.32902.
 
 ### RedSpectrumFilePath
 
-`str RedSpectrumFilePath`
+`SpectrumFilePath RedSpectrumFilePath`
 
 Gets or sets the red spectrum file.
 
@@ -406,7 +406,7 @@ The default value is an empty string.
 
 ### GreenSpectrumFilePath
 
-`str GreenSpectrumFilePath`
+`SpectrumFilePath GreenSpectrumFilePath`
 
 Gets or sets the green spectrum file.
 
@@ -419,7 +419,7 @@ The default value is an empty string.
 
 ### BlueSpectrumFilePath
 
-`str BlueSpectrumFilePath`
+`SpectrumFilePath BlueSpectrumFilePath`
 
 Gets or sets the blue spectrum file.
 
@@ -458,7 +458,7 @@ The default value is 75.0 mm.
 
 ### ShowIntensityDistribution
 
-`bool ShowIntensityDistribution`
+`Value ShowIntensityDistribution`
 
 Gets or sets the property to show the intensity distribution in the 3D view.
 
@@ -473,7 +473,7 @@ The default value is False.
 
 ### ShowImage
 
-`bool ShowImage`
+`Value ShowImage`
 
 Gets or sets the property to show the image.
 

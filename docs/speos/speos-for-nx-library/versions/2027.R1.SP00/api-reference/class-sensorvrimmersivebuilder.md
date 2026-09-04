@@ -67,7 +67,7 @@ The default value is 600.
 
 ### LayerType
 
-`int LayerType`
+`Type LayerType`
 
 Gets or sets the layer type.
 
@@ -98,7 +98,7 @@ The default value is False.
 
 ### InterocularDistance
 
-`float InterocularDistance`
+`Distance InterocularDistance`
 
 Gets or sets the interocular distance.
 
@@ -112,7 +112,7 @@ The default value is 65.0 mm.
 
 ### AxisSystem
 
-`DataModels::CAxisSystem AxisSystem`
+`Value AxisSystem`
 
 Gets the axis system.
 
@@ -268,7 +268,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`int WavelengthSampling`
+`Sampling WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 
@@ -291,7 +291,7 @@ Gets or sets the Wavelength resolution
 
 ### PreviewSize
 
-`float PreviewSize`
+`Size PreviewSize`
 
 Gets or sets the preview arrows size.
 

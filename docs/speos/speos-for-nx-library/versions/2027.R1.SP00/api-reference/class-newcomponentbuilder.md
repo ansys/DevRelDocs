@@ -45,7 +45,7 @@ The default value is an empty string.
 
 ### ReferenceSetName
 
-`str ReferenceSetName`
+`Name ReferenceSetName`
 
 Gets or sets the name of the NX reference set to use.
 

@@ -48,7 +48,7 @@ Represents a Speos pattern builder.
 
 ### PatternFilePath
 
-`str PatternFilePath`
+`FilePath PatternFilePath`
 
 Gets or sets the property pattern file path.
 
@@ -117,7 +117,7 @@ The default value is True.
 
 ### RayFileFlux
 
-`float RayFileFlux`
+`Flux RayFileFlux`
 
 Gets or sets the flux of the ray file source.
 
@@ -131,7 +131,7 @@ By default the value comes from the ray file, otherwise value is 683. lumen.
 
 ### RayFileFluxUnit
 
-`int RayFileFluxUnit`
+`FluxUnit RayFileFluxUnit`
 
 Gets or sets the flux unit of the ray file source.
 
@@ -147,7 +147,7 @@ The default value is 0.
 
 ### RayFileFluxFromFile
 
-`bool RayFileFluxFromFile`
+`FluxFromFile RayFileFluxFromFile`
 
 Gets or sets the property to enable fetching the flux from file.
 
@@ -161,7 +161,7 @@ The default value is True.
 
 ### RayFileSpectrumType
 
-`int RayFileSpectrumType`
+`Type RayFileSpectrumType`
 
 Gets or sets the spectrum type.
 
@@ -177,7 +177,7 @@ The default value is 0.
 
 ### RayFileWavelength
 
-`float RayFileWavelength`
+`Wavelength RayFileWavelength`
 
 Gets or sets the wavelength.
 
@@ -190,7 +190,7 @@ The default value is 555.0 nm.
 
 ### RayFileTemperature
 
-`float RayFileTemperature`
+`Temperature RayFileTemperature`
 
 Gets or sets the temperature.
 
@@ -204,7 +204,7 @@ The default value is 2856.0 K.
 
 ### SpectrumFilePath
 
-`str SpectrumFilePath`
+`FilePath SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

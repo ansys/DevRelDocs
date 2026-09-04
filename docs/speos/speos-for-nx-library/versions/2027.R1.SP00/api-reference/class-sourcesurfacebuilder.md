@@ -92,7 +92,7 @@ The default value is 683.0 lm for FluxUnitType = 0, 1.0 W for FluxUnitType = 1 a
 
 ### UseFluxFromFile
 
-`bool UseFluxFromFile`
+`FluxFromFile UseFluxFromFile`
 
 Gets or sets the property to use the flux from file.
 
@@ -150,7 +150,7 @@ The default value is 2856.0 Kelvin.
 
 ### SpectrumFilePath
 
-`str SpectrumFilePath`
+`FilePath SpectrumFilePath`
 
 Gets or sets the spectrum file.
 
@@ -180,7 +180,7 @@ The default value is 0.
 
 ### ExitanceDistributionFilePath
 
-`str ExitanceDistributionFilePath`
+`FilePath ExitanceDistributionFilePath`
 
 Gets or sets the exitance distribution file.
 
@@ -193,7 +193,7 @@ The default value is an empty string.
 
 ### EmissiveFaces
 
-`SourceSurfaceEmissiveFaces EmissiveFaces`
+`Faces EmissiveFaces`
 
 Returns the interface to edit the emissive faces of the source.
 
@@ -220,7 +220,7 @@ The default value is False.
 
 ### ExitanceXDirectionReversed
 
-`bool ExitanceXDirectionReversed`
+`XDirectionReversed ExitanceXDirectionReversed`
 
 Gets or sets the property to reverse the exitance of X direction.
 
@@ -236,7 +236,7 @@ The default value is False.
 
 ### ExitanceYDirectionReversed
 
-`bool ExitanceYDirectionReversed`
+`YDirectionReversed ExitanceYDirectionReversed`
 
 Gets or sets the property to reverse the exitance of Y direction.
 
@@ -252,7 +252,7 @@ The default value is False.
 
 ### IntensityType
 
-`int IntensityType`
+`Type IntensityType`
 
 Gets or sets the intensity type of the light source.
 
@@ -340,7 +340,7 @@ The default value is 30.0 degrees.
 
 ### IntensityDistributionFilePath
 
-`str IntensityDistributionFilePath`
+`FilePath IntensityDistributionFilePath`
 
 Gets or sets the distribution file.
 
@@ -353,7 +353,7 @@ The default value is an empty string.
 
 ### IntensityOrientation
 
-`int IntensityOrientation`
+`Orientation IntensityOrientation`
 
 Gets or sets the orientation type.
 
@@ -411,7 +411,7 @@ The default value is False.
 
 ### AssociatedGeometries
 
-`list[int] AssociatedGeometries`
+`Geometries AssociatedGeometries`
 
 Gets or sets associated geometries.
 
@@ -424,7 +424,7 @@ The default value is an empty list.
 
 ### ExitGeometries
 
-`list[int] ExitGeometries`
+`Geometries ExitGeometries`
 
 Gets or sets the exit geometries.
 
@@ -437,7 +437,7 @@ The default value is an empty list.
 
 ### IntensityXDirectionReversed
 
-`bool IntensityXDirectionReversed`
+`XDirectionReversed IntensityXDirectionReversed`
 
 Gets or sets the property to reverse the intensity X direction.
 
@@ -453,7 +453,7 @@ The default value is False.
 
 ### IntensityYDirectionReversed
 
-`bool IntensityYDirectionReversed`
+`YDirectionReversed IntensityYDirectionReversed`
 
 Gets or sets the property to reverse the intensity Y direction.
 

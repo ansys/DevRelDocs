@@ -96,7 +96,7 @@ The default value is 10000000.
 
 ### UseUserInputFolder
 
-`bool UseUserInputFolder`
+`UserInputFolder UseUserInputFolder`
 
 Gets or sets the property to enable the use of a user input folder.
 
@@ -123,7 +123,7 @@ The default value is empty.
 
 ### UseUserOutputFolder
 
-`bool UseUserOutputFolder`
+`UserOutputFolder UseUserOutputFolder`
 
 Gets or sets the property to enable the use of a user output folder.
 
@@ -150,7 +150,7 @@ The default value is empty.
 
 ### UseUserIsolatedFolder
 
-`bool UseUserIsolatedFolder`
+`UserIsolatedFolder UseUserIsolatedFolder`
 
 Gets or sets the property to enable the use of a user isolated folder.
 
@@ -191,7 +191,7 @@ The default value is True.
 
 ### IncrementSimulationResults
 
-`bool IncrementSimulationResults`
+`Results IncrementSimulationResults`
 
 Gets or sets the property to enable the increment of simulation results.
 
@@ -205,7 +205,7 @@ The default value is False.
 
 ### InteractiveSimulationAutoUpdate
 
-`bool InteractiveSimulationAutoUpdate`
+`Update InteractiveSimulationAutoUpdate`
 
 Gets or sets the property to enable the automatic update of interactive simulations.
 
@@ -349,7 +349,7 @@ The default value is 0.
 
 ### DefaultRayFileFormat
 
-`int DefaultRayFileFormat`
+`RayFileFormat DefaultRayFileFormat`
 
 Gets or sets the default ray file format used in sensors and in direct simulations.
 
@@ -394,7 +394,7 @@ The default value is empty.
 
 ### UpdateFeaturesOnLoad
 
-`bool UpdateFeaturesOnLoad`
+`Load UpdateFeaturesOnLoad`
 
 Gets or sets the property to enable the automatic update of Speos feature when loading the document.
 
@@ -408,7 +408,7 @@ The default value is False.
 
 ### DefaultIntensityViewingDirection
 
-`int DefaultIntensityViewingDirection`
+`Direction DefaultIntensityViewingDirection`
 
 Gets or sets the default intensity sensor viewing direction.
 
@@ -437,7 +437,7 @@ The default value is False.
 
 ### EnableBetaFeatures
 
-`bool EnableBetaFeatures`
+`Features EnableBetaFeatures`
 
 Gets or sets the property to enable beta features.
 

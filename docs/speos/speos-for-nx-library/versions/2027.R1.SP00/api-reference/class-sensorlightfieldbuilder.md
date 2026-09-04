@@ -86,7 +86,7 @@ The default value is False.
 
 ### IncidentSampling
 
-`int IncidentSampling`
+`Sampling IncidentSampling`
 
 Gets or sets the incident sampling.
 
@@ -112,7 +112,7 @@ The default value is 9 deg.
 
 ### AzimuthSampling
 
-`int AzimuthSampling`
+`Sampling AzimuthSampling`
 
 Gets or sets the azimuth sampling.
 
@@ -164,7 +164,7 @@ The default value is 700 nm.
 
 ### WavelengthSampling
 
-`int WavelengthSampling`
+`Sampling WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 

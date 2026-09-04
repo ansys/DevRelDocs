@@ -80,7 +80,7 @@ The default value is True.
 
 ### VOPType
 
-`int VOPType`
+`Type VOPType`
 
 Gets or sets the volume optical properties type.
 
@@ -99,7 +99,7 @@ The default value is 1.
 
 ### VOPIndex
 
-`float VOPIndex`
+`Index VOPIndex`
 
 Gets or sets the volume optical properties index.
 
@@ -113,7 +113,7 @@ The default value is 1.5.
 
 ### VOPAbsorption
 
-`float VOPAbsorption`
+`Absorption VOPAbsorption`
 
 Gets or sets the volume optical properties absorption.
 
@@ -127,7 +127,7 @@ The default value is 0.0.
 
 ### UseVOPConstringence
 
-`bool UseVOPConstringence`
+`VOPConstringence UseVOPConstringence`
 
 Gets or sets the volume optical properties constringence property.
 
@@ -143,7 +143,7 @@ The default value is False.
 
 ### VOPConstringence
 
-`float VOPConstringence`
+`Constringence VOPConstringence`
 
 Gets or sets the volume optical properties constringence.
 
@@ -157,7 +157,7 @@ The default value is 60.0
 
 ### VOPLibraryFilePath
 
-`str VOPLibraryFilePath`
+`LibraryFilePath VOPLibraryFilePath`
 
 Gets or sets the volume optical properties library file.
 
@@ -170,7 +170,7 @@ The default value is an empty string.
 
 ### SOPType
 
-`int SOPType`
+`Type SOPType`
 
 Gets or sets the surface optical properties.
 
@@ -203,7 +203,7 @@ The default value is 100.0.
 
 ### SOPLibraryFilePath
 
-`str SOPLibraryFilePath`
+`LibraryFilePath SOPLibraryFilePath`
 
 Gets or sets the surface optical properties library file.
 
@@ -216,7 +216,7 @@ The default value is an empty string.
 
 ### SOPPluginFilePath
 
-`str SOPPluginFilePath`
+`FilePath SOPPluginFilePath`
 
 Gets or sets the surface optical properties plug-in file.
 
@@ -229,7 +229,7 @@ The default value is an empty string.
 
 ### SOPPluginParametersFilePath
 
-`str SOPPluginParametersFilePath`
+`FilePath SOPPluginParametersFilePath`
 
 Gets or sets the surface optical properties parameters file.
 
@@ -287,7 +287,7 @@ The default value is 1.
 
 ### MeshingSagValue
 
-`float MeshingSagValue`
+`Value MeshingSagValue`
 
 Gets or sets the meshing sag value.
 
@@ -317,7 +317,7 @@ The default value is 1.
 
 ### MeshingStepValue
 
-`float MeshingStepValue`
+`Value MeshingStepValue`
 
 Gets or sets the meshing step value.
 
@@ -348,7 +348,7 @@ The default value is False.
 
 ### MeshingEdgeSagValue
 
-`float MeshingEdgeSagValue`
+`Value MeshingEdgeSagValue`
 
 Gets or sets the meshing edge sag value.
 

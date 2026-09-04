@@ -22,13 +22,13 @@ Represents the Speos For NX session.
 
 Gets the unique instance of the Speos For NX session.
 
-Returns the singleton for @link Session @endlink.
+Returns the singleton for [Session](class-session.md).
 
 ---
 
 ### NXSessionTag
 
-`Session NXSessionTag`
+`Tag NXSessionTag`
 
 Gets the NX Session Tag.
 
@@ -42,7 +42,7 @@ Returns the Tag for the NX Session.
 
 Gets the part collection.
 
-Returns the @link PartCollection @endlink belonging to this session.
+Returns the [PartCollection](class-partcollection.md) belonging to this session.
 
 ## Public Member Functions
 
@@ -66,4 +66,4 @@ In case of unhandled exception, 0 divide... a dump file is generated in WorkingF
 
 Gets the session Speos Preferences.
 
-Returns the @link Preferences @endlink belonging to this session.
+Returns the [Preferences](class-preferences.md) belonging to this session.

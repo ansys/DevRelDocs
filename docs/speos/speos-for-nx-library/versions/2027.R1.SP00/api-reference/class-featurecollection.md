@@ -615,7 +615,7 @@ Creates a builder for a Virtual BSDF Bench feature.
 
 ### SourceFeatures
 
-`list[Feature] SourceFeatures`
+`Features SourceFeatures`
 
 Returns all sources belonging to the part.
 
@@ -625,7 +625,7 @@ Returns a list containing all sources, including those for folders, but not the 
 
 ### SensorFeatures
 
-`list[Feature] SensorFeatures`
+`Features SensorFeatures`
 
 Returns all sensors belonging to the part.
 
@@ -635,7 +635,7 @@ Returns a list containing all sensors, including those for folders, but not the 
 
 ### OpticalPropertyFeatures
 
-`list[Feature] OpticalPropertyFeatures`
+`Features OpticalPropertyFeatures`
 
 Returns all optical properties belonging to the part.
 
@@ -645,7 +645,7 @@ Returns a list containing all properties, including those for folders, but not t
 
 ### SimulationFeatures
 
-`list[Feature] SimulationFeatures`
+`Features SimulationFeatures`
 
 Returns all simulations belonging to the part.
 

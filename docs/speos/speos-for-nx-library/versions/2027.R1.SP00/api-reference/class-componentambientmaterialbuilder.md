@@ -83,7 +83,7 @@ The default value is 0.0.
 
 ### UseConstringence
 
-`bool UseConstringence`
+`Constringence UseConstringence`
 
 Gets or sets the use of constringence property.
 
@@ -113,7 +113,7 @@ The default value is 60.0
 
 ### LibraryFilePath
 
-`str LibraryFilePath`
+`FilePath LibraryFilePath`
 
 Gets or sets the library file path.
 

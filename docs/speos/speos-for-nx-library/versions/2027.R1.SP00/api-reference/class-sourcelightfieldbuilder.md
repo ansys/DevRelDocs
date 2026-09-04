@@ -54,7 +54,7 @@ The default value is False.
 
 ### LightFieldFilePath
 
-`str LightFieldFilePath`
+`FilePath LightFieldFilePath`
 
 Gets or sets the light field file path.
 
@@ -66,7 +66,7 @@ The default value is an empty string.
 
 ### SpectrumFilePath
 
-`str SpectrumFilePath`
+`FilePath SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

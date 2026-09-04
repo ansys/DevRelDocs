@@ -96,7 +96,7 @@ The default value is 0.
 
 ### StartFirstSampling
 
-`int StartFirstSampling`
+`Sampling StartFirstSampling`
 
 Gets or sets the start first sampling.
 
@@ -109,7 +109,7 @@ The default value is 5.
 
 ### StartSecondSampling
 
-`int StartSecondSampling`
+`Sampling StartSecondSampling`
 
 Gets or sets the start second sampling.
 
@@ -149,7 +149,7 @@ The default value is False.
 
 ### EndFirstSampling
 
-`int EndFirstSampling`
+`Sampling EndFirstSampling`
 
 Gets or sets the end first sampling.
 
@@ -162,7 +162,7 @@ The default value is 5.
 
 ### EndSecondSampling
 
-`int EndSecondSampling`
+`Sampling EndSecondSampling`
 
 Gets or sets the end second sampling.
 

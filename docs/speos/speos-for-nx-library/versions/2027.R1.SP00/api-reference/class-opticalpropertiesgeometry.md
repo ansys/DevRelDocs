@@ -69,7 +69,7 @@ The RevertFace function takes a feature tag.
 
 ### Direction
 
-`Feature Direction`
+`Value Direction`
 
 Sets a direction for a certain geometry.
 

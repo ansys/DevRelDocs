@@ -69,7 +69,7 @@ The default value is 0.
 
 ### CameraName
 
-`str CameraName`
+`Name CameraName`
 
 Gets or sets the camera by its name.
 
@@ -97,7 +97,7 @@ The default value is 1.33.
 
 ### ObserverType
 
-`int ObserverType`
+`Type ObserverType`
 
 Gets or sets the observer type.
 
@@ -130,7 +130,7 @@ The default value is 250.0 mm.
 
 ### FrameObserverPoint
 
-`int FrameObserverPoint`
+`ObserverPoint FrameObserverPoint`
 
 Gets or sets the frame observer point.
 
@@ -175,7 +175,7 @@ The default value is 0.
 
 ### ObserverFrontDirection
 
-`int ObserverFrontDirection`
+`Direction ObserverFrontDirection`
 
 Gets or sets the observer front direction.
 
@@ -190,7 +190,7 @@ The default value is 0.
 
 ### ObserverTopDirection
 
-`int ObserverTopDirection`
+`Direction ObserverTopDirection`
 
 Gets or sets the observer top direction.
 
@@ -233,7 +233,7 @@ The default value is 2.0 degrees.
 
 ### ObserverHorizontalSampling
 
-`int ObserverHorizontalSampling`
+`Sampling ObserverHorizontalSampling`
 
 Gets or sets the observer horizontal sampling.
 
@@ -247,7 +247,7 @@ The default value is 100.
 
 ### ObserverVerticalSampling
 
-`int ObserverVerticalSampling`
+`Sampling ObserverVerticalSampling`
 
 Gets or sets the observer vertical sampling.
 

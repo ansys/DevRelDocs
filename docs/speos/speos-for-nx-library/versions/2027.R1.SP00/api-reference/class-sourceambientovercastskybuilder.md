@@ -44,7 +44,7 @@ Represents the builder for an Ambient Source with CIE Standard Overcast Sky type
 
 ### ZenithDirection
 
-`int ZenithDirection`
+`Direction ZenithDirection`
 
 Gets or sets the zenith direction.
 
@@ -99,7 +99,7 @@ The default value is 0.
 
 ### SpectrumFilePath
 
-`str SpectrumFilePath`
+`FilePath SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

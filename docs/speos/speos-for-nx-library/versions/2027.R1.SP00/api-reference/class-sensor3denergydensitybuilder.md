@@ -56,12 +56,12 @@ The default value is 0.
 
 ### XSize
 
-`float XSize`
+`Size XSize`
 
 Gets or sets the X size.
 
 **Value type**: Double (in mm).  
-**Range**The value must be superior to 0.0.  
+**Range** The value must be superior to 0.0.  
   
 The default value is 50.0 mm.
 
@@ -69,12 +69,12 @@ The default value is 50.0 mm.
 
 ### XSampling
 
-`int XSampling`
+`Sampling XSampling`
 
 Gets or sets the X sampling.
 
 **Value type**: Integer.  
-**Range**The value must be superior to 0.  
+**Range** The value must be superior to 0.  
   
 The default value is 100.
 
@@ -82,12 +82,12 @@ The default value is 100.
 
 ### YSize
 
-`float YSize`
+`Size YSize`
 
 Gets or sets the Y size.
 
 **Value type**: Double (in mm).  
-**Range**The value must be superior to 0.0.  
+**Range** The value must be superior to 0.0.  
   
 The default value is 50.0 mm.
 
@@ -95,12 +95,12 @@ The default value is 50.0 mm.
 
 ### YSampling
 
-`int YSampling`
+`Sampling YSampling`
 
 Gets or sets the Y sampling.
 
 **Value type**: Integer.  
-**Range**The value must be superior to 0.  
+**Range** The value must be superior to 0.  
   
 The default value is 100.
 
@@ -108,12 +108,12 @@ The default value is 100.
 
 ### ZSize
 
-`float ZSize`
+`Size ZSize`
 
 Gets or sets the Z size.
 
 **Value type**: Double (in mm).  
-**Range**The value must be superior to 0.0.  
+**Range** The value must be superior to 0.0.  
   
 The default value is 50.0 mm.
 
@@ -121,11 +121,11 @@ The default value is 50.0 mm.
 
 ### ZSampling
 
-`int ZSampling`
+`Sampling ZSampling`
 
 Gets or sets the Z sampling.
 
 **Value type**: Integer.  
-**Range**The value must be superior to 0.  
+**Range** The value must be superior to 0.  
   
 The default value is 100.

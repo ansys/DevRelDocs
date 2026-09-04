@@ -92,7 +92,7 @@ Gets the simulation feature in order to launch simulations.
 
 ### StopOnRaysNumber
 
-`bool StopOnRaysNumber`
+`RaysNumber StopOnRaysNumber`
 
 Gets or sets the property to enable stop on rays number.
 
@@ -141,7 +141,7 @@ The default value is 1.
 
 ### StopOnDuration
 
-`bool StopOnDuration`
+`Duration StopOnDuration`
 
 Gets or sets the property to stop on duration.
 
@@ -171,7 +171,7 @@ The default value is 1800.0 s.
 
 ### SourceGridSampling
 
-`int SourceGridSampling`
+`Sampling SourceGridSampling`
 
 Gets or sets the grid sampling of the source.
 
@@ -184,7 +184,7 @@ The default value is 100000.
 
 ### SensorPixelGridSampling
 
-`int SensorPixelGridSampling`
+`Sampling SensorPixelGridSampling`
 
 Gets or sets the pixel grid sampling of the sensor.
 
@@ -239,7 +239,7 @@ The default value is 500.0 s.
 
 ### UseAmbientMaterial
 
-`bool UseAmbientMaterial`
+`AmbientMaterial UseAmbientMaterial`
 
 Gets or sets the property to enable ambient material.
 
@@ -308,7 +308,7 @@ The default value is True.
 
 ### UsePresetSettings
 
-`bool UsePresetSettings`
+`PresetSettings UsePresetSettings`
 
 Gets or sets the property to enable preset settings.
 

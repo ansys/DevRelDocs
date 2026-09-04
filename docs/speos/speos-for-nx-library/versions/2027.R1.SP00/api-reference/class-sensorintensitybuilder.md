@@ -93,7 +93,7 @@ The default value is 0.
 
 ### AdaptiveSampling
 
-`bool AdaptiveSampling`
+`Sampling AdaptiveSampling`
 
 Gets or sets the property to enable adaptive sampling.
 
@@ -109,7 +109,7 @@ The default value is False.
 
 ### PolarFilePath
 
-`str PolarFilePath`
+`FilePath PolarFilePath`
 
 Gets or sets the polar file path.
 
@@ -135,7 +135,7 @@ The default value is 90.0.
 
 ### ConoscopicSampling
 
-`int ConoscopicSampling`
+`Sampling ConoscopicSampling`
 
 Gets or sets the Conoscopic sampling.
 
@@ -160,7 +160,7 @@ Gets or sets the Conoscopic resolution.
 
 ### PolarHSampling
 
-`int PolarHSampling`
+`Sampling PolarHSampling`
 
 Gets or sets the polar H sampling.
 
@@ -187,7 +187,7 @@ Gets or sets the polar H resolution.
 
 ### PolarVSampling
 
-`int PolarVSampling`
+`Sampling PolarVSampling`
 
 Gets or sets the polar V sampling.
 
@@ -227,7 +227,7 @@ False: Disables Near Field.
 
 ### CellDistance
 
-`float CellDistance`
+`Distance CellDistance`
 
 Gets or sets the cell distance.
 
@@ -254,7 +254,7 @@ The default value is 174.9773 mm.
 
 ### IntensityResultViewingDirection
 
-`int IntensityResultViewingDirection`
+`Direction IntensityResultViewingDirection`
 
 Gets or sets the intensity result viewing direction.
 

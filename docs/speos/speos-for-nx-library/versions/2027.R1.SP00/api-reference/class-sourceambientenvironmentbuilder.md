@@ -60,7 +60,7 @@ The default value is 1000.0 cd/m2.
 
 ### ImageFilePath
 
-`str ImageFilePath`
+`FilePath ImageFilePath`
 
 Gets or sets the image file.
 
@@ -113,7 +113,7 @@ The default value is 0.
 
 ### WhitePointType
 
-`int WhitePointType`
+`Type WhitePointType`
 
 Gets or sets the white point type of the standard illuminant.
 
@@ -198,7 +198,7 @@ The default value is an empty string.
 
 ### PreviewSize
 
-`float PreviewSize`
+`Size PreviewSize`
 
 Gets or sets the preview arrows size.
 

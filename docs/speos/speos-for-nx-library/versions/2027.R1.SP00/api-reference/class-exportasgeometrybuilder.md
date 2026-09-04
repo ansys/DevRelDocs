@@ -63,7 +63,7 @@ The default value is 0.
 
 ### PartName
 
-`str PartName`
+`Name PartName`
 
 Gets or sets the part name.
 
@@ -90,7 +90,7 @@ The default value is an empty.
 
 ### ExportTemplateName
 
-`str ExportTemplateName`
+`Name ExportTemplateName`
 
 Gets or sets the template name.
 

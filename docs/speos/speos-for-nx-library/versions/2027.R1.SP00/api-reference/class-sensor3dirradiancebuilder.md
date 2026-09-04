@@ -47,7 +47,7 @@ Represents the builder for a 3D irradiance sensor.
 
 ### MeasureType
 
-`int MeasureType`
+`Type MeasureType`
 
 Gets or sets the measure type.
 
@@ -77,7 +77,7 @@ The default value is False.
 
 ### RayFileFormat
 
-`int RayFileFormat`
+`Format RayFileFormat`
 
 Gets or sets the ray file format.
 
@@ -98,7 +98,7 @@ The default value is 0.
 
 ### IntegrationType
 
-`int IntegrationType`
+`Type IntegrationType`
 
 Gets or sets the integration type.
 
@@ -126,7 +126,7 @@ The default value is an empty list.
 
 ### LayerType
 
-`int LayerType`
+`Type LayerType`
 
 Gets or sets the layer type.
 
@@ -194,7 +194,7 @@ The default value is False.
 
 ### TemplateFilePath
 
-`str TemplateFilePath`
+`FilePath TemplateFilePath`
 
 Gets or sets the XM3 template file.
 

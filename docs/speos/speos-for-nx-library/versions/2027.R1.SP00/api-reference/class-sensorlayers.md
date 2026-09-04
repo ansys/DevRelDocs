@@ -46,7 +46,7 @@ The default value is 0.
 
 ### SurfaceContributionType
 
-`int SurfaceContributionType`
+`Type SurfaceContributionType`
 
 Gets or sets the surface contribution type.
 
@@ -61,7 +61,7 @@ The default value is 0.
 
 ### ContributionSurfaces
 
-`SelectFaceList ContributionSurfaces`
+`Faces ContributionSurfaces`
 
 Returns the contribution surfaces object.
 
@@ -85,7 +85,7 @@ The default value is 10.
 
 ### SequencePerType
 
-`int SequencePerType`
+`Type SequencePerType`
 
 Gets or sets the sequence per type.
 
@@ -102,7 +102,7 @@ The default value is 0.
 
 ### SortSequencePerType
 
-`int SortSequencePerType`
+`SequencePerType SortSequencePerType`
 
 Gets or sets the property to sort the sequences per type.
 

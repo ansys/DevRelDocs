@@ -81,7 +81,7 @@ The default value is 8000.0 Kelvin.
 
 ### EmittanceType
 
-`int EmittanceType`
+`Type EmittanceType`
 
 Gets or sets the emittance type.
 
@@ -96,7 +96,7 @@ The default value is 1.
 
 ### TemperatureFieldFilePath
 
-`str TemperatureFieldFilePath`
+`FilePath TemperatureFieldFilePath`
 
 Gets or sets the temperature field file path.
 
@@ -109,7 +109,7 @@ The default value is an empty string.
 
 ### EmittanceXDirectionReversed
 
-`bool EmittanceXDirectionReversed`
+`XDirectionReversed EmittanceXDirectionReversed`
 
 Gets or sets the property to reverse the emittance of X direction.
 
@@ -125,7 +125,7 @@ The default value is False.
 
 ### EmittanceYDirectionReversed
 
-`bool EmittanceYDirectionReversed`
+`YDirectionReversed EmittanceYDirectionReversed`
 
 Gets or sets the property to reverse the emittance of Y direction.
 
@@ -141,7 +141,7 @@ The default value is False.
 
 ### IntensityType
 
-`int IntensityType`
+`Type IntensityType`
 
 Gets or sets the intensity diagram.
 
@@ -171,7 +171,7 @@ The default value is 3.0.
 
 ### SOPType
 
-`int SOPType`
+`Type SOPType`
 
 Gets or sets the surface optical properties.
 
@@ -203,7 +203,7 @@ The default value is 100.0 percent.
 
 ### SOPLibraryFilePath
 
-`str SOPLibraryFilePath`
+`LibraryFilePath SOPLibraryFilePath`
 
 Gets or sets the surface optical properties library file.
 
@@ -216,7 +216,7 @@ The default value is an empty string.
 
 ### SOPPluginFilePath
 
-`str SOPPluginFilePath`
+`FilePath SOPPluginFilePath`
 
 Gets or sets the surface optical properties plug-in file.
 
@@ -229,7 +229,7 @@ The default value is an empty string.
 
 ### SOPParametersFilePath
 
-`str SOPParametersFilePath`
+`FilePath SOPParametersFilePath`
 
 Gets or sets the surface optical properties parameters file.
 
@@ -283,7 +283,7 @@ The default value is Meshing (0).
 
 ### EnableAutomaticUpdate
 
-`bool EnableAutomaticUpdate`
+`Update EnableAutomaticUpdate`
 
 Gets or sets the property to enable/disable the automatic update.
 
@@ -297,7 +297,7 @@ The default value is False.
 
 ### EmissiveFaces
 
-`SourceSurfaceEmissiveFaces EmissiveFaces`
+`Faces EmissiveFaces`
 
 Returns the interface to edit the emissive faces of the source.
 

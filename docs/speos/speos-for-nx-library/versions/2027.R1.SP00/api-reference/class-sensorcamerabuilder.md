@@ -83,7 +83,7 @@ The default value is 0.
 
 ### LayerType
 
-`int LayerType`
+`Type LayerType`
 
 Gets or sets the layer mode.
 
@@ -126,7 +126,7 @@ The default value is True.
 
 ### VisualizationRadius
 
-`float VisualizationRadius`
+`Radius VisualizationRadius`
 
 Gets or sets the Visualization radius.
 
@@ -182,7 +182,7 @@ The default value is 15.0.
 
 ### ImagerDistance
 
-`float ImagerDistance`
+`Distance ImagerDistance`
 
 Gets or sets the Image Distance.
 
@@ -194,7 +194,7 @@ The default value is 15.0 mm.
 
 ### DistortionFilePath
 
-`str DistortionFilePath`
+`FilePath DistortionFilePath`
 
 Gets or sets the distortion file path.
 
@@ -221,7 +221,7 @@ The default value is False.
 
 ### TransmittanceFilePath
 
-`str TransmittanceFilePath`
+`FilePath TransmittanceFilePath`
 
 Gets or sets the transmittance file path.
 
@@ -359,7 +359,7 @@ The default value is 3.
 
 ### SensitivityMonochromaticSpectrumFilePath
 
-`str SensitivityMonochromaticSpectrumFilePath`
+`SpectrumFilePath SensitivityMonochromaticSpectrumFilePath`
 
 Gets or sets the sensitivity monochromatic spectrum file path.
 
@@ -372,7 +372,7 @@ The default value is an empty file path (string).
 
 ### SensitivityRedSpectrumFilePath
 
-`str SensitivityRedSpectrumFilePath`
+`RedSpectrumFilePath SensitivityRedSpectrumFilePath`
 
 Gets or sets the sensitivity red spectrum file path.
 
@@ -385,7 +385,7 @@ The default value is an empty file path (string).
 
 ### SensitivityGreenSpectrumFilePath
 
-`str SensitivityGreenSpectrumFilePath`
+`GreenSpectrumFilePath SensitivityGreenSpectrumFilePath`
 
 Gets or sets the sensitivity green spectrum file path.
 
@@ -398,7 +398,7 @@ The default value is an empty file path (string).
 
 ### SensitivityBlueSpectrumFilePath
 
-`str SensitivityBlueSpectrumFilePath`
+`BlueSpectrumFilePath SensitivityBlueSpectrumFilePath`
 
 Gets or sets the sensitivity blue spectrum file path.
 
@@ -411,7 +411,7 @@ The default value is an empty file path (string).
 
 ### WhiteBalanceRedSpectrumFilePath
 
-`str WhiteBalanceRedSpectrumFilePath`
+`RedSpectrumFilePath WhiteBalanceRedSpectrumFilePath`
 
 Gets or sets the white balance red spectrum file path.
 
@@ -424,7 +424,7 @@ The default value is an empty file path (string).
 
 ### WhiteBalanceGreenSpectrumFilePath
 
-`str WhiteBalanceGreenSpectrumFilePath`
+`GreenSpectrumFilePath WhiteBalanceGreenSpectrumFilePath`
 
 Gets or sets the white balance green spectrum file path.
 
@@ -437,7 +437,7 @@ The default value is an empty file path (string).
 
 ### WhiteBalanceBlueSpectrumFilePath
 
-`str WhiteBalanceBlueSpectrumFilePath`
+`BlueSpectrumFilePath WhiteBalanceBlueSpectrumFilePath`
 
 Gets or sets the white balance blue spectrum file path.
 
@@ -519,7 +519,7 @@ The default value is 700.0 nm.
 
 ### WavelengthSampling
 
-`int WavelengthSampling`
+`Sampling WavelengthSampling`
 
 Gets or sets the wavelength sampling.
 

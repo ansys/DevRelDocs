@@ -17,7 +17,7 @@ Represents an Axis System.
 
 ### ZenithDirection
 
-`int ZenithDirection`
+`Direction ZenithDirection`
 
 Gets or sets the zenith direction.
 
@@ -45,7 +45,7 @@ The default value is False.
 
 ### NorthDirection
 
-`int NorthDirection`
+`Direction NorthDirection`
 
 Gets or sets the north direction.
 
