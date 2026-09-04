@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-02).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,7 +28,7 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [10 items](#Features_femutils) |[21 items](#Fixes_femutils) |
+| femutils | [10 items](#Features_femutils) |[23 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [5 items](#Features_framework) |[14 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[73 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[77 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -53,7 +53,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [22 items](#Features_native) |[35 items](#Fixes_native) |
+| native | [22 items](#Features_native) |[36 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -604,6 +604,22 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- ElementalNodal_to_NodalElemental operator failed to scope to the nodal scoping:
+  > Fix missmatch between documentation and actual input situation of the ElementalNodal_to_NodalElemental (and fc) operators.
+  >
+  > 
+  >
+  > 
+
+- Mark Poisson ratio input optional in equivalent_von_mises operators:
+  > 
+  >
+  > The von Mises operators now expose Poisson ratio as an optional input while preserving default behavior when the input is omitted.
+  >
+  > 
+  >
+  > 
 
 - Wrong shell results on skin with elemental averaging:
   > 
@@ -1919,6 +1935,30 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Filter unsupported TARGE170 ECT Results (fixed):
+  > 
+  >
+  > 
+
+- Crash when trying to read results of an unconverged solution:
+  > When trying to get a result for empty sets only, the operator returns a fields container with empty fields instead of crashing.
+  >
+  > 
+  >
+  > 
+
+- Filter unsupported TARGE170 ECT Results':
+  >  (for the DPF release notes and external users
+  >
+  > 
+  >
+  > 
+
+- Filter unsupported TARGE170 ECT Results:
+  > 
+  >
+  > 
 
 - PRES_reader doesn't read all nodes:
   > - The operator _PRES_reader_ was stopping reading data when the list of nodes of an element was split by some text.
@@ -3359,6 +3399,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Rotation operator crash when source operators produce a null output:
+  > 
+  >
+  > Fix a crash when querying unavailable msup expansion results
+  >
+  > 
+  >
+  > 
+
 - Fixing issue with composite results without previously calling the mesh provider operator:
   > Fixing issue with composite results without previously calling the mesh provider operator.
   >
@@ -4717,6 +4766,8 @@ The following table shows which components have updates in each category.
 
   > 0.0.5: Fix exception type preservation during parallel execution.
 
+  > 0.0.6: Fix exception short-circuit data race during parallel execution.
+
 
 - [elemental_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_elemental_nodal.md)
 
@@ -4726,6 +4777,8 @@ The following table shows which components have updates in each category.
 - [elemental_to_elemental_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_elemental_nodal_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.0.2: Fix exception short-circuit data race during parallel execution.
 
 
 - [elemental_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_to_nodal.md)
@@ -4742,6 +4795,8 @@ The following table shows which components have updates in each category.
   > 0.0.2: Internal refactoring to use Scoping Iterators.
 
   > 0.0.3: Fix exception type preservation during parallel execution.
+
+  > 0.0.4: Fix exception short-circuit data race during parallel execution.
 
 
 - [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
@@ -4787,6 +4842,8 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
+  > 0.0.2: Fix exception short-circuit data race during parallel execution.
+
 
 - [nodal_fraction_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_fraction_fc.md)
 
@@ -4803,6 +4860,8 @@ The following table shows which components have updates in each category.
 - [nodal_to_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_to_elemental_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.0.2: Fix exception short-circuit data race during parallel execution.
 
 
 - [nodal_to_elemental_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/nodal_to_elemental_nodal.md)
@@ -4823,6 +4882,8 @@ The following table shows which components have updates in each category.
   > 0.1.1: Internal refactoring to use Scoping Iterators.
 
   > 0.1.2: Fix exception type preservation during parallel execution.
+
+  > 0.1.3: Fix exception short-circuit data race during parallel execution.
 
 
 - [to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/to_nodal.md)
@@ -5089,6 +5150,13 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Fix exception type preservation during parallel execution.
 
+  > 0.0.2: Fix optional Poisson ratio input declaration.
+
+
+- [von_mises_eqv_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/invariant/von_mises_eqv_fc.md)
+
+  > 0.0.1: Fix optional Poisson ratio input declaration.
+
 
 
 #### logic
@@ -5214,11 +5282,13 @@ The following table shows which components have updates in each category.
 
   > 0.2.11: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
 
-  > 0.2.12: Add support for line elements.
+  > 0.2.12: Fix shell-layer inference state leaking between mapped elements.
 
-  > 0.2.13: Performance improvement for Elemental and ElementalNodal fields.
+  > 0.2.13: Add support for line elements.
 
-  > 0.2.14: Add support for surface elements.
+  > 0.2.14: Performance improvement for Elemental and ElementalNodal fields.
+
+  > 0.2.15: Add support for surface elements.
 
 
 - [solid_to_skin_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/solid_to_skin_fc.md)
@@ -5245,9 +5315,11 @@ The following table shows which components have updates in each category.
 
   > 0.2.8: Fix const-safe access to the shared properties map under parallel execution (use at() instead of operator[]).
 
-  > 0.2.9: Performance improvement for Elemental and ElementalNodal fields containers.
+  > 0.2.9: Fix shell-layer inference state leaking between mapped elements.
 
-  > 0.2.10: Add support for surface elements.
+  > 0.2.10: Performance improvement for Elemental and ElementalNodal fields containers.
+
+  > 0.2.11: Add support for surface elements.
 
 
 
