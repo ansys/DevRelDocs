@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-03).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,14 +28,14 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [10 items](#Features_femutils) |[23 items](#Fixes_femutils) |
+| femutils | [10 items](#Features_femutils) |[24 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[14 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[16 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[18 items](#Fixes_hdf5) |
+| hdf5 | [16 items](#Features_hdf5) |[20 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
@@ -605,6 +605,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Preserve mapping labels for single coordinate field:
+  > 
+  >
+  > Mapping results preserve coordinate-region labels when evaluated at one coordinate field, matching behavior for multiple coordinate fields.
+  >
+  > 
+  >
+  > 
+
 - ElementalNodal_to_NodalElemental operator failed to scope to the nodal scoping:
   > Fix missmatch between documentation and actual input situation of the ElementalNodal_to_NodalElemental (and fc) operators.
   >
@@ -850,6 +859,24 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Make the workflow step index memory upper bound actually hold:
+  > The memory upper bound configured on `WorkflowStepIndex` was not enforced. Depending on
+  >
+  > the sequence, the index either dropped steps it had just accepted or exceeded the limit by
+  >
+  > ~20%, and evicted steps kept holding their heap memory. This PR makes the bound effective
+  >
+  > and adds integration coverage.
+  >
+  > 
+  >
+  > 
+
+- Fix non-ACLE licensing with delayed checkout:
+  > 
+  >
+  > 
 
 - Fix frequency unit for SOLVER_UMKS UnitSystem:
   > 
@@ -1224,6 +1251,16 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hdf5"></a> Fixes
+
+- Fix depulicated tfs in append_tfs mode:
+  > Append new time steps to the same tfs without creating a new one (PluginDPF).
+  >
+  > 
+
+- Avoid reading support (mesh) when mesh is given in input when reading unscoped results:
+  > Avoid reading support (mesh) when mesh is given in input when reading unscoped results
+  >
+  > 
 
 - Improving performance of reading scoped results with multiple time steps:
   > 
@@ -4748,10 +4785,26 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Block ScopingsContainer input.
+
+  > 0.0.3: Expose map scoping input and auxiliary scoping outputs in the specification.
+
 
 - [elemental_nodal_to_nodal_elemental_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_elemental_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.0.2: Fix right input pin for mesh scoping and meshed region.
+
+  > 0.0.3: Connect a scoping only if non empty.
+
+  > 0.0.4: Document mesh and label-specific scoping input behavior.
+
+  > 0.0.5: Reduce serialized per-field setup during parallel execution.
+
+  > 0.0.6: Resolve mesh support independently for each field.
+
+  > 0.1.0: Add in the specification the meshed region input.
 
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
@@ -5235,6 +5288,8 @@ The following table shows which components have updates in each category.
   > 0.3.1: Update the operator and pin descriptions.
 
   > 0.3.2: Fix tolerance problem with distorted elements.
+
+  > 0.4.0: Preserve explicit coordinate labels and ignore implicit labels in mapping output.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
