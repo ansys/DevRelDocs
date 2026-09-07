@@ -27,18 +27,18 @@ Represents the builder for a luminaire source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [IntensityFilePath](#intensityfilepath) | public |
-| [Flux](#flux) | public |
-| [FluxUnit](#fluxunit) | public |
-| [FluxFromFile](#fluxfromfile) | public |
-| [Spectrum](#spectrum) | public |
-| [Temperature](#temperature) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [RayLength](#raylength) | public |
-| [ShowIntensityDistribution](#showintensitydistribution) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [IntensityFilePath](#intensityfilepath) | public | Gets or sets the intensity distribution file path. **Value type**: String. The default value is an empty string. |
+| [Flux](#flux) | public | Gets or sets the flux. |
+| [FluxUnit](#fluxunit) | public | Gets or sets the flux unit. |
+| [FluxFromFile](#fluxfromfile) | public | Gets or sets the property to enable or disable getting the flux from file. |
+| [Spectrum](#spectrum) | public | Gets or sets the spectrum type. |
+| [Temperature](#temperature) | public | Gets or sets the spectrum temperature. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file path. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
+| [ShowIntensityDistribution](#showintensitydistribution) | public | Gets or sets the property to show the intensity distribution in the 3D view. |
 
 ## Public Static Attributes
 

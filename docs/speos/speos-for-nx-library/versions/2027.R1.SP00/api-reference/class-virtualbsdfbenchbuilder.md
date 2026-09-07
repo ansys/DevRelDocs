@@ -27,38 +27,38 @@ Builder class for creating and configuring Virtual BSDF Bench features.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [CVirtualBSDFBenchBuilder](#cvirtualbsdfbenchbuilder) | public |
-| [FeatureSimulation](#featuresimulation) | public |
-| [Geometries](#geometries) | public |
-| [XRatio](#xratio) | public |
-| [YRatio](#yratio) | public |
-| [UseIdenticalRatios](#useidenticalratios) | public |
-| [PresetSettings](#presetsettings) | public |
-| [BSDFSensitivity](#bsdfsensitivity) | public |
-| [ColorSensitivity](#colorsensitivity) | public |
-| [Anisotropic](#anisotropic) | public |
-| [BSDF180](#bsdf180) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [NumberOfRaysMultiplier](#numberofraysmultiplier) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [SourceSamplingMode](#sourcesamplingmode) | public |
-| [SourceThetaSampling](#sourcethetasampling) | public |
-| [SourcePhiSampling](#sourcephisampling) | public |
-| [SourcePhiSymmetry](#sourcephisymmetry) | public |
-| [SourceAdaptiveSamplingFile](#sourceadaptivesamplingfile) | public |
-| [SensorType](#sensortype) | public |
-| [IntegrationAngle](#integrationangle) | public |
-| [SensorAutomaticSampling](#sensorautomaticsampling) | public |
-| [SensorSamplingMode](#sensorsamplingmode) | public |
-| [SensorThetaSampling](#sensorthetasampling) | public |
-| [SensorPhiSampling](#sensorphisampling) | public |
-| [SensorAdaptiveSamplingFile](#sensoradaptivesamplingfile) | public |
-| [StringSpeosFile](#stringspeosfile) | public |
-| [StringIsolatedFolder](#stringisolatedfolder) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [CVirtualBSDFBenchBuilder](#cvirtualbsdfbenchbuilder) | public | Constructs a CVirtualBSDFBenchBuilder with the specified implementation. @param pImpl Pointer to the internal implementation object. |
+| [FeatureSimulation](#featuresimulation) | public |  |
+| [Geometries](#geometries) | public |  |
+| [XRatio](#xratio) | public |  |
+| [YRatio](#yratio) | public |  |
+| [UseIdenticalRatios](#useidenticalratios) | public |  |
+| [PresetSettings](#presetsettings) | public |  |
+| [BSDFSensitivity](#bsdfsensitivity) | public |  |
+| [ColorSensitivity](#colorsensitivity) | public |  |
+| [Anisotropic](#anisotropic) | public |  |
+| [BSDF180](#bsdf180) | public |  |
+| [NumberOfRays](#numberofrays) | public |  |
+| [NumberOfRaysMultiplier](#numberofraysmultiplier) | public |  |
+| [WavelengthStart](#wavelengthstart) | public |  |
+| [WavelengthEnd](#wavelengthend) | public |  |
+| [WavelengthSampling](#wavelengthsampling) | public |  |
+| [SourceSamplingMode](#sourcesamplingmode) | public |  |
+| [SourceThetaSampling](#sourcethetasampling) | public |  |
+| [SourcePhiSampling](#sourcephisampling) | public |  |
+| [SourcePhiSymmetry](#sourcephisymmetry) | public |  |
+| [SourceAdaptiveSamplingFile](#sourceadaptivesamplingfile) | public |  |
+| [SensorType](#sensortype) | public |  |
+| [IntegrationAngle](#integrationangle) | public |  |
+| [SensorAutomaticSampling](#sensorautomaticsampling) | public |  |
+| [SensorSamplingMode](#sensorsamplingmode) | public |  |
+| [SensorThetaSampling](#sensorthetasampling) | public |  |
+| [SensorPhiSampling](#sensorphisampling) | public |  |
+| [SensorAdaptiveSamplingFile](#sensoradaptivesamplingfile) | public |  |
+| [StringSpeosFile](#stringspeosfile) | public |  |
+| [StringIsolatedFolder](#stringisolatedfolder) | public |  |
 
 ## Public Member Functions
 

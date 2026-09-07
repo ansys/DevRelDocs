@@ -27,27 +27,27 @@ Represents a Thermic Surface Source Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Flux](#flux) | public |
-| [FluxUnit](#fluxunit) | public |
-| [Temperature](#temperature) | public |
-| [EmittanceType](#emittancetype) | public |
-| [TemperatureFieldFilePath](#temperaturefieldfilepath) | public |
-| [EmittanceXDirectionReversed](#emittancexdirectionreversed) | public |
-| [EmittanceYDirectionReversed](#emittanceydirectionreversed) | public |
-| [IntensityType](#intensitytype) | public |
-| [CosN](#cosn) | public |
-| [SOPType](#soptype) | public |
-| [SOPReflectance](#sopreflectance) | public |
-| [SOPLibraryFilePath](#soplibraryfilepath) | public |
-| [SOPPluginFilePath](#soppluginfilepath) | public |
-| [SOPParametersFilePath](#sopparametersfilepath) | public |
-| [RayLength](#raylength) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [PreviewMode](#previewmode) | public |
-| [EnableAutomaticUpdate](#enableautomaticupdate) | public |
-| [EmissiveFaces](#emissivefaces) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Flux](#flux) | public | Gets the flux. |
+| [FluxUnit](#fluxunit) | public | Gets or sets the flux unit. |
+| [Temperature](#temperature) | public | Gets or sets the temperature. |
+| [EmittanceType](#emittancetype) | public | Gets or sets the emittance type. |
+| [TemperatureFieldFilePath](#temperaturefieldfilepath) | public | Gets or sets the temperature field file path. |
+| [EmittanceXDirectionReversed](#emittancexdirectionreversed) | public | Gets or sets the property to reverse the emittance of X direction. |
+| [EmittanceYDirectionReversed](#emittanceydirectionreversed) | public | Gets or sets the property to reverse the emittance of Y direction. |
+| [IntensityType](#intensitytype) | public | Gets or sets the intensity diagram. |
+| [CosN](#cosn) | public | Gets or sets the N value for Cos distribution. |
+| [SOPType](#soptype) | public | Gets or sets the surface optical properties. |
+| [SOPReflectance](#sopreflectance) | public | Gets or sets the surface optical properties reflectance. |
+| [SOPLibraryFilePath](#soplibraryfilepath) | public | Gets or sets the surface optical properties library file. |
+| [SOPPluginFilePath](#soppluginfilepath) | public | Gets or sets the surface optical properties plug-in file. |
+| [SOPParametersFilePath](#sopparametersfilepath) | public | Gets or sets the surface optical properties parameters file. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [PreviewMode](#previewmode) | public | Gets or sets the preview mode. |
+| [EnableAutomaticUpdate](#enableautomaticupdate) | public | Gets or sets the property to enable/disable the automatic update. |
+| [EmissiveFaces](#emissivefaces) | public | Returns the interface to edit the emissive faces of the source. |
 
 ## Public Static Attributes
 

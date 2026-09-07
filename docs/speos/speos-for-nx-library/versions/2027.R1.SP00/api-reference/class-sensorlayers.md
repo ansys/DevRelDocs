@@ -8,21 +8,21 @@ Data Model for Sensor Filter
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [SurfaceContributionType](#surfacecontributiontype) | public |
-| [ContributionSurfaces](#contributionsurfaces) | public |
-| [MaximumSequences](#maximumsequences) | public |
-| [SequencePerType](#sequencepertype) | public |
-| [SortSequencePerType](#sortsequencepertype) | public |
-| [GroupNames](#groupnames) | public |
-| [Groups](#groups) | public |
-| [AddNewGroup](#addnewgroup) | public |
-| [FindGroup](#findgroup) | public |
-| [FindGroupFromName](#findgroupfromname) | public |
-| [RemoveGroup](#removegroup) | public |
-| [RemoveGroupFromName](#removegroupfromname) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the type of layer. |
+| [SurfaceContributionType](#surfacecontributiontype) | public | Gets or sets the surface contribution type. |
+| [ContributionSurfaces](#contributionsurfaces) | public | Returns the contribution surfaces object. |
+| [MaximumSequences](#maximumsequences) | public | Gets or sets the maximum number of sequences. |
+| [SequencePerType](#sequencepertype) | public | Gets or sets the sequence per type. |
+| [SortSequencePerType](#sortsequencepertype) | public | Gets or sets the property to sort the sequences per type. |
+| [GroupNames](#groupnames) | public | Returns the group names. |
+| [Groups](#groups) | public | Returns the groups. |
+| [AddNewGroup](#addnewgroup) | public | Creates a new group. |
+| [FindGroup](#findgroup) | public | Returns the targeted group. |
+| [FindGroupFromName](#findgroupfromname) | public | Returns the targeted group. |
+| [RemoveGroup](#removegroup) | public | Removes the targeted group. |
+| [RemoveGroupFromName](#removegroupfromname) | public | Removes the targeted group. |
 
 ## Public Static Attributes
 

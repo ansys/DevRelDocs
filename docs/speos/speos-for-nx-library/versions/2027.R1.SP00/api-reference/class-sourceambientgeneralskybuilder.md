@@ -31,12 +31,12 @@ Represents the builder for an Ambient Source with CIE Standard General Sky type.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Luminance](#luminance) | public |
-| [CIEType](#cietype) | public |
-| [SunType](#suntype) | public |
-| [SunDirectionReversed](#sundirectionreversed) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Luminance](#luminance) | public | Gets or sets the luminance |
+| [CIEType](#cietype) | public | Gets or sets the CIE type. |
+| [SunType](#suntype) | public | Gets or sets the Sun type. |
+| [SunDirectionReversed](#sundirectionreversed) | public | Gets or sets the reverse Sun direction. |
 
 ## Public Static Attributes
 

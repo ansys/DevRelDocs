@@ -31,9 +31,9 @@ Represents an Interactive Simulation Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [InfiniteRayLength](#infiniteraylength) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [InfiniteRayLength](#infiniteraylength) | public | Gets or sets the infinite ray length. |
 
 ## Public Static Attributes
 

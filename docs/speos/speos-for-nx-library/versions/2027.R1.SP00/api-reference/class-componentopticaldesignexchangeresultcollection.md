@@ -7,10 +7,10 @@ Represents the collection of results belonging to an Optical Design Exchange fea
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FindFromName](#findfromname) | public |
-| [CreateResultBuilder](#createresultbuilder) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FindFromName](#findfromname) | public | Finds the result feature from its name. |
+| [CreateResultBuilder](#createresultbuilder) | public | Creates a builder for an Optical Design Exchange Result. |
 
 ## Public Member Functions
 

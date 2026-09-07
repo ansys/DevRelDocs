@@ -39,34 +39,34 @@ A base class for all Sensor Builders.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [XStart](#xstart) | public |
-| [XEnd](#xend) | public |
-| [XSampling](#xsampling) | public |
-| [XResolution](#xresolution) | public |
-| [XMirroredExtent](#xmirroredextent) | public |
-| [YStart](#ystart) | public |
-| [YEnd](#yend) | public |
-| [YSampling](#ysampling) | public |
-| [YResolution](#yresolution) | public |
-| [YMirroredExtent](#ymirroredextent) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [WavelengthResolution](#wavelengthresolution) | public |
-| [UseTemplateFile](#usetemplatefile) | public |
-| [DimensionFromFile](#dimensionfromfile) | public |
-| [DisplayPropertiesFromFile](#displaypropertiesfromfile) | public |
-| [TemplateFilePath](#templatefilepath) | public |
-| [TemplateType](#templatetype) | public |
-| [ShowGrid](#showgrid) | public |
-| [GridOriginX](#gridoriginx) | public |
-| [GridOriginY](#gridoriginy) | public |
-| [GridStepX](#gridstepx) | public |
-| [GridStepY](#gridstepy) | public |
-| [IsTemplateFileValid](#istemplatefilevalid) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the type of the sensor. |
+| [XStart](#xstart) | public | Gets or sets the Sensor X start dimension value. |
+| [XEnd](#xend) | public | Gets or sets the Sensor X end dimension value. |
+| [XSampling](#xsampling) | public | Gets or sets the Sensor X dimension sampling value. |
+| [XResolution](#xresolution) | public | Gets or sets the Sensor X dimension resolution value. |
+| [XMirroredExtent](#xmirroredextent) | public | Gets the Sensor X dimension mirrored extent value. |
+| [YStart](#ystart) | public | Gets or sets the Sensor Y start dimension value. |
+| [YEnd](#yend) | public | Gets or sets the Sensor Y end dimension value. |
+| [YSampling](#ysampling) | public | Gets or sets the Sensor Y dimension sampling value. |
+| [YResolution](#yresolution) | public | Gets or sets the Sensor Y dimension resolution value. |
+| [YMirroredExtent](#ymirroredextent) | public | Gets the Sensor Y dimension mirrored extent value. |
+| [WavelengthStart](#wavelengthstart) | public | Gets or sets the wavelength starting border. |
+| [WavelengthEnd](#wavelengthend) | public | Gets or sets the wavelength ending border. |
+| [WavelengthSampling](#wavelengthsampling) | public | Gets or sets the wavelength sampling. |
+| [WavelengthResolution](#wavelengthresolution) | public | Gets or sets the Wavelength resolution |
+| [UseTemplateFile](#usetemplatefile) | public | Gets or sets the property to enable the use of template file |
+| [DimensionFromFile](#dimensionfromfile) | public | Gets or sets the property to enable the use of dimensions that come from File |
+| [DisplayPropertiesFromFile](#displaypropertiesfromfile) | public | Gets or sets the property to enable the use of display properties that come from File. |
+| [TemplateFilePath](#templatefilepath) | public | Gets or sets the template file's path. |
+| [TemplateType](#templatetype) | public | Gets or sets the template type |
+| [ShowGrid](#showgrid) | public | Gets or sets the property to enable grid preview. |
+| [GridOriginX](#gridoriginx) | public | Gets or sets the grid X origin |
+| [GridOriginY](#gridoriginy) | public | Gets or sets the grid Y origin |
+| [GridStepX](#gridstepx) | public | Gets or sets the grid X step |
+| [GridStepY](#gridstepy) | public | Gets or sets the grid Y step |
+| [IsTemplateFileValid](#istemplatefilevalid) | public | Checks whether the template file is valid. |
 
 ## Public Static Attributes
 

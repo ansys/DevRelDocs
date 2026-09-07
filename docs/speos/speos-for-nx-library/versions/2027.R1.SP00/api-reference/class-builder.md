@@ -35,9 +35,9 @@ A base class for all Builders.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Commit](#commit) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Commit](#commit) | public | Commits any edits that have been applied to the builder. |
 
 ## Public Member Functions
 

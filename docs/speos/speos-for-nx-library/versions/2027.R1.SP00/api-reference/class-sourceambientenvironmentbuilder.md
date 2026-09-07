@@ -27,20 +27,20 @@ Represents the builder for an ambient environment source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Luminance](#luminance) | public |
-| [ImageFilePath](#imagefilepath) | public |
-| [GroundOrigin](#groundorigin) | public |
-| [Height](#height) | public |
-| [ColorSpace](#colorspace) | public |
-| [WhitePointType](#whitepointtype) | public |
-| [WhitePointX](#whitepointx) | public |
-| [WhitePointY](#whitepointy) | public |
-| [RedSpectrumFile](#redspectrumfile) | public |
-| [GreenSpectrumFile](#greenspectrumfile) | public |
-| [BlueSpectrumFile](#bluespectrumfile) | public |
-| [PreviewSize](#previewsize) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Luminance](#luminance) | public | Gets or sets the luminance. |
+| [ImageFilePath](#imagefilepath) | public | Gets or sets the image file. |
+| [GroundOrigin](#groundorigin) | public | Gets or sets the ground origin. |
+| [Height](#height) | public | Gets or sets the height. |
+| [ColorSpace](#colorspace) | public | Gets or sets the color space model type. |
+| [WhitePointType](#whitepointtype) | public | Gets or sets the white point type of the standard illuminant. |
+| [WhitePointX](#whitepointx) | public | Gets or sets the X coordinate of the white point. |
+| [WhitePointY](#whitepointy) | public | Gets or sets the Y coordinate of the white point. |
+| [RedSpectrumFile](#redspectrumfile) | public | Gets or sets the red spectrum file. |
+| [GreenSpectrumFile](#greenspectrumfile) | public | Gets or sets the green spectrum file. |
+| [BlueSpectrumFile](#bluespectrumfile) | public | Gets or sets the blue spectrum file. |
+| [PreviewSize](#previewsize) | public | Gets or sets the preview arrows size. |
 
 ## Public Static Attributes
 

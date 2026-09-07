@@ -27,19 +27,19 @@ Represents a Result Light Expert builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [NumberOfRays](#numberofrays) | public |
-| [DrawingOptions](#drawingoptions) | public |
-| [InfiniteRayLength](#infiniteraylength) | public |
-| [SelectedRaysMode](#selectedraysmode) | public |
-| [RequiredFaces](#requiredfaces) | public |
-| [RequiredFacesMode](#requiredfacesmode) | public |
-| [RejectedFaces](#rejectedfaces) | public |
-| [CreateAreaRectangle](#createarearectangle) | public |
-| [CreateAreaEllipse](#createareaellipse) | public |
-| [CreateAreaPolygon](#createareapolygon) | public |
-| [RetrieveMeasureValue](#retrievemeasurevalue) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [DrawingOptions](#drawingoptions) | public | Gets or sets the drawing options. |
+| [InfiniteRayLength](#infiniteraylength) | public | Gets or sets the infinite ray length. |
+| [SelectedRaysMode](#selectedraysmode) | public | Gets or sets the selected rays mode. |
+| [RequiredFaces](#requiredfaces) | public | Gets or sets requiered faces tag. |
+| [RequiredFacesMode](#requiredfacesmode) | public | Gets or sets the required faces mode. |
+| [RejectedFaces](#rejectedfaces) | public | Gets or sets rejected faces tag. |
+| [CreateAreaRectangle](#createarearectangle) | public | Create a rectangle area. |
+| [CreateAreaEllipse](#createareaellipse) | public | Create an ellipse area. |
+| [CreateAreaPolygon](#createareapolygon) | public | Create an polygon area. |
+| [RetrieveMeasureValue](#retrievemeasurevalue) | public | Retrieve measure value. |
 
 ## Public Static Attributes
 

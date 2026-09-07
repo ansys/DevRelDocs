@@ -6,58 +6,58 @@ Represents the collection of Speos features in a Part.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FindFromTag](#findfromtag) | public |
-| [FindFromName](#findfromname) | public |
-| [CreateSourceDisplayBuilder](#createsourcedisplaybuilder) | public |
-| [CreateSourceAmbientGeneralSkyBuilder](#createsourceambientgeneralskybuilder) | public |
-| [CreateSourceAmbientNaturalLightBuilder](#createsourceambientnaturallightbuilder) | public |
-| [CreateSourceAmbientOvercastSkyBuilder](#createsourceambientovercastskybuilder) | public |
-| [CreateSourceAmbientUniformBuilder](#createsourceambientuniformbuilder) | public |
-| [CreateSourceAmbientUS1976Builder](#createsourceambientus1976builder) | public |
-| [CreateSourceLuminaireBuilder](#createsourceluminairebuilder) | public |
-| [CreateSourceAmbientEnvironmentBuilder](#createsourceambientenvironmentbuilder) | public |
-| [CreateSourceSurfaceBuilder](#createsourcesurfacebuilder) | public |
-| [CreateSourceRayFileBuilder](#createsourcerayfilebuilder) | public |
-| [CreateSourceSurfaceThermicBuilder](#createsourcesurfacethermicbuilder) | public |
-| [CreateSourceGroupBuilder](#createsourcegroupbuilder) | public |
-| [CreateSourceLightFieldBuilder](#createsourcelightfieldbuilder) | public |
-| [CreateSourceInteractiveBuilder](#createsourceinteractivebuilder) | public |
-| [CreateSensorLightFieldBuilder](#createsensorlightfieldbuilder) | public |
-| [CreateSensorRadianceBuilder](#createsensorradiancebuilder) | public |
-| [CreateSensorIrradianceBuilder](#createsensorirradiancebuilder) | public |
-| [CreateSensorIntensityBuilder](#createsensorintensitybuilder) | public |
-| [CreateSensor3DEnergyDensityBuilder](#createsensor3denergydensitybuilder) | public |
-| [CreateSensorVRImmersiveBuilder](#createsensorvrimmersivebuilder) | public |
-| [CreateSensor3DIrradianceBuilder](#createsensor3dirradiancebuilder) | public |
-| [CreateSensorObserverBuilder](#createsensorobserverbuilder) | public |
-| [CreateSensorCameraBuilder](#createsensorcamerabuilder) | public |
-| [CreateSensorHumanEyeBuilder](#createsensorhumaneyebuilder) | public |
-| [CreateSensorPhysicalCameraBuilder](#createsensorphysicalcamerabuilder) | public |
-| [CreateSimulationInteractiveBuilder](#createsimulationinteractivebuilder) | public |
-| [CreateSimulationDirectBuilder](#createsimulationdirectbuilder) | public |
-| [CreateSimulationInverseBuilder](#createsimulationinversebuilder) | public |
-| [CreateSimulationLiDARBuilder](#createsimulationlidarbuilder) | public |
-| [CreateComponentLightBoxImportBuilder](#createcomponentlightboximportbuilder) | public |
-| [CreateComponentLightBoxExportBuilder](#createcomponentlightboxexportbuilder) | public |
-| [CreateComponentAmbientMaterialBuilder](#createcomponentambientmaterialbuilder) | public |
-| [CreateComponentOpticalDesignExchangeBuilder](#createcomponentopticaldesignexchangebuilder) | public |
-| [CreateOpticalPropertiesBuilder](#createopticalpropertiesbuilder) | public |
-| [CreateSpeosPatternBuilder](#createspeospatternbuilder) | public |
-| [CreateFolderBuilder](#createfolderbuilder) | public |
-| [CreateComponentPolarizationPlateBuilder](#createcomponentpolarizationplatebuilder) | public |
-| [CreateComponent3DTextureBuilder](#createcomponent3dtexturebuilder) | public |
-| [CreateCopyPasteBuilder](#createcopypastebuilder) | public |
-| [CreateSensorLiDARBuilder](#createsensorlidarbuilder) | public |
-| [CreateLightExpertSensorGroupBuilder](#createlightexpertsensorgroupbuilder) | public |
-| [CreateExportAsGeometryBuilder](#createexportasgeometrybuilder) | public |
-| [CreateResultLXPBuilder](#createresultlxpbuilder) | public |
-| [CreateVirtualBSDFBenchBuilder](#createvirtualbsdfbenchbuilder) | public |
-| [SourceFeatures](#sourcefeatures) | public |
-| [SensorFeatures](#sensorfeatures) | public |
-| [OpticalPropertyFeatures](#opticalpropertyfeatures) | public |
-| [SimulationFeatures](#simulationfeatures) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FindFromTag](#findfromtag) | public | Finds the feature with the given Tag. |
+| [FindFromName](#findfromname) | public | Finds the feature with the given name. |
+| [CreateSourceDisplayBuilder](#createsourcedisplaybuilder) | public | Creates a builder for a display source. |
+| [CreateSourceAmbientGeneralSkyBuilder](#createsourceambientgeneralskybuilder) | public | Creates a builder for an ambient source with CIE General Sky type. |
+| [CreateSourceAmbientNaturalLightBuilder](#createsourceambientnaturallightbuilder) | public | Creates a builder for an ambient source with Natural Light type. |
+| [CreateSourceAmbientOvercastSkyBuilder](#createsourceambientovercastskybuilder) | public | Creates a builder for an ambient source with Overcast Sky type. |
+| [CreateSourceAmbientUniformBuilder](#createsourceambientuniformbuilder) | public | Creates a builder for an ambient source with Uniform type. |
+| [CreateSourceAmbientUS1976Builder](#createsourceambientus1976builder) | public | Creates a builder for an U.S. Standard Atmosphere 1976 source. |
+| [CreateSourceLuminaireBuilder](#createsourceluminairebuilder) | public | Creates a builder for a luminaire source. |
+| [CreateSourceAmbientEnvironmentBuilder](#createsourceambientenvironmentbuilder) | public | Creates a builder for an ambient environment source. |
+| [CreateSourceSurfaceBuilder](#createsourcesurfacebuilder) | public | Creates a builder for a surface source. |
+| [CreateSourceRayFileBuilder](#createsourcerayfilebuilder) | public | Creates a builder for a ray file source. |
+| [CreateSourceSurfaceThermicBuilder](#createsourcesurfacethermicbuilder) | public | Creates a builder for a thermic surface source. |
+| [CreateSourceGroupBuilder](#createsourcegroupbuilder) | public | Creates a builder for a source group. |
+| [CreateSourceLightFieldBuilder](#createsourcelightfieldbuilder) | public | Creates a builder for a light field source. |
+| [CreateSourceInteractiveBuilder](#createsourceinteractivebuilder) | public | Creates a builder for an interactive source. |
+| [CreateSensorLightFieldBuilder](#createsensorlightfieldbuilder) | public | Creates a builder for a light field sensor. |
+| [CreateSensorRadianceBuilder](#createsensorradiancebuilder) | public | Creates a builder for a radiance sensor. |
+| [CreateSensorIrradianceBuilder](#createsensorirradiancebuilder) | public | Creates a builder for an irradiance sensor. |
+| [CreateSensorIntensityBuilder](#createsensorintensitybuilder) | public | Creates a builder for an intensity sensor. |
+| [CreateSensor3DEnergyDensityBuilder](#createsensor3denergydensitybuilder) | public | Creates a builder for a 3D energy density sensor. |
+| [CreateSensorVRImmersiveBuilder](#createsensorvrimmersivebuilder) | public | Creates a builder for a VR immersive sensor. |
+| [CreateSensor3DIrradianceBuilder](#createsensor3dirradiancebuilder) | public | Creates a builder for a 3D irradiance sensor. |
+| [CreateSensorObserverBuilder](#createsensorobserverbuilder) | public | Creates a builder for an observer sensor. |
+| [CreateSensorCameraBuilder](#createsensorcamerabuilder) | public | Creates a builder for a camera sensor. |
+| [CreateSensorHumanEyeBuilder](#createsensorhumaneyebuilder) | public | Creates a builder for a human eye sensor. |
+| [CreateSensorPhysicalCameraBuilder](#createsensorphysicalcamerabuilder) | public | Creates a builder for an Physical Camera sensor. |
+| [CreateSimulationInteractiveBuilder](#createsimulationinteractivebuilder) | public | Creates a builder for an interactive simulation. |
+| [CreateSimulationDirectBuilder](#createsimulationdirectbuilder) | public | Creates a builder for a direct simulation. |
+| [CreateSimulationInverseBuilder](#createsimulationinversebuilder) | public | Creates a builder for an inverse simulation. |
+| [CreateSimulationLiDARBuilder](#createsimulationlidarbuilder) | public | Creates a builder for a LiDAR simulation. |
+| [CreateComponentLightBoxImportBuilder](#createcomponentlightboximportbuilder) | public | Creates a builder for a light box import component. |
+| [CreateComponentLightBoxExportBuilder](#createcomponentlightboxexportbuilder) | public | Creates a builder for an export light box component. |
+| [CreateComponentAmbientMaterialBuilder](#createcomponentambientmaterialbuilder) | public | Creates a builder for a Ambient Material component. |
+| [CreateComponentOpticalDesignExchangeBuilder](#createcomponentopticaldesignexchangebuilder) | public | Creates a builder for a Optical Design Exchange component. |
+| [CreateOpticalPropertiesBuilder](#createopticalpropertiesbuilder) | public | Creates a builder for an optical property. |
+| [CreateSpeosPatternBuilder](#createspeospatternbuilder) | public | Creates a builder for a Speos pattern. |
+| [CreateFolderBuilder](#createfolderbuilder) | public | Creates a builder for a Folder. |
+| [CreateComponentPolarizationPlateBuilder](#createcomponentpolarizationplatebuilder) | public | Creates a builder for a Polarization Plate Component. |
+| [CreateComponent3DTextureBuilder](#createcomponent3dtexturebuilder) | public | Creates a builder for a 3D Texture Component. |
+| [CreateCopyPasteBuilder](#createcopypastebuilder) | public | Creates a builder to copy/paste a feature. |
+| [CreateSensorLiDARBuilder](#createsensorlidarbuilder) | public | Creates a builder for a LiDAR sensor. |
+| [CreateLightExpertSensorGroupBuilder](#createlightexpertsensorgroupbuilder) | public | Creates a builder for a Light Expert Sensor Group. |
+| [CreateExportAsGeometryBuilder](#createexportasgeometrybuilder) | public | Creates a builder for exporting features as geometry. |
+| [CreateResultLXPBuilder](#createresultlxpbuilder) | public | Creates a builder for light expert analysis. |
+| [CreateVirtualBSDFBenchBuilder](#createvirtualbsdfbenchbuilder) | public | Creates a builder for a Virtual BSDF Bench feature. |
+| [SourceFeatures](#sourcefeatures) | public | Returns all sources belonging to the part. |
+| [SensorFeatures](#sensorfeatures) | public | Returns all sensors belonging to the part. |
+| [OpticalPropertyFeatures](#opticalpropertyfeatures) | public | Returns all optical properties belonging to the part. |
+| [SimulationFeatures](#simulationfeatures) | public | Returns all simulations belonging to the part. |
 
 ## Public Member Functions
 

@@ -7,11 +7,11 @@ Represents a Speos For NX component.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FindOccurrence](#findoccurrence) | public |
-| [FindOccurrenceFromName](#findoccurrencefromname) | public |
-| [FindComponentFromName](#findcomponentfromname) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FindOccurrence](#findoccurrence) | public | Returns the feature occurrence corresponding to the given feature in the context of this component. |
+| [FindOccurrenceFromName](#findoccurrencefromname) | public | Returns the feature occurrence corresponding to the given feature full name in the context of this component. |
+| [FindComponentFromName](#findcomponentfromname) | public | Returns the component corresponding to the given identifiers in the context of this component. |
 
 ## Public Member Functions
 

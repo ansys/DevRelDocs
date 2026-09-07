@@ -7,9 +7,9 @@ Represents the collection of rules belonging to a result.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Find](#find) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Find](#find) | public | Finds a rule from its name id. |
 
 ## Public Member Functions
 

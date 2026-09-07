@@ -6,40 +6,40 @@ Represents Speos for NX Preferences.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [ResetDefaultValues](#resetdefaultvalues) | public |
-| [Load](#load) | public |
-| [Save](#save) | public |
-| [NumberOfThreads](#numberofthreads) | public |
-| [LightBoxMeshingPreviewLimit](#lightboxmeshingpreviewlimit) | public |
-| [UseUserInputFolder](#useuserinputfolder) | public |
-| [UserInputFolder](#userinputfolder) | public |
-| [UseUserOutputFolder](#useuseroutputfolder) | public |
-| [UserOutputFolder](#useroutputfolder) | public |
-| [UseUserIsolatedFolder](#useuserisolatedfolder) | public |
-| [UserIsolatedFolder](#userisolatedfolder) | public |
-| [CreateSimulationSubFolder](#createsimulationsubfolder) | public |
-| [IncrementSimulationResults](#incrementsimulationresults) | public |
-| [InteractiveSimulationAutoUpdate](#interactivesimulationautoupdate) | public |
-| [EnableDisplayOutsideSpeos](#enabledisplayoutsidespeos) | public |
-| [AutoFeatureUpdateOutsideSpeos](#autofeatureupdateoutsidespeos) | public |
-| [DefaultInteractivePreset](#defaultinteractivepreset) | public |
-| [DefaultDirectPreset](#defaultdirectpreset) | public |
-| [DefaultInversePreset](#defaultinversepreset) | public |
-| [DefaultVbbPreset](#defaultvbbpreset) | public |
-| [DefaultHOAPreset](#defaulthoapreset) | public |
-| [DefaultLidarPreset](#defaultlidarpreset) | public |
-| [DefaultXMPViewer](#defaultxmpviewer) | public |
-| [DefaultColorimetricStandard](#defaultcolorimetricstandard) | public |
-| [DefaultRayFileFormat](#defaultrayfileformat) | public |
-| [ReferenceSetMode](#referencesetmode) | public |
-| [ReferenceSet](#referenceset) | public |
-| [UpdateFeaturesOnLoad](#updatefeaturesonload) | public |
-| [DefaultIntensityViewingDirection](#defaultintensityviewingdirection) | public |
-| [VRSensorMemoryManagement](#vrsensormemorymanagement) | public |
-| [EnableBetaFeatures](#enablebetafeatures) | public |
-| [EnableGPUExplore](#enablegpuexplore) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [ResetDefaultValues](#resetdefaultvalues) | public | Initializes Speos for NX Preferences to their default values. |
+| [Load](#load) | public | Loads Speos for NX Preferences. |
+| [Save](#save) | public | Saves Speos for NX Preferences. |
+| [NumberOfThreads](#numberofthreads) | public | Gets or sets the simulation number of threads. |
+| [LightBoxMeshingPreviewLimit](#lightboxmeshingpreviewlimit) | public | Gets or sets the maximum number of triangles displayed in the lightbox mesh. |
+| [UseUserInputFolder](#useuserinputfolder) | public | Gets or sets the property to enable the use of a user input folder. |
+| [UserInputFolder](#userinputfolder) | public | Gets or sets the path to the user input folder. |
+| [UseUserOutputFolder](#useuseroutputfolder) | public | Gets or sets the property to enable the use of a user output folder. |
+| [UserOutputFolder](#useroutputfolder) | public | Gets or sets the path to the user output folder. |
+| [UseUserIsolatedFolder](#useuserisolatedfolder) | public | Gets or sets the property to enable the use of a user isolated folder. |
+| [UserIsolatedFolder](#userisolatedfolder) | public | Gets or sets the path to the user isolated folder. |
+| [CreateSimulationSubFolder](#createsimulationsubfolder) | public | Gets or sets the property to enable a sub folder for simulation results. |
+| [IncrementSimulationResults](#incrementsimulationresults) | public | Gets or sets the property to enable the increment of simulation results. |
+| [InteractiveSimulationAutoUpdate](#interactivesimulationautoupdate) | public | Gets or sets the property to enable the automatic update of interactive simulations. |
+| [EnableDisplayOutsideSpeos](#enabledisplayoutsidespeos) | public | Gets or sets the property to enable the display of Speos feature outside Speos application. |
+| [AutoFeatureUpdateOutsideSpeos](#autofeatureupdateoutsidespeos) | public | Gets or sets the property to enable the automatic update of Speos feature outside Speos application. |
+| [DefaultInteractivePreset](#defaultinteractivepreset) | public | Gets or sets the default preset to be applied to new interactive simulations. |
+| [DefaultDirectPreset](#defaultdirectpreset) | public | Gets or sets the default preset to apply to new direct simulations. |
+| [DefaultInversePreset](#defaultinversepreset) | public | Gets or sets the default preset to be applied to new inverse simulations. |
+| [DefaultVbbPreset](#defaultvbbpreset) | public | Gets or sets the default preset to be applied to new Virtual BSDF Bench simulations. |
+| [DefaultHOAPreset](#defaulthoapreset) | public | Gets or sets the default preset to be applied to new HOA simulations. |
+| [DefaultLidarPreset](#defaultlidarpreset) | public | Gets or sets the default preset to be applied to new Lidar simulations. |
+| [DefaultXMPViewer](#defaultxmpviewer) | public | Gets or sets the default lab to display XMP files. |
+| [DefaultColorimetricStandard](#defaultcolorimetricstandard) | public | Gets or sets the CIE used by default in all simulations. |
+| [DefaultRayFileFormat](#defaultrayfileformat) | public | Gets or sets the default ray file format used in sensors and in direct simulations. |
+| [ReferenceSetMode](#referencesetmode) | public | Gets or sets the content to load and display from a project. |
+| [ReferenceSet](#referenceset) | public | Gets or sets the Reference Set name. |
+| [UpdateFeaturesOnLoad](#updatefeaturesonload) | public | Gets or sets the property to enable the automatic update of Speos feature when loading the document. |
+| [DefaultIntensityViewingDirection](#defaultintensityviewingdirection) | public | Gets or sets the default intensity sensor viewing direction. |
+| [VRSensorMemoryManagement](#vrsensormemorymanagement) | public | Gets or sets the property to enable the VR memory management to limit memory usage. |
+| [EnableBetaFeatures](#enablebetafeatures) | public | Gets or sets the property to enable beta features. |
+| [EnableGPUExplore](#enablegpuexplore) | public | Gets or sets the property to enable GPU-Explore in simulation preview. |
 
 ## Public Member Functions
 

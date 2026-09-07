@@ -27,11 +27,11 @@ Represents a Source Group Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Sources](#sources) | public |
-| [AddSources](#addsources) | public |
-| [RemoveSources](#removesources) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Sources](#sources) | public | Gets source features. |
+| [AddSources](#addsources) | public | Adds sources into the simulation. |
+| [RemoveSources](#removesources) | public | Deletes sources from the simulation. |
 
 ## Public Static Attributes
 

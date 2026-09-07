@@ -27,36 +27,36 @@ Represents a Surface Source Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FluxUnit](#fluxunit) | public |
-| [Flux](#flux) | public |
-| [UseFluxFromFile](#usefluxfromfile) | public |
-| [Spectrum](#spectrum) | public |
-| [Wavelength](#wavelength) | public |
-| [Temperature](#temperature) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [Exitance](#exitance) | public |
-| [ExitanceDistributionFilePath](#exitancedistributionfilepath) | public |
-| [EmissiveFaces](#emissivefaces) | public |
-| [ExitanceDistributionDirectionReverse](#exitancedistributiondirectionreverse) | public |
-| [ExitanceXDirectionReversed](#exitancexdirectionreversed) | public |
-| [ExitanceYDirectionReversed](#exitanceydirectionreversed) | public |
-| [IntensityType](#intensitytype) | public |
-| [IntensityTotalAngle](#intensitytotalangle) | public |
-| [IntensityN](#intensityn) | public |
-| [IntensityFWHMAngle](#intensityfwhmangle) | public |
-| [IntensityFWHMAngleX](#intensityfwhmanglex) | public |
-| [IntensityFWHMAngleY](#intensityfwhmangley) | public |
-| [IntensityDistributionFilePath](#intensitydistributionfilepath) | public |
-| [IntensityOrientation](#intensityorientation) | public |
-| [RayLength](#raylength) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [ShowIntensityDistribution](#showintensitydistribution) | public |
-| [AssociatedGeometries](#associatedgeometries) | public |
-| [ExitGeometries](#exitgeometries) | public |
-| [IntensityXDirectionReversed](#intensityxdirectionreversed) | public |
-| [IntensityYDirectionReversed](#intensityydirectionreversed) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FluxUnit](#fluxunit) | public | Gets or sets the flux unit type. |
+| [Flux](#flux) | public | Gets or sets the flux. |
+| [UseFluxFromFile](#usefluxfromfile) | public | Gets or sets the property to use the flux from file. |
+| [Spectrum](#spectrum) | public | Gets or sets the spectrum type. |
+| [Wavelength](#wavelength) | public | Gets or sets the wavelength. |
+| [Temperature](#temperature) | public | Gets or sets the temperature. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file. |
+| [Exitance](#exitance) | public | Gets or sets the exitance type. |
+| [ExitanceDistributionFilePath](#exitancedistributionfilepath) | public | Gets or sets the exitance distribution file. |
+| [EmissiveFaces](#emissivefaces) | public | Returns the interface to edit the emissive faces of the source. |
+| [ExitanceDistributionDirectionReverse](#exitancedistributiondirectionreverse) | public | Gets or sets the property to reverse the exitance distribution |
+| [ExitanceXDirectionReversed](#exitancexdirectionreversed) | public | Gets or sets the property to reverse the exitance of X direction. |
+| [ExitanceYDirectionReversed](#exitanceydirectionreversed) | public | Gets or sets the property to reverse the exitance of Y direction. |
+| [IntensityType](#intensitytype) | public | Gets or sets the intensity type of the light source. |
+| [IntensityTotalAngle](#intensitytotalangle) | public | Gets or sets the intensity total angle. |
+| [IntensityN](#intensityn) | public | Gets or sets the N. |
+| [IntensityFWHMAngle](#intensityfwhmangle) | public | Gets or sets the Full Width At Half Maximum (FWHM) angle. |
+| [IntensityFWHMAngleX](#intensityfwhmanglex) | public | Gets or sets the Full Width At Half Maximum (FWHM) X angle. |
+| [IntensityFWHMAngleY](#intensityfwhmangley) | public | Gets or sets the Full Width At Half Maximum (FWHM) Y angle. |
+| [IntensityDistributionFilePath](#intensitydistributionfilepath) | public | Gets or sets the distribution file. |
+| [IntensityOrientation](#intensityorientation) | public | Gets or sets the orientation type. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [ShowIntensityDistribution](#showintensitydistribution) | public | Gets or sets the property to show the intensity distribution. |
+| [AssociatedGeometries](#associatedgeometries) | public | Gets or sets associated geometries. |
+| [ExitGeometries](#exitgeometries) | public | Gets or sets the exit geometries. |
+| [IntensityXDirectionReversed](#intensityxdirectionreversed) | public | Gets or sets the property to reverse the intensity X direction. |
+| [IntensityYDirectionReversed](#intensityydirectionreversed) | public | Gets or sets the property to reverse the intensity Y direction. |
 
 ## Public Static Attributes
 

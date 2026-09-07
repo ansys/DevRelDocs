@@ -27,15 +27,15 @@ Represents a Sensor Physical Camera builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [LightBoxFilePath](#lightboxfilepath) | public |
-| [UseSequenceFile](#usesequencefile) | public |
-| [SequenceFilePath](#sequencefilepath) | public |
-| [NumberOfSequences](#numberofsequences) | public |
-| [Sensor](#sensor) | public |
-| [RayTracerPrecisionType](#raytracerprecisiontype) | public |
-| [PreviewMode](#previewmode) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [LightBoxFilePath](#lightboxfilepath) | public | Gets or sets the property light box file path. |
+| [UseSequenceFile](#usesequencefile) | public | Gets or sets the property to enable the use of a sequence file |
+| [SequenceFilePath](#sequencefilepath) | public | Gets or sets the property sequence file path. |
+| [NumberOfSequences](#numberofsequences) | public | Gets or sets the number of sequences. |
+| [Sensor](#sensor) | public | Gets or sets the irradiance sensor. |
+| [RayTracerPrecisionType](#raytracerprecisiontype) | public | Gets or sets the ray tracer type. |
+| [PreviewMode](#previewmode) | public | Gets or sets the preview mode. |
 
 ## Public Static Attributes
 

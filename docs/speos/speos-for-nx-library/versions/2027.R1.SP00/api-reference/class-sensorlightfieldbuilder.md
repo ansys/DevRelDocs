@@ -27,24 +27,24 @@ Represents a light field sensor builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [Selections](#selections) | public |
-| [CustomAxisSystem](#customaxissystem) | public |
-| [IncidentStart](#incidentstart) | public |
-| [IncidentEnd](#incidentend) | public |
-| [IncidentSampling](#incidentsampling) | public |
-| [IncidentResolution](#incidentresolution) | public |
-| [AzimuthStart](#azimuthstart) | public |
-| [AzimuthEnd](#azimuthend) | public |
-| [AzimuthSampling](#azimuthsampling) | public |
-| [AzimuthResolution](#azimuthresolution) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [WavelengthResolution](#wavelengthresolution) | public |
-| [ArrowLength](#arrowlength) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the sensor type. |
+| [Selections](#selections) | public | Returns the interface to select the oriented faces and bodies on which to measure the light distribution. |
+| [CustomAxisSystem](#customaxissystem) | public | Gets or sets the custom axis system property. |
+| [IncidentStart](#incidentstart) | public | Gets the incident angle start. |
+| [IncidentEnd](#incidentend) | public | Gets the incident angle end. |
+| [IncidentSampling](#incidentsampling) | public | Gets or sets the incident sampling. |
+| [IncidentResolution](#incidentresolution) | public | Gets or sets the incident resolution. |
+| [AzimuthStart](#azimuthstart) | public | Gets the azimuth start. |
+| [AzimuthEnd](#azimuthend) | public | Gets the azimuth end. |
+| [AzimuthSampling](#azimuthsampling) | public | Gets or sets the azimuth sampling. |
+| [AzimuthResolution](#azimuthresolution) | public | Gets or sets the azimuth resolution. |
+| [WavelengthStart](#wavelengthstart) | public | Gets the wavelength start. |
+| [WavelengthEnd](#wavelengthend) | public | Gets the wavelength end. |
+| [WavelengthSampling](#wavelengthsampling) | public | Gets or sets the wavelength sampling. |
+| [WavelengthResolution](#wavelengthresolution) | public | Gets or sets the wavelength resolution. |
+| [ArrowLength](#arrowlength) | public | Gets or sets the length of the arrow preview. |
 
 ## Public Static Attributes
 

@@ -7,9 +7,9 @@ Represents the collection of measures belonging to a result.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Find](#find) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Find](#find) | public | Finds a measure from its name and area name. |
 
 ## Public Member Functions
 

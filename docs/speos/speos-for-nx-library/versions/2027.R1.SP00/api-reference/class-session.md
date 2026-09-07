@@ -6,12 +6,12 @@ Represents the Speos For NX session.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Session](#session) | public |
-| [NXSessionTag](#nxsessiontag) | public |
-| [Parts](#parts) | public |
-| [InitCrashHandler](#initcrashhandler) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Session](#session) | public | Gets the unique instance of the Speos For NX session. |
+| [NXSessionTag](#nxsessiontag) | public | Gets the NX Session Tag. |
+| [Parts](#parts) | public | Gets the part collection. |
+| [InitCrashHandler](#initcrashhandler) | public | Initialize a crash handler. |
 
 ## Public Static Attributes
 

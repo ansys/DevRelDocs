@@ -27,10 +27,10 @@ Represents a light expert sensor group builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Sensors](#sensors) | public |
-| [RemoveSensors](#removesensors) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Sensors](#sensors) | public | Gets or sets sensor features. |
+| [RemoveSensors](#removesensors) | public | Removes the sensors from the group. |
 
 ## Public Static Attributes
 

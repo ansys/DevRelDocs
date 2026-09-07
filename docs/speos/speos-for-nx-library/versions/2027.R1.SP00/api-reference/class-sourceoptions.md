@@ -6,9 +6,9 @@ Represents the options of a source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Out](#out) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Out](#out) | public | Gets or sets the property In/Out. |
 
 ## Public Static Attributes
 

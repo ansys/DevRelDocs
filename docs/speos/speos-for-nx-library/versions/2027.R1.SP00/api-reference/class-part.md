@@ -7,10 +7,10 @@ Represents a Speos For NX part.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Features](#features) | public |
-| [CreateNewComponentBuilder](#createnewcomponentbuilder) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Features](#features) | public | Returns the [FeatureCollection](class-featurecollection.md) instance belonging to this part. |
+| [CreateNewComponentBuilder](#createnewcomponentbuilder) | public | Creates a builder to create new components. |
 
 ## Public Static Attributes
 

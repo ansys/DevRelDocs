@@ -27,30 +27,30 @@ Represents the builder for optical properties
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [OpticalPropertiesGeometry](#opticalpropertiesgeometry) | public |
-| [UseOpticalProperties](#useopticalproperties) | public |
-| [VOPType](#voptype) | public |
-| [VOPIndex](#vopindex) | public |
-| [VOPAbsorption](#vopabsorption) | public |
-| [UseVOPConstringence](#usevopconstringence) | public |
-| [VOPConstringence](#vopconstringence) | public |
-| [VOPLibraryFilePath](#voplibraryfilepath) | public |
-| [SOPType](#soptype) | public |
-| [SOPReflectance](#sopreflectance) | public |
-| [SOPLibraryFilePath](#soplibraryfilepath) | public |
-| [SOPPluginFilePath](#soppluginfilepath) | public |
-| [SOPPluginParametersFilePath](#soppluginparametersfilepath) | public |
-| [UseMeshingProperties](#usemeshingproperties) | public |
-| [MeshingAngle](#meshingangle) | public |
-| [MeshingSagMode](#meshingsagmode) | public |
-| [MeshingSagValue](#meshingsagvalue) | public |
-| [MeshingStepMode](#meshingstepmode) | public |
-| [MeshingStepValue](#meshingstepvalue) | public |
-| [UseMeshingSpecificParametersFacetEdges](#usemeshingspecificparametersfacetedges) | public |
-| [MeshingEdgeSagValue](#meshingedgesagvalue) | public |
-| [MeshingEdgeAngle](#meshingedgeangle) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [OpticalPropertiesGeometry](#opticalpropertiesgeometry) | public | Gets optical properties geometry. |
+| [UseOpticalProperties](#useopticalproperties) | public | Gets or sets the optical properties property. |
+| [VOPType](#voptype) | public | Gets or sets the volume optical properties type. |
+| [VOPIndex](#vopindex) | public | Gets or sets the volume optical properties index. |
+| [VOPAbsorption](#vopabsorption) | public | Gets or sets the volume optical properties absorption. |
+| [UseVOPConstringence](#usevopconstringence) | public | Gets or sets the volume optical properties constringence property. |
+| [VOPConstringence](#vopconstringence) | public | Gets or sets the volume optical properties constringence. |
+| [VOPLibraryFilePath](#voplibraryfilepath) | public | Gets or sets the volume optical properties library file. |
+| [SOPType](#soptype) | public | Gets or sets the surface optical properties. |
+| [SOPReflectance](#sopreflectance) | public | Gets or sets the surface optical properties reflectance. |
+| [SOPLibraryFilePath](#soplibraryfilepath) | public | Gets or sets the surface optical properties library file. |
+| [SOPPluginFilePath](#soppluginfilepath) | public | Gets or sets the surface optical properties plug-in file. |
+| [SOPPluginParametersFilePath](#soppluginparametersfilepath) | public | Gets or sets the surface optical properties parameters file. |
+| [UseMeshingProperties](#usemeshingproperties) | public | Gets or sets the meshing properties property. |
+| [MeshingAngle](#meshingangle) | public | Gets or sets the meshing angle. |
+| [MeshingSagMode](#meshingsagmode) | public | Gets or sets the meshing sag mode. |
+| [MeshingSagValue](#meshingsagvalue) | public | Gets or sets the meshing sag value. |
+| [MeshingStepMode](#meshingstepmode) | public | Gets or sets the meshing step mode. |
+| [MeshingStepValue](#meshingstepvalue) | public | Gets or sets the meshing step value. |
+| [UseMeshingSpecificParametersFacetEdges](#usemeshingspecificparametersfacetedges) | public | Gets or sets the specific parameters property for facet edges. |
+| [MeshingEdgeSagValue](#meshingedgesagvalue) | public | Gets or sets the meshing edge sag value. |
+| [MeshingEdgeAngle](#meshingedgeangle) | public | Gets or sets the meshing angle. |
 
 ## Public Static Attributes
 

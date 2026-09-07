@@ -7,14 +7,14 @@ Builder for emissive faces of a surface source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Add](#add) | public |
-| [Remove](#remove) | public |
-| [Clear](#clear) | public |
-| [RevertFace](#revertface) | public |
-| [Direction](#direction) | public |
-| [Faces](#faces) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Add](#add) | public | Adds a face. |
+| [Remove](#remove) | public | Removes a face. |
+| [Clear](#clear) | public | Clear all faces. |
+| [RevertFace](#revertface) | public | Reverts a face. |
+| [Direction](#direction) | public | Sets a direction for a certain face. |
+| [Faces](#faces) | public | Gets or sets the faces. |
 
 ## Public Member Functions
 

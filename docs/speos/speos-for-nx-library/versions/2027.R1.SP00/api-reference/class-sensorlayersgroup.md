@@ -6,10 +6,10 @@ Data model class
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Name](#name) | public |
-| [ContributionSurfaces](#contributionsurfaces) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Name](#name) | public | Gets or sets the name of the group. |
+| [ContributionSurfaces](#contributionsurfaces) | public | Returns the contribution surfaces object. |
 
 ## Public Static Attributes
 

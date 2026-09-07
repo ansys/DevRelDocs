@@ -31,16 +31,16 @@ Represents the builder for an Ambient Source with Uniform type.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [ZenithDirectionReversed](#zenithdirectionreversed) | public |
-| [Luminance](#luminance) | public |
-| [Spectrum](#spectrum) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [Temperature](#temperature) | public |
-| [MirroredExtent](#mirroredextent) | public |
-| [Sun](#sun) | public |
-| [SunDirectionReverse](#sundirectionreverse) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [ZenithDirectionReversed](#zenithdirectionreversed) | public | Gets or sets the reverse zenith direction. |
+| [Luminance](#luminance) | public | Gets or sets the luminance |
+| [Spectrum](#spectrum) | public | Gets or sets the spectrum type. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file path. |
+| [Temperature](#temperature) | public | Gets or sets the temperature. |
+| [MirroredExtent](#mirroredextent) | public | Gets or sets the property to enable mirrored extent. |
+| [Sun](#sun) | public | Gets or sets the property to enable the Sun. |
+| [SunDirectionReverse](#sundirectionreverse) | public | Gets or sets the reverse Sun direction. |
 
 ## Public Static Attributes
 

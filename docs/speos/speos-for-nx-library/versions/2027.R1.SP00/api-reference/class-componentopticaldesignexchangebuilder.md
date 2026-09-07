@@ -27,12 +27,12 @@ Represents a Component Optical Design Exchange Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FeatureOpticalDesignExchange](#featureopticaldesignexchange) | public |
-| [FilePath](#filepath) | public |
-| [OnlyUpdateMaterials](#onlyupdatematerials) | public |
-| [CustomAxisSystem](#customaxissystem) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FeatureOpticalDesignExchange](#featureopticaldesignexchange) | public | Gets the Optical Design Exchange feature object. |
+| [FilePath](#filepath) | public | Gets or sets the ODX file path. |
+| [OnlyUpdateMaterials](#onlyupdatematerials) | public | Gets or sets the property to enable or disable the option to update only materials. |
+| [CustomAxisSystem](#customaxissystem) | public | Gets or sets the property to activate or deactivate the use of a custom axis system. |
 
 ## Public Static Attributes
 

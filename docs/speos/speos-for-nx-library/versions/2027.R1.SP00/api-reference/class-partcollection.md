@@ -7,14 +7,14 @@ Represents the collection of all parts in a Speos For NX session.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Load](#load) | public |
-| [FindFromName](#findfromname) | public |
-| [FindFromTag](#findfromtag) | public |
-| [Work](#work) | public |
-| [WorkComponent](#workcomponent) | public |
-| [Display](#display) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Load](#load) | public | Loads all open parts in the session. |
+| [FindFromName](#findfromname) | public | Finds the part with the given name. **Prerequisite**: The part must have been loaded in this session. |
+| [FindFromTag](#findfromtag) | public | Finds the part with the given Tag. |
+| [Work](#work) | public | Returns the current work part of the session. |
+| [WorkComponent](#workcomponent) | public | Returns the current work component of the session. |
+| [Display](#display) | public | Returns the currently active display part of the session. |
 
 ## Public Member Functions
 

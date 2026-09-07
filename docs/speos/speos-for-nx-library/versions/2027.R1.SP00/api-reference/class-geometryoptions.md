@@ -6,9 +6,9 @@ Represents the options of a geometry.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FastTransmissionGathering](#fasttransmissiongathering) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FastTransmissionGathering](#fasttransmissiongathering) | public | Gets or sets the property Fast Transmission Gathering. |
 
 ## Public Static Attributes
 

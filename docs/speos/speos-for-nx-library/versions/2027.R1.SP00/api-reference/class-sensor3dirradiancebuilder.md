@@ -27,21 +27,21 @@ Represents the builder for a 3D irradiance sensor.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [MeasureType](#measuretype) | public |
-| [UseRayFile](#userayfile) | public |
-| [RayFileFormat](#rayfileformat) | public |
-| [IntegrationType](#integrationtype) | public |
-| [Selections](#selections) | public |
-| [LayerType](#layertype) | public |
-| [Reflection](#reflection) | public |
-| [Transmission](#transmission) | public |
-| [Absorption](#absorption) | public |
-| [UseTemplateFile](#usetemplatefile) | public |
-| [TemplateFilePath](#templatefilepath) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [MeasureType](#measuretype) | public | Gets or sets the measure type. |
+| [UseRayFile](#userayfile) | public | Gets or sets the property to enable or disable use of ray file. |
+| [RayFileFormat](#rayfileformat) | public | Gets or sets the ray file format. |
+| [IntegrationType](#integrationtype) | public | Gets or sets the integration type. |
+| [Selections](#selections) | public | Gets or sets the selected faces or bodies. |
+| [LayerType](#layertype) | public | Gets or sets the layer type. |
+| [Reflection](#reflection) | public | Gets or sets the reflection property. |
+| [Transmission](#transmission) | public | Gets or sets the transmission property. |
+| [Absorption](#absorption) | public | Gets or sets the absorption property. |
+| [UseTemplateFile](#usetemplatefile) | public | Gets or sets the property to enable or disable use of XM3 template file. |
+| [TemplateFilePath](#templatefilepath) | public | Gets or sets the XM3 template file. |
+| [WavelengthStart](#wavelengthstart) | public | Gets or sets the lower value of the wavelength range to be considered by the sensor. |
+| [WavelengthEnd](#wavelengthend) | public | Gets or sets the higher value of the wavelength range to be considered by the sensor. |
 
 ## Public Static Attributes
 

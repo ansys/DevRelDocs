@@ -23,11 +23,11 @@ Represents a builder to create new assembly components.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Name](#name) | public |
-| [ReferenceSetName](#referencesetname) | public |
-| [NewComponent](#newcomponent) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Name](#name) | public | Gets or sets the name of the new component to create. |
+| [ReferenceSetName](#referencesetname) | public | Gets or sets the name of the NX reference set to use. |
+| [NewComponent](#newcomponent) | public | Returns the created component tag. |
 
 ## Public Static Attributes
 

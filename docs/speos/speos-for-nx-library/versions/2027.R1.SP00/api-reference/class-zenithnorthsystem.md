@@ -6,12 +6,12 @@ Represents an Axis System.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [ZenithDirection](#zenithdirection) | public |
-| [ZenithDirectionReversed](#zenithdirectionreversed) | public |
-| [NorthDirection](#northdirection) | public |
-| [NorthDirectionReversed](#northdirectionreversed) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [ZenithDirection](#zenithdirection) | public | Gets or sets the zenith direction. |
+| [ZenithDirectionReversed](#zenithdirectionreversed) | public | Gets or sets the reverse Zenith direction. |
+| [NorthDirection](#northdirection) | public | Gets or sets the north direction. |
+| [NorthDirectionReversed](#northdirectionreversed) | public | Gets or sets the reverse North direction. |
 
 ## Public Static Attributes
 

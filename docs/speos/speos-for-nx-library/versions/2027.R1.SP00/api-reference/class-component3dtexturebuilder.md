@@ -27,46 +27,46 @@ Represents a 3D Texture component Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Texture3DMappingFilePath](#texture3dmappingfilepath) | public |
-| [MappingType](#mappingtype) | public |
-| [Orientation](#orientation) | public |
-| [BooleanOperation](#booleanoperation) | public |
-| [GlobaleScale](#globalescale) | public |
-| [RectangularMappingAreaXLength](#rectangularmappingareaxlength) | public |
-| [RectangularMappingAreaYLength](#rectangularmappingareaylength) | public |
-| [RectangularXDistance](#rectangularxdistance) | public |
-| [RectangularYDistance](#rectangularydistance) | public |
-| [RectangularXAngle](#rectangularxangle) | public |
-| [RectangularYAngle](#rectangularyangle) | public |
-| [CircularRadialDistance](#circularradialdistance) | public |
-| [CircularMappingAreaRadius](#circularmappingarearadius) | public |
-| [CircularRingsDistance](#circularringsdistance) | public |
-| [CircularXAngle](#circularxangle) | public |
-| [HexagonalXWidth](#hexagonalxwidth) | public |
-| [HexagonalYHeight](#hexagonalyheight) | public |
-| [HexagonalMappingAreaXLength](#hexagonalmappingareaxlength) | public |
-| [HexagonalMappingAreaYLength](#hexagonalmappingareaylength) | public |
-| [HexagonalXAngle](#hexagonalxangle) | public |
-| [HexagonalYAngle](#hexagonalyangle) | public |
-| [HexagonalEdgeLength](#hexagonaledgelength) | public |
-| [HexagonalCentersDistance](#hexagonalcentersdistance) | public |
-| [HexagonalCentralPoint](#hexagonalcentralpoint) | public |
-| [HexagonalRegularMapping](#hexagonalregularmapping) | public |
-| [VariablePitchesMappingAreaXLength](#variablepitchesmappingareaxlength) | public |
-| [VariablePitchesMappingAreaYLength](#variablepitchesmappingareaylength) | public |
-| [VariablePitchesXAngle](#variablepitchesxangle) | public |
-| [VariablePitchesYAngle](#variablepitchesyangle) | public |
-| [VariablePitchesXPitchRatio](#variablepitchesxpitchratio) | public |
-| [VariablePitchesYPitchRatio](#variablepitchesypitchratio) | public |
-| [ShiftScaleRatio](#shiftscaleratio) | public |
-| [XScaleRatio](#xscaleratio) | public |
-| [YScaleRatio](#yscaleratio) | public |
-| [ZScaleRatio](#zscaleratio) | public |
-| [StartIndex](#startindex) | public |
-| [EndIndex](#endindex) | public |
-| [MaxPointToDisplay](#maxpointtodisplay) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Texture3DMappingFilePath](#texture3dmappingfilepath) | public | Gets or sets the texture 3D Mapping file path. |
+| [MappingType](#mappingtype) | public | Gets or sets the mapping. |
+| [Orientation](#orientation) | public | Gets or sets the pattern orientation. |
+| [BooleanOperation](#booleanoperation) | public | Gets or sets the boolean operation. |
+| [GlobaleScale](#globalescale) | public | Gets or sets the global scale of the pattern. |
+| [RectangularMappingAreaXLength](#rectangularmappingareaxlength) | public | Gets or sets the area X Length for rectangular mapping. |
+| [RectangularMappingAreaYLength](#rectangularmappingareaylength) | public | Gets or sets the area Y Length for rectangular mapping. |
+| [RectangularXDistance](#rectangularxdistance) | public | Gets or sets the X distance between patterns for rectangular mapping. |
+| [RectangularYDistance](#rectangularydistance) | public | Gets or sets the Y distance between patterns for rectangular mapping. |
+| [RectangularXAngle](#rectangularxangle) | public | Gets or sets the X direction angle for rectangular mapping. |
+| [RectangularYAngle](#rectangularyangle) | public | Gets or sets the Y direction angle for rectangular mapping. |
+| [CircularRadialDistance](#circularradialdistance) | public | Gets or sets the radial distance for circular mapping. |
+| [CircularMappingAreaRadius](#circularmappingarearadius) | public | Gets or sets the mapping area radius for circular mapping. |
+| [CircularRingsDistance](#circularringsdistance) | public | Gets or sets the distance between two rings for circular mapping. |
+| [CircularXAngle](#circularxangle) | public | Gets or sets the angle for circular mapping. |
+| [HexagonalXWidth](#hexagonalxwidth) | public | Gets or sets the hexagon width for hexagonal mapping. |
+| [HexagonalYHeight](#hexagonalyheight) | public | Gets or sets the hexagon height for hexagonal mapping. |
+| [HexagonalMappingAreaXLength](#hexagonalmappingareaxlength) | public | Gets or sets the mapping area X length for hexagonal mapping. |
+| [HexagonalMappingAreaYLength](#hexagonalmappingareaylength) | public | Gets or sets the mapping area Y length for hexagonal mapping. |
+| [HexagonalXAngle](#hexagonalxangle) | public | Gets or sets the X angle for hexagonal mapping. |
+| [HexagonalYAngle](#hexagonalyangle) | public | Gets or sets the Y angle for hexagonal mapping. |
+| [HexagonalEdgeLength](#hexagonaledgelength) | public | Gets or sets the hexagon edge length for hexagonal mapping. |
+| [HexagonalCentersDistance](#hexagonalcentersdistance) | public | Gets or sets the hexagon distance between centers for hexagonal mapping. |
+| [HexagonalCentralPoint](#hexagonalcentralpoint) | public | Gets or sets the central point property for hexagonal mapping. |
+| [HexagonalRegularMapping](#hexagonalregularmapping) | public | Gets or sets the central point property for hexagonal mapping. |
+| [VariablePitchesMappingAreaXLength](#variablepitchesmappingareaxlength) | public | Gets or sets the mapping area X length for variable pitches mapping. |
+| [VariablePitchesMappingAreaYLength](#variablepitchesmappingareaylength) | public | Gets or sets the mapping area Y length for variable pitches mapping. |
+| [VariablePitchesXAngle](#variablepitchesxangle) | public | Gets or sets the X angle for variable pitches mapping. |
+| [VariablePitchesYAngle](#variablepitchesyangle) | public | Gets or sets the Y angle for variable pitches mapping. |
+| [VariablePitchesXPitchRatio](#variablepitchesxpitchratio) | public | Gets or sets the X pitch ratio for variable pitches mapping. |
+| [VariablePitchesYPitchRatio](#variablepitchesypitchratio) | public | Gets or sets the Y pitch ratio for variable pitches mapping. |
+| [ShiftScaleRatio](#shiftscaleratio) | public | Gets or sets the shift scale ratio. |
+| [XScaleRatio](#xscaleratio) | public | Gets or sets the X scale ratio. |
+| [YScaleRatio](#yscaleratio) | public | Gets or sets the Y scale ratio. |
+| [ZScaleRatio](#zscaleratio) | public | Gets or sets the Z scale ratio. |
+| [StartIndex](#startindex) | public | Gets or sets the start index. |
+| [EndIndex](#endindex) | public | Gets or sets the end index. |
+| [MaxPointToDisplay](#maxpointtodisplay) | public | Gets or sets the max point to display. |
 
 ## Public Static Attributes
 

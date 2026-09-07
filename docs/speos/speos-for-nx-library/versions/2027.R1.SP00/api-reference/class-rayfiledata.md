@@ -6,14 +6,14 @@ Represents Ray File Data.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [HasPower](#haspower) | public |
-| [HasFluxInWatt](#hasfluxinwatt) | public |
-| [FluxInWatt](#fluxinwatt) | public |
-| [HasFluxInLumen](#hasfluxinlumen) | public |
-| [FluxInLumen](#fluxinlumen) | public |
-| [HasSpectrum](#hasspectrum) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [HasPower](#haspower) | public | Returns true if the ray file has power, otherwise returns false. |
+| [HasFluxInWatt](#hasfluxinwatt) | public | Returns true if the ray file has flux in watt, otherwise returns false. |
+| [FluxInWatt](#fluxinwatt) | public | Returns the flux value in watt. |
+| [HasFluxInLumen](#hasfluxinlumen) | public | Returns true if the ray file has flux in lumen, otherwise returns false. |
+| [FluxInLumen](#fluxinlumen) | public | Returns the flux value in lumen. |
+| [HasSpectrum](#hasspectrum) | public | Returns true if the ray file has spectrum, otherwise returns false. |
 
 ## Public Static Attributes
 

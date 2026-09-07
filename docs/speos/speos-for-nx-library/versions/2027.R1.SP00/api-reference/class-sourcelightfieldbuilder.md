@@ -27,14 +27,14 @@ Represents a light field source builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [CustomAxisSystem](#customaxissystem) | public |
-| [LightFieldFilePath](#lightfieldfilepath) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [RayLength](#raylength) | public |
-| [PreviewMode](#previewmode) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [CustomAxisSystem](#customaxissystem) | public | Gets or sets the custom axis system property. |
+| [LightFieldFilePath](#lightfieldfilepath) | public | Gets or sets the light field file path. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file path. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
+| [PreviewMode](#previewmode) | public | Gets or sets the preview mode. |
 
 ## Public Static Attributes
 

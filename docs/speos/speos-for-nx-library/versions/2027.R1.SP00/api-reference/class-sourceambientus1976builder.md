@@ -31,10 +31,10 @@ Represents the builder for an U.S Standard Atmosphere 1976 Source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [SunType](#suntype) | public |
-| [SunDirectionReversed](#sundirectionreversed) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [SunType](#suntype) | public | Gets or sets the Sun type. |
+| [SunDirectionReversed](#sundirectionreversed) | public | Gets or sets the reverse Sun direction. |
 
 ## Public Static Attributes
 

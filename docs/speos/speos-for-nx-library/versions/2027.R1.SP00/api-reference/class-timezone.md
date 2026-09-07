@@ -6,22 +6,22 @@ Represents a Timezone.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [UserDefinedLocation](#userdefinedlocation) | public |
-| [Location](#location) | public |
-| [TimezoneId](#timezoneid) | public |
-| [LongitudeDegrees](#longitudedegrees) | public |
-| [LongitudeMinutes](#longitudeminutes) | public |
-| [LongitudeSeconds](#longitudeseconds) | public |
-| [LatitudeDegrees](#latitudedegrees) | public |
-| [LatitudeMinutes](#latitudeminutes) | public |
-| [LatitudeSeconds](#latitudeseconds) | public |
-| [Year](#year) | public |
-| [Month](#month) | public |
-| [Day](#day) | public |
-| [Hour](#hour) | public |
-| [Minute](#minute) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [UserDefinedLocation](#userdefinedlocation) | public | Gets or sets the property to enable/disable the user defined location. |
+| [Location](#location) | public | Gets or sets a predefined location. |
+| [TimezoneId](#timezoneid) | public | Gets or sets a timezone by Id. |
+| [LongitudeDegrees](#longitudedegrees) | public | Gets or sets the longitude degrees. |
+| [LongitudeMinutes](#longitudeminutes) | public | Gets or sets the longitude minutes. |
+| [LongitudeSeconds](#longitudeseconds) | public | Gets or sets the longitude seconds. |
+| [LatitudeDegrees](#latitudedegrees) | public | Gets or sets the latitude degrees. |
+| [LatitudeMinutes](#latitudeminutes) | public | Gets or sets the latitude minutes. |
+| [LatitudeSeconds](#latitudeseconds) | public | Gets or sets the latitude seconds. |
+| [Year](#year) | public | Gets or sets the year. |
+| [Month](#month) | public | Gets or sets the month. |
+| [Day](#day) | public | Gets or sets the day. |
+| [Hour](#hour) | public | Gets or sets the hour. |
+| [Minute](#minute) | public | Gets or sets the minute. |
 
 ## Public Static Attributes
 

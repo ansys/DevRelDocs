@@ -6,14 +6,14 @@ Represents interface for editing optical properties geometries.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Add](#add) | public |
-| [Remove](#remove) | public |
-| [Clear](#clear) | public |
-| [RevertGeometry](#revertgeometry) | public |
-| [Direction](#direction) | public |
-| [GeometryList](#geometrylist) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Add](#add) | public | Adds a geometry. |
+| [Remove](#remove) | public | Removes a geometry. |
+| [Clear](#clear) | public | Clear all geometries. |
+| [RevertGeometry](#revertgeometry) | public | Reverts a geometry. |
+| [Direction](#direction) | public | Sets a direction for a certain geometry. |
+| [GeometryList](#geometrylist) | public | Gets or sets the geometries. |
 
 ## Public Member Functions
 

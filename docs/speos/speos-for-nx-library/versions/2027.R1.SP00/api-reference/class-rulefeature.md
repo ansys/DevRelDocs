@@ -23,9 +23,9 @@ Represents a Speos rule feature.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Status](#status) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Status](#status) | public | Gets the rule status. |
 
 ## Public Static Attributes
 

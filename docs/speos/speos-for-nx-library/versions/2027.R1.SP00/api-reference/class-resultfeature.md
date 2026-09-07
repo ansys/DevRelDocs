@@ -23,12 +23,12 @@ Represents a Speos result feature.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Filename](#filename) | public |
-| [AssociatedLPFResult](#associatedlpfresult) | public |
-| [Measures](#measures) | public |
-| [Rules](#rules) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Filename](#filename) | public | Gets the result file name with its extension. |
+| [AssociatedLPFResult](#associatedlpfresult) | public | Returns the LPF result feature associated to this XMP result feature. |
+| [Measures](#measures) | public | Returns the collection of measures belonging to this result. |
+| [Rules](#rules) | public | Returns the collection of rules belonging to this result. |
 
 ## Public Static Attributes
 

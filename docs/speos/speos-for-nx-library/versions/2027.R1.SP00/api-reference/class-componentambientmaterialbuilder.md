@@ -27,14 +27,14 @@ Represents an ambient material component builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [Index](#index) | public |
-| [Absorption](#absorption) | public |
-| [UseConstringence](#useconstringence) | public |
-| [Constringence](#constringence) | public |
-| [LibraryFilePath](#libraryfilepath) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the type of Ambient Material. |
+| [Index](#index) | public | Gets or sets the index property. |
+| [Absorption](#absorption) | public | Gets or sets the absorption property. |
+| [UseConstringence](#useconstringence) | public | Gets or sets the use of constringence property. |
+| [Constringence](#constringence) | public | Gets or sets the constringence property. |
+| [LibraryFilePath](#libraryfilepath) | public | Gets or sets the library file path. |
 
 ## Public Static Attributes
 

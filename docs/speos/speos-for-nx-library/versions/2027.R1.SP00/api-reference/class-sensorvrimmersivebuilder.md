@@ -27,28 +27,28 @@ Represents the builder for an immersive sensor.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Sampling](#sampling) | public |
-| [Resolution](#resolution) | public |
-| [LayerType](#layertype) | public |
-| [Stereo](#stereo) | public |
-| [InterocularDistance](#interoculardistance) | public |
-| [AxisSystem](#axissystem) | public |
-| [Front](#front) | public |
-| [Bottom](#bottom) | public |
-| [Top](#top) | public |
-| [Back](#back) | public |
-| [Left](#left) | public |
-| [Right](#right) | public |
-| [UseAutomaticFraming](#useautomaticframing) | public |
-| [AutomaticFramingFace](#automaticframingface) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [WavelengthResolution](#wavelengthresolution) | public |
-| [PreviewSize](#previewsize) | public |
-| [IntegrationAngle](#integrationangle) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Sampling](#sampling) | public | Gets or sets the sampling. |
+| [Resolution](#resolution) | public | Gets the resolution. |
+| [LayerType](#layertype) | public | Gets or sets the layer type. |
+| [Stereo](#stereo) | public | gets or sets the stereo property. |
+| [InterocularDistance](#interoculardistance) | public | Gets or sets the interocular distance. |
+| [AxisSystem](#axissystem) | public | Gets the axis system. |
+| [Front](#front) | public | Gets or sets the front face property. |
+| [Bottom](#bottom) | public | Gets or sets the bottom face property. |
+| [Top](#top) | public | Gets or sets the top face property. |
+| [Back](#back) | public | Gets or sets the back face property. |
+| [Left](#left) | public | Gets or sets the left face property. |
+| [Right](#right) | public | Gets or sets the right face property. |
+| [UseAutomaticFraming](#useautomaticframing) | public | Gets or sets the automatic framing property. |
+| [AutomaticFramingFace](#automaticframingface) | public | Gets or sets the automatic framing face. |
+| [WavelengthStart](#wavelengthstart) | public | Gets or sets the lower value of the wavelength range to be considered by the sensor. |
+| [WavelengthEnd](#wavelengthend) | public | Gets or sets the higher value of the wavelength range to be considered by the sensor. |
+| [WavelengthSampling](#wavelengthsampling) | public | Gets or sets the wavelength sampling. |
+| [WavelengthResolution](#wavelengthresolution) | public | Gets or sets the Wavelength resolution |
+| [PreviewSize](#previewsize) | public | Gets or sets the preview arrows size. |
+| [IntegrationAngle](#integrationangle) | public | Gets or sets the integration angle. |
 
 ## Public Static Attributes
 

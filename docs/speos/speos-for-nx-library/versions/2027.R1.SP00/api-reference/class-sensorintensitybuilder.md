@@ -31,29 +31,29 @@ Represents an Intensity Sensor Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Format](#format) | public |
-| [Orientation](#orientation) | public |
-| [AdaptiveSampling](#adaptivesampling) | public |
-| [PolarFilePath](#polarfilepath) | public |
-| [ConoscopicThetaMax](#conoscopicthetamax) | public |
-| [ConoscopicSampling](#conoscopicsampling) | public |
-| [ConoscopicResolution](#conoscopicresolution) | public |
-| [PolarHStart](#polarhstart) | public |
-| [PolarHEnd](#polarhend) | public |
-| [PolarHSampling](#polarhsampling) | public |
-| [PolarHResolution](#polarhresolution) | public |
-| [PolarVStart](#polarvstart) | public |
-| [PolarVEnd](#polarvend) | public |
-| [PolarVSampling](#polarvsampling) | public |
-| [PolarVResolution](#polarvresolution) | public |
-| [NearField](#nearfield) | public |
-| [CellDistance](#celldistance) | public |
-| [CellDiameter](#celldiameter) | public |
-| [IntensityResultViewingDirection](#intensityresultviewingdirection) | public |
-| [IntegrationAngle](#integrationangle) | public |
-| [Radius](#radius) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Format](#format) | public | Gets or sets the format type. |
+| [Orientation](#orientation) | public | Gets or sets the orientation type. |
+| [AdaptiveSampling](#adaptivesampling) | public | Gets or sets the property to enable adaptive sampling. |
+| [PolarFilePath](#polarfilepath) | public | Gets or sets the polar file path. |
+| [ConoscopicThetaMax](#conoscopicthetamax) | public | Gets or sets the Conoscopic theta maximum value. |
+| [ConoscopicSampling](#conoscopicsampling) | public | Gets or sets the Conoscopic sampling. |
+| [ConoscopicResolution](#conoscopicresolution) | public | Gets or sets the Conoscopic resolution. |
+| [PolarHStart](#polarhstart) | public | Gets the polar H start. |
+| [PolarHEnd](#polarhend) | public | Gets the polar H end. |
+| [PolarHSampling](#polarhsampling) | public | Gets or sets the polar H sampling. |
+| [PolarHResolution](#polarhresolution) | public | Gets or sets the polar H resolution. |
+| [PolarVStart](#polarvstart) | public | Gets the polar V start. |
+| [PolarVEnd](#polarvend) | public | Gets the polar V end. |
+| [PolarVSampling](#polarvsampling) | public | Gets or sets the polar V sampling. |
+| [PolarVResolution](#polarvresolution) | public | Gets or sets the polar V resolution. |
+| [NearField](#nearfield) | public | Gets or sets the property to enable near-field. |
+| [CellDistance](#celldistance) | public | Gets or sets the cell distance. |
+| [CellDiameter](#celldiameter) | public | Gets or sets the cell diameter. |
+| [IntensityResultViewingDirection](#intensityresultviewingdirection) | public | Gets or sets the intensity result viewing direction. |
+| [IntegrationAngle](#integrationangle) | public | Gets or sets the integration angle. |
+| [Radius](#radius) | public | Gets or sets the radius. |
 
 ## Public Static Attributes
 

@@ -27,10 +27,10 @@ Represents a Component Optical Design Exchange Result Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FeatureComponentOpticalDesignExchangeResult](#featurecomponentopticaldesignexchangeresult) | public |
-| [Attribute](#attribute) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FeatureComponentOpticalDesignExchangeResult](#featurecomponentopticaldesignexchangeresult) | public | Gets the Optical Design Exchange Result feature object. **Value type**: ComponentOpticalDesignExchangeResultFeature object. |
+| [Attribute](#attribute) | public | Gets Attribute value. |
 
 ## Public Static Attributes
 

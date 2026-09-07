@@ -27,15 +27,15 @@ Represents the builder for a 3D energy density sensor.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [XSize](#xsize) | public |
-| [XSampling](#xsampling) | public |
-| [YSize](#ysize) | public |
-| [YSampling](#ysampling) | public |
-| [ZSize](#zsize) | public |
-| [ZSampling](#zsampling) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the sensor type. |
+| [XSize](#xsize) | public | Gets or sets the X size. |
+| [XSampling](#xsampling) | public | Gets or sets the X sampling. |
+| [YSize](#ysize) | public | Gets or sets the Y size. |
+| [YSampling](#ysampling) | public | Gets or sets the Y sampling. |
+| [ZSize](#zsize) | public | Gets or sets the Z size. |
+| [ZSampling](#zsampling) | public | Gets or sets the Z sampling. |
 
 ## Public Static Attributes
 

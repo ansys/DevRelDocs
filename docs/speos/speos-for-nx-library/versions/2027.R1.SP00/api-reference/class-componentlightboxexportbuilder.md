@@ -27,26 +27,26 @@ Represents a light box export component builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [MeshingSagMode](#meshingsagmode) | public |
-| [MeshingSagValue](#meshingsagvalue) | public |
-| [MeshingStepMode](#meshingstepmode) | public |
-| [MeshingStepValue](#meshingstepvalue) | public |
-| [MeshingAngle](#meshingangle) | public |
-| [SpecificFacetEdgesParameters](#specificfacetedgesparameters) | public |
-| [MeshingEdgeSag](#meshingedgesag) | public |
-| [MeshingEdgeAngle](#meshingedgeangle) | public |
-| [CustomAxisSystem](#customaxissystem) | public |
-| [AxisSystem](#axissystem) | public |
-| [Sources](#sources) | public |
-| [Geometries](#geometries) | public |
-| [GeometriesOptions](#geometriesoptions) | public |
-| [EnablePassword](#enablepassword) | public |
-| [BlackBox](#blackbox) | public |
-| [RemoveSources](#removesources) | public |
-| [RemoveGeometries](#removegeometries) | public |
-| [GeneratePassword](#generatepassword) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [MeshingSagMode](#meshingsagmode) | public | Gets or sets the meshing sag mode. |
+| [MeshingSagValue](#meshingsagvalue) | public | Gets or sets the meshing sag value. |
+| [MeshingStepMode](#meshingstepmode) | public | Gets or sets the meshing step mode. |
+| [MeshingStepValue](#meshingstepvalue) | public | Gets or sets the meshing step fixed value. |
+| [MeshingAngle](#meshingangle) | public | Gets or sets the meshing angle. |
+| [SpecificFacetEdgesParameters](#specificfacetedgesparameters) | public | Gets or sets the specific parameters property for facet edges. |
+| [MeshingEdgeSag](#meshingedgesag) | public | Gets or sets the meshing edge sag value. |
+| [MeshingEdgeAngle](#meshingedgeangle) | public | Gets or sets the meshing edge angle. |
+| [CustomAxisSystem](#customaxissystem) | public | Gets or sets the property to enable custom axis system. |
+| [AxisSystem](#axissystem) | public | Gets the axis system. |
+| [Sources](#sources) | public | Gets source features. |
+| [Geometries](#geometries) | public | Gets geometries tag. |
+| [GeometriesOptions](#geometriesoptions) | public | Gets the list of geometry options. |
+| [EnablePassword](#enablepassword) | public | Gets or sets the property to enable password. |
+| [BlackBox](#blackbox) | public | Gets or sets the property to enable BlackBox. |
+| [RemoveSources](#removesources) | public | Deletes sources from the simulation. |
+| [RemoveGeometries](#removegeometries) | public | Deletes geometries from the component. |
+| [GeneratePassword](#generatepassword) | public | Generates and store a new password. **Prerequisite** The EnablePassword property must be True. |
 
 ## Public Static Attributes
 

@@ -23,14 +23,14 @@ Represents a Speos simulation feature.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Results](#results) | public |
-| [GPUSimulationMode](#gpusimulationmode) | public |
-| [Isolate](#isolate) | public |
-| [Export](#export) | public |
-| [LinkedExport](#linkedexport) | public |
-| [UpdateSpeosHPC](#updatespeoshpc) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Results](#results) | public | Gets the result collection. |
+| [GPUSimulationMode](#gpusimulationmode) | public | Sets the simulation mode. |
+| [Isolate](#isolate) | public | Isolates the simulation and its results. |
+| [Export](#export) | public | Exports the simulation to a specified location. |
+| [LinkedExport](#linkedexport) | public | Exports the simulation to the Speos isolated folder. |
+| [UpdateSpeosHPC](#updatespeoshpc) | public | Runs the simulation on the Speos HPC cluster. |
 
 ## Public Static Attributes
 

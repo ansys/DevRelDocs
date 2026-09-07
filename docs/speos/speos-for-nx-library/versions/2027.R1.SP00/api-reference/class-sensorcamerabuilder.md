@@ -27,47 +27,47 @@ Represents a Camera Sensor Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [CameraMode](#cameramode) | public |
-| [LayerType](#layertype) | public |
-| [DisplayCameraField](#displaycamerafield) | public |
-| [DisplayObjectField](#displayobjectfield) | public |
-| [VisualizationRadius](#visualizationradius) | public |
-| [DisplayAperture](#displayaperture) | public |
-| [HorizontalFOV](#horizontalfov) | public |
-| [VerticalFOV](#verticalfov) | public |
-| [FocalLength](#focallength) | public |
-| [FNumber](#fnumber) | public |
-| [ImagerDistance](#imagerdistance) | public |
-| [DistortionFilePath](#distortionfilepath) | public |
-| [ConsiderDiffractionEffects](#considerdiffractioneffects) | public |
-| [TransmittanceFilePath](#transmittancefilepath) | public |
-| [HorizontalPixels](#horizontalpixels) | public |
-| [VerticalPixels](#verticalpixels) | public |
-| [Width](#width) | public |
-| [Height](#height) | public |
-| [ColorMode](#colormode) | public |
-| [WhiteBalanceMode](#whitebalancemode) | public |
-| [GammaCorrection](#gammacorrection) | public |
-| [PNGBits](#pngbits) | public |
-| [SensitivityMonochromaticSpectrumFilePath](#sensitivitymonochromaticspectrumfilepath) | public |
-| [SensitivityRedSpectrumFilePath](#sensitivityredspectrumfilepath) | public |
-| [SensitivityGreenSpectrumFilePath](#sensitivitygreenspectrumfilepath) | public |
-| [SensitivityBlueSpectrumFilePath](#sensitivitybluespectrumfilepath) | public |
-| [WhiteBalanceRedSpectrumFilePath](#whitebalanceredspectrumfilepath) | public |
-| [WhiteBalanceGreenSpectrumFilePath](#whitebalancegreenspectrumfilepath) | public |
-| [WhiteBalanceBlueSpectrumFilePath](#whitebalancebluespectrumfilepath) | public |
-| [RedGain](#redgain) | public |
-| [GreenGain](#greengain) | public |
-| [BlueGain](#bluegain) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [WavelengthResolution](#wavelengthresolution) | public |
-| [DistortionVersion](#distortionversion) | public |
-| [DistortionWithDiffraction](#distortionwithdiffraction) | public |
-| [UpdateWavelengthSamplingFromResolution](#updatewavelengthsamplingfromresolution) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [CameraMode](#cameramode) | public | Gets or sets the camera mode. |
+| [LayerType](#layertype) | public | Gets or sets the layer mode. |
+| [DisplayCameraField](#displaycamerafield) | public | Gets or sets the property to enable the preview of the Camera Field. |
+| [DisplayObjectField](#displayobjectfield) | public | Gets or sets the property to enable the preview of the Object Field. |
+| [VisualizationRadius](#visualizationradius) | public | Gets or sets the Visualization radius. |
+| [DisplayAperture](#displayaperture) | public | Gets or sets the property to enable the preview of the Aperture. |
+| [HorizontalFOV](#horizontalfov) | public | Gets the Horizontal Field of View. |
+| [VerticalFOV](#verticalfov) | public | Gets the Vertical Field of View. |
+| [FocalLength](#focallength) | public | Gets or sets the focal length. |
+| [FNumber](#fnumber) | public | Gets or sets the F number. |
+| [ImagerDistance](#imagerdistance) | public | Gets or sets the Image Distance. |
+| [DistortionFilePath](#distortionfilepath) | public | Gets or sets the distortion file path. |
+| [ConsiderDiffractionEffects](#considerdiffractioneffects) | public | Gets or sets the property to consider the diffraction effects. |
+| [TransmittanceFilePath](#transmittancefilepath) | public | Gets or sets the transmittance file path. |
+| [HorizontalPixels](#horizontalpixels) | public | Gets or sets the horizontal pixels . |
+| [VerticalPixels](#verticalpixels) | public | Gets or sets the vertical pixels . |
+| [Width](#width) | public | Gets or sets the width . |
+| [Height](#height) | public | Gets or sets the height . |
+| [ColorMode](#colormode) | public | Gets or sets the color mode. |
+| [WhiteBalanceMode](#whitebalancemode) | public | Gets or sets the white balance mode. |
+| [GammaCorrection](#gammacorrection) | public | Gets or sets the gamma correction. |
+| [PNGBits](#pngbits) | public | Gets or sets the PNG Bits. |
+| [SensitivityMonochromaticSpectrumFilePath](#sensitivitymonochromaticspectrumfilepath) | public | Gets or sets the sensitivity monochromatic spectrum file path. |
+| [SensitivityRedSpectrumFilePath](#sensitivityredspectrumfilepath) | public | Gets or sets the sensitivity red spectrum file path. |
+| [SensitivityGreenSpectrumFilePath](#sensitivitygreenspectrumfilepath) | public | Gets or sets the sensitivity green spectrum file path. |
+| [SensitivityBlueSpectrumFilePath](#sensitivitybluespectrumfilepath) | public | Gets or sets the sensitivity blue spectrum file path. |
+| [WhiteBalanceRedSpectrumFilePath](#whitebalanceredspectrumfilepath) | public | Gets or sets the white balance red spectrum file path. |
+| [WhiteBalanceGreenSpectrumFilePath](#whitebalancegreenspectrumfilepath) | public | Gets or sets the white balance green spectrum file path. |
+| [WhiteBalanceBlueSpectrumFilePath](#whitebalancebluespectrumfilepath) | public | Gets or sets the white balance blue spectrum file path. |
+| [RedGain](#redgain) | public | Gets or sets the red gain. |
+| [GreenGain](#greengain) | public | Gets or sets the green gain. |
+| [BlueGain](#bluegain) | public | Gets or sets the blue gain. |
+| [WavelengthStart](#wavelengthstart) | public | Gets or sets the lower value of the wavelength range to be considered by the sensor. |
+| [WavelengthEnd](#wavelengthend) | public | Gets or sets the higher value of the wavelength range to be considered by the sensor. |
+| [WavelengthSampling](#wavelengthsampling) | public | Gets or sets the wavelength sampling. |
+| [WavelengthResolution](#wavelengthresolution) | public | Gets the Wavelength resolution. |
+| [DistortionVersion](#distortionversion) | public | Gets the distortion version. |
+| [DistortionWithDiffraction](#distortionwithdiffraction) | public | Gets whether the distortion file includes diffraction parameters. |
+| [UpdateWavelengthSamplingFromResolution](#updatewavelengthsamplingfromresolution) | public | Updates the wavelength sampling from a resolution. |
 
 ## Public Static Attributes
 

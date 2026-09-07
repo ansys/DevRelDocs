@@ -27,34 +27,34 @@ Represents a Human Eye Sensor Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [LayerType](#layertype) | public |
-| [VerticalDirectionReversed](#verticaldirectionreversed) | public |
-| [UseTemplateFile](#usetemplatefile) | public |
-| [TemplateFilePath](#templatefilepath) | public |
-| [DisplayPropertiesFromFile](#displaypropertiesfromfile) | public |
-| [VisionFieldHorizontalStart](#visionfieldhorizontalstart) | public |
-| [VisionFieldHorizontalEnd](#visionfieldhorizontalend) | public |
-| [VisionFieldHorizontalSampling](#visionfieldhorizontalsampling) | public |
-| [VisionFieldHorizontalResolution](#visionfieldhorizontalresolution) | public |
-| [VisionFieldHorizontalMirroredExtent](#visionfieldhorizontalmirroredextent) | public |
-| [VisionFieldVerticalStart](#visionfieldverticalstart) | public |
-| [VisionFieldVerticalEnd](#visionfieldverticalend) | public |
-| [VisionFieldVerticalSampling](#visionfieldverticalsampling) | public |
-| [VisionFieldVerticalResolution](#visionfieldverticalresolution) | public |
-| [VisionFieldVerticalMirroredExtent](#visionfieldverticalmirroredextent) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [WavelengthResolution](#wavelengthresolution) | public |
-| [PupilDiameter](#pupildiameter) | public |
-| [ShowGrid](#showgrid) | public |
-| [GridOriginX](#gridoriginx) | public |
-| [GridStepX](#gridstepx) | public |
-| [GridOriginY](#gridoriginy) | public |
-| [GridStepY](#gridstepy) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the sensor type. |
+| [LayerType](#layertype) | public | Gets or sets the layer mode. |
+| [VerticalDirectionReversed](#verticaldirectionreversed) | public | Gets or sets the reverse vertical direction. |
+| [UseTemplateFile](#usetemplatefile) | public | Gets or sets the property to enable or disable use of XM3 template file. |
+| [TemplateFilePath](#templatefilepath) | public | Gets or sets the XM3 template file. |
+| [DisplayPropertiesFromFile](#displaypropertiesfromfile) | public | Gets or sets the property to enable the use of display properties that come from File. |
+| [VisionFieldHorizontalStart](#visionfieldhorizontalstart) | public | Gets or sets the horizontal start for vision field. |
+| [VisionFieldHorizontalEnd](#visionfieldhorizontalend) | public | Gets or sets the horizontal end for vision field. |
+| [VisionFieldHorizontalSampling](#visionfieldhorizontalsampling) | public | Gets the horizontal sampling for vision field. |
+| [VisionFieldHorizontalResolution](#visionfieldhorizontalresolution) | public | Gets or sets the horizontal resolution for vision field. |
+| [VisionFieldHorizontalMirroredExtent](#visionfieldhorizontalmirroredextent) | public | Gets or sets the mirrored extent property for horizontal vision field. |
+| [VisionFieldVerticalStart](#visionfieldverticalstart) | public | Gets or sets the vertical start for vision field. |
+| [VisionFieldVerticalEnd](#visionfieldverticalend) | public | Gets or sets the vertical end for vision field. |
+| [VisionFieldVerticalSampling](#visionfieldverticalsampling) | public | Gets the vertical sampling for vision field. |
+| [VisionFieldVerticalResolution](#visionfieldverticalresolution) | public | Gets or sets the vertical resolution for vision field. |
+| [VisionFieldVerticalMirroredExtent](#visionfieldverticalmirroredextent) | public | Gets or sets the mirrored extent property for vertical vision field. |
+| [WavelengthStart](#wavelengthstart) | public | Gets the lower value of the wavelength range to be considered by the sensor. |
+| [WavelengthEnd](#wavelengthend) | public | Gets the higher value of the wavelength range to be considered by the sensor. |
+| [WavelengthSampling](#wavelengthsampling) | public | Gets or sets the wavelength sampling. |
+| [WavelengthResolution](#wavelengthresolution) | public | Gets or sets the Wavelength resolution |
+| [PupilDiameter](#pupildiameter) | public | Gets or sets the pupil diameter. |
+| [ShowGrid](#showgrid) | public | Gets or sets the property to enable grid preview. |
+| [GridOriginX](#gridoriginx) | public | Gets or sets the grid X origin |
+| [GridStepX](#gridstepx) | public | Gets or sets the grid X step |
+| [GridOriginY](#gridoriginy) | public | Gets or sets the grid Y origin |
+| [GridStepY](#gridstepy) | public | Gets or sets the grid Y step |
 
 ## Public Static Attributes
 

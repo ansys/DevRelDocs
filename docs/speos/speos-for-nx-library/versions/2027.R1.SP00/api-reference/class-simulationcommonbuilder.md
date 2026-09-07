@@ -39,24 +39,24 @@ A base class for all Simulation Builders.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FeatureSimulation](#featuresimulation) | public |
-| [Sources](#sources) | public |
-| [Geometries](#geometries) | public |
-| [Sensors](#sensors) | public |
-| [EstimatedRam](#estimatedram) | public |
-| [LightExpert](#lightexpert) | public |
-| [UseAmbientMaterial](#useambientmaterial) | public |
-| [AmbientMaterial](#ambientmaterial) | public |
-| [StandardDeviation](#standarddeviation) | public |
-| [UsePresetSettings](#usepresetsettings) | public |
-| [Preset](#preset) | public |
-| [AllPreset](#allpreset) | public |
-| [Settings](#settings) | public |
-| [RemoveSources](#removesources) | public |
-| [RemoveGeometries](#removegeometries) | public |
-| [RemoveSensors](#removesensors) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FeatureSimulation](#featuresimulation) | public | Gets the simulation feature object. |
+| [Sources](#sources) | public | Gets or sets source features. |
+| [Geometries](#geometries) | public | Gets or sets geometries tag. |
+| [Sensors](#sensors) | public | Gets or sets sensor features. |
+| [EstimatedRam](#estimatedram) | public | Gets the estimated RAM usage. |
+| [LightExpert](#lightexpert) | public | Gets or sets the property to enable Light Expert. |
+| [UseAmbientMaterial](#useambientmaterial) | public | Gets or sets the property to enable ambient material. |
+| [AmbientMaterial](#ambientmaterial) | public | Gets or sets the ambient material. |
+| [StandardDeviation](#standarddeviation) | public | Gets or sets the standard deviation. |
+| [UsePresetSettings](#usepresetsettings) | public | Gets or sets the property to enable preset settings. |
+| [Preset](#preset) | public | Gets or sets the Preset object. |
+| [AllPreset](#allpreset) | public | Gets all Preset. |
+| [Settings](#settings) | public | Gets or sets the simulation settings. |
+| [RemoveSources](#removesources) | public | Deletes sources from the simulation. |
+| [RemoveGeometries](#removegeometries) | public | Deletes geometries from the simulation. |
+| [RemoveSensors](#removesensors) | public | Deletes sensors from the simulation. |
 
 ## Public Static Attributes
 

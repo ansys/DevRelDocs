@@ -6,13 +6,13 @@ Represents an Axis System.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [OriginPoint](#originpoint) | public |
-| [DirectionX](#directionx) | public |
-| [DirectionXReversed](#directionxreversed) | public |
-| [DirectionY](#directiony) | public |
-| [DirectionYReversed](#directionyreversed) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [OriginPoint](#originpoint) | public | Gets or sets the origin point. |
+| [DirectionX](#directionx) | public | Gets or sets the X direction. |
+| [DirectionXReversed](#directionxreversed) | public | Gets or sets the reverse X direction. |
+| [DirectionY](#directiony) | public | Gets or sets the Y direction. |
+| [DirectionYReversed](#directionyreversed) | public | Gets or sets the reverse Y direction. |
 
 ## Public Static Attributes
 

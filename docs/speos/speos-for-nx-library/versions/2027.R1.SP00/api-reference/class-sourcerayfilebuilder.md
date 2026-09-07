@@ -27,19 +27,19 @@ Represents the builder for a ray file source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [RayFilePath](#rayfilepath) | public |
-| [Flux](#flux) | public |
-| [FluxFromFile](#fluxfromfile) | public |
-| [FluxUnit](#fluxunit) | public |
-| [Spectrum](#spectrum) | public |
-| [Wavelength](#wavelength) | public |
-| [Temperature](#temperature) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [ExitGeometries](#exitgeometries) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [RayLength](#raylength) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [RayFilePath](#rayfilepath) | public | Gets or sets the ray file path. |
+| [Flux](#flux) | public | Gets or sets the flux. |
+| [FluxFromFile](#fluxfromfile) | public | Gets or sets the property to enable fetching the flux from file. |
+| [FluxUnit](#fluxunit) | public | Gets or sets the flux unit. |
+| [Spectrum](#spectrum) | public | Gets or sets the spectrum type. |
+| [Wavelength](#wavelength) | public | Gets or sets the wavelength. |
+| [Temperature](#temperature) | public | Gets or sets the temperature. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file path. |
+| [ExitGeometries](#exitgeometries) | public | Gets or sets exit geometries. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
 
 ## Public Static Attributes
 

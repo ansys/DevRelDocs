@@ -27,18 +27,18 @@ Represents an interactive source builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Type](#type) | public |
-| [Wavelength](#wavelength) | public |
-| [StartPoint](#startpoint) | public |
-| [StartFirstSampling](#startfirstsampling) | public |
-| [StartSecondSampling](#startsecondsampling) | public |
-| [EndPoint](#endpoint) | public |
-| [EndDirectionReversed](#enddirectionreversed) | public |
-| [EndFirstSampling](#endfirstsampling) | public |
-| [EndSecondSampling](#endsecondsampling) | public |
-| [RayLength](#raylength) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Type](#type) | public | Gets or sets the interactive source type. |
+| [Wavelength](#wavelength) | public | Gets or sets the wavelength. |
+| [StartPoint](#startpoint) | public | Gets or sets the start point. |
+| [StartFirstSampling](#startfirstsampling) | public | Gets or sets the start first sampling. |
+| [StartSecondSampling](#startsecondsampling) | public | Gets or sets the start second sampling. |
+| [EndPoint](#endpoint) | public | Gets or sets the end point. |
+| [EndDirectionReversed](#enddirectionreversed) | public | Gets or sets the property to reverse the end direction. |
+| [EndFirstSampling](#endfirstsampling) | public | Gets or sets the end first sampling. |
+| [EndSecondSampling](#endsecondsampling) | public | Gets or sets the end second sampling. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
 
 ## Public Static Attributes
 

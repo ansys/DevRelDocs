@@ -163,14 +163,14 @@ A base class for all feature Builders.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [ShowResult](#showresult) | public |
-| [Feature](#feature) | public |
-| [Status](#status) | public |
-| [Name](#name) | public |
-| [FullName](#fullname) | public |
-| [NameWithContext](#namewithcontext) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [ShowResult](#showresult) | public | Updates the feature to reflect the result of an edit to the feature for all builders that support showing results. |
+| [Feature](#feature) | public | Returns the feature being edited, or the created feature if the builder is being used in creation mode. |
+| [Status](#status) | public | Returns the status of the feature being edited. |
+| [Name](#name) | public | Gets or sets the name of the feature being edited. |
+| [FullName](#fullname) | public | Gets the full name of the feature being edited. |
+| [NameWithContext](#namewithcontext) | public | Gets the name with context of the feature being edited. |
 
 ## Public Member Functions
 

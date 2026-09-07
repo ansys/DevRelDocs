@@ -27,15 +27,15 @@ Represents a Folder Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Features](#features) | public |
-| [Category](#category) | public |
-| [Remove](#remove) | public |
-| [RemoveFeatures](#removefeatures) | public |
-| [Add](#add) | public |
-| [Insert](#insert) | public |
-| [IsCompatible](#iscompatible) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Features](#features) | public | Gets or sets features belonging to this folder. |
+| [Category](#category) | public | Gets or sets the category type of the folder. |
+| [Remove](#remove) | public | Removes the specified feature object from the folder. |
+| [RemoveFeatures](#removefeatures) | public | Removes the specified feature objects from the folder. |
+| [Add](#add) | public | Adds the specified feature object into the folder. |
+| [Insert](#insert) | public | Inserts the specified feature object into the folder after another specified feature. |
+| [IsCompatible](#iscompatible) | public | Checks if the specified feature object is compatible with this folder. |
 
 ## Public Static Attributes
 

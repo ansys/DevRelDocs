@@ -27,22 +27,22 @@ Represents a Speos pattern builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [PatternFilePath](#patternfilepath) | public |
-| [OneLayerPerSource](#onelayerpersource) | public |
-| [Origins](#origins) | public |
-| [PreviewMode](#previewmode) | public |
-| [OneLayerPerInstance](#onelayerperinstance) | public |
-| [RayFileFlux](#rayfileflux) | public |
-| [RayFileFluxUnit](#rayfilefluxunit) | public |
-| [RayFileFluxFromFile](#rayfilefluxfromfile) | public |
-| [RayFileSpectrumType](#rayfilespectrumtype) | public |
-| [RayFileWavelength](#rayfilewavelength) | public |
-| [RayFileTemperature](#rayfiletemperature) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [NumberOfRay](#numberofray) | public |
-| [RayLength](#raylength) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [PatternFilePath](#patternfilepath) | public | Gets or sets the property pattern file path. |
+| [OneLayerPerSource](#onelayerpersource) | public | Gets or sets the property to enable/disable one layer per source. |
+| [Origins](#origins) | public | Gets or sets the origin coordinate systems. |
+| [PreviewMode](#previewmode) | public | Gets or sets the preview mode. |
+| [OneLayerPerInstance](#onelayerperinstance) | public | Gets or sets the property to enable/disable one layer per instance. |
+| [RayFileFlux](#rayfileflux) | public | Gets or sets the flux of the ray file source. |
+| [RayFileFluxUnit](#rayfilefluxunit) | public | Gets or sets the flux unit of the ray file source. |
+| [RayFileFluxFromFile](#rayfilefluxfromfile) | public | Gets or sets the property to enable fetching the flux from file. |
+| [RayFileSpectrumType](#rayfilespectrumtype) | public | Gets or sets the spectrum type. |
+| [RayFileWavelength](#rayfilewavelength) | public | Gets or sets the wavelength. |
+| [RayFileTemperature](#rayfiletemperature) | public | Gets or sets the temperature. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file path. |
+| [NumberOfRay](#numberofray) | public | Gets or sets the number of rays. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
 
 ## Public Static Attributes
 

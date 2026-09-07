@@ -27,38 +27,38 @@ Represents the builder for a display source.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Luminance](#luminance) | public |
-| [InfiniteContrast](#infinitecontrast) | public |
-| [Contrast](#contrast) | public |
-| [ImageFilePath](#imagefilepath) | public |
-| [XStart](#xstart) | public |
-| [XEnd](#xend) | public |
-| [XMirroredExtent](#xmirroredextent) | public |
-| [YStart](#ystart) | public |
-| [YEnd](#yend) | public |
-| [YMirroredExtent](#ymirroredextent) | public |
-| [IntensityType](#intensitytype) | public |
-| [LambertianMaximumAngle](#lambertianmaximumangle) | public |
-| [CosN](#cosn) | public |
-| [GaussianFWHMAngle](#gaussianfwhmangle) | public |
-| [GaussianFWHMAngleX](#gaussianfwhmanglex) | public |
-| [GaussianFWHMAngleY](#gaussianfwhmangley) | public |
-| [IntensityFilePath](#intensityfilepath) | public |
-| [XDirectionReversed](#xdirectionreversed) | public |
-| [YDirectionReversed](#ydirectionreversed) | public |
-| [ColorSpace](#colorspace) | public |
-| [WhitePointType](#whitepointtype) | public |
-| [WhitePointX](#whitepointx) | public |
-| [WhitePointY](#whitepointy) | public |
-| [RedSpectrumFilePath](#redspectrumfilepath) | public |
-| [GreenSpectrumFilePath](#greenspectrumfilepath) | public |
-| [BlueSpectrumFilePath](#bluespectrumfilepath) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [RayLength](#raylength) | public |
-| [ShowIntensityDistribution](#showintensitydistribution) | public |
-| [ShowImage](#showimage) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Luminance](#luminance) | public | Gets or sets the luminance. |
+| [InfiniteContrast](#infinitecontrast) | public | Gets or sets the property to enable infinite contrast ratio. |
+| [Contrast](#contrast) | public | Gets or sets the contrast ratio. |
+| [ImageFilePath](#imagefilepath) | public | Gets or sets the image file. |
+| [XStart](#xstart) | public | Gets or sets the sensor X start dimension value. |
+| [XEnd](#xend) | public | Gets or sets the sensor X end dimension value. |
+| [XMirroredExtent](#xmirroredextent) | public | Gets or sets the sensor X dimension mirrored value. |
+| [YStart](#ystart) | public | Gets or sets the sensor Y start dimension value. |
+| [YEnd](#yend) | public | Gets or sets the sensor Y start dimension value. |
+| [YMirroredExtent](#ymirroredextent) | public | Gets or sets the sensor Y dimension mirrored value. |
+| [IntensityType](#intensitytype) | public | Gets or sets the intensity diagram. |
+| [LambertianMaximumAngle](#lambertianmaximumangle) | public | Gets or sets the theta value for Lambertian distribution. |
+| [CosN](#cosn) | public | Gets or sets the N value for Cos distribution. |
+| [GaussianFWHMAngle](#gaussianfwhmangle) | public | Gets or sets the FWHM angle value for Symmetric Gaussian distribution. |
+| [GaussianFWHMAngleX](#gaussianfwhmanglex) | public | Gets or sets the FWHM X angle value for Asymmetric Gaussian distribution. |
+| [GaussianFWHMAngleY](#gaussianfwhmangley) | public | Gets or sets the FWHM Y angle value for Asymmetric Gaussian distribution. |
+| [IntensityFilePath](#intensityfilepath) | public | Gets or sets the intensity file for Library distribution. |
+| [XDirectionReversed](#xdirectionreversed) | public | Gets or sets the property to reverse the X direction. |
+| [YDirectionReversed](#ydirectionreversed) | public | Gets or sets the property to reverse the Y direction. |
+| [ColorSpace](#colorspace) | public | Gets or sets the color space model type. |
+| [WhitePointType](#whitepointtype) | public | Gets or sets the white point type of the standard illuminant. |
+| [WhitePointX](#whitepointx) | public | Gets or sets the X coordinate of the white point. |
+| [WhitePointY](#whitepointy) | public | Gets or sets the Y coordinate of the white point. |
+| [RedSpectrumFilePath](#redspectrumfilepath) | public | Gets or sets the red spectrum file. |
+| [GreenSpectrumFilePath](#greenspectrumfilepath) | public | Gets or sets the green spectrum file. |
+| [BlueSpectrumFilePath](#bluespectrumfilepath) | public | Gets or sets the blue spectrum file. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [RayLength](#raylength) | public | Gets or sets the ray length. |
+| [ShowIntensityDistribution](#showintensitydistribution) | public | Gets or sets the property to show the intensity distribution in the 3D view. |
+| [ShowImage](#showimage) | public | Gets or sets the property to show the image. |
 
 ## Public Static Attributes
 

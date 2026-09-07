@@ -27,42 +27,42 @@ Represents the builder for an observer sensor.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Distance](#distance) | public |
-| [Focal](#focal) | public |
-| [LayerType](#layertype) | public |
-| [InterocularDistance](#interoculardistance) | public |
-| [Stereo](#stereo) | public |
-| [AxisSystem](#axissystem) | public |
-| [WavelengthStart](#wavelengthstart) | public |
-| [WavelengthEnd](#wavelengthend) | public |
-| [WavelengthSampling](#wavelengthsampling) | public |
-| [WavelengthResolution](#wavelengthresolution) | public |
-| [VisionFieldHorizontalStart](#visionfieldhorizontalstart) | public |
-| [VisionFieldHorizontalEnd](#visionfieldhorizontalend) | public |
-| [VisionFieldHorizontalSampling](#visionfieldhorizontalsampling) | public |
-| [VisionFieldHorizontalResolution](#visionfieldhorizontalresolution) | public |
-| [VisionFieldHorizontalMirroredExtent](#visionfieldhorizontalmirroredextent) | public |
-| [VisionFieldVerticalStart](#visionfieldverticalstart) | public |
-| [VisionFieldVerticalEnd](#visionfieldverticalend) | public |
-| [VisionFieldVerticalSampling](#visionfieldverticalsampling) | public |
-| [VisionFieldVerticalResolution](#visionfieldverticalresolution) | public |
-| [VisionFieldVerticalMirroredExtent](#visionfieldverticalmirroredextent) | public |
-| [DimensionHorizontalStart](#dimensionhorizontalstart) | public |
-| [DimensionHorizontalEnd](#dimensionhorizontalend) | public |
-| [DimensionHorizontalSampling](#dimensionhorizontalsampling) | public |
-| [DimensionHorizontalResolution](#dimensionhorizontalresolution) | public |
-| [DimensionHorizontalMirroredExtent](#dimensionhorizontalmirroredextent) | public |
-| [DimensionVerticalStart](#dimensionverticalstart) | public |
-| [DimensionVerticalEnd](#dimensionverticalend) | public |
-| [DimensionVerticalSampling](#dimensionverticalsampling) | public |
-| [DimensionVerticalResolution](#dimensionverticalresolution) | public |
-| [DimensionVerticalMirroredExtent](#dimensionverticalmirroredextent) | public |
-| [UseAutomaticFraming](#useautomaticframing) | public |
-| [AutomaticFramingHorizontal](#automaticframinghorizontal) | public |
-| [AutomaticFramingVertical](#automaticframingvertical) | public |
-| [IntegrationAngle](#integrationangle) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Distance](#distance) | public | Gets or sets the distance. |
+| [Focal](#focal) | public | Gets or sets the focal. |
+| [LayerType](#layertype) | public | Gets or sets the layer type. |
+| [InterocularDistance](#interoculardistance) | public | Gets or sets the interocular distance. |
+| [Stereo](#stereo) | public | gets or sets the stereo property. |
+| [AxisSystem](#axissystem) | public | Gets the axis system. |
+| [WavelengthStart](#wavelengthstart) | public | Gets or sets the lower value of the wavelength range to be considered by the sensor. |
+| [WavelengthEnd](#wavelengthend) | public | Gets or sets the higher value of the wavelength range to be considered by the sensor. |
+| [WavelengthSampling](#wavelengthsampling) | public | Gets or sets the wavelength sampling. |
+| [WavelengthResolution](#wavelengthresolution) | public | Gets or sets the Wavelength resolution |
+| [VisionFieldHorizontalStart](#visionfieldhorizontalstart) | public | Gets or sets the horizontal start for vision field. |
+| [VisionFieldHorizontalEnd](#visionfieldhorizontalend) | public | Gets or sets the horizontal end for vision field. |
+| [VisionFieldHorizontalSampling](#visionfieldhorizontalsampling) | public | Gets or sets the horizontal sampling for vision field. |
+| [VisionFieldHorizontalResolution](#visionfieldhorizontalresolution) | public | Gets or sets the horizontal resolution for vision field. |
+| [VisionFieldHorizontalMirroredExtent](#visionfieldhorizontalmirroredextent) | public | Gets or sets the mirrored extent property for horizontal vision field. |
+| [VisionFieldVerticalStart](#visionfieldverticalstart) | public | Gets or sets the vertical start for vision field. |
+| [VisionFieldVerticalEnd](#visionfieldverticalend) | public | Gets or sets the vertical end for vision field. |
+| [VisionFieldVerticalSampling](#visionfieldverticalsampling) | public | Gets or sets the vertical sampling for vision field. |
+| [VisionFieldVerticalResolution](#visionfieldverticalresolution) | public | Gets or sets the vertical resolution for vision field. |
+| [VisionFieldVerticalMirroredExtent](#visionfieldverticalmirroredextent) | public | Gets or sets the mirrored extent property for vertical vision field. |
+| [DimensionHorizontalStart](#dimensionhorizontalstart) | public | Gets or sets the horizontal start for dimension. |
+| [DimensionHorizontalEnd](#dimensionhorizontalend) | public | Gets or sets the horizontal end for dimension. |
+| [DimensionHorizontalSampling](#dimensionhorizontalsampling) | public | Gets or sets the horizontal sampling for dimension. |
+| [DimensionHorizontalResolution](#dimensionhorizontalresolution) | public | Gets or sets the horizontal resolution for dimension. |
+| [DimensionHorizontalMirroredExtent](#dimensionhorizontalmirroredextent) | public | Gets or sets the mirrored extent property for horizontal dimension. |
+| [DimensionVerticalStart](#dimensionverticalstart) | public | Gets or sets the vertical start for dimension. |
+| [DimensionVerticalEnd](#dimensionverticalend) | public | Gets or sets the vertical end for dimension. |
+| [DimensionVerticalSampling](#dimensionverticalsampling) | public | Gets or sets the vertical sampling for dimension. |
+| [DimensionVerticalResolution](#dimensionverticalresolution) | public | Gets or sets the vertical resolution for dimension. |
+| [DimensionVerticalMirroredExtent](#dimensionverticalmirroredextent) | public | Gets or sets the mirrored extent property for vertical dimension. |
+| [UseAutomaticFraming](#useautomaticframing) | public | Ativate or deactivate the automatic framing. |
+| [AutomaticFramingHorizontal](#automaticframinghorizontal) | public | Gets or sets the automatic framing horizontal position. |
+| [AutomaticFramingVertical](#automaticframingvertical) | public | Gets or sets the automatic framing horizontal position. |
+| [IntegrationAngle](#integrationangle) | public | Gets or sets the integration angle. |
 
 ## Public Static Attributes
 

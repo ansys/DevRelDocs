@@ -6,11 +6,11 @@ Represents a Preset.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Name](#name) | public |
-| [Rename](#rename) | public |
-| [Delete](#delete) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Name](#name) | public | Gets or sets the preset name. |
+| [Rename](#rename) | public | Renames the preset. |
+| [Delete](#delete) | public | Deletes the preset. |
 
 ## Public Static Attributes
 

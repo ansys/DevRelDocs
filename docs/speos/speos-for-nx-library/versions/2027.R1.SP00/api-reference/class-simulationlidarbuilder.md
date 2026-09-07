@@ -27,34 +27,34 @@ Represents an LiDAR Simulation Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Geometries](#geometries) | public |
-| [Sensors](#sensors) | public |
-| [FeatureSimulation](#featuresimulation) | public |
-| [StopOnRaysNumber](#stoponraysnumber) | public |
-| [RaysNumber](#raysnumber) | public |
-| [RayNumberMultiplier](#raynumbermultiplier) | public |
-| [StopOnDuration](#stoponduration) | public |
-| [Duration](#duration) | public |
-| [SourceGridSampling](#sourcegridsampling) | public |
-| [SensorPixelGridSampling](#sensorpixelgridsampling) | public |
-| [Timeline](#timeline) | public |
-| [TimelineStart](#timelinestart) | public |
-| [TimelineEnd](#timelineend) | public |
-| [UseAmbientMaterial](#useambientmaterial) | public |
-| [AmbientMaterial](#ambientmaterial) | public |
-| [FieldsOfView](#fieldsofview) | public |
-| [MapOfDepth](#mapofdepth) | public |
-| [RawTimeOfFlight](#rawtimeofflight) | public |
-| [UsePresetSettings](#usepresetsettings) | public |
-| [Preset](#preset) | public |
-| [AllPreset](#allpreset) | public |
-| [Settings](#settings) | public |
-| [UsePartFamilies](#usepartfamilies) | public |
-| [FamilySelection](#familyselection) | public |
-| [RemoveGeometries](#removegeometries) | public |
-| [RemoveSensors](#removesensors) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Geometries](#geometries) | public | Gets or sets geometries tag. |
+| [Sensors](#sensors) | public | Gets or sets sensor features. |
+| [FeatureSimulation](#featuresimulation) | public | Gets the simulation feature object. |
+| [StopOnRaysNumber](#stoponraysnumber) | public | Gets or sets the property to enable stop on rays number. |
+| [RaysNumber](#raysnumber) | public | Gets or sets the number of rays. |
+| [RayNumberMultiplier](#raynumbermultiplier) | public | Gets or sets the ray number multiplier. |
+| [StopOnDuration](#stoponduration) | public | Gets or sets the property to stop on duration. |
+| [Duration](#duration) | public | Gets or sets the duration. |
+| [SourceGridSampling](#sourcegridsampling) | public | Gets or sets the grid sampling of the source. |
+| [SensorPixelGridSampling](#sensorpixelgridsampling) | public | Gets or sets the pixel grid sampling of the sensor. |
+| [Timeline](#timeline) | public | Gets or sets the property to enable the timeline. |
+| [TimelineStart](#timelinestart) | public | Gets or sets the timeline start. |
+| [TimelineEnd](#timelineend) | public | Gets or sets the timeline end. |
+| [UseAmbientMaterial](#useambientmaterial) | public | Gets or sets the property to enable ambient material. |
+| [AmbientMaterial](#ambientmaterial) | public | Gets or sets the ambient material. |
+| [FieldsOfView](#fieldsofview) | public | Gets or sets the property to enable the field of view. |
+| [MapOfDepth](#mapofdepth) | public | Gets or sets the property to enable the map of depth. |
+| [RawTimeOfFlight](#rawtimeofflight) | public | Gets or sets the property to enable the raw time of flight. |
+| [UsePresetSettings](#usepresetsettings) | public | Gets or sets the property to enable preset settings. |
+| [Preset](#preset) | public | Gets or sets the Preset object. |
+| [AllPreset](#allpreset) | public | Gets all Preset. |
+| [Settings](#settings) | public | Gets or sets the simulation settings. |
+| [UsePartFamilies](#usepartfamilies) | public | Gets or sets the property to use family tables. |
+| [FamilySelection](#familyselection) | public | Gets or sets the family selection list. |
+| [RemoveGeometries](#removegeometries) | public | Deletes geometries from the simulation. |
+| [RemoveSensors](#removesensors) | public | Deletes sensors from the simulation. |
 
 ## Public Static Attributes
 

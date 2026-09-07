@@ -27,15 +27,15 @@ Represents a Component Light Box Import Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [SpeosLightBoxFilePath](#speoslightboxfilepath) | public |
-| [PasswordRequired](#passwordrequired) | public |
-| [PreviewMode](#previewmode) | public |
-| [CustomAxisSystem](#customaxissystem) | public |
-| [BlackBox](#blackbox) | public |
-| [Trajectory](#trajectory) | public |
-| [TrajectoryFilePath](#trajectoryfilepath) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [SpeosLightBoxFilePath](#speoslightboxfilepath) | public | Gets or sets the Speos light box file path. |
+| [PasswordRequired](#passwordrequired) | public | Gets the property to know if a password is required to read the Speos light box file. |
+| [PreviewMode](#previewmode) | public | Gets or sets the preview mode. |
+| [CustomAxisSystem](#customaxissystem) | public | Gets or sets the property to activate or deactivate the use of a custom axis system. |
+| [BlackBox](#blackbox) | public | Gets the property to know if the Speos light box file is protected. |
+| [Trajectory](#trajectory) | public | Gets or sets the property to activate or deactivate the use of the trajectory. |
+| [TrajectoryFilePath](#trajectoryfilepath) | public | Gets or sets the trajectory file path. |
 
 ## Public Static Attributes
 

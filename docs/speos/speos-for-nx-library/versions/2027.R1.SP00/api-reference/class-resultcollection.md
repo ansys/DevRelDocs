@@ -7,9 +7,9 @@ Represents the collection of results belonging to a simulation.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [FindFromName](#findfromname) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [FindFromName](#findfromname) | public | Finds the result feature from its name. |
 
 ## Public Member Functions
 

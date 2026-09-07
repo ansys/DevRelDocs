@@ -23,14 +23,14 @@ Represents a Export As Geometry Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Features](#features) | public |
-| [ExportMode](#exportmode) | public |
-| [PartName](#partname) | public |
-| [ExportComponent](#exportcomponent) | public |
-| [UseExportTemplate](#useexporttemplate) | public |
-| [ExportTemplateName](#exporttemplatename) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Features](#features) | public | Gets or sets features to export as geometry. |
+| [ExportMode](#exportmode) | public | Gets or sets the export mode. |
+| [PartName](#partname) | public | Gets or sets the part name. |
+| [ExportComponent](#exportcomponent) | public | Gets or sets the component used to export geometry. |
+| [UseExportTemplate](#useexporttemplate) | public | Gets or sets the Part template activation . |
+| [ExportTemplateName](#exporttemplatename) | public | Gets or sets the template name. |
 
 ## Public Static Attributes
 

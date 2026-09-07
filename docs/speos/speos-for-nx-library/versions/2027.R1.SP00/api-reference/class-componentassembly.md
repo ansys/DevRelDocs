@@ -7,9 +7,9 @@ Represents a Speos For NX component.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [RootComponent](#rootcomponent) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [RootComponent](#rootcomponent) | public | Returns the root component. |
 
 ## Public Static Attributes
 

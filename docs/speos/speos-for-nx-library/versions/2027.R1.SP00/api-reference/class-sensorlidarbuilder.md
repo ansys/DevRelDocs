@@ -27,46 +27,46 @@ Represents a LiDAR sensor Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [SensorType](#sensortype) | public |
-| [DisplaySensorField](#displaysensorfield) | public |
-| [DisplayObjectField](#displayobjectfield) | public |
-| [ObjectFieldRadius](#objectfieldradius) | public |
-| [DisplayPupil](#displaypupil) | public |
-| [SourceScanningSequenceFilePath](#sourcescanningsequencefilepath) | public |
-| [SourceRotatingSequenceFilePath](#sourcerotatingsequencefilepath) | public |
-| [SourceUseTrajectoryFile](#sourceusetrajectoryfile) | public |
-| [SourceTrajectoryFilePath](#sourcetrajectoryfilepath) | public |
-| [SourceSpectrumType](#sourcespectrumtype) | public |
-| [SourceWavelength](#sourcewavelength) | public |
-| [SourceSpectrumFilePath](#sourcespectrumfilepath) | public |
-| [SourceIntensityType](#sourceintensitytype) | public |
-| [SourceIntensityFilePath](#sourceintensityfilepath) | public |
-| [SourceIntensityTotalAngle](#sourceintensitytotalangle) | public |
-| [SourceIntensityFWHMXAngle](#sourceintensityfwhmxangle) | public |
-| [SourceIntensityFWHMYAngle](#sourceintensityfwhmyangle) | public |
-| [SourcePulseEnergy](#sourcepulseenergy) | public |
-| [SourceMinIntensityThreshold](#sourceminintensitythreshold) | public |
-| [SensorDistortionFilePath](#sensordistortionfilepath) | public |
-| [SensorTransmittance](#sensortransmittance) | public |
-| [SensorTransmittanceFilePath](#sensortransmittancefilepath) | public |
-| [SensorFocalLength](#sensorfocallength) | public |
-| [SensorPupilDiameter](#sensorpupildiameter) | public |
-| [SensorHorizontalFOV](#sensorhorizontalfov) | public |
-| [SensorVerticalFOV](#sensorverticalfov) | public |
-| [SensorImagerWidth](#sensorimagerwidth) | public |
-| [SensorImagerHeight](#sensorimagerheight) | public |
-| [SensorResolution](#sensorresolution) | public |
-| [SensorHorizontalPixels](#sensorhorizontalpixels) | public |
-| [SensorVerticalPixels](#sensorverticalpixels) | public |
-| [SensorStart](#sensorstart) | public |
-| [SensorEnd](#sensorend) | public |
-| [SensorSpatialAccuracy](#sensorspatialaccuracy) | public |
-| [AimingArea](#aimingarea) | public |
-| [AimingAreaType](#aimingareatype) | public |
-| [AimingAreaWidth](#aimingareawidth) | public |
-| [AimingAreaHeight](#aimingareaheight) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [SensorType](#sensortype) | public | Gets or sets the sensor type. |
+| [DisplaySensorField](#displaysensorfield) | public | Gets or sets the property to display the sensor field. |
+| [DisplayObjectField](#displayobjectfield) | public | Gets or sets the property to display the object field. |
+| [ObjectFieldRadius](#objectfieldradius) | public | Gets or sets the object field radius. |
+| [DisplayPupil](#displaypupil) | public | Gets or sets the property to display the pupil. |
+| [SourceScanningSequenceFilePath](#sourcescanningsequencefilepath) | public | Gets or sets the scanning sequence file of the source. |
+| [SourceRotatingSequenceFilePath](#sourcerotatingsequencefilepath) | public | Gets or sets the rotating sequence file of the source. |
+| [SourceUseTrajectoryFile](#sourceusetrajectoryfile) | public | Gets or sets the property to activate or deactivate the use of the trajectory file. |
+| [SourceTrajectoryFilePath](#sourcetrajectoryfilepath) | public | Gets or sets the trajectory file of the source. |
+| [SourceSpectrumType](#sourcespectrumtype) | public | Gets or sets the spectrum type of the source. |
+| [SourceWavelength](#sourcewavelength) | public | Gets or sets the wavelength of the source. |
+| [SourceSpectrumFilePath](#sourcespectrumfilepath) | public | Gets or sets the spectrum file of the source. |
+| [SourceIntensityType](#sourceintensitytype) | public | Gets or sets the intensity type of the source. |
+| [SourceIntensityFilePath](#sourceintensityfilepath) | public | Gets or sets the intensity distribution file of the source. |
+| [SourceIntensityTotalAngle](#sourceintensitytotalangle) | public | Gets or sets the total angle of emission of the source. |
+| [SourceIntensityFWHMXAngle](#sourceintensityfwhmxangle) | public | Gets or sets the FWHM angle for X direction of the source. |
+| [SourceIntensityFWHMYAngle](#sourceintensityfwhmyangle) | public | Gets or sets the FWHM angle for Y direction of the source. |
+| [SourcePulseEnergy](#sourcepulseenergy) | public | Gets or sets the pulse energy of the source. |
+| [SourceMinIntensityThreshold](#sourceminintensitythreshold) | public | Gets or sets the minimum intensity threshold of the source. |
+| [SensorDistortionFilePath](#sensordistortionfilepath) | public | Gets or sets the distortion file of the sensor. |
+| [SensorTransmittance](#sensortransmittance) | public | Gets or sets the transmittance of the sensor. |
+| [SensorTransmittanceFilePath](#sensortransmittancefilepath) | public | Gets or sets the transmittance file of the sensor. |
+| [SensorFocalLength](#sensorfocallength) | public | Gets or sets the focal length of the sensor. |
+| [SensorPupilDiameter](#sensorpupildiameter) | public | Gets or sets the pupil diameter of the sensor. |
+| [SensorHorizontalFOV](#sensorhorizontalfov) | public | Gets the horizontal field of view of the sensor. |
+| [SensorVerticalFOV](#sensorverticalfov) | public | Gets the vertical field of view of the sensor. |
+| [SensorImagerWidth](#sensorimagerwidth) | public | Gets or sets the image width of the sensor. |
+| [SensorImagerHeight](#sensorimagerheight) | public | Gets or sets the image height of the sensor. |
+| [SensorResolution](#sensorresolution) | public | Gets or sets the property to activate or deactivate the use of the sensor resolution. |
+| [SensorHorizontalPixels](#sensorhorizontalpixels) | public | Gets or sets the number of horizontal pixels of the sensor. |
+| [SensorVerticalPixels](#sensorverticalpixels) | public | Gets or sets the number of vertical pixels of the sensor. |
+| [SensorStart](#sensorstart) | public | Gets or sets the start of the sensor. |
+| [SensorEnd](#sensorend) | public | Gets or sets the end of the sensor. |
+| [SensorSpatialAccuracy](#sensorspatialaccuracy) | public | Gets or sets the spatial accuracy of the sensor. |
+| [AimingArea](#aimingarea) | public | Gets or sets the property to define an Aiming Area for the sensor. |
+| [AimingAreaType](#aimingareatype) | public | Gets or sets the aiming area type. |
+| [AimingAreaWidth](#aimingareawidth) | public | Gets or sets the aiming area width of the sensor. |
+| [AimingAreaHeight](#aimingareaheight) | public | Gets or sets the aiming area height of the sensor. |
 
 ## Public Static Attributes
 

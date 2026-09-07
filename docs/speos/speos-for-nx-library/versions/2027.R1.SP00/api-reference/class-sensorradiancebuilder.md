@@ -31,27 +31,27 @@ Represents a Radiance Sensor Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Definition](#definition) | public |
-| [CameraName](#cameraname) | public |
-| [HVRatio](#hvratio) | public |
-| [ObserverType](#observertype) | public |
-| [Focal](#focal) | public |
-| [FrameObserverPoint](#frameobserverpoint) | public |
-| [IntegrationAngle](#integrationangle) | public |
-| [ObserverPoint](#observerpoint) | public |
-| [ObserverFrontDirection](#observerfrontdirection) | public |
-| [ObserverTopDirection](#observertopdirection) | public |
-| [ObserverFrontDirectionReversed](#observerfrontdirectionreversed) | public |
-| [ObserverTopDirectionReversed](#observertopdirectionreversed) | public |
-| [ObserverHorizontalFOV](#observerhorizontalfov) | public |
-| [ObserverVerticalFOV](#obserververticalfov) | public |
-| [ObserverHorizontalSampling](#observerhorizontalsampling) | public |
-| [ObserverVerticalSampling](#obserververticalsampling) | public |
-| [ObserverHorizontalResolution](#observerhorizontalresolution) | public |
-| [ObserverVerticalResolution](#obserververticalresolution) | public |
-| [UseAutomaticFraming](#useautomaticframing) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Definition](#definition) | public | Gets or sets the definition type. |
+| [CameraName](#cameraname) | public | Gets or sets the camera by its name. |
+| [HVRatio](#hvratio) | public | Gets or sets the H/V ratio. |
+| [ObserverType](#observertype) | public | Gets or sets the observer type. |
+| [Focal](#focal) | public | Gets or sets the focal. |
+| [FrameObserverPoint](#frameobserverpoint) | public | Gets or sets the frame observer point. |
+| [IntegrationAngle](#integrationangle) | public | Gets or sets the integration angle. |
+| [ObserverPoint](#observerpoint) | public | Gets or sets the observer point. |
+| [ObserverFrontDirection](#observerfrontdirection) | public | Gets or sets the observer front direction. |
+| [ObserverTopDirection](#observertopdirection) | public | Gets or sets the observer top direction. |
+| [ObserverFrontDirectionReversed](#observerfrontdirectionreversed) | public | Gets or sets the reverse direction of observer front direction. |
+| [ObserverTopDirectionReversed](#observertopdirectionreversed) | public | Gets or sets the reverse direction of observer top direction. |
+| [ObserverHorizontalFOV](#observerhorizontalfov) | public | Gets or sets the observer horizontal field of view. |
+| [ObserverVerticalFOV](#obserververticalfov) | public | Gets or sets the observer vertical field of view. |
+| [ObserverHorizontalSampling](#observerhorizontalsampling) | public | Gets or sets the observer horizontal sampling. |
+| [ObserverVerticalSampling](#obserververticalsampling) | public | Gets or sets the observer vertical sampling. |
+| [ObserverHorizontalResolution](#observerhorizontalresolution) | public | Gets or sets the observer horizontal resolution. |
+| [ObserverVerticalResolution](#obserververticalresolution) | public | Gets or sets the observer vertical resolution. |
+| [UseAutomaticFraming](#useautomaticframing) | public | Gets or sets the property to enable automatic framing. |
 
 ## Public Static Attributes
 

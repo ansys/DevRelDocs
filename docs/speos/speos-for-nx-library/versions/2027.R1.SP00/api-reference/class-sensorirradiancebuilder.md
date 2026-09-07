@@ -31,13 +31,13 @@ Represents an Irradiance Sensor Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [UseRayFile](#userayfile) | public |
-| [RayFileFormat](#rayfileformat) | public |
-| [IntegrationType](#integrationtype) | public |
-| [IntegrationDirectionReversed](#integrationdirectionreversed) | public |
-| [OutputFaces](#outputfaces) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [UseRayFile](#userayfile) | public | Gets or sets the property to enable ray file. |
+| [RayFileFormat](#rayfileformat) | public | Gets or sets the ray file format. |
+| [IntegrationType](#integrationtype) | public | Gets or sets the integration type. |
+| [IntegrationDirectionReversed](#integrationdirectionreversed) | public | Gets or sets the reverse direction of integration. |
+| [OutputFaces](#outputfaces) | public | Gets or sets the output faces. |
 
 ## Public Static Attributes
 

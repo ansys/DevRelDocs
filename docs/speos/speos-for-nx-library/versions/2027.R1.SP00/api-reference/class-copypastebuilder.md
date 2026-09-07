@@ -23,9 +23,9 @@ Represents a Copy/Paste Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Feature](#feature) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Feature](#feature) | public | Returns the copy of the feature. |
 
 ## Public Static Attributes
 

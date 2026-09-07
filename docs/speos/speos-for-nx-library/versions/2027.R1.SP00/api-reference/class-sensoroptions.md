@@ -6,9 +6,9 @@ Represents the options of a sensor.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [LightExpert](#lightexpert) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [LightExpert](#lightexpert) | public | Gets or sets the property Light Expert. |
 
 ## Public Static Attributes
 

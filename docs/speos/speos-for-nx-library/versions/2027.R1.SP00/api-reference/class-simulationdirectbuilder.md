@@ -31,20 +31,20 @@ Represents an Direct Simulation Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [StopOnRaysNumber](#stoponraysnumber) | public |
-| [NumberOfRays](#numberofrays) | public |
-| [NumberOfRaysMultiplier](#numberofraysmultiplier) | public |
-| [StopOnDuration](#stoponduration) | public |
-| [Duration](#duration) | public |
-| [UseRayFile](#userayfile) | public |
-| [RayFileFormat](#rayfileformat) | public |
-| [MaximumNumberOfPaths](#maximumnumberofpaths) | public |
-| [UsePartFamilies](#usepartfamilies) | public |
-| [FamilySelection](#familyselection) | public |
-| [GeometriesOptions](#geometriesoptions) | public |
-| [SensorsOptions](#sensorsoptions) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [StopOnRaysNumber](#stoponraysnumber) | public | Gets or sets the property to enable stop on rays number. |
+| [NumberOfRays](#numberofrays) | public | Gets or sets the number of rays. |
+| [NumberOfRaysMultiplier](#numberofraysmultiplier) | public | Gets or sets the number of rays multiplier. |
+| [StopOnDuration](#stoponduration) | public | Gets or sets the property to stop on duration. |
+| [Duration](#duration) | public | Gets or sets the duration. |
+| [UseRayFile](#userayfile) | public | Gets or sets the property to enable ray file. |
+| [RayFileFormat](#rayfileformat) | public | Gets or sets the ray file format. |
+| [MaximumNumberOfPaths](#maximumnumberofpaths) | public | Gets or sets the maximum number of paths. |
+| [UsePartFamilies](#usepartfamilies) | public | Gets or sets the property to use family tables. |
+| [FamilySelection](#familyselection) | public | Gets or sets the family selection list. |
+| [GeometriesOptions](#geometriesoptions) | public | Gets the list of geometry options. |
+| [SensorsOptions](#sensorsoptions) | public | Gets the list of sensor options. |
 
 ## Public Static Attributes
 

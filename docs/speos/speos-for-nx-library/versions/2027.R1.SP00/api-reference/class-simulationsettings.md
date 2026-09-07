@@ -6,52 +6,52 @@ Represents the interface for editing custom simulation settings.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [MeshingSagMode](#meshingsagmode) | public |
-| [MeshingSagValue](#meshingsagvalue) | public |
-| [MeshingStepMode](#meshingstepmode) | public |
-| [MeshingStepValue](#meshingstepvalue) | public |
-| [MeshingAngle](#meshingangle) | public |
-| [SpecificFacetEdgesParameters](#specificfacetedgesparameters) | public |
-| [MeshingEdgeSag](#meshingedgesag) | public |
-| [MeshingEdgeAngle](#meshingedgeangle) | public |
-| [RayTracerPrecisionMode](#raytracerprecisionmode) | public |
-| [SmartEngine](#smartengine) | public |
-| [GeometricalDistanceTolerance](#geometricaldistancetolerance) | public |
-| [DirectMaximumImpact](#directmaximumimpact) | public |
-| [Weight](#weight) | public |
-| [MinimumEnergyPercentage](#minimumenergypercentage) | public |
-| [ColorimetricStandardMode](#colorimetricstandardmode) | public |
-| [DrawRays](#drawrays) | public |
-| [DrawImpacts](#drawimpacts) | public |
-| [InteractiveSimulationReport](#interactivesimulationreport) | public |
-| [MonteCarloAlgorithm](#montecarloalgorithm) | public |
-| [OptimizedPropagation](#optimizedpropagation) | public |
-| [NumberStandardPasses](#numberstandardpasses) | public |
-| [AutomaticSaveFrequency](#automaticsavefrequency) | public |
-| [GatheringSourceNumber](#gatheringsourcenumber) | public |
-| [Dispersion](#dispersion) | public |
-| [Splitting](#splitting) | public |
-| [MaximumGatheringError](#maximumgatheringerror) | public |
-| [FastTransmissionGathering](#fasttransmissiongathering) | public |
-| [SaveIntermediateMaps](#saveintermediatemaps) | public |
-| [PhotonMapMode](#photonmapmode) | public |
-| [AmbientSampling](#ambientsampling) | public |
-| [SpecularMaximumImpact](#specularmaximumimpact) | public |
-| [AntiAliasing](#antialiasing) | public |
-| [SpecularApproximationAngle](#specularapproximationangle) | public |
-| [DirectPhotonNumber](#directphotonnumber) | public |
-| [DirectMaxImpact](#directmaximpact) | public |
-| [MaximumNeighbors](#maximumneighbors) | public |
-| [MaxSearchRadius](#maxsearchradius) | public |
-| [UseFinalGathering](#usefinalgathering) | public |
-| [FinalGatheringNeighbors](#finalgatheringneighbors) | public |
-| [SplittingNumber](#splittingnumber) | public |
-| [Texture](#texture) | public |
-| [TextureNormalizationMode](#texturenormalizationmode) | public |
-| [RenderingAsOptical](#renderingasoptical) | public |
-| [SaveAsPreset](#saveaspreset) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [MeshingSagMode](#meshingsagmode) | public | Gets or sets the meshing sag mode. |
+| [MeshingSagValue](#meshingsagvalue) | public | Gets or sets the meshing sag value. |
+| [MeshingStepMode](#meshingstepmode) | public | Gets or sets the meshing step mode. |
+| [MeshingStepValue](#meshingstepvalue) | public | Gets or sets the meshing step fixed value. |
+| [MeshingAngle](#meshingangle) | public | Gets or sets the meshing angle. |
+| [SpecificFacetEdgesParameters](#specificfacetedgesparameters) | public | Gets or sets the specific parameters property for facet edges. |
+| [MeshingEdgeSag](#meshingedgesag) | public | Gets or sets the meshing edge sag value. |
+| [MeshingEdgeAngle](#meshingedgeangle) | public | Gets or sets the meshing edge angle. |
+| [RayTracerPrecisionMode](#raytracerprecisionmode) | public | Gets or sets ray tracer precision mode. |
+| [SmartEngine](#smartengine) | public | Gets or sets the smart engine value. |
+| [GeometricalDistanceTolerance](#geometricaldistancetolerance) | public | Gets or sets the geometrical distance tolerance. |
+| [DirectMaximumImpact](#directmaximumimpact) | public | Gets or sets the maximum number of surface interaction. |
+| [Weight](#weight) | public | Gets or sets the weight property. |
+| [MinimumEnergyPercentage](#minimumenergypercentage) | public | Gets or sets the minimum energy percentage. |
+| [ColorimetricStandardMode](#colorimetricstandardmode) | public | Gets or sets the colorimetric standard type. |
+| [DrawRays](#drawrays) | public | Gets or sets the property to draw rays. |
+| [DrawImpacts](#drawimpacts) | public | Gets or sets the property to draw impacts. |
+| [InteractiveSimulationReport](#interactivesimulationreport) | public | Gets or sets the property to report impact. |
+| [MonteCarloAlgorithm](#montecarloalgorithm) | public | Gets or sets the Monte Carlo algorithm property. |
+| [OptimizedPropagation](#optimizedpropagation) | public | Gets or sets optimized propagation type. |
+| [NumberStandardPasses](#numberstandardpasses) | public | Gets or sets the number of standard passes before optimized passes. |
+| [AutomaticSaveFrequency](#automaticsavefrequency) | public | Gets or sets the intermediate save frequency. |
+| [GatheringSourceNumber](#gatheringsourcenumber) | public | Gets or sets the gathering source number. |
+| [Dispersion](#dispersion) | public | Gets or sets the property to use dispersion. |
+| [Splitting](#splitting) | public | Gets or sets the property to use splitting for inverse simulation. |
+| [MaximumGatheringError](#maximumgatheringerror) | public | Gets or sets the maximum gathering error. |
+| [FastTransmissionGathering](#fasttransmissiongathering) | public | Gets or sets the fast transmission gathering property. |
+| [SaveIntermediateMaps](#saveintermediatemaps) | public | Gets or sets the intermediate save frequency. |
+| [PhotonMapMode](#photonmapmode) | public | Gets or sets the photon map mode. |
+| [AmbientSampling](#ambientsampling) | public | Gets or sets the ambient sampling. |
+| [SpecularMaximumImpact](#specularmaximumimpact) | public | Gets or sets the specular maximum impact number. |
+| [AntiAliasing](#antialiasing) | public | Gets or sets the anti-aliasing property. |
+| [SpecularApproximationAngle](#specularapproximationangle) | public | Gets or sets the specular approximation angle. |
+| [DirectPhotonNumber](#directphotonnumber) | public | Gets or sets the specular approximation angle. |
+| [DirectMaxImpact](#directmaximpact) | public | Gets or sets the specular approximation angle. |
+| [MaximumNeighbors](#maximumneighbors) | public | Gets or sets the maximum neighbors. |
+| [MaxSearchRadius](#maxsearchradius) | public | Gets or sets the maximum search radius. |
+| [UseFinalGathering](#usefinalgathering) | public | Gets or sets the final gathering property. |
+| [FinalGatheringNeighbors](#finalgatheringneighbors) | public | Gets or sets the final gathering neighbors. |
+| [SplittingNumber](#splittingnumber) | public | Gets or sets the splitting number. |
+| [Texture](#texture) | public | Gets or sets the property to use texture mapping. |
+| [TextureNormalizationMode](#texturenormalizationmode) | public | Gets or sets texture normalization mode. |
+| [RenderingAsOptical](#renderingasoptical) | public | Gets or sets the property to use rendering as optical properties. |
+| [SaveAsPreset](#saveaspreset) | public | Save the simulation settings as preset. |
 
 ## Public Static Attributes
 

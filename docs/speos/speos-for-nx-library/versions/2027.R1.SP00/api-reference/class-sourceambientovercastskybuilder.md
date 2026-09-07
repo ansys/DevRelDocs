@@ -31,14 +31,14 @@ Represents the builder for an Ambient Source with CIE Standard Overcast Sky type
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [ZenithDirection](#zenithdirection) | public |
-| [ZenithDirectionReversed](#zenithdirectionreversed) | public |
-| [Luminance](#luminance) | public |
-| [Spectrum](#spectrum) | public |
-| [SpectrumFilePath](#spectrumfilepath) | public |
-| [Temperature](#temperature) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [ZenithDirection](#zenithdirection) | public | Gets or sets the zenith direction. |
+| [ZenithDirectionReversed](#zenithdirectionreversed) | public | Gets or sets the reverse zenith direction. |
+| [Luminance](#luminance) | public | Gets or sets the luminance |
+| [Spectrum](#spectrum) | public | Gets or sets the spectrum type. |
+| [SpectrumFilePath](#spectrumfilepath) | public | Gets or sets the spectrum file path. |
+| [Temperature](#temperature) | public | Gets or sets the temperature. |
 
 ## Public Static Attributes
 

@@ -23,9 +23,9 @@ Represents a Speos measure feature.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Value](#value) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Value](#value) | public | Gets the measure value. |
 
 ## Public Static Attributes
 

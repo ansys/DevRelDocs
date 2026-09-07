@@ -31,21 +31,21 @@ Represents an Inverse Simulation Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [SourceFaceFilteringReferences](#sourcefacefilteringreferences) | public |
-| [StopOnPassNumber](#stoponpassnumber) | public |
-| [NumberOfPasses](#numberofpasses) | public |
-| [StopOnDuration](#stoponduration) | public |
-| [Duration](#duration) | public |
-| [MaximumNumberOfPaths](#maximumnumberofpaths) | public |
-| [UsePartFamilies](#usepartfamilies) | public |
-| [FamilySelection](#familyselection) | public |
-| [SourcesOptions](#sourcesoptions) | public |
-| [GeometriesOptions](#geometriesoptions) | public |
-| [SensorsOptions](#sensorsoptions) | public |
-| [AddSourceFaceFilteringReferences](#addsourcefacefilteringreferences) | public |
-| [DeleteSourceFaceFilteringReferences](#deletesourcefacefilteringreferences) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [SourceFaceFilteringReferences](#sourcefacefilteringreferences) | public | Gets the sources faces filtering. |
+| [StopOnPassNumber](#stoponpassnumber) | public | Gets or sets the property to enable stop on pass number. |
+| [NumberOfPasses](#numberofpasses) | public | Gets or sets the number of passes. |
+| [StopOnDuration](#stoponduration) | public | Gets or sets the duration. |
+| [Duration](#duration) | public | toto |
+| [MaximumNumberOfPaths](#maximumnumberofpaths) | public | Gets or sets the maximum number of paths. |
+| [UsePartFamilies](#usepartfamilies) | public | Gets or sets the property to use family tables. |
+| [FamilySelection](#familyselection) | public | Gets or sets the family selection list. |
+| [SourcesOptions](#sourcesoptions) | public | Gets the list of source options. |
+| [GeometriesOptions](#geometriesoptions) | public | Gets the list of geometry options. |
+| [SensorsOptions](#sensorsoptions) | public | Gets the list of sensor options. |
+| [AddSourceFaceFilteringReferences](#addsourcefacefilteringreferences) | public | Adds sources faces filtering into the simulation. |
+| [DeleteSourceFaceFilteringReferences](#deletesourcefacefilteringreferences) | public | Deletes sources faces filtering from the simulation. |
 
 ## Public Static Attributes
 

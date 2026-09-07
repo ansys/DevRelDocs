@@ -23,9 +23,9 @@ Represents a Speos Optical Component Design Exchange feature.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Results](#results) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Results](#results) | public | Gets the result collection. |
 
 ## Public Static Attributes
 

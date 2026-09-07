@@ -2,16 +2,16 @@
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Size](#size) | public |
-| [Empty](#empty) | public |
-| [Add](#add) | public |
-| [Remove](#remove) | public |
-| [Clear](#clear) | public |
-| [Contains](#contains) | public |
-| [Array](#array) | public |
-| [Faces](#faces) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Size](#size) | public | Gets the size of the list. |
+| [Empty](#empty) | public | Checks if the list has no face. |
+| [Add](#add) | public | Adds the given face to the list. |
+| [Remove](#remove) | public | Removes the given face from the list. |
+| [Clear](#clear) | public | Removes all elements from the list. |
+| [Contains](#contains) | public | Checks if the given value exists in the list. |
+| [Array](#array) | public | Gets or sets the faces. |
+| [Faces](#faces) | public | Gets the faces that are alive. |
 
 ## Public Member Functions
 

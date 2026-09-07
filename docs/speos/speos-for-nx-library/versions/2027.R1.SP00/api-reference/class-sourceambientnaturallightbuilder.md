@@ -31,12 +31,12 @@ Represents the builder for an Ambient Source with Natural Light type.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [SunType](#suntype) | public |
-| [SunDirectionReversed](#sundirectionreversed) | public |
-| [Turbidity](#turbidity) | public |
-| [WithSky](#withsky) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [SunType](#suntype) | public | Gets or sets the Sun type. |
+| [SunDirectionReversed](#sundirectionreversed) | public | Gets or sets the reverse Sun direction. |
+| [Turbidity](#turbidity) | public | Gets or sets the turbidity. |
+| [WithSky](#withsky) | public | Gets or sets the property to enable the sky. |
 
 ## Public Static Attributes
 

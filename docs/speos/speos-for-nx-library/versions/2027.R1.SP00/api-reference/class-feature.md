@@ -43,15 +43,15 @@ Represents a Speos feature.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [Update](#update) | public |
-| [Delete](#delete) | public |
-| [IsOccurrence](#isoccurrence) | public |
-| [Hide](#hide) | public |
-| [Show](#show) | public |
-| [Name](#name) | public |
-| [Tag](#tag) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [Update](#update) | public | Updates the feature. |
+| [Delete](#delete) | public | Deletes the feature. |
+| [IsOccurrence](#isoccurrence) | public | Returns True if the feature is an occurrence otherwise, returns False. |
+| [Hide](#hide) | public | Hides the preview of the feature. |
+| [Show](#show) | public | Shows the preview of the feature. |
+| [Name](#name) | public | Returns the name of the feature. |
+| [Tag](#tag) | public | Returns the NX tag for this feature. |
 
 ## Public Member Functions
 

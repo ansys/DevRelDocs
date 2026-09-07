@@ -27,24 +27,24 @@ Represents a Polarization Plate Component Builder.
 
 ## Member Summary
 
-| Member | Type |
-| --- | --- |
-| [WavelengthIncidenceDependency](#wavelengthincidencedependency) | public |
-| [XStart](#xstart) | public |
-| [YStart](#ystart) | public |
-| [XEnd](#xend) | public |
-| [YEnd](#yend) | public |
-| [XMirroredExtent](#xmirroredextent) | public |
-| [YMirroredExtent](#ymirroredextent) | public |
-| [PolarizationType](#polarizationtype) | public |
-| [DiattenuatorType](#diattenuatortype) | public |
-| [DiattenuatorAngle](#diattenuatorangle) | public |
-| [PolarizerFilePath](#polarizerfilepath) | public |
-| [RetarderMaterialFilePath](#retardermaterialfilepath) | public |
-| [RetarderOptimalWavelength](#retarderoptimalwavelength) | public |
-| [RetardanceMultiplicator](#retardancemultiplicator) | public |
-| [RetardanceDivisor](#retardancedivisor) | public |
-| [Thickness](#thickness) | public |
+| Member | Type | Description |
+| --- | --- | --- |
+| [WavelengthIncidenceDependency](#wavelengthincidencedependency) | public | Gets or sets the wavelength and incidence dependency value. |
+| [XStart](#xstart) | public | Gets or sets the component X start dimension value. |
+| [YStart](#ystart) | public | Gets or sets the component Y start dimension value. |
+| [XEnd](#xend) | public | Gets or sets the component X end dimension value. |
+| [YEnd](#yend) | public | Gets or sets the component Y end dimension value. |
+| [XMirroredExtent](#xmirroredextent) | public | Gets or sets the component X dimension mirrored extent value. |
+| [YMirroredExtent](#ymirroredextent) | public | Gets or sets the component Y dimension mirrored extent value. |
+| [PolarizationType](#polarizationtype) | public | Gets or sets the polarization type of the component. |
+| [DiattenuatorType](#diattenuatortype) | public | Gets or sets the DiattenuatorType type of the component. |
+| [DiattenuatorAngle](#diattenuatorangle) | public | Gets or sets the diattenuator angle value. |
+| [PolarizerFilePath](#polarizerfilepath) | public | Gets or sets the polarizer file path. |
+| [RetarderMaterialFilePath](#retardermaterialfilepath) | public | Gets or sets the retarder material file path. |
+| [RetarderOptimalWavelength](#retarderoptimalwavelength) | public | Gets or sets the retarder optimal wavelength value. |
+| [RetardanceMultiplicator](#retardancemultiplicator) | public | Gets or sets the retardance multiplicator value. |
+| [RetardanceDivisor](#retardancedivisor) | public | Gets or sets the retardance deivisor value. |
+| [Thickness](#thickness) | public | Gets the Thickness value. |
 
 ## Public Static Attributes
 
