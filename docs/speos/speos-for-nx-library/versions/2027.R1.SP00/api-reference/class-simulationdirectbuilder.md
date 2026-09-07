@@ -56,6 +56,7 @@ Gets or sets the property to enable stop on rays number.
 
 True: Enables stop on RaysNumber property.  
 False: Disables stop on RaysNumber property.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -71,6 +72,7 @@ Gets or sets the number of rays.
 **Prerequisite**: The StopOnRaysNumber property must be True.  
   
 Number of rays necessary to reach for the simulation to end.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -91,6 +93,7 @@ The values are:
 1 - Kilo-Rays.  
 2 - Mega-Rays.  
 3 - Giga-Rays.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -105,6 +108,7 @@ Gets or sets the property to stop on duration.
 
 True: Enables stop on Duration property  
 False: Disables stop on Duration property  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -120,6 +124,7 @@ Gets or sets the duration.
 **Prerequisite**: The StopOnDuration property must be True.  
   
 Time necessary to reach for the simulation to end.  
+  
 **Value type**: Double (in second).  
 **Range**: The value must be superior to 0.0.  
   
@@ -135,6 +140,7 @@ Gets or sets the property to enable ray file.
 
 True: Enables Ray file.  
 False: Disables Ray file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -156,6 +162,7 @@ The values are:
 1 - Speos with Polarization.  
 2 - IES TM-25 without Polarization.  
 3 - IES TM-25 with Polarization.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -171,6 +178,7 @@ Gets or sets the maximum number of paths.
 **Prerequisite**: The EnableLightExpert property must be True.  
   
 The Maximum paths corresponds to the maximum number of rays the Light Path Finder file (\*.lpf or \*.lp3) can contain.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -186,6 +194,7 @@ Gets or sets the property to use family tables.
 
 True: Enables multi-configuration to run in the simulation.  
 False: Disables multi-configuration to run in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -201,6 +210,7 @@ Gets or sets the family selection list.
 **Prerequisite**: The UseFamilyTables property must be True.  
   
 Selects the configurations to run with the simulation.  
+  
 **Value type**: List of string.  
   
 The default value is an empty list.
@@ -214,6 +224,7 @@ The default value is an empty list.
 Gets the list of geometry options.
 
 Allows to Activate/Deactivate specific options for each geometry in the simulation.  
+  
 **Value type**: List of CGeometryOptions.  
   
 The default value is an empty list.
@@ -227,6 +238,7 @@ The default value is an empty list.
 Gets the list of sensor options.
 
 Allows to Activate/Deactivate specific options for each sensor in the simulation.  
+  
 **Value type**: List of CSensorOptions.  
   
 The default value is an empty list.

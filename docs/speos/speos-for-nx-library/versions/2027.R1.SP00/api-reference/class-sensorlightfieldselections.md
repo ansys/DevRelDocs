@@ -90,6 +90,7 @@ The reverse direction depends of the value parameter:
 Gets or sets the faces.
 
 The Faces property takes a list of feature tag and returns a list of feature tag.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.

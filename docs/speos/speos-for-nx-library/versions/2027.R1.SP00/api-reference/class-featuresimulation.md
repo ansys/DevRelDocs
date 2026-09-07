@@ -52,6 +52,7 @@ Sets the simulation mode.
 
 True: GPU simulation.  
 False: CPU simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

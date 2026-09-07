@@ -67,6 +67,7 @@ Gets or sets the sensor type.
 The values are:  
 0 - Colorimetric to get the color results without any spectral layer separation.  
 1 - Spectral to get the color results and spectral data separated by wavelength.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -82,6 +83,7 @@ Gets or sets the layer mode.
 The values are:  
 0 - None.  
 1 - Data Separated by Source.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -97,6 +99,7 @@ Gets or sets the reverse vertical direction.
 Returns the flag to indicate the vertical direction is reversed.  
 True: Reverses the vertical direction.  
 False: Does not reverse the vertical direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -111,6 +114,7 @@ Gets or sets the property to enable or disable use of XM3 template file.
 
 True: Uses XM3 template file.  
 False: Does not use XM3 template file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -124,6 +128,7 @@ The default value is False.
 Gets or sets the XM3 template file.
 
 **Prerequisite**: The property TemplateFile must be True.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -140,6 +145,7 @@ Gets or sets the property to enable the use of display properties that come from
   
 True: Uses all the grid related values from the .xml file.  
 False: Does not use the Display properties from file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -153,6 +159,7 @@ The default value is False.
 Gets or sets the horizontal start for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-90.0, 90.0]  
   
@@ -167,6 +174,7 @@ The default value is -20.0 degrees.
 Gets or sets the horizontal end for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-90.0, 90.0]  
   
@@ -191,6 +199,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 Gets or sets the horizontal resolution for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior to 0.
 
@@ -206,6 +215,7 @@ Vision Field corresponds to the surface on which are located observer positions 
   
 True: VisionFieldHorizontalStart == -VisionFieldHorizontalEnd, you can only change the VisionFieldHorizontalEnd value.  
 False: VisionFieldHorizontalStart and VisionFieldHorizontalEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -219,6 +229,7 @@ The default value is False.
 Gets or sets the vertical start for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-90.0, 90.0]  
   
@@ -233,6 +244,7 @@ The default value is -10.0 degrees.
 Gets or sets the vertical end for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-90.0, 90.0]  
   
@@ -247,6 +259,7 @@ The default value is 10.0 degrees.
 Gets the vertical sampling for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Integer.
 
 ---
@@ -258,6 +271,7 @@ Vision Field corresponds to the surface on which are located observer positions 
 Gets or sets the vertical resolution for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double.
 
 ---
@@ -272,6 +286,7 @@ Vision Field corresponds to the surface on which are located observer positions 
   
 True: VisionFieldVerticalStart == -VisionFieldVerticalEnd, you can only change the VisionFieldVerticalEnd value.  
 False: VisionFieldVerticalStart and VisionFieldVerticalEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -346,6 +361,7 @@ Gets or sets the property to enable grid preview.
 
 True: Displays a grid on the sensor.  
 False: Does not display a grid on the sensor.  
+  
 **Value type**: Boolean.  
   
 The default value is True.

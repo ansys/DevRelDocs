@@ -58,6 +58,7 @@ The default value is an empty file path (string).
 Gets the property to know if a password is required to read the Speos light box file.
 
 Returns true if a password is required to read the Speos light box file, otherwise returns false.  
+  
 **Value type**: Boolean.  
   
 The default value is false.
@@ -73,6 +74,7 @@ Gets or sets the preview mode.
 The values are:  
 0 - Meshing.  
 1 - Bounding Box.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -87,6 +89,7 @@ Gets or sets the property to activate or deactivate the use of a custom axis sys
 
 True: Enables custom axis system.  
 False: Disables custom axis system.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -100,6 +103,7 @@ The default value is False.
 Gets the property to know if the Speos light box file is protected.
 
 Returns true if the Speos light box file is protected, otherwise returns false.  
+  
 **Value type**: Boolean.  
   
 The default value is false.
@@ -114,6 +118,7 @@ Gets or sets the property to activate or deactivate the use of the trajectory.
 
 True: Enables the trajectory.  
 False: Disables the trajectory.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

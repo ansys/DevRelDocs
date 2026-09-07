@@ -33,6 +33,7 @@ Gets or sets the property to enable/disable the user defined location.
 
 True: Sets the timezone, the Earth coordinates date and time manually.  
 False: Uses predefined location.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -46,6 +47,7 @@ The default value is False.
 Gets or sets a predefined location.
 
 **Prerequisite**: The UserDefinedLocation property must be False.  
+  
 **Value type**: String.  
   
 The default value is "ANSYS, France".
@@ -59,6 +61,7 @@ The default value is "ANSYS, France".
 Gets or sets a timezone by Id.
 
 The property UserDefinedLocation must be True.  
+  
 **Value type**: String.  
   
 The default value is "CET".
@@ -72,6 +75,7 @@ The default value is "CET".
 Gets or sets the longitude degrees.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
+  
 **Value type**: Integer (in degrees).  
   
 The default value is 6 degrees.
@@ -85,6 +89,7 @@ The default value is 6 degrees.
 Gets or sets the longitude minutes.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
+  
 **Value type**: Integer (in minute).  
   
 The default value is 2 minutes.
@@ -98,6 +103,7 @@ The default value is 2 minutes.
 Gets or sets the longitude seconds.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
+  
 **Value type**: Integer (in second).  
   
 The default value is 56 seconds.
@@ -111,6 +117,7 @@ The default value is 56 seconds.
 Gets or sets the latitude degrees.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
+  
 **Value type**: Integer (in degrees).  
   
 The default value is 43 degrees.
@@ -124,6 +131,7 @@ The default value is 43 degrees.
 Gets or sets the latitude minutes.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
+  
 **Value type**: Integer (in minute).  
   
 The default value is 9 minutes.
@@ -137,6 +145,7 @@ The default value is 9 minutes.
 Gets or sets the latitude seconds.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
+  
 **Value type**: Integer (in second).  
   
 The default value is 12 seconds.

@@ -59,6 +59,7 @@ Gets or sets the property to enable the use of a sequence file
 
 True: Enables Sequence File.  
 False: Disables Sequence File.  
+  
 **Value type**: Boolean.
 
 ---
@@ -96,6 +97,7 @@ The default value is 10.
 Gets or sets the irradiance sensor.
 
 The Sensor property takes and returns a Tag from an irradiance.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -111,6 +113,7 @@ Gets or sets the ray tracer type.
 The values are:  
 0 - Double.  
 1 - Single.  
+  
 **Value type**: Integer.  
   
 The default value is Double.
@@ -126,6 +129,7 @@ Gets or sets the preview mode.
 The values are:  
 0 - Meshing.  
 1 - BoundingBox.  
+  
 **Value type**: Integer.  
   
 The default value is Meshing (0).

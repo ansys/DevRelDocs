@@ -75,6 +75,7 @@ The Geometries property returns a list of feature tag.
 Gets or sets sensor features.
 
 Gets or sets the current sensor features that are in the simulation.  
+  
 **Value type**: List of Feature object.
 
 ---
@@ -86,6 +87,7 @@ Gets or sets the current sensor features that are in the simulation.
 Gets the simulation feature object.
 
 Gets the simulation feature in order to launch simulations.  
+  
 **Value type**: FeatureSimulation object.
 
 ---
@@ -98,6 +100,7 @@ Gets or sets the property to enable stop on rays number.
 
 True: Enables stop on RaysNumber property.  
 False: Disables stop on RaysNumber property.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -113,6 +116,7 @@ Gets or sets the number of rays.
 **Prerequisite**: The StopOnRaysNumber property must be True.  
   
 Number of rays necessary to reach for the simulation to end.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -133,6 +137,7 @@ The values are:
 1 - Kilo-Rays.  
 2 - Mega-Rays.  
 3 - Giga-Rays.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -147,6 +152,7 @@ Gets or sets the property to stop on duration.
 
 True: Enables stop on Duration property  
 False: Disables stop on Duration property  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -162,6 +168,7 @@ Gets or sets the duration.
 **Prerequisite**: The StopOnDuration property must be True.  
   
 Time necessary to reach for the simulation to end.  
+  
 **Value type**: Double (in second).  
 **Range**: The value must be superior to 0.0.  
   
@@ -203,6 +210,7 @@ Gets or sets the property to enable the timeline.
 
 True: Enables the Timeline.  
 False: Disables the Timeline.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -216,6 +224,7 @@ The default value is False.
 Gets or sets the timeline start.
 
 **Prerequisite**: The Timeline property must be True.  
+  
 **Value type**: Double (in second).  
 **Range**: The value must be superior to 0.0.  
   
@@ -230,6 +239,7 @@ The default value is 0.0 s.
 Gets or sets the timeline end.
 
 **Prerequisite**: The Timeline property must be True.  
+  
 **Value type**: Double (in second).  
 **Range**: The value must be superior to the timeline start.  
   
@@ -245,6 +255,7 @@ Gets or sets the property to enable ambient material.
 
 True: Enables Ambient Material.  
 False: Disables Ambient Material.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -258,6 +269,7 @@ The default value is False.
 Gets or sets the ambient material.
 
 The AmbientMaterial property takes a feature and returns a feature.  
+  
 **Value type**: Feature object.  
   
 The default value is None.
@@ -272,6 +284,7 @@ Gets or sets the property to enable the field of view.
 
 True: Enables the visualization of the source, sensor and lidar fields of view to be displayed in the 3D view after simulation.  
 False: Disables the visualization of the source, sensor and lidar fields of view to be displayed in the 3D view after simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -286,6 +299,7 @@ Gets or sets the property to enable the map of depth.
 
 True: Enables the map of depth to be generated after simulation.  
 False: Disables the map of depth to be generated after simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -300,6 +314,7 @@ Gets or sets the property to enable the raw time of flight.
 
 True: Enables the raw time of flight.  
 False: Disables the raw time of flight.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -314,6 +329,7 @@ Gets or sets the property to enable preset settings.
 
 True: Enables Preset Settings  
 False: Disables Preset Settings  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -327,6 +343,7 @@ The default value is False.
 Gets or sets the Preset object.
 
 A preset is a predefined set of the general simulation settings.  
+  
 **Value type**: Preset object.  
   
 The default value is None.
@@ -361,6 +378,7 @@ Gets or sets the property to use family tables.
 
 True: Enables multi-configuration to run in the simulation.  
 False: Disables multi-configuration to run in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -376,6 +394,7 @@ Gets or sets the family selection list.
 **Prerequisite**: The UseFamilyTables property must be True.  
   
 Selects the configurations to run with the simulation.  
+  
 **Value type**: List of string.  
   
 The default value is an empty list.

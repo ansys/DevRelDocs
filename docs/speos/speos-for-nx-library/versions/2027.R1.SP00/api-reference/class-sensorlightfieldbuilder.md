@@ -58,6 +58,7 @@ The values are:
 0 - Photometric.  
 1 - Radiometric.  
 2 - Spectral.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -82,6 +83,7 @@ Gets or sets the custom axis system property.
 
 True: Enables custom axis system.  
 False: Disables custom axis system.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

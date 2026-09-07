@@ -41,6 +41,7 @@ Represents a Export As Geometry Builder.
 Gets or sets features to export as geometry.
 
 The Features property takes and returns a list of feature objects.  
+  
 **Value type**: List of Feature objects.  
   
 The default value is an empty list.
@@ -56,6 +57,7 @@ Gets or sets the export mode.
 The values are:  
 0 - Export to a new part.  
 1 - Export to an existing part.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -69,6 +71,7 @@ The default value is 0.
 Gets or sets the part name.
 
 **Prerequisite**: The ExportMode property must be 0.  
+  
 **Value type**: String.  
   
 The default value is Speos Export Part.
@@ -83,6 +86,7 @@ Gets or sets the component used to export geometry.
 
 **Prerequisite**: ExportMode must be 0 to set Component.  
 The Features property takes and returns a list of feature objects.  
+  
 **Value type**: Component tag.  
   
 The default value is an empty.
@@ -97,6 +101,7 @@ Gets or sets the Part template activation .
 
 True: Use Part template.  
 False: Does not use Part template.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -110,6 +115,7 @@ The default value is False.
 Gets or sets the template name.
 
 **Prerequisite**: The UseExportTemplate property must be True and ExportMode must be 0.  
+  
 **Value type**: String.  
   
 The default value is an empty string.

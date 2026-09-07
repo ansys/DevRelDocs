@@ -56,6 +56,7 @@ Represents an Inverse Simulation Builder.
 Gets the sources faces filtering.
 
 The SourcesFacesFilteringRef property returns a list of feature tag.  
+  
 **Value type**: List of integer.
 
 ---
@@ -68,6 +69,7 @@ Gets or sets the property to enable stop on pass number.
 
 True: Enables stop on PassNumber property  
 False: Disables stop on PassNumber property  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -81,6 +83,7 @@ The default value is True.
 Gets or sets the number of passes.
 
 **Prerequisite**: The StopOnPassNumber property must be True.  
+  
 **Value type**: Integer.  
 **Range**: the value must be superior to 0.  
   
@@ -97,6 +100,7 @@ Gets or sets the duration.
 **Prerequisite**: The StopOnDuration property must be True.  
   
 Time necessary to reach for the simulation to end.  
+  
 **Value type**: Double (in second).  
 **Range**: The value must be superior to 0.0.  
   
@@ -123,6 +127,7 @@ Gets or sets the maximum number of paths.
 **Prerequisite**: The EnableLightExpert property must be True.  
   
 The Maximum paths corresponds to the maximum number of rays the Light Path Finder file (\*.lpf or \*.lp3) can contain.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -138,6 +143,7 @@ Gets or sets the property to use family tables.
 
 True: Enables multi-configuration to run in the simulation.  
 False: Disables multi-configuration to run in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -153,6 +159,7 @@ Gets or sets the family selection list.
 **Prerequisite**: The UseFamilyTables property must be True.  
   
 Selects the configurations to run with the simulation.  
+  
 **Value type**: List of string.  
   
 The default value is an empty list.

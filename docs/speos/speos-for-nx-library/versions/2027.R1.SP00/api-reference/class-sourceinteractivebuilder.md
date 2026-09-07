@@ -61,6 +61,7 @@ The values are:
 9 - FACE_DIRECTION.  
 10 - FACE_CURVE.  
 11 - FACE_FACE.  
+  
 **Value type**: Integer.  
   
 The default value is 2 - POINT_CURVE.
@@ -74,6 +75,7 @@ The default value is 2 - POINT_CURVE.
 Gets or sets the wavelength.
 
 **Prerequisite**: The SpectrumType property must be 0.  
+  
 **Value type**: Double (in nm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -88,6 +90,7 @@ The default value is 555.0 nm.
 Gets or sets the start point.
 
 The property takes a feature tag and returns a feature tag.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -127,6 +130,7 @@ The default value is 5.
 Gets or sets the end point.
 
 The property takes a feature tag and returns a feature tag.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -141,6 +145,7 @@ Gets or sets the property to reverse the end direction.
 
 True: Reverses the direction.  
 False: Does not reverse the direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

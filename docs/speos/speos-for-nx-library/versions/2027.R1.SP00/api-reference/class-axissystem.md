@@ -23,6 +23,7 @@ Represents an Axis System.
 Gets or sets the origin point.
 
 The OriginPoint property takes and returns a Tag from an NX object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -36,6 +37,7 @@ The default value is 0.
 Gets or sets the X direction.
 
 The DirectionX property takes and returns a Tag from an NX object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -51,6 +53,7 @@ Gets or sets the reverse X direction.
 Returns the flag to indicate the X direction is reversed.  
 True: Reverses the X direction.  
 False: Does not reverse the X direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -64,6 +67,7 @@ The default value is False.
 Gets or sets the Y direction.
 
 The DirectionY property takes and returns a Tag from an NX object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -80,6 +84,7 @@ Returns the flag to indicate the Y direction is reversed.
   
 True: Reverses the Y direction.  
 False: Does not reverse the Y direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

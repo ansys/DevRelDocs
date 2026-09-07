@@ -70,6 +70,7 @@ The values are:
 0 - Lumen.  
 1 - Watt.  
 2 - Candela.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -83,6 +84,7 @@ The default value is 0.
 Gets or sets the flux.
 
 The unit depends on the FluxUnitType.  
+  
 **Value type**: Double (in lm, W or cd).  
 **Range**: The value must be superior to 0.0.  
   
@@ -98,6 +100,7 @@ Gets or sets the property to use the flux from file.
 
 True: Uses the flux from a file.  
 False: Does not use the flux from a file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -114,6 +117,7 @@ The values are:
 0 - Monochromatic, you can edit the wavelength value.  
 1 - Blackbody, you can edit the temperature value.  
 2 - Library, you can browse a .spectrum file.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -127,6 +131,7 @@ The default value is 0.
 Gets or sets the wavelength.
 
 **Prerequisite**: The SpectrumType property must be 0.  
+  
 **Value type**: Double (in nm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -141,6 +146,7 @@ The default value is 555.0 nm.
 Gets or sets the temperature.
 
 **Prerequisite**: The SpectrumType property must be 1.  
+  
 **Value type**: Double (in Kelvin).  
 **Range**: The value must be superior to 0.0.  
   
@@ -155,6 +161,7 @@ The default value is 2856.0 Kelvin.
 Gets or sets the spectrum file.
 
 **Prerequisite**: The SpectrumType property must be 2.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -172,6 +179,7 @@ Exitance of a source describes how each point of a surface emits rays.
 The values are:  
 0 - Constant, ray energy is constant over surface source face.  
 1 - Variable, ray energy depends on xmp energy distribution.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -185,6 +193,7 @@ The default value is 0.
 Gets or sets the exitance distribution file.
 
 **Prerequisite**: The ExitanteType property must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -198,6 +207,7 @@ The default value is an empty string.
 Returns the interface to edit the emissive faces of the source.
 
 **Prerequisite**: The ExitanteType property must be 0.  
+  
 **Value type**: SourceSurfaceEmissiveFaces object.
 
 ---
@@ -212,6 +222,7 @@ Gets or sets the property to reverse the exitance distribution
   
 True: Reverses the exitance distribution direction.  
 False: Does not reverse the exitance distribution direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -228,6 +239,7 @@ Gets or sets the property to reverse the exitance of X direction.
   
 True: Reverses the exitance direction X.  
 False: Does not reverse the exitance direction X.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -244,6 +256,7 @@ Gets or sets the property to reverse the exitance of Y direction.
   
 True: Reverses the exitance direction Y.  
 False: Does not reverse the exitance direction Y.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -262,6 +275,7 @@ The values are:
 2 - Symmetric Gaussian.  
 3 - Asymmetric Gaussian.  
 4 - Library.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -275,6 +289,7 @@ The default value is 0.
 Gets or sets the intensity total angle.
 
 **Prerequisite**: The EnumIntensityType property must be 0, 1, 2 or 3.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [0, 180].  
   
@@ -289,6 +304,7 @@ The default value is 180.0 degrees.
 Gets or sets the N.
 
 **Prerequisite**: The EnumIntensityType property must be 1.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior to -1.0.  
   
@@ -303,6 +319,7 @@ The default value is 3.0.
 Gets or sets the Full Width At Half Maximum (FWHM) angle.
 
 **Prerequisite**: The EnumIntensityType property must be 2.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [0, 180].  
   
@@ -317,6 +334,7 @@ The default value is 30.0 degrees.
 Gets or sets the Full Width At Half Maximum (FWHM) X angle.
 
 **Prerequisite**: The EnumIntensityType property must be 3.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [0, 180].  
   
@@ -331,6 +349,7 @@ The default value is 30.0 degrees.
 Gets or sets the Full Width At Half Maximum (FWHM) Y angle.
 
 **Prerequisite**: The EnumIntensityType property must be 3.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [0, 180].  
   
@@ -345,6 +364,7 @@ The default value is 30.0 degrees.
 Gets or sets the distribution file.
 
 **Prerequisite**: The EnumIntensityType property must be 4.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -361,6 +381,7 @@ The values are:
 0 - AxisSystem.  
 1 - NormalToSurface.  
 2 - NormalToUVMap.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -374,6 +395,7 @@ The default value is 0.
 Gets or sets the ray length.
 
 Edits the value to set the length of the rays preview in the 3D view.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -388,6 +410,7 @@ The default value is 75.0 mm.
 Gets or sets the number of rays.
 
 Edits the value to set the number of rays displayed in the preview.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -403,6 +426,7 @@ Gets or sets the property to show the intensity distribution.
 
 True: Shows the intensity distribution in the preview.  
 False: Does not show the intensity distribution in the preview.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -416,6 +440,7 @@ The default value is False.
 Gets or sets associated geometries.
 
 The AssociatedGeometries property takes a list of feature tag and returns a list of feature tag.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.
@@ -429,6 +454,7 @@ The default value is an empty list.
 Gets or sets the exit geometries.
 
 The ExitGeometries property takes a list of feature tag and returns a list of feature tag.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.
@@ -445,6 +471,7 @@ Gets or sets the property to reverse the intensity X direction.
   
 True: Reverses the intensity X direction.  
 False: Does not reverse the intensity X direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -461,6 +488,7 @@ Gets or sets the property to reverse the intensity Y direction.
   
 True: Reverses the intensity Y direction.  
 False: Does not reverse the intensity Y direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

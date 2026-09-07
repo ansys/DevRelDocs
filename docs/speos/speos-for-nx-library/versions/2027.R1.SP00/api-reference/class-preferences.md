@@ -87,6 +87,7 @@ The default value is the number of physical processor of the computer.
 Gets or sets the maximum number of triangles displayed in the lightbox mesh.
 
 If there are more triangles, a bounding box is displayed instead.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -102,6 +103,7 @@ Gets or sets the property to enable the use of a user input folder.
 
 True: Enables user input folder.  
 False: Disables user input folder.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -115,6 +117,7 @@ The default value is False.
 Gets or sets the path to the user input folder.
 
 **Prerequisite**: The UseUserInputFolder property must be True.  
+  
 **Value type**: Boolean.  
   
 The default value is empty.
@@ -129,6 +132,7 @@ Gets or sets the property to enable the use of a user output folder.
 
 True: Enables user output folder.  
 False: Disables user output folder.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -142,6 +146,7 @@ The default value is False.
 Gets or sets the path to the user output folder.
 
 **Prerequisite**: The UseUserOutputFolder property must be True.  
+  
 **Value type**: Boolean.  
   
 The default value is empty.
@@ -156,6 +161,7 @@ Gets or sets the property to enable the use of a user isolated folder.
 
 True: Enables user isolated folder.  
 False: Disables user isolated folder.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -169,6 +175,7 @@ The default value is False.
 Gets or sets the path to the user isolated folder.
 
 **Prerequisite**: The UseUserIsolatedFolder property must be True.  
+  
 **Value type**: Boolean.  
   
 The default value is empty.
@@ -183,6 +190,7 @@ Gets or sets the property to enable a sub folder for simulation results.
 
 True: Enables simulation sub folder.  
 False: Disables simulation sub folder.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -197,6 +205,7 @@ Gets or sets the property to enable the increment of simulation results.
 
 True: Enables increment of simulation results.  
 False: Disables increment of simulation results.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -211,6 +220,7 @@ Gets or sets the property to enable the automatic update of interactive simulati
 
 True: Enables automatic update of interactive simulations.  
 False: Disables automatic update of interactive simulations.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -225,6 +235,7 @@ Gets or sets the property to enable the display of Speos feature outside Speos a
 
 True: Enables display of Speos feature outside Speos application.  
 False: Disables display of Speos feature outside Speos application.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -239,6 +250,7 @@ Gets or sets the property to enable the automatic update of Speos feature outsid
 
 True: Enables automatic update of Speos feature outside Speos application.  
 False: Disables automatic update of Speos feature outside Speos application.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -251,7 +263,8 @@ The default value is True.
 
 Gets or sets the default preset to be applied to new interactive simulations.
 
-Preset is identified by an internal GUID**Value type**: String.  
+Preset is identified by an internal GUID  
+**Value type**: String.  
   
 The default value is empty.
 
@@ -263,7 +276,8 @@ The default value is empty.
 
 Gets or sets the default preset to apply to new direct simulations.
 
-Preset is identified by an internal GUID**Value type**: String.  
+Preset is identified by an internal GUID  
+**Value type**: String.  
   
 The default value is empty.
 
@@ -275,7 +289,8 @@ The default value is empty.
 
 Gets or sets the default preset to be applied to new inverse simulations.
 
-Preset is identified by an internal GUID**Value type**: String.  
+Preset is identified by an internal GUID  
+**Value type**: String.  
   
 The default value is empty.
 
@@ -287,7 +302,8 @@ The default value is empty.
 
 Gets or sets the default preset to be applied to new Virtual BSDF Bench simulations.
 
-Preset is identified by an internal GUID**Value type**: String.  
+Preset is identified by an internal GUID  
+**Value type**: String.  
   
 The default value is empty.
 
@@ -299,7 +315,8 @@ The default value is empty.
 
 Gets or sets the default preset to be applied to new HOA simulations.
 
-Preset is identified by an internal GUID**Value type**: String.  
+Preset is identified by an internal GUID  
+**Value type**: String.  
   
 The default value is empty.
 
@@ -311,7 +328,8 @@ The default value is empty.
 
 Gets or sets the default preset to be applied to new Lidar simulations.
 
-Preset is identified by an internal GUID**Value type**: String.  
+Preset is identified by an internal GUID  
+**Value type**: String.  
   
 The default value is empty.
 
@@ -326,6 +344,7 @@ Gets or sets the default lab to display XMP files.
 The values are:  
 0 - Virtual Photometric Lab.  
 1 - Human Vision Lab.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -341,6 +360,7 @@ Gets or sets the CIE used by default in all simulations.
 The values are:  
 0 - CIE 1931 Standard.  
 1 - CIE 1964 Standard.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -358,6 +378,7 @@ The values are:
 1 - Polarization, format with polarization \*.ray.  
 2 - TM25, IESNA TM25 format \*.tm25ray with polarization.  
 3 - TM25NoPolarization, IESNA TM25 format \*.tm25ray without polarization.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -373,6 +394,7 @@ Gets or sets the content to load and display from a project.
 The values are:  
 0 - Model, add automatically to Model Reference Set.  
 1 - User, add automatically to specified Reference Set.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -386,6 +408,7 @@ The default value is 0.
 Gets or sets the Reference Set name.
 
 **Prerequisite**: The ReferenceSetMode property must be 1.  
+  
 **Value type**: String.  
   
 The default value is empty.
@@ -400,6 +423,7 @@ Gets or sets the property to enable the automatic update of Speos feature when l
 
 True: Enables automatic update of Speos feature when loading the document.  
 False: Disables automatic update of Speos feature when loading the document.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -415,6 +439,7 @@ Gets or sets the default intensity sensor viewing direction.
 The values are:  
 0 - From Source looking at Sensor, the viewing direction of the observer is the same as the light direction emitted.  
 1 - From Sensor looking at Source, the viewing direction of the observer is in the opposite of the light direction.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -429,6 +454,7 @@ Gets or sets the property to enable the VR memory management to limit memory usa
 
 True: Enables VR memory management.  
 False: Disables VR memory management.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -443,6 +469,7 @@ Gets or sets the property to enable beta features.
 
 True: Enables beta features.  
 False: Disables beta features.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -457,6 +484,7 @@ Gets or sets the property to enable GPU-Explore in simulation preview.
 
 True: Enables GPU-Explore.  
 False: Disables GPU-Explore.  
+  
 **Value type**: Boolean.  
   
 The default value is True.

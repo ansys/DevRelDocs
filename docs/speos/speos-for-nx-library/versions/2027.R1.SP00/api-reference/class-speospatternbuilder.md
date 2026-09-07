@@ -66,6 +66,7 @@ Gets or sets the property to enable/disable one layer per source.
 
 True: Enables one layer per source.  
 False: Disables one layer per source.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -79,6 +80,7 @@ The default value is False.
 Gets or sets the origin coordinate systems.
 
 This property takes/returns a list of NX Datum System feature tags.  
+  
 **Value type**: List of integer (NX Tags).  
   
 The default value is an empty list.
@@ -94,6 +96,7 @@ Gets or sets the preview mode.
 The values are:  
 0 - Meshing.  
 1 - BoundingBox.  
+  
 **Value type**: Integer.  
   
 The default value is Meshing (0).
@@ -108,7 +111,9 @@ Gets or sets the property to enable/disable one layer per instance.
 
 True: Enables one layer per instance.  
 False: Disables one layer per instance.  
+  
 **Prerequisite**: The Pattern file must be a Lightbox file.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -122,6 +127,7 @@ The default value is True.
 Gets or sets the flux of the ray file source.
 
 **Prerequisite**: The Pattern file must be a ray file.  
+  
 **Value type**: Double (in lumen or watt).  
 **Range**: The value must be superior to 0.0.  
   
@@ -139,6 +145,7 @@ Gets or sets the flux unit of the ray file source.
 The values are:  
 0 - lumen (lm).  
 1 - watt (W).  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -153,6 +160,7 @@ Gets or sets the property to enable fetching the flux from file.
 
 True: Enables fetching the flux from file.  
 False: Disables fetching the flux from file.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -169,6 +177,7 @@ The values are:
 0 - Monochromatic, with this value the wavelength property is available.  
 1 - Blackbody, with this value the temperature property is available.  
 2 - Library, with this value the spectrum file property is available.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -195,6 +204,7 @@ The default value is 555.0 nm.
 Gets or sets the temperature.
 
 **Prerequisite**: The SpectrumType must be 0.  
+  
 **Value type**: double (in Kelvin).  
 **Range**: The value must be superior to 0.0.  
   
@@ -209,6 +219,7 @@ The default value is 2856.0 K.
 Gets or sets the spectrum file path.
 
 **Prerequisite**: The SpectrumType must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty string.

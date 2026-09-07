@@ -47,6 +47,7 @@ Gets or sets the Sun type.
 The values are:  
 0 - Automatic, you must set the values in the Timezone object.  
 1 - Direction, you must to set the sun direction property.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -63,6 +64,7 @@ Gets or sets the reverse Sun direction.
   
 True: Reverses the Sun direction.  
 False: Does not reverse the Sun direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

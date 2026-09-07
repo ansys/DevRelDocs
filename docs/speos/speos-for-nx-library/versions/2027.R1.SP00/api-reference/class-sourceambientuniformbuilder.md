@@ -52,6 +52,7 @@ Gets or sets the reverse zenith direction.
 
 True: Reverses the zenith direction.  
 False: Does not reverse the zenith direction  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -80,6 +81,7 @@ Gets or sets the spectrum type.
 The values are:  
 0: Blackbody, then in the Temperature property, set the blackbody temperature of the source spectrum in Kdeg.  
 1: Library, then in the File property, browse a .spectrum file.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -93,6 +95,7 @@ The default value is 0.
 Gets or sets the spectrum file path.
 
 **Prerequisite**: The SpectrumType property must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -106,6 +109,7 @@ The default value is an empty string.
 Gets or sets the temperature.
 
 **Prerequisite**: The SpectrumType property must be 0.  
+  
 **Value type**: String.  
 **Range**: The value must be superior to 0.0.  
   
@@ -121,6 +125,7 @@ Gets or sets the property to enable mirrored extent.
 
 True: Gets an ambient light from all the space.  
 False: Gets an ambient light only in the upper half space.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -135,6 +140,7 @@ Gets or sets the property to enable the Sun.
 
 True : Uses the Sun.  
 False : Does not use the Sun.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -151,6 +157,7 @@ Gets or sets the reverse Sun direction.
   
 True: Reverses the Sun direction.  
 False: Does not reverse the Sun directio.n  
+  
 **Value type**: Boolean.  
   
 The default value is False.

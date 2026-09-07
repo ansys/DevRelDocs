@@ -56,6 +56,7 @@ Gets or sets the wavelength and incidence dependency value.
 
 True: Uses Polarization.  
 False: Uses Retarder and Diattenuator.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -122,6 +123,7 @@ Gets or sets the component X dimension mirrored extent value.
 
 True: XStart == -XEnd, you can only change the XEnd value.  
 False: XStart and XEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -136,6 +138,7 @@ Gets or sets the component Y dimension mirrored extent value.
 
 True: YStart == -YEnd, you can only change the YEnd value.  
 False: YStart and YEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -157,6 +160,7 @@ The values are:
 3 - Right Circular Polarizer.  
 4 - Half Wave Plate.  
 5 - Quarter Wave Plate.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -177,6 +181,7 @@ The values are:
 2 - Linear Polarizer.  
 3 - Left Circular Polarizer.  
 4 - Right Circular Polarizer.  
+  
 **Value type**: Integer.  
   
 The default value is 2.
@@ -190,6 +195,7 @@ The default value is 2.
 Gets or sets the diattenuator angle value.
 
 **Prerequisite**: The PolarizationType property must be 0, 1, 4 or 5 ; or the DiattenuatorType property must be 1 or 2.  
+  
 **Value type**: Double (in degrees).  
   
 The default value is 0.0.
@@ -203,6 +209,7 @@ The default value is 0.0.
 Gets or sets the polarizer file path.
 
 **Prerequisite**: The PolarizationType property must be 0 or the DiattenuatorType property must be 1.  
+  
 **value type**: String.  
   
 The default value is an empty string.
@@ -216,6 +223,7 @@ The default value is an empty string.
 Gets or sets the retarder material file path.
 
 **Prerequisite**: The WavelengthIncidenceDependency property must be True.  
+  
 **value type**: String.  
   
 The default value is an empty string.
@@ -229,6 +237,7 @@ The default value is an empty string.
 Gets or sets the retarder optimal wavelength value.
 
 **Prerequisite**: The WavelengthIncidenceDependency property must be True.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 500.0 nm.
@@ -242,6 +251,7 @@ The default value is 500.0 nm.
 Gets or sets the retardance multiplicator value.
 
 **Prerequisite**: The WavelengthIncidenceDependency property must be True.  
+  
 **Value type**: Integer.  
   
 The default value is 100.
@@ -255,6 +265,7 @@ The default value is 100.
 Gets or sets the retardance deivisor value.
 
 **Prerequisite**: The WavelengthIncidenceDependency property must be True.  
+  
 **Value type**: Double.  
   
 The default value is 2.0.
@@ -268,4 +279,5 @@ The default value is 2.0.
 Gets the Thickness value.
 
 **Prerequisite**: The WavelengthIncidenceDependency property must be True.  
+  
 **Value type**: Double.

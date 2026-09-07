@@ -72,6 +72,7 @@ Gets or sets the optical properties property.
 
 True: Enables optical properties.  
 False: Disables optical properties.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -91,6 +92,7 @@ The values are:
 1 - Opaque (Solid Body), uses non transparent part.  
 2 - Library, with this value the VOPLibraryFile property is available and must be defined.  
 3 - None, does not apply a volume optical properties on surface in case you have a surface geometry.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -104,6 +106,7 @@ The default value is 1.
 Gets or sets the volume optical properties index.
 
 **Prerequisite**: The VOPType property must be 0.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior or equal to 1.  
   
@@ -118,6 +121,7 @@ The default value is 1.5.
 Gets or sets the volume optical properties absorption.
 
 **Prerequisite**: The VOPType property must be 0.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior or equal to 0.  
   
@@ -135,6 +139,7 @@ Gets or sets the volume optical properties constringence property.
   
 True: Enables constringence.  
 False: Disables constringence.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -148,6 +153,7 @@ The default value is False.
 Gets or sets the volume optical properties constringence.
 
 **Prerequisite**: The IsVOPConstringence property must be True.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior or equal to 20.0.  
   
@@ -162,6 +168,7 @@ The default value is 60.0
 Gets or sets the volume optical properties library file.
 
 **Prerequisite**: The VOPType property must be 2.  
+  
 **value type**: String.  
   
 The default value is an empty string.
@@ -181,6 +188,7 @@ The values are:
 1 - Mirror, uses a perfect specular surface and edits the Reflectance value if needed.  
 2 - Library, with this value the SOPLibraryFile property is available and must be defined.  
 3 - Plug-in, selects a custom made \*.sop plug-in as File and the Parameters file for the plug-in.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -194,6 +202,7 @@ The default value is 1.
 Gets or sets the surface optical properties reflectance.
 
 **Prerequisite**: The SOPType property must be 1.  
+  
 **Value type**: Double.  
 **Range**: [0.0, 100.0].  
   
@@ -208,6 +217,7 @@ The default value is 100.0.
 Gets or sets the surface optical properties library file.
 
 **Prerequisite**: The SOPType property must be 2.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -221,6 +231,7 @@ The default value is an empty string.
 Gets or sets the surface optical properties plug-in file.
 
 **Prerequisite**: The SOPType property must be 3.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -234,6 +245,7 @@ The default value is an empty string.
 Gets or sets the surface optical properties parameters file.
 
 **Prerequisite**: The SOPType property must be 3.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -248,6 +260,7 @@ Gets or sets the meshing properties property.
 
 True: Enables meshing properties.  
 False: Disables meshing properties.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -261,6 +274,7 @@ The default value is False.
 Gets or sets the meshing angle.
 
 **Prerequisite**: The IsMeshingProperties property must be True.  
+  
 **Value type**: Double (in degrees).  
 **Range**: (0.0, 90.0).  
   
@@ -279,6 +293,7 @@ Gets or sets the meshing sag mode.
 The values are:  
 0 - Proportional, the value adapts and adjusts to the size of each face of the object.  
 1 - Fixed, the value will remain unchanged no matter the size or shape of the object.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -309,6 +324,7 @@ Gets or sets the meshing step mode.
 The values are:  
 0 - Proportional, the value adapts and adjusts to the size of each face of the object.  
 1 - Fixed, the value will remain unchanged no matter the size or shape of the object.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -340,6 +356,7 @@ Allows you to control the precision of the meshing on the edges of the faces.
   
 True: Enables specific parameters for facet edges.  
 False: Disables specific parameters for facet edges.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -355,6 +372,7 @@ Gets or sets the meshing edge sag value.
 **Prerequisite**: The IsSpecificParametersFacetEdges property must be True.  
   
 Defines the maximum distance between the geometry and the meshing on the edges. The Meshing edge sag value always uses the Fixed mode.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -371,6 +389,7 @@ Gets or sets the meshing angle.
 **Prerequisite**: The IsSpecificParametersFacetEdges property must be True.  
   
 Defines the maximum angular variation in degrees between successive tangents for all points along a solid edge.  
+  
 **Value type**: Double (in degrees).  
 **Range**: (0.0, 90.0).  
   

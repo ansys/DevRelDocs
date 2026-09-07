@@ -55,6 +55,7 @@ The values are:
 0 - Photometric to compute the luminous intensity and generate an extended map for Virtual 3D Photometric Lab.  
 1 - Colorimetric to compute the radiant intensity and generate an extended map for Virtual 3D Photometric Lab.  
 2 - Radiometric to compute the color results without any spectral layer separation and generate a spectral map for Virtual 3D Photometric Lab.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -69,6 +70,7 @@ Gets or sets the property to enable or disable use of ray file.
 
 True: Uses ray file.  
 False: Does not use ray file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -90,6 +92,7 @@ The values are:
 1 - Speos with Polarization.  
 2 - IES TM-25 without Polarization.  
 3 - IES TM-25 with Polarization.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -105,6 +108,7 @@ Gets or sets the integration type.
 The values are:  
 0 - Planar. Integration that is made orthogonally with the sensor plan.  
 1 - Radial. Follows specific street lighting illumination regulations.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -118,6 +122,7 @@ The default value is 0.
 Gets or sets the selected faces or bodies.
 
 The Selections property takes and returns a list of feature tags.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.
@@ -133,6 +138,7 @@ Gets or sets the layer type.
 The values are:  
 0 - None.  
 1 - Source.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -146,6 +152,7 @@ The default value is 0.
 Gets or sets the reflection property.
 
 **Prerequisite**: The property MeasureType must be 0 or 2, and IntegrationType must be 0.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -159,6 +166,7 @@ The default value is True.
 Gets or sets the transmission property.
 
 **Prerequisite**: The property MeasureType must be 0 or 2, and IntegrationType must be 0.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -172,6 +180,7 @@ The default value is True.
 Gets or sets the absorption property.
 
 **Prerequisite**: The property MeasureType must be 0 or 2, and IntegrationType must be 0.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -186,6 +195,7 @@ Gets or sets the property to enable or disable use of XM3 template file.
 
 True: Uses XM3 template file.  
 False: Does not use XM3 template file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -199,6 +209,7 @@ The default value is False.
 Gets or sets the XM3 template file.
 
 **Prerequisite**: The property TemplateFile must be True.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -214,6 +225,7 @@ Gets or sets the lower value of the wavelength range to be considered by the sen
 **Prerequisite**: The property MeasureType must be 1.  
   
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 400.0 nm.
@@ -229,6 +241,7 @@ Gets or sets the higher value of the wavelength range to be considered by the se
 **Prerequisite**: The property MeasureType must be 1.  
   
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 700.0 nm.

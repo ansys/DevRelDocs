@@ -80,6 +80,7 @@ Gets or sets the camera mode.
 The values are:  
 0 - Geometric, it is a simplified version of the Camera Sensor definition parameters.  
 1 - Photometric / Colorimetric, it allows you to set every Camera Sensor parameters, including the photometric definition parameters.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -95,6 +96,7 @@ Gets or sets the layer mode.
 The values are:  
 0 - None, the simulation generates a Speos360 file with one layer for all sources.  
 1 - Data separated by Source, the result includes one layer per active source.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -109,6 +111,7 @@ Gets or sets the property to enable the preview of the Camera Field.
 
 True: Displays the Camera Field.  
 False: Does not display the Camera Field  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -123,6 +126,7 @@ Gets or sets the property to enable the preview of the Object Field.
 
 True: Displays the Object Field.  
 False: Does not display the Object Field  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -136,6 +140,7 @@ The default value is True.
 Gets or sets the Visualization radius.
 
 Changes the radius of the Object field of the camera.  
+  
 **Value type**: Double (in mm).  
 **Range**: The parameter must be superior to 0.0.  
   
@@ -151,6 +156,7 @@ Gets or sets the property to enable the preview of the Aperture.
 
 True: Displays the Aperture.  
 False: Does not display the Aperture  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -184,6 +190,7 @@ Gets the Vertical Field of View.
 Gets or sets the focal length.
 
 Distance between the center of the optical system and the focus.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -198,6 +205,7 @@ The default value is 15.0 mm.
 Gets or sets the F number.
 
 Represents the aperture of the front lens.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior to 0.  
   
@@ -238,6 +246,7 @@ Gets or sets the property to consider the diffraction effects.
 **Prerequisite**: This property is only considered when the distortion file is Binary version with diffraction related parameters.  
 True: Consider the diffraction effects.  
 False: Does not consider the diffraction effects.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -263,6 +272,7 @@ The default value is an empty file path (string).
 Gets or sets the horizontal pixels .
 
 Defines the horizontal pixels number corresponding to the camera resolution.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -277,6 +287,7 @@ The default value is 640.
 Gets or sets the vertical pixels .
 
 Defines the vertical pixels number corresponding to the camera resolution.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -291,6 +302,7 @@ The default value is 480.
 Gets or sets the width .
 
 Defines the sensor's width.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -305,6 +317,7 @@ The default value is 5.0 mm.
 Gets or sets the height .
 
 Defines the sensor's height.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -323,6 +336,7 @@ Gets or sets the color mode.
 The values are:  
 0 - Monochrome, the simulation results are available in grey scale.  
 1 - Color, the simulation results are available in color according to the White Balance mode.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -342,6 +356,7 @@ The values are:
 1 - Grey World.  
 2 - Use White Balance.  
 3 - Display Primaries.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -357,6 +372,7 @@ Gets or sets the gamma correction.
 **Prerequisite**: The CameraMode property must be 1.  
   
 Compensates the curve before the display on the screen.  
+  
 **Value type**: Double.  
   
 The default value is 2.2.
@@ -376,6 +392,7 @@ The values are:
 1 - 10 Bits.  
 2 - 12 Bits.  
 3 - 16 Bits.  
+  
 **Value type**: Integer.  
   
 The default value is 3.
@@ -389,6 +406,7 @@ The default value is 3.
 Gets or sets the sensitivity monochromatic spectrum file path.
 
 **Prerequisite**: The ColorMode property must be 0.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -402,6 +420,7 @@ The default value is an empty file path (string).
 Gets or sets the sensitivity red spectrum file path.
 
 **Prerequisite**: The ColorMode property must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -415,6 +434,7 @@ The default value is an empty file path (string).
 Gets or sets the sensitivity green spectrum file path.
 
 **Prerequisite**: The ColorMode property must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -428,6 +448,7 @@ The default value is an empty file path (string).
 Gets or sets the sensitivity blue spectrum file path.
 
 **Prerequisite**: The ColorMode property must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -441,6 +462,7 @@ The default value is an empty file path (string).
 Gets or sets the white balance red spectrum file path.
 
 **Prerequisite**: The WhiteBalanceMode property must be 3.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -454,6 +476,7 @@ The default value is an empty file path (string).
 Gets or sets the white balance green spectrum file path.
 
 **Prerequisite**: The WhiteBalanceMode property must be 3.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -467,6 +490,7 @@ The default value is an empty file path (string).
 Gets or sets the white balance blue spectrum file path.
 
 **Prerequisite**: The WhiteBalanceMode property must be 3.  
+  
 **Value type**: String.  
   
 The default value is an empty file path (string).
@@ -480,6 +504,7 @@ The default value is an empty file path (string).
 Gets or sets the red gain.
 
 **Prerequisite**: The WhiteBalanceMode property must be 2.  
+  
 **Value type**: Double.  
   
 The default value is 1.0.
@@ -493,6 +518,7 @@ The default value is 1.0.
 Gets or sets the green gain.
 
 **Prerequisite**: The WhiteBalanceMode property must be 2.  
+  
 **Value type**: Double.  
   
 The default value is 1.0.
@@ -506,6 +532,7 @@ The default value is 1.0.
 Gets or sets the blue gain.
 
 **Prerequisite**: The WhiteBalanceMode property must be 2.  
+  
 **Value type**: Double.  
   
 The default value is 1.0.
@@ -521,6 +548,7 @@ Gets or sets the lower value of the wavelength range to be considered by the sen
 **Prerequisite**: The CameraMode property must be 1.  
   
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 400.0 nm.
@@ -536,6 +564,7 @@ Gets or sets the higher value of the wavelength range to be considered by the se
 **Prerequisite**: The CameraMode property must be 1.  
   
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 700.0 nm.
@@ -549,6 +578,7 @@ The default value is 700.0 nm.
 Gets or sets the wavelength sampling.
 
 **Prerequisite**: The CameraMode property must be 1.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -563,6 +593,7 @@ The default value is 13.
 Gets the Wavelength resolution.
 
 **Prerequisite**: The CameraMode property must be 1.  
+  
 **Value type**: Double.
 
 ---
@@ -595,4 +626,4 @@ Updates the wavelength sampling from a resolution.
 
 **Parameters**:
 
-- `float resolution`: the wavelength resolution.<br>
+- `float resolution`: the wavelength resolution.

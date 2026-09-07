@@ -42,6 +42,7 @@ Represents a Source Group Builder.
 Gets source features.
 
 Gets the current source features that are in the simulation.  
+  
 **Value type**: List of Feature object.
 
 ## Public Member Functions

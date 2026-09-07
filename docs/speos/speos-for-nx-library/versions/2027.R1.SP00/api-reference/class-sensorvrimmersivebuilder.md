@@ -59,6 +59,7 @@ Represents the builder for an immersive sensor.
 Gets or sets the sampling.
 
 Edits the value to compute the resolution of the result.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior or equal to 0.  
   
@@ -85,6 +86,7 @@ Gets or sets the layer type.
 The values are:  
 0 - None, the simulation generates a Speos360 file with one layer for all sources.  
 1 - Source, the result includes one layer per active source.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -101,6 +103,7 @@ When you define a stereo sensor, make sure that the Front direction is horizonta
   
 True: Enables stereo.  
 False: Disables stereo.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -114,6 +117,7 @@ The default value is False.
 Gets or sets the interocular distance.
 
 **Prerequisite**: The Stereo property must be True.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -139,6 +143,7 @@ Gets or sets the front face property.
 
 True: Enables front face in the simulation.  
 False: Disables front face in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -153,6 +158,7 @@ Gets or sets the bottom face property.
 
 True: Enables bottom face in the simulation.  
 False: Disables bottom face in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -167,6 +173,7 @@ Gets or sets the top face property.
 
 True: Enables top face in the simulation.  
 False: Disables top face in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -181,6 +188,7 @@ Gets or sets the back face property.
 
 True: Enables back face in the simulation.  
 False: Disables back face in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -195,6 +203,7 @@ Gets or sets the left face property.
 
 True: Enables left face in the simulation.  
 False: Disables left face in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -209,6 +218,7 @@ Gets or sets the right face property.
 
 True: Enables right face in the simulation.  
 False: Disables right face in the simulation.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -223,6 +233,7 @@ Gets or sets the automatic framing property.
 
 True: Activates automatic framing.  
 False: Deactivates automatic framing.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -245,6 +256,7 @@ The values are:
 3 - BOTTOM.  
 4 - LEFT.  
 5 - RIGHT.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -258,6 +270,7 @@ The default value is 0.
 Gets or sets the lower value of the wavelength range to be considered by the sensor.
 
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 400.0 nm.
@@ -271,6 +284,7 @@ The default value is 400.0 nm.
 Gets or sets the higher value of the wavelength range to be considered by the sensor.
 
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 700.0 nm.

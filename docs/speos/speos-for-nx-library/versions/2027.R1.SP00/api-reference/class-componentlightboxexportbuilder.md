@@ -59,6 +59,7 @@ Gets or sets the meshing sag mode.
 The values are:  
 0 - Proportional, the value adapts and adjusts to the size of each face of the object.  
 1 - Fixed, the value will remain unchanged no matter the size or shape of the object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -87,6 +88,7 @@ Gets or sets the meshing step mode.
 The values are:  
 0 - Proportional, the value adapts and adjusts to the size of each face of the object.  
 1 - Fixed, the value will remain unchanged no matter the size or shape of the object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -129,6 +131,7 @@ Allows to control the precision of the meshing on the edges of the faces.
   
 True: Enables specific parameters for facet edges.  
 False: Disables specific parameters for facet edges.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -144,6 +147,7 @@ Gets or sets the meshing edge sag value.
 **Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum distance between the geometry and the meshing on the edges. The Meshing edge sag value always uses the Fixed mode.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -160,6 +164,7 @@ Gets or sets the meshing edge angle.
 **Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum angular variation in degrees between successive tangents for all points along a solid edge.  
+  
 **Value type**: Double (in degrees).  
 **Range**: (0.0, 90.0).  
   
@@ -175,6 +180,7 @@ Gets or sets the property to enable custom axis system.
 
 True: Enables custom axis system.  
 False: Disables custom axis system.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -188,6 +194,7 @@ The default value is False.
 Gets the axis system.
 
 **Prerequisite** The CustomAxisSystem property must be True.  
+  
 **Value type**: AxisSystem object.
 
 ---
@@ -199,6 +206,7 @@ Gets the axis system.
 Gets source features.
 
 Gets the current source features that are in the component.  
+  
 **Value type**: List of Feature object.
 
 ---
@@ -220,6 +228,7 @@ The Geometries property returns a list of feature tag.
 Gets the list of geometry options.
 
 Allows to Activate/Deactivate specific options for each geometry.  
+  
 **Value type**: List of CGeometryOptions.  
   
 The default value is an empty list.
@@ -234,6 +243,7 @@ Gets or sets the property to enable password.
 
 True: Enables password.  
 False: Disables password.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -248,6 +258,7 @@ Gets or sets the property to enable BlackBox.
 
 True: Enables BlackBox.  
 False: Disables BlackBox.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -285,4 +296,5 @@ The DeleteGeometries function takes a list of geometry tag as parameter.
 `str GeneratePassword(self)`
 
 Generates and store a new password.  
+  
 **Prerequisite** The EnablePassword property must be True.

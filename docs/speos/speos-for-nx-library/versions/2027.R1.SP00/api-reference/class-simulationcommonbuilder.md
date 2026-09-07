@@ -67,6 +67,7 @@ A base class for all Simulation Builders.
 Gets the simulation feature object.
 
 Gets the simulation feature in order to launch simulations.  
+  
 **Value type**: FeatureSimulation object.
 
 ---
@@ -78,6 +79,7 @@ Gets the simulation feature in order to launch simulations.
 Gets or sets source features.
 
 Gets or sets the current source features that are in the simulation.  
+  
 **Value type**: List of Feature object.
 
 ---
@@ -99,6 +101,7 @@ The Geometries property returns a list of feature tag.
 Gets or sets sensor features.
 
 Gets or sets the current sensor features that are in the simulation.  
+  
 **Value type**: List of Feature object.
 
 ---
@@ -121,6 +124,7 @@ Gets or sets the property to enable Light Expert.
 
 True: Enables Light Expert.  
 False: Disables Light Expert.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -135,6 +139,7 @@ Gets or sets the property to enable ambient material.
 
 True: Enables Ambient Material.  
 False: Disables Ambient Material.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -148,6 +153,7 @@ The default value is False.
 Gets or sets the ambient material.
 
 The AmbientMaterial property takes a feature and returns a feature.  
+  
 **Value type**: Feature object.  
   
 The default value is None.
@@ -161,6 +167,7 @@ The default value is None.
 Gets or sets the standard deviation.
 
 **Prerequisite**: Only available with the inverse simulation with Monte Carlo algorithm and Optimized Propagation sets to Relative or Absolute.  
+  
 **Value type**: Double.  
 **Range**: ]0, 1[  
   
@@ -176,6 +183,7 @@ Gets or sets the property to enable preset settings.
 
 True: Enable Preset Settings  
 False: Disable Preset Settings  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -189,6 +197,7 @@ The default value is False.
 Gets or sets the Preset object.
 
 A preset is a predefined set of the general simulation settings.  
+  
 **Value type**: Preset object.  
   
 The default value is None.

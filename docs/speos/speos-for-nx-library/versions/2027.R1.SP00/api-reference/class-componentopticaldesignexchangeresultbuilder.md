@@ -39,6 +39,7 @@ Represents a Component Optical Design Exchange Result Builder.
 `ComponentOpticalDesignExchangeResultFeature FeatureComponentOpticalDesignExchangeResult`
 
 Gets the Optical Design Exchange Result feature object.  
+  
 **Value type**: ComponentOpticalDesignExchangeResultFeature object.
 
 ## Public Member Functions

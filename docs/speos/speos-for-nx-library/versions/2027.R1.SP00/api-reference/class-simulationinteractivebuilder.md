@@ -44,6 +44,7 @@ Represents an Interactive Simulation Builder.
 Gets or sets the infinite ray length.
 
 Defines the rays length displayed in the 3D view.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior or equal to 0.  
   

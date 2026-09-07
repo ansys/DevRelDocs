@@ -64,6 +64,7 @@ Gets or sets the meshing sag mode.
 The values are:  
 0 - Proportional, the value adapts and adjusts to the size of each face of the object.  
 1 - Fixed, the value will remain unchanged no matter the size or shape of the object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -92,6 +93,7 @@ Gets or sets the meshing step mode.
 The values are:  
 0 - Proportional, the value adapts and adjusts to the size of each face of the object.  
 1 - Fixed, the value will remain unchanged no matter the size or shape of the object.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -134,6 +136,7 @@ Allows to control the precision of the meshing on the edges of the faces.
   
 True: Enables specific parameters for facet edges.  
 False: Disables specific parameters for facet edges.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -149,6 +152,7 @@ Gets or sets the meshing edge sag value.
 **Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum distance between the geometry and the meshing on the edges. The Meshing edge sag value always uses the Fixed mode.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -165,6 +169,7 @@ Gets or sets the meshing edge angle.
 **Prerequisite** The SpecificFacetEdgesParameters property must be True.  
   
 Defines the maximum angular variation in degrees between successive tangents for all points along a solid edge.  
+  
 **Value type**: Double (in degrees).  
 **Range**: (0.0, 90.0).  
   
@@ -182,6 +187,7 @@ The values are:
 0 - Automatic.  
 1 - Double.  
 2 - Single.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -197,6 +203,7 @@ Gets or sets the smart engine value.
 **Prerequisite**: The RayTracerPrecisionMode property must be 1.  
   
 The Smart Engine value defines a balance between the speed and the memory. The higher the value, the more subdivided the scene becomes.  
+  
 **Value type**: Integer.  
 **Range**: [1, 15].  
   
@@ -211,6 +218,7 @@ The default value is 11.
 Gets or sets the geometrical distance tolerance.
 
 The Geometrical distance tolerance defines the maximum distance to consider two faces as tangent.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -225,6 +233,7 @@ The default value is 0.05 mm.
 Gets or sets the maximum number of surface interaction.
 
 The maximum number of surface interactions value defines the maximum number of ray impacts during propagation.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0  
   
@@ -240,6 +249,7 @@ Gets or sets the weight property.
 
 True: Uses weight.  
 False: Does not use weight.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -255,6 +265,7 @@ Gets or sets the minimum energy percentage.
 **Prerequisite** The UseWeight property must be True.  
   
 The Minimum energy percentage value defines the minimum energy ratio to continue to propagate a ray with weight.  
+  
 **Value type**: Double.  
 **Range**: [0.0, 10000.0]  
   
@@ -271,6 +282,7 @@ Gets or sets the colorimetric standard type.
 The values are:  
 0 - CIE 1931.  
 1 - CIE 1936.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -287,6 +299,7 @@ Displays the ray trajectories in the 3D view.
   
 True: Draws rays.  
 False: Does not draw rays.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -303,6 +316,7 @@ Displays the impacts in the 3D view.
   
 True: Draws impacts.  
 False: Does not draw impacts.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -319,6 +333,7 @@ Activates the addition of information to the HTML simulation report.
   
 True: Reports impacts.  
 False: Does not report impacts.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -333,6 +348,7 @@ Gets or sets the Monte Carlo algorithm property.
 
 True: Uses Monte Carlo algorithm.  
 False: Uses deterministic algorithm.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -351,6 +367,7 @@ The values are:
 0 - None, the same number of passes is used for each pixel of the image.  
 1 - Relative, the algorithm adapts the number of passes per pixel to send the optimal number of rays according to the signal each pixel needs.  
 2 - Absolute, same as relative, however the method of calculation is slightly different.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -366,6 +383,7 @@ Gets or sets the number of standard passes before optimized passes.
 **Prerequisite**: The OptimizedMode property must be 1 or 2.  
   
 Corresponds to the minimum number of passes without pass optimization.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -394,6 +412,7 @@ Gets or sets the gathering source number.
 **Prerequisite**: The UseMonteCarlo property must be True.  
   
 The gathering source number parameter pilots the number of shadow rays to target at each source.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior or equal to 0.  
   
@@ -411,6 +430,7 @@ Gets or sets the property to use dispersion.
   
 True: Activates dispersion.  
 False: Deactivates dispersion.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -429,6 +449,7 @@ If you do so, the path of each reverse propagated ray is split in more paths at 
   
 True: Activates splitting.  
 False: Deactivates splitting.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -444,6 +465,7 @@ Gets or sets the maximum gathering error.
 **Prerequisite**: The UseMonteCarlo property must be True.  
   
 Defines the level below which a source can be neglected.  
+  
 **Value type**: Double.  
 **Range**: [0.0, 100.0].  
   
@@ -461,6 +483,7 @@ Gets or sets the fast transmission gathering property.
   
 True: Uses fast transmission gathering.  
 False: Does not use fast transmission gathering.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -493,6 +516,7 @@ The values are:
 1 - Build photon map.  
 2 - Load photon map.  
 3 - Build and save photon map.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -506,6 +530,7 @@ The default value is 0.
 Gets or sets the ambient sampling.
 
 **Prerequisite**: The UseMonteCarlo property must be False.  
+  
 **Value type**: Integer.  
 **Range**: [1, 1000000].  
   
@@ -520,6 +545,7 @@ The default value is 100.
 Gets or sets the specular maximum impact number.
 
 **Prerequisite**: The UseMonteCarlo property must be False.  
+  
 **Value type**: Integer.  
 **Range**: [0, 15].  
   
@@ -538,6 +564,7 @@ True: Uses anti-aliasing.
 False: Does not use anti-aliasing.  
   
 Reduces artifacts as jagged profiles and fine details but increasing the simulation time.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -553,6 +580,7 @@ Gets or sets the specular approximation angle.
 **Prerequisite**: The UseMonteCarlo property must be False.  
   
 Reduces artifacts as jagged profiles and fine details but increasing the simulation time.  
+  
 **Value type**: Double (in degrees).  
 **Range**: The value must be superior or equal to 0.0.  
   
@@ -569,6 +597,7 @@ Gets or sets the specular approximation angle.
 **Prerequisite**: The PhotonMapMode property must be 1 or 3.  
   
 Represents the number of rays sent in the direct phase.  
+  
 **Value type**: Integer.  
 **Range**: (0, 200000].  
   
@@ -585,6 +614,7 @@ Gets or sets the specular approximation angle.
 **Prerequisite**: The PhotonMapMode property must be 1 or 3.  
   
 Represents the max impact of rays in the direct phase.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -601,6 +631,7 @@ Gets or sets the maximum neighbors.
 **Prerequisite**: The PhotonMapMode property must be 1, 2 or 3.  
   
 Represents the number of photons from the photon map taken into account to calculate the luminance.  
+  
 **Value type**: Integer.  
 **Range**: (0, 10000].  
   
@@ -617,6 +648,7 @@ Gets or sets the maximum search radius.
 **Prerequisite**: The PhotonMapMode property must be 1, 2 or 3.  
   
 Represents the maximum distance from the luminance calculation's point to search for neighbors contribution.  
+  
 **Value type**: Double (in mm).  
 **Range**:The value must be superior to 0.  
   
@@ -633,6 +665,7 @@ Gets or sets the final gathering property.
 **Prerequisite**: The PhotonMapMode property must be 1, 2 or 3.  
 True: Uses final gathering.  
 False: Does not use final gathering.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -648,6 +681,7 @@ Gets or sets the final gathering neighbors.
 **Prerequisite**: The UseFinalGathering property must be True.  
   
 Pilots the number of neighbors after the secondary rays. They are used to compute the luminance for each split ray.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -662,6 +696,7 @@ The default value is 10.
 Gets or sets the splitting number.
 
 **Prerequisite**: The UseFinalGathering property must be True.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -677,6 +712,7 @@ Gets or sets the property to use texture mapping.
 
 True: Uses texture as optical properties.  
 False: Does not use texture as optical properties.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -695,6 +731,7 @@ The values are:
 0 - None. The simulation results uses both the Image Texture and the Texture Mapping Optical Properties.  
 1 - Color from BRDF. The simulation result uses the BRDF information of the Texture Mapping Optical Properties.  
 2 - Color from texture. The simulation result uses the color and the color lightness of the Image Texture.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -709,6 +746,7 @@ Gets or sets the property to use rendering as optical properties.
 
 True: Uses rendering as optical properties.  
 False: Does not use rendering as optical properties.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

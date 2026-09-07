@@ -46,6 +46,7 @@ Represents a Folder Builder.
 Gets or sets features belonging to this folder.
 
 The Features property takes and returns a list of feature objects.  
+  
 **Value type**: List of Feature objects.  
   
 The default value is an empty list.
@@ -64,6 +65,7 @@ The values are:
 2 - Sources.  
 3 - Sensors.  
 4 - Simulations.  
+  
 **Value type**: Integer.  
   
 The default value is None (0). A category type other than None (0) must be defined.
@@ -80,7 +82,7 @@ The specified feature object must be a member of the folder to be removed from i
 
 **Parameters**:
 
-- `Feature feature`: the feature object.<br>
+- `Feature feature`: the feature object.
 
 ---
 
@@ -94,7 +96,7 @@ The specified feature objects must be members of the folder to be removed from i
 
 **Parameters**:
 
-- `list[Feature] features`: the list of Feature objects.<br>
+- `list[Feature] features`: the list of Feature objects.
 
 ---
 
@@ -106,7 +108,7 @@ Adds the specified feature object into the folder.
 
 **Parameters**:
 
-- `Feature feature`: the feature object.<br>
+- `Feature feature`: the feature object.
 
 ---
 
@@ -118,9 +120,9 @@ Inserts the specified feature object into the folder after another specified fea
 
 **Parameters**:
 
-- `Feature feature`: the feature object to add.<br>
+- `Feature feature`: the feature object to add.
 
-- `Feature after`: a feature object after which the feature object should be insert.<br>
+- `Feature after`: a feature object after which the feature object should be insert.
 
 ---
 
@@ -132,4 +134,4 @@ Checks if the specified feature object is compatible with this folder.
 
 **Parameters**:
 
-- `Feature feature`: the feature object.<br>
+- `Feature feature`: the feature object.

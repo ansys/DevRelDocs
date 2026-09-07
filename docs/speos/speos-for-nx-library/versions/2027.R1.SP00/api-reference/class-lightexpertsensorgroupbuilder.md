@@ -41,6 +41,7 @@ Represents a light expert sensor group builder.
 Gets or sets sensor features.
 
 This property takes or returns a list of sensors.  
+  
 **Value type**: List of Feature object.
 
 ## Public Member Functions

@@ -80,6 +80,7 @@ The values are:
 0 - Static.  
 1 - Scanning.  
 2 - Rotating.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -94,6 +95,7 @@ Gets or sets the property to display the sensor field.
 
 True: Activates the visualization of the imager's field in the 3D view.  
 False: Deactivates the visualization of the imager's field in the 3D view.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -108,6 +110,7 @@ Gets or sets the property to display the object field.
 
 True: Activates the visualization of the sensor's viewing angle in the 3D view.  
 False: Deactivates the visualization of the sensor's viewing angle in the 3D view.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -121,6 +124,7 @@ The default value is True.
 Gets or sets the object field radius.
 
 **Prerequisite**: The DisplayObjectField property must be True.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -136,6 +140,7 @@ Gets or sets the property to display the pupil.
 
 True: Activates the visualization of the sensor's lens in the 3D view.  
 False: Deactivates the visualization of the sensor's lens in the 3D view.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -149,6 +154,7 @@ The default value is True.
 Gets or sets the scanning sequence file of the source.
 
 The file must be a scanning sequence (.OPTScanSequence) or text (.txt).  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -162,6 +168,7 @@ The default value is an empty string.
 Gets or sets the rotating sequence file of the source.
 
 The file must be a text (.txt).  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -176,6 +183,7 @@ Gets or sets the property to activate or deactivate the use of the trajectory fi
 
 True: Activates the use of the trajectory file.  
 False: Deactivates the use of the trajectory file.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -189,6 +197,7 @@ The default value is True.
 Gets or sets the trajectory file of the source.
 
 The file must be a Json (.json).  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -204,6 +213,7 @@ Gets or sets the spectrum type of the source.
 The values are:  
 0 - Library.  
 1 - Monochromatic.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -230,6 +240,7 @@ The default value is 940.0 nm.
 Gets or sets the spectrum file of the source.
 
 The file must be a spectrum (.spectrum).  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -245,6 +256,7 @@ Gets or sets the intensity type of the source.
 The values are:  
 0 - Library.  
 1 - Gaussian.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -258,6 +270,7 @@ The default value is 1.
 Gets or sets the intensity distribution file of the source.
 
 The file must be an IES (.ies) or Eulumdat (.ldt).  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -336,6 +349,7 @@ The default value is 1.0.
 Gets or sets the distortion file of the sensor.
 
 The file must be an .OPTDistortion file.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -364,6 +378,7 @@ Gets or sets the transmittance file of the sensor.
 **Prerequisite**: This property is only available for LiDAR sensor scanning or rotating with the SourceSpectrumType property sets to Library.  
   
 The file must be a spectrum (.spectrum).  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -450,6 +465,7 @@ Gets or sets the property to activate or deactivate the use of the sensor resolu
 
 True: Activates the use of the sensor resolution.  
 False: Deactivates the use of the sensor resolution.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -529,6 +545,7 @@ Gets or sets the property to define an Aiming Area for the sensor.
 
 True: Activates the Aiming Area.  
 False: Deactivates the Aiming Area.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -544,6 +561,7 @@ Gets or sets the aiming area type.
 The values are:  
 0 - Rectangular.  
 1 - Elliptic.  
+  
 **Value type**: Integer.  
   
 The default value is 1.

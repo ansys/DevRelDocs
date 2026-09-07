@@ -49,6 +49,7 @@ Gets or sets the Sun type.
 The values are:  
 0 - Automatic, you must set the values in the Timezone object.  
 1 - Direction, you must to set the sun direction property.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -65,6 +66,7 @@ Gets or sets the reverse Sun direction.
   
 True: Reverses the Sun direction.  
 False: Does not reverse the Sun direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -78,6 +80,7 @@ The default value is False.
 Gets or sets the turbidity.
 
 Turbidity is a measure of the fraction of scattering due to haze as opposed to molecules.  
+  
 **Value type**: Double.  
 **Range**: [2.0, 9.0]  
   
@@ -93,6 +96,7 @@ Gets or sets the property to enable the sky.
 
 True: Uses the sun and Sky in simulations.  
 False: Uses sun only in simulations.  
+  
 **Value type**: Boolean.  
   
 The default value is True.

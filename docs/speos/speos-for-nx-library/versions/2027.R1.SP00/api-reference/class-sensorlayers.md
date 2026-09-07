@@ -38,6 +38,7 @@ The values are:
 2 - Data Separated by Face.  
 3 - Data Separated by Sequence.  
 4 - Data Separated by Group of Faces.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -53,6 +54,7 @@ Gets or sets the surface contribution type.
 The values are:  
 0 - Last Impact.  
 1 - Intersected One Time.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -66,6 +68,7 @@ The default value is 0.
 Returns the contribution surfaces object.
 
 **Prerequisite**: The Type property must be 2 - Data Separated by Face.  
+  
 **Value type**: CSelectFaceList object.
 
 ---
@@ -77,6 +80,7 @@ Returns the contribution surfaces object.
 Gets or sets the maximum number of sequences.
 
 **Prerequisite**: The Type property must be 3.  
+  
 **Value type**: Integer.  
   
 The default value is 10.
@@ -94,6 +98,7 @@ Gets or sets the sequence per type.
 The values are:  
 0 - Faces.  
 1 - Volumes.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -111,6 +116,7 @@ Gets or sets the property to sort the sequences per type.
 The values are:  
 0 - RelativeEnergy.  
 1 - PeakValue.  
+  
 **Value type**: Integer.  
   
 The default value is 0.

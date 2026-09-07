@@ -43,6 +43,7 @@ Represents a Component Optical Design Exchange Builder.
 Gets the Optical Design Exchange feature object.
 
 Gets the Optical Design Exchange feature.  
+  
 **Value type**: ComponentOpticalDesignExchangeFeature object.
 
 ---
@@ -67,6 +68,7 @@ Gets or sets the property to enable or disable the option to update only materia
 
 True: Enables the option. Only materials will be updated.  
 False: Disables the option.  
+  
 **Value type**: Boolean.  
   
 The default value is false.
@@ -81,6 +83,7 @@ Gets or sets the property to activate or deactivate the use of a custom axis sys
 
 True: Enables custom axis system.  
 False: Disables custom axis system.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

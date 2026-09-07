@@ -96,6 +96,7 @@ The values are:
 2 - Hexagonal.  
 3 - Variable Pitches.  
 4 - Library.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -111,6 +112,7 @@ Gets or sets the pattern orientation.
 The values are:  
 0 - Constant, orientates the pattern according to the support of the 3D Texture.  
 1 - Normal, orientates the pattern according to the normal of the surface.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -129,6 +131,7 @@ The values are:
 2 - Add on different material.  
 3 - Add in.  
 4 - Insert.  
+  
 **Value type**: Integer.  
   
 The default value is 1.
@@ -155,6 +158,7 @@ The default value is 1.0.
 Gets or sets the area X Length for rectangular mapping.
 
 **Prerequisite**: The MappingType property must be 0.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -169,6 +173,7 @@ The default value is 100.0 mm.
 Gets or sets the area Y Length for rectangular mapping.
 
 **Prerequisite**: The MappingType property must be 0.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -183,6 +188,7 @@ The default value is 100.0 mm.
 Gets or sets the X distance between patterns for rectangular mapping.
 
 **Prerequisite**: The MappingType property must be 0.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -197,6 +203,7 @@ The default value is 1.0 mm.
 Gets or sets the Y distance between patterns for rectangular mapping.
 
 **Prerequisite**: The MappingType property must be 0.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -211,6 +218,7 @@ The default value is 1.0 mm.
 Gets or sets the X direction angle for rectangular mapping.
 
 **Prerequisite**: The MappingType property must be 0.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -224,6 +232,7 @@ The default value is 0.0 degree.
 Gets or sets the Y direction angle for rectangular mapping.
 
 **Prerequisite**: The MappingType property must be 0.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -237,6 +246,7 @@ The default value is 0.0 degree.
 Gets or sets the radial distance for circular mapping.
 
 **Prerequisite**: The MappingType property must be 1.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -251,6 +261,7 @@ The default value is 1.0 mm.
 Gets or sets the mapping area radius for circular mapping.
 
 **Prerequisite**: The MappingType property must be 1.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -265,6 +276,7 @@ The default value is 100.0 mm.
 Gets or sets the distance between two rings for circular mapping.
 
 **Prerequisite**: The MappingType property must be 1.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -279,6 +291,7 @@ The default value is 1.0 mm.
 Gets or sets the angle for circular mapping.
 
 **Prerequisite**: The MappingType property must be 1.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -292,6 +305,7 @@ The default value is 0.0 degree.
 Gets or sets the hexagon width for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -306,6 +320,7 @@ The default value is 0.7 mm.
 Gets or sets the hexagon height for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -320,6 +335,7 @@ The default value is 0.7 mm.
 Gets or sets the mapping area X length for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -334,6 +350,7 @@ The default value is 100.0 mm.
 Gets or sets the mapping area Y length for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -348,6 +365,7 @@ The default value is 100.0 mm.
 Gets or sets the X angle for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -361,6 +379,7 @@ The default value is 0.0 degree.
 Gets or sets the Y angle for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -374,6 +393,7 @@ The default value is 0.0 degree.
 Gets or sets the hexagon edge length for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -388,6 +408,7 @@ The default value is 1.0 mm.
 Gets or sets the hexagon distance between centers for hexagonal mapping.
 
 **Prerequisite**: The MappingType property must be 2.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -405,6 +426,7 @@ Gets or sets the central point property for hexagonal mapping.
   
 True: Enables Central Point.  
 False: Disables Central Point.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -421,6 +443,7 @@ Gets or sets the central point property for hexagonal mapping.
   
 True: Enables Regular Mapping.  
 False: Disables Regular Mapping.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -434,6 +457,7 @@ The default value is False.
 Gets or sets the mapping area X length for variable pitches mapping.
 
 **Prerequisite**: The MappingType property must be 3.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -448,6 +472,7 @@ The default value is 100.0 mm.
 Gets or sets the mapping area Y length for variable pitches mapping.
 
 **Prerequisite**: The MappingType property must be 3.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -462,6 +487,7 @@ The default value is 100.0 mm.
 Gets or sets the X angle for variable pitches mapping.
 
 **Prerequisite**: The MappingType property must be 3.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -475,6 +501,7 @@ The default value is 0.0 degree.
 Gets or sets the Y angle for variable pitches mapping.
 
 **Prerequisite**: The MappingType property must be 3.  
+  
 **Value type**: Double (in degree).  
   
 The default value is 0.0 degree.
@@ -488,6 +515,7 @@ The default value is 0.0 degree.
 Gets or sets the X pitch ratio for variable pitches mapping.
 
 **Prerequisite**: The MappingType property must be 3.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior to 0.0.  
   
@@ -502,6 +530,7 @@ The default value is 1.0.
 Gets or sets the Y pitch ratio for variable pitches mapping.
 
 **Prerequisite**: The MappingType property must be 3.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior to 0.0.  
   

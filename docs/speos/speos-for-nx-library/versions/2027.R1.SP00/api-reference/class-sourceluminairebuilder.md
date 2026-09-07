@@ -47,6 +47,7 @@ Represents the builder for a luminaire source.
 `FilePath IntensityFilePath`
 
 Gets or sets the intensity distribution file path.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -60,6 +61,7 @@ The default value is an empty string.
 Gets or sets the flux.
 
 **Prerequisite**: The IsFluxFromFile property must be False.  
+  
 **Value type**: Double (in lm or W).  
 **Range**: The value must be superior to 0.0.  
   
@@ -78,6 +80,7 @@ Gets or sets the flux unit.
 The values are:  
 0 - Lumen.  
 1 - Watt.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -92,6 +95,7 @@ Gets or sets the property to enable or disable getting the flux from file.
 
 True: Enables getting the flux from file.  
 False: Disables getting the flux from file.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -114,6 +118,7 @@ The values are:
 6 - Halogen.  
 7 - Metal halide.  
 8 - High pressure sodium.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -127,6 +132,7 @@ The default value is 0.
 Gets or sets the spectrum temperature.
 
 **Prerequisite**: The spectrum type must be 0.  
+  
 **Value type**: Double (in Kelvin).  
 **Range**: The value must be superior to 0.0.  
   
@@ -141,6 +147,7 @@ The default value is 2856.0 Kelvin.
 Gets or sets the spectrum file path.
 
 **Prerequisite**: The spectrum type must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty string.

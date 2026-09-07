@@ -200,6 +200,7 @@ If a new feature is being created, and the builder has not yet been commited, re
 Returns the status of the feature being edited.
 
 Returns a value corresponding to the status of the feature being edited.  
+  
 **Value type**: Integer.
 
 ---

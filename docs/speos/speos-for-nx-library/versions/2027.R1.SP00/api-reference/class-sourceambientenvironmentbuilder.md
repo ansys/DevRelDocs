@@ -51,6 +51,7 @@ Represents the builder for an ambient environment source.
 Gets or sets the luminance.
 
 The luminance parameter is the source luminance for the white point in front direction of the source.  
+  
 **Value type**: Double (cd/m2).  
 **Range**: The value must be superior to 0.0.  
   
@@ -77,6 +78,7 @@ The default value is an empty string.
 Gets or sets the ground origin.
 
 The GroundOrigin property takes a feature tag.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -105,6 +107,7 @@ The values are:
 0 - sRGB. Uses the standard and most commonly used RGB based model.  
 1 - Adobe RGB. Uses a larger gamut.  
 2 - User Defined RGB. Defines manually the white point of the standard illuminant.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -125,6 +128,7 @@ The values are:
 2 - D65. Uses a standard daylight illuminant that provides accurate color perception and evaluation.  
 3 - E. Uses an illuminant that gives equal weight to all wavelengths.  
 4 - User defined. Allows to edit the Color Coordinates of the white point.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -138,6 +142,7 @@ The default value is 0.
 Gets or sets the X coordinate of the white point.
 
 **Prerequisite**: The WhitePoint property must be 4.  
+  
 **Value type**: Double.  
   
 The default value is 0.31271.
@@ -151,6 +156,7 @@ The default value is 0.31271.
 Gets or sets the Y coordinate of the white point.
 
 **Prerequisite**: The WhitePoint property must be 4.  
+  
 **Value type**: Double.  
   
 The default value is 0.32902.
@@ -164,6 +170,7 @@ The default value is 0.32902.
 Gets or sets the red spectrum file.
 
 **Prerequisite**: The WhitePoint property must be 4.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -177,6 +184,7 @@ The default value is an empty string.
 Gets or sets the green spectrum file.
 
 **Prerequisite**: The ColorSpace property must be 2.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -190,6 +198,7 @@ The default value is an empty string.
 Gets or sets the blue spectrum file.
 
 **Prerequisite**: The ColorSpace property must be 2.  
+  
 **Value type**: String.  
   
 The default value is an empty string.

@@ -89,6 +89,7 @@ The reverse direction depends of the value parameter:
 Gets or sets the geometries.
 
 The GeometryList property takes and returns a list of feature tag.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.

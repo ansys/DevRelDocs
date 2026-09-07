@@ -50,6 +50,7 @@ Represents a Result Light Expert builder.
 Gets or sets the number of rays.
 
 Number of rays calculate.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -67,6 +68,7 @@ The values are:
 1 - Rays.  
 2 - Impact.  
 3 - Rays and Impacts.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -80,6 +82,7 @@ The default value is 0.
 Gets or sets the infinite ray length.
 
 Length used to draw infinite rays.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior or equal to 0.0.  
   
@@ -96,6 +99,7 @@ Gets or sets the selected rays mode.
 The values are:  
 0 - IN.  
 1 - OUT.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -121,6 +125,7 @@ Gets or sets the required faces mode.
 The values are:  
 0 - AND.  
 1 - OR.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -145,15 +150,17 @@ Create a rectangle area.
 
 **Parameters**:
 
-- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).<br>
+- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).
 
-- `float xCenter`: Center position X of the rectangle area.<br>
+- `float xCenter`: Center position X of the rectangle area.
 
-- `float yCenter`: Center position Y of the rectangle area.<br>
+- `float yCenter`: Center position Y of the rectangle area.
 
-- `float width`: Width of the rectangle area.<br>
+- `float width`: Width of the rectangle area.
 
-- `float height`: Height of the rectangle area.<br> The default value is no reactangle area.
+- `float height`: Height of the rectangle area.  
+  
+The default value is no reactangle area.
 
 ---
 
@@ -165,15 +172,17 @@ Create an ellipse area.
 
 **Parameters**:
 
-- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).<br>
+- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).
 
-- `float xCenter`: Center position X of the ellipse area.<br>
+- `float xCenter`: Center position X of the ellipse area.
 
-- `float yCenter`: Center position Y of the ellipse area.<br>
+- `float yCenter`: Center position Y of the ellipse area.
 
-- `float xRadius`: Radius X of the ellipse area.<br>
+- `float xRadius`: Radius X of the ellipse area.
 
-- `float yRadius`: Radius Y of the ellipse area.<br> The default value is no reactangle area.
+- `float yRadius`: Radius Y of the ellipse area.  
+  
+The default value is no reactangle area.
 
 ---
 
@@ -185,11 +194,13 @@ Create an polygon area.
 
 **Parameters**:
 
-- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).<br>
+- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).
 
-- `list[float] xPts`: List of X position of the polygon area.<br>
+- `list[float] xPts`: List of X position of the polygon area.
 
-- `list[float] yPts`: List of Y position of the polygon area.<br> The default value is no reactangle area.
+- `list[float] yPts`: List of Y position of the polygon area.  
+  
+The default value is no reactangle area.
 
 ---
 
@@ -203,6 +214,31 @@ RetrieveMeasureValue return measure value by Type.
 
 **Parameters**:
 
-- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).<br>
+- `int sensorIndex`: index of XMP in the sensor group (must be 0 for non group sensor).
 
-- `int measureType`: the type of value to retrieve.<br> The values are:<br> 1 - Maximum<br> 2 - Maximum position X<br> 3 - Maximum position Y<br> 4 - Minimum<br> 5 - Minimum position X<br> 6 - Minimum position Y<br> 7 - Average<br> 8 - Flux<br> 9 - Barycentre position X<br> 10 - Barycentre position Y<br> 11 - Sigma<br> 12 - Sigma position X<br> 13 - Sigma position Y<br> 14 - Contrast<br> 15 - RMS Contrast<br> 16 - Eye Irradiance<br> 17 - Range<br> 19 - Range position X<br> 20 - Range position Y<br> 21 - Area<br> 22 - UGR117<br> 28 - Deviation Min<br> 29 - Deviation Max<br> 30 - Deviation Average<br>
+- `int measureType`: the type of value to retrieve.  
+The values are:  
+1 - Maximum  
+2 - Maximum position X  
+3 - Maximum position Y  
+4 - Minimum  
+5 - Minimum position X  
+6 - Minimum position Y  
+7 - Average  
+8 - Flux  
+9 - Barycentre position X  
+10 - Barycentre position Y  
+11 - Sigma  
+12 - Sigma position X  
+13 - Sigma position Y  
+14 - Contrast  
+15 - RMS Contrast  
+16 - Eye Irradiance  
+17 - Range  
+19 - Range position X  
+20 - Range position Y  
+21 - Area  
+22 - UGR117  
+28 - Deviation Min  
+29 - Deviation Max  
+30 - Deviation Average

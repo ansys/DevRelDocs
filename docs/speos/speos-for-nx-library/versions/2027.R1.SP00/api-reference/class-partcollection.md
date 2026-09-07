@@ -31,6 +31,7 @@ Loads all open parts in the session.
 `Part FindFromName(self, name)`
 
 Finds the part with the given name.  
+  
 **Prerequisite**: The part must have been loaded in this session.
 
 **Parameters**:

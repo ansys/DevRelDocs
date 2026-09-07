@@ -48,6 +48,7 @@ Gets or sets the sensor type.
 The values are:  
 0 - Photometric. The sensor considers the visible spectrum.  
 1 - Radiometric. The sensor considers the entire spectrum.  
+  
 **Value type**: Integer.  
   
 The default value is 0.

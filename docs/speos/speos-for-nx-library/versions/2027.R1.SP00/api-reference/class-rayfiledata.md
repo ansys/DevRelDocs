@@ -25,6 +25,7 @@ Returns true if the ray file has power, otherwise returns false.
 
 True: The ray file has power.  
 False: The ray file does not have power.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -39,6 +40,7 @@ Returns true if the ray file has flux in watt, otherwise returns false.
 
 True: The ray file has flux in watt.  
 False: The ray file does not have flux in watt.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -65,6 +67,7 @@ Returns true if the ray file has flux in lumen, otherwise returns false.
 
 True: The ray file has flux in lumen.  
 False: The ray file does not have flux in lumen.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -91,6 +94,7 @@ Returns true if the ray file has spectrum, otherwise returns false.
 
 True: The ray file has spectrum.  
 False: The ray file does not have spectrum.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

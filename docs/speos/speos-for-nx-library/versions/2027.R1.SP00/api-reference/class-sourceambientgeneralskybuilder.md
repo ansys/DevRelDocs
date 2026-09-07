@@ -75,6 +75,7 @@ The values are:
 12 - CIE standard clear sky, polluted atmosphere.  
 13 - Cloudless turbid sky with broad solar corona.  
 14 - White blue turbid sky with broad solar corona.  
+  
 **Value type**: Integer.  
   
 The default value is 5.
@@ -90,6 +91,7 @@ Gets or sets the Sun type.
 The values are:  
 0 - Automatic, you must set the values in the Timezone and Location object.  
 1 - Direction, you must to set the sun direction property.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -106,6 +108,7 @@ Gets or sets the reverse Sun direction.
   
 True: Reverses the Sun direction.  
 False: Does not reverse the Sun direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

@@ -619,7 +619,8 @@ Creates a builder for a Virtual BSDF Bench feature.
 
 Returns all sources belonging to the part.
 
-Returns a list containing all sources, including those for folders, but not the folder itself.**Value type**: List of Feature.
+Returns a list containing all sources, including those for folders, but not the folder itself.  
+**Value type**: List of Feature.
 
 ---
 
@@ -629,7 +630,8 @@ Returns a list containing all sources, including those for folders, but not the 
 
 Returns all sensors belonging to the part.
 
-Returns a list containing all sensors, including those for folders, but not the folder itself.**Value type**: List of Feature.
+Returns a list containing all sensors, including those for folders, but not the folder itself.  
+**Value type**: List of Feature.
 
 ---
 
@@ -639,7 +641,8 @@ Returns a list containing all sensors, including those for folders, but not the 
 
 Returns all optical properties belonging to the part.
 
-Returns a list containing all properties, including those for folders, but not the folder itself.**Value type**: List of Feature.
+Returns a list containing all properties, including those for folders, but not the folder itself.  
+**Value type**: List of Feature.
 
 ---
 
@@ -649,4 +652,5 @@ Returns a list containing all properties, including those for folders, but not t
 
 Returns all simulations belonging to the part.
 
-Returns a list containing all simulations, including those for folders, but not the folder itself.**Value type**: List of Feature.
+Returns a list containing all simulations, including those for folders, but not the folder itself.  
+**Value type**: List of Feature.

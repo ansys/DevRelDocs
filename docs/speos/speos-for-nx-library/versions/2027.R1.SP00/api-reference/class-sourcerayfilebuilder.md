@@ -76,6 +76,7 @@ Gets or sets the property to enable fetching the flux from file.
 
 True: Enables fetching the flux from file.  
 False: Disables fetching the flux from file.  
+  
 **Value type**: Boolean.  
   
 The default value is True.
@@ -91,6 +92,7 @@ Gets or sets the flux unit.
 The values are:  
 0 - lumen (lm).  
 1 - watt (W).  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -107,6 +109,7 @@ The values are:
 0 - Monochromatic, with this value the wavelength property is available.  
 1 - Blackbody, with this value the temperature property is available.  
 2 - Library, with this value the spectrum file property is available.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -133,6 +136,7 @@ The default value is 555.0 nm.
 Gets or sets the temperature.
 
 **Prerequisite**: The SpectrumType must be 0.  
+  
 **Value type**: double (in Kelvin).  
 **Range**: The value must be superior to 0.0.  
   
@@ -147,6 +151,7 @@ The default value is 2856.0 K.
 Gets or sets the spectrum file path.
 
 **Prerequisite**: The SpectrumType must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -160,6 +165,7 @@ The default value is an empty string.
 Gets or sets exit geometries.
 
 The ExitGeometries property takes a list of feature tag and returns a list of feature tag.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.

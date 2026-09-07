@@ -81,6 +81,7 @@ The values are:
 1 - Colorimetric, color results in cd or W/sr.  
 2 - Radiometric, results in W/sr.  
 3 - Spectral, results in cd or W/sr.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -141,6 +142,7 @@ Gets the Sensor X dimension mirrored extent value.
 
 True: XStart == -XEnd, you can only change the XEnd value.  
 False: XStart and XEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -201,6 +203,7 @@ Gets the Sensor Y dimension mirrored extent value.
 
 True: YStart == -YEnd, you can only change the YEnd value.  
 False: YStart and YEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -216,6 +219,7 @@ Gets or sets the wavelength starting border.
 **Prerequisite**: The Type property must be 1 or 3.  
   
 The sensor does not take account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 400.0 nm.
@@ -231,6 +235,7 @@ Gets or sets the wavelength ending border.
 **Prerequisite**: The Type property must be 1 or 3.  
   
 The sensor does not take account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 700.0 nm.
@@ -244,6 +249,7 @@ The default value is 700.0 nm.
 Gets or sets the wavelength sampling.
 
 **Prerequisite**: The Type property must be 1 or 3.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -258,6 +264,7 @@ The default value is 13.
 Gets or sets the Wavelength resolution
 
 **Prerequisite**: The Type property must be 1 or 3.  
+  
 **Value type**: Double.
 
 ---
@@ -270,6 +277,7 @@ Gets or sets the property to enable the use of template file
 
 True: Enables Template File.  
 False: Disables Template File.  
+  
 **Value type**: Boolean.
 
 ---
@@ -282,6 +290,7 @@ Gets or sets the property to enable the use of dimensions that come from File
 
 True: Uses the following values from the XMP template: type, X and Y size, Wavelength values.  
 False: Does not use the dimension from file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -296,6 +305,7 @@ Gets or sets the property to enable the use of display properties that come from
 
 True: Uses all the grid related values from the .xml file.  
 False: Does not use the Display properties from file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -324,6 +334,7 @@ The values are:
 0 - None  
 1 - Measure  
 2 - Template  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -338,6 +349,7 @@ Gets or sets the property to enable grid preview.
 
 True: Displays a grid on the sensor.  
 False: Does not display a grid on the sensor.  
+  
 **Value type**: Boolean.  
   
 The default value is True.

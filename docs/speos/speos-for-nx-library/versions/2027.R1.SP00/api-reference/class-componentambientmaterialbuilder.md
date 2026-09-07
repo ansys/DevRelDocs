@@ -47,6 +47,7 @@ Gets or sets the type of Ambient Material.
 The values are:  
 0 - Optic.  
 2 - Library.  
+  
 **Value type**: Integer.  
   
 The default value is Optic (0).
@@ -60,6 +61,7 @@ The default value is Optic (0).
 Gets or sets the index property.
 
 **Prerequisite**: The Type property must be 0.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior or equal to 1.  
   
@@ -74,6 +76,7 @@ The default value is 1.5.
 Gets or sets the absorption property.
 
 **Prerequisite**: The Type property must be 0.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior or equal to 0.  
   
@@ -91,6 +94,7 @@ Gets or sets the use of constringence property.
   
 True: Enables constringence.  
 False: Disables constringence.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -104,6 +108,7 @@ The default value is False.
 Gets or sets the constringence property.
 
 **Prerequisite**: The UseConstringence property must be True.  
+  
 **Value type**: Double.  
 **Range**: The value must be superior or equal to 20.0.  
   
@@ -118,6 +123,7 @@ The default value is 60.0
 Gets or sets the library file path.
 
 **Prerequisite**: The Type property must be 2.  
+  
 **value type**: String.  
   
 The default value is an empty string.

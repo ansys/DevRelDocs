@@ -22,6 +22,7 @@
 Gets the size of the list.
 
 Returns the number of elements in the list.  
+  
 **Value type**: Integer.
 
 ---
@@ -33,6 +34,7 @@ Returns the number of elements in the list.
 Checks if the list has no face.
 
 Returns True if the list is empty, False otherwise.  
+  
 **Value type**: Boolean.
 
 ---
@@ -44,6 +46,7 @@ Returns True if the list is empty, False otherwise.
 Adds the given face to the list.
 
 Returns True if the given face has been added, False otherwise.  
+  
 **Value type**: Boolean.
 
 **Parameters**:
@@ -79,6 +82,7 @@ Removes all elements from the list.
 Checks if the given value exists in the list.
 
 Returns True if the given face exists in the list, False otherwise.  
+  
 **Value type**: Boolean.
 
 **Parameters**:
@@ -94,6 +98,7 @@ Returns True if the given face exists in the list, False otherwise.
 Gets or sets the faces.
 
 The Array property takes a list of tags and returns a list of tags.  
+  
 **Value type**: Integer.  
   
 The default value is an empty list.
@@ -107,6 +112,7 @@ The default value is an empty list.
 Gets the faces that are alive.
 
 Returns a list of tags.  
+  
 **Value type**: Integer.  
   
 The default value is an empty list.

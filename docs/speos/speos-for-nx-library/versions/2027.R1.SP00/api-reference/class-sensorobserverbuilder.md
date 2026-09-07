@@ -73,6 +73,7 @@ Represents the builder for an observer sensor.
 Gets or sets the distance.
 
 Adjusts the radius of the sphere to narrow or widen the global field of vision.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -87,6 +88,7 @@ The default value is 1000.0 mm.
 Gets or sets the focal.
 
 Adjusts the distance between the sensor radiance plan and the origin point of the observed object. The larger the focal, the closer to the object.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -103,6 +105,7 @@ Gets or sets the layer type.
 The values are:  
 0 - None, the simulation generates a Speos360 file with one layer for all sources.  
 1 - Source, the result includes one layer per active source.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -116,6 +119,7 @@ The default value is 0.
 Gets or sets the interocular distance.
 
 **Prerequisite**: The Stereo property must be True.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.0.  
   
@@ -133,6 +137,7 @@ When you define a stereo sensor, make sure that the Front direction is horizonta
   
 True: Enables stereo.  
 False: Disables stereo.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -156,6 +161,7 @@ Gets the axis system.
 Gets or sets the lower value of the wavelength range to be considered by the sensor.
 
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 400.0 nm.
@@ -169,6 +175,7 @@ The default value is 400.0 nm.
 Gets or sets the higher value of the wavelength range to be considered by the sensor.
 
 The sensor does not take into account wavelengths beyond the borders that you define.  
+  
 **Value type**: Double (in nm).  
   
 The default value is 700.0 nm.
@@ -205,6 +212,7 @@ Gets or sets the Wavelength resolution
 Gets or sets the horizontal start for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-180.0, 180.0]  
   
@@ -219,6 +227,7 @@ The default value is -180.0 degrees.
 Gets or sets the horizontal end for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-180.0, 180.0]  
   
@@ -233,6 +242,7 @@ The default value is 180.0 degrees.
 Gets or sets the horizontal sampling for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -247,6 +257,7 @@ The default value is 9.
 Gets or sets the horizontal resolution for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double.
 
 ---
@@ -261,6 +272,7 @@ Vision Field corresponds to the surface on which are located observer positions 
   
 True: VisionFieldHorizontalStart == -VisionFieldHorizontalEnd, you can only change the VisionFieldHorizontalEnd value.  
 False: VisionFieldHorizontalStart and VisionFieldHorizontalEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -274,6 +286,7 @@ The default value is False.
 Gets or sets the vertical start for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-90.0, 90.0]  
   
@@ -288,6 +301,7 @@ The default value is -90.0 degrees.
 Gets or sets the vertical end for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double (in degrees).  
 **Range**: [-90.0, 90.0]  
   
@@ -302,6 +316,7 @@ The default value is 90.0 degrees.
 Gets or sets the vertical sampling for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -316,6 +331,7 @@ The default value is 5.
 Gets or sets the vertical resolution for vision field.
 
 Vision Field corresponds to the surface on which are located observer positions around target point.  
+  
 **Value type**: Double.
 
 ---
@@ -330,6 +346,7 @@ Vision Field corresponds to the surface on which are located observer positions 
   
 True: VisionFieldVerticalStart == -VisionFieldVerticalEnd, you can only change the VisionFieldVerticalEnd value.  
 False: VisionFieldVerticalStart and VisionFieldVerticalEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -391,6 +408,7 @@ Gets or sets the mirrored extent property for horizontal dimension.
 
 True: DimensionHorizontalStart == -DimensionHorizontalEnd, you can only change the DimensionHorizontalEnd value.  
 False: DimensionHorizontalStart and DimensionHorizontalEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -452,6 +470,7 @@ Gets or sets the mirrored extent property for vertical dimension.
 
 True: DimensionVerticalStart == -DimensionVerticalEnd, you can only change the DimensionVerticalEnd value.  
 False: DimensionVerticalStart and DimensionVerticalEnd can have different value.  
+  
 **Value type**: Boolean.  
   
 The default value is False.

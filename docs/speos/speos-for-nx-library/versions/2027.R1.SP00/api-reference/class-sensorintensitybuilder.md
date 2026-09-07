@@ -71,6 +71,7 @@ The values are:
 2 - IESNA Type B.  
 3 - IESNA Type C.  
 4 - Eulumdat.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -89,6 +90,7 @@ The values are:
 0 - X as Parallel, Y as Meridian, for a polar parameterization with the poles along the X axis.  
 1 - X as Meridian, Y as Parallel, for a polar parameterization with the poles along the Y axis.  
 2 - Conoscopic, for a polar parameterization with the poles along the Z axis.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -105,6 +107,7 @@ Gets or sets the property to enable adaptive sampling.
   
 True: Activates adaptive Sampling.  
 False: Deactivates adaptive Sampling.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -118,6 +121,7 @@ The default value is False.
 Gets or sets the polar file path.
 
 **Prerequisite**: The EnableAdaptiveSampling property must be True.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -131,6 +135,7 @@ The default value is an empty string.
 Gets or sets the Conoscopic theta maximum value.
 
 **Prerequisite**: The OrientationType property must be 2.  
+  
 **Value type**: Double.  
   
 The default value is 90.0.
@@ -144,6 +149,7 @@ The default value is 90.0.
 Gets or sets the Conoscopic sampling.
 
 **Prerequisite**: The OrientationType property must be 2.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -158,6 +164,7 @@ The default value is 90.
 Gets or sets the Conoscopic resolution.
 
 **Prerequisite**: The OrientationType property must be 2.  
+  
 **Value type**: Double.
 
 ---
@@ -169,6 +176,7 @@ Gets or sets the Conoscopic resolution.
 Gets the polar H start.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Double.
 
 ---
@@ -180,6 +188,7 @@ Gets the polar H start.
 Gets the polar H end.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Double.
 
 ---
@@ -191,6 +200,7 @@ Gets the polar H end.
 Gets or sets the polar H sampling.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -207,6 +217,7 @@ The default value are:
 Gets or sets the polar H resolution.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Double.
 
 ---
@@ -218,6 +229,7 @@ Gets or sets the polar H resolution.
 Gets the polar V start.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Double.
 
 ---
@@ -229,6 +241,7 @@ Gets the polar V start.
 Gets the polar V end.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Double.
 
 ---
@@ -240,6 +253,7 @@ Gets the polar V end.
 Gets or sets the polar V sampling.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -256,6 +270,7 @@ The default value are:
 Gets or sets the polar V resolution.
 
 **Prerequisite**: The FormatType property must be 1, 2, 3 or 4.  
+  
 **Value type**: Double.
 
 ---
@@ -280,6 +295,7 @@ False: Disables Near Field.
 Gets or sets the cell distance.
 
 **Prerequisite**: The EnableNearField property must be True.  
+  
 **Value type**: Double.  
   
 The default value is 1000.0 mm.
@@ -293,6 +309,7 @@ The default value is 1000.0 mm.
 Gets or sets the cell diameter.
 
 **Prerequisite**: The EnableNearField property must be True.  
+  
 **Value type**: Double.  
 **Range**The value must be superior to 0.0.  
   
@@ -311,6 +328,7 @@ Gets or sets the intensity result viewing direction.
 The values are:  
 0 - From source looking at sensor, The viewing direction of the observer is the same as the light direction emitted.  
 1 - From sensor looking at source, The viewing direction of the observer is in the opposite of the light direction.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -326,6 +344,7 @@ Gets or sets the integration angle.
 **Prerequisite**: The OrientationType property must be 1, 2, 3 or 4.  
   
 This parameter appears only for IESNA and Eulumdat formats.  
+  
 **Value type**: Double (in degrees).  
 **Range**: (0.0, 90.0)  
   

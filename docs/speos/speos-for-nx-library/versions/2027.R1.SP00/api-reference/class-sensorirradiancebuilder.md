@@ -49,6 +49,7 @@ Gets or sets the property to enable ray file.
 
 True: Enables Ray file.  
 False: Disables Ray file.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -70,6 +71,7 @@ The values are:
 1 - Speos with Polarization.  
 2 - IES TM-25 without Polarization.  
 3 - IES TM-25 with Polarization.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -88,6 +90,7 @@ The values are:
 2 - Hemishperical.  
 3 - Cylindrical.  
 4 - Semi-cylindrical.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -104,6 +107,7 @@ Gets or sets the reverse direction of integration.
   
 True: Reverses the IntegrationDirection property  
 False: Does not reverse the IntegrationDirection property  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -117,6 +121,7 @@ The default value is False.
 Gets or sets the output faces.
 
 The output faces property takes a list of feature tag and returns a list of feature tag.  
+  
 **Value type**: List of integer.  
   
 The default value is an empty list.

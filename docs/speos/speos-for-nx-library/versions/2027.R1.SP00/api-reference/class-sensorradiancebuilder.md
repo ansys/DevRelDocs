@@ -65,6 +65,7 @@ The values are:
 0 - Frame.  
 1 - Camera.  
 2 - Observer.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -78,6 +79,7 @@ The default value is 0.
 Gets or sets the camera by its name.
 
 **Prerequisite**: The DefinitionType property must be 1.  
+  
 **Value type**: String.  
   
 The default value is an empty string.
@@ -93,6 +95,7 @@ Gets or sets the H/V ratio.
 **Prerequisite**: The DefinitionType property must be 1.  
   
 H/V Ratio modifies the X Start and X End values according to the Y Start and Y End values.  
+  
 **Value type**: Double.  
   
 The default value is 1.33.
@@ -110,6 +113,7 @@ Gets or sets the observer type.
 The values are:  
 0 : Focal.  
 1 : Observer.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -125,6 +129,7 @@ Gets or sets the focal.
 **Prerequisite**: The DefinitionType property must be 2 or the ObserverType must be 0.  
   
 Focal defines the distance between the sensor plane and the Observer point.  
+  
 **Value type**: Double (in mm).  
 **Range**: The value must be superior to 0.  
   
@@ -142,6 +147,7 @@ Gets or sets the frame observer point.
   
 The property frame observer point takes a feature tag and returns a feature tag.  
 Defines the location of the frame.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -171,6 +177,7 @@ Gets or sets the observer point.
   
 The property observer point takes a feature tag and returns a feature tag.  
 Defines the location of the observer.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -186,6 +193,7 @@ Gets or sets the observer front direction.
 **Prerequisite**: The DefinitionType must be 2.  
   
 The property observer front direction takes a feature tag and returns a feature tag.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -201,6 +209,7 @@ Gets or sets the observer top direction.
 **Prerequisite**: The DefinitionType must be 2.  
   
 The property observer top direction takes a feature tag and returns a feature tag.  
+  
 **Value type**: Integer.  
   
 The default value is 0.
@@ -217,6 +226,7 @@ Gets or sets the reverse direction of observer front direction.
   
 True: Reverses the observer front direction.  
 False: Does not reverse the Observer Front Direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -233,6 +243,7 @@ Gets or sets the reverse direction of observer top direction.
   
 True: Reverses the Observer top Direction.  
 False: Does not reverse the observer top direction.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
@@ -246,6 +257,7 @@ The default value is False.
 Gets or sets the observer horizontal field of view.
 
 **Prerequisite**: The DefinitionType must be 2.  
+  
 **Value type**: Double (in degrees).  
 **Range**: (0, 180)  
   
@@ -260,6 +272,7 @@ The default value is 2.0 degrees.
 Gets or sets the observer vertical field of view.
 
 **Prerequisite**: The DefinitionType must be 2.  
+  
 **Value type**: Double.  
 **Range**: (0, 180)  
   
@@ -274,6 +287,7 @@ The default value is 2.0 degrees.
 Gets or sets the observer horizontal sampling.
 
 **Prerequisite**: The DefinitionType must be 2.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -288,6 +302,7 @@ The default value is 100.
 Gets or sets the observer vertical sampling.
 
 **Prerequisite**: The DefinitionType must be 2.  
+  
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
@@ -302,6 +317,7 @@ The default value is 100.
 Gets or sets the observer horizontal resolution.
 
 **Prerequisite**: The DefinitionType must be 2.  
+  
 **Value type**: Integer.
 
 ---
@@ -313,6 +329,7 @@ Gets or sets the observer horizontal resolution.
 Gets or sets the observer vertical resolution.
 
 **Prerequisite**: The DefinitionType must be 2.  
+  
 **Value type**: Integer.
 
 ---
@@ -329,6 +346,7 @@ Automatic Framing reframes the camera on the radiance sensor.
   
 True : Enable Automatic Framing.  
 False : Disable Automatic Framing.  
+  
 **Value type**: Boolean.  
   
 The default value is False.
