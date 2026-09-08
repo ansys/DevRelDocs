@@ -20,6 +20,8 @@
     href: user-guide/workflow-examples.md
   - name: Build local documentation
     href: user-guide/dpf-docs-local-preview.md
+  - name: MAPDL Operators documentation
+    href: user-guide/mapdl.md
 - name: Core concepts
   items:
   - name: Available types
