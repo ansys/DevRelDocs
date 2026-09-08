@@ -193,6 +193,7 @@
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
 * [setStepIndexMaxMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6c3700bdf7cf0fb38a12c15cf8213205)
 * [shareStepIndexWith](classansys-dpf-workflow.md#classansys-dpf-workflow-1acfeb4ac138a1ec9e4b6e0d7fae14abb5)
+* [stepIndexCachedOperatorStatuses](classansys-dpf-workflow.md#classansys-dpf-workflow-1a984fe8f94bc4f5e2e86ae643126b5e76)
 * [stepIndexCurrentMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a7cc02b047d1d37c1bb92440f4fade050)
 * [stepIndexOperatorStatuses](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5a24c6e5128c940559d976e236c58ec5)
 * [tryReplaceWorkflowInRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1a478c1be621d4c49916771b42d4b10ba9)
