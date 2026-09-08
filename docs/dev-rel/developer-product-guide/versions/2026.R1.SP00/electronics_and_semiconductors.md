@@ -116,9 +116,10 @@ There are no developer tools available at this time.
 
 ## Redhawk-SC
 
-RedHawkSC and TotemSC include a Pythonic library called PySeascape, available as part of PyAnsys. PySeascape provides a remotable interface to both RedHawkSC and TotemSC. For more information, see the documentation linked below.
+RedHawkSC and TotemSC include a (now deprecated) Pythonic library called PySeascape, available as part of PyAnsys. PySeascape provides a remotable interface to both RedHawkSC and TotemSC. For more information, see the documentation linked below.
 
 * [PySeascape documentation (PyAnsys)](https://seascape.docs.pyansys.com/version/stable/)
+* As of 8th September 2026 this library has been deprecated and will no longer be maintained or receive updates, although the library will remain available on PyPI for now.
 
 ## SIwave+
 
