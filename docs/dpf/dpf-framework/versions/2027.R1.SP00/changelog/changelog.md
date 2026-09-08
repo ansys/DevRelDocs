@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-04).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-07).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -28,9 +28,9 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [10 items](#Features_femutils) |[24 items](#Fixes_femutils) |
+| femutils | [10 items](#Features_femutils) |[25 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[16 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[17 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[77 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[79 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -53,7 +53,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [22 items](#Features_native) |[36 items](#Fixes_native) |
+| native | [22 items](#Features_native) |[37 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -605,6 +605,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Remove map from spec:
+  > 
+  >
+  > 
+
 - Preserve mapping labels for single coordinate field:
   > 
   >
@@ -859,6 +864,17 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Mechanical crashes when evaluating Python result with operator self connection:
+  > 
+  >
+  > 
+  >
+  > Prevents invalid workflow graphs by rejecting direct and indirect connections that cause an operator to depend on itself.
+  >
+  > 
+  >
+  > 
 
 - Make the workflow step index memory upper bound actually hold:
   > The memory upper bound configured on `WorkflowStepIndex` was not enforced. Depending on
@@ -1972,6 +1988,18 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Filter temperatures on radiation element nodes SURF251 & SURF252:
+  > Filter temperatures on radiation element nodes SURF251 & SURF252
+  >
+  > 
+  >
+  > 
+
+- Improve performance when reading elemental results:
+  > 
+  >
+  > 
 
 - Filter unsupported TARGE170 ECT Results (fixed):
   > 
@@ -3435,6 +3463,17 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix merge::result_info for cyclic analyzis:
+  > 
+  >
+  > 
+  >
+  > Preserve result metadata when combining result information, including cyclic analysis data and complete result properties.
+  >
+  > 
+  >
+  > 
 
 - Rotation operator crash when source operators produce a null output:
   > 
