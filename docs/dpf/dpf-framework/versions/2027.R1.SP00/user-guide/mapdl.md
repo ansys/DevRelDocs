@@ -1,8 +1,5 @@
 # MAPDL Operators
 
-!!! info "Internal Draft"
-    This page is an internal working draft. Content will be reviewed and refined here before being migrated to the public DPF documentation.
-
 ## Overview
 
 This page is dedicated to the **DPF plugin for MAPDL operators**. The plugin exposes a collection of operators that provide access to simulation data produced by the ANSYS Mechanical APDL (MAPDL) solver, as well as post-processing operations specific to the MAPDL result format (`.rst`, `.rth`, etc.).
