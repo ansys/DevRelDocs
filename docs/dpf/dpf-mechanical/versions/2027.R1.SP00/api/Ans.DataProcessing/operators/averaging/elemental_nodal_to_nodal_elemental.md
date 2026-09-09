@@ -36,7 +36,7 @@ field or fields container with only one field is expected
 
 ### mesh_scoping
 
-Optional nodal scoping filter. A map uses node IDs as its keys; a scoping uses its node IDs directly.
+Optional nodal scoping filter.
 
 **Type:** *LinkableInput*
 
