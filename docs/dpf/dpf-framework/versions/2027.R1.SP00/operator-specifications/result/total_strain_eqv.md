@@ -39,8 +39,13 @@ Read/compute element nodal equivalent total strain by calling the readers define
 | 9       | Shell with 2 results across thickness (top/bottom) |
 | 10      | Shell with 3 results across thickness (top/bottom/mid) |
 | 11      | Gasket          |
-| 12      | Multi-Point Constraint |
+| 12      | Joint |
 | 13      | Pretension      |
+| 14      | Layered      |
+| 15      | ThickShell      |
+| 16      | Target      |
+| 17      | Plane      |
+| 18      | Pipe      |
 
 
 Total strain is computed as the sum of the available strain contributions: elastic strain (`EPEL`), plastic strain (`EPPL`), creep strain (`EPCR`), thermal strain (`ETH`) 

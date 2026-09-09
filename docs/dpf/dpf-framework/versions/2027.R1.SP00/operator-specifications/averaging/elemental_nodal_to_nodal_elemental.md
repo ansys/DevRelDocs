@@ -21,7 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), `umap<int32,int32>` |
+| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
 
 
 <a id="input_0"></a>
@@ -36,9 +36,9 @@ field or fields container with only one field is expected
 ### mesh_scoping (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), `umap<int32,int32>`
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-Optional nodal scoping filter. A map uses node IDs as its keys; a scoping uses its node IDs directly.
+Optional nodal scoping filter.
 
 
 ## Outputs

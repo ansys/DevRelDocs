@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-07).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-08).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[79 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[81 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -53,7 +53,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [22 items](#Features_native) |[37 items](#Fixes_native) |
+| native | [22 items](#Features_native) |[38 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -1989,6 +1989,22 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Wrong element shapes are returned when reading a mesh:
+  > Some elements were considered "unknown" when getting a mesh
+  >
+  > 
+  >
+  > 
+
+- Support reading of mode coefficients and modal damping in spectrum_data:
+  > Fix reading of mode coefficients and modal damping ratios from .mode file in spectrum_data operator.
+  >
+  > Also, fix reading of participation factors for complex modes (from damped modal analysis).
+  >
+  > 
+  >
+  > 
+
 - Filter temperatures on radiation element nodes SURF251 & SURF252:
   > Filter temperatures on radiation element nodes SURF251 & SURF252
   >
@@ -3464,6 +3480,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Performance of mesh for large distributed cases, creation of generic metadata setter:
+  > Performance improvement of mesh for large distributed cases.
+  >
+  > 
+
 - Fix merge::result_info for cyclic analyzis:
   > 
   >
@@ -4307,8 +4328,13 @@ The following table shows which components have updates in each category.
   > | 9       | Shell with 2 results across thickness (top/bottom) |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Multi-Point Constraint |
+  > | 12      | Joint |
   > | 13      | Pretension      |
+  > | 14      | Layered      |
+  > | 15      | ThickShell      |
+  > | 16      | Target      |
+  > | 17      | Plane      |
+  > | 18      | Pipe      |
   > 
 
 - [creep_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_X.md):
@@ -4359,8 +4385,13 @@ The following table shows which components have updates in each category.
   > | 9       | Shell with 2 results across thickness (top/bottom) |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Multi-Point Constraint |
+  > | 12      | Joint |
   > | 13      | Pretension      |
+  > | 14      | Layered      |
+  > | 15      | ThickShell      |
+  > | 16      | Target      |
+  > | 17      | Plane      |
+  > | 18      | Pipe      |
   > 
 
 - [creep_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_intensity.md):
@@ -4413,8 +4444,13 @@ The following table shows which components have updates in each category.
   > | 9       | Shell with 2 results across thickness (top/bottom) |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Multi-Point Constraint |
+  > | 12      | Joint |
   > | 13      | Pretension      |
+  > | 14      | Layered      |
+  > | 15      | ThickShell      |
+  > | 16      | Target      |
+  > | 17      | Plane      |
+  > | 18      | Pipe      |
   > element_nodal_heat fields contain STATIC and DAMPING forces stored as components (when available). STATIC: component 0. DAMPING: component 1.
 
 - [element_nodal_moments](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_nodal_moments.md):
@@ -4447,8 +4483,13 @@ The following table shows which components have updates in each category.
   > | 9       | Shell with 2 results across thickness (top/bottom) |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Multi-Point Constraint |
+  > | 12      | Joint |
   > | 13      | Pretension      |
+  > | 14      | Layered      |
+  > | 15      | ThickShell      |
+  > | 16      | Target      |
+  > | 17      | Plane      |
+  > | 18      | Pipe      |
   > element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
 - [emissivity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/emissivity.md):
@@ -4652,8 +4693,13 @@ The following table shows which components have updates in each category.
   > | 9       | Shell with 2 results across thickness (top/bottom) |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Multi-Point Constraint |
+  > | 12      | Joint |
   > | 13      | Pretension      |
+  > | 14      | Layered      |
+  > | 15      | ThickShell      |
+  > | 16      | Target      |
+  > | 17      | Plane      |
+  > | 18      | Pipe      |
   > 
   > 
   > Total strain is computed as the sum of the available strain contributions: elastic strain (`EPEL`), plastic strain (`EPPL`), creep strain (`EPCR`), thermal strain (`ETH`) 
@@ -6457,6 +6503,11 @@ Upgraded documentation
   > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
 
   > 2.0.0: averaging is blocked.
+
+
+- [spectrum_data](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/spectrum_data.md)
+
+  > 0.1.0: Now supports reading of mode coefficients and damping ratios from .mode file.
 
 
 - [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/state_variable.md)
