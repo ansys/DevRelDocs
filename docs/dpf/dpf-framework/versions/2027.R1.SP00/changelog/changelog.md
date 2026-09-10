@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-08).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-09).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -35,7 +35,7 @@ The following table shows which components have updates in each category.
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[20 items](#Fixes_hdf5) |
+| hdf5 | [16 items](#Features_hdf5) |[21 items](#Fixes_hdf5) |
 | hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[81 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[83 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1268,6 +1268,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Add permissive config support to shell position provider:
+  > Implementation of permissive configuration to the shell position provider operator.
+  >
+  > 
+
 - Fix depulicated tfs in append_tfs mode:
   > Append new time steps to the same tfs without creating a new one (PluginDPF).
   >
@@ -1988,6 +1993,20 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Do not filter reaction results:
+  > Do not filter reaction results in MAPDL.
+  >
+  > Creation of `PRRS_Reader` operator to read output from PRRSOL command.
+  >
+  > 
+  >
+  > 
+
+- Performance issue on node filtering operator:
+  > 
+  >
+  > 
 
 - Wrong element shapes are returned when reading a mesh:
   > Some elements were considered "unknown" when getting a mesh
