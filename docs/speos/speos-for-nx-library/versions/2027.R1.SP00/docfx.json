@@ -1,0 +1,15 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Speos for NX library 2027 R1",
+      "summary": "The documentation of the Speos for NX library for Python",
+      "version": "2027 R1",
+      "physics": "Optics",
+      "product": "Speos",
+      "status": "published",
+      "access control": "internal",
+      "programming language": "python",
+      "date": "2026-09-07"
+    }
+  }
+}

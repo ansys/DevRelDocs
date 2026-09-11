@@ -2,6 +2,22 @@
 
 This page presents example plug-ins that demonstrate common patterns for building PACZ component plug-ins.
 
+The customer SDK zip also includes **MockPlugIn**, a prebuilt plug-in you can copy into TestUI's `Plug-Ins` folder for a quick smoke test without building from source. See [Getting started — Test with TestUI](started.md#test-with-testui).
+
+## Downloadable sample project
+
+If you are not using the VSIX wizard, you need a complete, buildable sample project, not code fragments alone.
+
+| Status | Detail |
+|--------|--------|
+| **Available now (this docs tree)** | Full **BasicPaczPlugin** sources under [`examples/basic/`](examples/basic/). Use with [Getting started — A working example](started.md#a-working-example) |
+| **Available now (download)** | [BasicPaczPlugin-sample-26.1.1.zip](examples/BasicPaczPlugin-sample-26.1.1.zip) - buildable sample aligned with SDK **26.1.1** / NuGet **26.1.1** (#1498537) |
+| **Available now (SDK zip)** | **MockPlugIn** (prebuilt binary) |
+
+Download the zip, unzip to a stable path, configure NuGet to your unzipped `PACZComponentPlugInSDK-*` folder, and open `BasicPaczPlugin.sln`. Or use the bundled `examples/basic/` folder or the VSIX wizard path in [Getting started](started.md).
+
+The code samples below are the same BasicPaczPlugin sources (annotated for reading). For copy-into-project steps, use the files under `examples/basic/` rather than pasting from this page.
+
 ## Basic plug-in (BasicPaczPlugin)
 
 A minimal plug-in that demonstrates the core plug-in structure: a Runner that multiplies two inputs and a Builder UI with an options menu and variable creation.
