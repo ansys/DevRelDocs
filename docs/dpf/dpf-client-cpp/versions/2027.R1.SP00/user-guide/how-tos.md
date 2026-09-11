@@ -14,6 +14,8 @@ This section gathers pages related to DPF tutorials.
 
 [Logging in DPF operators and plugins](logging-in-dpf.md)
 
+[Handling errors in DPF operators and plugins](error-handling.md)
+
 > **_NOTE:_**
 > This documentation focuses on the C++ API for DPF.
 >

@@ -19,6 +19,7 @@ Error from DPF call.
 * [eComponentLoading](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47fa63cc3ff6720228860f33c24e18a81abf)
 * [eFailure](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47faf8acd9de5506b8d9fd2acd4aaa0d2341)
 * [eFileNotFound](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47fa6173cc22576234d0f2ff8e731269f12b)
+* [eJsonError](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47fa8bce473fe3a5c9733bd7a8d6ad2a8e7e)
 * [eLicensingFailure](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47fa7e497c9bbbed6bc9974b24a48c589cba)
 * [eOk](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47fafbbb18218f01ff212fea92a133b88e21)
 * [ErrorNature](classansys-dpf-dpferror.md#classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47f)
@@ -59,7 +60,8 @@ enum ErrorNature {
   eUnimplemented,
   eUserInterrupted,
   eLicensingFailure,
-  eUnimplementedAPI
+  eUnimplementedAPI,
+  eJsonError
 }
 ```
 
@@ -160,6 +162,13 @@ Licensing checks failed.
 
 
 Functionality not implemented.
+
+<a id="classansys-dpf-dpferror-1a9a3fe202cc2e46746462fdb1ce44c47fa8bce473fe3a5c9733bd7a8d6ad2a8e7e"></a>
+#### Enumerator eJsonError
+
+
+
+Structured error, json parseable.
 
 <!--
 **TODO**:

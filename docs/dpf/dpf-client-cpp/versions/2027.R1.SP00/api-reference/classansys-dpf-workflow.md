@@ -186,7 +186,9 @@
 * [record](classansys-dpf-workflow.md#classansys-dpf-workflow-1a304ee206ac4927f7aa757c63b0ec00b5)
 * [renameInputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1a22fba3c96a8a6e9eda279fd1c4b5358f)
 * [renameOutputPin](classansys-dpf-workflow.md#classansys-dpf-workflow-1abff62660096b06dd09667061c8e3d8a6)
+* [setStepIndexMaxMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a6c3700bdf7cf0fb38a12c15cf8213205)
 * [shareStepIndexWith](classansys-dpf-workflow.md#classansys-dpf-workflow-1acfeb4ac138a1ec9e4b6e0d7fae14abb5)
+* [stepIndexCachedOperatorStatuses](classansys-dpf-workflow.md#classansys-dpf-workflow-1a984fe8f94bc4f5e2e86ae643126b5e76)
 * [stepIndexCurrentMemoryMB](classansys-dpf-workflow.md#classansys-dpf-workflow-1a7cc02b047d1d37c1bb92440f4fade050)
 * [stepIndexOperatorStatuses](classansys-dpf-workflow.md#classansys-dpf-workflow-1a5a24c6e5128c940559d976e236c58ec5)
 * [tryReplaceWorkflowInRegistry](classansys-dpf-workflow.md#classansys-dpf-workflow-1a478c1be621d4c49916771b42d4b10ba9)
@@ -1625,6 +1627,35 @@ Current heap memory (in MB) held by this workflow's step index.
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::stepIndexCurrentMemoryMB"}]}`
 -->
 
+<a id="classansys-dpf-workflow-1a6c3700bdf7cf0fb38a12c15cf8213205"></a>
+### Function setStepIndexMaxMemoryMB
+
+![][public]
+
+
+```cpp
+void ansys::dpf::Workflow::setStepIndexMaxMemoryMB(double megaBytes)
+```
+
+
+
+
+Sets an upper bound (in MB) on the memory held by this workflow's step index. A value <= 0 disables the limit.
+
+
+
+**Parameters**:
+
+* double **megaBytes**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::setStepIndexMaxMemoryMB"}]}`
+-->
+
 <a id="classansys-dpf-workflow-1a5a24c6e5128c940559d976e236c58ec5"></a>
 ### Function stepIndexOperatorStatuses
 
@@ -1641,7 +1672,7 @@ GenericDataContainer ansys::dpf::Workflow::stepIndexOperatorStatuses() const
 
 **Returns**:
 
-GenericDataContainer with step-index operator statuses (name_id -> int E_OperatorState).
+GenericDataContainer with the statuses of every operator of this workflow (name_id -> int E_OperatorState), whether it is served by the step index or not.
 
 
 
@@ -1651,6 +1682,34 @@ GenericDataContainer with step-index operator statuses (name_id -> int E_Operato
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::stepIndexOperatorStatuses"}]}`
+-->
+
+<a id="classansys-dpf-workflow-1a984fe8f94bc4f5e2e86ae643126b5e76"></a>
+### Function stepIndexCachedOperatorStatuses
+
+![][public]
+![][const]
+
+
+```cpp
+GenericDataContainer ansys::dpf::Workflow::stepIndexCachedOperatorStatuses() const
+```
+
+
+
+
+**Returns**:
+
+GenericDataContainer with the statuses of the sole operators of this workflow served by its step index (name_id -> int E_OperatorState). Empty when no step index is attached.
+
+
+
+**Return type**: GenericDataContainer
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Workflow::stepIndexCachedOperatorStatuses"}]}`
 -->
 
 <a id="classansys-dpf-workflow-1a21d864839aa5e8df007f9596ec69a58a"></a>

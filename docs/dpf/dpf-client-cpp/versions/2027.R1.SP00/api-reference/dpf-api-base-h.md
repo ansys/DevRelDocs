@@ -38,6 +38,9 @@
 * [ansys::dpf::Client](classansys-dpf-client.md#classansys-dpf-client)
 * [ansys::dpf::DpfError](classansys-dpf-dpferror.md#classansys-dpf-dpferror)
 * [ansys::dpf::DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)
+* [ansys::dpf::HgpDpfException](classansys-dpf-hgpdpfexception.md#classansys-dpf-hgpdpfexception)
+* [ansys::dpf::ErrorFormatter](classansys-dpf-errorformatter.md#classansys-dpf-errorformatter)
+* [ansys::dpf::DefaultErrorFormatter](classansys-dpf-defaulterrorformatter.md#classansys-dpf-defaulterrorformatter)
 * [ansys::dpf::DpfVectorDataHelper](structansys-dpf-dpfvectordatahelper.md#structansys-dpf-dpfvectordatahelper)
 * [ansys::dpf::DpfVectorData](classansys-dpf-dpfvectordata.md#classansys-dpf-dpfvectordata)
 * [ansys::dpf::DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)
@@ -68,6 +71,9 @@
 
 * <array>
 * <exception>
+* <initializer_list>
+* <unordered_map>
+* <stdexcept>
 * <string>
 * <vector>
 * <map>
@@ -91,26 +97,35 @@ click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 1 --> 9
 1 --> 10
 1 --> 11
+1 --> 12
+1 --> 13
+1 --> 14
 
 2["array"]
 
-10["complex"]
+13["complex"]
 
-9["cstring"]
+12["cstring"]
 
 3["exception"]
 
-8["iostream"]
+4["initializer_list"]
 
-6["map"]
+11["iostream"]
 
-7["set"]
+9["map"]
 
-4["string"]
+10["set"]
 
-11["tchar.h"]
+6["stdexcept"]
 
-5["vector"]
+7["string"]
+
+14["tchar.h"]
+
+5["unordered_map"]
+
+8["vector"]
 
 ```
 

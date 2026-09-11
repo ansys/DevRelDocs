@@ -648,7 +648,7 @@ void ansys::dpf::FieldDefinition::setDimensions(std::vector< dp_int > const &rhs
 
 
 
-Set dimensions of field.
+Set dimensions of field. If the input vector has 2 components and they are equal, a symmetrical matrix is assumed.
 
 
 
