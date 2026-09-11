@@ -1,0 +1,210 @@
+- name: Introduction
+  href: index.md
+- name: Getting started
+  href: getting-started/index.md
+  items:
+  - name: User guide
+    href: user-guide/index.md
+- name: Usage examples
+  href: examples/index.md
+- name: Changelog
+  href: changelog.md
+- name: Classes
+  items:
+  - name: Class index
+    href: api-reference/index.md
+  - name: Namespace
+    href: api-reference/namespace-speosnx.md
+  - name: Core classes
+    items:
+    - name: AxisSystem
+      href: api-reference/class-axissystem.md
+    - name: Component
+      href: api-reference/class-component.md
+    - name: ComponentAssembly
+      href: api-reference/class-componentassembly.md
+    - name: FeatureSimulation
+      href: api-reference/class-featuresimulation.md
+    - name: GeometryOptions
+      href: api-reference/class-geometryoptions.md
+    - name: OpticalPropertiesGeometry
+      href: api-reference/class-opticalpropertiesgeometry.md
+    - name: Part
+      href: api-reference/class-part.md
+    - name: Preferences
+      href: api-reference/class-preferences.md
+    - name: Preset
+      href: api-reference/class-preset.md
+    - name: RayFileData
+      href: api-reference/class-rayfiledata.md
+    - name: SelectFaceList
+      href: api-reference/class-selectfacelist.md
+    - name: SelectObjectList
+      href: api-reference/class-selectobjectlist.md
+    - name: Session
+      href: api-reference/class-session.md
+    - name: Timezone
+      href: api-reference/class-timezone.md
+    - name: ZenithNorthSystem
+      href: api-reference/class-zenithnorthsystem.md
+  - name: Features
+    items:
+    - name: ComponentOpticalDesignExchangeFeature
+      href: api-reference/class-componentopticaldesignexchangefeature.md
+    - name: ComponentOpticalDesignExchangeResultFeature
+      href: api-reference/class-componentopticaldesignexchangeresultfeature.md
+    - name: Feature
+      href: api-reference/class-feature.md
+    - name: MeasureFeature
+      href: api-reference/class-measurefeature.md
+    - name: ResultFeature
+      href: api-reference/class-resultfeature.md
+    - name: RuleFeature
+      href: api-reference/class-rulefeature.md
+  - name: Collections
+    items:
+    - name: ComponentOpticalDesignExchangeResultCollection
+      href: api-reference/class-componentopticaldesignexchangeresultcollection.md
+    - name: FeatureCollection
+      href: api-reference/class-featurecollection.md
+    - name: MeasureCollection
+      href: api-reference/class-measurecollection.md
+    - name: PartCollection
+      href: api-reference/class-partcollection.md
+    - name: ResultCollection
+      href: api-reference/class-resultcollection.md
+    - name: RuleCollection
+      href: api-reference/class-rulecollection.md
+  - name: Sensors
+    items:
+    - name: SensorLayers
+      href: api-reference/class-sensorlayers.md
+    - name: SensorLayersGroup
+      href: api-reference/class-sensorlayersgroup.md
+    - name: SensorLightFieldSelections
+      href: api-reference/class-sensorlightfieldselections.md
+    - name: SensorOptions
+      href: api-reference/class-sensoroptions.md
+  - name: Sources
+    items:
+    - name: SourceOptions
+      href: api-reference/class-sourceoptions.md
+    - name: SourceSurfaceEmissiveFaces
+      href: api-reference/class-sourcesurfaceemissivefaces.md
+  - name: Simulations
+    items:
+    - name: SimulationSettings
+      href: api-reference/class-simulationsettings.md
+  - name: Sensor builders
+    items:
+    - name: Sensor3DEnergyDensityBuilder
+      href: api-reference/class-sensor3denergydensitybuilder.md
+    - name: Sensor3DIrradianceBuilder
+      href: api-reference/class-sensor3dirradiancebuilder.md
+    - name: SensorCameraBuilder
+      href: api-reference/class-sensorcamerabuilder.md
+    - name: SensorCommonBuilder
+      href: api-reference/class-sensorcommonbuilder.md
+    - name: SensorHumanEyeBuilder
+      href: api-reference/class-sensorhumaneyebuilder.md
+    - name: SensorIntensityBuilder
+      href: api-reference/class-sensorintensitybuilder.md
+    - name: SensorIrradianceBuilder
+      href: api-reference/class-sensorirradiancebuilder.md
+    - name: SensorLiDARBuilder
+      href: api-reference/class-sensorlidarbuilder.md
+    - name: SensorLightFieldBuilder
+      href: api-reference/class-sensorlightfieldbuilder.md
+    - name: SensorObserverBuilder
+      href: api-reference/class-sensorobserverbuilder.md
+    - name: SensorPhysicalCameraBuilder
+      href: api-reference/class-sensorphysicalcamerabuilder.md
+    - name: SensorRadianceBuilder
+      href: api-reference/class-sensorradiancebuilder.md
+    - name: SensorVRImmersiveBuilder
+      href: api-reference/class-sensorvrimmersivebuilder.md
+  - name: Source builders
+    items:
+    - name: SourceAmbientCommonBuilder
+      href: api-reference/class-sourceambientcommonbuilder.md
+    - name: SourceAmbientEnvironmentBuilder
+      href: api-reference/class-sourceambientenvironmentbuilder.md
+    - name: SourceAmbientGeneralSkyBuilder
+      href: api-reference/class-sourceambientgeneralskybuilder.md
+    - name: SourceAmbientNaturalLightBuilder
+      href: api-reference/class-sourceambientnaturallightbuilder.md
+    - name: SourceAmbientOvercastSkyBuilder
+      href: api-reference/class-sourceambientovercastskybuilder.md
+    - name: SourceAmbientUS1976Builder
+      href: api-reference/class-sourceambientus1976builder.md
+    - name: SourceAmbientUniformBuilder
+      href: api-reference/class-sourceambientuniformbuilder.md
+    - name: SourceDisplayBuilder
+      href: api-reference/class-sourcedisplaybuilder.md
+    - name: SourceGroupBuilder
+      href: api-reference/class-sourcegroupbuilder.md
+    - name: SourceInteractiveBuilder
+      href: api-reference/class-sourceinteractivebuilder.md
+    - name: SourceLightFieldBuilder
+      href: api-reference/class-sourcelightfieldbuilder.md
+    - name: SourceLuminaireBuilder
+      href: api-reference/class-sourceluminairebuilder.md
+    - name: SourceRayFileBuilder
+      href: api-reference/class-sourcerayfilebuilder.md
+    - name: SourceSurfaceBuilder
+      href: api-reference/class-sourcesurfacebuilder.md
+    - name: SourceSurfaceThermicBuilder
+      href: api-reference/class-sourcesurfacethermicbuilder.md
+  - name: Simulation builders
+    items:
+    - name: SimulationCommonBuilder
+      href: api-reference/class-simulationcommonbuilder.md
+    - name: SimulationDirectBuilder
+      href: api-reference/class-simulationdirectbuilder.md
+    - name: SimulationInteractiveBuilder
+      href: api-reference/class-simulationinteractivebuilder.md
+    - name: SimulationInverseBuilder
+      href: api-reference/class-simulationinversebuilder.md
+    - name: SimulationLiDARBuilder
+      href: api-reference/class-simulationlidarbuilder.md
+    - name: VirtualBSDFBenchBuilder
+      href: api-reference/class-virtualbsdfbenchbuilder.md
+  - name: Component builders
+    items:
+    - name: Component3DTextureBuilder
+      href: api-reference/class-component3dtexturebuilder.md
+    - name: ComponentAmbientMaterialBuilder
+      href: api-reference/class-componentambientmaterialbuilder.md
+    - name: ComponentLightBoxExportBuilder
+      href: api-reference/class-componentlightboxexportbuilder.md
+    - name: ComponentLightBoxImportBuilder
+      href: api-reference/class-componentlightboximportbuilder.md
+    - name: ComponentOpticalDesignExchangeBuilder
+      href: api-reference/class-componentopticaldesignexchangebuilder.md
+    - name: ComponentOpticalDesignExchangeResultBuilder
+      href: api-reference/class-componentopticaldesignexchangeresultbuilder.md
+    - name: ComponentPolarizationPlateBuilder
+      href: api-reference/class-componentpolarizationplatebuilder.md
+  - name: Other builders
+    items:
+    - name: Builder
+      href: api-reference/class-builder.md
+    - name: CopyPasteBuilder
+      href: api-reference/class-copypastebuilder.md
+    - name: ExportAsGeometryBuilder
+      href: api-reference/class-exportasgeometrybuilder.md
+    - name: FeatureBuilder
+      href: api-reference/class-featurebuilder.md
+    - name: FolderBuilder
+      href: api-reference/class-folderbuilder.md
+    - name: LightExpertSensorGroupBuilder
+      href: api-reference/class-lightexpertsensorgroupbuilder.md
+    - name: NewComponentBuilder
+      href: api-reference/class-newcomponentbuilder.md
+    - name: OpticalPropertiesBuilder
+      href: api-reference/class-opticalpropertiesbuilder.md
+    - name: ResultLXPBuilder
+      href: api-reference/class-resultlxpbuilder.md
+    - name: SpeosPatternBuilder
+      href: api-reference/class-speospatternbuilder.md
+  
