@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-09).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-10).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[83 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[84 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
@@ -1993,6 +1993,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Filter result info for MSUP & CMS on expandable results:
+  > 
+  >
+  > 
 
 - Do not filter reaction results:
   > Do not filter reaction results in MAPDL.
@@ -6679,6 +6684,8 @@ Upgraded documentation
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Performance improvement when scop1 is included in scop2. The operator will return scop1 without any transformation.
+
+  > 0.0.3: Improve membership-check performance.
 
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_property.md)
