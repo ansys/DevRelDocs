@@ -68,7 +68,7 @@ requested location Nodal, Elemental or ElementalNodal
 
 ### read_beams
 
-elemental nodal beam results are read if this pin is set to true (default is false)
+elemental nodal beam results are read if this pin is set to true (default is true)
 
 **Type:** *LinkableInput*
 

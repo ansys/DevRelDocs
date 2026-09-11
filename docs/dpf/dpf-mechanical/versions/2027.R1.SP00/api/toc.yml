@@ -527,6 +527,8 @@
       href: Ans.DataProcessing/operators/math/matrix_product.md
     - name: matrix_product_fc
       href: Ans.DataProcessing/operators/math/matrix_product_fc.md
+    - name: mechanical_min_max_over_time
+      href: Ans.DataProcessing/operators/math/mechanical_min_max_over_time.md
     - name: minus
       href: Ans.DataProcessing/operators/math/minus.md
     - name: minus_fc
@@ -632,11 +634,6 @@
       href: Ans.DataProcessing/operators/math/hdf5/topo/elemental_density.md
     - name: nodal_density
       href: Ans.DataProcessing/operators/math/hdf5/topo/nodal_density.md
-  - name: math.mechanical
-    href: Ans.DataProcessing/operators/math/mechanical/index.md
-    items:
-    - name: min_max_over_time
-      href: Ans.DataProcessing/operators/math/mechanical/min_max_over_time.md
   - name: mesh
     href: Ans.DataProcessing/operators/mesh/index.md
     items:
@@ -894,6 +891,8 @@
       href: Ans.DataProcessing/operators/result/compute_total_strain_YZ.md
     - name: compute_total_strain_Z
       href: Ans.DataProcessing/operators/result/compute_total_strain_Z.md
+    - name: contact_element_heat_flow
+      href: Ans.DataProcessing/operators/result/contact_element_heat_flow.md
     - name: contact_fluid_penetration_pressure
       href: Ans.DataProcessing/operators/result/contact_fluid_penetration_pressure.md
     - name: contact_friction_stress
@@ -912,6 +911,8 @@
       href: Ans.DataProcessing/operators/result/contact_surface_heat_flux.md
     - name: contact_total_stress
       href: Ans.DataProcessing/operators/result/contact_total_stress.md
+    - name: convection_heat_flow_rate
+      href: Ans.DataProcessing/operators/result/convection_heat_flow_rate.md
     - name: coordinate_system
       href: Ans.DataProcessing/operators/result/coordinate_system.md
     - name: coordinates
@@ -1222,8 +1223,6 @@
       href: Ans.DataProcessing/operators/result/mapdl_material_properties.md
     - name: mapdl_section
       href: Ans.DataProcessing/operators/result/mapdl_section.md
-    - name: mapdl_split_on_facet_indices
-      href: Ans.DataProcessing/operators/result/mapdl_split_on_facet_indices.md
     - name: mapdl_split_to_acmo_facet_indices
       href: Ans.DataProcessing/operators/result/mapdl_split_to_acmo_facet_indices.md
     - name: mass_flow_rate
@@ -1368,8 +1367,12 @@
       href: Ans.DataProcessing/operators/result/pretension.md
     - name: prns_to_field
       href: Ans.DataProcessing/operators/result/prns_to_field.md
+    - name: prrs_to_field
+      href: Ans.DataProcessing/operators/result/prrs_to_field.md
     - name: radiation_area
       href: Ans.DataProcessing/operators/result/radiation_area.md
+    - name: radiation_heat_flow_rate
+      href: Ans.DataProcessing/operators/result/radiation_heat_flow_rate.md
     - name: raw_acceleration
       href: Ans.DataProcessing/operators/result/raw_acceleration.md
     - name: raw_displacement
@@ -1540,6 +1543,30 @@
       href: Ans.DataProcessing/operators/result/total_pressure.md
     - name: total_strain
       href: Ans.DataProcessing/operators/result/total_strain.md
+    - name: total_strain_X
+      href: Ans.DataProcessing/operators/result/total_strain_X.md
+    - name: total_strain_XY
+      href: Ans.DataProcessing/operators/result/total_strain_XY.md
+    - name: total_strain_XZ
+      href: Ans.DataProcessing/operators/result/total_strain_XZ.md
+    - name: total_strain_Y
+      href: Ans.DataProcessing/operators/result/total_strain_Y.md
+    - name: total_strain_YZ
+      href: Ans.DataProcessing/operators/result/total_strain_YZ.md
+    - name: total_strain_Z
+      href: Ans.DataProcessing/operators/result/total_strain_Z.md
+    - name: total_strain_eqv
+      href: Ans.DataProcessing/operators/result/total_strain_eqv.md
+    - name: total_strain_intensity
+      href: Ans.DataProcessing/operators/result/total_strain_intensity.md
+    - name: total_strain_max_shear
+      href: Ans.DataProcessing/operators/result/total_strain_max_shear.md
+    - name: total_strain_principal_1
+      href: Ans.DataProcessing/operators/result/total_strain_principal_1.md
+    - name: total_strain_principal_2
+      href: Ans.DataProcessing/operators/result/total_strain_principal_2.md
+    - name: total_strain_principal_3
+      href: Ans.DataProcessing/operators/result/total_strain_principal_3.md
     - name: total_temperature
       href: Ans.DataProcessing/operators/result/total_temperature.md
     - name: transform_invariant_terms_rbd
@@ -1579,8 +1606,12 @@
     items:
     - name: adapt_with_scopings_container
       href: Ans.DataProcessing/operators/scoping/adapt_with_scopings_container.md
+    - name: adapt_with_scopings_container_pfc
+      href: Ans.DataProcessing/operators/scoping/adapt_with_scopings_container_pfc.md
     - name: change_fc
       href: Ans.DataProcessing/operators/scoping/change_fc.md
+    - name: change_pfc
+      href: Ans.DataProcessing/operators/scoping/change_pfc.md
     - name: compute_element_centroids
       href: Ans.DataProcessing/operators/scoping/compute_element_centroids.md
     - name: connectivity_ids
@@ -1844,6 +1875,8 @@
       href: Ans.DataProcessing/operators/utility/strain_from_voigt.md
     - name: strain_from_voigt_fc
       href: Ans.DataProcessing/operators/utility/strain_from_voigt_fc.md
+    - name: transpose_fields_container
+      href: Ans.DataProcessing/operators/utility/transpose_fields_container.md
     - name: txt_file_to_dpf
       href: Ans.DataProcessing/operators/utility/txt_file_to_dpf.md
     - name: unitary_field

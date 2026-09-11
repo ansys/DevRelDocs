@@ -60,7 +60,7 @@ to compute progress while a workflow is running.
 
 * **tag**
 
-#### Connect(inputPinName: str, value: BaseOperator) -> None
+#### Connect(inputPinName: str, value: list) -> None
 
 **Parameters:**
 
@@ -113,6 +113,12 @@ to compute progress while a workflow is running.
 
 * **outputPinName**
 
+#### GetOutputAsDoubleCollection(outputPinName: str) -> Collection
+
+**Parameters:**
+
+* **outputPinName**
+
 #### GetOutputAsField(outputPinName: str) -> Field
 
 **Parameters:**
@@ -132,6 +138,12 @@ to compute progress while a workflow is running.
 * **outputPinName**
 
 #### GetOutputAsInt(outputPinName: str) -> int
+
+**Parameters:**
+
+* **outputPinName**
+
+#### GetOutputAsIntCollection(outputPinName: str) -> Collection
 
 **Parameters:**
 

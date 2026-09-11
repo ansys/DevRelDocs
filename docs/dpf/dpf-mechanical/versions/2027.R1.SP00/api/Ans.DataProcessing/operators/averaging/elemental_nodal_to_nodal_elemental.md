@@ -8,7 +8,7 @@ Transforms an Elemental Nodal field to Nodal Elemental. The result is computed o
 
 available inputs: `field` (Field, FieldsContainer), `mesh_scoping` (Scoping) (optional)
 
-available outputs: `field` (Field)
+available outputs: `field` (Field), `node_scoping` (Scoping), `element_scoping` (Scoping)
 
 **DPF Framework Reference:** [elemental_nodal_to_nodal_elemental operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/averaging/elemental_nodal_to_nodal_elemental.md)
 
@@ -36,11 +36,27 @@ field or fields container with only one field is expected
 
 ### mesh_scoping
 
+Optional nodal scoping filter.
+
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### field
+
+Nodal elemental field containing one record for each connected element at each selected node.
+
+**Type:** *LinkableOutput*
+
+### node_scoping
+
+Nodal scoping aligned with output field records.
+
+**Type:** *LinkableOutput*
+
+### element_scoping
+
+Elemental scoping aligned with output field records.
 
 **Type:** *LinkableOutput*
 

@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.concatenate_fields
 ---
 
-# *class* concatenate_fields(rescoping_value: object = None, reference_scoping_index: object = None, field_support: object = None, config: OperatorConfig = None)
+# *class* concatenate_fields(ignore_empty: object = None, rescoping_value: object = None, reference_scoping_index: object = None, field_support: object = None, config: OperatorConfig = None)
 
 Concatenates fields into a unique one by incrementing the number of components.
 
@@ -14,7 +14,7 @@ Example:
 
 - Output field : { UX, UY, UZ, RX, RY, RZ }
 
-available inputs: `rescoping_value` (double) (optional), `reference_scoping_index` (Int32) (optional), `field_support` (AbstractFieldSupport) (optional), `fields1` (), `fields2` ()
+available inputs: `ignore_empty` (bool) (optional), `rescoping_value` (double) (optional), `reference_scoping_index` (Int32) (optional), `field_support` (AbstractFieldSupport) (optional), `fields1` (), `fields2` ()
 
 available outputs: `merged_fields` (Field)
 
@@ -22,6 +22,7 @@ available outputs: `merged_fields` (Field)
 
 **Parameters:**
 
+* **ignore_empty**
 * **rescoping_value**
 * **reference_scoping_index**
 * **field_support**
@@ -32,10 +33,14 @@ available outputs: `merged_fields` (Field)
 ```python
 op = concatenate_fields()
 
-op = concatenate_fields(rescoping_value=my_rescoping_value,reference_scoping_index=my_reference_scoping_index,field_support=my_field_support)
+op = concatenate_fields(ignore_empty=my_ignore_empty,rescoping_value=my_rescoping_value,reference_scoping_index=my_reference_scoping_index,field_support=my_field_support)
 ```
 
 ## Inputs
+
+### ignore_empty
+
+**Type:** *LinkableInput*
 
 ### rescoping_value
 
