@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 15)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 15)
 
 
 
@@ -28,9 +28,11 @@
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn::construct(IDispatch *modelCenter, IDispatch *addToModel, [defaultvalue(NULL)]IDispatch *dataCollector)
 ```
+
 
 
 
@@ -55,9 +57,11 @@ void TradeStudyPlugIn::ITradeStudyPlugIn::construct(IDispatch *modelCenter, IDis
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudyPlugIn::show()
 ```
+
 
 
 
@@ -76,9 +80,11 @@ boolean TradeStudyPlugIn::ITradeStudyPlugIn::show()
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudyPlugIn::toString()
 ```
+
 
 
 
@@ -97,9 +103,11 @@ BSTR TradeStudyPlugIn::ITradeStudyPlugIn::toString()
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn::fromString(BSTR setupString)
 ```
+
 
 
 
@@ -117,6 +125,6 @@ void TradeStudyPlugIn::ITradeStudyPlugIn::fromString(BSTR setupString)
 
 * [fromString](interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2.md#interfaceTradeStudyPlugIn_1_1ITradeStudyPlugIn2_1a3dd50d2ce70b8e0534dd9be60e9bec5c)
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

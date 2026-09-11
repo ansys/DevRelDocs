@@ -56,9 +56,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IReferenceVariable::hasChanged
 ```
+
 
 
 
@@ -75,9 +77,11 @@ boolean ModelCenter::IReferenceVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IReferenceVariable::hide
 ```
+
 
 
 
@@ -94,9 +98,11 @@ boolean ModelCenter::IReferenceVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::OwningComponent
 ```
+
 
 
 
@@ -113,9 +119,11 @@ LPDISPATCH ModelCenter::IReferenceVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 double ModelCenter::IReferenceVariable::value
 ```
+
 
 
 
@@ -132,9 +140,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IReferenceVariable::reference
 ```
+
 
 
 
@@ -151,9 +161,11 @@ Reference of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IReferenceVariable::referencedVariables
 ```
+
 
 
 
@@ -170,9 +182,11 @@ Gets the referenced variables.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IReferenceVariable::referencedVariable
 ```
+
 
 
 
@@ -189,9 +203,11 @@ Gets the referenced variable. Convenience method for if there is only one refere
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceVariable::isValid()
 ```
+
 
 
 
@@ -217,9 +233,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceVariable::validate()
 ```
+
 
 
 
@@ -236,9 +254,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceVariable::getName()
 ```
+
 
 
 
@@ -264,9 +284,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceVariable::getFullName()
 ```
+
 
 
 
@@ -292,9 +314,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceVariable::getType()
 ```
+
 
 
 
@@ -320,9 +344,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceVariable::isInput()
 ```
+
 
 
 
@@ -349,9 +375,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceVariable::toString()
 ```
+
 
 
 
@@ -377,9 +405,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -409,9 +439,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -437,9 +469,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceVariable::invalidate()
 ```
+
 
 
 
@@ -456,9 +490,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -495,9 +531,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -534,9 +572,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -571,9 +611,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -608,9 +650,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -647,9 +691,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -686,9 +732,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceVariable::isInputToComponent()
 ```
+
 
 
 
@@ -715,9 +763,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceVariable::isInputToModel()
 ```
+
 
 
 
@@ -744,9 +794,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -784,9 +836,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IReferenceVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -821,9 +875,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IReferenceVariable::createRefProp(BSTR name, BSTR type)
 ```
+
 
 
 
@@ -859,9 +915,11 @@ IDispatch* to an [IRefProp](interfaceModelCenter_1_1IRefProp.md#interfaceModelCe
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IReferenceVariable::getRefPropValue(BSTR name)
 ```
+
 
 
 
@@ -894,9 +952,11 @@ The value as a variant.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceVariable::setRefPropValue(BSTR name, BSTR value)
 ```
+
 
 
 
@@ -926,9 +986,11 @@ Sets the value of a specified reference property for the variable.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IReferenceVariable::getRefPropValueAbsolute(BSTR name)
 ```
+
 
 
 
@@ -956,6 +1018,6 @@ The value as a variant.
 
 **Return type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -6,9 +6,9 @@
 
 ## P
 
-* [PHXDATAHISTORYLib::DataHistoryVariableMetadata](classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata.md#classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata)
 * [PHXDATAEXPLORERLib::PHXDataExplorer](classPHXDATAEXPLORERLib_1_1PHXDataExplorer.md#classPHXDATAEXPLORERLib_1_1PHXDataExplorer)
 * [PHXDATAEXPLORERLib::PHXDataExplorerPointer](classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer.md#classPHXDATAEXPLORERLib_1_1PHXDataExplorerPointer)
+* [PHXDATAHISTORYLib::DataHistoryVariableMetadata](classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata.md#classPHXDATAHISTORYLib_1_1DataHistoryVariableMetadata)
 * [PHXDATAHISTORYLib::PHXDataHistory](classPHXDATAHISTORYLib_1_1PHXDataHistory.md#classPHXDATAHISTORYLib_1_1PHXDataHistory)
 
 ## T

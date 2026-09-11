@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_PlugInMetaData/PlugInMetaData.odl` (line 18)
+**Definition**: `ModelCenter/src/InterfaceDLL_PlugInMetaData/PlugInMetaData.odl` (line 18)
 
 
 
@@ -25,9 +25,11 @@
 
 ![][public]
 
+
 ```
 BSTR PlugInMetaData::IPlugInMetaData::getDescription()
 ```
+
 
 
 
@@ -42,9 +44,11 @@ BSTR PlugInMetaData::IPlugInMetaData::getDescription()
 
 ![][public]
 
+
 ```
 BSTR PlugInMetaData::IPlugInMetaData::getAuthor()
 ```
+
 
 
 
@@ -59,9 +63,11 @@ BSTR PlugInMetaData::IPlugInMetaData::getAuthor()
 
 ![][public]
 
+
 ```
 BSTR PlugInMetaData::IPlugInMetaData::getVersion()
 ```
+
 
 
 
@@ -76,9 +82,11 @@ BSTR PlugInMetaData::IPlugInMetaData::getVersion()
 
 ![][public]
 
+
 ```
 BSTR PlugInMetaData::IPlugInMetaData::getHelpURL()
 ```
+
 
 
 
@@ -93,9 +101,11 @@ BSTR PlugInMetaData::IPlugInMetaData::getHelpURL()
 
 ![][public]
 
+
 ```
 BSTR PlugInMetaData::IPlugInMetaData::getKeywords()
 ```
+
 
 
 
@@ -110,6 +120,7 @@ BSTR PlugInMetaData::IPlugInMetaData::getKeywords()
 
 ![][public]
 
+
 ```
 BSTR PlugInMetaData::IPlugInMetaData::getIconLocation()
 ```
@@ -120,8 +131,9 @@ BSTR PlugInMetaData::IPlugInMetaData::getIconLocation()
 
 
 
+
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

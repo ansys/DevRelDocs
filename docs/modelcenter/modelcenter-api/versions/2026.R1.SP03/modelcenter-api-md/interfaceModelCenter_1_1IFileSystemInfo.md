@@ -27,9 +27,11 @@ Represents an object in a structured file system. Can represent a local file, a 
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileSystemInfo::isValid
 ```
+
 
 
 
@@ -46,9 +48,11 @@ Indicates whether the object is valid.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileSystemInfo::exists
 ```
+
 
 
 
@@ -71,9 +75,11 @@ NOTE: other operations may fail or return default values if the object does not 
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IFileSystemInfo::isWritable
 ```
+
 
 
 
@@ -90,9 +96,11 @@ Indicates whether the object is writable (true) or read-only (false).
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileSystemInfo::baseName
 ```
+
 
 
 
@@ -115,9 +123,11 @@ For example, if this is readme.txt, version 2, this function will return "readme
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IFileSystemInfo::url
 ```
+
 
 
 
@@ -134,9 +144,11 @@ Get the full URL of the object as a string.
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IFileSystemInfo::pin(boolean forWrite, [optional] VARIANT forceCopy)
 ```
+
 
 
 
@@ -178,6 +190,6 @@ IDispatch* to an [ICachePin](interfaceModelCenter_1_1ICachePin.md#interfaceModel
 
 **Return type**: LPDISPATCH
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

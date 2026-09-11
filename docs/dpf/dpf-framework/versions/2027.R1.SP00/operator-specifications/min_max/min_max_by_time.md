@@ -10,7 +10,20 @@ license: None
 
 ## Description
 
-Evaluates minimum, maximum by time or frequency over all the entities of each field
+
+For each time or frequency step of the input fields container, computes the per-component minimum and maximum across all entities of the field at that step.
+
+Results exposed by component, collapsed by time, shell layers (when available).
+
+The result is grouped by all labels of the input fields container except `time`.
+For every remaining label combination, the output minimum (pin 0) and maximum (pin 1) each contain one field whose entity ids are the time or frequency step ids and whose values are the per-component minima and maxima at that step.
+
+If the input does not contain the `time` label, the input fields container is forwarded unchanged.
+
+**When to use:** you want to keep the time or frequency axis but reduce across entities, giving one per-component min/max value per step.
+Example: peak displacement across the mesh at every time step of a transient analysis.
+Use `min_max_over_time_by_entity` for the dual reduction (keep entities, collapse time), or `min_max_fc_inc` for the incremental variant.
+
 
 ## Inputs
 
@@ -30,7 +43,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Fields container aggregated per time or frequency step. Must expose the `time` label to trigger the aggregation; otherwise the input is forwarded unchanged.
 
 <a id="input_2"></a>
 ### compute_absolute_value (Pin 2)
@@ -38,7 +51,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Calculate the absolute value of field entities before computing the min/max.
+When set to `true`, absolute values of the field entries are used before the min and max are computed. Default: `false`.
 
 
 ## Outputs
@@ -58,14 +71,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Per-component minima grouped by all input labels except `time`. Within each output field, entity ids are the time or frequency step ids.
 
 <a id="output_1"></a>
 ### max (Pin 1)
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-
+Per-component maxima grouped by all input labels except `time`. Within each output field, entity ids are the time or frequency step ids.
 
 
 ## Configurations
@@ -97,9 +110,9 @@ This operator can be accessed through scripting interfaces using these identifie
 
  **Plugin**: core
 
- **Scripting name**: None
+ **Scripting name**: min_max_by_time
 
- **Full name**: None
+ **Full name**: min_max.min_max_by_time
 
  **Internal name**: min_max_by_time
 
@@ -130,7 +143,7 @@ ansys::dpf::FieldsContainer my_max = op.getOutput<ansys::dpf::FieldsContainer>(1
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_by_time() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.compute_absolute_value.connect(my_compute_absolute_value)
 my_min = op.outputs.min()
@@ -145,7 +158,7 @@ my_max = op.outputs.max()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.min_max.None() # operator instantiation
+op = dpf.operators.min_max.min_max_by_time() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.compute_absolute_value.Connect(my_compute_absolute_value)
 my_min = op.outputs.min.GetData()

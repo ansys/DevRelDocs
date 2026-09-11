@@ -51,9 +51,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BOOL ModelCenter::IDataCollector::isVisible
 ```
+
 
 
 
@@ -70,9 +72,11 @@ Determine if the data collector is visible
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::storeCurrentDesignPoint()
 ```
+
 
 
 
@@ -87,9 +91,11 @@ Stores the current Model values into the Data Collector as a run.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::enableGraphTab(BOOL flag)
 ```
+
 
 
 
@@ -117,9 +123,11 @@ Enables or disables the graph tab.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::show()
 ```
+
 
 
 
@@ -134,9 +142,11 @@ Displays the Data Collector GUI.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::addCustom(BSTR variable, BSTR label)
 ```
+
 
 
 
@@ -166,9 +176,11 @@ Adds a custom variable to the Data Collector.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::selectX(BSTR name)
 ```
+
 
 
 
@@ -196,9 +208,11 @@ Selects the x-axis variable for the Data Collector graph.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::selectY(BSTR name)
 ```
+
 
 
 
@@ -226,9 +240,11 @@ Selects a y-axis variable for the Data Collector graph. More than one y-axis var
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::setNumExpectedRuns(long numRuns)
 ```
+
 
 
 
@@ -256,9 +272,11 @@ Sets the range of the Data Collector progress meter.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::startRuns()
 ```
+
 
 
 
@@ -273,9 +291,11 @@ Informs the Data Collector that data is about to be collected.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::endRuns()
 ```
+
 
 
 
@@ -290,9 +310,11 @@ Informs the Data Collector that data collection is complete.
 
 ![][public]
 
+
 ```
 long ModelCenter::IDataCollector::getNumFailedRuns()
 ```
+
 
 
 
@@ -316,9 +338,11 @@ The number of failed runs.
 
 ![][public]
 
+
 ```
 int ModelCenter::IDataCollector::getErrorID(long run)
 ```
+
 
 
 
@@ -351,9 +375,11 @@ The error ID.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDataCollector::getErrorMessage(long run)
 ```
+
 
 
 
@@ -386,9 +412,11 @@ The error message.
 
 ![][public]
 
+
 ```
 long ModelCenter::IDataCollector::getNumRuns()
 ```
+
 
 
 
@@ -412,9 +440,11 @@ The number of runs.
 
 ![][public]
 
+
 ```
 long ModelCenter::IDataCollector::getNumVariables()
 ```
+
 
 
 
@@ -438,9 +468,11 @@ The number of variables.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IDataCollector::getValue(VARIANT index, long run)
 ```
+
 
 
 
@@ -475,9 +507,11 @@ The value.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IDataCollector::getVariableDescription(VARIANT index)
 ```
+
 
 
 
@@ -510,9 +544,11 @@ An IDispatch* to the description of the variable.
 
 ![][public]
 
+
 ```
 BOOL ModelCenter::IDataCollector::isValid(VARIANT index, long run)
 ```
+
 
 
 
@@ -547,9 +583,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::save(BSTR fileName, BSTR displayName, BSTR description, BSTR author, BOOL saveModel)
 ```
+
 
 
 
@@ -585,9 +623,11 @@ Saves the data to a .pxt(ModelCenter Trade Study) file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::exportToCSV(BSTR fileName)
 ```
+
 
 
 
@@ -615,9 +655,11 @@ Saves the Data Collector data as a comma separated list of values.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IDataCollector::toString()
 ```
+
 
 
 
@@ -641,9 +683,11 @@ Converted value of the Data Collector as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::fromString(BSTR str)
 ```
+
 
 
 
@@ -671,9 +715,11 @@ Restores the Data Collector data and setup from a string.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IDataCollector::getDataExplorer()
 ```
+
 
 
 
@@ -697,9 +743,11 @@ An IDispatch* to a IDataExplorer object.
 
 ![][public]
 
+
 ```
 void ModelCenter::IDataCollector::hide()
 ```
+
 
 
 
@@ -716,9 +764,11 @@ Hides the Data Collector.
 
 ![][private]
 
+
 ```
 void ModelCenter::IDataCollector::enableCarpetPlotTab(BSTR var1, BSTR var2, BSTR plotVar)
 ```
+
 
 
 
@@ -739,9 +789,11 @@ void ModelCenter::IDataCollector::enableCarpetPlotTab(BSTR var1, BSTR var2, BSTR
 
 ![][private]
 
+
 ```
 void ModelCenter::IDataCollector::storeCustomDesignPoint(IDispatch *customDesignPoint)
 ```
+
 
 
 
@@ -760,9 +812,11 @@ void ModelCenter::IDataCollector::storeCustomDesignPoint(IDispatch *customDesign
 
 ![][private]
 
+
 ```
 void ModelCenter::IDataCollector::createEmptyRuns(long numEmptyRuns)
 ```
+
 
 
 
@@ -781,9 +835,11 @@ void ModelCenter::IDataCollector::createEmptyRuns(long numEmptyRuns)
 
 ![][private]
 
+
 ```
 void ModelCenter::IDataCollector::setCustomRun(long index, IDispatch *customDesignPoint)
 ```
+
 
 
 
@@ -803,9 +859,11 @@ void ModelCenter::IDataCollector::setCustomRun(long index, IDispatch *customDesi
 
 ![][private]
 
+
 ```
 IDispatch * ModelCenter::IDataCollector::newCustomDesignPoint()
 ```
+
 
 
 
@@ -820,6 +878,7 @@ IDispatch * ModelCenter::IDataCollector::newCustomDesignPoint()
 
 ![][private]
 
+
 ```
 void ModelCenter::IDataCollector::enableMainEffectsTab()
 ```
@@ -830,8 +889,9 @@ void ModelCenter::IDataCollector::enableMainEffectsTab()
 
 
 
+
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

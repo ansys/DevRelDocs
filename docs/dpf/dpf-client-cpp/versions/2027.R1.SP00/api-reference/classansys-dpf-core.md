@@ -26,7 +26,6 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 * [assertInstantiate](classansys-dpf-core.md#classansys-dpf-core-1ac729e14b3132c112e50982614be304aa)
 * [availableOperators](classansys-dpf-core.md#classansys-dpf-core-1a4ff73d65cea2aa6f69436ec673cb8934)
 * [availableOperators](classansys-dpf-core.md#classansys-dpf-core-1aca0296747cd46c61c955b8cdaa1ed16f)
-* [clearStepIndex](classansys-dpf-core.md#classansys-dpf-core-1a03d79f5bc63307fe5e39ba2d135dc7e7)
 * [connectToFbsServer](classansys-dpf-core.md#classansys-dpf-core-1a8db49a31a767102e225f9b0de89aabc1)
 * [connectToFbsServer](classansys-dpf-core.md#classansys-dpf-core-1af59369ee9906684fed5f2deab51d6c78)
 * [copyTo](classansys-dpf-core.md#classansys-dpf-core-1af26687fad53552d2263864bc46f935c8)
@@ -41,8 +40,6 @@ Groups all DataProcessingFramework core controls and utilities, like loading the
 * [getRuntimeCoreConfig](classansys-dpf-core.md#classansys-dpf-core-1a26d52ede300647e78b0a538690e5ffb8)
 * [getServerVersion](classansys-dpf-core.md#classansys-dpf-core-1ae3472a9ced3aff887f623d3a46943d5d)
 * [getServerVersionFull](classansys-dpf-core.md#classansys-dpf-core-1a816f74283747eb9906949dfe61af99d8)
-* [getStepIndexCurrentMemory](classansys-dpf-core.md#classansys-dpf-core-1a1f019bb156aafda8b39610dfabaf6495)
-* [getStepIndexOperatorStatuses](classansys-dpf-core.md#classansys-dpf-core-1a433263d40e0819e0c93009abe04184ca)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1addc032f5882185bcf940ce7adf293327)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1aa9921dd047827c618f977e01ee088694)
 * [loadDpfPlugin](classansys-dpf-core.md#classansys-dpf-core-1a74f7e10fc172292bc61582304787c30f)
@@ -1520,88 +1517,6 @@ Fills all version components of the In-Process server.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getServerVersionFull"}]}`
--->
-
-<a id="classansys-dpf-core-1a1f019bb156aafda8b39610dfabaf6495"></a>
-### Function getStepIndexCurrentMemory
-
-![][public]
-![][static]
-
-
-```cpp
-static int ansys::dpf::core::getStepIndexCurrentMemory()
-```
-
-
-
-
-**Returns**:
-
-Current heap memory (in MB) held by the workflow step index.
-
-
-
-**Return type**: int
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getStepIndexCurrentMemory"}]}`
--->
-
-<a id="classansys-dpf-core-1a433263d40e0819e0c93009abe04184ca"></a>
-### Function getStepIndexOperatorStatuses
-
-![][public]
-![][static]
-
-
-```cpp
-static GenericDataContainer ansys::dpf::core::getStepIndexOperatorStatuses()
-```
-
-
-
-
-**Returns**:
-
-A GenericDataContainer with operator statuses from the workflow step index. Keys are "opName_opId", values are int (E_OperatorState).
-
-
-
-**Return type**: GenericDataContainer
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::getStepIndexOperatorStatuses"}]}`
--->
-
-<a id="classansys-dpf-core-1a03d79f5bc63307fe5e39ba2d135dc7e7"></a>
-### Function clearStepIndex
-
-![][public]
-![][static]
-
-
-```cpp
-static void ansys::dpf::core::clearStepIndex()
-```
-
-
-Clears all entries from the workflow step index.
-
-
-
-
-
-**Return type**: void
-
-<!--
-**TODO**:
-
-* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::core::clearStepIndex"}]}`
 -->
 
 <a id="classansys-dpf-core-1af26687fad53552d2263864bc46f935c8"></a>

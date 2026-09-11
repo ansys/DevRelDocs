@@ -12,3 +12,5 @@
       href: global_index.md
     - name: Files
       href: file_index.md
+- name: Changelog
+  href: changelog.md

@@ -8,7 +8,7 @@ The following name-value pairs can be contained in the file:
 |----------------------------|------------------|
 | Name                       | Specifies a distinct display name. |
 | Maturity                   | Specifies the level of development. Allowed values are `Beta`, `Stable`, and `Deprecated`. |
-| ScriptInterfaceVersion     | Specifies the version of the script interface. In the current optiSLang version, interface version 3 is the recommended choice for all node types. |
+| ScriptInterfaceVersion     | Specifies the version of the script interface and provides backwards compatibilty. Ensure this variable is set to the version of the current optiSLang release(i.e 2710). Defaults to a legacy version of the API. |
 | EnableParallel             | Allows parallel execution of multiple instances of the integration. Allowed values are `true` and `false`.<br>Related default property values can be `MaxParallel` for the number of processes to be started in parallel and `DelayBetweenExecutions` in `[ms]` for the time interval between process calls (see `DefaultPropertiesValues`). |
 | EnableMultiDesignMode      | Enables multiple designs being passed to script at once. Allowed values are `true` and `false`.<br>A related default property value can be `MultiDesignLaunchNum` for the number of designs sent to each process at once (see `DefaultPropertiesValues`). |
 | PythonPath                 | List of search directories. Separate different paths using `;` on Windows or `:` on Linux. |

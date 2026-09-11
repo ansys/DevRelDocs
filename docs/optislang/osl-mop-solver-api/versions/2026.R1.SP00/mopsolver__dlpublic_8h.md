@@ -4,25 +4,17 @@
 
 **Location**: `mopsolver_dlpublic.h`
 
-
-
-
-
 ## Includes
 
 * dlvisibility.h
 
-
 ```mermaid
-graph LR
-1["mopsolver_dlpublic.h"]
-click 1 "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
-1 --> 2
-
-2["dlvisibility.h"]
-
+flowchart LR
+  n1["mopsolver_dlpublic.h"]
+  n2["dlvisibility.h"]
+  n1 --> n2
+  click n1 href "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
 ```
-
 
 ## Macros
 
@@ -31,20 +23,11 @@ click 1 "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
 
 ![][public]
 
-
 ```cpp
 #define DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC
 ```
 
-
-
-
-
-
-
-
 ## Source
-
 
 ```cpp
 // $Id:  $
@@ -66,7 +49,6 @@ click 1 "mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h"
 
 #endif // __MOPSOLVER_DLPUBLIC_H__
 ```
-
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

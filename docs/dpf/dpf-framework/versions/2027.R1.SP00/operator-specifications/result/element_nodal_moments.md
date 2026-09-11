@@ -39,8 +39,13 @@ Read/compute element nodal moments by calling the readers defined by the datasou
 | 9       | Shell with 2 results across thickness (top/bottom) |
 | 10      | Shell with 3 results across thickness (top/bottom/mid) |
 | 11      | Gasket          |
-| 12      | Multi-Point Constraint |
+| 12      | Joint |
 | 13      | Pretension      |
+| 14      | Layered      |
+| 15      | ThickShell      |
+| 16      | Target      |
+| 17      | Plane      |
+| 18      | Pipe      |
 element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
 ## Inputs
@@ -171,7 +176,7 @@ angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-elemental nodal beam results are read if this pin is set to true (default is false)
+elemental nodal beam results are read if this pin is set to true (default is true)
 
 <a id="input_26"></a>
 ### split_shells (Pin 26)

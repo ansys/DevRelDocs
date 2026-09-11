@@ -32,9 +32,11 @@ An interface which represents a Data Explorer Page. An object must implement thi
 
 ![][public]
 
+
 ```
 LPDISPATCH PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getDataHistory()
 ```
+
 
 
 
@@ -52,9 +54,11 @@ The IDispatch of the associated Data History object.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setDataHistory(LPDISPATCH dataHistory)
 ```
+
 
 
 
@@ -76,9 +80,11 @@ Passes the associated Data History for this page.
 
 ![][public]
 
+
 ```
 LPDISPATCH PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getModelCenter()
 ```
+
 
 
 
@@ -96,9 +102,11 @@ The associated ModelCenter object.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setModelCenter(LPDISPATCH modelCenter)
 ```
+
 
 
 
@@ -120,9 +128,11 @@ Passes the associated ModelCenter object for this Plug-In. Plug-Ins should not e
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getPageTitle()
 ```
+
 
 
 
@@ -140,9 +150,11 @@ The page title.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::PHXDataExplorerPlugIn::toString()
 ```
+
 
 
 
@@ -160,9 +172,11 @@ The string representation of the Plug-In.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::fromString(BSTR str)
 ```
+
 
 
 
@@ -190,9 +204,11 @@ Tells this Data Explorer Plug-In to load its state from the given string. This d
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getMenuItems(LPDISPATCH iPHXMenuItem)
 ```
+
 
 
 
@@ -220,9 +236,11 @@ The Plug-In should fill in the passed in object with any context dependent menu 
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::invokeMenuItem(long id)
 ```
+
 
 
 
@@ -250,9 +268,11 @@ Tells the Plug-In that the user is attempting to invoke a menu item related to t
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::PHXDataExplorerPlugIn::isMenuItemEnabled(long id)
 ```
+
 
 
 
@@ -285,9 +305,11 @@ True if valid/enabled, else false.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::PHXDataExplorerPlugIn::updateHint()
 ```
+
 
 
 
@@ -305,9 +327,11 @@ False if an exception is thrown, else true.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::PHXDataExplorerPlugIn::setStartContext(BSTR str)
 ```
+
 
 
 
@@ -329,9 +353,11 @@ Passes in the "context" in which this plug-in is being invoked. The context is t
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::PHXDataExplorerPlugIn::getThumbnail(BSTR hints)
 ```
+
 
 
 
@@ -359,6 +385,6 @@ The name of the file containing the thumbnail image.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -25,11 +25,22 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
+| <strong>-4</strong> | [ignore_empty](#input_-4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-3</strong> | [rescoping_value](#input_-3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-2</strong> | [reference_scoping_index](#input_-2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-1</strong> | [field_support](#input_-1) |  |`abstract_field_support` |
 | <strong>0</strong> | [fields](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<field>`](../../core-concepts/dpf-types.md#vector<field>) |
 
+
+<a id="input_-4"></a>
+### ignore_empty (Pin -4)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true, the empty fields will be ignored.
+ If false, they are merged depending on pins -2 and -3.
+Default is true.
 
 <a id="input_-3"></a>
 ### rescoping_value (Pin -3)
@@ -133,6 +144,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 #include "dpf_api.h"
 
 ansys::dpf::Operator op("merge::concatenate_fields"); // operator instantiation
+op.connect(-4, my_ignore_empty);
 op.connect(-3, my_rescoping_value);
 op.connect(-2, my_reference_scoping_index);
 op.connect(-1, my_field_support);
@@ -148,6 +160,7 @@ ansys::dpf::Field my_merged_fields = op.getOutput<ansys::dpf::Field>(0);
 import ansys.dpf.core as dpf
 
 op = dpf.operators.utility.concatenate_fields() # operator instantiation
+op.inputs.ignore_empty.connect(my_ignore_empty)
 op.inputs.rescoping_value.connect(my_rescoping_value)
 op.inputs.reference_scoping_index.connect(my_reference_scoping_index)
 op.inputs.field_support.connect(my_field_support)
@@ -165,6 +178,7 @@ import mech_dpf
 import Ans.DataProcessing as dpf
 
 op = dpf.operators.utility.concatenate_fields() # operator instantiation
+op.inputs.ignore_empty.Connect(my_ignore_empty)
 op.inputs.rescoping_value.Connect(my_rescoping_value)
 op.inputs.reference_scoping_index.Connect(my_reference_scoping_index)
 op.inputs.field_support.Connect(my_field_support)

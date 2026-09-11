@@ -28,9 +28,11 @@ COM instance of a Viz Constainer that allows basic access like show(), hide(), V
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IVizContainer::Visible
 ```
+
 
 
 
@@ -47,9 +49,11 @@ Indicates whether container is visible.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IVizContainer::HWnd
 ```
+
 
 
 
@@ -66,9 +70,11 @@ Returns the Hwnd for the container instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 6729)
 
+
 ```
 DataExplorer ModelCenter::IVizContainer::id
 ```
+
 
 
 
@@ -85,9 +91,11 @@ Returns the COM instance of IDataExplorerPlugIn implementation of the container.
 
 ![][public]
 
+
 ```
 void ModelCenter::IVizContainer::hide()
 ```
+
 
 
 
@@ -102,9 +110,11 @@ Hides the container. Does not remove or close it.
 
 ![][public]
 
+
 ```
 void ModelCenter::IVizContainer::show()
 ```
+
 
 
 
@@ -119,9 +129,11 @@ Displays the container and brings it to foreground.
 
 ![][public]
 
+
 ```
 void ModelCenter::IVizContainer::fileSaved()
 ```
+
 
 
 
@@ -136,9 +148,11 @@ Tell the container that the file was saved
 
 ![][public]
 
+
 ```
 void ModelCenter::IVizContainer::showAt(long top, long left, long width, long height, [optional] VARIANT state)
 ```
+
 
 
 
@@ -163,6 +177,6 @@ Displays the container at the given position in the given state.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

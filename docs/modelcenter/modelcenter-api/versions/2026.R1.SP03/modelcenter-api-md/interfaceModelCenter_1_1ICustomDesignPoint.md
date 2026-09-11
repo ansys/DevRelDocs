@@ -21,9 +21,11 @@ COM Instance.
 
 ![][public]
 
+
 ```
 void ModelCenter::ICustomDesignPoint::addVariable(BSTR name, BSTR equation, BOOL isNumeric, BOOL isValid, BOOL isInput, BSTR type, BSTR units, BSTR value)
 ```
+
 
 
 
@@ -65,9 +67,11 @@ Adds a variable to the custom design point.
 
 ![][public]
 
+
 ```
 void ModelCenter::ICustomDesignPoint::runFailed(BSTR reason)
 ```
+
 
 
 
@@ -90,6 +94,6 @@ Tells the Data Collector that this run failed.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

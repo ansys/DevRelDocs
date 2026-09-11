@@ -1,17 +1,5 @@
 # Contents
 
-* [mopsolver_api2_hash.h](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h) File
-  * [dmop2_hasSurrogate_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ad4aa958ad7c8a1eb959286c4d9cdf397) Function
-  * [dmop2_getDimensions_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a1326666114f1ecf8e6fb2ad07a72ddd7) Function
-  * [dmop2_solve_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a4929ca5056b60359e28a0bb7c6cbe96e) Function
-  * [dmop2_get_per_response_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a2d3b875b1f0ec869db28fb5f999d392d) Function
-  * [dmop2_getNames_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ab468ae8a256caca552c8abf0d4d18e10) Function
-  * [dmop2_getNamesWithDelimiter_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a2a4b40a9adf35856f02489404101e058) Function
-  * [dmop2_getInputBounds_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ad7c0916a10092d27e34e38ec4acf9eba) Function
-  * [dmop2_getInputBoundsPerParameter_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1aad9c265b0eac52300b93fb2a324ee8c8) Function
-  * [dmop2_getReferenceValuePerParameter_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ac985f8dfc5dde06b18e6869601b803f9) Function
-  * [dmop2_getCoPValuesPerResponse_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a527765dfcea54d60aeef2708a1e28401) Function
-  * [dmop2_getFilteredStatesPerResponse_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1abe1b3dd723cda1b61a7e4d2c4d06c0dd) Function
 * [mopsolver_api2.h](mopsolver__api2_8h.md#mopsolver__api2_8h) File
   * [dmop2_hasSurrogate](mopsolver__api2_8h.md#mopsolver__api2_8h_1aeb725607d79714dac00a68915c3b0173) Function
   * [dmop2_getDimensions](mopsolver__api2_8h.md#mopsolver__api2_8h_1ac1280ce7eec776cb615b9021dde4b49c) Function
@@ -24,8 +12,6 @@
   * [dmop2_getReferenceValuePerParameter](mopsolver__api2_8h.md#mopsolver__api2_8h_1aa37255246161c9b90c89f8fd546c801e) Function
   * [dmop2_getCoPValuesPerResponse](mopsolver__api2_8h.md#mopsolver__api2_8h_1a7812100fa3283c0d8a99ec20d7f150e3) Function
   * [dmop2_getFilteredStatesPerResponse](mopsolver__api2_8h.md#mopsolver__api2_8h_1a95cb0c5d1a7b4f7c9f2099525c843c1a) Function
-* [mopsolver_dlpublic.h](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h) File
-  * [DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710) Macro
 * [mopsolver_api2_shared.h](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h) File
   * [DMOP2_SOLVE_FLAG](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0b) Enumeration type
   * [SOLVE_EXTRAPOLATE](mopsolver__api2__shared_8h.md#mopsolver__api2__shared_8h_1a9d02108e77fa0ce32247bd4478fa2b0babdf84129bd1eddedb34a7cb60847a038) Enumerator
@@ -112,9 +98,22 @@
   * [dmop_get_version_str](mopsolver__api_8h.md#mopsolver__api_8h_1aef089009bf01e630485b835d28339b23) Function
   * [dmop_cleanup](mopsolver__api_8h.md#mopsolver__api_8h_1a1e20adf4d59744ee53958b84f6061f0c) Function
   * [dmop_set_paths_for_custom_interface](mopsolver__api_8h.md#mopsolver__api_8h_1a2efd4dcee48cfca4046498c55fb44dde) Function
-* [MOPSolver API Version 2](indexpage.md#indexpage) Page
+* [mopsolver_api2_hash.h](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h) File
+  * [dmop2_hasSurrogate_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ad4aa958ad7c8a1eb959286c4d9cdf397) Function
+  * [dmop2_getDimensions_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a1326666114f1ecf8e6fb2ad07a72ddd7) Function
+  * [dmop2_solve_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a4929ca5056b60359e28a0bb7c6cbe96e) Function
+  * [dmop2_get_per_response_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a2d3b875b1f0ec869db28fb5f999d392d) Function
+  * [dmop2_getNames_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ab468ae8a256caca552c8abf0d4d18e10) Function
+  * [dmop2_getNamesWithDelimiter_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a2a4b40a9adf35856f02489404101e058) Function
+  * [dmop2_getInputBounds_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ad7c0916a10092d27e34e38ec4acf9eba) Function
+  * [dmop2_getInputBoundsPerParameter_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1aad9c265b0eac52300b93fb2a324ee8c8) Function
+  * [dmop2_getReferenceValuePerParameter_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1ac985f8dfc5dde06b18e6869601b803f9) Function
+  * [dmop2_getCoPValuesPerResponse_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1a527765dfcea54d60aeef2708a1e28401) Function
+  * [dmop2_getFilteredStatesPerResponse_hash](mopsolver__api2__hash_8h.md#mopsolver__api2__hash_8h_1abe1b3dd723cda1b61a7e4d2c4d06c0dd) Function
 * [mopsolver_api_shared.h](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h) File
   * [DYNARDO_DLPUBLIC_SHARED_EXPORT](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1ae979a0ff1bc860330a2fa37a6a14ea0c) Macro
   * [DYNARDO_DLPUBLIC_SHARED_IMPORT](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1ab8539bb97d05941714dca90767399a6f) Macro
   * [DYNARDO_MOPSOLVER_DLPUBLIC](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1a773ff27005f9085333e0c17ea06c55ec) Macro
   * [DYNARDO_MOPSOLVER_API](mopsolver__api__shared_8h.md#mopsolver__api__shared_8h_1a79ee3a37f5ec39e0aea4b02170bee65f) Macro
+* [mopsolver_dlpublic.h](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h) File
+  * [DYNARDO_MOPSOLVER_INTERNAL_DLPUBLIC](mopsolver__dlpublic_8h.md#mopsolver__dlpublic_8h_1a20ec90e10cc7c073f025376fbcf54710) Macro

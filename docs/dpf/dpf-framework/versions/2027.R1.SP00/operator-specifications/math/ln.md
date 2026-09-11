@@ -68,6 +68,13 @@ This operator supports [configuration options](../../core-concepts/operator-conf
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
+### [permissive](../../core-concepts/operator-configurations.md#permissive)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, warning checks (like unit or data sizes) won't be done.
+
 
 
 ## Scripting

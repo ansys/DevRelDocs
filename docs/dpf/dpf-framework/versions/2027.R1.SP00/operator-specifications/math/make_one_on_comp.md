@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Takes the input field's scoping and creates a field full of zeros, except for the indexes from pin 1 that will hold 1.0.
+
+Returns a scalar field with the same scoping as the input field.
+All values are set to $0.0$, except for entity at index $k$ in the scoping (pin 1) where the value is set to $1.0$.
+This produces the standard basis vector $e_k$ over the input scoping.
+The output is always scalar (one component per entity), regardless of the input field's dimensionality.
+Note: $k$ is the zero-based iteration index within the field's scoping, not the entity ID.
+
 
 ## Inputs
 
@@ -30,7 +36,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Input field. Its scoping is used as the scoping of the output field.
 
 <a id="input_1"></a>
 ### scalar_int (Pin 1)
@@ -38,7 +44,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-
+Zero-based iteration index $k$ of the entity to set to $1.0$.
 
 
 ## Outputs
@@ -57,7 +63,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+Scalar output field (one component per entity) with the same scoping as the input. All values are $0.0$ except the entity at iteration index $k$ which holds $1.0$.
 
 
 ## Configurations

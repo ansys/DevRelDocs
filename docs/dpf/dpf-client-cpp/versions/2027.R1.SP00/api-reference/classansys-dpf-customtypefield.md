@@ -72,6 +72,8 @@ Holds data located on given entities (the [Field](classansys-dpf-field.md#classa
 * [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a42a4865d6dd7101dd937d4a5eaab5dfc)
 * [setSupport](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a3e2d48d20c6b045faab0618e89e004c3)
 * [support](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1ac395281a74f1a78df961f443a32648a1)
+* [typeName](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1abbdf64fde6abac6ded4815f89c5e17eb)
+* [unitarySize](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a8fc4cb48cf78f7ebfc2ca3ddb6da4c81)
 * [~CustomTypeField](classansys-dpf-customtypefield.md#classansys-dpf-customtypefield-1a07dba2c5b6fccedaa06182c3b2749b22)
 * [~DpfTypes](classansys-dpf-dpftypes.md#classansys-dpf-dpftypes-1ab7c83b6ea160c2b115e056f6c312112f)
 
@@ -1386,6 +1388,62 @@ tests the type of the [Field](classansys-dpf-field.md#classansys-dpf-field).
 
 * `templateparamlist {"type":"element","name":"templateparamlist","attributes":{},"children":[{"type":"text","text":"\n          "},{"type":"element","name":"param","attributes":{},"children":[{"type":"text","text":"\n            "},{"type":"element","name":"type","attributes":{},"children":[{"type":"text","text":"typename UnitaryDataType"}]},{"type":"text","text":"\n          "}]},{"type":"text","text":"\n        "}]}`
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::isOfUnitaryType"}]}`
+-->
+
+<a id="classansys-dpf-customtypefield-1abbdf64fde6abac6ded4815f89c5e17eb"></a>
+### Function typeName
+
+![][public]
+![][const]
+
+
+```cpp
+std::string ansys::dpf::CustomTypeField::typeName() const
+```
+
+
+
+
+**Returns**:
+
+Type of the data.
+
+
+
+**Return type**: std::string
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::typeName"}]}`
+-->
+
+<a id="classansys-dpf-customtypefield-1a8fc4cb48cf78f7ebfc2ca3ddb6da4c81"></a>
+### Function unitarySize
+
+![][public]
+![][const]
+
+
+```cpp
+dp_int ansys::dpf::CustomTypeField::unitarySize() const
+```
+
+
+
+
+**Returns**:
+
+Byte size of the data type.
+
+
+
+**Return type**: [dp_int](namespaceansys-dpf.md#namespaceansys-dpf-1a60d181a1f9d29cc7cc38b25dac4401f0)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::CustomTypeField::unitarySize"}]}`
 -->
 
 <a id="classansys-dpf-customtypefield-1ab2a21d596a016b4c26ca7c473bdeacbb"></a>

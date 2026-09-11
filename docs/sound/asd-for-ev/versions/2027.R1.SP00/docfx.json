@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "ASDforEV API 2027 R1",
+        "summary": "Describes the API to drive the Ansys Sound: ASDforEV application directly using the Open Sound Control Protocol (OSC) over the UDP network protocol",
+        "version": "2027 R1",
+        "product": "Ansys Sound",
+        "programming language": "OSC",
+        "physics": "Acoustics"
+      }
+    }
+ }

@@ -51,9 +51,11 @@ COM Instance
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IGeometryVariable::hasChanged
 ```
+
 
 
 
@@ -70,9 +72,11 @@ boolean ModelCenter::IGeometryVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IGeometryVariable::hide
 ```
+
 
 
 
@@ -89,9 +93,11 @@ boolean ModelCenter::IGeometryVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::OwningComponent
 ```
+
 
 
 
@@ -108,9 +114,11 @@ LPDISPATCH ModelCenter::IGeometryVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::value
 ```
+
 
 
 
@@ -127,9 +135,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::description
 ```
+
 
 
 
@@ -146,9 +156,11 @@ Description of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IGeometryVariable::isValid()
 ```
+
 
 
 
@@ -174,9 +186,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IGeometryVariable::validate()
 ```
+
 
 
 
@@ -193,9 +207,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::getName()
 ```
+
 
 
 
@@ -221,9 +237,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::getFullName()
 ```
+
 
 
 
@@ -249,9 +267,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::getType()
 ```
+
 
 
 
@@ -277,9 +297,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IGeometryVariable::isInput()
 ```
+
 
 
 
@@ -306,9 +328,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::toString()
 ```
+
 
 
 
@@ -334,9 +358,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IGeometryVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -366,9 +392,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGeometryVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -394,9 +422,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IGeometryVariable::invalidate()
 ```
+
 
 
 
@@ -413,9 +443,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -452,9 +484,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -491,9 +525,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -528,9 +564,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -565,9 +603,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -604,9 +644,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IGeometryVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -643,9 +685,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IGeometryVariable::isInputToComponent()
 ```
+
 
 
 
@@ -672,9 +716,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IGeometryVariable::isInputToModel()
 ```
+
 
 
 
@@ -701,9 +747,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IGeometryVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -741,9 +789,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IGeometryVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -778,9 +828,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 void ModelCenter::IGeometryVariable::setInitialValue(BSTR value)
 ```
+
 
 
 
@@ -803,6 +855,6 @@ Sets the initial value of the variable.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
