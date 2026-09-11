@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mapping.prepare_mechanical_native_mapping
 ---
 
-# *class* prepare_mechanical_native_mapping(source_mesh: object = None, target_mesh: object = None, target_mesh_scoping: object = None, html_report_path: object = None, threads_user_requested: object = None, shape_function_volumes_mapping: object = None, shape_function_surfaces_mapping: object = None, point_cloud_mapping: object = None, kriging_mapping: object = None, is_element_centroidal_data_mapping: object = None, projection_options: object = None, dynamic_coordinate_system: object = None, source_dimension: object = None, wb_external_data_info: object = None, target_dimension: object = None, config: OperatorConfig = None)
+# *class* prepare_mechanical_native_mapping(source_mesh: object = None, target_mesh: object = None, target_mesh_scoping: object = None, html_report_path: object = None, threads_user_requested: object = None, shape_function_volumes_mapping: object = None, shape_function_surfaces_mapping: object = None, point_cloud_mapping: object = None, kriging_mapping: object = None, is_element_centroidal_data_mapping: object = None, projection_options: object = None, dynamic_coordinate_system: object = None, source_dimension: object = None, wb_external_data_info: object = None, target_dimension: object = None, shell_offset_field: object = None, config: OperatorConfig = None)
 
 Prepares the interpolation weights for mapping source field data from a source mesh to a target mesh.
 
@@ -14,7 +14,7 @@ This operator must be used together with the associated `apply_mechanical_native
 
 For further details on the available algorithms and their settings, see the Ansys Mechanical help page on [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
-available inputs: `source_mesh` (MeshedRegion), `target_mesh` (MeshedRegion, Field), `target_mesh_scoping` (Scoping) (optional), `html_report_path` (string) (optional), `threads_user_requested` (Int32) (optional), `shape_function_volumes_mapping` (DataTree) (optional), `shape_function_surfaces_mapping` (DataTree) (optional), `point_cloud_mapping` (DataTree) (optional), `kriging_mapping` (DataTree) (optional), `is_element_centroidal_data_mapping` (bool) (optional), `projection_options` (DataTree) (optional), `dynamic_coordinate_system` (DataTree) (optional), `source_dimension` (string) (optional), `wb_external_data_info` (DataTree) (optional), `target_dimension` (string) (optional)
+available inputs: `source_mesh` (MeshedRegion), `target_mesh` (MeshedRegion, Field), `target_mesh_scoping` (Scoping) (optional), `html_report_path` (string) (optional), `threads_user_requested` (Int32) (optional), `shape_function_volumes_mapping` (DataTree) (optional), `shape_function_surfaces_mapping` (DataTree) (optional), `point_cloud_mapping` (DataTree) (optional), `kriging_mapping` (DataTree) (optional), `is_element_centroidal_data_mapping` (bool) (optional), `projection_options` (DataTree) (optional), `dynamic_coordinate_system` (DataTree) (optional), `source_dimension` (string) (optional), `wb_external_data_info` (DataTree) (optional), `target_dimension` (string) (optional), `shell_offset_field` (Field) (optional)
 
 available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `target_mesh` (MeshedRegion), `target_mesh_id` (Int32), `mapping_manager_data` (Any), `target_scoping` (Scoping), `prepare_output` (Any)
 
@@ -37,6 +37,7 @@ available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `targ
 * **source_dimension**
 * **wb_external_data_info**
 * **target_dimension**
+* **shell_offset_field**
 * **config**
 
 **Example:**
@@ -44,7 +45,7 @@ available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `targ
 ```python
 op = prepare_mechanical_native_mapping()
 
-op = prepare_mechanical_native_mapping(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_mesh_scoping=my_target_mesh_scoping,html_report_path=my_html_report_path,threads_user_requested=my_threads_user_requested,shape_function_volumes_mapping=my_shape_function_volumes_mapping,shape_function_surfaces_mapping=my_shape_function_surfaces_mapping,point_cloud_mapping=my_point_cloud_mapping,kriging_mapping=my_kriging_mapping,is_element_centroidal_data_mapping=my_is_element_centroidal_data_mapping,projection_options=my_projection_options,dynamic_coordinate_system=my_dynamic_coordinate_system,source_dimension=my_source_dimension,wb_external_data_info=my_wb_external_data_info,target_dimension=my_target_dimension)
+op = prepare_mechanical_native_mapping(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_mesh_scoping=my_target_mesh_scoping,html_report_path=my_html_report_path,threads_user_requested=my_threads_user_requested,shape_function_volumes_mapping=my_shape_function_volumes_mapping,shape_function_surfaces_mapping=my_shape_function_surfaces_mapping,point_cloud_mapping=my_point_cloud_mapping,kriging_mapping=my_kriging_mapping,is_element_centroidal_data_mapping=my_is_element_centroidal_data_mapping,projection_options=my_projection_options,dynamic_coordinate_system=my_dynamic_coordinate_system,source_dimension=my_source_dimension,wb_external_data_info=my_wb_external_data_info,target_dimension=my_target_dimension,shell_offset_field=my_shell_offset_field)
 ```
 
 ## Inputs
@@ -126,6 +127,12 @@ Default is empty. This data tree contains the Rigid & Analytical transformations
 ### target_dimension
 
 Default is empty string. The string contains either "2D" or "3D" which specifies the target dimension
+
+**Type:** *LinkableInput*
+
+### shell_offset_field
+
+Optional nodal field with 3 components per target node. Each value is the displacement from the midsurface node location to the shell mapping location (top/bottom per shell thickness factor), matching native External File target mesh offset behavior.
 
 **Type:** *LinkableInput*
 

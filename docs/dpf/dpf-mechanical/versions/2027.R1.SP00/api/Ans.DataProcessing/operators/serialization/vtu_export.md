@@ -4,15 +4,13 @@ uid: Ans.DataProcessing.operators.serialization.vtu_export
 
 # *class* vtu_export(directory: object = None, base_name: object = None, mesh: object = None, fields1: object = None, fields2: object = None, write_mode: object = None, as_point_cloud: object = None, export_faces: object = None, mesh_properties: object = None, config: OperatorConfig = None)
 
-Export DPF mesh and field data to **VTK Unstructured Grid (VTU)** format.
+vtu_export()
 
-Supports time-based data export (creates separate `.vtu` files per time step) and various output modes.
+vtu_export(directory: object, base_name: object, mesh: object, fields1: object, fields2: object, write_mode: object, as_point_cloud: object, export_faces: object, mesh_properties: object, config: OperatorConfig)
 
-Compatible with VTK/ParaView visualization tools.
+vtu_export(config: OperatorConfig)
 
-available inputs: `directory` (string), `base_name` (string) (optional), `mesh` (MeshedRegion), `fields1` (Field, FieldsContainer, PropertyField), `fields2` (Field, FieldsContainer, PropertyField), `write_mode` (string) (optional), `as_point_cloud` (bool) (optional), `export_faces` (bool) (optional), `mesh_properties` (StringField) (optional)
 
-available outputs: `path` (DataSources)
 
 **DPF Framework Reference:** [vtu_export operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/serialization/vtu_export.md)
 
@@ -28,14 +26,6 @@ available outputs: `path` (DataSources)
 * **export_faces**
 * **mesh_properties**
 * **config**
-
-**Example:**
-
-```python
-op = vtu_export()
-
-op = vtu_export(directory=my_directory,base_name=my_base_name,mesh=my_mesh,fields1=my_fields1,fields2=my_fields2,write_mode=my_write_mode,as_point_cloud=my_as_point_cloud,export_faces=my_export_faces,mesh_properties=my_mesh_properties)
-```
 
 ## Inputs
 

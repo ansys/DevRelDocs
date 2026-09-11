@@ -2,42 +2,36 @@
 uid: Ans.DataProcessing.operators.result.elemental_mass
 ---
 
-# *class* elemental_mass(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
+# *class* elemental_mass(time_scoping: object = None, streams_container: object = None, data_sources: object = None, config: OperatorConfig = None)
 
-elemental_mass()
+Computes elemental mass by multiplying elemental volume (ENG_VOL) by elemental density (DENS).
 
-elemental_mass(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+available inputs: `time_scoping` (Scoping, IList int, Int32, System.Collections.IEnumerable) (optional), `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources)
 
-elemental_mass(config: OperatorConfig)
-
-
+available outputs: `fields_container` (FieldsContainer)
 
 **DPF Framework Reference:** [elemental_mass operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/elemental_mass.md)
 
 **Parameters:**
 
 * **time_scoping**
-* **mesh_scoping**
+* **streams_container**
 * **data_sources**
 * **config**
+
+**Example:**
+
+```python
+op = elemental_mass()
+
+op = elemental_mass(time_scoping=my_time_scoping,streams_container=my_streams_container,data_sources=my_data_sources)
+```
 
 ## Inputs
 
 ### time_scoping
 
 time/freq values (use doubles or field), time/freq set ids (use ints or scoping) or time/freq step ids (use scoping with TimeFreq_steps location) required in output. To specify time/freq values at specific load steps, put a Field (and not a list) in input with a scoping located on "TimeFreq_steps". Linear time freq intrapolation is performed if the values are not in the result files and the data at the max time or freq is taken when time/freqs are higher than available time/freqs in result files. To get all data for all time/freq sets, connect an int with value -1.
-
-**Type:** *LinkableInput*
-
-### mesh_scoping
-
-nodes or elements scoping required in output. The output fields will be scoped on these node or element IDs. To figure out the ordering of the fields data, look at their scoping IDs as they might not be ordered as the input scoping was. The scoping's location indicates whether nodes or elements are asked for. Using scopings container allows you to split the result fields container into domains
-
-**Type:** *LinkableInput*
-
-### fields_container
-
-Fields container already allocated modified inplace
 
 **Type:** *LinkableInput*
 
@@ -53,15 +47,11 @@ result file path container, used if no streams are set
 
 **Type:** *LinkableInput*
 
-### mesh
-
-prevents from reading the mesh in the result files
-
-**Type:** *LinkableInput*
-
 ## Outputs
 
 ### fields_container
+
+Elemental mass fields container.
 
 **Type:** *LinkableOutput*
 

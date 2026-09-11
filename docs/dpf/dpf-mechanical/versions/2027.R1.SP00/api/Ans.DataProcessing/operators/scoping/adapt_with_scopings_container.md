@@ -31,7 +31,7 @@ op = adapt_with_scopings_container(field_or_fields_container=my_field_or_fields_
 
 ### field_or_fields_container
 
-Fields container to rescope, or a single field (which will be converted to a container)
+Fields container to rescope, or a single field (which will be converted to a container).
 
 **Type:** *LinkableInput*
 

@@ -19,7 +19,6 @@ uid: index
 - [Ans.DataProcessing.operators.math](Ans.DataProcessing/operators/math/index.md)
 - [Ans.DataProcessing.operators.math.hdf5](Ans.DataProcessing/operators/math/hdf5/index.md)
 - [Ans.DataProcessing.operators.math.hdf5.topo](Ans.DataProcessing/operators/math/hdf5/topo/index.md)
-- [Ans.DataProcessing.operators.math.mechanical](Ans.DataProcessing/operators/math/mechanical/index.md)
 - [Ans.DataProcessing.operators.mesh](Ans.DataProcessing/operators/mesh/index.md)
 - [Ans.DataProcessing.operators.metadata](Ans.DataProcessing/operators/metadata/index.md)
 - [Ans.DataProcessing.operators.min_max](Ans.DataProcessing/operators/min_max/index.md)

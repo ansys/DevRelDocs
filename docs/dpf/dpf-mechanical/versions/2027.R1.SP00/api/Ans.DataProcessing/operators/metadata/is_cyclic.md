@@ -30,7 +30,7 @@ op = is_cyclic(streams_container=my_streams_container,data_sources=my_data_sourc
 
 ### streams_container
 
-streams (result file container) (optional)
+Streams (result file container) (optional)
 
 **Type:** *LinkableInput*
 
@@ -44,7 +44,7 @@ If the stream is null, retrieves the file path from the data sources.
 
 ### file_path
 
-returns 'single_stage' or 'multi_stage' or an empty string for non cyclic model
+Returns 'single_stage' or 'multi_stage' or 'not_cyclic' or an empty string if the information is missing.
 
 **Type:** *LinkableOutput*
 

@@ -50,13 +50,13 @@ Fields container holding participation factors.
 
 ### mode_coefficients
 
-Fields container holding mode coefficients (PRS File).
+Fields container holding mode coefficients.
 
 **Type:** *LinkableOutput*
 
 ### damping_ratios
 
-Fields container holding damping ratios (PRS File).
+Fields container holding damping ratios.
 
 **Type:** *LinkableOutput*
 
