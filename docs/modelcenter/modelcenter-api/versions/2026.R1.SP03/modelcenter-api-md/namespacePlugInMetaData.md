@@ -2,7 +2,7 @@
 
 ![][IDL]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_PlugInMetaData/PlugInMetaData.odl` (line 7)
+**Definition**: `ModelCenter/src/InterfaceDLL_PlugInMetaData/PlugInMetaData.odl` (line 7)
 
 
 
@@ -19,9 +19,11 @@
 
 ![][public]
 
+
 ```
 PlugInMetaData::importlib("stdole32.tlb")
 ```
+
 
 
 
@@ -40,9 +42,11 @@ PlugInMetaData::importlib("stdole32.tlb")
 
 ![][public]
 
+
 ```
 PlugInMetaData::importlib("stdole2.tlb")
 ```
+
 
 
 
@@ -56,6 +60,6 @@ PlugInMetaData::importlib("stdole2.tlb")
 
 **Return type**: 
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

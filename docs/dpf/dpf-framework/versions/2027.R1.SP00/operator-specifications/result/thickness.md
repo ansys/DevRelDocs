@@ -2,6 +2,8 @@
 category: result
 plugin: core
 license: None
+namespaces:
+  hdf5: [h5dpf]
 ---
 
 # result:thickness
@@ -11,6 +13,12 @@ license: None
 ## Description
 
 Read/compute thickness by calling the readers defined by the datasources.
+
+## Supported file types
+
+This operator supports the following [result file types](../../index.md#overview-of-dpf) and associated file extensions:
+
+- hdf5: h5dpf 
 
 ## Inputs
 

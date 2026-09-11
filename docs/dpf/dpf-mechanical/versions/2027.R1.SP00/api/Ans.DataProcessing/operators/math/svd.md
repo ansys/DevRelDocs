@@ -4,7 +4,15 @@ uid: Ans.DataProcessing.operators.math.svd
 
 # *class* svd(fields_container: object = None, config: OperatorConfig = None)
 
-Computes the matrix singular value decomposition (SVD) for each field in the given fields container.
+Computes the [Singular Value Decomposition (SVD)](https://en.wikipedia.org/wiki/Singular_value_decomposition)
+
+$A = U \Sigma V^{*T}$ for each matrix field in the input fields container.
+
+Both real and complex matrices are supported.
+
+The decomposition satisfies $A = U S V^T$ (real) or $A = U S V^{*T}$ (complex),
+
+where $S$ contains the singular values, $U$ is left-unitary, and $V^T$ (or $V^{*T}$) is right-unitary.
 
 available inputs: `fields_container` (FieldsContainer)
 
@@ -29,7 +37,7 @@ op = svd(fields_container=my_fields_container)
 
 ### fields_container
 
-fields_container
+Fields container of matrix fields to decompose. May be real or complex (complex label required for complex inputs). Each field must represent a matrix.
 
 **Type:** *LinkableInput*
 
@@ -37,19 +45,19 @@ fields_container
 
 ### s_svd
 
-Singular values of the input data, where A=U.S.Vt
+Singular values $S$ of the decomposition $A = U S V^{*T}$. Same label structure as the input.
 
 **Type:** *LinkableOutput*
 
 ### u_svd
 
-U of the input data, where A=U.S.Vt
+Left unitary matrix $U$ of the decomposition $A = U S V^{*T}$. Same label structure as the input.
 
 **Type:** *LinkableOutput*
 
 ### vt_svd
 
-Vt of the input data, where A=U.S.Vt
+Conjugate transpose of the right unitary matrix $V^{*T}$ of the decomposition $A = U S V^{*T}$. Same label structure as the input.
 
 **Type:** *LinkableOutput*
 

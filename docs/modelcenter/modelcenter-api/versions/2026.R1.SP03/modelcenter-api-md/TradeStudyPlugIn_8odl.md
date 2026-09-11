@@ -2,7 +2,7 @@
 
 ![][IDL]
 
-**Location**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl`
+**Location**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl`
 
 
 
@@ -28,6 +28,7 @@
 * [TradeStudyPlugIn](namespaceTradeStudyPlugIn.md#namespaceTradeStudyPlugIn)
 
 ## Source
+
 
 ```
 // TradeStudyPlugIn.odl : type library source for TradeStudyPlugIn.dll
@@ -305,6 +306,7 @@ library TradeStudyPlugIn
 };
 ```
 
+
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

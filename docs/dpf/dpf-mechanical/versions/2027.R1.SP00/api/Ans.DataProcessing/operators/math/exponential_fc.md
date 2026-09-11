@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.math.exponential_fc
 ---
 
-# *class* exponential_fc(fields_container: object = None, config: OperatorConfig = None)
+# *class* exponential_fc(fields_container: object = None, apply_to_time_freq_support: object = None, config: OperatorConfig = None)
 
 Computes the entity-wise [exponential function](https://en.wikipedia.org/wiki/Exponential_function):
 
@@ -12,7 +12,7 @@ The input must be dimensionless; a dimensional input raises an error.
 
 The output is dimensionless.
 
-available inputs: `fields_container` (FieldsContainer)
+available inputs: `fields_container` (FieldsContainer), `apply_to_time_freq_support` (bool) (optional)
 
 available outputs: `fields_container` (FieldsContainer)
 
@@ -21,6 +21,7 @@ available outputs: `fields_container` (FieldsContainer)
 **Parameters:**
 
 * **fields_container**
+* **apply_to_time_freq_support**
 * **config**
 
 **Example:**
@@ -28,7 +29,7 @@ available outputs: `fields_container` (FieldsContainer)
 ```python
 op = exponential_fc()
 
-op = exponential_fc(fields_container=my_fields_container)
+op = exponential_fc(fields_container=my_fields_container,apply_to_time_freq_support=my_apply_to_time_freq_support)
 ```
 
 ## Inputs
@@ -36,6 +37,12 @@ op = exponential_fc(fields_container=my_fields_container)
 ### fields_container
 
 Dimensionless field, fields container, or numeric data.
+
+**Type:** *LinkableInput*
+
+### apply_to_time_freq_support
+
+Boolean value indicating if the exponential must be applied to the time/frequency values of the time/frequency support attached to the fields container (if present). Default to false.
 
 **Type:** *LinkableInput*
 

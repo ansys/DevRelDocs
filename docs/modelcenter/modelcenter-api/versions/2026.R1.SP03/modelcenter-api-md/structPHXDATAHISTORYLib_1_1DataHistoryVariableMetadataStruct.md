@@ -37,9 +37,11 @@ The [DataHistoryVariableMetadataStruct](structPHXDATAHISTORYLib_1_1DataHistoryVa
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 35)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::name
 ```
+
 
 
 
@@ -56,9 +58,11 @@ The name of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 39)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::isNumeric
 ```
+
 
 
 
@@ -75,9 +79,11 @@ true if the variable is numeric, false otherwise
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 43)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::isInput
 ```
+
 
 
 
@@ -94,9 +100,11 @@ true if the variable is an input, false otherwise
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 47)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::isBinary
 ```
+
 
 
 
@@ -113,9 +121,11 @@ true if file variable is a binary file, false otherwise
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 51)
 
+
 ```
 boolean PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::isDesignVar
 ```
+
 
 
 
@@ -132,9 +142,11 @@ true if the variable is a design variable, false otherwise
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 55)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::equation
 ```
+
 
 
 
@@ -151,9 +163,11 @@ The equation of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 59)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::format
 ```
+
 
 
 
@@ -170,9 +184,11 @@ The format of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 63)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::type
 ```
+
 
 
 
@@ -189,9 +205,11 @@ The type of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 67)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::units
 ```
+
 
 
 
@@ -208,9 +226,11 @@ The units of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 71)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::fileName
 ```
+
 
 
 
@@ -227,9 +247,11 @@ The filename of a file variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 75)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::geomScript
 ```
+
 
 
 
@@ -246,9 +268,11 @@ The geomScript of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 79)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::enumValues
 ```
+
 
 
 
@@ -265,9 +289,11 @@ comma separated list of enumerated values of variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 83)
 
+
 ```
 BSTR PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::enumAliases
 ```
+
 
 
 
@@ -284,9 +310,11 @@ comma separated list of enumerated aliases of variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 87)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::lowerBound
 ```
+
 
 
 
@@ -303,9 +331,11 @@ The lower bound of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 91)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::upperBound
 ```
+
 
 
 
@@ -322,9 +352,11 @@ The upper bound of the variable
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 95)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::customMetadata
 ```
+
 
 
 
@@ -334,6 +366,6 @@ VARIANT PHXDATAHISTORYLib::DataHistoryVariableMetadataStruct::customMetadata
 
 **Type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

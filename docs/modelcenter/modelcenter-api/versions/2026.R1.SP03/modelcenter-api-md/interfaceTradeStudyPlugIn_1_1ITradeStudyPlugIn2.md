@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 41)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 41)
 
 
 
@@ -36,11 +36,13 @@ COM Instance.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 LPDISPATCH TradeStudyPlugIn::ITradeStudyPlugIn2::TradeStudyCallback
 ```
+
 
 
 
@@ -55,11 +57,13 @@ Gets or sets the trade study callback object.
 
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 1)
+
 
 ```
 boolean TradeStudyPlugIn::ITradeStudyPlugIn2::saveAllAnalyzerVariables
 ```
+
 
 
 
@@ -82,9 +86,11 @@ NOTE: not fully supported in MC 10.2 - you can (and should) set this value as ap
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn2::construct(IDispatch *modelCenter, IDispatch *addToModel, [defaultvalue(NULL)]IDispatch *dataCollector)
 ```
+
 
 
 
@@ -117,9 +123,11 @@ Called when the plug-in is launched from [ModelCenter](namespaceModelCenter.md#n
 
 ![][public]
 
+
 ```
 boolean TradeStudyPlugIn::ITradeStudyPlugIn2::show()
 ```
+
 
 
 
@@ -145,9 +153,11 @@ false always
 
 ![][public]
 
+
 ```
 BSTR TradeStudyPlugIn::ITradeStudyPlugIn2::toString()
 ```
+
 
 
 
@@ -173,9 +183,11 @@ a string containing state information
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn2::fromString(BSTR setupString)
 ```
+
 
 
 
@@ -205,9 +217,11 @@ Called to restore the state of a plug-in
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn2::onEnd()
 ```
+
 
 
 
@@ -222,9 +236,11 @@ Called when the plug-in is about to be deleted. Informs the plug-in to do any ne
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn2::addAnalyzerVariable(BSTR formula, [optional]VARIANT analyzerName)
 ```
+
 
 
 
@@ -254,9 +270,11 @@ Call to add a variable from an analyzer product. If there are any analyzer varia
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyPlugIn2::clearAnalyzerVariables()
 ```
+
 
 
 
@@ -266,6 +284,6 @@ Remove all analyzer variables.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

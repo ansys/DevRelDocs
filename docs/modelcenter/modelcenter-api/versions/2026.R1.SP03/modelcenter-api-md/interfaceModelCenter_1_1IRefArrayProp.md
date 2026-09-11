@@ -27,9 +27,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::enumValues
 ```
+
 
 
 
@@ -46,9 +48,11 @@ Enumerated values of the reference array property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IRefArrayProp::isInput
 ```
+
 
 
 
@@ -65,9 +69,11 @@ Enumerated values of the reference array property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::title
 ```
+
 
 
 
@@ -84,9 +90,11 @@ Title of the reference array property.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::description
 ```
+
 
 
 
@@ -103,9 +111,11 @@ Description of the reference array property.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::getName()
 ```
+
 
 
 
@@ -129,9 +139,11 @@ The name of the reference array property.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IRefArrayProp::getType()
 ```
+
 
 
 
@@ -150,6 +162,6 @@ The type of the reference array property.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -75,9 +75,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IReferenceArray::hasChanged
 ```
+
 
 
 
@@ -94,9 +96,11 @@ boolean ModelCenter::IReferenceArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IReferenceArray::hide
 ```
+
 
 
 
@@ -113,9 +117,11 @@ boolean ModelCenter::IReferenceArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::OwningComponent
 ```
+
 
 
 
@@ -132,9 +138,11 @@ LPDISPATCH ModelCenter::IReferenceArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IReferenceArray::size
 ```
+
 
 
 
@@ -151,9 +159,11 @@ long ModelCenter::IReferenceArray::size
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IReferenceArray::numDimensions
 ```
+
 
 
 
@@ -170,9 +180,11 @@ long ModelCenter::IReferenceArray::numDimensions
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IReferenceArray::autoGrow
 ```
+
 
 
 
@@ -189,9 +201,11 @@ Whether or not the reference array is set to automatically grow.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5224)
 
+
 ```
 long ModelCenter::IReferenceArray::value
 ```
+
 
 
 
@@ -222,9 +236,11 @@ Value of an array element.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5231)
 
+
 ```
 double ModelCenter::IReferenceArray::value( long index)(long index)
 ```
+
 
 
 
@@ -251,9 +267,11 @@ Value of an array element.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5239)
 
+
 ```
 long ModelCenter::IReferenceArray::reference
 ```
+
 
 
 
@@ -284,9 +302,11 @@ Reference of an array element.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5246)
 
+
 ```
 BSTR ModelCenter::IReferenceArray::reference( long index)(long index)
 ```
+
 
 
 
@@ -313,9 +333,11 @@ Reference of an array element.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5307)
 
+
 ```
 long ModelCenter::IReferenceArray::referencedVariables
 ```
+
 
 
 
@@ -346,9 +368,11 @@ The references variables of the element.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 5316)
 
+
 ```
 long ModelCenter::IReferenceArray::referencedVariable
 ```
+
 
 
 
@@ -379,9 +403,11 @@ The reference variable of the index element.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceArray::isValid()
 ```
+
 
 
 
@@ -407,9 +433,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::validate()
 ```
+
 
 
 
@@ -426,9 +454,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::getName()
 ```
+
 
 
 
@@ -454,9 +484,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::getFullName()
 ```
+
 
 
 
@@ -482,9 +514,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::getType()
 ```
+
 
 
 
@@ -510,9 +544,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceArray::isInput()
 ```
+
 
 
 
@@ -539,9 +575,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::toString()
 ```
+
 
 
 
@@ -567,9 +605,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -601,9 +641,11 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::toStringAbsolute()
 ```
+
 
 
 
@@ -629,9 +671,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::invalidate()
 ```
+
 
 
 
@@ -648,9 +692,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -687,9 +733,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -726,9 +774,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -763,9 +813,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -800,9 +852,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -839,9 +893,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IReferenceArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -878,9 +934,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceArray::isInputToComponent()
 ```
+
 
 
 
@@ -907,9 +965,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IReferenceArray::isInputToModel()
 ```
+
 
 
 
@@ -936,9 +996,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -976,9 +1038,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IReferenceArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -1013,9 +1077,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::toStringEx(long index)
 ```
+
 
 
 
@@ -1050,9 +1116,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1084,9 +1152,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IReferenceArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1121,9 +1191,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IReferenceArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1158,9 +1230,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1192,9 +1266,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1242,9 +1318,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 double ModelCenter::IReferenceArray::getValue(int index)
 ```
+
 
 
 
@@ -1277,9 +1355,11 @@ The value.
 
 ![][public]
 
+
 ```
 double ModelCenter::IReferenceArray::setValue(double value, int index)
 ```
+
 
 
 
@@ -1314,9 +1394,11 @@ Sets the value of an array element.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IReferenceArray::createRefProp(BSTR name, BSTR type)
 ```
+
 
 
 
@@ -1352,9 +1434,11 @@ IDispatch* to an [IRefArrayProp](interfaceModelCenter_1_1IRefArrayProp.md#interf
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IReferenceArray::getRefPropValue(BSTR name, int index)
 ```
+
 
 
 
@@ -1389,9 +1473,11 @@ The value as a variant.
 
 ![][public]
 
+
 ```
 void ModelCenter::IReferenceArray::setRefPropValue(BSTR name, int index, BSTR value)
 ```
+
 
 
 
@@ -1423,9 +1509,11 @@ Sets the value of a specified reference property for an element in the array.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IReferenceArray::getRefPropValueAbsolute(BSTR name, int index)
 ```
+
 
 
 
@@ -1460,9 +1548,11 @@ The value as a variant.
 
 ![][public]
 
+
 ```
 double ModelCenter::IReferenceArray::getValueAbsolute(int index)
 ```
+
 
 
 
@@ -1490,6 +1580,6 @@ The reference value.
 
 **Return type**: double
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

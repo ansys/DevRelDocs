@@ -39,8 +39,13 @@ Read/compute element nodal equivalent component creep strains by calling the rea
 | 9       | Shell with 2 results across thickness (top/bottom) |
 | 10      | Shell with 3 results across thickness (top/bottom/mid) |
 | 11      | Gasket          |
-| 12      | Multi-Point Constraint |
+| 12      | Joint |
 | 13      | Pretension      |
+| 14      | Layered      |
+| 15      | ThickShell      |
+| 16      | Target      |
+| 17      | Plane      |
+| 18      | Pipe      |
 
 
 ## Inputs
@@ -126,7 +131,7 @@ requested location Nodal, Elemental or ElementalNodal
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-elemental nodal beam results are read if this pin is set to true (default is false)
+elemental nodal beam results are read if this pin is set to true (default is true)
 
 <a id="input_26"></a>
 ### split_shells (Pin 26)

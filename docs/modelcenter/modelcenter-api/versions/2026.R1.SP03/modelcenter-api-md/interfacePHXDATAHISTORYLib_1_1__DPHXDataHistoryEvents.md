@@ -1,4 +1,4 @@
-# Interface PHXDATAHISTORYLib::\_DPHXDataHistoryEvents
+# Interface PHXDATAHISTORYLib::_DPHXDataHistoryEvents
 
 ![][IDL]
 ![][public]
@@ -26,9 +26,11 @@ Events interface for [PHXDataHistory](classPHXDATAHISTORYLib_1_1PHXDataHistory.m
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::variablesChanged()
 ```
+
 
 
 
@@ -43,9 +45,11 @@ This event is called anytime Variables are added or removed.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterChange(long completed, long total)
 ```
+
 
 
 
@@ -75,9 +79,11 @@ This event is fired any time a new progress meter information is available, typi
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterStart()
 ```
+
 
 
 
@@ -92,9 +98,11 @@ This event is fired when startRuns is called.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterStop()
 ```
+
 
 
 
@@ -109,9 +117,11 @@ This event is fired when endRuns is called.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::dataChanged(long varIndex, long runIndex)
 ```
+
 
 
 
@@ -141,9 +151,11 @@ This event is fired any time any data item within the Data History is changed.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::progressMeterEstimate(long estimate)
 ```
+
 
 
 
@@ -171,9 +183,11 @@ This event is fired when the process attempts to determine how long the job is g
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::_DPHXDataHistoryEvents::highlightChanged(long runIndex, boolean highlight, boolean handleEvent)
 ```
+
 
 
 
@@ -194,6 +208,5 @@ This event is fired when a different run is selected.
 
 **Return type**: void
 
-[public]: https://img.shields.io/badge/-public-brightgreen (public)
-[private]: https://img.shields.io/badge/-private-red (private)
 [IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
+[public]: https://img.shields.io/badge/-public-brightgreen (public)

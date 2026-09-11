@@ -11,11 +11,10 @@ license: None
 ## Description
 
 
-Reads a named scalar material property (pin 6) for each element from result files.
-The property value is taken from the linear (constant) material data assigned to each element's material.
+Reads a material property for each element from result files.
+The operator first retrieves each element's material ID from the mesh property "mat",
+then maps the requested property name to the corresponding material value.
 The output is a scalar field at elemental location.
-If a default value is provided via pin 7, all elements receive that value unless the property exists for their material, in which case the material value takes precedence.
-If no default value is provided and filter_zero_values (pin 8) is true, elements whose property value is exactly zero are excluded from the output.
 
 
 ## Inputs
@@ -27,11 +26,9 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
+| <strong>3</strong> | [streams](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
+| <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
 | <strong>6</strong> | [property_name](#input_6) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>7</strong> | [default_value](#input_7) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>8</strong> | [filter_zero_values](#input_8) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_1"></a>
@@ -43,20 +40,20 @@ Each parameter is detailed in the sections that follow the table.
 Element scoping that restricts which elements are processed. If not provided, all elements in the result file are used.
 
 <a id="input_3"></a>
-### streams_container (Pin 3)
+### streams (Pin 3)
 
 - **Required:** No
 - **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
 
-Streams containing the result file. If provided, data_sources is ignored.
+result file container allowed to be kept open to cache data
 
 <a id="input_4"></a>
 ### data_sources (Pin 4)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
 
-Data sources used to open the result file when streams_container is not provided.
+result file path container, used if no streams are set
 
 <a id="input_6"></a>
 ### property_name (Pin 6)
@@ -65,22 +62,6 @@ Data sources used to open the result file when streams_container is not provided
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
 Name of the linear scalar material property to extract, for example "EX" for Young's modulus or "DENS" for density.
-
-<a id="input_7"></a>
-### default_value (Pin 7)
-
-- **Required:** No
-- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
-
-Scalar value assigned to elements whose material does not define the requested property. If not set, those elements are excluded from the output.
-
-<a id="input_8"></a>
-### filter_zero_values (Pin 8)
-
-- **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
-
-When true and no default_value is set, elements whose property value is exactly zero are excluded from the output. Defaults to false.
 
 
 ## Outputs
@@ -114,6 +95,20 @@ This operator supports [configuration options](../../core-concepts/operator-conf
 
 If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
 
+### [num_threads](../../core-concepts/operator-configurations.md#num_threads)
+
+- **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** 0
+
+Number of threads to use to run in parallel
+
+### [run_in_parallel](../../core-concepts/operator-configurations.md#run_in_parallel)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+Loops are allowed to run in parallel if the value of this config is set to true.
+
 
 
 ## Scripting
@@ -145,11 +140,9 @@ Each example shows how to instantiate the operator, connect the required inputs,
 
 ansys::dpf::Operator op("MaterialPropertyOfElement"); // operator instantiation
 op.connect(1, my_mesh_scoping);
-op.connect(3, my_streams_container);
+op.connect(3, my_streams);
 op.connect(4, my_data_sources);
 op.connect(6, my_property_name);
-op.connect(7, my_default_value);
-op.connect(8, my_filter_zero_values);
 ansys::dpf::Field my_material_properties = op.getOutput<ansys::dpf::Field>(0);
 ```
 </details>
@@ -162,11 +155,9 @@ import ansys.dpf.core as dpf
 
 op = dpf.operators.result.material_property_of_element() # operator instantiation
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
-op.inputs.streams_container.connect(my_streams_container)
+op.inputs.streams.connect(my_streams)
 op.inputs.data_sources.connect(my_data_sources)
 op.inputs.property_name.connect(my_property_name)
-op.inputs.default_value.connect(my_default_value)
-op.inputs.filter_zero_values.connect(my_filter_zero_values)
 my_material_properties = op.outputs.material_properties()
 ```
 </details>
@@ -180,11 +171,9 @@ import Ans.DataProcessing as dpf
 
 op = dpf.operators.result.material_property_of_element() # operator instantiation
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
-op.inputs.streams_container.Connect(my_streams_container)
+op.inputs.streams.Connect(my_streams)
 op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.property_name.Connect(my_property_name)
-op.inputs.default_value.Connect(my_default_value)
-op.inputs.filter_zero_values.Connect(my_filter_zero_values)
 my_material_properties = op.outputs.material_properties.GetData()
 ```
 </details>

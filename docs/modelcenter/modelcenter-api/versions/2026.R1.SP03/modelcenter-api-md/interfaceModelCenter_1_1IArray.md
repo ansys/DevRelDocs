@@ -76,9 +76,11 @@ Arrays start at 0 length by default. So you must set the size before you can ass
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IArray::hasChanged
 ```
+
 
 
 
@@ -95,9 +97,11 @@ boolean ModelCenter::IArray::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IArray::hide
 ```
+
 
 
 
@@ -114,9 +118,11 @@ boolean ModelCenter::IArray::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IArray::OwningComponent
 ```
+
 
 
 
@@ -133,9 +139,11 @@ LPDISPATCH ModelCenter::IArray::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IArray::size
 ```
+
 
 
 
@@ -152,9 +160,11 @@ Alias for length property
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IArray::autoSize
 ```
+
 
 
 
@@ -171,9 +181,11 @@ Whether or not the array is set to automatically size itself. If false and the a
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IArray::numDimensions
 ```
+
 
 
 
@@ -190,9 +202,11 @@ Number of dimensions this array has. Defaults to 1. Changing the number of dimen
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IArray::length
 ```
+
 
 
 
@@ -209,9 +223,11 @@ Size of the array. Alias for the length property. Only useful if the array is 1 
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isValid()
 ```
+
 
 
 
@@ -246,9 +262,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::validate()
 ```
+
 
 
 
@@ -274,9 +292,11 @@ Causes the array to validate itself.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::getName()
 ```
+
 
 
 
@@ -311,9 +331,11 @@ The name of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::getFullName()
 ```
+
 
 
 
@@ -348,9 +370,11 @@ The full ModelCenter path of the array.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::getType()
 ```
+
 
 
 
@@ -385,9 +409,11 @@ The type of the array as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isInput()
 ```
+
 
 
 
@@ -423,9 +449,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toString()
 ```
+
 
 
 
@@ -460,9 +488,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::fromString(BSTR value)
 ```
+
 
 
 
@@ -503,9 +533,11 @@ String arrays may optionally have the elements quoted in the form <code>'bounds[
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toStringAbsolute()
 ```
+
 
 
 
@@ -540,9 +572,11 @@ The converted string value of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::invalidate()
 ```
+
 
 
 
@@ -568,9 +602,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -616,9 +652,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -664,9 +702,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -710,9 +750,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -756,9 +798,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -804,9 +848,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IArray::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -852,9 +898,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isInputToComponent()
 ```
+
 
 
 
@@ -890,9 +938,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IArray::isInputToModel()
 ```
+
 
 
 
@@ -928,9 +978,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -977,9 +1029,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IArray::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -1023,9 +1077,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toStringEx(long index)
 ```
+
 
 
 
@@ -1067,9 +1123,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::fromStringEx(BSTR value, long index)
 ```
+
 
 
 
@@ -1108,9 +1166,11 @@ Sets the value of an array element from a specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IArray::toStringAbsoluteEx(long index)
 ```
+
 
 
 
@@ -1152,9 +1212,11 @@ The value of the element as a string.
 
 ![][public]
 
+
 ```
 long ModelCenter::IArray::getLength([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1196,9 +1258,11 @@ Length(size) of the array.
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setLength(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1237,9 +1301,11 @@ Sets the length of the n'th dimension of the array
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setDimensions(long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1294,9 +1360,11 @@ Sets the number of dimensions of an array and the length of each dimension in on
 
 ![][public]
 
+
 ```
 long ModelCenter::IArray::getSize([optional] VARIANT dim)
 ```
+
 
 
 
@@ -1329,9 +1397,11 @@ Size of the dimension
 
 ![][public]
 
+
 ```
 void ModelCenter::IArray::setSize(long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1361,9 +1431,11 @@ Alias for the [setLength()](interfaceModelCenter_1_1IArray.md#interfaceModelCent
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IArray::getDimensions()
 ```
+
 
 
 
@@ -1382,6 +1454,6 @@ Variant - either a single integer, in the case of a 1D array, or an array of int
 
 **Return type**: VARIANT
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

@@ -3,7 +3,7 @@
 ![][IDL]
 ![][public]
 
-**Definition**: `ModelCenter/src/InterfaceDLL\_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 131)
+**Definition**: `ModelCenter/src/InterfaceDLL_TradeStudyPlugIn/TradeStudyPlugIn.odl` (line 131)
 
 
 
@@ -23,9 +23,11 @@ The Trade Study Callback connector is the piece that connects a Trade Study Plug
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyCallback::dataCollectorCreated(LPDISPATCH tradeStudy, LPDISPATCH dataCollector)
 ```
+
 
 
 
@@ -61,9 +63,11 @@ The data collector should not be shown before being passed.
 
 ![][public]
 
+
 ```
 BOOL TradeStudyPlugIn::ITradeStudyCallback::runStarting(LPDISPATCH tradeStudy)
 ```
+
 
 
 
@@ -102,9 +106,11 @@ returns true if trade study is allowed to continue running; otherwise false.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyCallback::runEnded(LPDISPATCH tradeStudy)
 ```
+
 
 
 
@@ -132,9 +138,11 @@ Called when the trade study has completed it's run.
 
 ![][public]
 
+
 ```
 void TradeStudyPlugIn::ITradeStudyCallback::tradeStudyClosed(LPDISPATCH tradeStudy)
 ```
+
 
 
 
@@ -157,6 +165,6 @@ Called to signal that the trade study has closed.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

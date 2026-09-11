@@ -21,7 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>-7</strong> | [h5_chunk_size](#input_-7) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>-6</strong> | [append_mode](#input_-6) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>-6</strong> | [append_mode](#input_-6) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-5</strong> | [dataset_size_compression_threshold](#input_-5) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-2</strong> | [h5_native_compression](#input_-2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
 | <strong>-1</strong> | [export_floats](#input_-1) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
@@ -44,9 +44,9 @@ Size of each HDF5 chunk in kilobytes (KB). Default: 1 MB when compression is ena
 ### append_mode (Pin -6)
 
 - **Required:** No
-- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types), [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Experimental: Allow appending chunked data to the file. This disables fields container content deduplication.
+Experimental: Allow appending chunked data to the file. This disables fields container content deduplication.0 (false) is default for not appending, 1 (true) for appending, 2 for appending just the time freq support(used in live mapdl export)
 
 <a id="input_-5"></a>
 ### dataset_size_compression_threshold (Pin -5)

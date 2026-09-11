@@ -103,9 +103,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasChanged
 ```
+
 
 
 
@@ -122,9 +124,11 @@ boolean ModelCenter::IObjectVariable::hasChanged
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IObjectVariable::hide
 ```
+
 
 
 
@@ -141,9 +145,11 @@ boolean ModelCenter::IObjectVariable::hide
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::OwningComponent
 ```
+
 
 
 
@@ -160,9 +166,11 @@ LPDISPATCH ModelCenter::IObjectVariable::OwningComponent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IObjectVariable::value
 ```
+
 
 
 
@@ -179,9 +187,11 @@ Value of the variable.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IObjectVariable::description
 ```
+
 
 
 
@@ -198,9 +208,11 @@ The description of the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isValid()
 ```
+
 
 
 
@@ -226,9 +238,11 @@ True if variable is valid. False if the variable is not valid.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::validate()
 ```
+
 
 
 
@@ -245,9 +259,11 @@ Validates the variable by running the component if needed.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getName()
 ```
+
 
 
 
@@ -273,9 +289,11 @@ The name of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getFullName()
 ```
+
 
 
 
@@ -301,9 +319,11 @@ The full ModelCenter path of the variable.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getType()
 ```
+
 
 
 
@@ -329,9 +349,11 @@ The type of the variable as a string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isInput()
 ```
+
 
 
 
@@ -358,9 +380,11 @@ Finds out whether or not the variable is an input with respect to the model. Ret
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::toString()
 ```
+
 
 
 
@@ -386,9 +410,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::fromString(BSTR value)
 ```
+
 
 
 
@@ -418,9 +444,11 @@ Sets the value of the variable from the specified string.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::toStringAbsolute()
 ```
+
 
 
 
@@ -446,9 +474,11 @@ The value of the variable as a string.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::invalidate()
 ```
+
 
 
 
@@ -465,9 +495,11 @@ Marks the variable as invalid (needs to be computed). This will set all dependen
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::directPrecedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -504,9 +536,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::directDependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -543,9 +577,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::precedentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -580,9 +616,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::dependentLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -617,9 +655,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::precedents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -656,9 +696,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IObjectVariable::dependents([optional]VARIANT followSuspended, [optional]VARIANT reserved)
 ```
+
 
 
 
@@ -695,9 +737,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isInputToComponent()
 ```
+
 
 
 
@@ -724,9 +768,11 @@ Checks whether or not the variable is an input. Returns true if the variable was
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isInputToModel()
 ```
+
 
 
 
@@ -753,9 +799,11 @@ Checks whether or not the variable is an input. A linked input returns false (Ou
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMetadata(BSTR name, MetadataType type, VARIANT value, MetadataAccess access, boolean archive)
 ```
+
 
 
 
@@ -793,9 +841,11 @@ Sets the meta data value of the given meta data key name.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMetadata(BSTR name)
 ```
+
 
 
 
@@ -830,9 +880,11 @@ Metadata value.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getClassURL()
 ```
+
 
 
 
@@ -856,9 +908,11 @@ The URL for the class.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberValue(BSTR member)
 ```
+
 
 
 
@@ -891,9 +945,11 @@ The value of the member.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberValueAbsolute(BSTR member)
 ```
+
 
 
 
@@ -926,9 +982,11 @@ The value of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberValue(BSTR member, BSTR value)
 ```
+
 
 
 
@@ -958,9 +1016,11 @@ Sets the value of a member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMember(BSTR member, BSTR value, BSTR type)
 ```
+
 
 
 
@@ -992,9 +1052,11 @@ Sets the value of a member. A new member will be created if the member does not 
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::deleteMember(BSTR member)
 ```
+
 
 
 
@@ -1022,9 +1084,11 @@ Delete a member for non-strict type object. An error will be thrown for strict t
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::deleteAllMembers()
 ```
+
 
 
 
@@ -1039,9 +1103,11 @@ Delete all members for non-strict type object. An error will be thrown for stric
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::callMethod(BSTR method)
 ```
+
 
 
 
@@ -1074,9 +1140,11 @@ Value of the method.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isNonStrictType()
 ```
+
 
 
 
@@ -1100,9 +1168,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::toXML()
 ```
+
 
 
 
@@ -1126,9 +1196,11 @@ An XML representation of the object.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::fromXML(BSTR str)
 ```
+
 
 
 
@@ -1156,9 +1228,11 @@ Update the object from an XML string.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasMember(BSTR member)
 ```
+
 
 
 
@@ -1191,9 +1265,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::isNumericMember(BSTR member)
 ```
+
 
 
 
@@ -1226,9 +1302,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::reinitialize()
 ```
+
 
 
 
@@ -1243,9 +1321,11 @@ Reinitialize the object using the current class type.
 
 ![][public]
 
+
 ```
 long ModelCenter::IObjectVariable::getMemberLength(BSTR member, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1280,9 +1360,11 @@ The length of the array member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberLength(BSTR member, long length, [optional] VARIANT dim)
 ```
+
 
 
 
@@ -1314,9 +1396,11 @@ Set length of an array member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberDimensions(BSTR member, long d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -1364,9 +1448,11 @@ Set dimension of an array member.
 
 ![][public]
 
+
 ```
 long ModelCenter::IObjectVariable::getMemberNumDimensions(BSTR member)
 ```
+
 
 
 
@@ -1399,9 +1485,11 @@ The number of dimensions of an array member.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberDimensions(BSTR member)
 ```
+
 
 
 
@@ -1434,9 +1522,11 @@ The number of demensions of the member.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberType(BSTR member)
 ```
+
 
 
 
@@ -1469,9 +1559,11 @@ The type of the member.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasMemberLowerBound(BSTR member)
 ```
+
 
 
 
@@ -1504,9 +1596,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::hasMemberUpperBound(BSTR member)
 ```
+
 
 
 
@@ -1539,9 +1633,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 double ModelCenter::IObjectVariable::getMemberLowerBound(BSTR member)
 ```
+
 
 
 
@@ -1574,9 +1670,11 @@ The lowerBound of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberLowerBound(BSTR member, double lowerBound)
 ```
+
 
 
 
@@ -1606,9 +1704,11 @@ Set lowerBound of the member.
 
 ![][public]
 
+
 ```
 double ModelCenter::IObjectVariable::getMemberUpperBound(BSTR member)
 ```
+
 
 
 
@@ -1641,9 +1741,11 @@ The upperBlound of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberUpperBound(BSTR member, double upperBound)
 ```
+
 
 
 
@@ -1673,9 +1775,11 @@ Set upperBound of the member.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberEnumValues(BSTR member)
 ```
+
 
 
 
@@ -1708,9 +1812,11 @@ The enum values of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberEnumValues(BSTR member, BSTR enumValues)
 ```
+
 
 
 
@@ -1740,9 +1846,11 @@ Set enum values of the member.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberEnumAliases(BSTR member)
 ```
+
 
 
 
@@ -1775,9 +1883,11 @@ The enum aliases of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberEnumAliases(BSTR member, BSTR enumAliases)
 ```
+
 
 
 
@@ -1807,9 +1917,11 @@ Set enum aliases of the member.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberDescription(BSTR member)
 ```
+
 
 
 
@@ -1842,9 +1954,11 @@ The description of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberDescription(BSTR member, BSTR description)
 ```
+
 
 
 
@@ -1874,9 +1988,11 @@ Set description of the member.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberUnits(BSTR member)
 ```
+
 
 
 
@@ -1909,9 +2025,11 @@ The units of the member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberUnits(BSTR member, BSTR units)
 ```
+
 
 
 
@@ -1941,9 +2059,11 @@ Set units of the member.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getMemberProperty(BSTR member, BSTR propertyName)
 ```
+
 
 
 
@@ -1978,9 +2098,11 @@ The value of the property of the member. <br/>
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setMemberProperty(BSTR member, BSTR propertyName, BSTR propertyValue)
 ```
+
 
 
 
@@ -2012,9 +2134,11 @@ Set value of a property of the member.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMemberList(BSTR member)
 ```
+
 
 
 
@@ -2047,9 +2171,11 @@ The list of child members.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getMethodList()
 ```
+
 
 
 
@@ -2073,9 +2199,11 @@ The list of methods.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::toFile(BSTR member, BSTR fileName, VARIANT encoding)
 ```
+
 
 
 
@@ -2107,9 +2235,11 @@ Write a file member to a file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::fromFile(BSTR member, BSTR fileName)
 ```
+
 
 
 
@@ -2139,9 +2269,11 @@ Load a file into a file member.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::toFileAbsolute(BSTR member, BSTR fileName, VARIANT encoding)
 ```
+
 
 
 
@@ -2173,9 +2305,11 @@ Write a file member to a file without validating the variable.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IObjectVariable::getIsBinary(BSTR member)
 ```
+
 
 
 
@@ -2208,9 +2342,11 @@ True if the binary property of the file is true, else false.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setIsBinary(BSTR member, boolean isBinary)
 ```
+
 
 
 
@@ -2240,9 +2376,11 @@ Sets the binary property of the file object. File variables are either binary or
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getFileName(BSTR member)
 ```
+
 
 
 
@@ -2275,9 +2413,11 @@ The name of the file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setFileName(BSTR member, BSTR fileName)
 ```
+
 
 
 
@@ -2307,9 +2447,11 @@ Sets the file name of the file object. Also sets the file extension if given in 
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IObjectVariable::getFileExtension(BSTR member)
 ```
+
 
 
 
@@ -2342,9 +2484,11 @@ The file extension, or empty string if no extension exists.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setFileExtension(BSTR member, BSTR fileExtension)
 ```
+
 
 
 
@@ -2374,9 +2518,11 @@ Sets the file extension of the object file. The method adds the preceding '.' if
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMemberValueAbsolute(BSTR member, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -2429,9 +2575,11 @@ Value of the array element.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMemberValue(BSTR member, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -2484,9 +2632,11 @@ Value of the array element.
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setArrayMemberValue(BSTR member, BSTR value, VARIANT d1, [optional] VARIANT d2, [optional] VARIANT d3, [optional] VARIANT d4, [optional] VARIANT d5, [optional] VARIANT d6, [optional] VARIANT d7, [optional] VARIANT d8, [optional] VARIANT d9, [optional] VARIANT d10)
 ```
+
 
 
 
@@ -2536,9 +2686,11 @@ Set value of an array member.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMemberAbsolute(BSTR member)
 ```
+
 
 
 
@@ -2571,9 +2723,11 @@ Array values (variant of safe array).
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IObjectVariable::getArrayMember(BSTR member)
 ```
+
 
 
 
@@ -2606,9 +2760,11 @@ Array values (variant of safe array).
 
 ![][public]
 
+
 ```
 void ModelCenter::IObjectVariable::setArrayMember(BSTR member, VARIANT array)
 ```
+
 
 
 
@@ -2633,6 +2789,6 @@ Set values of an array member from a safe array. Create an array member if the m
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

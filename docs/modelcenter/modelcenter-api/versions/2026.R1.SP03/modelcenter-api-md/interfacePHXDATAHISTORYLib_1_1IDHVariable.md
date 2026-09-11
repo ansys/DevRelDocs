@@ -45,9 +45,11 @@ An object which represents a single Variable's meta-data within the Data History
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::name
 ```
+
 
 
 
@@ -64,9 +66,11 @@ The Variable name. May be a long, human readable string for Design Variables.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::equation
 ```
+
 
 
 
@@ -83,9 +87,11 @@ The equation for this Variable. This is typically only set for Design Variables 
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 boolean PHXDATAHISTORYLib::IDHVariable::isDesignVar
 ```
+
 
 
 
@@ -102,9 +108,11 @@ Whether this Variable represents one of the Design Variables for the Trade Study
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 boolean PHXDATAHISTORYLib::IDHVariable::isNumeric
 ```
+
 
 
 
@@ -121,9 +129,11 @@ Whether this Variable is numeric.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 boolean PHXDATAHISTORYLib::IDHVariable::isInput
 ```
+
 
 
 
@@ -140,9 +150,11 @@ Whether this Variable is an input (can be set in ModelCenter). Input Variables w
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::format
 ```
+
 
 
 
@@ -159,9 +171,11 @@ The print format for this Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::enumValues
 ```
+
 
 
 
@@ -178,9 +192,11 @@ The enumerated values for this Variable. String is a comma separated list which 
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::enumAliases
 ```
+
 
 
 
@@ -197,9 +213,11 @@ The enumerated aliases for this Variable. String is a comma separated list which
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::IDHVariable::lowerBound
 ```
+
 
 
 
@@ -216,9 +234,11 @@ The lower bound for this Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 VARIANT PHXDATAHISTORYLib::IDHVariable::upperBound
 ```
+
 
 
 
@@ -235,9 +255,11 @@ The upper bound of this Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::type
 ```
+
 
 
 
@@ -254,9 +276,11 @@ The type of Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::units
 ```
+
 
 
 
@@ -273,9 +297,11 @@ The units for this Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::geomScript
 ```
+
 
 
 
@@ -292,9 +318,11 @@ For a Geometry File Variable, the geometry script associated with the Variable.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 boolean PHXDATAHISTORYLib::IDHVariable::isBinary
 ```
+
 
 
 
@@ -311,9 +339,11 @@ Whether this Variable, if it is a File Variable, represents a binary file.
 
 **Definition**: `LIBS/DataExplorer/PHXDataHistory/PHXDataHistory.odl` (line 1)
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::fileName
 ```
+
 
 
 
@@ -330,9 +360,11 @@ For a File Variable, the name of the file that this File Variable points to.
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::IDHVariable::getNumEnumValues()
 ```
+
 
 
 
@@ -350,9 +382,11 @@ The number of enumerated values for this variable.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::getEnumValue(long index)
 ```
+
 
 
 
@@ -385,9 +419,11 @@ The enumerated value.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::getEnumAlias(long index)
 ```
+
 
 
 
@@ -420,9 +456,11 @@ The particular enumerated alias. <br/>
 
 ![][public]
 
+
 ```
 long PHXDATAHISTORYLib::IDHVariable::getNumEnumAliases()
 ```
+
 
 
 
@@ -440,9 +478,11 @@ The number of enumerated aliases.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::IDHVariable::setMetaData(BSTR key, BSTR value)
 ```
+
 
 
 
@@ -466,9 +506,11 @@ Sets the meta data value of the given meta data key name. It updates the value i
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::IDHVariable::getMetaData(BSTR key)
 ```
+
 
 
 
@@ -495,9 +537,11 @@ The value of the meta data of the key name.
 
 ![][public]
 
+
 ```
 PHXDATAHISTORYLib::IDHVariable::SAFEARRAY(BSTR) getMetaDataKeys()
 ```
+
 
 
 
@@ -516,9 +560,11 @@ Gets a list of metadata keys stored in this variable.
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::IDHVariable::copyFrom(LPDISPATCH other)
 ```
+
 
 
 
@@ -537,9 +583,11 @@ Copies data from another [IDHVariable](interfacePHXDATAHISTORYLib_1_1IDHVariable
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::IDHVariable::removeMetadata(BSTR key)
 ```
+
 
 
 
@@ -556,6 +604,6 @@ Removes the meta data value of the given meta data key name.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

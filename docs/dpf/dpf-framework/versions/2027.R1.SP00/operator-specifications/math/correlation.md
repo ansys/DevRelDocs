@@ -10,7 +10,17 @@ license: any_dpf_supported_increments
 
 ## Description
 
-Takes two fields and a weighting and computes their correlation: aMb/(||aMa||.||bMb||). If several b fields are provided (via a fields container), correlation is computed for each of them.
+
+Computes the [correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+$\rho(a,b)$ between two fields using an optional [weighting field $M$](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient#Weighted_correlation_coefficient):
+
+$$\rho(a,b) = \frac{\sum_i a_i\,M_i\,b_i}{\sqrt{\sum_i a_i^2\,M_i}\cdot\sqrt{\sum_i b_i^2\,M_i}}$$
+
+The sums run over the intersection of the scopings of $a$, $b$, and $M$.
+When no weighting field $M$ is provided, the standard (unweighted) $L^2$ dot product is used.
+If a fields container is provided at pin 1, the correlation coefficient is computed independently
+for each field in the container against the reference field $a$.
+
 
 ## Inputs
 
@@ -22,8 +32,8 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [fieldA](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>1</strong> | [fieldB](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>2</strong> | [weights](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>3</strong> | [absoluteValue](#input_3) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>2</strong> | [weights](#input_2) |  |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong> | [absoluteValue](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -32,7 +42,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`double`](../../core-concepts/dpf-types.md#standard-types), [`vector<double>`](../../core-concepts/dpf-types.md#standard-types)
 
-Field a. The reference field.
+Reference field $a$.
 
 <a id="input_1"></a>
 ### fieldB (Pin 1)
@@ -40,23 +50,23 @@ Field a. The reference field.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Field b. If a fields container is provided, correlation is computed for each field.
+Field $b$, or a fields container. When a fields container is provided, the correlation is computed independently for each field against the reference field $a$.
 
 <a id="input_2"></a>
 ### weights (Pin 2)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Field M, optional weighting for correlation computation.
+Optional weighting field $M$. When omitted, the standard unweighted $L^2$ inner product is used.
 
 <a id="input_3"></a>
 ### absoluteValue (Pin 3)
 
-- **Required:** Yes
+- **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-If true, correlation factor is ||aMb||/(||aMa||.||bMb||)
+When true, returns $|\rho|$ instead of $\rho$.
 
 
 ## Outputs
@@ -76,14 +86,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-Correlation factor for each input field b.
+Correlation coefficient for each input field $b$. The output field contains one entity per input field, labelled from $1$ to $N$.
 
 <a id="output_1"></a>
 ### index (Pin 1)
 
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-If several b are provided, this output contains the index of the highest correlation factor.
+Zero-based index of the field in the input fields container that produced the highest correlation coefficient. Only meaningful when pin 1 receives a fields container.
 
 
 ## Configurations

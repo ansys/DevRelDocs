@@ -27,9 +27,11 @@ Object for assisting in save and restoring files.
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::ISaveContext::saveFile(BSTR sourceLocation, BSTR context)
 ```
+
 
 
 
@@ -58,9 +60,11 @@ true if the file was saved successfully; false otherwise
 
 ![][public]
 
+
 ```
 boolean PHXDATAHISTORYLib::ISaveContext::restoreFile(BSTR fileID, BSTR targetLocation)
 ```
+
 
 
 
@@ -89,9 +93,11 @@ true if a file with the given id was restored, false on failure
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::ISaveContext::close()
 ```
+
 
 
 
@@ -106,9 +112,11 @@ Closes the save context.
 
 ![][public]
 
+
 ```
 BSTR PHXDATAHISTORYLib::ISaveContext::getSaveLocation()
 ```
+
 
 
 
@@ -126,9 +134,11 @@ the save context file path
 
 ![][public]
 
+
 ```
 LPUNKNOWN PHXDATAHISTORYLib::ISaveContext::saveFileStream(BSTR context)
 ```
+
 
 
 
@@ -155,9 +165,11 @@ output stream for saving
 
 ![][public]
 
+
 ```
 LPUNKNOWN PHXDATAHISTORYLib::ISaveContext::restoreFileStream(BSTR fileID)
 ```
+
 
 
 
@@ -184,9 +196,11 @@ input stream for restoring
 
 ![][public]
 
+
 ```
 int PHXDATAHISTORYLib::ISaveContext::getFileFormat()
 ```
+
 
 
 
@@ -204,9 +218,11 @@ save context file format
 
 ![][public]
 
+
 ```
 void PHXDATAHISTORYLib::ISaveContext::setFileFormat(int fileFormat)
 ```
+
 
 
 
@@ -223,6 +239,6 @@ Set the file format of the save context.
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

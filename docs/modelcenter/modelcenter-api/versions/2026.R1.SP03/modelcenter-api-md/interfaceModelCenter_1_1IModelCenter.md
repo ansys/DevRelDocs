@@ -16,126 +16,20 @@ COM instance.
 
 **ModelCenter batch mode**:
 
-This example demonstrates invoking ModelCenter and running a Model in batch mode through the COM API.
-``` 
-Dim mc
-Set mc=CreateObject("ModelCenter.Application")
-mc.loadModel "c:\testmodel.pxc"
-'
-Dim x
-Dim s
-For x=0 To 10
-   mc.setValue "Model.Linear.x", x
-   s=s & "x=" & x & ", y=" & mc.getValue("Model.Linear.y") & vbNewLine
-Next
-msgbox s
-```
+This example demonstrates invoking ModelCenter and running a Model in batch mode through the COM API. `preformatted {"type":"element","name":"preformatted","attributes":{},"children":[{"type":"text","text":"\nDim mc\nSet mc=CreateObject(\"ModelCenter.Application\")\nmc.loadModel \"c:\\testmodel.pxc\"\n'\nDim x\nDim s\nFor x=0 To 10\n   mc.setValue \"Model.Linear.x\", x\n   s=s & \"x=\" & x & \", y=\" & mc.getValue(\"Model.Linear.y\") & vbNewLine\nNext\nmsgbox s\n"}]}`
 
 
 **Example ModelCenter Script**:
 
 This script demonstrates how to automate ModelCenter to create a Model.<br/>
 First, a new Model is loaded into ModelCenter, two components are instantiated, and then several links are created.<br/>
-Last, the Model is saved to a .pxc file.
-``` 
-' This is a test script that automates the creation of a Model
-'
-' -------------------- start ModelCenter
-'
-Dim app
-Set app = WScript.CreateObject("ModelCenter.Application")
-'
-' -------------------- start a new Model
-'
-app.newModel
-'
-' -------------------- instantiate a few components
-'
-app.createComponent "mcre://localhost/Block", "block", "Model"
-app.createComponent "mcre://localhost/Block", "block1", "Model"
-'
-' -------------------- create some links
-'
-app.createLink "Model.block.width", "Model.block1.width"
-app.createLink "Model.block.height", "Model.block1.width + Model.block1.height"
-'
-' -------------------- save the file
-'
-file = "c:\model.pxc"
-app.saveModelAs(file)
-```
+Last, the Model is saved to a .pxc file. `preformatted {"type":"element","name":"preformatted","attributes":{},"children":[{"type":"text","text":"\n' This is a test script that automates the creation of a Model\n'\n' -------------------- start "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"namespaceModelCenter"},"children":[{"type":"text","text":"ModelCenter"}]},{"type":"text","text":"\n'\nDim app\nSet app = WScript.CreateObject(\"ModelCenter.Application\")\n'\n' -------------------- start a new Model\n'\napp.newModel\n'\n' -------------------- instantiate a few components\n'\napp.createComponent \"mcre://localhost/Block\", \"block\", \"Model\"\napp.createComponent \"mcre://localhost/Block\", \"block1\", \"Model\"\n'\n' -------------------- create some links\n'\napp.createLink \"Model.block.width\", \"Model.block1.width\"\napp.createLink \"Model.block.height\", \"Model.block1.width + Model.block1.height\"\n'\n' -------------------- save the file\n'\nfile = \"c:\\model.pxc\"\napp.saveModelAs(file)\n"}]}`
 
 
 **Example DOE Script**:
 
 This script demonstrates how to call ModelCenter to perform a DOE.<br/>
-The script loads a Model into ModelCenter, and then repeatedly sets and gets values to perform the DOE.
-```
-'
-' This is a test script that performs a DOE using ModelCenter. To 
-' run the script, type "cscript DOE.vbs"
-'
-'
-' -------------------- start ModelCenter
-'
-Dim app
-Set app = WScript.CreateObject( "ModelCenter.Application" )
-'
-' -------------------- load a file
-'
-file = "d:\model.pxc"
-app.loadFile file
-'
-' -------------------- setup a DOE table
-'
-numTrials = 4
-numInputs = 2
-numOutputs = 2
-Dim inputs(2)
-inputs(0) = "script.VBScript.a"
-inputs(1) = "script.VBScript.b"
-Dim outputs(2)
-outputs(0) = "script.VBScript.c"
-outputs(1) = "script.VBScript.d"
-Dim trials(4,2)
-trials(0,0) = 5
-trials(0,1) = 2
-trials(1,0) = 4
-trials(1,1) = 2
-trials(2,0) = 5
-trials(2,1) = 3
-trials(3,0) = 4
-trials(3,1) = 3
-'
-' -------------------- perform the runs
-'
-' print a header
-msg = ""
-For var = 0 To numInputs-1
-   msg = msg & inputs(var) & " "
-Next
-For var = 0 To numOutputs-1
-   msg = msg & outputs(var) & " "
-Next
-' print the values
-WScript.echo msg
-' collect and print values
-For i = 0 To numTrials-1
-   ' create a message
-   msg = ""
-   ' set the input values
-   For var = 0 To numInputs-1
-      app.setValue inputs(var), trials(i,var)
-      msg = msg & trials(i,0) & " "
-   Next
-   ' get the outputs
-   For var = 0 To numOutputs-1
-      msg = msg & app.getValue( outputs(var) ) & " "
-   Next
-   ' print the values
-   WScript.echo msg
-Next
-```
+The script loads a Model into ModelCenter, and then repeatedly sets and gets values to perform the DOE. `preformatted {"type":"element","name":"preformatted","attributes":{},"children":[{"type":"text","text":"\n'\n' This is a test script that performs a DOE using "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"namespaceModelCenter"},"children":[{"type":"text","text":"ModelCenter"}]},{"type":"text","text":". To \n' run the script, type \"cscript DOE.vbs\"\n'\n'\n' -------------------- start "},{"type":"element","name":"ref","attributes":{"kindref":"compound","refid":"namespaceModelCenter"},"children":[{"type":"text","text":"ModelCenter"}]},{"type":"text","text":"\n'\nDim app\nSet app = WScript.CreateObject( \"ModelCenter.Application\" )\n'\n' -------------------- load a file\n'\nfile = \"d:\\model.pxc\"\napp.loadFile file\n'\n' -------------------- setup a DOE table\n'\nnumTrials = 4\nnumInputs = 2\nnumOutputs = 2\nDim inputs(2)\ninputs(0) = \"script.VBScript.a\"\ninputs(1) = \"script.VBScript.b\"\nDim outputs(2)\noutputs(0) = \"script.VBScript.c\"\noutputs(1) = \"script.VBScript.d\"\nDim trials(4,2)\ntrials(0,0) = 5\ntrials(0,1) = 2\ntrials(1,0) = 4\ntrials(1,1) = 2\ntrials(2,0) = 5\ntrials(2,1) = 3\ntrials(3,0) = 4\ntrials(3,1) = 3\n'\n' -------------------- perform the runs\n'\n' print a header\nmsg = \"\"\nFor var = 0 To numInputs-1\n   msg = msg & inputs(var) & \" \"\nNext\nFor var = 0 To numOutputs-1\n   msg = msg & outputs(var) & \" \"\nNext\n' print the values\nWScript.echo msg\n' collect and print values\nFor i = 0 To numTrials-1\n   ' create a message\n   msg = \"\"\n   ' set the input values\n   For var = 0 To numInputs-1\n      app.setValue inputs(var), trials(i,var)\n      msg = msg & trials(i,0) & \" \"\n   Next\n   ' get the outputs\n   For var = 0 To numOutputs-1\n      msg = msg & app.getValue( outputs(var) ) & \" \"\n   Next\n   ' print the values\n   WScript.echo msg\nNext\n"}]}`
 
 ## Members
 
@@ -272,9 +166,11 @@ Next
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IModelCenter::modelDirectory
 ```
+
 
 
 
@@ -291,9 +187,11 @@ Directory of the current Model. If no model is open it will raise an error. If t
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 boolean ModelCenter::IModelCenter::screenUpdating
 ```
+
 
 
 
@@ -310,9 +208,11 @@ Whether or not screen updating is turned on.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IModelCenter::modelFileName
 ```
+
 
 
 
@@ -329,9 +229,11 @@ The Full path of the current ModelCenter Model.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IModelCenter::appName
 ```
+
 
 
 
@@ -357,9 +259,11 @@ Gets the [Application](classModelCenter_1_1Application.md#classModelCenter_1_1Ap
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BSTR ModelCenter::IModelCenter::appFullPath
 ```
+
 
 
 
@@ -376,9 +280,11 @@ Gets the full path to the application.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 BOOL ModelCenter::IModelCenter::IsInteractive
 ```
+
 
 
 
@@ -395,9 +301,11 @@ Is ModelCenter running in interactive/GUI mode.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 long ModelCenter::IModelCenter::ProcessID
 ```
+
 
 
 
@@ -414,9 +322,11 @@ The process identifier of the [ModelCenter](namespaceModelCenter.md#namespaceMod
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 4270)
 
+
 ```
 long ModelCenter::IModelCenter::version
 ```
+
 
 
 
@@ -452,9 +362,11 @@ The requested version part.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getLastErrorMessage()
 ```
+
 
 
 
@@ -478,9 +390,11 @@ The last error message.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::loadFile(BSTR fileName, [optional]VARIANT onConnectError)
 ```
+
 
 
 
@@ -511,9 +425,11 @@ Loads a .pxc file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setValue(BSTR varName, BSTR value)
 ```
+
 
 
 
@@ -543,9 +459,11 @@ Sets the value of a variable.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IModelCenter::getValue(BSTR varName)
 ```
+
 
 
 
@@ -578,9 +496,11 @@ The value as a variant.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::createComponent(BSTR serverPath, BSTR name, BSTR parent, [optional]VARIANT xPos, [optional]VARIANT yPos)
 ```
+
 
 
 
@@ -616,9 +536,11 @@ Creates, or connects, to a new MCRE Component.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::createLink(BSTR variable, BSTR equation)
 ```
+
 
 
 
@@ -648,9 +570,11 @@ Creates a link to the specified variable based on the specified equation.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::newModel([optional]VARIANT modelType)
 ```
+
 
 
 
@@ -678,9 +602,11 @@ Creates a new Model.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::saveModel()
 ```
+
 
 
 
@@ -695,9 +621,11 @@ Saves the current Model.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::saveModelAs(BSTR fileName)
 ```
+
 
 
 
@@ -725,9 +653,11 @@ Saves the current Model to a specified file.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::closeModel()
 ```
+
 
 
 
@@ -742,9 +672,11 @@ Closes the current Model.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::loadModel(BSTR fileName, [optional]VARIANT onConnectError)
 ```
+
 
 
 
@@ -775,9 +707,11 @@ Loads a .pxc file.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getVariable(BSTR name)
 ```
+
 
 
 
@@ -810,9 +744,11 @@ IDispatch* to an [IVariable](interfaceModelCenter_1_1IVariable.md#interfaceModel
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getComponent(BSTR name)
 ```
+
 
 
 
@@ -845,9 +781,11 @@ IDispatch* to an [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMod
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::exit()
 ```
+
 
 
 
@@ -865,9 +803,11 @@ No longer used.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createDataCollector(BSTR tradeStudyType, BSTR setup)
 ```
+
 
 
 
@@ -907,9 +847,11 @@ use [createDataExplorer()](interfaceModelCenter_1_1IModelCenter.md#interfaceMode
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::tradeStudyEnd()
 ```
+
 
 
 
@@ -924,9 +866,11 @@ Lets ModelCenter know that a Trade Study has been completed.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createJobManager([optional]VARIANT showProgressDialog)
 ```
+
 
 
 
@@ -964,9 +908,11 @@ IDispatch* to an [IJobManager](interfaceModelCenter_1_1IJobManager.md#interfaceM
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::tradeStudyStart()
 ```
+
 
 
 
@@ -981,9 +927,11 @@ Lets ModelCenter know that a Trade Study has been started.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IModelCenter::getHaltStatus()
 ```
+
 
 
 
@@ -1007,9 +955,11 @@ yes(TRUE) or no(FALSE).
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getModel()
 ```
+
 
 
 
@@ -1033,9 +983,11 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::MessageBox(BSTR msg,[optional]VARIANT force)
 ```
+
 
 
 
@@ -1065,9 +1017,11 @@ Creates a MessageBox dialog.
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IModelCenter::getValueAbsolute(BSTR varName)
 ```
+
 
 
 
@@ -1100,9 +1054,11 @@ The value as a variant.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setScheduler(BSTR scheduler)
 ```
+
 
 
 
@@ -1139,9 +1095,11 @@ Note: all scheduler types are case sensitive.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::removeComponent(BSTR name)
 ```
+
 
 
 
@@ -1169,9 +1127,11 @@ Removes the specified component from the Model.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::breakLink(BSTR variable)
 ```
+
 
 
 
@@ -1204,9 +1164,11 @@ mc.breakLink "Model.Linear.x"
 
 ![][public]
 
+
 ```
 long ModelCenter::IModelCenter::getHWND()
 ```
+
 
 
 
@@ -1230,9 +1192,11 @@ Value of the current HWND instance.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::checkout(BSTR feature)
 ```
+
 
 
 
@@ -1265,9 +1229,11 @@ an [IFeature](interfaceModelCenter_1_1IFeature.md#interfaceModelCenter_1_1IFeatu
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::checkout2(BSTR feature, BSTR productRelease)
 ```
+
 
 
 
@@ -1302,9 +1268,11 @@ an [IFeature](interfaceModelCenter_1_1IFeature.md#interfaceModelCenter_1_1IFeatu
 
 ![][public]
 
+
 ```
 VARIANT ModelCenter::IModelCenter::runMacro(BSTR macro, [optional]VARIANT useMCObject)
 ```
+
 
 
 
@@ -1339,9 +1307,11 @@ Runs the specified macro.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createAssembly(BSTR name, BSTR parent, [optional]VARIANT assemblyType)
 ```
+
 
 
 
@@ -1384,9 +1354,11 @@ Set assembly=mc.createAssembly("myAssembly", "Model")
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createAssemblyVariable(BSTR name, BSTR type, BSTR parent)
 ```
+
 
 
 
@@ -1462,9 +1434,11 @@ Set var=mc.createAssemblyVariable("myVar", "double", "Model")
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::autoLink(BSTR srcComp, BSTR destComp)
 ```
+
 
 
 
@@ -1494,9 +1468,11 @@ Automatically links two components.
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IModelCenter::getLinks([optional]VARIANT reserved)
 ```
+
 
 
 
@@ -1529,9 +1505,11 @@ IDispatch* to an [IVariableLinks](interfaceModelCenter_1_1IVariableLinks.md#inte
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getModelUUID()
 ```
+
 
 
 
@@ -1555,9 +1533,11 @@ The ID string for the current model.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getFormatter(BSTR format)
 ```
+
 
 
 
@@ -1590,9 +1570,11 @@ An IDispatch* to the [IPHXFormat](interfaceModelCenter_1_1IPHXFormat.md#interfac
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::invokeHelp(long pageID)
 ```
+
 
 
 
@@ -1620,9 +1602,11 @@ Invokes the specified context sensitive help item out of the ModelCenter help fi
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::launchTradeStudy(BSTR type, [optional]VARIANT setup)
 ```
+
 
 
 
@@ -1652,9 +1636,11 @@ Causes the specified Trade Study tool to be launched.
 
 ![][public]
 
+
 ```
 long ModelCenter::IModelCenter::createPlugInFrame(BSTR name, BSTR title, BSTR reserved, LPDISPATCH plugIn, [optional]VARIANT showFavorites, [optional]VARIANT defaultHeight, [optional]VARIANT defaultWidth)
 ```
+
 
 
 
@@ -1699,9 +1685,11 @@ Creates a new frame window with favorites in it which can be used by Plug-Ins as
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::displayAboutBox()
 ```
+
 
 
 
@@ -1716,9 +1704,11 @@ Display the "About" dialog for ModelCenter.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::halt()
 ```
+
 
 
 
@@ -1733,9 +1723,11 @@ Stop execution of the Model currently running in ModelCenter.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::displayPreferencesDialog()
 ```
+
 
 
 
@@ -1750,9 +1742,11 @@ Display the "Preferences" dialog for ModelCenter.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::run(BSTR variableArray)
 ```
+
 
 
 
@@ -1781,9 +1775,11 @@ Runs a specified set of variables in the current Model.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getDataMonitor(BSTR component, VARIANT index)
 ```
+
 
 
 
@@ -1818,9 +1814,11 @@ Retrieves the indexed Data Monitor associated with the specified Component.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createDataMonitor(BSTR component, BSTR name, int x, int y)
 ```
+
 
 
 
@@ -1859,9 +1857,11 @@ Creates a Data Monitor associated with a particular component.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IModelCenter::isOkToClose()
 ```
+
 
 
 
@@ -1885,9 +1885,11 @@ True if no sub windows are open, else false.
 
 ![][public]
 
+
 ```
 short ModelCenter::IModelCenter::addIcon(BSTR iconFile)
 ```
+
 
 
 
@@ -1920,9 +1922,11 @@ The index of the icon in [ModelCenter](namespaceModelCenter.md#namespaceModelCen
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IModelCenter::removeDataMonitor(BSTR component, VARIANT index)
 ```
+
 
 
 
@@ -1957,9 +1961,11 @@ whether the data monitor was successfully found and deleted
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setUserName(BSTR userName)
 ```
+
 
 
 
@@ -1987,9 +1993,11 @@ Sets the user name that ModelCenter will use for authentication.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setPassword(BSTR password)
 ```
+
 
 
 
@@ -2017,9 +2025,11 @@ Sets the password that ModelCenter will use for authentication.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getModelCenterPath()
 ```
+
 
 
 
@@ -2043,9 +2053,11 @@ Full file path where ModelCenter is installed.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getDataExplorer(int index)
 ```
+
 
 
 
@@ -2078,9 +2090,11 @@ IDispatch* to an IDataExplorer object.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getDataCollector(int index)
 ```
+
 
 
 
@@ -2113,9 +2127,11 @@ IDispatch* to an [IDataCollector](interfaceModelCenter_1_1IDataCollector.md#inte
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getLogger()
 ```
+
 
 
 
@@ -2139,9 +2155,11 @@ IDispatch* to an [ILogger](interfaceModelCenter_1_1ILogger.md#interfaceModelCent
 
 ![][public]
 
+
 ```
 long ModelCenter::IModelCenter::createPlugInFrame2(BSTR name, BSTR title, BSTR reserved, LPDISPATCH plugIn, [optional]VARIANT showFavorites, [optional]VARIANT defaultHeight, [optional]VARIANT defaultWidth, [optional]VARIANT minimumHeight, [optional]VARIANT minimumWidth)
 ```
+
 
 
 
@@ -2190,9 +2208,11 @@ Creates a new frame window with favorites in it which can be used by Plug-Ins as
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::moveComponent(BSTR component, BSTR parent, [optional]VARIANT index)
 ```
+
 
 
 
@@ -2224,9 +2244,11 @@ Moves the component to the parent at the given index.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setAssemblyStyle(BSTR assemblyName, AssemblyStyle style, [optional]VARIANT width, [optional]VARIANT height)
 ```
+
 
 
 
@@ -2260,9 +2282,11 @@ Sets the assembly style of the component (collapse, expanded, N^2, etc).
 
 ![][public]
 
+
 ```
 AssemblyStyle ModelCenter::IModelCenter::getAssemblyStyle(BSTR assemblyName, int *width, int *height)
 ```
+
 
 
 
@@ -2299,9 +2323,11 @@ AssemblyStyle
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getAssembly(BSTR name)
 ```
+
 
 
 
@@ -2334,9 +2360,11 @@ IDispatch* to an [IAssembly](interfaceModelCenter_1_1IAssembly.md#interfaceModel
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createAndInitComponent(BSTR serverPath, BSTR name, BSTR parent, BSTR initString, [optional]VARIANT xPos, [optional]VARIANT yPos)
 ```
+
 
 
 
@@ -2384,9 +2412,11 @@ The newly created [IComponent](interfaceModelCenter_1_1IComponent.md#interfaceMo
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getLicensingPath()
 ```
+
 
 
 
@@ -2408,9 +2438,11 @@ Gets the licensing path used by ModelCenter. By default the path is the base Mod
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getMacroScript(BSTR macroName)
 ```
+
 
 
 
@@ -2446,9 +2478,11 @@ A string representing the macro script.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setMacroScript(BSTR macroName, BSTR script)
 ```
+
 
 
 
@@ -2481,9 +2515,11 @@ Sets a macro script
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getMacroScriptLanguage(BSTR macroName)
 ```
+
 
 
 
@@ -2519,9 +2555,11 @@ A string representing the macro script language.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setMacroScriptLanguage(BSTR macroName, BSTR language)
 ```
+
 
 
 
@@ -2554,9 +2592,11 @@ Sets the language for a macro script
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::addNewMacro(BSTR macroName, boolean isAppMacro)
 ```
+
 
 
 
@@ -2586,9 +2626,11 @@ Adds a new macro
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::launchMacroEditor(BSTR macroName)
 ```
+
 
 
 
@@ -2616,9 +2658,11 @@ Launches the macro editor tool, and show the macro script corresponding to macro
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::startGUIMode([optional]VARIANT showDialogs)
 ```
+
 
 
 
@@ -2665,9 +2709,11 @@ Once this method is invoked, [ModelCenter](namespaceModelCenter.md#namespaceMode
 
 ![][public]
 
+
 ```
 long ModelCenter::IModelCenter::getNumUnitCategories()
 ```
+
 
 
 
@@ -2691,9 +2737,11 @@ The number for unit categories, or -1 if there is an error.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getUnitCategoryName(long index)
 ```
+
 
 
 
@@ -2726,9 +2774,11 @@ The name of the category, or empty string if there is an error.
 
 ![][public]
 
+
 ```
 long ModelCenter::IModelCenter::getNumUnits(BSTR category)
 ```
+
 
 
 
@@ -2761,9 +2811,11 @@ The number of units, or -1 if there is an error.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getUnitName(BSTR category, long index)
 ```
+
 
 
 
@@ -2798,9 +2850,11 @@ The name of the unit, or empty string if there is an error.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createTradeStudy(BSTR type, [optional]VARIANT setup)
 ```
+
 
 
 
@@ -2835,9 +2889,11 @@ An IDispatch* to the trade study object.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getNetworkLocations()
 ```
+
 
 
 
@@ -2861,9 +2917,11 @@ An IDispatch* to the [INetworkLocations](interfaceModelCenter_1_1INetworkLocatio
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::saveVersionedModel(VersionStatus versionStatus, BSTR checkinMessage)
 ```
+
 
 
 
@@ -2893,9 +2951,11 @@ Saves the current Model.
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::saveVersionedModelAs(BSTR fileName, VersionStatus versionStatus, BSTR checkinMessage)
 ```
+
 
 
 
@@ -2927,9 +2987,11 @@ Saves the current Model to a specified file.
 
 ![][public]
 
+
 ```
 LPDISPATCH ModelCenter::IModelCenter::getVariableMetaData(BSTR name)
 ```
+
 
 
 
@@ -2956,9 +3018,11 @@ the metadata, in the form of an IDHVariable (from [PHXDATAHISTORYLib](namespaceP
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::dumpComDebug()
 ```
+
 
 
 
@@ -2973,9 +3037,11 @@ Dump COM debug information to TRACE(); only has an effect in debug builds.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::showFileBrowseDialog(BSTR title, [optional]VARIANT filters, [optional]VARIANT initialUri, [optional]VARIANT hwnd)
 ```
+
 
 
 
@@ -3008,9 +3074,11 @@ URI of selected file, or empty string if none selected
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IModelCenter::showFileSaveDialog(BSTR title, int *selectedFilter, [optional]VARIANT initialFilename, [optional]VARIANT filters, [optional]VARIANT initialUri, [optional]VARIANT hwnd)
 ```
+
 
 
 
@@ -3047,9 +3115,11 @@ URI of selected file, or empty string if none selected
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setLoginCallback(IDispatch *callback)
 ```
+
 
 
 
@@ -3071,9 +3141,11 @@ Sets the login callback to use for authentication.
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createDataHistoryVariable()
 ```
+
 
 
 
@@ -3088,9 +3160,11 @@ Create an IDHVariable object.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IModelCenter::getRunOnlyMode()
 ```
+
 
 
 
@@ -3114,9 +3188,11 @@ true if [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) is in Run-On
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setRunOnlyMode(boolean shouldBeInRunOnly)
 ```
+
 
 
 
@@ -3150,9 +3226,11 @@ Note: This function can only be called if it is the first function to be called 
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::createDataExplorer(BSTR tradeStudyType, BSTR setup)
 ```
+
 
 
 
@@ -3171,7 +3249,7 @@ Creates a new Data Explorer. This documentation assumes you're creating it for a
 
 **Returns**:
 
-IDispatch* to an [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer) object.
+IDispatch* to an [PHXDATAEXPLORERLib::_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer) object.
 
 
 
@@ -3187,9 +3265,11 @@ IDispatch* to an [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLOR
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getFileSystemInfo(BSTR url)
 ```
+
 
 
 
@@ -3217,9 +3297,11 @@ Gets the FileSystemInfo for a given URL.
 
 ![][public]
 
+
 ```
 ModelCenter::IModelCenter::SAFEARRAY(BSTR) getTradeStudyFilters()
 ```
+
 
 
 
@@ -3241,9 +3323,11 @@ SAFEARRAY of filters for use in FileDialog of the files used by trade studies
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::saveTradeStudy(BSTR uri, int format, LPDISPATCH dataExplorer)
 ```
+
 
 
 
@@ -3269,9 +3353,11 @@ Save the trade study currently loaded in the DataExplorer to the given URI. It w
 
 ![][public]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getDataCollectorForDataExplorer(LPDISPATCH dataExplorer)
 ```
+
 
 
 
@@ -3304,9 +3390,11 @@ IDispatch* to the [IDataCollector](interfaceModelCenter_1_1IDataCollector.md#int
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::launchDataCollectorPlugIn(BSTR plugInName, LPDISPATCH dataExplorer)
 ```
+
 
 
 
@@ -3336,9 +3424,11 @@ Launches a specific Data Collector PlugIn, by name, on the specified Data Explor
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IModelCenter::guiLoadFile(BSTR fileName)
 ```
+
 
 
 
@@ -3372,9 +3462,11 @@ Loads a file in "GUI" mode, that is, unlike loadFile(...), will produce a prompt
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::guiSaveModel()
 ```
+
 
 
 
@@ -3389,9 +3481,11 @@ Saves the currently open file in "GUI" mode; unlike saveModel, this can pop up a
 
 ![][public]
 
+
 ```
 double ModelCenter::IModelCenter::getMacroTimeout(BSTR macroName)
 ```
+
 
 
 
@@ -3427,9 +3521,11 @@ Number of seconds to allow a script to run before canceling it; -1 indicates no 
 
 ![][public]
 
+
 ```
 void ModelCenter::IModelCenter::setMacroTimeout(BSTR macroName, double timeout)
 ```
+
 
 
 
@@ -3462,9 +3558,11 @@ Sets a macro's timeout.
 
 ![][public]
 
+
 ```
 boolean ModelCenter::IModelCenter::guiCloseAllMultiplexers()
 ```
+
 
 
 
@@ -3484,9 +3582,11 @@ true if the user allowed all multiplexers to close.
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::setAlternateParentFrame(long hwnd)
 ```
+
 
 
 
@@ -3505,9 +3605,11 @@ void ModelCenter::IModelCenter::setAlternateParentFrame(long hwnd)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::destroyPlugInFrame(long hwnd)
 ```
+
 
 
 
@@ -3526,9 +3628,11 @@ void ModelCenter::IModelCenter::destroyPlugInFrame(long hwnd)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::showPlugInFrame(long hwnd)
 ```
+
 
 
 
@@ -3547,9 +3651,11 @@ void ModelCenter::IModelCenter::showPlugInFrame(long hwnd)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::hidePlugInFrame(long hwnd)
 ```
+
 
 
 
@@ -3568,9 +3674,11 @@ void ModelCenter::IModelCenter::hidePlugInFrame(long hwnd)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::setIconPlugInFrame(long hwnd, BSTR iconFile)
 ```
+
 
 
 
@@ -3590,9 +3698,11 @@ void ModelCenter::IModelCenter::setIconPlugInFrame(long hwnd, BSTR iconFile)
 
 ![][private]
 
+
 ```
 long ModelCenter::IModelCenter::launchHTMLViewer(BSTR url, boolean popup)
 ```
+
 
 
 
@@ -3612,9 +3722,11 @@ long ModelCenter::IModelCenter::launchHTMLViewer(BSTR url, boolean popup)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::runAntFile(BSTR fileName)
 ```
+
 
 
 
@@ -3633,9 +3745,11 @@ void ModelCenter::IModelCenter::runAntFile(BSTR fileName)
 
 ![][private]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getGlobalParameters()
 ```
+
 
 
 
@@ -3650,9 +3764,11 @@ IDispatch * ModelCenter::IModelCenter::getGlobalParameters()
 
 ![][private]
 
+
 ```
 boolean ModelCenter::IModelCenter::closeHTMLViewer(long hwnd)
 ```
+
 
 
 
@@ -3671,9 +3787,11 @@ boolean ModelCenter::IModelCenter::closeHTMLViewer(long hwnd)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::HTMLViewerWaitForClose(long hwnd)
 ```
+
 
 
 
@@ -3692,9 +3810,11 @@ void ModelCenter::IModelCenter::HTMLViewerWaitForClose(long hwnd)
 
 ![][private]
 
+
 ```
 long ModelCenter::IModelCenter::HTMLViewerGetMyHWND()
 ```
+
 
 
 
@@ -3709,9 +3829,11 @@ long ModelCenter::IModelCenter::HTMLViewerGetMyHWND()
 
 ![][private]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::getActiveJobManager()
 ```
+
 
 
 
@@ -3726,9 +3848,11 @@ IDispatch * ModelCenter::IModelCenter::getActiveJobManager()
 
 ![][private]
 
+
 ```
 VARIANT ModelCenter::IModelCenter::getPreference(BSTR pref)
 ```
+
 
 
 
@@ -3755,9 +3879,11 @@ preference value as a variant. <br/>
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::internalLicensing(BSTR, long)
 ```
+
 
 
 
@@ -3777,9 +3903,11 @@ void ModelCenter::IModelCenter::internalLicensing(BSTR, long)
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::transformAVPoint(int x, int y, boolean screen, VARIANT *tx, VARIANT *ty)
 ```
+
 
 
 
@@ -3802,9 +3930,11 @@ void ModelCenter::IModelCenter::transformAVPoint(int x, int y, boolean screen, V
 
 ![][private]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::parallelInstance()
 ```
+
 
 
 
@@ -3819,9 +3949,11 @@ IDispatch * ModelCenter::IModelCenter::parallelInstance()
 
 ![][private]
 
+
 ```
 IDispatch * ModelCenter::IModelCenter::unAssociatedInstance()
 ```
+
 
 
 
@@ -3836,9 +3968,11 @@ IDispatch * ModelCenter::IModelCenter::unAssociatedInstance()
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::configureLogging(boolean enableLogging)
 ```
+
 
 
 
@@ -3866,9 +4000,11 @@ Configures the [ModelCenter](namespaceModelCenter.md#namespaceModelCenter) logge
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::setXMLExtension(BSTR xml)
 ```
+
 
 
 
@@ -3896,9 +4032,11 @@ Adds the XML as an XML extension node to the model file.
 
 ![][private]
 
+
 ```
 BSTR ModelCenter::IModelCenter::getXMLExtension(BSTR nodeName, BSTR attributeName, BSTR attributeValue)
 ```
+
 
 
 
@@ -3935,9 +4073,11 @@ Gets an XML extension node from the model file that matches the specified query.
 
 ![][private]
 
+
 ```
 void ModelCenter::IModelCenter::setPreference(BSTR pref, BSTR value)
 ```
+
 
 
 
@@ -3952,6 +4092,6 @@ void ModelCenter::IModelCenter::setPreference(BSTR pref, BSTR value)
 
 **Return type**: void
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

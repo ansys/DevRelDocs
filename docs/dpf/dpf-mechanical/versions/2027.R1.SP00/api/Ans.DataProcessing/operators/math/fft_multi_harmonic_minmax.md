@@ -4,7 +4,17 @@ uid: Ans.DataProcessing.operators.math.fft_multi_harmonic_minmax
 
 # *class* fft_multi_harmonic_minmax(fields_container: object = None, rpm_scoping: object = None, fs_ratio: object = None, num_subdivisions: object = None, max_num_subdivisions: object = None, num_cycles: object = None, use_harmonic_zero: object = None, calculate_time_series: object = None, substeps_selector: object = None, config: OperatorConfig = None)
 
-Evaluate min max fields on multi harmonic solution. min and max fields are calculated based on evaluating a fourier series sum wrt rpms and using the gradient method for adaptive time steping
+Finds the minimum and maximum of a multi-harmonic field over one period using an adaptive time-stepping
+
+gradient method. The field is expressed as a [Fourier series](https://en.wikipedia.org/wiki/Fourier_series)
+
+over harmonic orders corresponding to integer multiples of the operating speed (RPMs).
+
+For each spatial entity, the series is evaluated at adaptively chosen time instants over one period
+
+and the pointwise minimum and maximum are extracted.
+
+ElementalNodal locations are not supported.
 
 available inputs: `fields_container` (FieldsContainer), `rpm_scoping` (Scoping) (optional), `fs_ratio` (Int32) (optional), `num_subdivisions` (Int32) (optional), `max_num_subdivisions` (Int32) (optional), `num_cycles` (Int32) (optional), `use_harmonic_zero` (bool) (optional), `calculate_time_series` (bool) (optional), `substeps_selector` (IList int, System.Collections.IEnumerable) (optional)
 
@@ -37,53 +47,55 @@ op = fft_multi_harmonic_minmax(fields_container=my_fields_container,rpm_scoping=
 
 ### fields_container
 
+Complex multi-harmonic results fields container. Must have a complex label and a time-frequency support whose values are the harmonic excitation frequencies (RPMs). ElementalNodal results are not supported.
+
 **Type:** *LinkableInput*
 
 ### rpm_scoping
 
-rpm scoping, by default the fourier series sum is evaluated using all the rpms
+RPM scoping. When provided, only the selected RPM set IDs are included in the Fourier series. When omitted, all available RPMs are used.
 
 **Type:** *LinkableInput*
 
 ### fs_ratio
 
-field or fields container with only one field is expected
+Oversampling ratio used to set the uniform time step as $1/(f_{max} \times \mathit{fs_ratio})$. Default is $20$.
 
 **Type:** *LinkableInput*
 
 ### num_subdivisions
 
-connect number subdivisions, used for uniform discretization
+Number of uniform time subdivisions per period. When provided, overrides the adaptive step computation. Default is $-1$ (adaptive).
 
 **Type:** *LinkableInput*
 
 ### max_num_subdivisions
 
-connect max number subdivisions, used to avoid huge number of sudivisions
+Maximum number of time subdivisions to avoid excessively fine discretisation. Default is $8000$.
 
 **Type:** *LinkableInput*
 
 ### num_cycles
 
-Number of cycle of the periodic signal (default is 2)
+Number of periods over which the signal is evaluated. Default is $2$.
 
 **Type:** *LinkableInput*
 
 ### use_harmonic_zero
 
-use harmonic zero for first rpm (default is false)
+When true, includes the harmonic-zero (constant) term for the first RPM. Default is false.
 
 **Type:** *LinkableInput*
 
 ### calculate_time_series
 
-calculates time series output (output pin 2), setting it to false enhance performance if only min/max are required (default is true)
+When true (default), computes the full time series at output pin 2. Set to false to skip the time-series output and only compute min and max, which reduces computation time.
 
 **Type:** *LinkableInput*
 
 ### substeps_selector
 
-substeps to evaluate (frequencies), by default the operator is evaluated using all the available steps
+List of harmonic order (substep) indices to include. When omitted, all available substeps are used.
 
 **Type:** *LinkableInput*
 
@@ -91,13 +103,19 @@ substeps to evaluate (frequencies), by default the operator is evaluated using a
 
 ### field_min
 
+Fields container of pointwise minimum values over one period. Same spatial layout as the input.
+
 **Type:** *LinkableOutput*
 
 ### field_max
 
+Fields container of pointwise maximum values over one period. Same spatial layout as the input.
+
 **Type:** *LinkableOutput*
 
 ### all_fields
+
+Full time-series fields container over the evaluation period. Only produced when pin 7 is true (default).
 
 **Type:** *LinkableOutput*
 

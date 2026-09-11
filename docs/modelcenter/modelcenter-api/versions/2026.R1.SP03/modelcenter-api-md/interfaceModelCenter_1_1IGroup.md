@@ -26,9 +26,11 @@ COM Instance.
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IGroup::Variables
 ```
+
 
 
 
@@ -54,9 +56,11 @@ IDispatch* to an [IVariables](interfaceModelCenter_1_1IVariables.md#interfaceMod
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 VARIANT ModelCenter::IGroup::Groups
 ```
+
 
 
 
@@ -82,9 +86,11 @@ IDispatch* to an [IGroups](interfaceModelCenter_1_1IGroups.md#interfaceModelCent
 
 **Definition**: `ModelCenter/src/ModelCenter.odl` (line 1)
 
+
 ```
 int ModelCenter::IGroup::iconID
 ```
+
 
 
 
@@ -101,9 +107,11 @@ The ID number of the icon to use for the Group.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGroup::getName()
 ```
+
 
 
 
@@ -127,9 +135,11 @@ The name of the Group.
 
 ![][public]
 
+
 ```
 BSTR ModelCenter::IGroup::getFullName()
 ```
+
 
 
 
@@ -148,6 +158,6 @@ The full ModelCenter path of the Group.
 
 **Return type**: BSTR
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)

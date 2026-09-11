@@ -10,8 +10,8 @@ Data Explorer API
 
 ## Classes
 
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
-* [PHXDATAEXPLORERLib::\_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorer](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorer)
+* [PHXDATAEXPLORERLib::_DPHXDataExplorerEvents](interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents.md#interfacePHXDATAEXPLORERLib_1_1__DPHXDataExplorerEvents)
 * [PHXDATAEXPLORERLib::IDataExplorerFacadeOwner](interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner.md#interfacePHXDATAEXPLORERLib_1_1IDataExplorerFacadeOwner)
 * [PHXDATAEXPLORERLib::ILegacyVisiblity](interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity.md#interfacePHXDATAEXPLORERLib_1_1ILegacyVisiblity)
 * [PHXDATAEXPLORERLib::IPageVisibility](interfacePHXDATAEXPLORERLib_1_1IPageVisibility.md#interfacePHXDATAEXPLORERLib_1_1IPageVisibility)
@@ -27,9 +27,11 @@ Data Explorer API
 
 ![][private]
 
+
 ```
 PHXDATAEXPLORERLib::importlib(STDOLE_TLB)
 ```
+
 
 
 
@@ -48,9 +50,11 @@ PHXDATAEXPLORERLib::importlib(STDOLE_TLB)
 
 ![][private]
 
+
 ```
 PHXDATAEXPLORERLib::importlib(STDTYPE_TLB)
 ```
+
 
 
 
@@ -64,6 +68,6 @@ PHXDATAEXPLORERLib::importlib(STDTYPE_TLB)
 
 **Return type**: 
 
+[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [private]: https://img.shields.io/badge/-private-red (private)
-[IDL]: https://img.shields.io/badge/language-IDL-blue (IDL)
