@@ -31,11 +31,22 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
+| <strong>-4</strong> | [ignore_empty](#input_-4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-3</strong> | [rescoping_value](#input_-3) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-2</strong> | [reference_scoping_index](#input_-2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-1</strong> | [field_support](#input_-1) |  |`abstract_field_support` |
 | <strong>0</strong> | [fields_containers](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`vector<fields_container>`](../../core-concepts/dpf-types.md#vector<fields-container>) |
 
+
+<a id="input_-4"></a>
+### ignore_empty (Pin -4)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true, the empty fields will be ignored.
+ If false, they are merged depending on pins -2 and -3.
+Default is true.
 
 <a id="input_-3"></a>
 ### rescoping_value (Pin -3)
@@ -51,7 +62,7 @@ Value used to fill the missing values when scopings are different. Default is 0.
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Pin of the field of which to take the scoping for the output field.
+Pin number of the field of which to take the scoping for the output field.
 If -1 all scopings will be merged, if -2 all scopings will be intersected. Default is -1.
 
 <a id="input_-1"></a>
@@ -139,6 +150,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 #include "dpf_api.h"
 
 ansys::dpf::Operator op("merge::concatenate_fields_containers"); // operator instantiation
+op.connect(-4, my_ignore_empty);
 op.connect(-3, my_rescoping_value);
 op.connect(-2, my_reference_scoping_index);
 op.connect(-1, my_field_support);
@@ -154,6 +166,7 @@ ansys::dpf::FieldsContainer my_merged_collections = op.getOutput<ansys::dpf::Fie
 import ansys.dpf.core as dpf
 
 op = dpf.operators.utility.concatenate_fields_containers() # operator instantiation
+op.inputs.ignore_empty.connect(my_ignore_empty)
 op.inputs.rescoping_value.connect(my_rescoping_value)
 op.inputs.reference_scoping_index.connect(my_reference_scoping_index)
 op.inputs.field_support.connect(my_field_support)
@@ -171,6 +184,7 @@ import mech_dpf
 import Ans.DataProcessing as dpf
 
 op = dpf.operators.utility.concatenate_fields_containers() # operator instantiation
+op.inputs.ignore_empty.Connect(my_ignore_empty)
 op.inputs.rescoping_value.Connect(my_rescoping_value)
 op.inputs.reference_scoping_index.Connect(my_reference_scoping_index)
 op.inputs.field_support.Connect(my_field_support)

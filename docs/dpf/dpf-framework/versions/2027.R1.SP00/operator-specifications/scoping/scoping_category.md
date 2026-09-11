@@ -1,7 +1,9 @@
 # Scoping operators
 
 - [adapt with scopings container](adapt_with_scopings_container.md)
+- [adapt with scopings container pfc](adapt_with_scopings_container_pfc.md)
 - [change fc](change_fc.md)
+- [change pfc](change_pfc.md)
 - [compute element centroids](compute_element_centroids.md)
 - [connectivity ids](connectivity_ids.md)
 - [elemental from mesh](elemental_from_mesh.md)
