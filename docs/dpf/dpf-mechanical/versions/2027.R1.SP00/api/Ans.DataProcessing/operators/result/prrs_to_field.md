@@ -1,16 +1,16 @@
 ---
-uid: Ans.DataProcessing.operators.result.prns_to_field
+uid: Ans.DataProcessing.operators.result.prrs_to_field
 ---
 
-# *class* prns_to_field(filepath: object = None, columns_to_read: object = None, config: OperatorConfig = None)
+# *class* prrs_to_field(filepath: object = None, columns_to_read: object = None, config: OperatorConfig = None)
 
-Read the prnsol of nodal field generated file from mapdl.
+Read the prrsol of nodal field generated file from mapdl.
 
 available inputs: `filepath` (string), `columns_to_read` (Int32, IList int, System.Collections.IEnumerable) (optional)
 
 available outputs: `field` (Field)
 
-**DPF Framework Reference:** [prns_to_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/prns_to_field.md)
+**DPF Framework Reference:** [prrs_to_field operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/prrs_to_field.md)
 
 **Parameters:**
 
@@ -21,9 +21,9 @@ available outputs: `field` (Field)
 **Example:**
 
 ```python
-op = prns_to_field()
+op = prrs_to_field()
 
-op = prns_to_field(filepath=my_filepath,columns_to_read=my_columns_to_read)
+op = prrs_to_field(filepath=my_filepath,columns_to_read=my_columns_to_read)
 ```
 
 ## Inputs
