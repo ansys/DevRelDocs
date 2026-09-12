@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-10).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-11).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,13 +43,13 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[84 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[85 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
-| misc | [16 items](#Features_misc) |[24 items](#Fixes_misc) |
+| misc | [16 items](#Features_misc) |[25 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
@@ -1994,6 +1994,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Fix throw when reading unexisting set for mapdl rst nodal results.:
+  > Fix throw when reading unexisting set for mapdl rst nodal results.
+  >
+  > 
+  >
+  > 
+
 - Filter result info for MSUP & CMS on expandable results:
   > 
   >
@@ -3058,6 +3065,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_misc"></a> Fixes
+
+- Extend the new CLayer Exception processing to all CL_Operator functions:
+  > 
+  >
+  > 
 
 - Elastic_strain_eqv operator is now available for modal results:
   > elastic_strain_eqv MAPDL operator was not accessible for modal results, this is now fixed.
