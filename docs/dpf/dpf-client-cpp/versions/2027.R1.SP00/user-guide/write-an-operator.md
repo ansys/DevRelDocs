@@ -138,6 +138,29 @@ static void run(ansys::dpf::OperatorMain& main)
 }
 ```
 
+### Raise errors from operator runtime
+
+When `run()` cannot produce a valid output, signal the failure by throwing an `ansys::dpf::HgpDpfException`. The framework catches it, tags it with the current operator frame, forwards it through the C Layer, and re-raises it on the client side as a `DpfException`.
+
+```cpp
+static void run(ansys::dpf::OperatorMain& main)
+{
+	if (!main.testInput<ansys::dpf::Field>(0)) {
+		throw ansys::dpf::HgpDpfException(
+			"missing_input",
+			"Missing field on pin 0 of custom_sort.",
+			{ { "pin_index", "0" }, { "expected_type", "field" } });
+	}
+	// ... normal processing
+}
+```
+
+For recurring error categories, define a subclass of `HgpDpfException` and set the `type` string once so callers can filter on it.
+
+Do not raise raw `std::exception` or `std::runtime_error` to signal domain errors. They are still forwarded, but the client loses the `type` string and the structured attributes.
+
+For the full pattern - catching errors on the client side, inspecting the nested cause chain with `json_to_data_tree`, defining custom exception types - see [Handling errors in DPF operators and plugins](error-handling.md).
+
 ### Record the operator
 
 The following code enables the operator to be accessible and must be run before any instantiation of this operator.
