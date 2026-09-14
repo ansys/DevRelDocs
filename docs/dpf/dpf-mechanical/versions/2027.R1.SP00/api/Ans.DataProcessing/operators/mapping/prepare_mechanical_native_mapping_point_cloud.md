@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mapping.prepare_mechanical_native_mapping_point_cloud
 ---
 
-# *class* prepare_mechanical_native_mapping_point_cloud(source_mesh: object = None, target_mesh: object = None, target_mesh_scoping: object = None, unit: object = None, location: object = None, dimensionality: object = None, e_shell_layers: object = None, html_report_path: object = None, threads_user_requested: object = None, weighting_type: object = None, outside_option: object = None, num_outside_points: object = None, max_outside_distance: object = None, search_limit: object = None, bounding_box_sizing: object = None, geometry_type: object = None, shell_thickness_factor: object = None, is_element_centroidal_data_mapping: object = None, projection_options: object = None, dynamic_coordinate_system: object = None, source_dimension: object = None, wb_external_data_info: object = None, target_dimension: object = None, config: OperatorConfig = None)
+# *class* prepare_mechanical_native_mapping_point_cloud(source_mesh: object = None, target_mesh: object = None, target_mesh_scoping: object = None, unit: object = None, location: object = None, dimensionality: object = None, e_shell_layers: object = None, html_report_path: object = None, threads_user_requested: object = None, weighting_type: object = None, outside_option: object = None, num_outside_points: object = None, max_outside_distance: object = None, search_limit: object = None, bounding_box_sizing: object = None, geometry_type: object = None, shell_thickness_factor: object = None, is_element_centroidal_data_mapping: object = None, projection_options: object = None, dynamic_coordinate_system: object = None, source_dimension: object = None, wb_external_data_info: object = None, target_dimension: object = None, shell_offset_field: object = None, config: OperatorConfig = None)
 
 Prepares field data mapping from source mesh to target mesh using **point cloud interpolation** - a scattered-data
 
@@ -30,7 +30,7 @@ For further details on the algorithm and its settings, see the Ansys Mechanical 
 
 [Data Transfer Mesh Mapping](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v271/en/wb_sim/ds_appen_data_transfer.html).
 
-available inputs: `source_mesh` (MeshedRegion, Field), `target_mesh` (MeshedRegion, Field), `target_mesh_scoping` (Scoping) (optional), `unit` (string) (optional), `location` (string) (optional), `dimensionality` (Int32), `e_shell_layers` (Int32) (optional), `html_report_path` (string) (optional), `threads_user_requested` (Int32) (optional), `weighting_type` (string) (optional), `outside_option` (string) (optional), `num_outside_points` (Int32) (optional), `max_outside_distance` (double) (optional), `search_limit` (Int32) (optional), `bounding_box_sizing` (double) (optional), `geometry_type` (string) (optional), `shell_thickness_factor` (double) (optional), `is_element_centroidal_data_mapping` (bool) (optional), `projection_options` (DataTree) (optional), `dynamic_coordinate_system` (DataTree) (optional), `source_dimension` (string) (optional), `wb_external_data_info` (DataTree) (optional), `target_dimension` (string) (optional)
+available inputs: `source_mesh` (MeshedRegion, Field), `target_mesh` (MeshedRegion, Field), `target_mesh_scoping` (Scoping) (optional), `unit` (string) (optional), `location` (string) (optional), `dimensionality` (Int32), `e_shell_layers` (Int32) (optional), `html_report_path` (string) (optional), `threads_user_requested` (Int32) (optional), `weighting_type` (string) (optional), `outside_option` (string) (optional), `num_outside_points` (Int32) (optional), `max_outside_distance` (double) (optional), `search_limit` (Int32) (optional), `bounding_box_sizing` (double) (optional), `geometry_type` (string) (optional), `shell_thickness_factor` (double) (optional), `is_element_centroidal_data_mapping` (bool) (optional), `projection_options` (DataTree) (optional), `dynamic_coordinate_system` (DataTree) (optional), `source_dimension` (string) (optional), `wb_external_data_info` (DataTree) (optional), `target_dimension` (string) (optional), `shell_offset_field` (Field) (optional)
 
 available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `target_mesh` (MeshedRegion), `target_mesh_id` (Int32), `mapping_manager_data` (Any), `target_scoping` (Scoping), `prepare_output` (Any)
 
@@ -61,6 +61,7 @@ available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `targ
 * **source_dimension**
 * **wb_external_data_info**
 * **target_dimension**
+* **shell_offset_field**
 * **config**
 
 **Example:**
@@ -68,7 +69,7 @@ available outputs: `source_mesh` (MeshedRegion), `source_mesh_id` (Int32), `targ
 ```python
 op = prepare_mechanical_native_mapping_point_cloud()
 
-op = prepare_mechanical_native_mapping_point_cloud(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_mesh_scoping=my_target_mesh_scoping,unit=my_unit,location=my_location,dimensionality=my_dimensionality,e_shell_layers=my_e_shell_layers,html_report_path=my_html_report_path,threads_user_requested=my_threads_user_requested,weighting_type=my_weighting_type,outside_option=my_outside_option,num_outside_points=my_num_outside_points,max_outside_distance=my_max_outside_distance,search_limit=my_search_limit,bounding_box_sizing=my_bounding_box_sizing,geometry_type=my_geometry_type,shell_thickness_factor=my_shell_thickness_factor,is_element_centroidal_data_mapping=my_is_element_centroidal_data_mapping,projection_options=my_projection_options,dynamic_coordinate_system=my_dynamic_coordinate_system,source_dimension=my_source_dimension,wb_external_data_info=my_wb_external_data_info,target_dimension=my_target_dimension)
+op = prepare_mechanical_native_mapping_point_cloud(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_mesh_scoping=my_target_mesh_scoping,unit=my_unit,location=my_location,dimensionality=my_dimensionality,e_shell_layers=my_e_shell_layers,html_report_path=my_html_report_path,threads_user_requested=my_threads_user_requested,weighting_type=my_weighting_type,outside_option=my_outside_option,num_outside_points=my_num_outside_points,max_outside_distance=my_max_outside_distance,search_limit=my_search_limit,bounding_box_sizing=my_bounding_box_sizing,geometry_type=my_geometry_type,shell_thickness_factor=my_shell_thickness_factor,is_element_centroidal_data_mapping=my_is_element_centroidal_data_mapping,projection_options=my_projection_options,dynamic_coordinate_system=my_dynamic_coordinate_system,source_dimension=my_source_dimension,wb_external_data_info=my_wb_external_data_info,target_dimension=my_target_dimension,shell_offset_field=my_shell_offset_field)
 ```
 
 ## Inputs
@@ -188,6 +189,12 @@ Default is empty. This data tree contains the Rigid & Analytical transformations
 ### target_dimension
 
 Default is empty string. The string contains either "2D" or "3D" which specifies the target dimension
+
+**Type:** *LinkableInput*
+
+### shell_offset_field
+
+Optional nodal field with 3 components per target node. Each value is the displacement from the midsurface node location to the shell mapping location (top/bottom per shell thickness factor), matching native External File target mesh offset behavior.
 
 **Type:** *LinkableInput*
 

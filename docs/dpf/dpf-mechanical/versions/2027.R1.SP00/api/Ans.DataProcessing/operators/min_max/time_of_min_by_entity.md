@@ -4,7 +4,13 @@ uid: Ans.DataProcessing.operators.min_max.time_of_min_by_entity
 
 # *class* time_of_min_by_entity(fields_container: object = None, abs_value: object = None, compute_amplitude: object = None, config: OperatorConfig = None)
 
-Evaluates time/frequency of minimum.
+Thin wrapper around `min_max_over_time_by_entity` that exposes only the time or frequency value at which each per-entity, per-component minimum occurred.
+
+The result forwarded on output pin 0 is pin 2 of `min_max_over_time_by_entity` (the `time_freq_of_min` fields container). It is populated only when the input carries a time-frequency support.
+
+**When to use:** you only need the time of minimum.
+
+Prefer `min_max_over_time_by_entity` directly when you also need the extremum value or the maximum-side outputs.
 
 available inputs: `fields_container` (FieldsContainer), `abs_value` (bool) (optional), `compute_amplitude` (bool) (optional)
 
@@ -31,23 +37,27 @@ op = time_of_min_by_entity(fields_container=my_fields_container,abs_value=my_abs
 
 ### fields_container
 
+Fields container aggregated per entity across all time or frequency steps. Must expose the `time` label; otherwise the input is forwarded unchanged by the underlying operator.
+
 **Type:** *LinkableInput*
 
 ### abs_value
 
-Should use absolute value.
+When `true`, absolute values of the field entries are used before the min is computed. Default: `false`.
 
 **Type:** *LinkableInput*
 
 ### compute_amplitude
 
-Do calculate amplitude.
+When `true` and the input fields container has the `complex` label, the amplitude of the complex values is used before the min is computed. Ignored otherwise. Default: `false`.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### fields_container
+
+Time or frequency at which each per-entity, per-component minimum occurred. Populated only when the input carries a time-frequency support. Same shape as pin 2 of `min_max_over_time_by_entity`.
 
 **Type:** *LinkableOutput*
 

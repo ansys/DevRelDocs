@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.result.prns_to_field
 
 # *class* prns_to_field(filepath: object = None, columns_to_read: object = None, config: OperatorConfig = None)
 
-Read the presol of nodal field generated file from mapdl.
+Read the prnsol of nodal field generated file from mapdl.
 
 available inputs: `filepath` (string), `columns_to_read` (Int32, IList int, System.Collections.IEnumerable) (optional)
 

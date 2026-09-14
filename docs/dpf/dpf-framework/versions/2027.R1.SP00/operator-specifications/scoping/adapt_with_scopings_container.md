@@ -31,7 +31,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`field`](../../core-concepts/dpf-types.md#field)
 
-Fields container to rescope, or a single field (which will be converted to a container)
+Fields container to rescope, or a single field (which will be converted to a container).
 
 <a id="input_1"></a>
 ### scopings_container (Pin 1)

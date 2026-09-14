@@ -67,6 +67,7 @@ uid: Ans.DataProcessing.operators.math
 | [matrix_inverse](Ans_DataProcessing_operators_math_matrix_inverse.md) | Computes the [matrix inverse](https://en.wikipedia.org/wiki/Invertible_matrix) |
 | [matrix_product](Ans_DataProcessing_operators_math_matrix_product.md) | matrix_product() |
 | [matrix_product_fc](Ans_DataProcessing_operators_math_matrix_product_fc.md) | matrix_product_fc() |
+| [mechanical_min_max_over_time](Ans_DataProcessing_operators_math_mechanical_min_max_over_time.md) | Dispatch operator that selects and runs a minimum/maximum operator over time or frequency, based on the integer selector on pin 5. |
 | [minus](Ans_DataProcessing_operators_math_minus.md) | minus() |
 | [minus_fc](Ans_DataProcessing_operators_math_minus_fc.md) | minus_fc() |
 | [modal_damping_ratio](Ans_DataProcessing_operators_math_modal_damping_ratio.md) | modal_damping_ratio() |

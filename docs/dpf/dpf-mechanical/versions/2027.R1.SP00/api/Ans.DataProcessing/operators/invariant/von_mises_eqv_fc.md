@@ -6,7 +6,7 @@ uid: Ans.DataProcessing.operators.invariant.von_mises_eqv_fc
 
 Computes the element-wise Von-Mises criteria on all the tensor fields of a fields container.
 
-available inputs: `fields_container` (FieldsContainer), `poisson_ratio` (double, Int32)
+available inputs: `fields_container` (FieldsContainer), `poisson_ratio` (double, Int32) (optional)
 
 available outputs: `fields_container` (FieldsContainer)
 

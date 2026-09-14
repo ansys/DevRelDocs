@@ -6,7 +6,7 @@ uid: Ans.DataProcessing.operators.serialization.hdf5dpf_generate_result_file
 
 Generate a dpf result file from provided information.
 
-available inputs: `h5_chunk_size` (Int32) (optional), `append_mode` (bool) (optional), `dataset_size_compression_threshold` (Int32) (optional), `h5_native_compression` (Int32, DataTree) (optional), `export_floats` (bool) (optional), `filename` (string), `mesh_provider_out` (MeshedRegion) (optional), `time_freq_support_out` (TimeFreqSupport) (optional), `ansys_unit_system_id` (Int32, ResultInfo) (optional), `input_name1` (string, Any) (optional), `input_name2` (string, Any) (optional)
+available inputs: `h5_chunk_size` (Int32) (optional), `append_mode` (bool, Int32) (optional), `dataset_size_compression_threshold` (Int32) (optional), `h5_native_compression` (Int32, DataTree) (optional), `export_floats` (bool) (optional), `filename` (string), `mesh_provider_out` (MeshedRegion) (optional), `time_freq_support_out` (TimeFreqSupport) (optional), `ansys_unit_system_id` (Int32, ResultInfo) (optional), `input_name1` (string, Any) (optional), `input_name2` (string, Any) (optional)
 
 available outputs: `data_sources` (DataSources)
 
@@ -44,7 +44,7 @@ Size of each HDF5 chunk in kilobytes (KB). Default: 1 MB when compression is ena
 
 ### append_mode
 
-Experimental: Allow appending chunked data to the file. This disables fields container content deduplication.
+Experimental: Allow appending chunked data to the file. This disables fields container content deduplication.0 (false) is default for not appending, 1 (true) for appending, 2 for appending just the time freq support(used in live mapdl export)
 
 **Type:** *LinkableInput*
 

@@ -73,6 +73,12 @@ fields_container = my_op.outputs.fields_container.GetData()
 
 * **i** (*optional*)
 
+#### GetOutputAsDoubleCollection(i: int = 0) -> Collection
+
+**Parameters:**
+
+* **i** (*optional*)
+
 #### GetOutputAsField(i: int = 0) -> Field
 
 **Parameters:**
@@ -92,6 +98,12 @@ fields_container = my_op.outputs.fields_container.GetData()
 * **i** (*optional*)
 
 #### GetOutputAsInt(i: int = 0) -> int
+
+**Parameters:**
+
+* **i** (*optional*)
+
+#### GetOutputAsIntCollection(i: int = 0) -> Collection
 
 **Parameters:**
 

@@ -86,6 +86,8 @@
       href: api-reference/classansys-dpf-datasources.md
     - name: ansys::dpf::DataTree
       href: api-reference/classansys-dpf-datatree.md
+    - name: ansys::dpf::DefaultErrorFormatter
+      href: api-reference/classansys-dpf-defaulterrorformatter.md
     - name: ansys::dpf::Dimensionality
       href: api-reference/structansys-dpf-dimensionality.md
     - name: ansys::dpf::DpfError
@@ -106,6 +108,8 @@
       href: api-reference/classansys-dpf-elementcursor.md
     - name: ansys::dpf::ElementDescriptor
       href: api-reference/structansys-dpf-elementdescriptor.md
+    - name: ansys::dpf::ErrorFormatter
+      href: api-reference/classansys-dpf-errorformatter.md
     - name: ansys::dpf::EventHandler
       href: api-reference/classansys-dpf-eventhandler.md
     - name: ansys::dpf::ExternalData
@@ -126,6 +130,8 @@
       href: api-reference/classansys-dpf-genericdatacontainer.md
     - name: ansys::dpf::GenericSupport
       href: api-reference/classansys-dpf-genericsupport.md
+    - name: ansys::dpf::HgpDpfException
+      href: api-reference/classansys-dpf-hgpdpfexception.md
     - name: ansys::dpf::Homogeneity
       href: api-reference/classansys-dpf-homogeneity.md
     - name: ansys::dpf::Interface

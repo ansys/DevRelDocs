@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.utility.propertyfield_get_attribute
 
 # *class* propertyfield_get_attribute(property_field: object = None, property_name: object = None, config: OperatorConfig = None)
 
-Gets a property from an input field / fields container. A PropertyField in pin 0 and a property name (string) in pin 1 are expected as inputs.
+propertyfield_get_attribute()
 
-available inputs: `property_field` (PropertyField, PropertyFieldsContainer), `property_name` (string)
+propertyfield_get_attribute(property_field: object, property_name: object, config: OperatorConfig)
 
-available outputs: `property` (string ,TimeFreqSupport ,Scoping ,DataTree)
+propertyfield_get_attribute(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [propertyfield_get_attribute operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/propertyfield_get_attribute.md)
 
@@ -18,14 +20,6 @@ available outputs: `property` (string ,TimeFreqSupport ,Scoping ,DataTree)
 * **property_name**
 * **config**
 
-**Example:**
-
-```python
-op = propertyfield_get_attribute()
-
-op = propertyfield_get_attribute(property_field=my_property_field,property_name=my_property_name)
-```
-
 ## Inputs
 
 ### property_field
@@ -34,7 +28,7 @@ op = propertyfield_get_attribute(property_field=my_property_field,property_name=
 
 ### property_name
 
-Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header' and 'datasize'.
+Property to get. Accepted inputs are specific strings namely: 'unit, 'name','time_freq_support', 'scoping', 'header', 'datasize' and 'data'.
 
 **Type:** *LinkableInput*
 
@@ -42,7 +36,7 @@ Property to get. Accepted inputs are specific strings namely: 'unit, 'name','tim
 
 ### property
 
-Property value that is returned. Accepted Outputs are: Field, PropertyField, CustomTypeField or their containers.
+Property value that is returned.
 
 **Type:** *LinkableOutput*
 

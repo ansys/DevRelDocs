@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.utility.set_attribute
 
 # *class* set_attribute(fields_container: object = None, property_name: object = None, property_identifier: object = None, config: OperatorConfig = None)
 
-Uses the FieldsContainer APIs to modify it.
+set_attribute()
 
-available inputs: `fields_container` (FieldsContainer), `property_name` (string), `property_identifier` (LabelSpace, string, StringField) (optional)
+set_attribute(fields_container: object, property_name: object, property_identifier: object, config: OperatorConfig)
 
-available outputs: `fields_container` (FieldsContainer)
+set_attribute(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [set_attribute operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/set_attribute.md)
 
@@ -18,14 +20,6 @@ available outputs: `fields_container` (FieldsContainer)
 * **property_name**
 * **property_identifier**
 * **config**
-
-**Example:**
-
-```python
-op = set_attribute()
-
-op = set_attribute(fields_container=my_fields_container,property_name=my_property_name,property_identifier=my_property_identifier)
-```
 
 ## Inputs
 

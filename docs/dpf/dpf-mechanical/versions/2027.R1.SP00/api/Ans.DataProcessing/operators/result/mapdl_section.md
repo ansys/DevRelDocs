@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.result.mapdl_section
 
 # *class* mapdl_section(properties_name: object = None, section: object = None, streams_container: object = None, data_sources: object = None, layer_property: object = None, layers_requested: object = None, config: OperatorConfig = None)
 
-Read the values of the section properties for a given section property field (property field that contains section information for each element of a mesh). The following keys can be used: Thickness, NumLayers. For layered elements, the following keys can be used: Thickness, MatID, Orientation, NumIntPoints.
+mapdl_section()
 
-available inputs: `properties_name` (string), `section` (PropertyField) (optional), `streams_container` (StreamsContainer), `data_sources` (DataSources), `layer_property` (bool) (optional), `layers_requested` (IList int, System.Collections.IEnumerable) (optional)
+mapdl_section(properties_name: object, section: object, streams_container: object, data_sources: object, layer_property: object, layers_requested: object, config: OperatorConfig)
 
-available outputs: `properties_value` (FieldsContainer), `layers_per_section` (PropertyField)
+mapdl_section(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [mapdl_section operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/result/mapdl_section.md)
 
@@ -21,14 +23,6 @@ available outputs: `properties_value` (FieldsContainer), `layers_per_section` (P
 * **layer_property**
 * **layers_requested**
 * **config**
-
-**Example:**
-
-```python
-op = mapdl_section()
-
-op = mapdl_section(properties_name=my_properties_name,section=my_section,streams_container=my_streams_container,data_sources=my_data_sources,layer_property=my_layer_property,layers_requested=my_layers_requested)
-```
 
 ## Inputs
 

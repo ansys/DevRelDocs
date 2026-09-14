@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.utility.concatenate_fields_containers
 ---
 
-# *class* concatenate_fields_containers(rescoping_value: object = None, reference_scoping_index: object = None, field_support: object = None, config: OperatorConfig = None)
+# *class* concatenate_fields_containers(ignore_empty: object = None, rescoping_value: object = None, reference_scoping_index: object = None, field_support: object = None, config: OperatorConfig = None)
 
 Concatenates fields containers into a unique one by concatenating each of their fields.
 
@@ -26,7 +26,7 @@ Example:
 
 	- Field2 with components: { VX, VY, VZ, AX, AY, AZ }
 
-available inputs: `rescoping_value` (double) (optional), `reference_scoping_index` (Int32) (optional), `field_support` (AbstractFieldSupport) (optional), `fields_containers1` (), `fields_containers2` ()
+available inputs: `ignore_empty` (bool) (optional), `rescoping_value` (double) (optional), `reference_scoping_index` (Int32) (optional), `field_support` (AbstractFieldSupport) (optional), `fields_containers1` (), `fields_containers2` ()
 
 available outputs: `merged_collections` (FieldsContainer)
 
@@ -34,6 +34,7 @@ available outputs: `merged_collections` (FieldsContainer)
 
 **Parameters:**
 
+* **ignore_empty**
 * **rescoping_value**
 * **reference_scoping_index**
 * **field_support**
@@ -44,10 +45,14 @@ available outputs: `merged_collections` (FieldsContainer)
 ```python
 op = concatenate_fields_containers()
 
-op = concatenate_fields_containers(rescoping_value=my_rescoping_value,reference_scoping_index=my_reference_scoping_index,field_support=my_field_support)
+op = concatenate_fields_containers(ignore_empty=my_ignore_empty,rescoping_value=my_rescoping_value,reference_scoping_index=my_reference_scoping_index,field_support=my_field_support)
 ```
 
 ## Inputs
+
+### ignore_empty
+
+**Type:** *LinkableInput*
 
 ### rescoping_value
 

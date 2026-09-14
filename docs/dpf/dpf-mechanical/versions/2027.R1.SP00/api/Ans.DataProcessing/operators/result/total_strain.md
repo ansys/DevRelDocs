@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.result.total_strain
 ---
 
-# *class* total_strain(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, config: OperatorConfig = None)
+# *class* total_strain(time_scoping: object = None, mesh_scoping: object = None, data_sources: object = None, requested_location: object = None, expanded_meshed_region: object = None, sectors_to_expand: object = None, phi: object = None, config: OperatorConfig = None)
 
 total_strain()
 
-total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, config: OperatorConfig)
+total_strain(time_scoping: object, mesh_scoping: object, data_sources: object, requested_location: object, expanded_meshed_region: object, sectors_to_expand: object, phi: object, config: OperatorConfig)
 
 total_strain(config: OperatorConfig)
 
@@ -19,6 +19,10 @@ total_strain(config: OperatorConfig)
 * **time_scoping**
 * **mesh_scoping**
 * **data_sources**
+* **requested_location**
+* **expanded_meshed_region**
+* **sectors_to_expand**
+* **phi**
 * **config**
 
 ## Inputs
@@ -61,7 +65,61 @@ Rotate the result to the global coordinate system if rotations are available (de
 
 ### mesh
 
-prevents from reading the mesh in the result files
+mesh. If cylic expansion is to be done, mesh of the base sector
+
+**Type:** *LinkableInput*
+
+### requested_location
+
+requested location Nodal, Elemental or ElementalNodal
+
+**Type:** *LinkableInput*
+
+### read_cyclic
+
+if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1)
+
+**Type:** *LinkableInput*
+
+### expanded_meshed_region
+
+mesh expanded, use if cyclic expansion is to be done.
+
+**Type:** *LinkableInput*
+
+### sectors_to_expand
+
+sectors to expand (start at 0), for multistage: use scopings container with 'stage' label, use if cyclic expansion is to be done.
+
+**Type:** *LinkableInput*
+
+### phi
+
+angle phi in degrees (default value 0.0), use if cyclic expansion is to be done.
+
+**Type:** *LinkableInput*
+
+### read_beams
+
+elemental nodal beam results are read if this pin is set to true (default is true)
+
+**Type:** *LinkableInput*
+
+### split_shells
+
+If true, this pin forces the results to be split by element shape, indicated by the presence of the 'elshape' label in the output. If false, the results for all elements shapes are combined. Default value is false if averaging is not required and true if averaging is required.
+
+**Type:** *LinkableInput*
+
+### shell_layer
+
+If connected, this pin allows you to extract the result only on the selected shell layer(s). The available values are: 0: Top, 1: Bottom, 2: TopBottom, 3: Mid, 4: TopBottomMid.
+
+**Type:** *LinkableInput*
+
+### extend_to_mid_nodes
+
+Compute mid nodes (when available) by averaging the neighbour corner nodes. Default: True
 
 **Type:** *LinkableInput*
 

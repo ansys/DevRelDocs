@@ -59,6 +59,7 @@ uid: Ans.DataProcessing.operators.result
 | [compute_total_strain_Y](Ans_DataProcessing_operators_result_compute_total_strain_Y.md) | compute_total_strain_Y() |
 | [compute_total_strain_YZ](Ans_DataProcessing_operators_result_compute_total_strain_YZ.md) | compute_total_strain_YZ() |
 | [compute_total_strain_Z](Ans_DataProcessing_operators_result_compute_total_strain_Z.md) | compute_total_strain_Z() |
+| [contact_element_heat_flow](Ans_DataProcessing_operators_result_contact_element_heat_flow.md) | contact_element_heat_flow() |
 | [contact_fluid_penetration_pressure](Ans_DataProcessing_operators_result_contact_fluid_penetration_pressure.md) | contact_fluid_penetration_pressure() |
 | [contact_friction_stress](Ans_DataProcessing_operators_result_contact_friction_stress.md) | contact_friction_stress() |
 | [contact_gap_distance](Ans_DataProcessing_operators_result_contact_gap_distance.md) | contact_gap_distance() |
@@ -68,6 +69,7 @@ uid: Ans.DataProcessing.operators.result
 | [contact_status](Ans_DataProcessing_operators_result_contact_status.md) | contact_status() |
 | [contact_surface_heat_flux](Ans_DataProcessing_operators_result_contact_surface_heat_flux.md) | contact_surface_heat_flux() |
 | [contact_total_stress](Ans_DataProcessing_operators_result_contact_total_stress.md) | contact_total_stress() |
+| [convection_heat_flow_rate](Ans_DataProcessing_operators_result_convection_heat_flow_rate.md) | convection_heat_flow_rate() |
 | [coordinate_system](Ans_DataProcessing_operators_result_coordinate_system.md) | Extracts the Rotation Matrix and Origin of a specific coordinate system.   ///available inputs: cs_id (Int32), streams_container (StreamsContainer) (optional), data_sources (DataSources) |
 | [coordinates](Ans_DataProcessing_operators_result_coordinates.md) | coordinates() |
 | [creep_strain](Ans_DataProcessing_operators_result_creep_strain.md) | creep_strain() |
@@ -128,7 +130,7 @@ uid: Ans.DataProcessing.operators.result
 | [element_orientations_Y](Ans_DataProcessing_operators_result_element_orientations_Y.md) | element_orientations_Y() |
 | [element_orientations_Z](Ans_DataProcessing_operators_result_element_orientations_Z.md) | element_orientations_Z() |
 | [elemental_heat_generation](Ans_DataProcessing_operators_result_elemental_heat_generation.md) | elemental_heat_generation() |
-| [elemental_mass](Ans_DataProcessing_operators_result_elemental_mass.md) | elemental_mass() |
+| [elemental_mass](Ans_DataProcessing_operators_result_elemental_mass.md) | Computes elemental mass by multiplying elemental volume (ENG_VOL) by elemental density (DENS).   ///available inputs: time_scoping (Scoping, IList int, Int32, System.Collections.IEnumerable) (optional), streams_container (StreamsContainer) (optional), data_sources (DataSources) |
 | [elemental_volume](Ans_DataProcessing_operators_result_elemental_volume.md) | elemental_volume() |
 | [emissivity](Ans_DataProcessing_operators_result_emissivity.md) | emissivity() |
 | [emitted_radiation_heat_flux](Ans_DataProcessing_operators_result_emitted_radiation_heat_flux.md) | emitted_radiation_heat_flux() |
@@ -221,13 +223,12 @@ uid: Ans.DataProcessing.operators.result
 | [magnetic_flux_density_Z](Ans_DataProcessing_operators_result_magnetic_flux_density_Z.md) | magnetic_flux_density_Z() |
 | [magnetic_scalar_potential](Ans_DataProcessing_operators_result_magnetic_scalar_potential.md) | magnetic_scalar_potential() |
 | [magnetic_vector_potential](Ans_DataProcessing_operators_result_magnetic_vector_potential.md) | magnetic_vector_potential() |
-| [mapdl_material_properties](Ans_DataProcessing_operators_result_mapdl_material_properties.md) | Read the values of the properties of a material for a given materials property field (property field that contains materials information for each element of a mesh).It returns a fields container containing a field for each material property, with only one value per material. The following keys can be used: Young's modulus (keys: EX, EY, EZ), Poisson's ratio (keys: NUXY, NUYZ, NUXZ), Shear Modulus (keys: GXY, GYZ, GXZ), Coefficient of Thermal Expansion (keys: ALPX, ALPY, ALPZ), Volumic Mass (key: DENS), second Lame's coefficient (key: MU), Damping coefficient (key: DAMP), thermal Conductivity (keys: KXX, KYY, KZZ), Resistivity (keys: RSVX, RSVY, RSVZ), Specific heat in constant volume (key: C), Film coefficient (key: HF), Viscosity (key: VISC), Emissivity (key: EMIS).    ///available inputs: properties_name (string), materials (PropertyField), streams_container (StreamsContainer), data_sources (DataSources) |
-| [mapdl_section](Ans_DataProcessing_operators_result_mapdl_section.md) | Read the values of the section properties for a given section property field (property field that contains section information for each element of a mesh). The following keys can be used: Thickness, NumLayers. For layered elements, the following keys can be used: Thickness, MatID, Orientation, NumIntPoints.   ///available inputs: properties_name (string), section (PropertyField) (optional), streams_container (StreamsContainer), data_sources (DataSources), layer_property (bool) (optional), layers_requested (IList int, System.Collections.IEnumerable) (optional) |
-| [mapdl_split_on_facet_indices](Ans_DataProcessing_operators_result_mapdl_split_on_facet_indices.md) | Splits each Field in a FieldsContainer defined on the skin elements of a mesh according to the local facets indices of its corresponding solid element. The output FieldsContainer retains the original labels and adds a 'facet' label, which indicates at which facet of the solid mesh was the original skin element located. The facet ids are according to MAPDL convention. The scoping of the output Fields reflects the element indices in the solid mesh.   ///available inputs: fields_container (FieldsContainer), property_field_new_elements_to_old (PropertyField), facet_indices (PropertyField), volume_mesh (MeshedRegion), degenerated_tets (Scoping) (optional), non_degenerated_tets (Scoping) (optional) |
+| [mapdl_material_properties](Ans_DataProcessing_operators_result_mapdl_material_properties.md) | mapdl_material_properties() |
+| [mapdl_section](Ans_DataProcessing_operators_result_mapdl_section.md) | mapdl_section() |
 | [mapdl_split_to_acmo_facet_indices](Ans_DataProcessing_operators_result_mapdl_split_to_acmo_facet_indices.md) | This will retain the already existing labels from the input FC and will change the facet label to now mean ACMO facet indices.Each Field in the input will be split/merged into several Fields, redistributing the data to the appropriate entity.   ///available inputs: fields_container (FieldsContainer), property_fields_container_element_types (PropertyFieldsContainer) |
 | [mass_flow_rate](Ans_DataProcessing_operators_result_mass_flow_rate.md) | mass_flow_rate() |
 | [mass_fraction](Ans_DataProcessing_operators_result_mass_fraction.md) | mass_fraction() |
-| [material_property_of_element](Ans_DataProcessing_operators_result_material_property_of_element.md) | Reads a named scalar material property (pin 6) for each element from result files. |
+| [material_property_of_element](Ans_DataProcessing_operators_result_material_property_of_element.md) | Reads a material property for each element from result files. |
 | [mean_static_pressure](Ans_DataProcessing_operators_result_mean_static_pressure.md) | mean_static_pressure() |
 | [mean_temperature](Ans_DataProcessing_operators_result_mean_temperature.md) | mean_temperature() |
 | [mean_velocity](Ans_DataProcessing_operators_result_mean_velocity.md) | mean_velocity() |
@@ -292,11 +293,13 @@ uid: Ans.DataProcessing.operators.result
 | [poynting_vector](Ans_DataProcessing_operators_result_poynting_vector.md) | Compute the Poynting Vector   ///available inputs: fields_containerA (FieldsContainer), fields_containerB (FieldsContainer), fields_containerC (FieldsContainer), fields_containerD (FieldsContainer), meshed_region (MeshedRegion) (optional), int32 (Int32) (optional) |
 | [poynting_vector_surface](Ans_DataProcessing_operators_result_poynting_vector_surface.md) | Compute the Poynting Vector surface integral   ///available inputs: fields_containerA (FieldsContainer), fields_containerB (FieldsContainer), fields_containerC (FieldsContainer), fields_containerD (FieldsContainer), meshed_region (MeshedRegion) (optional), int32 (Int32) (optional) |
 | [prandtl_number](Ans_DataProcessing_operators_result_prandtl_number.md) | prandtl_number() |
-| [pres_to_field](Ans_DataProcessing_operators_result_pres_to_field.md) | Read the presol generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32) (optional) |
+| [pres_to_field](Ans_DataProcessing_operators_result_pres_to_field.md) | Read the presol generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32, IList int, System.Collections.IEnumerable) (optional), element_type_to_ignore () (optional) |
 | [pressure](Ans_DataProcessing_operators_result_pressure.md) | pressure() |
 | [pretension](Ans_DataProcessing_operators_result_pretension.md) | Reads the pretension adjustment and tension force. Rotation is not allowed for these results.   ///available inputs: time_scoping (ScopingsContainer, Scoping) (optional), mesh_scoping (ScopingsContainer, Scoping) (optional), fields_container (FieldsContainer) (optional), streams_container (StreamsContainer, Stream), data_sources (DataSources), mesh (MeshedRegion, MeshesContainer) (optional), read_cyclic (Int32) (optional), expanded_meshed_region (MeshedRegion, MeshesContainer) (optional), sectors_to_expand (IList int, Scoping, ScopingsContainer, System.Collections.IEnumerable) (optional), phi (double) (optional) |
-| [prns_to_field](Ans_DataProcessing_operators_result_prns_to_field.md) | Read the presol of nodal field generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32, IList int, System.Collections.IEnumerable) (optional) |
+| [prns_to_field](Ans_DataProcessing_operators_result_prns_to_field.md) | Read the prnsol of nodal field generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32, IList int, System.Collections.IEnumerable) (optional) |
+| [prrs_to_field](Ans_DataProcessing_operators_result_prrs_to_field.md) | Read the prrsol of nodal field generated file from mapdl.   ///available inputs: filepath (string), columns_to_read (Int32, IList int, System.Collections.IEnumerable) (optional) |
 | [radiation_area](Ans_DataProcessing_operators_result_radiation_area.md) | radiation_area() |
+| [radiation_heat_flow_rate](Ans_DataProcessing_operators_result_radiation_heat_flow_rate.md) | radiation_heat_flow_rate() |
 | [raw_acceleration](Ans_DataProcessing_operators_result_raw_acceleration.md) | raw_acceleration() |
 | [raw_displacement](Ans_DataProcessing_operators_result_raw_displacement.md) | raw_displacement() |
 | [raw_reaction_force](Ans_DataProcessing_operators_result_raw_reaction_force.md) | raw_reaction_force() |
@@ -382,6 +385,18 @@ uid: Ans.DataProcessing.operators.result
 | [total_mass](Ans_DataProcessing_operators_result_total_mass.md) | Reads total mass from mode file.   ///available inputs: data_sources (DataSources) |
 | [total_pressure](Ans_DataProcessing_operators_result_total_pressure.md) | total_pressure() |
 | [total_strain](Ans_DataProcessing_operators_result_total_strain.md) | total_strain() |
+| [total_strain_X](Ans_DataProcessing_operators_result_total_strain_X.md) | total_strain_X() |
+| [total_strain_XY](Ans_DataProcessing_operators_result_total_strain_XY.md) | total_strain_XY() |
+| [total_strain_XZ](Ans_DataProcessing_operators_result_total_strain_XZ.md) | total_strain_XZ() |
+| [total_strain_Y](Ans_DataProcessing_operators_result_total_strain_Y.md) | total_strain_Y() |
+| [total_strain_YZ](Ans_DataProcessing_operators_result_total_strain_YZ.md) | total_strain_YZ() |
+| [total_strain_Z](Ans_DataProcessing_operators_result_total_strain_Z.md) | total_strain_Z() |
+| [total_strain_eqv](Ans_DataProcessing_operators_result_total_strain_eqv.md) | total_strain_eqv() |
+| [total_strain_intensity](Ans_DataProcessing_operators_result_total_strain_intensity.md) | total_strain_intensity() |
+| [total_strain_max_shear](Ans_DataProcessing_operators_result_total_strain_max_shear.md) | total_strain_max_shear() |
+| [total_strain_principal_1](Ans_DataProcessing_operators_result_total_strain_principal_1.md) | total_strain_principal_1() |
+| [total_strain_principal_2](Ans_DataProcessing_operators_result_total_strain_principal_2.md) | total_strain_principal_2() |
+| [total_strain_principal_3](Ans_DataProcessing_operators_result_total_strain_principal_3.md) | total_strain_principal_3() |
 | [total_temperature](Ans_DataProcessing_operators_result_total_temperature.md) | total_temperature() |
 | [transform_invariant_terms_rbd](Ans_DataProcessing_operators_result_transform_invariant_terms_rbd.md) | transform_invariant_terms_rbd() |
 | [transient_rayleigh_integration](Ans_DataProcessing_operators_result_transient_rayleigh_integration.md) | Computes the transient Rayleigh integral   ///available inputs: fields_container (FieldsContainer), mesh (MeshedRegion, MeshesContainer), time_scoping (Int32, IList int, Scoping, System.Collections.IEnumerable), field (Field), observation_mesh (MeshedRegion), mass_density (double), speed_of_sound (double) |

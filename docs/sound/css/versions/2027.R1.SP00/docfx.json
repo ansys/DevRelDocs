@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Car Sound Simulator API 2027 R1",
+        "summary": "The Car Sound Simulator application can be driven by OSC messages sent over UDP. This documentation set provides a reference for those messages and instructions for their use.",
+        "version": "2027 R1",
+        "product": "Ansys Sound",
+        "programming language": "C++",
+        "physics": "Acoustics"
+      }
+    }
+ }

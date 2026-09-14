@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.geo.ans_mat_property_field_provider
 
 # *class* ans_mat_property_field_provider(materials_container: object = None, mesh_scoping: object = None, dependencies1: object = None, dependencies2: object = None, unit_system_or_result_info: object = None, material_physic_name: object = None, dpf_mat_id: object = None, material_vuuid: object = None, property_name: object = None, location: object = None, location_standard_condition: object = None, config: OperatorConfig = None)
 
-Load a named property from an ENGD file using ANS_MAT.Important: ANS_MAT uses different property names if compared with ENGD.If there is any value's property equaling 0.0, that means this material doesnt have that named property.This operator returns fields container of named property value. If pin 10 is set False, its scoping will be the mat IDs in Mechanicaland it is only available without dependencies.
+ans_mat_property_field_provider()
 
-available inputs: `materials_container` (MaterialsContainer), `mesh_scoping` (Scoping) (optional), `dependencies1` (Field) (optional), `dependencies2` (Field) (optional), `unit_system_or_result_info` (ResultInfo), `material_physic_name` (string) (optional), `dpf_mat_id` (Int32, IList int, Scoping, System.Collections.IEnumerable) (optional), `material_vuuid` (string) (optional), `property_name` (string) (optional), `location` (string) (optional), `location_standard_condition` (bool) (optional)
+ans_mat_property_field_provider(materials_container: object, mesh_scoping: object, dependencies1: object, dependencies2: object, unit_system_or_result_info: object, material_physic_name: object, dpf_mat_id: object, material_vuuid: object, property_name: object, location: object, location_standard_condition: object, config: OperatorConfig)
 
-available outputs: `fields_container` (FieldsContainer)
+ans_mat_property_field_provider(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [ans_mat_property_field_provider operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/geo/ans_mat_property_field_provider.md)
 
@@ -26,14 +28,6 @@ available outputs: `fields_container` (FieldsContainer)
 * **location**
 * **location_standard_condition**
 * **config**
-
-**Example:**
-
-```python
-op = ans_mat_property_field_provider()
-
-op = ans_mat_property_field_provider(materials_container=my_materials_container,mesh_scoping=my_mesh_scoping,dependencies1=my_dependencies1,dependencies2=my_dependencies2,unit_system_or_result_info=my_unit_system_or_result_info,material_physic_name=my_material_physic_name,dpf_mat_id=my_dpf_mat_id,material_vuuid=my_material_vuuid,property_name=my_property_name,location=my_location,location_standard_condition=my_location_standard_condition)
-```
 
 ## Inputs
 

@@ -4,11 +4,13 @@ uid: Ans.DataProcessing.operators.utility.fc_get_attribute
 
 # *class* fc_get_attribute(fields_container: object = None, property_name: object = None, property_identifier: object = None, config: OperatorConfig = None)
 
-Uses the FieldsContainer APIs to return a given attribute of the fields container in input.
+fc_get_attribute()
 
-available inputs: `fields_container` (FieldsContainer), `property_name` (string), `property_identifier` (string, Int32) (optional)
+fc_get_attribute(fields_container: object, property_name: object, property_identifier: object, config: OperatorConfig)
 
-available outputs: `property` (Scoping ,IList int  ,TimeFreqSupport ,LabelSpace ,Field ,Int32 ,string ,StringField ,System.Collections.IEnumerable)
+fc_get_attribute(config: OperatorConfig)
+
+
 
 **DPF Framework Reference:** [fc_get_attribute operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r1/operator-specifications/utility/fc_get_attribute.md)
 
@@ -18,14 +20,6 @@ available outputs: `property` (Scoping ,IList int  ,TimeFreqSupport ,LabelSpace 
 * **property_name**
 * **property_identifier**
 * **config**
-
-**Example:**
-
-```python
-op = fc_get_attribute()
-
-op = fc_get_attribute(fields_container=my_fields_container,property_name=my_property_name,property_identifier=my_property_identifier)
-```
 
 ## Inputs
 

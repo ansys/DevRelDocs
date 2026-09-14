@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.mapping.create_mech_shape_func_vol_workflow
 ---
 
-# *class* create_mech_shape_func_vol_workflow(source_mesh: object = None, target_mesh: object = None, target_scoping: object = None, options_data_tree: object = None, config: OperatorConfig = None)
+# *class* create_mech_shape_func_vol_workflow(source_mesh: object = None, target_mesh: object = None, target_scoping: object = None, shell_offset_field: object = None, options_data_tree: object = None, config: OperatorConfig = None)
 
 Prepares a workflow able to map data from an input mesh to a target mesh.
 
-available inputs: `source_mesh` (MeshedRegion) (optional), `target_mesh` (MeshedRegion, Field) (optional), `target_scoping` (Scoping) (optional), `options_data_tree` (DataTree) (optional)
+available inputs: `source_mesh` (MeshedRegion) (optional), `target_mesh` (MeshedRegion, Field) (optional), `target_scoping` (Scoping) (optional), `shell_offset_field` (Field) (optional), `options_data_tree` (DataTree) (optional)
 
 available outputs: `mapping_workflow` (Workflow)
 
@@ -17,6 +17,7 @@ available outputs: `mapping_workflow` (Workflow)
 * **source_mesh**
 * **target_mesh**
 * **target_scoping**
+* **shell_offset_field**
 * **options_data_tree**
 * **config**
 
@@ -25,7 +26,7 @@ available outputs: `mapping_workflow` (Workflow)
 ```python
 op = create_mech_shape_func_vol_workflow()
 
-op = create_mech_shape_func_vol_workflow(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_scoping=my_target_scoping,options_data_tree=my_options_data_tree)
+op = create_mech_shape_func_vol_workflow(source_mesh=my_source_mesh,target_mesh=my_target_mesh,target_scoping=my_target_scoping,shell_offset_field=my_shell_offset_field,options_data_tree=my_options_data_tree)
 ```
 
 ## Inputs
@@ -48,6 +49,12 @@ Scoping that restricts the interpolation to a given set of nodes/elements in the
 
 **Type:** *LinkableInput*
 
+### shell_offset_field
+
+Optional nodal field with 3 components per target node. Displacement from midsurface node to shell mapping location (top/bottom per shell thickness factor).
+
+**Type:** *LinkableInput*
+
 ### options_data_tree
 
 DataTree that contains a 'mapping_options' subtree with the mapping options, and a 'data_definition' subtree with 'dimensionality' int and 'location' string attributes that are required by the 'prepare mechanical native mapping' operator (see documentation of this operator to know more about the supported options).
@@ -58,7 +65,7 @@ DataTree that contains a 'mapping_options' subtree with the mapping options, and
 
 ### mapping_workflow
 
-Workflow with input pin 'source_data'; optionally 'source_mesh', 'target_mesh', 'target_scoping', and 'options_data_tree'; and output pins 'target_data','unmapped_nodes_data','outside_nodes_data','mapping_error_codes', 'source_mesh_id' and 'target_mesh_id.
+Workflow with input pin 'source_data'; secondary workflows also expose 'secondary_source_data' optionally 'source_mesh', 'target_mesh', 'target_scoping', and 'options_data_tree'; and output pins 'target_data', 'secondary_target_data' 'apply_output', 'secondary_apply_output', 'unmapped_nodes_data', 'outside_nodes_data','mapping_error_codes', 'source_mesh_id' and 'target_mesh_id.
 
 **Type:** *LinkableOutput*
 

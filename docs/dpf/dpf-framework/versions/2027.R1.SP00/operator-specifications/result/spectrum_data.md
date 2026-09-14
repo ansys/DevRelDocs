@@ -69,14 +69,14 @@ Fields container holding participation factors.
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields container holding mode coefficients (PRS File).
+Fields container holding mode coefficients.
 
 <a id="output_2"></a>
 ### damping_ratios (Pin 2)
 
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
-Fields container holding damping ratios (PRS File).
+Fields container holding damping ratios.
 
 <a id="output_3"></a>
 ### global_damping (Pin 3)
