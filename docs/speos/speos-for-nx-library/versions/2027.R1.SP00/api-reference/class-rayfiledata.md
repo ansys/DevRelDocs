@@ -4,6 +4,10 @@
 
 Represents Ray File Data.
 
+Ray File Data class provides methods to get data from a ray file.  
+  
+To obtain an instance of this class, refer to Speos Pattern Builder.
+
 ## Member Summary
 
 | Member | Type | Description |

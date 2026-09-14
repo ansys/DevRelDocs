@@ -33,6 +33,12 @@ flowchart TD
 
 A base class for all Builders.
 
+A Builder is an object that is used to create and edit Features.  
+  
+This is an abstract class that provides the basic functionality common to all builders. See the Builder subclasses for details of application-specific builders.  
+  
+This is an abstract class, and cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |

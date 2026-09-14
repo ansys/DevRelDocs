@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Folder Builder.
 
+The Folder Builder creates or edits Folder features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateFolderBuilder](class-featurecollection.md#createfolderbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -110,6 +114,8 @@ Adds the specified feature object into the folder.
 
 - `Feature feature`: the feature object.
 
+**Returns**: True if successfully added into the folder; Otherwise, returns False.
+
 ---
 
 ### Insert
@@ -124,6 +130,8 @@ Inserts the specified feature object into the folder after another specified fea
 
 - `Feature after`: a feature object after which the feature object should be insert.
 
+**Returns**: True if successfully inserted into the folder; Otherwise, returns False.
+
 ---
 
 ### IsCompatible
@@ -135,3 +143,5 @@ Checks if the specified feature object is compatible with this folder.
 **Parameters**:
 
 - `Feature feature`: the feature object.
+
+**Returns**: True if the specified feature object is compatible with this folder; Otherwise, returns False.

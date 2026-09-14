@@ -4,6 +4,10 @@
 
 Represents an Axis System.
 
+This object is composed of Zenith and North directions.  
+  
+This class cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -21,7 +25,7 @@ Represents an Axis System.
 
 Gets or sets the zenith direction.
 
-The Zenith direction property takes takes and returns a Tag from an NX object.  
+The Zenith direction property takes and returns a Tag from an NX object.  
   
 **Value type**: Integer.  
   

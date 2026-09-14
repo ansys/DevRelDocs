@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents a Speos For NX component.  
-/
+Represents a Speos For NX component.
 
 ## Member Summary
 
@@ -25,6 +24,8 @@ Returns the feature occurrence corresponding to the given feature in the context
 
 - `Feature feature`
 
+**Returns**: the corresponding CFeature occurrence.
+
 ---
 
 ### FindOccurrenceFromName
@@ -37,6 +38,8 @@ Returns the feature occurrence corresponding to the given feature full name in t
 
 - `str featureFullName`
 
+**Returns**: the corresponding Feature occurrence.
+
 ---
 
 ### FindComponentFromName
@@ -48,3 +51,5 @@ Returns the component corresponding to the given identifiers in the context of t
 **Parameters**:
 
 - `str identifiers`
+
+**Returns**: the corresponding Component.

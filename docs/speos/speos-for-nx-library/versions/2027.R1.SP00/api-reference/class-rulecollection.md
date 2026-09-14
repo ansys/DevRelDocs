@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents the collection of rules belonging to a result.  
-/
+Represents the collection of rules belonging to a result.
 
 ## Member Summary
 
@@ -22,3 +21,5 @@ Finds a rule from its name id.
 **Parameters**:
 
 - `str nameId`: Feature name id.
+
+**Returns**: The rule feature.

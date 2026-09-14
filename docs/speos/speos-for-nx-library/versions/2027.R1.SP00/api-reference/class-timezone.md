@@ -4,6 +4,8 @@
 
 Represents a Timezone.
 
+This class cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -90,7 +92,7 @@ Gets or sets the longitude minutes.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
   
-**Value type**: Integer (in minute).  
+**Value type**: Integer (in minutes).  
   
 The default value is 2 minutes.
 
@@ -104,7 +106,7 @@ Gets or sets the longitude seconds.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
   
-**Value type**: Integer (in second).  
+**Value type**: Integer (in seconds).  
   
 The default value is 56 seconds.
 
@@ -132,7 +134,7 @@ Gets or sets the latitude minutes.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
   
-**Value type**: Integer (in minute).  
+**Value type**: Integer (in minutes).  
   
 The default value is 9 minutes.
 
@@ -146,7 +148,7 @@ Gets or sets the latitude seconds.
 
 **Prerequisite**: The UserDefinedLocation property must be True.  
   
-**Value type**: Integer (in second).  
+**Value type**: Integer (in seconds).  
   
 The default value is 12 seconds.
 
@@ -172,7 +174,7 @@ The default value is the current Year.
 Gets or sets the month.
 
 **Value type**: Integer.  
-**Range**: [1, 12] (in month).  
+**Range**: [1, 12] (in months).  
   
 The default value is the current month.
 
@@ -185,7 +187,7 @@ The default value is the current month.
 Gets or sets the day.
 
 **Value type**: Integer.  
-**Range**: [1, 31] (in day).  
+**Range**: [1, 31] (in days).  
   
 The default value is the current day.
 
@@ -198,7 +200,7 @@ The default value is the current day.
 Gets or sets the hour.
 
 **Value type**: Integer.  
-**Range**: [0, 24] (in hour).  
+**Range**: [0, 24] (in hours).  
   
 The default value is the current hour.
 
@@ -211,6 +213,6 @@ The default value is the current hour.
 Gets or sets the minute.
 
 **Value type**: Integer.  
-**Range**: [0, 59] (in minute).  
+**Range**: [0, 59] (in minutes).  
   
 The default value is the current minute.

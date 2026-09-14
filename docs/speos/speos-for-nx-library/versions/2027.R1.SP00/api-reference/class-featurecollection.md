@@ -4,6 +4,9 @@
 
 Represents the collection of Speos features in a Part.
 
+There is only one instance of FeatureCollection for each Part.  
+To obtain an instance of this class, refer to Part.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -15,7 +18,7 @@ Represents the collection of Speos features in a Part.
 | [CreateSourceAmbientNaturalLightBuilder](#createsourceambientnaturallightbuilder) | public | Creates a builder for an ambient source with Natural Light type. |
 | [CreateSourceAmbientOvercastSkyBuilder](#createsourceambientovercastskybuilder) | public | Creates a builder for an ambient source with Overcast Sky type. |
 | [CreateSourceAmbientUniformBuilder](#createsourceambientuniformbuilder) | public | Creates a builder for an ambient source with Uniform type. |
-| [CreateSourceAmbientUS1976Builder](#createsourceambientus1976builder) | public | Creates a builder for an U.S. Standard Atmosphere 1976 source. |
+| [CreateSourceAmbientUS1976Builder](#createsourceambientus1976builder) | public | Creates a builder for a U.S. Standard Atmosphere 1976 source. |
 | [CreateSourceLuminaireBuilder](#createsourceluminairebuilder) | public | Creates a builder for a luminaire source. |
 | [CreateSourceAmbientEnvironmentBuilder](#createsourceambientenvironmentbuilder) | public | Creates a builder for an ambient environment source. |
 | [CreateSourceSurfaceBuilder](#createsourcesurfacebuilder) | public | Creates a builder for a surface source. |
@@ -73,6 +76,8 @@ This function takes as parameter a feature tag.
 
 - `int tag`: The feature tag.
 
+**Returns**: The feature with the given Tag.
+
 ---
 
 ### FindFromName
@@ -87,6 +92,8 @@ This function only accepts a full feature name (e.g., "Direct Simulation (0)").
 
 - `str name`: The feature name.
 
+**Returns**: The feature with the given name.
+
 ---
 
 ### CreateSourceDisplayBuilder
@@ -98,6 +105,8 @@ Creates a builder for a display source.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceDisplayBuilder object.
 
 ---
 
@@ -111,6 +120,8 @@ Creates a builder for an ambient source with CIE General Sky type.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceAmbientGeneralSkyBuilder object.
+
 ---
 
 ### CreateSourceAmbientNaturalLightBuilder
@@ -122,6 +133,8 @@ Creates a builder for an ambient source with Natural Light type.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceAmbientNaturalLightBuilder object.
 
 ---
 
@@ -135,6 +148,8 @@ Creates a builder for an ambient source with Overcast Sky type.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceAmbientOvercastSkyBuilder object.
+
 ---
 
 ### CreateSourceAmbientUniformBuilder
@@ -147,17 +162,21 @@ Creates a builder for an ambient source with Uniform type.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceAmbientUniformBuilder object.
+
 ---
 
 ### CreateSourceAmbientUS1976Builder
 
 `SourceAmbientUS1976Builder CreateSourceAmbientUS1976Builder(self, featureToEdit)`
 
-Creates a builder for an U.S. Standard Atmosphere 1976 source.
+Creates a builder for a U.S. Standard Atmosphere 1976 source.
 
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceAmbientUS1976SkyBuilder object.
 
 ---
 
@@ -171,6 +190,8 @@ Creates a builder for a luminaire source.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceLuminaireBuilder object.
+
 ---
 
 ### CreateSourceAmbientEnvironmentBuilder
@@ -182,6 +203,8 @@ Creates a builder for an ambient environment source.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceAmbientEnvironmentBuilder object.
 
 ---
 
@@ -195,6 +218,8 @@ Creates a builder for a surface source.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceSurfaceBuilder object.
+
 ---
 
 ### CreateSourceRayFileBuilder
@@ -206,6 +231,8 @@ Creates a builder for a ray file source.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceRayFileBuilder object.
 
 ---
 
@@ -219,6 +246,8 @@ Creates a builder for a thermic surface source.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceSurfaceThermicBuilder object.
+
 ---
 
 ### CreateSourceGroupBuilder
@@ -230,6 +259,8 @@ Creates a builder for a source group.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceGroup object.
 
 ---
 
@@ -243,6 +274,8 @@ Creates a builder for a light field source.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SourceLightFieldBuilder object.
+
 ---
 
 ### CreateSourceInteractiveBuilder
@@ -254,6 +287,8 @@ Creates a builder for an interactive source.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SourceInteractiveBuilder object.
 
 ---
 
@@ -267,6 +302,8 @@ Creates a builder for a light field sensor.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SensorLightFieldBuilder object.
+
 ---
 
 ### CreateSensorRadianceBuilder
@@ -278,6 +315,8 @@ Creates a builder for a radiance sensor.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SensorRadianceBuilder object.
 
 ---
 
@@ -291,6 +330,8 @@ Creates a builder for an irradiance sensor.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SensorIrradianceBuilder object.
+
 ---
 
 ### CreateSensorIntensityBuilder
@@ -302,6 +343,8 @@ Creates a builder for an intensity sensor.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SensorIntensityBuilder object.
 
 ---
 
@@ -315,6 +358,8 @@ Creates a builder for a 3D energy density sensor.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: Sensor3DEnergyDensityBuilder object.
+
 ---
 
 ### CreateSensorVRImmersiveBuilder
@@ -326,6 +371,8 @@ Creates a builder for a VR immersive sensor.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SensorVRImmersiveBuilder object.
 
 ---
 
@@ -339,6 +386,8 @@ Creates a builder for a 3D irradiance sensor.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: Sensor3DIrradianceBuilder object.
+
 ---
 
 ### CreateSensorObserverBuilder
@@ -350,6 +399,8 @@ Creates a builder for an observer sensor.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SensorObserverBuilder object.
 
 ---
 
@@ -363,6 +414,8 @@ Creates a builder for a camera sensor.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SensorCamera object.
+
 ---
 
 ### CreateSensorHumanEyeBuilder
@@ -374,6 +427,8 @@ Creates a builder for a human eye sensor.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SensorHumanEye object.
 
 ---
 
@@ -387,6 +442,8 @@ Creates a builder for an Physical Camera sensor.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SensorPhysicalCameraBuilder object.
+
 ---
 
 ### CreateSimulationInteractiveBuilder
@@ -398,6 +455,8 @@ Creates a builder for an interactive simulation.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SimulationInteractiveBuilder object.
 
 ---
 
@@ -411,6 +470,8 @@ Creates a builder for a direct simulation.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SimulationDirectBuilder object.
+
 ---
 
 ### CreateSimulationInverseBuilder
@@ -422,6 +483,8 @@ Creates a builder for an inverse simulation.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SimulationInverseBuilder object.
 
 ---
 
@@ -435,6 +498,8 @@ Creates a builder for a LiDAR simulation.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SimulationLiDARBuilder object.
+
 ---
 
 ### CreateComponentLightBoxImportBuilder
@@ -446,6 +511,8 @@ Creates a builder for a light box import component.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: ComponentLightBoxImpportBuilder object.
 
 ---
 
@@ -459,6 +526,8 @@ Creates a builder for an export light box component.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: ComponentLightBoxExportBuilder object.
+
 ---
 
 ### CreateComponentAmbientMaterialBuilder
@@ -470,6 +539,8 @@ Creates a builder for a Ambient Material component.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: ComponentAmbientMaterialBuilder object.
 
 ---
 
@@ -483,6 +554,8 @@ Creates a builder for a Optical Design Exchange component.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: ComponentOpticalDesignExchangeBuilder object.
+
 ---
 
 ### CreateOpticalPropertiesBuilder
@@ -494,6 +567,8 @@ Creates a builder for an optical property.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: OpticalPropertiesBuilder object.
 
 ---
 
@@ -507,6 +582,8 @@ Creates a builder for a Speos pattern.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: SpeosPatternBuilder object.
+
 ---
 
 ### CreateFolderBuilder
@@ -518,6 +595,8 @@ Creates a builder for a Folder.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: FolderBuilder object.
 
 ---
 
@@ -531,6 +610,8 @@ Creates a builder for a Polarization Plate Component.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: ComponentPolarizationPlateBuilder object.
+
 ---
 
 ### CreateComponent3DTextureBuilder
@@ -542,6 +623,8 @@ Creates a builder for a 3D Texture Component.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: Component3DTextureBuilder object.
 
 ---
 
@@ -555,6 +638,8 @@ Creates a builder to copy/paste a feature.
 
 - `Feature featureToCopy`: The feature to be copied.
 
+**Returns**: CopyPasteBuilder object.
+
 ---
 
 ### CreateSensorLiDARBuilder
@@ -566,6 +651,8 @@ Creates a builder for a LiDAR sensor.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: SensorLiDARBuilder object.
 
 ---
 
@@ -579,6 +666,8 @@ Creates a builder for a Light Expert Sensor Group.
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
 
+**Returns**: LightExpertSensorGroupBuilder object.
+
 ---
 
 ### CreateExportAsGeometryBuilder
@@ -586,6 +675,8 @@ Creates a builder for a Light Expert Sensor Group.
 `ExportAsGeometryBuilder CreateExportAsGeometryBuilder(self)`
 
 Creates a builder for exporting features as geometry.
+
+**Returns**: ExportAsGeometryBuilder object.
 
 ---
 
@@ -599,6 +690,8 @@ Creates a builder for light expert analysis.
 
 - `Feature featureToEdit`: The feature to be edited.
 
+**Returns**: ResultLXPBuilder object.
+
 ---
 
 ### CreateVirtualBSDFBenchBuilder
@@ -610,6 +703,8 @@ Creates a builder for a Virtual BSDF Bench feature.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited or None to create a new feature.
+
+**Returns**: VirtualBSDFBenchBuilder object.
 
 ## Public Static Attributes
 

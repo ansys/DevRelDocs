@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Source Group Builder.
 
+The Source Group Builder is used to group several sources in the same group.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceGroupBuilder](class-featurecollection.md#createsourcegroupbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -57,6 +61,8 @@ Adds sources into the simulation.
 
 - `list[Feature] sources`: List of Feature object
 
+**Returns**: void.
+
 ---
 
 ### RemoveSources
@@ -68,3 +74,5 @@ Deletes sources from the simulation.
 **Parameters**:
 
 - `list[Feature] sources`: List of Feature object
+
+**Returns**: void.

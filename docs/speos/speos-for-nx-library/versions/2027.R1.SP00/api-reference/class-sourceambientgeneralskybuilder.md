@@ -29,6 +29,12 @@ flowchart TD
 
 Represents the builder for an Ambient Source with CIE Standard General Sky type.
 
+The Ambient General Sky Source Builder is used to create and edit Ambient General Sky Source features.  
+  
+This sky model is based on the publication of the CIE: ISO 15469:2004/CIE S 011:2003: Spatial distribution of daylight - CIE standard general sky.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceAmbientGeneralSkyBuilder](class-featurecollection.md#createsourceambientgeneralskybuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -65,7 +71,7 @@ The values are:
 2 - Overcast, moderately graded with azimuthal uniformity.  
 3 - Overcast, moderately graded and slight brightening towards the sun.  
 4 - Sky of uniform luminance.  
-5 - Partly cloudy sky, no gradation towards zenith, slight brightnening.  
+5 - Partly cloudy sky, no gradation towards zenith, slight brightening.  
 6 - Partly cloudy sky, no gradation towards zenith, brighter circumsolar region.  
 7 - Partly cloudy sky, no gradation towards zenith, distinct solar corona.  
 8 - Partly cloudy sky, with the obscured sun.  
@@ -90,7 +96,7 @@ Gets or sets the Sun type.
 
 The values are:  
 0 - Automatic, you must set the values in the Timezone and Location object.  
-1 - Direction, you must to set the sun direction property.  
+1 - Direction, you must set the sun direction property.  
   
 **Value type**: Integer.  
   

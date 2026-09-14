@@ -29,6 +29,10 @@ flowchart TD
 
 Represents an Intensity Sensor Builder.
 
+The Intensity Sensor Builder is used to create and edit Intensity Sensor features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorIntensityBuilder](class-featurecollection.md#createsensorintensitybuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -116,7 +120,7 @@ The default value is False.
 
 ### PolarFilePath
 
-`FilePath PolarFilePath`
+`str PolarFilePath`
 
 Gets or sets the polar file path.
 

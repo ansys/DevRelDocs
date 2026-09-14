@@ -29,6 +29,10 @@ flowchart TD
 
 Represents a Radiance Sensor Builder.
 
+The Radiance Sensor Builder is used to create and edit Radiance Sensor features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorRadianceBuilder](class-featurecollection.md#createsensorradiancebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -74,7 +78,7 @@ The default value is 0.
 
 ### CameraName
 
-`Name CameraName`
+`str CameraName`
 
 Gets or sets the camera by its name.
 

@@ -25,6 +25,10 @@ flowchart TD
 
 Represents an LiDAR Simulation Builder.
 
+The LiDAR Simulation Builder is used to create and edit LiDAR Simulation features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSimulationLiDARBuilder](class-featurecollection.md#createsimulationlidarbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -65,6 +69,8 @@ Represents an LiDAR Simulation Builder.
 Gets or sets geometries tag.
 
 The Geometries property returns a list of feature tag.
+
+**Returns**: List of integer.
 
 ---
 
@@ -413,6 +419,8 @@ The DeleteGeometries function takes a list of feature tag as parameter.
 
 - `list[int] tags`: List of tags.
 
+**Returns**: void.
+
 ---
 
 ### RemoveSensors
@@ -424,3 +432,5 @@ Deletes sensors from the simulation.
 **Parameters**:
 
 - `list[Feature] sensors`: List of Feature object.
+
+**Returns**: void.

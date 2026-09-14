@@ -21,6 +21,11 @@ flowchart TD
 
 Represents a Speos Optical Design Exchange result feature.
 
+A base class for all Speos Optical Design Exchange result features.  
+  
+This class provides the basic functionality common to all result features.  
+To obtain an instance of this class, refer to @endlink and @link ComponjentOpticalDesignExchangeResultFeature::Results.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -36,3 +41,5 @@ Represents a Speos Optical Design Exchange result feature.
 Gets the result collection.
 
 Returns the [ResultCollection](class-resultcollection.md) belonging to this feature.
+
+**Returns**: The [ResultCollection](class-resultcollection.md).

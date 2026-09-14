@@ -21,6 +21,12 @@ flowchart TD
 
 Represents a Speos simulation feature.
 
+A base class for all Speos simulation features.  
+  
+This is an abstract class that provides the basic functionality common to all simulation features.  
+This is an abstract class, and cannot be instantiated.  
+To obtain an instance of this class, refer to the simulation builders.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -41,6 +47,8 @@ Represents a Speos simulation feature.
 Gets the result collection.
 
 Returns the [ResultCollection](class-resultcollection.md) belonging to this simulation.
+
+**Returns**: The [ResultCollection](class-resultcollection.md).
 
 ---
 

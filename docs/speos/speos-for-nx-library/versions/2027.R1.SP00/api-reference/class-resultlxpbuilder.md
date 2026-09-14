@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Result Light Expert builder.
 
+The ResultLXPBuilder is used to create and edit Result Light Expert features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateResultLXPBuilder](class-featurecollection.md#createresultlxpbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -114,6 +118,8 @@ Gets or sets requiered faces tag.
 
 The RequiredFaces property returns a list of feature tag.
 
+**Returns**: List of integer.
+
 ---
 
 ### RequiredFacesMode
@@ -139,6 +145,8 @@ The default value is 0.
 Gets or sets rejected faces tag.
 
 The RejectedFaces property returns a list of feature tag.
+
+**Returns**: List of integer.
 
 ## Public Member Functions
 
@@ -242,3 +250,5 @@ The values are:
 28 - Deviation Min  
 29 - Deviation Max  
 30 - Deviation Average
+
+**Returns**: the result measure.

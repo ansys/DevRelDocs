@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for an observer sensor.
 
+The observer sensor builder is used to create and edit observer sensor features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorObserverBuilder](class-featurecollection.md#createsensorobserverbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents the collection of results belonging to a simulation.  
-/
+Represents the collection of results belonging to a simulation.
 
 ## Member Summary
 
@@ -22,3 +21,5 @@ Finds the result feature from its name.
 **Parameters**:
 
 - `str name`: Feature name.
+
+**Returns**: The result feature.

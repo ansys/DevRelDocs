@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for a 3D irradiance sensor.
 
+The 3D irradiance sensor builder is used to create and edit 3D irradiance sensor features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensor3DIrradianceBuilder](class-featurecollection.md#createsensor3dirradiancebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -204,7 +209,7 @@ The default value is False.
 
 ### TemplateFilePath
 
-`FilePath TemplateFilePath`
+`str TemplateFilePath`
 
 Gets or sets the XM3 template file.
 

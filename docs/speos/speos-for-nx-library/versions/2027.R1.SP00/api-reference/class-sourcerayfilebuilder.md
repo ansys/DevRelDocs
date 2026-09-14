@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for a ray file source.
 
+The ray file source builder is used to create and edit ray file source features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceRayFileBuilder](class-featurecollection.md#createsourcerayfilebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -45,7 +50,7 @@ Represents the builder for a ray file source.
 
 ### RayFilePath
 
-`FilePath RayFilePath`
+`str RayFilePath`
 
 Gets or sets the ray file path.
 
@@ -146,7 +151,7 @@ The default value is 2856.0 K.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

@@ -29,6 +29,10 @@ flowchart TD
 
 Represents an Interactive Simulation Builder.
 
+The Interactive Simulation Builder is used to create and edit Interactive Simulation features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSimulationInteractiveBuilder](class-featurecollection.md#createsimulationinteractivebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

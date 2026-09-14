@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for an ambient environment source.
 
+The ambient environment source builder is used to create and edit ambient environment source features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceAmbientEnvironmentBuilder](class-featurecollection.md#createsourceambientenvironmentbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -61,7 +66,7 @@ The default value is 1000.0 cd/m2.
 
 ### ImageFilePath
 
-`FilePath ImageFilePath`
+`str ImageFilePath`
 
 Gets or sets the image file.
 

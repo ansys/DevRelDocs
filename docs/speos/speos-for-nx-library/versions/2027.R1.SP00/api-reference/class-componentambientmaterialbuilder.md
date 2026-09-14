@@ -25,6 +25,10 @@ flowchart TD
 
 Represents an ambient material component builder.
 
+The ambient material component builder creates or edits ambient material component features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateComponentAmbientMaterialBuilder](class-featurecollection.md#createcomponentambientmaterialbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -118,7 +122,7 @@ The default value is 60.0
 
 ### LibraryFilePath
 
-`FilePath LibraryFilePath`
+`str LibraryFilePath`
 
 Gets or sets the library file path.
 

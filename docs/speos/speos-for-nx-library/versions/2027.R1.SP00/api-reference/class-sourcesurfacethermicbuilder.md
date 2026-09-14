@@ -25,6 +25,12 @@ flowchart TD
 
 Represents a Thermic Surface Source Builder.
 
+The Thermic Surface Source Builder creates or edits Thermic Surface Source features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateSourceSurfaceThermicBuilder](class-featurecollection.md#createsourcesurfacethermicbuilder).  
+  
+A thermic surface can define a source for which the total flux and the spectrum are defined by the source's temperature and the optical properties of the support geometry. You can define a thermic source on any face of the geometry.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -112,7 +118,7 @@ The default value is 1.
 
 ### TemperatureFieldFilePath
 
-`FilePath TemperatureFieldFilePath`
+`str TemperatureFieldFilePath`
 
 Gets or sets the temperature field file path.
 
@@ -226,7 +232,7 @@ The default value is 100.0 percent.
 
 ### SOPLibraryFilePath
 
-`LibraryFilePath SOPLibraryFilePath`
+`str SOPLibraryFilePath`
 
 Gets or sets the surface optical properties library file.
 
@@ -240,7 +246,7 @@ The default value is an empty string.
 
 ### SOPPluginFilePath
 
-`FilePath SOPPluginFilePath`
+`str SOPPluginFilePath`
 
 Gets or sets the surface optical properties plug-in file.
 
@@ -254,7 +260,7 @@ The default value is an empty string.
 
 ### SOPParametersFilePath
 
-`FilePath SOPParametersFilePath`
+`str SOPParametersFilePath`
 
 Gets or sets the surface optical properties parameters file.
 

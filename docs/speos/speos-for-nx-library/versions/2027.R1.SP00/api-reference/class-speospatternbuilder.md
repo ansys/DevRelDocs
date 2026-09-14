@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Speos pattern builder.
 
+The Speos pattern builder is used to create and edit Speos pattern features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSpeosPatternBuilder](class-featurecollection.md#createspeospatternbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -48,7 +52,7 @@ Represents a Speos pattern builder.
 
 ### PatternFilePath
 
-`FilePath PatternFilePath`
+`str PatternFilePath`
 
 Gets or sets the property pattern file path.
 
@@ -214,7 +218,7 @@ The default value is 2856.0 K.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

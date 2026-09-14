@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a light box export component builder.
 
+The light box export component builder creates or edits light box export component features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateComponentLightBoxExportBuilder](class-featurecollection.md#createcomponentlightboxexportbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -46,7 +50,7 @@ Represents a light box export component builder.
 | [BlackBox](#blackbox) | public | Gets or sets the property to enable BlackBox. |
 | [RemoveSources](#removesources) | public | Deletes sources from the simulation. |
 | [RemoveGeometries](#removegeometries) | public | Deletes geometries from the component. |
-| [GeneratePassword](#generatepassword) | public | Generates and store a new password. **Prerequisite** The EnablePassword property must be True. |
+| [GeneratePassword](#generatepassword) | public | Generates and store a new password. |
 
 ## Public Static Attributes
 
@@ -219,6 +223,8 @@ Gets geometries tag.
 
 The Geometries property returns a list of feature tag.
 
+**Returns**: List of integer.
+
 ---
 
 ### GeometriesOptions
@@ -275,6 +281,8 @@ Deletes sources from the simulation.
 
 - `list[Feature] sources`: List of Feature object
 
+**Returns**: void.
+
 ---
 
 ### RemoveGeometries
@@ -289,12 +297,16 @@ The DeleteGeometries function takes a list of geometry tag as parameter.
 
 - `list[int] tags`: List of tags.
 
+**Returns**: void.
+
 ---
 
 ### GeneratePassword
 
 `str GeneratePassword(self)`
 
-Generates and store a new password.  
-  
-**Prerequisite** The EnablePassword property must be True.
+Generates and store a new password.
+
+**Prerequisite**: The EnablePassword property must be True.
+
+**Returns**: the generated password.

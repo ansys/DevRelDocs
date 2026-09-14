@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a 3D Texture component Builder.
 
+The 3D Texture component Builder is used to create and edit 3D Texture features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateComponent3DTextureBuilder](class-featurecollection.md#createcomponent3dtexturebuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -72,7 +76,7 @@ Represents a 3D Texture component Builder.
 
 ### Texture3DMappingFilePath
 
-`FilePath Texture3DMappingFilePath`
+`str Texture3DMappingFilePath`
 
 Gets or sets the texture 3D Mapping file path.
 

@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents the collection of results belonging to an Optical Design Exchange feature.  
-/
+Represents the collection of results belonging to an Optical Design Exchange feature.
 
 ## Member Summary
 
@@ -24,6 +23,8 @@ Finds the result feature from its name.
 
 - `str name`: The feature name.
 
+**Returns**: The result feature.
+
 ---
 
 ### CreateResultBuilder
@@ -35,3 +36,5 @@ Creates a builder for an Optical Design Exchange Result.
 **Parameters**:
 
 - `Feature featureToEdit`: The feature to be edited.
+
+**Returns**: ComponentOpticalDesignExchangeResultBuilder object.

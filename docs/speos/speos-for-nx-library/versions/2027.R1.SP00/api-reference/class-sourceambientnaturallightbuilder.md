@@ -29,6 +29,10 @@ flowchart TD
 
 Represents the builder for an Ambient Source with Natural Light type.
 
+The Ambient Natural Light Source Builder is used to create and edit Ambient Natural Light Source features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceAmbientNaturalLightBuilder](class-featurecollection.md#createsourceambientnaturallightbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -48,7 +52,7 @@ Gets or sets the Sun type.
 
 The values are:  
 0 - Automatic, you must set the values in the Timezone object.  
-1 - Direction, you must to set the sun direction property.  
+1 - Direction, you must set the sun direction property.  
   
 **Value type**: Integer.  
   

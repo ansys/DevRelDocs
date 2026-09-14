@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for optical properties
 
+The optical properties builder is used to create and edit optical properties features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateOpticalPropertiesBuilder](class-featurecollection.md#createopticalpropertiesbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -163,7 +168,7 @@ The default value is 60.0
 
 ### VOPLibraryFilePath
 
-`LibraryFilePath VOPLibraryFilePath`
+`str VOPLibraryFilePath`
 
 Gets or sets the volume optical properties library file.
 
@@ -212,7 +217,7 @@ The default value is 100.0.
 
 ### SOPLibraryFilePath
 
-`LibraryFilePath SOPLibraryFilePath`
+`str SOPLibraryFilePath`
 
 Gets or sets the surface optical properties library file.
 
@@ -226,7 +231,7 @@ The default value is an empty string.
 
 ### SOPPluginFilePath
 
-`FilePath SOPPluginFilePath`
+`str SOPPluginFilePath`
 
 Gets or sets the surface optical properties plug-in file.
 
@@ -240,7 +245,7 @@ The default value is an empty string.
 
 ### SOPPluginParametersFilePath
 
-`FilePath SOPPluginParametersFilePath`
+`str SOPPluginParametersFilePath`
 
 Gets or sets the surface optical properties parameters file.
 

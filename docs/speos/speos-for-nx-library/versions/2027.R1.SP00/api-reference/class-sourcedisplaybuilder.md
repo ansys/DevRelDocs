@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for a display source.
 
+The display source builder is used to create and edit display source features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceDisplayBuilder](class-featurecollection.md#createsourcedisplaybuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -111,7 +116,7 @@ The default value is 500.
 
 ### ImageFilePath
 
-`FilePath ImageFilePath`
+`str ImageFilePath`
 
 Gets or sets the image file.
 
@@ -298,7 +303,7 @@ The default value is 30.0 degrees.
 
 ### IntensityFilePath
 
-`FilePath IntensityFilePath`
+`str IntensityFilePath`
 
 Gets or sets the intensity file for Library distribution.
 
@@ -412,7 +417,7 @@ The default value is 0.32902.
 
 ### RedSpectrumFilePath
 
-`SpectrumFilePath RedSpectrumFilePath`
+`str RedSpectrumFilePath`
 
 Gets or sets the red spectrum file.
 
@@ -426,7 +431,7 @@ The default value is an empty string.
 
 ### GreenSpectrumFilePath
 
-`SpectrumFilePath GreenSpectrumFilePath`
+`str GreenSpectrumFilePath`
 
 Gets or sets the green spectrum file.
 
@@ -440,7 +445,7 @@ The default value is an empty string.
 
 ### BlueSpectrumFilePath
 
-`SpectrumFilePath BlueSpectrumFilePath`
+`str BlueSpectrumFilePath`
 
 Gets or sets the blue spectrum file.
 

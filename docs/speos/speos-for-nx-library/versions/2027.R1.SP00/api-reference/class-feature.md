@@ -41,6 +41,12 @@ flowchart TD
 
 Represents a Speos feature.
 
+A base class for all Speos features.  
+  
+This is an abstract class that provides the basic functionality common to all simulation features.  
+This is an abstract class, and cannot be instantiated.  
+To obtain an instance of this class, refer to the simulation builders.
+
 ## Member Summary
 
 | Member | Type | Description |

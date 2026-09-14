@@ -25,6 +25,12 @@ flowchart TD
 
 Represents a Surface Source Builder.
 
+The Surface Source Builder creates or edits Surface Source features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateSourceSurfaceBuilder](class-featurecollection.md#createsourcesurfacebuilder).  
+  
+With a surface source, you can model the light emission of a source taking into account its physical properties as the flux, the spectrum, the exitance and the intensity. A surface source can be defined with any face in a geometry which emits rays.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -156,7 +162,7 @@ The default value is 2856.0 Kelvin.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file.
 
@@ -188,7 +194,7 @@ The default value is 0.
 
 ### ExitanceDistributionFilePath
 
-`FilePath ExitanceDistributionFilePath`
+`str ExitanceDistributionFilePath`
 
 Gets or sets the exitance distribution file.
 
@@ -359,7 +365,7 @@ The default value is 30.0 degrees.
 
 ### IntensityDistributionFilePath
 
-`FilePath IntensityDistributionFilePath`
+`str IntensityDistributionFilePath`
 
 Gets or sets the distribution file.
 

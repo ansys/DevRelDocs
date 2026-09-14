@@ -4,6 +4,10 @@
 
 Represents an Axis System.
 
+This object is composed of an origin point, X and Y directions.  
+  
+This class cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |

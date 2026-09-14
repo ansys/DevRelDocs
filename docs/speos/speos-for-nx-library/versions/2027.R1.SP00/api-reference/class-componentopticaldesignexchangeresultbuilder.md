@@ -25,11 +25,15 @@ flowchart TD
 
 Represents a Component Optical Design Exchange Result Builder.
 
+The Component Optical Design Exchange Result Builder creates or edits Component Optical Design Exchange Result features.  
+  
+To create a new instance of this class, use [ComponentOpticalDesignExchangeResultCollection.CreateResultBuilder](class-componentopticaldesignexchangeresultcollection.md#createresultbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
 | --- | --- | --- |
-| [FeatureComponentOpticalDesignExchangeResult](#featurecomponentopticaldesignexchangeresult) | public | Gets the Optical Design Exchange Result feature object. **Value type**: ComponentOpticalDesignExchangeResultFeature object. |
+| [FeatureComponentOpticalDesignExchangeResult](#featurecomponentopticaldesignexchangeresult) | public | Gets the Optical Design Exchange Result feature object. |
 | [Attribute](#attribute) | public | Gets Attribute value. |
 
 ## Public Static Attributes
@@ -38,8 +42,8 @@ Represents a Component Optical Design Exchange Result Builder.
 
 `ComponentOpticalDesignExchangeResultFeature FeatureComponentOpticalDesignExchangeResult`
 
-Gets the Optical Design Exchange Result feature object.  
-  
+Gets the Optical Design Exchange Result feature object.
+
 **Value type**: ComponentOpticalDesignExchangeResultFeature object.
 
 ## Public Member Functions
@@ -142,3 +146,5 @@ Gets Attribute value.
 **Parameters**:
 
 - `str attribute`: The name of the attribute.
+
+**Returns**: The value of the specified attribute as int, double or string

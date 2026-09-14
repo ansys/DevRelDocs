@@ -29,6 +29,10 @@ flowchart TD
 
 Represents an Irradiance Sensor Builder.
 
+The Irradiance Sensor Builder is used to create and edit Irradiance Sensor features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorIrradianceBuilder](class-featurecollection.md#createsensorirradiancebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

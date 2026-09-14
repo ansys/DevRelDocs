@@ -4,6 +4,8 @@
 
 Represents the Speos For NX session.
 
+To obtain an instance of this class, refer to Session::GetSession().
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -23,6 +25,8 @@ Gets the unique instance of the Speos For NX session.
 
 Returns the singleton for [Session](class-session.md).
 
+**Returns**: The Speos For NX session.
+
 ---
 
 ### NXSessionTag
@@ -33,6 +37,8 @@ Gets the NX Session Tag.
 
 Returns the Tag for the NX Session.
 
+**Returns**: The Tag as an integer.
+
 ---
 
 ### Parts
@@ -42,6 +48,8 @@ Returns the Tag for the NX Session.
 Gets the part collection.
 
 Returns the [PartCollection](class-partcollection.md) belonging to this session.
+
+**Returns**: The [PartCollection](class-partcollection.md).
 
 ## Public Member Functions
 

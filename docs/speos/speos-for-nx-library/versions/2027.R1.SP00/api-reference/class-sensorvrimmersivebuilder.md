@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for an immersive sensor.
 
+The immersive sensor builder is used to create and edit immersive sensor features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorVRImmersiveBuilder](class-featurecollection.md#createsensorvrimmersivebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

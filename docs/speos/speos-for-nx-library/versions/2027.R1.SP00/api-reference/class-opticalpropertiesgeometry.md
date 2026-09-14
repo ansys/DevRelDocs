@@ -4,6 +4,11 @@
 
 Represents interface for editing optical properties geometries.
 
+This interface is used to edit geometries on which the optical properties are applied.  
+  
+  
+To create a new instance of this class, use COpticalPropertiesBuilder::GetOpticalPropertiesGeometry
+
 ## Member Summary
 
 | Member | Type | Description |

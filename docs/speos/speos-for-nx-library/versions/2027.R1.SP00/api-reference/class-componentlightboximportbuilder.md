@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Component Light Box Import Builder.
 
+The Component Light Box Import Builder creates or edits Component Light Box Import features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateComponentLightBoxImportBuilder](class-featurecollection.md#createcomponentlightboximportbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -41,7 +45,7 @@ Represents a Component Light Box Import Builder.
 
 ### SpeosLightBoxFilePath
 
-`LightBoxFilePath SpeosLightBoxFilePath`
+`str SpeosLightBoxFilePath`
 
 Gets or sets the Speos light box file path.
 
@@ -127,7 +131,7 @@ The default value is False.
 
 ### TrajectoryFilePath
 
-`FilePath TrajectoryFilePath`
+`str TrajectoryFilePath`
 
 Gets or sets the trajectory file path.
 

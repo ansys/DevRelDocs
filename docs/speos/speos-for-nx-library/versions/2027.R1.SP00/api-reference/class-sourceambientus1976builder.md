@@ -27,7 +27,14 @@ flowchart TD
 
 ## Description
 
-Represents the builder for an U.S Standard Atmosphere 1976 Source.
+Represents the builder for a U.S. Standard Atmosphere 1976 source.
+
+The Ambient US1976 Sky Source Builder is used to create and edit Ambient US1976 Sky Source features.  
+  
+The U.S Standard Atmosphere 1976 source allows you to generate light from the sky according to a time and location.  
+With this source, signals can be collected outside the visible spectrum including in the infrared.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceAmbientUS1976Builder](class-featurecollection.md#createsourceambientus1976builder)
 
 ## Member Summary
 
@@ -46,7 +53,7 @@ Gets or sets the Sun type.
 
 The values are:  
 0 - Automatic, you must set the values in the Timezone object.  
-1 - Direction, you must to set the sun direction property.  
+1 - Direction, you must set the sun direction property.  
   
 **Value type**: Integer.  
   

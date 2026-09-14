@@ -29,6 +29,12 @@ flowchart TD
 
 Represents the builder for an Ambient Source with CIE Standard Overcast Sky type.
 
+The Ambient Overcast Sky Source Builder is used to create and edit Ambient Overcast Sky Source features.  
+  
+This sky model is based on the publication of the CIE: ISO 15469:2004/CIE S 011:2003: Spatial distribution of daylight - CIE standard general sky.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceAmbientOvercastSkyBuilder](class-featurecollection.md#createsourceambientovercastskybuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -102,7 +108,7 @@ The default value is 0.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 
