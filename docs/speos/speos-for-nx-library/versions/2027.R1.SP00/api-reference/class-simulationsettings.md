@@ -4,6 +4,8 @@
 
 Represents the interface for editing custom simulation settings.
 
+To create a new instance of this class, use SimulationCommonBuilder::GetSettings
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -762,3 +764,6 @@ Save the simulation settings as preset.
 **Parameters**:
 
 - `str name`: name of the preset.
+
+**Returns**: True: Success.  
+False: Error.

@@ -4,6 +4,8 @@
 
 Represents the options of a source.
 
+This class cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |

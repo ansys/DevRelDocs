@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a light expert sensor group builder.
 
+The light expert sensor group builder is used to create and edit light expert sensor group features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateLightExpertSensorGroupBuilder](class-featurecollection.md#createlightexpertsensorgroupbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -55,3 +59,5 @@ Removes the sensors from the group.
 **Parameters**:
 
 - `list[Feature] sensors`: List of Feature object.
+
+**Returns**: void.

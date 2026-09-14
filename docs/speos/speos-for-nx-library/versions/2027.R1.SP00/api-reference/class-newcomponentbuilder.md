@@ -21,6 +21,10 @@ flowchart TD
 
 Represents a builder to create new assembly components.
 
+This builder creates new assembly components.  
+  
+To create a new instance of this class, use [Part.CreateNewComponentBuilder](class-part.md#createnewcomponentbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -45,7 +49,7 @@ The default value is an empty string.
 
 ### ReferenceSetName
 
-`Name ReferenceSetName`
+`str ReferenceSetName`
 
 Gets or sets the name of the NX reference set to use.
 

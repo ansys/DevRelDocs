@@ -21,6 +21,8 @@ flowchart TD
 
 Represents a Speos measure feature.
 
+To obtain an instance of this class, refer to ResultFeature::GetMeasures.
+
 ## Member Summary
 
 | Member | Type | Description |

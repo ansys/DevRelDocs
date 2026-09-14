@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents a Speos For NX component.  
-/
+Represents a Speos For NX component.
 
 ## Member Summary
 
@@ -18,3 +17,5 @@ Represents a Speos For NX component.
 `Component RootComponent`
 
 Returns the root component.
+
+**Returns**: the corresponding CComponent instance.

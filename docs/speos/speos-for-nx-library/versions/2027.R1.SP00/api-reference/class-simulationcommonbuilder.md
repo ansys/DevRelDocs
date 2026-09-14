@@ -37,6 +37,12 @@ flowchart TD
 
 A base class for all Simulation Builders.
 
+A Builder is an object that is used to create and edit Features.  
+  
+This is an abstract class that provides the basic functionality common to all builders. See the Builder subclasses for details of application-specific builders.  
+  
+This is an abstract class, and cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -91,6 +97,8 @@ Gets or sets the current source features that are in the simulation.
 Gets or sets geometries tag.
 
 The Geometries property returns a list of feature tag.
+
+**Returns**: List of integer.
 
 ---
 
@@ -234,6 +242,8 @@ Deletes sources from the simulation.
 
 - `list[Feature] sources`: List of Feature object
 
+**Returns**: void.
+
 ---
 
 ### RemoveGeometries
@@ -248,6 +258,8 @@ The DeleteGeometries function takes a list of feature tag as parameter.
 
 - `list[int] tags`: List of tags.
 
+**Returns**: void.
+
 ---
 
 ### RemoveSensors
@@ -259,3 +271,5 @@ Deletes sensors from the simulation.
 **Parameters**:
 
 - `list[Feature] sensors`: List of Feature object.
+
+**Returns**: void.

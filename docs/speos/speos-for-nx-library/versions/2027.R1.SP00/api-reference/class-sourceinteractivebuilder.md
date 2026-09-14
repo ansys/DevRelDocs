@@ -25,6 +25,10 @@ flowchart TD
 
 Represents an interactive source builder.
 
+The interactive source builder creates or edits interactive source features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceInteractiveBuilder](class-featurecollection.md#createsourceinteractivebuilder).
+
 ## Member Summary
 
 | Member | Type | Description |

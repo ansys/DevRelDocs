@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Human Eye Sensor Builder.
 
+The Human Eye Sensor Builder is used to create and edit Human Eye Sensor features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorHumanEyeBuilder](class-featurecollection.md#createsensorhumaneyebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -123,7 +127,7 @@ The default value is False.
 
 ### TemplateFilePath
 
-`FilePath TemplateFilePath`
+`str TemplateFilePath`
 
 Gets or sets the XM3 template file.
 

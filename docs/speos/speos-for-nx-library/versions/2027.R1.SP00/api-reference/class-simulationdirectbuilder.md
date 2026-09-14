@@ -29,6 +29,10 @@ flowchart TD
 
 Represents an Direct Simulation Builder.
 
+The Direct Simulation Builder is used to create and edit Direct Simulation features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSimulationDirectBuilder](class-featurecollection.md#createsimulationdirectbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

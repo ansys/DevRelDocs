@@ -21,6 +21,10 @@ flowchart TD
 
 Represents a Export As Geometry Builder.
 
+The Export As Geometry Builder export feature visualization as geometry.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateExportAsGeometryBuilder](class-featurecollection.md#createexportasgeometrybuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -66,7 +70,7 @@ The default value is 0.
 
 ### PartName
 
-`Name PartName`
+`str PartName`
 
 Gets or sets the part name.
 
@@ -110,7 +114,7 @@ The default value is False.
 
 ### ExportTemplateName
 
-`Name ExportTemplateName`
+`str ExportTemplateName`
 
 Gets or sets the template name.
 

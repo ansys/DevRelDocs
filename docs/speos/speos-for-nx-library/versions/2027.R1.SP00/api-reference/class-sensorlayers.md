@@ -2,9 +2,7 @@
 
 ## Description
 
-Data Model for Sensor Filter  
-  
-/
+Data Model for Sensor Filter
 
 ## Member Summary
 

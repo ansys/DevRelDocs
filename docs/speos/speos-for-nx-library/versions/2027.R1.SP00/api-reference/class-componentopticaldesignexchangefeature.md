@@ -21,6 +21,8 @@ flowchart TD
 
 Represents a Speos Optical Component Design Exchange feature.
 
+A base class for all Speos Optical Component Design Exchange features.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -36,3 +38,5 @@ Represents a Speos Optical Component Design Exchange feature.
 Gets the result collection.
 
 Returns the [ComponentOpticalDesignExchangeResultCollection](class-componentopticaldesignexchangeresultcollection.md) belonging to this feature.
+
+**Returns**: The [ComponentOpticalDesignExchangeResultCollection](class-componentopticaldesignexchangeresultcollection.md).

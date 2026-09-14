@@ -4,6 +4,8 @@
 
 Represents Speos for NX Preferences.
 
+To obtain an instance of this class, refer to Session::Preferences().
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -76,7 +78,7 @@ Gets or sets the simulation number of threads.
 **Value type**: Integer.  
 **Range**: The value must be superior to 0.  
   
-The default value is the number of physical processor of the computer.
+The default value is the number of physical processors on the computer.
 
 ---
 
@@ -259,7 +261,7 @@ The default value is True.
 
 ### DefaultInteractivePreset
 
-`Preset DefaultInteractivePreset`
+`str DefaultInteractivePreset`
 
 Gets or sets the default preset to be applied to new interactive simulations.
 
@@ -272,7 +274,7 @@ The default value is empty.
 
 ### DefaultDirectPreset
 
-`Preset DefaultDirectPreset`
+`str DefaultDirectPreset`
 
 Gets or sets the default preset to apply to new direct simulations.
 
@@ -285,7 +287,7 @@ The default value is empty.
 
 ### DefaultInversePreset
 
-`Preset DefaultInversePreset`
+`str DefaultInversePreset`
 
 Gets or sets the default preset to be applied to new inverse simulations.
 
@@ -298,7 +300,7 @@ The default value is empty.
 
 ### DefaultVbbPreset
 
-`Preset DefaultVbbPreset`
+`str DefaultVbbPreset`
 
 Gets or sets the default preset to be applied to new Virtual BSDF Bench simulations.
 
@@ -311,7 +313,7 @@ The default value is empty.
 
 ### DefaultHOAPreset
 
-`Preset DefaultHOAPreset`
+`str DefaultHOAPreset`
 
 Gets or sets the default preset to be applied to new HOA simulations.
 
@@ -324,7 +326,7 @@ The default value is empty.
 
 ### DefaultLidarPreset
 
-`Preset DefaultLidarPreset`
+`str DefaultLidarPreset`
 
 Gets or sets the default preset to be applied to new Lidar simulations.
 

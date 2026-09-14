@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for a luminaire source.
 
+The luminaire source builder is used to create and edit luminaire source features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceLuminaireBuilder](class-featurecollection.md#createsourceluminairebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -44,7 +49,7 @@ Represents the builder for a luminaire source.
 
 ### IntensityFilePath
 
-`FilePath IntensityFilePath`
+`Empty IntensityFilePath`
 
 Gets or sets the intensity distribution file path.  
   
@@ -142,7 +147,7 @@ The default value is 2856.0 Kelvin.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

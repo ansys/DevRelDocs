@@ -25,6 +25,12 @@ flowchart TD
 
 Represents a Camera Sensor Builder.
 
+The Camera Sensor Builder creates or edits Camera Sensor features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateSensorCameraBuilder](class-featurecollection.md#createsensorcamerabuilder).  
+  
+With a surface source, you can simulate rays integration as in a real camera according to the camera parameters set.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -227,7 +233,7 @@ The default value is 15.0 mm.
 
 ### DistortionFilePath
 
-`FilePath DistortionFilePath`
+`str DistortionFilePath`
 
 Gets or sets the distortion file path.
 
@@ -255,7 +261,7 @@ The default value is False.
 
 ### TransmittanceFilePath
 
-`FilePath TransmittanceFilePath`
+`str TransmittanceFilePath`
 
 Gets or sets the transmittance file path.
 
@@ -401,7 +407,7 @@ The default value is 3.
 
 ### SensitivityMonochromaticSpectrumFilePath
 
-`SpectrumFilePath SensitivityMonochromaticSpectrumFilePath`
+`str SensitivityMonochromaticSpectrumFilePath`
 
 Gets or sets the sensitivity monochromatic spectrum file path.
 
@@ -415,7 +421,7 @@ The default value is an empty file path (string).
 
 ### SensitivityRedSpectrumFilePath
 
-`RedSpectrumFilePath SensitivityRedSpectrumFilePath`
+`str SensitivityRedSpectrumFilePath`
 
 Gets or sets the sensitivity red spectrum file path.
 
@@ -429,7 +435,7 @@ The default value is an empty file path (string).
 
 ### SensitivityGreenSpectrumFilePath
 
-`GreenSpectrumFilePath SensitivityGreenSpectrumFilePath`
+`str SensitivityGreenSpectrumFilePath`
 
 Gets or sets the sensitivity green spectrum file path.
 
@@ -443,7 +449,7 @@ The default value is an empty file path (string).
 
 ### SensitivityBlueSpectrumFilePath
 
-`BlueSpectrumFilePath SensitivityBlueSpectrumFilePath`
+`str SensitivityBlueSpectrumFilePath`
 
 Gets or sets the sensitivity blue spectrum file path.
 
@@ -457,7 +463,7 @@ The default value is an empty file path (string).
 
 ### WhiteBalanceRedSpectrumFilePath
 
-`RedSpectrumFilePath WhiteBalanceRedSpectrumFilePath`
+`str WhiteBalanceRedSpectrumFilePath`
 
 Gets or sets the white balance red spectrum file path.
 
@@ -471,7 +477,7 @@ The default value is an empty file path (string).
 
 ### WhiteBalanceGreenSpectrumFilePath
 
-`GreenSpectrumFilePath WhiteBalanceGreenSpectrumFilePath`
+`str WhiteBalanceGreenSpectrumFilePath`
 
 Gets or sets the white balance green spectrum file path.
 
@@ -485,7 +491,7 @@ The default value is an empty file path (string).
 
 ### WhiteBalanceBlueSpectrumFilePath
 
-`BlueSpectrumFilePath WhiteBalanceBlueSpectrumFilePath`
+`str WhiteBalanceBlueSpectrumFilePath`
 
 Gets or sets the white balance blue spectrum file path.
 

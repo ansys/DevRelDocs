@@ -21,6 +21,8 @@ flowchart TD
 
 Represents a Speos rule feature.
 
+To obtain an instance of this class, refer to ResultFeature::GetRules.
+
 ## Member Summary
 
 | Member | Type | Description |

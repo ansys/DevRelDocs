@@ -29,6 +29,10 @@ flowchart TD
 
 Represents an Inverse Simulation Builder.
 
+The Inverse Simulation Builder is used to create and edit Inverse Simulation features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSimulationInverseBuilder](class-featurecollection.md#createsimulationinversebuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -115,6 +119,8 @@ The default value is 1800.0 s.
 toto
 
 toto
+
+**Returns**: toto
 
 ---
 
@@ -214,6 +220,8 @@ The AddSourceFaceFilteringRefs function takes a list of feature tag as parameter
 
 - `list[int] tags`: List of tags.
 
+**Returns**: void.
+
 ---
 
 ### DeleteSourceFaceFilteringReferences
@@ -227,3 +235,5 @@ The DeleteSourceFaceFilteringRefs function takes a list of feature tag as parame
 **Parameters**:
 
 - `list[int] tags`: List of tags.
+
+**Returns**: void.

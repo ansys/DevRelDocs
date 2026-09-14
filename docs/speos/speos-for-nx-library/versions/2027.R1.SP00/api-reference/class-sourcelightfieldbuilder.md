@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a light field source builder.
 
+The light field source builder creates or edits light field source features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceLightFieldBuilder](class-featurecollection.md#createsourcelightfieldbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -55,7 +59,7 @@ The default value is False.
 
 ### LightFieldFilePath
 
-`FilePath LightFieldFilePath`
+`str LightFieldFilePath`
 
 Gets or sets the light field file path.
 
@@ -67,7 +71,7 @@ The default value is an empty string.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

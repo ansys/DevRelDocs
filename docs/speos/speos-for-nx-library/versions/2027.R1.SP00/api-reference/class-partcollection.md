@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents the collection of all parts in a Speos For NX session.  
-/
+Represents the collection of all parts in a Speos For NX session.
 
 ## Member Summary
 
@@ -38,6 +37,8 @@ Finds the part with the given name.
 
 - `str name`: Part name.
 
+**Returns**: The part with the given name.
+
 ---
 
 ### FindFromTag
@@ -50,6 +51,8 @@ Finds the part with the given Tag.
 
 - `int tag`: Part tag.
 
+**Returns**: The part with the given Tag.
+
 ## Public Static Attributes
 
 ### Work
@@ -57,6 +60,8 @@ Finds the part with the given Tag.
 `Part Work`
 
 Returns the current work part of the session.
+
+**Returns**: The current work part.
 
 ---
 
@@ -66,6 +71,8 @@ Returns the current work part of the session.
 
 Returns the current work component of the session.
 
+**Returns**: The current work component.
+
 ---
 
 ### Display
@@ -73,3 +80,5 @@ Returns the current work component of the session.
 `Part Display`
 
 Returns the currently active display part of the session.
+
+**Returns**: The currently active display part.

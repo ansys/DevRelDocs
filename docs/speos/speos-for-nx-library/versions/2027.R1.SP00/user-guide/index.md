@@ -4,13 +4,13 @@
 
 You can create new Speos for NX features or modify existing features, run and export simulations using scripts.
 
-This section gives you an overview of what Speos for NX Library can achieve with one example of Python script.
+This section gives you an overview of what the Speos for NX library can achieve, with one example Python script.
 
-## How to create an NX journal python
+## How to create a Python NX journal
 
 1. Create a text file in the target directory.
 2. Edit it with a text editor.
-3. Change its extension for .py.
+3. Change its extension to .py.
 
 -Or-
 
@@ -20,7 +20,7 @@ This section gives you an overview of what Speos for NX Library can achieve with
 4. Click OK.
 5. Click Menu, Tools, Journal, Stop Recording.
 
-## How to create a Speos for NX python script
+## How to create a Speos for NX Python script
 
 1. Open your .py journal.
 2. Rewrite the function as below:
@@ -56,7 +56,7 @@ def main():
     # Loads all parts that contain Speos features.
     PartCollection.Load()
 
-    # Gets the currents NX work part.
+    # Gets the current NX work part.
     workPart = MyNXSession.Parts.Work
 
     # Gets the current working part's Speos feature collection.

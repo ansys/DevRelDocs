@@ -29,6 +29,10 @@ flowchart TD
 
 Represents the builder for an Ambient Source with Uniform type.
 
+The Ambient Uniform Source Builder is used to create and edit Ambient Uniform Source features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSourceAmbientUniformBuilder](class-featurecollection.md#createsourceambientuniformbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -90,7 +94,7 @@ The default value is 0.
 
 ### SpectrumFilePath
 
-`FilePath SpectrumFilePath`
+`str SpectrumFilePath`
 
 Gets or sets the spectrum file path.
 

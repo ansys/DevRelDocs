@@ -21,6 +21,10 @@ flowchart TD
 
 Represents a Copy/Paste Builder.
 
+The Copy/Paste Builder creates a copy of the given feature for each commit.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateCopyPasteBuilder](class-featurecollection.md#createcopypastebuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -36,3 +40,5 @@ Represents a Copy/Paste Builder.
 Returns the copy of the feature.
 
 If the builder has not yet been commited, returns Null.
+
+**Returns**: Returns the copy of the feature, or Null.

@@ -21,6 +21,11 @@ flowchart TD
 
 Represents a Speos result feature.
 
+A base class for all Speos result features.  
+  
+This class provides the basic functionality common to all result features.  
+To obtain an instance of this class, refer to FeatureSimulation::GetResults.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -34,11 +39,11 @@ Represents a Speos result feature.
 
 ### Filename
 
-`Name Filename`
+`str Filename`
 
 Gets the result file name with its extension.
 
-**value type**: String.  
+**Value type**: String.  
   
 The default value is an empty string.
 
@@ -52,6 +57,8 @@ Returns the LPF result feature associated to this XMP result feature.
 
 **Prerequisite**: The result feature must be an XMP result.
 
+**Returns**: The result feature or None.
+
 ---
 
 ### Measures
@@ -60,6 +67,8 @@ Returns the LPF result feature associated to this XMP result feature.
 
 Returns the collection of measures belonging to this result.
 
+**Returns**: The collection of measures.
+
 ---
 
 ### Rules
@@ -67,3 +76,5 @@ Returns the collection of measures belonging to this result.
 `RuleCollection Rules`
 
 Returns the collection of rules belonging to this result.
+
+**Returns**: The collection of rules.

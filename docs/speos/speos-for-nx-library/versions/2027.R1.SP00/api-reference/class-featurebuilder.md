@@ -161,6 +161,12 @@ flowchart LR
 
 A base class for all feature Builders.
 
+A Builder is an object that is used to create and edit Features.  
+  
+This is an abstract class that provides the basic functionality common to all builders. See the Builder subclasses for details of application-specific builders.  
+  
+This is an abstract class, and cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -191,6 +197,8 @@ Returns the feature being edited, or the created feature if the builder is being
 Returns the feature currently being edited by this builder.  
 If a new feature is being created, and the builder has not yet been commited, returns Null.
 
+**Returns**: The feature being edited, or the created one or Null.
+
 ---
 
 ### Status
@@ -219,7 +227,7 @@ The default value is the current feature name.
 
 ### FullName
 
-`Name FullName`
+`str FullName`
 
 Gets the full name of the feature being edited.
 

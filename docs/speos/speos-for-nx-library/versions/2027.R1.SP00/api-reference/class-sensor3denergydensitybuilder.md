@@ -25,6 +25,11 @@ flowchart TD
 
 Represents the builder for a 3D energy density sensor.
 
+The 3D energy density sensor builder is used to create and edit 3D energy density sensor features.  
+  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensor3DEnergyDensityBuilder](class-featurecollection.md#createsensor3denergydensitybuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

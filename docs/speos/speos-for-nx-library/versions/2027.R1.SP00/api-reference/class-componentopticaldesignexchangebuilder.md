@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Component Optical Design Exchange Builder.
 
+The Component Optical Design Exchange Builder creates or edits Component Optical Design Exchange features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateComponentOpticalDesignExchangeBuilder](class-featurecollection.md#createcomponentopticaldesignexchangebuilder).
+
 ## Member Summary
 
 | Member | Type | Description |

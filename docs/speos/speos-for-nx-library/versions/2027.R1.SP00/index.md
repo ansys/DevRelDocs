@@ -1,6 +1,6 @@
 # Introduction
 
-This document provides you a complete documentation of the Speos for NX library for Python.
+This document provides complete documentation of the Speos for NX library for Python.
 
 Refer to [Change log](changelog.md) to see what's new in the latest version.
 
@@ -11,7 +11,7 @@ Refer to [Change log](changelog.md) to see what's new in the latest version.
 - **Sensors**: Sensors integrate rays coming from the source to analyze the optical result in the optical system.
 - **Simulation**: Simulations give life to the optical system to generate the results, by propagating rays between sources and sensors.
 
-The Speos for NX library is intricately linked to the GUI, ensuring that functionalities accessible in the GUI has a corresponding automation function. As the automation functions are directly derived from the GUI, they perfectly align with the actions you would have to perform in the software such as creating new Speos objects, editing existing ones, and modifying parameters.
+The Speos for NX library is intricately linked to the GUI, ensuring that functionalities accessible in the GUI have corresponding automation functions. As the automation functions are directly derived from the GUI, they perfectly align with the actions you would have to perform in the software, such as creating new Speos objects, editing existing ones, and modifying parameters.
 
 ## Understanding the class documentation
 
@@ -19,19 +19,19 @@ The documentation provides a representation of the Speos for NX library. Each cl
 
 ### The class inheritance diagram
 
-Graph that shows all parents of the current class.
+A graph that shows all parents of the current class.
 
 ### Public Member Functions
 
-List of functions that is available with the class, each function item has a brief description.
+List of functions that are available in the class; each function item has a brief description.
 
 ### Public Static Attributes
 
-List of static attributes. A static attribute is an unique variable that is shared among all instances of a class.
+List of static attributes. A static attribute is a unique variable that is shared among all instances of a class.
 
 ### Properties
 
-- List of properties that is available with the class. A property is a class attribute that encapsulates accessors. Each properties item has a brief description.
+- List of properties that are available in the class. A property is a class attribute that encapsulates accessors. Each property item has a brief description.
 - List of properties that the class inherits from its parents.
 
 ### Detailed Description
@@ -40,15 +40,15 @@ Detailed description of the class.
 
 ### Additional Inherited Members
 
-List of functions that the class inherits from its parents.
+List of functions that the class inherits from its parent classes.
 
 ### Member Function Documentation
 
-Detailed documentation of each functions such as parameters' type, return value, range of value.
+Detailed documentation of each function, such as parameter types, return value, and value range.
 
 ### Property Documentation
 
-Detailed documentation of each properties such as its accessing privilege, type, range, preriquisite and detailed description.
+Detailed documentation of each property, such as its access privilege, type, range, prerequisite, and detailed description.
 
 ## Next steps
 

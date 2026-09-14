@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a light field sensor builder.
 
+The light field sensor builder creates or edits light field sensor features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorLightFieldBuilder](class-featurecollection.md#createsensorlightfieldbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |

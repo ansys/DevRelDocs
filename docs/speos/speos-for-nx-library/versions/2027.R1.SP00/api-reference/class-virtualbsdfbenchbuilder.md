@@ -25,6 +25,12 @@ flowchart TD
 
 Builder class for creating and configuring Virtual BSDF Bench features.
 
+This class provides methods and properties to configure a Virtual BSDF Bench  
+simulation, including axis system, geometry selection, simulation parameters,  
+source settings, sensor settings, and output options.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateVirtualBSDFBenchBuilder](class-featurecollection.md#createvirtualbsdfbenchbuilder)
+
 ## Member Summary
 
 | Member | Type | Description |

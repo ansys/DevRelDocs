@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents the collection of measures belonging to a result.  
-/
+Represents the collection of measures belonging to a result.
 
 ## Member Summary
 
@@ -24,3 +23,5 @@ Finds a measure from its name and area name.
 - `str measureName`: Name of the measure.
 
 - `str areaName`: Name of the area.
+
+**Returns**: The measure feature.

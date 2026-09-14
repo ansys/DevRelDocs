@@ -4,6 +4,8 @@
 
 Represents a Preset.
 
+This class cannot be instantiated.
+
 ## Member Summary
 
 | Member | Type | Description |

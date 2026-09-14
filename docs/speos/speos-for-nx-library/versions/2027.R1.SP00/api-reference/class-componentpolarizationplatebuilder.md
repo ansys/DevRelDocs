@@ -25,6 +25,12 @@ flowchart TD
 
 Represents a Polarization Plate Component Builder.
 
+The Polarization Plate Component Builder creates or edits Polarization Plate Component features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateComponentPolarizationPlateBuilder](class-featurecollection.md#createcomponentpolarizationplatebuilder).  
+  
+Polarization plate is used to define polarization components like polarizers, wave plates, or any component whose Jones matrix is known.
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -204,7 +210,7 @@ The default value is 0.0.
 
 ### PolarizerFilePath
 
-`FilePath PolarizerFilePath`
+`str PolarizerFilePath`
 
 Gets or sets the polarizer file path.
 
@@ -218,7 +224,7 @@ The default value is an empty string.
 
 ### RetarderMaterialFilePath
 
-`FilePath RetarderMaterialFilePath`
+`str RetarderMaterialFilePath`
 
 Gets or sets the retarder material file path.
 

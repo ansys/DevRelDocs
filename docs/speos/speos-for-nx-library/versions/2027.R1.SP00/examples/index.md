@@ -18,7 +18,7 @@ MyNXSession = NXOpen.Session.GetSession()
 
 # Add path to import SNX
 sys.path.append(os.environ["SPEOS_NX_DIR"] + "\\application")
-NXVersion = NXOpen.Session.GetSession().GetEnvironmentVariableValue("UGII_VERSION")[1:]
+NXVersion = MyNXSession.GetEnvironmentVariableValue("UGII_VERSION")[1:]
 module_name = "SpeosNX_" + NXVersion
 SpeosNX = __import__(module_name)
 

@@ -2,8 +2,7 @@
 
 ## Description
 
-Represents a Speos For NX part.  
-/
+Represents a Speos For NX part.
 
 ## Member Summary
 
@@ -20,6 +19,8 @@ Represents a Speos For NX part.
 
 Returns the [FeatureCollection](class-featurecollection.md) instance belonging to this part.
 
+**Returns**: The [FeatureCollection](class-featurecollection.md).
+
 ## Public Member Functions
 
 ### CreateNewComponentBuilder
@@ -27,3 +28,5 @@ Returns the [FeatureCollection](class-featurecollection.md) instance belonging t
 `NewComponentBuilder CreateNewComponentBuilder(self)`
 
 Creates a builder to create new components.
+
+**Returns**: a [NewComponentBuilder](class-newcomponentbuilder.md).

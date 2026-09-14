@@ -2,8 +2,7 @@
 
 ## Description
 
-Builder for emissive faces of a surface source.  
-/
+Builder for emissive faces of a surface source.
 
 ## Member Summary
 
@@ -30,6 +29,8 @@ The Add function takes a feature tag.
 
 - `int tag`: The feature tag.
 
+**Returns**: Void.
+
 ---
 
 ### Remove
@@ -44,6 +45,8 @@ The Remove function takes a feature tag.
 
 - `int tag`: The feature tag.
 
+**Returns**: Void.
+
 ---
 
 ### Clear
@@ -51,6 +54,8 @@ The Remove function takes a feature tag.
 `void Clear(self)`
 
 Clear all faces.
+
+**Returns**: Void.
 
 ---
 
@@ -66,6 +71,8 @@ The RevertFace function takes a feature tag.
 
 - `int tag`: The feature tag.
 
+**Returns**: Void.
+
 ## Public Static Attributes
 
 ### Direction
@@ -80,6 +87,8 @@ The function changes the direction of a face.
 The reverse direction depends of the value parameter:  
 0 - Does not reverse the direction.  
 1 - Reverses the direction.
+
+**Returns**: Void.
 
 ---
 

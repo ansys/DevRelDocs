@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a Sensor Physical Camera builder.
 
+The Sensor Physical Camera builder is used to create and edit Sensor Physical Camera features.  
+  
+To create a new instance of this class, use [FeatureCollection::CreateSensorPhysicalCameraBuilder](class-featurecollection.md#createsensorphysicalcamerabuilder)
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -41,7 +45,7 @@ Represents a Sensor Physical Camera builder.
 
 ### LightBoxFilePath
 
-`FilePath LightBoxFilePath`
+`str LightBoxFilePath`
 
 Gets or sets the property light box file path.
 
@@ -66,7 +70,7 @@ False: Disables Sequence File.
 
 ### SequenceFilePath
 
-`FilePath SequenceFilePath`
+`str SequenceFilePath`
 
 Gets or sets the property sequence file path.
 

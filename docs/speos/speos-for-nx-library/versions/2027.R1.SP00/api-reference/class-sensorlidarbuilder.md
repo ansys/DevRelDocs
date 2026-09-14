@@ -25,6 +25,10 @@ flowchart TD
 
 Represents a LiDAR sensor Builder.
 
+The Folder Builder creates or edits Folder features.  
+  
+To create a new instance of this class, use [FeatureCollection.CreateSensorLiDARBuilder](class-featurecollection.md#createsensorlidarbuilder).
+
 ## Member Summary
 
 | Member | Type | Description |
@@ -149,7 +153,7 @@ The default value is True.
 
 ### SourceScanningSequenceFilePath
 
-`SequenceFilePath SourceScanningSequenceFilePath`
+`str SourceScanningSequenceFilePath`
 
 Gets or sets the scanning sequence file of the source.
 
@@ -163,7 +167,7 @@ The default value is an empty string.
 
 ### SourceRotatingSequenceFilePath
 
-`SequenceFilePath SourceRotatingSequenceFilePath`
+`str SourceRotatingSequenceFilePath`
 
 Gets or sets the rotating sequence file of the source.
 
@@ -192,7 +196,7 @@ The default value is True.
 
 ### SourceTrajectoryFilePath
 
-`TrajectoryFilePath SourceTrajectoryFilePath`
+`str SourceTrajectoryFilePath`
 
 Gets or sets the trajectory file of the source.
 
@@ -235,7 +239,7 @@ The default value is 940.0 nm.
 
 ### SourceSpectrumFilePath
 
-`SpectrumFilePath SourceSpectrumFilePath`
+`str SourceSpectrumFilePath`
 
 Gets or sets the spectrum file of the source.
 
@@ -265,7 +269,7 @@ The default value is 1.
 
 ### SourceIntensityFilePath
 
-`IntensityFilePath SourceIntensityFilePath`
+`str SourceIntensityFilePath`
 
 Gets or sets the intensity distribution file of the source.
 
@@ -344,7 +348,7 @@ The default value is 1.0.
 
 ### SensorDistortionFilePath
 
-`DistortionFilePath SensorDistortionFilePath`
+`str SensorDistortionFilePath`
 
 Gets or sets the distortion file of the sensor.
 
@@ -371,7 +375,7 @@ The default value is 85.0.
 
 ### SensorTransmittanceFilePath
 
-`TransmittanceFilePath SensorTransmittanceFilePath`
+`str SensorTransmittanceFilePath`
 
 Gets or sets the transmittance file of the sensor.
 
