@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-11).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,13 +43,13 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[85 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[86 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [4 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
-| misc | [16 items](#Features_misc) |[25 items](#Fixes_misc) |
+| mesh | [2 items](#Features_mesh) |[8 items](#Fixes_mesh) |
+| misc | [16 items](#Features_misc) |[26 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
@@ -1994,6 +1994,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Preserve ply metadata during filtering:
+  > 
+  >
+  > Filtering MAPDL results changes both the entity scoping and, for mixed shell or ply models, the set of layered metadata that describes those entities. Treating empty, homogeneous, and heterogeneous fields identically can either lose metadata needed by downstream layer-aware operations or attach metadata that no longer matches the filtered field. This change preserves field data and scoping for empty results, retains ply-layer support for genuinely heterogeneous elemental output, and avoids unnecessary support on homogeneous output where it would add cost without representing useful variation.
+  >
+  > 
+  >
+  > 
+
 - Fix throw when reading unexisting set for mapdl rst nodal results.:
   > Fix throw when reading unexisting set for mapdl rst nodal results.
   >
@@ -2841,6 +2850,13 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mesh"></a> Fixes
 
+- Correction of mesh_extraction & mesh::by_scoping to handle Named Selections:
+  > Correction of mesh_extraction & mesh::by_scoping to handle Named Selections
+  >
+  > 
+  >
+  > 
+
 - Add support for Surface3, Surface4, Surface6, and Surface8 eltypes in skin operator:
   > 
   >
@@ -3065,6 +3081,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_misc"></a> Fixes
+
+- Generate safe DPF client API loading:
+  > 
+  >
+  > Generated Python bindings now load the native client API safely when multiple DPF servers are created or Python cleanup runs during initialization. Repeated loads of the same library are harmless, failed loads restore state, and native cleanup waits until bindings are ready.
+  >
+  > 
+  >
+  > 
 
 - Extend the new CLayer Exception processing to all CL_Operator functions:
   > 
