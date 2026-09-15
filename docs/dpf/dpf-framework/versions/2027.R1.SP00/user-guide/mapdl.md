@@ -15,7 +15,7 @@ These operators cover a broad range of capabilities, from reading raw nodal and 
 
 ---
 
-## 1. Supported MAPDL Versions
+## Supported MAPDL Versions
 
 ### Minimum supported MAPDL versions
 
@@ -38,7 +38,7 @@ streamProvider.connect(200, datatree);
 
 ---
 
-## 2. Supported Element Types
+## Supported Element Types
 
 Below is the element-by-element specification for Solid element types supported by DPF, including KEYOPTs.
 
@@ -1038,30 +1038,30 @@ This element does not use shell layers
 
 ---
 
-## 3. General Result-Type Limitations for Older Version Files
+## General Result-Type Limitations for Older Version Files
 
 Users should expect limitations for RST files created before MAPDL 14.5, especially regarding the following areas.
 
-### 3.1 Section of Shell Elements Definition
+### Section of Shell Elements Definition
 
 - Section of Shell elements cannot be defined using real constants
 
-### 3.2 FSplit Command is not supported
+### FSplit Command is not supported
 
 - Result files generated using the option /config,fsplit are not supported
 
-### 3.3 Analysis Type Detection
+### Analysis Type Detection
 
 - Result files generated before MAPDL 2024 R1 for transient analyses are incorrectly assigned as static. Reading
   the inertial and damping components of the element nodal forces is not supported on these files.
 
-### 3.4 Support of Elements with dropped Mid-side Nodes
+### Support of Elements with dropped Mid-side Nodes
 
 - Some elements can drop one or all their mid-side nodes. DPF only supports officially elements with all mid-side nodes dropped. If only one node is dropped, DPF will write a zero value at this node in the corresponding result field. This kind of situation will cause a difference with the MAPDL PRESOL command result value which will not write any zero.
 
 ---
 
-## 4. Elements supported in "Beta"
+## Elements supported in "Beta"
 
 ### Definition of a "Beta" Element Type
 
@@ -1130,7 +1130,7 @@ Here is a list of the elements which are in Beta:
 - PIPE289
 - SHELL294
 
-## 5. Supported File Types and Results
+## Supported File Types and Results
 
 This section describes the MAPDL result file formats supported by DPF, the types of data that can be read from each, and the associated operators. For detailed binary file format specifications, refer to the [MAPDL Programmer's Guide - Format of Binary Data Files](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_prog/Hlp_P_INT1_2.html).
 
@@ -1148,7 +1148,7 @@ This section describes the MAPDL result file formats supported by DPF, the types
 | `.sub`         | Substructure Matrices File            |
 | `.dsub`        | Substructure Displacement File        |
 
-### 5.1 Supported MAPDL Elemental Results
+### Supported MAPDL Elemental Results
 
 **Description:** Supported elemental result types from multiple analyses including structural, thermal, electrical, and magnetic analyses.
 
@@ -1205,7 +1205,7 @@ For more details, you can refer to the [MAPDL Programmer's Guide - Format of Bin
 
 **Extending Results to mid-side nodes:** `extend_to_mid_nodes` operator needs to be used to extend results at the mid-side nodes (only for quadratic elements). Eligible operators such as `Stress` have an input pin `extend_to_mid_nodes` (pin 28) which can be set to `True` to extend results at the mid-side nodes.
 
-### 5.2 Supported MAPDL Nodal Results
+### Supported MAPDL Nodal Results
 
 **Description:** Supported nodal result types from multiple analyses including structural, thermal, electrical, magnetic, and fluid analyses.
 
