@@ -62,8 +62,8 @@ DPF capabilities are accessible when DPF Server files are available. These files
 
 ### More content
 
-See the [Getting started](getting-started.md) section to know how to get started with DPF.
+See [Getting started](getting-started.md) section to know how to get started with DPF.
 
-For comprehensive examples on how to use DPF C++ API, see [Examples](examples.md) section.
+For comprehensive examples on how to use DPF C++ API, see Examples section.
 
 For more detailed articles about DPF capabilities, see User guide section.
