@@ -1,4 +1,4 @@
-# MAPDL Operators
+# MAPDL operators
 
 ## Overview
 
@@ -15,7 +15,7 @@ These operators cover a broad range of capabilities, from reading raw nodal and 
 
 ---
 
-## Supported MAPDL Versions
+## Supported MAPDL versions
 
 ### Minimum supported MAPDL versions
 
@@ -38,11 +38,11 @@ streamProvider.connect(200, datatree);
 
 ---
 
-## Supported Element Types
+## Supported element types
 
 Below is the element-by-element specification for Solid element types supported by DPF, including KEYOPTs.
 
-### Definition of a "Supported" Element Type
+### Definition of a "supported" element type
 
 - The mesh elements can be read and converted into their corresponding DPF element shape
 - Element results available for a given element type can be read; These results are also expected to conform to the MAPDL element documentation.
@@ -54,15 +54,15 @@ Below is the element-by-element specification for Solid element types supported 
 
 **Documentation MAPDL:** [SOLID87](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID87.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -83,15 +83,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [SOLID90](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID90.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -109,15 +109,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [SHELL131](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL131.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -151,15 +151,15 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SHELL132](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL132.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -193,7 +193,7 @@ This element can have shell layers
 
 **Documentation MAPDL:** [CONTA172](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_CONTA172.html)
 
-#### Supported Results
+#### Supported results
 - **ECT_STAT** (Contact status)
 - **ECT_PENE** (Contact penetration)
 - **ECT_PRES** (Contact pressure)
@@ -205,7 +205,7 @@ This element can have shell layers
 - **ECT_CNOS** (Total number of contact status changes during substep)
 - **ECT_FRES** (Actual applied fluid penetration pressure)
 
-#### Shell Layers
+#### Shell layers
 Not applicable for this 2D contact surface element
 
 #### Supported KEYOPTs
@@ -317,7 +317,7 @@ Not applicable for this 2D contact surface element
 
 **Documentation MAPDL:** [CONTA174](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_CONTA174.html)
 
-#### Supported Results
+#### Supported results
 - **ECT_STAT** (Contact status)
 - **ECT_PENE** (Contact penetration)
 - **ECT_PRES** (Contact pressure)
@@ -329,7 +329,7 @@ Not applicable for this 2D contact surface element
 - **ECT_CNOS** (Total number of contact status changes during substep)
 - **ECT_FRES** (Actual applied fluid penetration pressure)
 
-#### Shell Layers
+#### Shell layers
 Not applicable for this contact surface element
 
 #### Supported KEYOPTs
@@ -449,7 +449,7 @@ Not applicable for this contact surface element
 
 **Documentation MAPDL:** [SHELL181](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL181.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -463,8 +463,8 @@ Not applicable for this contact surface element
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -506,7 +506,7 @@ This element can have shell layers
 
 **Documentation MAPDL:** [PLANE182](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE182.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -517,8 +517,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element does not use shell layers
+#### Shell layers
+This element does not use Shell layers
 
 #### Supported KEYOPTs
 
@@ -554,7 +554,7 @@ This element does not use shell layers
 
 **Documentation MAPDL:** [PLANE183](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE183.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -565,8 +565,8 @@ This element does not use shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element does not use shell layers
+#### Shell layers
+This element does not use Shell layers
 
 #### Supported KEYOPTs
 
@@ -600,7 +600,7 @@ This element does not use shell layers
 
 **Documentation MAPDL:**  [SOLID185](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID185.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -614,8 +614,8 @@ This element does not use shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -651,7 +651,7 @@ This element can have shell layers
 
 **Documentation MAPDL:**  [SOLID186](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID186.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -665,8 +665,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -701,7 +701,7 @@ This element can have shell layers
 
 **Documentation MAPDL:**  [SOLID187](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID187.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -715,8 +715,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -744,15 +744,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [SOLID278](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID278.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -800,15 +800,15 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SOLID279](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID279.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -852,7 +852,7 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SHELL281](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL281.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -866,8 +866,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -905,15 +905,15 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SOLID291](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID291.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -948,15 +948,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [PLANE292](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE292.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element does not use shell layers
+#### Shell layers
+This element does not use Shell layers
 
 #### Supported KEYOPTs
 
@@ -998,15 +998,15 @@ This element does not use shell layers
 
 **Documentation MAPDL:** [PLANE293](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE293.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
 - **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element does not use shell layers
+#### Shell layers
+This element does not use Shell layers
 
 #### Supported KEYOPTs
 
@@ -1061,9 +1061,9 @@ Users should expect limitations for RST files created before MAPDL 14.5, especia
 
 ---
 
-## Elements supported in "Beta"
+## Elements supported in "beta"
 
-### Definition of a "Beta" Element Type
+### Definition of a "beta" element type
 
 - Element can be read into DPF Mesh
 - Most common results and KEYOPTS can be read
@@ -1130,11 +1130,11 @@ Here is a list of the elements which are in Beta:
 - PIPE289
 - SHELL294
 
-## Supported File Types and Results
+## Supported file types and results
 
 This section describes the MAPDL result file formats supported by DPF, the types of data that can be read from each, and the associated operators. For detailed binary file format specifications, refer to the [MAPDL Programmer's Guide - Format of Binary Data Files](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_prog/Hlp_P_INT1_2.html).
 
-### Supported MAPDL File Formats
+### Supported MAPDL file formats
 
 | File Extension | Description                           |
 | -------------- | ------------------------------------- |
@@ -1148,11 +1148,11 @@ This section describes the MAPDL result file formats supported by DPF, the types
 | `.sub`         | Substructure Matrices File            |
 | `.dsub`        | Substructure Displacement File        |
 
-### Supported MAPDL Elemental Results
+### Supported MAPDL elemental results
 
 **Description:** Supported elemental result types from multiple analyses including structural, thermal, electrical, and magnetic analyses.
 
-| Result                             | Comp         | Description                             | Supported | Shell Layers | Location       | Operator internal name                                | Scripting name                          |
+| Result                             | Comp         | Description                             | Supported | Shell layers | Location       | Operator internal name                                | Scripting name                          |
 | ---------------------------------- | ------------ | --------------------------------------- | --------- | ------------ | -------------- | ----------------------------------------------------- | --------------------------------------- |
 | S[*](#mapdl-stress-strain-note)    | COMP / blank | Stress components (X, Y, Z, XY, YZ, XZ) | Yes       | Yes          | ElementalNodal | `"S","SX",…`                                          | stress, stress_X                        |
 | EPEL[*](#mapdl-stress-strain-note) | COMP / blank | Elastic strain components               | Yes       | Yes          | ElementalNodal | `"EPEL","EPELX",…`                                    | elastic_strain                          |
@@ -1205,7 +1205,7 @@ For more details, you can refer to the [MAPDL Programmer's Guide - Format of Bin
 
 **Extending Results to mid-side nodes:** `extend_to_mid_nodes` operator needs to be used to extend results at the mid-side nodes (only for quadratic elements). Eligible operators such as `Stress` have an input pin `extend_to_mid_nodes` (pin 28) which can be set to `True` to extend results at the mid-side nodes.
 
-### Supported MAPDL Nodal Results
+### Supported MAPDL nodal results
 
 **Description:** Supported nodal result types from multiple analyses including structural, thermal, electrical, magnetic, and fluid analyses.
 
