@@ -16,9 +16,6 @@ The sum is computed independently for each field in the container; the output co
 
 The master sum is computed by summing all entity values of the input fields container restricted to the master scoping when provided, or of the full input fields container otherwise.
 
-For cyclic and multistage models, the master scoping and the input scopings container are first expanded to the full mesh.
-When a master scoping is provided, each scoping in the input scopings container is intersected with it before accumulation.
-
 Each output field contains one entity per scoping plus one master entity:
 - entity id $0$ holds the master sum (or $100\%$ for the percentage output).
 - entity ids $1$ to $N$ hold the sum (or percentage of the master sum) for the $N$ scopings of the input scopings container, in the same order.
@@ -36,8 +33,6 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 | <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>3</strong> | [streams_container](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
-| <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
 | <strong>5</strong> | [scopings_container](#input_5) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 
 
@@ -56,22 +51,6 @@ Fields container containing the values to accumulate per scoping.
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
 Master scoping. When provided, each scoping in the input scopings container is intersected with it, and the master sum is computed over this scoping. When omitted, the master sum is computed over the full input fields container and no intersection is performed.
-
-<a id="input_3"></a>
-### streams_container (Pin 3)
-
-- **Required:** No
-- **Expected type(s):** [`streams_container`](../../core-concepts/dpf-types.md#streams-container)
-
-Streams describing the source result file. Required when no data sources is provided. Used to detect cyclic and multistage models and expand the scopings accordingly. Takes precedence over the data sources when both are provided.
-
-<a id="input_4"></a>
-### data_sources (Pin 4)
-
-- **Required:** No
-- **Expected type(s):** [`data_sources`](../../core-concepts/dpf-types.md#data-sources)
-
-Data sources describing the source result file. Required when no streams is provided. Used to detect cyclic and multistage models and expand the scopings accordingly.
 
 <a id="input_5"></a>
 ### scopings_container (Pin 5)
@@ -153,8 +132,6 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ansys::dpf::Operator op("accumulation_per_scoping"); // operator instantiation
 op.connect(0, my_fields_container);
 op.connect(1, my_mesh_scoping);
-op.connect(3, my_streams_container);
-op.connect(4, my_data_sources);
 op.connect(5, my_scopings_container);
 ansys::dpf::FieldsContainer my_accumulation_per_scoping = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ansys::dpf::FieldsContainer my_accumulation_per_scoping_percentage = op.getOutput<ansys::dpf::FieldsContainer>(1);
@@ -170,8 +147,6 @@ import ansys.dpf.core as dpf
 op = dpf.operators.math.accumulation_per_scoping() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
-op.inputs.streams_container.connect(my_streams_container)
-op.inputs.data_sources.connect(my_data_sources)
 op.inputs.scopings_container.connect(my_scopings_container)
 my_accumulation_per_scoping = op.outputs.accumulation_per_scoping()
 my_accumulation_per_scoping_percentage = op.outputs.accumulation_per_scoping_percentage()
@@ -188,8 +163,6 @@ import Ans.DataProcessing as dpf
 op = dpf.operators.math.accumulation_per_scoping() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
-op.inputs.streams_container.Connect(my_streams_container)
-op.inputs.data_sources.Connect(my_data_sources)
 op.inputs.scopings_container.Connect(my_scopings_container)
 my_accumulation_per_scoping = op.outputs.accumulation_per_scoping.GetData()
 my_accumulation_per_scoping_percentage = op.outputs.accumulation_per_scoping_percentage.GetData()
