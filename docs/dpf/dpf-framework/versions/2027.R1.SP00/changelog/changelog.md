@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-15).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,18 +43,18 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[89 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[90 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[1 item](#Fixes_mapping) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
-| mechanical | [4 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
+| mechanical | [5 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[8 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[26 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [22 items](#Features_native) |[38 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[39 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -2006,6 +2006,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Correction of export MAPDL Radiation results to H5DPF from MAPDL:
+  > 
+  >
+  > 
+
 - Validate RST result extraction:
   > 
   >
@@ -2825,6 +2830,11 @@ The following table shows which components have updates in each category.
 ## mechanical
 ### <a id="Features_mechanical"></a> Features
 
+- Add an operator to average the reaction force values to shared nodes:
+  > 
+  >
+  > 
+
 - Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Mechanical:
   > 
 
@@ -3416,6 +3426,13 @@ The following table shows which components have updates in each category.
 ## native
 ### <a id="Features_native"></a> Features
 
+- Add config option to handle warnings / errors in migrate:
+  > - Added an option to throw when an exception occurs during the migration in _hdf5::h5dpf::migrate_file_
+  >
+  > 
+  >
+  > 
+
 - Add an option in concatenation operators to ignore empty fields:
   > The operators _concatenate_fields_ and _concatenate_fields_containers_ were ignoring empty fields for concatenating.
   >
@@ -3583,6 +3600,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Prevent mixed pin APIs in generated workflows:
+  > 
+  >
+  > Generated Python workflows now use one consistent connection syntax when operators expose different pin metadata.
+  >
+  > 
+  >
+  > 
 
 - Performance of mesh for large distributed cases, creation of generic metadata setter:
   > Performance improvement of mesh for large distributed cases.
@@ -5475,6 +5501,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.3: Fix tolerance problem with distorted elements.
 
+  > 0.1.4: Suppport beam and point elements.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
 
@@ -5490,12 +5518,16 @@ The following table shows which components have updates in each category.
 
   > 0.4.0: Preserve explicit coordinate labels and ignore implicit labels in mapping output.
 
+  > 0.4.1: Suppport beam and point elements.
+
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
 
   > 0.0.1: Update the operator and pin descriptions.
 
   > 0.0.2: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.3: Suppport beam and point elements.
 
 
 - [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mapping_workflow.md)
@@ -5617,6 +5649,8 @@ The following table shows which components have updates in each category.
 - [accumulation_per_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/accumulation_per_scoping.md)
 
   > 0.0.1: Rewrite the operator description to clarify entity-wise summation per field and label-agnostic behaviour, document input pins 0, 3, 4 and 5, document the two output pins, and mark the streams and data sources pins as optional.
+
+  > 1.0.0: Remove input datasources and streams. The user is responsible for scoping expansion for cyclic models if needed.
 
 
 - [add](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/math/add.md)
@@ -5985,6 +6019,8 @@ Upgraded documentation
 
   > 0.3.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
+  > 0.4.0: Named selections associated to the mesh are rescoped on the selection and associated to the new mesh.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
 
@@ -6012,6 +6048,8 @@ Upgraded documentation
   > 1.0.0: Property fields associated to the mesh are rescoped on the selection and associated to the new mesh.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 2.0.0: Internal refactoring to use transpose and mesh::by_scoping operator.
 
 
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_provider.md)
