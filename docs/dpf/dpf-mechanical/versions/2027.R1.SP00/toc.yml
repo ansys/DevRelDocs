@@ -703,6 +703,8 @@
         href: api/Ans.DataProcessing/operators/mesh/mesh_plan_clip.md
       - name: mesh_provider
         href: api/Ans.DataProcessing/operators/mesh/mesh_provider.md
+      - name: mesh_set_attribute
+        href: api/Ans.DataProcessing/operators/mesh/mesh_set_attribute.md
       - name: mesh_to_graphics
         href: api/Ans.DataProcessing/operators/mesh/mesh_to_graphics.md
       - name: mesh_to_graphics_edges

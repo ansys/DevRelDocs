@@ -2,17 +2,13 @@
 uid: Ans.DataProcessing.operators.math.accumulation_per_scoping
 ---
 
-# *class* accumulation_per_scoping(fields_container: object = None, mesh_scoping: object = None, streams_container: object = None, data_sources: object = None, scopings_container: object = None, config: OperatorConfig = None)
+# *class* accumulation_per_scoping(fields_container: object = None, mesh_scoping: object = None, scopings_container: object = None, config: OperatorConfig = None)
 
 For each scoping in the input scopings container, computes the entity-wise sum of the input fields container values over that scoping, and the percentage of that sum relative to a master sum.
 
 The sum is computed independently for each field in the container; the output contains one output field per input field, regardless of the container label (time, complex, or other).
 
 The master sum is computed by summing all entity values of the input fields container restricted to the master scoping when provided, or of the full input fields container otherwise.
-
-For cyclic and multistage models, the master scoping and the input scopings container are first expanded to the full mesh.
-
-When a master scoping is provided, each scoping in the input scopings container is intersected with it before accumulation.
 
 Each output field contains one entity per scoping plus one master entity:
 
@@ -22,7 +18,7 @@ Each output field contains one entity per scoping plus one master entity:
 
 The percentage is set to $0$ when the master sum is below machine epsilon.
 
-available inputs: `fields_container` (FieldsContainer), `mesh_scoping` (Scoping) (optional), `streams_container` (StreamsContainer) (optional), `data_sources` (DataSources) (optional), `scopings_container` (ScopingsContainer)
+available inputs: `fields_container` (FieldsContainer), `mesh_scoping` (Scoping) (optional), `scopings_container` (ScopingsContainer)
 
 available outputs: `accumulation_per_scoping` (FieldsContainer), `accumulation_per_scoping_percentage` (FieldsContainer)
 
@@ -32,8 +28,6 @@ available outputs: `accumulation_per_scoping` (FieldsContainer), `accumulation_p
 
 * **fields_container**
 * **mesh_scoping**
-* **streams_container**
-* **data_sources**
 * **scopings_container**
 * **config**
 
@@ -42,7 +36,7 @@ available outputs: `accumulation_per_scoping` (FieldsContainer), `accumulation_p
 ```python
 op = accumulation_per_scoping()
 
-op = accumulation_per_scoping(fields_container=my_fields_container,mesh_scoping=my_mesh_scoping,streams_container=my_streams_container,data_sources=my_data_sources,scopings_container=my_scopings_container)
+op = accumulation_per_scoping(fields_container=my_fields_container,mesh_scoping=my_mesh_scoping,scopings_container=my_scopings_container)
 ```
 
 ## Inputs
@@ -56,18 +50,6 @@ Fields container containing the values to accumulate per scoping.
 ### mesh_scoping
 
 Master scoping. When provided, each scoping in the input scopings container is intersected with it, and the master sum is computed over this scoping. When omitted, the master sum is computed over the full input fields container and no intersection is performed.
-
-**Type:** *LinkableInput*
-
-### streams_container
-
-Streams describing the source result file. Required when no data sources is provided. Used to detect cyclic and multistage models and expand the scopings accordingly. Takes precedence over the data sources when both are provided.
-
-**Type:** *LinkableInput*
-
-### data_sources
-
-Data sources describing the source result file. Required when no streams is provided. Used to detect cyclic and multistage models and expand the scopings accordingly.
 
 **Type:** *LinkableInput*
 
