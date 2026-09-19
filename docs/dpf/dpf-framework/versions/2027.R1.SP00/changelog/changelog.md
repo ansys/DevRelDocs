@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-16).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -19,7 +19,7 @@ The following table shows which components have updates in each category.
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [7 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[2 items](#Fixes_core) |
-| cs | [5 items](#Features_cs) |[1 item](#Fixes_cs) |
+| cs | [5 items](#Features_cs) |[2 items](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic | [1 item](#Features_cyclic) |[2 items](#Fixes_cyclic) |
 | doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
@@ -32,18 +32,18 @@ The following table shows which components have updates in each category.
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
 | framework | [5 items](#Features_framework) |[17 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
+| grpc | [3 items](#Features_grpc) |[6 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
 | hdf5 | [16 items](#Features_hdf5) |[23 items](#Fixes_hdf5) |
-| hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
+| hgp | [10 items](#Features_hgp) |[8 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | licensing |  |[1 item](#Fixes_licensing) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[90 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[91 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[1 item](#Fixes_mapping) |
@@ -54,19 +54,19 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [23 items](#Features_native) |[39 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[40 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
 | prime | [4 items](#Features_prime) |[2 items](#Fixes_prime) |
 | pydpf |  |[1 item](#Fixes_pydpf) |
-| pythonplugin |  |[1 item](#Fixes_pythonplugin) |
+| pythonplugin |  |[2 items](#Fixes_pythonplugin) |
 | rbd | [1 item](#Features_rbd) | |
 | refactor | [1 item](#Features_refactor) | |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
 | vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
-| workflows | [3 items](#Features_workflows) |[4 items](#Fixes_workflows) |
+| workflows | [4 items](#Features_workflows) |[4 items](#Fixes_workflows) |
 | xml |  |[3 items](#Fixes_xml) |
 
 
@@ -371,6 +371,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_cs"></a> Fixes
+
+- Support workflow streams container inputs:
+  > 
+  >
+  > C# Workflow support for connecting StreamsContainer values to typed workflow inputs.
+  >
+  > 
+  >
+  > 
 
 - Connect generic IronPython objects as operator inputs:
   > 
@@ -1063,6 +1072,17 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_grpc"></a> Fixes
 
+- Support remote object identity comparisons:
+  > 
+  >
+  > 
+  >
+  > Remote object identity comparisons now work for objects returned through gRPC operators.
+  >
+  > 
+  >
+  > 
+
 - Complete the work to fully support GenericSupport as Any:
   > 
 
@@ -1496,6 +1516,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Fix delegateRun error forwarding:
+  > 
+  >
+  > 
 
 - Fixing short name in ElementDescriptor for hex20:
   > Fixing short name in ElementDescriptor for hex20.
@@ -2005,6 +2030,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- PRRSOL reading scientific format files:
+  > 
+  >
+  > 
 
 - Correction of export MAPDL Radiation results to H5DPF from MAPDL:
   > 
@@ -3601,6 +3631,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Add mesh::set_attribute and support units in fieldscontainer::set_attribute:
+  > 
+  >
+  > Support the "unit" property in the `fieldscontainer::set_attribute` operator and create a new `mesh::set_attribute` operator that is similarly able to set the units on a MeshedRegion.
+  >
+  > 
+  >
+  > 
+
 - Prevent mixed pin APIs in generated workflows:
   > 
   >
@@ -4048,6 +4087,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_pythonplugin"></a> Fixes
 
+- Stop leaking the GIL on plugin-load thread:
+  > Upgrade to python 3.13 from 3.10 broke the api contracts that processed the GIL and exposed a GIL management issue. This problem is fixed through a RAII GIL guard and using GIL state modifier apis.
+  >
+  > 
+
 - Normalize Windows client API path aliases:
   > 
   >
@@ -4150,6 +4194,13 @@ The following table shows which components have updates in each category.
   > 
 ## workflows
 ### <a id="Features_workflows"></a> Features
+
+- Update solver_to_h5dpf workflow for error handling:
+  > The pin warn_as_error has been added to the SolverToH5DPFWorkflow, to throw an exception when an error occurs during the migration to h5dpf.
+  >
+  > 
+  >
+  > 
 
 - Add customisation inputs to the solver_to_h5dpf workflow:
   > 
@@ -4419,6 +4470,9 @@ The following table shows which components have updates in each category.
 
 - [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/edge_decimation.md):
   > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
+
+- [mesh_set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_set_attribute.md):
+  > Uses the MeshedRegion APIs to modify it.
 
 
 #### result
@@ -6553,6 +6607,8 @@ Upgraded documentation
 
   > 0.3.0: Change on the export_floats behavior, if no value is provided, model data and nodal results are exported as double precision and elemental results as single precision
 
+  > 0.4.0: Improved error messages to write the root cause
+
 
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/nmisc.md)
 
@@ -7083,6 +7139,8 @@ Upgraded documentation
 - [set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/set_attribute.md)
 
   > 0.1.0: Add new supported property names 'base_name' and 'field_names'.
+
+  > 0.2.0: Add new supported property name 'unit' that sets a unit on each field.
 
 
 - [strain_from_voigt_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/strain_from_voigt_fc.md)

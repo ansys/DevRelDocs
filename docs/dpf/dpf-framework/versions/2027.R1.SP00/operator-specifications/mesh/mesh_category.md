@@ -21,6 +21,7 @@
 - [mesh get attribute](mesh_get_attribute.md)
 - [mesh plan clip](mesh_plan_clip.md)
 - [mesh provider](mesh_provider.md)
+- [mesh set attribute](mesh_set_attribute.md)
 - [mesh to graphics](mesh_to_graphics.md)
 - [mesh to graphics edges](mesh_to_graphics_edges.md)
 - [mesh to pyvista](mesh_to_pyvista.md)
