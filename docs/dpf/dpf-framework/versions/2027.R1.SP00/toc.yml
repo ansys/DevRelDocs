@@ -622,6 +622,8 @@
       href: operator-specifications/mesh/mesh_plan_clip.md
     - name: mesh provider
       href: operator-specifications/mesh/mesh_provider.md
+    - name: mesh set attribute
+      href: operator-specifications/mesh/mesh_set_attribute.md
     - name: mesh to graphics
       href: operator-specifications/mesh/mesh_to_graphics.md
     - name: mesh to graphics edges

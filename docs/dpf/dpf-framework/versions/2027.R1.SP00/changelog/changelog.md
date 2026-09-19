@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-17).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -36,7 +36,7 @@ The following table shows which components have updates in each category.
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
 | hdf5 | [16 items](#Features_hdf5) |[23 items](#Fixes_hdf5) |
-| hgp | [10 items](#Features_hgp) |[7 items](#Fixes_hgp) |
+| hgp | [10 items](#Features_hgp) |[8 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | licensing |  |[1 item](#Fixes_licensing) |
@@ -1516,6 +1516,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_hgp"></a> Fixes
+
+- Fix delegateRun error forwarding:
+  > 
+  >
+  > 
 
 - Fixing short name in ElementDescriptor for hex20:
   > Fixing short name in ElementDescriptor for hex20.
@@ -4466,6 +4471,9 @@ The following table shows which components have updates in each category.
 - [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/edge_decimation.md):
   > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
 
+- [mesh_set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/mesh_set_attribute.md):
+  > Uses the MeshedRegion APIs to modify it.
+
 
 #### result
 
@@ -7131,6 +7139,8 @@ Upgraded documentation
 - [set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/set_attribute.md)
 
   > 0.1.0: Add new supported property names 'base_name' and 'field_names'.
+
+  > 0.2.0: Add new supported property name 'unit' that sets a unit on each field.
 
 
 - [strain_from_voigt_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/utility/strain_from_voigt_fc.md)
