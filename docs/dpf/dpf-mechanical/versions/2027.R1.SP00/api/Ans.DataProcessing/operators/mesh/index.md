@@ -28,6 +28,7 @@ uid: Ans.DataProcessing.operators.mesh
 | [mesh_get_attribute](Ans_DataProcessing_operators_mesh_mesh_get_attribute.md) | Uses the MeshedRegion APIs to return a given attribute of the mesh in input.   ///available inputs: meshed_region (MeshedRegion), property_name (string), property_identifier (Int32, string) (optional) |
 | [mesh_plan_clip](Ans_DataProcessing_operators_mesh_mesh_plan_clip.md) | Clips a volume mesh along a plane and keeps one side.   ///available inputs: mesh_or_field (MeshedRegion, Field), normal (Field), origin (Field) |
 | [mesh_provider](Ans_DataProcessing_operators_mesh_mesh_provider.md) | Reads a mesh from result files. |
+| [mesh_set_attribute](Ans_DataProcessing_operators_mesh_mesh_set_attribute.md) | Uses the MeshedRegion APIs to modify it.   ///available inputs: meshed_region (MeshedRegion), property_name (string), property_identifier (string) |
 | [mesh_to_graphics](Ans_DataProcessing_operators_mesh_mesh_to_graphics.md) | Generate tessellation for input mesh   ///available inputs: mesh_scoping (Scoping) (optional), node_normals (bool) (optional), mesh (MeshedRegion) |
 | [mesh_to_graphics_edges](Ans_DataProcessing_operators_mesh_mesh_to_graphics_edges.md) | Generate edges of surface elements for input mesh   ///available inputs: mesh_scoping (Scoping) (optional), include_mid_nodes (bool) (optional), mesh (MeshedRegion) |
 | [mesh_to_pyvista](Ans_DataProcessing_operators_mesh_mesh_to_pyvista.md) | Export a MeshedRegion to the pyVista format. |

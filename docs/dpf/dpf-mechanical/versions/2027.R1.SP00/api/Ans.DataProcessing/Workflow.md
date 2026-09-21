@@ -60,7 +60,7 @@ to compute progress while a workflow is running.
 
 * **tag**
 
-#### Connect(inputPinName: str, value: list) -> None
+#### Connect(inputPinName: str, value: PropertyField) -> None
 
 **Parameters:**
 

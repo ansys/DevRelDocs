@@ -29,13 +29,13 @@ set_attribute(config: OperatorConfig)
 
 ### property_name
 
-Supported property names are: "labels", "base_name", "field_names".
+Supported property names are: "labels", "base_name", "field_names", "unit".
 
 **Type:** *LinkableInput*
 
 ### property_identifier
 
-Value of the property to be set: vector of string or LabelSpace for "labels", a result name string for "base_name" (sets the container name and renames all fields with time/complex/label suffixes), a StringField for "field_names" to manually set the field names.
+Value of the property to be set: vector of string or LabelSpace for "labels", a result name string for "base_name" (sets the container name and renames all fields with time/complex/label suffixes), a StringField for "field_names" to manually set the field names, a unit string for "unit".
 
 **Type:** *LinkableInput*
 
