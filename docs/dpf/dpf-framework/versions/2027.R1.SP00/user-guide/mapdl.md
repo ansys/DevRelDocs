@@ -1,4 +1,4 @@
-# MAPDL Operators
+# MAPDL operators
 
 ## Overview
 
@@ -15,7 +15,7 @@ These operators cover a broad range of capabilities, from reading raw nodal and 
 
 ---
 
-## 1. Supported MAPDL Versions
+## Supported MAPDL versions
 
 ### Minimum supported MAPDL versions
 
@@ -38,11 +38,11 @@ streamProvider.connect(200, datatree);
 
 ---
 
-## 2. Supported Element Types
+## Supported element types
 
 Below is the element-by-element specification for Solid element types supported by DPF, including KEYOPTs.
 
-### Definition of a "Supported" Element Type
+### Definition of a "supported" element type
 
 - The mesh elements can be read and converted into their corresponding DPF element shape
 - Element results available for a given element type can be read; These results are also expected to conform to the MAPDL element documentation.
@@ -54,14 +54,15 @@ Below is the element-by-element specification for Solid element types supported 
 
 **Documentation MAPDL:** [SOLID87](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID87.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -82,14 +83,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [SOLID90](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID90.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -107,14 +109,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [SHELL131](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL131.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -148,14 +151,15 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SHELL132](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL132.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -183,13 +187,269 @@ This element can have shell layers
 
 ---
 
+### CONTA172
+
+**Element description:** CONTA172 is a 2D 3-node surface-to-surface contact element used to represent contact and sliding between 2D target surfaces and deformable surfaces. It is applicable to pair-based and general contact definitions, including plane stress, plane strain, and axisymmetric cases.
+
+**Documentation MAPDL:** [CONTA172](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_CONTA172.html)
+
+#### Supported results
+- **ECT_STAT** (Contact status)
+- **ECT_PENE** (Contact penetration)
+- **ECT_PRES** (Contact pressure)
+- **ECT_SFRIC** (Contact friction stress)
+- **ECT_STOT** (Contact total stress (pressure plus friction))
+- **ECT_SLID** (Contact sliding distance)
+- **ECT_GAP** (Contact gap distance)
+- **ECT_FLUX** (Total heat flux at contact surface)
+- **ECT_CNOS** (Total number of contact status changes during substep)
+- **ECT_FRES** (Actual applied fluid penetration pressure)
+
+#### Shell layers
+Not applicable for this 2D contact surface element
+
+#### Supported KEYOPTs
+
+| Value          | Description                                                                                | Supported |
+| -------------- | ------------------------------------------------------------------------------------------ | --------- |
+| **keyopt(1)**  | Degrees of freedom selection                                                               |           |
+| 0              | UX, UY (default)                                                                           | Yes       |
+| 1              | UX, UY, TEMP                                                                               | Beta      |
+| 2              | TEMP                                                                                       | Beta      |
+| 3              | UX, UY, TEMP, VOLT                                                                         | Beta      |
+| 4              | TEMP, VOLT                                                                                 | Beta      |
+| 5              | UX, UY, VOLT                                                                               | Beta      |
+| 6              | VOLT                                                                                       | Beta      |
+| 7              | AZ                                                                                         | Beta      |
+| 8              | UX, UY, PRES                                                                               | Beta      |
+| 9              | UX, UY, PRES, TEMP                                                                         | Beta      |
+| 10             | PRES                                                                                       | Beta      |
+| 11             | UX, UY, CONC, TEMP                                                                         | Beta      |
+| 12             | UX, UY, CONC, TEMP, VOLT                                                                   | Beta      |
+| 13             | UX, UY, CONC                                                                               | Beta      |
+| 14             | CONC                                                                                       | Beta      |
+| **keyopt(2)**  | Contact algorithm                                                                          |           |
+| 0              | Augmented Lagrangian (default)                                                             | Yes       |
+| 1              | Penalty function                                                                           | Yes       |
+| 2              | Multipoint constraint (MPC)                                                                | Yes       |
+| 3              | Lagrange multiplier on contact normal and penalty on tangent                               | Yes       |
+| 4              | Pure Lagrange multiplier on contact normal and tangent                                     | Yes       |
+| **keyopt(3)**  | Stress state / units of normal contact stiffness                                           |           |
+| 0              | Automatic detection based on underlying element (default)                                  | Yes       |
+| 1              | Axisymmetric                                                                               | Yes       |
+| 2              | Plane stress/plane strain with unit thickness                                              | Beta      |
+| 3              | Plane stress with thickness input                                                          | Beta      |
+| 4              | Axisymmetric with torsion                                                                  | Beta      |
+| **keyopt(4)**  | Location of contact detection point                                                        |           |
+| 0              | On Gauss point (default)                                                                   | Yes       |
+| 1              | On nodal point - normal from contact surface                                               | Yes       |
+| 2              | On nodal point - normal to target surface                                                  | Yes       |
+| 3              | On nodal point - normal from contact surface (projection-based)                            | Yes       |
+| 4              | On nodal point - normal from contact surface (dual-shape projection)                       | Yes       |
+| 5              | Unified approach (Gauss point, normal-to-target, and projection methods)                   | Yes       |
+| **keyopt(5)**  | CNOF automated adjustment                                                                  |           |
+| 0              | No automated adjustment                                                                    | Yes       |
+| 1              | Close gap with auto CNOF                                                                   | Yes       |
+| 2              | Reduce penetration with auto CNOF                                                          | Yes       |
+| 3              | Close gap/reduce penetration with auto CNOF                                                | Yes       |
+| **keyopt(6)**  | Normal contact stiffness variation                                                         |           |
+| 0              | Default stiffness updating range                                                           | Yes       |
+| 1              | Nominal refinement                                                                         | Yes       |
+| 2              | Aggressive refinement                                                                      | Yes       |
+| 3              | Exponential pressure-penetration relationship                                              | Yes       |
+| **keyopt(7)**  | Time incrementation control / impact constraints                                           |           |
+| 0              | No control                                                                                 | Yes       |
+| 1              | Automatic bisection of increment                                                           | Yes       |
+| 2              | Change predictions to maintain reasonable increment                                        | Yes       |
+| 3              | Change predictions to achieve minimum increment when contact status changes                | Yes       |
+| 4              | Impact constraints for standard/rough contact in transient dynamics                        | Yes       |
+| **keyopt(8)**  | Symmetric contact behavior                                                                 |           |
+| 0              | Both symmetric pairs active with separate characteristics                                  | Yes       |
+| 1              | Both symmetric pairs active with same characteristics                                      | Yes       |
+| 2              | Auto asymmetric pair selection with inactive pair stiffness influence                      | Yes       |
+| 3              | Auto asymmetric pair selection independent of inactive pair                                | Yes       |
+| **keyopt(9)**  | Effect of initial penetration or gap                                                       |           |
+| 0              | Include initial penetration/gap and offset (default)                                       | Yes       |
+| 1              | Exclude initial penetration/gap and offset                                                 | Yes       |
+| 2              | Include initial penetration/gap and offset with ramped effects                             | Yes       |
+| 3              | Include offset only                                                                        | Yes       |
+| 4              | Include offset only with ramped effects                                                    | Yes       |
+| 5              | Include offset only regardless of initial status                                           | Beta      |
+| 6              | Include offset only with ramped effects regardless of initial status                       | Beta      |
+| **keyopt(10)** | Contact stiffness update                                                                   |           |
+| 0              | Each iteration, with global elastic slip control (default)                                 | Yes       |
+| 1              | Each load step if FKN is redefined                                                         | Yes       |
+| 2              | Each iteration, with substep elastic slip control                                          | Yes       |
+| **keyopt(11)** | Beam/shell thickness effect                                                                |           |
+| 0              | Exclude                                                                                    | Yes       |
+| 1              | Include                                                                                    | Beta      |
+| **keyopt(12)** | Contact surface behavior                                                                   |           |
+| 0              | Standard                                                                                   | Yes       |
+| 1              | Rough                                                                                      | Yes       |
+| 2              | No separation when touch                                                                   | Yes       |
+| 3              | Bond when touch                                                                            | Yes       |
+| 4              | No separation when inside pinball region                                                   | Yes       |
+| 5              | Bond when inside pinball region                                                            | Yes       |
+| 6              | Bonded initial                                                                             | Yes       |
+| **keyopt(13)** | Tangential contact stiffness variation                                                     |           |
+| 0              | Default tangential stiffness updating range (default)                                      | Yes       |
+| 1              | Aggressive tangential stiffness refinement                                                 | Yes       |
+| **keyopt(14)** | Behavior of fluid pressure penetration load                                                |           |
+| 0              | Based on current iteration status; previously exposed points remain penetrating            | Yes       |
+| 1              | Based on last converged substep status; previously exposed points remain penetrating       | Yes       |
+| 2              | Based on current iteration status; reload from initial starting points each iteration      | Yes       |
+| 3              | Based on last converged substep status; reload from initial starting points each iteration | Beta      |
+| **keyopt(15)** | Contact stabilization damping                                                              |           |
+| 0              | Activate damping only in first load step (default)                                         | Yes       |
+| 1              | Deactivate automatic damping                                                               | Yes       |
+| 2              | Activate damping for all load steps                                                        | Yes       |
+| 3              | Always activate damping independent of prior contact status                                | Beta      |
+| **keyopt(18)** | Sliding behavior                                                                           |           |
+| 0              | Finite sliding (default)                                                                   | Yes       |
+| 1              | Small sliding                                                                              | Yes       |
+| 2              | Adaptive small sliding                                                                     | Yes       |
+
+---
+
+### CONTA174
+
+**Element description:** CONTA174 is a 3D 8-node surface-to-surface contact element used to represent contact and sliding between 3D target surfaces and deformable surfaces. It is applicable to pair-based and general contact definitions.
+
+**Documentation MAPDL:** [CONTA174](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_CONTA174.html)
+
+#### Supported results
+- **ECT_STAT** (Contact status)
+- **ECT_PENE** (Contact penetration)
+- **ECT_PRES** (Contact pressure)
+- **ECT_SFRIC** (Contact friction stress)
+- **ECT_STOT** (Contact total stress (pressure plus friction))
+- **ECT_SLID** (Contact sliding distance)
+- **ECT_GAP** (Contact gap distance)
+- **ECT_FLUX** (Total heat flux at contact surface)
+- **ECT_CNOS** (Total number of contact status changes during substep)
+- **ECT_FRES** (Actual applied fluid penetration pressure)
+
+#### Shell layers
+Not applicable for this contact surface element
+
+#### Supported KEYOPTs
+
+| Value          | Description                                                                                         | Supported |
+| -------------- | --------------------------------------------------------------------------------------------------- | --------- |
+| **keyopt(1)**  | Degrees of freedom selection                                                                        |           |
+| 0              | UX, UY, UZ (default)                                                                                | Yes       |
+| 1              | UX, UY, UZ, TEMP                                                                                    | Beta      |
+| 2              | TEMP                                                                                                | Yes       |
+| 3              | UX, UY, UZ, TEMP, VOLT                                                                              | Beta      |
+| 4              | TEMP, VOLT                                                                                          | Beta      |
+| 5              | UX, UY, UZ, VOLT                                                                                    | Beta      |
+| 6              | VOLT                                                                                                | Beta      |
+| 7              | MAG                                                                                                 | Beta      |
+| 8              | UX, UY, UZ, PRES                                                                                    | Beta      |
+| 9              | UX, UY, UZ, PRES, TEMP                                                                              | Beta      |
+| 10             | PRES                                                                                                | Beta      |
+| 11             | UX, UY, UZ, CONC, TEMP                                                                              | Beta      |
+| 12             | UX, UY, UZ, CONC, TEMP, VOLT                                                                        | Beta      |
+| 13             | UX, UY, UZ, CONC                                                                                    | Beta      |
+| 14             | CONC                                                                                                | Beta      |
+| **keyopt(2)**  | Contact algorithm                                                                                   |           |
+| 0              | Augmented Lagrangian (default)                                                                      | Yes       |
+| 1              | Penalty function                                                                                    | Yes       |
+| 2              | Multipoint constraint (MPC)                                                                         | Yes       |
+| 3              | Lagrange multiplier on contact normal and penalty on tangent                                        | Yes       |
+| 4              | Pure Lagrange multiplier on contact normal and tangent                                              | Yes       |
+| **keyopt(3)**  | Units of normal contact stiffness                                                                   |           |
+| 0              | FORCE/LENGTH3 (default)                                                                             | Yes       |
+| 1              | FORCE/LENGTH                                                                                        | Yes       |
+| **keyopt(4)**  | Location of contact detection point                                                                 |           |
+| 0              | On Gauss point (default)                                                                            | Yes       |
+| 1              | On nodal point - normal from contact surface                                                        | Yes       |
+| 2              | On nodal point - normal to target surface                                                           | Yes       |
+| 3              | On nodal point - normal from contact surface (projection-based)                                     | Yes       |
+| 4              | On nodal point - normal from contact surface (dual-shape projection)                                | Yes       |
+| 5              | Unified approach (Gauss point, normal-to-target, and projection methods)                            | Yes       |
+| **keyopt(5)**  | CNOF automated adjustment                                                                           |           |
+| 0              | No automated adjustment                                                                             | Yes       |
+| 1              | Close gap with auto CNOF                                                                            | Yes       |
+| 2              | Reduce penetration with auto CNOF                                                                   | Yes       |
+| 3              | Close gap/reduce penetration with auto CNOF                                                         | Yes       |
+| **keyopt(6)**  | Normal contact stiffness variation                                                                  |           |
+| 0              | Default stiffness updating range                                                                    | Yes       |
+| 1              | Nominal refinement                                                                                  | Yes       |
+| 2              | Aggressive refinement                                                                               | Yes       |
+| 3              | Exponential pressure-penetration relationship                                                       | Yes       |
+| **keyopt(7)**  | Time incrementation control / impact constraints                                                    |           |
+| 0              | No control                                                                                          | Yes       |
+| 1              | Automatic bisection of increment                                                                    | Yes       |
+| 2              | Change predictions to maintain reasonable increment                                                 | Beta      |
+| 3              | Change predictions to achieve minimum increment when contact status changes                         | Yes       |
+| 4              | Impact constraints for standard/rough contact in transient dynamics                                 | Yes       |
+| **keyopt(8)**  | Symmetric contact behavior                                                                          |           |
+| 0              | Both symmetric pairs active with separate characteristics                                           | Yes       |
+| 1              | Both symmetric pairs active with same characteristics                                               | Yes       |
+| 2              | Auto asymmetric pair selection with inactive pair stiffness influence                               | Yes       |
+| 3              | Auto asymmetric pair selection independent of inactive pair                                         | Yes       |
+| **keyopt(9)**  | Effect of initial penetration or gap                                                                |           |
+| 0              | Include initial penetration/gap and offset (default)                                                | Yes       |
+| 1              | Exclude initial penetration/gap and offset                                                          | Yes       |
+| 2              | Include initial penetration/gap and offset with ramped effects                                      | Yes       |
+| 3              | Include offset only                                                                                 | Yes       |
+| 4              | Include offset only with ramped effects                                                             | Beta      |
+| 5              | Include offset only regardless of initial status                                                    | Yes       |
+| 6              | Include offset only with ramped effects regardless of initial status                                | Yes       |
+| **keyopt(10)** | Contact stiffness update                                                                            |           |
+| 0              | Each iteration, with global elastic slip control (default)                                          | Yes       |
+| 1              | Each load step if FKN is redefined                                                                  | Yes       |
+| 2              | Each iteration, with substep elastic slip control                                                   | Yes       |
+| **keyopt(11)** | Shell thickness effect                                                                              |           |
+| 0              | Exclude                                                                                             | Yes       |
+| 1              | Include                                                                                             | Yes       |
+| **keyopt(12)** | Contact surface behavior                                                                            |           |
+| 0              | Standard                                                                                            | Yes       |
+| 1              | Rough                                                                                               | Yes       |
+| 2              | No separation when touch                                                                            | Yes       |
+| 3              | Bond when touch                                                                                     | Yes       |
+| 4              | No separation when inside pinball region                                                            | Yes       |
+| 5              | Bond when inside pinball region                                                                     | Yes       |
+| 6              | Bonded initial                                                                                      | Yes       |
+| **keyopt(13)** | Tangential contact stiffness variation (frictional contact) / thermal-shell temperature DOF mapping |           |
+| 0              | Default tangential stiffness updating range (or TEMP/TEMP thermal mapping)                          | Yes       |
+| 1              | Aggressive tangential stiffness refinement (or TBOT/TBOT thermal mapping)                           | Yes       |
+| 2              | TTOP/TTOP thermal mapping                                                                           | Beta      |
+| 3              | TBOT/TEMP thermal mapping                                                                           | Beta      |
+| 4              | TEMP/TBOT thermal mapping                                                                           | Beta      |
+| 5              | TTOP/TEMP thermal mapping                                                                           | Beta      |
+| 6              | TEMP/TTOP thermal mapping                                                                           | Beta      |
+| 7              | TBOT/TTOP thermal mapping                                                                           | Beta      |
+| 8              | TTOP/TBOT thermal mapping                                                                           | Beta      |
+| **keyopt(14)** | Fluid pressure penetration behavior                                                                 |           |
+| 0              | Based on current iteration status; previously exposed points remain penetrating (default)           | Yes       |
+| 1              | Based on last converged substep status; previously exposed points remain penetrating                | Yes       |
+| 2              | Based on current iteration status; reload from initial starting points each iteration               | Yes       |
+| 3              | Based on last converged substep status; reload from initial starting points each iteration          | Yes       |
+| **keyopt(15)** | Contact stabilization damping                                                                       |           |
+| 0              | Activate damping only in first load step (default)                                                  | Yes       |
+| 1              | Deactivate automatic damping                                                                        | Yes       |
+| 2              | Activate damping for all load steps                                                                 | Yes       |
+| 3              | Always activate damping independent of prior contact status                                         | Yes       |
+| **keyopt(16)** | Squeal damping controls (FDMD/FDMS interpretation)                                                  |           |
+| 0              | FDMD/FDMS as scaling factors (default)                                                              | Yes       |
+| 1              | FDMD as friction-sliding velocity gradient; FDMS as stabilization damping coefficient               | Beta      |
+| 2              | FDMD/FDMS as destabilization/stabilization damping coefficients                                     | Beta      |
+| **keyopt(18)** | Sliding behavior                                                                                    |           |
+| 0              | Finite sliding (default)                                                                            | Yes       |
+| 1              | Small sliding                                                                                       | Yes       |
+| 2              | Adaptive small sliding                                                                              | Yes       |
+
+---
+
 ### SHELL181
 
 **Element description:** 4-node shell element with six degrees of freedom at each node (translations and rotations). It is well-suited for linear, large rotation, and/or large strain nonlinear applications. It supports plasticity, hyperelasticity, stress stiffening, creep, large deflection, and large strain capabilities. It also supports layered composite materials for modeling laminated structures.
 
 **Documentation MAPDL:** [SHELL181](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL181.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -203,8 +463,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -240,13 +500,107 @@ This element can have shell layers
 
 ---
 
+### PLANE182
+
+**Element description:** 2D 4-node structural solid element for plane stress, plane strain, generalized plane strain, and axisymmetric analyses, with optional torsion. It supports plasticity, hyperelasticity, stress stiffening, large deflection, and large strain behavior.
+
+**Documentation MAPDL:** [PLANE182](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE182.html)
+
+#### Supported results
+- **U** (Displacements)
+- **ROT** (Rotations)
+- **S** (Stress)
+- **EPEL** (Elastic Strain)
+- **ETH** (Thermal Strain)
+- **ENF_FORCE** (Element nodal forces)
+- **ENF_MOMENT** (Element nodal moments)
+- **RF_FORCE** (Reaction forces)
+- **RF_MOMENT** (Reaction moments)
+
+#### Shell layers
+This element does not use Shell layers
+
+#### Supported KEYOPTs
+
+| Value          | Description                                             | Supported |
+| -------------- | ------------------------------------------------------- | --------- |
+| **keyopt(1)**  | Element technology                                      |           |
+| 0              | Full integration with B-bar method (default)            | Yes       |
+| 1              | Uniform reduced integration with hourglass control      | Yes       |
+| 2              | Enhanced strain formulation                             | Yes       |
+| 3              | Simplified enhanced strain formulation                  | Yes       |
+| **keyopt(3)**  | Element behavior                                        |           |
+| 0              | Plane stress                                            | Yes       |
+| 1              | Axisymmetric                                            | Yes       |
+| 2              | Plane strain (Z strain = 0.0)                           | Yes       |
+| 3              | Plane stress with thickness input                       | Yes       |
+| 5              | Generalized plane strain                                | Yes       |
+| 6              | Axisymmetric with torsion (KEYOPT(1) = 0 only)          | Yes       |
+| **keyopt(6)**  | Element formulation                                     |           |
+| 0              | Use pure displacement formulation (default)             | Yes       |
+| 1              | Use mixed u-P formulation (not valid with plane stress) | Yes       |
+| **keyopt(15)** | PML absorbing condition                                 |           |
+| 0              | Do not include PML absorbing condition (default)        | Yes       |
+| 1              | Include PML absorbing condition                         | Beta      |
+| **keyopt(17)** | Extra surface output                                    |           |
+| 0              | Basic element solution (default)                        | Yes       |
+| 4              | Surface solution for faces with nonzero pressure        | Yes       |
+
+---
+
+### PLANE183
+
+**Element description:** 2D 8-node or 6-node higher-order structural solid element for plane stress, plane strain, generalized plane strain, and axisymmetric analyses with optional torsion. It has quadratic displacement behavior and supports plasticity, hyperelasticity, creep, stress stiffening, large deflection, large strain, and mixed u-P formulations.
+
+**Documentation MAPDL:** [PLANE183](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE183.html)
+
+#### Supported results
+- **U** (Displacements)
+- **ROT** (Rotations)
+- **S** (Stress)
+- **EPEL** (Elastic Strain)
+- **ETH** (Thermal Strain)
+- **ENF_FORCE** (Element nodal forces)
+- **ENF_MOMENT** (Element nodal moments)
+- **RF_FORCE** (Reaction forces)
+- **RF_MOMENT** (Reaction moments)
+
+#### Shell layers
+This element does not use Shell layers
+
+#### Supported KEYOPTs
+
+| Value          | Description                                             | Supported |
+| -------------- | ------------------------------------------------------- | --------- |
+| **keyopt(1)**  | Element shape                                           |           |
+| 0              | 8-node quadrilateral                                    | Yes       |
+| 1              | 6-node triangle                                         | Yes       |
+| **keyopt(3)**  | Element behavior                                        |           |
+| 0              | Plane stress                                            | Yes       |
+| 1              | Axisymmetric                                            | Yes       |
+| 2              | Plane strain (Z strain = 0.0)                           | Yes       |
+| 3              | Plane stress with thickness input                       | Yes       |
+| 5              | Generalized plane strain                                | Yes       |
+| 6              | Axisymmetric with torsion                               | Yes       |
+| **keyopt(6)**  | Element formulation                                     |           |
+| 0              | Use pure displacement formulation (default)             | Yes       |
+| 1              | Use mixed u-P formulation (not valid with plane stress) | Yes       |
+| **keyopt(15)** | PML absorbing condition                                 |           |
+| 0              | Do not include PML absorbing condition (default)        | Yes       |
+| 1              | Include PML absorbing condition                         | Beta      |
+| **keyopt(17)** | Extra surface output                                    |           |
+| 0              | Basic element solution (default)                        | Yes       |
+| 4              | Surface solution for faces with nonzero pressure        | Yes       |
+
+---
+
 ### SOLID185
 
 **Element description:** 8-node linear structural solid, supporting plasticity, hyperelasticity, stress stiffening, creep, large deformation, and mixed u-P formulations
 
 **Documentation MAPDL:**  [SOLID185](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID185.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -260,8 +614,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -297,7 +651,7 @@ This element can have shell layers
 
 **Documentation MAPDL:**  [SOLID186](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID186.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -311,8 +665,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -347,7 +701,7 @@ This element can have shell layers
 
 **Documentation MAPDL:**  [SOLID187](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID187.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -361,8 +715,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -390,14 +744,15 @@ This element cannot have shell layers
 
 **Documentation MAPDL:** [SOLID278](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID278.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -445,14 +800,15 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SOLID279](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID279.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -496,7 +852,7 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SHELL281](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SHELL281.html)
 
-#### Supported Results
+#### Supported results
 - **U** (Displacements)
 - **ROT** (Rotations)
 - **S** (Stress)
@@ -510,8 +866,8 @@ This element can have shell layers
 - **RF_FORCE** (Reaction forces)
 - **RF_MOMENT** (Reaction moments)
 
-#### Shell Layers
-This element can have shell layers
+#### Shell layers
+This element can have Shell layers
 
 #### Supported KEYOPTs
 
@@ -549,14 +905,15 @@ This element can have shell layers
 
 **Documentation MAPDL:** [SOLID291](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_SOLID291.html)
 
-#### Supported Results
+#### Supported results
 - **TEMP** (Temperature)
 - **TG** (Thermal Gradient)
 - **TF** (Thermal Flux)
 - **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
 
-#### Shell Layers
-This element cannot have shell layers
+#### Shell layers
+This element cannot have Shell layers
 
 #### Supported KEYOPTs
 
@@ -585,32 +942,128 @@ This element cannot have shell layers
 
 ---
 
-## 3. General Result-Type Limitations for Older Version Files
+### PLANE292
+
+**Element description:** PLANE292 can be used as a plane element or as an axisymmetric ring element with a 2D thermal conduction capability. The element has four nodes with a single degree of freedom, temperature, at each node.
+
+**Documentation MAPDL:** [PLANE292](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE292.html)
+
+#### Supported results
+- **TEMP** (Temperature)
+- **TG** (Thermal Gradient)
+- **TF** (Thermal Flux)
+- **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
+
+#### Shell layers
+This element does not use Shell layers
+
+#### Supported KEYOPTs
+
+| Value          | Description                                                                               | Supported |
+| -------------- | ----------------------------------------------------------------------------------------- | --------- |
+| **keyopt(1)**  | Evaluation of film coefficient                                                            |           |
+| 0              | Evaluate film coefficient at average film temperature, (TS + TB)/2 (default)              | Yes       |
+| 1              | Evaluate at element surface temperature, TS                                               | Yes       |
+| 2              | Evaluate at fluid bulk temperature, TB                                                    | Yes       |
+| 3              | Evaluate at differential temperature, \|TS - TB\|                                         | Yes       |
+| **keyopt(3)**  | Element behavior                                                                          |           |
+| 0              | Plane                                                                                     | Beta      |
+| 1              | Axisymmetric                                                                              | Yes       |
+| 3              | Plane with Z-depth, specified via real constant THK                                       | Yes       |
+| **keyopt(4)**  | Element coordinate system                                                                 |           |
+| 0              | Element coordinate system parallel to the global coordinate system (default)              | Yes       |
+| 1              | Element coordinate system based on the element I-J side                                   | Yes       |
+| **keyopt(8)**  | Mass transport effects                                                                    |           |
+| 0              | Do not include mass transport in the analysis (default)                                   | Yes       |
+| 1              | Include mass transport with Diffusive Flux (Dflux) Neumann boundary condition             | Yes       |
+| 2              | Include mass transport with Total Flux (Tflux) Neumann boundary condition                 | Yes       |
+| **keyopt(11)** | Film coefficient matrix                                                                   |           |
+| 0              | Program determines whether to use a diagonal or consistent film coefficient matrix        | Yes       |
+| 1              | Use a diagonal film coefficient matrix (default)                                          | Yes       |
+| 2              | Use a consistent film coefficient matrix                                                  | Yes       |
+| **keyopt(15)** | Specific heat matrix                                                                      |           |
+| 0              | Program determines whether to use a diagonal or consistent specific heat matrix (default) | Yes       |
+| 1              | Use a diagonal specific heat matrix                                                       | Yes       |
+| 2              | Use a consistent specific heat matrix                                                     | Yes       |
+| **keyopt(16)** | Evaluation of material properties                                                         |           |
+| 0              | Evaluate material properties at centroid (default)                                        | Yes       |
+| 1              | Evaluate material properties at each integration point                                    | Yes       |
+
+---
+
+### PLANE293
+
+**Element description:** PLANE293 is a higher order version of the 2D, 4-node thermal element (PLANE292). The element has one degree of freedom, temperature, at each node. The 8-node elements have compatible temperature shapes and are well suited to model curved boundaries.
+
+**Documentation MAPDL:** [PLANE293](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_elem/Hlp_E_PLANE293.html)
+
+#### Supported results
+- **TEMP** (Temperature)
+- **TG** (Thermal Gradient)
+- **TF** (Thermal Flux)
+- **ENF_HEAT** (Elemental nodal heat)
+- **RF_HEAT** (Reaction heat)
+
+#### Shell layers
+This element does not use Shell layers
+
+#### Supported KEYOPTs
+
+| Value          | Description                                                                        | Supported |
+| -------------- | ---------------------------------------------------------------------------------- | --------- |
+| **keyopt(1)**  | Element shape                                                                      |           |
+| 0              | 8-node quadrilateral and triangle                                                  | Yes       |
+| 1              | 6-node triangle                                                                    | Yes       |
+| **keyopt(2)**  | Evaluation of film coefficient                                                     |           |
+| 0              | Evaluate film coefficient at average film temperature, (TS + TB)/2 (default)       | Yes       |
+| 1              | Evaluate at element surface temperature, TS                                        | Yes       |
+| 2              | Evaluate at fluid bulk temperature, TB                                             | Yes       |
+| 3              | Evaluate at differential temperature, \|TS - TB\|                                  | Yes       |
+| **keyopt(3)**  | Element behavior                                                                   |           |
+| 0              | Plane                                                                              | Beta      |
+| 1              | Axisymmetric                                                                       | Yes       |
+| 3              | Plane with Z-depth, specified via real constant THK                                | Yes       |
+| **keyopt(11)** | Film coefficient matrix                                                            |           |
+| 0              | Program determines whether to use a diagonal or consistent film coefficient matrix | Yes       |
+| 1              | Use a diagonal film coefficient matrix (default)                                   | Yes       |
+| 2              | Use a consistent film coefficient matrix                                           | Yes       |
+| **keyopt(15)** | Specific heat matrix                                                               |           |
+| 0              | Program determines whether to use a diagonal or consistent specific heat matrix    | Yes       |
+| 1              | Use a diagonal specific heat matrix                                                | Yes       |
+| 2              | Use a consistent specific heat matrix (default)                                    | Yes       |
+| **keyopt(16)** | Evaluation of material properties                                                  |           |
+| 0              | Evaluate material properties at centroid (default)                                 | Yes       |
+| 1              | Evaluate material properties at each integration point                             | Yes       |
+
+---
+
+## General Result-Type Limitations for Older Version Files
 
 Users should expect limitations for RST files created before MAPDL 14.5, especially regarding the following areas.
 
-### 3.1 Section of Shell Elements Definition
+### Section of Shell Elements Definition
 
 - Section of Shell elements cannot be defined using real constants
 
-### 3.2 FSplit Command is not supported
+### FSplit Command is not supported
 
 - Result files generated using the option /config,fsplit are not supported
 
-### 3.3 Analysis Type Detection
+### Analysis Type Detection
 
 - Result files generated before MAPDL 2024 R1 for transient analyses are incorrectly assigned as static. Reading
   the inertial and damping components of the element nodal forces is not supported on these files.
 
-### 3.4 Support of Elements with dropped Mid-side Nodes
+### Support of Elements with dropped Mid-side Nodes
 
 - Some elements can drop one or all their mid-side nodes. DPF only supports officially elements with all mid-side nodes dropped. If only one node is dropped, DPF will write a zero value at this node in the corresponding result field. This kind of situation will cause a difference with the MAPDL PRESOL command result value which will not write any zero.
 
 ---
 
-## 4. Elements supported in "Beta"
+## Elements supported in "beta"
 
-### Definition of a "Beta" Element Type
+### Definition of a "beta" element type
 
 - Element can be read into DPF Mesh
 - Most common results and KEYOPTS can be read
@@ -642,14 +1095,10 @@ Here is a list of the elements which are in Beta:
 - TARGE169
 - TARGE170
 - CONTA173
-- CONTA172
-- CONTA174
 - CONTA175
 - CONTA177
 - PRETS179
 - LINK180
-- PLANE182
-- PLANE183
 - MPC184
 - BEAM188
 - BEAM189
@@ -679,15 +1128,13 @@ Here is a list of the elements which are in Beta:
 - SOLID285
 - PIPE288
 - PIPE289
-- PLANE292
-- PLANE293
 - SHELL294
 
-## 5. Supported File Types and Results
+## Supported file types and results
 
 This section describes the MAPDL result file formats supported by DPF, the types of data that can be read from each, and the associated operators. For detailed binary file format specifications, refer to the [MAPDL Programmer's Guide - Format of Binary Data Files](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_prog/Hlp_P_INT1_2.html).
 
-### Supported MAPDL File Formats
+### Supported MAPDL file formats
 
 | File Extension | Description                           |
 | -------------- | ------------------------------------- |
@@ -701,11 +1148,11 @@ This section describes the MAPDL result file formats supported by DPF, the types
 | `.sub`         | Substructure Matrices File            |
 | `.dsub`        | Substructure Displacement File        |
 
-### 5.1 Supported MAPDL Elemental Results
+### Supported MAPDL elemental results
 
 **Description:** Supported elemental result types from multiple analyses including structural, thermal, electrical, and magnetic analyses.
 
-| Result                             | Comp         | Description                             | Supported | Shell Layers | Location       | Operator internal name                                | Scripting name                          |
+| Result                             | Comp         | Description                             | Supported | Shell layers | Location       | Operator internal name                                | Scripting name                          |
 | ---------------------------------- | ------------ | --------------------------------------- | --------- | ------------ | -------------- | ----------------------------------------------------- | --------------------------------------- |
 | S[*](#mapdl-stress-strain-note)    | COMP / blank | Stress components (X, Y, Z, XY, YZ, XZ) | Yes       | Yes          | ElementalNodal | `"S","SX",…`                                          | stress, stress_X                        |
 | EPEL[*](#mapdl-stress-strain-note) | COMP / blank | Elastic strain components               | Yes       | Yes          | ElementalNodal | `"EPEL","EPELX",…`                                    | elastic_strain                          |
@@ -716,10 +1163,10 @@ This section describes the MAPDL result file formats supported by DPF, the types
 | EPCR[*](#mapdl-stress-strain-note) | COMP / blank | Creep strain components                 | Yes       | Yes          | ElementalNodal | `"EPCR"`                                              | creep_strain                            |
 | EPSW[*](#mapdl-stress-strain-note) | –            | Swelling strain                         | Yes       | Yes          | ElementalNodal | `"ETH_SWL"`                                           | swelling_strains                        |
 | ENL                                | –            | Nonlinear items (SEPL, SRAT, …)         | Yes       | Yes          | ElementalNodal | `"ENL_SEPL","ENL_SRAT","ENL_HPRES"`,...               | eqv_stress_parameter, stress_ratio, ... |
-| SEND                               | –            | Elastic strain energy density           | Beta      | No         | ElementalNodal | `"ENL_ELENG"`                                         | elastic_strain_energy_density           |
-| PLASTIC                            | –            | Plastic strain energy density           | Yes       | No          | ElementalNodal | `"ENL_PLWK"`                                          | plastic_strain_energy_density           |
-| CREEP                              | –            | Creep strain energy density             | Beta      | No         | ElementalNodal | `"ENL_CRWK"`                                          | creep_strain_energy_density             |
-| SVAR                               | 1…N          | State variables                         | Yes       | No          | ElementalNodal | `"ESV"`                                               | state_variable                          |
+| SEND                               | –            | Elastic strain energy density           | Beta      | No           | ElementalNodal | `"ENL_ELENG"`                                         | elastic_strain_energy_density           |
+| PLASTIC                            | –            | Plastic strain energy density           | Yes       | No           | ElementalNodal | `"ENL_PLWK"`                                          | plastic_strain_energy_density           |
+| CREEP                              | –            | Creep strain energy density             | Beta      | No           | ElementalNodal | `"ENL_CRWK"`                                          | creep_strain_energy_density             |
+| SVAR                               | 1…N          | State variables                         | Yes       | No           | ElementalNodal | `"ESV"`                                               | state_variable                          |
 | GKS                                | X, XY, XZ    | Gasket stress                           | Yes       | No           | ElementalNodal | `"GKS"`                                               | gasket_stress                           |
 | CONT                               | STAT         | Contact status                          | Yes       | No           | ElementalNodal | `"ECT_STAT"`                                          | contact_status                          |
 | PENE                               | –            | Contact penetration                     | Yes       | No           | ElementalNodal | `"ECT_PENE"`                                          | contact_penetration                     |
@@ -729,20 +1176,20 @@ This section describes the MAPDL result file formats supported by DPF, the types
 | FLUX                               | –            | Heat flux at contact surface            | Yes       | No           | ElementalNodal | `"ECT_FLUX"`                                          | contact_surface_heat_flux               |
 | TG                                 | X, Y, Z      | Thermal gradient                        | Yes       | Yes          | ElementalNodal | `"TG"`                                                | temperature_grad                        |
 | TF                                 | X, Y, Z      | Thermal flux                            | Yes       | Yes          | ElementalNodal | `"TF"`                                                | heat_flux                               |
-| EF                                 | X, Y, Z      | Electric field                          | Yes       | Yes           | ElementalNodal | `"EF"`                                                | electric_field                          |
-| D                                  | X, Y, Z      | Electric flux density                   | Yes       | Yes           | ElementalNodal | `"EFD"`                                               | electric_flux_density                   |
-| H                                  | X, Y, Z      | Magnetic field intensity                | Yes       | Yes           | ElementalNodal | `"MF"`                                                | magnetic_field                          |
-| B                                  | X, Y, Z      | Magnetic flux density                   | Yes       | Yes           | ElementalNodal | `"MFD"`                                               | magnetic_flux_density                   |
+| EF                                 | X, Y, Z      | Electric field                          | Yes       | Yes          | ElementalNodal | `"EF"`                                                | electric_field                          |
+| D                                  | X, Y, Z      | Electric flux density                   | Yes       | Yes          | ElementalNodal | `"EFD"`                                               | electric_flux_density                   |
+| H                                  | X, Y, Z      | Magnetic field intensity                | Yes       | Yes          | ElementalNodal | `"MF"`                                                | magnetic_field                          |
+| B                                  | X, Y, Z      | Magnetic flux density                   | Yes       | Yes          | ElementalNodal | `"MFD"`                                               | magnetic_flux_density                   |
 | VOLU                               | –            | Element volume                          | Yes       | No           | Elemental      | `"element::volume"`                                   | elements_volume                         |
 | CENT                               | X, Y, Z      | Element centroid                        | Yes       | No           | Elemental      | `"centroid"`                                          | element_centroids                       |
-| SMISC                              | snum         | Summable miscellaneous element data     | Yes       | No          | Elemental      | `"SMISC"`                                             | smisc                                   |
-| NMISC                              | snum         | Non‑summable miscellaneous element data | Yes       | No          | Elemental      | `"NMISC"`                                             | nmisc                                   |
+| SMISC                              | snum         | Summable miscellaneous element data     | Yes       | No           | Elemental      | `"SMISC"`                                             | smisc                                   |
+| NMISC                              | snum         | Non‑summable miscellaneous element data | Yes       | No           | Elemental      | `"NMISC"`                                             | nmisc                                   |
 | KENE                               | –            | Kinetic energy                          | Yes       | No           | Elemental      | `"ENG_KE"`                                            | kinetic_energy                          |
 | JS                                 | X, Y, Z      | Source current density                  | Yes       | No           | Elemental      | `"ECD"`                                               | current_density                         |
 | SENE                               | –            | Strain energy density                   | Yes       | No           | Elemental      | `"ENG_SE"`                                            | stiffness_matrix_energy                 |
 | BFE [***](#mapdl-bfe-note)         | –            | Structural Temperature                  | Yes       | Yes          | ElementalNodal | `"BFE"`                                               | structural_temperature                  |
-| F [**](#mapdl-enf-note)            | X, Y, Z      | Element Nodal Forces                    | Yes       | No          | ElementalNodal | `"ENF"`                                               | element_nodal_forces                    |
-| M [**](#mapdl-enf-note)            | X, Y, Z      | Element Nodal Moments                   | Yes       | No          | ElementalNodal | `"ENF_Moment"`                                        | element_nodal_moments                   |
+| F [**](#mapdl-enf-note)            | X, Y, Z      | Element Nodal Forces                    | Yes       | No           | ElementalNodal | `"ENF"`                                               | element_nodal_forces                    |
+| M [**](#mapdl-enf-note)            | X, Y, Z      | Element Nodal Moments                   | Yes       | No           | ElementalNodal | `"ENF_Moment"`                                        | element_nodal_moments                   |
 | HEAT [**](#mapdl-enf-note)         | –            | Element Nodal Heat                      | Yes       | No           | ElementalNodal | `"ENF_Heat"`                                          | element_nodal_heat                      |
 
 <a id="mapdl-stress-strain-note"></a>
@@ -758,7 +1205,7 @@ For more details, you can refer to the [MAPDL Programmer's Guide - Format of Bin
 
 **Extending Results to mid-side nodes:** `extend_to_mid_nodes` operator needs to be used to extend results at the mid-side nodes (only for quadratic elements). Eligible operators such as `Stress` have an input pin `extend_to_mid_nodes` (pin 28) which can be set to `True` to extend results at the mid-side nodes.
 
-### 5.2 Supported MAPDL Nodal Results
+### Supported MAPDL nodal results
 
 **Description:** Supported nodal result types from multiple analyses including structural, thermal, electrical, magnetic, and fluid analyses.
 
