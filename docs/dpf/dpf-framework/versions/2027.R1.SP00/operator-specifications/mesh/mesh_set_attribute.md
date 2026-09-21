@@ -1,16 +1,16 @@
 ---
-category: utility
+category: mesh
 plugin: core
 license: None
 ---
 
-# utility:set attribute
+# mesh:mesh set attribute
 
 **Version: 0.0.0**
 
 ## Description
 
-Uses the FieldsContainer APIs to modify it.
+Uses the MeshedRegion APIs to modify it.
 
 ## Inputs
 
@@ -20,16 +20,16 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
-| <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>0</strong> | [abstract_meshed_region](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 | <strong>1</strong> | [property_name](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>2</strong> | [property_identifier](#input_2) |  |[`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`label_space`](../../core-concepts/dpf-types.md#label-space), [`string`](../../core-concepts/dpf-types.md#standard-types), [`string_field`](../../core-concepts/dpf-types.md#string-field) |
+| <strong>2</strong> | [property_identifier](#input_2) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`string`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
-### fields_container (Pin 0)
+### abstract_meshed_region (Pin 0)
 
 - **Required:** Yes
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
 
 
@@ -39,15 +39,15 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Supported property names are: "labels", "base_name", "field_names", "unit".
+Supported property names are: "unit".
 
 <a id="input_2"></a>
 ### property_identifier (Pin 2)
 
-- **Required:** No
-- **Expected type(s):** [`vector<string>`](../../core-concepts/dpf-types.md#standard-types), [`label_space`](../../core-concepts/dpf-types.md#label-space), [`string`](../../core-concepts/dpf-types.md#standard-types), [`string_field`](../../core-concepts/dpf-types.md#string-field)
+- **Required:** Yes
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
 
-Value of the property to be set: vector of string or LabelSpace for "labels", a result name string for "base_name" (sets the container name and renames all fields with time/complex/label suffixes), a StringField for "field_names" to manually set the field names, a unit string for "unit".
+Value of the property to be set: a unit string for "unit".
 
 
 ## Outputs
@@ -58,15 +58,15 @@ Each output is detailed in the sections that follow the table.
 
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
-|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **0**| [mesh](#output_0) |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
 
 <a id="output_0"></a>
-### fields_container (Pin 0)
+### mesh (Pin 0)
 
-- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-Returns the modified FieldsContainer.
+Returns the modified MeshedRegion.
 
 
 ## Configurations
@@ -87,15 +87,15 @@ If this option is set to true, the shared memory is prevented from being simulta
 
 This operator can be accessed through scripting interfaces using these identifiers.
 
- **Category**: utility
+ **Category**: mesh
 
  **Plugin**: core
 
- **Scripting name**: set_attribute
+ **Scripting name**: mesh_set_attribute
 
- **Full name**: utility.set_attribute
+ **Full name**: mesh.mesh_set_attribute
 
- **Internal name**: fieldscontainer::set_attribute
+ **Internal name**: mesh::set_attribute
 
  **License**: None
 
@@ -110,11 +110,11 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ```cpp
 #include "dpf_api.h"
 
-ansys::dpf::Operator op("fieldscontainer::set_attribute"); // operator instantiation
-op.connect(0, my_fields_container);
+ansys::dpf::Operator op("mesh::set_attribute"); // operator instantiation
+op.connect(0, my_abstract_meshed_region);
 op.connect(1, my_property_name);
 op.connect(2, my_property_identifier);
-ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
 ```
 </details>
 
@@ -124,11 +124,11 @@ ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::Field
 ```python
 import ansys.dpf.core as dpf
 
-op = dpf.operators.utility.set_attribute() # operator instantiation
-op.inputs.fields_container.connect(my_fields_container)
+op = dpf.operators.mesh.mesh_set_attribute() # operator instantiation
+op.inputs.abstract_meshed_region.connect(my_abstract_meshed_region)
 op.inputs.property_name.connect(my_property_name)
 op.inputs.property_identifier.connect(my_property_identifier)
-my_fields_container = op.outputs.fields_container()
+my_mesh = op.outputs.mesh()
 ```
 </details>
 
@@ -139,11 +139,11 @@ my_fields_container = op.outputs.fields_container()
 import mech_dpf
 import Ans.DataProcessing as dpf
 
-op = dpf.operators.utility.set_attribute() # operator instantiation
-op.inputs.fields_container.Connect(my_fields_container)
+op = dpf.operators.mesh.mesh_set_attribute() # operator instantiation
+op.inputs.abstract_meshed_region.Connect(my_abstract_meshed_region)
 op.inputs.property_name.Connect(my_property_name)
 op.inputs.property_identifier.Connect(my_property_identifier)
-my_fields_container = op.outputs.fields_container.GetData()
+my_mesh = op.outputs.mesh.GetData()
 ```
 </details>
 <br>
