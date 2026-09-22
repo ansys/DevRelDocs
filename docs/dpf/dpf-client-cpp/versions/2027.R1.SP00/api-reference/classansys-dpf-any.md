@@ -33,6 +33,7 @@
 * [getAsDataSources](classansys-dpf-any.md#classansys-dpf-any-1a52850e5eb23e6cba70ccd0c0713e3452)
 * [getAsDataTree](classansys-dpf-any.md#classansys-dpf-any-1ad25e7ea69b88bb148cc8046d50760c29)
 * [getAsDouble](classansys-dpf-any.md#classansys-dpf-any-1a4576e195b7ef1e4a48b26f57db844289)
+* [getAsDoubleVector](classansys-dpf-any.md#classansys-dpf-any-1a3a24559362882a566a8e1b65b497c0fb)
 * [getAsFbsReference](classansys-dpf-any.md#classansys-dpf-any-1adde807f660e7d288e709f3d372a1b916)
 * [getAsField](classansys-dpf-any.md#classansys-dpf-any-1a8bb8b9c5c9b8caccff78ff66a16780cb)
 * [getAsFieldsContainer](classansys-dpf-any.md#classansys-dpf-any-1af48a4b58d4d52dd107e75fdb6db2cdea)
@@ -484,6 +485,39 @@ int vector held in the [Any](classansys-dpf-any.md#classansys-dpf-any) object.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::getAsIntVector"}]}`
+-->
+
+<a id="classansys-dpf-any-1a3a24559362882a566a8e1b65b497c0fb"></a>
+### Function getAsDoubleVector
+
+![][public]
+![][const]
+
+
+```cpp
+DpfVector< double > ansys::dpf::Any::getAsDoubleVector() const
+```
+
+
+
+
+**Returns**:
+
+double vector held in the [Any](classansys-dpf-any.md#classansys-dpf-any) object.
+
+
+**Exceptions**:
+
+* **[DpfException](classansys-dpf-dpfexception.md#classansys-dpf-dpfexception)**:
+
+
+
+**Return type**: [DpfVector](classansys-dpf-dpfvector.md#classansys-dpf-dpfvector)< double >
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::Any::getAsDoubleVector"}]}`
 -->
 
 <a id="classansys-dpf-any-1a8bb8b9c5c9b8caccff78ff66a16780cb"></a>
