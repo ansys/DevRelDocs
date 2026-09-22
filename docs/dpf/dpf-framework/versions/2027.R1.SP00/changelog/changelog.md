@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-18).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-21).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -30,9 +30,9 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [10 items](#Features_femutils) |[25 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[17 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[18 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [3 items](#Features_grpc) |[6 items](#Fixes_grpc) |
+| grpc | [3 items](#Features_grpc) |[8 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
 | hdf5 | [16 items](#Features_hdf5) |[23 items](#Fixes_hdf5) |
@@ -46,7 +46,7 @@ The following table shows which components have updates in each category.
 | mapdl | [32 items](#Features_mapdl) |[91 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
-| mapping |  |[1 item](#Fixes_mapping) |
+| mapping |  |[2 items](#Fixes_mapping) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
 | mechanical | [5 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[8 items](#Fixes_mesh) |
@@ -876,6 +876,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Support Surface element types  in the mapping and centroids operators:
+  > 
+  >
+  > Support Surface element types (Surface3, Surface4, Surface6 and Surface8 and its extensions with extra nodes) in "mapping", "find_reduced_coordinates", "on_reduced_coordinates", and "compute_element_centroids" operators.
+  >
+  > 
+  >
+  > 
+
 - Mechanical crashes when evaluating Python result with operator self connection:
   > 
   >
@@ -1071,6 +1080,22 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_grpc"></a> Fixes
+
+- Expose native Any conversions:
+  > 
+  >
+  > 
+  >
+  > Expose Any conversions for supported DPF entities across native in-process and gRPC backends, including typed collections and double vectors.
+  >
+  > 
+  >
+  > 
+
+- Inconsistent behaviors with remote operators:
+  > 
+  >
+  > 
 
 - Support remote object identity comparisons:
   > 
@@ -2726,6 +2751,15 @@ The following table shows which components have updates in each category.
 ## mapping
 
 ### <a id="Fixes_mapping"></a> Fixes
+
+- Apply magnitude-preserving offset for AddFCMechanical:
+  > 
+  >
+  > Fixed offset handling in AddFCMechanical for vector-valued fields. The update preserves the original vector direction while applying offsets by adjusting the vector magnitude
+  >
+  > 
+  >
+  > 
 
 - Enable PrepareAndApply_ShapeFunction.Pyramid_inside_test in Linux:
   > 
@@ -5555,7 +5589,9 @@ The following table shows which components have updates in each category.
 
   > 0.1.3: Fix tolerance problem with distorted elements.
 
-  > 0.1.4: Suppport beam and point elements.
+  > 0.1.4: Support beam and point elements.
+
+  > 0.1.5: Support Surface elements.
 
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
@@ -5572,7 +5608,9 @@ The following table shows which components have updates in each category.
 
   > 0.4.0: Preserve explicit coordinate labels and ignore implicit labels in mapping output.
 
-  > 0.4.1: Suppport beam and point elements.
+  > 0.4.1: Support beam and point elements.
+
+  > 0.4.2: Support Surface elements.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
@@ -5581,7 +5619,9 @@ The following table shows which components have updates in each category.
 
   > 0.0.2: Internal refactoring to use Scoping Iterators.
 
-  > 0.0.3: Suppport beam and point elements.
+  > 0.0.3: Support beam and point elements.
+
+  > 0.0.4: Support Surface elements.
 
 
 - [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mapping_workflow.md)
@@ -6861,6 +6901,8 @@ Upgraded documentation
 - [compute_element_centroids](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/compute_element_centroids.md)
 
   > 0.1.0: Added arithmetic_average centroid algorithm and explicit pin-combination validation/documentation.
+
+  > 0.1.1: Support Surface elements.
 
 
 - [intersect](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/intersect.md)
