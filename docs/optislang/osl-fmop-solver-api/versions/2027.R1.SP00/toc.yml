@@ -6,6 +6,18 @@
       href: global_contents.md
     - name: Files
       href: file_contents.md
+    - name: Header files
+      items:
+        - name: FMOPSolver.h
+          href: _f_m_o_p_solver_8h.md
+        - name: FMOPSolver.c
+          href: _f_m_o_p_solver_8c.md
+        - name: fmop_solver.h
+          href: fmop__solver_8h.md
+        - name: sos_capi_common.h
+          href: sos__capi__common_8h.md
+        - name: sos_capi_script.h
+          href: sos__capi__script_8h.md
 - name: Index pages
   items:
     - name: Global index
