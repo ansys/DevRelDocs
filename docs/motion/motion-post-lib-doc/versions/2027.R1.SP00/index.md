@@ -24,4 +24,4 @@ The **API Reference** documents the public classes, interfaces, methods, and pro
 
 ## Downloads
 
-Download the [API resources](downloads/postprocessor-api-downloads.zip), which include the API modules, result files, and example scripts.
+The API modules, result files, and example scripts will be made available shortly before FCA.

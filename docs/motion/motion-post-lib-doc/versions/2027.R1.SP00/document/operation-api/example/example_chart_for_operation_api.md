@@ -1,6 +1,6 @@
 # Chart
 The following sample code illustrates how to create a simple example.
-- For downloadable Example scripts, see [Introduction - Downloads](../../index.md#downloads).
+- For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
 ## Create a ChartView
 This example demonstrates how to create a chart view.

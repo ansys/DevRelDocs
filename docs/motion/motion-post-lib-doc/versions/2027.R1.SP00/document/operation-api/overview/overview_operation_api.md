@@ -4,7 +4,7 @@ The Operation API provides an in-process Python interface for automating operati
 
 Use this API for operations that work with the active Postprocessor session, including its pages, views, documents, and operation interfaces.
 
-For downloadable API modules, result files, and example scripts, see [Introduction](../../index.md).
+For downloadable API modules, result files, and example scripts, see [Introduction](../../../index.md).
 
 ## Features
 

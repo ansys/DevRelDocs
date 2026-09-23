@@ -1,6 +1,6 @@
 # Example
 This example covers topics related to views.
-- For downloadable Example scripts, see [Introduction - Downloads](../../index.md#downloads).
+- For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
 ## Create a Page
 This example demonstrates how to create a page.

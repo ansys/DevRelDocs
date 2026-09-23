@@ -27,7 +27,7 @@ applicationHandler = ApplicationHandler()
 applicationHandler.IsShowMessageBox = False
 ```
 
-`OPERATION_API_MODULE_PATH` must be the `Modules` folder inside the package downloaded from [Introduction - Downloads](../../index.md#downloads), which contains `OperationAPI.py`. Call `sys.path.append(OPERATION_API_MODULE_PATH)` before importing `OperationAPI`.
+`OPERATION_API_MODULE_PATH` must be the `Modules` folder inside the package downloaded from [Introduction - Downloads](../../../index.md#downloads), which contains `OperationAPI.py`. Call `sys.path.append(OPERATION_API_MODULE_PATH)` before importing `OperationAPI`.
 
 ## Quick Start
 

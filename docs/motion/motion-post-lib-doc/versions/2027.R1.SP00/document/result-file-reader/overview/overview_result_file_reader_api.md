@@ -4,7 +4,7 @@ The Result File Reader API provides a Python interface for opening Ansys Motion 
 
 Use this API for operations that inspect or export result-file data independently of an interactive Postprocessor session.
 
-For downloadable API modules, result files, and example scripts, see [Introduction](../../index.md).
+For downloadable API modules, result files, and example scripts, see [Introduction](../../../index.md).
 
 ## Features
 

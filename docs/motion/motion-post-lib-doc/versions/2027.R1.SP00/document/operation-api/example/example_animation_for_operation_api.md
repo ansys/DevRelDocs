@@ -1,6 +1,6 @@
 # Animation
 The following sample code illustrates how to create a simple example.
-- For downloadable Example scripts, see [Introduction - Downloads](../../index.md#downloads).
+- For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
 ## Create an AnimationView corresponding to the Analysis type.
 This example demonstrates how to create an animation view suitable for the analysis type and load animation frames.

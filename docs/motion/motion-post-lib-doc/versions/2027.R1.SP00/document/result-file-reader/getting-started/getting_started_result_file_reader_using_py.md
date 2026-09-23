@@ -29,7 +29,7 @@ from ResultFileReaderAPI import *
 outputReader = OutputReader(RESULT_FILE_PATH)
 ```
 
-`BINARY_FOLDER_PATH` must be the folder that contains `Postprocessor.exe` in the Motion product installation. `RESULT_FILE_READER_API_MODULE_PATH` must be the `Modules` folder inside the package downloaded from [Introduction - Downloads](../../index.md#downloads), which contains `ResultFileReaderAPI.py`. Call `sys.path.append(BINARY_FOLDER_PATH)` and `sys.path.append(RESULT_FILE_READER_API_MODULE_PATH)` before importing `ResultFileReaderAPI`.
+`BINARY_FOLDER_PATH` must be the folder that contains `Postprocessor.exe` in the Motion product installation. `RESULT_FILE_READER_API_MODULE_PATH` must be the `Modules` folder inside the package downloaded from [Introduction - Downloads](../../../index.md#downloads), which contains `ResultFileReaderAPI.py`. Call `sys.path.append(BINARY_FOLDER_PATH)` and `sys.path.append(RESULT_FILE_READER_API_MODULE_PATH)` before importing `ResultFileReaderAPI`.
 
 ## Quick Start
 

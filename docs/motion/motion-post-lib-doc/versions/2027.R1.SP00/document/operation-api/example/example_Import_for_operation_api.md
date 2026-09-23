@@ -1,6 +1,6 @@
 # Example
 The following sample code illustrates how to create a simple example.
-- For downloadable Example scripts, see [Introduction - Downloads](../../index.md#downloads).
+- For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
 ## Numeric Import
 Here is an example of importing curve results from a file.
