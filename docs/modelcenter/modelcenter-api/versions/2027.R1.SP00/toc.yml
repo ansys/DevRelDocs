@@ -1,5 +1,7 @@
 - name: Introduction
   href: index.md
+- name: Getting started
+  href: getting-started.md
 - name: COM API
   href: modelcenter-api-md/index.md
   items:
