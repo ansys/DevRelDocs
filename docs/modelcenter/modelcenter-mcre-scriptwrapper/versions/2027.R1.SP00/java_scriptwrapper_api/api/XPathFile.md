@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- [`InputFile`](InputFile.md), [`OutputFile`](OutputFile.md), [`OutputFile2`](OutputFile2.md), [`ParseableFile`](ParseableFile.md), `java.io.Closeable`, `java.lang.AutoCloseable`
+- [InputFile](InputFile.md), [OutputFile](OutputFile.md), [OutputFile2](OutputFile2.md), [ParseableFile](ParseableFile.md), java.io.Closeable, java.lang.AutoCloseable
 
 --- 
 **Declaration**

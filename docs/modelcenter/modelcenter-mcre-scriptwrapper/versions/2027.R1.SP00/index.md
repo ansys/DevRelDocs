@@ -27,4 +27,4 @@ See the API documentation for the language of your choice for more information o
 Java or Python language can be used to define classes for object type variables. A class file must start with a special header that indicates its use for object type variables of ModelCenter Remote Execution or ModelCenter. For more detail, see Class File Formats
 
 ## More Information 
-For more information, see the [ScriptWrapper documentation](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/ModelCenter/v252/en/ModelCenter_Rem_Exec/ModelCenter_Rem_Exec/mcre_functions/wrappers_components/ScriptWrapper/index_scriptWrapper.html) in the MCRE Help.
+For more information, see the [ScriptWrapper documentation](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/ModelCenter/v271/en/ModelCenter_Rem_Exec/ModelCenter_Rem_Exec/mcre_functions/wrappers_components/ScriptWrapper/index_scriptWrapper.html) in the MCRE Help.
