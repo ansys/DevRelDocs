@@ -227,7 +227,7 @@ The following tables describe the standardized data structures of important obje
 | project_working_directory | String | Path of the project's working directory. |
 | modifying_settings | Python object | User interface editable settings that require a node reset if changed. |
 | non_modifying_settings | Python object | User interface editable settings that do not require a node reset if changed. |
-| properties | Dictionary | Properties of the node (for example, "read_mode" - Bool, "environment" - String, "environment_mode" - String). |
+| properties | Dictionary | Properties of the node ("read_mode" - Bool, "environment" - String, "environment_mode" - String, "base_environment" - dict with the system environment of the calling process). |
 | node_name | String | The current node's name. |
 | osl_variables | Dictionary | Dictionary of optiSLang variables. Does not vary per HID. |
 | reference_file_path | RelativeSplittedPath | Optional: Path to the reference file. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
