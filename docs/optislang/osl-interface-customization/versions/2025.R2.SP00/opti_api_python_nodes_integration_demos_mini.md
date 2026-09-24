@@ -120,7 +120,7 @@ The demo illustrates how to prepare ready-made parameter definitions. Simply mak
 
 ![demo_mini_fig4.png](graphics/demo_mini_fig4.png)
 
-For this to happen, the function `load` has to return more than just the name and value of a detected parameter. In the documentation on exchange data objects, the **InputValueDefinition** table ([Table 13](opti_api_python_nodes_integration.md)) lays out how distribution types and specs can be declared. The [Python API documentation](https://developer.ansys.com/docs/optislang) contains in the module `dynardo_py_algorithms` a list of distribution types available. However, please note that as of optiSLang 24.1.0 the integration plugin API does not yet support the declaration of many of them; more comprehensive coverage will come with future versions.
+For this to happen, the function `load` has to return more than just the name and value of a detected parameter. In the documentation on exchange data objects, the **InputValueDefinition** table ([Table 13](opti_api_python_nodes_integration.md)) lays out how distribution types and specs can be declared. The [Python API documentation](https://developer.ansys.com/docs/optislang) contains a list of distribution types available in the dynardo_py_algorithms module. However, please note that as of optiSLang 24.1.0 the integration plugin API does not yet support the declaration of many of them; more comprehensive coverage will come with future versions.
 
 <a id="mini-demo-10-initialize-and-shutdown"></a>
 
