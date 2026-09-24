@@ -151,6 +151,8 @@ Data exchange is done using exported optiSLang built-in types, lists, and dictio
 
 The following tables describe the standardized data structures of important objects transferred to several of the plugin functions where they are received in a structure of arguments.
 
+<a id="table-1-common-incoming-key-word-arguments-kwargs"></a>
+
 **Table 1: Common Incoming Key Word Arguments (KWARGs)**
 
 | Name | Type | Description |
@@ -163,6 +165,8 @@ The following tables describe the standardized data structures of important obje
 | osl_variables | Dictionary | Dictionary of optiSLang variables. Does not vary per HID. |
 | reference_file | String | Optional: Path to the reference file.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
+
+<a id="table-2-additional-incoming-kwargs-for-the-execute-function"></a>
 
 **Table 2: Additional Incoming KWARGs for the Execute Function**
 
@@ -191,6 +195,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_DESIGN_NAME | String | Design directory name (for example, Design_0001). |
 | OSL_DESIGN_DIR | String | Absolute path of the current design directory. |
 
+<a id="table-5-hidspecificinputdata-attributes"></a>
+
 **Table 5: HidSpecificInputData Attributes**
 
 | Name | Type | Description |
@@ -202,6 +208,8 @@ The following tables describe the standardized data structures of important obje
 | working_directory | String | The nodes working directory. |
 | reference_file | String | Optional: Path to the reference file.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
+
+<a id="table-6-hidspecificoutputdata-attributes"></a>
 
 **Table 6: HidSpecificOutputData Attributes**
 
