@@ -1,92 +1,106 @@
 # PyAEDT learning roadmap
 
-This roadmap measures what you can do with PyAEDT, not which pages you have read. Each milestone produces a demonstrable capability, an observable result, or a reusable artefact. PyAEDT is the open-source Python client library for the Ansys Electronics Desktop (AEDT) API, letting you automate HFSS, Maxwell, Icepak, Q3D, Circuit, and other AEDT applications from Python. It requires a licensed local AEDT installation (2022 R1 or later; the student version is supported).
+PyAEDT is the open-source Python client library that interacts directly with the Ansys Electronics Desktop (AEDT) API, enabling automation of electromagnetic, thermal, and electronics design workflows. This roadmap measures capability rather than page visits. Each milestone produces a demonstrable skill, an observable result, or a reusable artifact. PyAEDT requires Ansys Electronics Desktop 2022 R1 or later, and the AEDT Student Version is supported.
+
+PyAEDT spans many AEDT applications, including HFSS, Maxwell 2D and 3D, Q3D Extractor, Icepak, Circuit (Nexxim), and Twin Builder. The class and method structures are reused across these applications, so a skill learned in one application transfers to the others. This roadmap uses HFSS as the worked example, and every milestone notes where the same pattern applies to other applications.
 
 ## Your learning journey
 
 **1. Get it working**  
-Install PyAEDT into a virtual environment and launch your first AEDT session.
+PyAEDT is installed and a first AEDT session is launched non-graphically and verified.
 
 **2. Understand the control model**  
-Manage the Desktop session lifecycle and reach an application's object model.
+The `Desktop` session lifecycle is understood and one target application is chosen and instantiated.
 
 **3. Modify an existing workflow**  
-Run an official example unchanged, then change one input and observe the effect.
+A working official example is run unchanged and then adapted to a new requirement.
 
 **4. Run and assess a meaningful operation**  
-Build geometry, set up, solve, and read back a real electromagnetic result.
+A design is built, a setup is created, the design is solved, and a result is extracted and checked.
 
 **5. Build reusable automation**  
-Turn a working script into a parameterised, CLI-driven, batch-capable tool.
+A parameterized function is produced that captures a full design-to-result run with deterministic cleanup.
 
-**6. Apply it to your own use case**  
-Reproduce one of your existing AEDT designs from Python.
+**6. Apply it to a personal use case**  
+The automation is retargeted to a learner-supplied design and requirement.
 
 **7. Use AI-assisted capabilities**  
-Drive AEDT from an AI assistant through the PyAEDT-MCP server, verifying every step.
+A tool built on PyAEDT is used to drive AEDT from an AI assistant, with every generated action validated.
 
 **8. Choose an advanced pathway**  
-Pick a specialisation such as extensions, PyEDB layout, or postprocessing and reporting.
+An advanced specialization is selected, such as a second application, parametric variables, or remote client-server.
+
+---
+
+## Prerequisites
+
+> **Outcome:** The environment required by every later stage is confirmed present.
+
+A licensed local installation of Ansys Electronics Desktop 2022 R1 or later is required, because PyAEDT interacts directly with the AEDT API. Python 3.10 through Python 3.13 is supported on CPython, and a virtual environment is recommended. On Linux, environment variables must be set before launching Python, for example `export ANSYSEM_ROOT261=/path/to/AnsysEM/v261/AnsysEM` and the matching `LD_LIBRARY_PATH`, where the version suffix matches the installed AEDT release.
 
 ---
 
 ## 1. Get PyAEDT working
 
-> **Outcome:** A working Python environment that can launch AEDT and open an application.
+> **Outcome:** PyAEDT is installed and a first AEDT session is launched non-graphically and verified.
 
 ### □ Install PyAEDT into a virtual environment
 
 **Activity**
 
-Create and activate a virtual environment, then install PyAEDT with all extras. PyAEDT works with CPython 3.10 through 3.13 and requires a licensed AEDT 2022 R1 or later. The recommended flow uses `venv` plus `uv` for fast installs.
-
-**Example**
-
-```powershell
-python -m venv C:\path\to\pyaedt_venv
-C:\path\to\pyaedt_venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install uv
-uv pip install pyaedt[all]
-```
-
-**Complete when**
-
-`pip show pyaedt` reports an installed version inside your activated virtual environment.
-
-**Keep**
-
-A note of your environment path, Python version, and the installed PyAEDT version.
-
-[Installation](https://aedt.docs.pyansys.com/version/stable/Getting_started/Installation.html)
-
-### □ Confirm PyAEDT sees your AEDT installation
-
-**Activity**
-
-Check which AEDT versions PyAEDT detects on your machine using the command line interface. On Linux, first set the `ANSYSEM_ROOT<XYZ>` and `LD_LIBRARY_PATH` environment variables for your release.
+PyAEDT is installed from PyPI into a virtual environment so that it does not conflict with other packages. The `[all]` extra pulls in optional components.
 
 **Example**
 
 ```bash
-pyaedt aedt-versions
+python -m venv .venv
+# Windows: .venv\Scripts\activate    Linux: source .venv/bin/activate
+python -m pip install --upgrade pip
+pip install pyaedt[all]
 ```
 
 **Complete when**
 
-`pyaedt aedt-versions` lists at least one installed AEDT release.
+The command completes without error and `pip show pyaedt` reports an installed version in the active virtual environment.
 
 **Keep**
 
-The AEDT version string you will pass to `Desktop(version=...)`.
+A record of the created virtual environment and the installed package version.
 
-[Command line interface](https://aedt.docs.pyansys.com/version/stable/Getting_started/cli.html)
+[PyAEDT installation](https://aedt.docs.pyansys.com/version/stable/Getting_started/Installation.html)
 
-### □ Launch your first AEDT session and create a design
+### □ Confirm the AEDT installation and version
 
 **Activity**
 
-Launch AEDT from Python in non-graphical mode using a context manager, create one design, and let AEDT close cleanly on exit.
+The AEDT installation is confirmed and the target release is identified so that a session can be launched against the correct version. On Linux, the AEDT root environment variable is confirmed present.
+
+**Example**
+
+On Linux, the environment variables are set for the installed release, for example AEDT 2026 R1:
+
+```bash
+export ANSYSEM_ROOT261=/path/to/AnsysEM/v261/AnsysEM
+export LD_LIBRARY_PATH=$ANSYSEM_ROOT261:$LD_LIBRARY_PATH
+```
+
+On Windows, the Ansys installer sets the environment, so the installed release is confirmed rather than set.
+
+**Complete when**
+
+The target AEDT release is identified and, on Linux, the `ANSYSEM_ROOT<XYZ>` variable for that release is present in the shell that runs Python.
+
+**Keep**
+
+A note of the AEDT release and version string, such as `2026.1`.
+
+[Versions and interfaces](https://aedt.docs.pyansys.com/version/stable/Getting_started/versioning.html)
+
+### □ Launch a first AEDT session non-graphically
+
+**Activity**
+
+A first AEDT session is launched in non-graphical mode with the `Desktop` context manager so that startup is verified without opening the graphical user interface. The context manager ensures the session closes deterministically.
 
 **Example**
 
@@ -98,201 +112,156 @@ with ansys.aedt.core.Desktop(
     non_graphical=True,
     new_desktop=True,
     close_on_exit=True,
-):
-    circuit = ansys.aedt.core.Circuit()
-    # Work with AEDT here.
+) as desktop:
+    print(desktop.aedt_version_id)   # Confirms a live AEDT session
 # AEDT is automatically closed here.
 ```
 
 **Complete when**
 
-The block runs without error, a Circuit design is created, and AEDT closes when the context manager exits.
+The session launches without error, the AEDT version identifier prints, and AEDT closes automatically on leaving the context manager.
 
 **Keep**
 
-The launch snippet and a note of the AEDT version that started.
+The script and the captured version identifier.
 
 [Basic tutorial](https://aedt.docs.pyansys.com/version/stable/User_guide/intro.html)
 
-**Stage outcome:** You can install PyAEDT, confirm it finds AEDT, and launch a session that creates a design.
+**Stage outcome:** PyAEDT is installed and a verified AEDT session can be launched non-graphically.
 
 ---
 
 ## 2. Understand the control model
 
-> **Outcome:** You can manage the AEDT session lifecycle and reach an application's object model deliberately.
+> **Outcome:** The `Desktop` session lifecycle is understood and one target application is chosen and instantiated.
 
-### □ Control the Desktop session lifecycle
+### □ Understand the Desktop session lifecycle
 
 **Activity**
 
-Use both patterns for managing an AEDT session: a context manager for deterministic cleanup, and a direct `Desktop` object with an explicit `release_desktop`. Understand how `close_on_exit`, `new_desktop`, and being inside or outside a context manager decide whether AEDT closes.
+The `Desktop` session model is understood so that AEDT is started or attached deliberately and released cleanly. The `close_on_exit`, `new_desktop`, and `non_graphical` arguments are examined, and the difference between a context manager and direct construction is recorded.
+
+**Example**
+
+Inside a context manager, cleanup is deterministic:
+
+```python
+from ansys.aedt.core import Desktop, Hfss
+
+with Desktop(version="2026.1", non_graphical=True, new_desktop=True) as desktop:
+    hfss = Hfss()   # Application is created within the managed session
+    # Work with AEDT here.
+# AEDT is automatically closed here.
+```
+
+Used directly, the session is released explicitly:
+
+```python
+import ansys.aedt.core
+
+desktop = ansys.aedt.core.Desktop(version="2026.1", non_graphical=True, new_desktop=False)
+hfss = ansys.aedt.core.Hfss()
+# Work with AEDT here.
+desktop.release_desktop(close_projects=False, close_desktop=False)
+```
+
+**Complete when**
+
+A short note records that a context manager closes AEDT on exit, that `new_desktop=True` starts a new session while `new_desktop=False` attaches to an existing one, and that `release_desktop()` gives explicit control.
+
+**Keep**
+
+The note and both launch patterns.
+
+[Desktop sessions](https://aedt.docs.pyansys.com/version/stable/User_guide/desktop_sessions.html)
+
+### □ Choose one target application and instantiate it
+
+**Activity**
+
+One target AEDT application is chosen so that later stages have a concrete focus, and its class is instantiated. The application classes share a consistent structure, so the chosen application transfers to the others. HFSS is used as the worked example, and the same pattern applies to `Maxwell3d`, `Icepak`, `Circuit`, and other applications.
+
+**Example**
+
+```python
+from ansys.aedt.core import Desktop, Hfss
+
+with Desktop(version="2026.1", non_graphical=True, new_desktop=True):
+    hfss = Hfss(designname="MyFirstDesign")   # Swap Hfss for Maxwell3d, Icepak, Circuit, etc.
+    print(hfss.design_name)
+```
+
+**Complete when**
+
+The chosen application is instantiated, a design is created, and a design property such as the design name prints.
+
+**Keep**
+
+A note of the chosen application and the script that instantiates it.
+
+[Basic tutorial](https://aedt.docs.pyansys.com/version/stable/User_guide/intro.html)
+
+### □ Create and save a project, then release the desktop
+
+**Activity**
+
+A project is created, saved, and the desktop is released so that the full open-work-release cycle is exercised. Saving before release ensures the work persists.
 
 **Example**
 
 ```python
 import ansys.aedt.core
 
-# Direct control: attach without closing on exit
-d = ansys.aedt.core.Desktop(version="2026.1", non_graphical=False, new_desktop=False)
-hfss = ansys.aedt.core.Hfss()
-# Work with AEDT here.
-d.release_desktop(close_projects=False, close_desktop=False)
+cir = ansys.aedt.core.Circuit(non_graphical=True)
+cir.save_project(my_path)
+# Work with the design here.
+cir.release_desktop(close_projects=True, close_desktop=True)
+# Desktop is released here.
 ```
 
 **Complete when**
 
-You can predict, for a given call, whether AEDT stays open or closes, and you have released a session explicitly.
+A project is saved to a chosen path and the desktop is released without leaving an orphaned AEDT process.
 
 **Keep**
 
-A one-line note of the lifecycle rule you will rely on (context manager versus direct control).
+The saved project path and the release confirmation.
 
-[Desktop sessions](https://aedt.docs.pyansys.com/version/stable/User_guide/desktop_sessions.html)
+[Basic tutorial](https://aedt.docs.pyansys.com/version/stable/User_guide/intro.html)
 
-### □ Create and manipulate a geometry object
-
-**Activity**
-
-Open one AEDT application (for example HFSS) and use the object-oriented modeler to create a primitive, then read and change its properties with getters and setters.
-
-**Example**
-
-```python
-from ansys.aedt.core import Hfss
-
-hfss = Hfss()
-box = hfss.modeler.create_box(
-    origin=[0, 0, 0], sizes=[10, 10, 10], name="mybox", material="aluminum"
-)
-print(box.faces)
-box.material_name = "copper"
-box.transparency = 0.4
-```
-
-**Complete when**
-
-Reading `box.material_name` returns your new value and you can enumerate the box faces.
-
-**Keep**
-
-The snippet and the printed face or property values.
-
-[Modeler](https://aedt.docs.pyansys.com/version/stable/User_guide/modeler.html)
-
-### □ Drive a design with variables and parameters
-
-**Activity**
-
-Create design and project variables through the app's dictionary interface, then evaluate an expression. Note that a `$` prefix creates a project-wide variable.
-
-**Example**
-
-```python
-from ansys.aedt.core import Hfss
-
-hfss = Hfss()
-hfss["dim"] = "1mm"          # design variable
-hfss["$dim"] = "1mm"         # project variable
-hfss["$PrjVar1"] = "2*pi"
-hfss.evaluate_expression(hfss["$PrjVar1"])
-```
-
-**Complete when**
-
-`evaluate_expression` returns the numeric value of a variable you defined.
-
-**Keep**
-
-The variables you created and their evaluated values.
-
-[Variables](https://aedt.docs.pyansys.com/version/stable/User_guide/variables.html)
-
-**Stage outcome:** You can manage the AEDT session lifecycle and reach and modify an application's model through PyAEDT.
+**Stage outcome:** The `Desktop` lifecycle is understood, and one target application is chosen, instantiated, saved, and released.
 
 ---
 
 ## 3. Modify an existing workflow
 
-> **Outcome:** You can run an official example unchanged, then make a controlled change and predict its effect.
+> **Outcome:** An official example is run unchanged and then adapted to a new requirement.
 
-### □ Run one official example unchanged
+### □ Run one official example unchanged and capture its output
 
 **Activity**
 
-Choose one end-to-end example from the PyAEDT examples site that matches an application you use (for example an HFSS antenna or a Maxwell motor), download it, and run it without editing.
+One official example is run without modification so that a known-good baseline is established before any change is made. An example for the chosen application is selected from the official examples gallery.
 
 **Example**
 
-Run one example from the PyAEDT examples site for your application.
+The example is selected from the official gallery for the chosen application, such as an HFSS antenna example, and run in the verified environment.
 
 **Complete when**
 
-The example completes and produces the results shown in its documentation.
+The chosen example runs to completion in the verified environment and its documented output or a final result value is captured.
 
 **Keep**
 
-The unedited script and its captured output or result.
+The unmodified example and the captured baseline output.
 
-[PyAEDT examples](https://examples.aedt.docs.pyansys.com/)
+[PyAEDT examples gallery](https://examples.aedt.docs.pyansys.com/)
 
-### □ Change one physical input and observe the effect
-
-**Activity**
-
-In the working example, change exactly one physical input, such as a dimension, a material, a frequency, or an excitation value. Predict the direction of the change first, then re-run and compare with your saved baseline.
-
-**Example**
-
-```python
-# In an HFSS example, change one dimension variable, then re-analyze
-hfss["patch_width"] = "26mm"
-hfss.analyze()
-```
-
-**Complete when**
-
-The result moves in the direction you predicted and differs from your baseline.
-
-**Keep**
-
-The modified script, your prediction, and the before-and-after result values.
-
-[PyAEDT examples](https://examples.aedt.docs.pyansys.com/)
-
-### □ Trace one line of the example to its API
+### □ Change one geometry or setup input and observe the effect
 
 **Activity**
 
-Pick one line of the example that performs a meaningful action and find the class or method it calls in the PyAEDT API reference. Record its required inputs and return type.
-
-**Example**
-
-For a line that creates a setup, find the `create_setup` method and note its arguments and the setup object it returns.
-
-**Complete when**
-
-You can state, for that one line, which API is called and what inputs it needs.
-
-**Keep**
-
-A short note linking the example line to its API reference entry.
-
-[API reference](https://aedt.docs.pyansys.com/version/stable/API/index.html)
-
-**Stage outcome:** You can run, understand, and deliberately modify an official PyAEDT workflow.
-
----
-
-## 4. Run and assess a meaningful operation
-
-> **Outcome:** You can drive a full build-setup-solve-read cycle and extract an electromagnetic result into Python.
-
-### □ Build geometry and assign boundaries
-
-**Activity**
-
-In an HFSS design, create the geometry your analysis needs and assign the boundaries and excitations (for example perfect-E surfaces, a port, and a radiation boundary).
+A single input in the working example is changed, such as a geometry dimension, a material, or a setup property. Only one change is made so that its effect is isolated. Setup properties are edited through the `props` dictionary.
 
 **Example**
 
@@ -300,428 +269,509 @@ In an HFSS design, create the geometry your analysis needs and assign the bounda
 from ansys.aedt.core import Hfss
 
 hfss = Hfss()
-substrate = hfss.modeler.create_box(
-    origin=[0, 0, 0], sizes=["40mm", "40mm", "1.6mm"],
-    name="Substrate", material="FR4_epoxy")
-patch = hfss.modeler.create_rectangle(
-    orientation="XY", origin=["8mm", "8mm", "1.6mm"],
-    sizes=["24mm", "24mm"], name="Patch")
-hfss.assign_perfecte_to_sheets(patch.name)
+setup = hfss.setups[0]
+setup.props["MaximumPasses"] = 10   # Single changed setup input
+setup.update()
 ```
 
 **Complete when**
 
-Your geometry and boundaries are created, confirmed by listing `hfss.modeler.objects`.
+The modified example runs and the captured output differs from the baseline in a way that matches the single change made.
 
 **Keep**
 
-The build script and the list of created objects.
+The modified example, a note of the one change, and the before-and-after output.
 
-[Modeler](https://aedt.docs.pyansys.com/version/stable/User_guide/modeler.html)
+[Setup](https://aedt.docs.pyansys.com/version/stable/User_guide/setup.html)
 
-### □ Create a setup and solve
+### □ Locate the API behind one line of the example
 
 **Activity**
 
-Create an analysis setup (and optionally a frequency sweep), then solve. Access setups through the `setups` list and edit properties through the `props` dictionary.
+One line of the example is traced to its PyAEDT method so that its required inputs are understood rather than copied. The API reference is used to confirm the class, method, and parameters.
+
+**Example**
+
+A modeler or setup call from the example is selected, such as `hfss.modeler.create_box(...)` or `hfss.create_setup(...)`, and its parameters are confirmed in the API reference.
+
+**Complete when**
+
+The method used by the selected line is identified and its required inputs and return value are recorded from the API reference.
+
+**Keep**
+
+A short note mapping the chosen line to its documented method and inputs.
+
+[PyAEDT API reference](https://aedt.docs.pyansys.com/version/stable/API/index.html)
+
+**Stage outcome:** An official example can be run, changed with intent, and traced back to its underlying PyAEDT API.
+
+---
+
+## 4. Run and assess a meaningful operation
+
+> **Outcome:** A design is built, a setup is created, the design is solved, and a result is extracted and checked.
+
+### □ Build geometry and assign boundaries
+
+**Activity**
+
+Geometry is created through the modeler and boundaries are assigned so that a solvable design is defined. Dimensions and materials are parameterized as strings with units.
 
 **Example**
 
 ```python
+from ansys.aedt.core import Hfss
+
+hfss = Hfss(non_graphical=True)
+substrate = hfss.modeler.create_box(
+    origin=[0, 0, 0],
+    sizes=["40mm", "40mm", "1.6mm"],
+    name="Substrate",
+    material="FR4_epoxy",
+)
+ground = hfss.modeler.create_rectangle(
+    orientation="XY", origin=[0, 0, 0], sizes=["40mm", "40mm"], name="Ground"
+)
+hfss.assign_perfecte_to_sheets(ground.name)
+```
+
+**Complete when**
+
+The geometry objects are created and at least one boundary is assigned, confirmed by listing the modeler objects.
+
+**Keep**
+
+The geometry script and the list of created objects.
+
+[Modeler](https://aedt.docs.pyansys.com/version/stable/User_guide/modeler.html)
+
+### □ Create a setup and solve the design
+
+**Activity**
+
+An analysis setup is created and the design is solved so that a result is produced. The project is saved before the solve so that the work persists.
+
+**Example**
+
+```python
+from ansys.aedt.core import Hfss
+
+hfss = Hfss(non_graphical=True)
 setup = hfss.create_setup(name="Setup1")
 setup.props["Frequency"] = "2.4GHz"
 setup.props["MaximumPasses"] = 6
 setup.update()
-hfss.analyze()
+
+hfss.save_project()
+solved = hfss.analyze()
+print(solved)
 ```
 
 **Complete when**
 
-The solve completes and the setup reports a solution.
+The setup is created, the design is solved without error, and the solve returns a success result.
 
 **Keep**
 
-The setup-and-solve script and a note of the solve time and convergence.
+The setup script and the solve confirmation.
 
 [Setup](https://aedt.docs.pyansys.com/version/stable/User_guide/setup.html)
 
-### □ Create a report and read results into Python
+### □ Create a report and extract a result
 
 **Activity**
 
-Create a report of a solved quantity (for example an S-parameter), then pull the solution data into Python for external plotting with Matplotlib.
+A report is created from the solved design and a result quantity is extracted so that an engineering result is verified rather than assumed. The solution data is read into Python for inspection.
 
 **Example**
 
 ```python
-traces = hfss.get_traces_for_plot(second_element_filter="P1*")
-report = hfss.post.create_report(traces)
+from ansys.aedt.core import Hfss
+
+hfss = Hfss(non_graphical=True)
+report = hfss.post.create_report(["db(S11)"])
 solution = report.get_solution_data()
-plt = solution.plot(solution.expressions)   # Matplotlib axes object
+print(solution.expressions)   # Inspect the extracted trace names
 ```
 
 **Complete when**
 
-`get_solution_data()` returns data and you can plot or read at least one result value in Python.
+A report is created and at least one result quantity is read into Python and recorded.
 
 **Keep**
 
-The report script and the extracted result values or plot.
+The recorded result and a short note on whether it matches expectation.
 
 [Postprocessing](https://aedt.docs.pyansys.com/version/stable/User_guide/postprocessing.html)
 
-**Stage outcome:** You can drive a full build-setup-solve-read cycle and extract results into Python.
+**Stage outcome:** A design can be built, solved, and assessed from Python.
 
 ---
 
 ## 5. Build reusable automation
 
-> **Outcome:** You can turn a working script into a parameterised tool that runs unattended.
+> **Outcome:** A parameterized function is produced that captures a full design-to-result run with deterministic cleanup.
 
-### □ Parameterise your build-solve-read script
+### □ Wrap the design run in a parameterized function
 
 **Activity**
 
-Refactor your build-setup-solve-read script into a function whose key inputs (dimensions, materials, frequency) are arguments, returning the extracted result. Drive geometry sweeps through design variables or Optimetrics parametric setups.
+The build, setup, solve, and extract steps are collected into a function whose inputs are passed as parameters rather than hard-coded. Dimensions, frequency, and the AEDT version are parameterized.
 
 **Example**
 
 ```python
-from ansys.aedt.core import Maxwell3d
+from ansys.aedt.core import Hfss
 
-m3d = Maxwell3d()
-m3d.parametrics.add("Rload", 0.1, 1, 0.1)   # parametric sweep of a variable
+
+def run_patch(hfss: Hfss, frequency: str = "2.4GHz", max_passes: int = 6):
+    """Create a setup on the supplied HFSS design, solve it, and return the report."""
+    setup = hfss.create_setup(name="Setup1")
+    setup.props["Frequency"] = frequency
+    setup.props["MaximumPasses"] = max_passes
+    setup.update()
+    hfss.save_project()
+    hfss.analyze()
+    return hfss.post.create_report(["db(S11)"])
 ```
 
 **Complete when**
 
-Calling your function with two different input sets returns two different, correct results.
+The function runs with supplied arguments, solves the design, and returns a report, with the application passed in as a parameter rather than constructed from a global.
 
 **Keep**
 
-The parameterised function and a small table of inputs to outputs.
+The reusable function and an example call with its output.
 
-[Variables and Optimetrics](https://aedt.docs.pyansys.com/version/stable/User_guide/variables.html)
+[Setup](https://aedt.docs.pyansys.com/version/stable/User_guide/setup.html)
 
-### □ Run PyAEDT from the command line against a session
-
-**Activity**
-
-Start an AEDT session and run a Python script against it using the PyAEDT CLI. The script runs with an attached `desktop` object available. Add `--json` to any command for machine-readable output.
-
-**Example**
-
-```bash
-pyaedt session start --non-graphical --port 50051
-pyaedt run my_script.py --port 50051
-pyaedt session stop --port 50051
-```
-
-**Complete when**
-
-Your script runs to completion against the CLI-started session and produces the same result as your interactive run.
-
-**Keep**
-
-The batch script and the captured console output.
-
-[Command line interface](https://aedt.docs.pyansys.com/version/stable/Getting_started/cli.html)
-
-### □ Package a workflow as a PDF report
+### □ Guarantee deterministic cleanup with a context manager
 
 **Activity**
 
-Turn your results into a shareable artefact using the `AnsysReport` class, which builds a PDF with chapters, images, tables, and charts.
+The automation is wrapped in a `Desktop` context manager so that AEDT is released deterministically even when an error occurs. This keeps reruns clean and avoids orphaned processes.
 
 **Example**
 
 ```python
-from ansys.aedt.core.visualization.plot.pdf import AnsysReport
+from ansys.aedt.core import Desktop, Hfss
 
-report = AnsysReport()
-report.aedt_version = "2026.1"
-report.template_name = "AnsysTemplate"
-report.create()
-report.add_chapter("Results")
-report.add_text("Summary of the analysis.")
-report.save_pdf(r"c:\temp", "report_example.pdf")
+with Desktop(version="2026.1", non_graphical=True, new_desktop=True):
+    hfss = Hfss(designname="PatchRun")
+    report = run_patch(hfss, frequency="2.4GHz")
+    # Inspect results here.
+# AEDT is automatically closed here, even if run_patch raised.
 ```
 
 **Complete when**
 
-A PDF report is written to disk containing at least one result section.
+The automation runs inside the context manager and AEDT closes automatically on exit, with no orphaned process remaining.
 
 **Keep**
 
-The generated PDF and the script that produced it.
+The wrapped automation script.
 
-[Postprocessing and reporting](https://aedt.docs.pyansys.com/version/stable/User_guide/postprocessing.html)
+[Desktop sessions](https://aedt.docs.pyansys.com/version/stable/User_guide/desktop_sessions.html)
 
-**Stage outcome:** You can package your workflow as a parameterised, CLI-driven, report-generating tool.
-
----
-
-## 6. Apply it to your own use case
-
-> **Outcome:** You can reproduce one of your real AEDT designs from Python.
-
-### □ Reproduce an existing design you already trust
+### □ Make the run rerunnable and save a recovery point
 
 **Activity**
 
-Take a small design you have already run in the AEDT GUI, open its project from PyAEDT (or rebuild its key steps), run it, and extract a result you can compare against your known answer.
+The automation is made rerunnable by saving the project after expensive geometry or setup steps so that a rerun can resume from a recovery point. The project path is parameterized.
 
 **Example**
 
 ```python
-import ansys.aedt.core
-
-cir = ansys.aedt.core.Circuit(non_graphical=False)
-cir.save_project(my_path)
-# ... reproduce your design steps ...
-cir.release_desktop(close_projects=True, close_desktop=True)
+hfss.save_project()   # Recovery point after geometry and setup, before solving
 ```
 
 **Complete when**
 
-Your PyAEDT result matches your trusted GUI result within a tolerance you define. Substitute your own project for the example.
+The automation runs twice in succession without error and a saved project recovery point is produced.
 
 **Keep**
 
-The reproduction script and a comparison of the PyAEDT and GUI results.
+The rerunnable script and the saved recovery point.
 
 [Basic tutorial](https://aedt.docs.pyansys.com/version/stable/User_guide/intro.html)
 
-### □ Export your design configuration for review and reuse
+**Stage outcome:** A parameterized, cleanly released, rerunnable automation script is available.
+
+---
+
+## 6. Apply it to a personal use case
+
+> **Outcome:** The automation is retargeted to a learner-supplied design and requirement.
+
+### □ Define a personal analysis goal and inputs
 
 **Activity**
 
-Export the setup and sweep configuration of your design to JSON with the CLI (or a screenshot of the model), so the configuration is reviewable and portable between projects.
+A personal analysis goal is written down with its application, geometry, materials, setup, and the result quantity of interest. This turns the automation into a concrete electronics design task.
 
 **Example**
 
-```bash
-pyaedt export config --port 50051 --project MyProject --design MyDesign --output config.json
-pyaedt export screenshot --port 50051 --project MyProject --design MyDesign
-```
+Example required from the content owner, because the design and requirement are supplied by the learner. The goal statement lists the AEDT application, the geometry, the materials, the setup, and the target result.
 
 **Complete when**
 
-You have a JSON configuration file (and optionally a screenshot) for your own design.
+A written goal states the application, geometry, materials, setup, and the result quantity to be reported.
 
 **Keep**
 
-The exported configuration file and image.
+The goal statement and the input design reference.
 
-[Command line interface](https://aedt.docs.pyansys.com/version/stable/Getting_started/cli.html)
+[Basic tutorial](https://aedt.docs.pyansys.com/version/stable/User_guide/intro.html)
 
-**Stage outcome:** You can migrate a real, trusted AEDT design into a reproducible, exportable PyAEDT workflow.
+### □ Retarget the automation to the personal design
+
+**Activity**
+
+The stage 5 function is called with the personal inputs so that the automation runs against the learner's design. Only the parameter values change, not the automation structure.
+
+**Example**
+
+Example required from the content owner, because the design and parameter values are learner-specific. The stage 5 function is called with the personal frequency, dimensions, and design name.
+
+**Complete when**
+
+The automation runs against the personal design and produces the target result quantity.
+
+**Keep**
+
+The parameter set used and the produced result.
+
+[PyAEDT examples gallery](https://examples.aedt.docs.pyansys.com/)
+
+### □ Validate the personal result against expectation
+
+**Activity**
+
+The personal result is checked against a hand calculation, a known reference, or engineering judgement so that the automation is trusted. Any discrepancy is investigated and recorded.
+
+**Example**
+
+Example required from the content owner, because the reference value depends on the learner's design and setup.
+
+**Complete when**
+
+The personal result is compared against a reference and the comparison and any corrections are recorded.
+
+**Keep**
+
+The validation note comparing the computed result with the reference.
+
+[Postprocessing](https://aedt.docs.pyansys.com/version/stable/User_guide/postprocessing.html)
+
+**Stage outcome:** The automation is trusted for a real, learner-supplied electronics design task.
 
 ---
 
 ## 7. Use AI-assisted capabilities
 
-> **Outcome:** You can drive AEDT from an AI assistant through the PyAEDT-MCP server, following a connect-build-validate-analyze-verify loop, and confirm every AI-assisted result against AEDT.
+> **Outcome:** A tool built on PyAEDT is used to drive AEDT from an AI assistant, with every generated action validated before it is trusted.
 
-PyAEDT-MCP (`ansys-aedt-mcp`) is a Model Context Protocol server that lets an AI client, such as Claude Code, Visual Studio Code Copilot, Cursor, or Codex, drive AEDT through a focused set of tools backed by a persistent PyAEDT Python session. The AI assistant proposes actions and generates PyAEDT code, but AEDT executes it and you verify the result. Validate designs before solving, save often, and treat generated code as untrusted until it runs and AEDT confirms the outcome.
+PyAEDT-MCP is a Model Context Protocol (MCP) server that lets an AI client work with AEDT. It acts as a bridge between the AI client and AEDT, backed by a persistent PyAEDT Python session. The AI assistant suggests tool calls and generated PyAEDT code, and AEDT executes and verifies the underlying operations. These two roles are kept separate throughout this stage.
 
-### □ Install and connect the PyAEDT-MCP server to your AI assistant
-
-**Activity**
-
-Run the PyAEDT-MCP server and register it with your MCP-compatible client. PyAEDT-MCP requires Python 3.12 or later and AEDT 2022 R2 or later for gRPC workflows. You can run it with `uvx` without cloning the repository.
-
-**Example**
-
-```bash
-uvx --from git+https://github.com/ansys/pyaedt-mcp.git ansys-aedt-mcp
-```
-
-Register with Claude Code for one project:
-
-```bash
-claude mcp add --transport stdio pyaedt-mcp -- \
-  uvx --index-strategy unsafe-best-match \
-  --from git+https://github.com/ansys/pyaedt-mcp.git ansys-aedt-mcp
-```
-
-**Complete when**
-
-The server starts and your client lists the `pyaedt-mcp` server as available.
-
-**Keep**
-
-Your client configuration snippet and a note of which client you registered.
-
-[Installation](https://aedt-mcp.docs.pyansys.com/version/stable/getting_started/installation.html) · [IDE and client configuration](https://aedt-mcp.docs.pyansys.com/version/stable/getting_started/ide_configuration.html)
-
-### □ Run the first connect-and-inspect loop through the assistant
+### □ Set up the PyAEDT-MCP server and check the environment
 
 **Activity**
 
-Follow the documented first workflow: check installation, check connection status, then launch or connect to AEDT, and create a design. Always check status first so the assistant chooses between `launch_aedt` and `connect_to_aedt` correctly.
+PyAEDT-MCP is set up so that an MCP-compatible client can reach it, and its always-available tools are exercised first. The server uses STDIO by default, and the connection-independent tools work before any AEDT session exists.
 
 **Example**
 
-The documented HFSS patch antenna workflow shows the real tool calls and responses. The opening sequence is:
-
-```text
-check_aedt_installed  -> "AEDT is installed ... Version: 2026.1"
-launch_aedt           -> "Successfully launched AEDT ... gRPC Port: 59661"
-create_design         -> app_type="Hfss", design_name="PatchAntenna_Validation"
-                         "Successfully created Hfss design ... Solution Type: Terminal"
-```
-
-A natural-language prompt that triggers this, such as: *"Check whether AEDT is installed, launch it, and create an HFSS design called PatchAntenna."*
+The server is started, for example with `ansys-aedt-mcp`, and the environment is checked through the assistant with `check_aedt_installed` and `check_aedt_status`, which are available before any connection.
 
 **Complete when**
 
-The assistant reports an active AEDT session and a created design, confirmed by `check_aedt_status`.
+The server starts, an MCP-compatible client lists the tools, and `check_aedt_installed` reports the installed AEDT version without a live session.
 
 **Keep**
 
-The prompt and the tool responses showing the created design.
+The client configuration and the reported installation details.
 
-[Tools and capabilities](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/tools_and_capabilities.html) · [HFSS patch antenna workflow](https://aedt-mcp.docs.pyansys.com/version/stable/examples/hfss_patch_antenna_workflow.html)
+[PyAEDT-MCP installation](https://aedt-mcp.docs.pyansys.com/version/stable/getting_started/installation.html)
 
-### □ Build, validate, solve, and report through generated PyAEDT code
+### □ Launch or connect to AEDT through the assistant
 
 **Activity**
 
-Have the assistant generate PyAEDT code that it runs with `run_python_code` in the persistent session, then run `validate_design` before `analyze_design`, and finally create a report. Take screenshots after geometry and after the solve as visual checkpoints. When `--include-context` is enabled, ask for `get_guidelines_for` the relevant topic before generating code.
+An AEDT session is established through the assistant so that connection-dependent tools become available. Status is checked first to decide between launching and connecting.
 
 **Example**
 
-From the validated HFSS patch antenna workflow, the build-validate-solve sequence produces real, checkable responses:
+The typical first workflow is followed through the assistant:
 
-```text
-run_python_code   -> "Geometry and boundaries created. Objects: ['Substrate', 'Ground', 'Patch']"
-validate_design   -> "Design validation passed."
-run_python_code   -> "Solved: True, Time: 81s"
-run_python_code   -> "S11 Report created! Resonance: 2.8000 GHz, S11 = -5.22 dB"
-```
+1. Call `check_aedt_installed`.
+2. Call `check_aedt_status`.
+3. Use `launch_aedt` for a new session or `connect_to_aedt` for a running gRPC session.
+4. Create a design, for example asking the assistant to create an HFSS design.
+
+An existing gRPC session is started with `ansysedt.exe -grpcsrv 50051` and attached with `connect_to_aedt` on the matching port.
 
 **Complete when**
 
-`validate_design` passes, `analyze_design` (or an `analyze()` call) completes, and you obtain a report value read back from AEDT.
+A session is established and connection-dependent tools, such as `create_design`, `analyze_design`, and `run_python_code`, become available in the client.
 
 **Keep**
 
-The generated code, the validation and solve responses, and the report or screenshot artefacts.
+A record of which tool established the session and the resulting available tool set.
 
-[HFSS patch antenna workflow](https://aedt-mcp.docs.pyansys.com/version/stable/examples/hfss_patch_antenna_workflow.html) · [Workflows](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/workflows.html)
+[PyAEDT-MCP tools and capabilities](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/tools_and_capabilities.html)
 
-### □ Separate assistant-proposed actions from verified AEDT state
+### □ Drive a bounded workflow and validate every generated action
 
 **Activity**
 
-For one MCP-driven task, record which values the assistant proposed and which AEDT confirmed with a tool (`get_model_info`, `validate_design`, `screenshot`, or `export_results`). Check the text every tool returns for error messages before proceeding, and save the project before large generated code blocks so you can recover.
+A single bounded workflow is driven through the assistant, and every generated action is validated before it is trusted. The HFSS patch antenna workflow is a suitable bounded task. Design validation is run before solving, the project is saved before screenshots, and results are confirmed independently.
 
 **Example**
 
-Use `get_model_info` to confirm a design summary, and `screenshot` (after saving the project) as a visual checkpoint, rather than trusting the assistant's narrative.
+The documented HFSS patch antenna workflow is followed through the tools: `create_design` for the HFSS design, `run_python_code` for geometry, boundaries, setup, and sweep, `validate_design` before solving, `run_python_code` or `analyze_design` to solve, `screenshot` for a visual checkpoint, and `export_results` for a Touchstone file. `get_model_info` confirms the design summary, and `get_guidelines_for` with topic `hfss` is called before generating code when the server runs with `--include-context`.
 
 **Complete when**
 
-You can point to each proposed action and the AEDT tool output that confirmed or corrected it.
+The workflow completes, the design validates and solves, a result such as the S-parameter resonance is extracted, and every generated snippet was checked before execution with any corrections recorded.
 
 **Keep**
 
-An annotated log of proposed versus AEDT-confirmed values, including any correction after a failed step.
+The original request, the generated code, the validation result, the solved-design summary, and the exported result or screenshot.
 
-[Best practices](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/best_practices.html) · [Overview](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/overview.html)
+[HFSS patch antenna workflow](https://aedt-mcp.docs.pyansys.com/version/stable/examples/hfss_patch_antenna_workflow.html)
 
-**Stage outcome:** You can drive AEDT from an AI assistant through PyAEDT-MCP and verify every AI-assisted result against AEDT before trusting it.
+**Human verification is required.** Generated code, tool arguments, engineering assumptions, and numerical results are verified by the learner. Design validation is run before solving, `get_model_info` confirms the design state, and the project is saved before screenshots and larger generated blocks, because AI-generated code can destabilize a project. Tool-suggested actions are treated as drafts, and verified AEDT execution is treated as the source of truth.
+
+**Stage outcome:** An AI assistant can drive a bounded AEDT workflow through PyAEDT-MCP, with the learner validating every generated action.
 
 ---
 
 ## 8. Choose an advanced pathway
 
-> **Outcome:** You can select and begin one specialisation that matches your goals.
+> **Outcome:** An advanced specialization is selected and its first capability is demonstrated.
 
-### □ Pick and scope one advanced pathway
+### □ Optional pathway: transfer the skill to a second application
 
 **Activity**
 
-Choose one specialisation and complete its first official guide or example:
-
-- **Extensions and toolkits** using the Extension Manager to build or install automated AEDT workflows with a GUI.
-- **PyEDB layout automation** for complex, large layout designs in the Ansys Electronics Database format.
-- **Advanced postprocessing** with PyVista field plots, animations, and the `AnsysReport` PDF builder.
-- **Remote and client-server** execution to control AEDT on a remote machine from a client.
+The design-to-result skill is transferred to a second AEDT application so that the reuse across applications is realized. The same `Desktop` and setup patterns are applied to a different application class, such as `Maxwell3d`, `Icepak`, or `Circuit`.
 
 **Example**
 
-For extensions, register a custom extension from the PyAEDT Console:
-
 ```python
-from ansys.aedt.core.extensions.installer.pyaedt_installer import add_extension_manager
-add_extension_manager("YourPersonalLibPath")
+from ansys.aedt.core import Desktop, Maxwell3d
+
+with Desktop(version="2026.1", non_graphical=True, new_desktop=True):
+    m3d = Maxwell3d()
+    setup = m3d.create_setup("New_Setup")
+    setup.props["MaximumPasses"] = 10
+    setup.update()
 ```
 
 **Complete when**
 
-You complete the first guide or example for your chosen pathway and can describe its next step.
+A second application is instantiated and a setup is created and updated, demonstrating that the pattern transfers.
 
 **Keep**
 
-The pathway you chose and the first artefact you produced in it.
+The second-application script and the setup confirmation.
 
-[Extensions](https://aedt.docs.pyansys.com/version/stable/User_guide/extensions.html) · [PyEDB documentation](https://edb.docs.pyansys.com/version/stable/) · [Client-server](https://aedt.docs.pyansys.com/version/stable/Getting_started/ClientServer.html)
+[Setup](https://aedt.docs.pyansys.com/version/stable/User_guide/setup.html)
 
-**Stage outcome:** You have entered a chosen specialisation with a working first artefact and a clear next step.
+### □ Optional pathway: parameterize with design variables
+
+**Activity**
+
+Design variables are used so that a model is driven parametrically for sweeps and optimization. Variables are defined and referenced by name in geometry and setup.
+
+**Example**
+
+Example required from the content owner for a complete parametric sweep against a specific design. The variables guide describes defining variables and running optimizations.
+
+**Complete when**
+
+At least one design variable drives a geometry or setup value, and changing the variable changes the model.
+
+**Keep**
+
+The parametric script and a note of the variable that was driven.
+
+[Variables](https://aedt.docs.pyansys.com/version/stable/User_guide/variables.html)
+
+### □ Optional pathway: run PyAEDT in a client-server configuration
+
+**Activity**
+
+PyAEDT is run on a client machine to control AEDT on a remote server so that heavy solves run on dedicated hardware. The client-server guide describes the connection setup.
+
+**Example**
+
+Example required from the content owner for a specific remote server configuration. The client-server guide describes launching PyAEDT on a client and controlling AEDT on a remote server.
+
+**Complete when**
+
+A client-server session controls a remote AEDT instance and completes a bounded operation.
+
+**Keep**
+
+The client-server configuration and the run confirmation.
+
+[Client-Server](https://aedt.docs.pyansys.com/version/stable/Getting_started/ClientServer.html)
+
+**Stage outcome:** An advanced specialization is selected and its first capability is demonstrated.
 
 ---
+
+## Troubleshooting
+
+For troubleshooting and support:
+
+- **Documentation and resources:** The [Synopsys Developer Portal](https://developer.synopsys.com/) is the central entry point.
+- **Usage questions:** Questions about how to use the library are posted on the [Synopsys Developer Forum](https://developerforum.synopsys.com/).
+- **Development questions:** Questions about developing or contributing to the library are raised on the project's [GitHub repository](https://github.com/ansys/pyaedt).
+
+Common launch, licensing, and panel issues are also covered in the PyAEDT troubleshooting guide.
+
+[PyAEDT troubleshooting](https://aedt.docs.pyansys.com/version/stable/Getting_started/Troubleshooting.html)
 
 ## Reference shelf
 
 ### Essential documentation
 
-- [PyAEDT documentation home](https://aedt.docs.pyansys.com/)
-- [Getting started](https://aedt.docs.pyansys.com/version/stable/Getting_started/index.html)
-- [User guide](https://aedt.docs.pyansys.com/version/stable/User_guide/index.html)
+- [PyAEDT documentation](https://aedt.docs.pyansys.com/)
+- [PyAEDT getting started](https://aedt.docs.pyansys.com/version/stable/Getting_started/index.html)
+- [PyAEDT user guide](https://aedt.docs.pyansys.com/version/stable/User_guide/index.html)
 - [Desktop sessions](https://aedt.docs.pyansys.com/version/stable/User_guide/desktop_sessions.html)
-- [Command line interface](https://aedt.docs.pyansys.com/version/stable/Getting_started/cli.html)
-- [API reference](https://aedt.docs.pyansys.com/version/stable/API/index.html)
-- [PyAEDT API cheat sheet](https://cheatsheets.docs.pyansys.com/pyaedt_API_cheat_sheet.pdf)
+- [Setup](https://aedt.docs.pyansys.com/version/stable/User_guide/setup.html)
+- [Postprocessing](https://aedt.docs.pyansys.com/version/stable/User_guide/postprocessing.html)
+- [PyAEDT API reference](https://aedt.docs.pyansys.com/version/stable/API/index.html)
 
 ### Official examples
 
-- [PyAEDT examples](https://examples.aedt.docs.pyansys.com/)
-
-### Related PyAnsys libraries and toolkits
-
-- [PyEDB documentation](https://edb.docs.pyansys.com/version/stable/)
-- [PyAEDT Common Toolkit](https://aedt.common.toolkit.docs.pyansys.com/)
-- [Magnet Segmentation Toolkit](https://magnet.segmentation.toolkit.docs.pyansys.com/version/stable/index.html)
-
-### Optional training
-
-- [Ansys Electronics Desktop Automation with PyAEDT getting started (Ansys Learning Hub)](https://www.ansys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
-- [Introduction to PyAEDT](https://developer.synopsys.com/blog/introduction-pyaedt)
-- [Overview of PyAEDT: Drive innovation in virtual prototyping with PyAEDT](https://www.youtube.com/watch?v=yFUboNyJeGk)
-- [PyAEDT examples and use cases: Virtual compliance framework](https://www.youtube.com/watch?v=MnACOZ1Axd4)
+- [PyAEDT examples gallery](https://examples.aedt.docs.pyansys.com/)
 
 ### AI-related resources
 
 - [PyAEDT-MCP documentation](https://aedt-mcp.docs.pyansys.com/)
-- [PyAEDT-MCP overview](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/overview.html)
 - [PyAEDT-MCP tools and capabilities](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/tools_and_capabilities.html)
-- [PyAEDT-MCP IDE and client configuration](https://aedt-mcp.docs.pyansys.com/version/stable/getting_started/ide_configuration.html)
 - [PyAEDT-MCP best practices](https://aedt-mcp.docs.pyansys.com/version/stable/user_guide/best_practices.html)
-- [PyAEDT-MCP HFSS patch antenna workflow](https://aedt-mcp.docs.pyansys.com/version/stable/examples/hfss_patch_antenna_workflow.html)
-- [PyAEDT-MCP repository](https://github.com/ansys/pyaedt-mcp)
+- [HFSS patch antenna workflow](https://aedt-mcp.docs.pyansys.com/version/stable/examples/hfss_patch_antenna_workflow.html)
 
-### Help and troubleshooting
+### Related PyAnsys packages
 
-- [Troubleshooting](https://aedt.docs.pyansys.com/version/stable/Getting_started/Troubleshooting.html)
-- [Ansys developer forum for interface questions](https://discuss.ansys.com/)
-- [PyAEDT GitHub discussions for development questions](https://github.com/ansys/pyaedt/discussions)
+- [PyEDB documentation](https://edb.docs.pyansys.com/version/stable/)
+- [PyAEDT Common Toolkit documentation](https://aedt.common.toolkit.docs.pyansys.com/)
 
 ### Source and contribution
 
-- [PyAEDT repository](https://github.com/ansys/pyaedt)
-- [Issues](https://github.com/ansys/PyAEDT/issues)
-- [Contributing](https://aedt.docs.pyansys.com/version/stable/Getting_started/Contributing.html)
+- [PyAEDT GitHub repository](https://github.com/ansys/pyaedt)
+- [PyAEDT-MCP GitHub repository](https://github.com/ansys/pyaedt-mcp)
+- [PyAEDT discussions](https://github.com/ansys/pyaedt/discussions)
 
+## Sources
+
+- PyAEDT documentation (https://aedt.docs.pyansys.com/): index, getting started, installation, versioning, basic tutorial, desktop sessions, user guide index, setup, modeler, postprocessing, variables, and client-server.
+- PyAEDT-MCP documentation (https://aedt-mcp.docs.pyansys.com/): index, overview, installation, tools and capabilities, best practices, and the HFSS patch antenna workflow example.
+- Ansys Developer Product Guide, Electronics and Semiconductors section, AEDT developer tools.
 
