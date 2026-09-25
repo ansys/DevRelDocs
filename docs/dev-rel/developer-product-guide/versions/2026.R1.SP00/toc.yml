@@ -2,6 +2,8 @@
   href: index.md
 - name: Glossary
   href: glossary.md
+- name: PyAnsys Learning Roadmaps
+  href: PyAnsys_Learning_Roadmaps.md
 - name: 3D Design
   href: 3d_design.md
 - name: AI

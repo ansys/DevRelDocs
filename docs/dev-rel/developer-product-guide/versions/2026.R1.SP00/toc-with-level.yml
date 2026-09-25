@@ -1,5 +1,7 @@
 - name: Introduction
   href: index.md
+- name: PyAnsys Learning Roadmaps
+  href: PyAnsys_Learning_Roadmaps.md
 - name: Glossary
   href: glossary.md
 - name: Product collections

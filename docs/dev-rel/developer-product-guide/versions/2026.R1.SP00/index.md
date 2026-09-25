@@ -25,6 +25,14 @@ If you are interested in getting started with PyAnsys or any of Ansys' Python to
 * Access the docs, [Ansys Python Manager documentation](https://installer.docs.pyansys.com/).
 * Download the latest release, [Ansys Python Manager releases](https://github.com/ansys/python-installer-qt-gui/releases).
 
+## PyAnsys Learning Roadmaps
+
+If you are interested in getting started with PyAnsys libraries but don't know where to begin, there are several comprehensive learning roadmaps available, which have been designed to get you up to speed with the tools and make reusable workflows as quickly and painlessly as possible. 
+
+Check them out here.
+
+- [PyAnsys learning roadmaps](https://developer.synopsys.com/docs/ansys-developer-product-guide/learning_roadmaps.md)
+
 ## All Products
 
 * [AEDT](https://developer.synopsys.com/docs/ansys-developer-product-guide/electronics_and_semiconductors.md#aedt)
