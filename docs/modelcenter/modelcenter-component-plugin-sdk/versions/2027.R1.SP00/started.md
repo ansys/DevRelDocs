@@ -6,6 +6,14 @@ This guide walks you through setting up your development environment and creatin
 
 For terminology used in this guide, please refer to the [Glossary](glossary.md).
 
+## Licensing considerations
+
+Developing and running PACZ component plug-ins requires a valid **ModelCenter** license on the machine where you build, test, and deploy plug-ins. The SDK ZIP (`CAMPluginSDK`) is distributed with ModelCenter or through your organization's developer access channel.
+
+When you test a plug-in in ModelCenter or TestUI, the host application enforces ModelCenter licensing. Plug-ins that need to check out additional license features at runtime can use the [`ILicenseProvider`](apidocs/Phoenix.ComponentAPI.ILicenseProvider.md) interface exposed through the builder UI host.
+
+If your plug-in wraps a third-party tool, ensure that tool's licensing terms allow automated execution from ModelCenter workflows.
+
 ## Getting started in .NET
 
 ### Install the TestUI application

@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-21).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-22).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[91 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[94 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
@@ -2055,6 +2055,21 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Filter EPEL_EQV for Beams:
+  > 
+  >
+  > 
+
+- Avoid re-getting nodal solution:
+  > Fix performance issue for nodal results when a scopings container with multiple scopings is passed to the mesh scoping input
+  >
+  > 
+
+- Restore performance of large MSUP evaluations:
+  > 
+  >
+  > 
 
 - PRRSOL reading scientific format files:
   > 
