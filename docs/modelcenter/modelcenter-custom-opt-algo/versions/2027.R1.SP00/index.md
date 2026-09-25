@@ -19,3 +19,11 @@ This SDK is designed for:
 - **Languages:** Java and .NET (C#)
 - **Platform:** Windows
 - **Audience:** Developers with experience in object-oriented programming and optimization concepts
+
+## Licensing considerations
+
+Developing and running custom optimization algorithms requires a valid **ModelCenter** license on machines where algorithms are built, tested, and executed in workflows.
+
+If your algorithm uses FlexLM licensing for its own features, implement the [`LicenseFeature`](api/Namespaces/NamespaceList/Phoenix/Optimization/IAlgorithm.md#licensefeature) property on your algorithm class. Return an empty string when your algorithm does not require a separate license feature.
+
+When you test algorithms with the problem test suite or evaluate models through [`ModelCenterEvaluator`](api/Namespaces/NamespaceList/Phoenix/Optimization/AlgorithmTests/Evaluators/ModelCenterEvaluator.md), ModelCenter enforces its standard licensing.

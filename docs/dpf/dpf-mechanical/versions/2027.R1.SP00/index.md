@@ -2,7 +2,7 @@
 uid: index
 ---
 
-# DPF Mechanical 2027.R1.SP00 Documentation
+# Introduction
 
 Welcome to the DPF Mechanical 2027.R1.SP00 documentation for Ansys Mechanical.
 

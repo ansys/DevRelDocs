@@ -2,12 +2,10 @@
 
 ## 2027 R1
 
-No documentation changes for this release.
+Released 2026-09-23.
 
-## 2026 R1
+### Changed
 
-Released 2025-11-01.
-
-### Added
-
-- Initial publication of MOPSolver API on the Ansys Developer portal.
+- Regenerated API reference from the optiSLang Protos repository (upstream commit `9e15d6498a43ca341b1cf5a32517689ba971ffde`).
+- Added **Header files** subsection to `toc.yml` for Dev Portal sidebar browseability.
+- Normalized Mermaid diagrams in header reference pages.

@@ -2,6 +2,11 @@
 
 ## 2027 R1
 
+Released 2026-09-23.
+
+### Changed
+
+- Updated introduction for ModelCenter 2027 R1 and added licensing guidance in the getting started guide.
 - Initial 2027 R1 baseline copied from 2026.R1.SP03.
 
 ## 2026 R1
