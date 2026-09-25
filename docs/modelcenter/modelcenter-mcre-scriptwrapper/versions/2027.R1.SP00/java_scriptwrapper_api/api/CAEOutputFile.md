@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- [`OutputFile2`](OutputFile2.md), [`ParseableFile`](ParseableFile.md), `java.io.Closeable`, `java.lang.AutoCloseable`
+- [OutputFile2](OutputFile2.md), [ParseableFile](ParseableFile.md), java.io.Closeable, java.lang.AutoCloseable
 
 --- 
 ## Declaration
@@ -46,8 +46,8 @@ This represents a binary output file from a CAE program such as NASTRAN or LSDyn
 
 | Constructor and Description |
 |----------------------------|
-| `CAEOutputFile(`[`PHXScriptWrapperObject`](PHXScriptWrapperObject.md)` wrapper, java.io.File file)` |
-| `CAEOutputFile(`[`PHXScriptWrapperObject`](PHXScriptWrapperObject.md)` wrapper, java.io.File file, FileType type)` |
+| CAEOutputFile([PHXScriptWrapperObject](PHXScriptWrapperObject.md) wrapper, java.io.File file) |
+| CAEOutputFile([PHXScriptWrapperObject](PHXScriptWrapperObject.md) wrapper, java.io.File file, FileType type) |
 
 ## Method Summary
 
@@ -58,7 +58,7 @@ This represents a binary output file from a CAE program such as NASTRAN or LSDyn
 | `protected Parser` | `newParser(java.io.File rFile, Parser.Mode pmode)`<br>Generate a new parser for the given file and mode |
 | `void` | `parse()`<br>Parse the output file |
 | `void` | `setFileToParse(java.lang.String fileName)`<br>Set the file to parse |
-| `protected void` | `transferVars(`[`ParseableFile.Mode`](ParseableFile.Mode.md)` mode)`<br>Transfer values for variables that have been defined using methods from the concrete implementation |
+| protected void | transferVars([ParseableFile.Mode](ParseableFile.Mode.md) mode)<br>Transfer values for variables that have been defined using methods from the concrete implementation |
 
 ### Methods inherited from class AbstractFile
 

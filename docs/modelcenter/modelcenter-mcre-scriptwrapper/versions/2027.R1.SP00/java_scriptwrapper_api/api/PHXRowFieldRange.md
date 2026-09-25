@@ -51,7 +51,7 @@ implements IPHXRange
 |-------------------|---------------------|
 | `int` | `absoluteEndRow(IPHXLineStore lines, java.util.Vector bookmarks, java.util.Vector sections)` |
 | `int` | `absoluteStartRow(IPHXLineStore lines, java.util.Vector bookmarks, java.util.Vector sections)`<br>Returns the actual starting row number |
-| `void` | `assertEquals(`[`IPHXRange`](IPHXRange.md)` other)`<br>Test comparison function. |
+| void | assertEquals([IPHXRange](IPHXRange.md) other)<br>Test comparison function. |
 | `void` | `clearEndingMark()` |
 | `void` | `clearStartingMark()` |
 | `void` | `fromString(java.lang.String str)` |
