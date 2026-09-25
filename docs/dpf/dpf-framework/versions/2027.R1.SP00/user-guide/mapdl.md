@@ -1123,8 +1123,6 @@ Here is a list of the elements which are in Beta:
 - FLUID244
 - SURF251
 - SURF252
-- SOLID272
-- SOLID273
 - SOLID285
 - PIPE288
 - PIPE289
