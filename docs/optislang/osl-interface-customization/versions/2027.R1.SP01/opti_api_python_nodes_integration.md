@@ -188,6 +188,8 @@ The following types are essential for implementing the data exchange between opt
 
 The following tables describe the standardized data structures of important objects transferred to several of the plugin functions where they are received in a structure of arguments.
 
+<a id="table-7-common-incoming-key-word-arguments-kwargs"></a>
+
 **Table 7: Common Incoming Key Word Arguments (KWARGs)**
 
 | Name | Type | Description |
@@ -202,6 +204,8 @@ The following tables describe the standardized data structures of important obje
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file<br>***Deprecated.*** | String | ***Deprecated.***<br>Optional: Path to the reference file. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 
+<a id="table-8-additional-incoming-kwargs-for-the-execute-function"></a>
+
 **Table 8: Additional Incoming KWARGs for the Execute Function**
 
 | Name | Type | Description |
@@ -209,6 +213,8 @@ The following tables describe the standardized data structures of important obje
 | input_container | List of `HidSpecificInputDataIntegrations` | Aggregate of arguments per HID. |
 | registered_inputs | Dictionary | Dictionary of inputs that are registered in optiSLang. |
 | registered_outputs | Dictionary | Dictionary of outputs that are registered in optiSLang. |
+
+<a id="table-9-optislang-variables-that-do-not-vary-per-hid"></a>
 
 **Table 9: optiSLang Variables That Do Not Vary Per HID**
 
@@ -222,6 +228,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_RLS_FLG | String | A version suffix which is normally empty unless a specific build is set. |
 | OSL_PROJECT_DIR<br>***Deprecated.*** | String | ***Deprecated.***<br>Absolute path of the current project (`*.opd`). |
 
+<a id="table-10-optislang-variables-that-vary-per-hid-in-execute-function"></a>
+
 **Table 10: optiSLang Variables that Vary Per HID in Execute Function**
 
 | Name | Type | Description |
@@ -229,6 +237,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_DESIGN_NO | String | Design number. |
 | OSL_DESIGN_NAME | String | Design directory name (for example, Design_0001). |
 | OSL_DESIGN_DIR | String | Absolute path of the current design directory. |
+
+<a id="table-11-hidspecificinputdataintegrations-attributes"></a>
 
 **Table 11: HidSpecificInputDataIntegrations Attributes**
 
@@ -244,6 +254,8 @@ The following tables describe the standardized data structures of important obje
 | parameter_values | PyOsDesignPoint | Parameter values for a specific HID. |
 | reference_file<br>***Deprecated.*** | String | ***Deprecated.***<br>Optional: Path to the reference file. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 
+<a id="table-12-hidspecificoutputdataintegrations-attributes"></a>
+
 **Table 12: HidSpecificOutputDataIntegrations Attributes**
 
 | Name | Type | Description |
@@ -253,6 +265,8 @@ The following tables describe the standardized data structures of important obje
 | status | RunStatus | An object for documenting success and logging. |
 | responses | PyOsDesignPoint | The responses and their values. |
 | adapted_parameter_values | PyOsDesignPoint | Optional: The parameter values used by the solver.<br>Normally these are equal to `parameter_values` of `HidSpecificInputDataIntegrations` but if the solver requires adaptation (formatting, precision) of the parameters, the integration author can communicate theses parameters and their values to optiSLang. They are then shown in the design table. |
+
+<a id="table-13-contents-of-inputvaluedefinition"></a>
 
 **Table 13: Contents of InputValueDefinition**
 
@@ -267,6 +281,8 @@ The following tables describe the standardized data structures of important obje
 | random_variable_type | Enum |  |
 | mean | Float | Optional: Mean of the data. |
 | std_dev_ | Float | Optional: Spread of the data. |
+
+<a id="table-14-contents-of-outputvaluedefinition"></a>
 
 **Table 14: Contents of OutputValueDefinition**
 
