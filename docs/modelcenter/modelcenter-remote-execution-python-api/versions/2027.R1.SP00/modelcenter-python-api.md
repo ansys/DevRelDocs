@@ -9,7 +9,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -23,7 +23,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param downloadInputs`: Hint passed to the client on whether the inputs should be downloaded after the method is run.
     - `@type downloadInputs`: boolean
     - `@rtype`: void
-    ```
+    ```python
       methodName = checkIsInstance(methodName, str)
       fullName = checkIsInstance(fullName, str)
       downloadInputs = checkIsInstance(downloadInputs, bool)
@@ -44,7 +44,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param isInput`: If true, the variable will be an input, if false, it will be an output.
     - `@type isInput`: boolean
     - `@rtype`: PHXSimpleType
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       varType = checkIsInstance(varType, str)
       isInput = checkIsInstance(isInput, bool)
@@ -56,21 +56,21 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     
     Returns the directory where this component was loaded from.
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.wrapperGetDirectory()
     ```
 - `def getRunDirectory(self)`
     
     Returns the current "run" directory, which is the same as `getDirectory()` unless run sharing is being used.
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.wrapperGetRunDirectory()
     ```
 - `def getRunShare(self)`
     
     Returns the `PHXRunShareContext` object used for process control and monitoring with this component.
     - `@rtype`: `PHXRunShareContext`
-    ```
+    ```python
       return PHXRunShareContext()
     ```
 - `def getVariable(self, varName)`
@@ -79,7 +79,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param varName`: The full name of the variable to retrieve. May include group specification with '.'.
     - `@type varName`: string
     - `@rtype`: `PHXSimpleType`
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
 
       varName = str(varName)
@@ -114,7 +114,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param varName`: The full name of the variable to remove. May include group specification with '.'.
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       phxPython.wrapperRemoveVariable(varName)
     ```
@@ -124,17 +124,17 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param milliSeconds`: the amount of time to sleep (in milliseconds).
     - `@type milliSeconds`: long
     - `@rtype`: void
-    ```
+    ```python
       milliSeconds = checkIsInstance(milliSeconds, int)
       phxPython.wrapperSleep(milliSeconds)
     ```
 - `def __getVarType(self, varName)`
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       return phxPython.wrapperGetVarType(str(varName))
     ```
 - `def getDictionary(self)`
-    ```
+    ```python
       dictionary = {}
       key = ""
       value = ""
@@ -171,21 +171,21 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
 ```
 - `def __init__(self)`
     - `@rtype`: void
-    ```
+    ```python
       self.data = 0
     ```
 - `def cleanTempDir(self)`
     
     cleans up the temporary run directory if one has been created.
     - `@rtype`: void
-    ```
+    ```python
       phxPython.runShareCleanTempDir()
     ```
 - `def getBaseDirectory(self)`
     
     Gets the base dir which was passed in to the constructor.
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.runShareGetBaseDirectory()
     ```
 - `def getDirectory(self)`
@@ -194,14 +194,14 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
       This may be the base directory, or it may be a temp directory
       created underneath there to implement run sharing.
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.runShareGetDirectory()
     ```
 - `def halt(self)`
     
     halts any running process
     - `@rtype`: void
-    ```
+    ```python
       phxPython.runShareHalt()
     ```
 - `def lock(self)`
@@ -210,7 +210,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     
     Once in "locked" mode, calling `lock()` again has no effect.
     - `@rtype`: void
-    ```
+    ```python
       phxPython.runShareLock()
     ```
 - `def run(self, cmd, ignoreErrors=False, autoChangeDir=True, shell='sh')`
@@ -229,7 +229,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     - `@param shell`: On UNIX you can specify which shell to use to launch the program. By default "sh" is used.
     - `@type shell`: string
     - `@rtype`: void
-    ```
+    ```python
       cmd = checkIsInstance(cmd, str)
       ignoreErrors = checkIsInstance(ignoreErrors, bool)
       autoChangeDir = checkIsInstance(autoChangeDir, bool)
@@ -244,7 +244,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
       only deleted when no errors occur during the run.
     - `@type flag`: int
     - `@rtype`: void
-    ```
+    ```python
       flag = checkIsInstance(flag, int)
       phxPython.runShareSetAutoDelete(flag)
     ```
@@ -253,7 +253,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     Sets the files which need to be copied when runshare mode is `MODE_SHARE`.
     - `@type files`: string
     - `@rtype`: void
-    ```
+    ```python
       files = checkIsInstance(files, str)
       phxPython.runShareSetFilesToCopy(files)
     ```
@@ -262,7 +262,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     Sets the runshare mode.
     - `@type mode`: int
     - `@rtype`: void
-    ```
+    ```python
       mode = checkIsInstance(mode, int)
       phxPython.runShareSetMode(mode)
     ```
@@ -272,7 +272,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
     
     Calling `unlock()` when not in "locked" mode has no effect.
     - `@rtype`: void
-    ```
+    ```python
       phxPython.runShareUnlock()
     ```
 
@@ -321,7 +321,7 @@ READ_TEMPLATE = 6
         - `READ_TEMPLATE` - This mode makes the row field file read in values from the template file when `transferVar()` is called.
     - `@type mode`: int
     - `@rtype`: void
-    ```
+    ```python
       wrapper = checkIsInstance(wrapper, PHXScriptWrapperObject)
       mode = checkIsInstance(mode, int)
 
@@ -329,28 +329,28 @@ READ_TEMPLATE = 6
     ```
  - `def __del__(self)`
     - `@rtype`: void
-    ```
+    ```python
       phxPython.rffDelete(self.key)
     ```
  - `def clearMarks(self)`
     
     Removes effects of any previous `markAsBeginning()` or `markAsEnd()` calls
     - `@rtype`: void
-    ```
+    ```python
       phxPython.rffClearMarks(self.key)
     ```
  - `def close(self)`
     
     Closes the input file and frees up resources associated w/ this `RowFieldFile`.
     - `@rtype`: void
-    ```
+    ```python
       phxPython.rffClose(self.key)
     ```
  - `def generate(self)`
     
     If mode is `GENERATE`, this function actually writes the output file to disk.
     - `@rtype`: void
-    ```
+    ```python
       phxPython.rffGenerate(self.key)
     ```
  - `def markAsBeginning(self, find, occurrence=1, offset=0, regex=False)`
@@ -365,7 +365,7 @@ READ_TEMPLATE = 6
     - `@param regex`: If true, the find parameter is a regular expression. (default false)
     - `@type regex`: boolean
     - `@rtype`: void
-    ```
+    ```python
       find= checkIsInstance(find, str)
       occurrence = checkIsInstance(occurrence, int)
       offset = checkIsInstance(offset, int)
@@ -387,7 +387,7 @@ READ_TEMPLATE = 6
     - `@param regex`: If true, the find parameter is a regular expression. (default false)
     - `@type regex`: boolean
     - `@rtype`: void
-    ```
+    ```python
       find = checkIsInstance(find, str)
       occurrence = checkIsInstance(occurrence, int)
       offset = checkIsInstance(offset, int)
@@ -403,7 +403,7 @@ READ_TEMPLATE = 6
     - `@param field`: The field of the file to read from.
     - `@type field`: int
     - `@rtype`: double
-    ```
+    ```python
       row = checkIsInstance(row, int)
       field = checkIsInstance(field, int)
 
@@ -417,7 +417,7 @@ READ_TEMPLATE = 6
     - `@param field`: The field of the file to read from.
     - `@type field`: int
     - `@rtype`: long
-    ```
+    ```python
       row = checkIsInstance(row, int)
       field = checkIsInstance(field, int)
 
@@ -431,7 +431,7 @@ READ_TEMPLATE = 6
     - `@param field`: The field of the file to read from.
     - `@type field`: int
     - `@rtype`: string
-    ```
+    ```python
       row = checkIsInstance(row, int)
       field = checkIsInstance(field, int)
 
@@ -450,7 +450,7 @@ READ_TEMPLATE = 6
         - Any other string is taken as a list of character delimiters
     - `@type delimiters`: string
     - `@rtype`: void
-    ```
+    ```python
       delimiters = checkIsInstance(delimiters, str)
 
       phxPython.rffSetDelimiters(self.key, delimiters)
@@ -460,7 +460,7 @@ READ_TEMPLATE = 6
     Alias for `setFileToGenerateOrParse()`
     - `@type fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.rffSetFileToGenerateOrParse(self.key, fileName)
     ```
@@ -469,7 +469,7 @@ READ_TEMPLATE = 6
     Specified the file which will be generated or parsed depending on the mode.
     - `@type fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.rffSetFileToGenerateOrParse(self.key, fileName)
     ```
@@ -478,7 +478,7 @@ READ_TEMPLATE = 6
     Alias for `setFileToGenerateOrParse()`
     - `@type fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.rffSetFileToGenerateOrParse(self.key, fileName)
     ```
@@ -488,7 +488,7 @@ READ_TEMPLATE = 6
       it defaults to either the `fileToParse` or `fileToGenerate`.
     - `@type fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.rffSetTemplateFile(self.key, fileName)
     ```
@@ -512,7 +512,7 @@ READ_TEMPLATE = 6
     - `@param numDimensions`: The number of dimensions to read the array as. Must be 1 or 2.
     - `@type numDimensions`: int
     - `@rtype`: void
-    ```
+    ```python
       var = checkIsInstance(var, PHXSimpleArray)
       rowStart = checkIsInstance(rowStart, int)
       rowEnd = checkIsInstance(rowEnd, int)
@@ -541,7 +541,7 @@ READ_TEMPLATE = 6
     - `@param fformat`: The fortran style format string to apply. Pass null for standard formatting.
     - `@type fformat`: string
     - `@rtype`: void
-    ```
+    ```python
       var = checkIsInstance(var, PHXSimpleType)
       key = checkIsInstance(key, str)
       occurrence = checkIsInstance(occurrence, int)
@@ -564,7 +564,7 @@ READ_TEMPLATE = 6
     - `@param fformat`: The fortran style format string to apply. Pass `null` for standard formatting.
     - `@type fformat`: string
     - `@rtype`: void
-    ```
+    ```python
       var = checkIsInstance(var, PHXSimpleType)
       row = checkIsInstance(row, int)
       field = checkIsInstance(field, int)
@@ -582,7 +582,7 @@ READ_TEMPLATE = 6
     - `@param val`: The string to write
     - `@type val`: string
     - `@rtype`: void
-    ```
+    ```python
       row = checkIsInstance(row, int)
       field = checkIsInstance(field, int)
       val = checkIsInstance(val, str)
@@ -606,7 +606,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -614,7 +614,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     
     retrieves the units for the variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.simpleGetUnits(self.mcName)
     ```
 - `def setUnits(self, u)`
@@ -623,7 +623,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     - `@param u`: the units value
     - `@type u`: string
     - `@rtype`: void
-    ```
+    ```python
       u = checkIsInstance(u, str)
       phxPython.simpleSetUnits(self.mcName, u)
     ```
@@ -631,7 +631,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     
     retrieves the description of the variable
     - `@rtype`: a description geometry data
-    ```
+    ```python
       return phxPython.simpleGetDescription(self.mcName)
     ```
 - `def setDescription(self, d)`
@@ -640,7 +640,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     - `@param d`: the description
     - `@type d`: string
     - `@rtype`: void
-    ```
+    ```python
       d = checkIsInstance(d, str)
       phxPython.simpleSetDescription(self.mcName, d)
     ```
@@ -648,7 +648,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     
     retrieves the `hasChanged` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.simpleGetHasChanged(self.mcName)
     ```
 - `def setHasChanged(self, v)`
@@ -657,7 +657,7 @@ This class will fire a property change event when `hasChanged(true)` is called. 
     - `@param v`: whether the variable has changed
     - `@type v`: boolean
     - `@rtype`: void
-    ```
+    ```python
       v = checkIsInstance(v, bool)
       return phxPython.simpleSetHasChanged(self.mcName, v)
     ```
@@ -674,7 +674,7 @@ Typically you don't use this class directly but one of its sub-classes that are 
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -682,26 +682,26 @@ Typically you don't use this class directly but one of its sub-classes that are 
     
     Returns the string form of this array. Puts each element in quotes, even if it is a number and backslashes any quote or backslash characters (" and \\).
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.arrayToString(self.mcName)
     ```
  - `def fromString(self, value)`
     
     reads in the entire array in string form.  An example 2D array specification would be::
-    ```
+    ```python
          bounds[3,2] { 1,2,3,4,5,6 }
     ```
     - `@param value`: the value of the array
     - `@type value`: string
     - `@rtype`: void
-    ```
+    ```python
       phxPython.arrayFromString(self.mcName, value)
     ```
  - `def getDimensions(self)`
     
     gets the dimensions of the array
     - `@rtype`: int[]
-    ```
+    ```python
       dims = phxPython.arrayGetDimensions(self.mcName).split(', ')
       try:
          for i in range(len(dims))`
@@ -716,14 +716,14 @@ Typically you don't use this class directly but one of its sub-classes that are 
     - `@param dim`: the new dimensions for the array
     - `@type dim`: int[]
     - `@rtype`: void
-    ```
+    ```python
       phxPython.arraySetDimensions(self.mcName, indexListToCSV(dim))
     ```
  - `def getNumDimensions(self)`
     
     Gets the number of dimensions of the array
     - `@rtype`: int
-    ```
+    ```python
       return phxPython.arrayGetNumDimensions(self.mcName)
     ```
  - `def resize(self, newSize)`
@@ -732,14 +732,14 @@ Typically you don't use this class directly but one of its sub-classes that are 
     - `@param newSize`: the new dimensions for the array
     - `@type newSize`: int[]
     - `@rtype`: void
-    ```
+    ```python
       self.setDimensions(newSize)
     ```
  - `def getLockResize(self)`
     
     Determine whether the array can current be resized or not.
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.arrayGetLockResize(self.mcName)
     ```
  - `def setLockResize(self, lockResize)`
@@ -747,7 +747,7 @@ Typically you don't use this class directly but one of its sub-classes that are 
     Tells this array that it cannot be resized. Implies `lockDimensions`.
     - `@type lockResize`: boolean
     - `@rtype`: void
-    ```
+    ```python
       lockResize = checkIsInstance(lockResize, bool)
       phxPython.arraySetLockResize(self.mcName, lockResize)
     ```
@@ -757,7 +757,7 @@ Typically you don't use this class directly but one of its sub-classes that are 
     - `@param dim`: the dimension of interest (default is 0)
     - `@type dim`: int
     - `@rtype`: int
-    ```
+    ```python
       dim = checkIsInstance(dim, int)
       return phxPython.arrayGetLength(self.mcName, dim)
     ```
@@ -769,7 +769,7 @@ Typically you don't use this class directly but one of its sub-classes that are 
     - `@param dim`: the dimension of interest (default is 0)
     - `@type dim`: int
     - `@rtype`: void
-    ```
+    ```python
       length = checkIsInstance(length, int)
       dim = checkIsInstance(dim, int)
       phxPython.arraySetLength(self.mcName, length, dim)
@@ -778,7 +778,7 @@ Typically you don't use this class directly but one of its sub-classes that are 
     
     Tells this array that the number of dimensions cannot be changed from what they are right now.
     - `@rtype`: void
-    ```
+    ```python
       phxPython.arrayLockDimensions(self.mcName)
     ```
 
@@ -797,7 +797,7 @@ The ModelCenter type for booleans. This class adds the following features to the
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -807,7 +807,7 @@ The ModelCenter type for booleans. This class adds the following features to the
     - `@param value`: the value to convert
     - `@type value`: string
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, str)
 
       boolVal = bool(value)
@@ -817,14 +817,14 @@ The ModelCenter type for booleans. This class adds the following features to the
     
     retrieves the current value of the variable
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.boolGetValue(self.mcName)
     ```
  - `def getValueStr(self)`
     
     retrieves the current value of the variable (in string form)
     - `@rtype`: string
-    ```
+    ```python
       return fromString()
     ```
  - `def setValue(self, value)`
@@ -833,7 +833,7 @@ The ModelCenter type for booleans. This class adds the following features to the
     - `@param value`: the value
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.boolSetValue(self.mcName, value)
     ```
@@ -841,7 +841,7 @@ The ModelCenter type for booleans. This class adds the following features to the
     
     converts the variable to a string
     - `@rtype`: string
-    ```
+    ```python
       return str(bool(phxPython.boolToString(self.mcName)))
     ```
 
@@ -856,7 +856,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -870,7 +870,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param arg2`: The new value.
     - `@type arg2`: string
     - `@rtype`: void
-    ```
+    ```python
       index = arg1
       value = arg2
       if isinstance(arg2, str)`
@@ -886,7 +886,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param index`: The array index
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.boolArrayGetValue(self.mcName, indexListToCSV(index))
     ```
  - `def getBooleanValue(self, index)`
@@ -895,7 +895,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param index`: The array index
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: boolean
-    ```
+    ```python
       index = checkIsInstance(index, (int, list, str))
       return self.getValue(index)
     ```
@@ -905,7 +905,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param index`: The array index
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: string
-    ```
+    ```python
       index = checkIsInstance(index, (int, list, str))
       return phxPython.boolArrayGetValueStr(self.mcName, index)
     ```
@@ -917,7 +917,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param value`: value to set
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.boolArraySetValue(self.mcName, indexListToCSV(index), value)
     ```
@@ -927,7 +927,7 @@ Class wraps an array of `PHXBoolean` variables for the ScriptWrapper utility.
     - `@param index`: The array index
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: string
-    ```
+    ```python
       retDict = {
           "'"`: "",
           "t"`: "T",
@@ -960,7 +960,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -968,7 +968,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current value of the variable
     - `@rtype`: double
-    ```
+    ```python
       return phxPython.dblGetValue(self.mcName)
     ```
  - `def setValue(self, val)`
@@ -977,7 +977,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param val`: the value
     - `@type val`: double
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, float)
       phxPython.dblSetValue(self.mcName, val)
     ```
@@ -985,7 +985,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     converts the variable to a string
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.dblToString(self.mcName)
     ```
  - `def fromString(self, val)`
@@ -994,7 +994,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param val`: the value to convert
     - `@type val`: string
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, str)
       phxPython.dblFromString(self.mcName, val)
     ```
@@ -1002,7 +1002,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     Gets the enumeration aliases list
     - `@rtype`: string[]
-    ```
+    ```python
       enumAliases = phxPython.dblGetEnumAliases(self.mcName).strip()
       if enumAliases != '':
          return enumAliases.split(', ')
@@ -1015,7 +1015,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param aliases`: An array of strings
     - `@type aliases`: string (as a comma-separated list) or string[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -1028,7 +1028,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     Gets the enumeration values list
     - `@rtype`: double[]
-    ```
+    ```python
       enumList = phxPython.dblGetEnumValues(self.mcName).strip()
       if enumList != '':
          enumList = enumList.split(', ')
@@ -1045,7 +1045,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param values`: Either a comma-separated list of values or an array of values
     - `@type values`: string (as a comma-separated list) or double[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -1066,7 +1066,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the format of the variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.dblGetFormat(self.mcName)
     ```
  - `def setFormat(self, format)`
@@ -1075,7 +1075,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param format`: the new format
     - `@type format`: string
     - `@rtype`: void
-    ```
+    ```python
       format = checkIsInstance(format, str)
       phxPython.dblSetFormat(self.mcName, format)
     ```
@@ -1083,7 +1083,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the `hasLowerBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.dblGetHasLowerBound(self.mcName)
     ```
  - `def setHasLowerBound(self, value)`
@@ -1091,7 +1091,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     sets the lower bound. The `hasLowerBound` value is set to `true`
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.dblSetHasLowerBound(self.mcName, value)
     ```
@@ -1099,7 +1099,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the `hasUpperBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.dblGetHasUpperBound(self.mcName)
     ```
  - `def setHasUpperBound(self, value)`
@@ -1107,7 +1107,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     sets the `hasUpperBound` flag
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.dblSetHasUpperBound(self.mcName, value)
     ```
@@ -1115,7 +1115,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current lower bound value
     - `@rtype`: double
-    ```
+    ```python
       return phxPython.dblGetLowerBound(self.mcName)
     ```
  - `def setLowerBound(self, value)`
@@ -1124,7 +1124,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param value`: the lower bound
     - `@type value`: double
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, float)
       phxPython.dblSetLowerBound(self.mcName, value)
     ```
@@ -1132,7 +1132,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current upper bound value
     - `@rtype`: double
-    ```
+    ```python
       return phxPython.dblGetUpperBound(self.mcName)
     ```
  - `def setUpperBound(self, value)`
@@ -1141,7 +1141,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param value`: the upper bound
     - `@type value`: double
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, float)
       phxPython.dblSetUpperBound(self.mcName, value)
     ```
@@ -1149,7 +1149,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current value of the variable (in string form)
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.dblToString(self.mcName)
     ```
 
@@ -1163,7 +1163,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -1176,7 +1176,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param arg2`: The new value.
     - `@type arg2`: string
     - `@rtype`: void
-    ```
+    ```python
       index = arg1
       value = arg2
       if isinstance(arg2, str)`
@@ -1187,7 +1187,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
       phxPython.dblArrayFromString(self.mcName, index, value)
     ```
  - `def toString(self, index="-1")`
-    ```
+    ```python
       retDict = {
           "'"`: "",
           "\""`: "",
@@ -1200,7 +1200,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param index`: The array index
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: double
-    ```
+    ```python
       return phxPython.dblArrayGetValue(self.mcName, indexListToCSV(index))
     ```
  - `def setValue(self, index, val)`
@@ -1211,7 +1211,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param val`: value to set
     - `@type val`: double
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, float)
       phxPython.dblArraySetValue(self.mcName, indexListToCSV(index), val)
     ```
@@ -1221,14 +1221,14 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param index`: The array index
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: double
-    ```
+    ```python
       return self.getValue(index)
     ```
  - `def getEnumAliases(self)`
     
     Gets the enumeration aliases list
     - `@rtype`: string[]
-    ```
+    ```python
       enumAliases = phxPython.dblArrayGetEnumAliases(self.mcName).strip()
       if enumAliases != '':
          return enumAliases.split(', ')
@@ -1241,7 +1241,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param aliases`: An array of strings
     - `@type aliases`: string (as a comma-separated list) or string[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -1254,7 +1254,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     
     Gets the enumeration values list
     - `@rtype`: double[]
-    ```
+    ```python
       enumList = phxPython.dblArrayGetEnumValues(self.mcName).strip()
       if enumList != '':
          enumList = enumList.split(', ')
@@ -1271,7 +1271,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param values`: Either a comma-separated list of values or an array of values
     - `@type values`: string (as a comma-separated list) or double[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -1293,7 +1293,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     
     retrieves the format of the variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.dblArrayGetFormat(self.mcName)
     ```
  - `def setFormat(self, format)`
@@ -1302,7 +1302,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param format`: the new format
     - `@type format`: string
     - `@rtype`: void
-    ```
+    ```python
       format = checkIsInstance(format, str)
       phxPython.dblArraySetFormat(self.mcName, format)
     ```
@@ -1310,7 +1310,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     
     retrieves the `hasLowerBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.dblArrayGetHasLowerBound(self.mcName)
     ```
  - `def setHasLowerBound(self, value)`
@@ -1318,7 +1318,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     sets the lower bound. The `hasLowerBound` value is set to `true`
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.dblArraySetHasLowerBound(self.mcName, value)
     ```
@@ -1326,7 +1326,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     
     retrieves the `hasUpperBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.dblArrayGetHasUpperBound(self.mcName)
     ```
  - `def setHasUpperBound(self, value)`
@@ -1334,7 +1334,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     sets the `hasUpperBound` flag
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.dblArraySetHasUpperBound(self.mcName, value)
     ```
@@ -1342,7 +1342,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     
     retrieves the current lower bound value
     - `@rtype`: double
-    ```
+    ```python
       return phxPython.dblArrayGetLowerBound(self.mcName)
     ```
  - `def setLowerBound(self, value)`
@@ -1351,14 +1351,14 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param value`: the lower bound
     - `@type value`: double
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, float)
       phxPython.dblArraySetLowerBound(self.mcName, value)
     ```
  - `def getUpperBound(self)`
     retrieves the current upper bound value
     - `@rtype`: double
-    ```
+    ```python
       return phxPython.dblArrayGetUpperBound(self.mcName)
     ```
  - `def setUpperBound(self, value)`
@@ -1367,7 +1367,7 @@ Class wraps an array of `PHXDouble` variables for the ScriptWrapper utility.
     - `@param value`: the upper bound
     - `@type value`: double
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, float)
       phxPython.dblArraySetUpperBound(self.mcName, value)
     ```
@@ -1385,7 +1385,7 @@ The ModelCenter type for Files.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -1397,7 +1397,7 @@ The ModelCenter type for Files.
     - `@param fileName`: the name of the file to read from (default is blank string)
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.fileFromFile(self.mcName, fileName)
     ```
@@ -1407,7 +1407,7 @@ The ModelCenter type for Files.
     - `@param value`: the value to convert
     - `@type value`: string
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, str)
       phxPython.fileFromString(self.mcName, value)
     ```
@@ -1415,56 +1415,56 @@ The ModelCenter type for Files.
     
     gets the base name of the file
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileGetBaseName(self.mcName)
     ```
  - `def getContents(self)`
     
     retrieves the contents of the file
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileGetContents(self.mcName)
     ```
  - `def getFileExtension(self)`
     
     Returns the extension of the file that this object represents
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileGetFileExtension(self.mcName)
     ```
  - `def getIsBinary(self)`
     
     Tells whether or not the the file is binary. Simply switches on whether or not the mime type starts with text.
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.fileGetIsBinary(self.mcName)
     ```
  - `def getMimeType(self)`
     
     retrieves the mime type associated with the file variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileGetMimeType(self.mcName)
     ```
  - `def getName(self)`
     
     retrieves the name of the file
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileGetName(self.mcName)
     ```
  - `def getNameCoded(self)`
     
     retrieves the name of the file in coded form (without `$variables` replaced)
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileGetNameCoded(self.mcName)
     ```
  - `def hasChanged(self)`
     
     checks to see if the file has changed since the last time `getContents()` was called
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.fileHasChanged(self.mcName)
     ```
  - `def markAsRead(self)`
@@ -1472,7 +1472,7 @@ The ModelCenter type for Files.
     call this function after you manually get the contents of the file. The function
       records its name and timestamp for use with the `hasChanged()` function
     - `@rtype`: void
-    ```
+    ```python
       phxPython.fileMarkAsRead(self.mcName)
     ```
  - `def readFile(self, fileName="")`
@@ -1483,7 +1483,7 @@ The ModelCenter type for Files.
     - `@param fileName`: the name of the file
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       self.fromFile(fileName)
     ```
@@ -1493,7 +1493,7 @@ The ModelCenter type for Files.
     - `@param name`: the name
     - `@type name`: string
     - `@rtype`: void
-    ```
+    ```python
       name = checkIsInstance(name, str)
       phxPython.fileSetBaseName(self.mcName, name)
     ```
@@ -1504,7 +1504,7 @@ The ModelCenter type for Files.
     - `@param contents`: the contents of the file
     - `@type contents`: string
     - `@rtype`: void
-    ```
+    ```python
       contents = checkIsInstance(contents, str)
       phxPython.fileSetContents(self.mcName, contents)
     ```
@@ -1519,7 +1519,7 @@ The ModelCenter type for Files.
     - `@param extension`: the new file extension for the file
     - `@type extension`: string
     - `@rtype`: void
-    ```
+    ```python
       extension = checkIsInstance(extension, str)
       phxPython.fileSetFileExtension(self.mcName, extension)
     ```
@@ -1529,7 +1529,7 @@ The ModelCenter type for Files.
       mime type to `text/plain` or `application/octet-stream` as appropriate.
     - `@type flag`: boolean
     - `@rtype`: void
-    ```
+    ```python
       flag = checkIsInstance(flag, bool)
       phxPython.fileSetIsBinary(self.mcName, bool(flag))
     ```
@@ -1539,7 +1539,7 @@ The ModelCenter type for Files.
     - `@param mimeType`: the mime type
     - `@type mimeType`: string
     - `@rtype`: void
-    ```
+    ```python
       mimeType = checkIsInstance(mimeType, str)
       phxPython.fileSetMimeType(self.mcName, mimeType)
     ```
@@ -1549,7 +1549,7 @@ The ModelCenter type for Files.
     - `@param name`: the name
     - `@type name`: string
     - `@rtype`: void
-    ```
+    ```python
       name = checkIsInstance(name, str)
       phxPython.fileSetName(self.mcName, name)
     ```
@@ -1562,7 +1562,7 @@ The ModelCenter type for Files.
     - `@param fileName`: the name of the file to read from (default is blank string)
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.fileToFile(self.mcName, fileName)
     ```
@@ -1570,7 +1570,7 @@ The ModelCenter type for Files.
     
     converts the variable to a string
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileToString(self.mcName)
     ```
  - `def writeFile(self, fileName="")`
@@ -1582,7 +1582,7 @@ The ModelCenter type for Files.
     - `@param fileName`: the name of the file to read from (default is blank string)
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       self.toFile(fileName)
     ```
@@ -1599,7 +1599,7 @@ The ModelCenter type for File Array.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -1613,7 +1613,7 @@ The ModelCenter type for File Array.
     - `@param fileName`: the name of the file to read from (default is blank string)
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.fileArrayFromFile(self.mcName, indexListToCSV(index), fileName)
     ```
@@ -1625,7 +1625,7 @@ The ModelCenter type for File Array.
     - `@param value`: the value to convert
     - `@type value`: string
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, str)
       phxPython.fileArrayFromString(self.mcName, indexListToCSV(index), value)
     ```
@@ -1633,7 +1633,7 @@ The ModelCenter type for File Array.
     
     gets the base name of the file
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileArrayGetBaseName(self.mcName)
     ```
  - `def getContents(self, index)`
@@ -1642,7 +1642,7 @@ The ModelCenter type for File Array.
     - `@rtype`: string
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
-    ```
+    ```python
       return phxPython.fileArrayGetContents(self.mcName, indexListToCSV(index))
     ```
  - `def getFileExtension(self, index)`
@@ -1651,7 +1651,7 @@ The ModelCenter type for File Array.
     - `@rtype`: string
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
-    ```
+    ```python
       return phxPython.fileArrayGetFileExtension(self.mcName, indexListToCSV(index))
     ```
  - `def getIsBinary(self)`
@@ -1659,14 +1659,14 @@ The ModelCenter type for File Array.
     Tells whether or not the the file array contains binary files. Simply switches on whether
       or not the mime type starts with text.
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.fileArrayGetIsBinary(self.mcName)
     ```
  - `def getMimeType(self)`
     
     retrieves the mime type associated with the file array
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.fileArrayGetMimeType(self.mcName)
     ```
  - `def getName(self, index)`
@@ -1675,7 +1675,7 @@ The ModelCenter type for File Array.
     - `@rtype`: string
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
-    ```
+    ```python
       return phxPython.fileArrayGetName(self.mcName, indexListToCSV(index))
     ```
  - `def getNameCoded(self, index)`
@@ -1684,7 +1684,7 @@ The ModelCenter type for File Array.
     - `@rtype`: string
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
-    ```
+    ```python
       return phxPython.fileArrayGetNameCoded(self.mcName, indexListToCSV(index))
     ```
  - `def hasChanged(self, index)`
@@ -1693,7 +1693,7 @@ The ModelCenter type for File Array.
     - `@rtype`: boolean
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
-    ```
+    ```python
       return phxPython.fileArrayHasChanged(self.mcName, indexListToCSV(index))
     ```
  - `def markAsRead(self, index)`
@@ -1703,7 +1703,7 @@ The ModelCenter type for File Array.
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: void
-    ```
+    ```python
       phxPython.fileArrayMarkAsRead(self.mcName, indexListToCSV(index))
     ```
  - `def readFile(self, index, fileName="")`
@@ -1716,7 +1716,7 @@ The ModelCenter type for File Array.
     - `@param fileName`: the name of the file
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       self.fromFile(indexListToCSV(index), fileName)
     ```
@@ -1726,7 +1726,7 @@ The ModelCenter type for File Array.
     - `@param name`: the name
     - `@type name`: string
     - `@rtype`: void
-    ```
+    ```python
       name = checkIsInstance(name, str)
       phxPython.fileArraySetBaseName(self.mcName, name)
     ```
@@ -1739,7 +1739,7 @@ The ModelCenter type for File Array.
     - `@param contents`: the contents of the file
     - `@type contents`: string
     - `@rtype`: void
-    ```
+    ```python
       contents = checkIsInstance(contents, str)
       phxPython.fileArraySetContents(
           self.mcName, indexListToCSV(index), contents)
@@ -1757,7 +1757,7 @@ The ModelCenter type for File Array.
     - `@param extension`: the new file extension for the file
     - `@type extension`: string
     - `@rtype`: void
-    ```
+    ```python
       extension = checkIsInstance(extension, str)
       phxPython.fileArraySetFileExtension(
           self.mcName, indexListToCSV(index), extension)
@@ -1768,7 +1768,7 @@ The ModelCenter type for File Array.
       mime type to `text/plain` or `application/octet-stream` as appropriate.
     - `@type flag`: boolean
     - `@rtype`: void
-    ```
+    ```python
       flag = checkIsInstance(flag, bool)
       phxPython.fileArraySetIsBinary(self.mcName, bool(flag))
     ```
@@ -1778,7 +1778,7 @@ The ModelCenter type for File Array.
     - `@param mimeType`: the mime type
     - `@type mimeType`: string
     - `@rtype`: void
-    ```
+    ```python
       mimeType = checkIsInstance(mimeType, str)
       phxPython.fileArraySetMimeType(self.mcName, mimeType)
     ```
@@ -1790,7 +1790,7 @@ The ModelCenter type for File Array.
     - `@param name`: the name
     - `@type name`: string
     - `@rtype`: void
-    ```
+    ```python
       name = checkIsInstance(name, str)
       phxPython.fileArraySetName(self.mcName, indexListToCSV(index), name)
     ```
@@ -1805,7 +1805,7 @@ The ModelCenter type for File Array.
     - `@param fileName`: the name of the file to read from (default is blank string)
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       phxPython.fileArrayToFile(self.mcName, indexListToCSV(index), fileName)
     ```
@@ -1815,7 +1815,7 @@ The ModelCenter type for File Array.
     - `@rtype`: string
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
-    ```
+    ```python
       return phxPython.fileArrayToString(self.mcName, indexListToCSV(index))
     ```
  - `def writeFile(self, index, fileName="")`
@@ -1829,7 +1829,7 @@ The ModelCenter type for File Array.
     - `@param fileName`: the name of the file to read from (default is blank string)
     - `@rtype`: fileName`: string
     - `@rtype`: void
-    ```
+    ```python
       fileName = checkIsInstance(fileName, str)
       self.toFile(indexListToCSV(index), fileName)
     ```
@@ -1855,7 +1855,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -1863,7 +1863,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current value of the variable
     - `@rtype`: long
-    ```
+    ```python
       return phxPython.longGetValue(self.mcName)
     ```
  - `def setValue(self, val)`
@@ -1872,7 +1872,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param val`: the value
     - `@type val`: long
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, int)
       phxPython.longSetValue(self.mcName, int(val))
     ```
@@ -1880,7 +1880,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     converts the variable to a string
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.longToString(self.mcName)
     ```
  - `def fromString(self, val)`
@@ -1889,7 +1889,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param val`: the value to convert
     - `@type val`: string
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, str)
       phxPython.longFromString(self.mcName, val)
     ```
@@ -1897,7 +1897,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     Gets the enumeration aliases list
     - `@rtype`: string[]
-    ```
+    ```python
       enumAliases = phxPython.longGetEnumAliases(self.mcName).strip()
       if enumAliases != '':
          return enumAliases.split(', ')
@@ -1910,7 +1910,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param aliases`: An array of strings
     - `@type aliases`: string (as a comma-separated list) or string[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -1923,7 +1923,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     Gets the enumeration values list
     - `@rtype`: long[]
-    ```
+    ```python
       enumList = phxPython.longGetEnumValues(self.mcName).strip()
       if enumList != '':
          enumList = phxPython.longGetEnumValues(self.mcName).split(', ')
@@ -1940,7 +1940,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param values`: Either a comma-separated list of values or an array of values
     - `@type values`: string (as a comma-separated list) or long[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -1961,7 +1961,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the format of the variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.longGetFormat(self.mcName)
     ```
  - `def setFormat(self, format)`
@@ -1970,7 +1970,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param format`: the new format
     - `@type format`: string
     - `@rtype`: void
-    ```
+    ```python
       format = checkIsInstance(format, str)
       phxPython.longSetFormat(self.mcName, format)
     ```
@@ -1978,7 +1978,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the `hasLowerBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.longGetHasLowerBound(self.mcName)
     ```
  - `def setHasLowerBound(self, value)`
@@ -1986,7 +1986,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     sets the `hasLowerBound` flag
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.longSetHasLowerBound(self.mcName, value)
     ```
@@ -1994,7 +1994,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the `hasUpperBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.longGetHasUpperBound(self.mcName)
     ```
  - `def setHasUpperBound(self, value)`
@@ -2002,7 +2002,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     sets the `hasUpperBound` flag
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.longSetHasUpperBound(self.mcName, value)
     ```
@@ -2010,7 +2010,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current lower bound value
     - `@rtype`: long
-    ```
+    ```python
       return phxPython.longGetLowerBound(self.mcName)
     ```
  - `def setLowerBound(self, value)`
@@ -2019,7 +2019,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param value`: the lower bound
     - `@type value`: long
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, int)
       phxPython.longSetLowerBound(self.mcName, value)
     ```
@@ -2027,7 +2027,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current upper bound
     - `@rtype`: long
-    ```
+    ```python
       return phxPython.longGetUpperBound(self.mcName)
     ```
  - `def setUpperBound(self, value)`
@@ -2036,7 +2036,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     - `@param value`: the upper bound
     - `@type value`: long
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, int)
       phxPython.longSetUpperBound(self.mcName, value)
     ```
@@ -2044,7 +2044,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
     
     retrieves the current value of the variable (in string form)
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.longToString(self.mcName)
     ```
 
@@ -2058,7 +2058,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -2071,7 +2071,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param arg2`: The new value.
     - `@type arg2`: string
     - `@rtype`: void
-    ```
+    ```python
       index = arg1
       value = arg2
       if isinstance(arg2, str)`
@@ -2082,7 +2082,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
       phxPython.longArrayFromString(self.mcName, index, value)
     ```
  - `def toString(self, index="-1")`
-    ```
+    ```python
       retDict = {
           "'"`: "",
           "\""`: "",
@@ -2095,7 +2095,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: long
-    ```
+    ```python
       return phxPython.longArrayGetValue(self.mcName, indexListToCSV(index))
     ```
  - `def setValue(self, index, val)`
@@ -2106,7 +2106,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param val`: value to set
     - `@type val`: long
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, int)
       phxPython.longArraySetValue(self.mcName, indexListToCSV(index), val)
     ```
@@ -2116,14 +2116,14 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param index`: Index to which element to set.
     - `@type index`: string (as a comma-separated list of indices), int[], or int
     - `@rtype`: long
-    ```
+    ```python
       return self.getValue(index)
     ```
  - `def getEnumAliases(self)`
     
     Gets the enumeration aliases list
     - `@rtype`: string[]
-    ```
+    ```python
       enumAliases = phxPython.longArrayGetEnumAliases(self.mcName).strip()
       if enumAliases != '':
          return enumAliases.split(', ')
@@ -2136,7 +2136,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param aliases`: An array of strings
     - `@type aliases`: string (as a comma-separated list) or string[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -2149,7 +2149,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     
     Gets the enumeration values list
     - `@rtype`: long[]
-    ```
+    ```python
       enumList = phxPython.longArrayGetEnumValues(self.mcName).strip()
       if enumList != '':
          enumList = phxPython.longArrayGetEnumValues(self.mcName).split(', ')
@@ -2166,7 +2166,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param values`: Either a comma-separated list of values or an array of values
     - `@type values`: string (as a comma-separated list) or long[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -2187,7 +2187,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     
     retrieves the format of the variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.longArrayGetFormat(self.mcName)
     ```
  - `def setFormat(self, format)`
@@ -2196,7 +2196,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param format`: the new format
     - `@type format`: string
     - `@rtype`: void
-    ```
+    ```python
       format = checkIsInstance(format, str)
       phxPython.longArraySetFormat(self.mcName, format)
     ```
@@ -2204,7 +2204,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     
     retrieves the `hasLowerBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.longArrayGetHasLowerBound(self.mcName)
     ```
  - `def setHasLowerBound(self, value)`
@@ -2212,7 +2212,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     sets the `hasLowerBound` flag
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.longArraySetHasLowerBound(self.mcName, value)
     ```
@@ -2220,7 +2220,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     
     retrieves the `hasUpperBound` flag
     - `@rtype`: boolean
-    ```
+    ```python
       return phxPython.longArrayGetHasUpperBound(self.mcName)
     ```
  - `def setHasUpperBound(self, value)`
@@ -2228,7 +2228,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     sets the `hasUpperBound` flag
     - `@type value`: boolean
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, bool)
       phxPython.longArraySetHasUpperBound(self.mcName, value)
     ```
@@ -2236,7 +2236,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     
     retrieves the current lower bound value
     - `@rtype`: long
-    ```
+    ```python
       return phxPython.longArrayGetLowerBound(self.mcName)
     ```
  - `def setLowerBound(self, value)`
@@ -2245,7 +2245,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param value`: the lower bound
     - `@type value`: long
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, int)
       phxPython.longArraySetLowerBound(self.mcName, value)
     ```
@@ -2253,7 +2253,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     
     retrieves the current upper bound
     - `@rtype`: long
-    ```
+    ```python
       return phxPython.longArrayGetUpperBound(self.mcName)
     ```
  - `def setUpperBound(self, value)`
@@ -2262,7 +2262,7 @@ Class wraps an array of `PHXLong` variables for the ScriptWrapper utility.
     - `@param value`: the upper bound
     - `@type value`: long
     - `@rtype`: void
-    ```
+    ```python
       value = checkIsInstance(value, int)
       phxPython.longArraySetUpperBound(self.mcName, value)
     ```
@@ -2281,7 +2281,7 @@ The ModelCenter type for Strings.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -2289,7 +2289,7 @@ The ModelCenter type for Strings.
     
     retrieves the current value of the variable
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.strGetValue(self.mcName)
     ```
  - `def setValue(self, val)`
@@ -2297,7 +2297,7 @@ The ModelCenter type for Strings.
     sets the value for the variable
     - `@param val`: the value
     - `@type val`: string
-    ```
+    ```python
       val = checkIsInstance(val, str)
       phxPython.strSetValue(self.mcName, val)
     ```
@@ -2305,7 +2305,7 @@ The ModelCenter type for Strings.
     
     converts the variable to a string
     - `@rtype`: string
-    ```
+    ```python
       return phxPython.strGetValue(self.mcName)
     ```
  - `def fromString(self, val)`
@@ -2314,7 +2314,7 @@ The ModelCenter type for Strings.
     - `@param val`: the value to convert
     - `@type val`: string
     - `@rtype`: void
-    ```
+    ```python
       val = checkIsInstance(val, str)
       phxPython.strSetValue(self.mcName, val)
     ```
@@ -2322,7 +2322,7 @@ The ModelCenter type for Strings.
     
     Gets the enumeration aliases list
     - `@rtype`: string[]
-    ```
+    ```python
       enumAliases = phxPython.strGetEnumAliases(self.mcName).strip()
       if enumAliases != '':
          return enumAliases.split(', ')
@@ -2335,7 +2335,7 @@ The ModelCenter type for Strings.
     - `@param aliases`: An array of strings
     - `@type aliases`: string (as a comma-separated list) or string[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -2348,7 +2348,7 @@ The ModelCenter type for Strings.
     
     Gets the enumeration values list
     - `@rtype`: string[]
-    ```
+    ```python
       enumValues = phxPython.strGetEnumValues(self.mcName).strip()
       if enumValues != '':
          return enumValues.split(', ')
@@ -2361,7 +2361,7 @@ The ModelCenter type for Strings.
     - `@param values`: Either a comma-separated list of values or an array of values
     - `@type values`: string (as a comma-separated list) or string[]
     - `@rtype`: void
-    ```
+    ```python
       adict = {
           "["`: "",
           "]"`: "",
@@ -2381,7 +2381,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
     - `@param varName`: the name of the variable already declared in the wrapper to reference
     - `@type varName`: string
     - `@rtype`: void
-    ```
+    ```python
       varName = checkIsInstance(varName, str)
       self.mcName = varName
     ```
@@ -2395,7 +2395,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
     - `@param arg2`: The new value.
     - `@type arg2`: string
     - `@rtype`: void
-    ```
+    ```python
       index = arg1
       value = arg2
       if isinstance(arg2, str)`
@@ -2412,7 +2412,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
           "\""`: "",
       }
       return multiple_replace(phxPython.strArrayToString(self.mcName, indexListToCSV(index)), retDict)
-    ```
+    ```python
  - `def getValue(self, index)`
     
     Gets a particular element as a String
@@ -2421,7 +2421,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
     - `@rtype`: string
     ```
       return phxPython.strArrayGetValue(self.mcName, indexListToCSV(index))
-    ```
+    ```python
  - `def setValue(self, index, val)`
     
     Sets the value of an element as a long
@@ -2433,7 +2433,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
     ```
       val = checkIsInstance(val, str)
       phxPython.strArraySetValue(self.mcName, indexListToCSV(index), str(val))
-    ```
+    ```python
  - `def getStringValue(self, index)`
     
     Gets a particular element as a String
@@ -2442,7 +2442,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
     - `@rtype`: string
     ```
       return self.getValue(index)
-    ```
+    ```python
  - `def getEnumAliases(self)`
     
     Gets the enumeration aliases list
@@ -2453,7 +2453,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
          return enumAliases.split(', ')
       else:
          return []
-    ```
+    ```python
  - `def setEnumAliases(self, aliases)`
     
     Sets the enumeration aliases list
@@ -2468,7 +2468,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
       }
       strAliases = multiple_replace(str(aliases), adict)
       phxPython.strArraySetEnumAliases(self.mcName, strAliases)
-    ```
+    ```python
  - `def getEnumValues(self)`
     
     Gets the enumeration values list
@@ -2479,7 +2479,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
          return enumValues.split(', ')
       else:
          return []
-    ```
+    ```python
  - `def setEnumValues(self, values)`
     
     Sets the enumeration values list
@@ -2494,7 +2494,7 @@ Class wraps an array of `PHXString` variables for the ScriptWrapper utility.
       }
       strVals = multiple_replace(str(values), adict)
       phxPython.strArraySetEnumValues(self.mcName, strVals)
-    ```
+    ```python
 
 ## PHXScriptObject
 
@@ -2515,7 +2515,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       varName = checkIsInstance(varName, str)
       self.mcName = varName
-    ```
+    ```python
  - `def toString(self)`
 
       converts the variable to a string
@@ -2532,14 +2532,14 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       val = checkIsInstance(val, str)
       phxPython.objFromString(self.mcName, val)
-    ```
+    ```python
  - `def getClassURL(self)`
 
       return the class URL
     - `@rtype`: string
     ```
       return phxPython.objGetClassURL(self.mcName)
-    ```
+    ```python
  - `def getMemberValueAsString(self, mIndex)`
 
       return member value
@@ -2549,7 +2549,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberValueAsString(self.mcName, mIndex)
-    ```
+    ```python
  - `def getDoubleMemberValue(self, mIndex)`
 
       return member value
@@ -2559,7 +2559,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetDoubleMemberValue(self.mcName, mIndex)
-    ```
+    ```python
  - `def getIntMemberValue(self, mIndex)`
 
       return member value
@@ -2569,7 +2569,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetIntMemberValue(self.mcName, mIndex)
-    ```
+    ```python
  - `def getBooleanMemberValue(self, mIndex)`
 
       return member value
@@ -2579,7 +2579,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetBooleanMemberValue(self.mcName, mIndex)
-    ```
+    ```python
  - `def getStringMemberValue(self, mIndex)`
 
       return member value
@@ -2589,7 +2589,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetStringMemberValue(self.mcName, mIndex)
-    ```
+    ```python
  - `def getDoubleArrayMemberValue(self, mIndex, index)`
 
       return member value
@@ -2601,7 +2601,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetDoubleArrayMemberValue(self.mcName, mIndex, indexListToCSV(index))
-    ```
+    ```python
  - `def getIntArrayMemberValue(self, mIndex, index)`
 
       return member value
@@ -2613,7 +2613,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetIntArrayMemberValue(self.mcName, mIndex, indexListToCSV(index))
-    ```
+    ```python
  - `def getBooleanArrayMemberValue(self, mIndex, index)`
 
       return member value
@@ -2625,7 +2625,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetBooleanArrayMemberValue(self.mcName, mIndex, indexListToCSV(index))
-    ```
+    ```python
  - `def getStringArrayMemberValue(self, mIndex, index)`
 
       return member value
@@ -2637,7 +2637,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetStringArrayMemberValue(self.mcName, mIndex, indexListToCSV(index))
-    ```
+    ```python
  - `def setMemberValueFromString(self, mIndex, value)`
 
       set value of a member
@@ -2650,7 +2650,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       value = checkIsInstance(value, str)
       phxPython.objSetMemberValueFromString(self.mcName, mIndex, value)
-    ```
+    ```python
  - `def setDoubleMemberValue(self, mIndex, value)`
 
       set value of a double member
@@ -2663,7 +2663,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       value = checkIsInstance(value, float)
       phxPython.objSetDoubleMemberValue(self.mcName, mIndex, value)
-    ```
+    ```python
  - `def setIntMemberValue(self, mIndex, value)`
 
       set value of a double member
@@ -2676,7 +2676,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       value = checkIsInstance(value, int)
       phxPython.objSetIntMemberValue(self.mcName, mIndex, value)
-    ```
+    ```python
  - `def setBooleanMemberValue(self, mIndex, value)`
 
       set value of a double member
@@ -2689,7 +2689,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       value = checkIsInstance(value, bool)
       phxPython.objSetBooleanMemberValue(self.mcName, mIndex, value)
-    ```
+    ```python
  - `def setStringMemberValue(self, mIndex, value)`
 
       set value of a double member
@@ -2702,7 +2702,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       value = checkIsInstance(value, str)
       phxPython.objSetStringMemberValue(self.mcName, mIndex, value)
-    ```
+    ```python
  - `def setDoubleArrayMemberValue(self, mIndex, index, value)`
 
       set value of a double member
@@ -2718,7 +2718,7 @@ The ModelCenter type for object variable. This class adds the following features
       value = checkIsInstance(value, float)
       phxPython.objSetDoubleArrayMemberValue(
           self.mcName, mIndex, indexListToCSV(index), value)
-    ```
+    ```python
  - `def setIntArrayMemberValue(self, mIndex, index, value)`
 
       set value of a double member
@@ -2734,7 +2734,7 @@ The ModelCenter type for object variable. This class adds the following features
       value = checkIsInstance(value, int)
       phxPython.objSetIntArrayMemberValue(
           self.mcName, mIndex, indexListToCSV(index), value)
-    ```
+    ```python
  - `def setBooleanArrayMemberValue(self, mIndex, index, value)`
 
       set value of a double member
@@ -2750,7 +2750,7 @@ The ModelCenter type for object variable. This class adds the following features
       value = checkIsInstance(value, bool)
       phxPython.objSetBooleanArrayMemberValue(
           self.mcName, mIndex, indexListToCSV(index), value)
-    ```
+    ```python
  - `def setStringArrayMemberValue(self, mIndex, index, value)`
 
       set value of a double member
@@ -2766,7 +2766,7 @@ The ModelCenter type for object variable. This class adds the following features
       value = checkIsInstance(value, str)
       phxPython.objSetStringArrayMemberValue(
           self.mcName, mIndex, indexListToCSV(index), value)
-    ```
+    ```python
  - `def setMember(self, mIndex, value, typeStr)`
 
       set member. Create a member if not exists.
@@ -2782,7 +2782,7 @@ The ModelCenter type for object variable. This class adds the following features
       value = checkIsInstance(value, str)
       typeStr = checkIsInstance(typeStr, str)
       phxPython.objSetMember(self.mcName, mIndex, value, typeStr)
-    ```
+    ```python
  - `def deleteMember(self, mIndex)`
 
       delete a member
@@ -2792,14 +2792,14 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       phxPython.objDeleteMember(self.mcName, mIndex)
-    ```
+    ```python
  - `def deleteAllMembers(self)`
 
       delete all members
     - `@rtype`: void
     ```
       phxPython.objDeleteAllMembers(self.mcName)
-    ```
+    ```python
  - `def callMethod(self, method)`
 
       call an object method
@@ -2809,21 +2809,21 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       method = checkIsInstance(method, str)
       return phxPython.objCallMethod(self.mcName, method)
-    ```
+    ```python
  - `def isNonStrictType(self)`
 
       return true if the object is a non-strict type
     - `@rtype`: bool
     ```
       return phxPython.objIsNonStrictType(self.mcName)
-    ```
+    ```python
  - `def toXML(self)`
 
       return XML representation of the object
     - `@rtype`: string
     ```
       return phxPython.objToXML(self.mcName)
-    ```
+    ```python
  - `def fromXML(self, xmlStr)`
 
       set the content of the object from the XML string
@@ -2833,7 +2833,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       xmlStr = checkIsInstance(xmlStr, str)
       phxPython.objFromXML(self.mcName, xmlStr)
-    ```
+    ```python
  - `def hasMember(self, mIndex)`
 
       return true if the member exists
@@ -2843,7 +2843,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objHasMember(self.mcName, mIndex)
-    ```
+    ```python
  - `def getMemberLength(self, mIndex, dim=0)`
 
       return length of an ND array
@@ -2856,7 +2856,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       dim = checkIsInstance(dim, int)
       return phxPython.objGetMemberLength(self.mcName, mIndex, dim)
-    ```
+    ```python
  - `def setMemberLength(self, mIndex, length, dim=0)`
 
       return length of an ND array
@@ -2872,7 +2872,7 @@ The ModelCenter type for object variable. This class adds the following features
       length = checkIsInstance(length, int)
       dim = checkIsInstance(dim, int)
       return phxPython.objSetMemberLength(self.mcName, mIndex, length, dim)
-    ```
+    ```python
  - `def setMemberDimensions(self, mIndex, dim)`
 
       Sets the dimensions of an array member.
@@ -2885,7 +2885,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       phxPython.objSetMemberDimensions(
           self.mcName, mIndex, indexListToCSV(dim))
-    ```
+    ```python
  - `def getMemberNumDimensions(self, mIndex)`
 
       Gets the number of dimensions of an array member
@@ -2895,7 +2895,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberNumDimensions(self.mcName, mIndex)
-    ```
+    ```python
  - `def getMemberDimensions(self, mIndex)`
 
       gets the dimensions of an array member
@@ -2912,7 +2912,7 @@ The ModelCenter type for object variable. This class adds the following features
       except RuntimeError:
          pass
       return dims
-    ```
+    ```python
  - `def getMemberType(self, mIndex)`
 
       return member type
@@ -2922,7 +2922,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberType(self.mcName, mIndex)
-    ```
+    ```python
  - `def hasMemberLowerBound(self, mIndex)`
 
       return true if the member has `lowerbound` defined
@@ -2932,7 +2932,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objHasMemberLowerBound(self.mcName, mIndex)
-    ```
+    ```python
  - `def hasMemberUpperBound(self, mIndex)`
 
       return true if the member has `upperbound` defined
@@ -2942,7 +2942,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objHasMemberUpperBound(self.mcName, mIndex)
-    ```
+    ```python
  - `def getMemberLowerBound(self, mIndex)`
 
       return member's lower bound
@@ -2952,7 +2952,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberLowerBound(self.mcName, mIndex)
-    ```
+    ```python
  - `def setMemberLowerBound(self, mIndex, lowerBound)`
 
       set member's lower bound
@@ -2965,7 +2965,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       checkIsInstance(lowerBound, str)
       phxPython.objSetMemberLowerBound(self.mcName, mIndex, lowerBound)
-    ```
+    ```python
  - `def getMemberUpperBound(self, mIndex)`
 
       return member's upper bound
@@ -2975,7 +2975,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberUpperBound(self.mcName, mIndex)
-    ```
+    ```python
  - `def setMemberUpperBound(self, mIndex, upperBound)`
 
       set member's upper bound
@@ -2988,7 +2988,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       upperBound = checkIsInstance(upperBound, str)
       phxPython.objSetMemberUpperBound(self.mcName, mIndex, upperBound)
-    ```
+    ```python
  - `def getMemberEnumValues(self, mIndex)`
 
       return member's enum values
@@ -2998,7 +2998,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberEnumValues(self.mcName, mIndex)
-    ```
+    ```python
  - `def setMemberEnumValues(self, mIndex, enumValues)`
 
       set member's enum values
@@ -3011,7 +3011,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       enumValues = checkIsInstance(enumValues, str)
       phxPython.objSetMemberEnumValues(self.mcName, mIndex, enumValues)
-    ```
+    ```python
  - `def getMemberEnumAliases(self, mIndex)`
 
       return member's enum aliases
@@ -3021,7 +3021,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberEnumAliases(self.mcName, mIndex)
-    ```
+    ```python
  - `def setMemberEnumAliases(self, mIndex, enumAliases)`
 
       set member's enum aliases
@@ -3034,7 +3034,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       enumAliases = checkIsInstance(enumAliases, str)
       phxPython.objSetMemberEnumAliases(self.mcName, mIndex, enumAliases)
-    ```
+    ```python
  - `def getMemberDescription(self, mIndex)`
 
       return member's description
@@ -3044,7 +3044,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberDescription(self.mcName, mIndex)
-    ```
+    ```python
  - `def setMemberDescription(self, mIndex, description)`
 
       set member's enum aliases
@@ -3057,7 +3057,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       description = checkIsInstance(description, str)
       phxPython.objSetMemberDescription(self.mcName, mIndex, description)
-    ```
+    ```python
  - `def getMemberUnits(self, mIndex)`
 
       return member's units
@@ -3067,7 +3067,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetMemberUnits(self.mcName, mIndex)
-    ```
+    ```python
  - `def setMemberUnits(self, mIndex, units)`
 
       set member's units
@@ -3080,7 +3080,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       units = checkIsInstance(units, str)
       phxPython.objSetMemberUnits(self.mcName, mIndex, units)
-    ```
+    ```python
  - `def getMemberProperty(self, mIndex, propertyName)`
 
       return member's property
@@ -3093,7 +3093,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       propertyName = checkIsInstance(propertyName, str)
       return phxPython.objGetMemberProperty(self.mcName, mIndex, propertyName)
-    ```
+    ```python
  - `def setMemberProperty(self, mIndex, propertyName, propertyValue)`
 
       set member's property
@@ -3110,7 +3110,7 @@ The ModelCenter type for object variable. This class adds the following features
       propertyValue = checkIsInstance(propertyValue, str)
       phxPython.objSetMemberProperty(
           self.mcName, mIndex, propertyName, propertyValue)
-    ```
+    ```python
  - `def fromFile(self, mIndex, fileName="")`
 
       set content of a file or file array member from a file
@@ -3123,7 +3123,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       fileName = checkIsInstance(fileName, str)
       phxPython.objFromFile(self.mcName, mIndex, fileName)
-    ```
+    ```python
  - `def toFile(self, mIndex, fileName="")`
 
       write content of a file or file array member to a file
@@ -3136,7 +3136,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       fileName = checkIsInstance(fileName, str)
       phxPython.objToFile(self.mcName, mIndex, fileName)
-    ```
+    ```python
  - `def getIsBinary(self, mIndex)`
 
       return `True` if the file or file array member contains a binary file
@@ -3146,7 +3146,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetIsBinary(self.mcName, mIndex)
-    ```
+    ```python
  - `def setIsBinary(self, mIndex, isBinary)`
 
       set whether the file or file array member contains a binary file
@@ -3159,7 +3159,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       isBinary = checkIsInstance(isBinary, bool)
       phxPython.objSetIsBinary(self.mcName, mIndex, isBinary)
-    ```
+    ```python
  - `def getFileName(self, mIndex)`
 
       return file name of the file or file array member
@@ -3169,7 +3169,7 @@ The ModelCenter type for object variable. This class adds the following features
     ```
       mIndex = checkIsInstance(mIndex, str)
       return phxPython.objGetFileName(self.mcName, mIndex)
-    ```
+    ```python
  - `def setFileName(self, mIndex, fileName)`
 
       set file name for file or file array member
@@ -3182,7 +3182,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       fileName = checkIsInstance(fileName, str)
       phxPython.objSetFileName(self.mcName, mIndex, fileName)
-    ```
+    ```python
  - `def setFileExtension(self, mIndex, fileExtension)`
 
       set file extension for file or file array member
@@ -3195,7 +3195,7 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       fileExtension = checkIsInstance(fileExtension, str)
       phxPython.objSetFileExtension(self.mcName, mIndex, fileExtension)
-    ```
+    ```python
  - `def setBaseName(self, mIndex, baseName)`
 
       set base directory for file or file array member
@@ -3208,4 +3208,4 @@ The ModelCenter type for object variable. This class adds the following features
       mIndex = checkIsInstance(mIndex, str)
       baseName = checkIsInstance(baseName, str)
       phxPython.objSetBaseName(self.mcName, mIndex, baseName)
-    ```
+    ```python
