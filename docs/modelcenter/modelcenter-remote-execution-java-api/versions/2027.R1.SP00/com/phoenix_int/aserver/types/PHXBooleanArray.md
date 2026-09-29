@@ -13,7 +13,7 @@
 
 **Implemented Interfaces**
 
-- [`IPHXType`](IPHXType.md), [`IPHXType2`](IPHXType2.md), [`IPHXUnits`](IPHXUnits.md), `Iterable<[PHXBoolean](PHXBoolean.md)>`
+- [IPHXType](IPHXType.md), [IPHXType2](IPHXType2.md), [IPHXUnits](IPHXUnits.md), Iterable<[PHXBoolean](PHXBoolean.md)>
 
 **Declaration**
 
@@ -54,7 +54,7 @@ Class wraps an array of [PHXBoolean](PHXBoolean.md) variables for the ScriptWrap
 | `void` | `fromObject(java.lang.Object toRead)` Load the value of this object from the specified object. |
 | `boolean` | `getBooleanValue(int index)` Gets the value of an element as a boolean |
 | `boolean` | `getBooleanValue(int[] index)` Gets the value of an element as a boolean |
-| `[PHXBoolean](PHXBoolean.md)` | `getValue(int[] index)` Gets the value of an element as a PHXBoolean object |
+| [PHXBoolean](PHXBoolean.md) | `getValue(int[] index)` Gets the value of an element as a PHXBoolean object |
 | `void` | `setValue(int[] index, boolean val)` Sets the value of an element as a boolean |
 | `void` | `setValue(int[] index, PHXBoolean val)` Sets the value of an element as a PHXBoolean object |
 | `void` | `setValue(int index, boolean val)` Sets the value of an element as a boolean |
@@ -223,7 +223,7 @@ Sets the value of an element as a boolean.
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
 
-Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md). Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form. This is only used when the element type does not implement [`IPHXType`](IPHXType.md) or [`IPHXType2`](IPHXType2.md). For primitives, return the wrapper objects.
+Description copied from class: [PHXSimpleArray](PHXSimpleArray.md). Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form. This is only used when the element type does not implement [IPHXType](IPHXType.md) or [IPHXType2](IPHXType2.md). For primitives, return the wrapper objects.
 
 **Specified by:**
 - `elementFromString` in class `PHXSimpleArray<PHXBoolean>`

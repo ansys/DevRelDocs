@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- [`IPHXType`](IPHXType.md), [`IPHXType2`](IPHXType2.md), [`IPHXUnits`](IPHXUnits.md)
+- [IPHXType](IPHXType.md), [IPHXType2](IPHXType2.md), [IPHXUnits](IPHXUnits.md)
 
 --- 
 **Declaration**
