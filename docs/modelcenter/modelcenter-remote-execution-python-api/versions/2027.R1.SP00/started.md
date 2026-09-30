@@ -4,7 +4,7 @@
 
 This guide helps Python developers use the ModelCenter Remote Execution Python ScriptWrapper API. The API provides runtime services for Script Wrapper components in ModelCenter Remote Execution (MCRE), including variables, file handling, and run-share monitoring.
 
-For the full class reference, see the [Python API](modelcenter-python-api.md). For Script Wrapper authoring concepts, see the [MCRE ScriptWrapper documentation](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/ModelCenter/v252/en/ModelCenter_Rem_Exec/ModelCenter_Rem_Exec/mcre_functions/wrappers_components/ScriptWrapper/index_scriptWrapper.html).
+For the full class reference, see the [Python API](modelcenter-python-api.md). For Script Wrapper authoring concepts, see the [MCRE ScriptWrapper documentation](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/ModelCenter/v271/en/ModelCenter_Rem_Exec/ModelCenter_Rem_Exec/mcre_functions/wrappers_components/ScriptWrapper/index_scriptWrapper.html).
 
 ## Prerequisites
 
@@ -35,4 +35,4 @@ directory = wrapper.getDirectory()
 ## Next steps
 
 - Browse the [Python API reference](modelcenter-python-api.md) for method signatures and inline examples.
-- Review the [MCRE ScriptWrapper documentation](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/ModelCenter/v252/en/ModelCenter_Rem_Exec/ModelCenter_Rem_Exec/mcre_functions/wrappers_components/ScriptWrapper/index_scriptWrapper.html) for wrapper authoring and deployment.
+- Review the [MCRE ScriptWrapper documentation](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/ModelCenter/v271/en/ModelCenter_Rem_Exec/ModelCenter_Rem_Exec/mcre_functions/wrappers_components/ScriptWrapper/index_scriptWrapper.html) for wrapper authoring and deployment.
