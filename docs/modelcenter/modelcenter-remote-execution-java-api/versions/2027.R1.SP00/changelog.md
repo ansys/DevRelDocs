@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 ## 2027 R1
 
@@ -6,7 +6,7 @@ Released 2026-09-23.
 
 ### Changed
 
-- Replaced Javadoc boilerplate introduction with developer-facing overview; removed UTF-8 BOM from prose files; fixed cross-reference formatting in generated API tables.
+- Replaced Javadoc boilerplate introduction with developer-facing overview; removed UTF-8 BOM from `toc.yml`, `index.md`, and `changelog.md` (Dev portal migration); fixed cross-reference formatting in generated API tables.
 
 - Initial 2027 R1 baseline copied from 2026.R1.SP03.
 
