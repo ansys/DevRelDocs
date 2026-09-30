@@ -49,9 +49,9 @@ Internal data type used for certain types of files. End users should use [PHXRaw
 
 | Modifier and Type | Method and Description |
 |-------------------|----------------------|
-| `<T> T` | `Accept([IPHXType2](IPHXType2.md).IVisitor<T> visitor)`<br>Deprecated. Accept a Visitor. |
+| `<T> T` | Accept([IPHXType2](IPHXType2.md).IVisitor<T> visitor)<br>Deprecated. Accept a Visitor. |
 | `PHXFile` | `createCopy()`<br>Deprecated. Create a copy of this instance, including the value and metadata. |
-| `boolean` | `equalsNatural([PHXSimpleType](PHXSimpleType.md) toCompare)`<br>Deprecated. Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). |
+| `boolean` | equalsNatural([PHXSimpleType](PHXSimpleType.md) toCompare)<br>Deprecated. Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). |
 | `void` | `fromObject(java.lang.Object toRead)`<br>Deprecated. Load the value of this object from the specified object. |
 | `void` | `fromString(java.lang.String value)`<br>Deprecated. Converts a String representation to the internal value. |
 | `void` | `fromString2(PHXStringBuffer value)`<br>Deprecated. Converts a PHXStringBuffer representation to the internal value. |

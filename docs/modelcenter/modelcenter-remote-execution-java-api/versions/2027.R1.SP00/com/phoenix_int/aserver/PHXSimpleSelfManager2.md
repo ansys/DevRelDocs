@@ -10,7 +10,7 @@
 ```
 
 **Implemented Interfaces**
-- [`IPHXComponent`](IPHXComponent.md), [`IPHXSelfManager`](IPHXSelfManager.md), [`IPHXSelfManager2`](IPHXSelfManager2.md)
+- [IPHXComponent](IPHXComponent.md), [IPHXSelfManager](IPHXSelfManager.md), [IPHXSelfManager2](IPHXSelfManager2.md)
 
 **Direct Known Subclasses:**
 - [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)

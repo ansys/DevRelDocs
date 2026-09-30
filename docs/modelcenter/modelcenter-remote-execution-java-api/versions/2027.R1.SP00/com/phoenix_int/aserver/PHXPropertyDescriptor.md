@@ -34,8 +34,8 @@ A utility class used by [PHXSimpleSelfManager](PHXSimpleSelfManager.md), [PHXSim
 | `static void` | `asPropertyDescriptor(java.lang.StringBuffer out, java.lang.String name, java.lang.String type, boolean canSet, boolean canGet)`<br>Stringify the property descriptor data. |
 | `java.lang.String` | `asValueDescriptor()`<br>Converts the property to a machine-readable format. |
 | `static void` | `asValueDescriptor(java.lang.StringBuffer out, java.lang.String name, java.lang.String type, boolean canSet, boolean canGet, java.lang.String value)`<br>Stringify the value descriptor data. |
-| `void` | `asValueDescriptor2([util/PHXStringBuffer](util/PHXStringBuffer.md) out)`<br>Converts the property to a readable format. |
-| `void` | `asValueDescriptor3([util/PHXStringBuffer](util/PHXStringBuffer.md) out)`<br>Converts the property to a readable format. |
+| `void` | asValueDescriptor2([util/PHXStringBuffer](util/PHXStringBuffer.md) out)<br>Converts the property to a readable format. |
+| `void` | asValueDescriptor3([util/PHXStringBuffer](util/PHXStringBuffer.md) out)<br>Converts the property to a readable format. |
 | `boolean` | `getCanGet()`<br>Determines if the property can be retrieved. |
 | `boolean` | `getCanSet()`<br>Determines if the property can be modified. |
 | `java.lang.String` | `getName()`<br>Retrieves the property name. |
@@ -43,8 +43,8 @@ A utility class used by [PHXSimpleSelfManager](PHXSimpleSelfManager.md), [PHXSim
 | `java.lang.String` | `getType()`<br>Retrieves the type of the property as a string. |
 | `java.lang.Class` | `getTypeClass()`<br>Retrieves the type of the property as a Class object. |
 | `java.lang.String` | `getValue()` |
-| `[util/PHXStringBuffer](util/PHXStringBuffer.md)` | `getValue2()` |
-| `[util/PHXStringBuffer](util/PHXStringBuffer.md)` | `getValue3()` |
+| [util/PHXStringBuffer](util/PHXStringBuffer.md) | `getValue2()` |
+| [util/PHXStringBuffer](util/PHXStringBuffer.md) | `getValue3()` |
 | `void` | `setCanGet(boolean flag)`<br>Sets whether the property can be retrieved. |
 | `void` | `setCanSet(boolean flag)`<br>Sets whether the property can be modified. |
 | `java.lang.String` | `toString()`<br>Converts the property to a readable format. |

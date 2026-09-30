@@ -407,14 +407,14 @@ Runs a command. Command may be relative to the run directory, see getDirectory()
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
 
-If the command is halted (via [`halt()`](#halt) or [`timeout()`](#timeout)) and `ignoreError` is `false`, this method will throw a [`ProcessHaltedException`](ProcessHaltedException.md).
+If the command is halted (via [halt()](#halt) or [timeout()](#timeout)) and ignoreError is `false`, this method will throw a [`ProcessHaltedException`](ProcessHaltedException.md).
 
 **Parameters:**
 - `cmd` - The command to run.
 
 **Throws:**
 - `java.io.IOException` - Either the command cannot be executed, or an I/O error occurred while reading standard error or standard out from the command
-- [`ProcessHaltedException`](ProcessHaltedException.md) - The running script was halted via the [`halt()`](#halt) or [`timeout()`](#timeout).
+- [ProcessHaltedException](ProcessHaltedException.md) - The running script was halted via the [halt()](#halt) or [timeout()](#timeout).
 - `java.lang.Exception`
 
 ### run
@@ -430,14 +430,14 @@ Runs a command. Command may be relative to the run directory, see getDirectory()
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
 
-If the command is halted (via [`halt()`](./PHXRunShare.md#halt--) or [`timeout()`](./PHXRunShare.md#timeout--)) and `ignoreError` is `false`, this method will throw a [`ProcessHaltedException`](./ProcessHaltedException.md "class in com.phoenix_int.aserver").
+If the command is halted (via [halt()](./PHXRunShare.md#halt--) or [timeout()](./PHXRunShare.md#timeout--)) and ignoreError is `false`, this method will throw a [`ProcessHaltedException`](./ProcessHaltedException.md "class in com.phoenix_int.aserver").
 
 **Parameters:**
 - `cmd` - The command to run.
 
 **Throws:**
 - `java.io.IOException` - Either the command cannot be executed, or an I/O error occurred while reading standard error or standard out from the command
-- [`ProcessHaltedException`](./ProcessHaltedException.md "class in com.phoenix_int.aserver") - The running script was halted via the [`halt()`](./PHXRunShare.md#halt--) or [`timeout()`](./PHXRunShare.md#timeout--).
+- [ProcessHaltedException](./ProcessHaltedException.md "class in com.phoenix_int.aserver") - The running script was halted via the [halt()](./PHXRunShare.md#halt--) or [timeout()](./PHXRunShare.md#timeout--).
 - `java.lang.Exception`
 
 ### run

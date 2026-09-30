@@ -24,7 +24,7 @@
         - com.phoenix_int.aserver.types.[PHXLong](PHXLong.md) (implements com.phoenix_int.aserver.types.[IPHXFormat](IPHXFormat.md))
         - com.phoenix_int.aserver.types.[PHXRawFile](PHXRawFile.md) (implements java.lang.AutoCloseable, com.phoenix_int.aserver.types.[IPHXType2](IPHXType2.md))
         - com.phoenix_int.aserver.types.[PHXScriptObject](PHXScriptObject.md)
-        - com.phoenix_int.aserver.types.[PHXSimpleArray](PHXSimpleArray.md)`<T>` (implements com.phoenix_int.aserver.types.[IPHXType2](IPHXType2.md), java.lang.Iterable`<T>`)
+        - com.phoenix_int.aserver.types.[PHXSimpleArray](PHXSimpleArray.md)<T> (implements com.phoenix_int.aserver.types.[IPHXType2](IPHXType2.md), java.lang.Iterable<T>)
             - com.phoenix_int.aserver.types.[PHXBooleanArray](PHXBooleanArray.md)
             - com.phoenix_int.aserver.types.[PHXDoubleArray](PHXDoubleArray.md) (implements com.phoenix_int.aserver.types.[IPHXFormat](IPHXFormat.md))
             - com.phoenix_int.aserver.types.[PHXLongArray](PHXLongArray.md) (implements com.phoenix_int.aserver.types.[IPHXFormat](IPHXFormat.md))

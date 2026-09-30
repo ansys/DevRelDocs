@@ -49,10 +49,10 @@ Class wraps an array of [PHXDouble](PHXDouble.md) variables for the ScriptWrappe
 
 | Modifier and Type | Method and Description |
 |-------------------|----------------------|
-| `protected void` | `_getMetaData([PHXSimpleType](PHXSimpleType.md) v2)`<br>Worker which takes the meta data from an instance of [PHXSimpleType](PHXSimpleType.md) and sets it into our meta data. |
-| `protected void` | `_setMetaData([PHXSimpleType](PHXSimpleType.md) v2)`<br>Sets a simple type's meta data based on the meta data in this object. |
+| `protected void` | _getMetaData([PHXSimpleType](PHXSimpleType.md) v2)<br>Worker which takes the meta data from an instance of [PHXSimpleType](PHXSimpleType.md) and sets it into our meta data. |
+| `protected void` | _setMetaData([PHXSimpleType](PHXSimpleType.md) v2)<br>Sets a simple type's meta data based on the meta data in this object. |
 | `void` | `_sort(PHXDoubleArray array`, `boolean ascend)` |
-| `<T> T` | `Accept([IPHXType2](IPHXType2.md).IVisitor<T> visitor)`<br>Accept a Visitor. |
+| `<T> T` | Accept([IPHXType2](IPHXType2.md).IVisitor<T> visitor)<br>Accept a Visitor. |
 | `protected java.lang.Object` | `allocateElement(java.lang.Class elementClass)`<br>Allocates a single element in a default state. |
 | `PHXDoubleArray` | `createCopy()`<br>Create a copy of this instance, including the value and metadata. |
 | `protected boolean` | `dataTypeOK(java.lang.Class c)`<br>Must override this function and return true if the specified class is acceptable as an array element component type. |

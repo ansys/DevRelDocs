@@ -49,9 +49,9 @@ implements IPHXRange
 
 | Modifier and Type | Method and Description |
 |-------------------|----------------------|
-| `int` | `absoluteEndRow(`[`IPHXLineStore`](./../IPHXLineStore.md)` lines, java.util.Vector bookmarks, java.util.Vector sections)` |
-| `int` | `absoluteStartRow(`[`IPHXLineStore`](./../IPHXLineStore.md)` lines, java.util.Vector bookmarks, java.util.Vector sections)`<br>Returns the actual starting row number |
-| `void` | `assertEquals(`[`IPHXRange`](IPHXRange.md)` other)`<br>Test comparison function. |
+| `int` | absoluteEndRow([IPHXLineStore](./../IPHXLineStore.md) lines, java.util.Vector bookmarks, java.util.Vector sections) |
+| `int` | absoluteStartRow([IPHXLineStore](./../IPHXLineStore.md) lines, java.util.Vector bookmarks, java.util.Vector sections)<br>Returns the actual starting row number |
+| `void` | assertEquals([IPHXRange](IPHXRange.md) other)<br>Test comparison function. |
 | `void` | `clearEndingMark()` |
 | `void` | `clearStartingMark()` |
 | `void` | `fromString(java.lang.String str)` |

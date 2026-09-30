@@ -11,7 +11,7 @@
 ```
 
 **Implemented Interfaces**
-- [`IPHXComponent`](IPHXComponent.md), com.phoenix_int.aserver.IPHXConnector, [`IPHXSelfManager`](IPHXSelfManager.md), [`IPHXSelfManager2`](IPHXSelfManager2.md), [`IPHXSelfManager3`](IPHXSelfManager3.md)
+- [IPHXComponent](IPHXComponent.md), com.phoenix_int.aserver.IPHXConnector, [IPHXSelfManager](IPHXSelfManager.md), [IPHXSelfManager2`](IPHXSelfManager2.md), [IPHXSelfManager3`](IPHXSelfManager3.md)
 
 **Declaration**
 ```java

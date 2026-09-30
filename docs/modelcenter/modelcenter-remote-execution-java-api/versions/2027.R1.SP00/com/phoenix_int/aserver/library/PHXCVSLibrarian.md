@@ -11,7 +11,7 @@
 
 **Implemented Interfaces**
 
-- [`IPHXLibrarian`](IPHXLibrarian.md), [`IPHXLibrarian2`](IPHXLibrarian2.md), [`IPHXVersionedLibrarian`](IPHXVersionedLibrarian.md), [`IPHXVersionedLibrarian2`](IPHXVersionedLibrarian2.md), [`IPHXVersionedLibrarian3`](IPHXVersionedLibrarian3.md)
+- [IPHXLibrarian](IPHXLibrarian.md), [IPHXLibrarian2](IPHXLibrarian2.md), [IPHXVersionedLibrarian](IPHXVersionedLibrarian.md), [IPHXVersionedLibrarian2`](IPHXVersionedLibrarian2.md), [IPHXVersionedLibrarian3`](IPHXVersionedLibrarian3.md)
 
 ---
 **Declaration**
@@ -43,7 +43,7 @@ This class requires passwordless access to cvs and does not currently provide an
 | `java.lang.String` | [`getBranchesAndTags`](#getbranchesandtags)()<br>Does not support branching and tagging |
 | [`PHXComponentBranch`](./../PHXComponentBranch.md) | [`getComponentHistory`](#getcomponenthistory)(java.lang.String compClass, java.lang.String virtualDir)<br>Gets all version information about a particular component |
 | `java.lang.String` | [`getQueues`](#getqueues)(java.lang.String compClass, java.lang.String virtualDir)<br>Method for getting Queues from CenterLink, MCRE just returns blank string |
-| `void` | [`initialize`](#initialize)(com.phoenix_int.aserver.ascore.PHXConnection connection, [`IPHXFactory`](IPHXFactory.md) factories, com.phoenix_int.aserver.ascore.PHXAServerArgs args, org.w3c.dom.Node xmlOptions)<br>There are 2 options for this class. |
+| void | [initialize](#initialize)(com.phoenix_int.aserver.ascore.PHXConnection connection, [IPHXFactory](IPHXFactory.md) factories, com.phoenix_int.aserver.ascore.PHXAServerArgs args, org.w3c.dom.Node xmlOptions)<br>There are 2 options for this class. |
 | [`IPHXComponent`](./../IPHXComponent.md) | [`instantiate`](#instantiate)(java.lang.String compClass, java.lang.String virtualDir)<br>Creates an instance of the specified component. |
 | [`IPHXComponent`](./../IPHXComponent.md) | [`instantiate`](#instantiate)(java.lang.String compClass, java.lang.String virtualDir, java.lang.String connector, java.lang.String queue)<br>Creates an instance of the specified component. |
 | [`PHXComponentResourcePair`](./../PHXComponentResourcePair.md) | [`instantiateManaged`](#instantiatemanaged)(java.lang.String compClass, java.lang.String virtualDir)<br>Creates an instance of the specified component. |

@@ -10,7 +10,7 @@
       ↳ com.phoenix_int.aserver.types.PHXLongArray
 ```
 **All Implemented Interfaces:**
-- [`IPHXFormat`](IPHXFormat.md), [`IPHXType`](IPHXType.md), [`IPHXType2`](IPHXType2.md), [`IPHXUnits`](IPHXUnits.md), java.lang.Iterable<[`PHXLong`](PHXLong.md)>
+- [IPHXFormat](IPHXFormat.md), [IPHXType](IPHXType.md), [IPHXType2](IPHXType2.md), [IPHXUnits`](IPHXUnits.md), java.lang.Iterable<[PHXLong`](PHXLong.md)>
 
 ---
 
@@ -154,7 +154,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 Allocates a single element in a default state. If the class type in question has a default constructor, there is no need to override this.
 
 **Overrides:**
-- `allocateElement` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- allocateElement in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 **Throws:**
 - `java.lang.IllegalAccessException`
@@ -394,7 +394,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 Sets a simple type's meta data based on the meta data in this object.  Override this to set additional information in sub-classes.  Be sure to call `super._setMetaData(PHXSimpleType)`.
 
 **Overrides:**
-- `_setMetaData` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- _setMetaData in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 ### _getMetaData
 
@@ -407,7 +407,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 Worker which takes the meta data from an instance of PHXSimpleType and sets it into our meta data.  Override this in order to add more custom meta data in sub-classes.  Be sure to call `super._getMetaData(PHXSimpleType)`, though!
 
 **Overrides:**
-- `_getMetaData` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- _getMetaData in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 ### getValue
 
@@ -418,7 +418,7 @@ public PHXLong getValue(int index)
 Gets the value of an element as a [`PHXLong`](PHXLong.md) object
 
 **Overrides:**
-- `getValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- getValue in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 **Parameters:**
 - `index` - 1D array index
@@ -438,7 +438,7 @@ public PHXLong getValue(int[] index)
 Gets the value of an element as a [`PHXLong`](PHXLong.md) object
 
 **Specified by:**
-- `getValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- getValue in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 **Parameters:**
 - `index` - nD array index
@@ -490,7 +490,7 @@ public void setValue(int[] index,
 Sets the value of an element as a [`PHXLong`](PHXLong.md) object
 
 **Specified by:**
-- `setValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- setValue in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 **Parameters:**
 - `index` - 1D array index
@@ -542,7 +542,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form.  This is only used when the element type does not implement IPHXType or IPHXType2.  For primitives, return the wrapper objects.
 
 **Specified by:**
-- `elementFromString` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
+- elementFromString in class [PHXSimpleArray](PHXSimpleArray.md)<[`PHXLong`](PHXLong.md)`>`
 
 ### getMax
 

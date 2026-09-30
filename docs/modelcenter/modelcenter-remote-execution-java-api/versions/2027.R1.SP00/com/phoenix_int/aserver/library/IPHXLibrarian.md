@@ -33,7 +33,7 @@ This is an interface for classes that manage a directory hierarchy of available 
 | `void` | `cleanUp()`<br>**Deprecated.** Tells this librarian to clean up any resources used. |
 | [`PHXComponentDescription`](./../PHXComponentDescription.md) | `describe(java.lang.String compClass, java.lang.String virtualDirName)`<br>**Deprecated.** Describes the specified component. |
 | `java.lang.String` | `getQueues(java.lang.String compClass, java.lang.String virtualDirName)`<br>**Deprecated.** Gets the available run queues. |
-| `void` | `initialize(com.phoenix_int.aserver.ascore.PHXConnection connection, [`IPHXFactory`](IPHXFactory.md) factories, com.phoenix_int.aserver.ascore.PHXAServerArgs args, org.w3c.dom.Node xmlOptions)`<br>**Deprecated.** Tells this librarian to configure itself based on the XML node passed in. |
+| `void` | initialize(com.phoenix_int.aserver.ascore.PHXConnection connection, [IPHXFactory](IPHXFactory.md) factories, com.phoenix_int.aserver.ascore.PHXAServerArgs args, org.w3c.dom.Node xmlOptions)<br>**Deprecated.** Tells this librarian to configure itself based on the XML node passed in. |
 | [`IPHXComponent`](./../IPHXComponent.md) | `instantiate(java.lang.String compClass, java.lang.String virtualDirName)`<br>**Deprecated.** |
 | [`IPHXComponent`](./../IPHXComponent.md) | `instantiate(java.lang.String compClass, java.lang.String virtualDirName, java.lang.String connector, java.lang.String queue)`<br>**Deprecated.** |
 | `java.util.Collection` | `listComponents(java.lang.String virtualDirName)`<br>**Deprecated.** Lists components within a specified directory. |

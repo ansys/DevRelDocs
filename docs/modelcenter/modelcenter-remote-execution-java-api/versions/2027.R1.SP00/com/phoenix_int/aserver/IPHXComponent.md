@@ -6,10 +6,10 @@
 - [`IPHXAnalysis`](IPHXAnalysis.md), [`IPHXDriver`](IPHXDriver.md)
 
 **Known Implementing Classes**
-- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md), [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
+- [PHXSimpleSelfManager](PHXSimpleSelfManager.md), [PHXSimpleSelfManager2](PHXSimpleSelfManager2.md), [PHXSimpleSelfManager3](PHXSimpleSelfManager3.md)
 
 **Related Classes**
-- [`PHXComponentBranch`](PHXComponentBranch.md), [`PHXComponentDescription`](PHXComponentDescription.md), [`PHXComponentVersion`](PHXComponentVersion.md), [`PHXGroup`](PHXGroup.md), [`PHXMethodDescriptor`](PHXMethodDescriptor.md), [`PHXPropertyDescriptor`](PHXPropertyDescriptor.md), [`PHXVariableInfo`](PHXVariableInfo.md), [`PHXDFTException`](PHXDFTException.md), [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md), [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md), [`PHXInvokeReturn`](PHXInvokeReturn.md), [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md), [`PHXInvalidNameException`](PHXInvalidNameException.md)
+- [PHXComponentBranch](PHXComponentBranch.md), [PHXComponentDescription](PHXComponentDescription.md), [PHXComponentVersion](PHXComponentVersion.md), [PHXGroup](PHXGroup.md), [PHXMethodDescriptor](PHXMethodDescriptor.md), [PHXPropertyDescriptor](PHXPropertyDescriptor.md), [PHXVariableInfo](PHXVariableInfo.md), [PHXDFTException](PHXDFTException.md), [PHXNoSuchObjectException](PHXNoSuchObjectException.md), [PHXNoSuchWriteableObjectException](PHXNoSuchWriteableObjectException.md), [PHXInvokeReturn](PHXInvokeReturn.md), [PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md), [PHXInvalidNameException`](PHXInvalidNameException.md)
 
 **Declaration**
 ```java

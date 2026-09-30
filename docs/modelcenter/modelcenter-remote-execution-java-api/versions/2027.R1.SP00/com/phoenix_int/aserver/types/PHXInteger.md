@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- [`IPHXFormat`](IPHXFormat.md), [`IPHXType`](IPHXType.md), [`IPHXType2`](IPHXType2.md), [`IPHXUnits`](IPHXUnits.md)
+- [IPHXFormat](IPHXFormat.md), [IPHXType](IPHXType.md), [IPHXType2`](IPHXType2.md), [IPHXUnits`](IPHXUnits.md)
 
 --- 
 **Declaration**
@@ -66,7 +66,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
 | `boolean` | `equalsNatural(PHXSimpleType toCompare)`<br>**Deprecated.**<br>Compare this PHXSimpleType to another PHXSimpleType. |
 | `void` | `fromObject(java.lang.Object toRead)`<br>**Deprecated.**<br>Load the value of this object from the specified object. |
 | `void` | `fromString(java.lang.String value)`<br>**Deprecated.**<br>converts a String representation to the internal value |
-| `void` | `fromString2(`[`PHXStringBuffer`](./../util/PHXStringBuffer.md)` value)`<br>**Deprecated.**<br>converts a String representation to the internal value |
+| `void` | fromString2([PHXStringBuffer](./../util/PHXStringBuffer.md) value)<br>**Deprecated.**<br>converts a String representation to the internal value |
 | `java.lang.String[]` | `getEnumAliases()`<br>**Deprecated.**<br>An interface function for the enumeration array |
 | `java.lang.String` | `getEnumAliasesStr()`<br>**Deprecated.**<br>An interface function for the enumeration array |
 | `int[]` | `getEnumValues()`<br>**Deprecated.**<br>Interface function to pass out the enumeration array |
