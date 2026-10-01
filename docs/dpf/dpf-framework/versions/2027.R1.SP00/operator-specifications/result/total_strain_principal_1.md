@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Read/compute element nodal component total strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
+Read/compute element nodal component total strains 1st principal component, average on nodes by default if no target location is given, and compute the eigen values.
 This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 ## Inputs

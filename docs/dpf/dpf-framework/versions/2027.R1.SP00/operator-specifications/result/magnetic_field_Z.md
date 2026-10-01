@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Read/compute Magnetic Field Z component of the vector (3rd component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+Read/compute Magnetic Field Z component of the vector (3rd component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 ## Inputs
 

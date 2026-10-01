@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-09-22).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-01).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -19,10 +19,10 @@ The following table shows which components have updates in each category.
 | ci | [3 items](#Features_ci) |[3 items](#Fixes_ci) |
 | compression | [7 items](#Features_compression) |[2 items](#Fixes_compression) |
 | core |  |[2 items](#Fixes_core) |
-| cs | [5 items](#Features_cs) |[2 items](#Fixes_cs) |
+| cs | [6 items](#Features_cs) |[2 items](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic | [1 item](#Features_cyclic) |[2 items](#Fixes_cyclic) |
-| doc | [2 items](#Features_doc) |[1 item](#Fixes_doc) |
+| doc | [2 items](#Features_doc) |[2 items](#Fixes_doc) |
 | documentation | [1 item](#Features_documentation) |[2 items](#Fixes_documentation) |
 | dpf | [3 items](#Features_dpf) |[1 item](#Fixes_dpf) |
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
@@ -30,31 +30,31 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [10 items](#Features_femutils) |[25 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[18 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[20 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
-| grpc | [3 items](#Features_grpc) |[8 items](#Fixes_grpc) |
+| grpc | [4 items](#Features_grpc) |[8 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
 | h5dpf | [2 items](#Features_h5dpf) |[6 items](#Fixes_h5dpf) |
-| hdf5 | [16 items](#Features_hdf5) |[23 items](#Fixes_hdf5) |
-| hgp | [10 items](#Features_hgp) |[8 items](#Fixes_hgp) |
+| hdf5 | [16 items](#Features_hdf5) |[25 items](#Fixes_hdf5) |
+| hgp | [11 items](#Features_hgp) |[8 items](#Fixes_hgp) |
 | hgptests |  |[1 item](#Fixes_hgptests) |
 | kernel | [5 items](#Features_kernel) |[13 items](#Fixes_kernel) |
 | licensing |  |[1 item](#Fixes_licensing) |
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[94 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[99 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
 | math | [18 items](#Features_math) |[2 items](#Fixes_math) |
-| mechanical | [5 items](#Features_mechanical) |[6 items](#Fixes_mechanical) |
+| mechanical | [5 items](#Features_mechanical) |[7 items](#Fixes_mechanical) |
 | mesh | [2 items](#Features_mesh) |[8 items](#Fixes_mesh) |
 | misc | [16 items](#Features_misc) |[26 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [23 items](#Features_native) |[40 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[41 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -63,6 +63,7 @@ The following table shows which components have updates in each category.
 | pythonplugin |  |[2 items](#Fixes_pythonplugin) |
 | rbd | [1 item](#Features_rbd) | |
 | refactor | [1 item](#Features_refactor) | |
+| result-info |  |[1 item](#Fixes_result-info) |
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
 | vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
@@ -333,6 +334,15 @@ The following table shows which components have updates in each category.
 ## cs
 ### <a id="Features_cs"></a> Features
 
+- Add ResultInfo main title setter:
+  > 
+  >
+  > DPF users can assign a main title to result information through HGP, C#, PyDPF-Core, and remote gRPC APIs.
+  >
+  > 
+  >
+  > 
+
 - Expose int and double vector inputs/outputs in managed client:
   > 
   >
@@ -444,6 +454,13 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_doc"></a> Fixes
+
+- Clarification of averaging for principal and component operators.:
+  > Clarification of averaging for principal and component operators.
+  >
+  > 
+  >
+  > 
 
 - Update documentation of raw_operators to remove bool_rotate_to_global pin.:
   > Update documentation of raw_operators to remove bool_rotate_to_global pin.
@@ -876,6 +893,24 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Performance increase of CScoping::indexById:
+  > 
+  >
+  > Performance of the Scoping API `indexById` is increased for non-sparse large scopings.
+  >
+  > 
+  >
+  > 
+
+- Improve search tolerance for 3D elements in mapping and find_reduced_coordinates operators:
+  > 
+  >
+  > Improve search tolerance for 3D elements in `mapping` and `find_reduced_coordinates` operators, so elements that are far away from distorted elements are not wrongly identified as inside.
+  >
+  > 
+  >
+  > 
+
 - Support Surface element types  in the mapping and centroids operators:
   > 
   >
@@ -1043,6 +1078,15 @@ The following table shows which components have updates in each category.
   > 
 ## grpc
 ### <a id="Features_grpc"></a> Features
+
+- Add ResultInfo main title setter:
+  > 
+  >
+  > DPF users can assign a main title to result information through HGP, C#, PyDPF-Core, and remote gRPC APIs.
+  >
+  > 
+  >
+  > 
 
 - Support uint64 type:
   > Add framework and client support for uint64 and vector<uint64> as data type.
@@ -1315,6 +1359,16 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
+- Optimize hashing:
+  > Optimize hdf5 migration
+  >
+  > 
+
+- Links for generic data containers:
+  > fix links for generic data containers
+  >
+  > 
+
 - Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout:
   > Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout
   >
@@ -1455,6 +1509,15 @@ The following table shows which components have updates in each category.
   > 
 ## hgp
 ### <a id="Features_hgp"></a> Features
+
+- Add ResultInfo main title setter:
+  > 
+  >
+  > DPF users can assign a main title to result information through HGP, C#, PyDPF-Core, and remote gRPC APIs.
+  >
+  > 
+  >
+  > 
 
 - Support uint64 type:
   > Add framework and client support for uint64 and vector<uint64> as data type.
@@ -2055,6 +2118,41 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Add missing beam section properties and Fix CBeamProperties Operator:
+  > Add missing beam section properties in **sections_data_provider** operator
+  >
+  > Add section mesh to **sections_data_provider** operator
+  >
+  > Fix **CBeamProperties** to work with HDF5 Files
+  >
+  > 
+  >
+  > 
+
+- Fix AEL tests broken due to previous PRs:
+  > 
+  >
+  > 
+
+- Do not filter nodal results based on MESH200 & properly account for TSHAPE on rotation dofs:
+  > 
+  >
+  > 
+
+- Comment elements eSOLID272 and eSOLID273 to avoid access violation:
+  > 
+  >
+  > The elements eSOLID272 and eSOLID273 are commented for now, and will be handled in a later use story.
+  >
+  > 
+  >
+  > 
+
+- Fix migration errors for MSUP expansion:
+  > 
+  >
+  > 
 
 - Filter EPEL_EQV for Beams:
   > 
@@ -2936,6 +3034,17 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mechanical"></a> Fixes
 
+- Change meshscoping_filtered_by_shape logic on shape properties:
+  > Some regression tests started failing due to changes in !716228
+  >
+  > This PR contains a temporary fix that allows to keep the old behaviour while taking in account the new shapes that were added (i.e. plane).
+  >
+  > In the end, a clearer solution will have to be found.
+  >
+  > 
+  >
+  > 
+
 - Fix the amplitude calculation for complex fields on shell nodes:
   > 
   >
@@ -3680,6 +3789,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Performance improvements for composite source operators with transpose scoping and reused mapping:
+  > Performance improvements for composite source operators.
+  >
+  > 
+
 - Add mesh::set_attribute and support units in fieldscontainer::set_attribute:
   > 
   >
@@ -4173,6 +4287,12 @@ The following table shows which components have updates in each category.
   >
   > 
 
+## result-info
+
+### <a id="Fixes_result-info"></a> Fixes
+
+- Propagate d3plot title (#279):
+  > 
 ## rotation
 
 ### <a id="Fixes_rotation"></a> Fixes
@@ -4581,22 +4701,22 @@ The following table shows which components have updates in each category.
   > 
 
 - [creep_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_X.md):
-  > Read/compute element nodal component creep strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component creep strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [creep_strain_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_XY.md):
-  > Read/compute element nodal component creep strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component creep strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [creep_strain_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_XZ.md):
-  > Read/compute element nodal component creep strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component creep strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [creep_strain_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_Y.md):
-  > Read/compute element nodal component creep strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component creep strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [creep_strain_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_YZ.md):
-  > Read/compute element nodal component creep strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component creep strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [creep_strain_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_Z.md):
-  > Read/compute element nodal component creep strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component creep strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [creep_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_eqv.md):
   > Read/compute element nodal equivalent component creep strains by calling the readers defined by the datasources.
@@ -4646,15 +4766,15 @@ The following table shows which components have updates in each category.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
 - [creep_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_1.md):
-  > Read/compute element nodal component creep strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
+  > Read/compute element nodal component creep strains 1st principal component, average on nodes by default if no target location is given, and compute the eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 - [creep_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_2.md):
-  > Read/compute element nodal component creep strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > Read/compute element nodal component creep strains 2nd principal component, average on nodes by default if no target location is given, and compute the eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 - [creep_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/creep_strain_principal_3.md):
-  > Read/compute element nodal component creep strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > Read/compute element nodal component creep strains 3rd principal component, average on nodes by default if no target location is given, and compute the eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 - [element_nodal_heat](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/element_nodal_heat.md):
@@ -4757,13 +4877,13 @@ The following table shows which components have updates in each category.
   > computes the gasket total closure (sum of gasket thermal closure and gasket inelastic closure).
 
 - [gasket_total_closure_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure_X.md):
-  > Read/compute elemental gasket total closure XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute elemental gasket total closure XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [gasket_total_closure_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure_XY.md):
-  > Read/compute elemental gasket total closure XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute elemental gasket total closure XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [gasket_total_closure_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/gasket_total_closure_XZ.md):
-  > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute elemental gasket total closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [global_to_nodal](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/global_to_nodal.md):
   > Rotate results from global coordinate system to local coordinate system.
@@ -4889,22 +5009,22 @@ The following table shows which components have updates in each category.
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
 - [total_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_X.md):
-  > Read/compute element nodal component total strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component total strains XX normal component (00 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [total_strain_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_XY.md):
-  > Read/compute element nodal component total strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component total strains XY shear component (01 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [total_strain_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_XZ.md):
-  > Read/compute element nodal component total strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component total strains XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [total_strain_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_Y.md):
-  > Read/compute element nodal component total strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component total strains YY normal component (11 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [total_strain_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_YZ.md):
-  > Read/compute element nodal component total strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component total strains YZ shear component (12 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [total_strain_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_Z.md):
-  > Read/compute element nodal component total strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+  > Read/compute element nodal component total strains ZZ normal component (22 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 - [total_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_eqv.md):
   > Read/compute element nodal equivalent total strain by calling the readers defined by the datasources.
@@ -4956,15 +5076,15 @@ The following table shows which components have updates in each category.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
 
 - [total_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_principal_1.md):
-  > Read/compute element nodal component total strains 1st principal component by calling the readers defined by the datasources and computing its eigen values.
+  > Read/compute element nodal component total strains 1st principal component, average on nodes by default if no target location is given, and compute the eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 - [total_strain_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_principal_2.md):
-  > Read/compute element nodal component total strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > Read/compute element nodal component total strains 2nd principal component, average on nodes by default if no target location is given, and compute the eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 - [total_strain_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/total_strain_principal_3.md):
-  > Read/compute element nodal component total strains 3rd principal component by calling the readers defined by the datasources and computing its eigen values.
+  > Read/compute element nodal component total strains 3rd principal component, average on nodes by default if no target location is given, and compute the eigen values.
   > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
 - [view_factor_sum](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/result/view_factor_sum.md):
@@ -5608,6 +5728,12 @@ The following table shows which components have updates in each category.
 
   > 0.1.5: Support Surface elements.
 
+  > 0.2.0: Added tolerance pin when locating query coordinates within elements.
+
+  > 0.3.0: Tolerance used when searching elements by the coordinates of the query points.
+
+  > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_coordinates.md)
 
@@ -5619,13 +5745,19 @@ The following table shows which components have updates in each category.
 
   > 0.3.1: Update the operator and pin descriptions.
 
-  > 0.3.2: Fix tolerance problem with distorted elements.
+  > 0.3.2: Fix tolerance problem with distorted 2D elements.
 
   > 0.4.0: Preserve explicit coordinate labels and ignore implicit labels in mapping output.
 
   > 0.4.1: Support beam and point elements.
 
   > 0.4.2: Support Surface elements.
+
+  > 0.4.3: Fix element search for distorted 3D elements.
+
+  > 0.5.0: Tolerance used when searching elements by the coordinates of the query points.
+
+  > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/on_reduced_coordinates.md)
@@ -5637,6 +5769,8 @@ The following table shows which components have updates in each category.
   > 0.0.3: Support beam and point elements.
 
   > 0.0.4: Support Surface elements.
+
+  > 0.0.5: Fix element search for distorted 3D elements.
 
 
 - [prepare_mapping_workflow](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mapping/prepare_mapping_workflow.md)
@@ -6129,6 +6263,8 @@ Upgraded documentation
   > 0.3.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
   > 0.4.0: Named selections associated to the mesh are rescoped on the selection and associated to the new mesh.
+
+  > 0.5.0: Added the filter_named_selections input pin.
 
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/from_scopings.md)
@@ -6927,6 +7063,8 @@ Upgraded documentation
   > 0.0.2: Performance improvement when scop1 is included in scop2. The operator will return scop1 without any transformation.
 
   > 0.0.3: Improve membership-check performance.
+
+  > 0.0.4: Reduce memory footprint and increase performance.
 
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/scoping/on_property.md)

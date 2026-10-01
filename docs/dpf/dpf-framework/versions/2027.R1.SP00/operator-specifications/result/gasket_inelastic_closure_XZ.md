@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Read/compute elemental gasket inelastic closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+Read/compute elemental gasket inelastic closure XZ shear component (02 component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 ## Inputs
 

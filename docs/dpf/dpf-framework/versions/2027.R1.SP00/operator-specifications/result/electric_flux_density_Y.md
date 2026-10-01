@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Read/compute Electric flux density Y component of the vector (2nd component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental.
+Read/compute Electric flux density Y component of the vector (2nd component) by calling the readers defined by the datasources. Regarding the requested location and the input mesh scoping, the result location can be Nodal/ElementalNodal/Elemental. Default: averaged on nodes.
 
 ## Inputs
 
