@@ -36,6 +36,7 @@
 * [getInputMeshesContainer](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a33d2b9d8e6408e42547340f056fdecee)
 * [getInputOperator](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a0fb8663005dd50e7aff666a463d7064c)
 * [getInputPropertyField](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a43a96a372b2d64c9a5c6ab871302e795)
+* [getInputPropertyFieldsContainer](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a80aff9623938cfa1fe6a9a81cbb80084)
 * [getInputRemoteOperator](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ae32da62d193560071bd7ca1611d66907)
 * [getInputRemoteWorkflow](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ae34c524e2c7127c7aab5e54a68e8960c)
 * [getInputScoping](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a5e80bfe0c525bb6d590ce5284a87505e)
@@ -76,6 +77,7 @@
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1aad8340269a65030512992a8bdf25dbd3)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a80d2f38c08cdba89814cf54f090fa150)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a25ead93f38e596f54268fab0ac63a09e)
+* [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a75b47dbadf33fa4c2838cba6ce33bdef)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1ad682fd9e6639e9c89d0784274f1a57ae)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a236945af7413ccdd5dc3d27b9f2321b0)
 * [setOutput](classansys-dpf-operatormain.md#classansys-dpf-operatormain-1a63fd614ba8d92270ce59fdc8ab324ce8)
@@ -1510,6 +1512,67 @@ Property field for given input pin.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputPropertyField"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1a80aff9623938cfa1fe6a9a81cbb80084"></a>
+### Function getInputPropertyFieldsContainer
+
+![][public]
+
+
+```cpp
+PropertyFieldsContainer ansys::dpf::OperatorMain::getInputPropertyFieldsContainer(dp_index pin_index)
+```
+
+
+
+
+**Returns**:
+
+[PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) for given input pin.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Input pin for which to get value.
+
+**Return type**: [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer)
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::getInputPropertyFieldsContainer"}]}`
+-->
+
+<a id="classansys-dpf-operatormain-1a75b47dbadf33fa4c2838cba6ce33bdef"></a>
+### Function setOutput
+
+![][public]
+
+
+```cpp
+void ansys::dpf::OperatorMain::setOutput(dp_index pin_index, PropertyFieldsContainer const &f)
+```
+
+
+
+
+Set [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) object for given output pin with its real type.
+
+
+
+**Parameters**:
+
+* [dp_index](namespaceansys-dpf.md#namespaceansys-dpf-1a417548d1b705a9ba54ba9429afe68920) **pin_index**: [in] Output pin for which to set value.
+* [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) const & **f**: [in] [PropertyFieldsContainer](classansys-dpf-propertyfieldscontainer.md#classansys-dpf-propertyfieldscontainer) to assign to output pin.
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::OperatorMain::setOutput"}]}`
 -->
 
 <a id="classansys-dpf-operatormain-1a6c877ce71b260e6a540a8cff6bec8acd"></a>
