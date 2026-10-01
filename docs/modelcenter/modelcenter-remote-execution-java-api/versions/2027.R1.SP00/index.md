@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 The ModelCenter Remote Execution Java API lets Java applications connect to ModelCenter Remote Execution (MCRE), run analyses programmatically, and work with PACZ component configuration.
 
