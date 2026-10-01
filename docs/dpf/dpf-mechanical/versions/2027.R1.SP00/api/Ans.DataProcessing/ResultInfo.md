@@ -78,7 +78,7 @@ Property `ProductName` describes product name
 
 Property `MainTitle` describes main title
 
-*get*
+*get/set*
 
 #### *property* AnsysUnitSystemInt: int
 
