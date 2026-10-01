@@ -28,9 +28,9 @@ The following table shows which components have updates in each category.
 | eng_mat |  |[1 item](#Fixes_eng_mat) |
 | expansion | [1 item](#Features_expansion) | |
 | fbs | [2 items](#Features_fbs) | |
-| femutils | [10 items](#Features_femutils) |[25 items](#Fixes_femutils) |
+| femutils | [10 items](#Features_femutils) |[28 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[20 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[22 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [4 items](#Features_grpc) |[8 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [5 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [32 items](#Features_mapdl) |[99 items](#Fixes_mapdl) |
+| mapdl | [32 items](#Features_mapdl) |[100 items](#Fixes_mapdl) |
 | mapdlpluggin |  |[1 item](#Fixes_mapdlpluggin) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
@@ -54,7 +54,7 @@ The following table shows which components have updates in each category.
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[7 items](#Fixes_multiphysicsmapper) |
 | name |  |[1 item](#Fixes_name) |
-| native | [23 items](#Features_native) |[41 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[42 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | perf | [2 items](#Features_perf) |[1 item](#Fixes_perf) |
 | plugins | [3 items](#Features_plugins) | |
@@ -633,6 +633,33 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_femutils"></a> Fixes
 
+- Fix averaging operation of fields with data on Mid shell layer:
+  > 
+  >
+  > Fields with data on exclusively the Mid shell layer were incorrectly averaged. This is now fixed.
+  >
+  > 
+  >
+  > UTests: https://ado.internal.synopsys.com/tfs/ANSYS_Development/DPF/_git/UnitTestDataFiles/pullrequest/729961
+  >
+  > 
+  >
+  > 
+
+- Improving behavior of find_reduced_coordinates operator:
+  > Improve element selection at boundaries using distance-based ranking of candidate elements, both for `find_reduced_coordinates` and `mapping` operator.
+  >
+  > 
+
+- Improve performance of nodal_extend_to_mid_nodes:
+  > 
+  >
+  > Improve performance of the `nodal_extend_to_mid_nodes` operator.
+  >
+  > 
+  >
+  > 
+
 - Remove map from spec:
   > 
   >
@@ -892,6 +919,20 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Upstream cache fallback:
+  > This PR fixes upstream cache fallback when a downstream workflow step is not cached. The lookup now continues upstream after a cache miss, allowing raw results to be reused when averaging changes at cache level 2. Downstream cache hits retain priority.
+  >
+  > 
+  >
+  > 
+
+- Graphviz workflow exports after cached-step reconnection:
+  > The export now discovers operators on a workflow copy before serializing the graph. This includes cached operators that were connected during evaluation but were not originally registered in the workflow, preventing incorrect edges to unrelated operators.
+  >
+  > 
+  >
+  > 
 
 - Performance increase of CScoping::indexById:
   > 
@@ -2118,6 +2159,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Rewrite Nodal Averaged Results reader:
+  > 
+  >
+  > 
 
 - Add missing beam section properties and Fix CBeamProperties Operator:
   > Add missing beam section properties in **sections_data_provider** operator
@@ -3788,6 +3834,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Check all files from the DataSource for result availability:
+  > 
+  >
+  > 
 
 - Performance improvements for composite source operators with transpose scoping and reused mapping:
   > Performance improvements for composite source operators.
