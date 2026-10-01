@@ -85,6 +85,7 @@ Provides information on all available results
 * [ResultInfo](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1af81f7999b7d31d1d9acdc919ef3fc022)
 * [resultNameByOperatorName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a640956feeee439f2fa42a2fc145fb05d)
 * [scriptingName](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ac476a3cc0d4c1bb7c5c02377244c413b)
+* [setMainTitle](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a54b7f854dbb6313d58740b675dd87b88)
 * [setQualifierLabelSupport](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1adc9dde21342797e91d4c3b4c7c66b532)
 * [setUnitSystem](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1ad25053c5a68986f3948256228aad6cea)
 * [solve_date_time](classansys-dpf-resultinfo.md#classansys-dpf-resultinfo-1a52ed9fdb1a2a92a7ada0fed534c200b5)
@@ -1546,6 +1547,35 @@ Set the unit system.
 **TODO**:
 
 * `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::setUnitSystem"}]}`
+-->
+
+<a id="classansys-dpf-resultinfo-1a54b7f854dbb6313d58740b675dd87b88"></a>
+### Function setMainTitle
+
+![][public]
+
+
+```cpp
+void ansys::dpf::ResultInfo::setMainTitle(std::string const &main_title)
+```
+
+
+
+
+Set the main title.
+
+
+
+**Parameters**:
+
+* std::string const & **main_title**
+
+**Return type**: void
+
+<!--
+**TODO**:
+
+* `qualifiedname {"type":"element","name":"qualifiedname","attributes":{},"children":[{"type":"text","text":"ansys::dpf::ResultInfo::setMainTitle"}]}`
 -->
 
 <a id="classansys-dpf-resultinfo-1a8b68b2bf88b1ef946ad7b559e187d179"></a>
