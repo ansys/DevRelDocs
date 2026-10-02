@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "ADR Websocket Server 2027 R1",
+        "summary": "A websocket server implemented in Ansys Dynamic Reporting. Retired in this version.",
+        "version": "2027 R1",
+        "product": "ADR Websocket Server",
+        "programming language": "Python",
+        "physics": "Shared Technology Components, Fluids"
+      }
+    }
+ }
