@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "ADR 3D Viewer Web Component 2027 R1",
+        "summary": "3D viewer web component implemented in Ansys Dynamic Reporting",
+        "version": "2027 R1",
+        "product": "ADR 3D Viewer Web Component",
+        "programming language": "JavaScript",
+        "physics": "Shared Technology Components, Fluids"
+      }
+    }
+ }
