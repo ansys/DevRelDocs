@@ -1,200 +1,162 @@
 # PyMechanical learning roadmap
 
-PyMechanical is the open-source Python interface to Ansys Mechanical, the finite element analysis (FEA) software for structural engineering. This roadmap measures capability rather than page visits. Each milestone produces a demonstrable skill, an observable result, or a reusable artifact. The roadmap covers Ansys Mechanical 2024 R2 and later.
+PyMechanical (`ansys-mechanical-core`) is the open-source Python interface to Ansys Mechanical, the finite element analysis software for structural engineering. It is used to automate and script Mechanical from Python, covering model setup, meshing, boundary conditions, solving, and results review. PyMechanical offers two modes of working with Mechanical, and this roadmap builds capability one concrete step at a time, starting with the mode best suited to interactive learning.
+
+PyMechanical provides two modes:
+
+- **Embedding mode:** Mechanical runs inside the Python process through the `App` class, giving direct access to the Mechanical object model with fast startup. It is well suited to notebooks and interactive scripting and runs in batch mode only.
+- **Remote session mode:** Mechanical runs as a separate server process reached over gRPC through `launch_mechanical()`, with optional graphical user interface (GUI) support. It is well suited to continuous integration, Docker, and automation, and Python is sent as script strings.
+
+The beginner path in this roadmap uses embedding mode, because it gives direct object-model access for interactive learning. Remote session mode is introduced where it is the better fit, and the AI-assisted stage uses it because the Mechanical MCP server is built on remote session mode.
 
 ## Your learning journey
 
 **1. Get it working**  
-PyMechanical is installed and a first Mechanical session is started and verified.
+PyMechanical is installed and an embedded Mechanical session is created from Python.
 
 **2. Understand the control model**  
-The embedding and remote session models are distinguished and the correct mode is chosen for a workflow.
+The Mechanical object model is navigated and read through the `App` entry points.
 
 **3. Modify an existing workflow**  
-A working official example is run unchanged and then adapted to a new requirement.
+An official example is run and then altered, and the effect is observed.
 
 **4. Run and assess a meaningful operation**  
-A complete structural analysis is set up, solved, and its results are inspected.
+An analysis is solved and a result quantity is extracted and checked.
 
 **5. Build reusable automation**  
-A parameterized, rerunnable script is produced that captures a full analysis.
+A parameterized function drives a full setup-and-solve from inputs.
 
 **6. Apply it to a personal use case**  
-The automation is retargeted to a learner-supplied geometry and requirement.
+The automation is pointed at a personal model and validated.
 
 **7. Use AI-assisted capabilities**  
-PyMechanical-MCP is used to drive Mechanical from an AI assistant, with every generated action validated.
+The Mechanical MCP server is used to launch, script, solve, and inspect, with every step verified.
 
 **8. Choose an advanced pathway**  
-An advanced specialization is selected, such as remote pools, licensing control, or CI/CD.
-
----
-
-## Prerequisites
-
-> **Outcome:** The environment required by every later stage is confirmed present.
-
-A licensed local installation of Ansys Mechanical 2024 R2 or later is required, because the installed version determines the available interface and features. Python 3.12 through Python 3.14 is required, and a virtual environment is recommended. On Linux, embedding mode requires the `mechanical-env` script that ships with PyMechanical to be run before Python starts.
+A specialized direction such as remote sessions, pools, or the command-line interface is selected.
 
 ---
 
 ## 1. Get PyMechanical working
 
-> **Outcome:** PyMechanical is installed and a Mechanical session is started and confirmed from Python.
+> **Outcome:** PyMechanical is installed and an embedded Mechanical session is created from Python.
+
+A licensed copy of Ansys Mechanical must be installed, and the installed version determines the available interface and features. PyMechanical is compatible with Mechanical 2024 R2 and later on Windows and Linux.
 
 ### □ Install PyMechanical into a virtual environment
 
 **Activity**
 
-The `ansys-mechanical-core` package is installed from PyPI into a virtual environment. Optional extras are added only when the associated capability is needed.
+Create and activate a virtual environment, then install the `ansys-mechanical-core` package. Python 3.12 through Python 3.14 on Windows, Linux, and macOS is supported.
 
 **Example**
 
 ```bash
 python -m venv .venv
-# Windows: .venv\Scripts\activate    Linux/macOS: source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
+# Linux and macOS
+source .venv/bin/activate
 pip install ansys-mechanical-core
-```
-
-Optional extras are installed with the base package when needed:
-
-```bash
-pip install ansys-mechanical-core[graphics]   # 3D visualization support
-pip install ansys-mechanical-core[mcp]        # AI assistant integration via PyMechanical-MCP
 ```
 
 **Complete when**
 
-The command completes without error and `pip show ansys-mechanical-core` reports an installed version in the active virtual environment.
+The environment is active and `pip show ansys-mechanical-core` reports a version.
 
 **Keep**
 
-A record of the created virtual environment and the installed package version.
+A short note recording the Python version and the installed PyMechanical version.
 
 [PyMechanical installation guide](https://mechanical.docs.pyansys.com/version/stable/getting_started/installation.html)
 
-### □ Verify that PyMechanical finds the Mechanical installation
+### □ Confirm that Mechanical can be located
 
 **Activity**
 
-The Mechanical installation is located from Python so that later launches resolve the correct executable. When Ansys is installed in a non-default location, the path is saved once.
+Confirm that a licensed Ansys Mechanical installation is present and that PyMechanical can find it. The installed version determines the features that are available.
 
 **Example**
 
 ```python
 from ansys.tools.common.path import find_mechanical
 
-# Returns the executable path and the numeric version, for example 26.1
-executable_path, version = find_mechanical()
-print(executable_path, version)
+find_mechanical()
+# ('C:/Program Files/ANSYS Inc/v261/aisol/bin/winx64/AnsysWBU.exe', 26.1)  # Windows
 ```
 
 **Complete when**
 
-`find_mechanical()` returns a valid executable path and a version number that matches the installed Ansys Mechanical release.
+`find_mechanical()` returns a path and a version number.
 
 **Keep**
 
-The resolved executable path and version for reuse in later launch calls.
+The reported Mechanical path and version.
 
-[Verify your installation](https://mechanical.docs.pyansys.com/version/stable/getting_started/installation.html#verify-your-installation)
+[Verify your installation](https://mechanical.docs.pyansys.com/version/stable/getting_started/installation.html)
 
-### □ Start a first Mechanical session and print its banner
+### □ Start Python and import PyMechanical
 
 **Activity**
 
-A first session is started in the chosen mode and the returned object is printed to confirm a live connection. Embedding mode is started with the `App` class and remote session mode is started with the `launch_mechanical` function.
+Open a Python interpreter in the active environment and import the `App` class. Importing is a separate, concrete step from creating a session. On Linux, Python is started with `mechanical-env python` so the required environment is set before Python starts.
 
 **Example**
 
-Embedding mode starts Mechanical inside the Python process:
+```python
+from ansys.mechanical.core import App
+```
+
+**Complete when**
+
+The import returns without error.
+
+**Keep**
+
+The import line, which begins every embedding script.
+
+[Running Mechanical](https://mechanical.docs.pyansys.com/version/stable/getting_started/running_mechanical.html)
+
+### □ Create an embedded Mechanical session
+
+**Activity**
+
+Create an embedded Mechanical instance with the `App` class and print it to confirm it started. Passing `globals()` to the constructor makes the Mechanical scripting entry points such as `Model` and `DataModel` available without the `app.` prefix.
+
+**Example**
 
 ```python
 from ansys.mechanical.core import App
 
-app = App()
-print(app)   # Prints the Mechanical banner, product, and version
-```
-
-Remote session mode starts Mechanical as a separate server process:
-
-```python
-from ansys.mechanical.core import launch_mechanical
-
-mechanical = launch_mechanical()
-print(mechanical)   # Prints the Mechanical banner, product, and version
-```
-
-On Linux, embedding mode requires `mechanical-env` before Python starts:
-
-```shell
-mechanical-env python
+app = App(globals=globals())
+print(app)
+# Ansys Mechanical [Ansys Mechanical Enterprise]
+# Product Version: 261
 ```
 
 **Complete when**
 
-The printed banner shows the Ansys Mechanical product name and a version that matches the installed release.
+The session prints its product name and version.
 
 **Keep**
 
-The captured banner output as evidence of a working session.
+The working session-creation script.
 
-[Launching PyMechanical](https://mechanical.docs.pyansys.com/version/stable/getting_started/running_mechanical.html)
+[Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
 
-**Stage outcome:** PyMechanical is installed and a verified Mechanical session can be started from Python.
+**Stage outcome:** PyMechanical is installed and an embedded Mechanical session is created and confirmed from Python.
 
 ---
 
 ## 2. Understand the control model
 
-> **Outcome:** The embedding and remote session models are distinguished and the correct mode is chosen for a given workflow.
+> **Outcome:** The Mechanical object model is navigated and read through the `App` entry points.
 
-### □ Compare embedding mode and remote session mode
-
-**Activity**
-
-The two interaction models are compared so that a mode is chosen deliberately. Embedding mode runs Mechanical inside the Python process through .NET interop and exposes the full create, read, update, and delete (CRUD) object model directly. Remote session mode runs Mechanical as a separate server process over gRPC and sends commands as strings through `run_python_script()`.
-
-**Example**
-
-Embedding mode reads and writes the object model directly:
-
-```python
-from ansys.mechanical.core import App
-
-app = App(globals=globals())
-named_selection = Model.AddNamedSelection()   # Direct object access
-named_selection.Name = "Inlet_face"
-print(named_selection.Name)                    # Reads a property back
-```
-
-Remote session mode sends a script string and receives a string result:
-
-```python
-from ansys.mechanical.core import launch_mechanical
-
-mechanical = launch_mechanical()
-project_directory = mechanical.run_python_script(
-    "ExtAPI.DataModel.Project.ProjectDirectory"
-)
-print(project_directory)
-```
-
-**Complete when**
-
-A short written note records at least three differences, such as process model, application programming interface (API) style, and graphical user interface (GUI) support, and states which mode exposes the full object model.
-
-**Keep**
-
-The comparison note recording the chosen mode and the reason.
-
-[Choose your mode](https://mechanical.docs.pyansys.com/version/stable/getting_started/choose_your_mode.html)
-
-### □ Access the scripting entry points in embedding mode
+### □ Add an analysis and read the model tree
 
 **Activity**
 
-The Mechanical scripting entry points are accessed from Python so that the object model can be traversed. Passing `globals()` to the `App` constructor promotes the entry points to the top level, matching built-in Mechanical scripting.
+Add a static structural analysis to the model, which creates the tree branches used by every later step. The `Model` entry point is available because `globals()` was passed to the `App` constructor.
 
 **Example**
 
@@ -202,144 +164,285 @@ The Mechanical scripting entry points are accessed from Python so that the objec
 from ansys.mechanical.core import App
 
 app = App(globals=globals())
-# Entry points now available without the app prefix:
-# ExtAPI, DataModel, Model, Tree, Graphics
 analysis = Model.AddStaticStructuralAnalysis()
 print(analysis.Name)
+# Static Structural
 ```
 
 **Complete when**
 
-The script adds an analysis through a promoted entry point and prints a property that confirms the object was created in the data model.
+The analysis is added and its name is printed.
 
 **Keep**
 
-The script and the printed confirmation of the created analysis.
+The script that adds an analysis and the printed name.
 
 [Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
 
-### □ Explain the string-based remote session model
+### □ Create and rename a named selection
 
 **Activity**
 
-The remote session control model is explained by observing that commands and results are exchanged as strings and that errors are raised Pythonically. This clarifies why the full object model is not exposed remotely.
+Create a named selection through the object model and set a property on it. Direct object access is the defining feature of embedding mode.
 
 **Example**
 
 ```python
-from ansys.mechanical.core import launch_mechanical
-
-mechanical = launch_mechanical()
-result = mechanical.run_python_script("2 + 3")
-print(result)   # Returns the string result of the evaluated command
-```
-
-An invalid command raises an error immediately:
-
-```python
-mechanical.run_python_script("2****3")   # Raises grpc.RpcError: unexpected token
+named_selection = Model.AddNamedSelection()
+named_selection.Name = "fixed_face"   # readable name used later for scoping
+print(named_selection.Name)
+# fixed_face
 ```
 
 **Complete when**
 
-A short note records that remote commands and results are strings, that errors surface immediately, and that the object model is exposed directly only in embedding mode.
+The named selection is created and its new name is read back.
 
 **Keep**
 
-The note and the captured result and error behavior.
+A short list of the object-model entry points used and what each returned.
 
-[Remote session overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/remote_session/overview.html)
+[Globals and scripting entry points](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/globals.html)
 
-**Stage outcome:** The correct interaction mode can be chosen and its control model explained for a given workflow.
+### □ Choose the mode that fits the task
+
+**Activity**
+
+Review the two modes so later work uses the right one. Embedding mode gives direct object access in-process. Remote session mode runs Mechanical as a separate server over gRPC, supports the GUI, and sends Python as script strings through `run_python_script()`.
+
+**Example**
+
+```python
+# Remote session mode, for GUI, isolation, or automation
+from ansys.mechanical.core import launch_mechanical
+
+mechanical = launch_mechanical()   # separate server process over gRPC
+result = mechanical.run_python_script("2+3")
+print(result)
+# 5
+```
+
+**Complete when**
+
+The difference between the two modes is recorded and the mode for the next task is chosen.
+
+**Keep**
+
+A one-line note of which mode fits the intended workflow and why.
+
+[Choose your mode](https://mechanical.docs.pyansys.com/version/stable/getting_started/choose_your_mode.html)
+
+**Stage outcome:** The Mechanical object model is navigated and read, and the right mode for a task is chosen with reason.
 
 ---
 
 ## 3. Modify an existing workflow
 
-> **Outcome:** An official example is run unchanged and then adapted to a new requirement.
+> **Outcome:** An official example is run unchanged, then altered, and the difference in result is observed.
 
-### □ Run one official example unchanged and capture its output
-
-**Activity**
-
-One official example is run without modification so that a known-good baseline is established before any change is made. An embedding example uses the `App` class and a remote example uses `launch_mechanical()` and `run_python_script()`.
-
-**Example**
-
-The example is selected from the official galleries and run in the verified environment. An embedding example is chosen from the embedding gallery and a remote example is chosen from the remote gallery.
-
-**Complete when**
-
-The chosen example runs to completion in the verified environment and its documented output or result value is captured.
-
-**Keep**
-
-The unmodified example and the captured baseline output.
-
-[PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
-
-### □ Change one input in the example and observe the effect
+### □ Run one official embedding example unchanged
 
 **Activity**
 
-A single input in the working example is changed, such as a named selection name, a load magnitude, or a material assignment. Only one change is made so that its effect is isolated.
+Run one end-to-end embedding example from the example gallery exactly as published and capture its reported output. Some examples require a specific Mechanical license level, so a license-related failure does not necessarily indicate a PyMechanical setup problem.
 
 **Example**
-
-Starting from an embedding example, one property is changed and read back:
 
 ```python
-from ansys.mechanical.core import App
-
-app = App(globals=globals())
-named_selection = Model.AddNamedSelection()
-named_selection.Name = "Fixed_end"   # Changed input, previously a default name
-print(named_selection.Name)
+# Run one published embedding-mode example from the PyMechanical example gallery
+# unchanged, then record the result it reports.
 ```
 
 **Complete when**
 
-The modified example runs and the captured output differs from the baseline in a way that matches the single change made.
+The example completes and its reported result is saved.
 
 **Keep**
 
-The modified example, a note of the one change, and the before-and-after output.
+The unchanged script and a copy of its output.
 
-[Scripting fundamentals](https://mechanical.docs.pyansys.com/version/stable/user_guide/scripting/overview.html)
+[PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
 
-### □ Locate the API behind one line of the example
+### □ Change one input and observe the effect
 
 **Activity**
 
-One line of the example is traced to its Mechanical API so that its required inputs are understood rather than copied. The Mechanical scripting API documentation is used to confirm the object, method, or property.
+In a copy of the example, change one documented input, such as a load value or a material assignment, and compare the result with the baseline run.
 
 **Example**
 
-Example required from the content owner. The learner selects one line from the example being modified and records the API it calls, using the Mechanical scripting API documentation.
+Example input change required from the content owner, because the specific editable input depends on the chosen gallery example.
 
 **Complete when**
 
-The API used by the selected line is identified and its required inputs and return value are recorded from the documentation.
+The changed input is applied and the new result is compared with the baseline.
 
 **Keep**
 
-A short note mapping the chosen line to its documented API and inputs.
+The modified script and a two-line before-and-after comparison.
 
-[Mechanical scripting API documentation](https://scripting.mechanical.docs.pyansys.com/)
+[PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
 
-**Stage outcome:** An official example can be run, changed with intent, and traced back to its underlying Mechanical API.
+### □ Confirm a change took effect through the object model
+
+**Activity**
+
+After making a change, read the affected property back through the object model to confirm it holds the expected value.
+
+**Example**
+
+```python
+named_selection.Name = "support_face"
+print(named_selection.Name)   # confirm the change was applied
+# support_face
+```
+
+**Complete when**
+
+The property is set and the read-back confirms the new value.
+
+**Keep**
+
+The before-and-after value of the property that was changed.
+
+[Globals and scripting entry points](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/globals.html)
+
+**Stage outcome:** An official workflow is modified with intent and the resulting change is verified.
 
 ---
 
 ## 4. Run and assess a meaningful operation
 
-> **Outcome:** A complete structural analysis is set up, solved, and its results are inspected.
+> **Outcome:** An analysis is solved and a result quantity is extracted and sanity-checked.
 
-### □ Add and configure a static structural analysis
+### □ Complete a minimal analysis setup
 
 **Activity**
 
-A static structural analysis is added to the model and its objects are created through the data model. Units are set explicitly before loads and material parameters are defined.
+Starting from a loaded or imported model, complete the minimum setup needed to solve, which is an analysis, a material assignment, a mesh, and boundary conditions. Setup steps that depend on a specific model are drawn from the matching gallery example.
+
+**Example**
+
+Example setup code required from the content owner, because a complete, runnable setup depends on the specific geometry and license level used.
+
+**Complete when**
+
+The model has an analysis, a mesh, and boundary conditions defined.
+
+**Keep**
+
+The setup script up to the point of solving.
+
+[PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
+
+### □ Solve the analysis
+
+**Activity**
+
+Solve the configured analysis and confirm that the solve completes. In remote session mode, the solve is driven by sending the Mechanical solve command through `run_python_script()`.
+
+**Example**
+
+```python
+# Remote session mode example: solve through a Mechanical script string
+from ansys.mechanical.core import launch_mechanical
+
+mechanical = launch_mechanical()
+mechanical.run_python_script("Model.Analyses[0].Solution.Solve(True)")
+```
+
+**Complete when**
+
+The solve completes without error.
+
+**Keep**
+
+A note of the analysis type solved and the solve outcome.
+
+[Remote session overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/remote_session/overview.html)
+
+### □ Extract and sanity-check a result quantity
+
+**Activity**
+
+After solving, read a result quantity such as a maximum deformation or stress, and check that its value and units are physically reasonable.
+
+**Example**
+
+Example result-extraction code required from the content owner, because the exact result object depends on the analysis set up in the preceding milestone.
+
+**Complete when**
+
+A post-solution quantity is returned and its value is confirmed to be reasonable.
+
+**Keep**
+
+The extracted quantity and a one-line reasonableness check.
+
+[PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
+
+**Stage outcome:** An analysis is solved from Python and a result quantity is extracted and assessed.
+
+---
+
+## 5. Build reusable automation
+
+> **Outcome:** A parameterized function performs a full setup, solve, and result extraction from explicit inputs.
+
+### □ Wrap a setup-and-solve in a function that takes the app
+
+**Activity**
+
+Write a function that receives the `App` instance and model inputs as explicit parameters rather than reading a module-level global. Passing the app in keeps the function reusable and testable.
+
+**Example**
+
+```python
+def run_static_analysis(app, named_selection_name):
+    """Add a static structural analysis and a named selection, then return them."""
+    analysis = app.DataModel.Project.Model.AddStaticStructuralAnalysis()
+    named_selection = app.DataModel.Project.Model.AddNamedSelection()
+    named_selection.Name = named_selection_name
+    return analysis, named_selection
+```
+
+**Complete when**
+
+The function runs end to end when given an app and an input and returns the created objects.
+
+**Keep**
+
+The reusable function.
+
+[Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
+
+### □ Parameterize environment-specific inputs
+
+**Activity**
+
+Replace hard-coded file paths, names, and solve options with parameters so the automation runs on other machines without edits.
+
+**Example**
+
+```python
+def setup_from_inputs(app, geometry_path, support_name):
+    # geometry_path and support_name are supplied by the caller, not hard-coded
+    return run_static_analysis(app, support_name)
+```
+
+**Complete when**
+
+No model input is hard-coded inside the function body and all inputs arrive as arguments.
+
+**Keep**
+
+The parameterized entry point and an example call with sample inputs.
+
+### □ Manage the session lifecycle cleanly
+
+**Activity**
+
+Start one embedded session per Python process, because embedding mode supports a single instance per process, and let the process end cleanly when the work is complete. For remote sessions, `cleanup_on_exit` controls whether Mechanical exits at the end of the script.
 
 **Example**
 
@@ -347,202 +450,45 @@ A static structural analysis is added to the model and its objects are created t
 from ansys.mechanical.core import App
 
 app = App(globals=globals())
-analysis = Model.AddStaticStructuralAnalysis()
-print(analysis.Name)   # Confirms the analysis exists in the data model
+setup_from_inputs(app, geometry_path="model.agdb", support_name="fixed_face")
+# One embedded instance per Python process; the session ends when the process exits.
 ```
 
 **Complete when**
 
-The analysis appears in the model tree and its name is printed back from the data model.
+The script completes and the embedded session ends with the process.
 
 **Keep**
 
-The setup script and the confirmation that the analysis was created.
+The lifecycle pattern as a reusable template.
 
-[Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
+[Choose your mode](https://mechanical.docs.pyansys.com/version/stable/getting_started/choose_your_mode.html)
 
-### □ Solve the analysis
-
-**Activity**
-
-The configured analysis is solved after boundary conditions and loads are confirmed complete. Solving is performed only once the analysis settings are verified.
-
-**Example**
-
-Example required from the content owner for a complete, runnable solve sequence against a specific geometry. The solve step follows the model setup and precedes result inspection.
-
-**Complete when**
-
-The solver completes without error and the solved state is reflected in the model.
-
-**Keep**
-
-The solver log or completion status.
-
-[PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
-
-### □ Inspect and record the results
-
-**Activity**
-
-Results are read from the solved model so that engineering quantities are verified rather than assumed. The result values are recorded and sanity-checked against expectation.
-
-**Example**
-
-Example required from the content owner for reading specific result objects, such as total deformation and equivalent stress, from the solved model.
-
-**Complete when**
-
-At least one result quantity is read from the solved model and recorded with its units.
-
-**Keep**
-
-The recorded result values and a short note on whether they match expectation.
-
-[Scripting fundamentals](https://mechanical.docs.pyansys.com/version/stable/user_guide/scripting/overview.html)
-
-**Stage outcome:** A complete analysis can be set up, solved, and assessed from Python.
-
----
-
-## 5. Build reusable automation
-
-> **Outcome:** A parameterized, rerunnable script is produced that captures a full analysis.
-
-### □ Turn the analysis into a parameterized function
-
-**Activity**
-
-The analysis steps are collected into a function whose inputs are passed as parameters rather than captured from the global scope. Environment-specific values, such as file paths and the Mechanical version, are parameterized.
-
-**Example**
-
-```python
-from ansys.mechanical.core import App
-
-
-def build_static_structural(app: App, selection_name: str):
-    """Add a static structural analysis and a named selection to the model."""
-    analysis = app.DataModel.Project.Model.AddStaticStructuralAnalysis()
-    named_selection = app.DataModel.Project.Model.AddNamedSelection()
-    named_selection.Name = selection_name
-    return analysis, named_selection
-
-
-app = App()
-analysis, selection = build_static_structural(app, selection_name="Fixed_end")
-print(analysis.Name, selection.Name)
-```
-
-**Complete when**
-
-The function runs with supplied arguments and returns objects whose properties are printed to confirm creation, with no reliance on captured globals.
-
-**Keep**
-
-The reusable function and an example call with its output.
-
-[Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
-
-### □ Run a script from the command line
-
-**Activity**
-
-A script that omits the PyMechanical import statements is run inside Mechanical using the `ansys-mechanical` command line interface. This confirms the automation runs outside an interactive session.
-
-**Example**
-
-A script file contains only the object-model statements:
-
-```python
-# file.py
-ns = DataModel.Project.Model.AddNamedSelection()
-ns.Name = "Jarvis"
-```
-
-The script is run from the activated virtual environment:
-
-```bash
-ansys-mechanical -i file.py
-```
-
-The `-r` flag selects a specific Mechanical version when several are installed, and `-h` lists all options.
-
-**Complete when**
-
-The command runs the script inside Mechanical without error and the named selection is created.
-
-**Keep**
-
-The script file and the command output.
-
-[ansys-mechanical command line interface](https://mechanical.docs.pyansys.com/version/stable/user_guide/cli/ansys-mechanical.html)
-
-### □ Make the script rerunnable and save a checkpoint
-
-**Activity**
-
-The script is made idempotent where possible so that reruns do not corrupt state, and a project checkpoint is saved after expensive setup. This supports reliable reruns.
-
-**Example**
-
-Example required from the content owner for a project save call against a specific project. The checkpoint is saved after the setup steps complete.
-
-**Complete when**
-
-The script runs twice in succession without error and a saved project checkpoint is produced.
-
-**Keep**
-
-The rerunnable script and the saved checkpoint file.
-
-[PyMechanical user guide](https://mechanical.docs.pyansys.com/version/stable/user_guide/index.html)
-
-**Stage outcome:** A parameterized, command line runnable, rerunnable automation script is available.
+**Stage outcome:** A reusable, parameterized automation performs a full workflow and manages its session cleanly.
 
 ---
 
 ## 6. Apply it to a personal use case
 
-> **Outcome:** The automation is retargeted to a learner-supplied geometry and requirement.
+> **Outcome:** The reusable automation is pointed at a personal model and its result is validated.
 
-### □ Define a personal analysis goal and inputs
-
-**Activity**
-
-A personal analysis goal is written down with its geometry, material, boundary conditions, and the result quantity of interest. This turns the automation into a concrete engineering task.
-
-**Example**
-
-Example required from the content owner, because the geometry and requirement are supplied by the learner. The goal statement lists the geometry file, material, supports, loads, and the target result.
-
-**Complete when**
-
-A written goal states the geometry, material, boundary conditions, and the result quantity to be reported.
-
-**Keep**
-
-The goal statement and the input geometry reference.
-
-[Choose your mode](https://mechanical.docs.pyansys.com/version/stable/getting_started/choose_your_mode.html)
-
-### □ Retarget the automation to the personal geometry
+### □ Adapt the automation to a personal model
 
 **Activity**
 
-The parameterized function from stage 5 is called with the personal inputs so that the automation runs against the learner's geometry. Only the parameter values change, not the automation structure.
+Supply a personal geometry and adjust the analysis type, material, and boundary conditions to match the intended physics, confirming object names against the model tree as the script runs.
 
 **Example**
 
-Example required from the content owner, because the geometry and parameter values are learner-specific. The stage 5 function is called with the personal selection names, material, and loads.
+Example adaptation code required from the content owner, because it depends on the personal geometry and analysis chosen.
 
 **Complete when**
 
-The automation runs against the personal geometry and produces the target result quantity.
+The automation runs on the personal model and produces a result.
 
 **Keep**
 
-The parameter set used and the produced result.
+The adapted script and the list of settings that differ from the example.
 
 [PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
 
@@ -550,199 +496,173 @@ The parameter set used and the produced result.
 
 **Activity**
 
-The personal result is checked against a hand calculation, a known reference, or engineering judgement so that the automation is trusted. Any discrepancy is investigated and recorded.
+Compare the extracted result with a known reference, a hand calculation, or a prior Mechanical GUI run, and record whether it matches within tolerance.
 
 **Example**
 
-Example required from the content owner, because the reference value depends on the learner's geometry and loading.
+Example comparison data required from the content owner, because a personal reference value depends on the chosen model.
 
 **Complete when**
 
-The personal result is compared against a reference and the comparison and any corrections are recorded.
+The result is compared with a reference and the agreement or discrepancy is recorded.
 
 **Keep**
 
-The validation note comparing the computed result with the reference.
+The comparison record and any follow-up actions.
 
-[Scripting fundamentals](https://mechanical.docs.pyansys.com/version/stable/user_guide/scripting/overview.html)
-
-**Stage outcome:** The automation is trusted for a real, learner-supplied engineering task.
+**Stage outcome:** A personally relevant simulation is automated and its result is validated.
 
 ---
 
 ## 7. Use AI-assisted capabilities
 
-> **Outcome:** PyMechanical-MCP is used to drive Mechanical from an AI assistant, with every generated action validated before it is trusted.
+> **Outcome:** The Mechanical MCP server is used to launch, script, solve, and inspect Mechanical, with every generated step verified by the learner.
 
-PyMechanical-MCP is a Model Context Protocol (MCP) server that connects AI assistants to Ansys Mechanical through PyMechanical. It uses PyMechanical remote session mode over gRPC and does not use embedding mode. The AI assistant suggests tool calls, and Mechanical executes and verifies the underlying operations. These two roles are kept separate throughout this stage.
+A tool built on PyMechanical can add AI-assisted interaction on top of it. PyMechanical-MCP is such a tool. It is a Model Context Protocol (MCP) server that connects an AI assistant to Ansys Mechanical through PyMechanical, and it uses PyMechanical remote session mode over gRPC rather than embedding mode. The assistant discovers and calls tools such as `launch_mechanical`, `run_python_script`, `solve_analysis`, and `get_model_info`, while the learner verifies every generated step. The PyMechanical-MCP integration is also installable through the `mcp` optional extra of PyMechanical.
 
-### □ Install and start the PyMechanical-MCP server
+### □ Install and start the MCP server and connect an assistant
 
 **Activity**
 
-PyMechanical-MCP is installed and started so that an MCP-compatible client can reach it. The default STDIO transport is used for clients such as Visual Studio Code and Claude Code, and the Streamable HTTP transport is used for remote deployments.
+Install the MCP integration and start the server, then connect an MCP-compatible client. The detailed per-client setup is kept in the PyMechanical-MCP documentation rather than reproduced here.
 
 **Example**
 
 ```bash
-pip install ansys-mechanical-mcp
-ansys-mechanical-mcp                 # Default STDIO transport
-```
-
-The Streamable HTTP transport is used for remote or server-style deployments:
-
-```bash
-ansys-mechanical-mcp --transport http --http-host 127.0.0.1 --http-port 8080
+pip install ansys-mechanical-core[mcp]
+ansys-mechanical-mcp
 ```
 
 **Complete when**
 
-The server starts without error and an MCP-compatible client lists the offline-capable tools, such as `check_mechanical_installed` and `check_mechanical_status`.
+The MCP server is running and a client reports the available tools.
 
 **Keep**
 
-The client configuration and a record of the discovered tool list.
+A note of the client used and that the tool list was discovered.
 
-[PyMechanical-MCP installation](https://mechanical-mcp.docs.pyansys.com/version/stable/getting_started/installation.html)
+[PyMechanical-MCP quick start](https://mechanical-mcp.docs.pyansys.com/)
 
-### □ Launch or connect to Mechanical through the assistant
+### □ Check status and connect Mechanical through the assistant
 
 **Activity**
 
-A Mechanical session is established through the assistant so that live-session tools become available. The assistant is asked to check status first and then to launch or connect. Connection-dependent tools remain hidden until a session is established.
+Ask the assistant to check the installation and status with offline-capable tools, then launch or connect to Mechanical. Live-session tools stay hidden until a connection is established, which is expected behavior.
 
-**Example**
+**Example prompt**
 
-The recommended first workflow is followed through the assistant:
+> "Check whether Mechanical is installed and its current status, then launch a new Mechanical session in batch mode."
 
-1. The assistant calls `check_mechanical_status`.
-2. The assistant calls `launch_mechanical` or `connect_to_mechanical`.
-
-To connect to an existing gRPC-enabled session, the assistant calls `connect_to_mechanical` with a host and port, for example `ip=127.0.0.1` and `port=50053`.
+The assistant calls `check_mechanical_installed`, `check_mechanical_status`, and then `launch_mechanical`. The learner confirms the reported status before continuing.
 
 **Complete when**
 
-A session is established and live-session tools, such as `run_python_script` and `solve_analysis`, become available in the client.
+A Mechanical session is launched or connected through the assistant and its status is confirmed.
 
 **Keep**
 
-A record of which tool established the session and the resulting available tool set.
+The status output and the connection result.
 
-[PyMechanical-MCP quick start](https://mechanical-mcp.docs.pyansys.com/version/stable/getting_started/quick_start.html)
+[PyMechanical-MCP tools and capabilities](https://mechanical-mcp.docs.pyansys.com/)
 
-### □ Drive a bounded workflow and validate every generated action
+### □ Generate a setup script, review it, and solve
 
 **Activity**
 
-A single bounded workflow is driven through the assistant, and every generated tool call is validated against the documentation before it is trusted. The cantilever beam workflow is a suitable bounded task. Each generated `run_python_script` call is checked, the solved state is verified, and results are confirmed independently.
+Ask the assistant to generate a Mechanical setup script, review every line against the PyMechanical documentation before running it, apply it with `run_python_script`, solve with `solve_analysis`, then verify with `get_model_info`. Because these tools mutate and solve a live Mechanical session, each generated step is checked before it is trusted.
 
-**Example**
+**Example prompt**
 
-The documented cantilever beam prompt drives the workflow, and each step maps to a named tool:
+> "Generate a Mechanical script that adds a static structural analysis and a fixed support, show me the script before running it, then solve and summarize the model."
 
-```text
-Perform a static structural analysis of a cantilever beam.
-Upload the geometry file beam.step.
-
-- Material: Structural Steel (default)
-- Mesh: default mesh with element size 5 mm
-- Fixed support on the YZ face at X = -100 mm
-- Pressure load of 1,000,000 pascals on the top face (XY face at Z = +5 mm)
-- Results: Total Deformation and equivalent stress
-- Take a screenshot of the equivalent stress result
-```
-
-The tool sequence is `upload_file`, then `run_python_script` for material, mesh, supports, and loads, then `solve_analysis`, then `screenshot`. After the run, `get_model_info` verifies the solved state and `get_mechanical_logs` surfaces warnings and errors. The `get_guidelines_for` tool is called at workflow boundaries, such as `meshing` and `analysis_setup`, to keep generated commands aligned with Mechanical practice.
+The assistant uses `get_guidelines_for` for the relevant topic, generates the script, and the learner reviews it against the object-model documentation. The script is applied with `run_python_script`, solved with `solve_analysis`, and verified with `get_model_info`, and any corrections the learner made are recorded.
 
 **Complete when**
 
-The workflow completes, the maximum deformation is observed at the free end with stress concentrated at the fixed support, and every generated tool call has been checked against the documentation with any corrections recorded.
+The reviewed script is applied, the analysis is solved, and the model summary confirms the result, and any corrections are recorded.
 
 **Keep**
 
-The original prompt, the generated tool calls, the corrections made, the solved-state check from `get_model_info`, and the exported result or screenshot.
+The original prompt, the generated script, the corrected script, the solve outcome, and the `get_model_info` summary.
 
-[PyMechanical-MCP tools and capabilities](https://mechanical-mcp.docs.pyansys.com/version/stable/user_guide/tools_and_capabilities.html)
+[PyMechanical-MCP best practices](https://mechanical-mcp.docs.pyansys.com/)
 
-**Human verification is required.** Generated code, tool arguments, engineering assumptions, numerical results, and screenshots are verified by the learner. `get_model_info` and `get_mechanical_logs` are used to confirm the solved state and to surface warnings before any result is trusted. MCP-suggested actions are treated as drafts, and Mechanical execution is treated as the source of truth.
-
-**Stage outcome:** An AI assistant can drive a bounded Mechanical workflow through PyMechanical-MCP, with the learner validating every generated action.
+**Stage outcome:** The Mechanical MCP server is used to drive a full launch-to-solve workflow, and every generated step is verified before it is trusted.
 
 ---
 
 ## 8. Choose an advanced pathway
 
-> **Outcome:** An advanced specialization is selected and its first capability is demonstrated.
+> **Outcome:** One specialized direction is selected and a first concrete task in it is completed.
 
-### □ Optional pathway: run multiple instances with a remote pool
-
-**Activity**
-
-Multiple simultaneous Mechanical instances are managed with `LocalMechanicalPool` so that batches of analyses run concurrently in remote session mode.
-
-**Example**
-
-Example required from the content owner for a complete pool workflow. Remote session mode supports multiple instances through `LocalMechanicalPool`, unlike embedding mode, which allows one instance per Python process.
-
-**Complete when**
-
-More than one Mechanical instance is launched through a pool and a task is dispatched to each.
-
-**Keep**
-
-The pool script and the per-instance results.
-
-[Remote session pool](https://mechanical.docs.pyansys.com/version/stable/user_guide/remote_session/pool.html)
-
-### □ Optional pathway: control licensing programmatically
+### □ Pathway: remote sessions and the GUI
 
 **Activity**
 
-License checkout is controlled with the `LicenseManager` class so that specific licenses are selected and idle licenses are released. License management features require Ansys Mechanical 2025 R2 or later.
+Launch Mechanical as a remote session with the GUI enabled and send a command through `run_python_script()`.
 
 **Example**
 
 ```python
-from ansys.mechanical.core import App
+from ansys.mechanical.core import launch_mechanical
 
-# Start in read-only mode without checking out a license
-app = App(readonly=True)
-app.license_manager.show()                       # List licenses and status
-app.license_manager.enable_session_license("Ansys Mechanical Premium")
-print(app.readonly)                              # False once a license is checked out
+mechanical = launch_mechanical(batch=False)   # GUI session
+print(mechanical.run_python_script("ExtAPI.DataModel.Project.ProjectDirectory"))
 ```
 
 **Complete when**
 
-A license is inspected, checked out for the session, and released, with the read-only status confirmed at each step.
+A remote GUI session starts and a command returns a result.
 
 **Keep**
 
-The licensing script and the recorded read-only status transitions.
+The remote-session script and its output.
 
-[License management](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/licensing.html)
+[Remote session overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/remote_session/overview.html)
 
-### □ Optional pathway: deploy in Docker or CI/CD
+### □ Pathway: multiple instances with a pool
 
 **Activity**
 
-Remote session mode is deployed in a container or continuous integration pipeline so that analyses run in an isolated, reproducible environment. Remote session mode is the recommended mode for CI/CD and Docker.
+Explore running several Mechanical instances at once with a local pool for throughput.
 
 **Example**
 
-Example required from the content owner for a specific container or pipeline definition. The Docker setup guide provides the container configuration for remote session mode.
+Example pool code required from the content owner for a specific multi-instance task.
 
 **Complete when**
 
-A containerized or pipeline run launches Mechanical in remote session mode and completes an analysis without manual intervention.
+More than one instance runs under a pool and a task is dispatched.
 
 **Keep**
 
-The container or pipeline definition and the run log.
+The chosen pool configuration and the first script produced.
 
-[Docker setup](https://mechanical.docs.pyansys.com/version/stable/getting_started/docker.html)
+[Remote session user guide](https://mechanical.docs.pyansys.com/version/stable/user_guide/remote_session/overview.html)
 
-**Stage outcome:** An advanced specialization is selected and its first capability is demonstrated.
+### □ Pathway: the command-line interface
+
+**Activity**
+
+Run a PyMechanical embedding script from the command line with the `ansys-mechanical` command, which is useful for batch and automation.
+
+**Example**
+
+```bash
+ansys-mechanical -i file.py
+```
+
+**Complete when**
+
+A script runs to completion through the command-line interface.
+
+**Keep**
+
+The command used and the script it ran.
+
+[Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
+
+**Stage outcome:** A specialized pathway is chosen and a first task in it is completed.
 
 ---
 
@@ -752,43 +672,39 @@ For troubleshooting and support:
 
 - **Documentation and resources:** The [Synopsys Developer Portal](https://developer.synopsys.com/) is the central entry point.
 - **Usage questions:** Questions about how to use the library are posted on the [Synopsys Developer Forum](https://developerforum.synopsys.com/).
-- **Development questions:** Questions about developing or contributing to the library are raised on the project's [GitHub repository](https://github.com/ansys/pymechanical).
-
-Product-specific launch, licensing, and connection issues are also covered in the PyMechanical troubleshooting guide.
-
-[PyMechanical troubleshooting](https://mechanical.docs.pyansys.com/version/stable/getting_started/troubleshooting.html)
+- **Development questions:** Questions about developing or contributing to the library are raised on the project's GitHub repository, [PyMechanical on GitHub](https://github.com/ansys/pymechanical).
 
 ## Reference shelf
 
 ### Essential documentation
 
 - [PyMechanical documentation](https://mechanical.docs.pyansys.com/)
-- [PyMechanical getting started](https://mechanical.docs.pyansys.com/version/stable/getting_started/index.html)
-- [PyMechanical user guide](https://mechanical.docs.pyansys.com/version/stable/user_guide/index.html)
-- [PyMechanical architecture](https://mechanical.docs.pyansys.com/version/stable/architecture.html)
-- [Mechanical scripting API documentation](https://scripting.mechanical.docs.pyansys.com/)
+- [PyMechanical installation guide](https://mechanical.docs.pyansys.com/version/stable/getting_started/installation.html)
+- [Choose your mode](https://mechanical.docs.pyansys.com/version/stable/getting_started/choose_your_mode.html)
+- [Running Mechanical](https://mechanical.docs.pyansys.com/version/stable/getting_started/running_mechanical.html)
+- [Embedding mode overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/embedding/overview.html)
+- [Remote session overview](https://mechanical.docs.pyansys.com/version/stable/user_guide/remote_session/overview.html)
 
 ### Official examples
 
 - [PyMechanical examples](https://mechanical.docs.pyansys.com/version/stable/examples/index.html)
-- [Embedding mode examples](https://embedding.examples.mechanical.docs.pyansys.com/examples/index.html)
-- [Remote session mode examples](https://examples.mechanical.docs.pyansys.com/examples/index.html)
+
+### Optional training
+
+- [Exploring PyMechanical access methods: a brief overview (Synopsys Developer Portal)](https://developer.synopsys.com/blog/exploring-pymechanical-access-methods-brief-overview)
+- [PyAnsys Training: Overview of PyMAPDL and PyMechanical](https://www.youtube.com/watch?v=Qh4Y07OZdms)
 
 ### AI-related resources
 
 - [PyMechanical-MCP documentation](https://mechanical-mcp.docs.pyansys.com/)
-- [PyMechanical-MCP overview](https://mechanical-mcp.docs.pyansys.com/version/stable/user_guide/overview.html)
-- [PyMechanical-MCP tools and capabilities](https://mechanical-mcp.docs.pyansys.com/version/stable/user_guide/tools_and_capabilities.html)
-- [PyMechanical-MCP best practices](https://mechanical-mcp.docs.pyansys.com/version/stable/user_guide/best_practices.html)
 
 ### Source and contribution
 
 - [PyMechanical GitHub repository](https://github.com/ansys/pymechanical)
-- [PyMechanical-MCP GitHub repository](https://github.com/ansys/pymechanical-mcp)
-- [PyMechanical discussions](https://github.com/ansys/pymechanical/discussions)
+- [PyMechanical-MCP GitHub discussions](https://github.com/ansys/pymechanical-mcp/discussions)
 
 ## Sources
 
-- PyMechanical documentation (https://mechanical.docs.pyansys.com/): index, getting started, installation, choose your mode, running Mechanical, architecture, embedding overview, remote session overview, scripting fundamentals, licensing, command line interface, examples index, and user guide index.
-- PyMechanical-MCP documentation (https://mechanical-mcp.docs.pyansys.com/): index, installation, quick start, overview, tools and capabilities, best practices, and the cantilever beam workflow example.
-- Ansys Developer Product Guide, Structures section, Ansys Mechanical and MAPDL developer tools.
+- PyMechanical documentation (https://mechanical.docs.pyansys.com/) — index, installation, choose your mode, running Mechanical, embedding overview, globals, remote session overview, and examples pages.
+- PyMechanical-MCP documentation (https://mechanical-mcp.docs.pyansys.com/) — index, overview, quick start, tools and capabilities, and best practices pages.
+- Developer Product Guide, Structures section — Ansys Mechanical and MAPDL developer tooling and training links.

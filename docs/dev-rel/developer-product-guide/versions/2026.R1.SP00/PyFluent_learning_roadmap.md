@@ -1,307 +1,116 @@
 # PyFluent learning roadmap
 
-PyFluent is the open-source Python interface to Ansys Fluent, the computational fluid dynamics (CFD) software. This roadmap measures capability rather than page visits. Each milestone produces a demonstrable skill, an observable result, or a reusable artifact. PyFluent is compatible with the full set of Fluent versions officially supported at its release date, and Fluent versions before 2024 R2 are supported only by PyFluent 0.37 and earlier.
+PyFluent (`ansys-fluent-core`) is the open-source Python interface to Ansys Fluent. It is used to automate, customize, and streamline computational fluid dynamics (CFD) workflows from Python, covering simulation setup, execution, monitoring, and results extraction. This roadmap builds the capability to drive a real Fluent session from Python, one concrete step at a time.
 
 ## Your learning journey
 
 **1. Get it working**  
-PyFluent is installed and a first Fluent session is obtained with a factory method and verified.
+A Fluent solver session is created from Python and a case file is loaded.
 
 **2. Understand the control model**  
-Meshing and solver sessions are distinguished, and settings are read and written through the object tree.
+The settings tree and field data objects are navigated and read with confidence.
 
 **3. Modify an existing workflow**  
-A working official example is run unchanged and then adapted to a new requirement.
+An official example is changed and the effect is observed.
 
 **4. Run and assess a meaningful operation**  
-A case is read, initialized, solved, and a result quantity is extracted and checked.
+A case is solved and a result quantity is extracted and checked.
 
 **5. Build reusable automation**  
-A parameterized, session-passing function is produced that captures a full case run.
+A parameterized function drives a full setup-and-solve from inputs.
 
 **6. Apply it to a personal use case**  
-The automation is retargeted to a learner-supplied case or mesh and requirement.
+The automation is pointed at a personal case and validated.
 
 **7. Use AI-assisted capabilities**  
-A tool built on PyFluent is used to drive Fluent from an AI assistant, with every generated action validated.
+A tool built on PyFluent is used to discover, generate, and validate settings code.
 
 **8. Choose an advanced pathway**  
-An advanced specialization is selected, such as containerized launch, parallel execution, or field-data post-processing.
-
----
-
-## Prerequisites
-
-> **Outcome:** The environment required by every later stage is confirmed present.
-
-A licensed local installation of Ansys Fluent is required to benefit fully from PyFluent, and the installed version determines the available features. Python 3.10 through Python 3.14 is required on Windows, Linux, or macOS, and a virtual environment is recommended. PyFluent locates the Ansys installation through an environment variable, such as `AWP_ROOT252`. On Windows the Ansys installer sets this variable, and on Linux it is exported manually, for example `export AWP_ROOT252=/usr/ansys_inc/v252`.
+A specialized direction such as meshing, field data, or parametric study is selected.
 
 ---
 
 ## 1. Get PyFluent working
 
-> **Outcome:** PyFluent is installed and a Fluent session is obtained with a factory method and confirmed from Python.
+> **Outcome:** A Fluent solver session is created from Python and a case file is read.
 
-### □ Install PyFluent into a virtual environment
+A licensed installation of Ansys Fluent is required to benefit fully from PyFluent, and the installed Fluent version determines which features are available. PyFluent also connects to remote and containerized Fluent, so the installation is not assumed to be on the same machine as every workflow.
+
+### □ Install PyFluent into a clean environment
 
 **Activity**
 
-The `ansys-fluent-core` package is installed from PyPI into a virtual environment so that it does not conflict with other packages.
+Create and activate a virtual environment, then install the `ansys-fluent-core` package. Python 3.10 through Python 3.14 on Windows, macOS, and Linux is supported.
 
 **Example**
 
-```bash
+```console
 python -m venv .venv
-# Windows: .venv\Scripts\activate    Linux/macOS: source .venv/bin/activate
+# Windows
+.venv\Scripts\activate
+# Linux and macOS
+source .venv/bin/activate
 python -m pip install ansys-fluent-core
 ```
 
 **Complete when**
 
-The command completes without error and `pip show ansys-fluent-core` reports an installed version in the active virtual environment.
+The environment is active and `pip show ansys-fluent-core` reports a version.
 
 **Keep**
 
-A record of the created virtual environment and the installed package version.
+A short note recording the Python version and the installed PyFluent version.
 
-[PyFluent installation](https://fluent.docs.pyansys.com/version/stable/getting_started/installation.html)
+[PyFluent installation guide](https://fluent.docs.pyansys.com/version/stable/getting_started/installation.html)
 
-### □ Confirm that Fluent is discoverable
+### □ Confirm that Fluent can be located
 
 **Activity**
 
-The Ansys installation is made discoverable to PyFluent by confirming the Ansys root environment variable so that a session can be launched. The variable name encodes the release, for example `AWP_ROOT252` for Ansys 2025 R2.
+Confirm that a licensed Ansys Fluent installation is present and that PyFluent can find it. PyFluent locates the installation through an Ansys environment variable such as `AWP_ROOT252`. On Windows the installer sets this variable and on Linux it is set in the shell.
 
 **Example**
 
-On Linux, the variable is exported for the current shell session:
-
-```bash
+```console
+# Linux: point PyFluent at the Fluent 2025 R2 installation
 export AWP_ROOT252=/usr/ansys_inc/v252
 ```
 
-On Windows, the Ansys installer sets the variable, so its presence is confirmed rather than set.
-
 **Complete when**
 
-The Ansys root environment variable for the installed release is present in the shell that runs Python.
+The environment variable for the installed Fluent version is set and points at the installation directory.
 
 **Keep**
 
-A note of the release and the environment variable used.
+The exact environment variable name and path for the installed version.
 
 [Fluent installation and location](https://fluent.docs.pyansys.com/version/stable/getting_started/installation.html)
 
-### □ Obtain a solver session with a factory method
+### □ Start Python and import PyFluent
 
 **Activity**
 
-A solver session is obtained with the recommended `from_install()` factory method so that Fluent is launched from the local installation. The factory methods on a session type are the recommended entry points for new code.
+Open a Python interpreter in the active environment and import PyFluent. Importing the package is a separate, concrete step from creating a session.
 
 **Example**
 
 ```python
 import ansys.fluent.core as pyfluent
-
-solver_session = pyfluent.Solver.from_install()
-print(solver_session)   # Confirms a live solver session
-solver_session.exit()   # Ends the PyFluent session and the Fluent process
 ```
 
 **Complete when**
 
-The session object is created without error, printing it confirms a live session, and `exit()` cleanly ends it.
+The import returns without error.
 
 **Keep**
 
-The script and the captured session confirmation.
+The import line, which begins every PyFluent script.
 
-[Launching and connecting to Fluent](https://fluent.docs.pyansys.com/version/stable/user_guide/session/launching_ansys_fluent.html)
-
-**Stage outcome:** PyFluent is installed and a verified solver session can be obtained with a factory method.
-
----
-
-## 2. Understand the control model
-
-> **Outcome:** Meshing and solver sessions are distinguished, and settings are read and written through the object tree.
-
-### □ Obtain a meshing session and a solver session
+### □ Create a solver session and read a case
 
 **Activity**
 
-A meshing session and a solver session are obtained with factory methods so that the two session types are distinguished. Meshing prepares the mesh and the solver runs the calculation. A pure meshing session is available for minimal server images.
-
-**Example**
-
-```python
-import ansys.fluent.core as pyfluent
-
-meshing_session = pyfluent.Meshing.from_install()
-solver_session = pyfluent.Solver.from_install()
-
-# A meshing session can be switched to a solver session on the same Fluent instance
-switched_solver = meshing_session.switch_to_solver()
-```
-
-**Complete when**
-
-Both session types are created and a short note records that meshing prepares the mesh while the solver runs the calculation, and that `switch_to_solver()` reuses the same Fluent instance.
-
-**Keep**
-
-The note and the script that creates each session type.
-
-[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
-
-### □ Read and write a setting through the object tree with an enum value
-
-**Activity**
-
-A solver setting is read and written through the settings object tree so that the object-model control style is understood. An intermediate settings object is bound once and reused rather than repeating a long attribute chain, and allowed values are queried before writing.
-
-**Example**
-
-```python
-import ansys.fluent.core as pyfluent
-
-setup = pyfluent.solver.Setup(settings_source=solver_session)
-solver_time = setup.general.solver.time      # Bind the settings object once
-print(solver_time.get_state())               # 'steady'
-print(solver_time.allowed_values())          # ['steady', 'unsteady-1st-order']
-solver_time.set_state("unsteady-1st-order")  # Write a value from the allowed set
-```
-
-**Complete when**
-
-A setting is read with `get_state()`, its permitted values are listed with `allowed_values()`, and a new value from that set is written and confirmed.
-
-**Keep**
-
-The script and the before-and-after states.
-
-[Applying solution settings](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/solution.html)
-
-### □ Use an active session with the context manager
-
-**Activity**
-
-The `using(session)` context manager is used so that top-level settings objects are called without passing the session on every call. The viscous model is set through its settings object, illustrating the enum-style API. Settings trees are inactive outside an active session, so the work is done inside the `with` block.
-
-**Example**
-
-```python
-from ansys.fluent.core import using
-from ansys.fluent.core.solver import ReadCase, Viscous
-
-with using(solver_session):
-    ReadCase()(file_name=case_file)      # Read a case with the dedicated object
-    print(Viscous().model())             # Read the viscous model
-    Viscous().model.set_state("laminar") # Set the viscous model
-    print(Viscous().model())             # laminar
-```
-
-**Complete when**
-
-A case is read and the viscous model is read and set inside a single `with using(solver_session)` block, and the changed value is printed.
-
-**Keep**
-
-The script and the printed model states.
-
-[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
-
-**Stage outcome:** Meshing and solver sessions are distinguished, and settings are read and written through the object tree.
-
----
-
-## 3. Modify an existing workflow
-
-> **Outcome:** An official example is run unchanged and then adapted to a new requirement.
-
-### □ Run one official example unchanged and capture its output
-
-**Activity**
-
-One official example is run without modification so that a known-good baseline is established before any change is made. An example that uses settings objects is preferred, such as the mixing elbow or exhaust system settings-API examples.
-
-**Example**
-
-The example is selected from the official gallery and run in the verified environment. The mixing elbow settings-API example and the fault-tolerant exhaust system settings-API example are suitable starting points.
-
-**Complete when**
-
-The chosen example runs to completion in the verified environment and its documented output or a final result value is captured.
-
-**Keep**
-
-The unmodified example and the captured baseline output.
-
-[PyFluent examples gallery](https://fluent.docs.pyansys.com/version/stable/examples/index.html)
-
-### □ Change one setting in the example and observe the effect
-
-**Activity**
-
-A single setting in the working example is changed through the settings object tree, such as the turbulence model or a solver control, and its permitted values are checked before writing. Only one change is made so that its effect is isolated.
-
-**Example**
-
-```python
-import ansys.fluent.core as pyfluent
-
-methods = pyfluent.solver.Methods(settings_source=solver_session)
-flow_scheme = methods.p_v_coupling.flow_scheme   # Bind once
-print(flow_scheme.allowed_values())              # ['SIMPLE', 'SIMPLEC', 'PISO', 'Coupled']
-flow_scheme.set_state("Coupled")                 # Single changed setting
-```
-
-**Complete when**
-
-The modified example runs and the captured output differs from the baseline in a way that matches the single change made.
-
-**Keep**
-
-The modified example, a note of the one change, and the before-and-after output.
-
-[Applying solution settings](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/solution.html)
-
-### □ Locate the API behind one line of the example
-
-**Activity**
-
-One line of the example is traced to its settings path so that its required inputs are understood rather than copied. The Python `help()` function and `allowed_values()` are used to confirm the object and its permitted inputs.
-
-**Example**
-
-```python
-# Inspect the dedicated read_case method used by the example
-help(solver_session.settings.file.read_case)
-```
-
-**Complete when**
-
-The settings object used by the selected line is identified and its required inputs are recorded from `help()` or `allowed_values()`.
-
-**Keep**
-
-A short note mapping the chosen line to its settings object and inputs.
-
-[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
-
-**Stage outcome:** An official example can be run, changed with intent, and traced back to its underlying settings API.
-
----
-
-## 4. Run and assess a meaningful operation
-
-> **Outcome:** A case is read, initialized, solved, and a result quantity is extracted and checked.
-
-### □ Read a case and initialize the solution
-
-**Activity**
-
-A case file is read with the dedicated `file.read_case` method and the solution is initialized so that the model is ready to solve. The case file path is parameterized rather than hard-coded.
+Create a solver session from the installed Fluent, then read a downloaded example case. The promoted way to obtain a session is the `from_install()` call on the session type. A failed launch raises an exception rather than returning a status to check, so no return value is tested to decide whether Fluent started.
 
 **Example**
 
@@ -310,49 +119,93 @@ import ansys.fluent.core as pyfluent
 from ansys.fluent.core.examples import download_file
 
 case_file_name = download_file("mixing_elbow.cas.h5", "pyfluent/mixing_elbow")
-solver_session = pyfluent.Solver.from_install()
-solver_session.settings.file.read_case(file_name=case_file_name)
-solver_session.settings.solution.initialization.hybrid_initialize()
+solver_session = pyfluent.Solver.from_install(case_file_name=case_file_name)
+
+# Confirm the case is loaded by reading a known setting
+energy = pyfluent.solver.Energy(settings_source=solver_session)
+print(energy.enabled.get_state())
+# True
 ```
 
 **Complete when**
 
-The case reads without error and hybrid initialization completes.
+A solver session object exists and a setting such as the energy model state is printed.
 
 **Keep**
 
-The setup script and a confirmation that initialization completed.
+The working session-creation script.
 
 [Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
 
-### □ Run the calculation
+**Stage outcome:** A Fluent solver session is created from Python and an example case is loaded.
+
+---
+
+## 2. Understand the control model
+
+> **Outcome:** The settings tree and field data objects are navigated, read, and changed through the documented API.
+
+### □ Explore the settings tree of a live session
 
 **Activity**
 
-The solver is run for a bounded number of iterations so that a converging solution is produced. The iteration count is parameterized.
+List the children of a session to see the `settings` and `fields` branches, then read a setting through a settings object. Binding an intermediate settings object once keeps code readable and avoids repeating long attribute chains.
 
 **Example**
 
 ```python
-solution = solver_session.settings.solution
-solution.run_calculation.iterate(iter_count=100)
+# Bind the setup object once, then read from it
+setup = pyfluent.solver.Setup(settings_source=solver_session)
+solver_time = setup.general.solver.time
+print(solver_time.get_state())
+# 'steady'
+print(solver_time.allowed_values())
+# ['steady', 'unsteady-1st-order']
 ```
 
 **Complete when**
 
-The requested iterations complete without error and residual output is produced.
+A setting value and its allowed values are printed from a bound settings object.
 
 **Keep**
 
-The iteration log or a note of the residual behavior.
+A short list of the settings paths explored and their current values.
 
-[Applying solution settings](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/solution.html)
+[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
 
-### □ Extract and record a result quantity
+### □ Use the active-session context manager
 
 **Activity**
 
-A field or reduction quantity is extracted from the solved case and recorded so that an engineering result is verified rather than assumed. Scalar field data is requested with a `VariableCatalog` descriptor rather than a raw field-name string.
+Use `using(session)` to make a session active inside a `with` block so top-level settings objects operate on it without being passed each time. The active session is restored when the block exits, including when an exception is raised.
+
+**Example**
+
+```python
+from ansys.fluent.core import using
+from ansys.fluent.core.solver import ReadCase, Energy
+
+with using(solver_session):
+    ReadCase()(file_name=case_file_name)
+    print(Energy().enabled())
+# True
+```
+
+**Complete when**
+
+A setting is read and a value is printed from inside a `with using(solver_session)` block.
+
+**Keep**
+
+The context-manager snippet as a template for later scripts.
+
+[Context manager for active sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+
+### □ Request field data with typed descriptors
+
+**Activity**
+
+Read a scalar field through a request object and name the variable with the `VariableCatalog` descriptor rather than a raw string. Typed descriptors are the form used prominently in the documentation and are discoverable by editor autocomplete.
 
 **Example**
 
@@ -362,321 +215,173 @@ from ansys.fluent.core.solver import VelocityInlet
 from ansys.units import VariableCatalog
 
 field_data = solver_session.fields.field_data
-pressure_request = ScalarFieldDataRequest(
+
+absolute_pressure_request = ScalarFieldDataRequest(
     field_name=VariableCatalog.ABSOLUTE_PRESSURE,
     surfaces=[VelocityInlet(settings_source=solver_session, name="inlet")],
 )
-pressure_data = field_data.get_field_data(pressure_request)
-print(pressure_data["inlet"].shape)   # For example (389,)
+absolute_pressure_data = field_data.get_field_data(absolute_pressure_request)
+print(absolute_pressure_data["inlet"].shape)
+# (389,)
 ```
 
 **Complete when**
 
-At least one result quantity is extracted from the solved case and recorded with its shape or value.
+A field-data array is returned and its shape is printed.
 
 **Keep**
 
-The recorded result and a short note on whether it matches expectation.
+The field-data request script and the printed array shape.
 
-[Field data](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
+[Field data guide](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
 
-**Stage outcome:** A case can be read, initialized, solved, and assessed from Python.
+**Stage outcome:** Settings and field data are navigated and read through the documented, typed API.
 
 ---
 
-## 5. Build reusable automation
+## 3. Modify an existing workflow
 
-> **Outcome:** A parameterized, session-passing function is produced that captures a full case run.
+> **Outcome:** An official example is run unchanged, then altered, and the difference in result is observed.
 
-### □ Wrap the case run in a function that takes the session as a parameter
+### □ Run one official example unchanged
 
 **Activity**
 
-The read, initialize, and solve steps are collected into a function that receives the session and other inputs as explicit parameters. The function does not rely on a captured global session, and file paths and iteration counts are parameterized.
+Run one end-to-end example, such as the mixing elbow settings-API example, exactly as published and capture its documented output.
+
+**Example**
+
+```python
+# Run the published "Fluent setup and solution using settings objects" example
+# unchanged from the PyFluent example gallery, then record its reported output.
+```
+
+**Complete when**
+
+The example completes without error and its reported result is saved.
+
+**Keep**
+
+The unchanged script and a copy of its output.
+
+[PyFluent example gallery](https://fluent.docs.pyansys.com/version/stable/examples/index.html)
+
+### □ Change one boundary condition and observe the effect
+
+**Activity**
+
+In a copy of the example, change one documented boundary-condition input, such as the cold inlet velocity, and compare the result with the baseline run. Bind the inlet object once and set state through it.
 
 **Example**
 
 ```python
 import ansys.fluent.core as pyfluent
+from ansys.fluent.core import examples
 
-
-def run_case(solver_session, case_file_name: str, iter_count: int = 100):
-    """Read a case, initialize, and iterate on the supplied solver session."""
-    solver_session.settings.file.read_case(file_name=case_file_name)
-    solver_session.settings.solution.initialization.hybrid_initialize()
-    solver_session.settings.solution.run_calculation.iterate(iter_count=iter_count)
-    return solver_session
-
-
+file_name = examples.download_file("mixing_elbow.cas.h5", "pyfluent/mixing_elbow")
 solver_session = pyfluent.Solver.from_install()
-run_case(solver_session, case_file_name="mixing_elbow.cas.h5", iter_count=50)
+solver_session.settings.file.read_case(file_name=file_name)
+
+cold_inlet = pyfluent.solver.VelocityInlet(settings_source=solver_session, name="cold-inlet")
+cold_inlet.momentum.velocity.set_state(0.4)   # inlet velocity in m/s
+cold_inlet.thermal.temperature.set_state(293.15)  # inlet temperature in K
 ```
 
 **Complete when**
 
-The function runs with supplied arguments and completes the iterations, with the session passed in as a parameter rather than captured from the module scope.
+The changed input is applied and the new result is compared with the baseline.
 
 **Keep**
 
-The reusable function and an example call with its output.
+The modified script and a two-line before-and-after comparison.
 
-[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+[Boundary conditions guide](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/set_up/boundary_conditions.html)
 
-### □ Scope sessions cleanly with the active-session context manager
+### □ Switch a model setting and confirm it took effect
 
 **Activity**
 
-The automation is made robust for multiple sessions by scoping each session with `using(session)` so that top-level settings objects act on the intended session. Each session is made active only within its own `with` block.
+Change a documented model setting and confirm the change by reading the state back. The energy model is a cleanly documented example with clear sub-settings.
 
 **Example**
 
 ```python
-import ansys.fluent.core as pyfluent
-from ansys.fluent.core import using
-from ansys.fluent.core.examples import download_file
-from ansys.fluent.core.solver import ReadCase, Viscous
-
-solver_session_1 = pyfluent.Solver.from_install()
-solver_session_2 = pyfluent.Solver.from_install()
-case_file = download_file("mixing_elbow.cas.h5", "pyfluent/mixing_elbow")
-
-with using(solver_session_1):
-    ReadCase()(file_name=case_file)
-    Viscous().model.set_state("laminar")
-
-with using(solver_session_2):
-    ReadCase()(file_name=case_file)
-    Viscous().model.set_state("k-omega")
+energy = pyfluent.solver.Energy(settings_source=solver_session)
+energy.viscous_dissipation.set_state(True)   # include viscous heating
+print(energy.viscous_dissipation.get_state())
+# True
 ```
 
 **Complete when**
 
-Two sessions are configured independently, each inside its own `with using(...)` block, and the distinct settings are confirmed.
+The model state is set and the read-back confirms the new value.
 
 **Keep**
 
-The script and the confirmed per-session settings.
+The before-and-after state of the setting that was changed.
 
-[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+[Energy model guide](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/set_up/models/energy.html)
 
-### □ End sessions deterministically
+**Stage outcome:** An official workflow is modified with intent and the resulting change is verified.
+
+---
+
+## 4. Run and assess a meaningful operation
+
+> **Outcome:** A case is solved and a result quantity is extracted and sanity-checked.
+
+### □ Run the calculation for a fixed number of iterations
 
 **Activity**
 
-Sessions are ended explicitly with `exit()` so that Fluent processes are released deterministically rather than relying on garbage collection. This keeps reruns clean.
+Run the solver for a set iteration count. Default initialization is applied at solve when the flow is uninitialized, so an explicit initialization call is included only when a specific initialization is actually needed.
 
 **Example**
 
 ```python
-solver_session_1.exit()
-solver_session_2.exit()
+solution = solver_session.settings.solution
+solution.run_calculation.iterate(iter_count=100)  # 100 iterations
 ```
 
 **Complete when**
 
-The automation ends each session it launched, and no orphaned Fluent process remains after the script completes.
+The iteration call completes and the solver reports the iterations performed.
 
 **Keep**
 
-The final automation script with explicit session teardown.
+The iteration count used and the final residual summary.
 
-[Ending PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+[Applying solution settings](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/solution.html)
 
-**Stage outcome:** A parameterized, session-passing, cleanly scoped automation script is available.
-
----
-
-## 6. Apply it to a personal use case
-
-> **Outcome:** The automation is retargeted to a learner-supplied case or mesh and requirement.
-
-### □ Define a personal analysis goal and inputs
+### □ Apply a specific initialization when it is required
 
 **Activity**
 
-A personal analysis goal is written down with its case or mesh file, models, boundary conditions, and the result quantity of interest. This turns the automation into a concrete CFD task.
-
-**Example**
-
-Example required from the content owner, because the case or mesh and requirement are supplied by the learner. The goal statement lists the input file, the turbulence model, the boundary conditions, and the target result.
-
-**Complete when**
-
-A written goal states the input file, models, boundary conditions, and the result quantity to be reported.
-
-**Keep**
-
-The goal statement and the input file reference.
-
-[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
-
-### □ Retarget the automation to the personal case
-
-**Activity**
-
-The `run_case` function from stage 5 is called with the personal inputs so that the automation runs against the learner's case. Only the parameter values change, not the automation structure.
-
-**Example**
-
-Example required from the content owner, because the case file and parameter values are learner-specific. The stage 5 function is called with the personal case file name and iteration count.
-
-**Complete when**
-
-The automation runs against the personal case and produces the target result quantity.
-
-**Keep**
-
-The parameter set used and the produced result.
-
-[PyFluent examples gallery](https://fluent.docs.pyansys.com/version/stable/examples/index.html)
-
-### □ Validate the personal result against expectation
-
-**Activity**
-
-The personal result is checked against a hand calculation, a known reference, or engineering judgement so that the automation is trusted. Any discrepancy is investigated and recorded.
-
-**Example**
-
-Example required from the content owner, because the reference value depends on the learner's case and boundary conditions.
-
-**Complete when**
-
-The personal result is compared against a reference and the comparison and any corrections are recorded.
-
-**Keep**
-
-The validation note comparing the computed result with the reference.
-
-[Field data](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
-
-**Stage outcome:** The automation is trusted for a real, learner-supplied CFD task.
-
----
-
-## 7. Use AI-assisted capabilities
-
-> **Outcome:** A tool built on PyFluent is used to drive Fluent from an AI assistant, with every generated action validated before it is trusted.
-
-Tools built on PyFluent enable AI assistants to drive Fluent. PyFluent-MCP is one such tool, a Model Context Protocol (MCP) server built on top of PyFluent that exposes PyFluent capabilities as standardized, deterministic tools. The dependency runs from the tool to PyFluent, and PyFluent does not depend on it. In this stage the AI assistant suggests tool calls, and the tool executes and verifies the underlying PyFluent operations. These two roles are kept separate throughout.
-
-For installation, client configuration, and the full tool reference, see the authoritative documentation:
-
-- [PyFluent-MCP documentation](https://fluent-mcp.docs.pyansys.com/)
-
-### □ Set up a tool built on PyFluent and discover its offline tools
-
-**Activity**
-
-A tool built on PyFluent is set up so that an MCP-compatible client can reach it, and its offline-capable tools are exercised first. PyFluent-MCP requires the local PyFluent backend for live sessions and offers offline discovery without a solver.
-
-**Example**
-
-Installation and startup follow the authoritative documentation. Offline discovery is exercised through the assistant, for example asking it to run `find_api("turbulence model")` and `get_help` on a returned path, which search the bundled settings schema without a live session.
-
-**Complete when**
-
-The server starts, an MCP-compatible client lists the tools, and an offline discovery call such as `find_api` returns ranked settings paths without a live Fluent session.
-
-**Keep**
-
-The client configuration and a record of the discovered paths.
-
-[PyFluent-MCP documentation](https://fluent-mcp.docs.pyansys.com/)
-
-### □ Connect to Fluent and inspect the live setup through the assistant
-
-**Activity**
-
-A Fluent session is established through the assistant so that live-session tools become available, and the setup is inspected. Session status is checked before mutating operations.
-
-**Example**
-
-The assistant is asked to `connect` and launch a new solver session, then to load a case and call `summarize_setup` for a compact digest of models, boundary conditions, and materials. `session_status` and `solver_status` confirm the connection and iteration state.
-
-**Complete when**
-
-A session is established, a case is loaded, and `summarize_setup` returns a digest of the current setup.
-
-**Keep**
-
-A record of the connection method and the setup digest.
-
-[PyFluent-MCP documentation](https://fluent-mcp.docs.pyansys.com/)
-
-### □ Apply a change with the discover, validate, execute, verify loop
-
-**Activity**
-
-A single bounded setting change is applied through the assistant using the documented loop so that every generated snippet is validated before it mutates the solver. Generated code is validated in the AST sandbox before execution, and the result is verified independently.
-
-**Example**
-
-The loop is followed for one change, for example an under-relaxation update:
-
-1. **Discover:** `find_api("under-relaxation pressure")` and `get_state("solution.controls")`.
-2. **Validate:** `validate_code(python_snippet)` performs an AST and signature pre-check.
-3. **Execute:** `run_code(python_snippet)` applies the change to the live solver.
-4. **Verify:** `summarize_setup()` or `get_state()` confirms the result.
-
-**Complete when**
-
-The change is discovered, validated, executed, and verified, and every generated snippet passed `validate_code` before `run_code`, with any corrections recorded.
-
-**Keep**
-
-The original request, the generated snippet, the validation result, and the verified state.
-
-[PyFluent-MCP documentation](https://fluent-mcp.docs.pyansys.com/)
-
-**Human verification is required.** Generated code, tool arguments, engineering assumptions, and numerical results are verified by the learner. `validate_code` is run before `run_code`, and `summarize_setup` or `get_state` confirms the outcome before any result is trusted. Tool-suggested actions are treated as drafts, and verified PyFluent execution is treated as the source of truth. Because `run_code` mutates the live solver, untrusted code is always validated first.
-
-**Stage outcome:** An AI assistant can drive a bounded Fluent change through a tool built on PyFluent, with the learner validating every generated action.
-
----
-
-## 8. Choose an advanced pathway
-
-> **Outcome:** An advanced specialization is selected and its first capability is demonstrated.
-
-### □ Optional pathway: launch Fluent in a container
-
-**Activity**
-
-Fluent is launched in a container with the `from_container()` factory method so that runs are isolated and reproducible. Port mappings are parameterized, and Docker Compose or Podman Compose is selected explicitly.
+When a defined starting state is needed, apply hybrid initialization explicitly before solving and state why it was used.
 
 **Example**
 
 ```python
-import ansys.fluent.core as pyfluent
-from ansys.fluent.core.utils.networking import get_free_port
-
-port_1 = get_free_port()
-port_2 = get_free_port()
-container_dict = {"ports": {f"{port_1}": port_1, f"{port_2}": port_2}}
-
-solver = pyfluent.Solver.from_container(
-    container_dict=container_dict,
-    product_version=pyfluent.FluentVersion.v252,
-    use_docker_compose=True,
-)
+solution = solver_session.settings.solution
+solution.initialization.hybrid_initialize()   # defined start state before solving
+solution.run_calculation.iterate(iter_count=100)
 ```
 
 **Complete when**
 
-A containerized solver session launches and a case reads or a setting is queried without error.
+Initialization runs and the subsequent solve proceeds from the initialized state.
 
 **Keep**
 
-The container launch script and the run confirmation.
+A note of when explicit initialization is needed versus relying on the default at solve.
 
-[Launch in a container](https://fluent.docs.pyansys.com/version/stable/user_guide/session/launching_ansys_fluent.html)
+[Applying solution settings](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/solution.html)
 
-### □ Optional pathway: extract vector field data for post-processing
+### □ Extract and sanity-check a result quantity
 
 **Activity**
 
-Vector field data is extracted with a `VariableCatalog` descriptor so that results are analyzed programmatically. The descriptor form is used rather than a raw field-name string.
+After solving, extract a quantity of interest, such as a vector field on an inlet, and check that its shape and values are physically reasonable.
 
 **Example**
 
@@ -691,40 +396,318 @@ velocity_request = VectorFieldDataRequest(
     surfaces=VelocityInlets(settings_source=solver_session),
 )
 velocity_vector_data = field_data.get_field_data(velocity_request)
-print(velocity_vector_data["inlet"].shape)   # For example (262, 3)
+print(velocity_vector_data["inlet"].shape)
+# (262, 3)
 ```
 
 **Complete when**
 
-Vector field data is retrieved as a NumPy array and its shape is confirmed.
+A post-solution quantity is returned as an inspectable array and its shape is confirmed.
 
 **Keep**
 
-The extraction script and the returned array shape.
+The extracted quantity and a one-line reasonableness check.
 
-[Field data](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
+[Field data guide](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
 
-### □ Optional pathway: run in parallel or under a job scheduler
+**Stage outcome:** A case is solved from Python and a result quantity is extracted and assessed.
+
+---
+
+## 5. Build reusable automation
+
+> **Outcome:** A parameterized function performs a full read, setup, solve, and result extraction from explicit inputs.
+
+### □ Wrap a setup-and-solve in a function that takes the session
 
 **Activity**
 
-A run is scaled with parallel processing or submitted to a job scheduler so that larger cases run efficiently. The processor count is parameterized, and the supported schedulers include Slurm, PBS, LSF, SGE, and Altair Grid Engine.
+Write a function that receives the session and the case path as explicit parameters rather than reading a module-level global. Passing dependencies in keeps the function reusable across sessions and safe in multi-session scripts.
 
 **Example**
 
-Example required from the content owner for a complete scheduler submission against a specific cluster. Local parallel execution sets the processor count through the launcher, and scheduler submission is described in the launching guide.
+```python
+def run_case(solver_session, case_file_name, iter_count=100):
+    """Read a case, solve it, and return the inlet velocity field."""
+    solver_session.settings.file.read_case(file_name=case_file_name)
+    solver_session.settings.solution.run_calculation.iterate(iter_count=iter_count)
+
+    from ansys.fluent.core import VectorFieldDataRequest
+    from ansys.fluent.core.solver import VelocityInlets
+    from ansys.units import VariableCatalog
+
+    request = VectorFieldDataRequest(
+        field_name=VariableCatalog.VELOCITY,
+        surfaces=VelocityInlets(settings_source=solver_session),
+    )
+    return solver_session.fields.field_data.get_field_data(request)
+```
 
 **Complete when**
 
-A parallel or scheduler-submitted run completes a bounded calculation and produces residual output.
+The function runs end to end when given a session and a case path and returns a result object.
 
 **Keep**
 
-The submission script or launcher configuration and the run log.
+The reusable `run_case` function.
 
-[Scheduler support](https://fluent.docs.pyansys.com/version/stable/user_guide/session/launching_ansys_fluent.html)
+[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
 
-**Stage outcome:** An advanced specialization is selected and its first capability is demonstrated.
+### □ Parameterize environment-specific inputs
+
+**Activity**
+
+Replace hard-coded file paths, processor counts, and iteration counts with parameters or configuration values so the automation runs on other machines without edits.
+
+**Example**
+
+```python
+def solve_from_inputs(solver_session, case_file_name, iter_count):
+    # case_file_name and iter_count are supplied by the caller, not hard-coded
+    return run_case(solver_session, case_file_name, iter_count=iter_count)
+```
+
+**Complete when**
+
+No simulation input is hard-coded inside the function body and all inputs arrive as arguments.
+
+**Keep**
+
+The parameterized entry point and an example call with sample inputs.
+
+### □ Manage the session lifecycle cleanly
+
+**Activity**
+
+End sessions deterministically. A session created with a `from_<...>` method terminates the connected Fluent process on `exit()`, so call `exit()` when the work is complete.
+
+**Example**
+
+```python
+solver_session = pyfluent.Solver.from_install()
+try:
+    solve_from_inputs(solver_session, case_file_name, iter_count=100)
+finally:
+    solver_session.exit()   # terminates the connected Fluent process
+```
+
+**Complete when**
+
+The script completes and the Fluent process is confirmed to have exited.
+
+**Keep**
+
+The lifecycle pattern as a reusable template.
+
+[Ending PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+
+**Stage outcome:** A reusable, parameterized automation performs a full workflow and cleans up after itself.
+
+---
+
+## 6. Apply it to a personal use case
+
+> **Outcome:** The reusable automation is pointed at a personal case and its result is validated.
+
+### □ Adapt the automation to a personal case file
+
+**Activity**
+
+Supply a personal case file to the parameterized function and adjust boundary conditions and models to match the intended physics, using `allowed_values()` to confirm valid inputs before setting them.
+
+**Example**
+
+```python
+# Discover valid options before setting a value
+turbulence = cold_inlet.turbulence.turbulence_specification
+print(turbulence.allowed_values())
+# ['K and Omega', 'Intensity and Length Scale', ...]
+turbulence.set_state("Intensity and Hydraulic Diameter")
+```
+
+**Complete when**
+
+The automation runs on the personal case and produces a result.
+
+**Keep**
+
+The adapted script and the list of settings that differ from the example.
+
+[Boundary conditions guide](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/set_up/boundary_conditions.html)
+
+### □ Validate the personal result against expectation
+
+**Activity**
+
+Compare the extracted result with a known reference, a hand calculation, or a prior GUI run, and record whether it matches within tolerance.
+
+**Example**
+
+Example comparison data required from the content owner, because a personal reference value depends on the chosen case.
+
+**Complete when**
+
+The result is compared with a reference and the agreement or discrepancy is recorded.
+
+**Keep**
+
+The comparison record and any follow-up actions.
+
+**Stage outcome:** A personally relevant simulation is automated and its result is validated.
+
+---
+
+## 7. Use AI-assisted capabilities
+
+> **Outcome:** A tool built on PyFluent is used to discover, generate, validate, and apply settings code, with every generated step verified by the learner.
+
+Tools built on PyFluent can add AI-assisted interaction on top of the deterministic PyFluent API. PyFluent-MCP is one such tool. It is a Model Context Protocol (MCP) server that exposes PyFluent capabilities as standardized tools so that an MCP-compatible assistant can inspect a live Fluent session, generate settings code, validate it, and run it. The dependency runs from the tool to PyFluent, and PyFluent itself does not require it. The AI assistant suggests and generates, while PyFluent executes and the engineering result is verified by the learner.
+
+### □ Start the MCP server and connect an assistant
+
+**Activity**
+
+Install and start PyFluent-MCP, then connect an MCP-compatible client. The detailed per-client setup is kept in the PyFluent-MCP documentation rather than reproduced here.
+
+**Example**
+
+```bash
+ansys-fluent-mcp
+# equivalent
+python -m ansys.fluent.mcp
+```
+
+**Complete when**
+
+The MCP server is running and a client reports the available tools.
+
+**Keep**
+
+A note of the client used and that the tool list was discovered.
+
+[PyFluent-MCP quick start](https://fluent-mcp.docs.pyansys.com/)
+
+### □ Discover a settings path with the assistant and verify it
+
+**Activity**
+
+Ask the assistant to discover a settings path, then confirm the path against PyFluent documentation or a live read before relying on it. The recommended loop is discover, validate, execute, and verify.
+
+**Example prompt**
+
+> "Find API paths related to boundary condition velocity inlet, then show the current state of that path."
+
+The assistant uses `find_api` and `get_state`. The returned path is verified by reading the same value through PyFluent or by checking `get_help` before any change is made.
+
+**Complete when**
+
+A discovered path is confirmed to exist and its live value is read back.
+
+**Keep**
+
+The discovered path and the confirming read.
+
+[PyFluent-MCP tools and capabilities](https://fluent-mcp.docs.pyansys.com/)
+
+### □ Generate and validate a settings change before running it
+
+**Activity**
+
+Ask the assistant to generate a PyFluent snippet for a specific change, run `validate_code` to pre-check it, then `run_code` to apply it, and finally confirm the result. Every generated line is compared with the documentation before execution, because `run_code` mutates the live solver.
+
+**Example prompt**
+
+> "Generate PyFluent code to set the cold inlet velocity to 0.4 m/s, validate it, and show me the code before running it."
+
+The generated snippet is checked with `validate_code`, reviewed by the learner against the boundary-condition documentation, applied with `run_code`, and confirmed with `summarize_setup` or a `get_state` read.
+
+**Complete when**
+
+The validated snippet is applied and the result is confirmed, and any corrections the learner made are recorded.
+
+**Keep**
+
+The original prompt, the generated snippet, the validation result, the corrected code, and the confirmation read.
+
+[PyFluent-MCP best practices](https://fluent-mcp.docs.pyansys.com/)
+
+**Stage outcome:** An assistant built on PyFluent is used to discover, generate, and validate settings code, and every generated step is verified before it is trusted.
+
+---
+
+## 8. Choose an advanced pathway
+
+> **Outcome:** One specialized direction is selected and a first concrete task in it is completed.
+
+### □ Pathway: meshing workflows
+
+**Activity**
+
+Create a meshing session and run a guided watertight-geometry workflow task on an example geometry.
+
+**Example**
+
+```python
+import ansys.fluent.core as pyfluent
+
+meshing_session = pyfluent.Meshing.from_install()
+watertight = meshing_session.watertight()
+```
+
+**Complete when**
+
+A meshing session is created and a workflow task runs.
+
+**Keep**
+
+The meshing script and the task that was executed.
+
+[Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+
+### □ Pathway: advanced field data and reductions
+
+**Activity**
+
+Batch several field-data requests in one call, or compute a reduction such as a weighted sum over a boundary.
+
+**Example**
+
+```python
+batch = solver_session.fields.field_data.new_batch()
+# add multiple requests, then: batch.get_fields()
+```
+
+**Complete when**
+
+A batched request or a reduction returns a result.
+
+**Keep**
+
+The batched or reduction script and its output.
+
+[Field data guide](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
+
+### □ Pathway: parametric and visualization companions
+
+**Activity**
+
+Explore the companion libraries for parametric studies and visualization, which build on PyFluent.
+
+**Example**
+
+Example required from the content owner for a specific parametric or visualization task.
+
+**Complete when**
+
+A first task in the chosen companion library runs.
+
+**Keep**
+
+The chosen pathway and the first script produced.
+
+[PyFluent-Parametric documentation](https://parametric.fluent.docs.pyansys.com/) · [PyFluent-Visualization documentation](https://visualization.fluent.docs.pyansys.com/)
+
+**Stage outcome:** A specialized pathway is chosen and a first task in it is completed.
 
 ---
 
@@ -734,45 +717,41 @@ For troubleshooting and support:
 
 - **Documentation and resources:** The [Synopsys Developer Portal](https://developer.synopsys.com/) is the central entry point.
 - **Usage questions:** Questions about how to use the library are posted on the [Synopsys Developer Forum](https://developerforum.synopsys.com/).
-- **Development questions:** Questions about developing or contributing to the library are raised on the project's [GitHub repository](https://github.com/ansys/pyfluent).
-
-Frequently asked questions, including how PyFluent locates a Fluent installation, are also covered in the PyFluent FAQ.
-
-[PyFluent FAQ](https://fluent.docs.pyansys.com/version/stable/getting_started/faqs.html)
+- **Development questions:** Questions about developing or contributing to the library are raised on the project's GitHub repository, [PyFluent on GitHub](https://github.com/ansys/pyfluent).
 
 ## Reference shelf
 
 ### Essential documentation
 
-- [PyFluent documentation](https://fluent.docs.pyansys.com/)
-- [PyFluent getting started](https://fluent.docs.pyansys.com/version/stable/getting_started/getting_started_contents.html)
-- [Launching and connecting to Fluent](https://fluent.docs.pyansys.com/version/stable/user_guide/session/launching_ansys_fluent.html)
+- [PyFluent documentation](https://fluent.docs.pyansys.com/version/stable/)
+- [PyFluent installation guide](https://fluent.docs.pyansys.com/version/stable/getting_started/installation.html)
 - [Using PyFluent sessions](https://fluent.docs.pyansys.com/version/stable/user_guide/session/session.html)
+- [Launching and connecting to Fluent](https://fluent.docs.pyansys.com/version/stable/user_guide/session/launching_ansys_fluent.html)
+- [Field data guide](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
 - [Applying solution settings](https://fluent.docs.pyansys.com/version/stable/user_guide/solver_settings/solution.html)
-- [Field data](https://fluent.docs.pyansys.com/version/stable/user_guide/fields/field_data.html)
 
 ### Official examples
 
-- [PyFluent examples gallery](https://fluent.docs.pyansys.com/version/stable/examples/index.html)
+- [PyFluent example gallery](https://fluent.docs.pyansys.com/version/stable/examples/index.html)
+
+### Optional training
+
+- [Getting Started With PyFluent (Ansys Learning Hub)](https://www.ansys.com/training-center/course-catalog/fluids/getting-started-with-pyfluent)
+- [Getting Started With PyFluent (Ansys Innovation Space)](https://innovationspace.ansys.com/product/getting-started-with-pyfluent/)
+- [PyAnsys Training: Overview of PyFluent](https://www.youtube.com/watch?v=BY2FJ5qATCM)
 
 ### AI-related resources
 
 - [PyFluent-MCP documentation](https://fluent-mcp.docs.pyansys.com/)
 
-### Related PyAnsys packages
-
-- [PyFluent-Parametric documentation](https://parametric.fluent.docs.pyansys.com/)
-- [PyFluent-Visualization documentation](https://visualization.fluent.docs.pyansys.com/)
-
 ### Source and contribution
 
 - [PyFluent GitHub repository](https://github.com/ansys/pyfluent)
-- [PyFluent-MCP GitHub repository](https://github.com/ansys/pyfluent-mcp)
-- [Submit a PyFluent bug report](https://github.com/ansys/pyfluent/issues)
+- [PyFluent-Parametric documentation](https://parametric.fluent.docs.pyansys.com/)
+- [PyFluent-Visualization documentation](https://visualization.fluent.docs.pyansys.com/)
 
 ## Sources
 
-- PyFluent documentation (https://fluent.docs.pyansys.com/): index, getting started, installation, launching and connecting to Fluent, using PyFluent sessions, applying solution settings, field data, and the examples gallery.
-- PyFluent-MCP documentation (https://fluent-mcp.docs.pyansys.com/): index, overview, installation, quick start, tools and capabilities, and best practices.
-- Ansys Developer Product Guide, Fluids section, Fluent developer tools.
-
+- PyFluent documentation (https://fluent.docs.pyansys.com/) — installation, sessions, launching, field data, boundary conditions, models, and solution settings pages.
+- PyFluent-MCP documentation (https://fluent-mcp.docs.pyansys.com/) — overview, quick start, tools and capabilities, and best practices.
+- Developer Product Guide, Fluids section — Fluent and PyFluent developer tooling, companion libraries, and training links.
