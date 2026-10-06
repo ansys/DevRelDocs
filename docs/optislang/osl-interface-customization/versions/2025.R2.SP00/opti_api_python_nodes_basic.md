@@ -46,7 +46,7 @@ This function is used to call your solver.
 
 **Incoming Arguments**
 - [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
-- [Additional Incoming KWARGs for the Execute Function](#table-2-additional--kwargs)
+- [Additional Incoming KWARGs for the Execute Function](#table-2-additional-kwargs)
 
 **Return Values**
 - A list of [HidSpecificOutputData](#table-6-hidspecific-output).
