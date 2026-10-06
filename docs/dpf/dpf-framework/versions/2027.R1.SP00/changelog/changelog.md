@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-01).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-05).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -30,7 +30,7 @@ The following table shows which components have updates in each category.
 | fbs | [2 items](#Features_fbs) | |
 | femutils | [10 items](#Features_femutils) |[28 items](#Fixes_femutils) |
 | flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [5 items](#Features_framework) |[22 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[23 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [4 items](#Features_grpc) |[8 items](#Fixes_grpc) |
 | grpcclient |  |[1 item](#Fixes_grpcclient) |
@@ -919,6 +919,17 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Escape structured exception JSON:
+  > 
+  >
+  > 
+  >
+  > DPF now preserves multiline exception messages as valid structured JSON so client applications receive readable root-cause errors.
+  >
+  > 
+  >
+  > 
 
 - Upstream cache fallback:
   > This PR fixes upstream cache fallback when a downstream workflow step is not cached. The lookup now continues upstream after a cache miss, allowing raw results to be reused when averaging changes at cache level 2. Downstream cache hits retain priority.
