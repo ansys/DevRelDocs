@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.cplx_multiply
 
 # *class* cplx_multiply(fields_containerA: object = None, fields_containerB: object = None, config: OperatorConfig = None)
 
-Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication_and_square)
+Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication)
 
 $z_1 \cdot z_2$ for matching fields in two complex-valued fields containers:
 
