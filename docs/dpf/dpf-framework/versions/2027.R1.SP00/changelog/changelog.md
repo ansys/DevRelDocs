@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-05).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-06).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -67,7 +67,7 @@ The following table shows which components have updates in each category.
 | rotation |  |[1 item](#Fixes_rotation) |
 | utilities |  |[1 item](#Fixes_utilities) |
 | vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
-| workflows | [4 items](#Features_workflows) |[4 items](#Fixes_workflows) |
+| workflows | [4 items](#Features_workflows) |[5 items](#Fixes_workflows) |
 | xml |  |[3 items](#Fixes_xml) |
 
 
@@ -4459,6 +4459,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_workflows"></a> Fixes
+
+- Optimized POD workflow produce weird results:
+  > 
+  >
+  > 
 
 - Disabling failing test:
   > 
