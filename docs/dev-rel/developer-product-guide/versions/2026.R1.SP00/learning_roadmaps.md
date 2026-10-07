@@ -24,5 +24,8 @@ Pick a library below to begin.
 - [PyMechanical learning roadmap](https://developer.synopsys.com/docs/ansys-developer-product-guide/PyMechanical_learning_roadmap.md) — automate Ansys Mechanical structural, thermal, and modal analysis
 - [PyFluent learning roadmap](https://developer.synopsys.com/docs/ansys-developer-product-guide/PyFluent_learning_roadmap.md) — automate Ansys Fluent computational fluid dynamics
 - [PyAEDT learning roadmap](https://developer.synopsys.com/docs/ansys-developer-product-guide/PyAEDT_learning_roadmap.md) — automate Ansys Electronics Desktop (HFSS, Maxwell, Icepak, and more)
+- [PyMAPDL learning roadmap](https://developer.synopsys.com/docs/ansys-developer-product-guide/PyMAPDL_learning_roadmap.md) - Automate Ansys Mechanical Parametric Design Language
+- [PyCFX learning roadmap](https://developer.synopsys.com/docs/ansys-developer-product-guide/PyCFX_learning_roadmap.md) - Automate Ansys CFX
+- [PyLumerical learning roadmap](https://developer.synopsys.com/docs/ansys-developer-product-guide/PyLumerical_learning_roadmap.md) - Automate Ansys Lumerical
 
 
