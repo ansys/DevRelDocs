@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.utility.merge_fields_containers
 ---
 
-# *class* merge_fields_containers(should_merge_named_selections: object = None, sum_merge: object = None, merged_fields_support: object = None, merged_fields_containers_support: object = None, fields_containers1: object = None, fields_containers2: object = None, config: OperatorConfig = None)
+# *class* merge_fields_containers(skip_merge_supports: object = None, should_merge_named_selections: object = None, sum_merge: object = None, merged_fields_support: object = None, merged_fields_containers_support: object = None, fields_containers1: object = None, fields_containers2: object = None, config: OperatorConfig = None)
 
 Assembles a set of fields containers into a unique one.
 
-available inputs: `should_merge_named_selections` (bool) (optional), `sum_merge` (bool) (optional), `merged_fields_support` (AbstractFieldSupport) (optional), `merged_fields_containers_support` (AbstractFieldSupport) (optional), `fields_containers1` (FieldsContainer), `fields_containers2` (FieldsContainer)
+available inputs: `skip_merge_supports` (bool) (optional), `should_merge_named_selections` (bool) (optional), `sum_merge` (bool) (optional), `merged_fields_support` (AbstractFieldSupport) (optional), `merged_fields_containers_support` (AbstractFieldSupport) (optional), `fields_containers1` (FieldsContainer), `fields_containers2` (FieldsContainer)
 
 available outputs: `merged_fields_container` (FieldsContainer)
 
@@ -14,6 +14,7 @@ available outputs: `merged_fields_container` (FieldsContainer)
 
 **Parameters:**
 
+* **skip_merge_supports**
 * **should_merge_named_selections**
 * **sum_merge**
 * **merged_fields_support**
@@ -27,10 +28,16 @@ available outputs: `merged_fields_container` (FieldsContainer)
 ```python
 op = merge_fields_containers()
 
-op = merge_fields_containers(should_merge_named_selections=my_should_merge_named_selections,sum_merge=my_sum_merge,merged_fields_support=my_merged_fields_support,merged_fields_containers_support=my_merged_fields_containers_support,fields_containers1=my_fields_containers1,fields_containers2=my_fields_containers2)
+op = merge_fields_containers(skip_merge_supports=my_skip_merge_supports,should_merge_named_selections=my_should_merge_named_selections,sum_merge=my_sum_merge,merged_fields_support=my_merged_fields_support,merged_fields_containers_support=my_merged_fields_containers_support,fields_containers1=my_fields_containers1,fields_containers2=my_fields_containers2)
 ```
 
 ## Inputs
+
+### skip_merge_supports
+
+If true, field supports are not merged; for each group of fields, the first non-null input field support is used as the merged field support. Cannot be used with pin -2 (merged_fields_support). Default is false.
+
+**Type:** *LinkableInput*
 
 ### should_merge_named_selections
 
