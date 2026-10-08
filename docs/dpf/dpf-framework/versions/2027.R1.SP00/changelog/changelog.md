@@ -34,7 +34,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [18 items](#Features_mapdl) |[62 items](#Fixes_mapdl) |
+| mapdl | [18 items](#Features_mapdl) |[64 items](#Fixes_mapdl) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
 | math | [11 items](#Features_math) |[1 item](#Fixes_math) |
@@ -43,7 +43,7 @@ The following table shows which components have updates in each category.
 | misc | [5 items](#Features_misc) |[7 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
-| native | [23 items](#Features_native) |[31 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[33 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | plugins | [3 items](#Features_plugins) | |
 | prime | [1 item](#Features_prime) |[2 items](#Fixes_prime) |
@@ -1431,6 +1431,14 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Cyclic support of CMS superelements not supported:
+  > 
+
+- Improve Composite operator batch-merging and add domain decomposition detection:
+  > 
+  >
+  > 
+
 - Rewrite Nodal Averaged Results reader:
   > 
   >
@@ -2422,6 +2430,14 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Fix workflow_to_pydpf any pin management:
+  > 
+
+- Improve Composite operator batch-merging and add domain decomposition detection:
+  > 
+  >
+  > 
 
 - Check all files from the DataSource for result availability:
   > 
