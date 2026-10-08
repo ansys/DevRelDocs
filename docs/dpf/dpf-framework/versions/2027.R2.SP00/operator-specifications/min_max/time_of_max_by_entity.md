@@ -1,0 +1,167 @@
+---
+category: min_max
+plugin: core
+license: any_dpf_supported_increments
+---
+
+# min_max:time of max
+
+**Version: 0.0.0**
+
+## Description
+
+
+Thin wrapper around `min_max_over_time_by_entity` that exposes only the time or frequency value at which each per-entity, per-component maximum occurred.
+
+The result forwarded on output pin 0 is pin 3 of `min_max_over_time_by_entity` (the `time_freq_of_max` fields container). It is populated only when the input carries a time-frequency support.
+
+**When to use:** you only need the time of maximum.
+Prefer `min_max_over_time_by_entity` directly when you also need the extremum value or the minimum-side outputs.
+
+
+## Inputs
+
+This table lists the input pins for this operator. Input pins define the data that the operator requires to perform its operation.
+Some inputs are required, while others are optional and provide additional configuration.
+Each parameter is detailed in the sections that follow the table.
+
+| Pin number | Name | Status | Expected type(s) |
+|------------|------|--------|------------------|
+| <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>3</strong> | [abs_value](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> | [compute_amplitude](#input_4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+
+
+<a id="input_0"></a>
+### fields_container (Pin 0)
+
+- **Required:** Yes
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Fields container aggregated per entity across all time or frequency steps. Must expose the `time` label; otherwise the input is forwarded unchanged by the underlying operator.
+
+<a id="input_3"></a>
+### abs_value (Pin 3)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+When `true`, absolute values of the field entries are used before the max is computed. Default: `false`.
+
+<a id="input_4"></a>
+### compute_amplitude (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+When `true` and the input fields container has the `complex` label, the amplitude of the complex values is used before the max is computed. Ignored otherwise. Default: `false`.
+
+
+## Outputs
+
+This table lists the output pins for this operator.
+Output pins provide the results of the operator's computation and can be connected to inputs of other operators or retrieved for further processing.
+Each output is detailed in the sections that follow the table.
+
+| Pin number |  Name | Expected type(s) |
+|-------|------|------------------|
+|  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+
+
+<a id="output_0"></a>
+### fields_container (Pin 0)
+
+- **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
+
+Time or frequency at which each per-entity, per-component maximum occurred. Populated only when the input carries a time-frequency support. Same shape as pin 3 of `min_max_over_time_by_entity`.
+
+
+## Configurations
+
+This operator supports [configuration options](../../core-concepts/operator-configurations.md) that modify its behavior.
+
+
+### [incremental](../../core-concepts/operator-configurations.md#incremental)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** true
+
+This operator can be run several times with different inputs so that the output will take all the inputs of the different runs into account. It can be used to save memory. For example, a large time scoping can be split in smaller ranges of time to compute the result range by range.
+
+### [mutex](../../core-concepts/operator-configurations.md#mutex)
+
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+- **Default value:** false
+
+If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads.
+
+
+
+## Scripting
+
+This operator can be accessed through scripting interfaces using these identifiers.
+
+ **Category**: min_max
+
+ **Plugin**: core
+
+ **Scripting name**: time_of_max_by_entity
+
+ **Full name**: min_max.time_of_max_by_entity
+
+ **Internal name**: time_of_max_by_entity
+
+ **License**: any_dpf_supported_increments
+
+## Examples
+
+These examples demonstrate how to use this operator in different programming environments.
+Each example shows how to instantiate the operator, connect the required inputs, and retrieve the output.
+
+<details>
+<summary>C++</summary>
+
+```cpp
+#include "dpf_api.h"
+
+ansys::dpf::Operator op("time_of_max_by_entity"); // operator instantiation
+op.connect(0, my_fields_container);
+op.connect(3, my_abs_value);
+op.connect(4, my_compute_amplitude);
+ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+```
+</details>
+
+<details>
+<summary>CPython</summary>
+
+```python
+import ansys.dpf.core as dpf
+
+op = dpf.operators.min_max.time_of_max_by_entity() # operator instantiation
+op.inputs.fields_container.connect(my_fields_container)
+op.inputs.abs_value.connect(my_abs_value)
+op.inputs.compute_amplitude.connect(my_compute_amplitude)
+my_fields_container = op.outputs.fields_container()
+```
+</details>
+
+<details>
+<summary>IPython</summary>
+
+```python
+import mech_dpf
+import Ans.DataProcessing as dpf
+
+op = dpf.operators.min_max.time_of_max_by_entity() # operator instantiation
+op.inputs.fields_container.Connect(my_fields_container)
+op.inputs.abs_value.Connect(my_abs_value)
+op.inputs.compute_amplitude.Connect(my_compute_amplitude)
+my_fields_container = op.outputs.fields_container.GetData()
+```
+</details>
+<br>
+
+## Changelog
+
+- Version 0.0.0: Initial release.
