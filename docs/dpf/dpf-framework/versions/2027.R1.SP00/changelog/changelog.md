@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-07).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-08).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -26,7 +26,7 @@ The following table shows which components have updates in each category.
 | framework | [3 items](#Features_framework) |[18 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
-| h5dpf |  |[2 items](#Fixes_h5dpf) |
+| h5dpf |  |[3 items](#Fixes_h5dpf) |
 | hdf5 | [10 items](#Features_hdf5) |[22 items](#Fixes_hdf5) |
 | hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
@@ -814,6 +814,9 @@ The following table shows which components have updates in each category.
 ## h5dpf
 
 ### <a id="Fixes_h5dpf"></a> Fixes
+
+- Fix destruction order mutex order:
+  > 
 
 - Fix scoping_provider_by_prop for distributed h5 files:
   > 
@@ -5706,6 +5709,8 @@ Upgraded documentation
 - [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_pydpf.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Use numeric pin APIs for Any-typed pins.
 
 
 
