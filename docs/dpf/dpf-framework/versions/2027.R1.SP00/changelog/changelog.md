@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-08).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-09).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -34,16 +34,16 @@ The following table shows which components have updates in each category.
 | lsdyna | [4 items](#Features_lsdyna) | |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [18 items](#Features_mapdl) |[64 items](#Fixes_mapdl) |
+| mapdl | [18 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
 | math | [11 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [3 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[6 items](#Fixes_mesh) |
+| mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
+| mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
 | misc | [5 items](#Features_misc) |[7 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
-| native | [23 items](#Features_native) |[33 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | plugins | [3 items](#Features_plugins) | |
 | prime | [1 item](#Features_prime) |[2 items](#Fixes_prime) |
@@ -1434,6 +1434,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Elements can have incorrect section type attached:
+  > 
+  >
+  > 
+
 - Cyclic support of CMS superelements not supported:
   > 
 
@@ -2024,6 +2029,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mechanical"></a> Fixes
 
+- Raise error message for missing fields in mechanical::time_freq_interpolation:
+  > 
+  >
+  > 
+
 - Change meshscoping_filtered_by_shape logic on shape properties:
   > Some regression tests started failing due to changes in !716228
   >
@@ -2065,6 +2075,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mesh"></a> Fixes
+
+- Reverting memory improvements in the skin operator:
+  > Reverted memory improvements in the skin operator.
+  >
+  > 
 
 - Correction of mesh_extraction & mesh::by_scoping to handle Named Selections:
   > Correction of mesh_extraction & mesh::by_scoping to handle Named Selections
@@ -2433,6 +2448,9 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Ignore the rotation to global in PSD and Spectrum analysis:
+  > 
 
 - Fix workflow_to_pydpf any pin management:
   > 

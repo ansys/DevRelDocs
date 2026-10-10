@@ -75,7 +75,7 @@ result file path container, used if no streams are set
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Rotate the result to the global coordinate system if rotations are available (default true). Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
+Rotate the result to the global coordinate system if rotations are available (default true). This input is ignored for PSD and Spectrum results. Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
