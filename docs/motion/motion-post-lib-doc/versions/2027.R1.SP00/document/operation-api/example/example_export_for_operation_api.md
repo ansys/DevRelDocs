@@ -1,11 +1,11 @@
-# Example
+# Export
 The following sample code illustrates how to create a simple example.
 - For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
 ## Export All Curves
 Export all curves on active plot view.
 ```python
-# OperationAPI_ExportAllCurves.py
+# Example_OperationAPI_ExportAllCurves.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -13,7 +13,6 @@ sys.path.append(OPERATION_API_MODULE_PATH)
 
 # Import necessary modules
 from OperationAPI import *
-import os
 
 # Start the headless application interface
 application_handler = ApplicationHandler()
@@ -36,19 +35,19 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 # characteristic_path_z : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_z = r'Displacement/Z'
-curvePaths.Add(characteristic_path_z)
+curve_paths.Add(characteristic_path_z)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -56,14 +55,15 @@ curvePaths.Add(characteristic_path_z)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
-# FilePath - The path of the result to access.
-# parameters - The class used as a parameter of the AddCurve function.
+# FilePath : The path of the result to access.
+# parameters : The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Change the name of the curves
 index = 0
@@ -72,12 +72,12 @@ for curve in curves :
     index = index + 1
 
 # Exporting All Curves
-# The output path is 'examples/Output'.
-# file_path - The path to the file where the curve data will be exported.
+# file_path : The path to the file where the curve data will be exported.
 # This function exports all curves in the chart view to a specified file.
 # OUTPUT_DIR : path to the folder where exported files are written
-export_filepath = os.path.join(OUTPUT_DIR, r'curvedata.txt')
-chartView.ExportAllCurves(export_filepath)
+# CURVE_DATA_FILENAME : output filename for the exported curve data
+export_filepath = Path.Combine(OUTPUT_DIR, CURVE_DATA_FILENAME)
+chart_view.ExportAllCurves(export_filepath)
 
 # Close the Pages
 page.Close()
@@ -89,7 +89,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ## Export Contour Result To File
 This example demonstrates how to export contour results to a file.
 ```python
-# OperationAPI_ExportContourResultToFile.py
+# Example_OperationAPI_ExportContourResultToFile.py
 # -*- coding: utf-8 -*-
 import sys
 
@@ -98,7 +98,6 @@ sys.path.append(OPERATION_API_MODULE_PATH)
 
 # Import necessary modules
 from OperationAPI import *
-import os
 
 # Start the headless application interface
 application_handler = ApplicationHandler()
@@ -118,7 +117,7 @@ page = application_handler.GetActivePage()
 
 # Get Active View
 # This retrieves the currently active view in the page.
-activeView = page.GetActiveView()
+active_view = page.GetActiveView()
 
 # Loading Animation - Use this only when the current Active View is an Animation View.
 # This method is used to load the animation in the active view.
@@ -126,55 +125,57 @@ application_handler.LoadingAnimation()
 
 # Get instance of entity
 # The GetViewModelByName method retrieves the target by its name.
-febody = activeView.GetViewModelByName("FEBody_01")
+entity_name = "FEBody_01"
+febody = active_view.GetViewModelByName(entity_name)
 
 # Check if the FEBody is found
 if febody is None:
     sys.exit(1)
 
 # OUTPUT_DIR : path to the folder where exported files are written
-output_path = os.path.join(OUTPUT_DIR, "Displacement.txt")
+# CONTOUR_OUTPUT_FILENAME : output filename for the exported contour result
+output_path = Path.Combine(OUTPUT_DIR, CONTOUR_OUTPUT_FILENAME)
 
 # A boolean indicating whether to export the full frame or not.
 # If True, the full frame will be exported; if False, only the current frame will be exported.
 is_full_frame = True
 
 # Set the febody fullname as the target for export
-targetNames = List[str]()
-targetNames.Add(febody.FullName)
+target_names = List[str]()
+target_names.Add(febody.FullName)
 
 # Set Contour Mapping Type
 # ContourMappingType can be one of the following:
-# - ContourMappingType.None - None
-# - ContourMappingType.FENode - Node (Averaged across body)
-# - ContourMappingType.FEElement - Element (Unaveraged)
-# - ContourMappingType.FEElementNode - Node (Unaveraged)
-# - ContourMappingType.FEMaterial - Node (Averaged within material)
-# - ContourMappingType.BeamGroup - Beam Group
-# - ContourMappingType.Contact - Contact
-# - ContourMappingType.ChainedSystem - Chained System
-# - ContourMappingType.Usersubroutine - Usersubroutine
+# - ContourMappingType.None : None
+# - ContourMappingType.FENode : Node (Averaged across body)
+# - ContourMappingType.FEElement : Element (Unaveraged)
+# - ContourMappingType.FEElementNode : Node (Unaveraged)
+# - ContourMappingType.FEMaterial : Node (Averaged within material)
+# - ContourMappingType.BeamGroup : Beam Group
+# - ContourMappingType.Contact : Contact
+# - ContourMappingType.ChainedSystem : Chained System
+# - ContourMappingType.Usersubroutine : Usersubroutine
 contour_mapping_type = ContourMappingType.FENode
 
 # Set Characteristic Path
-characteristic_path = "Displacement"
+characteristic_name = "Displacement"
 
 # Set Component Path
-component_path = "X"
+component_name = "X"
 
 # Combine Characteristic and Component Path
-combined_characteristic_component_path = characteristic_path + "/" + component_path
+combined_characteristic_component_path = characteristic_name + "/" + component_name
 
 # Export Contour Result to File - When the Animation View is the Active View
-# RESULT_FILE_PATH - The path to the result file.
-# output_path - The path to the output file where the contour results will be saved.
-# targetNames - The list of target names for which the contour results will be exported.
-# is_full_frame - A boolean indicating whether to export the full frame or not.
-# contour_mapping_type - The type of contour mapping to be used.
-# characteristic_component_path - The path to the characteristic and component for which the contour results will be exported.
-# AnalysisType - The default value is AnalysisResultType.Dynamics. If you want to change it, please set the AnalysisType.
-# FileFormatType - The format of the output file. The default is FileFormatType.Text. The format type can be set to TXT or BINARY.
-Export.ExportContourResultToFile(RESULT_FILE_PATH, output_path, targetNames, is_full_frame, contour_mapping_type, combined_characteristic_component_path)
+# RESULT_FILE_PATH : The path to the result file.
+# output_path : The path to the output file where the contour results will be saved.
+# target_names : The list of target names for which the contour results will be exported.
+# is_full_frame : A boolean indicating whether to export the full frame or not.
+# contour_mapping_type : The type of contour mapping to be used.
+# characteristic_component_path : The path to the characteristic and component for which the contour results will be exported.
+# AnalysisType : The default value is AnalysisResultType.Dynamics. If you want to change it, please set the AnalysisType.
+# FileFormatType : The format of the output file. The default is FileFormatType.Text. The format type can be set to TXT or BINARY.
+Export.ExportContourResultToFile(RESULT_FILE_PATH, output_path, target_names, is_full_frame, contour_mapping_type, combined_characteristic_component_path)
 
 # Close the Pages
 # Get all created pages.

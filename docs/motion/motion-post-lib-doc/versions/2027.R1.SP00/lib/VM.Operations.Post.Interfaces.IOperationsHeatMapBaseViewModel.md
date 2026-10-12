@@ -34,10 +34,48 @@ Gets or sets the minimum value of the heat-map legend range used when [`IsAutoRa
 
 ## Methods
 
- [ExportAllCurves\(string\)](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportAllCurves.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatMapBaseViewModel\_ExportAllCurves\_System\_String\_)
+ [ExportHeatMapData\(string\)](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatMapBaseViewModel\_ExportHeatMapData\_System\_String\_)
 
-Exports all curves in the heat-map view to a specified file path.
+Exports the heat-map view's own X, Y, and Z grid values to a specified file path.
 
- [ExportAllDataSeries\(\)](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportAllDataSeries.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatMapBaseViewModel\_ExportAllDataSeries)
+The heat-map view holds a single heat map, so the file always contains one X, Y, and Z table.
 
-Exports all curves included in the heat-map view.
+The column separator is chosen from the file extension of <code class="paramref">filepath</code>, so the created file takes one of the following forms.
+
+A `.csv` path is written as a comma-separated table.
+
+```text
+Time (sec),Frequency (Hz),Z
+1.250000000003e-002,-3.051757812500e-002,2.119873428345e+001
+3.750000000008e-002,-3.051757812500e-002,2.119873428345e+001
+...
+```
+
+The header row holds the X-axis title, the Y-axis title, and `Z`.
+```
+        ┌─────┬─────┬─────┬─────┐
+        │     │     │     │     │   ④
+        ├─────┼─────┼─────┼─────┤
+        │     │     │     │     │   ③
+    Y ↑ ├─────┼─────┼─────┼─────┤
+        │     │     │     │     │   ②
+        ├─────┼─────┼─────┼─────┤
+Start → │  →  │  →  │  →  │  →  │   ①
+        └─────┴─────┴─────┴─────┘
+                   X →
+```
+
+Starting from the bottommost row, the values are written in order along the X direction. After one row is filled, the output moves to the next row in the Y direction, and every row is written the same way.
+
+Every numeric value is written in exponential notation with 12 fractional digits regardless of the file extension.
+
+A `.txt` path is written as a tab-separated table.
+
+```text
+Time (sec)	Frequency (Hz)	Z
+1.250000000003e-002	-3.051757812500e-002	2.119873428345e+001
+3.750000000008e-002	-3.051757812500e-002	2.119873428345e+001
+...
+```
+
+The columns and iteration order are identical to the `.csv` form, and only the separator differs, using a tab character between columns.

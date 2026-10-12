@@ -18,4 +18,4 @@ SignType Sign { get; set; }
 
 ### Remarks
 
-When the transform mode is `Absolute`, this value selects whether the calculated curve keeps positive or negative values. See [Example - Transform](../../document/operation-api/example/example_chart_for_operation_api.md#transform) for a complete usage flow.
+When the transform mode is `Absolute`, this value selects whether the calculated curve keeps positive or negative values. See [Example - Transform](../document/operation-api/example/example_chart_for_operation_api.md#transform) for a complete usage flow.

@@ -8,6 +8,40 @@ Assembly: VM.Operations.Post.dll
 
 Exports all curves contained in the chart to the specified file path without displaying a file save dialog.
 
+For a complete operations, see [Operation API Example - Export All Curves](../document/operation-api/example/example_export_for_operation_api.md#export-all-curves).
+
+The column separator is chosen from the file extension of <code class="paramref">filepath</code>, so the created file takes one of the following forms.
+
+A `.csv` path is written as a comma-separated table.
+
+```text
+Time(sec),Curve1:Crank/Displacement/Magnitude(mm)
+0.000000000000e+000,2.163136200665e+001
+2.100000000000e-003,2.163136200665e+001
+...
+```
+
+The first row is a header that starts with the time-axis column and then has one column per exported curve.
+
+The time-axis column is named after the X-axis title, such as `Time(sec)`.
+
+Each curve column is named after that curve's [`SeriesName`](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesName.md). A curve's default `SeriesName` combines its creation-order label, its target and characteristic path, and its unit, such as `Curve1:Crank/Displacement/Magnitude(mm)`.
+
+Each later row holds one sample. The row starts with the time value and then has one value per curve, in the same column order.
+
+Every numeric value is written in exponential notation with 12 fractional digits regardless of the file extension.
+
+A `.txt` path is written as a tab-separated table.
+
+```text
+Time(sec)	Curve1:Crank/Displacement/Magnitude(mm)
+0.000000000000e+000	2.163136200665e+001
+2.100000000000e-003	2.163136200665e+001
+...
+```
+
+The columns, naming, and numeric format are identical to the `.csv` form, and only the separator differs, using a tab character between columns.
+
 ```csharp
 void ExportAllCurves(string filepath)
 ```
@@ -16,7 +50,7 @@ void ExportAllCurves(string filepath)
 
 `filepath` string
 
-The file path where the curves will be saved.
+The file path where the curves will be saved. A `.csv` path writes a comma-separated file, and a `.txt` path writes a tab-separated file.
 
 ### Examples
 
@@ -26,8 +60,7 @@ The file path where the curves will be saved.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -35,16 +68,16 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Export all curves to a file.
 # PATH : path to the folder where exported files are written
 # CURVE_EXPORT_FILENAME : output filename for exported curve data
-output_path = os.path.join(PATH, CURVE_EXPORT_FILENAME)
+output_path = Path.Combine(PATH, CURVE_EXPORT_FILENAME)
 chart.ExportAllCurves(output_path)
 ```
 

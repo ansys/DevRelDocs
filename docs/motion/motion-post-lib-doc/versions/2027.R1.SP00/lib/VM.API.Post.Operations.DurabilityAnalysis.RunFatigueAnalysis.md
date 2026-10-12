@@ -8,6 +8,8 @@ Assembly: VM.API.Post.Operations.dll
 
 Runs a fatigue analysis for the targets and state range specified by [`IDurabilityAnalysisParameter`](VM.ViewModels.Post.IDurabilityAnalysisParameter.md).
 
+For a complete operations, see [Operation API Example - Fatigue Analysis](../document/operation-api/example/example_analysis_for_operation_api.md#fatigue-analysis).
+
 ```csharp
 public static bool RunFatigueAnalysis(IDurabilityAnalysisParameter parameter)
 ```
@@ -40,9 +42,9 @@ animation_view_name = "ResultAnimation"
 animation_view = page.CreateAnimation(analysis_result, animation_view_name)
 
 # Configure the target body's fatigue material and settings.
-body_name = "FEBody_01"
+entity_name = "FEBody_01"
+febody = animation_view.GetViewModelByName(entity_name)
 material_name = "2014_HV_O"
-febody = animation_view.GetViewModelByName(body_name)
 material = animation_view.GetViewModelByName(material_name)
 febody.Material = material
 febody.AnalysisType = FatigueAnalysisType.SN
@@ -70,8 +72,9 @@ DurabilityAnalysis.RunFatigueAnalysis(durability_parameter)
 
 The active view must implement [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) for the document identified by [`DocumentFilePath`](VM.ViewModels.Post.IDurabilityAnalysisParameter.DocumentFilePath.md). The analysis uses the target IDs and state range in <code class="paramref">parameter</code> to write and run the fatigue analysis.
 
-> [!IMPORTANT]
-> Activate the required `IOperationsAnimation` with [Activate\(\)](VM.Operations.Post.Interfaces.IView.Activate.md) before calling this method.
+<Danger>
+Activate the required `IOperationsAnimation` with [Activate\(\)](VM.Operations.Post.Interfaces.IView.Activate.md) before calling this method.
+</Danger>
 
 ### Exceptions
 

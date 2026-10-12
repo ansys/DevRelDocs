@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Records loaded animation frames to a file.
 
+For a complete operations, see [Operation API Example - Recording](../document/operation-api/example/example_animation_for_operation_api.md#recording).
+
 ```csharp
 void RecordingAnimation(string filePath, RecordingType recordingType, RecordingRangeType rangeType, int frameRate = 10, IViewSpec[] viewSpecs = null)
 ```
@@ -56,7 +58,7 @@ animation_view = page.CreateAnimation(dynamic_analysis, animation_view_name)
 # Prepare the recording output and redefine camera specifications across the recording.
 # PATH : path to the folder where exported files are written
 # RECORDING_OUTPUT_NAME : output filename for the recorded animation
-recording_path = os.path.join(PATH, RECORDING_OUTPUT_NAME)
+recording_path = Path.Combine(PATH, RECORDING_OUTPUT_NAME)
 view_specs = animation_view.GetViewSpecs()
 start_eye_x = -100.0
 end_eye_x = 100.0
@@ -78,5 +80,6 @@ This method records loaded animation frames using the selected file format, rang
 
 If playback is running, this method stops it before capturing. Otherwise, capture starts at the first loaded frame. The selected range determines whether the active view or the active page is recorded.
 
-> [!IMPORTANT]
-> Animation frames must be loaded before this method is called. If no frames are loaded, no output file is created.
+<Danger>
+Animation frames must be loaded before this method is called. If no frames are loaded, no output file is created.
+</Danger>

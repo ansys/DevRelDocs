@@ -34,8 +34,9 @@ DurabilityAnalysis.SetFatiguePath(RESULT_FILE_PATH, FATIGUE_RESULT_NAME)
 
 The selected name is used when later fatigue-result data is read or exported for the document. Calling this method does not run a fatigue analysis.
 
-> [!IMPORTANT]
-> The document identified by <code class="paramref">documentFilePath</code> must already be available before calling this method.
+<Danger>
+The document identified by <code class="paramref">documentFilePath</code> must already be available before calling this method.
+</Danger>
 
 ### Exceptions
 

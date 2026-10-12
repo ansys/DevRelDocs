@@ -16,6 +16,8 @@ public interface IOperationAnalysisResult
 
 Creates [`IOperationsContourViewModel`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md) for one or more entities and adds it to the analysis result.
 
+For a complete operations, see [Operation API Example - Contour](../document/operation-api/example/example_animation_for_operation_api.md#contour).
+
  [GetContour\(string\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContour.md\#VM\_Operations\_Post\_Interfaces\_IOperationAnalysisResult\_GetContour\_System\_String\_)
 
 Gets a contour by its [`FullName`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.FullName.md).

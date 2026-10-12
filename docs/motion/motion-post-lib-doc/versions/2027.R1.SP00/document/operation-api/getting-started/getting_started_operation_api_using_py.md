@@ -6,6 +6,8 @@ The Operation API supports Windows only and targets .NET Framework 4.8.
 
 It runs in the IronPython 2.7.12 engine included with the Motion Postprocessor. The Motion Postprocessor must be installed and running before an Operation API script is executed.
 
+Install Ansys Motion to get the Motion Postprocessor.
+
 ## API Entry Point
 
 [`ApplicationHandler`](../../../lib/VM.API.Post.Operations.ApplicationHandler.md) is the root object for an Operation API script. 
@@ -17,6 +19,7 @@ Use the dedicated Feature pages for importing result data, managing pages and vi
 ## Basic Setup
 
 ```python
+# OperationAPI_BasicSetup.py
 import sys
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
 sys.path.append(OPERATION_API_MODULE_PATH)
@@ -29,11 +32,14 @@ applicationHandler.IsShowMessageBox = False
 
 `OPERATION_API_MODULE_PATH` must be the `Modules` folder inside the package downloaded from [Introduction - Downloads](../../../index.md#downloads), which contains `OperationAPI.py`. Call `sys.path.append(OPERATION_API_MODULE_PATH)` before importing `OperationAPI`.
 
+To run the script, see [Run Postprocessor](../example/example_run_postprocessor_for_operation_api.md). If the import of `OperationAPI` fails, check the value of `OPERATION_API_MODULE_PATH`.
+
 ## Quick Start
 
 The following script creates `ApplicationHandler`, imports a result file, obtains the active page and its dynamic analysis result, creates an animation, and closes the opened objects.
 
 ```python
+# OperationAPI_QuickStart.py
 import sys
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
 sys.path.append(OPERATION_API_MODULE_PATH)

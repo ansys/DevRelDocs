@@ -14,11 +14,15 @@ public enum LineStyleType
 
 `Dash` 
 
+Description: "Dash"
+
 Renders a dashed line.
 
 
 
 `DashDot` 
+
+Description: "DashDot"
 
 Renders a repeating dash-and-dot line.
 
@@ -26,17 +30,23 @@ Renders a repeating dash-and-dot line.
 
 `DashDotDot` 
 
+Description: "DashDotDot"
+
 Renders a repeating dash-and-double-dot line.
 
 
 
 `Dot` 
 
+Description: "Dot"
+
 Renders a dotted line.
 
 
 
 `Solid` 
+
+Description: "Solid"
 
 Renders a continuous line.
 

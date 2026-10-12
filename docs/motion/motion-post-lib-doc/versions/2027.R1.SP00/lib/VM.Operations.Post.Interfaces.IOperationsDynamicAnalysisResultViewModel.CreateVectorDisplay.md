@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates a vector display for an entity and characteristic in the dynamic result.
 
+For a complete operations, see [Operation API Example - Vector Display](../document/operation-api/example/example_animation_for_operation_api.md#vector-display).
+
 ```csharp
 IOperationsVectorDisplayBaseViewModel CreateVectorDisplay(string entityName, string characteristic)
 ```
@@ -49,5 +51,6 @@ vector_display = dynamic_analysis.CreateVectorDisplay(entity_name, characteristi
 
 The created vector display is added to the dynamic analysis result and can then be configured through its public display properties.
 
-> [!IMPORTANT]
-> A missing entity causes an exception. An entity that exists but does not support vector display also causes an exception.
+<Danger>
+A missing entity causes an exception. An entity that exists but does not support vector display also causes an exception.
+</Danger>

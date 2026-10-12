@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Removes a Python expression by its name.
 
+For a complete operations, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
+
 ```csharp
 void RemoveExpression(string name)
 ```
@@ -19,8 +21,6 @@ void RemoveExpression(string name)
 Full name from [`FullName`](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.FullName.md) for an expression in the dynamic result.
 
 ### Examples
-
-For the complete expression workflow, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
 
 ```python
 # Get the dynamic analysis result.

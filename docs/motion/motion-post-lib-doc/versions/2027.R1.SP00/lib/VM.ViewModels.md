@@ -8,3 +8,5 @@
 ### Interfaces
 
  [IViewModel](VM.ViewModels.IViewModel.md)
+
+Defines the common state exposed by a view model to the application.

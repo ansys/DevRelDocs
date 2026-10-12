@@ -18,8 +18,9 @@ void ChangeID(int id)
 
 Existing element ID to assign within the parent finite-element data part.
 
-> [!IMPORTANT]
-> The ID must identify an element in the current finite-element data. The operation uses that element's index and type when updating the selection.
+<Danger>
+The ID must identify an element in the current finite-element data. The operation uses that element's index and type when updating the selection.
+</Danger>
 
 ### Examples
 
@@ -29,8 +30,8 @@ Existing element ID to assign within the parent finite-element data part.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result_type = AnalysisResultType.Dynamics
 dynamic_analysis = document.GetAnalysisResultViewModel(analysis_result_type)
-body_name = "FEBody_01"
-febody = dynamic_analysis.GetViewModel(body_name)
+entity_name = "FEBody_01"
+febody = dynamic_analysis.GetViewModel(entity_name)
 
 # Create an element and change its ID.
 element_id = 2343

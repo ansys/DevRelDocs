@@ -18,8 +18,9 @@ void SetAnimationFrame(int nFrames)
 
 Number of frames to request from the dynamic result.
 
-> [!IMPORTANT]
-> The value is converted to an unsigned frame count before it is applied. A negative value does not represent a valid frame count.
+<Danger>
+The value is converted to an unsigned frame count before it is applied. A negative value does not represent a valid frame count.
+</Danger>
 
 ### Examples
 
@@ -39,8 +40,9 @@ dynamic_analysis.SetAnimationFrame(frame_count)
 
 Loading frames changes the frames available to [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) playback, frame-dependent camera operations, and recording.
 
-> [!IMPORTANT]
-> If the selected range produces fewer than two frames, animation playback is unavailable.
+<Danger>
+If the selected range produces fewer than two frames, animation playback is unavailable.
+</Danger>
 
 ## <a id="VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel_SetAnimationFrame_System_Collections_Generic_IEnumerable_System_Int32__"></a> SetAnimationFrame\(IEnumerable<int\>\)
 
@@ -56,8 +58,9 @@ void SetAnimationFrame(IEnumerable<int> stateIDs)
 
 States from GetStateIDArray() that identify the frames to load.
 
-> [!IMPORTANT]
-> Each ID is converted to an unsigned value before loading. A negative ID is invalid and causes the conversion to fail.
+<Danger>
+Each ID is converted to an unsigned value before loading. A negative ID is invalid and causes the conversion to fail.
+</Danger>
 
 ### Examples
 

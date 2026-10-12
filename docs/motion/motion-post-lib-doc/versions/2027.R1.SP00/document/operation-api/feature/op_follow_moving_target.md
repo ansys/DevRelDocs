@@ -6,8 +6,9 @@ This feature covers selecting an entity for the camera of [`IOperationsAnimation
 
 Select a target with [`SetFollowingCameraTarget(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.SetFollowingCameraTarget.md). Subsequent camera-follow updates use the found entity as their target.
 
-> [!IMPORTANT]
-> The target name must identify a supported entity. If no supported entity is found, no camera target is set.
+<Danger>
+The target name must identify a supported entity. If no supported entity is found, no camera target is set.
+</Danger>
 
 ## Enabling Camera Tracking
 Turn camera tracking on or off with [`IsFollowingCameraActive`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingCameraActive.md). With a selected target and tracking enabled, camera updates follow the target as its position or orientation changes.

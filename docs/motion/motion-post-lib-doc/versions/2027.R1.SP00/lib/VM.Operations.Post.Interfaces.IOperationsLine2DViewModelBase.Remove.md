@@ -26,8 +26,7 @@ The id of the curve to be removed.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "ChartByID"
 chart = page.CreateChart(chart_name)
 
@@ -35,10 +34,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Remove the curve by ID.
@@ -72,8 +71,7 @@ Curve object to remove from the chart.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "ChartByCurve"
 chart = page.CreateChart(chart_name)
 
@@ -81,10 +79,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Remove the curve.

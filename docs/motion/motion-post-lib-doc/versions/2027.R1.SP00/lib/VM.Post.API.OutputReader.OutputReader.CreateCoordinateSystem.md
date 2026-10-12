@@ -8,6 +8,8 @@ Assembly: VM.Post.API.OutputReader.dll
 
 Creates a coordinate-system marker in the Dynamics analysis result.
 
+For a complete operations, see [Result File Reader API Example - Create a Coordinate System](../document/result-file-reader/example/example_coordinate_system_for_result_file_reader_api.md#create-a-coordinate-system).
+
 ```csharp
 public GeneralMarker CreateCoordinateSystem(string newName, string parentFullName = "Ground")
 ```
@@ -40,8 +42,10 @@ coordinate_system = output_reader.CreateCoordinateSystem(coordinate_system_name)
 
 The new marker is added with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md) to `Dynamics`.
 
-> [!IMPORTANT]
-> A Dynamics analysis result must be available. Otherwise, this method returns `null`.
+<Danger>
+A Dynamics analysis result must be available. Otherwise, this method returns `null`.
+</Danger>
 
-> [!NOTE]
-> When <code class="paramref">parentFullName</code> is omitted, `NameService.GroundName` is used as the parent.
+<Note>
+When <code class="paramref">parentFullName</code> is omitted, `NameService.GroundName` is used as the parent.
+</Note>

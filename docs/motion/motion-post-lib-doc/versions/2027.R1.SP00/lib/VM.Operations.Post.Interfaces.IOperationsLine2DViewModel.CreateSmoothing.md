@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Applies data filtering and smoothing to curve data as part of the chart tab's Signal Processing functionality.
 
+For a complete operations, see [Operation API Example - Signal Processing](../document/operation-api/example/example_chart_for_operation_api.md#signal-processing).
+
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSmoothing(IEnumerable<string> lstSeriesName, SmoothingType smoothingType, int pointsOfWindow, int polyOrder)
 ```
@@ -44,8 +46,7 @@ A collection of curves with smoothing applied.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -53,10 +54,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Select the source curves.
@@ -78,6 +79,8 @@ window size, and polynomial order. The function supports moving average and Savi
 ## <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSmoothing_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_SmoothingType_System_Int32_System_Int32_"></a> CreateSmoothing\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SmoothingType, int, int\)
 
 Applies data filtering and smoothing to curve data as part of the chart tab's Signal Processing functionality.
+
+For a complete operations, see [Operation API Example - Signal Processing](../document/operation-api/example/example_chart_for_operation_api.md#signal-processing).
 
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSmoothing(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, SmoothingType smoothingType, int pointsOfWindow, int polyOrder)
@@ -115,8 +118,7 @@ A collection of curves with smoothing applied.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "ChartSeries"
 chart = page.CreateChart(chart_name)
 
@@ -124,10 +126,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Create the smoothed curve.

@@ -18,8 +18,9 @@ void RemoveCoordinateSystem(string name)
 
 Full name from [`FullName`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.FullName.md) for a coordinate system returned by [CreateCoordinateSystem\(string, string\)](VM.Operations.Post.Interfaces.IOperationsAnimation.CreateCoordinateSystem.md) or found through another public coordinate-system lookup.
 
-> [!NOTE]
-> The built-in `Inertia` coordinate system cannot be removed.
+<Note>
+The built-in `Inertia` coordinate system cannot be removed.
+</Note>
 
 ### Examples
 

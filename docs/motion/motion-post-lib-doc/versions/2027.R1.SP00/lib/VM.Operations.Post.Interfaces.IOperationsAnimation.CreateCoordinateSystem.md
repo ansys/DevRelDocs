@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates a coordinate system in the analysis result associated with [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
+For a complete operations, see [Operation API Example - Create a Coordinate System](../document/operation-api/example/example_animation_for_operation_api.md#create-a-coordinate-system).
+
 ```csharp
 IOperationsCSYSViewModel CreateCoordinateSystem(string name, string parentInfo = "Ground")
 ```
@@ -18,15 +20,17 @@ IOperationsCSYSViewModel CreateCoordinateSystem(string name, string parentInfo =
 
 Name for the new coordinate system.
 
-> [!IMPORTANT]
-> `name` must not identify an existing entity in the associated analysis result.
+<Danger>
+`name` must not identify an existing entity in the associated analysis result.
+</Danger>
 
 `parentInfo` string
 
 Full name of the body, node, or coordinate system that will contain the new coordinate system. Obtain the full name from a public entity property or lookup result. If omitted, the ground entity is used. To specify a node, use the containing body full name followed by `/Node/` and the node ID, such as `body full name/Node/42`.
 
-> [!IMPORTANT]
-> `parentInfo` must identify an existing body, node, or coordinate system in the associated analysis result.
+<Danger>
+`parentInfo` must identify an existing body, node, or coordinate system in the associated analysis result.
+</Danger>
 
 ### Returns
 

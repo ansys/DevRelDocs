@@ -14,17 +14,23 @@ public enum AnalysisMethodEN
 
 `Morrow` 
 
+Description: "Morrow"
+
 Applies the Morrow mean-stress correction.
 
 
 
 `Neglect` 
 
+Description: "Neglect"
+
 Does not apply a mean-stress correction.
 
 
 
 `SWT` 
+
+Description: "S-W-T"
 
 Applies the Smith-Watson-Topper correction.
 

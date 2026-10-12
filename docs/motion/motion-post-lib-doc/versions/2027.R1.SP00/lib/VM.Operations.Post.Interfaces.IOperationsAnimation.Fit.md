@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Fits all visible entities inside the animation viewport.
 
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
+
 ```csharp
 void Fit()
 ```

@@ -10,8 +10,6 @@ Gets or sets the full name of the entity whose curve data is read.
 
 The value identifies an entity available in the opened result document, such as <code>Crank</code> or a body component path such as <code>FEBody_01/Node/1</code>.
 
-For a complete operations, see [Result File Reader API Example - Plot](../document/result-file-reader/example/example_result_file_reader.md#plot).
-
 ```csharp
 public string Target { get; set; }
 ```

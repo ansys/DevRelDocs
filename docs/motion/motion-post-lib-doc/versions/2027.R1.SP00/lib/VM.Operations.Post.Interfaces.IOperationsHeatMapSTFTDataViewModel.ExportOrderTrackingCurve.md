@@ -22,8 +22,7 @@ Series name of a curve in the STFT heat-map view. Obtain it from the selected or
 
 ```python
 # Get the chart page and create an STFT heat-map.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -33,8 +32,8 @@ source_curve_name = "Displacement/Magnitude"
 curve_paths.Add(source_curve_name)
 plot_parameters = PlotParameters()
 plot_parameters.Paths = curve_paths
-target_name = "Crank"
-plot_parameters.Target = target_name
+entity_name = "Crank"
+plot_parameters.Target = entity_name
 
 # RESULT_FILE_PATH : .dfr result file path
 curves = chart.AddCurves(RESULT_FILE_PATH, plot_parameters)
@@ -47,8 +46,17 @@ end_time = 1.0
 fft_curves = chart.CreateFFT(curves, fft_type, window_type, scale_type, point_count, start_time, end_time)
 fft_names = List[str]()
 fft_names.Add(fft_curves[0].SeriesName)
-data = HeatMapSTFTDataViewModel()
-stfts = chart.CreateSTFT(data, fft_names)
+stft_parameters = STFTParameters()
+stft_parameters.SamplingFrequency = 100
+stft_parameters.TimeSlice = 0.05
+stft_parameters.Overlap = 50
+stft_parameters.SelectedPoints = 16384
+stft_parameters.Start = start_time
+stft_parameters.End = end_time
+stft_parameters.ReferenceValue = 1E-05
+stft_parameters.ScaleFactor = 1.0
+stft_parameters.SelectedScaleType = STFTScaleType.Original
+stfts = chart.CreateSTFT(stft_parameters, fft_names)
 
 # Export the selected STFT curve to order tracking.
 curve_name = fft_curves[0].SeriesName

@@ -18,8 +18,9 @@ IViewSpec[] GetViewSpecs()
 
 An array of [`IViewSpec`](VM.Operations.Post.Interfaces.IViewSpec.md) values initialized with default camera settings, with one entry for each loaded animation frame.
 
-> [!NOTE]
-> The returned array is empty when no animation frames are loaded.
+<Note>
+The returned array is empty when no animation frames are loaded.
+</Note>
 
 ### Examples
 

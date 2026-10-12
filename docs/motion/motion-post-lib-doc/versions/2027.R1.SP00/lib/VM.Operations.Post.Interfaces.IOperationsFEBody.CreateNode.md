@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates a node selection for a node ID in the current finite-element data.
 
+For a complete operations, see [Operation API Example - Create Node &amp; Element](../document/operation-api/example/example_animation_for_operation_api.md#create-node--element).
+
 ```csharp
 IOperationsNodeViewModel CreateNode(int nodeID, PlotDataType fileType = PlotDataType.DEFAULT)
 ```
@@ -18,15 +20,17 @@ IOperationsNodeViewModel CreateNode(int nodeID, PlotDataType fileType = PlotData
 
 Node ID that exists in the current finite-element data part.
 
-> [!IMPORTANT]
-> The ID must identify an existing node. An invalid ID cannot be resolved into a node selection.
+<Danger>
+The ID must identify an existing node. An invalid ID cannot be resolved into a node selection.
+</Danger>
 
 `fileType` [PlotDataType](VM.Models.PlotDataType.md)
 
 Plot data type associated with the node selection. The default is `DEFAULT`.
 
-> [!NOTE]
-> The current implementation creates the node selection with `DEFAULT` regardless of the supplied value.
+<Note>
+The current implementation creates the node selection with `DEFAULT` regardless of the supplied value.
+</Note>
 
 ### Returns
 
@@ -42,13 +46,13 @@ Created [`IOperationsNodeViewModel`](VM.Operations.Post.Interfaces.IOperationsNo
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result_type = AnalysisResultType.Dynamics
 dynamic_analysis = document.GetAnalysisResultViewModel(analysis_result_type)
-body_name = "FEBody_01"
-febody = dynamic_analysis.GetViewModel(body_name)
+entity_name = "FEBody_01"
+febody = dynamic_analysis.GetViewModel(entity_name)
 
 # Create a node selection.
 node_id = 754
-file_type = PlotDataType.DEFAULT
-node = febody.CreateNode(node_id, file_type)
+plot_data_type = PlotDataType.DEFAULT
+node = febody.CreateNode(node_id, plot_data_type)
 ```
 
 ### Remarks

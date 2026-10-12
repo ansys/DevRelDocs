@@ -2,7 +2,7 @@
 This feature covers configuring the camera viewpoint of [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) with [`IViewSpec`](../../../lib/VM.Operations.Post.Interfaces.IViewSpec.md), created through [Manage View - Creating](op_manage_view.md#creating), for the current animation frame and assigning different viewpoints to loaded animation frames during recording.
 
 ## Current Viewpoint
-Use [`IViewSpec`](../../../lib/VM.Operations.Post.Interfaces.IViewSpec.md) to define the camera viewpoint.
+Use `IViewSpec` to define the camera viewpoint.
 
 - Set the camera position with [`Eye`](../../../lib/VM.Operations.Post.Interfaces.IViewSpec.Eye.md).
 - Set the camera target with [`Target`](../../../lib/VM.Operations.Post.Interfaces.IViewSpec.Target.md).

@@ -15,11 +15,15 @@ public enum RecordingRangeType
 
 `ActiveGroup` 
 
+Description: "Active Page"
+
 Captures the active page and its displayed content.
 
 
 
 `ActiveView` 
+
+Description: "Active View"
 
 Captures the active view.
 

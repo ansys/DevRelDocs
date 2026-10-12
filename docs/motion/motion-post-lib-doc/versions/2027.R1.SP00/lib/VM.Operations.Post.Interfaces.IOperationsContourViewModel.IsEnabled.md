@@ -20,5 +20,6 @@ bool IsEnabled { get; set; }
 
 Activating this contour deactivates any other contour already active in the same analysis result, so only one contour is active at a time. Deactivating this contour removes it from active display.
 
-> [!IMPORTANT]
-> Activation has no effect until an animation frame is available for the analysis result. Setting this value to `true` before a frame is loaded leaves the contour disabled.
+<Danger>
+Activation has no effect until an animation frame is available for the analysis result. Setting this value to `true` before a frame is loaded leaves the contour disabled.
+</Danger>

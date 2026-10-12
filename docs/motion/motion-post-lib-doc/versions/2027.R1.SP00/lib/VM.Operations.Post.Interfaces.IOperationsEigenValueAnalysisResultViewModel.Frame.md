@@ -20,5 +20,6 @@ uint Frame { get; set; }
 
 Changing this value reloads the active frequency's mode-shape animation with the new frame count. If no frequency is active, the stored frame count changes without loading a mode shape.
 
-> [!IMPORTANT]
-> Setting `0` is invalid and throws an exception.
+<Danger>
+Setting `0` is invalid and throws an exception.
+</Danger>

@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates [`IOperationsLine2DViewModelBase`](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md) on this page for 2D curve operations.
 
+For a complete operations, see [Operation API Example - Create a ChartView](../document/operation-api/example/example_chart_for_operation_api.md#create-a-chartview).
+
 ```csharp
 IOperationsLine2DViewModelBase CreateChart(string name = null)
 ```

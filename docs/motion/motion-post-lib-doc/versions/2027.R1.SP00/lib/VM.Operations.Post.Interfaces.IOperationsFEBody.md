@@ -70,6 +70,10 @@ Gets or sets the stress or strain combination selected from [`StressStrainCombin
 
 Creates an element selection for an element ID in the current finite-element data.
 
+For a complete operations, see [Operation API Example - Create Node &amp; Element](../document/operation-api/example/example_animation_for_operation_api.md#create-node--element).
+
  [CreateNode\(int, PlotDataType\)](VM.Operations.Post.Interfaces.IOperationsFEBody.CreateNode.md\#VM\_Operations\_Post\_Interfaces\_IOperationsFEBody\_CreateNode\_System\_Int32\_VM\_Models\_PlotDataType\_)
 
 Creates a node selection for a node ID in the current finite-element data.
+
+For a complete operations, see [Operation API Example - Create Node &amp; Element](../document/operation-api/example/example_animation_for_operation_api.md#create-node--element).

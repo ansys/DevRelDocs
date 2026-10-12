@@ -14,17 +14,23 @@ public enum LabelFormatType
 
 `Exponential` 
 
+Description: "E"
+
 Formats values with scientific notation.
 
 
 
 `General` 
 
+Description: "G"
+
 Formats values with general numeric formatting.
 
 
 
 `Number` 
+
+Description: "N"
 
 Formats values as numbers.
 

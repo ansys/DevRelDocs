@@ -6,7 +6,9 @@ Assembly: VM.Operations.Post.dll
 
 ## <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_AddCurves_System_String_VM_Models_OutputReader_PlotParameters_"></a> AddCurves\(string, PlotParameters\)
 
-Adds curves to the chart by reading data from the specified file path and using [`PlotParameters`](VM.Models.OutputReader.PlotParameters.md). For details about preparing target values, see [Getting Started](../document/operation-api/getting-started/getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter).
+Adds curves to the chart by reading data from the specified file path and using [`PlotParameters`](VM.Models.OutputReader.PlotParameters.md). For details about preparing target values, see [Operation API Example - Creating Curves](../document/operation-api/example/example_chart_for_operation_api.md#creating-curves).
+
+For a complete operations, see [Operation API Example - Creating Curves](../document/operation-api/example/example_chart_for_operation_api.md#creating-curves).
 
 ```csharp
 IOperationsLineDataSeriesViewModelBase[] AddCurves(string filepath, PlotParameters parameters)
@@ -36,8 +38,7 @@ An array containing the added [`IOperationsLineDataSeriesViewModelBase`](VM.Oper
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -45,10 +46,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 ```
 

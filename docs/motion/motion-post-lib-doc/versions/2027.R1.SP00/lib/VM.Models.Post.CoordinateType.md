@@ -14,17 +14,23 @@ public enum CoordinateType
 
 `X` 
 
+Description: "Local X"
+
 Selects the local X axis.
 
 
 
 `Y` 
 
+Description: "Local Y"
+
 Selects the local Y axis.
 
 
 
 `Z` 
+
+Description: "Local Z"
 
 Selects the local Z axis.
 

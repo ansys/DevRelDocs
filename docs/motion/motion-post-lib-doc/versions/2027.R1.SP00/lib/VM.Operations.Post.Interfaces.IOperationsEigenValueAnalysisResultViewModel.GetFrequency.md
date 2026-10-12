@@ -18,8 +18,9 @@ IOperationsFrequencyViewModel GetFrequency(int index)
 
 Zero-based index in the frequencies available at the current [`TargetSamplingTime`](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.TargetSamplingTime.md).
 
-> [!IMPORTANT]
-> A negative index is invalid and causes an exception.
+<Danger>
+A negative index is invalid and causes an exception.
+</Danger>
 
 ### Returns
 

@@ -40,5 +40,6 @@ reference_frames = output_reader.GetFlexibleBodyReferenceFrame(entity_name)
 
 The method requests a reference frame for every state reported by [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md).
 
-> [!IMPORTANT]
-> `target` must identify a flexible body. An invalid target causes the body lookup or reference-frame read to fail.
+<Danger>
+`target` must identify a flexible body. An invalid target causes the body lookup or reference-frame read to fail.
+</Danger>

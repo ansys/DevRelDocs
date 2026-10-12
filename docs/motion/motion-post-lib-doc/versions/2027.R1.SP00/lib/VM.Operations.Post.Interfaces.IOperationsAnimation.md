@@ -110,13 +110,19 @@ Gets or sets [`TransformationType`](VM.Models.Post.TransformationType.md) that d
 
 Creates a coordinate system in the analysis result associated with `IOperationsAnimation`.
 
+For a complete operations, see [Operation API Example - Create a Coordinate System](../document/operation-api/example/example_animation_for_operation_api.md#create-a-coordinate-system).
+
  [CreateSoundPressure\(IList<string\>, IList<string\>, double, double, double, double, double, double, int, int, bool\)](VM.Operations.Post.Interfaces.IOperationsAnimation.CreateSoundPressure.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_CreateSoundPressure\_System\_Collections\_Generic\_IList\_System\_String\_\_System\_Collections\_Generic\_IList\_System\_String\_\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_System\_Double\_System\_Int32\_System\_Int32\_System\_Boolean\_)
 
 Creates sound-pressure curve data for selected bodies and coordinate systems.
 
+For a complete operations, see [Operation API Example - Sound Pressure](../document/operation-api/example/example_analysis_for_operation_api.md#sound-pressure).
+
  [Fit\(\)](VM.Operations.Post.Interfaces.IOperationsAnimation.Fit.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_Fit)
 
 Fits all visible entities inside the animation viewport.
+
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
 
  [GetCoordinateSystem\(string\)](VM.Operations.Post.Interfaces.IOperationsAnimation.GetCoordinateSystem.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_GetCoordinateSystem\_System\_String\_)
 
@@ -134,9 +140,13 @@ Creates an array of view specifications corresponding to the number of loaded an
 
 Shows entities identified by full name and hides other entities.
 
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
+
  [HideOthers\(params Guid\[\]\)](VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_HideOthers\_System\_Guid\_\_\_)
 
 Shows entities identified by GUID and hides other entities.
+
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
 
  [PlayAnimation\(\)](VM.Operations.Post.Interfaces.IOperationsAnimation.PlayAnimation.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_PlayAnimation)
 
@@ -146,6 +156,8 @@ Starts playback of animation frames in active `IOperationsAnimation`.
 
 Records loaded animation frames to a file.
 
+For a complete operations, see [Operation API Example - Recording](../document/operation-api/example/example_animation_for_operation_api.md#recording).
+
  [RemoveCoordinateSystem\(string\)](VM.Operations.Post.Interfaces.IOperationsAnimation.RemoveCoordinateSystem.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_RemoveCoordinateSystem\_System\_String\_)
 
 Removes a removable coordinate system identified by its full name.
@@ -154,6 +166,8 @@ Removes a removable coordinate system identified by its full name.
 
 Sets a body, marker, node, or coordinate system as the camera-follow target.
 
+For a complete operations, see [Operation API Example - Following Camera](../document/operation-api/example/example_animation_for_operation_api.md#following-camera).
+
  [SetViewSpec\(IViewSpec\)](VM.Operations.Post.Interfaces.IOperationsAnimation.SetViewSpec.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_SetViewSpec\_VM\_Operations\_Post\_Interfaces\_IViewSpec\_)
 
 Applies camera information from [`IViewSpec`](VM.Operations.Post.Interfaces.IViewSpec.md) to the current animation frame.
@@ -161,6 +175,8 @@ Applies camera information from [`IViewSpec`](VM.Operations.Post.Interfaces.IVie
  [ShowAll\(\)](VM.Operations.Post.Interfaces.IOperationsAnimation.ShowAll.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_ShowAll)
 
 Shows all entities in the animation view.
+
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
 
  [StopAnimation\(\)](VM.Operations.Post.Interfaces.IOperationsAnimation.StopAnimation.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_StopAnimation)
 

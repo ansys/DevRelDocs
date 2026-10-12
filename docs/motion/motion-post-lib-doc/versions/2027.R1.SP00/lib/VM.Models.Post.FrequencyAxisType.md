@@ -15,11 +15,15 @@ public enum FrequencyAxisType
 
 `X` 
 
+Description: "X"
+
 Uses the X-axis values as frequencies.
 
 
 
 `Y` 
+
+Description: "Y"
 
 Uses the Y-axis values as frequencies.
 
