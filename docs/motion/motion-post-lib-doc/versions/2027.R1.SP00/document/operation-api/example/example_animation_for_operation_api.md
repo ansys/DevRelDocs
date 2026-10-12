@@ -5,7 +5,7 @@ The following sample code illustrates how to create a simple example.
 ## Create an AnimationView corresponding to the Analysis type.
 This example demonstrates how to create an animation view suitable for the analysis type and load animation frames.
 ```python
-# OperationAPI_CreatingAnimationViewBasedonType.py
+# Example_OperationAPI_CreatingAnimationViewBasedonType.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -40,14 +40,14 @@ for page in pages :
             find_views.append(animation_view)
 
 
-# RESULT_FILE_PATH - Get the document from the result file path.
+# RESULT_FILE_PATH : Get the document from the result file path.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # This retrieves the analysis result from the document.
-    # Types of Analysis Results
-    # - Dynamics
-    # - Eigenvalue
-    # - Statics
+# Types of Analysis Results
+# - Dynamics
+# - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 frame_count = 50
 dynamic_analysis.SetAnimationFrame(frame_count)
@@ -100,8 +100,7 @@ The Coordinate system can be created from various entities in the result as belo
 * Marker
 
 ```python
-# -*- coding: utf-8 -*-
-# OperationAPI_CreateACoordinateSystem.py
+# Example_OperationAPI_CreateACoordinateSystem.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -139,8 +138,8 @@ view_count = len(find_views)
 if view_count > 0 :
     animation_view = find_views[0]
     # Create a Coordinate System
-    # Name - Set the name of instance.
-    # ParentInfo - Specifies The path of an parent entity.
+    # Name : Set the name of instance.
+    # ParentInfo : Specifies The path of an parent entity.
     csys_name = "Crank_CSYS"
     parent_name = "Crank"
     animation_view.CreateCoordinateSystem(csys_name, parent_name)
@@ -158,14 +157,14 @@ if view_count > 0 :
 
     # The CurrentCoordinateSystemType property indicates Type attribute as displayed in the user interface.
     # Accepted input values are defined by the GeneralMarkerType enumeration.
-    # The GeneralMarkerType ? property must be one of the following: CARTESIAN, CYLINDRICAL, SPHERICAL
+    # The CurrentCoordinateSystemType property must be one of the following: CARTESIAN, CYLINDRICAL, SPHERICAL
     csys.CurrentCoordinateSystemType = GeneralMarkerType.CYLINDRICAL
     if csys.CurrentCoordinateSystemType == GeneralMarkerType.SPHERICAL:
-        # The SphericalAxis1 property indicates Axis ?. Accepted input values are defined by the CoordinateType enumeration.
-        # The Axis ? property must be one of the following: X, Y, Z
+        # The SphericalAxis1 property indicates Axis rho. Accepted input values are defined by the CoordinateType enumeration.
+        # The Axis rho property must be one of the following: X, Y, Z
         csys.SphericalAxis1 = CoordinateType.X
-        # The SphericalAxis2 property indicates Axis ?? Accepted input values are defined by the CoordinateType enumeration.
-        # The Axis ??property must be one of the following: X, Y, Z
+        # The SphericalAxis2 property indicates Axis phi. Accepted input values are defined by the CoordinateType enumeration.
+        # The Axis phi property must be one of the following: X, Y, Z
         csys.SphericalAxis2 = CoordinateType.Y
     elif csys.CurrentCoordinateSystemType == GeneralMarkerType.CYLINDRICAL:
         # The CylindricalAxisR property indicates Axis R. Accepted input values are defined by the CoordinateType enumeration.
@@ -189,7 +188,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ## Create Node & Element
 This example demonstrates how to create nodes and elements within a flexible body.
 ```python
-# OperationAPI_CreatingANodeAndElement.py
+# Example_OperationAPI_CreatingANodeAndElement.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -225,7 +224,7 @@ for page in pages :
 
 view_count = len(find_views)
 if view_count > 0 :
-    # RESULT_FILE_PATH - Get the document from the result file path.
+    # RESULT_FILE_PATH : Get the document from the result file path.
     document = application_handler.GetDocument(RESULT_FILE_PATH)
 
     # This retrieves the analysis result from the document.
@@ -261,7 +260,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 This example demonstrates how to create a contour.
 Contour is a good tool for analyzing a simulation result. Since scalar data, such as stress, is displayed with color corresponding to value, the location of a problem is easy to estimate during an animation.
 ```python
-# OperationAPI_CreatingContour.py
+# Example_OperationAPI_CreatingContour.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -295,7 +294,7 @@ for page in pages :
         if animation_view.DocumentFilePath == RESULT_FILE_PATH and animation_view.AnalysisResultType == AnalysisResultType.Dynamics :
             find_views.append(animation_view)
 
-# RESULT_FILE_PATH - Get the document from the result file path.
+# RESULT_FILE_PATH : Get the document from the result file path.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # This retrieves the analysis result from the document.
@@ -311,20 +310,20 @@ dynamic_analysis.SetAnimationFrame(frame_count)
 target_entities = dynamic_analysis.GetContourables(ContourMappingType.FENode)
 
 # Create Contour
-# target_entities - Set the entity as the target for export
+# target_entities : Set the entity as the target
 # Set Contour Mapping Type
 # ContourMappingType can be one of the following:
-# - ContourMappingType.None - None
-# - ContourMappingType.FENode - Node (Averaged across body)
-# - ContourMappingType.FEElement - Element (Unaveraged)
-# - ContourMappingType.FEElementNode - Node (Unaveraged)
-# - ContourMappingType.FEMaterial - Node (Averaged within material)
-# - ContourMappingType.BeamGroup - Beam Group
-# - ContourMappingType.Contact - Contact
-# - ContourMappingType.ChainedSystem - Chained System
-# - ContourMappingType.Usersubroutine - Usersubroutine
-# characteristic_path - The path to the characteristic for which the contour will be created.
-# component_path - The path to the component for which the contour will be created.
+# - ContourMappingType.None : None
+# - ContourMappingType.FENode : Node (Averaged across body)
+# - ContourMappingType.FEElement : Element (Unaveraged)
+# - ContourMappingType.FEElementNode : Node (Unaveraged)
+# - ContourMappingType.FEMaterial : Node (Averaged within material)
+# - ContourMappingType.BeamGroup : Beam Group
+# - ContourMappingType.Contact : Contact
+# - ContourMappingType.ChainedSystem : Chained System
+# - ContourMappingType.Usersubroutine : Usersubroutine
+# characteristic_path : The path to the characteristic for which the contour will be created.
+# component_path : The path to the component for which the contour will be created.
 characteristic_name = "Displacement"
 component_name = "X"
 contour = dynamic_analysis.CreateContour(target_entities, ContourMappingType.FENode, characteristic_name, component_name)
@@ -352,7 +351,7 @@ pages = application_handler.GetPages()
 for page in pages :
     page.Close()
 
-# Close Document
+# Close the Document
 application_handler.CloseDocument(RESULT_FILE_PATH)
 ```
 
@@ -360,7 +359,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 This example demonstrates how to create, retrieve, plot, and remove a Python expression.
 A Postprocessor Expression is similar to a Function Expression in the Motion Preprocessor. It represents a formula that can be written as a combination of functions of displacement, velocity, and acceleration between specified markers, and it also supports basic mathematical functions.
 ```python
-# OperationAPI_CreatingAExpression.py
+# Example_OperationAPI_CreatingAExpression.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -396,7 +395,7 @@ for page in pages :
 
 view_count = len(find_views)
 if view_count > 0 :
-    # RESULT_FILE_PATH - Get the document from the result file path.
+    # RESULT_FILE_PATH : Get the document from the result file path.
     document = application_handler.GetDocument(RESULT_FILE_PATH)
 
     # This retrieves the analysis result from the document.
@@ -436,7 +435,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ## Image Capture
 This example demonstrates how to capture the content on the screen as an image.
 ```python
-# OperationAPI_ImageCapture.py
+# Example_OperationAPI_ImageCapture.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -472,7 +471,7 @@ for page in pages :
 
 view_count = len(find_views)
 if view_count > 0 :
-    # RESULT_FILE_PATH - Get the document from the result file path.
+    # RESULT_FILE_PATH : Get the document from the result file path.
     document = application_handler.GetDocument(RESULT_FILE_PATH)
 
     # This retrieves the analysis result from the document.
@@ -492,7 +491,6 @@ if view_count > 0 :
     # IMAGE_OUTPUT_FILENAME : output filename for the exported view image
     export_filepath = Path.Combine(OUTPUT_DIR, IMAGE_OUTPUT_FILENAME)
 
-    # Image Caputre
     image_width = 1920
     image_height = 1080
     animation_view.ExportImage(export_filepath, ImageFormat.Png, image_width, image_height)
@@ -511,7 +509,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 This example demonstrates how to make the camera follow a moving target.
 The camera can track an entity's translation or rotation along the selected axes while the animation plays.
 ```python
-# OperationAPI_FollowingCamera.py
+# Example_OperationAPI_FollowingCamera.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -533,7 +531,7 @@ filepaths.Add(ANIMATION_RESULT_FILE_PATH)
 # When the result is first opened, a Page is created and an Animation View is created on that Page.
 application_handler.AddDocument(filepaths)
 
-# ANIMATION_RESULT_FILE_PATH - Get the document from the result file path.
+# ANIMATION_RESULT_FILE_PATH : Get the document from the result file path.
 document = application_handler.GetDocument(ANIMATION_RESULT_FILE_PATH)
 
 # This retrieves the analysis result from the document.
@@ -586,21 +584,21 @@ export_filepath = Path.Combine(OUTPUT_DIR, FOLLOWING_CAMERA_OUTPUT_NAME)
 # frame, which the active camera tracking set up above updates as the target moves.
 animation_view.RecordingAnimation(export_filepath, RecordingType.MP4, RecordingRangeType.ActiveView, 10)
 
+# Close the Pages
+# Get all created pages.
+# This retrieves all pages created in the application.
+pages = application_handler.GetPages()
+for page in pages :
+    page.Close()
 
-# # Get all created pages.
-# # This retrieves all pages created in the application.
-# pages = application_handler.GetPages()
-# for page in pages :
-#     page.Close()
-
-# # Close the Document
-# application_handler.CloseDocument(ANIMATION_RESULT_FILE_PATH)
+# Close the Document
+application_handler.CloseDocument(ANIMATION_RESULT_FILE_PATH)
 ```
 
 ## Recording
 This example demonstrates how to record an animation as a video.
 ```python
-# OperationAPI_Recording.py
+# Example_OperationAPI_Recording.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -636,7 +634,7 @@ for page in pages :
 
 view_count = len(find_views)
 if view_count > 0 :
-    # RESULT_FILE_PATH - Get the document from the result file path.
+    # RESULT_FILE_PATH : Get the document from the result file path.
     document = application_handler.GetDocument(RESULT_FILE_PATH)
 
     # This retrieves the analysis result from the document.
@@ -683,7 +681,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 This example demonstrates how to create a vector display.
 Vector display is used to display the force vector in animation view. It is a useful tool for analyzing the magnitude or direction of a force. The force and torque of joint, force, and contact are available in the vector display.
 ```python
-# OperationAPI_CreatingAVectorDisplay.py
+# Example_OperationAPI_CreatingAVectorDisplay.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -719,7 +717,7 @@ for page in pages :
 
 view_count = len(find_views)
 if view_count > 0 :
-    # RESULT_FILE_PATH - Get the document from the result file path.
+    # RESULT_FILE_PATH : Get the document from the result file path.
     document = application_handler.GetDocument(RESULT_FILE_PATH)
 
     # This retrieves the analysis result from the document.
@@ -734,8 +732,8 @@ if view_count > 0 :
     new_characteristic_name = "Base Torque"
     
     # Create Vector Display
-    # entity_name - The name of the target entity for the vector display.
-    # characteristic_name - The name of the characteristic. Refer to the UI for Vector Display for available characteristics.
+    # entity_name : The name of the target entity for the vector display.
+    # characteristic_name : The name of the characteristic. Refer to the UI for Vector Display for available characteristics.
     vector = dynamic_analysis.CreateVectorDisplay(entity_name, characteristic_name)
 
     # Set properties for the vector display
@@ -764,7 +762,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 This example demonstrates how to show, hide, or fit entities within the current Animation View.
 ```python
 # -*- coding: utf-8 -*-
-# OperationAPI_ViewEntityControl.py
+# Example_OperationAPI_ViewEntityControl.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py

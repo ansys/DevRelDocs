@@ -83,14 +83,14 @@ geometries = output_reader.GetGeometryInfoArray()
 entity_name = "FEBody_01"
 febody = next((item for item in geometries if item.FullName == entity_name), None)
 
-# resultpath - Specifies the file path to export
-# mode - Specifies how the operating system should open a file.
-# stateids - Specifies the id list of the states to time.
-# fullName - Specifies the names of the entities.
-# type - Specifies the type of the target for displaying contour(None, FENode, FEElement, FEElementNode, FEMaterial, BeamGroup, Contact, ChainedSystem, Usersubroutine).
-# path - Specifies the path of result to save.
-# analysisResultType - Specifies the type of analysis result type for displaying contour.
-# formatType - Specifies a file format type.
+# resultpath : Specifies the file path to export
+# mode : Specifies how the operating system should open a file.
+# stateids : Specifies the id list of the states to time.
+# fullName : Specifies the names of the entities.
+# type : Specifies the type of the target for displaying contour(None, FENode, FEElement, FEElementNode, FEMaterial, BeamGroup, Contact, ChainedSystem, Usersubroutine).
+# path : Specifies the path of result to save.
+# analysisResultType : Specifies the type of analysis result type for displaying contour.
+# formatType : Specifies a file format type.
 output_reader.ExportContourResultToFile(export_result_file_path, FileMode.Create, state_ids, febody.FullName, ContourMappingType.FENode, characteristic_name, analysisResultType=AnalysisResultType.Dynamics, formatType=FileFormatType.BINARY)
 
 state_ids = output_reader.GetStateIDArray()

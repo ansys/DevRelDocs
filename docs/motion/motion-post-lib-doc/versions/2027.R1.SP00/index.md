@@ -24,4 +24,4 @@ The **API Reference** documents the public classes, interfaces, methods, and pro
 
 ## Downloads
 
-Click [Postprocessor API Resources](https://download-directory.github.io/?url=https://github.com/ansys/DevRelPublic/tree/main/Downloads/Motion/2027R1/Postprocessor) and download the available resources, including API modules, result files, and example scripts.
+Click [Postprocessor API Resources](Resources.zip) and download the available resources, including API modules, result files, example scripts, and the PDF version of this documentation.

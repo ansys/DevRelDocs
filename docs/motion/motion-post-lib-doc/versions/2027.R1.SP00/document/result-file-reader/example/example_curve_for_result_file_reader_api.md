@@ -44,8 +44,8 @@ plot_parameters.Target = entity_name
 plot_parameters.Paths = paths
 
 # There are two ways to retrieve the results of the curve:
-# 1. PlotDataType.DEFAULT - Uses the default PlotDataType setting.
-# 2. PlotDataType.PlotResult - If a Plt result exists, you can set PlotResult and obtain the result from Plt.
+# 1. PlotDataType.DEFAULT : Uses the default PlotDataType setting.
+# 2. PlotDataType.PlotResult : If a Plt result exists, you can set PlotResult and obtain the result from Plt.
 # If PlotDataType is not set, it is set to Default by default.
 plot_parameters.PlotDataType = PlotDataType.DEFAULT
 

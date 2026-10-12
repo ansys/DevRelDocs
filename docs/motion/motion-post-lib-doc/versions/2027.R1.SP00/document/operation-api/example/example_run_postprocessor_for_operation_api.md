@@ -12,7 +12,7 @@ Starting the Postprocessor and importing the `OperationAPI` module cannot be don
 - The script at `IMPORT_SCRIPT_FILE_PATH` runs in the Postprocessor. Import `OperationAPI` at the beginning of that script, see [Getting Started](../getting-started/getting_started_operation_api_using_py.md#basic-setup).
 
 ```python
-# OperationAPI_RunPostprocessor.py
+# Example_OperationAPI_RunPostprocessor.py
 import sys
 import clr
 

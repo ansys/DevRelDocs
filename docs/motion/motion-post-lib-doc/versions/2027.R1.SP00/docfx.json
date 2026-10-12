@@ -7,7 +7,8 @@
                                          "product":  "Motion",
                                          "programming language":  "C#",
                                          "product collection":  "Structures",
-                                         "physics":  "Structures"
+                                         "physics":  "Structures",
+                                         "pdf":  true
                                      }
               }
 }

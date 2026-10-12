@@ -22,8 +22,8 @@ from ResultFileReaderAPI import *
 output_reader = OutputReader(RESULT_FILE_PATH)
 
 print ("===GetVector===")
-# target - Specifies the name of vector displayable entity
-# path - Specifies characteristc on vector display
+# target : Specifies the name of vector displayable entity
+# path : Specifies characteristc on vector display
 entity_name = "TJ_01"
 # characteristic_name : vector characteristic for the Action Force result
 characteristic_name = "Action Force"
@@ -69,8 +69,8 @@ output_reader = OutputReader(RESULT_FILE_PATH)
 
 state_ids = output_reader.GetStateIDArray()
 
-# target - Specifies the name of vector displayable entity
-# path - Specifies characteristc on vector display
+# target : Specifies the name of vector displayable entity
+# path : Specifies characteristc on vector display
 entity_name = "TJ_01"
 # characteristic_name : vector characteristic for the Base Force result
 characteristic_name = "Base Force"

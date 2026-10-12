@@ -5,7 +5,7 @@ The following sample code illustrates how to create a simple example.
 ## Export All Curves
 Export all curves on active plot view.
 ```python
-# OperationAPI_ExportAllCurves.py
+# Example_OperationAPI_ExportAllCurves.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -60,8 +60,8 @@ entity_name = "Crank"
 parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
-# FilePath - The path of the result to access.
-# parameters - The class used as a parameter of the AddCurve function.
+# FilePath : The path of the result to access.
+# parameters : The class used as a parameter of the AddCurve function.
 # The instance of the curve.
 curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
@@ -72,8 +72,7 @@ for curve in curves :
     index = index + 1
 
 # Exporting All Curves
-# The output path is 'examples/Output'.
-# file_path - The path to the file where the curve data will be exported.
+# file_path : The path to the file where the curve data will be exported.
 # This function exports all curves in the chart view to a specified file.
 # OUTPUT_DIR : path to the folder where exported files are written
 # CURVE_DATA_FILENAME : output filename for the exported curve data
@@ -90,7 +89,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ## Export Contour Result To File
 This example demonstrates how to export contour results to a file.
 ```python
-# OperationAPI_ExportContourResultToFile.py
+# Example_OperationAPI_ExportContourResultToFile.py
 # -*- coding: utf-8 -*-
 import sys
 
@@ -147,15 +146,15 @@ target_names.Add(febody.FullName)
 
 # Set Contour Mapping Type
 # ContourMappingType can be one of the following:
-# - ContourMappingType.None - None
-# - ContourMappingType.FENode - Node (Averaged across body)
-# - ContourMappingType.FEElement - Element (Unaveraged)
-# - ContourMappingType.FEElementNode - Node (Unaveraged)
-# - ContourMappingType.FEMaterial - Node (Averaged within material)
-# - ContourMappingType.BeamGroup - Beam Group
-# - ContourMappingType.Contact - Contact
-# - ContourMappingType.ChainedSystem - Chained System
-# - ContourMappingType.Usersubroutine - Usersubroutine
+# - ContourMappingType.None : None
+# - ContourMappingType.FENode : Node (Averaged across body)
+# - ContourMappingType.FEElement : Element (Unaveraged)
+# - ContourMappingType.FEElementNode : Node (Unaveraged)
+# - ContourMappingType.FEMaterial : Node (Averaged within material)
+# - ContourMappingType.BeamGroup : Beam Group
+# - ContourMappingType.Contact : Contact
+# - ContourMappingType.ChainedSystem : Chained System
+# - ContourMappingType.Usersubroutine : Usersubroutine
 contour_mapping_type = ContourMappingType.FENode
 
 # Set Characteristic Path
@@ -168,14 +167,14 @@ component_name = "X"
 combined_characteristic_component_path = characteristic_name + "/" + component_name
 
 # Export Contour Result to File - When the Animation View is the Active View
-# RESULT_FILE_PATH - The path to the result file.
-# output_path - The path to the output file where the contour results will be saved.
-# target_names - The list of target names for which the contour results will be exported.
-# is_full_frame - A boolean indicating whether to export the full frame or not.
-# contour_mapping_type - The type of contour mapping to be used.
-# characteristic_component_path - The path to the characteristic and component for which the contour results will be exported.
-# AnalysisType - The default value is AnalysisResultType.Dynamics. If you want to change it, please set the AnalysisType.
-# FileFormatType - The format of the output file. The default is FileFormatType.Text. The format type can be set to TXT or BINARY.
+# RESULT_FILE_PATH : The path to the result file.
+# output_path : The path to the output file where the contour results will be saved.
+# target_names : The list of target names for which the contour results will be exported.
+# is_full_frame : A boolean indicating whether to export the full frame or not.
+# contour_mapping_type : The type of contour mapping to be used.
+# characteristic_component_path : The path to the characteristic and component for which the contour results will be exported.
+# AnalysisType : The default value is AnalysisResultType.Dynamics. If you want to change it, please set the AnalysisType.
+# FileFormatType : The format of the output file. The default is FileFormatType.Text. The format type can be set to TXT or BINARY.
 Export.ExportContourResultToFile(RESULT_FILE_PATH, output_path, target_names, is_full_frame, contour_mapping_type, combined_characteristic_component_path)
 
 # Close the Pages

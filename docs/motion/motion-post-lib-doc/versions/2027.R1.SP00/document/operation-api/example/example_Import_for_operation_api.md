@@ -5,7 +5,7 @@ This example covers topics related to importing data.
 ## Numeric Import
 Here is an example of importing curve results from a file.
 ```python
-# OperationAPI_NumericImport.py
+# Example_OperationAPI_NumericImport.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -57,8 +57,8 @@ entity_name = "Crank"
 parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
-# FilePath - The path of the result to access.
-# parameters - The class used as a parameter of the AddCurve function.
+# FilePath : The path of the result to access.
+# parameters : The class used as a parameter of the AddCurve function.
 # The instance of the curve.
 curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
@@ -67,10 +67,6 @@ for curve in curves :
     curve.SeriesName = "NameChange_{0}".format(index)
     index = index + 1
 
-# File Dialog Open
-# chart1.ExportAllDataSeries()
-
-# use not file dialog
 # OUTPUT_DIR : path to the folder where exported files are written
 # CURVE_DATA_FILENAME : output filename for the exported curve data
 file_path = Path.Combine(OUTPUT_DIR, CURVE_DATA_FILENAME)
@@ -80,18 +76,18 @@ chart_view.ExportAllCurves(file_path)
 numeric_parameters = List[INumericParameter](2)
 
 # To create a curve from a file, create a NumericParameter.
-# Name - The name of the curve to be created.
-# TargetX - The name of the X-axis data.
-# TargetY - The name of the Y-axis data.
+# Name : The name of the curve to be created.
+# TargetX : The name of the X-axis data.
+# TargetY : The name of the Y-axis data.
 # In this example, a curve named 'OrderTrackingCurve' is created, and data corresponding to the X and Y headers is retrieved from the file.
 parameter = NumericParameter()
-parameter.Name = r'NameChange_10'
+parameter.Name = r'OrderTrackingCurve'
 parameter.TargetX = r'Time(sec)'
 parameter.TargetY = r'NameChange_1'
 numeric_parameters.Add(parameter)
 
-# file_path - The path to the file containing the numeric data.
-# parameters - The list of numeric parameters that define how to interpret the data in the file.
+# file_path : The path to the file containing the numeric data.
+# parameters : The list of numeric parameters that define how to interpret the data in the file.
 chart_view.ImportNumeric(file_path, numeric_parameters)
 
 # Close the Pages
