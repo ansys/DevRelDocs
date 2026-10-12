@@ -77,7 +77,7 @@ result file path container, used if no streams are set
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-if true the field is rotated to global coordinate system (default true)
+if true the field is rotated to global coordinate system (default true). This input is ignored for PSD and Spectrum results.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
