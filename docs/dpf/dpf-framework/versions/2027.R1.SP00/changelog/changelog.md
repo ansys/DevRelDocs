@@ -2044,6 +2044,8 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## mesh
+### <a id="Features_mesh"></a> Features
 
 - Fix the amplitude calculation for complex fields on shell nodes:
   > 
@@ -2112,8 +2114,13 @@ The following table shows which components have updates in each category.
   > The skin operator was not propagating the `edge2`, `edge3` and `beam4` element types to the skin mesh. This is now fixed.
   >
   > 
+
+- Reduce memory footprint of skin extraction op:
+  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
   >
   > 
+## misc
+### <a id="Features_misc"></a> Features
 
 - Fix new introduced issue on rescope etype.:
   > 

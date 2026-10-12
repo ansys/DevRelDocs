@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.cplx_divide
 
 # *class* cplx_divide(fields_containerA: object = None, fields_containerB: object = None, config: OperatorConfig = None)
 
-Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Multiplicative_inverse)
+Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Complex_conjugate,_absolute_value,_argument_and_division)
 
 $z_1 / z_2$ for matching fields in two complex-valued fields containers:
 

@@ -1,0 +1,24 @@
+# How-tos
+
+This section gathers pages related to DPF tutorials.
+
+[Debugging in DPF](debugging-dpf.md)
+
+[DPF licensing](entry-premium.md)
+
+[Using DPF XML files](dpf-xml-files.md)
+
+[Using collections and labels](dpf-collections.md)
+
+[Writing a DPF operator](write-an-operator.md)
+
+[Logging in DPF operators and plugins](logging-in-dpf.md)
+
+[Handling errors in DPF operators and plugins](error-handling.md)
+
+> **_NOTE:_**
+> This documentation focuses on the C++ API for DPF.
+>
+> Check the [DPF Framework documentation](https://developer-a.synopsys.com/docs/dpf-framework-2027-r2/index.md) to learn more about DPF and its capabilities.
+>
+> Check the [DPF page](https://developer-a.synopsys.com/docs/dpf) on the Developer Portal to review all available developer documentation.

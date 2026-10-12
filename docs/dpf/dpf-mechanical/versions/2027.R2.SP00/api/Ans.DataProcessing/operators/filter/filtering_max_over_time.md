@@ -1,0 +1,71 @@
+---
+uid: Ans.DataProcessing.operators.filter.filtering_max_over_time
+---
+
+# *class* filtering_max_over_time(invariant_fc_operator: object = None, output_pin: object = None, list_of_results: object = None, threshold: object = None, config: OperatorConfig = None)
+
+filtering_max_over_time()
+
+filtering_max_over_time(invariant_fc_operator: object, output_pin: object, list_of_results: object, threshold: object, config: OperatorConfig)
+
+filtering_max_over_time(config: OperatorConfig)
+
+
+
+**DPF Framework Reference:** [filtering_max_over_time operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r2/operator-specifications/filter/filtering_max_over_time.md)
+
+**Parameters:**
+
+* **invariant_fc_operator**
+* **output_pin**
+* **list_of_results**
+* **threshold**
+* **config**
+
+## Inputs
+
+### invariant_fc_operator
+
+Name of the invariant operator to be used to calculate filter (available: eqv_fc, invariants_deriv_fc, invariants_fc).
+
+**Type:** *LinkableInput*
+
+### output_pin
+
+Output pin of the invariant operator. Default = 0.
+
+**Type:** *LinkableInput*
+
+### list_of_results
+
+If no result is given, filter will be applied on Stresses and Strains
+
+**Type:** *LinkableInput*
+
+### threshold
+
+Threshold from which the operator will filter.
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### workflow
+
+**Type:** *LinkableOutput*
+
+## Methods
+
+## Properties
+
+#### *property* inputs: InputSpec
+
+*get/set*
+
+#### *property* outputs: OutputSpec
+
+*get/set*
+
+#### *property* defaultConfig: Config
+
+*get*

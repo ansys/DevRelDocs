@@ -1,0 +1,64 @@
+---
+uid: Ans.DataProcessing.operators.utility.set_attribute
+---
+
+# *class* set_attribute(fields_container: object = None, property_name: object = None, property_identifier: object = None, config: OperatorConfig = None)
+
+set_attribute()
+
+set_attribute(fields_container: object, property_name: object, property_identifier: object, config: OperatorConfig)
+
+set_attribute(config: OperatorConfig)
+
+
+
+**DPF Framework Reference:** [set_attribute operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r2/operator-specifications/utility/set_attribute.md)
+
+**Parameters:**
+
+* **fields_container**
+* **property_name**
+* **property_identifier**
+* **config**
+
+## Inputs
+
+### fields_container
+
+**Type:** *LinkableInput*
+
+### property_name
+
+Supported property names are: "labels", "base_name", "field_names", "unit".
+
+**Type:** *LinkableInput*
+
+### property_identifier
+
+Value of the property to be set: vector of string or LabelSpace for "labels", a result name string for "base_name" (sets the container name and renames all fields with time/complex/label suffixes), a StringField for "field_names" to manually set the field names, a unit string for "unit".
+
+**Type:** *LinkableInput*
+
+## Outputs
+
+### fields_container
+
+Returns the modified FieldsContainer.
+
+**Type:** *LinkableOutput*
+
+## Methods
+
+## Properties
+
+#### *property* inputs: InputSpec
+
+*get/set*
+
+#### *property* outputs: OutputSpec
+
+*get/set*
+
+#### *property* defaultConfig: Config
+
+*get*
