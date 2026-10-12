@@ -36,5 +36,6 @@ marker_info = output_reader.GetMarkerInfo(marker_name)
 
 Each state array contains position, orientation, velocity, angular velocity, acceleration, and angular acceleration values. [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md) uses the Inertia marker when values are read from a general marker.
 
-> [!NOTE]
-> If `name` does not identify a [`GeneralMarker`](VM.Models.Post.GeneralMarker.md) or `ResultMarker`, this method returns `null`.
+<Note>
+If `name` does not identify a [`GeneralMarker`](VM.Models.Post.GeneralMarker.md) or `ResultMarker`, this method returns `null`.
+</Note>

@@ -41,8 +41,9 @@ This method starts timed playback when at least two animation frames are availab
 
 For a dynamic analysis result, this method loads the full animation when no animation frames have been loaded yet.
 
-> [!IMPORTANT]
-> - [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) must be the active view before this method is called.
-> - At least two animation frames must be available for playback.
->
-> Playback does not start when either condition is not met.
+<Danger>
+- [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) must be the active view before this method is called.
+- At least two animation frames must be available for playback.
+
+Playback does not start when either condition is not met.
+</Danger>

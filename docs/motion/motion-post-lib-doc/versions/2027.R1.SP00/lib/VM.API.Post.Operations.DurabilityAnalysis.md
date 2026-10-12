@@ -16,6 +16,8 @@ public static class DurabilityAnalysis
 
 Runs a fatigue analysis for the targets and state range specified by [`IDurabilityAnalysisParameter`](VM.ViewModels.Post.IDurabilityAnalysisParameter.md).
 
+For a complete operations, see [Operation API Example - Fatigue Analysis](../document/operation-api/example/example_analysis_for_operation_api.md#fatigue-analysis).
+
  [RunFatigueAnalysisAndGenerateContours\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysisAndGenerateContours.md\#VM\_API\_Post\_Operations\_DurabilityAnalysis\_RunFatigueAnalysisAndGenerateContours\_VM\_ViewModels\_Post\_IDurabilityAnalysisParameter\_)
 
 Runs a fatigue analysis and then generates fatigue contours using the specified parameters.

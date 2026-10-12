@@ -1,4 +1,4 @@
-# Example
+# View
 This example covers topics related to views.
 - For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
@@ -85,13 +85,13 @@ application_handler.ClosePage(page.ID)
 # This retrieves all pages created in the application.
 pages = application_handler.GetPages()
 
-findViews = list()
+find_views = list()
 for page in pages :
     views = page.GetViews()
-    animationViews = [view for view in views if view.ViewType == ViewType.Animation]
-    for animationView in animationViews :
-        if animationView.DocumentFilePath == RESULT_FILE_PATH and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
-            findViews.append(animationView)
+    animation_views = [view for view in views if view.ViewType == ViewType.Animation]
+    for animation_view in animation_views :
+        if animation_view.DocumentFilePath == RESULT_FILE_PATH and animation_view.AnalysisResultType == AnalysisResultType.Dynamics :
+            find_views.append(animation_view)
 
 # Get all created pages.
 # This retrieves all pages created in the application.
@@ -139,6 +139,7 @@ document = application_handler.GetDocument(RESULT_FILE_PATH)
 # Types of Analysis Results
 # - Dynamics
 # - Eigenvalue
+# - Statics
 dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 
 # Create an Animation View on the active page

@@ -73,33 +73,34 @@ entity_name = "FEBody_01"
 body_names.Add(entity_name)
 
 # Define the microphone position list.
-microphones = List[Array[Double]]()
-microphones.Add(Array[Double]([0.0, 300.0, 0.0]))
+microphone_positions = List[Array[Double]]()
+microphone_positions.Add(Array[Double]([0.0, 300.0, 0.0]))
 
 # Configure the analysis parameters.
-start_frequency = 10.0
-end_frequency = 100.0
-frequency_step = 3.0
+coarsening_rate = 0.5
+max_area_factor = 4.0
+max_aspect_ratio = 10.0
 air_density = 1.21e-09
-reference_pressure = 2000.0
+frequency = 100.0
 sound_speed = 343000.0
-reference_distance = 1.0
-sampling_interval = 10.0
-use_half_space = False
+reference_times = output_reader.GetReferenceTimeArray()
+start_time = reference_times[0]
+end_time = reference_times[len(reference_times) - 1]
+use_decibel_scale = False
 
 # Calculate sound-pressure curves for a body and microphone position.
 sound_pressure_curves = output_reader.ExecuteSoundPressureAnalysis(
     body_names,
-    microphones,
-    start_frequency,
-    end_frequency,
-    frequency_step,
+    microphone_positions,
+    coarsening_rate,
+    max_area_factor,
+    max_aspect_ratio,
     air_density,
-    reference_pressure,
+    frequency,
     sound_speed,
-    reference_distance,
-    sampling_interval,
-    use_half_space,
+    start_time,
+    end_time,
+    use_decibel_scale,
 )
 ```
 
@@ -107,8 +108,9 @@ sound_pressure_curves = output_reader.ExecuteSoundPressureAnalysis(
 
 The method maps `startTime` and `endTime` to the nearest available states with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md) before calculating the curves. Body surfaces and node values are read from the primary analysis result.
 
-> [!IMPORTANT]
-> Every name in `bodynames` must identify an FE body.
+<Danger>
+Every name in `bodynames` must identify an FE body.
+</Danger>
 
 ### Exceptions
 

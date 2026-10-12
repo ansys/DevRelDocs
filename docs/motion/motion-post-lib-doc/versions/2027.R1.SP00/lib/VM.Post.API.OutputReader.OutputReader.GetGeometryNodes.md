@@ -36,5 +36,6 @@ geometry_nodes = output_reader.GetGeometryNodes(entity_name)
 
 The method retrieves primary geometry data with [GetGeometryInfo\(string\)](VM.Post.API.OutputReader.OutputReader.GetGeometryInfo.md) and returns its node values.
 
-> [!IMPORTANT]
-> `target` must identify a body. An unknown name or a non-body entity causes the geometry lookup to fail.
+<Danger>
+`target` must identify a body. An unknown name or a non-body entity causes the geometry lookup to fail.
+</Danger>

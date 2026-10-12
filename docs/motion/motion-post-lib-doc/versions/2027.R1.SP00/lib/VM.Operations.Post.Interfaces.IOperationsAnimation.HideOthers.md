@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Shows entities identified by full name and hides other entities.
 
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
+
 ```csharp
 void HideOthers(params string[] names)
 ```
@@ -18,8 +20,9 @@ void HideOthers(params string[] names)
 
 Full names already available for entities in the analysis result. Obtain each name from a public entity property or lookup result; this method does not produce or enumerate entity names.
 
-> [!IMPORTANT]
-> `names` must contain at least one value. A `null` or empty array causes an exception.
+<Danger>
+`names` must contain at least one value. A `null` or empty array causes an exception.
+</Danger>
 
 ### Examples
 
@@ -49,6 +52,8 @@ Matching entities remain visible, and other entities are hidden.
 
 Shows entities identified by GUID and hides other entities.
 
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
+
 ```csharp
 void HideOthers(params Guid[] entityIDs)
 ```
@@ -59,8 +64,9 @@ void HideOthers(params Guid[] entityIDs)
 
 Values of [`ID`](VM.Models.Post.IHasGuid.ID.md) from entities that should remain visible. Obtain the entities before passing their IDs to this overload.
 
-> [!IMPORTANT]
-> `entityIDs` must contain at least one value. A `null` or empty array causes an exception.
+<Danger>
+`entityIDs` must contain at least one value. A `null` or empty array causes an exception.
+</Danger>
 
 ### Examples
 

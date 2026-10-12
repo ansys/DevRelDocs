@@ -36,12 +36,13 @@ The optional output height. When omitted, the view's current height is used.
 
 ### Remarks
 
-The method checks `CanExportImage` until it becomes `true`, then calls [ExportImage\(string, ImageFormat, double?, double?\)](VM.Operations.Post.Interfaces.IView.ExportImage.md) once.
+The method checks [`CanExportImage`](VM.Operations.Post.Interfaces.IView.CanExportImage.md) until it becomes `true`, then calls [ExportImage\(string, ImageFormat, double?, double?\)](VM.Operations.Post.Interfaces.IView.ExportImage.md) once.
 
 If `CanExportImage` remains `false`, the method does not export an image and continues checking that property.
 
-> [!IMPORTANT]
-> The method keeps checking `CanExportImage` without a limit. If that property never becomes `true`, the method does not return.
+<Danger>
+The method keeps checking `CanExportImage` without a limit. If that property never becomes `true`, the method does not return.
+</Danger>
 
 ## <a id="VM_API_Post_Operations_ApplicationHandler_ExportImage_VM_Operations_Post_Interfaces_IView_System_String_SciChart_Core_ExportType_System_Nullable_System_Double__System_Nullable_System_Double__"></a> ExportImage\(IView, string, ExportType, double?, double?\)
 

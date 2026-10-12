@@ -14,17 +14,23 @@ public enum AxisType
 
 `Linear` 
 
+Description: "Linear"
+
 Uses a linear axis scale.
 
 
 
 `NegativeLogarithmic` 
 
+Description: "Negative Logarithmic"
+
 Uses a negative logarithmic axis scale.
 
 
 
 `PositiveLogarithmic` 
+
+Description: "Positive Logarithmic"
 
 Uses a positive logarithmic axis scale.
 

@@ -42,6 +42,10 @@ Activates the view.
 
 Moves the view to a specified position relative to another view.
 
+For a complete operations, see [Operation API Example - Moving a View](../document/operation-api/example/example_view_for_operation_api.md#moving-a-view).
+
  [ExportImage\(string, ImageFormat, double?, double?\)](VM.Operations.Post.Interfaces.IView.ExportImage.md\#VM\_Operations\_Post\_Interfaces\_IView\_ExportImage\_System\_String\_VM\_Models\_Post\_ImageFormat\_System\_Nullable\_System\_Double\_\_System\_Nullable\_System\_Double\_\_)
 
 Exports the image to the specified file path in the specified format.
+
+For a complete operations, see [Operation API Example - Image Capture](../document/operation-api/example/example_animation_for_operation_api.md#image-capture).

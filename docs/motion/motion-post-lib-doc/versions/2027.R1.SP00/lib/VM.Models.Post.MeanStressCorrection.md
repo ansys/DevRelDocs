@@ -14,11 +14,15 @@ public enum MeanStressCorrection
 
 `DEelliptic` 
 
+Description: "DE Elliptic"
+
 Uses the DE elliptic mean-stress correction.
 
 
 
 `GerberLocus` 
+
+Description: "Gerber Locus"
 
 Uses the Gerber locus mean-stress correction.
 
@@ -26,17 +30,23 @@ Uses the Gerber locus mean-stress correction.
 
 `ModifiedGoodman` 
 
+Description: "Modified Goodman"
+
 Uses the Modified Goodman mean-stress correction.
 
 
 
 `Neglect` 
 
+Description: "Neglect"
+
 Does not apply a mean-stress correction.
 
 
 
 `Sodeberg` 
+
+Description: "Soderberg"
 
 Uses the Soderberg mean-stress correction.
 

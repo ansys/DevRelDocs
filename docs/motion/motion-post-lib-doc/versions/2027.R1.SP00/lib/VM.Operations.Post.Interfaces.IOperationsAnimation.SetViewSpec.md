@@ -18,8 +18,9 @@ void SetViewSpec(IViewSpec viewSpec)
 
 [`IViewSpec`](VM.Operations.Post.Interfaces.IViewSpec.md) containing changed [`Eye`](VM.Operations.Post.Interfaces.IViewSpec.Eye.md), [`Target`](VM.Operations.Post.Interfaces.IViewSpec.Target.md), and [`UpVector`](VM.Operations.Post.Interfaces.IViewSpec.UpVector.md) values. Prepare it before calling this method, or obtain a frame-specific value from [GetViewSpecs\(\)](VM.Operations.Post.Interfaces.IOperationsAnimation.GetViewSpecs.md).
 
-> [!NOTE]
-> A `null` or unchanged `viewSpec` has no effect.
+<Note>
+A `null` or unchanged `viewSpec` has no effect.
+</Note>
 
 ### Examples
 

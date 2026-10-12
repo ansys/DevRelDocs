@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Moves the view to a specified position relative to another view.
 
+For a complete operations, see [Operation API Example - Moving a View](../document/operation-api/example/example_view_for_operation_api.md#moving-a-view).
+
 ```csharp
 void DockTo(DockLayout dockLayout, IView target)
 ```
@@ -29,10 +31,10 @@ The view relative to which the current view will be docked.
 # Get the page and create the source and target chart views.
 page_name = "Page"
 page = application_handler.GetPage(page_name)
-source_name = "SourceChart"
-target_name = "TargetChart"
-source_view = page.CreateChart(source_name)
-target_view = page.CreateChart(target_name)
+source_chart_name = "SourceChart"
+target_chart_name = "TargetChart"
+source_view = page.CreateChart(source_chart_name)
+target_view = page.CreateChart(target_chart_name)
 
 # Dock the source view above the target view.
 dock_layout = DockLayout.Top
@@ -45,5 +47,6 @@ Calling `DockTo(DockLayout, IView)` moves the current view to a new position rel
 The position is specified using the <code class="paramref">dockLayout</code> parameter, which determines the direction
 where the current view will be docked in relation to the target view.
 
-> [!IMPORTANT]
-> The <code class="paramref">target</code> must identify a valid [`IView`](VM.Operations.Post.Interfaces.IView.md) in the same [`IPage`](VM.Operations.Post.Interfaces.IPage.md) as the current view. An invalid target cannot receive the docking request.
+<Danger>
+The <code class="paramref">target</code> must identify a valid [`IView`](VM.Operations.Post.Interfaces.IView.md) in the same [`IPage`](VM.Operations.Post.Interfaces.IPage.md) as the current view. An invalid target cannot receive the docking request.
+</Danger>

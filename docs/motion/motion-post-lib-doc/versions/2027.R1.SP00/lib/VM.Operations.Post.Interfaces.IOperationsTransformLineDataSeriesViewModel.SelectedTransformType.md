@@ -18,4 +18,4 @@ string SelectedTransformType { get; set; }
 
 ### Remarks
 
-Changing this value selects the transformation path and recalculates the curve. See [Example - Transform](../../document/operation-api/example/example_chart_for_operation_api.md#transform) for a complete usage flow.
+Changing this value selects the transformation path and recalculates the curve. See [Example - Transform](../document/operation-api/example/example_chart_for_operation_api.md#transform) for a complete usage flow.

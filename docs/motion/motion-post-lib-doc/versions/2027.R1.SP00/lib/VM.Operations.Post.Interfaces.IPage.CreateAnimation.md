@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) with an analysis result on this page.
 
+For a complete operations, see [Operation API Example - Create an AnimationView corresponding to the Analysis type](../document/operation-api/example/example_animation_for_operation_api.md#create-an-animationview-corresponding-to-the-analysis-type).
+
 ```csharp
 IOperationsAnimation CreateAnimation(IAnalysisResultViewModel analysis, string name = null)
 ```
@@ -43,12 +45,13 @@ page = application_handler.GetPage(page_name)
 
 # Create the animation on the page.
 animation_view_name = "ResultAnimation"
-animation = page.CreateAnimation(dynamic_analysis, animation_view_name)
+animation_view = page.CreateAnimation(dynamic_analysis, animation_view_name)
 ```
 
 ### Remarks
 
 The returned `IOperationsAnimation` is kept with [`IPage`](VM.Operations.Post.Interfaces.IPage.md) and becomes active immediately. Activating the new view deactivates the previously active view.
 
-> [!IMPORTANT]
-> `analysis` must expose VM.ViewModels.Post.ResultDocumentViewModel through `ResultDocumentViewModel`. Otherwise, this method returns `default`.
+<Danger>
+`analysis` must expose VM.ViewModels.Post.ResultDocumentViewModel through `ResultDocumentViewModel`. Otherwise, this method returns `default`.
+</Danger>

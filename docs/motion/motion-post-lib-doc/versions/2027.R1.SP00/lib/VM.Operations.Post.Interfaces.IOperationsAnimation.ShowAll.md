@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Shows all entities in the animation view.
 
+For a complete operations, see [Operation API Example - View Entity Management: Show, Hide, and Fit](../document/operation-api/example/example_animation_for_operation_api.md#view-entity-management-show-hide-and-fit).
+
 ```csharp
 void ShowAll()
 ```

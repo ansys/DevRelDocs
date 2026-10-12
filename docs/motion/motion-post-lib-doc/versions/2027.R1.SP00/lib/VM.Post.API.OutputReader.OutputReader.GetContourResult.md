@@ -8,6 +8,8 @@ Assembly: VM.Post.API.OutputReader.dll
 
 Reads contour values for one entity and invokes a callback for each requested state.
 
+For a complete operations, see [Result File Reader API Example - Get Contour](../document/result-file-reader/example/example_contour_for_result_file_reader_api.md#get-contour).
+
 ```csharp
 public void GetContourResult(IList<int> stateids, string fullName, ContourMappingType type, string path, Action<int, IList<double[]>> fncallback, AnalysisResultType analysisType = AnalysisResultType.Dynamics)
 ```
@@ -42,9 +44,9 @@ Analysis result type used for the read. Defaults to `Dynamics`.
 
 ```python
 # Define the callback that receives contour values per state.
-def write_result(state_id, result_group):
+def write_result(state_id, result_groups):
     print(f"State ID: {state_id}")
-    print(f"Value groups: {len(result_group)}")
+    print(f"Value groups: {len(result_groups)}")
 action = Action[Int32, IList[Array[Double]]](write_result)
 
 # Select the entity and characteristic to read.
@@ -67,8 +69,9 @@ output_reader.GetContourResult(
 
 This overload delegates the read to the multiple-entity overload with one entity name. The callback receives one call for each requested state.
 
-> [!NOTE]
-> Invalid state IDs, entity names, mapping types, or paths can cause the read to fail.
+<Note>
+Invalid state IDs, entity names, mapping types, or paths can cause the read to fail.
+</Note>
 
 ### Exceptions
 
@@ -119,9 +122,9 @@ entity_name = "FEBody_01"
 body_names.Add(entity_name)
 
 # Define the callback that receives contour values per state.
-def write_result(state_id, result_group):
+def write_result(state_id, result_groups):
     print(f"State ID: {state_id}")
-    print(f"Value groups: {len(result_group)}")
+    print(f"Value groups: {len(result_groups)}")
 action = Action[Int32, IList[Array[Double]]](write_result)
 
 # Select the characteristic to read.
@@ -143,8 +146,9 @@ output_reader.GetContourResult(
 
 The method creates data states for `stateids`, reads the selected path, removes `null` result arrays from each group, and passes the remaining values to `fncallback`.
 
-> [!NOTE]
-> Invalid state IDs, entity names, mapping types, or paths can cause the read to fail.
+<Note>
+Invalid state IDs, entity names, mapping types, or paths can cause the read to fail.
+</Note>
 
 ### Exceptions
 

@@ -14,4 +14,4 @@ IList<VectorDisplayCharacteristicInfo> Characteristics { get; }
 
 ### Property Value
 
- IList<VectorDisplayCharacteristicInfo\>
+ IList<[VectorDisplayCharacteristicInfo](VM.Models.Post.VectorDisplayCharacteristicInfo.md)\>

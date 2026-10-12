@@ -14,11 +14,15 @@ public enum FatigueAnalysisType
 
 `EN` 
 
+Description: "EN"
+
 Uses an epsilon-N fatigue analysis.
 
 
 
 `SN` 
+
+Description: "SN"
 
 Uses an S-N fatigue analysis.
 

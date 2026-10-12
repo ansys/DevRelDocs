@@ -26,8 +26,7 @@ A collection of all the curves currently displayed in the chart view.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -35,10 +34,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Get all curves.
@@ -77,8 +76,7 @@ A collection of all curves whose names contain the specified substring.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "ChartFiltered"
 chart = page.CreateChart(chart_name)
 
@@ -86,10 +84,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Get the matching curves.
@@ -101,5 +99,6 @@ curves = chart.GetCurves(curve_name)
 
 This method searches for and returns all curves whose names contain the specified substring.
 
-> [!NOTE]
-> If no curve name contains the specified substring, an empty collection is returned.
+<Note>
+If no curve name contains the specified substring, an empty collection is returned.
+</Note>

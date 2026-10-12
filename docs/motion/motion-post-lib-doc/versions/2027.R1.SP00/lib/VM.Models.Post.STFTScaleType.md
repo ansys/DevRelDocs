@@ -14,11 +14,15 @@ public enum STFTScaleType
 
 `Decibel` 
 
+Description: "dB"
+
 Displays values in decibels.
 
 
 
 `Original` 
+
+Description: "Original"
 
 Displays values on their original scale.
 

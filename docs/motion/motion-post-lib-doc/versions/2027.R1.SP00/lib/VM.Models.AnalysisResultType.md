@@ -14,11 +14,15 @@ public enum AnalysisResultType
 
 `Dynamics` 
 
+Description: "Dynamics"
+
 Selects the analysis results calculated by a dynamic, time-domain simulation.
 
 
 
 `Eigenvalue` 
+
+Description: "Eigenvalue"
 
 Selects the analysis results calculated by an eigenvalue, frequency-domain analysis.
 
@@ -26,6 +30,16 @@ Selects the analysis results calculated by an eigenvalue, frequency-domain analy
 
 `Nothing` 
 
+Description: "Nothing"
+
 Indicates that no analysis result is available for the requested category.
+
+
+
+`Statics` 
+
+Description: "Statics"
+
+Selects the analysis results calculated by a static simulation.
 
 

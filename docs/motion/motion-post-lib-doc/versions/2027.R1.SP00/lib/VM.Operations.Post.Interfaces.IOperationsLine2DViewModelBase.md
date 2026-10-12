@@ -52,15 +52,47 @@ Gets or sets the font weight used for the chart title.
 
  [AddCurves\(string, PlotParameters\)](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.AddCurves.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLine2DViewModelBase\_AddCurves\_System\_String\_VM\_Models\_OutputReader\_PlotParameters\_)
 
-Adds curves to the chart by reading data from the specified file path and using [`PlotParameters`](VM.Models.OutputReader.PlotParameters.md). For details about preparing target values, see [Getting Started](../document/operation-api/getting-started/getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter).
+Adds curves to the chart by reading data from the specified file path and using [`PlotParameters`](VM.Models.OutputReader.PlotParameters.md). For details about preparing target values, see [Operation API Example - Creating Curves](../document/operation-api/example/example_chart_for_operation_api.md#creating-curves).
+
+For a complete operations, see [Operation API Example - Creating Curves](../document/operation-api/example/example_chart_for_operation_api.md#creating-curves).
 
  [ExportAllCurves\(string\)](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLine2DViewModelBase\_ExportAllCurves\_System\_String\_)
 
 Exports all curves contained in the chart to the specified file path without displaying a file save dialog.
 
- [ExportAllDataSeries\(\)](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllDataSeries.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLine2DViewModelBase\_ExportAllDataSeries)
+For a complete operations, see [Operation API Example - Export All Curves](../document/operation-api/example/example_export_for_operation_api.md#export-all-curves).
 
-Exports all curves included in the chart.
+The column separator is chosen from the file extension of <code class="paramref">filepath</code>, so the created file takes one of the following forms.
+
+A `.csv` path is written as a comma-separated table.
+
+```text
+Time(sec),Curve1:Crank/Displacement/Magnitude(mm)
+0.000000000000e+000,2.163136200665e+001
+2.100000000000e-003,2.163136200665e+001
+...
+```
+
+The first row is a header that starts with the time-axis column and then has one column per exported curve.
+
+The time-axis column is named after the X-axis title, such as `Time(sec)`.
+
+Each curve column is named after that curve's [`SeriesName`](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesName.md). A curve's default `SeriesName` combines its creation-order label, its target and characteristic path, and its unit, such as `Curve1:Crank/Displacement/Magnitude(mm)`.
+
+Each later row holds one sample. The row starts with the time value and then has one value per curve, in the same column order.
+
+Every numeric value is written in exponential notation with 12 fractional digits regardless of the file extension.
+
+A `.txt` path is written as a tab-separated table.
+
+```text
+Time(sec)	Curve1:Crank/Displacement/Magnitude(mm)
+0.000000000000e+000	2.163136200665e+001
+2.100000000000e-003	2.163136200665e+001
+...
+```
+
+The columns, naming, and numeric format are identical to the `.csv` form, and only the separator differs, using a tab character between columns.
 
  [GetAxis\(string\)](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetAxis.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLine2DViewModelBase\_GetAxis\_System\_String\_)
 

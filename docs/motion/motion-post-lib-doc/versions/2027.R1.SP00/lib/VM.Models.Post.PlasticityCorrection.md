@@ -14,11 +14,15 @@ public enum PlasticityCorrection
 
 `Glinka_ESED` 
 
+Description: "Glinka ESED"
+
 Uses the Glinka elastic strain energy density plasticity correction.
 
 
 
 `Neuber` 
+
+Description: "Neuber"
 
 Uses the Neuber plasticity correction.
 

@@ -2,10 +2,11 @@
 This feature covers creating vector display data with [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md), changing what [`IOperationsVectorDisplayBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md) shows, and setting how it looks. Once created, the vector display shows a chosen result characteristic in the animation and appears in frames captured through [Control Animation Playback](op_control_animation_playback.md#recording).
 
 ## Creating
-Find the vector display characteristics available for an entity with [`GetVectorDisplayCharacteristics(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplayCharacteristics.md). Then create [`IOperationsVectorDisplayBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md) with [`CreateVectorDisplay(string, string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateVectorDisplay.md) from the imported dynamic analysis result, passing the selected characteristic.
+Find the vector display characteristics available for an entity with [`GetVectorDisplayCharacteristics(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplayCharacteristics.md). Then create `IOperationsVectorDisplayBaseViewModel` with [`CreateVectorDisplay(string, string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateVectorDisplay.md) from the imported dynamic analysis result, passing the selected characteristic.
 
-> [!IMPORTANT]
-> The named entity must support vector display. If the entity is missing or does not support it, `CreateVectorDisplay(string, string)` throws an exception.
+<Danger>
+The named entity must support vector display. If the entity is missing or does not support it, `CreateVectorDisplay(string, string)` throws an exception.
+</Danger>
 
 ## Getting
 Get a vector display by name with [`GetVectorDisplay(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplay.md).

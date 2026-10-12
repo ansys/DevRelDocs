@@ -18,10 +18,10 @@ Both APIs use the same documentation structure.
 
 The **API Reference** documents the public classes, interfaces, methods, and properties exposed by the library. It is divided into three sections to reflect the API assemblies and shared types.
 
-- **Operation** — types used to control and interact with a running Postprocessor, including [`ApplicationHandler`](lib/VM.API.Post.Operations.ApplicationHandler.md), page and view interfaces, and operation interfaces.
-- **Result File Reader** — types that open and process result files, including [`OutputReader`](lib/VM.Post.API.OutputReader.OutputReader.md) and its associated data types.
-- **Miscellaneous** — enumerations, data models, and interfaces that support both APIs.
+- **Operation** types used to control and interact with a running Postprocessor, including [`ApplicationHandler`](lib/VM.API.Post.Operations.ApplicationHandler.md), page and view interfaces, and operation interfaces.
+- **Result File Reader** types that open and process result files, including [`OutputReader`](lib/VM.Post.API.OutputReader.OutputReader.md) and its associated data types.
+- **Miscellaneous** enumerations, data models, and interfaces that support both APIs.
 
 ## Downloads
 
-The API modules, result files, and example scripts will be made available shortly before FCA.
+Click [Postprocessor API Resources](https://download-directory.github.io/?url=https://github.com/ansys/DevRelPublic/tree/main/Downloads/Motion/2027R1/Postprocessor) and download the available resources, including API modules, result files, and example scripts.

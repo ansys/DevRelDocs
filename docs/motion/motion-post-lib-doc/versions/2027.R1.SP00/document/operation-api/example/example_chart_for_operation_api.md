@@ -36,12 +36,12 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Set Background
-chartView.Background = Colors.Blue
-chartView.Legend.FontColor = Colors.Black
-chartView.Legend.ItemsInFilter = "Visible Curves"
+chart_view.Background = Colors.Blue
+chart_view.Legend.FontColor = Colors.Black
+chart_view.Legend.ItemsInFilter = "Visible Curves"
 
 # Close the Page
 page.Close()
@@ -83,17 +83,17 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Documentation Example
 # Set array about combination of characteristic and component
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 # characteristic_path_z : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_z = r'Displacement/Z'
-curvePaths.Add(characteristic_path_z)
+curve_paths.Add(characteristic_path_z)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -101,14 +101,15 @@ curvePaths.Add(characteristic_path_z)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 count = len(curves)
 if count > 0 :
     curves[0].SeriesName = r'Crank_DM'
@@ -196,19 +197,19 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 # characteristic_path_z : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_z = r'Displacement/Z'
-curvePaths.Add(characteristic_path_z)
+curve_paths.Add(characteristic_path_z)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -216,39 +217,44 @@ curvePaths.Add(characteristic_path_z)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Documentation Example
 # Transform - Translate
 # OffsetX - The value to translate for X- axis.
 # OffsetY - The value to translate for Y- axis.
-chartView.CreateTranslate(curves, 0, 100)
+offset_x = 0
+offset_y = 100
+chart_view.CreateTranslate(curves, offset_x, offset_y)
 
 # Transform - Scale
 # ScaleX - The value to scale for X- axis.
 # ScaleY - The value to scale for Y- axis.
-chartView.CreateScale(curves, 2, 2)
+scale_x = 2
+scale_y = 2
+chart_view.CreateScale(curves, scale_x, scale_y)
 
 # Transform - Absolute
 # SignType - The types of the absolute value are as follows.
-chartView.CreateAbsolute(curves, SignType.Positive)
+chart_view.CreateAbsolute(curves, SignType.Positive)
 
 # Transform - Align (Zero, Curve)
 # AlignType - The types of the alignment are as follows.
-chartView.CreateAlign(curves, AlignType.Curve)
+chart_view.CreateAlign(curves, AlignType.Curve)
 
 # Transform - Log Scale
 # Coeficient - The value of the coefficient.
 # BaseValue - The value of the base.
 # Decibel - Taking the decibel scale for the list of the curve (20Log_10(Y)).
-chartView.CreateLogScale(curves, 10, 10, False)
+chart_view.CreateLogScale(curves, 10, 10, False)
 
 # Close the Pages
 page.Close()
@@ -290,16 +296,16 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -307,19 +313,21 @@ curvePaths.Add(characteristic_path_magnitude)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Documentation Example
 # SeriesName - A list of curve names.
 # Points - The number of the data points for interpolation.
-chartView.CreateInterpolation(curves, 200)
+point_count = 200
+chart_view.CreateInterpolation(curves, point_count)
 
 # Close the Page
 page.Close()
@@ -362,16 +370,16 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -379,21 +387,22 @@ curvePaths.Add(characteristic_path_magnitude)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Target = "Crank"
-parameters.Paths = curvePaths
+entity_name = "Crank"
+parameters.Target = entity_name
+parameters.Paths = curve_paths
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Documentation Example
 # Calculus - Differentiation
-chartView.CreateDifferentiatedCurve(curves)
+chart_view.CreateDifferentiatedCurve(curves)
 
 # Calculus - Integration
-chartView.CreateIntegratedCurve(curves)
+chart_view.CreateIntegratedCurve(curves)
 
 # Close the Page
 page.Close()
@@ -436,19 +445,19 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 # characteristic_path_z : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_z = r'Displacement/Z'
-curvePaths.Add(characteristic_path_z)
+curve_paths.Add(characteristic_path_z)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -456,14 +465,15 @@ curvePaths.Add(characteristic_path_z)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Documentation Example
 # Signal Processing
@@ -472,20 +482,20 @@ curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
 # Order - As decreasing value, output would be more smooth.
 # Cut off Frequency(Hz) (Low Cut off Frequency(Hz)) - The value of frequency1.
 # High Cut off Frequency(Hz) - The value of frequency2.
-chartView.CreateFiltering(curves, FilteringType.LowPass, 2, 100, 100)
+chart_view.CreateFiltering(curves, FilteringType.LowPass, 2, 100, 100)
 
 # Signal Processing - Smoothing
 # SeriesName - A list of curve names.
 # SmoothingType - The types of the sommthing are as follows.
 # PointsOfWindow - The number of points for window.
 # PolyOrder - The value of polyOrder.
-# chartView.CreateSmoothing(curves, SmoothingType.MovingWindowAveraging, 8, 2)
+# chart_view.CreateSmoothing(curves, SmoothingType.MovingWindowAveraging, 8, 2)
 
 # Signal Processing - FrequencyWeighting
 # SeriesName - # SeriesName - A list of curve names.
 # WeightingType - The types of the weighting are as follows.
-# AxisType - The types of the axis are as follows. chartView.CreateFrequencyWeighting(series, WeightingType.AWeighting, FrequencyAxisType.X)
-chartView.CreateFrequencyWeighting(curves, WeightingType.AWeighting, FrequencyAxisType.X)
+# AxisType - The types of the axis are as follows. chart_view.CreateFrequencyWeighting(series, WeightingType.AWeighting, FrequencyAxisType.X)
+chart_view.CreateFrequencyWeighting(curves, WeightingType.AWeighting, FrequencyAxisType.X)
 
 # Close the Pages
 page.Close()
@@ -528,16 +538,16 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -545,14 +555,15 @@ curvePaths.Add(characteristic_path_magnitude)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Documentation Example
 # create_fft.py
@@ -563,7 +574,10 @@ curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
 # Points - The number of data point for FFT
 # Start - The start time for using FFT on target data series
 # End - The end time for using FFT on target data series
-chartView.CreateFFT(curves, FFTType.Magnitude, FFTWindowType.Rectangular, ScaleType.Original, 128, 0, 1.0)
+point_count = 128
+start = 0
+end = 1.0
+chart_view.CreateFFT(curves, FFTType.Magnitude, FFTWindowType.Rectangular, ScaleType.Original, point_count, start, end)
 
 # Close the Page
 page.Close()
@@ -607,16 +621,16 @@ page = application_handler.GetActivePage()
 # Create a new Chart View on the page
 # This will create a new chart view with the specified name.
 chart_name = "Chart"
-chartView = page.CreateChart(chart_name)
+chart_view = page.CreateChart(chart_name)
 
 # Specify the paths for the curves you want to retrieve.
 # For example, Acceleration represents the Characteristic, and Y after the / represents the Component.
 # In this case, we are retrieving the Y component of Acceleration for the Crank.
 # You can check the available Characteristics and Components for the target by using Add Curve in the Postprocessor.
-curvePaths = List[str]()
+curve_paths = List[str]()
 # characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
 characteristic_path_magnitude = r'Displacement/Magnitude'
-curvePaths.Add(characteristic_path_magnitude)
+curve_paths.Add(characteristic_path_magnitude)
 
 # Create a PlotParameters object to specify the parameters for the plot.
 # Set the Entity to Plot.
@@ -624,14 +638,15 @@ curvePaths.Add(characteristic_path_magnitude)
 # Set the paths for the curves you want to retrieve.
 # This is where you specify the characteristics and components you want to plot.
 parameters = PlotParameters()
-parameters.Paths = curvePaths
-parameters.Target = "Crank"
+parameters.Paths = curve_paths
+entity_name = "Crank"
+parameters.Target = entity_name
 
 # Add Curves (FilePath, Curve Parameter)
 # FilePath - The path of the result to access.
 # parameters - The class used as a parameter of the AddCurve function.
 # The instance of the curve.
-curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
+curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Documentation Example
 # create_fft.py
@@ -642,10 +657,13 @@ curves = chartView.AddCurves(RESULT_FILE_PATH, parameters)
 # Points - The number of data point for FFT
 # Start - The start time for using FFT on target data series
 # End - The end time for using FFT on target data series
-ffts = chartView.CreateFFT(curves, FFTType.Magnitude, FFTWindowType.Rectangular, ScaleType.Original, 128, 0, 1.0)
+point_count = 128
+start = 0
+end = 1.0
+ffts = chart_view.CreateFFT(curves, FFTType.Magnitude, FFTWindowType.Rectangular, ScaleType.Original, point_count, start, end)
 
-fftNames = List[str]()
-fftNames.Add(ffts[0].SeriesName)
+fft_names = List[str]()
+fft_names.Add(ffts[0].SeriesName)
 
 # SamplingFrequency  - the number of the interval for dividing Y direction grids on color map.
 # TimeSlice - the number of the interval for dividing  X direction grids on color map.
@@ -656,17 +674,17 @@ fftNames.Add(ffts[0].SeriesName)
 # ReferenceValue - the reference value on decibel as the type of the scale.
 # ScaleFactor - the scale factor to change from time domain to another domain.
 # SelectedScaleType - the scale type of STFT. STFT Scale Type has Original, Decibel.
-data = HeatMapSTFTDataViewModel()
-data.SamplingFrequency = 100
-data.TimeSlice = 0.05
-data.Overlap = 50
-data.SelectedPoints = 16384
-data.Start = 0
-data.End = 1.000000000001
-data.ReferenceValue = 1E-05
-data.ScaleFactor = 1.0
-data.SelectedScaleType = STFTScaleType.Original
-chartView.CreateSTFT(data, fftNames)
+stft_parameters = STFTParameters()
+stft_parameters.SamplingFrequency = 100
+stft_parameters.TimeSlice = 0.05
+stft_parameters.Overlap = 50
+stft_parameters.SelectedPoints = 16384
+stft_parameters.Start = 0
+stft_parameters.End = 1.000000000001
+stft_parameters.ReferenceValue = 1E-05
+stft_parameters.ScaleFactor = 1.0
+stft_parameters.SelectedScaleType = STFTScaleType.Original
+chart_view.CreateSTFT(stft_parameters, fft_names)
 
 # Close the Pages
 page.Close()

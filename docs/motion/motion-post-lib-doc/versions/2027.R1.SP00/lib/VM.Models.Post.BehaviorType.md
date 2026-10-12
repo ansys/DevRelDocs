@@ -14,17 +14,23 @@ public enum BehaviorType
 
 `Acceleration` 
 
+Description: "Acceleration"
+
 Exports acceleration behavior.
 
 
 
 `Displacement` 
 
+Description: "Displacement"
+
 Exports displacement behavior.
 
 
 
 `Velocity` 
+
+Description: "Velocity"
 
 Exports velocity behavior.
 

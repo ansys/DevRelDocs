@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates an element selection for an element ID in the current finite-element data.
 
+For a complete operations, see [Operation API Example - Create Node &amp; Element](../document/operation-api/example/example_animation_for_operation_api.md#create-node--element).
+
 ```csharp
 IOperationsElementViewModel CreateElement(int elementID)
 ```
@@ -18,8 +20,9 @@ IOperationsElementViewModel CreateElement(int elementID)
 
 Element ID that exists in the current finite-element data part.
 
-> [!IMPORTANT]
-> The ID must identify an existing element. An invalid ID cannot be resolved into an element selection.
+<Danger>
+The ID must identify an existing element. An invalid ID cannot be resolved into an element selection.
+</Danger>
 
 ### Returns
 
@@ -35,8 +38,8 @@ Created [`IOperationsElementViewModel`](VM.Operations.Post.Interfaces.IOperation
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result_type = AnalysisResultType.Dynamics
 dynamic_analysis = document.GetAnalysisResultViewModel(analysis_result_type)
-body_name = "FEBody_01"
-febody = dynamic_analysis.GetViewModel(body_name)
+entity_name = "FEBody_01"
+febody = dynamic_analysis.GetViewModel(entity_name)
 
 # Create an element selection.
 element_id = 2343

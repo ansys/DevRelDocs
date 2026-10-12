@@ -2,17 +2,18 @@
 This feature covers finding valid targets, creating contour data for them, changing how the contour looks, and exporting the result. Once enabled, the contour is shown in [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) view and appears in any frames captured from that view, and its data can also be saved to a file. Creating, finding, and removing contour data use [`IOperationAnalysisResult`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.md), its display settings use [`IOperationsContourViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.md), and exporting uses [`Export`](../../../lib/VM.API.Post.Operations.Export.md).
 
 ## Creating
-Create [`IOperationsContourViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.md) with [`CreateContour(IList<string>, ContourMappingType, string, string, string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.CreateContour.md). The new contour is added to the analysis result, so it can be turned on and shown in the animation.
+Create `IOperationsContourViewModel` with [`CreateContour(IList<string>, ContourMappingType, string, string, string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.CreateContour.md). The new contour is added to the analysis result, so it can be turned on and shown in the animation.
 
 Find target entity names that support a mapping type with [`GetContourables(ContourMappingType)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourables.md). For a selected target and mapping type, find available characteristics with [`GetContourCharacteristics(string, ContourMappingType)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md). Then find available components with [`GetContourComponents(string, ContourMappingType, string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourComponents.md).
 
 Pass the selected target names, mapping type, characteristic, and component to `CreateContour(IList<string>, ContourMappingType, string, string, string)`.
 
 ## Exporting
-Export contour data with [`ExportContourResultToFile()`](../../../lib/VM.API.Post.Operations.Export.ExportContourResultToFile.md).
+Export contour data with [`ExportContourResultToFile(string, string, IList<string>, bool, ContourMappingType, string, AnalysisResultType, FileFormatType)`](../../../lib/VM.API.Post.Operations.Export.ExportContourResultToFile.md).
 
-> [!IMPORTANT]
-> The active view must be [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) for the chosen document, and an animation frame must already be loaded, before this export is called. Load a frame with the operations described in [Control Animation Playback](op_control_animation_playback.md#loading).
+<Danger>
+The active view must be `IOperationsAnimation` for the chosen document, and an animation frame must already be loaded, before this export is called. Load a frame with the operations described in [Control Animation Playback](op_control_animation_playback.md#loading).
+</Danger>
 
 ## Properties
 Change how the contour looks and behaves with these properties:

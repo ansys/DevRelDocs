@@ -15,11 +15,15 @@ public enum RecordingType
 
 `AVI` 
 
+Description: "AVI"
+
 Records the animation in AVI format.
 
 
 
 `GIF` 
+
+Description: "GIF"
 
 Records the animation in GIF format.
 
@@ -27,17 +31,23 @@ Records the animation in GIF format.
 
 `MP4` 
 
+Description: "MP4"
+
 Records the animation in MP4 format.
 
 
 
 `WMV1` 
 
+Description: "WMV1"
+
 Records the animation in WMV1 format.
 
 
 
 `WMV2` 
+
+Description: "WMV2"
 
 Records the animation in WMV2 format.
 

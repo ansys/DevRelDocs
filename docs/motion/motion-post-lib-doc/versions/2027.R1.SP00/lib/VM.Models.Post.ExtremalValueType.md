@@ -14,11 +14,15 @@ public enum ExtremalValueType
 
 `ElementSet` 
 
+Description: "Each ElementSet"
+
 Calculates the value separately for each element set.
 
 
 
 `FEProperty` 
+
+Description: "Each Property"
 
 Calculates the value separately for each finite-element property.
 
@@ -26,17 +30,23 @@ Calculates the value separately for each finite-element property.
 
 `None` 
 
+Description: "None"
+
 Does not calculate an extremal value.
 
 
 
 `Part` 
 
+Description: "Each Part"
+
 Calculates the value separately for each part.
 
 
 
 `Whole` 
+
+Description: "Whole"
 
 Calculates the value across the whole result.
 

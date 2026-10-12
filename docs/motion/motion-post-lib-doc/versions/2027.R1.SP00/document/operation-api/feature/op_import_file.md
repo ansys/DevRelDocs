@@ -1,10 +1,12 @@
 # Import File
-With the Import File feature, [`ApplicationHandler`](../../../lib/VM.API.Post.Operations.ApplicationHandler.md) imports a result file containing simulation analysis results into the Postprocessor. Values from a numeric file can also be added as curve data to existing [`IOperationsChartViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.md).
+This feature covers importing a result file with [`ApplicationHandler`](../../../lib/VM.API.Post.Operations.ApplicationHandler.md) and adding values from a numeric file as curve data to [`IOperationsChartViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.md).
 
 ## Analysis Result
-Use [`ApplicationHandler`](../../../lib/VM.API.Post.Operations.ApplicationHandler.md) to import a result file. For more information, see [Operation API Getting Started](../getting-started/getting_started_operation_api_using_py.md#api-entry-point).
+Use `ApplicationHandler` to import a result file. For more information, see [Operation API Getting Started](../getting-started/getting_started_operation_api_using_py.md#api-entry-point).
 
 A `.dfr` result file contains simulation analysis results. Use [`AddDocument(IList<string>)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddDocument.md) to import one or more result files.
+
+When the imported result file is the only open result file and no view exists yet, [`AddDocument(IList<string>)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddDocument.md) also creates an [`IPage`](../../../lib/VM.Operations.Post.Interfaces.IPage.md) that contains an animation [`IView`](../../../lib/VM.Operations.Post.Interfaces.IView.md) of the result. Both are active after the import. For more information about the page, see [Manage Page](op_manage_page.md).
 
 Later, call [`GetDocument(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.GetDocument.md) with the same file path to retrieve the open [`IOperationDocument`](../../../lib/VM.ViewModels.Post.Interfaces.IOperationDocument.md).
 Retrieve [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md) from the returned `IOperationDocument` with [`GetAnalysisResultViewModel(AnalysisResultType)`](../../../lib/VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md) or [`GetAnalysisResultViewModel(Guid)`](../../../lib/VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md).
@@ -16,7 +18,7 @@ Use the returned `IAnalysisResultViewModel` to create an animation or chart view
 When the document is no longer needed, close imported `IOperationDocument` with [`CloseDocument(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.CloseDocument.md).
 
 ## Numeric
-Before importing a numeric file, create `IOperationsChartViewModel` that will contain the curve data, see [Manage View](op_manage_view.md).
+Before importing a numeric file, create `IOperationsChartViewModel` that will contain the curve data.
 
 Use [`ImportNumeric(string, List<INumericParameter>)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.ImportNumeric.md) to import a numeric file. The method adds values from the input file to `IOperationsChartViewModel` as curve data.
 

@@ -9,7 +9,7 @@ Assembly: VM.API.Post.Operations.dll
 Runs a fatigue analysis and then generates fatigue contours using the specified parameters.
 
 ```csharp
-[Obsolete("")]
+[Obsolete("This method is considered outdated and its use is discouraged. It may be removed in future versions, so it is advisable to use the RunFatigueAnalysis function of the DurabilityAnalysis class and the CreateContour method of IOperationAnalysisResult instead.", true)]
 public static bool RunFatigueAnalysisAndGenerateContours(IDurabilityAnalysisParameter parameter)
 ```
 

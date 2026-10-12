@@ -31,32 +31,25 @@ page = application_handler.GetPage(page_name)
 animation_view_name = "ResultAnimation"
 animation_view = page.CreateAnimation(dynamic_analysis, animation_view_name)
 
-# Set a marker as the coordinate-system parent.
-marker_coordinate_system_name = "MarkerParent_CSYS"
-marker_full_name = "Marker_01"
-marker_coordinate_system = animation_view.CreateCoordinateSystem(marker_coordinate_system_name, marker_full_name)
-marker_coordinate_system.ParentInfo = marker_full_name
-
-# Set a coordinate system as the coordinate-system parent.
-coordinate_system_name = "CoordinateSystemParent_CSYS"
-ground_parent_name = "Ground"
-coordinate_system_parent = animation_view.CreateCoordinateSystem(coordinate_system_name, ground_parent_name)
-coordinate_system_parent_full_name = coordinate_system_parent.FullName
-child_coordinate_system_name = "CoordinateSystemChild_CSYS"
-child_coordinate_system = animation_view.CreateCoordinateSystem(child_coordinate_system_name, coordinate_system_parent_full_name)
-child_coordinate_system.ParentInfo = coordinate_system_parent_full_name
-
 # Set a body as the coordinate-system parent.
 body_coordinate_system_name = "BodyParent_CSYS"
-body_full_name = "FEBody_01"
+body_full_name = "Crank"
 body_coordinate_system = animation_view.CreateCoordinateSystem(body_coordinate_system_name, body_full_name)
-body_coordinate_system.ParentInfo = body_full_name
 
 # Set a node as the coordinate-system parent.
 node_coordinate_system_name = "NodeParent_CSYS"
-node_full_name = "FEBody_01/Node/1"
+node_full_name = "FEBody_01/Node/487"
 node_coordinate_system = animation_view.CreateCoordinateSystem(node_coordinate_system_name, node_full_name)
-node_coordinate_system.ParentInfo = node_full_name
+
+# Set a marker as the coordinate-system parent.
+marker_coordinate_system_name = "MarkerParent_CSYS"
+marker_full_name = "Crank/CM"
+marker_coordinate_system = animation_view.CreateCoordinateSystem(marker_coordinate_system_name, marker_full_name)
+
+# Set a coordinate system as the coordinate-system parent.
+coordinate_system_name = "CoordinateSystemParent_CSYS"
+inertia_full_name = "Inertia"
+coordinate_system_parent = animation_view.CreateCoordinateSystem(coordinate_system_name, inertia_full_name)
 ```
 
 ### Remarks

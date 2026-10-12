@@ -36,5 +36,6 @@ geometry_info = output_reader.GetGeometryInfo(entity_name)
 
 The method retrieves `target` with `OutputReader` and returns the first geometry data entry for that body.
 
-> [!IMPORTANT]
-> `target` must identify a body. An unknown name or a non-body entity causes the lookup to fail before geometry data is returned.
+<Danger>
+`target` must identify a body. An unknown name or a non-body entity causes the lookup to fail before geometry data is returned.
+</Danger>

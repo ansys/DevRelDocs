@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Translates curve data by the specified offsets as part of the chart tab's Transform functionality.
 
+For a complete operations, see [Operation API Example - Transform](../document/operation-api/example/example_chart_for_operation_api.md#transform).
+
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateTranslate(IEnumerable<string> lstSeriesName, double offsetX, double offsetY)
 ```
@@ -40,8 +42,7 @@ A collection of translated curves.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -49,10 +50,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Select the source curves.
@@ -73,6 +74,8 @@ of each point in the curve.
 ## <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateTranslate_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__System_Double_System_Double_"></a> CreateTranslate\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double\)
 
 Translates curve data by the specified offsets as part of the chart tab's Transform functionality.
+
+For a complete operations, see [Operation API Example - Transform](../document/operation-api/example/example_chart_for_operation_api.md#transform).
 
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateTranslate(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels, double offsetX, double offsetY)
@@ -106,8 +109,7 @@ A collection of translated curves.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "ChartSeries"
 chart = page.CreateChart(chart_name)
 
@@ -115,10 +117,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Create the translated curve.

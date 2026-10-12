@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates [`IOperationsContourViewModel`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md) for one or more entities and adds it to the analysis result.
 
+For a complete operations, see [Operation API Example - Contour](../document/operation-api/example/example_animation_for_operation_api.md#contour).
+
 ```csharp
 IOperationsContourViewModel CreateContour(IList<string> entities, ContourMappingType mappingType, string characteristic, string component, string newName = null)
 ```
@@ -18,8 +20,9 @@ IOperationsContourViewModel CreateContour(IList<string> entities, ContourMapping
 
 Full names returned by [GetContourables\(ContourMappingType\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourables.md) for the same `mappingType`.
 
-> [!IMPORTANT]
-> A name that `GetContourables(ContourMappingType)` did not return causes an exception when the contour is built.
+<Danger>
+A name that `GetContourables(ContourMappingType)` did not return causes an exception when the contour is built.
+</Danger>
 
 `mappingType` [ContourMappingType](VM.Models.ContourMappingType.md)
 
@@ -37,8 +40,9 @@ Component name returned by [GetContourComponents\(string, ContourMappingType, st
 
 Name for the new contour. If omitted, the name combines `characteristic` and `component`, and a numbered variant is generated automatically when that name is already used in the analysis result.
 
-> [!IMPORTANT]
-> Passing `newName` when the analysis result does not support contour visualization causes an exception, because no contour is created to rename.
+<Danger>
+Passing `newName` when the analysis result does not support contour visualization causes an exception, because no contour is created to rename.
+</Danger>
 
 ### Returns
 
