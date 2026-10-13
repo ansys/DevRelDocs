@@ -1,9 +1,9 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Speos client APIs 2027.R1.SP00",
+        "title": "Speos client APIs 2027 R1",
         "summary": "",
-        "version": "2027.R1.SP00",
+        "version": "2027 R1",
         "product": "Speos",
         "programming language": "IronPython",
         "product collection": "Optics",
