@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-09).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -19,6 +19,7 @@ The following table shows which components have updates in each category.
 | cs | [6 items](#Features_cs) |[2 items](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic |  |[2 items](#Fixes_cyclic) |
+| deps |  |[1 item](#Fixes_deps) |
 | doc |  |[1 item](#Fixes_doc) |
 | documentation |  |[1 item](#Fixes_documentation) |
 | femutils | [10 items](#Features_femutils) |[17 items](#Fixes_femutils) |
@@ -286,6 +287,18 @@ The following table shows which components have updates in each category.
   > 
 
 - Fix composite nodal cyclic request by scoping:
+  > 
+  >
+  > 
+## deps
+
+### <a id="Fixes_deps"></a> Fixes
+
+- Operator priority conanfile issue:
+  > 
+  >
+  > Fix a logic error in a conanfile, would cause issues when installed as a dependency.
+  >
   > 
   >
   > 
@@ -2044,8 +2057,6 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
-## mesh
-### <a id="Features_mesh"></a> Features
 
 - Fix the amplitude calculation for complex fields on shell nodes:
   > 
@@ -2114,13 +2125,8 @@ The following table shows which components have updates in each category.
   > The skin operator was not propagating the `edge2`, `edge3` and `beam4` element types to the skin mesh. This is now fixed.
   >
   > 
-
-- Reduce memory footprint of skin extraction op:
-  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
   >
   > 
-## misc
-### <a id="Features_misc"></a> Features
 
 - Fix new introduced issue on rescope etype.:
   > 
@@ -4878,6 +4884,8 @@ Upgraded documentation
   > 1.0.0: Added support for elements with dropped nodes, as its faces may have been incorrectly added to the output skin mesh before.
 
   > 1.0.1: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
+
+  > 1.0.2: Reverted memory improvements.
 
 
 - [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_fields.md)
