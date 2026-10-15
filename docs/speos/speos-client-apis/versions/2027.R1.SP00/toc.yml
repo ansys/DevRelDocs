@@ -150,7 +150,7 @@
 - name: Changelog
   href: changelogs\speos_changelogs_asp.md
   items:
-  - name: Speos Changelog 2027 R1 SP00
+  - name: Speos Changelog 2027 R1
     href: changelogs\speos_changelogs_asp_271.md
   - name: Speos Changelog 2026 R1 SP03
     href: changelogs\speos_changelogs_asp_2613.md
