@@ -1,5 +1,7 @@
 # Speos Changelog 2026 R1
 
+**Release date:** 2026-03-09
+
 ## New Features
 
 ### Ray Animation
@@ -57,7 +59,7 @@ In Ansys Zemax OpticStudio, you can now apply coordinate breaks inside OBJECT to
 
 ### Optical Design Exchange: Sources management
 
-In Ansys Zemax OpticStudio, you can now create and export Elliptical (source at infinite distance) and Point Sources (source at finite distance) to an *.odx file. When importing an *.odx file, Speos will create Surface sources with their respective support geometries upon compute of the ODX feature.
+In Ansys Zemax OpticStudio, you can now create and export Elliptical (source at infinite distance) and Point Sources (source at finite distance) to an .odx file. When importing an .odx file, Speos will create Surface sources with their respective support geometries upon compute of the ODX feature.
 
 - ComponentOpticStudio API
   - Added [SourceBodies](./../sim/client-speos-sim.md#componentopticstudio) property to the **ComponentOpticStudio** API
@@ -169,3 +171,4 @@ Total Internal Reflection Lens can now be defined using an optical axis that can
   - Added [Surfaces.SurfacesOriginPoint](./../sim/client-speos-sim.md#surfacessurfacesoriginpoint) API to the **Surfaces** API
   - Added [Surfaces.SurfacesXDirection](./../sim/client-speos-sim.md#surfacessurfacesxdirection) API to the **Surfaces** API
   - Added [Surfaces.SurfacesYDirection](./../sim/client-speos-sim.md#surfacessurfacesydirection) API to the **Surfaces** API
+  

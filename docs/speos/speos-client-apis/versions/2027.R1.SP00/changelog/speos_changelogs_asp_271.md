@@ -1,5 +1,7 @@
 # Speos Changelog 2027 R1
 
+**Release date:** 2026-12-07
+
 ## Improvements
 
 ### Component Optic Studio - Geometrical Envelope
