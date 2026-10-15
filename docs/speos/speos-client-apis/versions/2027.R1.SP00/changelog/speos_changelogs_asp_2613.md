@@ -1,5 +1,7 @@
 # Speos Changelog 2026 R1 SP03
 
+**Release date:** 2026-07-29
+
 ## Improvements
 
 ### Sensor Camera: Enhanced Features
