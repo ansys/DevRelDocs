@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-05).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
