@@ -1,0 +1,12 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "Speos RPC 2027 R1",
+            "summary": "Reference and usage guidance for the SpeosRPC gRPC API, which lets clients prepare data, run Speos simulations, and process results without a CAD application.",
+            "version": "2027 R1",
+            "product": "Speos",
+            "product collection": "Optics",
+            "physics": "Optics"
+        }
+    }
+}
