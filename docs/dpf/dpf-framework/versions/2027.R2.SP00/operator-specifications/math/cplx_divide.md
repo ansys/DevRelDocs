@@ -11,7 +11,7 @@ license: None
 ## Description
 
 
-Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Multiplicative_inverse)
+Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Complex_conjugate,_absolute_value,_argument_and_division)
 $z_1 / z_2$ for matching fields in two complex-valued fields containers:
 $\mathrm{Re}(z_\mathrm{out}[i]) = (\mathrm{Re}_1 \mathrm{Re}_2 + \mathrm{Im}_1 \mathrm{Im}_2) / D$,
 $\mathrm{Im}(z_\mathrm{out}[i]) = (\mathrm{Im}_1 \mathrm{Re}_2 - \mathrm{Re}_1 \mathrm{Im}_2) / D$

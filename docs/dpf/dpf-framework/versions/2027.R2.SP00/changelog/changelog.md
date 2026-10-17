@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-05).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -1301,6 +1301,12 @@ The following table shows which components have updates in each category.
 
   > 0.1.5: Support Surface elements.
 
+  > 0.2.0: Added tolerance pin when locating query coordinates within elements.
+
+  > 0.3.0: Tolerance used when searching elements by the coordinates of the query points.
+
+  > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/on_coordinates.md)
 
@@ -1321,6 +1327,10 @@ The following table shows which components have updates in each category.
   > 0.4.2: Support Surface elements.
 
   > 0.4.3: Fix element search for distorted 3D elements.
+
+  > 0.5.0: Tolerance used when searching elements by the coordinates of the query points.
+
+  > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/on_reduced_coordinates.md)
@@ -1827,6 +1837,8 @@ Upgraded documentation
 
   > 0.4.0: Named selections associated to the mesh are rescoped on the selection and associated to the new mesh.
 
+  > 0.5.0: Added the filter_named_selections input pin.
+
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/from_scopings.md)
 
@@ -1915,6 +1927,8 @@ Upgraded documentation
   > 1.0.0: Added support for elements with dropped nodes, as its faces may have been incorrectly added to the output skin mesh before.
 
   > 1.0.1: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
+
+  > 1.0.2: Reverted memory improvements.
 
 
 - [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/split_fields.md)
@@ -2625,6 +2639,8 @@ Upgraded documentation
 
   > 0.0.3: Improve membership-check performance.
 
+  > 0.0.4: Reduce memory footprint and increase performance.
+
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/scoping/on_property.md)
 
@@ -2769,6 +2785,8 @@ Upgraded documentation
 - [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/serialization/workflow_to_pydpf.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Use numeric pin APIs for Any-typed pins.
 
 
 

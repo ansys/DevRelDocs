@@ -11,7 +11,7 @@ license: any_dpf_supported_increments
 ## Description
 
 
-Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_thry/thy_post16.html)
+Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/ans_thry/thy_post16.html)
 matrix between two sets of mode shapes.
 For each pair of modes $\phi_i$ (from container A) and $\phi_j$ (from container B):
 

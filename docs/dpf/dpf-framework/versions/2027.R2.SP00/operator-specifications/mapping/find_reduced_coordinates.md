@@ -33,6 +33,13 @@ The operator produces two synchronized outputs:
 
 This operator is typically paired with `on_reduced_coordinates` to complete field interpolation: first find where points are located (`find_reduced_coordinates`), then evaluate field values at those locations (`on_reduced_coordinates`).
 
+##### Element selection at boundaries
+
+When a query point lies near the boundary between adjacent elements, the operator uses a distance-based selection strategy:
+- If the point passes the tolerant box containment test for multiple elements, the operator selects the element with the smallest computed distance to the point
+- This ensures physically accurate element assignment, particularly important for points on element edges/faces where numerical tolerance could otherwise cause ambiguous assignments
+- Among multiple candidates, Point Elements are only used if no other candidate is available; if no candidate strictly contains the point, permissivity is allowed only when a single candidate was found
+
 
 ## Inputs
 
@@ -43,6 +50,8 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>1</strong> | [coordinates](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>5</strong> | [locate_tolerance](#input_5) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong> | [search_tolerance](#input_6) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 | <strong>200</strong> | [use_quadratic_elements](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
@@ -60,6 +69,30 @@ Physical (global) coordinates at which reduced coordinates and element associati
 - **FieldsContainer**: Multiple coordinate fields, typically organized by time step or spatial region. Each field is processed independently.
 - **MeshedRegion**: Node coordinates of the mesh are used as query points. Useful for evaluating fields at mesh nodes.
 - **MeshesContainer**: Multiple meshes whose node coordinates are used as query points.
+
+<a id="input_5"></a>
+### locate_tolerance (Pin 5)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Tolerance used when locating query coordinates within elements.
+
+**Default**: $5 \times 10^{-5}$
+
+Lower values provide more accurate coordinate location but may fail for points near element boundaries. If no element is found at the specified tolerance, the tolerance is progressively relaxed up to a maximum of $0.1$.
+
+<a id="input_6"></a>
+### search_tolerance (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Tolerance used when searching elements by the coordinates of the query points (first filter step).
+
+**Default**: $1 \times 10^{-6}$
+
+If the default value is used, and no element is found at the specified tolerance, the tolerance is progressively relaxed up.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -169,6 +202,8 @@ Each example shows how to instantiate the operator, connect the required inputs,
 
 ansys::dpf::Operator op("find_reduced_coordinates"); // operator instantiation
 op.connect(1, my_coordinates);
+op.connect(5, my_locate_tolerance);
+op.connect(6, my_search_tolerance);
 op.connect(7, my_mesh);
 op.connect(200, my_use_quadratic_elements);
 ansys::dpf::FieldsContainer my_reduced_coordinates = op.getOutput<ansys::dpf::FieldsContainer>(0);
@@ -184,6 +219,8 @@ import ansys.dpf.core as dpf
 
 op = dpf.operators.mapping.find_reduced_coordinates() # operator instantiation
 op.inputs.coordinates.connect(my_coordinates)
+op.inputs.locate_tolerance.connect(my_locate_tolerance)
+op.inputs.search_tolerance.connect(my_search_tolerance)
 op.inputs.mesh.connect(my_mesh)
 op.inputs.use_quadratic_elements.connect(my_use_quadratic_elements)
 my_reduced_coordinates = op.outputs.reduced_coordinates()
@@ -200,6 +237,8 @@ import Ans.DataProcessing as dpf
 
 op = dpf.operators.mapping.find_reduced_coordinates() # operator instantiation
 op.inputs.coordinates.Connect(my_coordinates)
+op.inputs.locate_tolerance.Connect(my_locate_tolerance)
+op.inputs.search_tolerance.Connect(my_search_tolerance)
 op.inputs.mesh.Connect(my_mesh)
 op.inputs.use_quadratic_elements.Connect(my_use_quadratic_elements)
 my_reduced_coordinates = op.outputs.reduced_coordinates.GetData()
