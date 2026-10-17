@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.mesh.from_scoping
 ---
 
-# *class* from_scoping(scoping: object = None, inclusive: object = None, nodes_only: object = None, mesh: object = None, config: OperatorConfig = None)
+# *class* from_scoping(scoping: object = None, inclusive: object = None, nodes_only: object = None, filter_named_selections: object = None, mesh: object = None, config: OperatorConfig = None)
 
 Extracts a meshed region from another meshed region based on a scoping. Regarding the property fields whose scoping location is 'Elemental', 'Faces', and 'Nodal', they are scoped to the elements, faces or nodes of the output mesh. The ones whose scoping location is 'Global' are transferred from the input mesh to the output mesh without changes, and the rest of the property fields are not present in the output mesh.
 
-available inputs: `scoping` (Scoping), `inclusive` (Int32) (optional), `nodes_only` (bool) (optional), `mesh` (MeshedRegion)
+available inputs: `scoping` (Scoping), `inclusive` (Int32) (optional), `nodes_only` (bool) (optional), `filter_named_selections` (bool) (optional), `mesh` (MeshedRegion)
 
 available outputs: `mesh` (MeshedRegion)
 
@@ -17,6 +17,7 @@ available outputs: `mesh` (MeshedRegion)
 * **scoping**
 * **inclusive**
 * **nodes_only**
+* **filter_named_selections**
 * **mesh**
 * **config**
 
@@ -25,7 +26,7 @@ available outputs: `mesh` (MeshedRegion)
 ```python
 op = from_scoping()
 
-op = from_scoping(scoping=my_scoping,inclusive=my_inclusive,nodes_only=my_nodes_only,mesh=my_mesh)
+op = from_scoping(scoping=my_scoping,inclusive=my_inclusive,nodes_only=my_nodes_only,filter_named_selections=my_filter_named_selections,mesh=my_mesh)
 ```
 
 ## Inputs
@@ -45,6 +46,12 @@ if inclusive == 1 then all the elements/faces adjacent to the nodes/faces ids in
 ### nodes_only
 
 returns mesh with nodes only (without any elements or property fields). Default is false.
+
+**Type:** *LinkableInput*
+
+### filter_named_selections
+
+if true, named selections in the input mesh are filtered to the nodes, faces, elements... present in the output mesh. If false, named selections are not transferred to the output mesh. Default is false.
 
 **Type:** *LinkableInput*
 
