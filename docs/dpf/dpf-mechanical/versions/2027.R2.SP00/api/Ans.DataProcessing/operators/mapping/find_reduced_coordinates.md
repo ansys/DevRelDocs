@@ -2,7 +2,7 @@
 uid: Ans.DataProcessing.operators.mapping.find_reduced_coordinates
 ---
 
-# *class* find_reduced_coordinates(coordinates: object = None, mesh: object = None, use_quadratic_elements: object = None, config: OperatorConfig = None)
+# *class* find_reduced_coordinates(coordinates: object = None, locate_tolerance: object = None, search_tolerance: object = None, mesh: object = None, use_quadratic_elements: object = None, config: OperatorConfig = None)
 
 Performs the inverse isoparametric mapping from physical (global) coordinates to reduced (natural/parametric) coordinates within finite elements.
 
@@ -32,7 +32,17 @@ The operator produces two synchronized outputs:
 
 This operator is typically paired with `on_reduced_coordinates` to complete field interpolation: first find where points are located (`find_reduced_coordinates`), then evaluate field values at those locations (`on_reduced_coordinates`).
 
-available inputs: `coordinates` (Field, FieldsContainer, MeshedRegion, MeshesContainer), `mesh` (MeshedRegion, MeshesContainer) (optional), `use_quadratic_elements` (bool) (optional)
+## Element selection at boundaries
+
+When a query point lies near the boundary between adjacent elements, the operator uses a distance-based selection strategy:
+
+- If the point passes the tolerant box containment test for multiple elements, the operator selects the element with the smallest computed distance to the point
+
+- This ensures physically accurate element assignment, particularly important for points on element edges/faces where numerical tolerance could otherwise cause ambiguous assignments
+
+- Among multiple candidates, Point Elements are only used if no other candidate is available; if no candidate strictly contains the point, permissivity is allowed only when a single candidate was found
+
+available inputs: `coordinates` (Field, FieldsContainer, MeshedRegion, MeshesContainer), `locate_tolerance` (double) (optional), `search_tolerance` (double) (optional), `mesh` (MeshedRegion, MeshesContainer) (optional), `use_quadratic_elements` (bool) (optional)
 
 available outputs: `reduced_coordinates` (FieldsContainer), `element_ids` (ScopingsContainer)
 
@@ -41,6 +51,8 @@ available outputs: `reduced_coordinates` (FieldsContainer), `element_ids` (Scopi
 **Parameters:**
 
 * **coordinates**
+* **locate_tolerance**
+* **search_tolerance**
 * **mesh**
 * **use_quadratic_elements**
 * **config**
@@ -50,12 +62,20 @@ available outputs: `reduced_coordinates` (FieldsContainer), `element_ids` (Scopi
 ```python
 op = find_reduced_coordinates()
 
-op = find_reduced_coordinates(coordinates=my_coordinates,mesh=my_mesh,use_quadratic_elements=my_use_quadratic_elements)
+op = find_reduced_coordinates(coordinates=my_coordinates,locate_tolerance=my_locate_tolerance,search_tolerance=my_search_tolerance,mesh=my_mesh,use_quadratic_elements=my_use_quadratic_elements)
 ```
 
 ## Inputs
 
 ### coordinates
+
+**Type:** *LinkableInput*
+
+### locate_tolerance
+
+**Type:** *LinkableInput*
+
+### search_tolerance
 
 **Type:** *LinkableInput*
 
