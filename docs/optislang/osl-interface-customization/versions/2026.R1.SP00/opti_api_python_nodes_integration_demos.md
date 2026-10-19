@@ -63,7 +63,7 @@ See the following topics:
 
 After unpacking the demonstrator package into a convenient location, you need to put that folder on optiSLang’s scan list of integration plugins. This can be done by adding the folder path under **Customization – Alternative customized integration directories** in global settings. (This corresponds to the key `SC_AlternativeCIDirectories` in the optiSLang configuration file.) An alternative way to control the reach of the plugin scan exists via setting an environment variable `OSL_ALT_CI_SEARCH_DIRS`.
 
-![demo_setup_fig1.png](graphics/demo_setup_fig1.png)
+![demo_setup_integration_directories.png](graphics/demo_setup_integration_directories.png)
 
 Please note that, as optiSLang scans plugin folders only during startup, it may be necessary to close all running instances and restart the program. After being scanned and loaded, the demonstrator nodes will appear in the modules library, and you will be able to instantiate nodes by drag-and-dropping them into the scenery.
 
