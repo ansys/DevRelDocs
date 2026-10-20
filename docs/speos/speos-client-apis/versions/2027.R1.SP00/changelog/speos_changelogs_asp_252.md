@@ -1,5 +1,7 @@
 # Speos Changelog 2025 R2
 
+**Release date:** 2025-07-16
+
 ## New Features
 
 ### Ambient Source Modtran

@@ -1,5 +1,5 @@
 - name: Introduction
-  href: client-speos-api-home.md
+  href: index.md
 - name: Getting started
   items:
   - name: Creating a script
@@ -148,15 +148,15 @@
     - name: CADUpdate - Updating a geometry
       href: asm\asm-example\method_cadupdate_updating_geometry.md
 - name: Changelog
-  href: changelogs\speos_changelogs_asp.md
+  href: changelog\changelog.md
   items:
   - name: Speos Changelog 2027 R1
-    href: changelogs\speos_changelogs_asp_271.md
+    href: changelog\speos_changelogs_asp_271.md
   - name: Speos Changelog 2026 R1 SP03
-    href: changelogs\speos_changelogs_asp_2613.md
+    href: changelog\speos_changelogs_asp_2613.md
   - name: Speos Changelog 2026 R1 SP01
-    href: changelogs\speos_changelogs_asp_2611.md
+    href: changelog\speos_changelogs_asp_2611.md
   - name: Speos Changelog 2026 R1
-    href: changelogs\speos_changelogs_asp_261.md
+    href: changelog\speos_changelogs_asp_261.md
   - name: Speos Changelog 2025 R2
-    href: changelogs\speos_changelogs_asp_252.md
+    href: changelog\speos_changelogs_asp_252.md
