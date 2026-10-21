@@ -15,17 +15,23 @@ public enum SignalProcessingType
 
 `Filtering` 
 
+Description: "Filtering"
+
 Applies a frequency filter to the curve data.
 
 
 
 `FrequencyWeighting` 
 
+Description: "Frequency Weighting"
+
 Applies frequency weighting to the curve data.
 
 
 
 `Smoothing` 
+
+Description: "Smoothing"
 
 Applies a smoothing operation to the curve data.
 

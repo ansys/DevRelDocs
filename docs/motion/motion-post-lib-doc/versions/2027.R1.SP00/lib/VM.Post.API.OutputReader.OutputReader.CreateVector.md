@@ -8,6 +8,8 @@ Assembly: VM.Post.API.OutputReader.dll
 
 Creates a vector definition for a vector-displayable entity and characteristic path.
 
+For a complete operations, see [Result File Reader API Example - Export Vector](../document/result-file-reader/example/example_vector_for_result_file_reader_api.md#export-vector).
+
 ```csharp
 public IVectorDisplay CreateVector(string newName, string target, string path)
 ```
@@ -46,8 +48,10 @@ vector = output_reader.CreateVector(vector_name, entity_name, characteristic_nam
 
 The vector definition is added with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md) to the Dynamics analysis result.
 
-> [!IMPORTANT]
-> A Dynamics analysis result must be available.
+<Danger>
+A Dynamics analysis result must be available.
+</Danger>
 
-> [!NOTE]
-> `target` must identify an entity that implements [`IVectorDisplayable`](VM.Models.Post.IVectorDisplayable.md). Otherwise, this method returns `null`.
+<Note>
+`target` must identify an entity that implements [`IVectorDisplayable`](VM.Models.Post.IVectorDisplayable.md). Otherwise, this method returns `null`.
+</Note>

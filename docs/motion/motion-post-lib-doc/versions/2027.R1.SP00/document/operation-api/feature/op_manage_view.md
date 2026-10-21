@@ -4,7 +4,7 @@ This feature covers creating, finding, activating, closing, and docking [`IView`
 The Operation API uses [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) for animation results and [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md) for chart data. Creating, finding, and closing `IView` are provided by [`IPage`](../../../lib/VM.Operations.Post.Interfaces.IPage.md), while activating and docking are provided by `IView` itself.
 
 ## Creating
-Create [`IPage`](../../../lib/VM.Operations.Post.Interfaces.IPage.md) before creating a view, see [Manage Page](op_manage_page.md).
+Create `IPage` before creating a view, see [Manage Page](op_manage_page.md).
 
 [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md) from imported result data is required for animation creation, see [Import File](op_import_file.md).
 

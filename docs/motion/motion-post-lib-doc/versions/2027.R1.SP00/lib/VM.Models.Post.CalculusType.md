@@ -14,11 +14,15 @@ public enum CalculusType
 
 `Differentiation` 
 
+Description: "Differentiation"
+
 Calculates the derivative of the curve data.
 
 
 
 `Integration` 
+
+Description: "Integration"
 
 Calculates the integral of the curve data.
 

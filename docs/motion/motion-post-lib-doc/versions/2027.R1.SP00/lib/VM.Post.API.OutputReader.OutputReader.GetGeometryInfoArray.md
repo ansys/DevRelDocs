@@ -22,7 +22,7 @@ Enumerable containing body entities available in the opened result file.
 
 ```python
 # Read geometry information for all bodies.
-geometry_info = output_reader.GetGeometryInfoArray()
+geometry_infos = output_reader.GetGeometryInfoArray()
 ```
 
 ### Remarks

@@ -35,12 +35,12 @@ animation_view = page.CreateAnimation(dynamic_analysis, animation_view_name)
 
 # Create a vector display on a target with its first characteristic.
 entity_name = "TJ_01"
-characteristic_name = "Displacement"
+characteristic_name = "Base Force"
 vector_display = dynamic_analysis.CreateVectorDisplay(entity_name, characteristic_name)
 
 # Change the vector display to another characteristic.
-new_characteristic = "Base Torque"
-vector_display.SetCharacteristic(new_characteristic)
+new_characteristic_name = "Base Torque"
+vector_display.SetCharacteristic(new_characteristic_name)
 ```
 
 ### Remarks

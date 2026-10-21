@@ -1,5 +1,7 @@
 # Operation API
 
+This page lists the changes in 2027 R1.
+
 ## Added
 - Added contour management methods to [`IOperationAnalysisResult`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.md):
   - [`GetContour(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContour.md)
@@ -37,6 +39,7 @@
   - `N`
   - `K`
 - Replaced the `MaterialSequence` property on [`IFEProperty`](../../../lib/VM.Models.Post.IFEProperty.md) with [`FatigueMaterial`](../../../lib/VM.Models.Post.IFEProperty.FatigueMaterial.md), which exposes the fatigue material as a `FatigueMaterial` object instead of an integer sequence.
+- Renamed the `ExportAllCurves` method of [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md) to [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md).
 
 ## Deprecated
 - Deprecated [`AddPlotView()`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddPlotView.md). Use [`CreateChart(string)`](../../../lib/VM.Operations.Post.Interfaces.IPage.CreateChart.md) instead.
@@ -54,3 +57,7 @@
 - Deprecated [`RemoveDocument(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.RemoveDocument.md). Use [`CloseDocument(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.CloseDocument.md) instead.
 - Deprecated [`RemoveView(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.RemoveView.md). Use [`CloseView(string)`](../../../lib/VM.Operations.Post.Interfaces.IPage.CloseView.md) instead.
 - Deprecated [`RunFatigueAnalysisAndGenerateContours(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysisAndGenerateContours.md). Use [`RunFatigueAnalysis(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) together with the contour APIs instead.
+
+## Removed
+- Removed the `ExportAllDataSeries` method from [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md). Use [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md) instead.
+- Removed the `ExportAllDataSeries` method from [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md). Use [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md) instead.

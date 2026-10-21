@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Integrates curve data as part of the chart tab's Calculus functionality.
 
+For a complete operations, see [Operation API Example - Calculus](../document/operation-api/example/example_chart_for_operation_api.md#calculus).
+
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateIntegratedCurve(IEnumerable<string> lstSeriesName)
 ```
@@ -32,8 +34,7 @@ A collection of curves with integrated values.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -41,10 +42,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Select the source curves.
@@ -63,6 +64,8 @@ of each point in the curve.
 ## <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateIntegratedCurve_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateIntegratedCurve\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
 
 Integrates curve data as part of the chart tab's Calculus functionality.
+
+For a complete operations, see [Operation API Example - Calculus](../document/operation-api/example/example_chart_for_operation_api.md#calculus).
 
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateIntegratedCurve(IEnumerable<IOperationsLineDataSeriesViewModelBase> seriesViewModels)
@@ -88,8 +91,7 @@ A collection of curves with integrated values.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "ChartSeries"
 chart = page.CreateChart(chart_name)
 
@@ -97,10 +99,10 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Create the integrated curve.

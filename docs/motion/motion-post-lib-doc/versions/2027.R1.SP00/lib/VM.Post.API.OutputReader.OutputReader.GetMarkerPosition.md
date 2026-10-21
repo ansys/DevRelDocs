@@ -38,5 +38,6 @@ marker_positions = output_reader.GetMarkerPosition(marker_names)
 
 Each input name is checked with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). Names that do not identify an entity are omitted from the dictionary.
 
-> [!NOTE]
-> Names that do not identify an entity are omitted from the returned dictionary.
+<Note>
+Names that do not identify an entity are omitted from the returned dictionary.
+</Note>

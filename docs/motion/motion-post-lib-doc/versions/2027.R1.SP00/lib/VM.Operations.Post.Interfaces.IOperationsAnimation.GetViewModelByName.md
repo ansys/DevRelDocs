@@ -24,8 +24,9 @@ Full name already available for an entity in the analysis result. This method us
 
 Matching [`IEntityBaseViewModel`](VM.ViewModels.Post.IEntityBaseViewModel.md).
 
-> [!NOTE]
-> The return value is `null` when `name` does not identify an entity or when no analysis result is associated with [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+<Note>
+The return value is `null` when `name` does not identify an entity or when no analysis result is associated with [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+</Note>
 
 ### Examples
 

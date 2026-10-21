@@ -18,8 +18,9 @@ void ChangeID(int id)
 
 Existing node ID to assign within the parent finite-element data part.
 
-> [!IMPORTANT]
-> The ID must identify a node in the current finite-element data so its index can be resolved.
+<Danger>
+The ID must identify a node in the current finite-element data so its index can be resolved.
+</Danger>
 
 ### Examples
 
@@ -29,8 +30,8 @@ Existing node ID to assign within the parent finite-element data part.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result_type = AnalysisResultType.Dynamics
 dynamic_analysis = document.GetAnalysisResultViewModel(analysis_result_type)
-body_name = "FEBody_01"
-febody = dynamic_analysis.GetViewModel(body_name)
+entity_name = "FEBody_01"
+febody = dynamic_analysis.GetViewModel(entity_name)
 
 # Create a node and change its ID.
 node_id = 754

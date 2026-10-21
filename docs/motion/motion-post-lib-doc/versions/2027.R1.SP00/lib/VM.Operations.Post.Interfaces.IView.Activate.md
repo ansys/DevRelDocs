@@ -17,8 +17,8 @@ void Activate()
 ```python
 page_name = "Page"
 page = application_handler.GetPage(page_name)
-view_name = "Chart"
-view = page.CreateChart(view_name)
+chart_name = "Chart"
+view = page.CreateChart(chart_name)
 view.Activate()
 ```
 
@@ -28,5 +28,6 @@ Calling `Activate()` activates the selected view.
 When this method is called, it deactivates any currently active views within the same page and sets the selected view as the only active view.
 There can be only one active view at a time.
 
-> [!NOTE]
-> Activating this view deactivates the other active views in the same page.
+<Note>
+Activating this view deactivates the other active views in the same page.
+</Note>

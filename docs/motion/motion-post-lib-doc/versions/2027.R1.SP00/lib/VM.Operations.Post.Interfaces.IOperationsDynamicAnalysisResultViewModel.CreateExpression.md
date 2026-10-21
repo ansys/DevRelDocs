@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates a named Python expression in the dynamic result.
 
+For a complete operations, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
+
 ```csharp
 IOperationsPythonExpressionViewModel CreateExpression(string newName)
 ```
@@ -25,8 +27,6 @@ Name used for the new expression and exposed through [`FullName`](VM.Operations.
 Created [`IOperationsPythonExpressionViewModel`](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.md).
 
 ### Examples
-
-For the complete expression workflow, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
 
 ```python
 # Get the dynamic analysis result.

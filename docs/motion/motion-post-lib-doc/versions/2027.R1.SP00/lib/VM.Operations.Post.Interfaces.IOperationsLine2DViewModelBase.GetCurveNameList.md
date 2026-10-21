@@ -26,8 +26,7 @@ A collection of the names of all curves currently displayed in the chart view.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 
 # Create the chart view.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -35,14 +34,14 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Get the curve name list.
-name_list = chart.GetCurveNameList()
+curve_name_list = chart.GetCurveNameList()
 ```
 
 ### Remarks

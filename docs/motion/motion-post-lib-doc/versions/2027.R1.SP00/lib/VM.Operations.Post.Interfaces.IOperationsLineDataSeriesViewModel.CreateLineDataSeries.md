@@ -44,8 +44,7 @@ Created [`IOperationsLineDataSeriesAxisViewModel`](VM.Operations.Post.Interfaces
 
 ```python
 # Get the page and create a chart to hold the curve.
-page_name = "Page"
-page = application_handler.GetPage(page_name)
+page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
 
@@ -53,19 +52,18 @@ chart = page.CreateChart(chart_name)
 curve_paths = List[str]()
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
-target_name = "FEBody_01"
+entity_name = "Crank"
 parameters = PlotParameters()
 parameters.Paths = curve_paths
-parameters.Target = target_name
+parameters.Target = entity_name
 # RESULT_FILE_PATH : .dfr result file path
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Create axis data for the curve from the selected result target.
-full_target = "Crank"
-characteristic = "Displacement"
-component = "Y"
-coordinate_system = "Inertia"
-line_data_series = curves[0].CreateLineDataSeries(RESULT_FILE_PATH, full_target, characteristic, component, coordinate_system)
+characteristic_name = "Displacement"
+component_name = "Y"
+coordinate_system_name = "Inertia"
+line_data_series = curves[0].CreateLineDataSeries(RESULT_FILE_PATH, entity_name, characteristic_name, component_name, coordinate_system_name)
 ```
 
 ### Remarks

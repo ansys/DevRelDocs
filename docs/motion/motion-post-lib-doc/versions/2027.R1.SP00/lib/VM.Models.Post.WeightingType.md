@@ -15,17 +15,23 @@ public enum WeightingType
 
 `AWeighting` 
 
+Description: "A-Weighting"
+
 Applies A-weighting to the signal.
 
 
 
 `BWeighting` 
 
+Description: "B-Weighting"
+
 Applies B-weighting to the signal.
 
 
 
 `CWeighting` 
+
+Description: "C-Weighting"
 
 Applies C-weighting to the signal.
 

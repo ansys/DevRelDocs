@@ -35,7 +35,7 @@ document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result_type = AnalysisResultType.Dynamics
 analysis_result = document.GetAnalysisResultViewModel(analysis_result_type)
 analysis_result_id = analysis_result.ID
-result_by_id = document.GetAnalysisResultViewModel(analysis_result_id)
+analysis_result_by_id = document.GetAnalysisResultViewModel(analysis_result_id)
 ```
 
 ## <a id="VM_ViewModels_Post_Interfaces_IOperationDocument_GetAnalysisResultViewModel_VM_Models_AnalysisResultType_"></a> GetAnalysisResultViewModel\(AnalysisResultType\)

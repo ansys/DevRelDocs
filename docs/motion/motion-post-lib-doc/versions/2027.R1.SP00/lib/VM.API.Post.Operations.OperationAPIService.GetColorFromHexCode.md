@@ -31,9 +31,9 @@ page_name = "Page"
 page = application_handler.GetPage(page_name)
 chart_name = "Chart"
 chart = page.CreateChart(chart_name)
-# color : hexadecimal color code accepted by ColorConverter
-color = "#FF5733"
-chart.Legend.Background = OperationAPIService.GetColorFromHexCode(color)
+# hex_code : hexadecimal color code accepted by ColorConverter
+hex_code = "#FF5733"
+chart.Legend.Background = OperationAPIService.GetColorFromHexCode(hex_code)
 ```
 
 ### Remarks

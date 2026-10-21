@@ -35,9 +35,9 @@ uid: Ans.DataProcessing.operators.math
 | [cos](Ans_DataProcessing_operators_math_cos.md) | Computes the entity-wise [cosine](https://en.wikipedia.org/wiki/Sine_and_cosine): |
 | [cos_fc](Ans_DataProcessing_operators_math_cos_fc.md) | Computes the entity-wise [cosine](https://en.wikipedia.org/wiki/Sine_and_cosine): |
 | [cplx_derive](Ans_DataProcessing_operators_math_cplx_derive.md) | Computes the time derivative of a [phasor](https://en.wikipedia.org/wiki/Phasor) field |
-| [cplx_divide](Ans_DataProcessing_operators_math_cplx_divide.md) | Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Multiplicative_inverse) |
+| [cplx_divide](Ans_DataProcessing_operators_math_cplx_divide.md) | Computes the [complex division](https://en.wikipedia.org/wiki/Complex_number#Complex_conjugate,_absolute_value,_argument_and_division) |
 | [cplx_dot](Ans_DataProcessing_operators_math_cplx_dot.md) | Computes the real-valued inner product |
-| [cplx_multiply](Ans_DataProcessing_operators_math_cplx_multiply.md) | Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication_and_square) |
+| [cplx_multiply](Ans_DataProcessing_operators_math_cplx_multiply.md) | Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication) |
 | [cross_product](Ans_DataProcessing_operators_math_cross_product.md) | cross_product() |
 | [cross_product_fc](Ans_DataProcessing_operators_math_cross_product_fc.md) | cross_product_fc() |
 | [dot](Ans_DataProcessing_operators_math_dot.md) | DEPRECATED, PLEASE USE GENERALIZED INNER PRODUCT. Computes element - wise dot product between two vector fields. If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely.When using a constant or 'work_by_index', you can use 'inplace' to reuse one of the fields, but only in the case where both fields are scalar.   ///available inputs: fieldA (Field, FieldsContainer), fieldB (Field, FieldsContainer) |
@@ -62,7 +62,7 @@ uid: Ans.DataProcessing.operators.math
 | [linearized_stress](Ans_DataProcessing_operators_math_linearized_stress.md) | get linearized stress   ///available inputs: stress_comps (FieldsContainer), iComp (Int32), path_coords (Field), rho (double), kbr (Int32), ksxbzro (Int32), out_type (Int32) |
 | [ln](Ans_DataProcessing_operators_math_ln.md) | ln() |
 | [ln_fc](Ans_DataProcessing_operators_math_ln_fc.md) | Computes the entity-wise [natural logarithm](https://en.wikipedia.org/wiki/Natural_logarithm): |
-| [mac](Ans_DataProcessing_operators_math_mac.md) | Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_thry/thy_post16.html) |
+| [mac](Ans_DataProcessing_operators_math_mac.md) | Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/ans_thry/thy_post16.html) |
 | [make_one_on_comp](Ans_DataProcessing_operators_math_make_one_on_comp.md) | Returns a scalar field with the same scoping as the input field. |
 | [matrix_inverse](Ans_DataProcessing_operators_math_matrix_inverse.md) | Computes the [matrix inverse](https://en.wikipedia.org/wiki/Invertible_matrix) |
 | [matrix_product](Ans_DataProcessing_operators_math_matrix_product.md) | matrix_product() |
@@ -74,8 +74,8 @@ uid: Ans.DataProcessing.operators.math
 | [modal_participation](Ans_DataProcessing_operators_math_modal_participation.md) | Compute the modal participation factor for a given vector field V, defined as  sum_i ( V .dot. mode_shape_i * ponderation ).   ///available inputs: v_real (Field), v_imag (Field), mode_shapes (FieldsContainer), ponderation (Field) (optional), force_label_space (LabelSpace) (optional) |
 | [modal_superposition](Ans_DataProcessing_operators_math_modal_superposition.md) | Computes the solution in the time/frequency space from a modal solution by multiplying a modal basis (in 0)by the solution in this modal space (coefficients for each mode for each time/frequency) (in 1).   ///available inputs: modal_basis (FieldsContainer, CustomTypeFieldsContainer), solution_in_modal_space (FieldsContainer, CustomTypeFieldsContainer), incremental_fc (FieldsContainer, CustomTypeFieldsContainer) (optional), time_scoping (Scoping, ScopingsContainer) (optional), mesh_scoping (Scoping, ScopingsContainer) (optional) |
 | [modulus](Ans_DataProcessing_operators_math_modulus.md) | Computes the [complex modulus](https://en.wikipedia.org/wiki/Absolute_value#Complex_numbers) |
-| [norm](Ans_DataProcessing_operators_math_norm.md) | Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector |
-| [norm_fc](Ans_DataProcessing_operators_math_norm_fc.md) | Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector |
+| [norm](Ans_DataProcessing_operators_math_norm.md) | Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_%28mathematics%29#p-norm) of the component vector |
+| [norm_fc](Ans_DataProcessing_operators_math_norm_fc.md) | Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_%28mathematics%29#p-norm) of the component vector |
 | [nvh_curve_fitting_solver](Ans_DataProcessing_operators_math_nvh_curve_fitting_solver.md) | nvh_curve_fitting_solver() |
 | [outer_product](Ans_DataProcessing_operators_math_outer_product.md) | outer_product() |
 | [overall_dot](Ans_DataProcessing_operators_math_overall_dot.md) | Computes a dot product between two fields (fields are seen like a single large vector) and returns a scalar.   ///available inputs: fieldA (Field), fieldB (Field) |

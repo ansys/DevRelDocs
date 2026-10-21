@@ -2,7 +2,7 @@
 This feature covers loading frames with [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md) or [`IOperationsEigenValueAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md), and playing, recording, stopping, and choosing a frame with [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md). The loaded frames give the animation view something to show and give recording something to capture.
 
 ## Loading
-Use [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md) or [`IOperationsEigenValueAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md) obtained from imported result data, see [Import File](op_import_file.md).
+Use `IOperationsDynamicAnalysisResultViewModel` or `IOperationsEigenValueAnalysisResultViewModel` obtained from imported result data, see [Import File](op_import_file.md).
 
 For a dynamic result, load a chosen number of frames with [`SetAnimationFrame(int)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md), or load specific frames by their frame numbers with [`SetAnimationFrame(IEnumerable<int>)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md). If no dynamic frames are loaded yet, calling [`PlayAnimation()`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.PlayAnimation.md) loads the full dynamic animation first and then starts playback.
 
@@ -11,14 +11,16 @@ For an eigenvalue result, choose a sampling time with [`TargetSamplingTime`](../
 ## Playing
 Start playback with `PlayAnimation()`. Playback moves through the loaded frames one by one and jumps back to the first frame after it reaches the last one.
 
-> [!IMPORTANT]
-> [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) must be the active view before calling `PlayAnimation()`. Otherwise, playback does not start.
+<Danger>
+`IOperationsAnimation` must be the active view before calling `PlayAnimation()`. Otherwise, playback does not start.
+</Danger>
 
 ## Recording
 Record loaded frames with [`RecordingAnimation(string, RecordingType, RecordingRangeType, int, IViewSpec[])`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.RecordingAnimation.md). If playback is already running, this operation stops it first. Otherwise, recording starts from the first loaded frame. Once every frame is captured, the result is written to a file in the chosen format.
 
-> [!IMPORTANT]
-> Animation frames must be loaded before calling `RecordingAnimation(string, RecordingType, RecordingRangeType, int, IViewSpec[])`. If no frames are loaded, no output file is created.
+<Danger>
+Animation frames must be loaded before calling `RecordingAnimation(string, RecordingType, RecordingRangeType, int, IViewSpec[])`. If no frames are loaded, no output file is created.
+</Danger>
 
 ## Stopping
 Stop playback with [`StopAnimation()`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.StopAnimation.md). The animation state changes to stopped.

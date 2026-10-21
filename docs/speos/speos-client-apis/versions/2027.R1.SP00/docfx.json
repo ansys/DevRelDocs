@@ -1,0 +1,13 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "Speos client APIs 2027 R1",
+        "summary": "The Speos client APIs provide IronPython automation for ANSYS Speos, with interfaces for light simulation (SpeosSim), optical part design (SpeosDes), and geometry updates (SpeosAsm). Use them to create and modify Speos objects and configure their parameters through code.",
+        "version": "2027 R1",
+        "product": "Speos",
+        "programming language": "IronPython",
+        "product collection": "Optics",
+        "physics": "Optics"
+      }
+    }
+ }

@@ -46,9 +46,13 @@ Closes [`IView`](VM.Operations.Post.Interfaces.IView.md) with the specified [`Fu
 
 Creates [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) with an analysis result on this page.
 
+For a complete operations, see [Operation API Example - Create an AnimationView corresponding to the Analysis type](../document/operation-api/example/example_animation_for_operation_api.md#create-an-animationview-corresponding-to-the-analysis-type).
+
  [CreateChart\(string\)](VM.Operations.Post.Interfaces.IPage.CreateChart.md\#VM\_Operations\_Post\_Interfaces\_IPage\_CreateChart\_System\_String\_)
 
 Creates [`IOperationsLine2DViewModelBase`](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md) on this page for 2D curve operations.
+
+For a complete operations, see [Operation API Example - Create a ChartView](../document/operation-api/example/example_chart_for_operation_api.md#create-a-chartview).
 
  [GetActiveView\(\)](VM.Operations.Post.Interfaces.IPage.GetActiveView.md\#VM\_Operations\_Post\_Interfaces\_IPage\_GetActiveView)
 

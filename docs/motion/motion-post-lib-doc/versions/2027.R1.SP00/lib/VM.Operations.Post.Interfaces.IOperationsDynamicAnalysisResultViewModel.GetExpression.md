@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Gets a Python expression by its name.
 
+For a complete operations, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
+
 ```csharp
 IOperationsPythonExpressionViewModel GetExpression(string name)
 ```
@@ -25,8 +27,6 @@ Full name from [`FullName`](VM.Operations.Post.Interfaces.IOperationsPythonExpre
 Matching [`IOperationsPythonExpressionViewModel`](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.md), or `null` when no matching expression exists.
 
 ### Examples
-
-For the complete expression workflow, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
 
 ```python
 # Get the dynamic analysis result.

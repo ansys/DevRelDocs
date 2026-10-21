@@ -4,6 +4,8 @@
 Namespace: [VM.ViewModels](VM.ViewModels.md)  
 Assembly: VM.ViewModels.dll  
 
+Defines the common state exposed by a view model to the application.
+
 ```csharp
 public interface IViewModel
 ```

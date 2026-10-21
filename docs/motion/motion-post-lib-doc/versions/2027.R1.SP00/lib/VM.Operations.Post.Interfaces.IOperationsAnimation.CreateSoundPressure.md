@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Creates sound-pressure curve data for selected bodies and coordinate systems.
 
+For a complete operations, see [Operation API Example - Sound Pressure](../document/operation-api/example/example_analysis_for_operation_api.md#sound-pressure).
+
 ```csharp
 IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSoundPressure(IList<string> bodyNames, IList<string> coordinateNames, double coarseningRate, double maxAreaFactor, double maxAspectRatio, double airDensity, double soundVelocity, double frequency, int start, int end, bool isDeicbelScale)
 ```
@@ -18,15 +20,17 @@ IEnumerable<IOperationsLineDataSeriesViewModelBase> CreateSoundPressure(IList<st
 
 Full names of body entities in the analysis result. Obtain each name from a public entity property or lookup result.
 
-> [!IMPORTANT]
-> The collection must contain at least one full name, and every name must identify a body in the associated analysis result.
+<Danger>
+The collection must contain at least one full name, and every name must identify a body in the associated analysis result.
+</Danger>
 
 `coordinateNames` IList<string\>
 
 Full names of coordinate systems used as microphone positions. Obtain each value from [`FullName`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.FullName.md) after retrieving or creating the coordinate system.
 
-> [!IMPORTANT]
-> The collection must contain at least one full name, and every name must identify a coordinate system in the associated analysis result.
+<Danger>
+The collection must contain at least one full name, and every name must identify a coordinate system in the associated analysis result.
+</Danger>
 
 `coarseningRate` double
 
@@ -70,8 +74,9 @@ Last frame in the analysis range.
 
 Curve data created for the requested microphone positions.
 
-> [!IMPORTANT]
-> The return value is `null` when either name collection is empty or contains an invalid entity name.
+<Danger>
+The return value is `null` when either name collection is empty or contains an invalid entity name.
+</Danger>
 
 ### Examples
 

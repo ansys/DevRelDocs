@@ -18,8 +18,9 @@ void MoveToAnimationFrame(int frame)
 
 Zero-based index into the animation frames already loaded for the analysis result, such as the frames loaded through [`SetAnimationFrame(int)`](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md) or [`SetAnimationFrame(IEnumerable<int>)`](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md).
 
-> [!IMPORTANT]
-> `frame` is converted to an unsigned frame index before it is applied. A negative value converts to a large unsigned number and moves to the highest loaded frame instead of causing an exception.
+<Danger>
+`frame` is converted to an unsigned frame index before it is applied. A negative value converts to a large unsigned number and moves to the highest loaded frame instead of causing an exception.
+</Danger>
 
 ### Examples
 
@@ -41,5 +42,6 @@ analysis_result.MoveToAnimationFrame(frame)
 
 The requested frame is clamped to the loaded frame range, so a value above the highest loaded frame moves to that highest frame instead of causing an exception.
 
-> [!IMPORTANT]
-> No loaded frame exists until animation frames have been loaded through the related analysis-result API. Calling this method before frames are loaded has no visible effect.
+<Danger>
+No loaded frame exists until animation frames have been loaded through the related analysis-result API. Calling this method before frames are loaded has no visible effect.
+</Danger>

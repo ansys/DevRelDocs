@@ -16,13 +16,19 @@ public interface IOperationsDynamicAnalysisResultViewModel : IOperationAnalysisR
 
 Creates a named Python expression in the dynamic result.
 
+For a complete operations, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
+
  [CreateVectorDisplay\(string, string\)](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateVectorDisplay.md\#VM\_Operations\_Post\_Interfaces\_IOperationsDynamicAnalysisResultViewModel\_CreateVectorDisplay\_System\_String\_System\_String\_)
 
 Creates a vector display for an entity and characteristic in the dynamic result.
 
+For a complete operations, see [Operation API Example - Vector Display](../document/operation-api/example/example_animation_for_operation_api.md#vector-display).
+
  [GetExpression\(string\)](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetExpression.md\#VM\_Operations\_Post\_Interfaces\_IOperationsDynamicAnalysisResultViewModel\_GetExpression\_System\_String\_)
 
 Gets a Python expression by its name.
+
+For a complete operations, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
 
  [GetVectorDisplay\(string\)](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplay.md\#VM\_Operations\_Post\_Interfaces\_IOperationsDynamicAnalysisResultViewModel\_GetVectorDisplay\_System\_String\_)
 
@@ -35,6 +41,8 @@ Gets vector-display characteristic names supported by an entity in the dynamic r
  [RemoveExpression\(string\)](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveExpression.md\#VM\_Operations\_Post\_Interfaces\_IOperationsDynamicAnalysisResultViewModel\_RemoveExpression\_System\_String\_)
 
 Removes a Python expression by its name.
+
+For a complete operations, see [Operation API Example - Expression](../document/operation-api/example/example_animation_for_operation_api.md#expression).
 
  [RemoveVectorDisplay\(string\)](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveVectorDisplay.md\#VM\_Operations\_Post\_Interfaces\_IOperationsDynamicAnalysisResultViewModel\_RemoveVectorDisplay\_System\_String\_)
 

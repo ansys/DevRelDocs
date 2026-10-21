@@ -27,6 +27,10 @@ Defines the base class implementing `IObject` for postprocessor object.
 
 Provides the angle, position, rotation-axis, and rotation-type values for a transformation offset.
 
+ [VectorDisplayCharacteristicInfo](VM.Models.Post.VectorDisplayCharacteristicInfo.md)
+
+Describes a characteristic that can be used to create a vector display.
+
 ### Interfaces
 
  [IDataPart](VM.Models.Post.IDataPart.md)

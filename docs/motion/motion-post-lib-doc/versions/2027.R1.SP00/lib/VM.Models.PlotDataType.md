@@ -15,11 +15,15 @@ public enum PlotDataType
 
 `DEFAULT` 
 
+Description: "Default"
+
 Uses the standard result data associated with the selected entity.
 
 
 
 `PlotResult` 
+
+Description: "Plot Result"
 
 Uses result data prepared for plotting.
 

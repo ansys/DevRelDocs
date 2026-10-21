@@ -15,17 +15,23 @@ public enum SimpleMathType
 
 `Add` 
 
+Description: "+"
+
 Adds the selected curve values.
 
 
 
 `Multiply` 
 
+Description: "*"
+
 Multiplies the selected curve values.
 
 
 
 `Subtract` 
+
+Description: "-"
 
 Subtracts the selected curve values.
 

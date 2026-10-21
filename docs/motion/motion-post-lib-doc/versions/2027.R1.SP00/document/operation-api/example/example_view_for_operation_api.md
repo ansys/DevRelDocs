@@ -1,11 +1,11 @@
-# Example
+# View
 This example covers topics related to views.
 - For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
 ## Create a Page
 This example demonstrates how to create a page.
 ```python
-# OperationAPI_CreatingAPage.py
+# Example_OperationAPI_CreatingAPage.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -28,7 +28,7 @@ filepaths.Add(RESULT_FILE_PATH)
 application_handler.AddDocument(filepaths)
 
 # Add a new page
-# This will create a new page and activate it.
+# AddDocument already created a default page. This will create another page and activate it.
 # You can specify the page name when the page is created.
 page_name = "FirstPage"
 page = application_handler.AddPage(page_name)
@@ -46,7 +46,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ## Finding and Deleting a Page
 This example demonstrates how to find and delete a created page.
 ```python
-# OperationAPI_FindingAndDeletingAPage.py
+# Example_OperationAPI_FindingAndDeletingAPage.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -69,7 +69,7 @@ filepaths.Add(RESULT_FILE_PATH)
 application_handler.AddDocument(filepaths)
 
 # Add a new page
-# This will create a new page and activate it.
+# AddDocument already created a default page. This will create another page and activate it.
 # You can specify the page name when the page is created.
 page_name = "FirstPage"
 application_handler.AddPage(page_name)
@@ -85,13 +85,13 @@ application_handler.ClosePage(page.ID)
 # This retrieves all pages created in the application.
 pages = application_handler.GetPages()
 
-findViews = list()
+find_views = list()
 for page in pages :
     views = page.GetViews()
-    animationViews = [view for view in views if view.ViewType == ViewType.Animation]
-    for animationView in animationViews :
-        if animationView.DocumentFilePath == RESULT_FILE_PATH and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
-            findViews.append(animationView)
+    animation_views = [view for view in views if view.ViewType == ViewType.Animation]
+    for animation_view in animation_views :
+        if animation_view.DocumentFilePath == RESULT_FILE_PATH and animation_view.AnalysisResultType == AnalysisResultType.Dynamics :
+            find_views.append(animation_view)
 
 # Get all created pages.
 # This retrieves all pages created in the application.
@@ -106,7 +106,7 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ## Moving a View
 This example demonstrates how to move a view within a page.
 ```python
-# OperationAPI_MovingAView.py
+# Example_OperationAPI_MovingAView.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -132,19 +132,8 @@ application_handler.AddDocument(filepaths)
 # This retrieves the currently active page in the application.
 page = application_handler.GetActivePage()
 
-# RESULT_FILE_PATH - Get the document from the result file path.
-document = application_handler.GetDocument(RESULT_FILE_PATH)
-
-# This retrieves the analysis result from the document.
-# Types of Analysis Results
-# - Dynamics
-# - Eigenvalue
-dynamic_analysis = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
-
-# Create an Animation View on the active page
-# This will create an animation view based on the dynamic analysis.
-animation_view_name = "ResultAnimation"
-animation = page.CreateAnimation(dynamic_analysis, animation_view_name)
+# Get the Animation View that AddDocument created on the active page.
+animation = page.GetActiveView()
 
 # Creating a Chart
 # Create a new Chart View on the page

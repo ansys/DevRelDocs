@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Exports the image to the specified file path in the specified format.
 
+For a complete operations, see [Operation API Example - Image Capture](../document/operation-api/example/example_animation_for_operation_api.md#image-capture).
+
 ```csharp
 void ExportImage(string filepath, ImageFormat format, double? width = null, double? height = null)
 ```
@@ -36,22 +38,23 @@ Optional output height in pixels. If omitted, the original height is used.
 # Get the page and create a chart view.
 page_name = "Page"
 page = application_handler.GetPage(page_name)
-view_name = "Chart"
-view = page.CreateChart(view_name)
+chart_name = "Chart"
+view = page.CreateChart(chart_name)
 
 # Build the output file path for the exported image.
 # PATH : path to the folder where exported files are written
 # IMAGE_OUTPUT_FILENAME : output filename for the exported view image
-output_path = os.path.join(PATH, IMAGE_OUTPUT_FILENAME)
+output_path = Path.Combine(PATH, IMAGE_OUTPUT_FILENAME)
 
 # Export the view image at the requested size.
 image_format = ImageFormat.Png
-width = 1920
-height = 1080
-view.ExportImage(output_path, image_format, width, height)
+image_width = 1920
+image_height = 1080
+view.ExportImage(output_path, image_format, image_width, image_height)
 ```
 
 ### Remarks
 
-> [!NOTE]
-> Omitting <code class="paramref">width</code> or <code class="paramref">height</code> preserves the corresponding original image dimension.
+<Note>
+Omitting <code class="paramref">width</code> or <code class="paramref">height</code> preserves the corresponding original image dimension.
+</Note>

@@ -4,9 +4,9 @@ The following sample code illustrates how to create a simple example.
 
 ## Fatigue Analysis
 This example demonstrates Fatigue Analysis.
-**The example assumes that the material has already been defined.** If you are running it for the first time, you need to create the material in advance.
+**The example assumes that the material has already been defined.** When running it for the first time, create the material in advance.
 ```python
-# OperationAPI_DurabiliyAnalysis.py
+# Example_OperationAPI_DurabilityAnalysis.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -23,26 +23,22 @@ filepaths = List[str]()
 # RESULT_FILE_PATH : .dfr result file path
 filepaths.Add(RESULT_FILE_PATH)
 
-# Open about result files
-# This will open the result file in the application.
-# When the result is first opened, a Page is created and an Animation View is created on that Page.
+# Open the result file.
 application_handler.AddDocument(filepaths)
 
-# Get Active Page
-# This retrieves the currently active page in the application.
+# AddDocument created a page with an animation view for the dynamics result.
 page = application_handler.GetActivePage()
-
-# Get Active View
-# This retrieves the currently active view in the page.
 active_view = page.GetActiveView()
 
-# Load animation
+# Load the animation data before running fatigue analysis.
 application_handler.LoadingAnimation()
 
 # Get instance of entity
 # The GetViewModelByName method retrieves the target by its name.
-fe_body = active_view.GetViewModelByName("FEBody_01")
-material = active_view.GetViewModelByName("2014_HV_O")
+entity_name = "FEBody_01"
+fe_body = active_view.GetViewModelByName(entity_name)
+material_name = "2014_HV_O"
+material = active_view.GetViewModelByName(material_name)
 
 # Set FE body properties
 fe_body.Material = material
@@ -69,18 +65,15 @@ DurabilityAnalysis.RunFatigueAnalysis(durability_param)
 fatigue_characteristic_name = "Fatigue"
 # fatigue_life_cycle_component_name : fixed component name required for the fatigue life-cycle contour
 fatigue_life_cycle_component_name = "Life Cycle"
-# fatigue_damage_component_name : fixed component name required for the fatigue damage contour
-fatigue_damage_component_name = "Damage"
 document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result = document.GetAnalysisResultViewModel(AnalysisResultType.Dynamics)
 target_entities = List[str]()
 target_entities.Add(fe_body.FullName)
 analysis_result.CreateContour(target_entities, ContourMappingType.FEElement, fatigue_characteristic_name, fatigue_life_cycle_component_name)
-analysis_result.CreateContour(target_entities, ContourMappingType.FEElement, fatigue_characteristic_name, fatigue_damage_component_name)
 
 # Close all pages and document
 # Get all created pages.
-# This retrieves all pages created in the application.
+# This retrieves all created pages.
 for p in application_handler.GetPages():
     p.Close()
 application_handler.CloseDocument(RESULT_FILE_PATH)
@@ -91,7 +84,7 @@ Sound pressure analysis (SPA) can be used to analyze the sound pressure generate
 * Before the analysis, the bodies that are the source of sound pressure must be defined as FE or EasyFlex bodies in the preprocessor.
 * The coordinate systems must be created to define the microphone positions which are the target positions for sound pressure calculation.
 ```python
-# OperationAPI_CreatingASoundPressure.py
+# Example_OperationAPI_CreatingASoundPressure.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -117,52 +110,61 @@ application_handler.AddDocument(filepaths)
 # This retrieves all pages created in the application.
 pages = application_handler.GetPages()
 
-findViews = list()
+find_views = list()
 for page in pages :
     views = page.GetViews()
-    animationViews = [view for view in views if view.ViewType == ViewType.Animation]
-    for animationView in animationViews :
-        if animationView.DocumentFilePath == RESULT_FILE_PATH and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
-            findViews.append(animationView)
+    animation_views = [view for view in views if view.ViewType == ViewType.Animation]
+    for animation_view in animation_views :
+        if animation_view.DocumentFilePath == RESULT_FILE_PATH and animation_view.AnalysisResultType == AnalysisResultType.Dynamics :
+            find_views.append(animation_view)
 
-viewCount = len(findViews)
-if viewCount > 0 :
-    animationview = findViews[0]
+view_count = len(find_views)
+if view_count > 0 :
+    animation_view = find_views[0]
 
     # Create a Coordinate System
-    # Name - Set the name of instance.
-    # ParentInfo - Specifies The path of an parent entity.
+    # Name : Set the name of instance.
+    # ParentInfo : Specifies The path of an parent entity.
     csys_name = "Microphone"
     parent_name = "Ground"
-    animationview.CreateCoordinateSystem(csys_name, parent_name)
+    animation_view.CreateCoordinateSystem(csys_name, parent_name)
 
     # Get instance of entity
     # The GetViewModelByName method retrieves the target by its name.
-    microphone = animationview.GetViewModelByName("Microphone")
+    microphone = animation_view.GetViewModelByName("Microphone")
     microphone.TransformationOffsetPosition = Vector(0,300,0)
 
-    bodynames = List[str](1)
+    body_names = List[str](1)
     # body_name : name of the entity whose surface generates the sound pressure
     body_name = r'FEBody_01'
-    bodynames.Add(body_name)
-    microphoneNames = List[str](1)
+    body_names.Add(body_name)
+    microphone_names = List[str](1)
     # microphone_name : name of the coordinate system used as the sound pressure sampling point
     microphone_name = r'Microphone'
-    microphoneNames.Add(microphone_name)
+    microphone_names.Add(microphone_name)
 
     # Creates sound pressure data based on the Rayleigh Integral for analyzing sound pressure generated by vibrations on the system surface.
-    # bodyNames - The list of entity names whose surfaces generate the sound pressure.</param>
-    # coordinateNames - The list of coordinate system names used in the analysis.</param>
-    # coarseningRate - Percentage of the number of nodes remaining in the sampling result with respect to the initial number of nodes.</param>
-    # maxAreaFactor - Maximum allowable area of each element generated by the sampling result. It sets the condition that the area of each element cannot be greater than (Max Area Factor) * (Average element area).</param>
-    # maxAspectRatio - Maximum allowable aspect ratio of each element generated by the sampling result.</param>
-    # airDensity - Density of the air.</param>
-    # soundVelocity - Speed of sound in air.</param>
-    # frequency - The number of analysis results per second is determined as 10*analysis frequency.</param>
-    # start - The start frame for the time range to be analyzed.</param>
-    # end - The end frame for the time range to be analyzed.</param>
-    # isDeicbelScale - The decibel scale.</param>
-    animationview.CreateSoundPressure(bodynames, microphoneNames, 10.0, 100.0, 3.0, 1.21E-09, 343000.0, 2000.0, 1, 10, False)
+    # bodyNames : The list of entity names whose surfaces generate the sound pressure.</param>
+    # coordinateNames : The list of coordinate system names used in the analysis.</param>
+    # coarseningRate : Percentage of the number of nodes remaining in the sampling result with respect to the initial number of nodes.</param>
+    # maxAreaFactor : Maximum allowable area of each element generated by the sampling result. It sets the condition that the area of each element cannot be greater than (Max Area Factor) * (Average element area).</param>
+    # maxAspectRatio : Maximum allowable aspect ratio of each element generated by the sampling result.</param>
+    # airDensity : Density of the air.</param>
+    # soundVelocity : Speed of sound in air.</param>
+    # frequency : The number of analysis results per second is determined as 10*analysis frequency.</param>
+    # start : The start frame for the time range to be analyzed.</param>
+    # end : The end frame for the time range to be analyzed.</param>
+    # isDeicbelScale : The decibel scale.</param>
+    coarsening_rate = 10.0
+    max_area_factor = 100.0
+    max_aspect_ratio = 3.0
+    air_density = 1.21E-09
+    sound_velocity = 343000.0
+    frequency = 2000.0
+    start = 1
+    end = 10
+    is_decibel_scale = False
+    animation_view.CreateSoundPressure(body_names, microphone_names, coarsening_rate, max_area_factor, max_aspect_ratio, air_density, sound_velocity, frequency, start, end, is_decibel_scale)
 
 # Get all created pages.
 # This retrieves all pages created in the application.

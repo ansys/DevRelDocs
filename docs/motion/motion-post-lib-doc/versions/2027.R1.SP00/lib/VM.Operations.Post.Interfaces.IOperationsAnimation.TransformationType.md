@@ -21,5 +21,6 @@ TransformationType TransformationType { get; set; }
 `TransformationType` controls whether the camera follows the target's translational or rotational direction.
 The selected mode determines whether camera-follow updates use target translation, target rotation, or both.
 
-> [!IMPORTANT]
-> `Unknown` is not a settable value. Assigning it throws `NotSupportedException`.
+<Danger>
+`Unknown` is not a settable value. Assigning it throws `NotSupportedException`.
+</Danger>

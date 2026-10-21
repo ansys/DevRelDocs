@@ -10,7 +10,7 @@ Set these properties to change the chart:
 - Single-axis or multiple-axis display with [`ChartAxisType`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ChartAxisType.md).
 
 ## Displaying
-For [`IOperationsLine2DViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md), show or hide the X and Y axes with [`AxisX`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.AxisX.md) and [`AxisY`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.AxisY.md).
+For `IOperationsLine2DViewModel`, show or hide the X and Y axes with [`AxisX`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.AxisX.md) and [`AxisY`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.AxisY.md).
 
 Show or hide the legend and the animation bar with [`ShowLegend`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.ShowLegend.md) and [`ShowAnimationBar`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.ShowAnimationBar.md).
 

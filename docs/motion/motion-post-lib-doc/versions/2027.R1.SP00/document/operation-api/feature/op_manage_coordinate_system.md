@@ -2,14 +2,15 @@
 This feature covers creating, getting, and removing [`IOperationsCSYSViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md) with [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md), and configuring the coordinate system it defines for an animation. The created coordinate system can be used as input for curve creation and sound pressure calculation, see [Manage a Curve](op_manage_curve.md) and [Run an Analysis](op_run_analysis.md).
 
 ## Creating
-[`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) created through [Manage View - Creating](op_manage_view.md#creating) is required before creating `IOperationsCSYSViewModel`.
+`IOperationsAnimation` created through [Manage View - Creating](op_manage_view.md#creating) is required before creating `IOperationsCSYSViewModel`.
 
 Create `IOperationsCSYSViewModel` with [`CreateCoordinateSystem(string, string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.CreateCoordinateSystem.md). The created `IOperationsCSYSViewModel` can then be configured through its properties.
 
-> [!IMPORTANT]
-> The parent entity must exist. The requested name must not already identify an entity in [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md). If either condition is not met, the coordinate system is not created.
+<Danger>
+The parent entity must exist. The requested name must not already identify an entity in [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md). If either condition is not met, the coordinate system is not created.
+</Danger>
 
-The created coordinate system can be used as a reference for a curve, see [Manage a Curve - Adding](op_manage_curve.md#adding).
+The created coordinate system can be used as a reference for a curve, see [Manage a Curve - Creating](op_manage_curve.md#creating).
 
 It can also be used as a microphone position for sound pressure calculation, see [Run an Analysis - Sound Pressure](op_run_analysis.md#sound-pressure).
 

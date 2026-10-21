@@ -8,6 +8,8 @@ Assembly: VM.Operations.Post.dll
 
 Sets a body, marker, node, or coordinate system as the camera-follow target.
 
+For a complete operations, see [Operation API Example - Following Camera](../document/operation-api/example/example_animation_for_operation_api.md#following-camera).
+
 ```csharp
 void SetFollowingCameraTarget(string targetName)
 ```
@@ -24,8 +26,9 @@ Full name already available in the analysis result. The value can identify:
 
 To target a node, use the containing body full name followed by `/Node/` and the node ID, such as `body full name/Node/42`.
 
-> [!NOTE]
-> If `targetName` does not identify a supported target, the camera-follow target is not changed.
+<Note>
+If `targetName` does not identify a supported target, the camera-follow target is not changed.
+</Note>
 
 ### Examples
 
