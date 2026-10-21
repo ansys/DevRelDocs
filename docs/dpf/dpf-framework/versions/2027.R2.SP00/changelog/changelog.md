@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-19).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-20).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -840,6 +840,8 @@ The following table shows which components have updates in each category.
   > 0.0.6: Resolve mesh support independently for each field.
 
   > 0.1.0: Add in the specification the meshed region input.
+
+  > 0.2.0: Expose node and element scoping containers aligned with each output field.
 
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
