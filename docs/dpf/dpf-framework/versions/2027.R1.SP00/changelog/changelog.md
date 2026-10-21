@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-12).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -32,7 +32,7 @@ The following table shows which components have updates in each category.
 | hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | licensing |  |[1 item](#Fixes_licensing) |
-| lsdyna | [4 items](#Features_lsdyna) | |
+| lsdyna | [4 items](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
 | mapdl | [18 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
@@ -1244,6 +1244,10 @@ The following table shows which components have updates in each category.
 - Add mesh scoping input for nodout operators (#257):
   > 
 
+### <a id="Fixes_lsdyna"></a> Fixes
+
+- Support binout elout branch for stress (#290):
+  > 
 ## madl
 
 ### <a id="Fixes_madl"></a> Fixes
