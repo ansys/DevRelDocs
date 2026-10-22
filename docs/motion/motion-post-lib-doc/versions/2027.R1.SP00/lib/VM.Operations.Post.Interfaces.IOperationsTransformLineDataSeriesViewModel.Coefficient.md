@@ -19,3 +19,5 @@ double Coefficient { get; set; }
 ### Remarks
 
 When the transform type is `LogScale`, this value scales the logarithmic result. Setting [`IsDecibel`](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.IsDecibel.md) to `true` changes it to `20`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Coefficient.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Coefficient.md">Download this page as Markdown</a>

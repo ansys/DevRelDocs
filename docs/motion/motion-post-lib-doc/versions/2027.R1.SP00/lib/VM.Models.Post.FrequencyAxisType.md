@@ -13,7 +13,7 @@ public enum FrequencyAxisType
 
 ## Fields
 
-`X` 
+`X = 0` 
 
 Description: "X"
 
@@ -21,10 +21,10 @@ Uses the X-axis values as frequencies.
 
 
 
-`Y` 
+`Y = 1` 
 
 Description: "Y"
 
 Uses the Y-axis values as frequencies.
 
-
+<a href="/lib/VM.Models.Post.FrequencyAxisType.md" download="VM.Models.Post.FrequencyAxisType.md">Download this page as Markdown</a>

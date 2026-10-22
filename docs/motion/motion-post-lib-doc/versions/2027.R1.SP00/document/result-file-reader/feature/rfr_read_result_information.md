@@ -17,3 +17,5 @@ Read eigenvalue frequency information with [`GetFrequenciesInfoArray()`](../../.
 
 ## Model Information
 Read assembly information with [`GetAssemblyInfo(AssemblyType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetAssemblyInfo.md) and body information with [`GetBodies(BodyType, bool)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetBodies.md). Read modal mode counts with [`GetModalModeCount(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetModalModeCount.md) and connector information with [`GetConnectors(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetConnectors.md).
+
+<a href="/document/result-file-reader/feature/rfr_read_result_information.md" download="rfr_read_result_information.md">Download this page as Markdown</a>

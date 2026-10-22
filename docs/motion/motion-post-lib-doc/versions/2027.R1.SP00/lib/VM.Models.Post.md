@@ -250,3 +250,5 @@ Specifies how vector values are displayed in the animation.
  [WeightingType](VM.Models.Post.WeightingType.md)
 
 Specifies the frequency weighting curve applied to signal data.
+
+<a href="/lib/VM.Models.Post.md" download="VM.Models.Post.md">Download this page as Markdown</a>

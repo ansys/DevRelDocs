@@ -151,3 +151,5 @@ chart.CreateSTFT(stft_parameters, curves)
 
 This function performs the STFT on each curve specified in <code class="paramref">seriesViewModels</code> and updates the heatmap data
 model with the results. The heatmap data model is defined by [`IOperationsHeatMapSTFTDataViewModel`](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSTFT.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSTFT.md">Download this page as Markdown</a>

@@ -44,3 +44,5 @@ dynamic_analysis.RemoveExpression(expression.FullName)
 When a matching expression exists, it is removed from the dynamic result.
 
 If no expression with the specified name exists, the dynamic result is unchanged.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveExpression.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveExpression.md">Download this page as Markdown</a>

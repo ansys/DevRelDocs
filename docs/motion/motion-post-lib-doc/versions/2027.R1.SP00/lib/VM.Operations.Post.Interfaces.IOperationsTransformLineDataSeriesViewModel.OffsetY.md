@@ -19,3 +19,5 @@ double OffsetY { get; set; }
 ### Remarks
 
 When the transform type is `Translate`, changing this value recalculates the curve with the new Y offset.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.OffsetY.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.OffsetY.md">Download this page as Markdown</a>

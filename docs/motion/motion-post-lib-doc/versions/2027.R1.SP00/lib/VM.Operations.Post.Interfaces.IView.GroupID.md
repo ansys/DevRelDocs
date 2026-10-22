@@ -19,3 +19,5 @@ Guid GroupID { get; }
 ### Remarks
 
 The value identifies the page that contains the view.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.GroupID.md" download="VM.Operations.Post.Interfaces.IView.GroupID.md">Download this page as Markdown</a>

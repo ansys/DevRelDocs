@@ -68,3 +68,5 @@ print (f"Marker Name : {marker_csys.FullName}")
 # Close
 output_reader.Close()
 ```
+
+<a href="/document/result-file-reader/example/example_coordinate_system_for_result_file_reader_api.md" download="example_coordinate_system_for_result_file_reader_api.md">Download this page as Markdown</a>

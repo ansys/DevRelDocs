@@ -12,14 +12,14 @@ public enum RotationTypes
 
 ## Fields
 
-`EulerAngle` 
+`EulerAngle = 0` 
 
 Applies the angle values as Euler angles in the selected rotation-axis sequence.
 
 
 
-`FixedAngle` 
+`FixedAngle = 1` 
 
 Applies the angle values as fixed-angle rotations about the selected rotation axis.
 
-
+<a href="/lib/VM.Models.Post.RotationTypes.md" download="VM.Models.Post.RotationTypes.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double ScaleMax { get; set; }
 ### Remarks
 
 This value provides the manual upper range limit when [`IsAuto`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto.md) is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleMax.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleMax.md">Download this page as Markdown</a>

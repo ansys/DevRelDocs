@@ -15,3 +15,5 @@ IVectorDisplayAnimationBase VectorDisplayBaseData { get; }
 ### Property Value
 
  [IVectorDisplayAnimationBase](VM.Models.Post.IVectorDisplayAnimationBase.md)
+
+<a href="/lib/VM.Models.Post.IVectorDisplay.VectorDisplayBaseData.md" download="VM.Models.Post.IVectorDisplay.VectorDisplayBaseData.md">Download this page as Markdown</a>

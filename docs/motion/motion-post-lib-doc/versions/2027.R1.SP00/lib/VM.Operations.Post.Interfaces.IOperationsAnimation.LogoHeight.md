@@ -19,3 +19,5 @@ uint LogoHeight { get; set; }
 ### Remarks
 
 The value controls the logo height when [`IsVisibleLogo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md) is `true`. The logo file is selected with [`LogoPath`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPath.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.LogoHeight.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.LogoHeight.md">Download this page as Markdown</a>

@@ -21,3 +21,5 @@ public IEnumerable<string> Paths { get; set; }
 ### Remarks
 
 Each path combines a characteristic with a component returned by the plot-characteristic lookup operations.
+
+<a href="/lib/VM.Models.OutputReader.PlotParameters.Paths.md" download="VM.Models.OutputReader.PlotParameters.Paths.md">Download this page as Markdown</a>

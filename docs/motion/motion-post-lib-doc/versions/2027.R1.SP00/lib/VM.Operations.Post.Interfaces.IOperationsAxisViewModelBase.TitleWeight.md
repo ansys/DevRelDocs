@@ -19,3 +19,5 @@ FontWeight TitleWeight { get; set; }
 ### Remarks
 
 The value affects the axis title only and does not change the tick-label font weight.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.TitleWeight.md" download="VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.TitleWeight.md">Download this page as Markdown</a>

@@ -53,3 +53,5 @@ components = output_reader.GetContourComponents(
 ### Remarks
 
 The entity and components are queried with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). A `null` component query is converted to an empty enumerable.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetContourComponents.md" download="VM.Post.API.OutputReader.OutputReader.GetContourComponents.md">Download this page as Markdown</a>

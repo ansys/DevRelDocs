@@ -32,3 +32,5 @@ Gets or sets a value indicating whether the finite element property is visible.
  [ParentBodyIndex](VM.Models.Post.IFEProperty.ParentBodyIndex.md\#VM\_Models\_Post\_IFEProperty\_ParentBodyIndex)
 
 Gets the index of the parent body associated with the finite element property.
+
+<a href="/lib/VM.Models.Post.IFEProperty.md" download="VM.Models.Post.IFEProperty.md">Download this page as Markdown</a>

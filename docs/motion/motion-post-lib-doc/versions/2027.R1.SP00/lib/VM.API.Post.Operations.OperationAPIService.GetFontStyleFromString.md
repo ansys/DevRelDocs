@@ -39,3 +39,5 @@ chart.Legend.FontStyle = OperationAPIService.GetFontStyleFromString(font_style_n
 ### Remarks
 
 The method returns the matching style for the three supported names. Any other value returns `FontStyles.Normal`.
+
+<a href="/lib/VM.API.Post.Operations.OperationAPIService.GetFontStyleFromString.md" download="VM.API.Post.Operations.OperationAPIService.GetFontStyleFromString.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double MarkerSize { get; set; }
 ### Remarks
 
 The marker size changes the displayed marker scale when [`IsVisible`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisible.md) is `true` without changing its coordinate-system transform.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.MarkerSize.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.MarkerSize.md">Download this page as Markdown</a>

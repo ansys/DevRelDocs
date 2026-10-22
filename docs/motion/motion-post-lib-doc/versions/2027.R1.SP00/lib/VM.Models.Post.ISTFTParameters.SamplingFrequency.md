@@ -15,3 +15,5 @@ int SamplingFrequency { get; set; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.SamplingFrequency.md" download="VM.Models.Post.ISTFTParameters.SamplingFrequency.md">Download this page as Markdown</a>

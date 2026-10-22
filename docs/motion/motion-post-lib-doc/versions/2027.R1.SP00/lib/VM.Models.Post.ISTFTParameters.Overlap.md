@@ -15,3 +15,5 @@ double Overlap { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.Overlap.md" download="VM.Models.Post.ISTFTParameters.Overlap.md">Download this page as Markdown</a>

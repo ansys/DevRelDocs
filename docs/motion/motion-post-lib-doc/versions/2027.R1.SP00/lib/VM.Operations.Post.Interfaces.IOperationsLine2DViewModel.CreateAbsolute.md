@@ -123,3 +123,5 @@ chart.CreateAbsolute(curves, sign_type)
 
 This function iterates over each curve in <code class="paramref">seriesViewModels</code> and converts the Y values of each point
 to absolute values. The <code class="paramref">signType</code> selects whether the positive or negative absolute values are produced.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateAbsolute.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateAbsolute.md">Download this page as Markdown</a>

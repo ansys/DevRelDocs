@@ -12,3 +12,4 @@ This view shows STFT values as a 3D waterfall surface over time and frequency an
 public interface IHeatMapSTFTView3DViewModel : IViewModel, IHasGuid
 ```
 
+<a href="/lib/VM.ViewModels.Post.IHeatMapSTFTView3DViewModel.md" download="VM.ViewModels.Post.IHeatMapSTFTView3DViewModel.md">Download this page as Markdown</a>

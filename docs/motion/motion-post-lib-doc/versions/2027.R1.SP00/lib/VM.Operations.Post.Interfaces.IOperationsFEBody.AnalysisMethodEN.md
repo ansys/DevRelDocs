@@ -19,3 +19,5 @@ AnalysisMethodEN AnalysisMethodEN { get; set; }
 ### Remarks
 
 This property applies when [`AnalysisType`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md) selects strain-life analysis. Changing it updates the mean-stress method stored for fatigue evaluation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisMethodEN.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisMethodEN.md">Download this page as Markdown</a>

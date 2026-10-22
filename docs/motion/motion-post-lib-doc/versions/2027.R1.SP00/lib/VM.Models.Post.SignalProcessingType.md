@@ -13,7 +13,7 @@ public enum SignalProcessingType
 
 ## Fields
 
-`Filtering` 
+`Filtering = 0` 
 
 Description: "Filtering"
 
@@ -21,7 +21,7 @@ Applies a frequency filter to the curve data.
 
 
 
-`FrequencyWeighting` 
+`FrequencyWeighting = 2` 
 
 Description: "Frequency Weighting"
 
@@ -29,10 +29,10 @@ Applies frequency weighting to the curve data.
 
 
 
-`Smoothing` 
+`Smoothing = 1` 
 
 Description: "Smoothing"
 
 Applies a smoothing operation to the curve data.
 
-
+<a href="/lib/VM.Models.Post.SignalProcessingType.md" download="VM.Models.Post.SignalProcessingType.md">Download this page as Markdown</a>

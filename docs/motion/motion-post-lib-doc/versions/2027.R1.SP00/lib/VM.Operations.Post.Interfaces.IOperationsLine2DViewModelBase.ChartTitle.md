@@ -19,3 +19,5 @@ string ChartTitle { get; set; }
 ### Remarks
 
 Changing this value updates the text rendered as the chart title.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ChartTitle.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ChartTitle.md">Download this page as Markdown</a>

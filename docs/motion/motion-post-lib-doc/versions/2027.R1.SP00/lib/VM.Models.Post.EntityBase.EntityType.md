@@ -16,3 +16,5 @@ public abstract EntityType EntityType { get; }
 ### Property Value
 
  [EntityType](VM.Models.Post.EntityType.md)
+
+<a href="/lib/VM.Models.Post.EntityBase.EntityType.md" download="VM.Models.Post.EntityBase.EntityType.md">Download this page as Markdown</a>

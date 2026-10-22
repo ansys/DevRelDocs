@@ -41,3 +41,5 @@ Gets the sub-path under the target when the axis reads a value from a part of th
  [TargetObject](VM.ViewModels.Post.ILineDataSeriesAxisViewModel.TargetObject.md\#VM\_ViewModels\_Post\_ILineDataSeriesAxisViewModel\_TargetObject)
 
 Gets [`IEntityBaseViewModel`](VM.ViewModels.Post.IEntityBaseViewModel.md) for the target that supplies this axis. It is empty when the target cannot be found in the current result.
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.md">Download this page as Markdown</a>

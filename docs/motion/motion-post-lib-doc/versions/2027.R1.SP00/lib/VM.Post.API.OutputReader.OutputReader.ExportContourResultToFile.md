@@ -173,3 +173,5 @@ This method exports contour results to a specified file path.
 <Note>
 An invalid state ID, entity name, mapping type, result path, or output path can cause export to fail.
 </Note>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md">Download this page as Markdown</a>

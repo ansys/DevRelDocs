@@ -19,3 +19,5 @@ FFTWindowType FFTWindowType { get; set; }
 ### Remarks
 
 Changing this value refreshes the generated curve. The selected window weights the interpolated source samples before the FFT calculation. The `None` selection leaves those samples unchanged.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTWindowType.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTWindowType.md">Download this page as Markdown</a>

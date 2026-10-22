@@ -15,3 +15,5 @@ public void Close()
 ### Remarks
 
 [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md) has no method to open another result file afterward, so this call leaves the object permanently unusable. Construct a new [OutputReader\(string\)](VM.Post.API.OutputReader.OutputReader.-ctor.md) to read a result file again.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.Close.md" download="VM.Post.API.OutputReader.OutputReader.Close.md">Download this page as Markdown</a>

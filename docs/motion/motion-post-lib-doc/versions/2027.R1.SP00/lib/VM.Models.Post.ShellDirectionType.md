@@ -12,14 +12,14 @@ public enum ShellDirectionType
 
 ## Fields
 
-`Bottom` 
+`Bottom = 1` 
 
 Selects the bottom surface of the shell.
 
 
 
-`Top` 
+`Top = 0` 
 
 Selects the top surface of the shell.
 
-
+<a href="/lib/VM.Models.Post.ShellDirectionType.md" download="VM.Models.Post.ShellDirectionType.md">Download this page as Markdown</a>

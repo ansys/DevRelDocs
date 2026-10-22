@@ -69,3 +69,5 @@ Finds [`IView`](VM.Operations.Post.Interfaces.IView.md) with the specified [`Ful
  [GetViews\(\)](VM.Operations.Post.Interfaces.IPage.GetViews.md\#VM\_Operations\_Post\_Interfaces\_IPage\_GetViews)
 
 Gets every [`IView`](VM.Operations.Post.Interfaces.IView.md) associated with `IPage`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.md" download="VM.Operations.Post.Interfaces.IPage.md">Download this page as Markdown</a>

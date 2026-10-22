@@ -19,3 +19,5 @@ EntityType EntityType { get; }
 ### Remarks
 
 The matching display text is available from `EntityTypeName`.
+
+<a href="/lib/VM.ViewModels.Post.IEntityBaseViewModel.EntityType.md" download="VM.ViewModels.Post.IEntityBaseViewModel.EntityType.md">Download this page as Markdown</a>

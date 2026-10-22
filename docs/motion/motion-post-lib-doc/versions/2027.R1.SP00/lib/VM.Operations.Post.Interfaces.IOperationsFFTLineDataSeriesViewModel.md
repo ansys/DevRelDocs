@@ -35,3 +35,5 @@ Gets or sets the number of source data points used to generate the FFT curve.
  [Start](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.Start.md\#VM\_Operations\_Post\_Interfaces\_IOperationsFFTLineDataSeriesViewModel\_Start)
 
 Gets or sets the start time of the source interval used for FFT.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md">Download this page as Markdown</a>

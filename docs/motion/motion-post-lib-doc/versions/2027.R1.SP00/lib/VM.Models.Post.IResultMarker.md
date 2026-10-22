@@ -23,3 +23,5 @@ Gets the index of the node associated with the marker.
  [ParentType](VM.Models.Post.IResultMarker.ParentType.md\#VM\_Models\_Post\_IResultMarker\_ParentType)
 
 Gets the parent entity kind recorded for the marker.
+
+<a href="/lib/VM.Models.Post.IResultMarker.md" download="VM.Models.Post.IResultMarker.md">Download this page as Markdown</a>

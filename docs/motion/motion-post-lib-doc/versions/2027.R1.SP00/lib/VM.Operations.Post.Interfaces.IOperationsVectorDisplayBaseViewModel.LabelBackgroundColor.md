@@ -19,3 +19,5 @@ Color LabelBackgroundColor { get; set; }
 ### Remarks
 
 Changing this value affects the label background and does not change the vector color.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelBackgroundColor.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelBackgroundColor.md">Download this page as Markdown</a>

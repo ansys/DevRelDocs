@@ -31,3 +31,5 @@ output_reader.RemoveCoordinateSystem(coordinate_system_name)
 The marker is removed from `Dynamics` when it exists with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). Missing names are ignored.
 
 The built-in Inertia marker is preserved and cannot be removed.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.RemoveCoordinateSystem.md" download="VM.Post.API.OutputReader.OutputReader.RemoveCoordinateSystem.md">Download this page as Markdown</a>

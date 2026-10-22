@@ -63,3 +63,5 @@ page.Close()
 applicationHandler.CloseDocument(RESULT_FILE_PATH)
 applicationHandler.Close()
 ```
+
+<a href="/document/operation-api/getting-started/getting_started_operation_api_using_py.md" download="getting_started_operation_api_using_py.md">Download this page as Markdown</a>

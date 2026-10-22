@@ -54,3 +54,5 @@ The created vector display is added to the dynamic analysis result and can then 
 <Danger>
 A missing entity causes an exception. An entity that exists but does not support vector display also causes an exception.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateVectorDisplay.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateVectorDisplay.md">Download this page as Markdown</a>

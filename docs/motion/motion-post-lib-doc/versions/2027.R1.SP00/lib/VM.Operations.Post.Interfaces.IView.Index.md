@@ -19,3 +19,5 @@ int Index { get; }
 ### Remarks
 
 The index remains constant for the lifetime of the view.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.Index.md" download="VM.Operations.Post.Interfaces.IView.Index.md">Download this page as Markdown</a>

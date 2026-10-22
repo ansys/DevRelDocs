@@ -15,3 +15,5 @@ bool IsLabelVisible { get; set; }
 ### Property Value
 
  bool
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.IsLabelVisible.md" download="VM.Models.Post.IVectorDisplayAnimationBase.IsLabelVisible.md">Download this page as Markdown</a>

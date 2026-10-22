@@ -33,3 +33,5 @@ Gets or sets the secondary coordinate axis used by this marker.
  [TransformationOffsetParameters](VM.Models.Post.GeneralMarker.TransformationOffsetParameters.md\#VM\_Models\_Post\_GeneralMarker\_TransformationOffsetParameters)
 
 Gets or sets the angle, position, rotation-axis, and rotation-type values for this marker's transformation offset.
+
+<a href="/lib/VM.Models.Post.GeneralMarker.md" download="VM.Models.Post.GeneralMarker.md">Download this page as Markdown</a>

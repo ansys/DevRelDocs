@@ -14,14 +14,14 @@ public enum AlignType
 
 ## Fields
 
-`Curve` 
+`Curve = 1` 
 
 Shifts every following curve so its first Y point matches the first Y point of the first selected curve.
 
 
 
-`Zero` 
+`Zero = 0` 
 
 Shifts each curve so its first Y point starts at zero.
 
-
+<a href="/lib/VM.Models.Post.AlignType.md" download="VM.Models.Post.AlignType.md">Download this page as Markdown</a>

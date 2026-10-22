@@ -28,3 +28,5 @@ page = application_handler.GetActivePage()
 ### Remarks
 
 The method determines returned `IPage` from currently active [`IView`](VM.Operations.Post.Interfaces.IView.md). If no active view exists, or the active view cannot be associated with an `IPage`, no active page exists.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetActivePage.md" download="VM.API.Post.Operations.ApplicationHandler.GetActivePage.md">Download this page as Markdown</a>

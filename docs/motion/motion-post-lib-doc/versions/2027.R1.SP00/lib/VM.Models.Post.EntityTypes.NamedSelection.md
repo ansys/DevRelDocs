@@ -39,3 +39,5 @@ Gets or sets the node or entity IDs contained in the named selection.
  [Location](VM.Models.Post.EntityTypes.NamedSelection.Location.md\#VM\_Models\_Post\_EntityTypes\_NamedSelection\_Location)
 
 Gets or sets the location identifier associated with the named selection.
+
+<a href="/lib/VM.Models.Post.EntityTypes.NamedSelection.md" download="VM.Models.Post.EntityTypes.NamedSelection.md">Download this page as Markdown</a>

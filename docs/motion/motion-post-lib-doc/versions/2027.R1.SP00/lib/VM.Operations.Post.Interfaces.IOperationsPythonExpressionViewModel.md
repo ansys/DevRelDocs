@@ -19,3 +19,5 @@ Gets or sets the Python formula evaluated for the expression and returning one r
  [FullName](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.FullName.md\#VM\_Operations\_Post\_Interfaces\_IOperationsPythonExpressionViewModel\_FullName)
 
 Gets or sets the full name used by expression lookup and related curve operations in the dynamic analysis result.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.md">Download this page as Markdown</a>

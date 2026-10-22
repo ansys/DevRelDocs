@@ -19,3 +19,5 @@ Color TextColorStateInfo { get; set; }
 ### Remarks
 
 The color is used for state information text when [`IsVisibleStateInfo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleStateInfo.md) is `true`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.TextColorStateInfo.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.TextColorStateInfo.md">Download this page as Markdown</a>

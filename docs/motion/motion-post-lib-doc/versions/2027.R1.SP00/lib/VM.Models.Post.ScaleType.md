@@ -12,20 +12,20 @@ public enum ScaleType
 
 ## Fields
 
-`Decibel` 
+`Decibel = 2` 
 
 Displays values on a decibel scale.
 
 
 
-`Logarithm` 
+`Logarithm = 1` 
 
 Displays values on a logarithmic scale.
 
 
 
-`Original` 
+`Original = 0` 
 
 Displays values on their original scale.
 
-
+<a href="/lib/VM.Models.Post.ScaleType.md" download="VM.Models.Post.ScaleType.md">Download this page as Markdown</a>

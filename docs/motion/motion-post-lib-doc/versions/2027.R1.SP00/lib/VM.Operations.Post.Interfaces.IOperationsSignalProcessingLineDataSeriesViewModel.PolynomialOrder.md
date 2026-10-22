@@ -19,3 +19,5 @@ int PolynomialOrder { get; set; }
 ### Remarks
 
 This value applies only when [`SmoothingType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SmoothingType.md) selects Savitzky-Golay smoothing. The calculation returns no curve when the window is too small for the selected order.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.PolynomialOrder.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.PolynomialOrder.md">Download this page as Markdown</a>

@@ -28,3 +28,5 @@ units = output_reader.GetUnits()
 ### Remarks
 
 The scale factor is read from the unit system associated with the opened result file.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetUnits.md" download="VM.Post.API.OutputReader.OutputReader.GetUnits.md">Download this page as Markdown</a>

@@ -39,3 +39,5 @@ frequencies = eigenvalue_analysis.GetFrequencies()
 ### Remarks
 
 Set [`TargetSamplingTime`](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.TargetSamplingTime.md) before calling this method when frequencies for a different sampling time are required.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetFrequencies.md" download="VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetFrequencies.md">Download this page as Markdown</a>

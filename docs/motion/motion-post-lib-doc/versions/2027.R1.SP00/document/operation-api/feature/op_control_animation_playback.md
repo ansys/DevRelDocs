@@ -27,3 +27,5 @@ Stop playback with [`StopAnimation()`](../../../lib/VM.Operations.Post.Interface
 
 ## Managing the Current Frame
 Move to a specific loaded frame with [`MoveToAnimationFrame(int)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.MoveToAnimationFrame.md), for either a dynamic or an eigenvalue result. The animation view then shows that frame.
+
+<a href="/document/operation-api/feature/op_control_animation_playback.md" download="op_control_animation_playback.md">Download this page as Markdown</a>

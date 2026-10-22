@@ -39,3 +39,5 @@ The method retrieves `target` with `OutputReader` and returns the first geometry
 <Danger>
 `target` must identify a body. An unknown name or a non-body entity causes the lookup to fail before geometry data is returned.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetGeometryInfo.md" download="VM.Post.API.OutputReader.OutputReader.GetGeometryInfo.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ ILineDataSeriesAxisViewModel SourceY { get; set; }
 ### Remarks
 
 Changing this value updates the user-defined Y source metadata and recalculates the curve when the X source is also available.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.SourceY.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.SourceY.md">Download this page as Markdown</a>

@@ -12,7 +12,7 @@ public enum AnalysisMethodEN
 
 ## Fields
 
-`Morrow` 
+`Morrow = 1` 
 
 Description: "Morrow"
 
@@ -20,7 +20,7 @@ Applies the Morrow mean-stress correction.
 
 
 
-`Neglect` 
+`Neglect = 0` 
 
 Description: "Neglect"
 
@@ -28,10 +28,10 @@ Does not apply a mean-stress correction.
 
 
 
-`SWT` 
+`SWT = 2` 
 
 Description: "S-W-T"
 
 Applies the Smith-Watson-Topper correction.
 
-
+<a href="/lib/VM.Models.Post.AnalysisMethodEN.md" download="VM.Models.Post.AnalysisMethodEN.md">Download this page as Markdown</a>

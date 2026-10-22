@@ -30,3 +30,5 @@ A list of [`INumericParameter`](VM.ViewModels.Post.INumericParameter.md) objects
 ### Remarks
 
 This method is obsolete. Use [ImportNumeric\(string, List<INumericParameter\>\)](VM.Operations.Post.Interfaces.IOperationsChartViewModel.ImportNumeric.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.ImportNumeric.md" download="VM.API.Post.Operations.ApplicationHandler.ImportNumeric.md">Download this page as Markdown</a>

@@ -12,14 +12,14 @@ public enum InterpolationErrorType
 
 ## Fields
 
-`DUPLICATE_X` 
+`DUPLICATE_X = 2` 
 
 Indicates that duplicate X values prevented interpolation.
 
 
 
-`SUCCESS` 
+`SUCCESS = 1` 
 
 Indicates that interpolation completed successfully.
 
-
+<a href="/lib/VM.Models.Post.InterpolationErrorType.md" download="VM.Models.Post.InterpolationErrorType.md">Download this page as Markdown</a>

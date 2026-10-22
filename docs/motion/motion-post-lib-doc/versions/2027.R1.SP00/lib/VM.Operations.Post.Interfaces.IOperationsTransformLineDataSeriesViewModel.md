@@ -51,3 +51,5 @@ Gets or sets the transform mode selected from `TransformType`.
  [Sign](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Sign.md\#VM\_Operations\_Post\_Interfaces\_IOperationsTransformLineDataSeriesViewModel\_Sign)
 
 Gets or sets the sign selected from [`SignType`](VM.Models.Post.SignType.md) for the absolute transform.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md">Download this page as Markdown</a>

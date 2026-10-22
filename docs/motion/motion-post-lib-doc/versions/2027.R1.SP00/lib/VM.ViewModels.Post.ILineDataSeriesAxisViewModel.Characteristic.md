@@ -15,3 +15,5 @@ string Characteristic { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.Characteristic.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.Characteristic.md">Download this page as Markdown</a>

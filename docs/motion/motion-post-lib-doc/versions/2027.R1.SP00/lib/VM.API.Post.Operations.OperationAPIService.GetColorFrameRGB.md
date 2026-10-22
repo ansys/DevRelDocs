@@ -50,3 +50,5 @@ chart.Legend.FontColor = OperationAPIService.GetColorFrameRGB(red_channel, green
  OverflowException
 
 Thrown when `r`, `g`, or `b` is outside the range `0` through `255`.
+
+<a href="/lib/VM.API.Post.Operations.OperationAPIService.GetColorFrameRGB.md" download="VM.API.Post.Operations.OperationAPIService.GetColorFrameRGB.md">Download this page as Markdown</a>

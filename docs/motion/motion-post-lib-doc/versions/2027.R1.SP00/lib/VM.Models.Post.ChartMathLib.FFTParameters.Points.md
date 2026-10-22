@@ -15,3 +15,5 @@ public int Points { get; set; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.ChartMathLib.FFTParameters.Points.md" download="VM.Models.Post.ChartMathLib.FFTParameters.Points.md">Download this page as Markdown</a>

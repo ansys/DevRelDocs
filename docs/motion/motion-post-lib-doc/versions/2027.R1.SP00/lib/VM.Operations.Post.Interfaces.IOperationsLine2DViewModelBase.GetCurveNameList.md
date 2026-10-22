@@ -47,3 +47,5 @@ curve_name_list = chart.GetCurveNameList()
 ### Remarks
 
 This method retrieves the names of all the curves that are currently displayed in the chart view.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurveNameList.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurveNameList.md">Download this page as Markdown</a>

@@ -25,3 +25,5 @@ page.Activate()
 Activating `IPage` deactivates other pages, so one page remains active at a time.
 
 After this call, [GetActivePage\(\)](VM.API.Post.Operations.ApplicationHandler.GetActivePage.md) reports this page.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.Activate.md" download="VM.Operations.Post.Interfaces.IPage.Activate.md">Download this page as Markdown</a>

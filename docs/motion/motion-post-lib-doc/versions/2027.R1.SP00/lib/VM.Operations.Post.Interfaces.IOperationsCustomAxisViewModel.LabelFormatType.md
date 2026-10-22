@@ -19,3 +19,5 @@ LabelFormatType LabelFormatType { get; set; }
 ### Remarks
 
 Changing this value rebuilds the axis text format together with [`Decimal`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Decimal.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelFormatType.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelFormatType.md">Download this page as Markdown</a>

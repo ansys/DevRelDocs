@@ -15,3 +15,5 @@ Vector Target { get; set; }
 ### Property Value
 
  [Vector](VM.Vector.md)
+
+<a href="/lib/VM.Operations.Post.Interfaces.IViewSpec.Target.md" download="VM.Operations.Post.Interfaces.IViewSpec.Target.md">Download this page as Markdown</a>

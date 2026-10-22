@@ -28,3 +28,5 @@ The fatigue-analysis and contour-generation settings.
 ### Remarks
 
 This method is obsolete. Use [RunFatigueAnalysis\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) and the contour APIs instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.DurabilityAnalysis.md" download="VM.API.Post.Operations.ApplicationHandler.DurabilityAnalysis.md">Download this page as Markdown</a>

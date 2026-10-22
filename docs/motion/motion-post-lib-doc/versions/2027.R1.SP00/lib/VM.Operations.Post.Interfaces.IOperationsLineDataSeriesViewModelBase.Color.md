@@ -19,3 +19,5 @@ Color Color { get; set; }
 ### Remarks
 
 Changing this value updates the curve rendering without changing its data points.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.Color.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.Color.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double NoOfRepeatedLoad { get; set; }
 ### Remarks
 
 [RunFatigueAnalysis\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) converts this value to an integer before writing the fatigue analysis input, so a fractional value loses its fractional part.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.NoOfRepeatedLoad.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.NoOfRepeatedLoad.md">Download this page as Markdown</a>

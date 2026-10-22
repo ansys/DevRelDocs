@@ -12,320 +12,320 @@ public enum ConnectorType
 
 ## Fields
 
-`BC` 
+`BC = 1` 
 
 Identifies a BC connector.
 
 
 
-`Ball` 
+`Ball = 0` 
 
 Identifies a ball connector.
 
 
 
-`Beam` 
+`Beam = 36` 
 
 Identifies a beam connector.
 
 
 
-`Bush` 
+`Bush = 37` 
 
 Identifies a bush connector.
 
 
 
-`CVCV` 
+`CVCV = 3` 
 
 Identifies a CVCV connector.
 
 
 
-`CYTMC` 
+`CYTMC = 24` 
 
 Identifies a CYTMC connector.
 
 
 
-`ConstantVelocity` 
+`ConstantVelocity = 2` 
 
 Identifies a constant-velocity connector.
 
 
 
-`Cylindrical` 
+`Cylindrical = 4` 
 
 Identifies a cylindrical connector.
 
 
 
-`Distance` 
+`Distance = 5` 
 
 Identifies a distance connector.
 
 
 
-`EFBC` 
+`EFBC = 48` 
 
 Identifies an EF BC connector.
 
 
 
-`EFCLoad` 
+`EFCLoad = 49` 
 
 Identifies an EF CLoad connector.
 
 
 
-`EFPLoad` 
+`EFPLoad = 50` 
 
 Identifies an EF PLoad connector.
 
 
 
-`EFRBE` 
+`EFRBE = 51` 
 
 Identifies an EF RBE connector.
 
 
 
-`EFTie` 
+`EFTie = 52` 
 
 Identifies an EF tie connector.
 
 
 
-`ExternalForce` 
+`ExternalForce = 38` 
 
 Identifies an external-force connector.
 
 
 
-`FECload` 
+`FECload = 39` 
 
 Identifies an FE Cload connector.
 
 
 
-`FEPload` 
+`FEPload = 40` 
 
 Identifies an FE Pload connector.
 
 
 
-`FTF2D` 
+`FTF2D = 25` 
 
 Identifies an FTF2D connector.
 
 
 
-`FTF3D` 
+`FTF3D = 26` 
 
 Identifies an FTF3D connector.
 
 
 
-`FTR2D` 
+`FTR2D = 27` 
 
 Identifies an FTR2D connector.
 
 
 
-`FTR3D` 
+`FTR3D = 28` 
 
 Identifies an FTR3D connector.
 
 
 
-`Fixed` 
+`Fixed = 6` 
 
 Identifies a fixed connector.
 
 
 
-`GENERAL` 
+`GENERAL = 29` 
 
 Identifies a general connector.
 
 
 
-`InPlaneRadialGap` 
+`InPlaneRadialGap = 10` 
 
 Identifies an in-plane radial gap connector.
 
 
 
-`InPlaneTranslationalGap` 
+`InPlaneTranslationalGap = 9` 
 
 Identifies an in-plane translational gap connector.
 
 
 
-`Inline` 
+`Inline = 7` 
 
 Identifies an inline connector.
 
 
 
-`Inplane` 
+`Inplane = 13` 
 
 Identifies an in-plane connector.
 
 
 
-`MCTMC` 
+`MCTMC = 30` 
 
 Identifies an MCTMC connector.
 
 
 
-`Matrix` 
+`Matrix = 41` 
 
 Identifies a matrix connector.
 
 
 
-`NTSF` 
+`NTSF = 31` 
 
 Identifies an NTSF connector.
 
 
 
-`Orientation` 
+`Orientation = 14` 
 
 Identifies an orientation connector.
 
 
 
-`PTCV` 
+`PTCV = 18` 
 
 Identifies a PTCV connector.
 
 
 
-`PTS` 
+`PTS = 19` 
 
 Identifies a PTS connector.
 
 
 
-`Parallel` 
+`Parallel = 15` 
 
 Identifies a parallel connector.
 
 
 
-`Perpendicular` 
+`Perpendicular = 16` 
 
 Identifies a perpendicular connector.
 
 
 
-`Plane` 
+`Plane = 17` 
 
 Identifies a plane connector.
 
 
 
-`RScalar` 
+`RScalar = 42` 
 
 Identifies an R Scalar connector.
 
 
 
-`RSpringDamper` 
+`RSpringDamper = 43` 
 
 Identifies an R SpringDamper connector.
 
 
 
-`RTR2D` 
+`RTR2D = 32` 
 
 Identifies an RTR2D connector.
 
 
 
-`RTR3D` 
+`RTR3D = 33` 
 
 Identifies an RTR3D connector.
 
 
 
-`RadialGap` 
+`RadialGap = 12` 
 
 Identifies a radial gap connector.
 
 
 
-`Revolute` 
+`Revolute = 20` 
 
 Identifies a revolute connector.
 
 
 
-`SPTMC` 
+`SPTMC = 34` 
 
 Identifies an SPTMC connector.
 
 
 
-`Screw` 
+`Screw = 21` 
 
 Identifies a screw connector.
 
 
 
-`SixDOF` 
+`SixDOF = 8` 
 
 Identifies a six-degree-of-freedom connector.
 
 
 
-`SphericalGap` 
+`SphericalGap = 11` 
 
 Identifies a spherical gap connector.
 
 
 
-`TIE` 
+`TIE = 35` 
 
 Identifies a tie connector.
 
 
 
-`TScalar` 
+`TScalar = 45` 
 
 Identifies a T Scalar connector.
 
 
 
-`TSpringDamper` 
+`TSpringDamper = 46` 
 
 Identifies a T SpringDamper connector.
 
 
 
-`Tire` 
+`Tire = 44` 
 
 Identifies a tire connector.
 
 
 
-`Translational` 
+`Translational = 22` 
 
 Identifies a translational connector.
 
 
 
-`Universal` 
+`Universal = 23` 
 
 Identifies a universal connector.
 
 
 
-`Vector` 
+`Vector = 47` 
 
 Identifies a vector connector.
 
-
+<a href="/lib/VM.Models.Post.ConnectorType.md" download="VM.Models.Post.ConnectorType.md">Download this page as Markdown</a>

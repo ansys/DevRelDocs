@@ -113,3 +113,5 @@ chart.CreateDifferentiatedCurve(curves)
 
 This function iterates over each curve in <code class="paramref">seriesViewModels</code> and applies differentiation to the Y values
 of each point in the curve. The differentiation calculates the difference between consecutive points.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateDifferentiatedCurve.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateDifferentiatedCurve.md">Download this page as Markdown</a>

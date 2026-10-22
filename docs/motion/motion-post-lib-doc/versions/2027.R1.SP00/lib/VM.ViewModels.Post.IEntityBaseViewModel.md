@@ -15,3 +15,5 @@ public interface IEntityBaseViewModel : IViewModel, IHasGuid
  [EntityType](VM.ViewModels.Post.IEntityBaseViewModel.EntityType.md\#VM\_ViewModels\_Post\_IEntityBaseViewModel\_EntityType)
 
 Gets the [`EntityType`](VM.Models.Post.EntityType.md) that classifies which kind of result entity is represented. The value reflects the loaded result data and does not change after the entity becomes available.
+
+<a href="/lib/VM.ViewModels.Post.IEntityBaseViewModel.md" download="VM.ViewModels.Post.IEntityBaseViewModel.md">Download this page as Markdown</a>

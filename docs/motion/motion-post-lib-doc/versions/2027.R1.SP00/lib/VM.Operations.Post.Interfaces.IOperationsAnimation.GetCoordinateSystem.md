@@ -23,3 +23,5 @@ Full name from `IOperationsCSYSViewModel.FullName` for a coordinate system retur
  [IOperationsCSYSViewModel](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md)
 
 Matching [`IOperationsCSYSViewModel`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md), or `null` if no coordinate system with that name exists.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.GetCoordinateSystem.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.GetCoordinateSystem.md">Download this page as Markdown</a>

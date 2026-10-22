@@ -33,3 +33,5 @@ Gets a frequency entry at an index for the selected sampling time.
  [GetSamplingTimes\(\)](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetSamplingTimes.md\#VM\_Operations\_Post\_Interfaces\_IOperationsEigenValueAnalysisResultViewModel\_GetSamplingTimes)
 
 Gets sampling times available in the eigenvalue result.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md">Download this page as Markdown</a>

@@ -21,3 +21,5 @@ bool Enable { get; set; }
 Setting this value to `true` loads animation states for the frequency using the current eigenvalue frame setting. Setting it to `false` initializes the eigenvalue animation states again.
 
 The property is intended for a frequency returned by [GetFrequencies\(\)](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetFrequencies.md) or [GetFrequency\(int\)](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetFrequency.md). The selected frequency must belong to the currently selected sampling time.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.Enable.md" download="VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.Enable.md">Download this page as Markdown</a>

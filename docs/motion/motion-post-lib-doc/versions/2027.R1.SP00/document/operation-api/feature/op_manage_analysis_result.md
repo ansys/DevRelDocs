@@ -9,3 +9,5 @@ Find curve characteristics and components with [`GetPlotCharacteristics(string)`
 
 ## Result State
 Read state IDs and reference times with [`GetStateIDArray()`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetStateIDArray.md) and [`GetReferenceTimeArray()`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetReferenceTimeArray.md). Move the active animation result to a loaded frame with [`MoveToAnimationFrame(int)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.MoveToAnimationFrame.md).
+
+<a href="/document/operation-api/feature/op_manage_analysis_result.md" download="op_manage_analysis_result.md">Download this page as Markdown</a>

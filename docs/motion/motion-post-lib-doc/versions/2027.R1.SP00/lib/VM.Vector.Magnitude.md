@@ -21,3 +21,5 @@ public double Magnitude { get; }
  InvalidOperationException
 
 The get magnitude operation failed .
+
+<a href="/lib/VM.Vector.Magnitude.md" download="VM.Vector.Magnitude.md">Download this page as Markdown</a>

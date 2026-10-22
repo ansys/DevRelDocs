@@ -63,3 +63,5 @@ Gets or sets the lower contour range limit used when [`AutoRange`](VM.Operations
  [MinMaxTargetType](VM.Operations.Post.Interfaces.IOperationsContourViewModel.MinMaxTargetType.md\#VM\_Operations\_Post\_Interfaces\_IOperationsContourViewModel\_MinMaxTargetType)
 
 Gets or sets the extremal-value scope selected from [`ExtremalValueType`](VM.Models.Post.ExtremalValueType.md) for contour display.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.md">Download this page as Markdown</a>

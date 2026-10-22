@@ -12,14 +12,14 @@ public enum SmoothingType
 
 ## Fields
 
-`MovingWindowAveraging` 
+`MovingWindowAveraging = 0` 
 
 Smooths data by averaging values within a moving window.
 
 
 
-`SavitzkyGloay` 
+`SavitzkyGloay = 1` 
 
 Smooths data with the Savitzky-Golay method.
 
-
+<a href="/lib/VM.Models.Post.SmoothingType.md" download="VM.Models.Post.SmoothingType.md">Download this page as Markdown</a>

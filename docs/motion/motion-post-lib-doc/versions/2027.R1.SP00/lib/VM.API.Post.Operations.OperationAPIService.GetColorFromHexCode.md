@@ -45,3 +45,5 @@ A value such as `#FF5733` can be used to create a color with the specified chann
  Exception
 
 Thrown when `color` is not a valid color string.
+
+<a href="/lib/VM.API.Post.Operations.OperationAPIService.GetColorFromHexCode.md" download="VM.API.Post.Operations.OperationAPIService.GetColorFromHexCode.md">Download this page as Markdown</a>

@@ -45,3 +45,5 @@ The requested frame is clamped to the loaded frame range, so a value above the h
 <Danger>
 No loaded frame exists until animation frames have been loaded through the related analysis-result API. Calling this method before frames are loaded has no visible effect.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.MoveToAnimationFrame.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.MoveToAnimationFrame.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ FrequencyAxisType FrequencyAxisType { get; set; }
 ### Remarks
 
 This value applies when [`SignalProcessingType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SignalProcessingType.md) selects frequency weighting and determines whether the X or Y values are used as frequency data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.FrequencyAxisType.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.FrequencyAxisType.md">Download this page as Markdown</a>

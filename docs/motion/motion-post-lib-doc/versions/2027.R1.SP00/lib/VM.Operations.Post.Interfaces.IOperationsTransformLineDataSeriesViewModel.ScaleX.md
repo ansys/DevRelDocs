@@ -19,3 +19,5 @@ double ScaleX { get; set; }
 ### Remarks
 
 When the transform type is `LinearScale`, changing this value recalculates the curve with the new X scale.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.ScaleX.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.ScaleX.md">Download this page as Markdown</a>

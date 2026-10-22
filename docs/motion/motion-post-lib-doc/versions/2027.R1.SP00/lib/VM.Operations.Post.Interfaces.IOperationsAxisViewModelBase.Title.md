@@ -19,3 +19,5 @@ string Title { get; set; }
 ### Remarks
 
 Changing this value changes the title rendered beside the axis.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.Title.md" download="VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.Title.md">Download this page as Markdown</a>

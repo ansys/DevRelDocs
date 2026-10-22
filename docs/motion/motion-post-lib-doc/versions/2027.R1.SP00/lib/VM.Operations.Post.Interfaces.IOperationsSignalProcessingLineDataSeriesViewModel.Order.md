@@ -19,3 +19,5 @@ int Order { get; set; }
 ### Remarks
 
 This value applies when [`SignalProcessingType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SignalProcessingType.md) selects filtering. Changing it recalculates the calculated curve when an original curve exists.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.Order.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.Order.md">Download this page as Markdown</a>

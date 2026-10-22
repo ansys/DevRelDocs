@@ -12,20 +12,20 @@ public enum GeneralMarkerType
 
 ## Fields
 
-`CARTESIAN` 
+`CARTESIAN = 0` 
 
 Uses Cartesian coordinates.
 
 
 
-`CYLINDRICAL` 
+`CYLINDRICAL = 1` 
 
 Uses cylindrical coordinates.
 
 
 
-`SPHERICAL` 
+`SPHERICAL = 2` 
 
 Uses spherical coordinates.
 
-
+<a href="/lib/VM.Models.Post.GeneralMarkerType.md" download="VM.Models.Post.GeneralMarkerType.md">Download this page as Markdown</a>

@@ -47,3 +47,5 @@ animation_view.RemoveCoordinateSystem(coordinate_system_name)
 ### Remarks
 
 If `name` does not identify a removable coordinate system, this method has no effect.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.RemoveCoordinateSystem.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.RemoveCoordinateSystem.md">Download this page as Markdown</a>

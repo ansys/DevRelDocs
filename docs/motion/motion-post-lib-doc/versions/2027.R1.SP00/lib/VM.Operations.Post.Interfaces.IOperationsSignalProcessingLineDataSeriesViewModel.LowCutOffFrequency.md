@@ -19,3 +19,5 @@ double LowCutOffFrequency { get; set; }
 ### Remarks
 
 This value is used when [`FilteringType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.FilteringType.md) selects a band filter. Changing it recalculates the calculated curve when an original curve exists.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.LowCutOffFrequency.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.LowCutOffFrequency.md">Download this page as Markdown</a>

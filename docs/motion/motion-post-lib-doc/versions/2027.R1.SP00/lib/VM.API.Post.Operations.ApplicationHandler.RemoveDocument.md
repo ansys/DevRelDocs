@@ -22,3 +22,5 @@ The file path of the `.dfr` result file to be closed.
 ### Remarks
 
 This method is obsolete. Use [CloseDocument\(string\)](VM.API.Post.Operations.ApplicationHandler.CloseDocument.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.RemoveDocument.md" download="VM.API.Post.Operations.ApplicationHandler.RemoveDocument.md">Download this page as Markdown</a>

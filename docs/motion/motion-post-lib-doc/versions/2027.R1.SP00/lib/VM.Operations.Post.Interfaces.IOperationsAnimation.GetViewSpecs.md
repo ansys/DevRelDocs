@@ -58,3 +58,5 @@ for frame_index in range(frame_count):
 ### Remarks
 
 The returned entries are newly created camera specifications in loaded-frame order. They are not snapshots of the current camera position. Redefine the [`Eye`](VM.Operations.Post.Interfaces.IViewSpec.Eye.md), [`Target`](VM.Operations.Post.Interfaces.IViewSpec.Target.md), and [`UpVector`](VM.Operations.Post.Interfaces.IViewSpec.UpVector.md) values in different entries to create a frame-by-frame camera path before using the array with [`RecordingAnimation(string, RecordingType, RecordingRangeType, int, IViewSpec[])`](VM.Operations.Post.Interfaces.IOperationsAnimation.RecordingAnimation.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.GetViewSpecs.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.GetViewSpecs.md">Download this page as Markdown</a>

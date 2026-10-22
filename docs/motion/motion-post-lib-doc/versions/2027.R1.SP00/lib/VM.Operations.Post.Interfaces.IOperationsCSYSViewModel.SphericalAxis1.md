@@ -19,3 +19,5 @@ CoordinateType SphericalAxis1 { get; set; }
 ### Remarks
 
 The value affects the orientation used to interpret spherical coordinates and applies only to spherical representation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.SphericalAxis1.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.SphericalAxis1.md">Download this page as Markdown</a>

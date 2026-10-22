@@ -19,3 +19,5 @@ FatigueAnalysisType AnalysisType { get; set; }
 ### Remarks
 
 The selected method determines which fatigue settings apply. Strain-life analysis uses [`AnalysisMethodEN`](VM.Models.Post.AnalysisMethodEN.md) and [`PlasticityCorrection`](VM.Operations.Post.Interfaces.IOperationsFEBody.PlasticityCorrection.md), while stress-life analysis uses [`MeanStressCorrection`](VM.Operations.Post.Interfaces.IOperationsFEBody.MeanStressCorrection.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md">Download this page as Markdown</a>

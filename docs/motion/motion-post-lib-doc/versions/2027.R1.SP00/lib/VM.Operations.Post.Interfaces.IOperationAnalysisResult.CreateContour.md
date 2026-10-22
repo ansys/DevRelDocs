@@ -73,3 +73,5 @@ contour = analysis_result.CreateContour(target_entities, contour_mapping_type, c
 The created contour can be configured through `IOperationsContourViewModel`, including its [`IsEnabled`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.IsEnabled.md) display state.
 
 When `entities` lists more than one entity, only the contour components common to every listed entity become available through [`ComponentList`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.ComponentList.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.CreateContour.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.CreateContour.md">Download this page as Markdown</a>

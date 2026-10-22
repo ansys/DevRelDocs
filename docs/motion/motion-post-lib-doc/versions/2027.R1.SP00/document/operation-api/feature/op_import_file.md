@@ -34,3 +34,5 @@ After the import, the resulting curve data is available for:
 - Get and manage the imported curve data, see [Manage a Curve](op_manage_curve.md).
 - Transform the imported curve data, see [Postprocess a Curve](op_postprocess_curve.md).
 - Configure the imported curve data, see [Curve Properties](op_curve_properties.md).
+
+<a href="/document/operation-api/feature/op_import_file.md" download="op_import_file.md">Download this page as Markdown</a>

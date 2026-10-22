@@ -15,3 +15,5 @@ IVectorDisplayable Target { get; }
 ### Property Value
 
  [IVectorDisplayable](VM.Models.Post.IVectorDisplayable.md)
+
+<a href="/lib/VM.Models.Post.IVectorDisplay.Target.md" download="VM.Models.Post.IVectorDisplay.Target.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ IEnumerable<IViewModel> Properties { get; }
 ### Remarks
 
 The collection contains the available entries in the finite-element property category. An empty collection is returned when that category is unavailable.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.Properties.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.Properties.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ IList<VectorDisplayCharacteristicInfo> Characteristics { get; }
 ### Property Value
 
  IList<[VectorDisplayCharacteristicInfo](VM.Models.Post.VectorDisplayCharacteristicInfo.md)\>
+
+<a href="/lib/VM.Models.Post.IVectorDisplayable.Characteristics.md" download="VM.Models.Post.IVectorDisplayable.Characteristics.md">Download this page as Markdown</a>

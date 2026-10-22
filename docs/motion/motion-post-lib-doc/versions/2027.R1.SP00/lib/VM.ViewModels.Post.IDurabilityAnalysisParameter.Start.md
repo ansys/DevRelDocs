@@ -19,3 +19,5 @@ int Start { get; set; }
 ### Remarks
 
 [RunFatigueAnalysis\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) analyzes States from this value through [`End`](VM.ViewModels.Post.IDurabilityAnalysisParameter.End.md), including both endpoints.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.Start.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.Start.md">Download this page as Markdown</a>

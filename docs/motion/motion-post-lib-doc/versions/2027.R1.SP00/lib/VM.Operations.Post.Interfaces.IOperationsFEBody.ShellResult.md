@@ -19,3 +19,5 @@ ShellDirectionType ShellResult { get; set; }
 ### Remarks
 
 The selected shell direction determines which shell layer supplies stress or strain values for fatigue evaluation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.ShellResult.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.ShellResult.md">Download this page as Markdown</a>

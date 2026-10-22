@@ -12,7 +12,7 @@ public enum CoordinateType
 
 ## Fields
 
-`X` 
+`X = 0` 
 
 Description: "Local X"
 
@@ -20,7 +20,7 @@ Selects the local X axis.
 
 
 
-`Y` 
+`Y = 1` 
 
 Description: "Local Y"
 
@@ -28,10 +28,10 @@ Selects the local Y axis.
 
 
 
-`Z` 
+`Z = 2` 
 
 Description: "Local Z"
 
 Selects the local Z axis.
 
-
+<a href="/lib/VM.Models.Post.CoordinateType.md" download="VM.Models.Post.CoordinateType.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double End { get; set; }
 ### Remarks
 
 Changing this value refreshes the FFT calculation when the referenced source curve exists. An interval outside the source X range does not produce replacement FFT points.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.End.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.End.md">Download this page as Markdown</a>

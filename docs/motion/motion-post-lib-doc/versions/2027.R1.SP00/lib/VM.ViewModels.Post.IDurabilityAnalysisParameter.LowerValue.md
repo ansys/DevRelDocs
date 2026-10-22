@@ -20,3 +20,5 @@ int LowerValue { get; set; }
 ### Remarks
 
 This property is obsolete. Use [`Start`](VM.ViewModels.Post.IDurabilityAnalysisParameter.Start.md) instead.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.LowerValue.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.LowerValue.md">Download this page as Markdown</a>

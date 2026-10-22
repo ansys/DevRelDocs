@@ -10,3 +10,5 @@
  [IViewModel](VM.ViewModels.IViewModel.md)
 
 Defines the common state exposed by a view model to the application.
+
+<a href="/lib/VM.ViewModels.md" download="VM.ViewModels.md">Download this page as Markdown</a>

@@ -43,3 +43,5 @@ The document identified by <code class="paramref">documentFilePath</code> must a
  Exception
 
 Thrown when no imported document matches <code class="paramref">documentFilePath</code>.
+
+<a href="/lib/VM.API.Post.Operations.DurabilityAnalysis.SetFatiguePath.md" download="VM.API.Post.Operations.DurabilityAnalysis.SetFatiguePath.md">Download this page as Markdown</a>

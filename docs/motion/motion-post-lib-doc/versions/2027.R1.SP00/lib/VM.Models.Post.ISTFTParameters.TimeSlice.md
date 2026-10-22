@@ -15,3 +15,5 @@ double TimeSlice { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.TimeSlice.md" download="VM.Models.Post.ISTFTParameters.TimeSlice.md">Download this page as Markdown</a>

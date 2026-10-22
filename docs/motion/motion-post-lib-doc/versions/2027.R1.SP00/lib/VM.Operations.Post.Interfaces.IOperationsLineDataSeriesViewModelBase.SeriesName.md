@@ -19,3 +19,5 @@ string SeriesName { get; set; }
 ### Remarks
 
 Changing this value changes the identifier displayed for the curve and used by operations that accept a series name.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesName.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesName.md">Download this page as Markdown</a>

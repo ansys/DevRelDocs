@@ -21,3 +21,5 @@ public string Target { get; set; }
 ### Remarks
 
 The value must identify an entity available in the opened result document.
+
+<a href="/lib/VM.Models.OutputReader.PlotParameters.Target.md" download="VM.Models.OutputReader.PlotParameters.Target.md">Download this page as Markdown</a>

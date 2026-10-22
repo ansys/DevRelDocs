@@ -19,3 +19,5 @@ bool Continuous { get; set; }
 ### Remarks
 
 Changing this value updates scalar contour rendering. Continuous mode is unavailable while logarithmic scaling is active.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.Continuous.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.Continuous.md">Download this page as Markdown</a>

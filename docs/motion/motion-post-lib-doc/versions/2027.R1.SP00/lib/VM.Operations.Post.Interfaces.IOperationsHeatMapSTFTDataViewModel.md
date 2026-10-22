@@ -57,3 +57,5 @@ Gets or sets the time length of each STFT window.
  [ExportOrderTrackingCurve\(string\)](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ExportOrderTrackingCurve.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatMapSTFTDataViewModel\_ExportOrderTrackingCurve\_System\_String\_)
 
 Exports a selected STFT heat-map curve as order-tracking curve data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md">Download this page as Markdown</a>

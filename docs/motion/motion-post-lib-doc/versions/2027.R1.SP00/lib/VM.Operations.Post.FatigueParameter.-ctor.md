@@ -9,3 +9,5 @@ Assembly: VM.Operations.Post.dll
 ```csharp
 public FatigueParameter()
 ```
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.-ctor.md" download="VM.Operations.Post.FatigueParameter.-ctor.md">Download this page as Markdown</a>

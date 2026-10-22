@@ -20,3 +20,5 @@ int ParentBodyIndex { get; }
 
 The parent body index refers to the body that this property is associated with in the model.
 It is used to establish a relationship between the property and its parent body.
+
+<a href="/lib/VM.Models.Post.IFEProperty.ParentBodyIndex.md" download="VM.Models.Post.IFEProperty.ParentBodyIndex.md">Download this page as Markdown</a>

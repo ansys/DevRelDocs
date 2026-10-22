@@ -28,6 +28,7 @@ from ResultFileReaderAPI import *
 
 # RESULT_FILE_PATH : .dfr result file path
 outputReader = OutputReader(RESULT_FILE_PATH)
+outputReader.Close()
 ```
 
 `BINARY_FOLDER_PATH` must be the folder that contains `Postprocessor.exe` in the Motion product installation. `RESULT_FILE_READER_API_MODULE_PATH` must be the `Modules` folder inside the package downloaded from [Introduction - Downloads](../../../index.md#downloads), which contains `ResultFileReaderAPI.py`. Call `sys.path.append(BINARY_FOLDER_PATH)` and `sys.path.append(RESULT_FILE_READER_API_MODULE_PATH)` before importing `ResultFileReaderAPI`.
@@ -40,6 +41,13 @@ The following script opens a result file, reads its primary analysis type and st
 
 ```python
 # ResultFileReaderAPI_QuickStart.py
+import sys
+
+# BINARY_FOLDER_PATH : path to the folder containing the Postprocessor dll files
+# RESULT_FILE_READER_API_MODULE_PATH : path to the folder containing ResultFileReaderAPI.py
+sys.path.append(BINARY_FOLDER_PATH)
+sys.path.append(RESULT_FILE_READER_API_MODULE_PATH)
+
 from ResultFileReaderAPI import *
 
 # RESULT_FILE_PATH : .dfr result file path
@@ -51,3 +59,5 @@ referenceTimes = outputReader.GetReferenceTimeArray()
 
 outputReader.Close()
 ```
+
+<a href="/document/result-file-reader/getting-started/getting_started_result_file_reader_using_py.md" download="getting_started_result_file_reader_using_py.md">Download this page as Markdown</a>

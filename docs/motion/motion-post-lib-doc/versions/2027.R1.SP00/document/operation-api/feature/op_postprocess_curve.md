@@ -35,3 +35,5 @@ Create a frequency-domain curve with [`CreateFFT(IEnumerable<string>, FFTType, F
 
 ## STFT
 Create a short-time frequency result with [`CreateSTFT(ISTFTParameters, IList<string>)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSTFT.md) or [`CreateSTFT(ISTFTParameters, IEnumerable<IOperationsLineDataSeriesViewModelBase>)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSTFT.md).
+
+<a href="/document/operation-api/feature/op_postprocess_curve.md" download="op_postprocess_curve.md">Download this page as Markdown</a>

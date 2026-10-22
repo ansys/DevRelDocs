@@ -15,3 +15,5 @@ public interface IOperationsCalculusLineDataSeriesViewModel
  [CalculusType](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.CalculusType.md\#VM\_Operations\_Post\_Interfaces\_IOperationsCalculusLineDataSeriesViewModel\_CalculusType)
 
 Gets or sets the calculus operation selected from [`CalculusType`](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.CalculusType.md) for the calculated curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ CoordinateType CylindricalAxisR { get; set; }
 ### Remarks
 
 This property applies when [`CurrentCoordinateSystemType`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CurrentCoordinateSystemType.md) is cylindrical. The coordinate system keeps the primary and secondary axes distinct.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CylindricalAxisR.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CylindricalAxisR.md">Download this page as Markdown</a>

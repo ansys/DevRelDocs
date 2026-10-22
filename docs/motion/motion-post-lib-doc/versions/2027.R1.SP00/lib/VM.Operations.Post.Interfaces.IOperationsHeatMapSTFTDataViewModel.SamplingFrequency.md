@@ -19,3 +19,5 @@ int SamplingFrequency { get; set; }
 ### Remarks
 
 Changing this value refreshes the frequency grid. Values greater than `1` are required when the STFT view is updating.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SamplingFrequency.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SamplingFrequency.md">Download this page as Markdown</a>

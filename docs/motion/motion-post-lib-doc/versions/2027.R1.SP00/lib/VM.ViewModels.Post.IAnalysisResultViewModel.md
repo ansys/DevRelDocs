@@ -10,3 +10,4 @@ Represents analysis result data loaded from a result document and exposed to Ope
 public interface IAnalysisResultViewModel : IViewModel, IHasGuid
 ```
 
+<a href="/lib/VM.ViewModels.Post.IAnalysisResultViewModel.md" download="VM.ViewModels.Post.IAnalysisResultViewModel.md">Download this page as Markdown</a>

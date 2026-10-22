@@ -91,3 +91,5 @@ output_reader.ExportVectorDisplayToFile(export_vector_target_file_path, state_id
 # Close
 output_reader.Close()
 ```
+
+<a href="/document/result-file-reader/example/example_vector_for_result_file_reader_api.md" download="example_vector_for_result_file_reader_api.md">Download this page as Markdown</a>

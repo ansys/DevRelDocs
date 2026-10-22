@@ -63,3 +63,5 @@ coordinate_system_full_name = coordinate_system.FullName
 ### Remarks
 
 The created [`IOperationsCSYSViewModel`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md) can be configured through its properties. Pass its [`FullName`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.FullName.md) to operations that accept a coordinate-system name.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.CreateCoordinateSystem.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.CreateCoordinateSystem.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ string FullTarget { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.FullTarget.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.FullTarget.md">Download this page as Markdown</a>

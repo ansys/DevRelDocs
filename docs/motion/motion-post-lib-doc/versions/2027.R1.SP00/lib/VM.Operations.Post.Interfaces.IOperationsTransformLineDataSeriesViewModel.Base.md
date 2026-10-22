@@ -19,3 +19,5 @@ string Base { get; set; }
 ### Remarks
 
 When the transform type is `LogScale`, this value selects the base used to calculate transformed points.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Base.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Base.md">Download this page as Markdown</a>

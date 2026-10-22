@@ -39,3 +39,5 @@ animation_view.StopAnimation()
 ### Remarks
 
 Stops playback of the current animation and changes its playback state to stopped. Calling this method when playback is already stopped does not start or reload animation frames.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.StopAnimation.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.StopAnimation.md">Download this page as Markdown</a>

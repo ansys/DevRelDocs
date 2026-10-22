@@ -20,3 +20,5 @@ public TransformationParameters TransformationOffsetParameters { get; set; }
 ### Remarks
 
 Changing a parameter updates the marker's transformation offset.
+
+<a href="/lib/VM.Models.Post.GeneralMarker.TransformationOffsetParameters.md" download="VM.Models.Post.GeneralMarker.TransformationOffsetParameters.md">Download this page as Markdown</a>

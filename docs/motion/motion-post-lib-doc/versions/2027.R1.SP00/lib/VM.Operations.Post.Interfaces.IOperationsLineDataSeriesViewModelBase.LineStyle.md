@@ -19,3 +19,5 @@ LineStyleType LineStyle { get; set; }
 ### Remarks
 
 Changing this value changes the line pattern. Point-only rendering is unaffected.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.LineStyle.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.LineStyle.md">Download this page as Markdown</a>

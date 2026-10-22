@@ -28,7 +28,7 @@ Initial name for the new view. If omitted, a default name is generated.
 
  [IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md)
 
-Newly created [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md). The method returns `default` when [`ResultDocumentViewModel`](VM.ViewModels.Post.IAnalysisResultViewModel.ResultDocumentViewModel.md) does not expose VM.ViewModels.Post.ResultDocumentViewModel.
+Newly created [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md). The method returns `default` when `ResultDocumentViewModel` does not expose VM.ViewModels.Post.ResultDocumentViewModel.
 
 ### Examples
 
@@ -55,3 +55,5 @@ The returned `IOperationsAnimation` is kept with [`IPage`](VM.Operations.Post.In
 <Danger>
 `analysis` must expose VM.ViewModels.Post.ResultDocumentViewModel through `ResultDocumentViewModel`. Otherwise, this method returns `default`.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.CreateAnimation.md" download="VM.Operations.Post.Interfaces.IPage.CreateAnimation.md">Download this page as Markdown</a>

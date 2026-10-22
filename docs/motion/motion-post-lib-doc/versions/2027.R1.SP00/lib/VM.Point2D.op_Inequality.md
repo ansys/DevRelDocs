@@ -27,3 +27,5 @@ The second value to compare.
  bool
 
 <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the two values are not equal; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
+
+<a href="/lib/VM.Point2D.op_Inequality.md" download="VM.Point2D.op_Inequality.md">Download this page as Markdown</a>

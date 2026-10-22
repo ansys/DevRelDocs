@@ -20,3 +20,5 @@ public MeanStressCorrection MeanStressCorrection { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses set [`MeanStressCorrection`](VM.Operations.Post.Interfaces.IOperationsFEBody.MeanStressCorrection.md) on the selected target body.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.MeanStressCorrection.md" download="VM.Operations.Post.FatigueParameter.MeanStressCorrection.md">Download this page as Markdown</a>

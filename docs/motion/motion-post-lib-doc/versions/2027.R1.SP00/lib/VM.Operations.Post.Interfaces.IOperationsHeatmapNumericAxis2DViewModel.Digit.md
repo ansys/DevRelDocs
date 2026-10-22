@@ -19,3 +19,5 @@ int Digit { get; set; }
 ### Remarks
 
 Changing this value updates the text format used for numeric axis labels. Values from `0` through `16` are accepted.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.Digit.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.Digit.md">Download this page as Markdown</a>

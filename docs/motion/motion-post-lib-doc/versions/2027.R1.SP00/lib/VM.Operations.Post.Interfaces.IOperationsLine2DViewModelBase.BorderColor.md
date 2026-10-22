@@ -19,3 +19,5 @@ Color BorderColor { get; set; }
 ### Remarks
 
 Changing this value updates the color rendered around the chart.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.BorderColor.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.BorderColor.md">Download this page as Markdown</a>

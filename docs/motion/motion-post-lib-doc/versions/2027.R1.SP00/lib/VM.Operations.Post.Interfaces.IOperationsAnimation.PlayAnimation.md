@@ -47,3 +47,5 @@ For a dynamic analysis result, this method loads the full animation when no anim
 
 Playback does not start when either condition is not met.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.PlayAnimation.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.PlayAnimation.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Color FontColor { get; set; }
 ### Remarks
 
 Changing this value updates the color used for custom-axis tick text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.FontColor.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.FontColor.md">Download this page as Markdown</a>

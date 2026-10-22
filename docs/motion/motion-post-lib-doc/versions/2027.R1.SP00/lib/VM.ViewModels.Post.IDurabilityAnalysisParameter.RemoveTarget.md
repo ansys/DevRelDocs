@@ -21,3 +21,5 @@ The identifier of the finite-element body to remove.
 ### Remarks
 
 If the identifier is not present in [`Targets`](VM.ViewModels.Post.IDurabilityAnalysisParameter.Targets.md), the collection remains unchanged.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.RemoveTarget.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.RemoveTarget.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double End { get; set; }
 ### Remarks
 
 Changing this value refreshes the STFT windows calculated from the referenced source curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.End.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.End.md">Download this page as Markdown</a>

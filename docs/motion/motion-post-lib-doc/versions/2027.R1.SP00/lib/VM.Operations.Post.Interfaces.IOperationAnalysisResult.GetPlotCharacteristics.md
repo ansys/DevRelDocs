@@ -41,3 +41,5 @@ characteristics = analysis_result.GetPlotCharacteristics(entity_name)
 ### Remarks
 
 The returned characteristics are the valid input for [GetPlotComponents\(string, string\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetPlotComponents.md) using the same `entityName`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetPlotCharacteristics.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetPlotCharacteristics.md">Download this page as Markdown</a>

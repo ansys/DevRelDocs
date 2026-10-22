@@ -19,3 +19,5 @@ string FullName { get; set; }
 ### Remarks
 
 Changing `FullName` changes the page name without changing [`ID`](VM.Operations.Post.Interfaces.IPage.ID.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.FullName.md" download="VM.Operations.Post.Interfaces.IPage.FullName.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ bool IsVisibleStateInfo { get; set; }
 ### Remarks
 
 State information is drawn in the animation view and in captured animation frames when this value is `true`. Its position and text color are controlled by [`StateInfoPosition`](VM.Operations.Post.Interfaces.IOperationsAnimation.StateInfoPosition.md) and [`TextColorStateInfo`](VM.Operations.Post.Interfaces.IOperationsAnimation.TextColorStateInfo.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleStateInfo.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleStateInfo.md">Download this page as Markdown</a>

@@ -11,3 +11,5 @@ Get an expression by name with [`GetExpression(string)`](../../../lib/VM.Operati
 
 ## Removing
 Remove an expression by name with [`RemoveExpression(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveExpression.md). The named expression is removed from the dynamic analysis result.
+
+<a href="/document/operation-api/feature/op_manage_expression.md" download="op_manage_expression.md">Download this page as Markdown</a>

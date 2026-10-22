@@ -15,3 +15,5 @@ public int[] Ids { get; set; }
 ### Property Value
 
  int\[\]
+
+<a href="/lib/VM.Models.Post.EntityTypes.NamedSelection.Ids.md" download="VM.Models.Post.EntityTypes.NamedSelection.Ids.md">Download this page as Markdown</a>

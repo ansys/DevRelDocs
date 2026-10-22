@@ -153,3 +153,5 @@ chart.CreateFiltering(curves, filtering_type, order, frequency_1, frequency_2)
 
 This function performs filtering on each curve specified in <code class="paramref">seriesViewModels</code> using the specified filtering type,
 filter order, and frequency values. The filtering operation can smooth the curve data based on the parameters provided.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateFiltering.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateFiltering.md">Download this page as Markdown</a>

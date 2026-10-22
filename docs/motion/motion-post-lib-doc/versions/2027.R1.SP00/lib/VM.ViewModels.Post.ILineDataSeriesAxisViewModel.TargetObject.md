@@ -15,3 +15,5 @@ IEntityBaseViewModel TargetObject { get; }
 ### Property Value
 
  [IEntityBaseViewModel](VM.ViewModels.Post.IEntityBaseViewModel.md)
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.TargetObject.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.TargetObject.md">Download this page as Markdown</a>

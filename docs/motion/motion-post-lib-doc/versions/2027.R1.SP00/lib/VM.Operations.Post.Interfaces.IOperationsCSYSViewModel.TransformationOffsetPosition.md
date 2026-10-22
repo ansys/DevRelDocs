@@ -19,3 +19,5 @@ Vector TransformationOffsetPosition { get; set; }
 ### Remarks
 
 Changing this value changes the coordinate-system position relative to the parent frame at each animation frame.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetPosition.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetPosition.md">Download this page as Markdown</a>

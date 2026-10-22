@@ -15,3 +15,5 @@ public string Path { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.Path.md" download="VM.Post.API.OutputReader.OutputReader.Path.md">Download this page as Markdown</a>

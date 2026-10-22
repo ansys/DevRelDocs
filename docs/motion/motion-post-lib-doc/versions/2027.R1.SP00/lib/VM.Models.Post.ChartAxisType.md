@@ -12,20 +12,20 @@ public enum ChartAxisType
 
 ## Fields
 
-`Multiple` 
+`Multiple = 1` 
 
 Tracks multiple curves on separate chart axes.
 
 
 
-`Single` 
+`Single = 0` 
 
 Tracks one curve on one chart axis.
 
 
 
-`Unknown` 
+`Unknown = -1` 
 
 Specifies that no chart axis mode is selected.
 
-
+<a href="/lib/VM.Models.Post.ChartAxisType.md" download="VM.Models.Post.ChartAxisType.md">Download this page as Markdown</a>

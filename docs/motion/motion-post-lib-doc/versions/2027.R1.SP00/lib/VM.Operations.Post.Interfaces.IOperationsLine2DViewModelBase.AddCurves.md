@@ -56,3 +56,5 @@ curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 ### Remarks
 
 The method reads data from the specified file path and adds the resulting curves to the chart using the provided plot parameters. An empty array is returned when no curves are added.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.AddCurves.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.AddCurves.md">Download this page as Markdown</a>

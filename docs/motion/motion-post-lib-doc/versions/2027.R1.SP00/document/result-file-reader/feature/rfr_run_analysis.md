@@ -8,3 +8,5 @@ Calculate sound pressure curves with [`ExecuteSoundPressureAnalysis(IList<string
 
 ## Acoustic
 Export acoustic data for chosen nodes with [`ExportAcousticRawDataToFile(string, string, BehaviorType, FFTParameters, uint[])`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportAcousticRawDataToFile.md). Export data for the visible outer surface instead with [`ExportAcousticRawDataToFile(string, string, BehaviorType, FFTParameters)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportAcousticRawDataToFile.md).
+
+<a href="/document/result-file-reader/feature/rfr_run_analysis.md" download="rfr_run_analysis.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double ScaleInterval { get; set; }
 ### Remarks
 
 Changing this value updates the manual tick interval used when automatic axis ticks are disabled.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleInterval.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleInterval.md">Download this page as Markdown</a>
