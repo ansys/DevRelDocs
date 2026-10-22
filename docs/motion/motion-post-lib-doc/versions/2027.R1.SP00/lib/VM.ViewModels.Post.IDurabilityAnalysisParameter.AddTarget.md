@@ -21,3 +21,5 @@ The identifier of a finite-element body available in the imported result documen
 ### Remarks
 
 The identifier is appended to [`Targets`](VM.ViewModels.Post.IDurabilityAnalysisParameter.Targets.md).
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.AddTarget.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.AddTarget.md">Download this page as Markdown</a>

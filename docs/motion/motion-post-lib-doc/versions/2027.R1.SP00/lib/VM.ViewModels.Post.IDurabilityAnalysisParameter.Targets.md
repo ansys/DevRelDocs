@@ -19,3 +19,5 @@ IEnumerable<Guid> Targets { get; }
 ### Remarks
 
 [AddTarget\(Guid\)](VM.ViewModels.Post.IDurabilityAnalysisParameter.AddTarget.md) and [RemoveTarget\(Guid\)](VM.ViewModels.Post.IDurabilityAnalysisParameter.RemoveTarget.md) modify this collection. [RunFatigueAnalysis\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) resolves each identifier to a finite-element body and ignores bodies that cannot perform fatigue analysis.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.Targets.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.Targets.md">Download this page as Markdown</a>

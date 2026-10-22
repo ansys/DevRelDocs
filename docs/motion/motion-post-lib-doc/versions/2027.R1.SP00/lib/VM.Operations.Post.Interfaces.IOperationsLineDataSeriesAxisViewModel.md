@@ -9,3 +9,5 @@ Defines the public axis-information contract used by curve source settings, carr
 ```csharp
 public interface IOperationsLineDataSeriesAxisViewModel
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesAxisViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesAxisViewModel.md">Download this page as Markdown</a>

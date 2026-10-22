@@ -49,3 +49,5 @@ Determines whether two `Point2D` values are equal by comparing their coordinates
  [operator \!=\(Point2D, Point2D\)](VM.Point2D.op\_Inequality.md\#VM\_Point2D\_op\_Inequality\_VM\_Point2D\_VM\_Point2D\_)
 
 Determines whether two `Point2D` values are not equal.
+
+<a href="/lib/VM.Point2D.md" download="VM.Point2D.md">Download this page as Markdown</a>

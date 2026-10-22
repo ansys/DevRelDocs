@@ -51,3 +51,5 @@ Close `IView` through [`CloseView(IView)`](../../../lib/VM.Operations.Post.Inter
 Place `IView` relative to another `IView` with [`DockTo(DockLayout, IView)`](../../../lib/VM.Operations.Post.Interfaces.IView.DockTo.md).
 
 Docking changes the arrangement of the two views without changing how they are found or closed.
+
+<a href="/document/operation-api/feature/op_manage_view.md" download="op_manage_view.md">Download this page as Markdown</a>

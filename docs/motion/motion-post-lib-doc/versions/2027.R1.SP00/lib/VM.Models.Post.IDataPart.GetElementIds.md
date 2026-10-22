@@ -17,3 +17,5 @@ int[] GetElementIds()
  int\[\]
 
 Finite-element identifiers in element-index order.
+
+<a href="/lib/VM.Models.Post.IDataPart.GetElementIds.md" download="VM.Models.Post.IDataPart.GetElementIds.md">Download this page as Markdown</a>

@@ -47,3 +47,5 @@ entity_name = "FEBody_01"
 characteristic_name = "Displacement"
 components = analysis_result.GetContourComponents(entity_name, contour_mapping_type, characteristic_name)
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourComponents.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourComponents.md">Download this page as Markdown</a>

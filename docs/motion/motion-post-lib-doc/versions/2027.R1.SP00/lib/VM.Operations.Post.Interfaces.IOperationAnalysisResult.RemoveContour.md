@@ -21,3 +21,5 @@ Full name of a contour previously created with [CreateContour\(IList<string\>, C
 ### Remarks
 
 If `name` does not identify an existing contour, this method has no effect.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.RemoveContour.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.RemoveContour.md">Download this page as Markdown</a>

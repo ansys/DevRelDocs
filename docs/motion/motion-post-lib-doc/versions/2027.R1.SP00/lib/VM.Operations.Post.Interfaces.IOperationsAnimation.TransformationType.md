@@ -24,3 +24,5 @@ The selected mode determines whether camera-follow updates use target translatio
 <Danger>
 `Unknown` is not a settable value. Assigning it throws `NotSupportedException`.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.TransformationType.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.TransformationType.md">Download this page as Markdown</a>

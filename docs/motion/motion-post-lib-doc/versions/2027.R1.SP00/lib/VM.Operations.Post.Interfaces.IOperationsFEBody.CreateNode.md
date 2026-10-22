@@ -58,3 +58,5 @@ node = febody.CreateNode(node_id, plot_data_type)
 ### Remarks
 
 The operation resolves the node index and part from the current analysis result, adds the node selection to the available node entries, and selects the returned node.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.CreateNode.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.CreateNode.md">Download this page as Markdown</a>

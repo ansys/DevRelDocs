@@ -19,3 +19,5 @@ Color FontColor { get; set; }
 ### Remarks
 
 Changing this value updates the brush used to render numeric axis labels.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.FontColor.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.FontColor.md">Download this page as Markdown</a>

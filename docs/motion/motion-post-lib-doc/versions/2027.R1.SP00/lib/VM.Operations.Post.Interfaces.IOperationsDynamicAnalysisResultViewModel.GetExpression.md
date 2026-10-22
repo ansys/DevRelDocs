@@ -59,3 +59,5 @@ curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 ### Remarks
 
 The operation only looks up an existing expression and does not create one when `name` is not found.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetExpression.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetExpression.md">Download this page as Markdown</a>

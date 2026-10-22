@@ -19,3 +19,5 @@ Color LegendFontColor { get; set; }
 ### Remarks
 
 Changing this value updates the visual appearance of the legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.LegendFontColor.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.LegendFontColor.md">Download this page as Markdown</a>

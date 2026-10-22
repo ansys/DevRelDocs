@@ -12,20 +12,20 @@ public enum ImageFormat
 
 ## Fields
 
-`Bmp` 
+`Bmp = 2` 
 
 Exports the image in BMP format.
 
 
 
-`Jpeg` 
+`Jpeg = 1` 
 
 Exports the image in JPEG format.
 
 
 
-`Png` 
+`Png = 0` 
 
 Exports the image in PNG format.
 
-
+<a href="/lib/VM.Models.Post.ImageFormat.md" download="VM.Models.Post.ImageFormat.md">Download this page as Markdown</a>

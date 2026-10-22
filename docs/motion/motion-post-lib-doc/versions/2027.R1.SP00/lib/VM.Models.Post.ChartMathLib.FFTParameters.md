@@ -23,3 +23,5 @@ Gets the states whose result data is used by the FFT calculation.
  [WindowType](VM.Models.Post.ChartMathLib.FFTParameters.WindowType.md\#VM\_Models\_Post\_ChartMathLib\_FFTParameters\_WindowType)
 
 Gets or sets the window function applied during the FFT calculation.
+
+<a href="/lib/VM.Models.Post.ChartMathLib.FFTParameters.md" download="VM.Models.Post.ChartMathLib.FFTParameters.md">Download this page as Markdown</a>

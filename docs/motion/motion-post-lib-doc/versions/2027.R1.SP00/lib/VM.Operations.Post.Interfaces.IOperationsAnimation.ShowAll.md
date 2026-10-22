@@ -36,3 +36,5 @@ animation_view.ShowAll()
 ### Remarks
 
 Restores visibility for all entities in [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) after a visibility filter such as [`HideOthers(string[])`](VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers.md) or [`HideOthers(Guid[])`](VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers.md) has been applied.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.ShowAll.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.ShowAll.md">Download this page as Markdown</a>

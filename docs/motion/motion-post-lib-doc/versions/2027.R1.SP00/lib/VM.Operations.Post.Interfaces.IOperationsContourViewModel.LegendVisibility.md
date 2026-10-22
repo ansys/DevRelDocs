@@ -19,3 +19,5 @@ bool LegendVisibility { get; set; }
 ### Remarks
 
 Changing this value updates scalar contour rendering and does not disable the contour itself.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendVisibility.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendVisibility.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Color Background { get; set; }
 ### Remarks
 
 Changing this value updates the color rendered behind the legend.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.Background.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.Background.md">Download this page as Markdown</a>

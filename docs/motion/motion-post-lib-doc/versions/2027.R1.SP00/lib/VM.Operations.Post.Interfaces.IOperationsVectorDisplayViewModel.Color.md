@@ -19,3 +19,5 @@ Color Color { get; set; }
 ### Remarks
 
 Changing this value affects the rendered vector and does not change its label colors.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Color.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Color.md">Download this page as Markdown</a>

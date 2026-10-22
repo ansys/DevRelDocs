@@ -186,3 +186,5 @@ for page in pages :
 # Close Document
 application_handler.CloseDocument(RESULT_FILE_PATH)
 ```
+
+<a href="/document/operation-api/example/example_export_for_operation_api.md" download="example_export_for_operation_api.md">Download this page as Markdown</a>

@@ -39,3 +39,5 @@ Gets or sets the rendering mode selected from [`SeriesType`](VM.Operations.Post.
  [Thickness](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.Thickness.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLineDataSeriesViewModelBase\_Thickness)
 
 Gets or sets the rendered line thickness of the curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md">Download this page as Markdown</a>

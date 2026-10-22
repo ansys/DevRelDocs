@@ -19,3 +19,5 @@ public abstract class ObjectBase : ObservableObject
  [FullName](VM.Models.Post.ObjectBase.FullName.md\#VM\_Models\_Post\_ObjectBase\_FullName)
 
 Gets or sets the full name of the object.
+
+<a href="/lib/VM.Models.Post.ObjectBase.md" download="VM.Models.Post.ObjectBase.md">Download this page as Markdown</a>

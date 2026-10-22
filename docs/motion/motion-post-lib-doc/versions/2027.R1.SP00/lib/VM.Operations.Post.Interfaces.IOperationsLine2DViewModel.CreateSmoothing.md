@@ -143,3 +143,5 @@ chart.CreateSmoothing(curves, smoothing_type, points_of_window, poly_order)
 
 This function performs smoothing on each curve specified in <code class="paramref">seriesViewModels</code> using the specified smoothing type,
 window size, and polynomial order. The function supports moving average and Savitzky-Golay smoothing methods.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSmoothing.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSmoothing.md">Download this page as Markdown</a>

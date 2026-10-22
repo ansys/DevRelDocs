@@ -13,3 +13,5 @@ public override int GetHashCode()
 ### Returns
 
  int
+
+<a href="/lib/VM.Point2D.GetHashCode.md" download="VM.Point2D.GetHashCode.md">Download this page as Markdown</a>

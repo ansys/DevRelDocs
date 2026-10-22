@@ -12,50 +12,50 @@ public enum FFTWindowType
 
 ## Fields
 
-`Bartlett` 
+`Bartlett = 2` 
 
 Uses a Bartlett window.
 
 
 
-`BlackMan` 
+`BlackMan = 6` 
 
 Uses a Blackman window.
 
 
 
-`Hamming` 
+`Hamming = 4` 
 
 Uses a Hamming window.
 
 
 
-`Hanning` 
+`Hanning = 3` 
 
 Uses a Hann window.
 
 
 
-`None` 
+`None = 7` 
 
 Does not apply a window function.
 
 
 
-`Rectangular` 
+`Rectangular = 0` 
 
 Uses a rectangular window.
 
 
 
-`Triangular` 
+`Triangular = 1` 
 
 Uses a triangular window.
 
 
 
-`Welch` 
+`Welch = 5` 
 
 Uses a Welch window.
 
-
+<a href="/lib/VM.Models.Post.FFTWindowType.md" download="VM.Models.Post.FFTWindowType.md">Download this page as Markdown</a>

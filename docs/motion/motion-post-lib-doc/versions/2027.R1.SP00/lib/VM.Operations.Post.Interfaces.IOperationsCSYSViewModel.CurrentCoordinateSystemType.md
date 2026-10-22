@@ -19,3 +19,5 @@ GeneralMarkerType CurrentCoordinateSystemType { get; set; }
 ### Remarks
 
 The selected representation controls whether cylindrical or spherical axis properties are applicable.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CurrentCoordinateSystemType.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CurrentCoordinateSystemType.md">Download this page as Markdown</a>

@@ -42,3 +42,5 @@ contour_mapping_type = ContourMappingType.FENode
 entity_name = "FEBody_01"
 characteristics = analysis_result.GetContourCharacteristics(entity_name, contour_mapping_type)
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md">Download this page as Markdown</a>

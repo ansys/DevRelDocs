@@ -20,3 +20,5 @@ IList<IFatigueParameter> Parameters { get; }
 ### Remarks
 
 This property is obsolete. Configure fatigue settings on the target [`IOperationsFEBody`](VM.Operations.Post.Interfaces.IOperationsFEBody.md) and add its identifier through [`Targets`](VM.ViewModels.Post.IDurabilityAnalysisParameter.Targets.md) instead.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.Parameters.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.Parameters.md">Download this page as Markdown</a>

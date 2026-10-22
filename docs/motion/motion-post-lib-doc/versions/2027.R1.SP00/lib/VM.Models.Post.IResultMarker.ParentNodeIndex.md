@@ -15,3 +15,5 @@ int ParentNodeIndex { get; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.IResultMarker.ParentNodeIndex.md" download="VM.Models.Post.IResultMarker.ParentNodeIndex.md">Download this page as Markdown</a>

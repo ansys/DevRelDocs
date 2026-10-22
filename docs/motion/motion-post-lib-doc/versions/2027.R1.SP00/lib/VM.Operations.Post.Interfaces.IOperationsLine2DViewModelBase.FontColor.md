@@ -19,3 +19,5 @@ Color FontColor { get; set; }
 ### Remarks
 
 Changing this value updates the color rendered for the chart title.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontColor.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontColor.md">Download this page as Markdown</a>

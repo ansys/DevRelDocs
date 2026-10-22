@@ -19,3 +19,5 @@ FontFamily FontFace { get; set; }
 ### Remarks
 
 Changing this value updates the font family rendered for the chart title.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontFace.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontFace.md">Download this page as Markdown</a>

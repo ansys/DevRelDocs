@@ -18,10 +18,12 @@ Both APIs use the same documentation structure.
 
 The **API Reference** documents the public classes, interfaces, methods, and properties exposed by the library. It is divided into three sections to reflect the API assemblies and shared types.
 
-- **Operation** types used to control and interact with a running Postprocessor, including [`ApplicationHandler`](lib/VM.API.Post.Operations.ApplicationHandler.md), page and view interfaces, and operation interfaces.
-- **Result File Reader** types that open and process result files, including [`OutputReader`](lib/VM.Post.API.OutputReader.OutputReader.md) and its associated data types.
+- **Operation API** types used to control and interact with a running Postprocessor, including [`ApplicationHandler`](lib/VM.API.Post.Operations.ApplicationHandler.md), page and view interfaces, and operation interfaces.
+- **Result File Reader API** types that open and process result files, including [`OutputReader`](lib/VM.Post.API.OutputReader.OutputReader.md) and its associated data types.
 - **Miscellaneous** enumerations, data models, and interfaces that support both APIs.
 
 ## Downloads
 
-Click [Postprocessor API Resources](Resources.zip) and download the available resources, including API modules, result files, example scripts, and the PDF version of this documentation.
+Click [Postprocessor API Resources](Resources.zip) and download the available resources, including API modules, result files, and example scripts.
+
+<a href="/index.md" download="index.md">Download this page as Markdown</a>

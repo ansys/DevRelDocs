@@ -41,3 +41,5 @@ The method reads unit information from the modal body's mode-shape file with [`O
  ArgumentException
 
 Thrown when `target` does not identify a modal body with an available mode-shape file.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetUnitsFromModeShapeFile.md" download="VM.Post.API.OutputReader.OutputReader.GetUnitsFromModeShapeFile.md">Download this page as Markdown</a>

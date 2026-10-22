@@ -39,3 +39,5 @@ The method retrieves primary geometry data with [GetGeometryInfo\(string\)](VM.P
 <Danger>
 `target` must identify a body. An unknown name or a non-body entity causes the geometry lookup to fail.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetGeometryNodes.md" download="VM.Post.API.OutputReader.OutputReader.GetGeometryNodes.md">Download this page as Markdown</a>

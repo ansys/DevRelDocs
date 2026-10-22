@@ -19,3 +19,5 @@ bool ShowLegend { get; set; }
 ### Remarks
 
 Changing this value updates legend visibility. The legend is hidden when the chart has no renderable curves.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.ShowLegend.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.ShowLegend.md">Download this page as Markdown</a>

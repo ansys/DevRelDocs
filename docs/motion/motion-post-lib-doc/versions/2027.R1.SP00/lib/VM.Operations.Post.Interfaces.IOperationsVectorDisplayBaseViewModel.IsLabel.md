@@ -19,3 +19,5 @@ bool IsLabel { get; set; }
 ### Remarks
 
 The label background and text colors affect the rendered label when this value is `true`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.IsLabel.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.IsLabel.md">Download this page as Markdown</a>

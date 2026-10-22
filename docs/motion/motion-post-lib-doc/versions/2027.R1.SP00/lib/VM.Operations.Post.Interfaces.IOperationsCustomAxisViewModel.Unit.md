@@ -19,3 +19,5 @@ string Unit { get; }
 ### Remarks
 
 The value is read-only and is shown only when the axis source provides a non-empty unit.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Unit.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Unit.md">Download this page as Markdown</a>

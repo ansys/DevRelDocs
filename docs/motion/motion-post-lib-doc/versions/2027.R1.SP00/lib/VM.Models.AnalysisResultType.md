@@ -12,7 +12,7 @@ public enum AnalysisResultType
 
 ## Fields
 
-`Dynamics` 
+`Dynamics = 0` 
 
 Description: "Dynamics"
 
@@ -20,7 +20,7 @@ Selects the analysis results calculated by a dynamic, time-domain simulation.
 
 
 
-`Eigenvalue` 
+`Eigenvalue = 1` 
 
 Description: "Eigenvalue"
 
@@ -28,7 +28,7 @@ Selects the analysis results calculated by an eigenvalue, frequency-domain analy
 
 
 
-`Nothing` 
+`Nothing = 7` 
 
 Description: "Nothing"
 
@@ -36,10 +36,10 @@ Indicates that no analysis result is available for the requested category.
 
 
 
-`Statics` 
+`Statics = 4` 
 
 Description: "Statics"
 
 Selects the analysis results calculated by a static simulation.
 
-
+<a href="/lib/VM.Models.AnalysisResultType.md" download="VM.Models.AnalysisResultType.md">Download this page as Markdown</a>

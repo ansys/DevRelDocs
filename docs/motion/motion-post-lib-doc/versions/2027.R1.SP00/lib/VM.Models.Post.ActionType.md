@@ -12,14 +12,14 @@ public enum ActionType
 
 ## Fields
 
-`Action` 
+`Action = 1` 
 
 Identifies an action connector role.
 
 
 
-`Base` 
+`Base = 0` 
 
 Identifies a base connector role.
 
-
+<a href="/lib/VM.Models.Post.ActionType.md" download="VM.Models.Post.ActionType.md">Download this page as Markdown</a>

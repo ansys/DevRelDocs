@@ -19,3 +19,5 @@ StressStrainCombinationType StressStrainCombination { get; set; }
 ### Remarks
 
 The selected combination determines how stress or strain components are combined before fatigue results are evaluated.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.StressStrainCombination.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.StressStrainCombination.md">Download this page as Markdown</a>

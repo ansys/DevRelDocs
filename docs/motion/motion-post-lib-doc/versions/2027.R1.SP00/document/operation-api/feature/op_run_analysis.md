@@ -2,11 +2,17 @@
 This feature covers running a fatigue analysis with [`DurabilityAnalysis`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.md) and calculating sound pressure with [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 ## Fatigue
-Run a fatigue analysis with [`RunFatigueAnalysis(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md). This operation writes the fatigue analysis files and then updates the fatigue result that belongs to [`ResultDocumentViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.ResultDocumentViewModel.md).
+Run a fatigue analysis with [`RunFatigueAnalysis(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md). This operation writes the fatigue analysis files and then updates the fatigue result that belongs to `ResultDocumentViewModel` of [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md).
 
 <Danger>
 The active view returned by [`GetActiveView()`](../../../lib/VM.Operations.Post.Interfaces.IPage.GetActiveView.md) must be `IOperationsAnimation` before calling this method. Otherwise, the fatigue operation cannot run.
 Activate the required `IOperationsAnimation` with [`Activate()`](../../../lib/VM.Operations.Post.Interfaces.IView.Activate.md), see [Manage View](op_manage_view.md).
+</Danger>
+
+Assign a fatigue material to each target [`IOperationsFEBody`](../../../lib/VM.Operations.Post.Interfaces.IOperationsFEBody.md) with [`Material`](../../../lib/VM.Operations.Post.Interfaces.IOperationsFEBody.Material.md) before running this operation.
+
+<Danger>
+The fatigue material assigned with `Material` must be registered in the Postprocessor UI beforehand.
 </Danger>
 
 Once `RunFatigueAnalysis(IDurabilityAnalysisParameter)` finishes, use [`SetFatiguePath(string, string)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.SetFatiguePath.md) to pick which fatigue result to use next.
@@ -19,3 +25,5 @@ Calculate sound pressure data with [`CreateSoundPressure(IList<string>, IList<st
 <Danger>
 The supplied body and coordinate system names must identify entities that already exist. If a name cannot be matched, no sound pressure data is created.
 </Danger>
+
+<a href="/document/operation-api/feature/op_run_analysis.md" download="op_run_analysis.md">Download this page as Markdown</a>

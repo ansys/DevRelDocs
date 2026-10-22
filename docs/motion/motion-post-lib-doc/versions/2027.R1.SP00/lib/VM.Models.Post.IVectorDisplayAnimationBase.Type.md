@@ -15,3 +15,5 @@ VectorDisplayType Type { get; set; }
 ### Property Value
 
  [VectorDisplayType](VM.Models.Post.VectorDisplayType.md)
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.Type.md" download="VM.Models.Post.IVectorDisplayAnimationBase.Type.md">Download this page as Markdown</a>

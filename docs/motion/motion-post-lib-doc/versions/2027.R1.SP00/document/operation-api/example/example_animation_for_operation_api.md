@@ -268,6 +268,7 @@ sys.path.append(OPERATION_API_MODULE_PATH)
 
 # Import necessary modules
 from OperationAPI import *
+from System.Threading import Thread
 
 # Start the headless application interface
 application_handler = ApplicationHandler()
@@ -328,6 +329,9 @@ characteristic_name = "Displacement"
 component_name = "X"
 contour = dynamic_analysis.CreateContour(target_entities, ContourMappingType.FENode, characteristic_name, component_name)
 
+# Contour data is generated on a background task; let it finish before changing properties.
+Thread.CurrentThread.Join(3000)
+
 # Set properties for the contour
 contour.LegendColorScheme = ColorSchemeType.BLACK_TO_WHITE
 contour.AutoRange = False
@@ -341,9 +345,12 @@ contour.LegendVisibility = False
 contour.Continuous = True
 new_component_name = "Z"
 contour.Component = new_component_name
+Thread.CurrentThread.Join(3000)
 contour.FullName = "FEBody_01_Contour_Z"
 contour.MinMaxTargetType = ExtremalValueType.Part
 contour.IsEnabled = False
+# Closing disposes the model, so let any background contour update finish first.
+Thread.CurrentThread.Join(3000)
 
 # Get all created pages.
 # This retrieves all pages created in the application.
@@ -818,3 +825,5 @@ for page in pages :
 # Close Document
 application_handler.CloseDocument(RESULT_FILE_PATH)
 ```
+
+<a href="/document/operation-api/example/example_animation_for_operation_api.md" download="example_animation_for_operation_api.md">Download this page as Markdown</a>

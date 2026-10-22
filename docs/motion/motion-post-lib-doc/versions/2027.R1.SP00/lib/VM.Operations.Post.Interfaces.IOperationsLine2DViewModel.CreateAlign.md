@@ -128,3 +128,5 @@ chart.CreateAlign(curves, align_type)
 
 This function iterates over each curve in <code class="paramref">seriesViewModels</code> and aligns the Y values of each point.
 The <code class="paramref">alignType</code> selects whether the curve is aligned to zero or to the first point of the target curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateAlign.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateAlign.md">Download this page as Markdown</a>

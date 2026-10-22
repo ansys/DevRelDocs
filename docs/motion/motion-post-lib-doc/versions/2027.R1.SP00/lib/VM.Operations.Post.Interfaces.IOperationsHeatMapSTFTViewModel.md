@@ -23,3 +23,5 @@ Gets [`IHeatMapSTFTView2DViewModel`](VM.ViewModels.Post.IHeatMapSTFTView2DViewMo
  [STFT3DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.STFT3DViewModel.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatMapSTFTViewModel\_STFT3DViewModel)
 
 Gets [`IHeatMapSTFTView3DViewModel`](VM.ViewModels.Post.IHeatMapSTFTView3DViewModel.md) that exposes the 3D STFT display and export operations.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md">Download this page as Markdown</a>

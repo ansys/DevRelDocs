@@ -20,3 +20,5 @@ Configure the axes used by each mode:
 
 - Translation follows the selected components from [`IsFollowingXAxis`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingXAxis.md), [`IsFollowingYAxis`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingYAxis.md), and [`IsFollowingZAxis`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingZAxis.md).
 - Rotation follows the selected components from [`IsFollowingRotXAxis`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingRotXAxis.md), [`IsFollowingRotYAxis`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingRotYAxis.md), and [`IsFollowingRotZAxis`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingRotZAxis.md).
+
+<a href="/document/operation-api/feature/op_follow_moving_target.md" download="op_follow_moving_target.md">Download this page as Markdown</a>

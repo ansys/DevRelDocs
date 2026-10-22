@@ -19,3 +19,5 @@ bool IsDecibel { get; set; }
 ### Remarks
 
 When set to `true`, the transform sets [`Coefficient`](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Coefficient.md) to `20` and [`Base`](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Base.md) to `10`, then recalculates the curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.IsDecibel.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.IsDecibel.md">Download this page as Markdown</a>

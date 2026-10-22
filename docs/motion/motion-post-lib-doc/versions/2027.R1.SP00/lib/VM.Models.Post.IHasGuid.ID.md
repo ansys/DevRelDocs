@@ -15,3 +15,5 @@ Guid ID { get; }
 ### Property Value
 
  Guid
+
+<a href="/lib/VM.Models.Post.IHasGuid.ID.md" download="VM.Models.Post.IHasGuid.ID.md">Download this page as Markdown</a>

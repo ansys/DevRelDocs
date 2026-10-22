@@ -18,3 +18,5 @@ Activate the target `IPage` with [`Activate()`](../../../lib/VM.Operations.Post.
 
 ## Closing
 Close `IPage` through [`Close()`](../../../lib/VM.Operations.Post.Interfaces.IPage.Close.md), [`ClosePage(Guid)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.ClosePage.md), or [`ClosePage(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.ClosePage.md).
+
+<a href="/document/operation-api/feature/op_manage_page.md" download="op_manage_page.md">Download this page as Markdown</a>

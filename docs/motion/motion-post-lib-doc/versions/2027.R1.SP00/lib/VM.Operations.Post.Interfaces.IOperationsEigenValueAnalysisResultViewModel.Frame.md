@@ -23,3 +23,5 @@ Changing this value reloads the active frequency's mode-shape animation with the
 <Danger>
 Setting `0` is invalid and throws an exception.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.Frame.md" download="VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.Frame.md">Download this page as Markdown</a>

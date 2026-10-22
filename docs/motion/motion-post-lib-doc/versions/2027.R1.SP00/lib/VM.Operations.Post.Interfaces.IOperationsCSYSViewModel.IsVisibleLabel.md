@@ -19,3 +19,5 @@ bool IsVisibleLabel { get; set; }
 ### Remarks
 
 Label background visibility and label colors affect the rendered label only when this value is `true`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleLabel.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleLabel.md">Download this page as Markdown</a>

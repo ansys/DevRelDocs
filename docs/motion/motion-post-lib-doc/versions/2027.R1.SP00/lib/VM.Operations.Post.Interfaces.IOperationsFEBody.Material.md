@@ -19,3 +19,5 @@ IOperationMaterial Material { get; set; }
 ### Remarks
 
 Getting this property returns the fatigue material associated with the body properties. Setting a supported material assigns it to the fatigue properties. Setting an unsupported value or `null` clears the associated fatigue material.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.Material.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.Material.md">Download this page as Markdown</a>

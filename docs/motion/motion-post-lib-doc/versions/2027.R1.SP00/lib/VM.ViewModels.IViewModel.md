@@ -9,3 +9,5 @@ Defines the common state exposed by a view model to the application.
 ```csharp
 public interface IViewModel
 ```
+
+<a href="/lib/VM.ViewModels.IViewModel.md" download="VM.ViewModels.IViewModel.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ bool IsVisible { get; set; }
 ### Remarks
 
 When this value is `false`, marker-size changes have no visible effect until the marker is shown again.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisible.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisible.md">Download this page as Markdown</a>

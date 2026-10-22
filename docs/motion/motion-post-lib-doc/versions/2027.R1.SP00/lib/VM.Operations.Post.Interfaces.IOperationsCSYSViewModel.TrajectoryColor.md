@@ -19,3 +19,5 @@ Color TrajectoryColor { get; set; }
 ### Remarks
 
 Changing this value affects the path drawn across animation frames and does not affect the coordinate-system marker.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TrajectoryColor.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TrajectoryColor.md">Download this page as Markdown</a>

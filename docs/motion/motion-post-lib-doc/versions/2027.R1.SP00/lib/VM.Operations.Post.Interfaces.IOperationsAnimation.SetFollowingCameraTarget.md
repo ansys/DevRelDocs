@@ -65,3 +65,5 @@ animation_view.SetFollowingCameraTarget(node_full_name)
 ### Remarks
 
 After a target is found, camera-follow updates use the target entity's position and orientation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.SetFollowingCameraTarget.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.SetFollowingCameraTarget.md">Download this page as Markdown</a>

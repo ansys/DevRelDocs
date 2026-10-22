@@ -22,3 +22,5 @@ The newly added [`IOperationsLine2DViewModelBase`](VM.Operations.Post.Interfaces
 ### Remarks
 
 This method is obsolete. Use [CreateChart\(string\)](VM.Operations.Post.Interfaces.IPage.CreateChart.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.AddPlotView.md" download="VM.API.Post.Operations.ApplicationHandler.AddPlotView.md">Download this page as Markdown</a>

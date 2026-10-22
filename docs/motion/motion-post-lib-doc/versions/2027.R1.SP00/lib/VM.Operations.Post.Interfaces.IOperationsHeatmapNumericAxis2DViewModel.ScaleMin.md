@@ -19,3 +19,5 @@ double ScaleMin { get; set; }
 ### Remarks
 
 Changing this value updates the manual lower limit when automatic axis ticks are disabled.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleMin.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleMin.md">Download this page as Markdown</a>

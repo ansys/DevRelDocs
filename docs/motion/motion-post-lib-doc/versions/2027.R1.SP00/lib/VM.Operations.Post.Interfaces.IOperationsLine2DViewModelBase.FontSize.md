@@ -19,3 +19,5 @@ double FontSize { get; set; }
 ### Remarks
 
 Changing this value updates the displayed size of the chart title.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontSize.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontSize.md">Download this page as Markdown</a>

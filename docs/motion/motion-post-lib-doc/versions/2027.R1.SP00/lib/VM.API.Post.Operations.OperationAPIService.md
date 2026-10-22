@@ -31,3 +31,5 @@ Converts a font style string to `FontStyle`.
  [GetFontWeightFromString\(string\)](VM.API.Post.Operations.OperationAPIService.GetFontWeightFromString.md\#VM\_API\_Post\_Operations\_OperationAPIService\_GetFontWeightFromString\_System\_String\_)
 
 Converts a font weight string to `FontWeight`.
+
+<a href="/lib/VM.API.Post.Operations.OperationAPIService.md" download="VM.API.Post.Operations.OperationAPIService.md">Download this page as Markdown</a>

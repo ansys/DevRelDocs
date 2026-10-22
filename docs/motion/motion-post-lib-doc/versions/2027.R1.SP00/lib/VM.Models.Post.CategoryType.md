@@ -12,230 +12,230 @@ public enum CategoryType
 
 ## Fields
 
-`AssemlbyManager` 
+`AssemlbyManager = 23` 
 
 Identifies an assembly manager entity.
 
 
 
-`BearingSet` 
+`BearingSet = 21` 
 
 Identifies a bearing set entity.
 
 
 
-`Body` 
+`Body = 3` 
 
 Identifies a body entity.
 
 
 
-`ChainedSystem` 
+`ChainedSystem = 17` 
 
 Identifies a chained system entity.
 
 
 
-`Connector` 
+`Connector = 7` 
 
 Identifies a connector entity.
 
 
 
-`Contact` 
+`Contact = 9` 
 
 Identifies a contact entity.
 
 
 
-`Contour` 
+`Contour = 19` 
 
 Identifies a contour entity.
 
 
 
-`CoordinateSystem` 
+`CoordinateSystem = 18` 
 
 Identifies a coordinate system entity.
 
 
 
-`Element` 
+`Element = 33` 
 
 Identifies an element entity.
 
 
 
-`ElementSet` 
+`ElementSet = 36` 
 
 Identifies an element set entity.
 
 
 
-`FEBody` 
+`FEBody = 4` 
 
 Identifies a finite-element body entity.
 
 
 
-`FEProperty` 
+`FEProperty = 35` 
 
 Identifies a finite-element property entity.
 
 
 
-`FirstOrderDifferentialEquation` 
+`FirstOrderDifferentialEquation = 11` 
 
 Identifies a first-order differential equation entity.
 
 
 
-`Frequency` 
+`Frequency = 25` 
 
 Identifies a frequency entity.
 
 
 
-`FrequencySequence` 
+`FrequencySequence = 28` 
 
 Identifies a frequency sequence entity.
 
 
 
-`FrequencyTime` 
+`FrequencyTime = 29` 
 
 Identifies a frequency time entity.
 
 
 
-`FunctionExpression` 
+`FunctionExpression = 10` 
 
 Identifies a function expression entity.
 
 
 
-`GearPair` 
+`GearPair = 37` 
 
 Identifies a gear pair entity.
 
 
 
-`GearSet` 
+`GearSet = 20` 
 
 Identifies a gear set entity.
 
 
 
-`Group` 
+`Group = 6` 
 
 Identifies a group entity.
 
 
 
-`LoadingCondition` 
+`LoadingCondition = 8` 
 
 Identifies a loading condition entity.
 
 
 
-`Marker` 
+`Marker = 32` 
 
 Identifies a marker entity.
 
 
 
-`Material` 
+`Material = 26` 
 
 Identifies a material entity.
 
 
 
-`Node` 
+`Node = 34` 
 
 Identifies a node entity.
 
 
 
-`None` 
+`None = 1` 
 
 Identifies an entity that has no category.
 
 
 
-`PythonExpression` 
+`PythonExpression = 30` 
 
 Identifies a Python expression entity.
 
 
 
-`Request` 
+`Request = 5` 
 
 Identifies a request entity.
 
 
 
-`SInput` 
+`SInput = 15` 
 
 Identifies a signal input entity.
 
 
 
-`SOutput` 
+`SOutput = 16` 
 
 Identifies a signal output entity.
 
 
 
-`SeaLevel` 
+`SeaLevel = 27` 
 
 Identifies a sea level entity.
 
 
 
-`SecondOrderDifferentialEquation` 
+`SecondOrderDifferentialEquation = 12` 
 
 Identifies a second-order differential equation entity.
 
 
 
-`ShaftSet` 
+`ShaftSet = 22` 
 
 Identifies a shaft set entity.
 
 
 
-`Time` 
+`Time = 2` 
 
 Identifies a time-based entity.
 
 
 
-`Unknown` 
+`Unknown = 0` 
 
 Identifies an entity that is not assigned to any other category.
 
 
 
-`UserSubroutine` 
+`UserSubroutine = 14` 
 
 Identifies a user subroutine entity.
 
 
 
-`VariableEquation` 
+`VariableEquation = 13` 
 
 Identifies a variable equation entity.
 
 
 
-`VectorDisplay` 
+`VectorDisplay = 24` 
 
 Identifies a vector display entity.
 
 
 
-`VehicleRoad` 
+`VehicleRoad = 31` 
 
 Identifies a vehicle road entity.
 
-
+<a href="/lib/VM.Models.Post.CategoryType.md" download="VM.Models.Post.CategoryType.md">Download this page as Markdown</a>

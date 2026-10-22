@@ -15,3 +15,5 @@ public FFTWindowType WindowType { get; set; }
 ### Property Value
 
  [FFTWindowType](VM.Models.Post.FFTWindowType.md)
+
+<a href="/lib/VM.Models.Post.ChartMathLib.FFTParameters.WindowType.md" download="VM.Models.Post.ChartMathLib.FFTParameters.WindowType.md">Download this page as Markdown</a>

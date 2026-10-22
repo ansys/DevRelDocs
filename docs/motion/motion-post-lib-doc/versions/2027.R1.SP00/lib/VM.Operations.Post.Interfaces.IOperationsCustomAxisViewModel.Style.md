@@ -19,3 +19,5 @@ FontStyle Style { get; set; }
 ### Remarks
 
 This member is obsolete. It forwards its value to the current label font-style setting.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Style.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Style.md">Download this page as Markdown</a>

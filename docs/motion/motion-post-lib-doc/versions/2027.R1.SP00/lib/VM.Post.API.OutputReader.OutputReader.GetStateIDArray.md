@@ -28,3 +28,5 @@ state_ids = output_reader.GetStateIDArray()
 ### Remarks
 
 The returned order matches [GetReferenceTimeArray\(\)](VM.Post.API.OutputReader.OutputReader.GetReferenceTimeArray.md). The same index in both lists identifies the same state.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetStateIDArray.md" download="VM.Post.API.OutputReader.OutputReader.GetStateIDArray.md">Download this page as Markdown</a>

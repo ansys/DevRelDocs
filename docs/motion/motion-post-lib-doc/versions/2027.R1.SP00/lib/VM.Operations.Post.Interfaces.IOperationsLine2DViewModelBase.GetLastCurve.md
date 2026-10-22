@@ -47,3 +47,5 @@ curve = chart.GetLastCurve()
 ### Remarks
 
 This method retrieves the curve that was added last to the chart view.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetLastCurve.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetLastCurve.md">Download this page as Markdown</a>

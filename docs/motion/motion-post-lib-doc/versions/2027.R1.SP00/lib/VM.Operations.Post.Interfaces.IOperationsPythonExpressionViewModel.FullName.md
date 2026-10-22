@@ -19,3 +19,5 @@ string FullName { get; set; }
 ### Remarks
 
 Setting this value validates the expression name before changing the identifier exposed by the expression.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.FullName.md" download="VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.FullName.md">Download this page as Markdown</a>

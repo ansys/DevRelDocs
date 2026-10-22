@@ -19,3 +19,5 @@ int SelectedPoints { get; set; }
 ### Remarks
 
 Changing this value changes the number of samples in each STFT window and refreshes the heat-map data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedPoints.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedPoints.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ public double Y { readonly get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Point2D.Y.md" download="VM.Point2D.Y.md">Download this page as Markdown</a>

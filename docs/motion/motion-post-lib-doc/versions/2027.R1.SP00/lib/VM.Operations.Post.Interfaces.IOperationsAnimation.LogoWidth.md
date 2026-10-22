@@ -19,3 +19,5 @@ uint LogoWidth { get; set; }
 ### Remarks
 
 The value controls the logo width when [`IsVisibleLogo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md) is `true`. The logo file is selected with [`LogoPath`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPath.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.LogoWidth.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.LogoWidth.md">Download this page as Markdown</a>

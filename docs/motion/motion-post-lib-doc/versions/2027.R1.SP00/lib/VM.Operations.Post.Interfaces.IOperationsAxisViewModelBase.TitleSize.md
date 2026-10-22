@@ -21,3 +21,5 @@ double TitleSize { get; set; }
  Exception
 
 Thrown when the assigned value is outside the inclusive `1` through `100` range.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.TitleSize.md" download="VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.TitleSize.md">Download this page as Markdown</a>

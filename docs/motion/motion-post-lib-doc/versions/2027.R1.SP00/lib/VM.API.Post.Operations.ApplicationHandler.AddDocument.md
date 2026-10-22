@@ -27,3 +27,5 @@ filepaths = List[str]()
 filepaths.Add(RESULT_FILE_PATH)
 application_handler.AddDocument(filepaths)
 ```
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.AddDocument.md" download="VM.API.Post.Operations.ApplicationHandler.AddDocument.md">Download this page as Markdown</a>

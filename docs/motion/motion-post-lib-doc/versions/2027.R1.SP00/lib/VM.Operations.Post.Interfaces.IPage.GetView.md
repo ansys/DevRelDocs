@@ -63,3 +63,5 @@ chart_name = "ChartByName"
 chart = page.CreateChart(chart_name)
 view = page.GetView(chart.FullName)
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.GetView.md" download="VM.Operations.Post.Interfaces.IPage.GetView.md">Download this page as Markdown</a>

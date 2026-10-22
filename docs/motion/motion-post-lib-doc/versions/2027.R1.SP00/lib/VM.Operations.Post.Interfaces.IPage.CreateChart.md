@@ -40,3 +40,5 @@ chart = page.CreateChart(chart_name)
 If `IPage` is inactive, this call activates it before creating the chart.
 
 The returned `IOperationsLine2DViewModelBase` is kept with [`IPage`](VM.Operations.Post.Interfaces.IPage.md) and becomes active immediately. It starts without curve data until curve data is imported or added.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.CreateChart.md" download="VM.Operations.Post.Interfaces.IPage.CreateChart.md">Download this page as Markdown</a>

@@ -21,3 +21,5 @@ public bool IsShowMessageBox { get; set; }
 The `.log` file is created when the Postprocessor starts, in the current user's `AppData\Local\Temp\.ansys motion\postprocessor <version>` folder, with a file name based on the start time.
 
 The default value is `false` after [`ApplicationHandler`](VM.API.Post.Operations.ApplicationHandler.md) is created.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.IsShowMessageBox.md" download="VM.API.Post.Operations.ApplicationHandler.IsShowMessageBox.md">Download this page as Markdown</a>

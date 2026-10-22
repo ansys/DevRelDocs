@@ -39,3 +39,5 @@ node_count = output_reader.GetBodiesNodeCount(body_names)
 ### Remarks
 
 The method checks body names against the bodies available with `OutputReader` and adds the node count from each matching body.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetBodiesNodeCount.md" download="VM.Post.API.OutputReader.OutputReader.GetBodiesNodeCount.md">Download this page as Markdown</a>

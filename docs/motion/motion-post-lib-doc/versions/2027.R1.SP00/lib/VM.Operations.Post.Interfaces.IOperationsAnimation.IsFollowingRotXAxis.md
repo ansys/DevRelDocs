@@ -20,3 +20,5 @@ bool IsFollowingRotXAxis { get; set; }
 
 This flag is used when [`TransformationType`](VM.Operations.Post.Interfaces.IOperationsAnimation.TransformationType.md) is `Rotation`. It selects whether target rotation around the X axis changes the following camera.
 When this value is `false`, target rotation around the X axis is not applied to camera tracking.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingRotXAxis.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingRotXAxis.md">Download this page as Markdown</a>

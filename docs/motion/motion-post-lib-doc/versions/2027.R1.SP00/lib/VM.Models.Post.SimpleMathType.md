@@ -13,7 +13,7 @@ public enum SimpleMathType
 
 ## Fields
 
-`Add` 
+`Add = 0` 
 
 Description: "+"
 
@@ -21,7 +21,7 @@ Adds the selected curve values.
 
 
 
-`Multiply` 
+`Multiply = 2` 
 
 Description: "*"
 
@@ -29,10 +29,10 @@ Multiplies the selected curve values.
 
 
 
-`Subtract` 
+`Subtract = 1` 
 
 Description: "-"
 
 Subtracts the selected curve values.
 
-
+<a href="/lib/VM.Models.Post.SimpleMathType.md" download="VM.Models.Post.SimpleMathType.md">Download this page as Markdown</a>

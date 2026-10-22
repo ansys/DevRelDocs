@@ -12,38 +12,38 @@ public enum BodyType
 
 ## Fields
 
-`EF_MODAL` 
+`EF_MODAL = 3` 
 
 Identifies an EF modal body.
 
 
 
-`EF_NODAL` 
+`EF_NODAL = 2` 
 
 Identifies an EF nodal body.
 
 
 
-`GROUND` 
+`GROUND = 6` 
 
 Identifies the ground body.
 
 
 
-`MODAL` 
+`MODAL = 4` 
 
 Identifies a finite-element modal body.
 
 
 
-`NODAL` 
+`NODAL = 1` 
 
 Identifies a finite-element nodal body.
 
 
 
-`RIGID` 
+`RIGID = 5` 
 
 Identifies a rigid body.
 
-
+<a href="/lib/VM.Models.Post.BodyType.md" download="VM.Models.Post.BodyType.md">Download this page as Markdown</a>

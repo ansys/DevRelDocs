@@ -28,3 +28,5 @@ Matching [`IOperationsAxisViewModelBase`](VM.Operations.Post.Interfaces.IOperati
 
 This method searches for an axis with the given name and returns the matching axis.
 If no axis with the specified name is found, the method returns `null`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetAxis.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetAxis.md">Download this page as Markdown</a>

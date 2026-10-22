@@ -10,3 +10,5 @@
  [NamedSelection](VM.Models.Post.EntityTypes.NamedSelection.md)
 
 Represents a named selection loaded from a result document.
+
+<a href="/lib/VM.Models.Post.EntityTypes.md" download="VM.Models.Post.EntityTypes.md">Download this page as Markdown</a>

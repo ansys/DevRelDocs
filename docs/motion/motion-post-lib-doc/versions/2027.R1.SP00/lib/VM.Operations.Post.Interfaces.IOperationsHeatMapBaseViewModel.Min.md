@@ -19,3 +19,5 @@ double Min { get; set; }
 ### Remarks
 
 When [`IsAutoRange`](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.IsAutoRange.md) is `false`, changing this value updates the lower legend limit. When automatic range is enabled, the heat-map data determines the limit.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.Min.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.Min.md">Download this page as Markdown</a>

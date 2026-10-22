@@ -37,3 +37,5 @@ Gets or sets the color used to draw vector-label text.
  [SetCharacteristic\(string\)](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.SetCharacteristic.md\#VM\_Operations\_Post\_Interfaces\_IOperationsVectorDisplayBaseViewModel\_SetCharacteristic\_System\_String\_)
 
 Changes the result characteristic shown by the vector display.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md">Download this page as Markdown</a>

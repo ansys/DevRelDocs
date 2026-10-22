@@ -61,3 +61,5 @@ The value can identify:
 - a marker full name.
 - a coordinate-system full name.
 - a node path in the form `body full name/Node/NodeID`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.ParentInfo.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.ParentInfo.md">Download this page as Markdown</a>

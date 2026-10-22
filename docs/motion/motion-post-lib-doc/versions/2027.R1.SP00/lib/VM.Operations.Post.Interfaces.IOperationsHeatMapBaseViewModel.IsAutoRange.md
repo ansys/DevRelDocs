@@ -19,3 +19,5 @@ bool IsAutoRange { get; set; }
 ### Remarks
 
 When this property is `true`, the displayed range is calculated from heat-map data and manual [`Min`](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.Min.md) and [`Max`](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.Max.md) values do not control it. When it is `false`, those properties define the displayed range.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.IsAutoRange.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.IsAutoRange.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double ReferenceValue { get; set; }
 ### Remarks
 
 Changing this value refreshes STFT data when [`SelectedScaleType`](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedScaleType.md) selects decibel scaling. It has no scaling effect in the original-value mode.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ReferenceValue.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ReferenceValue.md">Download this page as Markdown</a>

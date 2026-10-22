@@ -40,3 +40,5 @@ The lookup uses the path supplied to [AddDocument\(IList<string\>\)](VM.API.Post
  FileLoadException
 
 Thrown when a `.dfhpc` path is supplied and conversion to `.dfr` fails.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetDocument.md" download="VM.API.Post.Operations.ApplicationHandler.GetDocument.md">Download this page as Markdown</a>

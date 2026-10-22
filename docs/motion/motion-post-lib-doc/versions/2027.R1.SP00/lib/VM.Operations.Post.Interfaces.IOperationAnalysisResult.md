@@ -57,3 +57,5 @@ Moves the currently displayed frame of the analysis result to a loaded animation
  [RemoveContour\(string\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.RemoveContour.md\#VM\_Operations\_Post\_Interfaces\_IOperationAnalysisResult\_RemoveContour\_System\_String\_)
 
 Removes a contour by its [`FullName`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.FullName.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.md">Download this page as Markdown</a>

@@ -28,3 +28,5 @@ geometry_infos = output_reader.GetGeometryInfoArray()
 ### Remarks
 
 The result includes every body entity available through `OutputReader`. The returned sequence is empty when the result file contains no body entities.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetGeometryInfoArray.md" download="VM.Post.API.OutputReader.OutputReader.GetGeometryInfoArray.md">Download this page as Markdown</a>

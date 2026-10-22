@@ -19,3 +19,5 @@ double LabelSize { get; set; }
 ### Remarks
 
 This member is obsolete. It forwards its value to the current label font-size setting.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelSize.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelSize.md">Download this page as Markdown</a>

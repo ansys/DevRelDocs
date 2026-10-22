@@ -19,3 +19,5 @@ ChartAxisType ChartAxisType { get; set; }
 ### Remarks
 
 Changing this value switches the chart between single-axis and multiple-axis display.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ChartAxisType.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ChartAxisType.md">Download this page as Markdown</a>

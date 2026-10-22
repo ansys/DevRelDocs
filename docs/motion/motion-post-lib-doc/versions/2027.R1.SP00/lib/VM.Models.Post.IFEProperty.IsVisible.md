@@ -19,3 +19,5 @@ bool IsVisible { get; set; }
 ### Remarks
 
 This property is used to control the visibility of the finite element property in the model.
+
+<a href="/lib/VM.Models.Post.IFEProperty.IsVisible.md" download="VM.Models.Post.IFEProperty.IsVisible.md">Download this page as Markdown</a>

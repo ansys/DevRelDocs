@@ -12,26 +12,26 @@ public enum FilteringType
 
 ## Fields
 
-`BandPass` 
+`BandPass = 2` 
 
 Passes frequencies inside the configured lower and upper cutoffs.
 
 
 
-`BandStop` 
+`BandStop = 3` 
 
 Passes frequencies outside the configured lower and upper cutoffs.
 
 
 
-`HighPass` 
+`HighPass = 1` 
 
 Passes frequencies above the configured cutoff.
 
 
 
-`LowPass` 
+`LowPass = 0` 
 
 Passes frequencies below the configured cutoff.
 
-
+<a href="/lib/VM.Models.Post.FilteringType.md" download="VM.Models.Post.FilteringType.md">Download this page as Markdown</a>

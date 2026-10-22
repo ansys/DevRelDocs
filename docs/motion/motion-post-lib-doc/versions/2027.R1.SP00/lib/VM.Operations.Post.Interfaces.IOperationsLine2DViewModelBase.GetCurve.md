@@ -54,3 +54,5 @@ curve = chart.GetCurve(curve_name)
 ### Remarks
 
 This method searches for and returns the curve with the given name from the chart. If no curve with the specified name is found, it returns `null`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurve.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurve.md">Download this page as Markdown</a>

@@ -71,3 +71,5 @@ Gets or sets the font style used to render custom-axis label text.
  [Unit](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Unit.md\#VM\_Operations\_Post\_Interfaces\_IOperationsCustomAxisViewModel\_Unit)
 
 Gets the unit text supplied by the axis source, or an empty value when no unit is available.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ public double Z { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Vector.Z.md" download="VM.Vector.Z.md">Download this page as Markdown</a>

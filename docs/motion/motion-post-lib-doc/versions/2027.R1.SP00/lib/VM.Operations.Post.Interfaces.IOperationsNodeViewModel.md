@@ -15,3 +15,5 @@ public interface IOperationsNodeViewModel
  [ChangeID\(int\)](VM.Operations.Post.Interfaces.IOperationsNodeViewModel.ChangeID.md\#VM\_Operations\_Post\_Interfaces\_IOperationsNodeViewModel\_ChangeID\_System\_Int32\_)
 
 Changes the node ID and refreshes the node's displayed identifier.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsNodeViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsNodeViewModel.md">Download this page as Markdown</a>

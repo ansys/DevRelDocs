@@ -19,3 +19,5 @@ FatigueMaterial FatigueMaterial { get; set; }
 ### Remarks
 
 This property is used to define the fatigue material characteristics for the finite element property.
+
+<a href="/lib/VM.Models.Post.IFEProperty.FatigueMaterial.md" download="VM.Models.Post.IFEProperty.FatigueMaterial.md">Download this page as Markdown</a>

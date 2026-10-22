@@ -41,3 +41,5 @@ Gets the identifiers assigned to the nodes in this part.
  [GetNodePosition\(uint\)](VM.Models.Post.IDataPart.GetNodePosition.md\#VM\_Models\_Post\_IDataPart\_GetNodePosition\_System\_UInt32\_)
 
 Gets the position of the specified node.
+
+<a href="/lib/VM.Models.Post.IDataPart.md" download="VM.Models.Post.IDataPart.md">Download this page as Markdown</a>

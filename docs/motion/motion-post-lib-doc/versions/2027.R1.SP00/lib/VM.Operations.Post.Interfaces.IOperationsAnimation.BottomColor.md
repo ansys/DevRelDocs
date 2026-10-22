@@ -19,3 +19,5 @@ Color BottomColor { get; set; }
 ### Remarks
 
 `BottomColor` and [`TopColor`](VM.Operations.Post.Interfaces.IOperationsAnimation.TopColor.md) define the lower and upper colors of the animation background. The selected colors are also used when animation frames are captured.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.BottomColor.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.BottomColor.md">Download this page as Markdown</a>

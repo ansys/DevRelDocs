@@ -31,3 +31,5 @@ There can be only one active view at a time.
 <Note>
 Activating this view deactivates the other active views in the same page.
 </Note>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.Activate.md" download="VM.Operations.Post.Interfaces.IView.Activate.md">Download this page as Markdown</a>

@@ -50,3 +50,5 @@ frequency = eigenvalue_analysis.GetFrequency(frequency_index)
 ### Remarks
 
 The returned frequency belongs to the currently selected sampling time. An index outside the available frequency range returns `null`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetFrequency.md" download="VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetFrequency.md">Download this page as Markdown</a>

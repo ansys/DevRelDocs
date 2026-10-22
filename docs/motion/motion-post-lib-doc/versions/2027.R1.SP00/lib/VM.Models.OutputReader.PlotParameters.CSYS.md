@@ -21,3 +21,5 @@ public object CSYS { get; set; }
 ### Remarks
 
 The coordinate-system value is applied when the selected result paths require coordinate-based data. When the value is not a coordinate-system marker object, the global inertia coordinate system is used.
+
+<a href="/lib/VM.Models.OutputReader.PlotParameters.CSYS.md" download="VM.Models.OutputReader.PlotParameters.CSYS.md">Download this page as Markdown</a>

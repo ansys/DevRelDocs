@@ -15,3 +15,5 @@ public abstract CategoryType CategoryType { get; }
 ### Property Value
 
  [CategoryType](VM.Models.Post.CategoryType.md)
+
+<a href="/lib/VM.Models.Post.EntityBase.CategoryType.md" download="VM.Models.Post.EntityBase.CategoryType.md">Download this page as Markdown</a>

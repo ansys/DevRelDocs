@@ -23,3 +23,5 @@ Gets or sets the font size used to render the axis title. Values must be from `1
  [TitleWeight](VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.TitleWeight.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAxisViewModelBase\_TitleWeight)
 
 Gets or sets the font weight used to render the axis title.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md" download="VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md">Download this page as Markdown</a>

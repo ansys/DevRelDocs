@@ -11,3 +11,5 @@ Initializes [`ApplicationHandler`](VM.API.Post.Operations.ApplicationHandler.md)
 ```csharp
 public ApplicationHandler()
 ```
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.-ctor.md" download="VM.API.Post.Operations.ApplicationHandler.-ctor.md">Download this page as Markdown</a>

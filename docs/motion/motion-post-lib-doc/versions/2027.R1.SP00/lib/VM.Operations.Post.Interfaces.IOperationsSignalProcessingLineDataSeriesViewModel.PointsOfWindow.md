@@ -19,3 +19,5 @@ int PointsOfWindow { get; set; }
 ### Remarks
 
 This value applies when [`SignalProcessingType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SignalProcessingType.md) selects smoothing. The calculation returns no curve when twice this value exceeds the source point count or when the value is not positive.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.PointsOfWindow.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.PointsOfWindow.md">Download this page as Markdown</a>

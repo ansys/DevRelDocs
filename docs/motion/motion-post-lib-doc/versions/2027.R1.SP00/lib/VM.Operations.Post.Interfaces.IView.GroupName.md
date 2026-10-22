@@ -19,3 +19,5 @@ string GroupName { get; set; }
 ### Remarks
 
 Getting this value reads the containing page name; setting it changes that page name.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.GroupName.md" download="VM.Operations.Post.Interfaces.IView.GroupName.md">Download this page as Markdown</a>

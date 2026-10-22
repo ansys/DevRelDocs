@@ -19,3 +19,5 @@ MeanStressCorrection MeanStressCorrection { get; set; }
 ### Remarks
 
 This property applies when [`AnalysisType`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md) selects stress-life analysis. Changing it updates the mean-stress correction stored for fatigue evaluation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.MeanStressCorrection.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.MeanStressCorrection.md">Download this page as Markdown</a>

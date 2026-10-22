@@ -12,7 +12,7 @@ public enum CalculusType
 
 ## Fields
 
-`Differentiation` 
+`Differentiation = 0` 
 
 Description: "Differentiation"
 
@@ -20,10 +20,10 @@ Calculates the derivative of the curve data.
 
 
 
-`Integration` 
+`Integration = 1` 
 
 Description: "Integration"
 
 Calculates the integral of the curve data.
 
-
+<a href="/lib/VM.Models.Post.CalculusType.md" download="VM.Models.Post.CalculusType.md">Download this page as Markdown</a>

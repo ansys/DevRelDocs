@@ -12,7 +12,7 @@ public enum PlasticityCorrection
 
 ## Fields
 
-`Glinka_ESED` 
+`Glinka_ESED = 1` 
 
 Description: "Glinka ESED"
 
@@ -20,10 +20,10 @@ Uses the Glinka elastic strain energy density plasticity correction.
 
 
 
-`Neuber` 
+`Neuber = 0` 
 
 Description: "Neuber"
 
 Uses the Neuber plasticity correction.
 
-
+<a href="/lib/VM.Models.Post.PlasticityCorrection.md" download="VM.Models.Post.PlasticityCorrection.md">Download this page as Markdown</a>

@@ -58,3 +58,5 @@ Time(sec)   Value
 Each row is trimmed, and every run of spaces or tabs is read as a single column break, so the row is handled like the comma-separated `.csv` row. The first row is a header unless it already holds numbers, and each later row holds one sample.
 
 A `.rsp` file must be a binary RPC III file, so it cannot be read as a text table. The file stores one named channel for each data column, and each channel holds the ordered sample values used as the X or Y source selected by `targets`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsChartViewModel.md">Download this page as Markdown</a>

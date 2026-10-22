@@ -12,7 +12,7 @@ public enum ExtremalValueType
 
 ## Fields
 
-`ElementSet` 
+`ElementSet = 4` 
 
 Description: "Each ElementSet"
 
@@ -20,7 +20,7 @@ Calculates the value separately for each element set.
 
 
 
-`FEProperty` 
+`FEProperty = 3` 
 
 Description: "Each Property"
 
@@ -28,7 +28,7 @@ Calculates the value separately for each finite-element property.
 
 
 
-`None` 
+`None = 0` 
 
 Description: "None"
 
@@ -36,7 +36,7 @@ Does not calculate an extremal value.
 
 
 
-`Part` 
+`Part = 1` 
 
 Description: "Each Part"
 
@@ -44,10 +44,10 @@ Calculates the value separately for each part.
 
 
 
-`Whole` 
+`Whole = 2` 
 
 Description: "Whole"
 
 Calculates the value across the whole result.
 
-
+<a href="/lib/VM.Models.Post.ExtremalValueType.md" download="VM.Models.Post.ExtremalValueType.md">Download this page as Markdown</a>

@@ -73,3 +73,5 @@ A `.txt` extension is written as a tab-separated table.
 ```
 
 With `BINARY`, the file has none of the header, identifier, or time rows. It stores only the contour values as consecutive raw 8-byte doubles, written frame by frame in the same identifier order used by the text table.
+
+<a href="/lib/VM.API.Post.Operations.Export.md" download="VM.API.Post.Operations.Export.md">Download this page as Markdown</a>

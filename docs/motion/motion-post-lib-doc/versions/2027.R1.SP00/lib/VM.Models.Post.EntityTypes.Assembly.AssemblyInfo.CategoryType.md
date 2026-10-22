@@ -15,3 +15,5 @@ public override CategoryType CategoryType { get; }
 ### Property Value
 
  [CategoryType](VM.Models.Post.CategoryType.md)
+
+<a href="/lib/VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.CategoryType.md" download="VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.CategoryType.md">Download this page as Markdown</a>

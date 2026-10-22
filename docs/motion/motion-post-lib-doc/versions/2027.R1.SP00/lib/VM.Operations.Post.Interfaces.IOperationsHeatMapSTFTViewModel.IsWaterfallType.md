@@ -19,3 +19,5 @@ bool IsWaterfallType { get; set; }
 ### Remarks
 
 Changing this value switches the active curve source between [`STFT2DViewModel`](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.STFT2DViewModel.md) and [`STFT3DViewModel`](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.STFT3DViewModel.md). The selected representation also supplies the active and selected curve collections.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.IsWaterfallType.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.IsWaterfallType.md">Download this page as Markdown</a>

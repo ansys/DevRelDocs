@@ -101,3 +101,5 @@ output_reader.ExportMarkerToFile(output_path, state_ids, markers)
 <Danger>
 The supplied markers must be [`IResultMarker`](VM.Models.Post.IResultMarker.md) objects. A [`GeneralMarker`](VM.Models.Post.GeneralMarker.md) created by [CreateCoordinateSystem\(string, string\)](VM.Post.API.OutputReader.OutputReader.CreateCoordinateSystem.md) is not compatible with this parameter.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportMarkerToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportMarkerToFile.md">Download this page as Markdown</a>

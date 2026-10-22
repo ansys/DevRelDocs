@@ -25,3 +25,5 @@ The assigned value is validated as a coordinate-system name. Renaming changes th
  Exception
 
 Thrown when the assigned name is empty or already identifies an entity in the analysis result.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.FullName.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.FullName.md">Download this page as Markdown</a>

@@ -57,3 +57,5 @@ animation_view.SetViewSpec(view_spec)
 ### Remarks
 
 The camera information for the current animation frame is updated when `viewSpec` contains changed camera values.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.SetViewSpec.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.SetViewSpec.md">Download this page as Markdown</a>

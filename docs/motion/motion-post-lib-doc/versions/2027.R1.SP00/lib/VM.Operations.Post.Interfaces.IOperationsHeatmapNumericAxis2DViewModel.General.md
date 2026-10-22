@@ -19,3 +19,5 @@ bool General { get; set; }
 ### Remarks
 
 When this value is `true`, the axis switches to general formatting and resets the digit setting to `15`. When it is `false`, [`Digit`](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.Digit.md) and [`LabelFormatType`](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.LabelFormatType.md) define the manual format.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.General.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.General.md">Download this page as Markdown</a>

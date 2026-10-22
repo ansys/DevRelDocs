@@ -19,3 +19,5 @@ double FontSize { get; set; }
 ### Remarks
 
 Changing this value updates the displayed size of legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontSize.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontSize.md">Download this page as Markdown</a>

@@ -41,3 +41,5 @@ Each input name is checked with [`OutputReader`](VM.Post.API.OutputReader.Output
 <Note>
 Names that do not identify an entity are omitted from the returned dictionary.
 </Note>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetMarkerPosition.md" download="VM.Post.API.OutputReader.OutputReader.GetMarkerPosition.md">Download this page as Markdown</a>

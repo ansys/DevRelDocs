@@ -19,3 +19,5 @@ FontFamily FontFace { get; set; }
 ### Remarks
 
 Changing this value updates the font family used to render numeric axis labels.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.FontFace.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.FontFace.md">Download this page as Markdown</a>

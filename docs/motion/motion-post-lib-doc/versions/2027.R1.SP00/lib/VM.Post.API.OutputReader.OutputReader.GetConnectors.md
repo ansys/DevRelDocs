@@ -35,3 +35,5 @@ connectors = output_reader.GetConnectors(entity_name)
 ### Remarks
 
 The method checks constraints, contacts, and forces associated with the body and includes each connector once.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetConnectors.md" download="VM.Post.API.OutputReader.OutputReader.GetConnectors.md">Download this page as Markdown</a>

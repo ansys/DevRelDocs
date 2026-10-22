@@ -181,3 +181,5 @@ For a complete operations, see [Operation API Example - View Entity Management: 
  [StopAnimation\(\)](VM.Operations.Post.Interfaces.IOperationsAnimation.StopAnimation.md\#VM\_Operations\_Post\_Interfaces\_IOperationsAnimation\_StopAnimation)
 
 Stops animation playback.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.md">Download this page as Markdown</a>

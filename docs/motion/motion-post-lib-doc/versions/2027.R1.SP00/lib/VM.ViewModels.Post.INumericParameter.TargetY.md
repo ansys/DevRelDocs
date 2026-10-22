@@ -15,3 +15,5 @@ string TargetY { get; set; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.ViewModels.Post.INumericParameter.TargetY.md" download="VM.ViewModels.Post.INumericParameter.TargetY.md">Download this page as Markdown</a>

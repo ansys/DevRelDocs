@@ -15,3 +15,5 @@ string AnimationDataKey { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.AnimationDataKey.md" download="VM.Models.Post.IVectorDisplayAnimationBase.AnimationDataKey.md">Download this page as Markdown</a>

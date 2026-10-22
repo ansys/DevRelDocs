@@ -133,3 +133,5 @@ chart.CreateScale(curves, scale_x, scale_y)
 
 This function scales each curve specified in <code class="paramref">seriesViewModels</code> by multiplying the X and Y values
 of each point in the curve by the specified scale values.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateScale.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateScale.md">Download this page as Markdown</a>

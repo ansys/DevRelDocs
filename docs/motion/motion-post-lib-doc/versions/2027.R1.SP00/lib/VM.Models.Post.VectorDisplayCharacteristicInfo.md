@@ -19,3 +19,5 @@ Gets the characteristic name used for the vector display.
  [VectorDisplayType](VM.Models.Post.VectorDisplayCharacteristicInfo.VectorDisplayType.md\#VM\_Models\_Post\_VectorDisplayCharacteristicInfo\_VectorDisplayType)
 
 Gets the vector display mode associated with the characteristic.
+
+<a href="/lib/VM.Models.Post.VectorDisplayCharacteristicInfo.md" download="VM.Models.Post.VectorDisplayCharacteristicInfo.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ public interface IOperationsPointDisplayViewModel : IOperationsVectorDisplayBase
  [SymbolSize](VM.Operations.Post.Interfaces.IOperationsPointDisplayViewModel.SymbolSize.md\#VM\_Operations\_Post\_Interfaces\_IOperationsPointDisplayViewModel\_SymbolSize)
 
 Gets or sets the symbol size in pixels. The default value returned when no point animation data is available is `10`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsPointDisplayViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsPointDisplayViewModel.md">Download this page as Markdown</a>

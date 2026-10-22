@@ -15,3 +15,5 @@ string SubTarget { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.SubTarget.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.SubTarget.md">Download this page as Markdown</a>

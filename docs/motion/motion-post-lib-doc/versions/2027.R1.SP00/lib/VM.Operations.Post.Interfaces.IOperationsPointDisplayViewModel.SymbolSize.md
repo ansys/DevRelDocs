@@ -19,3 +19,5 @@ int SymbolSize { get; set; }
 ### Remarks
 
 Changing this value updates the point display animation and requests an animation refresh without changing the displayed vector data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsPointDisplayViewModel.SymbolSize.md" download="VM.Operations.Post.Interfaces.IOperationsPointDisplayViewModel.SymbolSize.md">Download this page as Markdown</a>

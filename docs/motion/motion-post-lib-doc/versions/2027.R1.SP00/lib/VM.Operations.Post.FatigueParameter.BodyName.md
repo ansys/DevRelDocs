@@ -20,3 +20,5 @@ public string BodyName { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses identify target bodies with [`Targets`](VM.ViewModels.Post.IDurabilityAnalysisParameter.Targets.md) and configure the target through [`IOperationsFEBody`](VM.Operations.Post.Interfaces.IOperationsFEBody.md).
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.BodyName.md" download="VM.Operations.Post.FatigueParameter.BodyName.md">Download this page as Markdown</a>

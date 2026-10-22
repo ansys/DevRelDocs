@@ -19,3 +19,5 @@ double TimeSlice { get; set; }
 ### Remarks
 
 Changing this value changes the source time span assigned to each STFT window. A positive value is required when the STFT view is updating.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.TimeSlice.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.TimeSlice.md">Download this page as Markdown</a>

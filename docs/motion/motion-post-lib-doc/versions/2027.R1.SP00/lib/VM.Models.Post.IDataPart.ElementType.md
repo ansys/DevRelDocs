@@ -23,3 +23,5 @@ Zero-based index of the finite element.
  ElementType
 
 Element type assigned to the specified finite element.
+
+<a href="/lib/VM.Models.Post.IDataPart.ElementType.md" download="VM.Models.Post.IDataPart.ElementType.md">Download this page as Markdown</a>

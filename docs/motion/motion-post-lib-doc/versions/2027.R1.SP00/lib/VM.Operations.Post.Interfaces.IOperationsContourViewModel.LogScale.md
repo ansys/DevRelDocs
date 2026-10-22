@@ -19,3 +19,5 @@ bool LogScale { get; set; }
 ### Remarks
 
 Changing this value updates scalar contour rendering and makes continuous-color settings unavailable while logarithmic scaling is active.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LogScale.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.LogScale.md">Download this page as Markdown</a>

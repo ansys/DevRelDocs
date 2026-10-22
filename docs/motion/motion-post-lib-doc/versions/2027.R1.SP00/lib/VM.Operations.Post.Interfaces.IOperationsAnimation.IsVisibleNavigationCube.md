@@ -19,3 +19,5 @@ bool IsVisibleNavigationCube { get; set; }
 ### Remarks
 
 The navigation cube is drawn in the animation view and in captured animation frames when this value is `true`. Its position is controlled by [`NavigationCubePosition`](VM.Operations.Post.Interfaces.IOperationsAnimation.NavigationCubePosition.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleNavigationCube.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleNavigationCube.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ FontWeight FontWeight { get; set; }
 ### Remarks
 
 Changing this value updates the weight used for legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontWeight.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontWeight.md">Download this page as Markdown</a>
