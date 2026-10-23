@@ -19,3 +19,5 @@ IEnumerable<string> ComponentList { get; }
 ### Remarks
 
 The collection is provided by the created contour's selected target, mapping type, and characteristic.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.ComponentList.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.ComponentList.md">Download this page as Markdown</a>

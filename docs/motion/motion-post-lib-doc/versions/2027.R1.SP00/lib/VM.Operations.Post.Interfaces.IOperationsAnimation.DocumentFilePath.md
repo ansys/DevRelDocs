@@ -20,3 +20,5 @@ string DocumentFilePath { get; }
 
 The path identifies the result file used to create [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md). The value is empty when the animation view has no result document.
 The value is read-only and is determined by the result document associated with the animation view.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.DocumentFilePath.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.DocumentFilePath.md">Download this page as Markdown</a>

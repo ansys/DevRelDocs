@@ -12,7 +12,7 @@ public enum MeanStressCorrection
 
 ## Fields
 
-`DEelliptic` 
+`DEelliptic = 4` 
 
 Description: "DE Elliptic"
 
@@ -20,7 +20,7 @@ Uses the DE elliptic mean-stress correction.
 
 
 
-`GerberLocus` 
+`GerberLocus = 2` 
 
 Description: "Gerber Locus"
 
@@ -28,7 +28,7 @@ Uses the Gerber locus mean-stress correction.
 
 
 
-`ModifiedGoodman` 
+`ModifiedGoodman = 1` 
 
 Description: "Modified Goodman"
 
@@ -36,7 +36,7 @@ Uses the Modified Goodman mean-stress correction.
 
 
 
-`Neglect` 
+`Neglect = 0` 
 
 Description: "Neglect"
 
@@ -44,10 +44,10 @@ Does not apply a mean-stress correction.
 
 
 
-`Sodeberg` 
+`Sodeberg = 3` 
 
 Description: "Soderberg"
 
 Uses the Soderberg mean-stress correction.
 
-
+<a href="/lib/VM.Models.Post.MeanStressCorrection.md" download="VM.Models.Post.MeanStressCorrection.md">Download this page as Markdown</a>

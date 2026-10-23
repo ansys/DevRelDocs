@@ -21,3 +21,5 @@ List<List<double[]>> Vectors { get; set; }
 The outer list index is the frame count, the inner list index is the vector count, and each array holds the x, y, and z components or a scalar value.
 
 vector type:vector, position type:none or scala, line type:end point
+
+<a href="/lib/VM.Models.OutputReader.IVectorDisplayAnimationData.Vectors.md" download="VM.Models.OutputReader.IVectorDisplayAnimationData.Vectors.md">Download this page as Markdown</a>

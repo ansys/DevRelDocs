@@ -15,3 +15,5 @@ public int Location { get; set; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.EntityTypes.NamedSelection.Location.md" download="VM.Models.Post.EntityTypes.NamedSelection.Location.md">Download this page as Markdown</a>

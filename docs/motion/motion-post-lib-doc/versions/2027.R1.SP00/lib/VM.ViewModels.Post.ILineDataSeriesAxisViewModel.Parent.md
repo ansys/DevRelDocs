@@ -15,3 +15,5 @@ string Parent { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.Parent.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.Parent.md">Download this page as Markdown</a>

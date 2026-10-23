@@ -57,3 +57,5 @@ Gets or sets the start of the time range taken from the source signal for the ST
  [TimeSlice](VM.Models.Post.ISTFTParameters.TimeSlice.md\#VM\_Models\_Post\_ISTFTParameters\_TimeSlice)
 
 Gets or sets the time length of one STFT window. It sets how much of the source signal each window covers.
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.md" download="VM.Models.Post.ISTFTParameters.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Color LegendFontColor { get; set; }
 ### Remarks
 
 Changing this value updates the contour legend without changing the contour data range.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendFontColor.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendFontColor.md">Download this page as Markdown</a>

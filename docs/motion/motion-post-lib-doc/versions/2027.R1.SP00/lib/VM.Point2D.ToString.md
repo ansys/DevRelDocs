@@ -13,3 +13,5 @@ public override string ToString()
 ### Returns
 
  string
+
+<a href="/lib/VM.Point2D.ToString.md" download="VM.Point2D.ToString.md">Download this page as Markdown</a>

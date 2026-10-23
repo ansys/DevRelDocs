@@ -43,3 +43,5 @@ Gets or sets whether the legend displays all chart curves or only visible curves
  [LegendPlacement](VM.Operations.Post.Interfaces.IOperationsLegendModifier.LegendPlacement.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLegendModifier\_LegendPlacement)
 
 Gets or sets the legend placement selected from [`LegendPlacementType`](VM.Models.Post.LegendPlacementType.md) relative to the chart.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.md">Download this page as Markdown</a>

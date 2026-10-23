@@ -133,3 +133,5 @@ chart.CreateSimpleMath(curves, simple_math_type, points)
 
 This function performs the specified mathematical operation on each curve in <code class="paramref">seriesViewModels</code> and combines the results
 into a single curve. The function supports addition, subtraction, and multiplication of the Y values of the data points in the curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSimpleMath.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSimpleMath.md">Download this page as Markdown</a>

@@ -12,7 +12,7 @@ public enum LineStyleType
 
 ## Fields
 
-`Dash` 
+`Dash = 2` 
 
 Description: "Dash"
 
@@ -20,7 +20,7 @@ Renders a dashed line.
 
 
 
-`DashDot` 
+`DashDot = 3` 
 
 Description: "DashDot"
 
@@ -28,7 +28,7 @@ Renders a repeating dash-and-dot line.
 
 
 
-`DashDotDot` 
+`DashDotDot = 4` 
 
 Description: "DashDotDot"
 
@@ -36,7 +36,7 @@ Renders a repeating dash-and-double-dot line.
 
 
 
-`Dot` 
+`Dot = 1` 
 
 Description: "Dot"
 
@@ -44,10 +44,10 @@ Renders a dotted line.
 
 
 
-`Solid` 
+`Solid = 0` 
 
 Description: "Solid"
 
 Renders a continuous line.
 
-
+<a href="/lib/VM.Models.Post.LineStyleType.md" download="VM.Models.Post.LineStyleType.md">Download this page as Markdown</a>

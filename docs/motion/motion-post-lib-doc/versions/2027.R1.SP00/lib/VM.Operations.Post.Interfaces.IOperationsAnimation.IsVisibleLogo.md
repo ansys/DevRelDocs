@@ -19,3 +19,5 @@ bool IsVisibleLogo { get; set; }
 ### Remarks
 
 The logo is drawn in the animation view and in captured animation frames when this value is `true`. Use [`LogoPath`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPath.md), [`LogoPosition`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPosition.md), [`LogoHeight`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoHeight.md), [`LogoWidth`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoWidth.md), and [`Opacity`](VM.Operations.Post.Interfaces.IOperationsAnimation.Opacity.md) to configure it.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md">Download this page as Markdown</a>

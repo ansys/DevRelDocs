@@ -29,3 +29,5 @@ active_view = page.GetActiveView()
 ### Remarks
 
 Calling [Activate\(\)](VM.Operations.Post.Interfaces.IView.Activate.md) on a view, or creating a new view with [CreateAnimation\(IAnalysisResultViewModel, string\)](VM.Operations.Post.Interfaces.IPage.CreateAnimation.md) or [CreateChart\(string\)](VM.Operations.Post.Interfaces.IPage.CreateChart.md), changes the view reported by this method.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.GetActiveView.md" download="VM.Operations.Post.Interfaces.IPage.GetActiveView.md">Download this page as Markdown</a>

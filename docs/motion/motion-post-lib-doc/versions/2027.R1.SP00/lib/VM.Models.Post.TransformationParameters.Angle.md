@@ -16,3 +16,5 @@ public Vector Angle { get; set; }
 ### Property Value
 
  [Vector](VM.Vector.md)
+
+<a href="/lib/VM.Models.Post.TransformationParameters.Angle.md" download="VM.Models.Post.TransformationParameters.Angle.md">Download this page as Markdown</a>

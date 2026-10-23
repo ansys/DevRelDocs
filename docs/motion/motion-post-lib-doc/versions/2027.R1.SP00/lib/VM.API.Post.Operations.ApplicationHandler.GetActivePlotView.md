@@ -22,3 +22,5 @@ The active [`IOperationsLine2DViewModelBase`](VM.Operations.Post.Interfaces.IOpe
 ### Remarks
 
 This method is obsolete. Use [GetActiveView\(\)](VM.Operations.Post.Interfaces.IPage.GetActiveView.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetActivePlotView.md" download="VM.API.Post.Operations.ApplicationHandler.GetActivePlotView.md">Download this page as Markdown</a>

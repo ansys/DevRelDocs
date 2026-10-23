@@ -43,3 +43,5 @@ expression = dynamic_analysis.CreateExpression(expression_name)
 ### Remarks
 
 The new expression is added with an empty formula. Set [`Expression`](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.Expression.md) before evaluating or using it as curve data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateExpression.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.CreateExpression.md">Download this page as Markdown</a>

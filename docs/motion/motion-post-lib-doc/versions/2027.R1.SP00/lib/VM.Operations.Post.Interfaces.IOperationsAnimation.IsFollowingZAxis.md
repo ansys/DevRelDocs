@@ -20,3 +20,5 @@ bool IsFollowingZAxis { get; set; }
 
 This flag is used when [`TransformationType`](VM.Operations.Post.Interfaces.IOperationsAnimation.TransformationType.md) is `Translation`. It selects whether target translation along the Z axis changes the following camera.
 When this value is `false`, target translation along the Z axis is not applied to camera tracking.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingZAxis.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingZAxis.md">Download this page as Markdown</a>

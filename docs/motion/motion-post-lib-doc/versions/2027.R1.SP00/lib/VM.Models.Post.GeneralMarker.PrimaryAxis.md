@@ -20,3 +20,5 @@ public CoordinateType PrimaryAxis { get; set; }
 ### Remarks
 
 This value selects the primary axis for the marker's cylindrical or spherical representation.
+
+<a href="/lib/VM.Models.Post.GeneralMarker.PrimaryAxis.md" download="VM.Models.Post.GeneralMarker.PrimaryAxis.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ ColorSchemeType LegendColorType { get; set; }
 ### Remarks
 
 Changing this value refreshes the color mapping used by the legend and heat-map rendering.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.LegendColorType.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.LegendColorType.md">Download this page as Markdown</a>

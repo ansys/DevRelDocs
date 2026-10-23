@@ -18,3 +18,5 @@ Show or hide the legend and the animation bar with [`ShowLegend`](../../../lib/V
 - Show or hide tracking with [`TrackingCurve`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingCurve.md), and choose how tracking behaves with [`TrackingOption`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingOption.md).
 
 Set up the chart legend itself with [`Legend`](../../../lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.Legend.md).
+
+<a href="/document/operation-api/feature/op_chart_properties.md" download="op_chart_properties.md">Download this page as Markdown</a>

@@ -27,3 +27,5 @@ Gets the vector display mode used to interpret the values.
  [VectorDisplayBaseData](VM.Models.Post.IVectorDisplay.VectorDisplayBaseData.md\#VM\_Models\_Post\_IVectorDisplay\_VectorDisplayBaseData)
 
 Gets the animation data used to render the vector display.
+
+<a href="/lib/VM.Models.Post.IVectorDisplay.md" download="VM.Models.Post.IVectorDisplay.md">Download this page as Markdown</a>

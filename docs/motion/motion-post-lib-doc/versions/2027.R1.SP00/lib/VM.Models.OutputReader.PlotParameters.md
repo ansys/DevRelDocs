@@ -35,3 +35,5 @@ Gets or sets the result data source used to read curve values.
 Gets or sets the full name of the entity whose curve data is read.
 
 The value identifies an entity available in the opened result document, such as <code>Crank</code> or a body component path such as <code>FEBody_01/Node/1</code>.
+
+<a href="/lib/VM.Models.OutputReader.PlotParameters.md" download="VM.Models.OutputReader.PlotParameters.md">Download this page as Markdown</a>

@@ -13,7 +13,7 @@ public enum RecordingRangeType
 
 ## Fields
 
-`ActiveGroup` 
+`ActiveGroup = 1` 
 
 Description: "Active Page"
 
@@ -21,10 +21,10 @@ Captures the active page and its displayed content.
 
 
 
-`ActiveView` 
+`ActiveView = 0` 
 
 Description: "Active View"
 
 Captures the active view.
 
-
+<a href="/lib/VM.Models.Post.RecordingRangeType.md" download="VM.Models.Post.RecordingRangeType.md">Download this page as Markdown</a>

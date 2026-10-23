@@ -19,3 +19,5 @@ IHeatMapSTFTView2DViewModel STFT2DViewModel { get; }
 ### Remarks
 
 This view is used when [`IsWaterfallType`](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.IsWaterfallType.md) is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.STFT2DViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.STFT2DViewModel.md">Download this page as Markdown</a>

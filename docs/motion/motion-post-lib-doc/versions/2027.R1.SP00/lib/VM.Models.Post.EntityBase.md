@@ -28,3 +28,5 @@ Gets the category used to group this entity in the Postprocessor.
  [EntityType](VM.Models.Post.EntityBase.EntityType.md\#VM\_Models\_Post\_EntityBase\_EntityType)
 
 Gets the entity type that identifies the concrete entity represented by this base class.
+
+<a href="/lib/VM.Models.Post.EntityBase.md" download="VM.Models.Post.EntityBase.md">Download this page as Markdown</a>

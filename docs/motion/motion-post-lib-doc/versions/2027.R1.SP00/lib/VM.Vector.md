@@ -53,3 +53,5 @@ Gets or sets the element of vector.
  [this\[Coordinate\]](VM.Vector.Item.md\#VM\_Vector\_Item\_VM\_Coordinate\_)
 
 Gets or sets the element of vector.
+
+<a href="/lib/VM.Vector.md" download="VM.Vector.md">Download this page as Markdown</a>

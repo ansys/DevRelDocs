@@ -123,3 +123,5 @@ chart.CreateInterpolation(curves, points)
 
 This function performs interpolation on each curve specified in <code class="paramref">seriesViewModels</code> by calculating the interpolated values
 based on the specified number of points.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateInterpolation.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateInterpolation.md">Download this page as Markdown</a>

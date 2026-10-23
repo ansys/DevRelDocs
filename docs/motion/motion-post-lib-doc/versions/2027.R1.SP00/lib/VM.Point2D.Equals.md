@@ -31,3 +31,5 @@ public override bool Equals(object obj)
 ### Returns
 
  bool
+
+<a href="/lib/VM.Point2D.Equals.md" download="VM.Point2D.Equals.md">Download this page as Markdown</a>

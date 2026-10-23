@@ -87,3 +87,5 @@ This method exports all curves contained in the chart without displaying a file 
 It accepts a file path as a parameter and saves the curves directly to that location. 
 This method is recommended for use with the OperationAPI, especially for repetitive tasks or scenarios 
 requiring automation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md">Download this page as Markdown</a>

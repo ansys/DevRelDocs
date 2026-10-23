@@ -116,3 +116,5 @@ The matching `IView` is removed with [`IPage`](VM.Operations.Post.Interfaces.IPa
  ArgumentException
 
 Thrown when `name` is `null` or empty.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.CloseView.md" download="VM.Operations.Post.Interfaces.IPage.CloseView.md">Download this page as Markdown</a>

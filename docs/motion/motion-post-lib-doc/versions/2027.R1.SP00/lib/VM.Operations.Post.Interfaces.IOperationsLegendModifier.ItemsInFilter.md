@@ -19,3 +19,5 @@ string ItemsInFilter { get; set; }
 ### Remarks
 
 Changing this value updates the set of curve entries represented in the legend.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.ItemsInFilter.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.ItemsInFilter.md">Download this page as Markdown</a>

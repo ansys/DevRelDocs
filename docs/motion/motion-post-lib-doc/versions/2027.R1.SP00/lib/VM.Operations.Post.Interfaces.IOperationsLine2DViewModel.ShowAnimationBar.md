@@ -19,3 +19,5 @@ bool ShowAnimationBar { get; set; }
 ### Remarks
 
 Changing this value changes the chart's data-tracking controls.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.ShowAnimationBar.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.ShowAnimationBar.md">Download this page as Markdown</a>

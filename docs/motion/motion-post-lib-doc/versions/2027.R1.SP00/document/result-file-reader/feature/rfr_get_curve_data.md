@@ -10,3 +10,5 @@ Read curve data with `GetCurves(PlotParameters)`. [`Target`](../../../lib/VM.Mod
 
 ## Interpolating
 Build a new set of points from X and Y arrays with [`InterpolationAkimaSpline(double[], double[], int, int, double, double)`](../../../lib/VM.Post.API.OutputReader.OutputReader.InterpolationAkimaSpline.md). The result includes [`InterpolationErrorType`](../../../lib/VM.Models.Post.InterpolationErrorType.md) together with the new X and Y arrays. Adjacent duplicate X values are removed before interpolation runs.
+
+<a href="/document/result-file-reader/feature/rfr_get_curve_data.md" download="rfr_get_curve_data.md">Download this page as Markdown</a>

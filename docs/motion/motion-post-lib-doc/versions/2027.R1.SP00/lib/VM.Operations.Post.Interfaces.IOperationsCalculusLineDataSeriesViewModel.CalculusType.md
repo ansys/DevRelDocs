@@ -21,3 +21,5 @@ CalculusType CalculusType { get; set; }
 Changing `CalculusType` recalculates points from the original curve. Differentiation produces derivative points, while integration produces accumulated points.
 
 The calculated curve raises a change notification after recalculation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.CalculusType.md" download="VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.CalculusType.md">Download this page as Markdown</a>

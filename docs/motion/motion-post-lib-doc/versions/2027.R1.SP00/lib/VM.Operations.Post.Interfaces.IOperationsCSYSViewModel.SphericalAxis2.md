@@ -19,3 +19,5 @@ CoordinateType SphericalAxis2 { get; set; }
 ### Remarks
 
 The value affects the orientation used to interpret spherical coordinates. The coordinate system keeps the two spherical axes distinct.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.SphericalAxis2.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.SphericalAxis2.md">Download this page as Markdown</a>

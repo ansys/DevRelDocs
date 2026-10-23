@@ -19,3 +19,5 @@ FontWeight LabelWeight { get; set; }
 ### Remarks
 
 This member is obsolete. It forwards its value to the current label font-weight setting.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelWeight.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelWeight.md">Download this page as Markdown</a>

@@ -20,3 +20,5 @@ public CoordinateType SecondaryAxis { get; set; }
 ### Remarks
 
 This value selects the secondary axis for the marker's cylindrical or spherical representation.
+
+<a href="/lib/VM.Models.Post.GeneralMarker.SecondaryAxis.md" download="VM.Models.Post.GeneralMarker.SecondaryAxis.md">Download this page as Markdown</a>

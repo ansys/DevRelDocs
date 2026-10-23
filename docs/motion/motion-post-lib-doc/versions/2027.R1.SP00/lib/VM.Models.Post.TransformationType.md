@@ -12,20 +12,20 @@ public enum TransformationType
 
 ## Fields
 
-`Rotation` 
+`Rotation = 2` 
 
 Follows the target rotation.
 
 
 
-`Translation` 
+`Translation = 1` 
 
 Follows the target translation.
 
 
 
-`Unknown` 
+`Unknown = 0` 
 
 Indicates that no following transformation mode is selected.
 
-
+<a href="/lib/VM.Models.Post.TransformationType.md" download="VM.Models.Post.TransformationType.md">Download this page as Markdown</a>

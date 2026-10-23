@@ -13,7 +13,7 @@ public enum WeightingType
 
 ## Fields
 
-`AWeighting` 
+`AWeighting = 0` 
 
 Description: "A-Weighting"
 
@@ -21,7 +21,7 @@ Applies A-weighting to the signal.
 
 
 
-`BWeighting` 
+`BWeighting = 1` 
 
 Description: "B-Weighting"
 
@@ -29,10 +29,10 @@ Applies B-weighting to the signal.
 
 
 
-`CWeighting` 
+`CWeighting = 2` 
 
 Description: "C-Weighting"
 
 Applies C-weighting to the signal.
 
-
+<a href="/lib/VM.Models.Post.WeightingType.md" download="VM.Models.Post.WeightingType.md">Download this page as Markdown</a>

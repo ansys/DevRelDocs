@@ -155,3 +155,5 @@ Invalid state IDs, entity names, mapping types, or paths can cause the read to f
  ArgumentNullException
 
 Thrown when `fncallback` is `null`.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetContourResult.md" download="VM.Post.API.OutputReader.OutputReader.GetContourResult.md">Download this page as Markdown</a>

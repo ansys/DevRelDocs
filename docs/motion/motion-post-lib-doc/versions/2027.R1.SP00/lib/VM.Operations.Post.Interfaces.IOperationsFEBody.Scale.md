@@ -19,3 +19,5 @@ double Scale { get; set; }
 ### Remarks
 
 This property is exposed when the analysis result is dynamic or static and the body can be used as a durability-analysis target. Changing it updates the scale stored with the fatigue parameters.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.Scale.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.Scale.md">Download this page as Markdown</a>

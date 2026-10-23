@@ -19,3 +19,5 @@ Color LabelTextColor { get; set; }
 ### Remarks
 
 Changing this value affects label text when [`IsLabel`](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.IsLabel.md) is `true`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelTextColor.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelTextColor.md">Download this page as Markdown</a>

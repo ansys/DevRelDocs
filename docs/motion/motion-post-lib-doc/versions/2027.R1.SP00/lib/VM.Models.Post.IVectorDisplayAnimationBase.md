@@ -47,3 +47,5 @@ Gets or sets the result state used by the animation.
  [Type](VM.Models.Post.IVectorDisplayAnimationBase.Type.md\#VM\_Models\_Post\_IVectorDisplayAnimationBase\_Type)
 
 Gets or sets the vector display mode.
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.md" download="VM.Models.Post.IVectorDisplayAnimationBase.md">Download this page as Markdown</a>

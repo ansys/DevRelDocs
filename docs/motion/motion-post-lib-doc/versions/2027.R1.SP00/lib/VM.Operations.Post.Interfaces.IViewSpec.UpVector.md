@@ -15,3 +15,5 @@ Vector UpVector { get; set; }
 ### Property Value
 
  [Vector](VM.Vector.md)
+
+<a href="/lib/VM.Operations.Post.Interfaces.IViewSpec.UpVector.md" download="VM.Operations.Post.Interfaces.IViewSpec.UpVector.md">Download this page as Markdown</a>

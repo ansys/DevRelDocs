@@ -20,3 +20,5 @@ double Opacity { get; set; }
 
 The value controls logo transparency when [`IsVisibleLogo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md) is `true`. A value of `0` hides the logo content through full transparency, and a value of `100` uses full opacity.
 Values outside the `0` to `100` range are not valid.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.Opacity.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.Opacity.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ bool TrackingCurve { get; set; }
 ### Remarks
 
 Changing this value updates the chart tracking control. [`TrackingOption`](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingOption.md) determines whether tracking displays one or multiple curves.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingCurve.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingCurve.md">Download this page as Markdown</a>

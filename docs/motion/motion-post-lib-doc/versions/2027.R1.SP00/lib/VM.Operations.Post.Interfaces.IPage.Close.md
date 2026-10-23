@@ -15,3 +15,5 @@ void Close()
 ### Remarks
 
 After this call, `IPage` is no longer included in [GetPages\(\)](VM.API.Post.Operations.ApplicationHandler.GetPages.md). The associated `IView` objects are also removed.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.Close.md" download="VM.Operations.Post.Interfaces.IPage.Close.md">Download this page as Markdown</a>

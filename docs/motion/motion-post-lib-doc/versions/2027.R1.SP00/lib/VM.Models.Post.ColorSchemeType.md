@@ -12,62 +12,62 @@ public enum ColorSchemeType
 
 ## Fields
 
-`BLACK_TO_WHITE` 
+`BLACK_TO_WHITE = 2` 
 
 Maps black to white across the value range.
 
 
 
-`GREEN_TO_BROWN` 
+`GREEN_TO_BROWN = 4` 
 
 Maps green to brown across the value range.
 
 
 
-`METAL_CASTING` 
+`METAL_CASTING = 6` 
 
 Uses a metal-casting color mapping.
 
 
 
-`NORMAL` 
+`NORMAL = 0` 
 
 Uses the standard color mapping.
 
 
 
-`NORMAL_INVERTED` 
+`NORMAL_INVERTED = 1` 
 
 Uses the inverted standard color mapping.
 
 
 
-`THERMAL_1` 
+`THERMAL_1 = 7` 
 
 Uses the first thermal color mapping.
 
 
 
-`THERMAL_2` 
+`THERMAL_2 = 8` 
 
 Uses the second thermal color mapping.
 
 
 
-`THERMAL_3` 
+`THERMAL_3 = 9` 
 
 Uses the third thermal color mapping.
 
 
 
-`WHITE_TO_BLACK` 
+`WHITE_TO_BLACK = 3` 
 
 Maps white to black across the value range.
 
 
 
-`WHITE_TO_BROWN` 
+`WHITE_TO_BROWN = 5` 
 
 Maps white to brown across the value range.
 
-
+<a href="/lib/VM.Models.Post.ColorSchemeType.md" download="VM.Models.Post.ColorSchemeType.md">Download this page as Markdown</a>

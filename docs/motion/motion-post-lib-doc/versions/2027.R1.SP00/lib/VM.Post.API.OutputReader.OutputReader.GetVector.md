@@ -95,3 +95,5 @@ The selected analysis result is used with [`OutputReader`](VM.Post.API.OutputRea
 <Danger>
 `target` and `path` must be valid for `analysisResultType`.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetVector.md" download="VM.Post.API.OutputReader.OutputReader.GetVector.md">Download this page as Markdown</a>

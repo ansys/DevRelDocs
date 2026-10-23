@@ -12,32 +12,32 @@ public enum LegendPlacementType
 
 ## Fields
 
-`Bottom` 
+`Bottom = 3` 
 
 Places the legend below the chart.
 
 
 
-`Inside` 
+`Inside = 4` 
 
 Places the legend inside the chart area.
 
 
 
-`Left` 
+`Left = 0` 
 
 Places the legend on the left side.
 
 
 
-`Right` 
+`Right = 2` 
 
 Places the legend on the right side.
 
 
 
-`Top` 
+`Top = 1` 
 
 Places the legend above the chart.
 
-
+<a href="/lib/VM.Models.Post.LegendPlacementType.md" download="VM.Models.Post.LegendPlacementType.md">Download this page as Markdown</a>

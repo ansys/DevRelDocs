@@ -19,3 +19,5 @@ int Width { get; set; }
 ### Remarks
 
 Changing this value updates the line-display rendering while preserving the vector data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.Width.md" download="VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.Width.md">Download this page as Markdown</a>

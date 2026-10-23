@@ -19,3 +19,5 @@ STFTScaleType SelectedScaleType { get; set; }
 ### Remarks
 
 Changing this value refreshes the heat map. Decibel mode also makes [`ReferenceValue`](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ReferenceValue.md) applicable.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedScaleType.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedScaleType.md">Download this page as Markdown</a>

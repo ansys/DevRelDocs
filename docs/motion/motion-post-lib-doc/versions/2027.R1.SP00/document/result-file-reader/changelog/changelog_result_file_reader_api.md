@@ -12,3 +12,5 @@ This page lists the changes in 2027 R1.
   - [`GetPlotCharacteristics(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetPlotCharacteristics.md)
   - [`GetPlotComponents(string, string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetPlotComponents.md)
 - Added the [`GetVectorDisplayCharacteristics(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetVectorDisplayCharacteristics.md) method to the `OutputReader` class.
+
+<a href="/document/result-file-reader/changelog/changelog_result_file_reader_api.md" download="changelog_result_file_reader_api.md">Download this page as Markdown</a>

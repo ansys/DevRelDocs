@@ -20,3 +20,5 @@ public GeneralMarkerType GeneralMarkerType { get; set; }
 ### Remarks
 
 Changing this value updates the marker representation.
+
+<a href="/lib/VM.Models.Post.GeneralMarker.GeneralMarkerType.md" download="VM.Models.Post.GeneralMarker.GeneralMarkerType.md">Download this page as Markdown</a>

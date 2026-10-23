@@ -28,3 +28,5 @@ analysis_result_type = output_reader.GetPrimaryAnalysisResultType()
 ### Remarks
 
 The returned value is taken from the primary analysis result reported with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md).
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetPrimaryAnalysisResultType.md" download="VM.Post.API.OutputReader.OutputReader.GetPrimaryAnalysisResultType.md">Download this page as Markdown</a>

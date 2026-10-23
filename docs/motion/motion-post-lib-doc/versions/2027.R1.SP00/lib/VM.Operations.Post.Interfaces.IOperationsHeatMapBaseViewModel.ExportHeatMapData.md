@@ -67,3 +67,5 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 ### Remarks
 
 The operation writes the heat-map data directly to <code class="paramref">filepath</code> without opening a file-save dialog.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md">Download this page as Markdown</a>

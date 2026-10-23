@@ -55,3 +55,5 @@ Gets or sets the maximum value of the axis scale.
  [ScaleMin](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleMin.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatmapNumericAxis2DViewModel\_ScaleMin)
 
 Gets or sets the minimum value of the axis scale.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md">Download this page as Markdown</a>

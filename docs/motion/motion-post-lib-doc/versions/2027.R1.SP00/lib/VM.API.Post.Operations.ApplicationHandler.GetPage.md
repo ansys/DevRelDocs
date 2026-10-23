@@ -83,3 +83,5 @@ Successful lookup activates returned `IPage` before the method returns.
  Exception
 
 Thrown when <code class="paramref">id</code> does not match an existing page.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetPage.md" download="VM.API.Post.Operations.ApplicationHandler.GetPage.md">Download this page as Markdown</a>

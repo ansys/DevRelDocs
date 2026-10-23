@@ -20,3 +20,5 @@ public PlasticityCorrection PlasticityCorrection { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses set [`PlasticityCorrection`](VM.Operations.Post.Interfaces.IOperationsFEBody.PlasticityCorrection.md) when [`AnalysisType`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md) selects strain-life analysis.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.PlasticityCorrection.md" download="VM.Operations.Post.FatigueParameter.PlasticityCorrection.md">Download this page as Markdown</a>

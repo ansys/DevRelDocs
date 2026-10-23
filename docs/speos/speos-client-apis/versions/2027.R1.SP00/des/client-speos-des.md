@@ -11,7 +11,7 @@ IsUpToDate | Ask if the given object was modified since its last successful comp
 SetActiveSelection | Set the active selection from a collection of DocObjects | `void SetActiveSelection(ICollection<object> selectedObjects)`
 GetSpeosObjectsInActivePart | Get the Speos objects contained in the active Part | `IEnumerable<object> GetSpeosObjectsInActivePart()`
 GetWarningAsException | Disable Popup errors from the solver by capturing them via a kernel director callback instead. Works both headless and visible. When the scope is over, throws an exception if any errors were captured. | `System.IDisposable GetWarningAsException(bool collectAll)`
-Compute |  | `void Compute(System.Object[] selectedObjects)`
+Compute | | `void Compute(System.Object[] selectedObjects)`
 Compute | Perform the computation of an array of DocObjects | `void Compute(SpaceClaim.Api.v271.IDocObject[] selectedObjects)`
 Compute | Perform the computation of an array of script objects | `void Compute(Inf.SpaceClaim.Automation.IApiSpeosDocObject[] selectedObjects)`
 ComputeOnActiveSelection | Perform the computation of the active selection | `void ComputeOnActiveSelection()`
@@ -28,7 +28,7 @@ Create | Create a new object of this type | `SpeosDes.Aspherics Create()`
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -223,7 +223,7 @@ Create | Create a new object of this type | `SpeosDes.ControlPlane Create()`
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -254,7 +254,7 @@ Create | Create a new object of this type | `SpeosDes.ControlPointConfiguration 
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -277,7 +277,7 @@ Create | Create a new object of this type | `SpeosDes.EyeboxConfiguration Create
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -1246,7 +1246,7 @@ Create | Create a new object of this type | `SpeosDes.HUDProjectorElement Create
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -1277,7 +1277,7 @@ GetMillingTypePossibleValues | String list attribute: List possible values | `IE
 GetBottomPrismMillingTypePossibleValues | String list attribute: List possible values | `IEnumerable<string> GetBottomPrismMillingTypePossibleValues()`
 GetSideMillingTypePossibleValues | String list attribute: List possible values | `IEnumerable<string> GetSideMillingTypePossibleValues()`
 GetBorderMillingTypePossibleValues | String list attribute: List possible values | `IEnumerable<string> GetBorderMillingTypePossibleValues()`
-ExportAsCSVFile |  | `void ExportAsCSVFile(string csvFilePath)`
+ExportAsCSVFile | | `void ExportAsCSVFile(string csvFilePath)`
 Clone | Create a copy of this object in the active context | `SpeosDes.LightGuide Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosDes.LightGuide CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
 GetStepTypePossibleValues | String list attribute: List possible values | `IEnumerable<string> GetStepTypePossibleValues()`
@@ -2195,8 +2195,8 @@ Name | Description | Syntax
 --- | --- | ---
 Clone | Create a copy of this object in the active context | `SpeosDes.MOS Clone()`
 CopyTo | Create a copy of this object and paste it to the specified destination | `SpeosDes.MOS CopyTo(Inf.SpaceClaim.Automation.IApiSpeosDocObject pasteTargetObject)`
-ExportAsCSVFile |  | `void ExportAsCSVFile(string csvFilePath)`
-ExtractToolingPath |  | `void ExtractToolingPath()`
+ExportAsCSVFile | | `void ExportAsCSVFile(string csvFilePath)`
+ExtractToolingPath | | `void ExtractToolingPath()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
 FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v271.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v271.IDocObject contextObject)`
 ToString | Get a text representation of the object (used by the Script interpreter when the mouse cursor hovers an object variable) | `string ToString()`
@@ -2372,7 +2372,7 @@ Create | Create a new object of this type | `SpeosDes.MOSControlPoint Create()`
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -2403,7 +2403,7 @@ Create | Create a new object of this type | `SpeosDes.MultipleOpticalAxis Create
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 
@@ -3364,9 +3364,9 @@ LinkedObject | Link attribute: Get the pointed object | `SpaceClaim.Api.v271.IDo
 
 Name | Description | Syntax
 --- | --- | ---
-AddFaceFromCoordinates |  | `void AddFaceFromCoordinates(int xCoordinate, int yCoordinate)`
-AddFacesFromXCoordinate |  | `void AddFacesFromXCoordinate(int xCoordinate)`
-AddFacesFromYCoordinate |  | `void AddFacesFromYCoordinate(int yCoordinate)`
+AddFaceFromCoordinates | | `void AddFaceFromCoordinates(int xCoordinate, int yCoordinate)`
+AddFacesFromXCoordinate | | `void AddFacesFromXCoordinate(int xCoordinate)`
+AddFacesFromYCoordinate | | `void AddFacesFromYCoordinate(int yCoordinate)`
 GetGroupTypePossibleValues | String list attribute: List possible values | `IEnumerable<string> GetGroupTypePossibleValues()`
 FindOccurrenceInActivePart | Search for occurrences of this object in the active Part | `object FindOccurrenceInActivePart()`
 FindOccurrenceInContextOf | Search for occurrences of this object in the specified Part | `SpaceClaim.Api.v271.IDocObject FindOccurrenceInContextOf(SpaceClaim.Api.v271.IDocObject contextObject)`
@@ -4840,7 +4840,7 @@ Create | Create a new object of this type | `SpeosDes.ZernikeCoefficient Create(
 
 Name | Description | Syntax
 --- | --- | ---
-ToString |  | `string ToString()`
+ToString | | `string ToString()`
 
 ### Property
 

@@ -15,3 +15,5 @@ public abstract class BodyBase : EntityBase, IHasGuid
 [EntityBase.CategoryType](VM.Models.Post.EntityBase.CategoryType.md\#VM\_Models\_Post\_EntityBase\_CategoryType), 
 [EntityBase.EntityType](VM.Models.Post.EntityBase.EntityType.md\#VM\_Models\_Post\_EntityBase\_EntityType), 
 [ObjectBase.FullName](VM.Models.Post.ObjectBase.FullName.md\#VM\_Models\_Post\_ObjectBase\_FullName)
+
+<a href="/lib/VM.Models.Post.Bodies.BodyBase.md" download="VM.Models.Post.Bodies.BodyBase.md">Download this page as Markdown</a>

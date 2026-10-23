@@ -19,3 +19,5 @@ int Points { get; set; }
 ### Remarks
 
 Changing this value recalculates the calculated curve on the shared domain. Source curves with different domain start or end values cannot be combined.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.Points.md" download="VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.Points.md">Download this page as Markdown</a>

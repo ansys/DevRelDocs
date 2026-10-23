@@ -43,3 +43,5 @@ element.ChangeID(new_element_id)
 ### Remarks
 
 The operation updates the element's stored ID, index, and type information, then refreshes the displayed identifier so subsequent reads show the new ID.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsElementViewModel.ChangeID.md" download="VM.Operations.Post.Interfaces.IOperationsElementViewModel.ChangeID.md">Download this page as Markdown</a>

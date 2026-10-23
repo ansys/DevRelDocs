@@ -19,3 +19,5 @@ Gets or sets the color used to render line-display vectors.
  [Width](VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.Width.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLineDisplayViewModel\_Width)
 
 Gets or sets the rendered width of line-display vectors.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.md">Download this page as Markdown</a>

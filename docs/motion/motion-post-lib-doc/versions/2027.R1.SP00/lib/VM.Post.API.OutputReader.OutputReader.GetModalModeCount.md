@@ -35,3 +35,5 @@ mode_count = output_reader.GetModalModeCount(entity_name)
 ### Remarks
 
 `target` is looked up with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). A non-modal body and an unknown name both produce `-1`.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetModalModeCount.md" download="VM.Post.API.OutputReader.OutputReader.GetModalModeCount.md">Download this page as Markdown</a>

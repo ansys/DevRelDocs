@@ -19,3 +19,5 @@ bool AxisX { get; set; }
 ### Remarks
 
 Changing this value updates the chart axis visibility without changing curve data.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.AxisX.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.AxisX.md">Download this page as Markdown</a>

@@ -56,7 +56,7 @@ result file path container, used if no streams are set
 
 ### bool_rotate_to_global
 
-if true the field is rotated to global coordinate system (default true)
+if true the field is rotated to global coordinate system (default true). This input is ignored for PSD and Spectrum results.
 
 **Type:** *LinkableInput*
 

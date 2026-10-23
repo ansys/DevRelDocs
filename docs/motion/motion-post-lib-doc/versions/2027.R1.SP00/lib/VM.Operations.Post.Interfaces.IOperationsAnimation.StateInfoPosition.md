@@ -19,3 +19,5 @@ Layout StateInfoPosition { get; set; }
 ### Remarks
 
 [`Layout`](VM.Models.Post.Layout.md) selects a predefined corner position for the overlay in the animation view and captured frames when [`IsVisibleStateInfo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleStateInfo.md) is `true`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.StateInfoPosition.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.StateInfoPosition.md">Download this page as Markdown</a>

@@ -49,3 +49,5 @@ A Dynamics analysis result must be available. Otherwise, this method returns `nu
 <Note>
 When <code class="paramref">parentFullName</code> is omitted, `NameService.GroundName` is used as the parent.
 </Note>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.CreateCoordinateSystem.md" download="VM.Post.API.OutputReader.OutputReader.CreateCoordinateSystem.md">Download this page as Markdown</a>

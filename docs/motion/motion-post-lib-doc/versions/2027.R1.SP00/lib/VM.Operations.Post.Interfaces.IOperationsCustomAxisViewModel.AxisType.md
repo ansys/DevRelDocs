@@ -19,3 +19,5 @@ AxisType AxisType { get; set; }
 ### Remarks
 
 Changing this value applies the selected scale type to the chart axis.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.AxisType.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.AxisType.md">Download this page as Markdown</a>

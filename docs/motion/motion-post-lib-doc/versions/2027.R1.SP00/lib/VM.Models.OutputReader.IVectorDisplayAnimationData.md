@@ -23,3 +23,5 @@ Gets or sets the position or start point of each display item for each frame.
  [Vectors](VM.Models.OutputReader.IVectorDisplayAnimationData.Vectors.md\#VM\_Models\_OutputReader\_IVectorDisplayAnimationData\_Vectors)
 
 Gets or sets the vector, scalar value, or end point paired with each position for each frame.
+
+<a href="/lib/VM.Models.OutputReader.IVectorDisplayAnimationData.md" download="VM.Models.OutputReader.IVectorDisplayAnimationData.md">Download this page as Markdown</a>

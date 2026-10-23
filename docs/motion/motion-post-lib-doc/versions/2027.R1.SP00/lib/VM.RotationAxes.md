@@ -12,74 +12,74 @@ public enum RotationAxes
 
 ## Fields
 
-`XYX` 
+`XYX = 256` 
 
 XYX.
 
 
 
-`XYZ` 
+`XYZ = 258` 
 
 XYZ.
 
 
 
-`XZX` 
+`XZX = 512` 
 
 XZX.
 
 
 
-`XZY` 
+`XZY = 513` 
 
 XZY.
 
 
 
-`YXY` 
+`YXY = 65537` 
 
 YXY.
 
 
 
-`YXZ` 
+`YXZ = 65538` 
 
 YXZ.
 
 
 
-`YZX` 
+`YZX = 66048` 
 
 YZX.
 
 
 
-`YZY` 
+`YZY = 66049` 
 
 YZY.
 
 
 
-`ZXY` 
+`ZXY = 131073` 
 
 ZXY.
 
 
 
-`ZXZ` 
+`ZXZ = 131074` 
 
 ZXZ.
 
 
 
-`ZYX` 
+`ZYX = 131328` 
 
 ZYX.
 
 
 
-`ZYZ` 
+`ZYZ = 131330` 
 
 ZYZ.
 
-
+<a href="/lib/VM.RotationAxes.md" download="VM.RotationAxes.md">Download this page as Markdown</a>

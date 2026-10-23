@@ -55,3 +55,5 @@ A Dynamics analysis result must be available.
 <Note>
 `target` must identify an entity that implements [`IVectorDisplayable`](VM.Models.Post.IVectorDisplayable.md). Otherwise, this method returns `null`.
 </Note>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.CreateVector.md" download="VM.Post.API.OutputReader.OutputReader.CreateVector.md">Download this page as Markdown</a>

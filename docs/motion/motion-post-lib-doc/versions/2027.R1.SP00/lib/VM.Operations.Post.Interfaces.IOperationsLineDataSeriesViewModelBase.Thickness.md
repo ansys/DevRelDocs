@@ -19,3 +19,5 @@ int Thickness { get; set; }
 ### Remarks
 
 Changing this value updates the line rendering. It does not affect point-only rendering.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.Thickness.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.Thickness.md">Download this page as Markdown</a>

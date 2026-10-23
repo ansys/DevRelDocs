@@ -21,3 +21,5 @@ The horizontal position of the point.
 `y` double
 
 The vertical position of the point.
+
+<a href="/lib/VM.Point2D.-ctor.md" download="VM.Point2D.-ctor.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Color LabelTextColor { get; set; }
 ### Remarks
 
 This value has no visible effect while the coordinate-system label is hidden.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.LabelTextColor.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.LabelTextColor.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ string Characteristic { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.Models.Post.IVectorDisplay.Characteristic.md" download="VM.Models.Post.IVectorDisplay.Characteristic.md">Download this page as Markdown</a>

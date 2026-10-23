@@ -19,3 +19,5 @@ Guid ID { get; }
 ### Remarks
 
 The identifier remains unchanged when [`FullName`](VM.Operations.Post.Interfaces.IPage.FullName.md) changes.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.ID.md" download="VM.Operations.Post.Interfaces.IPage.ID.md">Download this page as Markdown</a>

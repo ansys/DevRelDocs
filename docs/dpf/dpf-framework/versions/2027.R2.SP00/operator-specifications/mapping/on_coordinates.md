@@ -60,7 +60,8 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>1</strong> | [coordinates](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 | <strong>2</strong> | [create_support](#input_2) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>3</strong> | [mapping_on_scoping](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
-| <strong>5</strong> | [tolerance](#input_5) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>5</strong> | [locate_tolerance](#input_5) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>6</strong> | [search_tolerance](#input_6) |  |[`double`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
 | <strong>200</strong> | [use_quadratic_elements](#input_200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 
@@ -117,7 +118,7 @@ Optimizes element search by restricting the spatial domain to the scoping of the
 This optimization is most effective when coordinates and fields cover the same spatial region of interest.
 
 <a id="input_5"></a>
-### tolerance (Pin 5)
+### locate_tolerance (Pin 5)
 
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
@@ -127,6 +128,18 @@ Tolerance used when locating query coordinates within elements.
 **Default**: $5 \times 10^{-5}$
 
 Lower values provide more accurate coordinate location but may fail for points near element boundaries. If no element is found at the specified tolerance, the tolerance is progressively relaxed up to a maximum of $0.1$.
+
+<a id="input_6"></a>
+### search_tolerance (Pin 6)
+
+- **Required:** No
+- **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
+
+Tolerance used when searching elements by the coordinates of the query points (first filter step).
+
+**Default**: $1 \times 10^{-6}$
+
+If the default value is used, and no element is found at the specified tolerance, the tolerance is progressively relaxed up.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -227,7 +240,8 @@ op.connect(0, my_fields_container);
 op.connect(1, my_coordinates);
 op.connect(2, my_create_support);
 op.connect(3, my_mapping_on_scoping);
-op.connect(5, my_tolerance);
+op.connect(5, my_locate_tolerance);
+op.connect(6, my_search_tolerance);
 op.connect(7, my_mesh);
 op.connect(200, my_use_quadratic_elements);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
@@ -245,7 +259,8 @@ op.inputs.fields_container.connect(my_fields_container)
 op.inputs.coordinates.connect(my_coordinates)
 op.inputs.create_support.connect(my_create_support)
 op.inputs.mapping_on_scoping.connect(my_mapping_on_scoping)
-op.inputs.tolerance.connect(my_tolerance)
+op.inputs.locate_tolerance.connect(my_locate_tolerance)
+op.inputs.search_tolerance.connect(my_search_tolerance)
 op.inputs.mesh.connect(my_mesh)
 op.inputs.use_quadratic_elements.connect(my_use_quadratic_elements)
 my_fields_container = op.outputs.fields_container()
@@ -264,7 +279,8 @@ op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.coordinates.Connect(my_coordinates)
 op.inputs.create_support.Connect(my_create_support)
 op.inputs.mapping_on_scoping.Connect(my_mapping_on_scoping)
-op.inputs.tolerance.Connect(my_tolerance)
+op.inputs.locate_tolerance.Connect(my_locate_tolerance)
+op.inputs.search_tolerance.Connect(my_search_tolerance)
 op.inputs.mesh.Connect(my_mesh)
 op.inputs.use_quadratic_elements.Connect(my_use_quadratic_elements)
 my_fields_container = op.outputs.fields_container.GetData()

@@ -27,3 +27,5 @@ The full path of the Python script file to run.
 <Danger>
 The method returns before the call completes. Call `Wait()` on the returned task, or read its `Result`, to wait for the result. Wait for [RunPostprocessor\(string\)](VM.Windows.Post.PostprocessorRemotingUtil.RunPostprocessor.md) in the same way before this call.
 </Danger>
+
+<a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md" download="VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md">Download this page as Markdown</a>

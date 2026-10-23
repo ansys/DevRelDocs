@@ -34,3 +34,5 @@ assembly_info = output_reader.GetAssemblyInfo(AssemblyType.All)
 ### Remarks
 
 When `assemblyType` is not `All`, only assembly information with the selected type is included.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetAssemblyInfo.md" download="VM.Post.API.OutputReader.OutputReader.GetAssemblyInfo.md">Download this page as Markdown</a>

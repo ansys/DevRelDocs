@@ -1,4 +1,5 @@
 # Properties
+
 This feature covers reading animation metadata and setting the visual parts of [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md). These settings change the animation view, and the same change appears in frames captured through [Control Animation Playback](op_control_animation_playback.md#recording).
 
 ## Reading Metadata
@@ -15,3 +16,5 @@ Show or hide the navigation cube with [`IsVisibleNavigationCube`](../../../lib/V
 
 ## Configuring State Information
 Show or hide state information with [`IsVisibleStateInfo`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleStateInfo.md). Set its position and text color with [`StateInfoPosition`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.StateInfoPosition.md) and [`TextColorStateInfo`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.TextColorStateInfo.md).
+
+<a href="/document/operation-api/feature/op_animation_properties.md" download="op_animation_properties.md">Download this page as Markdown</a>

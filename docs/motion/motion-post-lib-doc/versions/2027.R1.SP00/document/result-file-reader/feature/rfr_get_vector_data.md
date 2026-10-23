@@ -13,3 +13,5 @@ Read vector data with `GetVector(string, string)`, or pick a different analysis 
 
 ## Exporting
 Export already-created vector definitions with [`ExportVectorDisplayToFile(string, int[], IEnumerable<object>, bool, bool, bool, AnalysisResultType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md). Export straight from a target and path instead with [`ExportVectorDisplayToFile(string, int[], string, string, bool, bool, bool, AnalysisResultType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md), without creating a vector definition first. Either overload accepts the state IDs obtained from `GetStateIDArray()`, see [Read Result Information](rfr_read_result_information.md).
+
+<a href="/document/result-file-reader/feature/rfr_get_vector_data.md" download="rfr_get_vector_data.md">Download this page as Markdown</a>

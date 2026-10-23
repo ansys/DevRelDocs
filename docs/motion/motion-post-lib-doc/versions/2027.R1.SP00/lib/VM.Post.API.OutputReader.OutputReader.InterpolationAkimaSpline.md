@@ -75,3 +75,5 @@ When adjacent X-values are duplicated, duplicate samples are removed before inte
 <Danger>
 `X`, `Y`, `NoOfPnt`, `NoOfDesiredPnt`, `StartPnt`, and `EndPnt` must describe compatible input and output ranges.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.InterpolationAkimaSpline.md" download="VM.Post.API.OutputReader.OutputReader.InterpolationAkimaSpline.md">Download this page as Markdown</a>

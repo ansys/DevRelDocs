@@ -19,3 +19,5 @@ Color FontColor { get; set; }
 ### Remarks
 
 Changing this value updates the color of legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontColor.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontColor.md">Download this page as Markdown</a>

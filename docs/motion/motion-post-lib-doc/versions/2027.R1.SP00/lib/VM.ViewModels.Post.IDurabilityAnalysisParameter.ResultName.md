@@ -19,3 +19,5 @@ string ResultName { get; set; }
 ### Remarks
 
 When this value is empty, [RunFatigueAnalysis\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) uses the imported result document's name without its file extension as the fatigue result name.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.ResultName.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.ResultName.md">Download this page as Markdown</a>

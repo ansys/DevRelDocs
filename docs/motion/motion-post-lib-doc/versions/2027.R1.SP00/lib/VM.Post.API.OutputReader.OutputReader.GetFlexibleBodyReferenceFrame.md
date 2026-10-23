@@ -43,3 +43,5 @@ The method requests a reference frame for every state reported by [`OutputReader
 <Danger>
 `target` must identify a flexible body. An invalid target causes the body lookup or reference-frame read to fail.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetFlexibleBodyReferenceFrame.md" download="VM.Post.API.OutputReader.OutputReader.GetFlexibleBodyReferenceFrame.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double ScaleInterval { get; set; }
 ### Remarks
 
 This value provides the manual tick interval when [`IsAuto`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto.md) is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleInterval.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleInterval.md">Download this page as Markdown</a>

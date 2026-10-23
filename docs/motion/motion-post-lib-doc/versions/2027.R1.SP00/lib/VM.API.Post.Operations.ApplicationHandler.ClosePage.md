@@ -57,3 +57,5 @@ application_handler.ClosePage(page_name)
 ### Remarks
 
 When `name` matches an existing `IPage`, that page is removed. If no page has that name, no page is removed.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.ClosePage.md" download="VM.API.Post.Operations.ApplicationHandler.ClosePage.md">Download this page as Markdown</a>

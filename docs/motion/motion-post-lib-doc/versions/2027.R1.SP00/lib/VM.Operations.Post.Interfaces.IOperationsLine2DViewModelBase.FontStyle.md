@@ -19,3 +19,5 @@ FontStyle FontStyle { get; set; }
 ### Remarks
 
 Changing this value updates the style rendered for the chart title.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontStyle.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.FontStyle.md">Download this page as Markdown</a>

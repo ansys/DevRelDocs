@@ -21,3 +21,5 @@ The path of the result file.
 ### Remarks
 
 The result file remains open until [Close\(\)](VM.Post.API.OutputReader.OutputReader.Close.md) is called.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.-ctor.md" download="VM.Post.API.OutputReader.OutputReader.-ctor.md">Download this page as Markdown</a>

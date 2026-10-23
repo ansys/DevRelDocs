@@ -19,3 +19,5 @@ bool AutoRange { get; set; }
 ### Remarks
 
 Changing this value updates contour rendering and enables manual [`Min`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.Min.md) and [`Max`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.Max.md) control only when it is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.AutoRange.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.AutoRange.md">Download this page as Markdown</a>

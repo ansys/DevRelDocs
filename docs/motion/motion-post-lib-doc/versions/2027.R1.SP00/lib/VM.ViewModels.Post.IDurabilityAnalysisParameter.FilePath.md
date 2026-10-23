@@ -20,3 +20,5 @@ string FilePath { get; set; }
 ### Remarks
 
 This property is obsolete. Use [`DocumentFilePath`](VM.ViewModels.Post.IDurabilityAnalysisParameter.DocumentFilePath.md) instead.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.FilePath.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.FilePath.md">Download this page as Markdown</a>

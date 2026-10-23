@@ -12,3 +12,5 @@ Select the animation frame to apply the viewpoint to with [`MoveToAnimationFrame
 
 ## Frame-Specific Viewpoints
 Prepare an array of `IViewSpec` entries with [`GetViewSpecs()`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.GetViewSpecs.md). The array contains one `IViewSpec` for each frame available in the animation result. Set the `Eye`, `Target`, and `UpVector` values in each entry and pass the array to [`RecordingAnimation(string, RecordingType, RecordingRangeType, int, IViewSpec[])`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.RecordingAnimation.md). During recording, the corresponding specification is applied before each frame is captured, see [Control Animation Playback](op_control_animation_playback.md).
+
+<a href="/document/operation-api/feature/op_configure_camera_position.md" download="op_configure_camera_position.md">Download this page as Markdown</a>

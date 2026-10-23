@@ -19,3 +19,5 @@ string LogarithmicBase { get; set; }
 ### Remarks
 
 This value affects axis labels only when [`AxisType`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.AxisType.md) selects a logarithmic scale.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LogarithmicBase.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LogarithmicBase.md">Download this page as Markdown</a>

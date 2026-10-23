@@ -23,3 +23,5 @@ Activating this contour deactivates any other contour already active in the same
 <Danger>
 Activation has no effect until an animation frame is available for the analysis result. Setting this value to `true` before a frame is loaded leaves the contour disabled.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.IsEnabled.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.IsEnabled.md">Download this page as Markdown</a>

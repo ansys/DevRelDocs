@@ -36,3 +36,5 @@ animation_view.Fit()
 ### Remarks
 
 Camera framing is recalculated from entities currently visible in [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md). Hidden entities are not included.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.Fit.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.Fit.md">Download this page as Markdown</a>

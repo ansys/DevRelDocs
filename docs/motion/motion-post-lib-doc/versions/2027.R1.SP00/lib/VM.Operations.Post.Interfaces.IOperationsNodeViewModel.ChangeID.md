@@ -43,3 +43,5 @@ node.ChangeID(new_node_id)
 ### Remarks
 
 The operation updates node source and selection metadata with the resolved ID and index, then raises a display-name change notification.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsNodeViewModel.ChangeID.md" download="VM.Operations.Post.Interfaces.IOperationsNodeViewModel.ChangeID.md">Download this page as Markdown</a>

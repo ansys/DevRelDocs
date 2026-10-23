@@ -19,3 +19,5 @@ bool IsVisible { get; set; }
 ### Remarks
 
 Changing this value changes whether the vector and its label are rendered.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.IsVisible.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.IsVisible.md">Download this page as Markdown</a>

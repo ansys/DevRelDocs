@@ -19,3 +19,5 @@ double ScaleMax { get; set; }
 ### Remarks
 
 Changing this value updates the manual upper limit when automatic axis ticks are disabled.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleMax.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.ScaleMax.md">Download this page as Markdown</a>

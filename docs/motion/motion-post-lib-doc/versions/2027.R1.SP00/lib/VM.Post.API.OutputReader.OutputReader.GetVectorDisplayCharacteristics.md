@@ -35,3 +35,5 @@ characteristics = output_reader.GetVectorDisplayCharacteristics(entity_name)
 ### Remarks
 
 The entity is looked up with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). A non-vector-displayable entity produces an empty result.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetVectorDisplayCharacteristics.md" download="VM.Post.API.OutputReader.OutputReader.GetVectorDisplayCharacteristics.md">Download this page as Markdown</a>

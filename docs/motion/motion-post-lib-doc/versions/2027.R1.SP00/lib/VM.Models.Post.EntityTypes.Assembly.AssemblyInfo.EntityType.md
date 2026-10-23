@@ -15,3 +15,5 @@ public override EntityType EntityType { get; }
 ### Property Value
 
  [EntityType](VM.Models.Post.EntityType.md)
+
+<a href="/lib/VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.EntityType.md" download="VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.EntityType.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ PointType PointType { get; set; }
 ### Remarks
 
 Changing this value changes the shape used when points are rendered.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.PointType.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.PointType.md">Download this page as Markdown</a>

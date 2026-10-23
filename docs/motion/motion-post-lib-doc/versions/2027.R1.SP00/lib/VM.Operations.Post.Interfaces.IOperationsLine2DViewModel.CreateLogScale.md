@@ -139,3 +139,5 @@ chart.CreateLogScale(curves, coefficient, base_value, decibel)
 
 This function performs a logarithmic transformation on each curve specified in <code class="paramref">seriesViewModels</code> using the specified coefficient,
 base value, and whether to use the decibel scale.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateLogScale.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateLogScale.md">Download this page as Markdown</a>

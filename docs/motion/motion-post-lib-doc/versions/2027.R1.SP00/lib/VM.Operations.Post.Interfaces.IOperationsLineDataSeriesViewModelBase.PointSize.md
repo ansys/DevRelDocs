@@ -19,3 +19,5 @@ double PointSize { get; set; }
 ### Remarks
 
 Changing this value changes the displayed point size when points are rendered.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.PointSize.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.PointSize.md">Download this page as Markdown</a>

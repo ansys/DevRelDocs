@@ -58,3 +58,5 @@ view.ExportImage(output_path, image_format, image_width, image_height)
 <Note>
 Omitting <code class="paramref">width</code> or <code class="paramref">height</code> preserves the corresponding original image dimension.
 </Note>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.ExportImage.md" download="VM.Operations.Post.Interfaces.IView.ExportImage.md">Download this page as Markdown</a>

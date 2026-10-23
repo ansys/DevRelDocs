@@ -19,3 +19,5 @@ double Start { get; set; }
 ### Remarks
 
 Changing this value refreshes the FFT calculation when the referenced source curve exists. The calculation requires `Start` to be no greater than [`End`](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.End.md) and the interval to overlap the source X range.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.Start.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.Start.md">Download this page as Markdown</a>

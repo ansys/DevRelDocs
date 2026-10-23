@@ -19,3 +19,5 @@ bool IsLog { get; set; }
 ### Remarks
 
 Changing this value changes how vector magnitudes are mapped to the displayed scale.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.IsLog.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.IsLog.md">Download this page as Markdown</a>

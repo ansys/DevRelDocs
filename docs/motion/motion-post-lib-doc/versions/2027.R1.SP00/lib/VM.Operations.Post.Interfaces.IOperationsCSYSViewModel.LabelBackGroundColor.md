@@ -19,3 +19,5 @@ Color LabelBackGroundColor { get; set; }
 ### Remarks
 
 Changing this value affects only the label background; it does not change marker or trajectory colors.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.LabelBackGroundColor.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.LabelBackGroundColor.md">Download this page as Markdown</a>

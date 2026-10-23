@@ -19,3 +19,5 @@ ViewType ViewType { get; }
 ### Remarks
 
 The value identifies the view kind exposed by the Operation API.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.ViewType.md" download="VM.Operations.Post.Interfaces.IView.ViewType.md">Download this page as Markdown</a>

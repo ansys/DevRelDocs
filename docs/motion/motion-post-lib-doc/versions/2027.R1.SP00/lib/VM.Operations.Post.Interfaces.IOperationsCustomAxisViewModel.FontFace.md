@@ -19,3 +19,5 @@ FontFamily FontFace { get; set; }
 ### Remarks
 
 Changing this value changes the font face used for labels rendered on the axis.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.FontFace.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.FontFace.md">Download this page as Markdown</a>

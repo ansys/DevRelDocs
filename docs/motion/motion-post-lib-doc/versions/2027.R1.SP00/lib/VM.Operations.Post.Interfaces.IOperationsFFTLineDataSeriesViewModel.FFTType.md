@@ -19,3 +19,5 @@ FFTType FFTType { get; set; }
 ### Remarks
 
 Changing this value refreshes the generated curve. Magnitude is calculated from the real and imaginary FFT components and is multiplied by two. Phase is calculated from their angle and normalized to the range from `-180` to `180` degrees.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTType.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTType.md">Download this page as Markdown</a>

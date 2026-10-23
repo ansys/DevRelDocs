@@ -43,3 +43,5 @@ node_count = output_reader.GetPreviousBodiesNodeCount(body_names, entity_name)
 ### Remarks
 
 Body entities are checked in the order provided by `OutputReader`. Counting stops when a body with matching `FullName` is reached. If `target` is not found, all matching bodies are counted.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetPreviousBodiesNodeCount.md" download="VM.Post.API.OutputReader.OutputReader.GetPreviousBodiesNodeCount.md">Download this page as Markdown</a>

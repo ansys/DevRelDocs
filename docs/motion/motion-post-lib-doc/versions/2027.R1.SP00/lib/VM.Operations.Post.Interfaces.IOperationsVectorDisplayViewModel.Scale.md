@@ -19,3 +19,5 @@ double Scale { get; set; }
 ### Remarks
 
 Changing this value changes the displayed vector length without changing the source result.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Scale.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Scale.md">Download this page as Markdown</a>

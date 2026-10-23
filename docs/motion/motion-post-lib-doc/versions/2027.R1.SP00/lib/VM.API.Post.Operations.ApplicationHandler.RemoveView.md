@@ -22,3 +22,5 @@ The name of the view to be removed.
 ### Remarks
 
 This method is obsolete. Use [`CloseView(string)`](VM.Operations.Post.Interfaces.IPage.CloseView.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.RemoveView.md" download="VM.API.Post.Operations.ApplicationHandler.RemoveView.md">Download this page as Markdown</a>

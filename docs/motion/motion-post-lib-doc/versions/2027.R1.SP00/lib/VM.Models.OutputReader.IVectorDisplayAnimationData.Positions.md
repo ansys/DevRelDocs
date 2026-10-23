@@ -21,3 +21,5 @@ List<List<double[]>> Positions { get; set; }
 The outer list index is the frame count, the inner list index is the vector count, and each array holds the x, y, and z components.
 
 vector type:position, position type:point, line type:start point
+
+<a href="/lib/VM.Models.OutputReader.IVectorDisplayAnimationData.Positions.md" download="VM.Models.OutputReader.IVectorDisplayAnimationData.Positions.md">Download this page as Markdown</a>

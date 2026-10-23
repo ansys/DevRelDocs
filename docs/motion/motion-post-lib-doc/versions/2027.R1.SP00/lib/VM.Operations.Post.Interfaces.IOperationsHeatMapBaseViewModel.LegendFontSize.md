@@ -19,3 +19,5 @@ double LegendFontSize { get; set; }
 ### Remarks
 
 Changing this value updates the visual size of the legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.LegendFontSize.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.LegendFontSize.md">Download this page as Markdown</a>

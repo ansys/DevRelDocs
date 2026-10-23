@@ -28,3 +28,5 @@ named_selections = output_reader.GetNamedSelections()
 ### Remarks
 
 The result contains every named selection available in the result file. The array is empty when no named selections are available.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetNamedSelections.md" download="VM.Post.API.OutputReader.OutputReader.GetNamedSelections.md">Download this page as Markdown</a>

@@ -41,3 +41,5 @@ target_entities = analysis_result.GetContourables(contour_mapping_type)
 ### Remarks
 
 The returned names are the valid entity inputs for [CreateContour\(IList<string\>, ContourMappingType, string, string, string\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.CreateContour.md) with the same mapping type.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourables.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourables.md">Download this page as Markdown</a>

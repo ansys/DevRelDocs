@@ -19,3 +19,5 @@ string LogoPath { get; set; }
 ### Remarks
 
 The path identifies the image drawn when [`IsVisibleLogo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md) is `true`. [`LogoHeight`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoHeight.md) and [`LogoWidth`](VM.Operations.Post.Interfaces.IOperationsAnimation.LogoWidth.md) control the displayed size.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPath.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPath.md">Download this page as Markdown</a>

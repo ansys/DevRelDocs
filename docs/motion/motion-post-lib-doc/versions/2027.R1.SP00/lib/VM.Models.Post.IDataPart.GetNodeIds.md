@@ -17,3 +17,5 @@ int[] GetNodeIds()
  int\[\]
 
 Node identifiers in node-index order.
+
+<a href="/lib/VM.Models.Post.IDataPart.GetNodeIds.md" download="VM.Models.Post.IDataPart.GetNodeIds.md">Download this page as Markdown</a>

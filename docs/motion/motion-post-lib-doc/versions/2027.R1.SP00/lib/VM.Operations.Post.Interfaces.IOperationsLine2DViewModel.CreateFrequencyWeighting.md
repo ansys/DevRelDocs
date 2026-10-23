@@ -133,3 +133,5 @@ chart.CreateFrequencyWeighting(curves, weighting_type, frequency_axis_type)
 
 This function performs frequency weighting on each curve specified in <code class="paramref">seriesViewModels</code> using the specified weighting type
 and axis type. A-weighting is the most commonly used to measure the sound pressure level, while B-weighting and C-weighting are alternative weighting functions.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateFrequencyWeighting.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateFrequencyWeighting.md">Download this page as Markdown</a>

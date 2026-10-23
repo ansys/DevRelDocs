@@ -12,7 +12,7 @@ public enum STFTScaleType
 
 ## Fields
 
-`Decibel` 
+`Decibel = 1` 
 
 Description: "dB"
 
@@ -20,10 +20,10 @@ Displays values in decibels.
 
 
 
-`Original` 
+`Original = 0` 
 
 Description: "Original"
 
 Displays values on their original scale.
 
-
+<a href="/lib/VM.Models.Post.STFTScaleType.md" download="VM.Models.Post.STFTScaleType.md">Download this page as Markdown</a>

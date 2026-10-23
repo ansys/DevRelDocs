@@ -36,7 +36,7 @@ The optional output height. When omitted, the view's current height is used.
 
 ### Remarks
 
-The method checks [`CanExportImage`](VM.Operations.Post.Interfaces.IView.CanExportImage.md) until it becomes `true`, then calls [ExportImage\(string, ImageFormat, double?, double?\)](VM.Operations.Post.Interfaces.IView.ExportImage.md) once.
+The method checks `CanExportImage` until it becomes `true`, then calls [ExportImage\(string, ImageFormat, double?, double?\)](VM.Operations.Post.Interfaces.IView.ExportImage.md) once.
 
 If `CanExportImage` remains `false`, the method does not export an image and continues checking that property.
 
@@ -78,3 +78,5 @@ The optional height of the exported image. If not specified, the default height 
 ### Remarks
 
 This method is obsolete. Use [ExportImage\(string, ImageFormat, double?, double?\)](VM.Operations.Post.Interfaces.IView.ExportImage.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.ExportImage.md" download="VM.API.Post.Operations.ApplicationHandler.ExportImage.md">Download this page as Markdown</a>

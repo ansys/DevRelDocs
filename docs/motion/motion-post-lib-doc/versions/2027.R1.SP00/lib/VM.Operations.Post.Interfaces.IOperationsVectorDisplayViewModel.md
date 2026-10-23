@@ -23,3 +23,5 @@ Gets or sets whether logarithmic vector scaling is enabled. `true` uses logarith
  [Scale](VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Scale.md\#VM\_Operations\_Post\_Interfaces\_IOperationsVectorDisplayViewModel\_Scale)
 
 Gets or sets the scale applied to vector lengths.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.md">Download this page as Markdown</a>

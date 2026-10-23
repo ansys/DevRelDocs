@@ -55,3 +55,5 @@ Loads a specified number of frames from the dynamic analysis result.
  [SetAnimationFrame\(IEnumerable<int\>\)](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md\#VM\_Operations\_Post\_Interfaces\_IOperationsDynamicAnalysisResultViewModel\_SetAnimationFrame\_System\_Collections\_Generic\_IEnumerable\_System\_Int32\_\_)
 
 Loads dynamic animation frames identified by their States.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md">Download this page as Markdown</a>

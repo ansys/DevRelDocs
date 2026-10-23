@@ -55,3 +55,5 @@ Gets or sets the smoothing method selected from [`SmoothingType`](VM.Operations.
  [WeightingType](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.WeightingType.md\#VM\_Operations\_Post\_Interfaces\_IOperationsSignalProcessingLineDataSeriesViewModel\_WeightingType)
 
 Gets or sets the frequency-weighting method selected from [`WeightingType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.WeightingType.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md">Download this page as Markdown</a>

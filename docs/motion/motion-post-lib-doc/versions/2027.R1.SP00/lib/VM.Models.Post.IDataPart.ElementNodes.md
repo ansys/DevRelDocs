@@ -23,3 +23,5 @@ Zero-based index of the finite element.
  uint\[\]
 
 Node indexes connected to the specified finite element.
+
+<a href="/lib/VM.Models.Post.IDataPart.ElementNodes.md" download="VM.Models.Post.IDataPart.ElementNodes.md">Download this page as Markdown</a>

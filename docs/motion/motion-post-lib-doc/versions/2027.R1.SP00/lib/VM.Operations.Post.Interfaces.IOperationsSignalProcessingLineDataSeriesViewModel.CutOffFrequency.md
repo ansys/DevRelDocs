@@ -19,3 +19,5 @@ double CutOffFrequency { get; set; }
 ### Remarks
 
 This value is used when [`FilteringType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.FilteringType.md) selects low-pass or high-pass filtering. Changing it recalculates the calculated curve when an original curve exists.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.CutOffFrequency.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.CutOffFrequency.md">Download this page as Markdown</a>

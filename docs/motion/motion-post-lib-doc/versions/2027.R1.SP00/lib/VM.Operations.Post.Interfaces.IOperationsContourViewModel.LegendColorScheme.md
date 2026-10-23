@@ -19,3 +19,5 @@ ColorSchemeType LegendColorScheme { get; set; }
 ### Remarks
 
 Changing the scheme updates the contour legend gradient and contour rendering.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendColorScheme.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendColorScheme.md">Download this page as Markdown</a>

@@ -23,3 +23,5 @@ Full name of a contour previously created with [CreateContour\(IList<string\>, C
  [IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md)
 
 Matching [`IOperationsContourViewModel`](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md), or `null` if no contour with that name exists.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContour.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContour.md">Download this page as Markdown</a>

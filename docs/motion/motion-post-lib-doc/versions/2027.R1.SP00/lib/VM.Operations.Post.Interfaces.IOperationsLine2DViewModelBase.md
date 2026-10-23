@@ -129,3 +129,5 @@ Removes a curve from the chart by its id.
  [Remove\(IOperationsLineDataSeriesViewModelBase\)](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Remove.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLine2DViewModelBase\_Remove\_VM\_Operations\_Post\_Interfaces\_IOperationsLineDataSeriesViewModelBase\_)
 
 Removes a curve from the chart by its curve object.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md">Download this page as Markdown</a>

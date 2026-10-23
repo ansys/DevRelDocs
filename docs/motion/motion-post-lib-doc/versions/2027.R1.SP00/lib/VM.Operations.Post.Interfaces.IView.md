@@ -49,3 +49,5 @@ For a complete operations, see [Operation API Example - Moving a View](../docume
 Exports the image to the specified file path in the specified format.
 
 For a complete operations, see [Operation API Example - Image Capture](../document/operation-api/example/example_animation_for_operation_api.md#image-capture).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.md" download="VM.Operations.Post.Interfaces.IView.md">Download this page as Markdown</a>

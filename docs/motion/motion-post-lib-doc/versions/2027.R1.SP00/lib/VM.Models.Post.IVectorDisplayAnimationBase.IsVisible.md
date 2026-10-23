@@ -15,3 +15,5 @@ bool IsVisible { get; set; }
 ### Property Value
 
  bool
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.IsVisible.md" download="VM.Models.Post.IVectorDisplayAnimationBase.IsVisible.md">Download this page as Markdown</a>

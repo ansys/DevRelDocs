@@ -15,3 +15,5 @@ double Start { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.Start.md" download="VM.Models.Post.ISTFTParameters.Start.md">Download this page as Markdown</a>

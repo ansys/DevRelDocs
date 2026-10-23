@@ -10,7 +10,9 @@ license: None
 
 ## Description
 
-Read/compute elemental non summable miscellaneous data by calling the readers defined by the datasources. Modal superposition (on demand expansion) and cyclic cxpansion procedures are not supported since results cannot be summed.
+Read/compute elemental non summable miscellaneous data by calling the readers defined by the datasources.
+
+Modal superposition (on demand expansion) and cyclic cxpansion procedures are not supported since results cannot be summed.
 
 ## Inputs
 

@@ -61,3 +61,5 @@ Adds a finite-element body identifier to the fatigue analysis targets.
  [RemoveTarget\(Guid\)](VM.ViewModels.Post.IDurabilityAnalysisParameter.RemoveTarget.md\#VM\_ViewModels\_Post\_IDurabilityAnalysisParameter\_RemoveTarget\_System\_Guid\_)
 
 Removes a finite-element body identifier from the fatigue analysis targets.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.md">Download this page as Markdown</a>

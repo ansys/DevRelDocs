@@ -19,3 +19,5 @@ double Overlap { get; set; }
 ### Remarks
 
 Changing this value changes the number of source samples reused between adjacent windows. Values are validated from `1` through `100` when the STFT view is updating.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.Overlap.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.Overlap.md">Download this page as Markdown</a>

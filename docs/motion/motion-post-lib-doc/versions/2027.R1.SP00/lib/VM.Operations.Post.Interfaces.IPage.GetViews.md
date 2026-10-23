@@ -25,3 +25,5 @@ page_name = "Page"
 page = application_handler.GetPage(page_name)
 views = page.GetViews()
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IPage.GetViews.md" download="VM.Operations.Post.Interfaces.IPage.GetViews.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ IList<double> SourceX { get; set; }
 ### Property Value
 
  IList<double\>
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.SourceX.md" download="VM.Models.Post.ISTFTParameters.SourceX.md">Download this page as Markdown</a>

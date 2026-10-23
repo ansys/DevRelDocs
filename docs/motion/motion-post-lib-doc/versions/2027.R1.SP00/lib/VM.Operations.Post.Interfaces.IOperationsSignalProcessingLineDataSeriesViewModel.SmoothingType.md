@@ -19,3 +19,5 @@ SmoothingType SmoothingType { get; set; }
 ### Remarks
 
 This value applies when [`SignalProcessingType`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SignalProcessingType.md) selects smoothing. Savitzky-Golay smoothing additionally uses [`PolynomialOrder`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.PolynomialOrder.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SmoothingType.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.SmoothingType.md">Download this page as Markdown</a>

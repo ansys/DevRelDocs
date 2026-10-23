@@ -19,3 +19,5 @@ double ScaleMin { get; set; }
 ### Remarks
 
 This value provides the manual lower range limit when [`IsAuto`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto.md) is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleMin.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleMin.md">Download this page as Markdown</a>

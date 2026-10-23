@@ -47,3 +47,5 @@ characteristics = output_reader.GetContourCharacteristics(
 ### Remarks
 
 The entity is looked up with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). A non-contourable entity produces an empty result.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetContourCharacteristics.md" download="VM.Post.API.OutputReader.OutputReader.GetContourCharacteristics.md">Download this page as Markdown</a>

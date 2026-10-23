@@ -15,3 +15,5 @@ ParentType ParentType { get; }
 ### Property Value
 
  [ParentType](VM.Models.Post.ParentType.md)
+
+<a href="/lib/VM.Models.Post.IResultMarker.ParentType.md" download="VM.Models.Post.IResultMarker.ParentType.md">Download this page as Markdown</a>

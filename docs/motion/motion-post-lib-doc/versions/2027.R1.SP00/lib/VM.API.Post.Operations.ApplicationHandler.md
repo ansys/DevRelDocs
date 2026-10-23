@@ -111,3 +111,5 @@ Closes an open document by its file path.
  [RemoveView\(string\)](VM.API.Post.Operations.ApplicationHandler.RemoveView.md\#VM\_API\_Post\_Operations\_ApplicationHandler\_RemoveView\_System\_String\_)
 
 Removes a view by its name.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.md" download="VM.API.Post.Operations.ApplicationHandler.md">Download this page as Markdown</a>

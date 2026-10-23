@@ -12,26 +12,26 @@ public enum Layout
 
 ## Fields
 
-`BOTTOM_LEFT` 
+`BOTTOM_LEFT = 2` 
 
 Places the overlay in the bottom-left corner.
 
 
 
-`BOTTOM_RIGHT` 
+`BOTTOM_RIGHT = 3` 
 
 Places the overlay in the bottom-right corner.
 
 
 
-`TOP_LEFT` 
+`TOP_LEFT = 0` 
 
 Places the overlay in the top-left corner.
 
 
 
-`TOP_RIGHT` 
+`TOP_RIGHT = 1` 
 
 Places the overlay in the top-right corner.
 
-
+<a href="/lib/VM.Models.Post.Layout.md" download="VM.Models.Post.Layout.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Layout LogoPosition { get; set; }
 ### Remarks
 
 [`Layout`](VM.Models.Post.Layout.md) selects a predefined corner position for the overlay in the animation view and captured frames when [`IsVisibleLogo`](VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleLogo.md) is `true`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPosition.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.LogoPosition.md">Download this page as Markdown</a>

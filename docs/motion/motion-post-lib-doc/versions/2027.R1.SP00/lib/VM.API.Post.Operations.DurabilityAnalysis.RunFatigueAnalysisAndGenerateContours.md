@@ -36,3 +36,5 @@ For the complete replacement flow, see [Operation API Example - Fatigue Analysis
  Exception
 
 Thrown when the active view is not an animation view or the fatigue analysis cannot complete.
+
+<a href="/lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysisAndGenerateContours.md" download="VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysisAndGenerateContours.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Gets the analysis result identified by its unique identifier.
  [GetAnalysisResultViewModel\(AnalysisResultType\)](VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md\#VM\_ViewModels\_Post\_Interfaces\_IOperationDocument\_GetAnalysisResultViewModel\_VM\_Models\_AnalysisResultType\_)
 
 Gets the analysis result that matches an analysis result type.
+
+<a href="/lib/VM.ViewModels.Post.Interfaces.IOperationDocument.md" download="VM.ViewModels.Post.Interfaces.IOperationDocument.md">Download this page as Markdown</a>

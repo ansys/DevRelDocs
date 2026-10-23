@@ -44,6 +44,7 @@ animation_view = page.CreateAnimation(analysis_result, animation_view_name)
 # Configure the target body's fatigue material and settings.
 entity_name = "FEBody_01"
 febody = animation_view.GetViewModelByName(entity_name)
+# The fatigue material must already be registered in the Postprocessor UI.
 material_name = "2014_HV_O"
 material = animation_view.GetViewModelByName(material_name)
 febody.Material = material
@@ -81,3 +82,5 @@ Activate the required `IOperationsAnimation` with [Activate\(\)](VM.Operations.P
  Exception
 
 Thrown when the active view is not an animation view or the fatigue analysis cannot complete.
+
+<a href="/lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md" download="VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md">Download this page as Markdown</a>

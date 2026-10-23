@@ -22,3 +22,5 @@ The active [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAni
 ### Remarks
 
 This method is obsolete. Use [GetActiveView\(\)](VM.Operations.Post.Interfaces.IPage.GetActiveView.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetActiveAnimationView.md" download="VM.API.Post.Operations.ApplicationHandler.GetActiveAnimationView.md">Download this page as Markdown</a>

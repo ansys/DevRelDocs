@@ -52,3 +52,5 @@ Gets or sets the legacy fatigue scale factor applied by the legacy analysis path
  [StressStrainCombinationType](VM.Operations.Post.FatigueParameter.StressStrainCombinationType.md\#VM\_Operations\_Post\_FatigueParameter\_StressStrainCombinationType)
 
 Gets or sets the legacy stress or strain combination selected from [`StressStrainCombinationType`](VM.Operations.Post.FatigueParameter.StressStrainCombinationType.md) for the legacy analysis path.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.md" download="VM.Operations.Post.FatigueParameter.md">Download this page as Markdown</a>

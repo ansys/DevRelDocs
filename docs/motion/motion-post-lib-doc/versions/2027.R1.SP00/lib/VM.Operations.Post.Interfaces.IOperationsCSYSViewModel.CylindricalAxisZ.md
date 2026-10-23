@@ -19,3 +19,5 @@ CoordinateType CylindricalAxisZ { get; set; }
 ### Remarks
 
 This property applies when [`CurrentCoordinateSystemType`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CurrentCoordinateSystemType.md) is cylindrical. Assigning an axis already used by the other cylindrical axis changes the other axis to its next available value.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CylindricalAxisZ.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.CylindricalAxisZ.md">Download this page as Markdown</a>

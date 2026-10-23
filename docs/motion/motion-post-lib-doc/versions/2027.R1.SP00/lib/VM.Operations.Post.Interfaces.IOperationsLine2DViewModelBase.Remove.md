@@ -93,3 +93,5 @@ chart.Remove(curve)
 ### Remarks
 
 This method deletes the specified curve from the chart. If the provided object does not identify a curve in the chart, no action is taken.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Remove.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Remove.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ double ScaleFactor { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.ScaleFactor.md" download="VM.Models.Post.ISTFTParameters.ScaleFactor.md">Download this page as Markdown</a>

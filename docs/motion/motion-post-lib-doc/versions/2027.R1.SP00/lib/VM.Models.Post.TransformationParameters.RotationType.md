@@ -16,3 +16,5 @@ public RotationTypes RotationType { get; set; }
 ### Property Value
 
  [RotationTypes](VM.Models.Post.RotationTypes.md)
+
+<a href="/lib/VM.Models.Post.TransformationParameters.RotationType.md" download="VM.Models.Post.TransformationParameters.RotationType.md">Download this page as Markdown</a>

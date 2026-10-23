@@ -51,3 +51,5 @@ entity = animation_view.GetViewModelByName(entity_full_name)
 ### Remarks
 
 The lookup compares `name` with entity full names in the analysis result associated with [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.GetViewModelByName.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.GetViewModelByName.md">Download this page as Markdown</a>

@@ -205,3 +205,5 @@ For a complete operations, see [Operation API Example - Transform](../document/o
 Translates curve data by the specified offsets as part of the chart tab's Transform functionality.
 
 For a complete operations, see [Operation API Example - Transform](../document/operation-api/example/example_chart_for_operation_api.md#transform).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md">Download this page as Markdown</a>

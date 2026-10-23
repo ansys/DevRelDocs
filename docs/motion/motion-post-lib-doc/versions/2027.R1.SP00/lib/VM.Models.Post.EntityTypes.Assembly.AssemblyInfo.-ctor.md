@@ -25,3 +25,5 @@ The analysis result identifier of the assembly information.
 `fullName` string
 
 The full name of the assembly information.
+
+<a href="/lib/VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.-ctor.md" download="VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.-ctor.md">Download this page as Markdown</a>

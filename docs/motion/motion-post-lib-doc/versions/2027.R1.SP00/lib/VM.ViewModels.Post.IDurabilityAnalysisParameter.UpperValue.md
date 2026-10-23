@@ -20,3 +20,5 @@ int UpperValue { get; set; }
 ### Remarks
 
 This property is obsolete. Use [`End`](VM.ViewModels.Post.IDurabilityAnalysisParameter.End.md) instead.
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.UpperValue.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.UpperValue.md">Download this page as Markdown</a>

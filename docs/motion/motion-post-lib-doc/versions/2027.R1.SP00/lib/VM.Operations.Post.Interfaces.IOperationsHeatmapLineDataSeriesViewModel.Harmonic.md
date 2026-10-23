@@ -19,3 +19,5 @@ double Harmonic { get; set; }
 ### Remarks
 
 Changing this value changes the harmonic slope used when the related heat-map curve is generated in a 3D STFT representation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.Harmonic.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.Harmonic.md">Download this page as Markdown</a>

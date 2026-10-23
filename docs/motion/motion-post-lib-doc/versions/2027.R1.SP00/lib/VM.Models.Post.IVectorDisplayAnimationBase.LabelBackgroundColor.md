@@ -15,3 +15,5 @@ Color LabelBackgroundColor { get; set; }
 ### Property Value
 
  Color
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.LabelBackgroundColor.md" download="VM.Models.Post.IVectorDisplayAnimationBase.LabelBackgroundColor.md">Download this page as Markdown</a>

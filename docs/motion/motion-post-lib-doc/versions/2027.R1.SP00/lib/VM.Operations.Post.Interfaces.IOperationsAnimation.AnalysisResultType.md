@@ -19,3 +19,5 @@ AnalysisResultType AnalysisResultType { get; }
 ### Remarks
 
 The value is `Nothing` when no analysis result is available.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.AnalysisResultType.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.AnalysisResultType.md">Download this page as Markdown</a>
