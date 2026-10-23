@@ -1,14 +1,16 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-21).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-22).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
 The following table shows which components have updates in each category.
 
-| Component | Features | 
-|-----------|----------|
-| femutils | [1 item](#Features_femutils) |
+| Component | Features | Fixes | 
+|-----------|----------|----------|
+| femutils | [1 item](#Features_femutils) |[1 item](#Fixes_femutils) |
+| mapdl | [1 item](#Features_mapdl) | |
+| mesh |  |[1 item](#Fixes_mesh) |
 
 
 ## femutils
@@ -16,6 +18,35 @@ The following table shows which components have updates in each category.
 
 - Expose nodal and elemental scopings for CElementalNodalToNodalElementalFC:
   > Elemental nodal to nodal elemental conversion operators can now output the nodal and elemental scopings of each resulting field.
+  >
+  > 
+  >
+  > 
+
+### <a id="Fixes_femutils"></a> Fixes
+
+- Fix cyclic expansion for reaction forces when high low bounds are constrained:
+  > Fix cyclic expansion for reaction forces when high low bounds are constrained
+  >
+  > 
+  >
+  > 
+## mapdl
+### <a id="Features_mapdl"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in mapdlOperators:
+  > 
+  >
+  > 
+
+## mesh
+
+### <a id="Fixes_mesh"></a> Fixes
+
+- Use pin 1 for level-set union in combine_levelset:
+  > 
+  >
+  > The combined field now uses both inputs and keeps the lower value at each matching location.
   >
   > 
   >
@@ -1824,6 +1855,8 @@ Upgraded documentation
 - [combine_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/combine_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 1.0.0: Use both input fields to compute the binary union.
 
 
 - [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/exclude_levelset.md)
