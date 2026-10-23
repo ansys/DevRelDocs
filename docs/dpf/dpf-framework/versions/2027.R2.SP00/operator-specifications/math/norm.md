@@ -11,7 +11,7 @@ license: None
 ## Description
 
 
-Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector
+Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_%28mathematics%29#p-norm) of the component vector
 for each entity in the field:
 $\mathrm{out}[k] = \left(\sum_{j=0}^{n_c-1} |v_{k,j}|^p\right)^{1/p}$,
 where $n_c$ is the number of components. Default is $p = 2$ (Euclidean norm).

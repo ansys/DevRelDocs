@@ -59,6 +59,8 @@ Each output is detailed in the sections that follow the table.
 | Pin number |  Name | Expected type(s) |
 |-------|------|------------------|
 |  **0**| [fields_container](#output_0) |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+|  **1**| [node_scopings](#output_1) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
+|  **2**| [element_scopings](#output_2) |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 
 
 <a id="output_0"></a>
@@ -67,6 +69,20 @@ Each output is detailed in the sections that follow the table.
 - **Expected type(s):** [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
 Nodal elemental fields with input fields container label spaces preserved.
+
+<a id="output_1"></a>
+### node_scopings (Pin 1)
+
+- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Nodal scopings aligned with the records of each output field, preserving the fields container label spaces.
+
+<a id="output_2"></a>
+### element_scopings (Pin 2)
+
+- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Elemental scopings aligned with the records of each output field, preserving the fields container label spaces.
 
 
 ## Configurations
@@ -129,6 +145,8 @@ op.connect(0, my_fields_container);
 op.connect(1, my_mesh_scoping);
 op.connect(7, my_mesh);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
+ansys::dpf::ScopingsContainer my_node_scopings = op.getOutput<ansys::dpf::ScopingsContainer>(1);
+ansys::dpf::ScopingsContainer my_element_scopings = op.getOutput<ansys::dpf::ScopingsContainer>(2);
 ```
 </details>
 
@@ -143,6 +161,8 @@ op.inputs.fields_container.connect(my_fields_container)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.mesh.connect(my_mesh)
 my_fields_container = op.outputs.fields_container()
+my_node_scopings = op.outputs.node_scopings()
+my_element_scopings = op.outputs.element_scopings()
 ```
 </details>
 
@@ -158,6 +178,8 @@ op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.mesh.Connect(my_mesh)
 my_fields_container = op.outputs.fields_container.GetData()
+my_node_scopings = op.outputs.node_scopings.GetData()
+my_element_scopings = op.outputs.element_scopings.GetData()
 ```
 </details>
 <br>
