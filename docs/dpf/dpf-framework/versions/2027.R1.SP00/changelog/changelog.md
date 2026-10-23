@@ -1,63 +1,61 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-16).
+Changes for DPF 2027 R1 (2027.R1.SP00).
 
-This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
+Updates are grouped by component and category: Features, Fixes, Changes, and Performance.
 
-The following table shows which components have updates in each category.
+The following table shows the number of entries for each component and category.
 
-| Component | Features | Fixes | 
-|-----------|----------|----------|
-| ael | [1 item](#Features_ael) | |
-| averaging |  |[1 item](#Fixes_averaging) |
-| build |  |[1 item](#Fixes_build) |
-| c# |  |[1 item](#Fixes_c#) |
-| cff |  |[5 items](#Fixes_cff) |
-| ci | [2 items](#Features_ci) |[2 items](#Fixes_ci) |
-| compression | [5 items](#Features_compression) |[1 item](#Fixes_compression) |
-| core |  |[1 item](#Fixes_core) |
-| cs | [6 items](#Features_cs) |[2 items](#Fixes_cs) |
-| csharp | [1 item](#Features_csharp) | |
-| cyclic |  |[2 items](#Fixes_cyclic) |
-| deps |  |[1 item](#Fixes_deps) |
-| doc |  |[1 item](#Fixes_doc) |
-| documentation |  |[1 item](#Fixes_documentation) |
-| femutils | [10 items](#Features_femutils) |[17 items](#Fixes_femutils) |
-| flatbuffers |  |[1 item](#Fixes_flatbuffers) |
-| framework | [3 items](#Features_framework) |[18 items](#Fixes_framework) |
-| gate |  |[1 item](#Fixes_gate) |
-| grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
-| h5dpf |  |[3 items](#Fixes_h5dpf) |
-| hdf5 | [10 items](#Features_hdf5) |[22 items](#Fixes_hdf5) |
-| hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
-| kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
-| licensing |  |[1 item](#Fixes_licensing) |
-| lsdyna | [4 items](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
-| madl |  |[1 item](#Fixes_madl) |
-| mapd | [1 item](#Features_mapd) | |
-| mapdl | [18 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
-| mapl |  |[1 item](#Fixes_mapl) |
-| mapping |  |[2 items](#Fixes_mapping) |
-| math | [11 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
-| misc | [5 items](#Features_misc) |[7 items](#Fixes_misc) |
-| multiphysics | [2 items](#Features_multiphysics) | |
-| multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
-| native | [23 items](#Features_native) |[34 items](#Fixes_native) |
-| nuget |  |[1 item](#Fixes_nuget) |
-| plugins | [3 items](#Features_plugins) | |
-| prime | [1 item](#Features_prime) |[2 items](#Fixes_prime) |
-| pythonplugin |  |[2 items](#Fixes_pythonplugin) |
-| rbd | [1 item](#Features_rbd) | |
-| result-info |  |[1 item](#Fixes_result-info) |
-| utilities |  |[1 item](#Fixes_utilities) |
-| vtk | [3 items](#Features_vtk) |[3 items](#Fixes_vtk) |
-| workflows | [4 items](#Features_workflows) |[4 items](#Fixes_workflows) |
-| xml |  |[3 items](#Fixes_xml) |
+| Component | Changes | Features | Fixes | Performance |
+|-----------|----------|----------|----------|----------|
+| abaqus |  |  | [1 item](#Fixes_abaqus) |  |
+| ael |  | [1 item](#Features_ael) |  |  |
+| cff |  |  | [4 items](#Fixes_cff) |  |
+| compression |  | [5 items](#Features_compression) | [2 items](#Fixes_compression) |  |
+| cs |  | [9 items](#Features_cs) | [8 items](#Fixes_cs) |  |
+| deps |  |  | [8 items](#Fixes_deps) |  |
+| femutils |  | [16 items](#Features_femutils) | [28 items](#Fixes_femutils) | [3 items](#Performance_femutils) |
+| framework |  | [29 items](#Features_framework) | [55 items](#Fixes_framework) | [8 items](#Performance_framework) |
+| grpc |  | [7 items](#Features_grpc) | [12 items](#Fixes_grpc) |  |
+| hdf5 |  | [22 items](#Features_hdf5) | [31 items](#Fixes_hdf5) | [6 items](#Performance_hdf5) |
+| hgp |  | [19 items](#Features_hgp) | [19 items](#Fixes_hgp) |  |
+| livepost |  | [1 item](#Features_livepost) |  |  |
+| lsdyna |  | [4 items](#Features_lsdyna) | [1 item](#Fixes_lsdyna) |  |
+| mapdl |  | [26 items](#Features_mapdl) | [85 items](#Fixes_mapdl) | [6 items](#Performance_mapdl) |
+| mapping |  |  | [1 item](#Fixes_mapping) |  |
+| math |  | [8 items](#Features_math) | [4 items](#Fixes_math) | [1 item](#Performance_math) |
+| mechanical |  | [2 items](#Features_mechanical) | [8 items](#Fixes_mechanical) |  |
+| mesh |  | [5 items](#Features_mesh) | [7 items](#Fixes_mesh) |  |
+| misc |  | [1 item](#Features_misc) | [3 items](#Fixes_misc) |  |
+| multiphysics |  | [2 items](#Features_multiphysics) |  |  |
+| multiphysicsmapper |  |  | [5 items](#Fixes_multiphysicsmapper) |  |
+| native | [1 item](#Changes_native) | [36 items](#Features_native) | [57 items](#Fixes_native) | [10 items](#Performance_native) |
+| nuget |  |  | [1 item](#Fixes_nuget) |  |
+| plugins |  | [3 items](#Features_plugins) |  |  |
+| prime |  | [1 item](#Features_prime) | [2 items](#Fixes_prime) |  |
+| pythonplugin |  | [1 item](#Features_pythonplugin) | [2 items](#Fixes_pythonplugin) |  |
+| rbd |  | [1 item](#Features_rbd) |  |  |
+| result-info |  |  | [1 item](#Fixes_result-info) |  |
+| utilities |  |  | [1 item](#Fixes_utilities) |  |
+| vtk |  | [1 item](#Features_vtk) | [5 items](#Fixes_vtk) | [1 item](#Performance_vtk) |
+| workflows |  | [3 items](#Features_workflows) | [4 items](#Fixes_workflows) |  |
+| xml |  |  | [1 item](#Fixes_xml) |  |
 
+## abaqus
+
+### <a id="Fixes_abaqus"></a> Fixes
+
+- Fix int connection to time_scoping pin for cyclic models:
+  > 
+  >
+  > If an integer different to 1 is connected to the time_scoping input pin for cyclic models, the results that will be read are the ones from time=1 either way. This is now fixed.
+  >
+  > 
+  >
+  > 
 
 ## ael
+
 ### <a id="Features_ael"></a> Features
 
 - Load new Ansys Element Library plugin by default:
@@ -67,42 +65,9 @@ The following table shows which components have updates in each category.
   >
   > 
 
-## averaging
-
-### <a id="Fixes_averaging"></a> Fixes
-
-- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
-  > 
-  >
-  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
-  >
-  > 
-  >
-  > 
-## build
-
-### <a id="Fixes_build"></a> Fixes
-
-- Fixed build with Ninja, stricter compile flags:
-  > 
-  >
-  > 
-## c#
-
-### <a id="Fixes_c#"></a> Fixes
-
-- Expose the MultiPhysicsMapper plugin in C#:
-  > 
-  >
-  > 
 ## cff
 
 ### <a id="Fixes_cff"></a> Fixes
-
-- Visualization problem in a Fluent mesh with different mesh sizes:
-  > 
-  >
-  > 
 
 - Fixing issue with error messages:
   > 
@@ -125,55 +90,17 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
-## ci
-### <a id="Features_ci"></a> Features
 
-- Migration of artifactory and service accounts to Synopsys:
-  > 
-  >
-  > 
-
-- Migration of artifactory and service accounts to Synopsys:
-  > 
-  >
-  > 
-
-### <a id="Fixes_ci"></a> Fixes
-
-- Fix Nuget tests:
-  > 
-  >
-  > Bring the changes from WorkflowMediumComplexityTest in CS_DataProcessingTests to NuGet.Cs.Ext.Test.
-  >
-  > 
-  >
-  > 
-
-- React to change in CFFSDK:
-  > 
 ## compression
+
 ### <a id="Features_compression"></a> Features
 
-- Creation of operators for delta compression:
-  > 
-  >
-  > 
-
-- Accept svd_operator's pin 1 as double:
-  > Added the possibility to give a double to pin 1 of _svd_operator_
-  >
-  > 
-  >
-  > 
+- Accept double inputs on apply_svd pin 1:
+  > The apply_svd operator now accepts a double on input pin 1 and rounds it to the truncation value.
 
 - Add generic operators to compress fields and fields containers:
   > Create operators to compress and decompress data of fields and fields containers.
   >
-  > 
-  >
-  > 
-
-- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Compression:
   > 
   >
   > 
@@ -187,33 +114,32 @@ The following table shows which components have updates in each category.
   >
   > 
 
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
+
+- Read and set fields-container names through attribute APIs:
+  > Fields-container attribute APIs now support base_name and field_names for reading or setting the container's base name and individual field names.
+
 ### <a id="Fixes_compression"></a> Fixes
 
 - Wrong dimension for output of sketch matrix operator:
   > 
   >
   > 
-## core
 
-### <a id="Fixes_core"></a> Fixes
+- Prevent from reading shell results without section.:
+  > Shell result requests with multiple layer positions now raise an error when no shell section is associated.
 
-- TestInput throws if upstream operator does not have output:
-  > testInput was throwing if two operators were connected and the output of op1 was not defined and plug as an input of op2. For this specific usecase, the method return false now.
-  >
-  > 
-  >
-  > 
 ## cs
+
 ### <a id="Features_cs"></a> Features
 
-- Add ResultInfo main title setter:
-  > 
-  >
-  > DPF users can assign a main title to result information through HGP, C#, PyDPF-Core, and remote gRPC APIs.
-  >
-  > 
-  >
-  > 
+- Set ResultInfo main titles through client APIs:
+  > HGP, C#, and gRPC clients can now assign a main title to ResultInfo metadata.
 
 - Expose int and double vector inputs/outputs in managed client:
   > 
@@ -238,21 +164,42 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Add the GenericDataContainer type to the C# API:
-  > Add the GenericDataContainer type to the C# API.
+- Expose GenericDataContainer in the C# API:
+  > C# users can now create and access GenericDataContainer objects through the DPF managed client API.
+
+- Expose Any values through C# operators and workflows:
+  > C# users can now wrap supported values in Any objects and connect or retrieve them through operators and workflows.
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
   >
   > 
   >
   > 
 
-- Expose the Any type to C#:
-  > Expose type Any in the C# API.
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Add operator Changelog support to C#:
+  > Support operator changelogs in the C# client API. Add the Changelog class.
   >
   > 
   >
   > 
 
 ### <a id="Fixes_cs"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
+  > 
+  >
+  > 
+
+- Expose the MultiPhysicsMapper plugin in C#:
+  > The Windows plugin package now includes a generated C# wrapper for MultiPhysicsMapper, letting C# users access the plugin.
 
 - Support workflow streams container inputs:
   > 
@@ -264,57 +211,34 @@ The following table shows which components have updates in each category.
   > 
 
 - Connect generic IronPython objects as operator inputs:
+  > IronPython callers can connect dynamically typed values to operator inputs even when the input is not typed as `Any`. DPF still rejects values that do not match a supported input type.
+
+- Revert the earlier skin-extraction memory optimization:
+  > The skin operator restores its earlier extraction behavior by reverting the previous memory-usage optimization.
+
+- Add support for Surface3, Surface4, Surface6, and Surface8 eltypes in skin operator:
   > 
   >
-  > 
-## csharp
-### <a id="Features_csharp"></a> Features
-
-- Support uint64 type:
-  > Add framework and client support for uint64 and vector<uint64> as data type.
+  > Add support for Surface3, Surface4, Surface6, and Surface8 element types in several operators: `meshed_skin_sector`, `mesh_to_graphics_edges`, `elements_volume`, `element_nodal_contribution`, and `integrate_over_elements`.
   >
-  > 
-  >
-  > 
-
-## cyclic
-
-### <a id="Fixes_cyclic"></a> Fixes
-
-- Fix cyclic expansion for Nodal Integrated quantities:
   > 
   >
   > 
 
-- Fix composite nodal cyclic request by scoping:
-  > 
+- Reduce memory footprint of skin extraction op:
+  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
   >
   > 
+
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
 ## deps
 
 ### <a id="Fixes_deps"></a> Fixes
 
-- Operator priority conanfile issue:
-  > 
-  >
-  > Fix a logic error in a conanfile, would cause issues when installed as a dependency.
-  >
-  > 
-  >
-  > 
-## doc
-
-### <a id="Fixes_doc"></a> Fixes
-
-- Clarification of averaging for principal and component operators.:
-  > Clarification of averaging for principal and component operators.
-  >
-  > 
-  >
-  > 
-## documentation
-
-### <a id="Fixes_documentation"></a> Fixes
+- Package gRPC libraries correctly on Linux:
+  > Linux dependency installation now copies the gRPC libraries with the correct filename suffix, preventing the reported packaging failure.
 
 - Fix inline dollar LaTex delimiters support in html_doc:
   > Fixes support for inline dollar LaTeX delimiters in operator "html_doc".
@@ -326,15 +250,31 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+
+- Improve ref handling across gRPC servers:
+  > Remote operators can now resolve FlatBuffers references created by another server through each reference's associated channel.
+
+- Append restarted MAPDL results to existing H5DPF support:
+  > Results from a restarted MAPDL analysis can now be appended to an H5DPF file while extending the original time-frequency support.
+
+- Restore Web Shared Licensing in DPF Standalone:
+  > DPF Standalone now includes the licensing components needed for Web Shared Licensing on Windows and Linux.
+
+- Recognize additional mesh element shapes:
+  > Mesh reads now classify joint, target, plane, and pipe elements using their correct shapes instead of returning unknown.
+
+- Install DpfEmpty.xml in the utilities directory:
+  > The Windows DPF package now includes DpfEmpty.xml in its utilities directory after installation.
+
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
 ## femutils
+
 ### <a id="Features_femutils"></a> Features
 
-- Support field and TFS for natural frequencies in modal_damping_ratio:
-  > Support field and time/freq support in pin 0 of modal_damping_ratio
-  >
-  > 
-  >
-  > 
+- Accept field and time-frequency support inputs in modal_damping_ratio:
+  > The modal_damping_ratio operator now accepts natural frequencies from a field or time-frequency support on input pin 0.
 
 - Add total strain operator':
   > 
@@ -367,29 +307,63 @@ The following table shows which components have updates in each category.
   > 
 
 - Use the definition from input stress field:
-  > 
-  >
-  > 
+  > Vector principal stress results now retain the unit definition from the input stress field, so output units match the source field.
 
-- Add vector principle stress operator:
-  > 
-  >
-  > 
-
-- Use ScopingIterators and eliminate GetIds calls in Ans.Dpf.FEMUtils:
-  > 
-
-- Switch from_scoping to entry:
-  > Switch mesh::by_scopings op to public
-  >
-  > 
+- Make from_scoping available at the entry licensing tier:
+  > The from_scoping operator now uses the entry licensing tier instead of requiring the premium tier.
 
 - Implementing build_scoping_build_index_tables in split_mesh and meshes::by_scopings and refactoring:
   > Improvement in the performance for `split_mesh`, `meshes::by_scopings` and `mesh::by_scoping` operators for cases with non-shared scoping between property fields and mesh.
   >
   > 
 
+- Add beta support of thermal surface load elements SURF151 and SURF152:
+  > Add beta support of thermal surface load elements SURF151 and SURF152
+  >
+  > 
+  >
+  > 
+
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Read FLUID116 and SURF251/SURF252 results:
+  > New result operators read FLUID116 flow and heat-transfer quantities and SURF251/SURF252 radiation quantities, including average_velocity, flow_rate, emissivity, and net_radiation_heat_flux.
+
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
+
+- Control rotations with Euler angles and inverse rotation:
+  > Rotation operators now accept arbitrary Euler angles and an optional inverse_rotation input, allowing the requested rotation direction to be controlled.
+
+- Add total strain operator:
+  > DPF provides EL total-strain tensor and EL_EQV equivalent total-strain results. When the source lacks total strain directly, DPF assembles it from available elastic, plastic, creep, and thermal strain results.
+
+- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
+  > Nodal result read from RST files now have an associated mesh support
+  >
+  > The mesh extraction operator now forward the input mesh property fields
+  >
+  > 
+  >
+  > 
+
+- Optionally extend nodal_to_elemental_nodal results to midside nodes:
+  > The nodal_to_elemental_nodal operator now accepts extend_to_mid_nodes; enabling it includes midside nodes, while the default remains corner nodes only.
+
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
+  > 
+  >
+  > 
+
+- Fix cyclic expansion for Nodal Integrated quantities:
+  > Cyclic expansion now includes contributions from adjacent sectors for shared nodes and from center nodes within the selected bounds when computing nodal integrated quantities.
 
 - Fix averaging operation of fields with data on Mid shell layer:
   > 
@@ -409,19 +383,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Improve performance of nodal_extend_to_mid_nodes:
-  > 
-  >
-  > Improve performance of the `nodal_extend_to_mid_nodes` operator.
-  >
-  > 
-  >
-  > 
-
-- Remove map from spec:
-  > 
-  >
-  > 
+- Correct the nodal-scoping input specification:
+  > The elemental_nodal_to_nodal_elemental operator now advertises only a scoping input for its optional nodal filter, not a map.
 
 - Preserve mapping labels for single coordinate field:
   > 
@@ -439,14 +402,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Mark Poisson ratio input optional in equivalent_von_mises operators:
-  > 
-  >
-  > The von Mises operators now expose Poisson ratio as an optional input while preserving default behavior when the input is omitted.
-  >
-  > 
-  >
-  > 
+- Mark Poisson ratio optional in von_mises_eqv operators:
+  > The von_mises_eqv and von_mises_eqv_fc specifications now mark Poisson ratio optional while preserving behavior when the input is omitted.
 
 - Wrong shell results on skin with elemental averaging:
   > 
@@ -484,34 +441,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix solid_to_skin:
-  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
-  >
-  > 
-  >
-  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
-  >
-  > 
-  >
-  > **What changed**:
-  >
-  > 
-  >
-  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
-  >
-  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
-  >
-  > 
-  >
-  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
-  >
-  > 
-  >
-  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
-  >
-  > 
-  >
-  > 
+- Prevent intermittent parallel solid_to_skin_fc crashes:
+  > The solid_to_skin_fc operator avoids intermittent crashes when results for multiple time steps or load cases are processed in parallel.
 
 - Improve performance of Cyclic expansion of meshes and results:
   > 
@@ -523,36 +454,96 @@ The following table shows which components have updates in each category.
   > 
 
 - Fix issue in force_summation with total forces and no damping:
-  > 
-  >
-  > 
+  > When damping results are absent, requesting total forces with force_summation now returns force and moment values instead of failing.
 
 - Fixing memory overhead with ElementalNodal to Nodal results:
   > Improved memory management of the `elemental_nodal_To_nodal_fc` operator.
   >
   > 
 
-- Issue with semiparabolic elements in elemental_nodal_To_nodal operators:
-  > Fixing issue with semiparabolic elements in `elemental_nodal_To_nodal` operators.
+- Handle semiparabolic elements during elemental-nodal averaging:
+  > The elemental_nodal_to_nodal operator now skips missing-node entries in semiparabolic elements, preventing invalid indexing during averaging.
+
+- Fix structural-temperature extraction across multiple time steps:
+  > Structural-temperature extraction no longer fails intermittently when processing multiple time steps in transient analyses.
+
+- Support Surface element types  in the mapping and centroids operators:
+  > 
+  >
+  > Support Surface element types (Surface3, Surface4, Surface6 and Surface8 and its extensions with extra nodes) in "mapping", "find_reduced_coordinates", "on_reduced_coordinates", and "compute_element_centroids" operators.
+  >
+  > 
   >
   > 
 
-- Bug 1398238 Fail to extract structural temperature at multiple time steps:
-  > Fix random failure in multistep transient simulation
+- Fixing issues distorted elements in find_reduced_coordinates and mapping operators and numerical problems:
+  > Fixing issue with distorted elements in `find_reduced_coordinates` and `mapping` operators and numerical problems.
   >
   > 
-  >
-  > 
-## flatbuffers
 
-### <a id="Fixes_flatbuffers"></a> Fixes
+- Reduce topology-optimization result-processing overhead:
+  > Topology-optimization result processing now avoids unnecessary cyclic-scoping intersections, reducing repeated work when selecting requested results.
 
-- Improve ref handling across gRPC servers:
+- Recognize additional mesh element shapes:
+  > Mesh reads now classify joint, target, plane, and pipe elements using their correct shapes instead of returning unknown.
+
+- Record ElementalMass for rth:
+  > Make ElementalMass a source operator
+  >
+  > Make MaterialPropertyOfElement a source operator
+  >
   > 
   >
   > 
+
+- Include combined skin and plane elements in shape-based scoping:
+  > Shape-based mesh scoping now includes elements carrying both skin and plane properties, preserving the expected selection.
+
+- Rescope named selections during mesh extraction:
+  > Mesh extraction and scoping now rescope named selections onto the output mesh instead of retaining selections from the source mesh.
+
+- Add support for Surface3, Surface4, Surface6, and Surface8 eltypes in skin operator:
+  > 
+  >
+  > Add support for Surface3, Surface4, Surface6, and Surface8 element types in several operators: `meshed_skin_sector`, `mesh_to_graphics_edges`, `elements_volume`, `element_nodal_contribution`, and `integrate_over_elements`.
+  >
+  > 
+  >
+  > 
+
+- Preserve input scoping support during rescoping:
+  > Rescoping now validates source and destination locations without modifying the support attached to the input scoping.
+
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
+### <a id="Performance_femutils"></a> Performance
+
+- Improve nodal_extend_to_mid_nodes processing:
+  > The nodal_extend_to_mid_nodes operator now uses more efficient midside-node tracking to reduce repeated lookup work.
+
+- Improve performance of Rescope operators:
+  > 
+  >
+  > Performance improvements in the `Rescope`, `Rescope_pf`, `Rescope_ctf`, `rescope_fc` and `solid_to_skin_fc` operators.
+  >
+  > 
+  >
+  > 
+
+- Perf improvement of mesh_to_pyvista:
+  > Performance improvement of mesh_to_pyvista operator, up to a margin of 60%, was achieved especially when dealing with conversion between Dpf Meshed Regions and various VTK-native mesh formats.
+  >
+  > 
+  >
+  > 
+
 ## framework
+
 ### <a id="Features_framework"></a> Features
+
+- Set ResultInfo main titles through client APIs:
+  > HGP, C#, and gRPC clients can now assign a main title to ResultInfo metadata.
 
 - Support uint64 type:
   > Add framework and client support for uint64 and vector<uint64> as data type.
@@ -561,21 +552,202 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Add structured exception types to the kernel:
+- Add total strain operator':
+  > 
+
+- Use the definition from input stress field:
+  > Vector principal stress results now retain the unit definition from the input stress field, so output units match the source field.
+
+- Add thermal-compliance homogeneity and units:
+  > Thermal compliance is now available as a field homogeneity, with corresponding unit definitions exposed through the framework and HGP APIs.
+
+- Expose StringField data offsets through HGP and gRPC:
+  > The HGP StringField::dataPointer() API now returns entity start offsets in the flat data array, including for fields accessed through gRPC.
+
+- Field MetaData as hashable objects:
+  > Field definitions are now stored once when the same definition is used in multiple fields. Same goes for field headers.
+  >
+  > 
+
+- Add random-access operations to scoping iterators:
+  > Scoping iterators now support arithmetic, indexing, comparisons, and distance calculations for use with standard C++ algorithms.
+
+- Attach ply support according to field homogeneity:
+  > MAPDL result fields now retain ply support when shell-position or layer counts vary, while homogeneous fields omit unnecessary support metadata.
+
+- Add misc reaction results:
+  > Addition of operators to read Radiation heat flow rate, convection heat flow rate and contact element heat flow
+  >
   > 
   >
   > 
 
-- Add ThermalCompliance Homogeneity:
-  > 
-  >
-  > Add Thermal Compliance Homogeneity
+- Add beta support of structural surface load elements SURF153 and SURF154:
+  > Addition of beta support for SURF153 & SURF154, these elements will now appear in the mesh and elemental results when applicable.
   >
   > 
   >
   > 
+
+- Add beta support of thermal surface load elements SURF151 and SURF152:
+  > Add beta support of thermal surface load elements SURF151 and SURF152
+  >
+  > 
+  >
+  > 
+
+- Read complete result sets and select multi-RPM steps:
+  > New readers collect all state variables, elemental nodal forces, or reactions into a fields container. Time-frequency extraction and integration also accept step selection for multi-RPM data.
+
+- Read radiation-area results for SURF251 and SURF252:
+  > The radiation_area operator reads elemental radiation-area results for SURF251 and SURF252 elements.
+
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Enable cyclic expansion for composite datasources.:
+  > Enable cyclic expansion for composite datasources.
+  >
+  > Enable cyclic expansion for plastic, thermal, accumulated equivalent plastic strain and elemental orientations. Accumulated equivalent plastic strain and Element Orientations will only account for harmonic 0 for expansion.
+  >
+  > 
+  >
+  > 
+
+- Read FLUID116 and SURF251/SURF252 results:
+  > New result operators read FLUID116 flow and heat-transfer quantities and SURF251/SURF252 radiation quantities, including average_velocity, flow_rate, emissivity, and net_radiation_heat_flux.
+
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
+
+- Create TPA objects to streamline TPA workflow:
+  > 
+
+- Set DPF versioning to ansys calendar like versioning:
+  > 
+  >
+  > Set DPF versioning to Ansys calendar like versioning and add full version endpoints.
+  >
+  > 
+  >
+  > 
+
+- Control rotations with Euler angles and inverse rotation:
+  > Rotation operators now accept arbitrary Euler angles and an optional inverse_rotation input, allowing the requested rotation direction to be controlled.
+
+- Add total strain operator:
+  > DPF provides EL total-strain tensor and EL_EQV equivalent total-strain results. When the source lacks total strain directly, DPF assembles it from available elastic, plastic, creep, and thermal strain results.
+
+- Memory improvements for distributed data sources cases for results:
+  > Memory efficiency improved for reading results for large distributed cases.
+  >
+  > 
+
+- Retrieve field counts and data sizes through attribute APIs:
+  > The fc_get_attribute operator accepts num_fields to return the field count. Field attribute operators accept datasize to return the size of their data arrays.
+
+- Read composite meshes incrementally by default:
+  > Composite data sources now read and merge mesh partitions incrementally by default, improving memory use during mesh loading.
+
+- Add a dedicated matrix_product operator:
+  > Adds a dedicated matrix_product operator as a helper to the generalized_inner_product for ease of use.
+  >
+  > 
+  >
+  > 
+
+- Added "generic_data_container::get_attribute" and "generic_data_container::set_attribute":
+  > Added the following APIs for Generic Data Container
+  >
+  > - "generic_data_container::get_attribute": returns a given attribute of the generic data container in input
+  >
+  > - "generic_data_container::set_attribute": creates a new generic data container or modifies the one in input
+  >
+  > 
+  >
+  > 
+
+- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
+  > Nodal result read from RST files now have an associated mesh support
+  >
+  > The mesh extraction operator now forward the input mesh property fields
+  >
+  > 
+  >
+  > 
+
+- Optionally extend nodal_to_elemental_nodal results to midside nodes:
+  > The nodal_to_elemental_nodal operator now accepts extend_to_mid_nodes; enabling it includes midside nodes, while the default remains corner nodes only.
 
 ### <a id="Fixes_framework"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
+  > 
+  >
+  > 
+
+- Visualization problem in a Fluent mesh with different mesh sizes:
+  > Non-polyhedral Fluent meshes with face connectivity can now be converted for visualization. Supplied node coordinates are aligned with the mesh when their scoping differs.
+
+- TestInput throws if upstream operator does not have output:
+  > testInput was throwing if two operators were connected and the output of op1 was not defined and plug as an input of op2. For this specific usecase, the method return false now.
+  >
+  > 
+  >
+  > 
+
+- Fix inline dollar LaTex delimiters support in html_doc:
+  > Fixes support for inline dollar LaTeX delimiters in operator "html_doc".
+  >
+  > Updates the "markdown_latex_example" operator description to correctly use bracket LaTeX delimiters.
+  >
+  > It also updates the "markdown_latex_example" operator and pin description rules concerning headings (minimum heading level 3 in operator description and no headings in pin descriptions) for a correct rendering in the Developer Portal DPF Framework documentation.
+  >
+  > 
+  >
+  > 
+
+- Improving behavior of find_reduced_coordinates operator:
+  > Improve element selection at boundaries using distance-based ranking of candidate elements, both for `find_reduced_coordinates` and `mapping` operator.
+  >
+  > 
+
+- Add support for missing element types in solid_to_skin:
+  > 
+  >
+  > All surface elements (and also point elements) are now supported in `solid_to_skin` operators.
+  >
+  > 
+  >
+  > 
+
+- Support line elements in solid_to_skin:
+  > 
+  >
+  > Line elements (Line2, Line3, Edge2, Edge3) are now supported in `solid_to_skin` operators.
+  >
+  > 
+  >
+  > 
+
+- Prevent intermittent parallel solid_to_skin_fc crashes:
+  > The solid_to_skin_fc operator avoids intermittent crashes when results for multiple time steps or load cases are processed in parallel.
+
+- Improve performance of Cyclic expansion of meshes and results:
+  > 
+  >
+  > Fix performance bottlenecks for large model in cyclic operators `cyclic_expansion_meshes` and `cyclic_expansion_field`.
+  >
+  > 
+  >
+  > 
+
+- Improve ref handling across gRPC servers:
+  > Remote operators can now resolve FlatBuffers references created by another server through each reference's associated channel.
 
 - Escape structured exception JSON:
   > 
@@ -597,15 +769,6 @@ The following table shows which components have updates in each category.
 
 - Graphviz workflow exports after cached-step reconnection:
   > The export now discovers operators on a workflow copy before serializing the graph. This includes cached operators that were connected during evaluation but were not originally registered in the workflow, preventing incorrect edges to unrelated operators.
-  >
-  > 
-  >
-  > 
-
-- Performance increase of CScoping::indexById:
-  > 
-  >
-  > Performance of the Scoping API `indexById` is increased for non-sparse large scopings.
   >
   > 
   >
@@ -640,18 +803,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Make the workflow step index memory upper bound actually hold:
-  > The memory upper bound configured on `WorkflowStepIndex` was not enforced. Depending on
-  >
-  > the sequence, the index either dropped steps it had just accepted or exceeded the limit by
-  >
-  > ~20%, and evicted steps kept holding their heap memory. This PR makes the bound effective
-  >
-  > and adds integration coverage.
-  >
-  > 
-  >
-  > 
+- Enforce configured workflow-cache memory limits:
+  > Workflow-step caching now enforces its configured memory limit and releases data held by evicted steps.
 
 - Fix non-ACLE licensing with delayed checkout:
   > 
@@ -708,26 +861,11 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix line ending issue in ASCII text serializer:
-  > 
-  >
-  > The ASCII text files serialized with DPF (for example, with the `serializer` operator with `stream_type=0`) had cross-OS interoperability problem depending on their line endings. This is now fixed for files serialized with DPF versions >= `2027.1.pre0`.
-  >
-  > 
-  >
-  > 
+- Handle ASCII serialization line endings across operating systems:
+  > ASCII serialization now handles LF and CRLF line endings consistently across operating systems. The existing version-1 loading path is preserved.
 
-- Refactor handling of named selections in CMeshedRegion:
-  > 
-
-- Add missing throw on errors in eventlogger:
-  > 
-  >
-  > Add missing throw on errors in EventLogger
-  >
-  > 
-  >
-  > 
+- Report invalid event-logging verbosity levels:
+  > Event logging now raises an error for invalid verbosity levels instead of silently ignoring the invalid setting.
 
 - Fix Heat Generation unit:
   > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
@@ -735,56 +873,6 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
-
-- Add ellipsis property to forward operator pins:
-  > 
-## gate
-
-### <a id="Fixes_gate"></a> Fixes
-
-- Prevent segfault when GC collects DPFVector during capi load_api:
-  > Fix a potential Segmentation Fault in Python 3.11 when a second local gRPC server is started after having used DPF array data due to the garbage collector firing while initializing the server.
-  >
-  > 
-  >
-  > 
-## grpc
-### <a id="Features_grpc"></a> Features
-
-- Add ResultInfo main title setter:
-  > 
-  >
-  > DPF users can assign a main title to result information through HGP, C#, PyDPF-Core, and remote gRPC APIs.
-  >
-  > 
-  >
-  > 
-
-- Support uint64 type:
-  > Add framework and client support for uint64 and vector<uint64> as data type.
-  >
-  > 
-  >
-  > 
-
-- Add StringField::dataPointer() via DpfVector-safe C-layer path:
-  > 
-  >
-  > Added dataPointer() method to StringField in the HGP public API. This method returns
-  >
-  > the start indices of each entity's data in the flat data array, consistent with the existing
-  >
-  > dataPointer() methods on Field and PropertyField. The method uses the new
-  >
-  > CSStringField_GetDataPointer_For_DpfVector C-layer function, which is safe to call over
-  >
-  > gRPC CLayer (unlike the previous direct pointer variant that failed on remote server modes).
-  >
-  > 
-  >
-  > 
-
-### <a id="Fixes_grpc"></a> Fixes
 
 - Expose native Any conversions:
   > 
@@ -798,9 +886,265 @@ The following table shows which components have updates in each category.
   > 
 
 - Inconsistent behaviors with remote operators:
+  > Remote workflows can include operators from different servers, even when their local IDs match, and retrieve forwarded field and string outputs.
+
+- Complete the work to fully support GenericSupport as Any:
+  > Users can wrap generic and cyclic support objects in Any values and pass them through gRPC APIs.
+
+- Preserve field supports when copying to remote servers:
+  > HGP Field::deep_copy now preserves field supports when copying local fields to a remote server.
+
+- Fix delegateRun error forwarding:
+  > When a delegated operator throws, its caller now receives a DpfException containing the delegated error message.
+
+- Reevaluate downstream operators after input changes:
+  > When operator inputs change, connected downstream operators now reevaluate and return results for the new inputs.
+
+- Fixing non thread-safe methods of the mesh:
+  > Fixing non-thread-safe methods of the mesh by using atomic variables.
+  >
   > 
   >
   > 
+
+- Follow-up on units:
+  > Imperial energy units now use `in*lbf` and `ft*lbf`, while moment units retain `lbf*in` and `lbf*ft`.
+
+- Complete unit strings for existing Unit Systems:
+  > 
+  >
+  > Unit strings are improved to get physical unit strings for all Ansys-supported Unit Systems. For example, for velocity in CGS system, `cm/s` is rendered instead of `cm*Hz`.
+  >
+  > 
+  >
+  > 
+
+- Improve parallelization in several operators:
+  > 
+  >
+  > Multithreading parallelization has been enhanced in several operators making use of OpenMP.
+  >
+  > 
+  >
+  > 
+
+- Improve area and volume calculation functions:
+  > Generic polygon area and centroid calculations no longer include contributions from degenerate triangles.
+
+- Complete unit strings for existing unit systems:
+  > Unit-system lookup now recognizes complete unit strings, and existing systems return expected symbols for derived quantities such as energy, moment, and velocity.
+
+- Add property-container access and correct MAPDL filtering:
+  > External operators can now read and return PropertyFieldsContainer values. MAPDL filtering preserves field definitions for empty elemental results and omits the Overall and Unknown labels from filtered outputs.
+
+- Preserve ply metadata during filtering:
+  > 
+  >
+  > Filtering MAPDL results changes both the entity scoping and, for mixed shell or ply models, the set of layered metadata that describes those entities. Treating empty, homogeneous, and heterogeneous fields identically can either lose metadata needed by downstream layer-aware operations or attach metadata that no longer matches the filtered field. This change preserves field data and scoping for empty results, retains ply-layer support for genuinely heterogeneous elemental output, and avoids unnecessary support on homogeneous output where it would add cost without representing useful variation.
+  >
+  > 
+  >
+  > 
+
+- Recognize additional mesh element shapes:
+  > Mesh reads now classify joint, target, plane, and pipe elements using their correct shapes instead of returning unknown.
+
+- Fix performance issues with mode chunking:
+  > Fix performance issues for Modal superposition with mode chunking option enabled
+  >
+  > 
+  >
+  > 
+
+- Support ElementalNodal input fields in mapdl::split_on_facet_indices and mapdl::split_to_acmo_facet_indices:
+  > 
+  >
+  > ElementalNodal Fields are now supported in `mapdl::split_on_facet_indices` and `mapdl::split_to_acmo_facet_indices` operators.
+  >
+  > 
+  >
+  > 
+
+- Rescope named selections during mesh extraction:
+  > Mesh extraction and scoping now rescope named selections onto the output mesh instead of retaining selections from the source mesh.
+
+- Reduce memory footprint of skin extraction op:
+  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
+  >
+  > 
+
+- Preserve structured error details for operator inputs and outputs:
+  > Some operator input connections and output reads now preserve nested exception details in structured form.
+
+- Fix CScopingProviderProperty for HDF5:
+  > 
+  >
+  > Support of HDF5 for CScopingProviderProperty for the properties **mapdl_element_type** and **material**
+  >
+  > 
+  >
+  > 
+
+- Default serialization to binary and make deserializer format optional:
+  > The serializer operator now defaults stream_type to binary (1) instead of ASCII (0). The deserializer stream_type input is optional.
+
+- Preserve input scoping support during rescoping:
+  > Rescoping now validates source and destination locations without modifying the support attached to the input scoping.
+
+- Skip empty input fields in min_max_over_label_fc:
+  > 
+  >
+  > The `min_max_over_label_fc` operator now correctly handles fields containers that contain
+  >
+  > empty fields (fields with no data, such as those produced by unconverged time steps).
+  >
+  > Previously, empty fields caused spurious zero-valued entries in the min/max output.
+  >
+  > The operator now excludes domain IDs whose fields are entirely empty from the output,
+  >
+  > so the output scoping only contains the domain IDs for which actual data was available.
+  >
+  > 
+  >
+  > 
+
+- Fix int connection to time_scoping pin for cyclic models:
+  > 
+  >
+  > If an integer different to 1 is connected to the time_scoping input pin for cyclic models, the results that will be read are the ones from time=1 either way. This is now fixed.
+  >
+  > 
+  >
+  > 
+
+- Support float-aware time-scoping comparisons:
+  > The compute_time_scoping operator now accepts time_freq_precision for float-aware comparisons, while keeping double precision as the default.
+
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
+- Correct residual-and-error scaling outputs:
+  > The compute_residual_and_error operator returns correctly sized scaling-factor outputs. Overall-max normalization consistently returns fields containers.
+
+- Correction path DLL AEL':
+  > The element library now loads from its installed plugin directory, and HGP callers can control when its computations run.
+
+- Correction path DLL AEL:
+  > The element library now loads from its installed plugin directory, and HGP callers can control when its computations run.
+
+### <a id="Performance_framework"></a> Performance
+
+- Improve nodal_extend_to_mid_nodes processing:
+  > The nodal_extend_to_mid_nodes operator now uses more efficient midside-node tracking to reduce repeated lookup work.
+
+- Performance increase of CScoping::indexById:
+  > 
+  >
+  > Performance of the Scoping API `indexById` is increased for non-sparse large scopings.
+  >
+  > 
+  >
+  > 
+
+- Cache the scoping hash so it can be reused:
+  > Scoping index-table construction does less repeated work when matching unchanged source and destination scopings.
+
+- Improve performance of GenPassOperators cache:
+  > When a request selects one subset of entities, cached mode shapes are reused instead of being read repeatedly.
+
+- Speed-up hasEntity API:
+  > Checking whether an ID belongs to a scoping now takes less lookup work, especially for large scopings.
+
+- Improve performance of Rescope operators:
+  > 
+  >
+  > Performance improvements in the `Rescope`, `Rescope_pf`, `Rescope_ctf`, `rescope_fc` and `solid_to_skin_fc` operators.
+  >
+  > 
+  >
+  > 
+
+- Performance improvements for distributed data sources cases for mesh:
+  > Performance improvements for distributed data sources cases for the mesh and merge mesh operator.
+  >
+  > 
+
+- Reuse named-selection metadata during distributed mesh reads:
+  > Distributed mesh reads now cache named selections across domains, avoiding repeated metadata preparation for the same mesh.
+
+## grpc
+
+### <a id="Features_grpc"></a> Features
+
+- Migration of artifactory and service accounts to Synopsys:
+  > 
+  >
+  > 
+
+- Set ResultInfo main titles through client APIs:
+  > HGP, C#, and gRPC clients can now assign a main title to ResultInfo metadata.
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
+
+- Expose StringField data offsets through HGP and gRPC:
+  > The HGP StringField::dataPointer() API now returns entity start offsets in the flat data array, including for fields accessed through gRPC.
+
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Set DPF versioning to ansys calendar like versioning:
+  > 
+  >
+  > Set DPF versioning to Ansys calendar like versioning and add full version endpoints.
+  >
+  > 
+  >
+  > 
+
+- Read and set fields-container names through attribute APIs:
+  > Fields-container attribute APIs now support base_name and field_names for reading or setting the container's base name and individual field names.
+
+### <a id="Fixes_grpc"></a> Fixes
+
+- Improve ref handling across gRPC servers:
+  > Remote operators can now resolve FlatBuffers references created by another server through each reference's associated channel.
+
+- Mechanical crashes when evaluating Python result with operator self connection:
+  > 
+  >
+  > 
+  >
+  > Prevents invalid workflow graphs by rejecting direct and indirect connections that cause an operator to depend on itself.
+  >
+  > 
+  >
+  > 
+
+- Prevent segfault when GC collects DPFVector during capi load_api:
+  > Fix a potential Segmentation Fault in Python 3.11 when a second local gRPC server is started after having used DPF array data due to the garbage collector firing while initializing the server.
+  >
+  > 
+  >
+  > 
+
+- Expose native Any conversions:
+  > 
+  >
+  > 
+  >
+  > Expose Any conversions for supported DPF entities across native in-process and gRPC backends, including typed collections and double vectors.
+  >
+  > 
+  >
+  > 
+
+- Inconsistent behaviors with remote operators:
+  > Remote workflows can include operators from different servers, even when their local IDs match, and retrieve forwarded field and string outputs.
 
 - Support remote object identity comparisons:
   > 
@@ -814,52 +1158,47 @@ The following table shows which components have updates in each category.
   > 
 
 - Complete the work to fully support GenericSupport as Any:
-  > 
+  > Users can wrap generic and cyclic support objects in Any values and pass them through gRPC APIs.
 
-- Fix deep_copy of local Fields to remote servers in HgP:
+- Preserve field supports when copying to remote servers:
+  > HGP Field::deep_copy now preserves field supports when copying local fields to a remote server.
+
+- Use absolute paths in the linux server launcher script:
+  > The Linux server launcher resolves its script location to an absolute path before deriving installation and library paths. This keeps those paths anchored to the launcher when it is started from another working directory.
+
+- Complete unit strings for existing Unit Systems:
   > 
   >
-  > Since 26.1, local Fields were not correctly copied into remote servers if they had Field supports. This is now fixed.
+  > Unit strings are improved to get physical unit strings for all Ansys-supported Unit Systems. For example, for velocity in CGS system, `cm/s` is rendered instead of `cm*Hz`.
   >
-  > 
-  >
-  > 
-## h5dpf
-
-### <a id="Fixes_h5dpf"></a> Fixes
-
-- Fix destruction order mutex order:
-  > 
-
-- Fix scoping_provider_by_prop for distributed h5 files:
   > 
   >
   > 
 
-- Add ENL results to H5DPF and export without TFS if not available:
-  > Add mapdl ENL type of results to be available through H5DPF.
-  >
-  > 
-  >
-  > 
+- Complete unit strings for existing unit systems:
+  > Unit-system lookup now recognizes complete unit strings, and existing systems return expected symbols for derived quantities such as energy, moment, and velocity.
+
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
 ## hdf5
+
 ### <a id="Features_hdf5"></a> Features
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
 
 - Implement shell_position_provider operator for h5 files:
   > Implement shell_position_provider operator for h5 files
   >
   > 
 
-- Write dpf stream helpers as attributes and add append tfs mode:
-  > **Old representation:**
-  >
-  > ![Screenshot 2026-07-29 121439.png](https://tfs.ansys.com:8443/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/708491/attachments/Screenshot%202026-07-29%20121439.png)
-  >
-  > **New representation**:
-  >
-  > ![image.png](https://tfs.ansys.com:8443/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/708491/attachments/image.png)
-  >
-  > 
+- Add a time-frequency-support-only H5DPF append mode:
+  > Setting append_mode to 2 now appends only time-frequency support when writing H5DPF data.
 
 - Add FilterMaterialsData operator for materials data processing and expose them in h5dpf:
   > Expose materials data in H5DPF as a generic data container
@@ -880,76 +1219,97 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Reevaluating caching logic:
-  > This change removes caching for result fields and mesh data structures. The following lightweight entities remain cached intentionally due to their low memory footprint and high reuse frequency:
-  >
-  > 
-  >
-  > Field metadata (headers, field definitions, and associated data pointers)
-  >
-  > Scoping objects and support structures (time/frequency supports, cyclic supports)
-  >
-  > Workflow instances and generic data container abstractions
-  >
-  > 
+- Avoid retaining large objects in H5DPF read caches:
+  > H5DPF reads reuse live mesh objects without keeping result fields and meshes alive solely through strong cache references. Lightweight metadata and support objects remain cached.
 
-- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Hdf5:
-  > 
-
-- Support replacing existing fields in a fields container:
-  > Added support for replacing existing fields within a fields container when writing to H5DPF files. Users can now update field data in-place without having to rewrite the entire dataset, enabling more efficient workflows when modifying previously saved results.
-  >
-  > 
+- Replace stored fields in H5DPF fields containers:
+  > H5DPF output now supports replacing existing fields in a fields container, including cases where fields are added or removed.
 
 - Field MetaData as hashable objects:
   > Field definitions are now stored once when the same definition is used in multiple fields. Same goes for field headers.
   >
   > 
 
-- Add Support for Live Monitoring:
-  > Support live monitoring for h5 files with mapdl::run
+- Monitor HDF5 files for newly written time steps:
+  > The optional live-monitoring mode detects HDF5 file changes and makes newly written time steps available to subsequent reads.
+
+- Adding API operators to expose tryGetDataFromCache:
+  > Exposing `Streams` APIs `splitStreams`, `getStreamByFileType` and `tryGetDataFromCache` in `Hgp` to wrap functionalities.
   >
   > 
+
+- Include additional MAPDL mesh properties by default:
+  > Default MAPDL mesh reads now include apdl_real_id, apdl_esys_id, and mapdl_element_type_id alongside the existing standard mesh properties.
+
+- Add misc reaction results:
+  > Addition of operators to read Radiation heat flow rate, convection heat flow rate and contact element heat flow
+  >
+  > 
+  >
+  > 
+
+- Read complete result sets and select multi-RPM steps:
+  > New readers collect all state variables, elemental nodal forces, or reactions into a fields container. Time-frequency extraction and integration also accept step selection for multi-RPM data.
+
+- Read radiation-area results for SURF251 and SURF252:
+  > The radiation_area operator reads elemental radiation-area results for SURF251 and SURF252 elements.
+
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Enable cyclic expansion for composite datasources.:
+  > Enable cyclic expansion for composite datasources.
+  >
+  > Enable cyclic expansion for plastic, thermal, accumulated equivalent plastic strain and elemental orientations. Accumulated equivalent plastic strain and Element Orientations will only account for harmonic 0 for expansion.
+  >
+  > 
+  >
+  > 
+
+- Read FLUID116 and SURF251/SURF252 results:
+  > New result operators read FLUID116 flow and heat-transfer quantities and SURF251/SURF252 radiation quantities, including average_velocity, flow_rate, emissivity, and net_radiation_heat_flux.
+
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
+
+- Add config option to handle warnings / errors in migrate:
+  > - Added an option to throw when an exception occurs during the migration in _hdf5::h5dpf::migrate_file_
+  >
+  > 
+  >
+  > 
+
+- Read composite meshes incrementally by default:
+  > Composite data sources now read and merge mesh partitions incrementally by default, improving memory use during mesh loading.
+
+- Raise H5DPF migration errors through warn_as_error:
+  > H5DPF migration can now raise an exception when warn_as_error is enabled instead of continuing with a warning.
 
 ### <a id="Fixes_hdf5"></a> Fixes
 
-- Optimize hashing:
-  > Optimize hdf5 migration
-  >
-  > 
+- Fix destruction order mutex order:
+  > Reading distributed HDF5 sources now keeps the mutex locked until stream cleanup completes, preventing a potential multithreading issue.
 
-- Links for generic data containers:
-  > fix links for generic data containers
-  >
-  > 
+- Fix scoping_provider_by_prop for distributed h5 files:
+  > For distributed HDF5 data sources, scoping_provider_by_prop now returns element scoping that matches results from equivalent RST sources.
 
-- Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout:
-  > Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout
-  >
-  > 
+- Expose ENL results through H5DPF and export without time-frequency support:
+  > The H5DPF reader now exposes ENL results, and result-file export accepts data sources without time-frequency support.
+
+- Correct H5DPF links for generic data containers:
+  > H5DPF serialization now creates valid links for generic data containers and data trees using their stored object paths.
 
 - Moving new mesh methods to v6:
-  > 
-  >
-  > 
+  > HDF5 readers now use cached mesh reads and named selections for version 6 and later, while version 5 retains its previous uncached behavior.
 
-- Add permissive config support to shell position provider:
-  > Implementation of permissive configuration to the shell position provider operator.
-  >
-  > 
+- Handle unavailable shell-position results in permissive mode:
+  > In permissive mode, shell-position requests return an empty container for missing or unsupported HDF5 results instead of raising an error.
 
-- Fix depulicated tfs in append_tfs mode:
-  > Append new time steps to the same tfs without creating a new one (PluginDPF).
-  >
-  > 
+- Reuse time-frequency support when appending H5DPF results:
+  > Appending time steps to H5DPF now reuses the existing time-frequency support instead of creating duplicate support groups.
 
 - Avoid reading support (mesh) when mesh is given in input when reading unscoped results:
   > Avoid reading support (mesh) when mesh is given in input when reading unscoped results
-  >
-  > 
-
-- Improving performance of reading scoped results with multiple time steps:
-  > 
   >
   > 
 
@@ -963,36 +1323,21 @@ The following table shows which components have updates in each category.
   > 
 
 - Fix unintended lock on file:
-  > 
-  >
-  > 
+  > After creating a result file, users can open it from another process without the writer keeping the file locked.
 
-- Migrate to export model data as double precision by default:
-  > Migrate to export model data as double precision by default to match MAPDL default.
-  >
-  > 
-  >
-  > 
-
-- Reduce reads/decompression by chunk slice grouping:
-  > Improve H5DPF I/O by fewer reads from the file.
-  >
-  > 
+- Clarify default H5DPF export precision:
+  > By default, H5DPF migration exports nodal results, mesh coordinates, and time-frequency data in double precision. Elemental results remain single precision.
 
 - Skip hashing collections when in append tfs mode (deduplication from plugin):
-  > 
-  >
-  > 
+  > When appending time-frequency support to an H5DPF file, collection deduplication proceeds without hashing each collection.
 
 - Set header for scoped results via HDF5 file:
   > Fix h5dpf results not rotated to global when a mesh scoping is used
   >
   > 
 
-- Fix for default time step when requesting result to match rst default:
-  > Provide last time step when requesting result without time_scoping.
-  >
-  > 
+- Select the highest time-step ID by default:
+  > HDF5 result requests without time scoping now select the highest time-step ID, even when stored labels are not sorted.
 
 - Fix non composites operators failing when connected with a distributed datasource:
   > 
@@ -1017,10 +1362,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix appending to tfs after restart analysis from MAPDL:
-  > Allowing restart analysis from MAPDL to use h5 file and append new results with matching TFS from original file.
-  >
-  > 
+- Append restarted MAPDL results to existing H5DPF support:
+  > Results from a restarted MAPDL analysis can now be appended to an H5DPF file while extending the original time-frequency support.
 
 - Surface structured errors with context in h5dpf custom and make_result_file operators:
   > 
@@ -1040,17 +1383,97 @@ The following table shows which components have updates in each category.
   > 4GB size limit of chunks and fix 1MB default size of chunks for compressed files.
   >
   > 
+
+- Rewrite Nodal Averaged Results reader:
+  > Result information now reports nodal averaged results as available when they are the only results in a file.
+
+- Add missing beam section properties and Fix CBeamProperties Operator:
+  > Add missing beam section properties in **sections_data_provider** operator
+  >
+  > Add section mesh to **sections_data_provider** operator
+  >
+  > Fix **CBeamProperties** to work with HDF5 Files
+  >
+  > 
+  >
+  > 
+
+- Fix migration errors for MSUP expansion:
+  > MSUP migration now includes result data needed to compute reaction forces and elemental nodal forces. GenPass no longer defaults to SI units, and force results use the appropriate unit system.
+
+- Record ElementalMass for rth:
+  > Make ElementalMass a source operator
+  >
+  > Make MaterialPropertyOfElement a source operator
+  >
+  > 
+  >
+  > 
+
+- Using mapdl::rth::EUL_NOD gives error "fields container over time or frequency expected in input":
+  > This PR fixes two defects in MAPDL nodal Euler-angle:
+  >
+  > 1. EUL_NOD failed  when requesting Euler-angle nodal results at a fractional time value on non-adaptive models --> "fields container over time or frequency expected in input" because the returned result did not carry the time label required by downstream time interpolation. The result now always carries the time label, so reading Euler angles at any time value works.
+  >
+  > 2. Body label lost when restricting to a single body. Asking for nodal Euler angles on a single body or material returned results labelled with body id 0 instead of the requested id. Multi-body requests were unaffected. Single-body requests now preserve the requested body / material id on every returned result, identically to the multi-body case.
+  >
+  > 
+  >
+  > **No user-visible behaviour changes for adaptive analyses, multi-body requests, or pure rotation workflows.**
+  >
+  > 
+  >
+  > 
+
+- Rescope named selections during mesh extraction:
+  > Mesh extraction and scoping now rescope named selections onto the output mesh instead of retaining selections from the source mesh.
+
+- Correct odd and even input-pin documentation:
+  > Operator pin descriptions now distinguish odd and even pin positions correctly, matching the expected input ordering.
+
+- Handle unavailable input in rotation operators:
+  > Rotation operators now handle a null fields-container input without crashing when upstream results are unavailable.
+
+- Fix CScopingProviderProperty for HDF5:
+  > 
+  >
+  > Support of HDF5 for CScopingProviderProperty for the properties **mapdl_element_type** and **material**
+  >
+  > 
+  >
+  > 
+
+- Preserve input scoping support during rescoping:
+  > Rescoping now validates source and destination locations without modifying the support attached to the input scoping.
+
+### <a id="Performance_hdf5"></a> Performance
+
+- Reduce repeated hashing during H5DPF migration:
+  > H5DPF migration now avoids repeatedly hashing the same stored objects when writing shared data.
+
+- Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout:
+  > Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout
+  >
+  > 
+
+- Improving performance of reading scoped results with multiple time steps:
+  > Reading scoped results from HDF5 files across multiple time steps is faster, so these result sets load sooner.
+
+- Reduce repeated H5DPF reads and decompression:
+  > H5DPF scoped-result reads group nearby data slices, reducing repeated file reads and decompression work.
+
+- Reuse scoping preparation in composite result reads:
+  > Composite result reads reuse transposed operations and apply requested scoping before reading data, reducing repeated processing.
+
+- Reuse named-selection metadata during distributed mesh reads:
+  > Distributed mesh reads now cache named selections across domains, avoiding repeated metadata preparation for the same mesh.
+
 ## hgp
+
 ### <a id="Features_hgp"></a> Features
 
-- Add ResultInfo main title setter:
-  > 
-  >
-  > DPF users can assign a main title to result information through HGP, C#, PyDPF-Core, and remote gRPC APIs.
-  >
-  > 
-  >
-  > 
+- Set ResultInfo main titles through client APIs:
+  > HGP, C#, and gRPC clients can now assign a main title to ResultInfo metadata.
 
 - Support uint64 type:
   > Add framework and client support for uint64 and vector<uint64> as data type.
@@ -1059,25 +1482,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
+- Add thermal-compliance homogeneity and units:
+  > Thermal compliance is now available as a field homogeneity, with corresponding unit definitions exposed through the framework and HGP APIs.
+
+- Expose StringField data offsets through HGP and gRPC:
+  > The HGP StringField::dataPointer() API now returns entity start offsets in the flat data array, including for fields accessed through gRPC.
+
 - Exposure of Property Fields Container in HGP:
   > Exposure of Property Fields Container in HGP.
-  >
-  > 
-
-- Add StringField::dataPointer() via DpfVector-safe C-layer path:
-  > 
-  >
-  > Added dataPointer() method to StringField in the HGP public API. This method returns
-  >
-  > the start indices of each entity's data in the flat data array, consistent with the existing
-  >
-  > dataPointer() methods on Field and PropertyField. The method uses the new
-  >
-  > CSStringField_GetDataPointer_For_DpfVector C-layer function, which is safe to call over
-  >
-  > gRPC CLayer (unlike the previous direct pointer variant that failed on remote server modes).
-  >
-  > 
   >
   > 
 
@@ -1095,10 +1507,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Improving readability of the .natvis file for hgp:
-  > Improving readability of the .natvis file.
-  >
-  > 
+- Improve debugger inspection of HGP fields and meshes:
+  > HGP debugger visualizers now display field, scoping, and mesh values with readable IDs, coordinates, element types, and properties.
 
 - Add span() getter to DpfVector:
   > 
@@ -1109,90 +1519,117 @@ The following table shows which components have updates in each category.
   >
   > 
 
-### <a id="Fixes_hgp"></a> Fixes
+- Include additional MAPDL mesh properties by default:
+  > Default MAPDL mesh reads now include apdl_real_id, apdl_esys_id, and mapdl_element_type_id alongside the existing standard mesh properties.
 
-- Fix delegateRun error forwarding:
+- Add beta support of thermal surface load elements SURF151 and SURF152:
+  > Add beta support of thermal surface load elements SURF151 and SURF152
+  >
   > 
   >
   > 
 
-- Fixing short name in ElementDescriptor for hex20:
-  > Fixing short name in ElementDescriptor for hex20.
+- Read complete result sets and select multi-RPM steps:
+  > New readers collect all state variables, elemental nodal forces, or reactions into a fields container. Time-frequency extraction and integration also accept step selection for multi-RPM data.
+
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
+
+- Create a new operator to compute modal loads for MSUP workflow:
+  > Modal superposition workflows can compute modal loads from mode shapes and external load vectors, with optional scaling and interpolation to requested time or frequency points.
+
+- Addition of an operator for Edge Decimation:
+  > Addition of a new operator "edge_decimation" that takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold.
+  >
+  > 
+  >
+  > 
+
+- Set DPF versioning to ansys calendar like versioning:
+  > 
+  >
+  > Set DPF versioning to Ansys calendar like versioning and add full version endpoints.
+  >
+  > 
+  >
+  > 
+
+- Improvement of wireframe operator, now working with shells and beams.:
+  > wireframe operator is improved: it can now treat shell and beam elements. An additional optional pin is added to let the user restrict the list of elements that must be treated by the wireframe operator. This allow, for instance, to remove unwanted bodies or unwanted elements from the process (like contact elements or surface load elements).
+  >
+  > 
+  >
+  > 
+
+- Read and set fields-container names through attribute APIs:
+  > Fields-container attribute APIs now support base_name and field_names for reading or setting the container's base name and individual field names.
+
+### <a id="Fixes_hgp"></a> Fixes
+
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
+  > 
+  >
+  > 
+
+- TestInput throws if upstream operator does not have output:
+  > testInput was throwing if two operators were connected and the output of op1 was not defined and plug as an input of op2. For this specific usecase, the method return false now.
+  >
+  > 
+  >
+  > 
+
+- Handle semiparabolic elements during elemental-nodal averaging:
+  > The elemental_nodal_to_nodal operator now skips missing-node entries in semiparabolic elements, preventing invalid indexing during averaging.
+
+- Improve ref handling across gRPC servers:
+  > Remote operators can now resolve FlatBuffers references created by another server through each reference's associated channel.
+
+- Graphviz workflow exports after cached-step reconnection:
+  > The export now discovers operators on a workflow copy before serializing the graph. This includes cached operators that were connected during evaluation but were not originally registered in the workflow, preventing incorrect edges to unrelated operators.
+  >
+  > 
+  >
+  > 
+
+- Fix Heat Generation unit:
+  > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
+  >
+  > 
+  >
+  > 
+
+- Expose native Any conversions:
+  > 
+  >
+  > 
+  >
+  > Expose Any conversions for supported DPF entities across native in-process and gRPC backends, including typed collections and double vectors.
+  >
+  > 
   >
   > 
 
 - Complete the work to fully support GenericSupport as Any:
-  > 
+  > Users can wrap generic and cyclic support objects in Any values and pass them through gRPC APIs.
 
-- Fix deep_copy of local Fields to remote servers in HgP:
-  > 
-  >
-  > Since 26.1, local Fields were not correctly copied into remote servers if they had Field supports. This is now fixed.
-  >
-  > 
-  >
-  > 
+- Preserve field supports when copying to remote servers:
+  > HGP Field::deep_copy now preserves field supports when copying local fields to a remote server.
 
-- Add guard variable to prevent dpf_api_i.cpp double include:
-  > 
-  >
-  > 
+- Fix delegateRun error forwarding:
+  > When a delegated operator throws, its caller now receives a DpfException containing the delegated error message.
+
+- Correct the hex20 element descriptor short name:
+  > The HGP element descriptor for hex20 now returns hex20 as its short name instead of the incorrect pyramid13.
 
 - Add natvis support for some CustomTypeField variants:
-  > 
-  >
-  > 
-## kernel
-### <a id="Features_kernel"></a> Features
-
-- Cache the scoping hash so it can be reused:
-  > 
-  >
-  > 
-
-- Switch the internals of the Scoping to use boost::unordered_fla...:
-  > 
-  >
-  > 
-
-- Implement Random Access in ScopingIterators:
-  > 
-  >
-  > Implement STL-compliant Ramdom Access Iterators in ScopingIterators.
-  >
-  > 
-  >
-  > 
-
-### <a id="Fixes_kernel"></a> Fixes
-
-- Fix operators internal version:
-  > 
-  >
-  > 
-
-- Fixing non thread-safe methods of the mesh:
-  > Fixing non-thread-safe methods of the mesh by using atomic variables.
-  >
-  > 
-  >
-  > 
-
-- Improve performance of GenPassOperators cache:
-  > 
-
-- Use absolute paths in the linux server launcher script:
-  > 
-  >
-  > 
-  >
-  > 
-
-- Speed-up hasEntity API:
-  > 
-
-- Follow-up on units:
-  > 
+  > When inspecting a CustomTypeField in the debugger, users can view values for supported integer, floating-point, and complex data types.
 
 - Complete unit strings for existing Unit Systems:
   > 
@@ -1203,33 +1640,33 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Improve parallelization in several operators:
-  > 
-  >
-  > Multithreading parallelization has been enhanced in several operators making use of OpenMP.
-  >
-  > 
-  >
-  > 
+- Complete unit strings for existing unit systems:
+  > Unit-system lookup now recognizes complete unit strings, and existing systems return expected symbols for derived quantities such as energy, moment, and velocity.
 
-- Improve area and volume calculation functions:
-  > 
+- Add property-container access and correct MAPDL filtering:
+  > External operators can now read and return PropertyFieldsContainer values. MAPDL filtering preserves field definitions for empty elemental results and omits the Overall and Unknown labels from filtered outputs.
 
-- Complete unit strings for existing Unit Systems (#248):
-  > 
-## licensing
+- Preserve endpoints in sampled scopings:
+  > Reduced scopings now retain their first and last IDs while the operator samples IDs between those endpoints.
 
-### <a id="Fixes_licensing"></a> Fixes
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
 
-- Fix elastic licensing in standalone:
-  > 
-  >
-  > Fixed Web Shared Licensing in DPF Standalone
-  >
-  > 
-  >
-  > 
+- Correction path DLL AEL':
+  > The element library now loads from its installed plugin directory, and HGP callers can control when its computations run.
+
+- Correction path DLL AEL:
+  > The element library now loads from its installed plugin directory, and HGP callers can control when its computations run.
+
+## livepost
+
+### <a id="Features_livepost"></a> Features
+
+- Read composite meshes incrementally by default:
+  > Composite data sources now read and merge mesh partitions incrementally by default, improving memory use during mesh loading.
+
 ## lsdyna
+
 ### <a id="Features_lsdyna"></a> Features
 
 - Redefine TimeFreqSupport for binout branches (#271):
@@ -1248,16 +1685,25 @@ The following table shows which components have updates in each category.
 
 - Support binout elout branch for stress (#290):
   > 
-## madl
 
-### <a id="Fixes_madl"></a> Fixes
+## mapdl
 
-- Return empty container when GCD property is not found:
+### <a id="Features_mapdl"></a> Features
+
+- Add total strain operator':
+  > 
+
+- Add FilterMaterialsData operator for materials data processing and expose them in h5dpf:
+  > Expose materials data in H5DPF as a generic data container
+  >
   > 
   >
   > 
-## mapd
-### <a id="Features_mapd"></a> Features
+
+- Expose coordinate systems data in hdf5:
+  > Make coordinate systems data available in hdf5 file, either from a migrate from rst file or a live analysis from mapdl.
+  >
+  > 
 
 - Add Tshape to Apdl Element Descriptors:
   > Elements TARGE170 have a Tshape characteristics that needs to be saved in order to properly get the shape of the element.
@@ -1268,22 +1714,11 @@ The following table shows which components have updates in each category.
   >
   > 
 
-## mapdl
-### <a id="Features_mapdl"></a> Features
+- Attach ply support according to field homogeneity:
+  > MAPDL result fields now retain ply support when shell-position or layer counts vary, while homogeneous fields omit unnecessary support metadata.
 
-- Implement draft method to check field homogeneity:
-  > In order to not degrade the performance while reading MAPDL results, we need to ensure that the field ply support is attached where it is needed. Field homogeneity here is related to position count (or shell layer count) + layer count (in term of ply). The field support is only needed if in a same field with have disparity of elements regarding those metrics.
-  >
-  > 
-  >
-  > 
-
-- Read all mesh properties by default:
-  > All available mesh properties are read by default ("mat", "section", "apdl_element_type", "elprops", "apdl_tshape", "apdl_real_id", "apdl_esys_id", "mapdl_element_type_id")
-  >
-  > 
-  >
-  > 
+- Include additional MAPDL mesh properties by default:
+  > Default MAPDL mesh reads now include apdl_real_id, apdl_esys_id, and mapdl_element_type_id alongside the existing standard mesh properties.
 
 - Support Pipe Sections and PIPE288/289:
   > - support reading of results from pipe288, pipe289 elements
@@ -1317,12 +1752,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Read element results on adaptive meshes:
-  > Allow reading of elementary results on adaptive meshes
-  >
-  > 
-  >
-  > 
+- Read elemental results on adaptive meshes:
+  > MAPDL elemental results now use the geometry and time-labelled scoping for each result set when reading adaptive meshes.
 
 - Add beta support of thermal surface load elements SURF151 and SURF152:
   > Add beta support of thermal surface load elements SURF151 and SURF152
@@ -1331,36 +1762,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Add of several operators to real all results from a result file.:
-  > - Addition of "all_state_variables_provider" operator that takes a result file and read all state variables within a single fields container, storing the various homogeneity with different value of "dofs" label.
-  >
-  > - Addition of "all_elemental_nodal_forces_provider" operator that takes a result file and read all elemental nodal forces (mapdl specific concept) within a single fields container, storing the various homogeneity with different value of "dofs" label.
-  >
-  > - Addition of "all_reactions_provider" operator that takes a result file and read all reactions within a single fields container, storing the various homogeneity with different value of "dofs" label.
-  >
-  > - Patch for extract_time_freq, operator can now work with multi -rpm case if the selected set are within the same step.
-  >
-  > - Add step selection in time_freq::integrate. Can now be used with multi-RPM cases.
-  >
-  > 
-  >
-  > 
+- Read complete result sets and select multi-RPM steps:
+  > New readers collect all state variables, elemental nodal forces, or reactions into a fields container. Time-frequency extraction and integration also accept step selection for multi-RPM data.
 
-- Add Radiation Area Operator:
-  > Add Radiation Area Operator for SURF251/252
-  >
-  > 
-  >
-  > 
+- Read radiation-area results for SURF251 and SURF252:
+  > The radiation_area operator reads elemental radiation-area results for SURF251 and SURF252 elements.
 
-- Reaction moment and heat:
-  > Creation of reaction_moment and reaction_heat operators.
-  >
-  > Internal refactoring of reaction_forces operator for MSUP analysis.
-  >
-  > 
-  >
-  > 
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
 
 - Enable cyclic expansion for composite datasources.:
   > Enable cyclic expansion for composite datasources.
@@ -1378,48 +1787,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- New Operators for FLUID116:
-  > 
-  >
-  > Add new operators to read data from FLUID116 element:
-  >
-  > - AverageVelocityProvider
-  >
-  > - ReynoldsNumberProvider
-  >
-  > - FlowRateProvider
-  >
-  > - HeatConductivityRateProvider
-  >
-  > - HeatTransportRateProvider
-  >
-  > - FilmCoefficientProvider
-  >
-  > - NusseltNumberProvider
-  >
-  > - PrandtlNumberProvider
-  >
-  > 
-  >
-  > Add new operators to read data from SURF251/252 elements:
-  >
-  > - EmissivityProvider
-  >
-  > - NetRadiationHeatFluxProvider
-  >
-  > - EmittedRadiationHeatFluxProvider
-  >
-  > - ReflectedRadiationHeatFluxProvider
-  >
-  > - IncidentRadiationHeatFluxProvider
-  >
-  > - EnclosureNumberProvider
-  >
-  > - ViewFactorSumProvider
-  >
-  > 
-  >
-  > 
+- Read FLUID116 and SURF251/SURF252 results:
+  > New result operators read FLUID116 flow and heat-transfer quantities and SURF251/SURF252 radiation quantities, including average_velocity, flow_rate, emissivity, and net_radiation_heat_flux.
 
 - Add operators to read modal coordinates from RST/MODE/H5DPF files.:
   > Creation of operators allowing to read CMS modal coordinates from result files .rst,  .mode & .h5.
@@ -1428,14 +1797,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Add Elemental Nodal MOMENT and HEAT operators:
-  > Creation of ENF_MOMENT and ENF_HEAT operators to read elemental nodal moment and heat from rst files.
-  >
-  > Deprecation of pin200 (split_force_components). Dofs components can be obtained with the specific operators and derivative orders can be obtained with component selector
-  >
-  > 
-  >
-  > 
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
 
 - CMS nodal results to be filtered:
   > CMS nodal results to be filtered. For example, if user request rotation results, they will only be provided on nodes of elements having the rotations degree of freedom.
@@ -1444,30 +1807,100 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Freeing license of mapdl_section_properties:
-  > Freeing license of `mapdl_section_properties`.
+- Make mapdl_section_properties license-free:
+  > The mapdl_section_properties operator no longer requires a DPF license checkout to return section properties.
+
+- Add total strain operator:
+  > DPF provides EL total-strain tensor and EL_EQV equivalent total-strain results. When the source lacks total strain directly, DPF assembles it from available elastic, plastic, creep, and thermal strain results.
+
+- Read composite meshes incrementally by default:
+  > Composite data sources now read and merge mesh partitions incrementally by default, improving memory use during mesh loading.
+
+- Read and set fields-container names through attribute APIs:
+  > Fields-container attribute APIs now support base_name and field_names for reading or setting the container's base name and individual field names.
+
+- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
+  > Nodal result read from RST files now have an associated mesh support
+  >
+  > The mesh extraction operator now forward the input mesh property fields
+  >
+  > 
   >
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
-- Elements can have incorrect section type attached:
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
   > 
   >
   > 
+
+- Fix cyclic expansion for Nodal Integrated quantities:
+  > Cyclic expansion now includes contributions from adjacent sectors for shared nodes and from center nodes within the selected bounds when computing nodal integrated quantities.
+
+- Fix composite nodal cyclic request by scoping:
+  > Composite nodal cyclic requests with load vectors now handle nodes without matching result entries without invalid accesses, allowing available results to be expanded correctly.
+
+- Prevent intermittent parallel solid_to_skin_fc crashes:
+  > The solid_to_skin_fc operator avoids intermittent crashes when results for multiple time steps or load cases are processed in parallel.
+
+- Fix issue in force_summation with total forces and no damping:
+  > When damping results are absent, requesting total forces with force_summation now returns force and moment values instead of failing.
+
+- Handle semiparabolic elements during elemental-nodal averaging:
+  > The elemental_nodal_to_nodal operator now skips missing-node entries in semiparabolic elements, preventing invalid indexing during averaging.
+
+- Mechanical crashes when evaluating Python result with operator self connection:
+  > 
+  >
+  > 
+  >
+  > Prevents invalid workflow graphs by rejecting direct and indirect connections that cause an operator to depend on itself.
+  >
+  > 
+  >
+  > 
+
+- Fix Heat Generation unit:
+  > Resolve incorrect Heat Generation unit, should be Power/Volume, not Power.
+  >
+  > 
+  >
+  > 
+
+- Reevaluate downstream operators after input changes:
+  > When operator inputs change, connected downstream operators now reevaluate and return results for the new inputs.
+
+- Complete unit strings for existing Unit Systems:
+  > 
+  >
+  > Unit strings are improved to get physical unit strings for all Ansys-supported Unit Systems. For example, for velocity in CGS system, `cm/s` is rendered instead of `cm*Hz`.
+  >
+  > 
+  >
+  > 
+
+- Complete unit strings for existing unit systems:
+  > Unit-system lookup now recognizes complete unit strings, and existing systems return expected symbols for derived quantities such as energy, moment, and velocity.
+
+- Return empty container when GCD property is not found:
+  > When a requested model property is missing, the reader returns an empty container in permissive mode instead of throwing an error.
+
+- Elements can have incorrect section type attached:
+  > MAPDL result filtering now applies section-specific rules only when an element type supports that section, preventing unrelated section types from affecting stress results.
 
 - Cyclic support of CMS superelements not supported:
-  > 
+  > Cyclic support now reports an explicit error when it encounters a CMS stage, which is not currently supported.
 
 - Improve Composite operator batch-merging and add domain decomposition detection:
-  > 
-  >
-  > 
+  > Composite MAPDL results now distinguish spatially partitioned data from frequency- or cyclic-decomposed streams when assembling meshes, avoiding spatial merging for shared meshes.
 
 - Rewrite Nodal Averaged Results reader:
-  > 
-  >
-  > 
+  > Result information now reports nodal averaged results as available when they are the only results in a file.
 
 - Add missing beam section properties and Fix CBeamProperties Operator:
   > Add missing beam section properties in **sections_data_provider** operator
@@ -1480,34 +1913,20 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix AEL tests broken due to previous PRs:
-  > 
-  >
-  > 
+- Add property-container access and correct MAPDL filtering:
+  > External operators can now read and return PropertyFieldsContainer values. MAPDL filtering preserves field definitions for empty elemental results and omits the Overall and Unknown labels from filtered outputs.
 
 - Do not filter nodal results based on MESH200 & properly account for TSHAPE on rotation dofs:
-  > 
-  >
-  > 
+  > MAPDL nodal filtering no longer discards results because a mesh contains MESH200 elements. For rotation results, target elements contribute only when their shape is PILO. If the supplied mesh lacks element-type or target-shape properties, the reader gets them from the result streams.
 
-- Comment elements eSOLID272 and eSOLID273 to avoid access violation:
-  > 
-  >
-  > The elements eSOLID272 and eSOLID273 are commented for now, and will be handled in a later use story.
-  >
-  > 
-  >
-  > 
+- Disable unsupported SOLID272 and SOLID273 descriptors:
+  > MAPDL processing no longer uses the SOLID272 and SOLID273 element descriptors that caused the reported access violations.
 
 - Fix migration errors for MSUP expansion:
-  > 
-  >
-  > 
+  > MSUP migration now includes result data needed to compute reaction forces and elemental nodal forces. GenPass no longer defaults to SI units, and force results use the appropriate unit system.
 
 - Filter EPEL_EQV for Beams:
-  > 
-  >
-  > 
+  > Beam elemental results with any component count other than six are filtered out, so scalar equivalent-strain results such as EPEL_EQV return no beam entities.
 
 - Avoid re-getting nodal solution:
   > Fix performance issue for nodal results when a scopings container with multiple scopings is passed to the mesh scoping input
@@ -1515,19 +1934,13 @@ The following table shows which components have updates in each category.
   > 
 
 - Restore performance of large MSUP evaluations:
-  > 
-  >
-  > 
+  > Large modal superposition evaluations avoid unnecessary repeated work for composite results, reducing evaluation overhead.
 
 - PRRSOL reading scientific format files:
-  > 
-  >
-  > 
+  > The PRRSOL reader now parses reaction values written in scientific notation correctly, so extracted reaction results match reference values.
 
 - Correction of export MAPDL Radiation results to H5DPF from MAPDL:
-  > 
-  >
-  > 
+  > Radiation results from MAPDL are now included in H5DPF files created by result export.
 
 - Validate RST result extraction:
   > 
@@ -1545,12 +1958,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Topology optimization performance improvements:
-  > Topology optimization performance improvements
-  >
-  > 
-  >
-  > 
+- Reduce topology-optimization result-processing overhead:
+  > Topology-optimization result processing now avoids unnecessary cyclic-scoping intersections, reducing repeated work when selecting requested results.
 
 - Preserve ply metadata during filtering:
   > 
@@ -1569,9 +1978,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Filter result info for MSUP & CMS on expandable results:
-  > 
-  >
-  > 
+  > MSUP and CMS expansion result information now includes only results that have available expansion operators.
 
 - Do not filter reaction results:
   > Do not filter reaction results in MAPDL.
@@ -1582,17 +1989,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Performance issue on node filtering operator:
-  > 
-  >
-  > 
-
-- Wrong element shapes are returned when reading a mesh:
-  > Some elements were considered "unknown" when getting a mesh
-  >
-  > 
-  >
-  > 
+- Recognize additional mesh element shapes:
+  > Mesh reads now classify joint, target, plane, and pipe elements using their correct shapes instead of returning unknown.
 
 - Support reading of mode coefficients and modal damping in spectrum_data:
   > Fix reading of mode coefficients and modal damping ratios from .mode file in spectrum_data operator.
@@ -1603,22 +2001,11 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Filter temperatures on radiation element nodes SURF251 & SURF252:
-  > Filter temperatures on radiation element nodes SURF251 & SURF252
-  >
-  > 
-  >
-  > 
-
-- Improve performance when reading elemental results:
-  > 
-  >
-  > 
+- Filter temperature contributions from radiation elements:
+  > MAPDL temperature results now exclude SURF251 and SURF252 radiation-element contributions while preserving filtering behavior for other result types.
 
 - Filter unsupported TARGE170 ECT Results (fixed):
-  > 
-  >
-  > 
+  > When reading MAPDL results, DPF excludes unsupported ECT results for TARGE169 and TARGE170 elements. It still returns ECT_FRES fluid-pressure results for those elements.
 
 - Crash when trying to read results of an unconverged solution:
   > When trying to get a result for empty sets only, the operator returns a fields container with empty fields instead of crashing.
@@ -1635,9 +2022,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Filter unsupported TARGE170 ECT Results:
-  > 
-  >
-  > 
+  > ECT result fields now exclude TARGE169 and TARGE170 elements when those results are unsupported, while fluid-pressure results remain available.
 
 - PRES_reader doesn't read all nodes:
   > - The operator _PRES_reader_ was stopping reading data when the list of nodes of an element was split by some text.
@@ -1648,12 +2033,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix reaction forces for axisymmetric planes with torsion:
-  > Fix reaction forces for axisymmetric planes with torsion
-  >
-  > 
-  >
-  > 
+- Read reaction forces for axisymmetric planes with torsion:
+  > Reaction-force reads now handle noncontiguous nodal degrees of freedom, including axisymmetric plane elements with torsion.
 
 - Fix MSUP expansion with partial modal coordinates scoping:
   > Fix wrong results in MSUP expansion when both of the two following conditions are met:
@@ -1674,11 +2055,6 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Avoid loop on all nodes when getting only non zero nodal euler angles:
-  > 
-  >
-  > 
-
 - Fix performance issues with mode chunking:
   > Fix performance issues for Modal superposition with mode chunking option enabled
   >
@@ -1693,12 +2069,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix ENF filter for axisymmetric plane elements with torsion:
-  > Fix ENF filter for axisymmetric plane elements with torsion
-  >
-  > 
-  >
-  > 
+- Correct elemental nodal force filtering for torsional planes:
+  > Elemental nodal force and moment results now map torsional degrees of freedom to the correct components for axisymmetric plane elements.
 
 - Fix mapdl run crash on filtering ENF for contact elements.:
   > Fix mapdl run crash on filtering ENF for contact elements.
@@ -1708,14 +2080,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Correction of some integrated quantities:
-  > 
-  >
-  > 
-
-- Make elemental mass public:
-  > 
-  >
-  > 
+  > MAPDL radiation and convection heat-flow results now produce nodal values consistent with averaging their corresponding elemental heat results. Integrated quantity classification applies consistently at elemental and nodal locations.
 
 - Record ElementalMass for rth:
   > Make ElementalMass a source operator
@@ -1726,14 +2091,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Mark mapdl_split_on_facet_indices as private:
-  > 
-  >
-  >  Mark `mapdl_split_on_facet_indices` as private.
-  >
-  > 
-  >
-  > 
+- Withdraw public exposure of mapdl_split_on_facet_indices:
+  > The mapdl_split_on_facet_indices operator is now private and is no longer exposed as a public operator.
 
 - Fix ElementalNodal data reordering in mapdl::split_on_facet_indices:
   > 
@@ -1773,16 +2132,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Correct spec for result.material_property_of_element:
-  > 
-  >
-  > The operator result.material_property_of_element previously exposed an incorrect specification that did not match its actual inputs.
-  >
-  > The correct inputs are now documented: mesh_scoping (optional element scoping), property_name (required - the name of the linear scalar material property to extract, such as EX or DENS), default_value (optional - assigned to elements whose material does not define the property), and ilter_zero_values (optional - excludes elements with a zero property value when no default is set).
-  >
-  > 
-  >
-  > 
+- Correct material_property_of_element input documentation:
+  > The result.material_property_of_element specification now documents optional mesh_scoping, required property_name, optional default_value, and optional filter_zero_values. Zero-value filtering applies when no default is supplied.
 
 - Using mapdl::rth::EUL_NOD gives error "fields container over time or frequency expected in input":
   > This PR fixes two defects in MAPDL nodal Euler-angle:
@@ -1808,44 +2159,14 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix bug 1458972 Descriptor for plane183:
-  > 
-  >
-  > 
+- Correct PLANE183 topology for KEYOPT(1)=1:
+  > PLANE183 elements configured with KEYOPT(1)=1 are now identified as six-node triangular elements instead of eight-node quadrilaterals.
 
-- Remove redundant mapdl. prefix from operator scripting names:
-  > 
-  >
-  > Four operators had a redundant `mapdl.` prefix in their scripting name. Because the plugin
-  >
-  > field already carries the `mapdl` context, this prefix caused the full documented name to
-  >
-  > become `result.mapdl.<name>` instead of the correct `result.<name>`. The scripting names
-  >
-  > have been corrected:
-  >
-  > 
-  >
-  > - `pres_to_field` (was `mapdl.pres_to_field`)
-  >
-  > - `prns_to_field` (was `mapdl.prns_to_field`)
-  >
-  > - `run` (was `mapdl.run`)
-  >
-  > - `global_to_nodal` (was `mapdl.global_to_nodal`)
-  >
-  > 
-  >
-  > The Python API (`dpf.operators.result.*`) is unaffected by this change.
-  >
-  > 
-  >
-  > 
+- Remove redundant prefixes from result operator scripting names:
+  > Operator scripting names now use pres_to_field, prns_to_field, run, and global_to_nodal without the redundant mapdl. prefix.
 
 - Fix modal solution scoping for MCF_Legacy filtering:
-  > 
-  >
-  > 
+  > Modal filtering now aligns solution data to requested entities before selection, preventing incorrect results when solution and request use different scopings.
 
 - Support ElementalNodal input fields in mapdl::split_on_facet_indices and mapdl::split_to_acmo_facet_indices:
   > 
@@ -1857,19 +2178,13 @@ The following table shows which components have updates in each category.
   > 
 
 - Fix crash when reading elemental results due to TSHAPE mapping:
-  > 
-  >
-  > 
+  > Elemental result reads now carry TSHAPE through element details, preventing crashes for results that use these mappings.
 
-- Bug 1445294 fix unexpected label on fields container when querying beam results:
-  > 
-  >
-  > 
+- Remove unintended labels from single-scoping beam results:
+  > Beam-result queries using a single scoping now return a fields container with only the time label, instead of adding an unintended location label.
 
 - Fix order mode coefficients.:
-  > 
-  >
-  > 
+  > When modal solution IDs arrive in a different order, MAPDL returns filtered modal coefficients in the requested order, preserving their association with each mode.
 
 - Add TARGE170 to loading mesh descriptors:
   > Add TARGE170 elements to loading mesh, the mesh used by the Boundary Conditions operator.
@@ -1879,9 +2194,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Prevent from reading shell results without section.:
-  > 
-  >
-  > 
+  > Shell result requests with multiple layer positions now raise an error when no shell section is associated.
 
 - Use loading mesh descriptors:
   > 
@@ -1889,9 +2202,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Register corner_nodes_mapping_provider:
-  > 
-  >
-  > 
+  > MAPDL workflows can now access the corner_nodes_mapping_provider operator for corner-node mapping.
 
 - Fix filtering of EUL for high-order old generation elements:
   > Fix filtering of euler angles for high-order old generation elements
@@ -1901,9 +2212,7 @@ The following table shows which components have updates in each category.
   > 
 
 - PreProcess Mode Shapes record positions:
-  > 
-  >
-  > 
+  > Mode-shape requests now find the correct records for requested mode IDs in both local and upstream mode files.
 
 - Wrong update concerning shell layers:
   > Wrong update is done while looping over elemental results concerning shell layer. We update the number of shell layer when this is not allowed regarding the post process that is done after reading the result.
@@ -1921,51 +2230,100 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Fix default ncomp for nmisc/smisc:
-  > Remove num_components pin from NMISC/SMISC
-  >
-  > 
-  >
-  > 
-## mapl
+- Select NMISC and SMISC components through item_index:
+  > The nmisc and smisc operators accept scalar or vector item_index values for component selection; the num_components input pin is removed.
 
-### <a id="Fixes_mapl"></a> Fixes
+- Correct results for degenerate gasket elements:
+  > MAPDL result filtering now returns correctly mapped values for degenerate gasket elements configured with KEYOPT(2)=0.
 
-- Fix gasket results issue with dege keyopt2=0 gaskets:
-  > Fix bug with degenerated gasket elements with keyopt(2)=0
+- Revert the earlier skin-extraction memory optimization:
+  > The skin operator restores its earlier extraction behavior by reverting the previous memory-usage optimization.
+
+- Add support for Surface3, Surface4, Surface6, and Surface8 eltypes in skin operator:
+  > 
+  >
+  > Add support for Surface3, Surface4, Surface6, and Surface8 element types in several operators: `meshed_skin_sector`, `mesh_to_graphics_edges`, `elements_volume`, `element_nodal_contribution`, and `integrate_over_elements`.
   >
   > 
   >
   > 
+
+- Reduce memory footprint of skin extraction op:
+  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
+  >
+  > 
+
+- Elastic_strain_eqv operator is now available for modal results:
+  > elastic_strain_eqv MAPDL operator was not accessible for modal results, this is now fixed.
+  >
+  > 
+  >
+  > 
+
+- Ignore the rotation to global in PSD and Spectrum analysis:
+  > PSD and Spectrum results are not rotated to the global coordinate system even when rotation is requested.
+
+- Check all files from the DataSource for result availability:
+  > Availability checks now inspect every file in a composite data source, so results present only in later files are recognized instead of triggering fallback computation.
+
+- Fixing issue with composite results without previously calling the mesh provider operator:
+  > Fixing issue with composite results without previously calling the mesh provider operator.
+  >
+  > 
+
+- Preserve input scoping support during rescoping:
+  > Rescoping now validates source and destination locations without modifying the support attached to the input scoping.
+
+- Fix int connection to time_scoping pin for cyclic models:
+  > 
+  >
+  > If an integer different to 1 is connected to the time_scoping input pin for cyclic models, the results that will be read are the ones from time=1 either way. This is now fixed.
+  >
+  > 
+  >
+  > 
+
+- Support float-aware time-scoping comparisons:
+  > The compute_time_scoping operator now accepts time_freq_precision for float-aware comparisons, while keeping double precision as the default.
+
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
+### <a id="Performance_mapdl"></a> Performance
+
+- Improve performance of GenPassOperators cache:
+  > When a request selects one subset of entities, cached mode shapes are reused instead of being read repeatedly.
+
+- Performance issue on node filtering operator:
+  > When filtering nodal results across time steps with the same mesh and scoping, repeated requests avoid redundant processing.
+
+- Improve performance when reading elemental results:
+  > Reading elemental results from MAPDL result files is faster when previously loaded mesh data can be reused.
+
+- Avoid loop on all nodes when getting only non zero nodal euler angles:
+  > For unscoped requests for only nonzero nodal Euler angles, the reader returns matching values without scanning every node in the result file.
+
+- Reuse scoping preparation in composite result reads:
+  > Composite result reads reuse transposed operations and apply requested scoping before reading data, reducing repeated processing.
+
+- Reuse named-selection metadata during distributed mesh reads:
+  > Distributed mesh reads now cache named selections across domains, avoiding repeated metadata preparation for the same mesh.
+
 ## mapping
 
 ### <a id="Fixes_mapping"></a> Fixes
-
-- Apply magnitude-preserving offset for AddFCMechanical:
-  > 
-  >
-  > Fixed offset handling in AddFCMechanical for vector-valued fields. The update preserves the original vector direction while applying offsets by adjusting the vector magnitude
-  >
-  > 
-  >
-  > 
 
 - Enable PrepareAndApply_ShapeFunction.Pyramid_inside_test in Linux:
   > 
   >
   > 
+
 ## math
+
 ### <a id="Features_math"></a> Features
 
-- Improve performance of optimizer through cache of cost:
-  > 
-  >
-  > 
-
-- Export optimization data at the end of each iteration in HDF5:
-  > 
-  >
-  > 
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
 
 - Add optimizeWorkflow operator:
   > Add an optimization operator that supports minimizing or maximizing an objective function, as well as driving it toward a target value. The objective function can take input variables of type integer or double.
@@ -1981,17 +2339,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Math:
-  > 
-  >
-  > 
-
-- Perform modal_solve expansion using expansion::modal_superposition:
-  > - Allow input Custom Type Fields Containers on expansion::mode_superposition
-  >
-  > 
-  >
-  > 
+- Accept custom-type containers in modal-superposition expansion:
+  > Modal-superposition expansion now accepts custom type fields containers for the modal basis, modal-space solution, and incremental result inputs.
 
 - Create TPA objects to streamline TPA workflow:
   > 
@@ -2000,7 +2349,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Create a new operator to compute modal loads for MSUP workflow:
-  > 
+  > Modal superposition workflows can compute modal loads from mode shapes and external load vectors, with optional scaling and interpolation to requested time or frequency points.
 
 - Add new MKL BLAS wrapper for scaling operation:
   > Add new MKL BLAS wrapper for scaling operation
@@ -2009,33 +2358,33 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Geqp3 and imatcopy wrappers for modmac operator:
-  > - Add Lapack geqp3 wrapper to compute QR factorization with column pivoting
-  >
-  > - Add MKL imatcopy wrapper to perform scaling and in-place transposition/copying of matrices
-  >
-  > 
-  >
-  > 
-
 ### <a id="Fixes_math"></a> Fixes
 
-- Fix issue with specification in expansion operator:
-  > - Fix operator specification issue introduced in a previous PR
-  >
+- Wrong dimension for output of sketch matrix operator:
   > 
   >
   > 
+
+- Fix migration errors for MSUP expansion:
+  > MSUP migration now includes result data needed to compute reaction forces and elemental nodal forces. GenPass no longer defaults to SI units, and force results use the appropriate unit system.
+
+- Correct modal-expansion configuration defaults:
+  > Thread count defaults to zero, and parallel input reading defaults to disabled in modal-expansion specifications.
+
+- Correct residual-and-error scaling outputs:
+  > The compute_residual_and_error operator returns correctly sized scaling-factor outputs. Overall-max normalization consistently returns fields containers.
+
+### <a id="Performance_math"></a> Performance
+
+- Improve performance of optimizer through cache of cost:
+  > When an optimizer evaluates the same variable values again, DPF reuses the cached cost instead of evaluating the objective workflow again, reducing repeated objective evaluations.
+
 ## mechanical
+
 ### <a id="Features_mechanical"></a> Features
 
-- Add an operator to average the reaction force values to shared nodes:
-  > 
-  >
-  > 
-
-- Complete usage of ScopingIterators and eliminate GetIds calls in Ans.Dpf.Mechanical:
-  > 
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
 
 - Adding operator for finding number of modes per chunk:
   > Add new operators to calculate number of modes that can be evaluated per chunk based on the result mesh and the available memory on the user's machine.
@@ -2046,38 +2395,51 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mechanical"></a> Fixes
 
-- Raise error message for missing fields in mechanical::time_freq_interpolation:
+- Apply magnitude-preserving offset for AddFCMechanical:
+  > 
+  >
+  > Fixed offset handling in AddFCMechanical for vector-valued fields. The update preserves the original vector direction while applying offsets by adjusting the vector magnitude
+  >
   > 
   >
   > 
 
-- Change meshscoping_filtered_by_shape logic on shape properties:
-  > Some regression tests started failing due to changes in !716228
-  >
-  > This PR contains a temporary fix that allows to keep the old behaviour while taking in account the new shapes that were added (i.e. plane).
-  >
-  > In the end, a clearer solution will have to be found.
-  >
-  > 
-  >
-  > 
+- Raise error message for missing fields in mechanical::time_freq_interpolation:
+  > Time-frequency interpolation now raises an error when reordering leaves fields missing from the output.
 
 - Fix the amplitude calculation for complex fields on shell nodes:
-  > 
-  >
-  > 
+  > Amplitude calculations now handle complex shell-node results with top and bottom values stored under one node ID.
 
 - Fix documentation generation of mechanical::linearized_stress:
+  > The linearized stress operator now appears in generated documentation and is available through the Python API.
+
+- Handle missing and non-shell support in shell operators:
+  > Shell operators now handle fields with missing or non-shell support without adding duplicate scoping IDs.
+
+- Revert the earlier skin-extraction memory optimization:
+  > The skin operator restores its earlier extraction behavior by reverting the previous memory-usage optimization.
+
+- Reduce memory footprint of skin extraction op:
+  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
+  >
   > 
 
-- Bugs with shell operators:
-  > Fix various bugs in shell operators in Ans.Dpf.Mechanical plugin
-  >
-  > 
-  >
-  > 
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
 ## mesh
+
 ### <a id="Features_mesh"></a> Features
+
+- Add beta support of thermal surface load elements SURF151 and SURF152:
+  > Add beta support of thermal surface load elements SURF151 and SURF152
+  >
+  > 
+  >
+  > 
+
+- Read FLUID116 and SURF251/SURF252 results:
+  > New result operators read FLUID116 flow and heat-transfer quantities and SURF251/SURF252 radiation quantities, including average_velocity, flow_rate, emissivity, and net_radiation_heat_flux.
 
 - Addition of an operator for Edge Decimation:
   > Addition of a new operator "edge_decimation" that takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold.
@@ -2086,24 +2448,29 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Complete usage of ScopingIterators and eliminate GetIds calls in meshOperators:
+- Improvement of wireframe operator, now working with shells and beams.:
+  > wireframe operator is improved: it can now treat shell and beam elements. An additional optional pin is added to let the user restrict the list of elements that must be treated by the wireframe operator. This allow, for instance, to remove unwanted bodies or unwanted elements from the process (like contact elements or surface load elements).
+  >
+  > 
+  >
+  > 
+
+- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
+  > Nodal result read from RST files now have an associated mesh support
+  >
+  > The mesh extraction operator now forward the input mesh property fields
+  >
   > 
   >
   > 
 
 ### <a id="Fixes_mesh"></a> Fixes
 
-- Reverting memory improvements in the skin operator:
-  > Reverted memory improvements in the skin operator.
-  >
-  > 
+- Revert the earlier skin-extraction memory optimization:
+  > The skin operator restores its earlier extraction behavior by reverting the previous memory-usage optimization.
 
-- Correction of mesh_extraction & mesh::by_scoping to handle Named Selections:
-  > Correction of mesh_extraction & mesh::by_scoping to handle Named Selections
-  >
-  > 
-  >
-  > 
+- Rescope named selections during mesh extraction:
+  > Mesh extraction and scoping now rescope named selections onto the output mesh instead of retaining selections from the source mesh.
 
 - Add support for Surface3, Surface4, Surface6, and Surface8 eltypes in skin operator:
   > 
@@ -2141,38 +2508,10 @@ The following table shows which components have updates in each category.
   > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
   >
   > 
+
 ## misc
+
 ### <a id="Features_misc"></a> Features
-
-- Set DPF versioning to ansys calendar like versioning:
-  > 
-  >
-  > Set DPF versioning to Ansys calendar like versioning and add full version endpoints.
-  >
-  > 
-  >
-  > 
-
-- Add operator Changelog support to C#:
-  > Support operator changelogs in the C# client API. Add the Changelog class.
-  >
-  > 
-  >
-  > 
-
-- Enhancement of rotation operators and private operators for load vector and spatial gradients computations:
-  > Rotation vectors now accepts arbitrary Euler angles as an input.
-  >
-  > 
-  >
-  > 
-
-- Improvement of wireframe operator, now working with shells and beams.:
-  > wireframe operator is improved: it can now treat shell and beam elements. An additional optional pin is added to let the user restrict the list of elements that must be treated by the wireframe operator. This allow, for instance, to remove unwanted bodies or unwanted elements from the process (like contact elements or surface load elements).
-  >
-  > 
-  >
-  > 
 
 - Set result name for fields container (#258):
   > 
@@ -2188,32 +2527,6 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Extend the new CLayer Exception processing to all CL_Operator functions:
-  > 
-  >
-  > 
-
-- Elastic_strain_eqv operator is now available for modal results:
-  > elastic_strain_eqv MAPDL operator was not accessible for modal results, this is now fixed.
-  >
-  > 
-  >
-  > 
-
-- Properly use even and odd in operators description:
-  > 
-  >
-  > fix: properly use even and odd in operators description
-  >
-  > 
-  >
-  > 
-
-- Ansys.dpf conanfile DPFEmpty.xml wrong source dir:
-  > 
-  >
-  > 
-
 - Restored a number of error messages:
   > 
   >
@@ -2225,7 +2538,9 @@ The following table shows which components have updates in each category.
 
 - Critical fixes in LSDYNAStream (#259):
   > 
+
 ## multiphysics
+
 ### <a id="Features_multiphysics"></a> Features
 
 - Support loads with Apply To = Elements:
@@ -2288,8 +2603,103 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+
 ## native
+
+### <a id="Changes_native"></a> Changes
+
+- Clarify default averaging for component and principal results:
+  > Component and principal-result operator descriptions now state that results are averaged at nodes by default when no target location is supplied.
+
 ### <a id="Features_native"></a> Features
+
+- Migration of artifactory and service accounts to Synopsys:
+  > 
+  >
+  > 
+
+- Expose Any values through C# operators and workflows:
+  > C# users can now wrap supported values in Any objects and connect or retrieve them through operators and workflows.
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
+
+- Add total strain operator':
+  > 
+
+- Add a time-frequency-support-only H5DPF append mode:
+  > Setting append_mode to 2 now appends only time-frequency support when writing H5DPF data.
+
+- Add FilterMaterialsData operator for materials data processing and expose them in h5dpf:
+  > Expose materials data in H5DPF as a generic data container
+  >
+  > 
+  >
+  > 
+
+- Expose coordinate systems data in hdf5:
+  > Make coordinate systems data available in hdf5 file, either from a migrate from rst file or a live analysis from mapdl.
+  >
+  > 
+
+- Adding API operators to expose tryGetDataFromCache:
+  > Exposing `Streams` APIs `splitStreams`, `getStreamByFileType` and `tryGetDataFromCache` in `Hgp` to wrap functionalities.
+  >
+  > 
+
+- Attach ply support according to field homogeneity:
+  > MAPDL result fields now retain ply support when shell-position or layer counts vary, while homogeneous fields omit unnecessary support metadata.
+
+- Include additional MAPDL mesh properties by default:
+  > Default MAPDL mesh reads now include apdl_real_id, apdl_esys_id, and mapdl_element_type_id alongside the existing standard mesh properties.
+
+- Add misc reaction results:
+  > Addition of operators to read Radiation heat flow rate, convection heat flow rate and contact element heat flow
+  >
+  > 
+  >
+  > 
+
+- Read complete result sets and select multi-RPM steps:
+  > New readers collect all state variables, elemental nodal forces, or reactions into a fields container. Time-frequency extraction and integration also accept step selection for multi-RPM data.
+
+- Read radiation-area results for SURF251 and SURF252:
+  > The radiation_area operator reads elemental radiation-area results for SURF251 and SURF252 elements.
+
+- Add reaction-moment and reaction-heat results:
+  > The reaction_moment and reaction_heat operators now read nodal reaction moments and reaction heat from supported result files.
+
+- Enable cyclic expansion for composite datasources.:
+  > Enable cyclic expansion for composite datasources.
+  >
+  > Enable cyclic expansion for plastic, thermal, accumulated equivalent plastic strain and elemental orientations. Accumulated equivalent plastic strain and Element Orientations will only account for harmonic 0 for expansion.
+  >
+  > 
+  >
+  > 
+
+- Read FLUID116 and SURF251/SURF252 results:
+  > New result operators read FLUID116 flow and heat-transfer quantities and SURF251/SURF252 radiation quantities, including average_velocity, flow_rate, emissivity, and net_radiation_heat_flux.
+
+- Read elemental nodal moments and heat:
+  > The element_nodal_moments and element_nodal_heat operators read moment and heat results from MAPDL files. The split_force_components input is deprecated; use dedicated result operators and component selection instead.
+
+- Add optimizeWorkflow operator:
+  > Add an optimization operator that supports minimizing or maximizing an objective function, as well as driving it toward a target value. The objective function can take input variables of type integer or double.
+  >
+  > 
+  >
+  > 
+
+- Create TPA objects to streamline TPA workflow:
+  > 
+
+- Control rotations with Euler angles and inverse rotation:
+  > Rotation operators now accept arbitrary Euler angles and an optional inverse_rotation input, allowing the requested rotation direction to be controlled.
 
 - Add config option to handle warnings / errors in migrate:
   > - Added an option to throw when an exception occurs during the migration in _hdf5::h5dpf::migrate_file_
@@ -2308,9 +2718,7 @@ The following table shows which components have updates in each category.
   > 
 
 - Add total strain operator:
-  > 
-  >
-  > 
+  > DPF provides EL total-strain tensor and EL_EQV equivalent total-strain results. When the source lacks total strain directly, DPF assembles it from available elastic, plastic, creep, and thermal strain results.
 
 - Utility operators for the optimized SVD compression workflow:
   > - Added operator _split_vector_elements_ which takes a vector and outputs each element in a separate pin.
@@ -2323,27 +2731,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Operator to connect pins of a workflow:
-  > 
-  >
-  > 
-
 - Update time_freq_interpolation to support integration in log-log scale:
   > update time_freq_interpolation to support integration in log-log scale
-  >
-  > 
-  >
-  > 
-
-- Internal refactoring of the Rescope_fc operator:
-  > 
-  >
-  > 
-
-- Improve performance of Rescope operators:
-  > 
-  >
-  > Performance improvements in the `Rescope`, `Rescope_pf`, `Rescope_ctf`, `rescope_fc` and `solid_to_skin_fc` operators.
   >
   > 
   >
@@ -2354,46 +2743,16 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Add num_fields attribute to fc_get_attribute:
-  > - Added the output "num_fields" to the operator _fc_get_attribute_, which returns the number of fields in the input fields container.
-  >
-  > - Added the output "datasize" to the operators _field::get_attribute_, _customtypefield::get_attribute_, _propertyfield::get_attribute_, _stringfield::get_attribute_, which returns the size of the data.
-  >
-  > 
-  >
-  > 
+- Retrieve field counts and data sizes through attribute APIs:
+  > The fc_get_attribute operator accepts num_fields to return the field count. Field attribute operators accept datasize to return the size of their data arrays.
 
-- Performance improvements for distributed data sources cases for mesh:
-  > Performance improvements for distributed data sources cases for the mesh and merge mesh operator.
-  >
-  > 
-
-- Enable incremental::composite::MeshProvider by default:
-  > Increased memory efficiency of mesh reading by improving the merging methodology.
-  >
-  > 
+- Read composite meshes incrementally by default:
+  > Composite data sources now read and merge mesh partitions incrementally by default, improving memory use during mesh loading.
 
 - Add the workflow_string input pin in the import_symbolic_workflow operator:
   > 
   >
   > Add the new `workflow_string` input pin in the `import_symbolic_workflow` operator.
-  >
-  > 
-  >
-  > 
-
-- XML-escape special characters in C# operator doc generation:
-  > 
-  >
-  > The `csharp_generator` operator now correctly XML-escapes special characters (`<`, `>`, `&`)
-  >
-  > in operator and pin descriptions before writing them into C# XML documentation comments.
-  >
-  > This prevents malformed XML when descriptions contain Markdown blockquotes or LaTeX-style
-  >
-  > inequalities, which previously caused the C# compiler `/doc:` extraction and IntelliSense
-  >
-  > pipelines to produce invalid output.
   >
   > 
   >
@@ -2418,12 +2777,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Add API operator to set name:
-  > To add consistency in the way we set result name for FieldsContainer and Fields, an API operator is implemented and exposed HGP side to be used in the HGP plugins as an API.
-  >
-  > 
-  >
-  > 
+- Read and set fields-container names through attribute APIs:
+  > Fields-container attribute APIs now support base_name and field_names for reading or setting the container's base name and individual field names.
 
 - Added "generic_data_container::get_attribute" and "generic_data_container::set_attribute":
   > Added the following APIs for Generic Data Container
@@ -2436,18 +2791,6 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Extract mesh to rescope property fields & mesh to be read on nodal results from RST.:
-  > Nodal result read from RST files now have an associated mesh support
-  >
-  > The mesh extraction operator now forward the input mesh property fields
-  >
-  > 
-  >
-  > 
-
-- Make generic support comparison operator private:
-  > 
-
 - Supported GenericSupport in GetFieldsContainerAttribute and added GenericSupportAttribute API:
   > - Added a new property_name, "generic_support", to "fieldscontainer::get_attribute" to extract Generic Support
   >
@@ -2457,35 +2800,158 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Option to extend to midside on nodal_to_elemental_nodal:
-  > Option to extend to midside on nodal_to_elemental_nodal
-  >
-  > 
-  >
-  > 
+- Raise H5DPF migration errors through warn_as_error:
+  > H5DPF migration can now raise an exception when warn_as_error is enabled instead of continuing with a warning.
 
 ### <a id="Fixes_native"></a> Fixes
 
-- Ignore the rotation to global in PSD and Spectrum analysis:
+- Adapt elemental_nodal_to_nodal to properly handle midside nodes:
+  > 
+  >
+  > The `elemental_nodal_to_nodal` averaging operators required to have all corner nodes corresponding to a midside node contained in the input nodal scoping if the result wanted to be obtained at that given midside node. This requirement is no longer present.
+  >
+  > 
+  >
   > 
 
-- Fix workflow_to_pydpf any pin management:
+- TestInput throws if upstream operator does not have output:
+  > testInput was throwing if two operators were connected and the output of op1 was not defined and plug as an input of op2. For this specific usecase, the method return false now.
+  >
   > 
+  >
+  > 
+
+- Prevent intermittent parallel solid_to_skin_fc crashes:
+  > The solid_to_skin_fc operator avoids intermittent crashes when results for multiple time steps or load cases are processed in parallel.
+
+- Config passed to internal operators:
+  > Fix operator configuration not being correctly passed to operators instantiated by some "_fc" operators.
+  >
+  > 
+  >
+  > 
+
+- Handle ASCII serialization line endings across operating systems:
+  > ASCII serialization now handles LF and CRLF line endings consistently across operating systems. The existing version-1 loading path is preserved.
+
+- Add ellipsis property to forward operator pins:
+  > The forward operator accepts multiple inputs and returns each populated input through the output pin with the same index.
+
+- Fix scoping_provider_by_prop for distributed h5 files:
+  > For distributed HDF5 data sources, scoping_provider_by_prop now returns element scoping that matches results from equivalent RST sources.
+
+- Expose ENL results through H5DPF and export without time-frequency support:
+  > The H5DPF reader now exposes ENL results, and result-file export accepts data sources without time-frequency support.
+
+- Handle unavailable shell-position results in permissive mode:
+  > In permissive mode, shell-position requests return an empty container for missing or unsupported HDF5 results instead of raising an error.
+
+- Clarify default H5DPF export precision:
+  > By default, H5DPF migration exports nodal results, mesh coordinates, and time-frequency data in double precision. Elemental results remain single precision.
+
+- Reevaluate downstream operators after input changes:
+  > When operator inputs change, connected downstream operators now reevaluate and return results for the new inputs.
+
+- Improve parallelization in several operators:
+  > 
+  >
+  > Multithreading parallelization has been enhanced in several operators making use of OpenMP.
+  >
+  > 
+  >
+  > 
+
+- Return empty container when GCD property is not found:
+  > When a requested model property is missing, the reader returns an empty container in permissive mode instead of throwing an error.
 
 - Improve Composite operator batch-merging and add domain decomposition detection:
+  > Composite MAPDL results now distinguish spatially partitioned data from frequency- or cyclic-decomposed streams when assembling meshes, avoiding spatial merging for shared meshes.
+
+- Fix migration errors for MSUP expansion:
+  > MSUP migration now includes result data needed to compute reaction forces and elemental nodal forces. GenPass no longer defaults to SI units, and force results use the appropriate unit system.
+
+- Filter result info for MSUP & CMS on expandable results:
+  > MSUP and CMS expansion result information now includes only results that have available expansion operators.
+
+- Recognize additional mesh element shapes:
+  > Mesh reads now classify joint, target, plane, and pipe elements using their correct shapes instead of returning unknown.
+
+- Support reading of mode coefficients and modal damping in spectrum_data:
+  > Fix reading of mode coefficients and modal damping ratios from .mode file in spectrum_data operator.
+  >
+  > Also, fix reading of participation factors for complex modes (from damped modal analysis).
+  >
   > 
   >
   > 
+
+- Fix MSUP expansion with partial modal coordinates scoping:
+  > Fix wrong results in MSUP expansion when both of the two following conditions are met:
+  >
+  > - the use pass data source (.rfrq or .rdsp file) does not contain the modal coordinates for all the modes stored in the generation pass data source (.mode file )
+  >
+  > - the N stored modal coordinates do not correspond to the N first modes in the generation pass data source
+  >
+  > 
+  >
+  > Typical examples of this issue are:
+  >
+  > - MSUP expansion is performed with the set of modes from min_mode to max_mode and min_mode > 1
+  >
+  > - Modal analysis contains both residual vectors and static shapes (enforced motion) and MSUP expansion is performed without the residual vectors
+  >
+  > 
+  >
+  > 
+
+- Fix performance issues with mode chunking:
+  > Fix performance issues for Modal superposition with mode chunking option enabled
+  >
+  > 
+  >
+  > 
+
+- Make elemental mass public:
+  > The elemental mass operator is now publicly available, so users can access its elemental mass fields container.
+
+- Record ElementalMass for rth:
+  > Make ElementalMass a source operator
+  >
+  > Make MaterialPropertyOfElement a source operator
+  >
+  > 
+  >
+  > 
+
+- Correct material_property_of_element input documentation:
+  > The result.material_property_of_element specification now documents optional mesh_scoping, required property_name, optional default_value, and optional filter_zero_values. Zero-value filtering applies when no default is supplied.
+
+- Remove redundant prefixes from result operator scripting names:
+  > Operator scripting names now use pres_to_field, prns_to_field, run, and global_to_nodal without the redundant mapdl. prefix.
+
+- Select NMISC and SMISC components through item_index:
+  > The nmisc and smisc operators accept scalar or vector item_index values for component selection; the num_components input pin is removed.
+
+- Handle missing and non-shell support in shell operators:
+  > Shell operators now handle fields with missing or non-shell support without adding duplicate scoping IDs.
+
+- Rescope named selections during mesh extraction:
+  > Mesh extraction and scoping now rescope named selections onto the output mesh instead of retaining selections from the source mesh.
+
+- Correct odd and even input-pin documentation:
+  > Operator pin descriptions now distinguish odd and even pin positions correctly, matching the expected input ordering.
+
+- Escape special characters in generated C# documentation:
+  > Generated C# XML documentation now escapes less-than signs, greater-than signs, and ampersands in operator and pin descriptions, preventing malformed documentation comments.
+
+- Ignore the rotation to global in PSD and Spectrum analysis:
+  > PSD and Spectrum results are not rotated to the global coordinate system even when rotation is requested.
+
+- Fix workflow_to_pydpf any pin management:
+  > Generated Python workflows now use numeric pin IDs for Any-typed and ellipsis pins. ScopingsContainer inputs serialize their labels, label spaces, and scopings, preserving these values when workflows are reconstructed.
 
 - Check all files from the DataSource for result availability:
-  > 
-  >
-  > 
-
-- Performance improvements for composite source operators with transpose scoping and reused mapping:
-  > Performance improvements for composite source operators.
-  >
-  > 
+  > Availability checks now inspect every file in a composite data source, so results present only in later files are recognized instead of triggering fallback computation.
 
 - Add mesh::set_attribute and support units in fieldscontainer::set_attribute:
   > 
@@ -2505,11 +2971,6 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Performance of mesh for large distributed cases, creation of generic metadata setter:
-  > Performance improvement of mesh for large distributed cases.
-  >
-  > 
-
 - Fix merge::result_info for cyclic analyzis:
   > 
   >
@@ -2521,14 +2982,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Rotation operator crash when source operators produce a null output:
-  > 
-  >
-  > Fix a crash when querying unavailable msup expansion results
-  >
-  > 
-  >
-  > 
+- Handle unavailable input in rotation operators:
+  > Rotation operators now handle a null fields-container input without crashing when upstream results are unavailable.
 
 - Fixing issue with composite results without previously calling the mesh provider operator:
   > Fixing issue with composite results without previously calling the mesh provider operator.
@@ -2567,41 +3022,16 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Change default value of stream_type pin in serializer operator:
-  > 
-  >
-  > The `stream_type` input pin of the `serializer` operator has changed its default type from 0 (ASCII) to 1 (binary). Binary files are faster to serialize and deserialize, which improves user experience.
-  >
-  > 
-  >
-  > In addition, the `stream_type` input pin of the `deserializer` operator is made optional. If not provided, the type is auto-detected from the input file.
-  >
-  > 
-  >
-  > 
+- Default serialization to binary and make deserializer format optional:
+  > The serializer operator now defaults stream_type to binary (1) instead of ASCII (0). The deserializer stream_type input is optional.
 
 - Handle time or frequency steps location correctly for the rescope operator:
   > Handle time or frequency steps location correctly for the rescope operator.
   >
   > 
 
-- Keep the input scoping support unchanged:
-  > Avoid changing the input scoping support
-  >
-  > 
-  >
-  > 
-
-- Correct spec for result.material_property_of_element:
-  > 
-  >
-  > The operator result.material_property_of_element previously exposed an incorrect specification that did not match its actual inputs.
-  >
-  > The correct inputs are now documented: mesh_scoping (optional element scoping), property_name (required - the name of the linear scalar material property to extract, such as EX or DENS), default_value (optional - assigned to elements whose material does not define the property), and ilter_zero_values (optional - excludes elements with a zero property value when no default is set).
-  >
-  > 
-  >
-  > 
+- Preserve input scoping support during rescoping:
+  > Rescoping now validates source and destination locations without modifying the support attached to the input scoping.
 
 - Skip empty input fields in min_max_over_label_fc:
   > 
@@ -2615,35 +3045,6 @@ The following table shows which components have updates in each category.
   > The operator now excludes domain IDs whose fields are entirely empty from the output,
   >
   > so the output scoping only contains the domain IDs for which actual data was available.
-  >
-  > 
-  >
-  > 
-
-- Fix solid_to_skin:
-  > Fixes intermittent crashes (access violations and heap corruption) that could occur when mapping solid results to skin meshes during parallel post-processing of multiple time steps or load cases.
-  >
-  > 
-  >
-  > What was happening: When processing a multi-step results container in parallel, the skin-mapping computation (`solid_to_skin_fc`) would randomly crash due to internal data structures being accessed concurrently without protection.
-  >
-  > 
-  >
-  > **What changed**:
-  >
-  > 
-  >
-  > - Chirurgical fix to avoid crash in Nodal path when calling in parallel the `solid_to_skin_fc` operator. The crash was triggered during rescope in a very specific condition where the solid_field_scoping is the same as the skin_field_scoping we want to rescope.
-  >
-  > - Partially-initialized mesh objects no longer produce null-pointer dereferences downstream
-  >
-  > 
-  >
-  > **Impact**: No change to inputs, outputs, or results. The fix is purely internal - the same computations execute in the same order, but safely under concurrency.
-  >
-  > 
-  >
-  > No user-facing API changes. No pins added, removed, or renamed. Existing workflows continue to function identically, with improved robustness under concurrent and edge-case conditions.
   >
   > 
   >
@@ -2685,8 +3086,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- B1437835, behavior change in reduce_sampling operator:
-  > 
+- Preserve endpoints in sampled scopings:
+  > Reduced scopings now retain their first and last IDs while the operator samples IDs between those endpoints.
 
 - Raise a specific error message when trying to import a non-existing file:
   > 
@@ -2702,10 +3103,8 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Enable float comparison (time frequency precision) in the compute time scoping operator:
-  > Added pin to enable float comparison.
-  >
-  > 
+- Support float-aware time-scoping comparisons:
+  > The compute_time_scoping operator now accepts time_freq_precision for float-aware comparisons, while keeping double precision as the default.
 
 - Docstring GetFieldsContainerAttribute:
   > Fix the docstring in GetFieldsContainerAttribute operator.
@@ -2714,45 +3113,57 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Inconsistency with elshape treatment  in scoping::by_property op.:
-  > When we have shell, solid and skin elements in mesh and perform a scoping::by_property, we observed inconsistency in the way we expose elshape depending if:
-  >
-  > - we merge skin and shell
-  >
-  > - we merge shell and solid
-  >
-  > - we merge nothing
-  >
-  > 
-  >
-  > The idea is to find a way to make this treatment consistent and homogenous.
+- Make element-shape scoping consistent for mixed meshes:
+  > Element-shape scoping now handles mixed solid, shell, and skin meshes consistently when shell and skin selections are merged or kept separate.
+
+- Correct generic-support attribute exposure:
+  > The fc_get_attribute specification no longer advertises generic_support output, and the generic-support attribute helper is private.
+
+- Correct residual-and-error scaling outputs:
+  > The compute_residual_and_error operator returns correctly sized scaling-factor outputs. Overall-max normalization consistently returns fields containers.
+
+### <a id="Performance_native"></a> Performance
+
+- Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout:
+  > Enhance performance of reading scoped results by remapping a previously pre-processed result onto a new data layout
   >
   > 
 
-- Fixed error introduced by PR 667338:
-  > - Marked "generic_support_get_attribute" as private operator
+- Improving performance of reading scoped results with multiple time steps:
+  > Reading scoped results from HDF5 files across multiple time steps is faster, so these result sets load sooner.
+
+- Reduce repeated H5DPF reads and decompression:
+  > H5DPF scoped-result reads group nearby data slices, reducing repeated file reads and decompression work.
+
+- Cache the scoping hash so it can be reused:
+  > Scoping index-table construction does less repeated work when matching unchanged source and destination scopings.
+
+- Performance issue on node filtering operator:
+  > When filtering nodal results across time steps with the same mesh and scoping, repeated requests avoid redundant processing.
+
+- Enable parallel execution by default in rescope_fc:
+  > The rescope_fc operator now enables parallel execution by default when rescoping a fields container.
+
+- Improve performance of Rescope operators:
+  > 
   >
-  > - Undocumented the fact that "fieldscontainer::get_attribute" can produce GenericSupport
+  > Performance improvements in the `Rescope`, `Rescope_pf`, `Rescope_ctf`, `rescope_fc` and `solid_to_skin_fc` operators.
   >
   > 
   >
   > 
 
-- Allow loop_workflow_incremental to take CField output:
-  > loop_workflow_incremental now can take a Workflow returning a CField with an added `loop` label.
-  >
-  > 
+- Performance improvements for distributed data sources cases for mesh:
+  > Performance improvements for distributed data sources cases for the mesh and merge mesh operator.
   >
   > 
 
-- Scaling factor size in error and norm operator:
-  > The size of the output pins 2 and 4 of the operator ErrorAndNorm ("error_norm_calc") was wrong and this has been fixed.
-  >
-  > Also the documentation has been upgraded, and output pins 2 and 3 now always return fields containers, when they were returning fields for the overall max normalization type.
-  >
-  > 
-  >
-  > 
+- Reuse scoping preparation in composite result reads:
+  > Composite result reads reuse transposed operations and apply requested scoping before reading data, reducing repeated processing.
+
+- Reuse named-selection metadata during distributed mesh reads:
+  > Distributed mesh reads now cache named selections across domains, avoiding repeated metadata preparation for the same mesh.
+
 ## nuget
 
 ### <a id="Fixes_nuget"></a> Fixes
@@ -2761,7 +3172,9 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+
 ## plugins
+
 ### <a id="Features_plugins"></a> Features
 
 - Improve the EnhancedPOD workflow with optimization of its parameters:
@@ -2790,6 +3203,7 @@ The following table shows which components have updates in each category.
   > 
 
 ## prime
+
 ### <a id="Features_prime"></a> Features
 
 - Adding algorithm options and multithreading:
@@ -2808,22 +3222,28 @@ The following table shows which components have updates in each category.
   > Restoring parallelization config options, when applies.
   >
   > 
+
 ## pythonplugin
+
+### <a id="Features_pythonplugin"></a> Features
+
+- Support uint64 type:
+  > Add framework and client support for uint64 and vector<uint64> as data type.
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_pythonplugin"></a> Fixes
 
-- Stop leaking the GIL on plugin-load thread:
-  > Upgrade to python 3.13 from 3.10 broke the api contracts that processed the GIL and exposed a GIL management issue. This problem is fixed through a RAII GIL guard and using GIL state modifier apis.
-  >
-  > 
+- Release the interpreter lock correctly during Python plugin loading:
+  > Python plugin loading now manages the global interpreter lock correctly instead of leaving it held on the plugin-load thread.
 
 - Normalize Windows client API path aliases:
-  > 
-  >
-  > 
-  >
-  > 
+  > Python users can provide a Windows client API library path without its `.dll` suffix; the loader resolves it to the corresponding DLL before loading.
+
 ## rbd
+
 ### <a id="Features_rbd"></a> Features
 
 - Apply wireframe and edge decimation when generating the dfmf:
@@ -2839,13 +3259,16 @@ The following table shows which components have updates in each category.
 
 - Propagate d3plot title (#279):
   > 
+
 ## utilities
 
 ### <a id="Fixes_utilities"></a> Fixes
 
 - Fix breaking change in forward operator:
   > 
+
 ## vtk
+
 ### <a id="Features_vtk"></a> Features
 
 - Add pins for extra connectivity & input scoping in op:mesh_to_pyvista:
@@ -2853,17 +3276,17 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Perf improvement of mesh_to_pyvista (part 2):
-  > 
-
-- Perf improvement of mesh_to_pyvista:
-  > Performance improvement of mesh_to_pyvista operator, up to a margin of 60%, was achieved especially when dealing with conversion between Dpf Meshed Regions and various VTK-native mesh formats.
-  >
-  > 
-  >
-  > 
-
 ### <a id="Fixes_vtk"></a> Fixes
+
+- Visualization problem in a Fluent mesh with different mesh sizes:
+  > Non-polyhedral Fluent meshes with face connectivity can now be converted for visualization. Supplied node coordinates are aligned with the mesh when their scoping differs.
+
+- TestInput throws if upstream operator does not have output:
+  > testInput was throwing if two operators were connected and the output of op1 was not defined and plug as an input of op2. For this specific usecase, the method return false now.
+  >
+  > 
+  >
+  > 
 
 - Vtu_export output DataSources has null result paths:
   > 
@@ -2897,15 +3320,15 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
-## workflows
-### <a id="Features_workflows"></a> Features
 
-- Update solver_to_h5dpf workflow for error handling:
-  > The pin warn_as_error has been added to the SolverToH5DPFWorkflow, to throw an exception when an error occurs during the migration to h5dpf.
-  >
-  > 
-  >
-  > 
+### <a id="Performance_vtk"></a> Performance
+
+- Perf improvement of mesh_to_pyvista (part 2):
+  > Converting DPF meshed regions into VTK-native mesh formats with mesh_to_pyvista can now be up to 60% faster.
+
+## workflows
+
+### <a id="Features_workflows"></a> Features
 
 - Add customisation inputs to the solver_to_h5dpf workflow:
   > 
@@ -2955,6 +3378,7 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+
 ## xml
 
 ### <a id="Fixes_xml"></a> Fixes
@@ -2964,13 +3388,6 @@ The following table shows which components have updates in each category.
   >
   > 
 
-- Correction path DLL AEL':
-  > 
-
-- Correction path DLL AEL:
-  > 
-  >
-  > 
 ## Operator changes
 
 ### New operators
