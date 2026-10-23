@@ -27,3 +27,5 @@ Matching [`IOperationsVectorDisplayBaseViewModel`](VM.Operations.Post.Interfaces
 ### Remarks
 
 The operation returns `null` when `name` does not identify an existing vector display; it does not create a display.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplay.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplay.md">Download this page as Markdown</a>

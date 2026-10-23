@@ -79,3 +79,5 @@ Time (sec)	Frequency (Hz)	Z
 ```
 
 The columns and iteration order are identical to the `.csv` form, and only the separator differs, using a tab character between columns.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md">Download this page as Markdown</a>

@@ -23,3 +23,5 @@ Zero-based index of the node.
  [Vector](VM.Vector.md)
 
 Position of the specified node.
+
+<a href="/lib/VM.Models.Post.IDataPart.GetNodePosition.md" download="VM.Models.Post.IDataPart.GetNodePosition.md">Download this page as Markdown</a>

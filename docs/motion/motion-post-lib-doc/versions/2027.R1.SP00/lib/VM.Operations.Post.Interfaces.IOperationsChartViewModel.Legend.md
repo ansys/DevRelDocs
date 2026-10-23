@@ -19,3 +19,5 @@ IOperationsLegendModifier Legend { get; }
 ### Remarks
 
 Changes made through `IOperationsLegendModifier` are applied to the legend rendered by this chart.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.Legend.md" download="VM.Operations.Post.Interfaces.IOperationsChartViewModel.Legend.md">Download this page as Markdown</a>

@@ -28,3 +28,5 @@ reference_times = output_reader.GetReferenceTimeArray()
 ### Remarks
 
 The same index in `GetReferenceTimeArray()` and `GetStateIDArray()` identifies the same state.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetReferenceTimeArray.md" download="VM.Post.API.OutputReader.OutputReader.GetReferenceTimeArray.md">Download this page as Markdown</a>

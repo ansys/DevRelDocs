@@ -19,3 +19,5 @@ Color Background { get; set; }
 ### Remarks
 
 Changing this value updates the color rendered behind the chart.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Background.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Background.md">Download this page as Markdown</a>

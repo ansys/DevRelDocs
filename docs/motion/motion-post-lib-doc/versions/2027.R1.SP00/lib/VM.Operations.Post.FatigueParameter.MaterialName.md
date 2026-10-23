@@ -20,3 +20,5 @@ public string MaterialName { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses assign fatigue material through [`Material`](VM.Operations.Post.Interfaces.IOperationsFEBody.Material.md).
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.MaterialName.md" download="VM.Operations.Post.FatigueParameter.MaterialName.md">Download this page as Markdown</a>

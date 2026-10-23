@@ -15,3 +15,5 @@ double ReferenceValue { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.ReferenceValue.md" download="VM.Models.Post.ISTFTParameters.ReferenceValue.md">Download this page as Markdown</a>

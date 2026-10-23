@@ -14,14 +14,14 @@ public enum SignType
 
 ## Fields
 
-`Negative` 
+`Negative = 1` 
 
 Flips the absolute values to negative, so every Y point stays at or below zero.
 
 
 
-`Positive` 
+`Positive = 0` 
 
 Keeps the absolute values as positive, so every Y point stays at or above zero.
 
-
+<a href="/lib/VM.Models.Post.SignType.md" download="VM.Models.Post.SignType.md">Download this page as Markdown</a>

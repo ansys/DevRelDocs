@@ -15,3 +15,5 @@ string Name { get; set; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.Name.md" download="VM.Models.Post.IVectorDisplayAnimationBase.Name.md">Download this page as Markdown</a>

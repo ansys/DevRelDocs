@@ -9,3 +9,5 @@ Set the line's thickness, color, and style with [`Thickness`](../../../lib/VM.Op
 Set the point size and point shape with [`PointSize`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.PointSize.md) and [`PointType`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.PointType.md).
 
 Choose how the curve as a whole is drawn with [`SeriesType`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesType.md).
+
+<a href="/document/operation-api/feature/op_curve_properties.md" download="op_curve_properties.md">Download this page as Markdown</a>

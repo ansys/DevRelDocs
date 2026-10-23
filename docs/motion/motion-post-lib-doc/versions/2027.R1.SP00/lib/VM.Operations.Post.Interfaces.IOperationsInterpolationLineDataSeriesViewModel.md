@@ -15,3 +15,5 @@ public interface IOperationsInterpolationLineDataSeriesViewModel
  [Points](VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.Points.md\#VM\_Operations\_Post\_Interfaces\_IOperationsInterpolationLineDataSeriesViewModel\_Points)
 
 Gets or sets the number of interpolation intervals used to generate the curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.md">Download this page as Markdown</a>

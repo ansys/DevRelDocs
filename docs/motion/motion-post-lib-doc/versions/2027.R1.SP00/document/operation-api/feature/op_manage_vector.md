@@ -24,3 +24,5 @@ Change how it looks with these properties:
 - Set the label's background and text colors with [`LabelBackgroundColor`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelBackgroundColor.md) and [`LabelTextColor`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelTextColor.md).
 - Set the vector's color and size with [`Color`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Color.md) and [`Scale`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Scale.md).
 - Turn logarithmic display on or off with [`IsLog`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.IsLog.md).
+
+<a href="/document/operation-api/feature/op_manage_vector.md" download="op_manage_vector.md">Download this page as Markdown</a>

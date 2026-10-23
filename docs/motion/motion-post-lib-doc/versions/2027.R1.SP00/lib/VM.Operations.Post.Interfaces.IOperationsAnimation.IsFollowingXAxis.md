@@ -20,3 +20,5 @@ bool IsFollowingXAxis { get; set; }
 
 This flag is used when [`TransformationType`](VM.Operations.Post.Interfaces.IOperationsAnimation.TransformationType.md) is `Translation`. It selects whether target translation along the X axis changes the following camera.
 When this value is `false`, target translation along the X axis is not applied to camera tracking.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingXAxis.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingXAxis.md">Download this page as Markdown</a>

@@ -34,3 +34,5 @@ reference_times = analysis_result.GetReferenceTimeArray()
 Each time value corresponds by array index to the state ID at the same index in [GetStateIDArray\(\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetStateIDArray.md).
 
 The returned times reflect every state stored in the analysis result, not only the animation frames currently loaded through [MoveToAnimationFrame\(int\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.MoveToAnimationFrame.md) and the related analysis-result loading operations.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetReferenceTimeArray.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetReferenceTimeArray.md">Download this page as Markdown</a>

@@ -29,3 +29,5 @@ Creates [`IOperationsLineDataSeriesAxisViewModel`](VM.Operations.Post.Interfaces
  [CreateLineDataSeries\(string, string, string, string, string, string, string\)](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md\#VM\_Operations\_Post\_Interfaces\_IOperationsLineDataSeriesViewModel\_CreateLineDataSeries\_System\_String\_System\_String\_System\_String\_System\_String\_System\_String\_System\_String\_System\_String\_)
 
 Creates source-axis data through an obsolete overload with separate parent and child target names.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ Gets or sets the arithmetic operation selected from [`SimpleMathType`](VM.Models
  [Points](VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.Points.md\#VM\_Operations\_Post\_Interfaces\_IOperationsSimpleMathLineDataSeriesViewModel\_Points)
 
 Gets or sets the number of points used to interpolate each source curve before the arithmetic operation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.md">Download this page as Markdown</a>

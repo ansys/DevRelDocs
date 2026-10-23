@@ -40,3 +40,5 @@ The values read here identify which target, result characteristic, component, an
  [INumericParameter](VM.ViewModels.Post.INumericParameter.md)
 
 Defines the name and source columns used to create a curve from a numeric file.
+
+<a href="/lib/VM.ViewModels.Post.md" download="VM.ViewModels.Post.md">Download this page as Markdown</a>

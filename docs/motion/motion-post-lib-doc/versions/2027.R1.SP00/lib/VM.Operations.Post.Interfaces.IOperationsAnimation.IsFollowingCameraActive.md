@@ -20,3 +20,5 @@ bool IsFollowingCameraActive { get; set; }
 
 Camera tracking has an effect only after [SetFollowingCameraTarget\(string\)](VM.Operations.Post.Interfaces.IOperationsAnimation.SetFollowingCameraTarget.md) finds a target. The selected translation or rotation axes determine which target changes are applied.
 When this value is `false`, camera position updates do not follow the selected target.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingCameraActive.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.IsFollowingCameraActive.md">Download this page as Markdown</a>

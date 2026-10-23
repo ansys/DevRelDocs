@@ -20,3 +20,5 @@ public FatigueAnalysisType AnalysisType { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses set [`AnalysisType`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md) on the selected target body.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.AnalysisType.md" download="VM.Operations.Post.FatigueParameter.AnalysisType.md">Download this page as Markdown</a>

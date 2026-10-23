@@ -13,7 +13,7 @@ public enum PlotDataType
 
 ## Fields
 
-`DEFAULT` 
+`DEFAULT = 1` 
 
 Description: "Default"
 
@@ -21,10 +21,10 @@ Uses the standard result data associated with the selected entity.
 
 
 
-`PlotResult` 
+`PlotResult = 2` 
 
 Description: "Plot Result"
 
 Uses result data prepared for plotting.
 
-
+<a href="/lib/VM.Models.PlotDataType.md" download="VM.Models.PlotDataType.md">Download this page as Markdown</a>

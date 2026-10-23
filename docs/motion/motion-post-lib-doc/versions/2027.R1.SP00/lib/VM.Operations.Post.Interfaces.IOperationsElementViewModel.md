@@ -15,3 +15,5 @@ public interface IOperationsElementViewModel
  [ChangeID\(int\)](VM.Operations.Post.Interfaces.IOperationsElementViewModel.ChangeID.md\#VM\_Operations\_Post\_Interfaces\_IOperationsElementViewModel\_ChangeID\_System\_Int32\_)
 
 Changes the element ID and refreshes the element's displayed identifier.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsElementViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsElementViewModel.md">Download this page as Markdown</a>

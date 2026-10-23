@@ -43,3 +43,5 @@ characteristic_name = "Displacement"
 
 components = analysis_result.GetPlotComponents(entity_name, characteristic_name)
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetPlotComponents.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetPlotComponents.md">Download this page as Markdown</a>

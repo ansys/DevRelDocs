@@ -81,3 +81,5 @@ public Vector(string vector)
 ### Parameters
 
 `vector` string
+
+<a href="/lib/VM.Vector.-ctor.md" download="VM.Vector.-ctor.md">Download this page as Markdown</a>

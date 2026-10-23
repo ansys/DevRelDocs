@@ -19,3 +19,5 @@ LegendPlacementType LegendPlacement { get; set; }
 ### Remarks
 
 Setting `Inside` shows the legend inside the chart. Setting another placement switches the legend to the outside layout.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.LegendPlacement.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.LegendPlacement.md">Download this page as Markdown</a>

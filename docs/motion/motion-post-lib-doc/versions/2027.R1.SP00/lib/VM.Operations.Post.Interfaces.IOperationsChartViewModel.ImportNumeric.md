@@ -90,3 +90,5 @@ chart.ImportNumeric(NUMERIC_INPUT_FILENAME, targets)
 ### Remarks
 
 For each target, the operation reads the target name and X/Y source paths from the numeric file and adds the resulting curve to this chart.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.ImportNumeric.md" download="VM.Operations.Post.Interfaces.IOperationsChartViewModel.ImportNumeric.md">Download this page as Markdown</a>

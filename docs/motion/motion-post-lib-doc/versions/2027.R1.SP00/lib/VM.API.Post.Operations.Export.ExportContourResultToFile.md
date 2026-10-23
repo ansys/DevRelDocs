@@ -154,3 +154,5 @@ Activate `IOperationsAnimation` for <code class="paramref">documentFilePath</cod
  Exception
 
 Thrown when the active view is not an animation for <code class="paramref">documentFilePath</code> or its frames are not available.
+
+<a href="/lib/VM.API.Post.Operations.Export.ExportContourResultToFile.md" download="VM.API.Post.Operations.Export.ExportContourResultToFile.md">Download this page as Markdown</a>

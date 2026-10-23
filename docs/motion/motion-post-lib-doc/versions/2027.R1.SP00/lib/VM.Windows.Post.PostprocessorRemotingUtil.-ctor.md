@@ -51,3 +51,5 @@ The Postprocessor version used to build the remoting endpoint and launch argumen
  ArgumentNullException
 
 Thrown when <code class="paramref">version</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
+
+<a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.-ctor.md" download="VM.Windows.Post.PostprocessorRemotingUtil.-ctor.md">Download this page as Markdown</a>

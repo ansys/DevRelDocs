@@ -61,3 +61,5 @@ for result in results:
 # Close
 output_reader.Close()
 ```
+
+<a href="/document/result-file-reader/example/example_curve_for_result_file_reader_api.md" download="example_curve_for_result_file_reader_api.md">Download this page as Markdown</a>

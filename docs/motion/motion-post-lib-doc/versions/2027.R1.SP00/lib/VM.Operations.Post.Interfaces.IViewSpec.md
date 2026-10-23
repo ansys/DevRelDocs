@@ -23,3 +23,5 @@ Gets or sets the vector that defines the point toward which the camera looks.
  [UpVector](VM.Operations.Post.Interfaces.IViewSpec.UpVector.md\#VM\_Operations\_Post\_Interfaces\_IViewSpec\_UpVector)
 
 Gets or sets the vector that defines the camera up direction.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IViewSpec.md" download="VM.Operations.Post.Interfaces.IViewSpec.md">Download this page as Markdown</a>

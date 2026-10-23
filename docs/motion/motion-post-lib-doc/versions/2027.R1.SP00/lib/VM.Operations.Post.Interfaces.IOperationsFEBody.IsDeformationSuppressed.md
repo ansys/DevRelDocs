@@ -19,3 +19,5 @@ bool IsDeformationSuppressed { get; set; }
 ### Remarks
 
 When this value is `true`, node transformations use rigid-body motion and do not apply result deformation. When it is `false`, loaded deformation data contributes to the transformations. This property is not exposed for eigenvalue or mode-contribution results.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.IsDeformationSuppressed.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.IsDeformationSuppressed.md">Download this page as Markdown</a>

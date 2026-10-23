@@ -19,3 +19,5 @@ string SelectedTransformType { get; set; }
 ### Remarks
 
 Changing this value selects the transformation path and recalculates the curve. See [Example - Transform](../document/operation-api/example/example_chart_for_operation_api.md#transform) for a complete usage flow.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.SelectedTransformType.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.SelectedTransformType.md">Download this page as Markdown</a>

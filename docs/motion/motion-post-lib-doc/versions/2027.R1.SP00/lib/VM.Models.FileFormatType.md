@@ -12,14 +12,14 @@ public enum FileFormatType
 
 ## Fields
 
-`BINARY` 
+`BINARY = 1` 
 
 Exports result values in binary format.
 
 
 
-`TXT` 
+`TXT = 0` 
 
 Exports result values as text.
 
-
+<a href="/lib/VM.Models.FileFormatType.md" download="VM.Models.FileFormatType.md">Download this page as Markdown</a>

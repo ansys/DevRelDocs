@@ -35,3 +35,5 @@ page = application_handler.AddPage(page_name)
 ### Remarks
 
 Returned `IPage` is active when the method returns. Previously active `IPage` is deactivated.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.AddPage.md" download="VM.API.Post.Operations.ApplicationHandler.AddPage.md">Download this page as Markdown</a>

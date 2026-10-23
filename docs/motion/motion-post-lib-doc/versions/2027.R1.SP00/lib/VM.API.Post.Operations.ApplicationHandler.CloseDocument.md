@@ -28,3 +28,5 @@ application_handler.CloseDocument(RESULT_FILE_PATH)
 ### Remarks
 
 When `filepath` identifies imported [`IOperationDocument`](VM.ViewModels.Post.Interfaces.IOperationDocument.md), that document is removed.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.CloseDocument.md" download="VM.API.Post.Operations.ApplicationHandler.CloseDocument.md">Download this page as Markdown</a>

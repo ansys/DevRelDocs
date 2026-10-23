@@ -15,3 +15,5 @@ public string Version { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.Version.md" download="VM.Post.API.OutputReader.OutputReader.Version.md">Download this page as Markdown</a>

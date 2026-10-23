@@ -25,3 +25,5 @@ The analysis result identifier of the named selection.
 `fullName` string
 
 The full name of the named selection.
+
+<a href="/lib/VM.Models.Post.EntityTypes.NamedSelection.-ctor.md" download="VM.Models.Post.EntityTypes.NamedSelection.-ctor.md">Download this page as Markdown</a>

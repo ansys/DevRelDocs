@@ -35,3 +35,5 @@ characteristics = output_reader.GetPlotCharacteristics(entity_name)
 ### Remarks
 
 The lookup and characteristic query are performed with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md).
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetPlotCharacteristics.md" download="VM.Post.API.OutputReader.OutputReader.GetPlotCharacteristics.md">Download this page as Markdown</a>

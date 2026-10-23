@@ -19,3 +19,5 @@ FontFamily FontFace { get; set; }
 ### Remarks
 
 Changing this value updates the font family used for legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontFace.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontFace.md">Download this page as Markdown</a>

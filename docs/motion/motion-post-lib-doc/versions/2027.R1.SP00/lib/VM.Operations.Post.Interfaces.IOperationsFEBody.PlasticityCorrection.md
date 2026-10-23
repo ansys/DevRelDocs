@@ -19,3 +19,5 @@ PlasticityCorrection PlasticityCorrection { get; set; }
 ### Remarks
 
 This property applies when [`AnalysisType`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md) selects strain-life analysis. Changing it updates the plasticity correction stored for fatigue evaluation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.PlasticityCorrection.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.PlasticityCorrection.md">Download this page as Markdown</a>

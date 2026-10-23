@@ -133,3 +133,5 @@ chart.CreateTranslate(curves, offset_x, offset_y)
 
 This function translates each curve specified in <code class="paramref">seriesViewModels</code> by adding the specified offsets to the X and Y values
 of each point in the curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateTranslate.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateTranslate.md">Download this page as Markdown</a>

@@ -18,3 +18,5 @@ Provides operations for exporting result data from the active Postprocessor view
  [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md)
 
 Provides conversion methods for color and font values used by Operation API properties.
+
+<a href="/lib/VM.API.Post.Operations.md" download="VM.API.Post.Operations.md">Download this page as Markdown</a>

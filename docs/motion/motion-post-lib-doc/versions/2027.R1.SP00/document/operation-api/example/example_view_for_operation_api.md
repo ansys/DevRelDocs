@@ -150,3 +150,5 @@ page.Close()
 # Close the Document
 application_handler.CloseDocument(RESULT_FILE_PATH)
 ```
+
+<a href="/document/operation-api/example/example_view_for_operation_api.md" download="example_view_for_operation_api.md">Download this page as Markdown</a>

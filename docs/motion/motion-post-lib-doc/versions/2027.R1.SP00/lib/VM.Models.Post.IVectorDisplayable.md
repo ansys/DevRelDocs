@@ -15,3 +15,5 @@ public interface IVectorDisplayable : IHasGuid
  [Characteristics](VM.Models.Post.IVectorDisplayable.Characteristics.md\#VM\_Models\_Post\_IVectorDisplayable\_Characteristics)
 
 Gets the vector characteristics available for the entity.
+
+<a href="/lib/VM.Models.Post.IVectorDisplayable.md" download="VM.Models.Post.IVectorDisplayable.md">Download this page as Markdown</a>

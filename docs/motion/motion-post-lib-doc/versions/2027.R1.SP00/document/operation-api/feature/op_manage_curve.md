@@ -19,4 +19,6 @@ Get a chart axis by name with [`GetAxis(string)`](../../../lib/VM.Operations.Pos
 Remove a curve with [`Remove(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Remove.md) or [`Remove(IOperationsLineDataSeriesViewModelBase)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.Remove.md). Either way, the curve is taken off the chart.
 
 ## Exporting
-Export curve data to a chosen path with [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md), with no dialog shown. Use [`ExportAllDataSeries()`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllDataSeries.md) instead when picking the save location interactively makes more sense. Either way, the exported data can then be used outside the chart.
+Export curve data to a chosen path with [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md). The exported data can then be used outside the chart.
+
+<a href="/document/operation-api/feature/op_manage_curve.md" download="op_manage_curve.md">Download this page as Markdown</a>

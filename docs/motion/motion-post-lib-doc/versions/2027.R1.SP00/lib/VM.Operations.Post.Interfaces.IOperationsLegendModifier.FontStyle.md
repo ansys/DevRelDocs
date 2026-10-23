@@ -19,3 +19,5 @@ FontStyle FontStyle { get; set; }
 ### Remarks
 
 Changing this value updates the style used for legend text.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontStyle.md" download="VM.Operations.Post.Interfaces.IOperationsLegendModifier.FontStyle.md">Download this page as Markdown</a>

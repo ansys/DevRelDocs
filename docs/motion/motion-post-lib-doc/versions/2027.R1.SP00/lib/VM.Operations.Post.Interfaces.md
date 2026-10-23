@@ -154,3 +154,5 @@ Represents an animation or chart view that can be activated, arranged, and expor
  [IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md)
 
 Defines the camera position, target, and up direction applied to an animation view.
+
+<a href="/lib/VM.Operations.Post.Interfaces.md" download="VM.Operations.Post.Interfaces.md">Download this page as Markdown</a>

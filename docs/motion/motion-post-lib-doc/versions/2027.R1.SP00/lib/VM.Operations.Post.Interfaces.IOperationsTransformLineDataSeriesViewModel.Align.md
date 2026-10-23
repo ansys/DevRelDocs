@@ -19,3 +19,5 @@ AlignType Align { get; set; }
 ### Remarks
 
 When the transform type is `Align`, this value selects whether alignment uses the zero reference or another curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Align.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.Align.md">Download this page as Markdown</a>

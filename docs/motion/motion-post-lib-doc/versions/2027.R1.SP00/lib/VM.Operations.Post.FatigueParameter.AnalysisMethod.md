@@ -20,3 +20,5 @@ public AnalysisMethodEN AnalysisMethod { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses set [`AnalysisMethodEN`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisMethodEN.md) when [`AnalysisType`](VM.Operations.Post.Interfaces.IOperationsFEBody.AnalysisType.md) selects strain-life analysis.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.AnalysisMethod.md" download="VM.Operations.Post.FatigueParameter.AnalysisMethod.md">Download this page as Markdown</a>

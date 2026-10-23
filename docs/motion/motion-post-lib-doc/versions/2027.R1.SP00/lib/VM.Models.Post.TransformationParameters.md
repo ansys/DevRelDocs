@@ -27,3 +27,5 @@ Gets or sets the rotation-axis sequence used to calculate the rotation component
  [RotationType](VM.Models.Post.TransformationParameters.RotationType.md\#VM\_Models\_Post\_TransformationParameters\_RotationType)
 
 Gets or sets how angle values are interpreted for the transformation offset.
+
+<a href="/lib/VM.Models.Post.TransformationParameters.md" download="VM.Models.Post.TransformationParameters.md">Download this page as Markdown</a>

@@ -47,3 +47,5 @@ curves = output_reader.GetCurves(parameters)
 <Danger>
 `parameter` must contain valid target and path settings.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetCurves.md" download="VM.Post.API.OutputReader.OutputReader.GetCurves.md">Download this page as Markdown</a>

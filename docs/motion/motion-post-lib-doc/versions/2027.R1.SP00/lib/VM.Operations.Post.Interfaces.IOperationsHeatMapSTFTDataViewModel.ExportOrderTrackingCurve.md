@@ -66,3 +66,5 @@ stfts[0].STFT2DViewModel.ExportOrderTrackingCurve(curve_name)
 ### Remarks
 
 The operation intersects the curve with the heat-map grid, creates XZ and YZ curve data, and adds the resulting curves to a chart. If no matching curve or heat-map data exists, no curve is exported.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ExportOrderTrackingCurve.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ExportOrderTrackingCurve.md">Download this page as Markdown</a>

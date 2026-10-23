@@ -84,3 +84,5 @@ dynamic_analysis.SetAnimationFrame(selected_state_ids)
 Only the selected states become available to [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) playback and frame-dependent operations.
 
 If the selection produces fewer than two frames, animation playback is unavailable. States that are not present in the dynamic result do not produce valid loaded frames.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.SetAnimationFrame.md">Download this page as Markdown</a>

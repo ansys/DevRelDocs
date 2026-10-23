@@ -12,3 +12,5 @@ The state IDs passed to either overload can come from `GetStateIDArray()`, see [
 
 ## Exporting
 Write contour values for one entity or several entities with [`ExportContourResultToFile(string, FileMode, IList<int>, string, ContourMappingType, string, AnalysisResultType, FileFormatType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md) or [`ExportContourResultToFile(string, FileMode, IList<int>, IList<string>, ContourMappingType, string, AnalysisResultType, FileFormatType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md). The chosen file format decides how the values are written.
+
+<a href="/document/result-file-reader/feature/rfr_get_contour_data.md" download="rfr_get_contour_data.md">Download this page as Markdown</a>

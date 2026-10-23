@@ -19,3 +19,5 @@ FontStyle FontStyle { get; set; }
 ### Remarks
 
 Changing this value updates the style used to render numeric axis labels.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.FontStyle.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.FontStyle.md">Download this page as Markdown</a>

@@ -16,3 +16,5 @@ public bool IsEmpty { get; }
 ### Property Value
 
  bool
+
+<a href="/lib/VM.Point2D.IsEmpty.md" download="VM.Point2D.IsEmpty.md">Download this page as Markdown</a>

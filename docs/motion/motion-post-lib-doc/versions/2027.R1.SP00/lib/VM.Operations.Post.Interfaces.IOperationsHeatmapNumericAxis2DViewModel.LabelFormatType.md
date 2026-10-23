@@ -19,3 +19,5 @@ LabelFormatType LabelFormatType { get; set; }
 ### Remarks
 
 Changing this value updates the numeric label format and is effective when [`General`](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.General.md) is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.LabelFormatType.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.LabelFormatType.md">Download this page as Markdown</a>

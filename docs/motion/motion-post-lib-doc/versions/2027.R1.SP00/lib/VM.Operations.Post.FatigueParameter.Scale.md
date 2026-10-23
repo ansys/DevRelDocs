@@ -20,3 +20,5 @@ public double Scale { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses set [`Scale`](VM.Operations.Post.Interfaces.IOperationsFEBody.Scale.md) on the selected target body.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.Scale.md" download="VM.Operations.Post.FatigueParameter.Scale.md">Download this page as Markdown</a>

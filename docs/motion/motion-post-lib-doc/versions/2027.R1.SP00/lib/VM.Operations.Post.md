@@ -10,3 +10,5 @@
  [FatigueParameter](VM.Operations.Post.FatigueParameter.md)
 
 Represents the obsolete per-body fatigue parameter model.
+
+<a href="/lib/VM.Operations.Post.md" download="VM.Operations.Post.md">Download this page as Markdown</a>

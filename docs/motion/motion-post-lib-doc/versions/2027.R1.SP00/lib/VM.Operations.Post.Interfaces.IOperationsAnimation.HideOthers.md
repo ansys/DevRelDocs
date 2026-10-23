@@ -94,3 +94,5 @@ animation_view.HideOthers(entity.ID)
 ### Remarks
 
 Entities matching the supplied IDs remain visible, and other entities are hidden.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.HideOthers.md">Download this page as Markdown</a>

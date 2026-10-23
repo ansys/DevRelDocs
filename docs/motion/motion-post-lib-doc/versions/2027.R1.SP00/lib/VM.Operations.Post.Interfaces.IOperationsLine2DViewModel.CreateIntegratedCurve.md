@@ -113,3 +113,5 @@ chart.CreateIntegratedCurve(curves)
 
 This function performs integration on each curve specified in <code class="paramref">seriesViewModels</code> by calculating the cumulative sum of the Y values
 of each point in the curve.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateIntegratedCurve.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateIntegratedCurve.md">Download this page as Markdown</a>

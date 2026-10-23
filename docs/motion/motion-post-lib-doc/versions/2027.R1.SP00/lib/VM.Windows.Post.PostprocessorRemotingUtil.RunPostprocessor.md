@@ -29,3 +29,5 @@ A task whose result is <a href="https://learn.microsoft.com/dotnet/csharp/langua
 <Danger>
 The method returns before the Postprocessor is ready. Call `Wait()` on the returned task, or read its `Result`, before the next call. A call such as [ImportScriptFile\(string\)](VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md) fails while the remoting service is not ready.
 </Danger>
+
+<a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.RunPostprocessor.md" download="VM.Windows.Post.PostprocessorRemotingUtil.RunPostprocessor.md">Download this page as Markdown</a>

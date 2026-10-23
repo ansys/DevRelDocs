@@ -34,3 +34,5 @@ eigenvalue_analysis.TargetSamplingTime = target_sampling_time
 ### Remarks
 
 Changing this value applies the selected sampling-time data, rebuilds the related result state, disables previously active frequencies, removes contour data, clears the current selection, and refreshes the animation display.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.TargetSamplingTime.md" download="VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.TargetSamplingTime.md">Download this page as Markdown</a>

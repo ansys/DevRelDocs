@@ -15,3 +15,5 @@ string Component { get; }
 ### Property Value
 
  string
+
+<a href="/lib/VM.ViewModels.Post.ILineDataSeriesAxisViewModel.Component.md" download="VM.ViewModels.Post.ILineDataSeriesAxisViewModel.Component.md">Download this page as Markdown</a>

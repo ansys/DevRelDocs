@@ -38,3 +38,5 @@ bodies = output_reader.GetBodies(BodyType.RIGID)
 ### Remarks
 
 The method reads body entities from [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md) and omits dummy bodies unless `includeDuymmy` is `true`.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetBodies.md" download="VM.Post.API.OutputReader.OutputReader.GetBodies.md">Download this page as Markdown</a>

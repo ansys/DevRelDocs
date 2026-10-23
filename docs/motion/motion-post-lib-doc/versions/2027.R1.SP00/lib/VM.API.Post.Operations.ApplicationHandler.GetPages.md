@@ -27,3 +27,5 @@ pages = application_handler.GetPages()
 ### Remarks
 
 The returned array is a snapshot of the pages available when the method is called. Later page creation or removal does not change that array.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetPages.md" download="VM.API.Post.Operations.ApplicationHandler.GetPages.md">Download this page as Markdown</a>

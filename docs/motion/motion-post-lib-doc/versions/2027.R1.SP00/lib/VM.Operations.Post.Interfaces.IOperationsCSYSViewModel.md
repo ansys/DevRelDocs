@@ -87,3 +87,5 @@ Gets or sets the rotation-axis sequence selected from VM.Models.Post.RotationAxe
  [TransformationOffsetRotationType](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetRotationType.md\#VM\_Operations\_Post\_Interfaces\_IOperationsCSYSViewModel\_TransformationOffsetRotationType)
 
 Gets or sets how angular offsets are interpreted, using a value from [`RotationTypes`](VM.Models.Post.RotationTypes.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.md">Download this page as Markdown</a>

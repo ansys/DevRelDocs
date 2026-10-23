@@ -27,3 +27,5 @@ Entities whose category matches `entityType`.
 ### Remarks
 
 An empty sequence is returned when the opened result document has no entities in the selected category.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetEntities.md" download="VM.Post.API.OutputReader.OutputReader.GetEntities.md">Download this page as Markdown</a>

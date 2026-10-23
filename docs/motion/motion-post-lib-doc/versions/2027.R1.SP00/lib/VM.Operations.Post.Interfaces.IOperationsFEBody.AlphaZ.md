@@ -19,3 +19,5 @@ double AlphaZ { get; set; }
 ### Remarks
 
 Changing this value updates the combined deformation scale while preserving the X and Y components. The scale is used for dynamic and static analysis results.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFEBody.AlphaZ.md" download="VM.Operations.Post.Interfaces.IOperationsFEBody.AlphaZ.md">Download this page as Markdown</a>

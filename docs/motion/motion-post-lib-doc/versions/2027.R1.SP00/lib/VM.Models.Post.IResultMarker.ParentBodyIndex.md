@@ -15,3 +15,5 @@ int ParentBodyIndex { get; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.IResultMarker.ParentBodyIndex.md" download="VM.Models.Post.IResultMarker.ParentBodyIndex.md">Download this page as Markdown</a>

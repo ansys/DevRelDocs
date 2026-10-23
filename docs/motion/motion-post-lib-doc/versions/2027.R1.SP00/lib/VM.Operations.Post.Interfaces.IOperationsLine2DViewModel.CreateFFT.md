@@ -173,3 +173,5 @@ chart.CreateFFT(curves, fft_type, fft_window_type, scale_type, point_count, star
 
 This function performs FFT on each curve specified in <code class="paramref">seriesViewModels</code> within the provided start and end time range,
 using the specified FFT type, window type, scale type, and number of points.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateFFT.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateFFT.md">Download this page as Markdown</a>

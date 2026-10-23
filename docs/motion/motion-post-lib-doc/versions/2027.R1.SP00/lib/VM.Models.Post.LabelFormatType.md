@@ -12,7 +12,7 @@ public enum LabelFormatType
 
 ## Fields
 
-`Exponential` 
+`Exponential = 0` 
 
 Description: "E"
 
@@ -20,7 +20,7 @@ Formats values with scientific notation.
 
 
 
-`General` 
+`General = 2` 
 
 Description: "G"
 
@@ -28,10 +28,10 @@ Formats values with general numeric formatting.
 
 
 
-`Number` 
+`Number = 1` 
 
 Description: "N"
 
 Formats values as numbers.
 
-
+<a href="/lib/VM.Models.Post.LabelFormatType.md" download="VM.Models.Post.LabelFormatType.md">Download this page as Markdown</a>

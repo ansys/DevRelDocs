@@ -35,3 +35,5 @@ Gets `AssemblyInfo` to identify this entity as assembly information.
  [Type](VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.Type.md\#VM\_Models\_Post\_EntityTypes\_Assembly\_AssemblyInfo\_Type)
 
 Gets or sets the assembly category reported for this assembly information.
+
+<a href="/lib/VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.md" download="VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.md">Download this page as Markdown</a>

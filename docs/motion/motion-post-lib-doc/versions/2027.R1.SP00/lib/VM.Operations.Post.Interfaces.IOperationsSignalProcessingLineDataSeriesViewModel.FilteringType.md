@@ -19,3 +19,5 @@ FilteringType FilteringType { get; set; }
 ### Remarks
 
 Low-pass and high-pass modes use [`CutOffFrequency`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.CutOffFrequency.md). Band-pass and band-stop modes use [`LowCutOffFrequency`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.LowCutOffFrequency.md) and [`HighCutOffFrequency`](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.HighCutOffFrequency.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.FilteringType.md" download="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.FilteringType.md">Download this page as Markdown</a>

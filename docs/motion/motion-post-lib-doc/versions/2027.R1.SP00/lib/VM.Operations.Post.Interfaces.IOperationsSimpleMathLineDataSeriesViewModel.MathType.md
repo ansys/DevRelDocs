@@ -19,3 +19,5 @@ SimpleMathType MathType { get; set; }
 ### Remarks
 
 Changing this value recalculates the calculated curve. Source curves must have compatible domains, and their units are converted before the selected operation is applied.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.MathType.md" download="VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.MathType.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ bool IsVisibleTrajectory { get; set; }
 ### Remarks
 
 The trajectory shows the coordinate-system path across animation frames when enabled.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleTrajectory.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleTrajectory.md">Download this page as Markdown</a>

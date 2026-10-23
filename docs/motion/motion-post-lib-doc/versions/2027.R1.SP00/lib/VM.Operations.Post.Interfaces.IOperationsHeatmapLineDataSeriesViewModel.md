@@ -19,3 +19,5 @@ Gets or sets the harmonic slope used at the beginning of the generated curve.
  [Interval](VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.Interval.md\#VM\_Operations\_Post\_Interfaces\_IOperationsHeatmapLineDataSeriesViewModel\_Interval)
 
 Gets or sets the interval between heat-map samples or frequency positions.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.md">Download this page as Markdown</a>

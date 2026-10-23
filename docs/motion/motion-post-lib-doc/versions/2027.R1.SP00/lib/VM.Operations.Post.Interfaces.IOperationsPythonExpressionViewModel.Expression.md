@@ -19,3 +19,5 @@ string Expression { get; set; }
 ### Remarks
 
 The expression is evaluated over the parent result document's time values. An invalid entity reference or Python formula produces an empty curve and displays the evaluation error.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.Expression.md" download="VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.Expression.md">Download this page as Markdown</a>

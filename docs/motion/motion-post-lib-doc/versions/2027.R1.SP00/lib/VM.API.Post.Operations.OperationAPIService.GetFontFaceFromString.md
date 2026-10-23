@@ -39,3 +39,5 @@ chart.Legend.FontFace = OperationAPIService.GetFontFaceFromString(font_name)
 ### Remarks
 
 A value such as `Arial` creates a font family that can be assigned to a font-face property.
+
+<a href="/lib/VM.API.Post.Operations.OperationAPIService.GetFontFaceFromString.md" download="VM.API.Post.Operations.OperationAPIService.GetFontFaceFromString.md">Download this page as Markdown</a>

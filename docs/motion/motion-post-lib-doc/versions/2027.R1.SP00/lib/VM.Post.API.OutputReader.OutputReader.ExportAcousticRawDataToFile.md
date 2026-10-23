@@ -160,3 +160,5 @@ This method exports acoustic raw data to a specified file path using every node 
 <Danger>
 A Dynamics analysis result and a finite-element body identified by <code class="paramref">fullName</code> must be available.
 </Danger>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportAcousticRawDataToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportAcousticRawDataToFile.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ bool IsVisibleLabelBackground { get; set; }
 ### Remarks
 
 This setting has no visible effect while [`IsVisibleLabel`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleLabel.md) is `false`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleLabelBackground.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.IsVisibleLabelBackground.md">Download this page as Markdown</a>

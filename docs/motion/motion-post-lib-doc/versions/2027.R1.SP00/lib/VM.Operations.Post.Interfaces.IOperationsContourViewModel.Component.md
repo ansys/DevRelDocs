@@ -19,3 +19,5 @@ string Component { get; set; }
 ### Remarks
 
 Changing the component updates contour data and resets the range to automatic calculation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.Component.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.Component.md">Download this page as Markdown</a>

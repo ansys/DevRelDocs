@@ -21,3 +21,5 @@ public PlotDataType PlotDataType { get; set; }
 ### Remarks
 
 The selected source determines which time and result data are used when the paths are read.
+
+<a href="/lib/VM.Models.OutputReader.PlotParameters.PlotDataType.md" download="VM.Models.OutputReader.PlotParameters.PlotDataType.md">Download this page as Markdown</a>

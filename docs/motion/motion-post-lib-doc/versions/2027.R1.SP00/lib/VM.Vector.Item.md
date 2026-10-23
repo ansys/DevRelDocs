@@ -27,3 +27,5 @@ public double this[Coordinate enCoord] { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Vector.Item.md" download="VM.Vector.Item.md">Download this page as Markdown</a>

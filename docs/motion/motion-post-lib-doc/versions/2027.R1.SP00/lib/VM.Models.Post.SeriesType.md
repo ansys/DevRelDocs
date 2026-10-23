@@ -14,32 +14,32 @@ public enum SeriesType
 
 ## Fields
 
-`Bar` 
+`Bar = 1` 
 
 Draws each data point as a vertical bar.
 
 
 
-`Line` 
+`Line = 0` 
 
 Draws the curve as a line that connects the data points.
 
 
 
-`Point` 
+`Point = 2` 
 
 Draws only the point markers and hides the connecting line.
 
 
 
-`StackedColumn` 
+`StackedColumn = 3` 
 
 Draws the curves as bars stacked on top of each other at each X value.
 
 
 
-`StackedColumn100` 
+`StackedColumn100 = 4` 
 
 Draws the curves as stacked bars scaled so the stack at each X value fills the full height as a percentage.
 
-
+<a href="/lib/VM.Models.Post.SeriesType.md" download="VM.Models.Post.SeriesType.md">Download this page as Markdown</a>

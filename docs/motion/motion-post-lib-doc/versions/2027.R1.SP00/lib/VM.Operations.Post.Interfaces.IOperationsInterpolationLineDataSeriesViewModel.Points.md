@@ -19,3 +19,5 @@ int Points { get; set; }
 ### Remarks
 
 Changing this value refreshes the interpolated curve when the source curve is available. The calculation generates one more output point than this requested value.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.Points.md" download="VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.Points.md">Download this page as Markdown</a>

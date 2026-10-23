@@ -83,3 +83,5 @@ If playback is running, this method stops it before capturing. Otherwise, captur
 <Danger>
 Animation frames must be loaded before this method is called. If no frames are loaded, no output file is created.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsAnimation.RecordingAnimation.md" download="VM.Operations.Post.Interfaces.IOperationsAnimation.RecordingAnimation.md">Download this page as Markdown</a>

@@ -23,3 +23,5 @@ Gets or sets the numeric-file column used for curve X values.
  [TargetY](VM.ViewModels.Post.INumericParameter.TargetY.md\#VM\_ViewModels\_Post\_INumericParameter\_TargetY)
 
 Gets or sets the numeric-file column used for curve Y values.
+
+<a href="/lib/VM.ViewModels.Post.INumericParameter.md" download="VM.ViewModels.Post.INumericParameter.md">Download this page as Markdown</a>

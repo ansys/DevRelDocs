@@ -30,3 +30,5 @@ eigenvalue_analysis = document.GetAnalysisResultViewModel(analysis_result_type)
 # Read available sampling times.
 sampling_times = eigenvalue_analysis.GetSamplingTimes()
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetSamplingTimes.md" download="VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.GetSamplingTimes.md">Download this page as Markdown</a>

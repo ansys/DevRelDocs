@@ -19,3 +19,5 @@ double ScaleY { get; set; }
 ### Remarks
 
 When the transform type is `LinearScale`, changing this value recalculates the curve with the new Y scale.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.ScaleY.md" download="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.ScaleY.md">Download this page as Markdown</a>

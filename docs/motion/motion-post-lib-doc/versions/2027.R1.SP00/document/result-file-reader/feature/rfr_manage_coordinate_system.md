@@ -14,3 +14,5 @@ Export marker values for chosen states with [`ExportMarkerToFile(string, int[], 
 
 ## Removing
 Remove a coordinate-system marker by name with [`RemoveCoordinateSystem(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.RemoveCoordinateSystem.md). The built-in `Inertia` coordinate system is preserved.
+
+<a href="/document/result-file-reader/feature/rfr_manage_coordinate_system.md" download="rfr_manage_coordinate_system.md">Download this page as Markdown</a>

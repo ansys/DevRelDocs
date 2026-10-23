@@ -20,3 +20,5 @@ uint[] ElementIndexes { get; }
 
 The element indexes represent the finite elements that are linked to this property.
 These indexes are used to identify specific elements in the model.
+
+<a href="/lib/VM.Models.Post.IFEProperty.ElementIndexes.md" download="VM.Models.Post.IFEProperty.ElementIndexes.md">Download this page as Markdown</a>

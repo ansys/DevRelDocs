@@ -39,3 +39,5 @@ Each state array contains position, orientation, velocity, angular velocity, acc
 <Note>
 If `name` does not identify a [`GeneralMarker`](VM.Models.Post.GeneralMarker.md) or `ResultMarker`, this method returns `null`.
 </Note>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetMarkerInfo.md" download="VM.Post.API.OutputReader.OutputReader.GetMarkerInfo.md">Download this page as Markdown</a>

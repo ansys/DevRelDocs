@@ -19,3 +19,5 @@ string FullName { get; set; }
 ### Remarks
 
 Changing this value changes the view name used by view operations.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.FullName.md" download="VM.Operations.Post.Interfaces.IView.FullName.md">Download this page as Markdown</a>

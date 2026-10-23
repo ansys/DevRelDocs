@@ -118,3 +118,5 @@ Created [`IOperationsLineDataSeriesAxisViewModel`](VM.Operations.Post.Interfaces
 ### Remarks
 
 This method is obsolete. Use `CreateLineDataSeries(string, string, string, string, string)` instead.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md">Download this page as Markdown</a>

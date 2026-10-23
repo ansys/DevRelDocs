@@ -34,3 +34,5 @@ state_ids = analysis_result.GetStateIDArray()
 Each state ID corresponds by array index to the time value at the same index in [GetReferenceTimeArray\(\)](VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetReferenceTimeArray.md).
 
 The returned state IDs reflect every state stored in the analysis result, not only the animation frames currently loaded for playback.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetStateIDArray.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetStateIDArray.md">Download this page as Markdown</a>

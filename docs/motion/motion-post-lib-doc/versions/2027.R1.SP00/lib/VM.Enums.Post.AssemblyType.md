@@ -12,26 +12,26 @@ public enum AssemblyType
 
 ## Fields
 
-`ASSEMBLY_PART` 
+`ASSEMBLY_PART = 1` 
 
 Identifies an assembly part.
 
 
 
-`ASSEMBLY_SUBSYSTEM` 
+`ASSEMBLY_SUBSYSTEM = 0` 
 
 Identifies an assembly subsystem.
 
 
 
-`All` 
+`All = 3` 
 
 Includes every assembly category.
 
 
 
-`Mechanical_Rigid_Part` 
+`Mechanical_Rigid_Part = 2` 
 
 Identifies a mechanical rigid part.
 
-
+<a href="/lib/VM.Enums.Post.AssemblyType.md" download="VM.Enums.Post.AssemblyType.md">Download this page as Markdown</a>

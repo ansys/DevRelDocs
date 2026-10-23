@@ -19,3 +19,5 @@ bool IsAuto { get; set; }
 ### Remarks
 
 When this value is `false`, [`ScaleInterval`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleInterval.md), [`ScaleMin`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleMin.md), and [`ScaleMax`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.ScaleMax.md) provide the manual interval and range settings for the axis.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto.md">Download this page as Markdown</a>

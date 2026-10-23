@@ -19,3 +19,5 @@ int SelectedPoints { get; set; }
 ### Remarks
 
 Changing this value refreshes the generated curve. The value controls how many samples are used to interpolate the selected source interval and how many frequency bins are produced from the FFT calculation.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.SelectedPoints.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.SelectedPoints.md">Download this page as Markdown</a>

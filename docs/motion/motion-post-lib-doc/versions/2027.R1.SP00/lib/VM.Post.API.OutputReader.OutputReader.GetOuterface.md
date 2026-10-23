@@ -41,3 +41,5 @@ Each group of three consecutive values identifies one visible triangle in the ou
  ArgumentException
 
 Thrown when `target` does not identify a body.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetOuterface.md" download="VM.Post.API.OutputReader.OutputReader.GetOuterface.md">Download this page as Markdown</a>

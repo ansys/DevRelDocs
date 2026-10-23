@@ -102,3 +102,5 @@ This method searches for and returns all curves whose names contain the specifie
 <Note>
 If no curve name contains the specified substring, an empty collection is returned.
 </Note>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurves.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurves.md">Download this page as Markdown</a>

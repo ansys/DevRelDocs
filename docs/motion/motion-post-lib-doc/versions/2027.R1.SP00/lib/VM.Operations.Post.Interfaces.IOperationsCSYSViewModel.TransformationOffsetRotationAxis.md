@@ -19,3 +19,5 @@ RotationAxes TransformationOffsetRotationAxis { get; set; }
 ### Remarks
 
 This value determines the order of axes used to interpret [`TransformationOffsetAngle`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetAngle.md).
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetRotationAxis.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetRotationAxis.md">Download this page as Markdown</a>

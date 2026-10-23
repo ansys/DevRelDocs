@@ -19,3 +19,5 @@ ExtremalValueType MinMaxTargetType { get; set; }
 ### Remarks
 
 Changing this value updates the animation view so minimum and maximum annotations are calculated for the selected contour scope.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.MinMaxTargetType.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.MinMaxTargetType.md">Download this page as Markdown</a>

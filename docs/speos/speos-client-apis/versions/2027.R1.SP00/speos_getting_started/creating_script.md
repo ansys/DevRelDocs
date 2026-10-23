@@ -4,22 +4,22 @@ This page shows how to create a script group in Speos. A script group has to be 
 
 To create a Script Group:
 
-1.  Access the **Groups** panel.
-2.  Right-click in the panel and click **Create Script Group**.
+1. Access the **Groups** panel.
+2. Right-click in the panel and click **Create Script Group**.
 
     *The Group appears in the panel under the Scripts folder.*
 
     **Note:** Scripts Groups can be created on the root part or on the active part level.
 
-    ![](./../images/186802.png)
+    ![image_creating_script_group_button](./../images/186802.png)
 
-3.  Right-click the **Group** and click **Edit Script** top open the built-in script editor.
+3. Right-click the **Group** and click **Edit Script** top open the built-in script editor.
 
-    ![](./../images/186803.png)
+    ![image_edit_script_button](./../images/186803.png)
 
-4.  From the **Script Editor**, if you want to use the new SpaceClaim methods available, select the latest SpaceClaim API version available.
+4. From the **Script Editor**, if you want to use the new SpaceClaim methods available, select the latest SpaceClaim API version available.
 
-    ![](./../images/UG_ASP_images_(interface)_API_V20_Beta.png)
+    ![image_api_version_button](./../images/UG_ASP_images_(interface)_API_V20_Beta.png)
 
     **Note:** Do not confuse the SpaceClaim API version and the Speos API version. Unlike the SpaceClaim API version, the Speos API version is always the latest version available.
 

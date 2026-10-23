@@ -16,3 +16,5 @@ public RotationAxes RotationAxis { get; set; }
 ### Property Value
 
  [RotationAxes](VM.RotationAxes.md)
+
+<a href="/lib/VM.Models.Post.TransformationParameters.RotationAxis.md" download="VM.Models.Post.TransformationParameters.RotationAxis.md">Download this page as Markdown</a>

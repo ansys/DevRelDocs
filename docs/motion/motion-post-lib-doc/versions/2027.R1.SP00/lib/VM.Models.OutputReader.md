@@ -12,3 +12,5 @@ Defines the result data source, target, paths, and coordinate system used to rea
  [IVectorDisplayAnimationData](VM.Models.OutputReader.IVectorDisplayAnimationData.md)
 
 Provides position, vector, scalar, and label data for each frame of a vector display result.
+
+<a href="/lib/VM.Models.OutputReader.md" download="VM.Models.OutputReader.md">Download this page as Markdown</a>

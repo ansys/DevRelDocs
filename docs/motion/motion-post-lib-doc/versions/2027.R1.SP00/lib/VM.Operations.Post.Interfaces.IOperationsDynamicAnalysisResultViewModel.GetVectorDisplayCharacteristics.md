@@ -37,3 +37,5 @@ dynamic_analysis = document.GetAnalysisResultViewModel(analysis_result_type)
 entity_name = "TJ_01"
 characteristics = dynamic_analysis.GetVectorDisplayCharacteristics(entity_name)
 ```
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplayCharacteristics.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.GetVectorDisplayCharacteristics.md">Download this page as Markdown</a>

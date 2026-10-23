@@ -15,3 +15,5 @@ double LargeExtentOfBoundingBox { get; set; }
 ### Property Value
 
  double
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.LargeExtentOfBoundingBox.md" download="VM.Models.Post.IVectorDisplayAnimationBase.LargeExtentOfBoundingBox.md">Download this page as Markdown</a>

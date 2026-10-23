@@ -15,3 +15,5 @@ int SelectedPoints { get; set; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.SelectedPoints.md" download="VM.Models.Post.ISTFTParameters.SelectedPoints.md">Download this page as Markdown</a>

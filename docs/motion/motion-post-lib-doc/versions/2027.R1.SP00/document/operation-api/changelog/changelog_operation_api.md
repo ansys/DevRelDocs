@@ -61,3 +61,5 @@ This page lists the changes in 2027 R1.
 ## Removed
 - Removed the `ExportAllDataSeries` method from [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md). Use [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md) instead.
 - Removed the `ExportAllDataSeries` method from [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md). Use [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md) instead.
+
+<a href="/document/operation-api/changelog/changelog_operation_api.md" download="changelog_operation_api.md">Download this page as Markdown</a>

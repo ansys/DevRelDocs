@@ -19,3 +19,5 @@ string FullName { get; set; }
 ### Remarks
 
 Changing the name changes the identifier used to refer to this contour in the analysis result.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.FullName.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.FullName.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ bool Default { get; set; }
 ### Remarks
 
 When this value is `false`, [`Decimal`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Decimal.md) and [`LabelFormatType`](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.LabelFormatType.md) provide the custom label format. When it is `true`, the axis uses its default label formatting.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Default.md" download="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Default.md">Download this page as Markdown</a>

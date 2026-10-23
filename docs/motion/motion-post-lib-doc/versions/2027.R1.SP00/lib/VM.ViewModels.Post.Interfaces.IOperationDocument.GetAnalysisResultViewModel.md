@@ -69,3 +69,5 @@ document = application_handler.GetDocument(RESULT_FILE_PATH)
 analysis_result_type = AnalysisResultType.Dynamics
 analysis_result = document.GetAnalysisResultViewModel(analysis_result_type)
 ```
+
+<a href="/lib/VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md" download="VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md">Download this page as Markdown</a>

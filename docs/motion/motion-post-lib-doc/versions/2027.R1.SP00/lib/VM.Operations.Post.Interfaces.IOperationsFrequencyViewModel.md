@@ -15,3 +15,5 @@ public interface IOperationsFrequencyViewModel
  [Enable](VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.Enable.md\#VM\_Operations\_Post\_Interfaces\_IOperationsFrequencyViewModel\_Enable)
 
 Gets or sets whether the frequency is active for the eigenvalue animation. `true` loads its mode-shape animation and `false` restores the initialized animation state.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.md">Download this page as Markdown</a>

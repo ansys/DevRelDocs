@@ -23,3 +23,5 @@ Full name from [`FullName`](VM.Operations.Post.Interfaces.IOperationsVectorDispl
 When a matching vector display exists, it is removed from the dynamic result and the animation display is updated.
 
 If no vector display matches `name`, the dynamic result is unchanged.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveVectorDisplay.md" download="VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.RemoveVectorDisplay.md">Download this page as Markdown</a>

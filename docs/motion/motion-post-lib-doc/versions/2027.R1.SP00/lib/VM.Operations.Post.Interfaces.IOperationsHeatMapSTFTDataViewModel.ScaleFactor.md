@@ -19,3 +19,5 @@ double ScaleFactor { get; set; }
 ### Remarks
 
 Changing this value refreshes the heat map and multiplies the X coordinates of the generated heat-map data. A value greater than zero is required when the STFT view is updating.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ScaleFactor.md" download="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.ScaleFactor.md">Download this page as Markdown</a>

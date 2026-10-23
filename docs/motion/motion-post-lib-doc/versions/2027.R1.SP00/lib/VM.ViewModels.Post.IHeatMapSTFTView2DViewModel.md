@@ -12,3 +12,4 @@ This view shows STFT values on a flat time-frequency map and is used when [`IsWa
 public interface IHeatMapSTFTView2DViewModel : IViewModel, IHasGuid, ISTFTParameters
 ```
 
+<a href="/lib/VM.ViewModels.Post.IHeatMapSTFTView2DViewModel.md" download="VM.ViewModels.Post.IHeatMapSTFTView2DViewModel.md">Download this page as Markdown</a>

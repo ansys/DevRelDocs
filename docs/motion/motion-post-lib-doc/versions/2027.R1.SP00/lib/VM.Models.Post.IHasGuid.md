@@ -15,3 +15,5 @@ public interface IHasGuid
  [ID](VM.Models.Post.IHasGuid.ID.md\#VM\_Models\_Post\_IHasGuid\_ID)
 
 Gets the globally unique identifier of the object.
+
+<a href="/lib/VM.Models.Post.IHasGuid.md" download="VM.Models.Post.IHasGuid.md">Download this page as Markdown</a>

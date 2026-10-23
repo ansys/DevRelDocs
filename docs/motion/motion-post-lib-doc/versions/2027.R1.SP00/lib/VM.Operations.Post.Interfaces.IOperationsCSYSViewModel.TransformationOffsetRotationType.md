@@ -19,3 +19,5 @@ RotationTypes TransformationOffsetRotationType { get; set; }
 ### Remarks
 
 This value determines how [`TransformationOffsetAngle`](VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetAngle.md) is applied before the coordinate system is rendered.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetRotationType.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetRotationType.md">Download this page as Markdown</a>

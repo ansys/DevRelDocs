@@ -19,3 +19,5 @@ double Max { get; set; }
 ### Remarks
 
 Changing this value updates the scalar range only when manual range mode is active.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.Max.md" download="VM.Operations.Post.Interfaces.IOperationsContourViewModel.Max.md">Download this page as Markdown</a>

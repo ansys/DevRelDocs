@@ -28,3 +28,5 @@ Specifies which result data source supplies values for plotting and curve genera
  [StressStrainCombinationType](VM.Models.StressStrainCombinationType.md)
 
 Specifies how stress or strain components are combined for fatigue result calculations.
+
+<a href="/lib/VM.Models.md" download="VM.Models.md">Download this page as Markdown</a>

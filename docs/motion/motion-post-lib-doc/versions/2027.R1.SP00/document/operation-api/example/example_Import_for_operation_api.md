@@ -2,10 +2,10 @@
 This example covers topics related to importing data.
 - For downloadable Example scripts, see [Introduction - Downloads](../../../index.md#downloads).
 
-## Numeric Import
+## Import Numeric Data
 Here is an example of importing curve results from a file.
 ```python
-# Example_OperationAPI_NumericImport.py
+# Example_OperationAPI_ImportNumeric.py
 import sys
 
 # OPERATION_API_MODULE_PATH : path to the folder containing OperationAPI.py
@@ -37,41 +37,6 @@ page = application_handler.GetActivePage()
 chart_name = "Chart"
 chart_view = page.CreateChart(chart_name)
 
-# Set array about combination of characteristic and component
-curve_paths = List[str]()
-# characteristic_path_magnitude : characteristic/component path of the curve to add, in "Characteristic/Component" format
-characteristic_path_magnitude = r'Displacement/Magnitude'
-curve_paths.Add(characteristic_path_magnitude)
-# characteristic_path_z : characteristic/component path of the curve to add, in "Characteristic/Component" format
-characteristic_path_z = r'Displacement/Z'
-curve_paths.Add(characteristic_path_z)
-
-# Create a PlotParameters object to specify the parameters for the plot.
-# Set the Entity to Plot.
-# The Target is the name of the target for which you want to retrieve the curves.
-# Set the paths for the curves you want to retrieve.
-# This is where you specify the characteristics and components you want to plot.
-parameters = PlotParameters()
-parameters.Paths = curve_paths
-entity_name = "Crank"
-parameters.Target = entity_name
-
-# Add Curves (FilePath, Curve Parameter)
-# FilePath : The path of the result to access.
-# parameters : The class used as a parameter of the AddCurve function.
-# The instance of the curve.
-curves = chart_view.AddCurves(RESULT_FILE_PATH, parameters)
-
-index = 0
-for curve in curves :
-    curve.SeriesName = "NameChange_{0}".format(index)
-    index = index + 1
-
-# OUTPUT_DIR : path to the folder where exported files are written
-# CURVE_DATA_FILENAME : output filename for the exported curve data
-file_path = Path.Combine(OUTPUT_DIR, CURVE_DATA_FILENAME)
-chart_view.ExportAllCurves(file_path)
-
 # Importing Numeric Data
 numeric_parameters = List[INumericParameter](2)
 
@@ -83,12 +48,12 @@ numeric_parameters = List[INumericParameter](2)
 parameter = NumericParameter()
 parameter.Name = r'OrderTrackingCurve'
 parameter.TargetX = r'Time(sec)'
-parameter.TargetY = r'NameChange_1'
+parameter.TargetY = r'Value'
 numeric_parameters.Add(parameter)
 
-# file_path : The path to the file containing the numeric data.
+# NUMERIC_INPUT_FILENAME : The path to the file containing the numeric data.
 # parameters : The list of numeric parameters that define how to interpret the data in the file.
-chart_view.ImportNumeric(file_path, numeric_parameters)
+chart_view.ImportNumeric(NUMERIC_INPUT_FILENAME, numeric_parameters)
 
 # Close the Pages
 page.Close()
@@ -96,3 +61,5 @@ page.Close()
 # Close the Document
 application_handler.CloseDocument(RESULT_FILE_PATH)
 ```
+
+<a href="/document/operation-api/example/example_Import_for_operation_api.md" download="example_Import_for_operation_api.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ public IList<int> States { get; }
 ### Property Value
 
  IList<int\>
+
+<a href="/lib/VM.Models.Post.ChartMathLib.FFTParameters.States.md" download="VM.Models.Post.ChartMathLib.FFTParameters.States.md">Download this page as Markdown</a>

@@ -15,3 +15,5 @@ int StateID { get; set; }
 ### Property Value
 
  int
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.StateID.md" download="VM.Models.Post.IVectorDisplayAnimationBase.StateID.md">Download this page as Markdown</a>

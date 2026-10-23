@@ -40,3 +40,5 @@ components = output_reader.GetPlotComponents(entity_name, characteristic_name)
 ### Remarks
 
 The entity and component query are performed with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md). The characteristic name is passed to the result document without changing it.
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetPlotComponents.md" download="VM.Post.API.OutputReader.OutputReader.GetPlotComponents.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ string FullName { get; set; }
 ### Remarks
 
 Changing the name changes the identifier used to find the vector display in the analysis result.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.FullName.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.FullName.md">Download this page as Markdown</a>

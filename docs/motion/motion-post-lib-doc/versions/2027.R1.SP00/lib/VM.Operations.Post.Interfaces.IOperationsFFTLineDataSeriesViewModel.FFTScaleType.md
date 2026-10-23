@@ -19,3 +19,5 @@ ScaleType FFTScaleType { get; set; }
 ### Remarks
 
 Changing this value refreshes the generated curve. For magnitude results, the original, logarithmic, or decibel scale changes the Y values. When [`FFTType`](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTType.md) selects phase, the result is expressed in degrees and logarithmic or decibel scaling is not applied.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTScaleType.md" download="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.FFTScaleType.md">Download this page as Markdown</a>

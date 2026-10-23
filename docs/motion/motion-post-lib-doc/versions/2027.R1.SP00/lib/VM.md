@@ -20,3 +20,5 @@ Represents an ordered pair of double x- and y-coordinates that defines a point i
  [RotationAxes](VM.RotationAxes.md)
 
 Specifies type for rotation axes.
+
+<a href="/lib/VM.md" download="VM.md">Download this page as Markdown</a>

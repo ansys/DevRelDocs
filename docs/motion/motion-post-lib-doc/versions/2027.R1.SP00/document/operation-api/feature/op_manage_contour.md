@@ -25,3 +25,5 @@ Change how the contour looks and behaves with these properties:
 - Blend colors smoothly, or use a logarithmic scale, with [`Continuous`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.Continuous.md) and [`LogScale`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LogScale.md).
 - Choose which extreme values are shown with [`MinMaxTargetType`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.MinMaxTargetType.md).
 - Show or hide the legend, and set its color and text color, with [`LegendVisibility`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendVisibility.md), [`LegendColorScheme`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendColorScheme.md), and [`LegendFontColor`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendFontColor.md).
+
+<a href="/document/operation-api/feature/op_manage_contour.md" download="op_manage_contour.md">Download this page as Markdown</a>

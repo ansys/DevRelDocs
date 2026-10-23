@@ -46,3 +46,5 @@ vector_display.SetCharacteristic(new_characteristic_name)
 ### Remarks
 
 If `characteristic` identifies a valid candidate, the vector display is replaced when the candidate requires a different display type. An invalid name leaves the current characteristic unchanged.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.SetCharacteristic.md" download="VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.SetCharacteristic.md">Download this page as Markdown</a>

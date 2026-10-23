@@ -50,3 +50,5 @@ where the current view will be docked in relation to the target view.
 <Danger>
 The <code class="paramref">target</code> must identify a valid [`IView`](VM.Operations.Post.Interfaces.IView.md) in the same [`IPage`](VM.Operations.Post.Interfaces.IPage.md) as the current view. An invalid target cannot receive the docking request.
 </Danger>
+
+<a href="/lib/VM.Operations.Post.Interfaces.IView.DockTo.md" download="VM.Operations.Post.Interfaces.IView.DockTo.md">Download this page as Markdown</a>

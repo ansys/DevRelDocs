@@ -19,3 +19,5 @@ string DocumentFilePath { get; set; }
 ### Remarks
 
 [RunFatigueAnalysis\(IDurabilityAnalysisParameter\)](VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) uses this path to find the active [`IOperationsAnimation`](VM.Operations.Post.Interfaces.IOperationsAnimation.md) for the analysis. The path must match a document already imported through [AddDocument\(IList<string\>\)](VM.API.Post.Operations.ApplicationHandler.AddDocument.md).
+
+<a href="/lib/VM.ViewModels.Post.IDurabilityAnalysisParameter.DocumentFilePath.md" download="VM.ViewModels.Post.IDurabilityAnalysisParameter.DocumentFilePath.md">Download this page as Markdown</a>

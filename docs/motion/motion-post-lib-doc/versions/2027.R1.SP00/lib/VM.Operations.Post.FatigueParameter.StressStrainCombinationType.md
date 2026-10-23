@@ -20,3 +20,5 @@ public StressStrainCombinationType StressStrainCombinationType { get; set; }
 ### Remarks
 
 This property is obsolete. New analyses set [`StressStrainCombination`](VM.Operations.Post.Interfaces.IOperationsFEBody.StressStrainCombination.md) on the selected target body.
+
+<a href="/lib/VM.Operations.Post.FatigueParameter.StressStrainCombinationType.md" download="VM.Operations.Post.FatigueParameter.StressStrainCombinationType.md">Download this page as Markdown</a>

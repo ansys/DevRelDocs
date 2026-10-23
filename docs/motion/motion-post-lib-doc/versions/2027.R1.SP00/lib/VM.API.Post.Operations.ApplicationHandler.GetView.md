@@ -53,3 +53,5 @@ The matching [`IView`](VM.Operations.Post.Interfaces.IView.md), or <code>null</c
 ### Remarks
 
 This method is obsolete. Use [`GetView(string)`](VM.Operations.Post.Interfaces.IPage.GetView.md) instead.
+
+<a href="/lib/VM.API.Post.Operations.ApplicationHandler.GetView.md" download="VM.API.Post.Operations.ApplicationHandler.GetView.md">Download this page as Markdown</a>

@@ -28,3 +28,5 @@ frequencies = output_reader.GetFrequenciesInfoArray()
 ### Remarks
 
 Each tuple keeps its values in this order: path, time, and frequency array. The list is empty when no eigenvalue frequency information is available with [`OutputReader`](VM.Post.API.OutputReader.OutputReader.md).
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetFrequenciesInfoArray.md" download="VM.Post.API.OutputReader.OutputReader.GetFrequenciesInfoArray.md">Download this page as Markdown</a>

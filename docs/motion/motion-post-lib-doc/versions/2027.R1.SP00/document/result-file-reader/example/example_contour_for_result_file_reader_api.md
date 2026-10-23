@@ -114,3 +114,5 @@ with open(export_result_file_path, 'rb') as file:
 # Close
 output_reader.Close()
 ```
+
+<a href="/document/result-file-reader/example/example_contour_for_result_file_reader_api.md" download="example_contour_for_result_file_reader_api.md">Download this page as Markdown</a>

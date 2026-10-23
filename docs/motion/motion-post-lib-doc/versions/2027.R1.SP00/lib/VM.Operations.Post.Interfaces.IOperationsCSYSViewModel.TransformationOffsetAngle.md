@@ -19,3 +19,5 @@ Vector TransformationOffsetAngle { get; set; }
 ### Remarks
 
 Changing this value changes the coordinate-system orientation relative to the parent frame at each animation frame.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetAngle.md" download="VM.Operations.Post.Interfaces.IOperationsCSYSViewModel.TransformationOffsetAngle.md">Download this page as Markdown</a>

@@ -54,3 +54,5 @@ curve = chart.GetCurveByID(curve_id)
 ### Remarks
 
 This method searches for and returns the curve with the given ID from the chart. If no curve with the specified ID is found, it returns `null`.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurveByID.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.GetCurveByID.md">Download this page as Markdown</a>

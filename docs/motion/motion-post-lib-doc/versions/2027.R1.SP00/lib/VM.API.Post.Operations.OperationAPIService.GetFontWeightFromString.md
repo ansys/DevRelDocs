@@ -39,3 +39,5 @@ chart.Legend.FontWeight = OperationAPIService.GetFontWeightFromString(font_weigh
 ### Remarks
 
 The method returns `FontWeights.Normal` for any value other than `Bold`, including `Normal` and unsupported names.
+
+<a href="/lib/VM.API.Post.Operations.OperationAPIService.GetFontWeightFromString.md" download="VM.API.Post.Operations.OperationAPIService.GetFontWeightFromString.md">Download this page as Markdown</a>

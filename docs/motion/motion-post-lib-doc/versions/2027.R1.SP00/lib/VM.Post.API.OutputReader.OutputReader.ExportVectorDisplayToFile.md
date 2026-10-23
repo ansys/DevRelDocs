@@ -223,3 +223,5 @@ A Dynamics analysis result must be available.
 <Note>
 If the target entity cannot be resolved as an [`IVectorDisplayable`](VM.Models.Post.IVectorDisplayable.md), this overload performs no export.
 </Note>
+
+<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md">Download this page as Markdown</a>

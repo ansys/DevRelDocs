@@ -19,3 +19,5 @@ ChartAxisType TrackingOption { get; set; }
 ### Remarks
 
 When [`TrackingCurve`](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingCurve.md) is enabled, `Single` tracks the nearest curve and `Multiple` tracks all applicable curves at the hovered position.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingOption.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingOption.md">Download this page as Markdown</a>

@@ -19,3 +19,5 @@ double Interval { get; set; }
 ### Remarks
 
 Changing this value changes the grid spacing used when the heat-map curve is intersected or generated, including order-tracking export.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.Interval.md" download="VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.Interval.md">Download this page as Markdown</a>

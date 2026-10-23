@@ -15,3 +15,5 @@ uint NodesCount { get; }
 ### Property Value
 
  uint
+
+<a href="/lib/VM.Models.Post.IDataPart.NodesCount.md" download="VM.Models.Post.IDataPart.NodesCount.md">Download this page as Markdown</a>

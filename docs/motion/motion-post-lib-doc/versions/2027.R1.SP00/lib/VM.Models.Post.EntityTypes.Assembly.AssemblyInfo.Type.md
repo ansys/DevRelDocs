@@ -15,3 +15,5 @@ public AssemblyType Type { get; set; }
 ### Property Value
 
  [AssemblyType](VM.Enums.Post.AssemblyType.md)
+
+<a href="/lib/VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.Type.md" download="VM.Models.Post.EntityTypes.Assembly.AssemblyInfo.Type.md">Download this page as Markdown</a>

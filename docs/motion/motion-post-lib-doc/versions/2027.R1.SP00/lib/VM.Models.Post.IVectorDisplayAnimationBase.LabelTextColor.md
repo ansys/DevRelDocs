@@ -15,3 +15,5 @@ Color LabelTextColor { get; set; }
 ### Property Value
 
  Color
+
+<a href="/lib/VM.Models.Post.IVectorDisplayAnimationBase.LabelTextColor.md" download="VM.Models.Post.IVectorDisplayAnimationBase.LabelTextColor.md">Download this page as Markdown</a>

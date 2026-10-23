@@ -15,3 +15,5 @@ STFTScaleType SelectedScaleType { get; set; }
 ### Property Value
 
  [STFTScaleType](VM.Models.Post.STFTScaleType.md)
+
+<a href="/lib/VM.Models.Post.ISTFTParameters.SelectedScaleType.md" download="VM.Models.Post.ISTFTParameters.SelectedScaleType.md">Download this page as Markdown</a>

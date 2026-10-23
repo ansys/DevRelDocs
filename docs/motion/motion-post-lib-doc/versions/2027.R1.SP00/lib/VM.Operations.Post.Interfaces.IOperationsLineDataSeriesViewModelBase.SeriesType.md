@@ -19,3 +19,5 @@ SeriesType SeriesType { get; set; }
 ### Remarks
 
 Changing this value changes whether the curve is rendered as a line, bars, points, or stacked columns.
+
+<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesType.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.SeriesType.md">Download this page as Markdown</a>
