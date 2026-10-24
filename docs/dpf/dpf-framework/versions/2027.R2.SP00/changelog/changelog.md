@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-22).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-23).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -11,6 +11,7 @@ The following table shows which components have updates in each category.
 | femutils | [1 item](#Features_femutils) |[1 item](#Fixes_femutils) |
 | mapdl | [1 item](#Features_mapdl) | |
 | mesh |  |[1 item](#Fixes_mesh) |
+| misc |  |[1 item](#Fixes_misc) |
 
 
 ## femutils
@@ -47,6 +48,18 @@ The following table shows which components have updates in each category.
   > 
   >
   > The combined field now uses both inputs and keeps the lower value at each matching location.
+  >
+  > 
+  >
+  > 
+## misc
+
+### <a id="Fixes_misc"></a> Fixes
+
+- Remove agent paths from generated API directory names:
+  > 
+  >
+  > Normalize generated C++ API directory names so they stay stable across different build environments.
   >
   > 
   >
