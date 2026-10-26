@@ -11,6 +11,10 @@ The content is organized into the following sections:
 
 Whether you are setting up DPF for the first time or looking for in-depth operator details, this guide provides the resources needed to use DPF effectively in your workflows.
 
+## What's New with this version
+
+For release highlights and the complete change history, see [What's New with this version](changelog/index.md).
+
 ## Overview of DPF
 
 The Ansys Data Processing Framework (DPF) provides numerical simulation users and engineers with a toolbox for accessing and transforming simulation data.
