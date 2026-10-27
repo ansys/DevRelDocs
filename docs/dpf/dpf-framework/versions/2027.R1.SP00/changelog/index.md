@@ -1,8 +1,8 @@
-# DPF 2027 R1 changelog
+# DPF 2027 R1 release notes
 
-## What's New with this version
+## Release highlights
 
-Read the [release highlights](whats-new.md), summarized from the new features in this release.
+The [Release notes](release-notes.md) summarize this version's new-feature highlights.
 
 ## Full changelog
 

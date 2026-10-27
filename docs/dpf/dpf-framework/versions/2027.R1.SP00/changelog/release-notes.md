@@ -1,11 +1,11 @@
-# What's new in DPF 2027 R1
+# DPF 2027 R1 release notes
 
-What's New summarizes this release's highlights, based on new features in the [full changelog](changelog.md). The full changelog also lists bug fixes and new, changed, and removed operators.
+This page summarizes the release highlights, based on the new features in the changelog. Bug fixes and lists of new, changed, and removed operators are in the [full changelog](changelog.md).
 
 ## Client APIs
 
 ### PyDPF-Core
-- See the [PyDPF-Core 0.16.3 release notes](https://github.com/ansys/pydpf-core/releases/tag/v0.16.3).
+- The PyDPF-Core version used by DPF Python plugins advances from 0.15.1 in the previous release to 0.16.3. See the [PyDPF-Core 0.16.3 release notes](https://github.com/ansys/pydpf-core/releases/tag/v0.16.3).
 
 ### HGP C++
 - `StringField::dataPointer()` exposes entity offsets; `DpfVector` iterators support random access.

@@ -3,8 +3,8 @@
 - name: Changelog
   href: changelog/index.md
   items:
-  - name: What's New with this version
-    href: changelog/whats-new.md
+  - name: Release notes
+    href: changelog/release-notes.md
   - name: Full changelog
     href: changelog/changelog.md
 - name: Getting started
