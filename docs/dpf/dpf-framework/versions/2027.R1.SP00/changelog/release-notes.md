@@ -30,9 +30,6 @@ This page summarizes the release highlights, based on the new features in the ch
 - Read the `binout` `ssstat` branch; `nodout` operators accept mesh-scoping inputs.
 - LSDYNA fields containers receive result names, and d3plot titles propagate to result information.
 
-### CFF and CFX results
-No new CFF/CFX result-reading feature is highlighted in this summary.
-
 ## Framework
 - DPF version reporting uses Ansys calendar versioning and exposes full-version endpoints.
 - Scoping iterators support random access for standard C++ algorithms.
