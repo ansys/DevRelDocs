@@ -11,7 +11,7 @@ The following table shows the number of entries for each component and category.
 | abaqus |  |  | [1 item](#Fixes_abaqus) |  |
 | cff |  |  | [1 item](#Fixes_cff) |  |
 | compression |  | [4 items](#Features_compression) | [1 item](#Fixes_compression) |  |
-| csharp |  | [8 items](#Features_csharp) | [6 items](#Fixes_csharp) |  |
+| csharp |  | [8 items](#Features_csharp) | [4 items](#Fixes_csharp) |  |
 | documentation |  |  | [1 item](#Fixes_documentation) |  |
 | femutils | [1 item](#Changes_femutils) | [13 items](#Features_femutils) | [26 items](#Fixes_femutils) | [5 items](#Performance_femutils) |
 | framework | [1 item](#Changes_framework) | [26 items](#Features_framework) | [49 items](#Fixes_framework) | [8 items](#Performance_framework) |
@@ -151,8 +151,6 @@ The following table shows the number of entries for each component and category.
 - Connect generic IronPython objects as operator inputs:
   > IronPython callers can connect dynamically typed values to operator inputs even when the input is not typed as `Any`. DPF still rejects values that do not match a supported input type.
 
-- Revert the earlier skin-extraction memory optimization:
-  > The skin operator restores its earlier extraction behavior by reverting the previous memory-usage optimization.
 
 - Add support for Surface3, Surface4, Surface6, and Surface8 eltypes in skin operator:
   >
@@ -163,8 +161,6 @@ The following table shows the number of entries for each component and category.
   >
   >
 
-- Reduce memory footprint of skin extraction op:
-  > - This PR reduces the memory footprint of the ExtractSectorMeshedSkin operator.
   >
   >
 
