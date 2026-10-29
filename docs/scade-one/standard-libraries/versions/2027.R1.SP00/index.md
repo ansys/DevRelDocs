@@ -1,4 +1,4 @@
-# Libraries {#libraries .sone-topic}
+# Introduction
 
 Scade One provides a collection of libraries for model development, simulation and debugging.
 
