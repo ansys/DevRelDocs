@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-27).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-28).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -939,9 +939,16 @@ The following table shows which components have updates in each category.
   > 0.0.4: Fix exception short-circuit data race during parallel execution.
 
 
+- [extend_to_mid_nodes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/extend_to_mid_nodes.md)
+
+  > 0.1.0: Expose an optional elemental scoping for nodal extension.
+
+
 - [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.1.0: Accept labeled elemental scopings to restrict nodal extension without extracting meshes.
 
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/force_summation.md)
