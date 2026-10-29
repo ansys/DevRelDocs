@@ -2,11 +2,11 @@
 uid: Ans.DataProcessing.operators.averaging.extend_to_mid_nodes
 ---
 
-# *class* extend_to_mid_nodes(field: object = None, mesh: object = None, config: OperatorConfig = None)
+# *class* extend_to_mid_nodes(field: object = None, element_scoping: object = None, mesh: object = None, config: OperatorConfig = None)
 
 Extends an Elemental Nodal or Nodal field defined on corner nodes to a field defined also on the mid nodes.
 
-available inputs: `field` (Field, FieldsContainer), `mesh` (MeshedRegion) (optional)
+available inputs: `field` (Field, FieldsContainer), `element_scoping` (Scoping) (optional), `mesh` (MeshedRegion) (optional)
 
 available outputs: `field` (Field)
 
@@ -15,6 +15,7 @@ available outputs: `field` (Field)
 **Parameters:**
 
 * **field**
+* **element_scoping**
 * **mesh**
 * **config**
 
@@ -23,7 +24,7 @@ available outputs: `field` (Field)
 ```python
 op = extend_to_mid_nodes()
 
-op = extend_to_mid_nodes(field=my_field,mesh=my_mesh)
+op = extend_to_mid_nodes(field=my_field,element_scoping=my_element_scoping,mesh=my_mesh)
 ```
 
 ## Inputs
@@ -31,6 +32,12 @@ op = extend_to_mid_nodes(field=my_field,mesh=my_mesh)
 ### field
 
 field or fields container with only one field is expected
+
+**Type:** *LinkableInput*
+
+### element_scoping
+
+Elements to visit when extending a Nodal field. The scoping must be Elemental and contain IDs belonging to the mesh. Unconnected: visit all mesh elements.
 
 **Type:** *LinkableInput*
 
