@@ -21,7 +21,8 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>0</strong> | [fields_container](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
-| <strong>1</strong> | [mesh](#input_1) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
+| <strong>1</strong> | [mesh](#input_1) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) |
+| <strong>2</strong> | [element_scopings](#input_2) |  |[`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 
 
 <a id="input_0"></a>
@@ -36,9 +37,17 @@ Each parameter is detailed in the sections that follow the table.
 ### mesh (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
+- **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container)
 
 The mesh region in this pin is used to perform the averaging. It is used if there is no fields support.
+
+<a id="input_2"></a>
+### element_scopings (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
+
+Optional Elemental scopings restricting the elements visited for Nodal fields, without extracting meshes. Each field must match exactly one scoping by all container labels; extra field labels such as time are ignored. A single unlabeled scoping applies to every field. Unconnected: visit all elements of each matching mesh.
 
 
 ## Outputs
@@ -125,6 +134,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ansys::dpf::Operator op("extend_to_mid_nodes_fc"); // operator instantiation
 op.connect(0, my_fields_container);
 op.connect(1, my_mesh);
+op.connect(2, my_element_scopings);
 ansys::dpf::FieldsContainer my_fields_container = op.getOutput<ansys::dpf::FieldsContainer>(0);
 ```
 </details>
@@ -138,6 +148,7 @@ import ansys.dpf.core as dpf
 op = dpf.operators.averaging.extend_to_mid_nodes_fc() # operator instantiation
 op.inputs.fields_container.connect(my_fields_container)
 op.inputs.mesh.connect(my_mesh)
+op.inputs.element_scopings.connect(my_element_scopings)
 my_fields_container = op.outputs.fields_container()
 ```
 </details>
@@ -152,6 +163,7 @@ import Ans.DataProcessing as dpf
 op = dpf.operators.averaging.extend_to_mid_nodes_fc() # operator instantiation
 op.inputs.fields_container.Connect(my_fields_container)
 op.inputs.mesh.Connect(my_mesh)
+op.inputs.element_scopings.Connect(my_element_scopings)
 my_fields_container = op.outputs.fields_container.GetData()
 ```
 </details>
