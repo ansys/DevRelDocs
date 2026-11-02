@@ -120,65 +120,65 @@
     href: libraries/control_common/control_common.md
     items:
     - name: CheckRange
-      href: libraries/common/common__checkrange.md
+      href: libraries/control_common/common_checkrange.md
     - name: CheckSlope
-      href: libraries/common/common__checkslope.md
+      href: libraries/control_common/common_checkslope.md
     - name: IsIncreasing
-      href: libraries/common/common__isincreasing.md
+      href: libraries/control_common/common_isincreasing.md
     - name: IsDecreasing
-      href: libraries/common/common__isdecreasing.md
+      href: libraries/control_common/common_isdecreasing.md
     - name: HitCrossing
-      href: libraries/common/common__hitcrossing.md
+      href: libraries/control_common/common_hitcrossing.md
     - name: ZeroCrossing
-      href: libraries/common/common__zerocrossing.md
+      href: libraries/control_common/common_zerocrossing.md
     - name: IntegratorForward
-      href: libraries/common/common__integratorsforward.md
+      href: libraries/control_common/common_integratorsforward.md
     - name: IntegratorBackward
-      href: libraries/common/common__integrators.md
+      href: libraries/control_common/common_integrators.md
     - name: IntegratorTrapezoid
-      href: libraries/common/common__integratorstrapezoid.md
+      href: libraries/control_common/common_integratorstrapezoid.md
     - name: Derivative
-      href: libraries/common/common__derivative.md
+      href: libraries/control_common/common_derivative.md
     - name: SaturatedIntegratorForward
-      href: libraries/common/common__saturatedintegratorforward.md
+      href: libraries/control_common/common_saturatedintegratorforward.md
     - name: SaturatedIntegratorBackward
-      href: libraries/common/common__saturatedintegratorBackward.md
+      href: libraries/control_common/common_saturatedintegratorBackward.md
     - name: SaturatedIntegratorTrapezoid
-      href: libraries/common/common__saturatedintegratortrapezoid.md
+      href: libraries/control_common/common_saturatedintegratortrapezoid.md
   - name: Control::Discontinuous
     href: libraries/control_discontinuous/control_discontinuous.md
     items:
     - name: DeadBand
-      href: libraries/common/common__deadband.md
+      href: libraries/control_discontinuous/discontinuous_deadband.md
     - name: Saturation
-      href: libraries/common/common__saturation.md
+      href: libraries/control_discontinuous/discontinuous_saturation.md
     - name: Hysteresis
-      href: libraries/common/common__hysteresis.md
+      href: libraries/control_discontinuous/discontinuous_hysteresis.md
     - name: RateLimiter
-      href: libraries/common/common__ratelimiter.md
+      href: libraries/control_discontinuous/discontinuous_ratelimiter.md
     - name: Relay
-      href: libraries/common/common__relay.md
+      href: libraries/control_discontinuous/discontinuous_relay.md
     - name: Limiter
-      href: libraries/common/common__limiter.md
+      href: libraries/control_discontinuous/discontinuous_limiter.md
   - name: Control::Filters
     href: libraries/control_filters/control_filters.md
     items:
     - name: Lag
-      href: libraries/common/common__lag.md
+      href: libraries/control_filters/filters_lag.md
     - name: LowPass
-      href: libraries/common/common__lowpass.md
+      href: libraries/control_filters/filters_lowpass.md
     - name: HighPass
-      href: libraries/common/common__highpass.md
+      href: libraries/control_filters/filters_highpass.md
     - name: BandPass
-      href: libraries/common/common__bandpass.md
+      href: libraries/control_filters/filters_bandpass.md
     - name: BandStop
-      href: libraries/common/common__bandstop.md
+      href: libraries/control_filters/filters_bandstop.md
     - name: DigitalFilter
-      href: libraries/common/common__digitalfilter.md
+      href: libraries/control_filters/filters_digitalfilter.md
     - name: BiQuad
-      href: libraries/common/common__biquad.md
+      href: libraries/control_filters/filters_biquad.md
     - name: SecondOrderSeries
-      href: libraries/common/common__secondorderseries.md
+      href: libraries/control_filters/filters_secondorderseries.md
   - name: Digital
     href: libraries/digital/digital.md
     items:
