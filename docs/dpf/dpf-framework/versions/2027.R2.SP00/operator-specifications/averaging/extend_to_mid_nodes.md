@@ -21,6 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>0</strong> | [field](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
+| <strong>2</strong> | [element_scoping](#input_2) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
 | <strong>7</strong> | [mesh](#input_7) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
 
@@ -31,6 +32,14 @@ Each parameter is detailed in the sections that follow the table.
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container)
 
 field or fields container with only one field is expected
+
+<a id="input_2"></a>
+### element_scoping (Pin 2)
+
+- **Required:** No
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+
+Elements to visit when extending a Nodal field. The scoping must be Elemental and contain IDs belonging to the mesh. Unconnected: visit all mesh elements.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -110,6 +119,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 
 ansys::dpf::Operator op("extend_to_mid_nodes"); // operator instantiation
 op.connect(0, my_field);
+op.connect(2, my_element_scoping);
 op.connect(7, my_mesh);
 ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
 ```
@@ -123,6 +133,7 @@ import ansys.dpf.core as dpf
 
 op = dpf.operators.averaging.extend_to_mid_nodes() # operator instantiation
 op.inputs.field.connect(my_field)
+op.inputs.element_scoping.connect(my_element_scoping)
 op.inputs.mesh.connect(my_mesh)
 my_field = op.outputs.field()
 ```
@@ -137,6 +148,7 @@ import Ans.DataProcessing as dpf
 
 op = dpf.operators.averaging.extend_to_mid_nodes() # operator instantiation
 op.inputs.field.Connect(my_field)
+op.inputs.element_scoping.Connect(my_element_scoping)
 op.inputs.mesh.Connect(my_mesh)
 my_field = op.outputs.field.GetData()
 ```
