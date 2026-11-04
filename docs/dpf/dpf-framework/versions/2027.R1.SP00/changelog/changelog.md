@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-16).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-11-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -16,6 +16,7 @@ The following table shows which components have updates in each category.
 | ci | [2 items](#Features_ci) |[2 items](#Fixes_ci) |
 | compression | [5 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
+| cpython |  |[1 item](#Fixes_cpython) |
 | cs | [6 items](#Features_cs) |[2 items](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic |  |[2 items](#Fixes_cyclic) |
@@ -35,7 +36,7 @@ The following table shows which components have updates in each category.
 | lsdyna | [4 items](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [18 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
+| mapdl | [18 items](#Features_mapdl) |[66 items](#Fixes_mapdl) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
 | math | [11 items](#Features_math) |[1 item](#Fixes_math) |
@@ -202,6 +203,12 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+## cpython
+
+### <a id="Fixes_cpython"></a> Fixes
+
+- Cpython fix due to emudhra cert issue:
   > 
 ## cs
 ### <a id="Features_cs"></a> Features
@@ -1450,6 +1457,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix ASEC beam section Geometry issue - target release:
+  > 
+  >
+  > 
 
 - Elements can have incorrect section type attached:
   > 
