@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-26).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-11-03).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -16,6 +16,7 @@ The following table shows which components have updates in each category.
 | ci | [2 items](#Features_ci) |[2 items](#Fixes_ci) |
 | compression | [5 items](#Features_compression) |[1 item](#Fixes_compression) |
 | core |  |[1 item](#Fixes_core) |
+| cpython |  |[1 item](#Fixes_cpython) |
 | cs | [6 items](#Features_cs) |[2 items](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic |  |[2 items](#Fixes_cyclic) |
@@ -202,6 +203,12 @@ The following table shows which components have updates in each category.
   >
   > 
   >
+  > 
+## cpython
+
+### <a id="Fixes_cpython"></a> Fixes
+
+- Cpython fix due to emudhra cert issue:
   > 
 ## cs
 ### <a id="Features_cs"></a> Features
