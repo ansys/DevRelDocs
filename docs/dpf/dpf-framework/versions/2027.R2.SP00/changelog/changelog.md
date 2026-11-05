@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-03).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-04).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,10 +9,11 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
-| mapdl | [1 item](#Features_mapdl) |[1 item](#Fixes_mapdl) |
+| mapdl | [2 items](#Features_mapdl) |[1 item](#Fixes_mapdl) |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
 | native |  |[1 item](#Fixes_native) |
+| prime |  |[1 item](#Fixes_prime) |
 
 
 ## femutils
@@ -44,6 +45,51 @@ The following table shows which components have updates in each category.
   > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Allowing to not read mesh when passing as input:
+  > Allowing to not read mesh when passing as input.
+  >
+  > When the mesh is incomplete in terms of MAPDL definitions (missing needed property fields: mapdl_element_type_id, section, ...) we get them from the RST file.
+  >
+  > 
+  >
+  > ### Added Unit Tests:
+  >
+  > TEST(FilteringOperators, NodalFilteringWithPassingMesh)
+  >
+  > TEST(FilteringOperators, NodalFilteringWithPassingMeshComposite)
+  >
+  > TEST(FilteringOperators, ElementalFilteringWithPassingMesh)
+  >
+  > TEST(FilteringOperators, ElementalFilteringWithPassingMeshComposite)
+  >
+  > TEST(FilteringOperators, RotationNodalFilteringWithPassingMesh)
+  >
+  > 
+  >
+  > ### Pipelines:
+  >
+  > https://ado.internal.synopsys.com/tfs/ANSYS_Development/DPF/_build/results?buildId=13420342&view=results
+  >
+  > 
+  >
+  > ### Precommit: Ongoing
+  >
+  > DPF:GetElementsResulDPF:GetElementsResultsByScoping,DPF:GetElementsResultsByScoping
+  >
+  > 
+  >
+  > ![image.png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image.png)
+  >
+  > 
+  >
+  > ![image (2).png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image%20%282%29.png)
+  >
+  > 
+  >
+  > ![image (3).png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image%20%283%29.png)
+  >
+  > 
 
 - Complete usage of ScopingIterators and eliminate GetIds calls in mapdlOperators:
   > 
@@ -96,6 +142,14 @@ The following table shows which components have updates in each category.
 - Fix accumulate operator for specific context, extend make_unit capabilities:
   > - Fix for accumulate operator: entities with elementary data were not treated properly, provoking crashes.
   >
+  > 
+  >
+  > 
+## prime
+
+### <a id="Fixes_prime"></a> Fixes
+
+- Fix Unit tests:
   > 
   >
   > 
