@@ -10,7 +10,9 @@ license: None
 
 ## Description
 
-Read/compute elemental summable miscellaneous data by calling the readers defined by the datasources. Modal superposition (on demand expansion) and cyclic cxpansion procedures are supported, however, you should verify that the linear combination is applicable for the associated element according to the MAPDL documentation description of each item.
+Read/compute elemental summable miscellaneous data by calling the readers defined by the datasources.
+
+Modal superposition (on demand expansion) and cyclic cxpansion procedures are supported, however, you should verify that the linear combination is applicable for the associated element according to the MAPDL documentation description of each item.
 
 ## Inputs
 

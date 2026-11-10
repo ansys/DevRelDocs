@@ -20,12 +20,21 @@ Each parameter is detailed in the sections that follow the table.
 
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
+| <strong>-300</strong> | [skip_merge_supports](#input_-300) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-200</strong> | [should_merge_named_selections](#input_-200) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-3</strong> | [sum_merge](#input_-3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>-2</strong> | [merged_fields_support](#input_-2) |  |`abstract_field_support` |
 | <strong>-1</strong> | [merged_fields_containers_support](#input_-1) |  |`abstract_field_support`, `umap<string,shared_ptr<abstract_field_support>>` |
 | <strong>0</strong> | [fields_containers](#input_0) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|`vector<shared_ptr<fields_container>>`, [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |
 
+
+<a id="input_-300"></a>
+### skip_merge_supports (Pin -300)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+If true, field supports are not merged; for each group of fields, the first non-null input field support is used as the merged field support. Cannot be used with pin -2 (merged_fields_support). Default is false.
 
 <a id="input_-200"></a>
 ### should_merge_named_selections (Pin -200)
@@ -150,6 +159,7 @@ Each example shows how to instantiate the operator, connect the required inputs,
 #include "dpf_api.h"
 
 ansys::dpf::Operator op("merge::fields_container"); // operator instantiation
+op.connect(-300, my_skip_merge_supports);
 op.connect(-200, my_should_merge_named_selections);
 op.connect(-3, my_sum_merge);
 op.connect(-2, my_merged_fields_support);
@@ -166,6 +176,7 @@ ansys::dpf::FieldsContainer my_merged_fields_container = op.getOutput<ansys::dpf
 import ansys.dpf.core as dpf
 
 op = dpf.operators.utility.merge_fields_containers() # operator instantiation
+op.inputs.skip_merge_supports.connect(my_skip_merge_supports)
 op.inputs.should_merge_named_selections.connect(my_should_merge_named_selections)
 op.inputs.sum_merge.connect(my_sum_merge)
 op.inputs.merged_fields_support.connect(my_merged_fields_support)
@@ -184,6 +195,7 @@ import mech_dpf
 import Ans.DataProcessing as dpf
 
 op = dpf.operators.utility.merge_fields_containers() # operator instantiation
+op.inputs.skip_merge_supports.Connect(my_skip_merge_supports)
 op.inputs.should_merge_named_selections.Connect(my_should_merge_named_selections)
 op.inputs.sum_merge.Connect(my_sum_merge)
 op.inputs.merged_fields_support.Connect(my_merged_fields_support)

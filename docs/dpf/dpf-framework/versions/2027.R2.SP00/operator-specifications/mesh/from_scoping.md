@@ -23,6 +23,7 @@ Each parameter is detailed in the sections that follow the table.
 | <strong>1</strong> | [scoping](#input_1) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`scoping`](../../core-concepts/dpf-types.md#scoping) |
 | <strong>2</strong> | [inclusive](#input_2) |  |[`int32`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>3</strong> | [nodes_only](#input_3) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
+| <strong>4</strong> | [filter_named_selections](#input_4) |  |[`bool`](../../core-concepts/dpf-types.md#standard-types) |
 | <strong>7</strong> | [mesh](#input_7) |  <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;" title="This pin is required">Required</span>|[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 
 
@@ -49,6 +50,14 @@ if inclusive == 1 then all the elements/faces adjacent to the nodes/faces ids in
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
 returns mesh with nodes only (without any elements or property fields). Default is false.
+
+<a id="input_4"></a>
+### filter_named_selections (Pin 4)
+
+- **Required:** No
+- **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
+
+if true, named selections in the input mesh are filtered to the nodes, faces, elements... present in the output mesh. If false, named selections are not transferred to the output mesh. Default is false.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -123,6 +132,7 @@ ansys::dpf::Operator op("mesh::by_scoping"); // operator instantiation
 op.connect(1, my_scoping);
 op.connect(2, my_inclusive);
 op.connect(3, my_nodes_only);
+op.connect(4, my_filter_named_selections);
 op.connect(7, my_mesh);
 ansys::dpf::MeshedRegion my_mesh = op.getOutput<ansys::dpf::MeshedRegion>(0);
 ```
@@ -138,6 +148,7 @@ op = dpf.operators.mesh.from_scoping() # operator instantiation
 op.inputs.scoping.connect(my_scoping)
 op.inputs.inclusive.connect(my_inclusive)
 op.inputs.nodes_only.connect(my_nodes_only)
+op.inputs.filter_named_selections.connect(my_filter_named_selections)
 op.inputs.mesh.connect(my_mesh)
 my_mesh = op.outputs.mesh()
 ```
@@ -154,6 +165,7 @@ op = dpf.operators.mesh.from_scoping() # operator instantiation
 op.inputs.scoping.Connect(my_scoping)
 op.inputs.inclusive.Connect(my_inclusive)
 op.inputs.nodes_only.Connect(my_nodes_only)
+op.inputs.filter_named_selections.Connect(my_filter_named_selections)
 op.inputs.mesh.Connect(my_mesh)
 my_mesh = op.outputs.mesh.GetData()
 ```

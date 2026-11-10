@@ -12,7 +12,7 @@ license: None
 
 
 Converts a complex-valued fields container from
-[polar form](https://en.wikipedia.org/wiki/Complex_number#Polar_complex_plane) (amplitude, phase)
+[polar form](https://en.wikipedia.org/wiki/Complex_number#Polar_form) (amplitude, phase)
 to rectangular form (real, imaginary):
 $\mathrm{Re}[i] = A[i] \cdot \cos(\phi[i])$, $\mathrm{Im}[i] = A[i] \cdot \sin(\phi[i])$.
 The input must contain amplitude fields tagged with complex label 2

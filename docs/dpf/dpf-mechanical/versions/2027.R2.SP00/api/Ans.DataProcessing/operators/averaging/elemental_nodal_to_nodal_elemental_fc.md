@@ -8,7 +8,7 @@ Transforms Elemental Nodal fields to Nodal Elemental fields. The result is compu
 
 available inputs: `fields_container` (FieldsContainer), `mesh_scoping` (Scoping, ScopingsContainer) (optional), `mesh` (MeshedRegion) (optional)
 
-available outputs: `fields_container` (FieldsContainer)
+available outputs: `fields_container` (FieldsContainer), `node_scopings` (ScopingsContainer), `element_scopings` (ScopingsContainer)
 
 **DPF Framework Reference:** [elemental_nodal_to_nodal_elemental_fc operator specification](https://developer-a.synopsys.com/docs/dpf-framework-2027-r2/operator-specifications/averaging/elemental_nodal_to_nodal_elemental_fc.md)
 
@@ -52,6 +52,18 @@ Optional mesh region used for every field when connected. If omitted, each field
 ### fields_container
 
 Nodal elemental fields with input fields container label spaces preserved.
+
+**Type:** *LinkableOutput*
+
+### node_scopings
+
+Nodal scopings aligned with the records of each output field, preserving the fields container label spaces.
+
+**Type:** *LinkableOutput*
+
+### element_scopings
+
+Elemental scopings aligned with the records of each output field, preserving the fields container label spaces.
 
 **Type:** *LinkableOutput*
 
