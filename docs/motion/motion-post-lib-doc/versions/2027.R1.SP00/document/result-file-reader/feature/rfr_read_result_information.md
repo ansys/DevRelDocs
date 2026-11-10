@@ -1,4 +1,6 @@
 # Read Result Information
+<div align="right"><a href="/document/result-file-reader/feature/rfr_read_result_information.md" download="rfr_read_result_information.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers result-information operations provided by [`OutputReader`](../../../lib/VM.Post.API.OutputReader.OutputReader.md) for reading state IDs, reference times, the primary analysis type, and eigenvalue frequency information.
 
 The state IDs and reference times can be used to select result data for later contour and vector operations, see [Get Contour Data](rfr_get_contour_data.md) and [Get Vector Data](rfr_get_vector_data.md).
@@ -17,5 +19,3 @@ Read eigenvalue frequency information with [`GetFrequenciesInfoArray()`](../../.
 
 ## Model Information
 Read assembly information with [`GetAssemblyInfo(AssemblyType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetAssemblyInfo.md) and body information with [`GetBodies(BodyType, bool)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetBodies.md). Read modal mode counts with [`GetModalModeCount(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetModalModeCount.md) and connector information with [`GetConnectors(string)`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetConnectors.md).
-
-<a href="/document/result-file-reader/feature/rfr_read_result_information.md" download="rfr_read_result_information.md">Download this page as Markdown</a>

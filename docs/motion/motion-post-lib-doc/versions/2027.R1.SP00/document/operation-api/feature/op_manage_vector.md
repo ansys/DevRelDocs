@@ -1,4 +1,6 @@
 # Manage a Vector
+<div align="right"><a href="/document/operation-api/feature/op_manage_vector.md" download="op_manage_vector.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers creating vector display data with [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md), changing what [`IOperationsVectorDisplayBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md) shows, and setting how it looks. Once created, the vector display shows a chosen result characteristic in the animation and appears in frames captured through [Control Animation Playback](op_control_animation_playback.md#recording).
 
 ## Creating
@@ -24,5 +26,3 @@ Change how it looks with these properties:
 - Set the label's background and text colors with [`LabelBackgroundColor`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelBackgroundColor.md) and [`LabelTextColor`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.LabelTextColor.md).
 - Set the vector's color and size with [`Color`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Color.md) and [`Scale`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.Scale.md).
 - Turn logarithmic display on or off with [`IsLog`](../../../lib/VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.IsLog.md).
-
-<a href="/document/operation-api/feature/op_manage_vector.md" download="op_manage_vector.md">Download this page as Markdown</a>

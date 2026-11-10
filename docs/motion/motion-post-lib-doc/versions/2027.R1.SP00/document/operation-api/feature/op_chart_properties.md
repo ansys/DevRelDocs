@@ -1,4 +1,6 @@
 # Properties
+<div align="right"><a href="/document/operation-api/feature/op_chart_properties.md" download="op_chart_properties.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers setting how [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md) looks and, with [`IOperationsLine2DViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md), what it shows. These settings change the chart itself, while its curve data stays ready for curve operations and export.
 
 ## Configuring
@@ -18,5 +20,3 @@ Show or hide the legend and the animation bar with [`ShowLegend`](../../../lib/V
 - Show or hide tracking with [`TrackingCurve`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingCurve.md), and choose how tracking behaves with [`TrackingOption`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.TrackingOption.md).
 
 Set up the chart legend itself with [`Legend`](../../../lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.Legend.md).
-
-<a href="/document/operation-api/feature/op_chart_properties.md" download="op_chart_properties.md">Download this page as Markdown</a>

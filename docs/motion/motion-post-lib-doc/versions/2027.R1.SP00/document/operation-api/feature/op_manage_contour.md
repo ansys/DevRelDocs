@@ -1,4 +1,6 @@
 # Manage a Contour
+<div align="right"><a href="/document/operation-api/feature/op_manage_contour.md" download="op_manage_contour.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers finding valid targets, creating contour data for them, changing how the contour looks, and exporting the result. Once enabled, the contour is shown in [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md) view and appears in any frames captured from that view, and its data can also be saved to a file. Creating, finding, and removing contour data use [`IOperationAnalysisResult`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.md), its display settings use [`IOperationsContourViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.md), and exporting uses [`Export`](../../../lib/VM.API.Post.Operations.Export.md).
 
 ## Creating
@@ -25,5 +27,3 @@ Change how the contour looks and behaves with these properties:
 - Blend colors smoothly, or use a logarithmic scale, with [`Continuous`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.Continuous.md) and [`LogScale`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LogScale.md).
 - Choose which extreme values are shown with [`MinMaxTargetType`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.MinMaxTargetType.md).
 - Show or hide the legend, and set its color and text color, with [`LegendVisibility`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendVisibility.md), [`LegendColorScheme`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendColorScheme.md), and [`LegendFontColor`](../../../lib/VM.Operations.Post.Interfaces.IOperationsContourViewModel.LegendFontColor.md).
-
-<a href="/document/operation-api/feature/op_manage_contour.md" download="op_manage_contour.md">Download this page as Markdown</a>

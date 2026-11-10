@@ -1,4 +1,6 @@
 # Method ExportVectorDisplayToFile
+<div align="right"><a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Post_API_OutputReader_OutputReader_ExportVectorDisplayToFile_System_String_System_Int32___System_Collections_Generic_IEnumerable_System_Object__System_Boolean_System_Boolean_System_Boolean_VM_Models_AnalysisResultType_"></a>
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
@@ -98,31 +100,40 @@ Specifies the type of analysis result.
 state_ids = output_reader.GetStateIDArray()
 
 # Create the vector definition to export.
+# The name of the vector.
 vector_name = "ExampleVector"
+# The name of the vector displayable entity.
 entity_name = "TJ_01"
+# The name of the characteristic.
 characteristic_name = "Base Force"
+# The vector definition created for the entity and characteristic.
 vector = output_reader.CreateVector(vector_name, entity_name, characteristic_name)
 
 # Build the target list.
+# The vector displays to export.
 targets = List[IVectorDisplay]()
 targets.Add(vector)
 
 # Build the output file path.
-# PATH : path to the folder where exported files are written
-# RFR_VECTOR_TARGETS_OUTPUT_FILENAME : output filename for vector definitions
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# RFR_VECTOR_TARGETS_OUTPUT_FILENAME : output filename for vector definitions (e.g., ExportVectorDisplayToFile_Targets.txt)
+# The path of the exported vector display file.
 output_path = os.path.join(PATH, RFR_VECTOR_TARGETS_OUTPUT_FILENAME)
 
 # Export data from created vector definitions.
-include_header = True
+# True to include the position values in the exported file.
 include_position = True
-include_components = True
+# True to include the vector component values in the exported file.
+include_vector = True
+# True to include the vector magnitude values in the exported file.
+include_magnitude = True
 output_reader.ExportVectorDisplayToFile(
     output_path,
     state_ids,
     targets,
-    include_header,
     include_position,
-    include_components,
+    include_vector,
+    include_magnitude,
     AnalysisResultType.Dynamics,
 )
 ```
@@ -190,24 +201,30 @@ Specifies the type of analysis result.
 state_ids = output_reader.GetStateIDArray()
 
 # Build the output file path.
-# PATH : path to the folder where exported files are written
-# RFR_VECTOR_TARGET_OUTPUT_FILENAME : output filename for target vector data
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# RFR_VECTOR_TARGET_OUTPUT_FILENAME : output filename for target vector data (e.g., ExportVectorDisplayToFile_Target.txt)
+# The path of the exported vector display file.
 output_path = os.path.join(PATH, RFR_VECTOR_TARGET_OUTPUT_FILENAME)
 
 # Export data directly from a target and characteristic path.
+# The name of the vector displayable entity.
 entity_name = "TJ_01"
+# The name of the characteristic.
 characteristic_name = "Base Force"
-include_header = True
+# True to include the position values in the exported file.
 include_position = True
-include_components = True
+# True to include the vector component values in the exported file.
+include_vector = True
+# True to include the vector magnitude values in the exported file.
+include_magnitude = True
 output_reader.ExportVectorDisplayToFile(
     output_path,
     state_ids,
     entity_name,
     characteristic_name,
-    include_header,
     include_position,
-    include_components,
+    include_vector,
+    include_magnitude,
     AnalysisResultType.Dynamics,
 )
 ```
@@ -223,5 +240,3 @@ A Dynamics analysis result must be available.
 <Note>
 If the target entity cannot be resolved as an [`IVectorDisplayable`](VM.Models.Post.IVectorDisplayable.md), this overload performs no export.
 </Note>
-
-<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md">Download this page as Markdown</a>

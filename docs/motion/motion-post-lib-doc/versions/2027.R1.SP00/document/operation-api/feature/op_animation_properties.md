@@ -1,4 +1,5 @@
 # Properties
+<div align="right"><a href="/document/operation-api/feature/op_animation_properties.md" download="op_animation_properties.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
 
 This feature covers reading animation metadata and setting the visual parts of [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md). These settings change the animation view, and the same change appears in frames captured through [Control Animation Playback](op_control_animation_playback.md#recording).
 
@@ -16,5 +17,3 @@ Show or hide the navigation cube with [`IsVisibleNavigationCube`](../../../lib/V
 
 ## Configuring State Information
 Show or hide state information with [`IsVisibleStateInfo`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.IsVisibleStateInfo.md). Set its position and text color with [`StateInfoPosition`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.StateInfoPosition.md) and [`TextColorStateInfo`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.TextColorStateInfo.md).
-
-<a href="/document/operation-api/feature/op_animation_properties.md" download="op_animation_properties.md">Download this page as Markdown</a>

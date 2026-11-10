@@ -1,4 +1,6 @@
 # Method ExportContourResultToFile
+<div align="right"><a href="/lib/VM.API.Post.Operations.Export.ExportContourResultToFile.md" download="VM.API.Post.Operations.Export.ExportContourResultToFile.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_API_Post_Operations_Export_ExportContourResultToFile_System_String_System_String_System_Collections_Generic_IList_System_String__System_Boolean_VM_Models_ContourMappingType_System_String_VM_Models_AnalysisResultType_VM_Models_FileFormatType_"></a>
 
 Namespace: [VM.API.Post.Operations](VM.API.Post.Operations.md)  
@@ -108,31 +110,43 @@ The file format used for the exported results. `TXT` writes the text table, and 
 
 ```python
 # Get the document and dynamic analysis result.
-# RESULT_FILE_PATH : .dfr result file path
+# RESULT_FILE_PATH : .dfr result file path (e.g., D:\PostprocessorAPI\Results\Tutorial_ModalFlex.dfr)
+# The document opened from the result file.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
+# The type of the analysis result to retrieve.
 analysis_result_type = AnalysisResultType.Dynamics
+# The analysis result of the document.
 analysis_result = document.GetAnalysisResultViewModel(analysis_result_type)
 
 # Create the animation view.
 page = application_handler.GetActivePage()
+# The name of the new animation view.
 animation_view_name = "ResultAnimation"
+# The animation view created on the page.
 animation_view = page.CreateAnimation(analysis_result, animation_view_name)
 animation_view.Activate()
 application_handler.LoadingAnimation()
 
 # Select contour targets and result fields.
+# The name of the target finite-element body.
 entity_name = "FEBody_01"
+# The finite-element body with the specified name.
 febody = animation_view.GetViewModelByName(entity_name)
+# The names of the targets to export.
 target_names = List[str]()
 target_names.Add(febody.FullName)
+# True to export all frames, or False to export only the current frame.
 is_full_frame = True
+# The type of the contour mapping.
 contour_mapping_type = ContourMappingType.FENode
 # Prepare the output file path.
-# PATH : path to the folder where exported files are written
-# CONTOUR_OUTPUT_FILENAME : output filename for the exported contour result
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# CONTOUR_OUTPUT_FILENAME : output filename for the exported contour result (e.g., Displacement.txt)
+# The path of the exported contour result file.
 output_path = Path.Combine(PATH, CONTOUR_OUTPUT_FILENAME)
 
 # Select the displacement characteristic and X component path.
+# The characteristic/component path of the result, in "Characteristic/Component" format.
 characteristic_component_path = "Displacement/X"
 Export.ExportContourResultToFile(RESULT_FILE_PATH, output_path, target_names, is_full_frame, contour_mapping_type, characteristic_component_path)
 ```
@@ -154,5 +168,3 @@ Activate `IOperationsAnimation` for <code class="paramref">documentFilePath</cod
  Exception
 
 Thrown when the active view is not an animation for <code class="paramref">documentFilePath</code> or its frames are not available.
-
-<a href="/lib/VM.API.Post.Operations.Export.ExportContourResultToFile.md" download="VM.API.Post.Operations.Export.ExportContourResultToFile.md">Download this page as Markdown</a>
