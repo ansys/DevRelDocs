@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-06).
+Changes since the last released version for DPF 27.1.pre0 (as of 2026-10-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -19,6 +19,7 @@ The following table shows which components have updates in each category.
 | cs | [6 items](#Features_cs) |[2 items](#Fixes_cs) |
 | csharp | [1 item](#Features_csharp) | |
 | cyclic |  |[2 items](#Fixes_cyclic) |
+| deps |  |[1 item](#Fixes_deps) |
 | doc |  |[1 item](#Fixes_doc) |
 | documentation |  |[1 item](#Fixes_documentation) |
 | femutils | [10 items](#Features_femutils) |[17 items](#Fixes_femutils) |
@@ -26,24 +27,24 @@ The following table shows which components have updates in each category.
 | framework | [3 items](#Features_framework) |[18 items](#Fixes_framework) |
 | gate |  |[1 item](#Fixes_gate) |
 | grpc | [3 items](#Features_grpc) |[5 items](#Fixes_grpc) |
-| h5dpf |  |[2 items](#Fixes_h5dpf) |
+| h5dpf |  |[3 items](#Fixes_h5dpf) |
 | hdf5 | [10 items](#Features_hdf5) |[22 items](#Fixes_hdf5) |
 | hgp | [8 items](#Features_hgp) |[6 items](#Fixes_hgp) |
 | kernel | [3 items](#Features_kernel) |[10 items](#Fixes_kernel) |
 | licensing |  |[1 item](#Fixes_licensing) |
-| lsdyna | [4 items](#Features_lsdyna) | |
+| lsdyna | [4 items](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
 | madl |  |[1 item](#Fixes_madl) |
 | mapd | [1 item](#Features_mapd) | |
-| mapdl | [18 items](#Features_mapdl) |[62 items](#Fixes_mapdl) |
+| mapdl | [18 items](#Features_mapdl) |[65 items](#Fixes_mapdl) |
 | mapl |  |[1 item](#Fixes_mapl) |
 | mapping |  |[2 items](#Fixes_mapping) |
 | math | [11 items](#Features_math) |[1 item](#Fixes_math) |
-| mechanical | [3 items](#Features_mechanical) |[4 items](#Fixes_mechanical) |
-| mesh | [2 items](#Features_mesh) |[6 items](#Fixes_mesh) |
+| mechanical | [3 items](#Features_mechanical) |[5 items](#Fixes_mechanical) |
+| mesh | [2 items](#Features_mesh) |[7 items](#Fixes_mesh) |
 | misc | [5 items](#Features_misc) |[7 items](#Fixes_misc) |
 | multiphysics | [2 items](#Features_multiphysics) | |
 | multiphysicsmapper |  |[5 items](#Fixes_multiphysicsmapper) |
-| native | [23 items](#Features_native) |[31 items](#Fixes_native) |
+| native | [23 items](#Features_native) |[34 items](#Fixes_native) |
 | nuget |  |[1 item](#Fixes_nuget) |
 | plugins | [3 items](#Features_plugins) | |
 | prime | [1 item](#Features_prime) |[2 items](#Fixes_prime) |
@@ -286,6 +287,18 @@ The following table shows which components have updates in each category.
   > 
 
 - Fix composite nodal cyclic request by scoping:
+  > 
+  >
+  > 
+## deps
+
+### <a id="Fixes_deps"></a> Fixes
+
+- Operator priority conanfile issue:
+  > 
+  >
+  > Fix a logic error in a conanfile, would cause issues when installed as a dependency.
+  >
   > 
   >
   > 
@@ -815,6 +828,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_h5dpf"></a> Fixes
 
+- Fix destruction order mutex order:
+  > 
+
 - Fix scoping_provider_by_prop for distributed h5 files:
   > 
   >
@@ -1228,6 +1244,10 @@ The following table shows which components have updates in each category.
 - Add mesh scoping input for nodout operators (#257):
   > 
 
+### <a id="Fixes_lsdyna"></a> Fixes
+
+- Support binout elout branch for stress (#290):
+  > 
 ## madl
 
 ### <a id="Fixes_madl"></a> Fixes
@@ -1430,6 +1450,19 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Elements can have incorrect section type attached:
+  > 
+  >
+  > 
+
+- Cyclic support of CMS superelements not supported:
+  > 
+
+- Improve Composite operator batch-merging and add domain decomposition detection:
+  > 
+  >
+  > 
 
 - Rewrite Nodal Averaged Results reader:
   > 
@@ -2013,6 +2046,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mechanical"></a> Fixes
 
+- Raise error message for missing fields in mechanical::time_freq_interpolation:
+  > 
+  >
+  > 
+
 - Change meshscoping_filtered_by_shape logic on shape properties:
   > Some regression tests started failing due to changes in !716228
   >
@@ -2054,6 +2092,11 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_mesh"></a> Fixes
+
+- Reverting memory improvements in the skin operator:
+  > Reverted memory improvements in the skin operator.
+  >
+  > 
 
 - Correction of mesh_extraction & mesh::by_scoping to handle Named Selections:
   > Correction of mesh_extraction & mesh::by_scoping to handle Named Selections
@@ -2422,6 +2465,17 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Ignore the rotation to global in PSD and Spectrum analysis:
+  > 
+
+- Fix workflow_to_pydpf any pin management:
+  > 
+
+- Improve Composite operator batch-merging and add domain decomposition detection:
+  > 
+  >
+  > 
 
 - Check all files from the DataSource for result availability:
   > 
@@ -4835,6 +4889,8 @@ Upgraded documentation
 
   > 1.0.1: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
 
+  > 1.0.2: Reverted memory improvements.
+
 
 - [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/mesh/split_fields.md)
 
@@ -5690,6 +5746,8 @@ Upgraded documentation
 - [workflow_to_pydpf](https://ansys-a.devportal.io/docs/dpf-framework-2027-r1/operator-specifications/serialization/workflow_to_pydpf.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Use numeric pin APIs for Any-typed pins.
 
 
 

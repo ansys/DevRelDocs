@@ -6,7 +6,7 @@ uid: Ans.DataProcessing.operators.math.polar_to_cplx
 
 Converts a complex-valued fields container from
 
-[polar form](https://en.wikipedia.org/wiki/Complex_number#Polar_complex_plane) (amplitude, phase)
+[polar form](https://en.wikipedia.org/wiki/Complex_number#Polar_form) (amplitude, phase)
 
 to rectangular form (real, imaginary):
 

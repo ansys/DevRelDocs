@@ -1,15 +1,104 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-05).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-02).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
 The following table shows which components have updates in each category.
 
-| Component | 
-|-----------|
+| Component | Features | Fixes | 
+|-----------|----------|----------|
+| femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
+| mapdl | [1 item](#Features_mapdl) |[1 item](#Fixes_mapdl) |
+| mesh |  |[2 items](#Fixes_mesh) |
+| misc |  |[1 item](#Fixes_misc) |
+| native |  |[1 item](#Fixes_native) |
 
 
+## femutils
+### <a id="Features_femutils"></a> Features
+
+- Expose nodal and elemental scopings for CElementalNodalToNodalElementalFC:
+  > Elemental nodal to nodal elemental conversion operators can now output the nodal and elemental scopings of each resulting field.
+  >
+  > 
+  >
+  > 
+
+### <a id="Fixes_femutils"></a> Fixes
+
+- Unify normals provider behavior:
+  > 
+  >
+  > Use enhanced normal calculations behind the canonical normals operator. Keep the previous operator name for existing scripts. The canonical operator supports the same output locations and element types as the enhanced implementation.
+  >
+  > 
+  >
+  > 
+
+- Fix cyclic expansion for reaction forces when high low bounds are constrained:
+  > Fix cyclic expansion for reaction forces when high low bounds are constrained
+  >
+  > 
+  >
+  > 
+## mapdl
+### <a id="Features_mapdl"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in mapdlOperators:
+  > 
+  >
+  > 
+
+### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix ASEC beam section Geometry issue:
+  > 
+  >
+  > 
+## mesh
+
+### <a id="Fixes_mesh"></a> Fixes
+
+- Unify normals provider behavior:
+  > 
+  >
+  > Use enhanced normal calculations behind the canonical normals operator. Keep the previous operator name for existing scripts. The canonical operator supports the same output locations and element types as the enhanced implementation.
+  >
+  > 
+  >
+  > 
+
+- Use pin 1 for level-set union in combine_levelset:
+  > 
+  >
+  > The combined field now uses both inputs and keeps the lower value at each matching location.
+  >
+  > 
+  >
+  > 
+## misc
+
+### <a id="Fixes_misc"></a> Fixes
+
+- Remove agent paths from generated API directory names:
+  > 
+  >
+  > Normalize generated C++ API directory names so they stay stable across different build environments.
+  >
+  > 
+  >
+  > 
+## native
+
+### <a id="Fixes_native"></a> Fixes
+
+- Fix accumulate operator for specific context, extend make_unit capabilities:
+  > - Fix for accumulate operator: entities with elementary data were not treated properly, provoking crashes.
+  >
+  > 
+  >
+  > 
 ## Operator changes
 
 ### New operators
@@ -241,14 +330,14 @@ The following table shows which components have updates in each category.
   > 
   > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
   > |---------------------|---------------------|---------------|-----------------|
-  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
-  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present.                |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present.               |
   > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
-  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
-  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
-  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present.  |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present.                        |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present.                         |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present.           |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present.          |
   > - The available 'elshape' values are:
   > 
   > | elshape | Related elements |
@@ -260,17 +349,17 @@ The following table shows which components have updates in each category.
   > | 5       | Contact          |
   > | 6       | Load             |
   > | 7       | Point            |
-  > | 8       | Shell with 1 result across thickness (membrane) |
-  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 8       | Shell with 1 result across thickness (membrane)        |
+  > | 9       | Shell with 2 results across thickness (top/bottom)     |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Joint |
+  > | 12      | Joint           |
   > | 13      | Pretension      |
-  > | 14      | Layered      |
+  > | 14      | Layered         |
   > | 15      | ThickShell      |
-  > | 16      | Target      |
-  > | 17      | Plane      |
-  > | 18      | Pipe      |
+  > | 16      | Target          |
+  > | 17      | Plane           |
+  > | 18      | Pipe            |
   > 
 
 - [creep_strain_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/creep_strain_X.md):
@@ -298,14 +387,14 @@ The following table shows which components have updates in each category.
   > 
   > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
   > |---------------------|---------------------|---------------|-----------------|
-  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
-  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present.                |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present.               |
   > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
-  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
-  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
-  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present.  |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present.                        |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present.                         |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present.           |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present.          |
   > - The available 'elshape' values are:
   > 
   > | elshape | Related elements |
@@ -317,17 +406,17 @@ The following table shows which components have updates in each category.
   > | 5       | Contact          |
   > | 6       | Load             |
   > | 7       | Point            |
-  > | 8       | Shell with 1 result across thickness (membrane) |
-  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 8       | Shell with 1 result across thickness (membrane)        |
+  > | 9       | Shell with 2 results across thickness (top/bottom)     |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Joint |
+  > | 12      | Joint           |
   > | 13      | Pretension      |
-  > | 14      | Layered      |
+  > | 14      | Layered         |
   > | 15      | ThickShell      |
-  > | 16      | Target      |
-  > | 17      | Plane      |
-  > | 18      | Pipe      |
+  > | 16      | Target          |
+  > | 17      | Plane           |
+  > | 18      | Pipe            |
   > 
 
 - [creep_strain_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/creep_strain_intensity.md):
@@ -357,14 +446,14 @@ The following table shows which components have updates in each category.
   > 
   > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
   > |---------------------|---------------------|---------------|-----------------|
-  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
-  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present.                |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present.               |
   > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
-  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
-  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
-  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present.  |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present.                        |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present.                         |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present.           |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present.          |
   > - The available 'elshape' values are:
   > 
   > | elshape | Related elements |
@@ -376,17 +465,19 @@ The following table shows which components have updates in each category.
   > | 5       | Contact          |
   > | 6       | Load             |
   > | 7       | Point            |
-  > | 8       | Shell with 1 result across thickness (membrane) |
-  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 8       | Shell with 1 result across thickness (membrane)        |
+  > | 9       | Shell with 2 results across thickness (top/bottom)     |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Joint |
+  > | 12      | Joint           |
   > | 13      | Pretension      |
-  > | 14      | Layered      |
+  > | 14      | Layered         |
   > | 15      | ThickShell      |
-  > | 16      | Target      |
-  > | 17      | Plane      |
-  > | 18      | Pipe      |
+  > | 16      | Target          |
+  > | 17      | Plane           |
+  > | 18      | Pipe            |
+  > 
+  > 
   > element_nodal_heat fields contain STATIC and DAMPING forces stored as components (when available). STATIC: component 0. DAMPING: component 1.
 
 - [element_nodal_moments](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/element_nodal_moments.md):
@@ -396,14 +487,14 @@ The following table shows which components have updates in each category.
   > 
   > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
   > |---------------------|---------------------|---------------|-----------------|
-  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
-  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present.                |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present.               |
   > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
-  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
-  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
-  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present.  |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present.                        |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present.                         |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present.           |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present.          |
   > - The available 'elshape' values are:
   > 
   > | elshape | Related elements |
@@ -415,17 +506,19 @@ The following table shows which components have updates in each category.
   > | 5       | Contact          |
   > | 6       | Load             |
   > | 7       | Point            |
-  > | 8       | Shell with 1 result across thickness (membrane) |
-  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 8       | Shell with 1 result across thickness (membrane)        |
+  > | 9       | Shell with 2 results across thickness (top/bottom)     |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Joint |
+  > | 12      | Joint           |
   > | 13      | Pretension      |
-  > | 14      | Layered      |
+  > | 14      | Layered         |
   > | 15      | ThickShell      |
-  > | 16      | Target      |
-  > | 17      | Plane      |
-  > | 18      | Pipe      |
+  > | 16      | Target          |
+  > | 17      | Plane           |
+  > | 18      | Pipe            |
+  > 
+  > 
   > element_nodal_moments fields contain STATIC, DAMPING and INERTIA forces stored as components (when available). STATIC: components 0 -> 2. DAMPING: components 3 -> 5. INERTIA components 6 -> 8
 
 - [emissivity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/emissivity.md):
@@ -606,14 +699,14 @@ The following table shows which components have updates in each category.
   > 
   > | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
   > |---------------------|---------------------|---------------|-----------------|
-  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
-  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+  > | No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present.                |
+  > | No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present.               |
   > | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
-  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
-  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
-  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
-  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+  > | No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present.  |
+  > | Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present.                        |
+  > | Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present.                         |
+  > | Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present.           |
+  > | Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present.          |
   > - The available 'elshape' values are:
   > 
   > | elshape | Related elements |
@@ -625,17 +718,17 @@ The following table shows which components have updates in each category.
   > | 5       | Contact          |
   > | 6       | Load             |
   > | 7       | Point            |
-  > | 8       | Shell with 1 result across thickness (membrane) |
-  > | 9       | Shell with 2 results across thickness (top/bottom) |
+  > | 8       | Shell with 1 result across thickness (membrane)        |
+  > | 9       | Shell with 2 results across thickness (top/bottom)     |
   > | 10      | Shell with 3 results across thickness (top/bottom/mid) |
   > | 11      | Gasket          |
-  > | 12      | Joint |
+  > | 12      | Joint           |
   > | 13      | Pretension      |
-  > | 14      | Layered      |
+  > | 14      | Layered         |
   > | 15      | ThickShell      |
-  > | 16      | Target      |
-  > | 17      | Plane      |
-  > | 18      | Pipe      |
+  > | 16      | Target          |
+  > | 17      | Plane           |
+  > | 18      | Pipe            |
   > 
   > 
   > Total strain is computed as the sum of the available strain contributions: elastic strain (`EPEL`), plastic strain (`EPPL`), creep strain (`EPCR`), thermal strain (`ETH`) 
@@ -827,6 +920,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: Add in the specification the meshed region input.
 
+  > 0.2.0: Expose node and element scoping containers aligned with each output field.
+
 
 - [elemental_nodal_to_nodal_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/elemental_nodal_to_nodal_fc.md)
 
@@ -873,9 +968,16 @@ The following table shows which components have updates in each category.
   > 0.0.4: Fix exception short-circuit data race during parallel execution.
 
 
+- [extend_to_mid_nodes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/extend_to_mid_nodes.md)
+
+  > 0.1.0: Expose an optional elemental scoping for nodal extension.
+
+
 - [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.1.0: Accept labeled elemental scopings to restrict nodal extension without extracting meshes.
 
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/force_summation.md)
@@ -1151,6 +1253,8 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.1.0: Use the enhanced normals implementation and expose the requested location input.
+
 
 - [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/geo/normals_provider_nl.md)
 
@@ -1159,6 +1263,10 @@ The following table shows which components have updates in each category.
   > 1.0.0: Fixed reference coordinate-system on which normals are calculated.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 1.0.2: Document normals_provider_nl as a compatibility entry point.
+
+  > 1.0.3: Deprecate normals_provider_nl in favor of normals_provider.
 
 
 - [rotate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/geo/rotate_fc.md)
@@ -1301,6 +1409,12 @@ The following table shows which components have updates in each category.
 
   > 0.1.5: Support Surface elements.
 
+  > 0.2.0: Added tolerance pin when locating query coordinates within elements.
+
+  > 0.3.0: Tolerance used when searching elements by the coordinates of the query points.
+
+  > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
+
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/on_coordinates.md)
 
@@ -1321,6 +1435,10 @@ The following table shows which components have updates in each category.
   > 0.4.2: Support Surface elements.
 
   > 0.4.3: Fix element search for distorted 3D elements.
+
+  > 0.5.0: Tolerance used when searching elements by the coordinates of the query points.
+
+  > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
 
 
 - [on_reduced_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/on_reduced_coordinates.md)
@@ -1430,6 +1548,8 @@ The following table shows which components have updates in each category.
 - [accumulate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/math/accumulate.md)
 
   > 0.0.1: Improve operator description with weighted sum formula. Improve pin 2 and output pin descriptions.
+
+  > 0.0.2: Correct accumumation formula when input contains several elementary data by entity.
 
 
 - [accumulate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/math/accumulate_fc.md)
@@ -1799,6 +1919,8 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 1.0.0: Use both input fields to compute the binary union.
+
 
 - [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/exclude_levelset.md)
 
@@ -1826,6 +1948,8 @@ Upgraded documentation
   > 0.3.2: Improve error messages: operator now throws typed, structured exceptions with actionable suggestions and machine-readable attributes.
 
   > 0.4.0: Named selections associated to the mesh are rescoped on the selection and associated to the new mesh.
+
+  > 0.5.0: Added the filter_named_selections input pin.
 
 
 - [from_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/from_scopings.md)
@@ -1915,6 +2039,8 @@ Upgraded documentation
   > 1.0.0: Added support for elements with dropped nodes, as its faces may have been incorrectly added to the output skin mesh before.
 
   > 1.0.1: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
+
+  > 1.0.2: Reverted memory improvements.
 
 
 - [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/split_fields.md)
@@ -2061,10 +2187,14 @@ Upgraded documentation
 
 - [accu_eqv_creep_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/accu_eqv_creep_strain.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [accu_eqv_plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/accu_eqv_plastic_strain.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2121,45 +2251,63 @@ Upgraded documentation
 
 - [contact_fluid_penetration_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_fluid_penetration_pressure.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_friction_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_friction_stress.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_gap_distance](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_gap_distance.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_penetration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_penetration.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_pressure.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_sliding_distance](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_sliding_distance.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_status](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_status.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_surface_heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_surface_heat_flux.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [contact_total_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/contact_total_stress.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2171,6 +2319,8 @@ Upgraded documentation
 
 - [creep_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/creep_strain_energy_density.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
@@ -2181,15 +2331,19 @@ Upgraded documentation
 
 - [elastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/elastic_strain.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [elastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/elastic_strain_energy_density.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [elastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/elastic_strain_eqv.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2221,12 +2375,12 @@ Upgraded documentation
 
 - [electric_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/electric_field.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [electric_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/electric_flux_density.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [electric_potential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/electric_potential.md)
@@ -2241,10 +2395,14 @@ Upgraded documentation
 
 - [element_nodal_forces](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/element_nodal_forces.md)
 
-  > 0.1.0: split_force_components pin deprecated. To obtain rotation and temperature dofs please use the dedicated operator (element_nodal_moments, element_nodal_heat)Use the component selector to retrieve a specific derivative order. Components 0, 1 and 2 for stiffness. Components 3, 4 and 5 for damping. Components 6, 7 and 8 for inertia.
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
+  > 0.2.0: split_force_components pin deprecated. To obtain rotation and temperature dofs please use the dedicated operator (element_nodal_moments, element_nodal_heat). Use the component selector to retrieve a specific derivative order. Components 0, 1 and 2 for stiffness. Components 3, 4 and 5 for damping. Components 6, 7 and 8 for inertia.
 
 
 - [element_orientations](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/element_orientations.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2266,6 +2424,8 @@ Upgraded documentation
 
 - [eqv_stress_parameter](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/eqv_stress_parameter.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
@@ -2276,25 +2436,33 @@ Upgraded documentation
 
 - [gasket_inelastic_closure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/gasket_inelastic_closure.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [gasket_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/gasket_stress.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [gasket_thermal_closure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/gasket_thermal_closure.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [heat_flux](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/heat_flux.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [hydrostatic_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/hydrostatic_pressure.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2313,12 +2481,12 @@ Upgraded documentation
 
 - [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/magnetic_field.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [magnetic_flux_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/magnetic_flux_density.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [magnetic_scalar_potential](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/magnetic_scalar_potential.md)
@@ -2364,9 +2532,11 @@ Upgraded documentation
 
 - [nmisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/nmisc.md)
 
-  > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
-  > 2.0.0: averaging is blocked.
+  > 2.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
+
+  > 3.0.0: Averaging is blocked.
 
 
 - [nodal_to_global](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/nodal_to_global.md)
@@ -2378,25 +2548,33 @@ Upgraded documentation
 
 - [num_surface_status_changes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/num_surface_status_changes.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/plastic_state_variable.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/plastic_strain.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [plastic_strain_energy_density](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/plastic_strain_energy_density.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [plastic_strain_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/plastic_strain_eqv.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2460,9 +2638,11 @@ Upgraded documentation
 
 - [smisc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/smisc.md)
 
-  > 1.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
+  > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
-  > 2.0.0: averaging is blocked.
+  > 2.0.0: num_components input pin is removed, please use the item_index pin with a vector of indexes.
+
+  > 3.0.0: Averaging is blocked.
 
 
 - [spectrum_data](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/spectrum_data.md)
@@ -2471,6 +2651,8 @@ Upgraded documentation
 
 
 - [state_variable](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/state_variable.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2484,7 +2666,7 @@ Upgraded documentation
 
 - [stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/stress.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [stress_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/stress_intensity.md)
@@ -2514,6 +2696,8 @@ Upgraded documentation
 
 - [stress_ratio](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/stress_ratio.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
@@ -2524,10 +2708,14 @@ Upgraded documentation
 
 - [structural_temperature](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/structural_temperature.md)
 
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
+
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
 
 - [swelling_strains](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/swelling_strains.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2539,7 +2727,7 @@ Upgraded documentation
 
 - [temperature_grad](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/temperature_grad.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [thermal_dissipation_energy](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/thermal_dissipation_energy.md)
@@ -2549,7 +2737,7 @@ Upgraded documentation
 
 - [thermal_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/thermal_strain.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [thermal_strain_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/thermal_strain_principal_1.md)
@@ -2568,6 +2756,8 @@ Upgraded documentation
 
 
 - [thermal_strains_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/thermal_strains_eqv.md)
+
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
@@ -2588,7 +2778,7 @@ Upgraded documentation
 
 - [total_strain](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/total_strain.md)
 
-  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True
+  > 0.1.0: Add pin eExtendMidNodesPin to add/remove mid-nodes when averaging from ElementalNodal to Nodal. Default:True.
 
 
 - [transient_rayleigh_integration](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/transient_rayleigh_integration.md)
@@ -2624,6 +2814,8 @@ Upgraded documentation
   > 0.0.2: Performance improvement when scop1 is included in scop2. The operator will return scop1 without any transformation.
 
   > 0.0.3: Improve membership-check performance.
+
+  > 0.0.4: Reduce memory footprint and increase performance.
 
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/scoping/on_property.md)
@@ -2770,6 +2962,8 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Use numeric pin APIs for Any-typed pins.
+
 
 
 #### utility
@@ -2900,6 +3094,11 @@ Upgraded documentation
 - [strain_from_voigt_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/strain_from_voigt_fc.md)
 
   > 0.0.1: If empty fields container is provided, returns the same empty fields container.
+
+
+- [unitary_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/unitary_field.md)
+
+  > 0.1.0: Add support of fields with shell layers
 
 
 

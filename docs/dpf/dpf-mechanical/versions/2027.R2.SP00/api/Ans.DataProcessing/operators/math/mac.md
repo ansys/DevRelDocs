@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.mac
 
 # *class* mac(fields_containerA: object = None, fields_containerB: object = None, weights: object = None, config: OperatorConfig = None)
 
-Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v261/en/ans_thry/thy_post16.html)
+Computes the [Modal Assurance Criterion (MAC)](https://ansyshelp.ansys.com/public/Views/Secured/corp/v261/en/ans_thry/thy_post16.html)
 
 matrix between two sets of mode shapes.
 

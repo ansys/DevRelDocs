@@ -11,7 +11,7 @@ license: None
 ## Description
 
 
-Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication_and_square)
+Computes the standard [complex multiplication](https://en.wikipedia.org/wiki/Complex_number#Multiplication)
 $z_1 \cdot z_2$ for matching fields in two complex-valued fields containers:
 $\mathrm{Re}(z_\mathrm{out})[i] = \mathrm{Re}_1 \mathrm{Re}_2 - \mathrm{Im}_1 \mathrm{Im}_2$,
 $\mathrm{Im}(z_\mathrm{out})[i] = \mathrm{Re}_1 \mathrm{Im}_2 + \mathrm{Im}_1 \mathrm{Re}_2$.

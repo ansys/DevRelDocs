@@ -1,0 +1,16 @@
+# Get value on map
+
+- [GetColor](labvp_getcolor.md)
+- [GetColorSystemColorNames](labvp_getcolorsystemcolornames.md)
+- [GetCurrentColorSystem](labvp_getcurrentcolorsystem.md)
+- [GetGeneralCRI](labvp_getgeneralcri.md)
+- [GetPixelListOnSurface](labvp_getpixellistonsurface.md)
+- [GetPrecision](labvp_getprecision.md)
+- [GetSelectedLayer](labvp_getselectedlayer.md)
+- [GetSelectedLayersUser](labvp_getselectedlayersuser.md)
+- [GetValue](labvp_getvalue.md)
+- [GetValue1](labvp_getvalue1.md)
+- [GetValue2](labvp_getvalue2.md)
+- [GetValueEllipse](labvp_getvalueellipse.md)
+- [GetValueRectangle](labvp_getvaluerectangl.md)
+- [SetMinMax](labvp_setminmax.md)

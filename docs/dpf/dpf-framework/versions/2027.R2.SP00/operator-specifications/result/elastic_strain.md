@@ -16,14 +16,14 @@ Read/compute element nodal component elastic strains by calling the readers defi
 
 | Averaging is needed | 'split_shells'      | 'shell_layer' | Expected output |
 |---------------------|---------------------|---------------|-----------------|
-| No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present. |
-| No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present. |
+| No                  | Not connected/false | Not connected | Location as in the result file. Fields with all element shapes combined. All shell layers present.                |
+| No                  | true                | Not connected | Location as in the result file. Fields split according to element shapes. All shell layers present.               |
 | No                  | true                | Connected     | Location as in the result file. Fields split according to element shapes. Only the requested shell layer present. |
-| No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present. |
-| Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present. |
-| Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present. |
-| Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present. |
-| Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present. |
+| No                  | Not connected/false | Connected     | Location as in the result file. Fields with all element shapes combined. Only the requested shell layer present.  |
+| Yes                 | Not connected/true  | Not connected | Location as requested. Fields split according to element shapes. All shell layers present.                        |
+| Yes                 | false               | Not connected | Location as requested. Fields with all element shapes combined. All shell layers present.                         |
+| Yes                 | false               | Connected     | Location as requested. Fields with all element shapes combined. Only the requested shell layer present.           |
+| Yes                 | Not connected/true  | Connected     | Location as requested. Fields split according to element shapes. Only the requested shell layer present.          |
 - The available 'elshape' values are:
 
 | elshape | Related elements |
@@ -35,17 +35,17 @@ Read/compute element nodal component elastic strains by calling the readers defi
 | 5       | Contact          |
 | 6       | Load             |
 | 7       | Point            |
-| 8       | Shell with 1 result across thickness (membrane) |
-| 9       | Shell with 2 results across thickness (top/bottom) |
+| 8       | Shell with 1 result across thickness (membrane)        |
+| 9       | Shell with 2 results across thickness (top/bottom)     |
 | 10      | Shell with 3 results across thickness (top/bottom/mid) |
 | 11      | Gasket          |
-| 12      | Joint |
+| 12      | Joint           |
 | 13      | Pretension      |
-| 14      | Layered      |
+| 14      | Layered         |
 | 15      | ThickShell      |
-| 16      | Target      |
-| 17      | Plane      |
-| 18      | Pipe      |
+| 16      | Target          |
+| 17      | Plane           |
+| 18      | Pipe            |
 
 
 ## Inputs
@@ -120,7 +120,7 @@ result file path container, used if no streams are set
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-Rotate the result to the global coordinate system if rotations are available (default true). Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
+Rotate the result to the global coordinate system if rotations are available (default true). This input is ignored for PSD and Spectrum results. Please check your results carefully if 'false' is used for Elemental or ElementalNodal results averaged to the Nodes when adjacent elements do not share the same coordinate system, as results may be incorrect.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)

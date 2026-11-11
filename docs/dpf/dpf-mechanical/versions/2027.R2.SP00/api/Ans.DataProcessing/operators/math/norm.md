@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.math.norm
 
 # *class* norm(field: object = None, scalar_int: object = None, config: OperatorConfig = None)
 
-Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_(mathematics)#p-norm) of the component vector
+Computes the [$L_p$ norm](https://en.wikipedia.org/wiki/Norm_%28mathematics%29#p-norm) of the component vector
 
 for each entity in the field:
 
