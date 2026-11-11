@@ -1,0 +1,3 @@
+# Launching programs in the Thermal Desktop Process using add-ins
+
+All of the example programs presented in this document run as a separate process, communicating with Thermal Desktop instance(s) using interprocess communication. There is another option. OpenTD Add-Ins allow you to create programs using familiar OpenTD syntax that can be run as commands in Thermal Desktop. You can even add code to add GUI buttons to launch these commands. A full description of how to create Add-Ins is beyond the scope of this document. To learn more, see [https://www.crtech.com/forum/topic/create-your-own-td-add-version-63](https://www.crtech.com/forum/topic/create-your-own-td-add-version-63)

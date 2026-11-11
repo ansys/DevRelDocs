@@ -1,0 +1,1092 @@
+  items:
+  - name: OpenTD
+    href: net10-reference/OpenTD.md
+    items:
+    - name: Classes
+      items:
+      - name: AcEllipse
+        href: net10-reference/OpenTD.AcEllipse.md
+      - name: AdditionalRadiationTaskData
+        href: net10-reference/OpenTD.AdditionalRadiationTaskData.md
+      - name: AggregateComponentData
+        href: net10-reference/OpenTD.AggregateComponentData.md
+      - name: AggregateData
+        href: net10-reference/OpenTD.AggregateData.md
+      - name: Arc
+        href: net10-reference/OpenTD.Arc.md
+      - name: ArrayInterpolation
+        href: net10-reference/OpenTD.ArrayInterpolation.md
+      - name: ArxContext
+        href: net10-reference/OpenTD.ArxContext.md
+      - name: AutocadConfig
+        href: net10-reference/OpenTD.AutocadConfig.md
+      - name: AutocadLauncher
+        href: net10-reference/OpenTD.AutocadLauncher.md
+      - name: AutocadVariableData
+        href: net10-reference/OpenTD.AutocadVariableData.md
+      - name: BadDataException
+        href: net10-reference/OpenTD.BadDataException.md
+      - name: BatchControl
+        href: net10-reference/OpenTD.BatchControl.md
+      - name: BivariateArrayData
+        href: net10-reference/OpenTD.BivariateArrayData.md
+      - name: CaseSet
+        href: net10-reference/OpenTD.CaseSet.md
+      - name: CaseSetManager
+        href: net10-reference/OpenTD.CaseSetManager.md
+      - name: CaseSetManagerOptions
+        href: net10-reference/OpenTD.CaseSetManagerOptions.md
+      - name: Circle
+        href: net10-reference/OpenTD.Circle.md
+      - name: Conductor
+        href: net10-reference/OpenTD.Conductor.md
+      - name: Connection
+        href: net10-reference/OpenTD.Connection.md
+      - name: Contactor
+        href: net10-reference/OpenTD.Contactor.md
+      - name: DbObject
+        href: net10-reference/OpenTD.DbObject.md
+      - name: DimensionlessVector3d
+        href: net10-reference/OpenTD.DimensionlessVector3d.md
+      - name: Domains
+        href: net10-reference/OpenTD.Domains.md
+      - name: DynamicSindaStatus
+        href: net10-reference/OpenTD.DynamicSindaStatus.md
+      - name: ExportNodeInfoOptionsData
+        href: net10-reference/OpenTD.ExportNodeInfoOptionsData.md
+      - name: ExpressionArrayClass2Data
+        href: net10-reference/OpenTD.ExpressionArrayClass2Data.md
+      - name: ExpressionArrayClassData
+        href: net10-reference/OpenTD.ExpressionArrayClassData.md
+      - name: ExpressionData
+        href: net10-reference/OpenTD.ExpressionData.md
+      - name: FluintLogicData
+        href: net10-reference/OpenTD.FluintLogicData.md
+      - name: HeatLoad
+        href: net10-reference/OpenTD.HeatLoad.md
+      - name: Heater
+        href: net10-reference/OpenTD.Heater.md
+      - name: Helix
+        href: net10-reference/OpenTD.Helix.md
+      - name: KickerData
+        href: net10-reference/OpenTD.KickerData.md
+      - name: Layer
+        href: net10-reference/OpenTD.Layer.md
+      - name: Line
+        href: net10-reference/OpenTD.Line.md
+      - name: ListSI
+        href: net10-reference/OpenTD.ListSI.md
+      - name: ListSIFormatter
+        href: net10-reference/OpenTD.ListSIFormatter.md
+      - name: LogicObject
+        href: net10-reference/OpenTD.LogicObject.md
+      - name: LogicObjects
+        href: net10-reference/OpenTD.LogicObjects.md
+      - name: MaterialStack
+        href: net10-reference/OpenTD.MaterialStack.md
+      - name: MaterialStackLayerData
+        href: net10-reference/OpenTD.MaterialStackLayerData.md
+      - name: Matrix3d
+        href: net10-reference/OpenTD.Matrix3d.md
+      - name: Measure
+        href: net10-reference/OpenTD.Measure.md
+      - name: MeasureMappingTolerances
+        href: net10-reference/OpenTD.MeasureMappingTolerances.md
+      - name: MergeNodesOptionsData
+        href: net10-reference/OpenTD.MergeNodesOptionsData.md
+      - name: MeshDisplayer
+        href: net10-reference/OpenTD.MeshDisplayer.md
+      - name: Model
+        href: net10-reference/OpenTD.Model.md
+      - name: NameData
+        href: net10-reference/OpenTD.NameData.md
+      - name: NetworkLogicData
+        href: net10-reference/OpenTD.NetworkLogicData.md
+      - name: NetworkLogicUnits
+        href: net10-reference/OpenTD.NetworkLogicUnits.md
+      - name: Node
+        href: net10-reference/OpenTD.Node.md
+      - name: NodeBreakdownData
+        href: net10-reference/OpenTD.NodeBreakdownData.md
+      - name: Notes
+        href: net10-reference/OpenTD.Notes.md
+      - name: NurbsData
+        href: net10-reference/OpenTD.NurbsData.md
+      - name: OpenTDException
+        href: net10-reference/OpenTD.OpenTDException.md
+      - name: OpenTDObject
+        href: net10-reference/OpenTD.OpenTDObject.md
+      - name: OpticalPropAliasManager
+        href: net10-reference/OpenTD.OpticalPropAliasManager.md
+      - name: PID
+        href: net10-reference/OpenTD.PID.md
+      - name: Point2d
+        href: net10-reference/OpenTD.Point2d.md
+      - name: Point3d
+        href: net10-reference/OpenTD.Point3d.md
+      - name: Polyline
+        href: net10-reference/OpenTD.Polyline.md
+      - name: Polyline3d
+        href: net10-reference/OpenTD.Polyline3d.md
+      - name: PolylineVertex
+        href: net10-reference/OpenTD.PolylineVertex.md
+      - name: PressureLoad
+        href: net10-reference/OpenTD.PressureLoad.md
+      - name: Quaternion
+        href: net10-reference/OpenTD.Quaternion.md
+      - name: RadiationTaskData
+        href: net10-reference/OpenTD.RadiationTaskData.md
+      - name: RcHeaterSenseData
+        href: net10-reference/OpenTD.RcHeaterSenseData.md
+      - name: RegisterData
+        href: net10-reference/OpenTD.RegisterData.md
+      - name: Script
+        href: net10-reference/OpenTD.Script.md
+      - name: SelectionOptions
+        href: net10-reference/OpenTD.SelectionOptions.md
+      - name: SindaControlData
+        href: net10-reference/OpenTD.SindaControlData.md
+      - name: SindaCyclicData
+        href: net10-reference/OpenTD.SindaCyclicData.md
+      - name: SindaOptionsData
+        href: net10-reference/OpenTD.SindaOptionsData.md
+      - name: SolverControlData
+        href: net10-reference/OpenTD.SolverControlData.md
+      - name: SolverDesignData
+        href: net10-reference/OpenTD.SolverDesignData.md
+      - name: Spline
+        href: net10-reference/OpenTD.Spline.md
+      - name: StackAliasManager
+        href: net10-reference/OpenTD.StackAliasManager.md
+      - name: Submodel
+        href: net10-reference/OpenTD.Submodel.md
+      - name: SubmodelNameData
+        href: net10-reference/OpenTD.SubmodelNameData.md
+      - name: Symbol
+        href: net10-reference/OpenTD.Symbol.md
+      - name: TdConnectConfig
+        href: net10-reference/OpenTD.TdConnectConfig.md
+      - name: TdDbEntityData
+        href: net10-reference/OpenTD.TdDbEntityData.md
+      - name: Tec
+        href: net10-reference/OpenTD.Tec.md
+      - name: Text
+        href: net10-reference/OpenTD.Text.md
+      - name: ThermalDesktop
+        href: net10-reference/OpenTD.ThermalDesktop.md
+      - name: ThermalDesktopExtensions
+        href: net10-reference/OpenTD.ThermalDesktopExtensions.md
+      - name: ThermalLogicData
+        href: net10-reference/OpenTD.ThermalLogicData.md
+      - name: ThermoPropAliasManager
+        href: net10-reference/OpenTD.ThermoPropAliasManager.md
+      - name: ThermoProps
+        href: net10-reference/OpenTD.ThermoProps.md
+      - name: TimeoutProperties
+        href: net10-reference/OpenTD.TimeoutProperties.md
+      - name: Transformation
+        href: net10-reference/OpenTD.Transformation.md
+      - name: UCS
+        href: net10-reference/OpenTD.UCS.md
+      - name: UDFA
+        href: net10-reference/OpenTD.UDFA.md
+      - name: UDFACollection
+        href: net10-reference/OpenTD.UDFACollection.md
+      - name: UniqueNameObject
+        href: net10-reference/OpenTD.UniqueNameObject.md
+      - name: Units
+        href: net10-reference/OpenTD.Units.md
+      - name: UnitsData
+        href: net10-reference/OpenTD.UnitsData.md
+      - name: UnitsDefData
+        href: net10-reference/OpenTD.UnitsDefData.md
+      - name: UserArray
+        href: net10-reference/OpenTD.UserArray.md
+      - name: UserCode
+        href: net10-reference/OpenTD.UserCode.md
+      - name: Vector3d
+        href: net10-reference/OpenTD.Vector3d.md
+      - name: VisibilityManager
+        href: net10-reference/OpenTD.VisibilityManager.md
+      - name: XrefInfo
+        href: net10-reference/OpenTD.XrefInfo.md
+    - name: Structs
+      items:
+      - name: EntityDescriptor
+        href: net10-reference/OpenTD.EntityDescriptor.md
+    - name: Interfaces
+      items:
+      - name: IDbIterator
+        href: net10-reference/OpenTD.IDbIterator.md
+      - name: IDomainManager
+        href: net10-reference/OpenTD.IDomainManager.md
+      - name: ITdConsole
+        href: net10-reference/OpenTD.ITdConsole.md
+      - name: IUpdatable
+        href: net10-reference/OpenTD.IUpdatable.md
+    - name: Enums
+      items:
+      - name: AggregateData.WeightTypes
+        href: net10-reference/OpenTD.AggregateData.WeightTypes.md
+      - name: AutocadVariableData.Types
+        href: net10-reference/OpenTD.AutocadVariableData.Types.md
+      - name: CaseSetManagerOptions.DuplicateNodes
+        href: net10-reference/OpenTD.CaseSetManagerOptions.DuplicateNodes.md
+      - name: DomainType
+        href: net10-reference/OpenTD.DomainType.md
+      - name: ExportNodeInfoOptionsData.Datasets
+        href: net10-reference/OpenTD.ExportNodeInfoOptionsData.Datasets.md
+      - name: ExportNodeInfoOptionsData.Destinations
+        href: net10-reference/OpenTD.ExportNodeInfoOptionsData.Destinations.md
+      - name: ExportNodeInfoOptionsData.Locations
+        href: net10-reference/OpenTD.ExportNodeInfoOptionsData.Locations.md
+      - name: IsoViews
+        href: net10-reference/OpenTD.IsoViews.md
+      - name: LogicObject.LogicType
+        href: net10-reference/OpenTD.LogicObject.LogicType.md
+      - name: LogicObjectRoutineTypes
+        href: net10-reference/OpenTD.LogicObjectRoutineTypes.md
+      - name: MergeNodesOptionsData.KeepMethods
+        href: net10-reference/OpenTD.MergeNodesOptionsData.KeepMethods.md
+      - name: MeshDisplayerGraphicsMode
+        href: net10-reference/OpenTD.MeshDisplayerGraphicsMode.md
+      - name: NetworkLogicUnits.AbzroTypes
+        href: net10-reference/OpenTD.NetworkLogicUnits.AbzroTypes.md
+      - name: NetworkLogicUnits.PatmosTypes
+        href: net10-reference/OpenTD.NetworkLogicUnits.PatmosTypes.md
+      - name: NetworkLogicUnits.SindaUidTypes
+        href: net10-reference/OpenTD.NetworkLogicUnits.SindaUidTypes.md
+      - name: NetworkLogicUnits.UnitSystemTypes
+        href: net10-reference/OpenTD.NetworkLogicUnits.UnitSystemTypes.md
+      - name: NodeBreakdownData.SpacingType
+        href: net10-reference/OpenTD.NodeBreakdownData.SpacingType.md
+      - name: OrthoViews
+        href: net10-reference/OpenTD.OrthoViews.md
+      - name: PressureLoad.PressureTypes
+        href: net10-reference/OpenTD.PressureLoad.PressureTypes.md
+      - name: RadiationTaskData.NodeNameTypes
+        href: net10-reference/OpenTD.RadiationTaskData.NodeNameTypes.md
+      - name: RadiationTaskData.calcMethod
+        href: net10-reference/OpenTD.RadiationTaskData.calcMethod.md
+      - name: RadiationTaskData.calcType
+        href: net10-reference/OpenTD.RadiationTaskData.calcType.md
+      - name: RcHeaterSenseData.HeaterSenseTypes
+        href: net10-reference/OpenTD.RcHeaterSenseData.HeaterSenseTypes.md
+      - name: RegisterData.ValueType
+        href: net10-reference/OpenTD.RegisterData.ValueType.md
+      - name: SindaControlData.SolutionType
+        href: net10-reference/OpenTD.SindaControlData.SolutionType.md
+      - name: SolverControlData.GoalType
+        href: net10-reference/OpenTD.SolverControlData.GoalType.md
+      - name: TdConnectConfig.Types
+        href: net10-reference/OpenTD.TdConnectConfig.Types.md
+      - name: UDFA.UdfaInitType
+        href: net10-reference/OpenTD.UDFA.UdfaInitType.md
+      - name: UDFA.UdfaType
+        href: net10-reference/OpenTD.UDFA.UdfaType.md
+      - name: UDFA.ValueType
+        href: net10-reference/OpenTD.UDFA.ValueType.md
+      - name: UnitsData.Angle
+        href: net10-reference/OpenTD.UnitsData.Angle.md
+      - name: UnitsData.Current
+        href: net10-reference/OpenTD.UnitsData.Current.md
+      - name: UnitsData.Energy
+        href: net10-reference/OpenTD.UnitsData.Energy.md
+      - name: UnitsData.FlocadOutputUnitsType
+        href: net10-reference/OpenTD.UnitsData.FlocadOutputUnitsType.md
+      - name: UnitsData.Force
+        href: net10-reference/OpenTD.UnitsData.Force.md
+      - name: UnitsData.Mass
+        href: net10-reference/OpenTD.UnitsData.Mass.md
+      - name: UnitsData.ModelLength
+        href: net10-reference/OpenTD.UnitsData.ModelLength.md
+      - name: UnitsData.OrbitLength
+        href: net10-reference/OpenTD.UnitsData.OrbitLength.md
+      - name: UnitsData.Pressure
+        href: net10-reference/OpenTD.UnitsData.Pressure.md
+      - name: UnitsData.Resistance
+        href: net10-reference/OpenTD.UnitsData.Resistance.md
+      - name: UnitsData.Temp
+        href: net10-reference/OpenTD.UnitsData.Temp.md
+      - name: UnitsData.Time
+        href: net10-reference/OpenTD.UnitsData.Time.md
+      - name: UnitsData.UnitsType
+        href: net10-reference/OpenTD.UnitsData.UnitsType.md
+      - name: UnitsData.Voltage
+        href: net10-reference/OpenTD.UnitsData.Voltage.md
+      - name: VisualStyles
+        href: net10-reference/OpenTD.VisualStyles.md
+  - name: OpenTD.AddIn
+    href: net10-reference/OpenTD.AddIn.md
+    items:
+    - name: Classes
+      items:
+      - name: ProgressBar
+        href: net10-reference/OpenTD.AddIn.ProgressBar.md
+  - name: OpenTD.Dimension
+    href: net10-reference/OpenTD.Dimension.md
+    items:
+    - name: Classes
+      items:
+      - name: Angle
+        href: net10-reference/OpenTD.Dimension.Angle.md
+      - name: Area
+        href: net10-reference/OpenTD.Dimension.Area.md
+      - name: CondPerArea
+        href: net10-reference/OpenTD.Dimension.CondPerArea.md
+      - name: CondPerLength
+        href: net10-reference/OpenTD.Dimension.CondPerLength.md
+      - name: Conductance
+        href: net10-reference/OpenTD.Dimension.Conductance.md
+      - name: Current
+        href: net10-reference/OpenTD.Dimension.Current.md
+      - name: Density
+        href: net10-reference/OpenTD.Dimension.Density.md
+      - name: DimensionalIfPositiveList<T>
+        href: net10-reference/OpenTD.Dimension.DimensionalIfPositiveList-1.md
+      - name: DimensionalList2<T>
+        href: net10-reference/OpenTD.Dimension.DimensionalList2-1.md
+      - name: DimensionalList<T>
+        href: net10-reference/OpenTD.Dimension.DimensionalList-1.md
+      - name: Dimensionless
+        href: net10-reference/OpenTD.Dimension.Dimensionless.md
+      - name: DynamicViscosity
+        href: net10-reference/OpenTD.Dimension.DynamicViscosity.md
+      - name: Energy
+        href: net10-reference/OpenTD.Dimension.Energy.md
+      - name: EnergyPerArea
+        href: net10-reference/OpenTD.Dimension.EnergyPerArea.md
+      - name: EnergyPerLength
+        href: net10-reference/OpenTD.Dimension.EnergyPerLength.md
+      - name: EnergyPerMass
+        href: net10-reference/OpenTD.Dimension.EnergyPerMass.md
+      - name: Enthalpy
+        href: net10-reference/OpenTD.Dimension.Enthalpy.md
+      - name: Entropy
+        href: net10-reference/OpenTD.Dimension.Entropy.md
+      - name: Flux
+        href: net10-reference/OpenTD.Dimension.Flux.md
+      - name: Force
+        href: net10-reference/OpenTD.Dimension.Force.md
+      - name: Gravity
+        href: net10-reference/OpenTD.Dimension.Gravity.md
+      - name: HeatRate
+        href: net10-reference/OpenTD.Dimension.HeatRate.md
+      - name: HeatRatePerVolume
+        href: net10-reference/OpenTD.Dimension.HeatRatePerVolume.md
+      - name: Inertial
+        href: net10-reference/OpenTD.Dimension.Inertial.md
+      - name: InversePressure
+        href: net10-reference/OpenTD.Dimension.InversePressure.md
+      - name: InverseVolume
+        href: net10-reference/OpenTD.Dimension.InverseVolume.md
+      - name: Mass
+        href: net10-reference/OpenTD.Dimension.Mass.md
+      - name: MassFlowRate
+        href: net10-reference/OpenTD.Dimension.MassFlowRate.md
+      - name: MassFlowratePerEnthalpy
+        href: net10-reference/OpenTD.Dimension.MassFlowratePerEnthalpy.md
+      - name: MassFlowratePerPressure
+        href: net10-reference/OpenTD.Dimension.MassFlowratePerPressure.md
+      - name: MassFlux
+        href: net10-reference/OpenTD.Dimension.MassFlux.md
+      - name: MassPerLength
+        href: net10-reference/OpenTD.Dimension.MassPerLength.md
+      - name: ModelLength
+        href: net10-reference/OpenTD.Dimension.ModelLength.md
+      - name: MomentOfInertia
+        href: net10-reference/OpenTD.Dimension.MomentOfInertia.md
+      - name: OrbitLength
+        href: net10-reference/OpenTD.Dimension.OrbitLength.md
+      - name: OrbitVelocity
+        href: net10-reference/OpenTD.Dimension.OrbitVelocity.md
+      - name: Pressure
+        href: net10-reference/OpenTD.Dimension.Pressure.md
+      - name: PressurePerVolume
+        href: net10-reference/OpenTD.Dimension.PressurePerVolume.md
+      - name: Resistivity
+        href: net10-reference/OpenTD.Dimension.Resistivity.md
+      - name: Rotation
+        href: net10-reference/OpenTD.Dimension.Rotation.md
+      - name: SpecificHeat
+        href: net10-reference/OpenTD.Dimension.SpecificHeat.md
+      - name: StefanBoltzmann
+        href: net10-reference/OpenTD.Dimension.StefanBoltzmann.md
+      - name: SurfaceTension
+        href: net10-reference/OpenTD.Dimension.SurfaceTension.md
+      - name: Temp
+        href: net10-reference/OpenTD.Dimension.Temp.md
+      - name: TempAbs
+        href: net10-reference/OpenTD.Dimension.TempAbs.md
+      - name: ThermalMass
+        href: net10-reference/OpenTD.Dimension.ThermalMass.md
+      - name: Time
+        href: net10-reference/OpenTD.Dimension.Time.md
+      - name: Torque
+        href: net10-reference/OpenTD.Dimension.Torque.md
+      - name: Unknown
+        href: net10-reference/OpenTD.Dimension.Unknown.md
+      - name: Velocity
+        href: net10-reference/OpenTD.Dimension.Velocity.md
+      - name: Voltage
+        href: net10-reference/OpenTD.Dimension.Voltage.md
+      - name: VoltsPerTemp
+        href: net10-reference/OpenTD.Dimension.VoltsPerTemp.md
+      - name: Volume
+        href: net10-reference/OpenTD.Dimension.Volume.md
+      - name: VolumeFlowRate
+        href: net10-reference/OpenTD.Dimension.VolumeFlowRate.md
+    - name: Structs
+      items:
+      - name: Dimensional<T>
+        href: net10-reference/OpenTD.Dimension.Dimensional-1.md
+      - name: DimensionalIfPositive<T>
+        href: net10-reference/OpenTD.Dimension.DimensionalIfPositive-1.md
+    - name: Interfaces
+      items:
+      - name: IDimension
+        href: net10-reference/OpenTD.Dimension.IDimension.md
+  - name: OpenTD.FloCAD
+    href: net10-reference/OpenTD.FloCAD.md
+    items:
+    - name: Classes
+      items:
+      - name: Bay
+        href: net10-reference/OpenTD.FloCAD.Bay.md
+      - name: Cappmp
+        href: net10-reference/OpenTD.FloCAD.Cappmp.md
+      - name: Compartment
+        href: net10-reference/OpenTD.FloCAD.Compartment.md
+      - name: CompartmentTie
+        href: net10-reference/OpenTD.FloCAD.CompartmentTie.md
+      - name: FTie
+        href: net10-reference/OpenTD.FloCAD.FTie.md
+      - name: FkLocator
+        href: net10-reference/OpenTD.FloCAD.FkLocator.md
+      - name: FluidSubmodel
+        href: net10-reference/OpenTD.FloCAD.FluidSubmodel.md
+      - name: IFace
+        href: net10-reference/OpenTD.FloCAD.IFace.md
+      - name: Lump
+        href: net10-reference/OpenTD.FloCAD.Lump.md
+      - name: Path
+        href: net10-reference/OpenTD.FloCAD.Path.md
+      - name: Pipe
+        href: net10-reference/OpenTD.FloCAD.Pipe.md
+      - name: PipeStdSignatureData
+        href: net10-reference/OpenTD.FloCAD.PipeStdSignatureData.md
+      - name: PipeStdUtility
+        href: net10-reference/OpenTD.FloCAD.PipeStdUtility.md
+      - name: PipeTie
+        href: net10-reference/OpenTD.FloCAD.PipeTie.md
+      - name: Port
+        href: net10-reference/OpenTD.FloCAD.Port.md
+      - name: Tee
+        href: net10-reference/OpenTD.FloCAD.Tee.md
+      - name: Tie
+        href: net10-reference/OpenTD.FloCAD.Tie.md
+    - name: Enums
+      items:
+      - name: PipeTie.WallLocations
+        href: net10-reference/OpenTD.FloCAD.PipeTie.WallLocations.md
+  - name: OpenTD.Internal.Communication
+    href: net10-reference/OpenTD.Internal.Communication.md
+    items:
+    - name: Classes
+      items:
+      - name: AdditionalUnitsSettings
+        href: net10-reference/OpenTD.Internal.Communication.AdditionalUnitsSettings.md
+      - name: OpenTDPipeServer
+        href: net10-reference/OpenTD.Internal.Communication.OpenTDPipeServer.md
+      - name: PipeService
+        href: net10-reference/OpenTD.Internal.Communication.PipeService.md
+      - name: StatusData
+        href: net10-reference/OpenTD.Internal.Communication.StatusData.md
+      - name: TdData
+        href: net10-reference/OpenTD.Internal.Communication.TdData.md
+      - name: TdProtocol
+        href: net10-reference/OpenTD.Internal.Communication.TdProtocol.md
+      - name: TdRequest
+        href: net10-reference/OpenTD.Internal.Communication.TdRequest.md
+      - name: TdRequestEncoder
+        href: net10-reference/OpenTD.Internal.Communication.TdRequestEncoder.md
+      - name: TdResponse
+        href: net10-reference/OpenTD.Internal.Communication.TdResponse.md
+      - name: TdResponseEncoder
+        href: net10-reference/OpenTD.Internal.Communication.TdResponseEncoder.md
+    - name: Enums
+      items:
+      - name: OpenTDPipeServer.States
+        href: net10-reference/OpenTD.Internal.Communication.OpenTDPipeServer.States.md
+      - name: TdErrorCode
+        href: net10-reference/OpenTD.Internal.Communication.TdErrorCode.md
+  - name: OpenTD.Logging
+    href: net10-reference/OpenTD.Logging.md
+    items:
+    - name: Classes
+      items:
+      - name: Logger
+        href: net10-reference/OpenTD.Logging.Logger.md
+      - name: LoggerFactory
+        href: net10-reference/OpenTD.Logging.LoggerFactory.md
+  - name: OpenTD.PostProcessing
+    href: net10-reference/OpenTD.PostProcessing.md
+    items:
+    - name: Classes
+      items:
+      - name: AdditionalCompareInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalCompareInfo.md
+      - name: AdditionalDatasetInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalDatasetInfo.md
+      - name: AdditionalHeatFlowInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalHeatFlowInfo.md
+      - name: AdditionalHeatFlowMapInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalHeatFlowMapInfo.md
+      - name: AdditionalHeatrateInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalHeatrateInfo.md
+      - name: AdditionalRadkInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalRadkInfo.md
+      - name: AdditionalSindaInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalSindaInfo.md
+      - name: AdditionalTextInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalTextInfo.md
+      - name: AdditionalTextTransientInfo
+        href: net10-reference/OpenTD.PostProcessing.AdditionalTextTransientInfo.md
+      - name: DataMapper
+        href: net10-reference/OpenTD.PostProcessing.DataMapper.md
+      - name: Dataset
+        href: net10-reference/OpenTD.PostProcessing.Dataset.md
+      - name: DatasetManager
+        href: net10-reference/OpenTD.PostProcessing.DatasetManager.md
+      - name: StressThermalGroupAssociation
+        href: net10-reference/OpenTD.PostProcessing.StressThermalGroupAssociation.md
+    - name: Enums
+      items:
+      - name: AdditionalHeatrateInfo.SourceTypes
+        href: net10-reference/OpenTD.PostProcessing.AdditionalHeatrateInfo.SourceTypes.md
+      - name: AdditionalRadkInfo.DisplayTypes
+        href: net10-reference/OpenTD.PostProcessing.AdditionalRadkInfo.DisplayTypes.md
+      - name: AdditionalSindaInfo.MultiTimeSelectOptions
+        href: net10-reference/OpenTD.PostProcessing.AdditionalSindaInfo.MultiTimeSelectOptions.md
+      - name: DataMapper.FileFormats
+        href: net10-reference/OpenTD.PostProcessing.DataMapper.FileFormats.md
+      - name: DataMapper.MapObjectsOptions
+        href: net10-reference/OpenTD.PostProcessing.DataMapper.MapObjectsOptions.md
+      - name: Dataset.DataSourceTypes
+        href: net10-reference/OpenTD.PostProcessing.Dataset.DataSourceTypes.md
+      - name: Dataset.PlotMliNodes
+        href: net10-reference/OpenTD.PostProcessing.Dataset.PlotMliNodes.md
+  - name: OpenTD.RadCAD
+    href: net10-reference/OpenTD.RadCAD.md
+    items:
+    - name: Classes
+      items:
+      - name: AnalysisGroupSurfaceInfo
+        href: net10-reference/OpenTD.RadCAD.AnalysisGroupSurfaceInfo.md
+      - name: AnalysisGroupVolumetricInfo
+        href: net10-reference/OpenTD.RadCAD.AnalysisGroupVolumetricInfo.md
+      - name: Assembly
+        href: net10-reference/OpenTD.RadCAD.Assembly.md
+      - name: Cone
+        href: net10-reference/OpenTD.RadCAD.Cone.md
+      - name: Cylinder
+        href: net10-reference/OpenTD.RadCAD.Cylinder.md
+      - name: Disk
+        href: net10-reference/OpenTD.RadCAD.Disk.md
+      - name: Ellipse
+        href: net10-reference/OpenTD.RadCAD.Ellipse.md
+      - name: Ellipsoid
+        href: net10-reference/OpenTD.RadCAD.Ellipsoid.md
+      - name: EllipticCone
+        href: net10-reference/OpenTD.RadCAD.EllipticCone.md
+      - name: EllipticCylinder
+        href: net10-reference/OpenTD.RadCAD.EllipticCylinder.md
+      - name: FEMeshImporter
+        href: net10-reference/OpenTD.RadCAD.FEMeshImporter.md
+      - name: Face
+        href: net10-reference/OpenTD.RadCAD.Face.md
+      - name: GlobalContact
+        href: net10-reference/OpenTD.RadCAD.GlobalContact.md
+      - name: MeshFD
+        href: net10-reference/OpenTD.RadCAD.MeshFD.md
+      - name: OffsetParaboloid
+        href: net10-reference/OpenTD.RadCAD.OffsetParaboloid.md
+      - name: Ogive
+        href: net10-reference/OpenTD.RadCAD.Ogive.md
+      - name: OpticalProps
+        href: net10-reference/OpenTD.RadCAD.OpticalProps.md
+      - name: Orbit
+        href: net10-reference/OpenTD.RadCAD.Orbit.md
+      - name: OrbitDateTime
+        href: net10-reference/OpenTD.RadCAD.OrbitDateTime.md
+      - name: OrbitParameters
+        href: net10-reference/OpenTD.RadCAD.OrbitParameters.md
+      - name: ParabolicTrough
+        href: net10-reference/OpenTD.RadCAD.ParabolicTrough.md
+      - name: Paraboloid
+        href: net10-reference/OpenTD.RadCAD.Paraboloid.md
+      - name: PlanetParameters
+        href: net10-reference/OpenTD.RadCAD.PlanetParameters.md
+      - name: Polygon
+        href: net10-reference/OpenTD.RadCAD.Polygon.md
+      - name: RadiationAnalysisGroupManager
+        href: net10-reference/OpenTD.RadCAD.RadiationAnalysisGroupManager.md
+      - name: RcConicData
+        href: net10-reference/OpenTD.RadCAD.RcConicData.md
+      - name: RcEntityData
+        href: net10-reference/OpenTD.RadCAD.RcEntityData.md
+      - name: Rectangle
+        href: net10-reference/OpenTD.RadCAD.Rectangle.md
+      - name: ScarfedCone
+        href: net10-reference/OpenTD.RadCAD.ScarfedCone.md
+      - name: ScarfedCylinder
+        href: net10-reference/OpenTD.RadCAD.ScarfedCylinder.md
+      - name: Sphere
+        href: net10-reference/OpenTD.RadCAD.Sphere.md
+      - name: TempVsWaveLengthData
+        href: net10-reference/OpenTD.RadCAD.TempVsWaveLengthData.md
+      - name: Torus
+        href: net10-reference/OpenTD.RadCAD.Torus.md
+      - name: Tracker
+        href: net10-reference/OpenTD.RadCAD.Tracker.md
+    - name: Enums
+      items:
+      - name: FEMeshImporter.ImporterFiletype
+        href: net10-reference/OpenTD.RadCAD.FEMeshImporter.ImporterFiletype.md
+      - name: InsulationNodeSubmodelIdOptions
+        href: net10-reference/OpenTD.RadCAD.InsulationNodeSubmodelIdOptions.md
+      - name: Orbit.OrbitTypes
+        href: net10-reference/OpenTD.RadCAD.Orbit.OrbitTypes.md
+      - name: Orbit.OrientTypes
+        href: net10-reference/OpenTD.RadCAD.Orbit.OrientTypes.md
+      - name: Orbit.Planets
+        href: net10-reference/OpenTD.RadCAD.Orbit.Planets.md
+      - name: OrbitParameters.ShapeTypes
+        href: net10-reference/OpenTD.RadCAD.OrbitParameters.ShapeTypes.md
+      - name: RcEntityData.Active
+        href: net10-reference/OpenTD.RadCAD.RcEntityData.Active.md
+      - name: RcEntityData.IdType
+        href: net10-reference/OpenTD.RadCAD.RcEntityData.IdType.md
+      - name: RcEntityData.InsulationNodeSubmodelIdOption
+        href: net10-reference/OpenTD.RadCAD.RcEntityData.InsulationNodeSubmodelIdOption.md
+      - name: RcEntityData.NodePositionsType
+        href: net10-reference/OpenTD.RadCAD.RcEntityData.NodePositionsType.md
+      - name: RcEntityData.VolumetricParticipation
+        href: net10-reference/OpenTD.RadCAD.RcEntityData.VolumetricParticipation.md
+  - name: OpenTD.RadCAD.FEM
+    href: net10-reference/OpenTD.RadCAD.FEM.md
+    items:
+    - name: Classes
+      items:
+      - name: LinearBrick
+        href: net10-reference/OpenTD.RadCAD.FEM.LinearBrick.md
+      - name: LinearPyramid
+        href: net10-reference/OpenTD.RadCAD.FEM.LinearPyramid.md
+      - name: LinearQuad
+        href: net10-reference/OpenTD.RadCAD.FEM.LinearQuad.md
+      - name: LinearTet
+        href: net10-reference/OpenTD.RadCAD.FEM.LinearTet.md
+      - name: LinearTri
+        href: net10-reference/OpenTD.RadCAD.FEM.LinearTri.md
+      - name: LinearWedge
+        href: net10-reference/OpenTD.RadCAD.FEM.LinearWedge.md
+      - name: QuadraticBrick
+        href: net10-reference/OpenTD.RadCAD.FEM.QuadraticBrick.md
+      - name: QuadraticPyramid
+        href: net10-reference/OpenTD.RadCAD.FEM.QuadraticPyramid.md
+      - name: QuadraticQuad
+        href: net10-reference/OpenTD.RadCAD.FEM.QuadraticQuad.md
+      - name: QuadraticTet
+        href: net10-reference/OpenTD.RadCAD.FEM.QuadraticTet.md
+      - name: QuadraticTri
+        href: net10-reference/OpenTD.RadCAD.FEM.QuadraticTri.md
+      - name: QuadraticWedge
+        href: net10-reference/OpenTD.RadCAD.FEM.QuadraticWedge.md
+      - name: RcSolidElement
+        href: net10-reference/OpenTD.RadCAD.FEM.RcSolidElement.md
+      - name: RcSurfaceElement
+        href: net10-reference/OpenTD.RadCAD.FEM.RcSurfaceElement.md
+  - name: OpenTD.RadCAD.FEModel
+    href: net10-reference/OpenTD.RadCAD.FEModel.md
+    items:
+    - name: Classes
+      items:
+      - name: CoordinateSystem
+        href: net10-reference/OpenTD.RadCAD.FEModel.CoordinateSystem.md
+      - name: Domain
+        href: net10-reference/OpenTD.RadCAD.FEModel.Domain.md
+      - name: EdgeDomain
+        href: net10-reference/OpenTD.RadCAD.FEModel.EdgeDomain.md
+      - name: EdgeSpec
+        href: net10-reference/OpenTD.RadCAD.FEModel.EdgeSpec.md
+      - name: Element
+        href: net10-reference/OpenTD.RadCAD.FEModel.Element.md
+      - name: FEMesh
+        href: net10-reference/OpenTD.RadCAD.FEModel.FEMesh.md
+      - name: FaceDomain
+        href: net10-reference/OpenTD.RadCAD.FEModel.FaceDomain.md
+      - name: FaceSpec
+        href: net10-reference/OpenTD.RadCAD.FEModel.FaceSpec.md
+      - name: IdDomain
+        href: net10-reference/OpenTD.RadCAD.FEModel.IdDomain.md
+      - name: LayerData
+        href: net10-reference/OpenTD.RadCAD.FEModel.LayerData.md
+      - name: Node
+        href: net10-reference/OpenTD.RadCAD.FEModel.Node.md
+      - name: Quaternion
+        href: net10-reference/OpenTD.RadCAD.FEModel.Quaternion.md
+      - name: SolidElement
+        href: net10-reference/OpenTD.RadCAD.FEModel.SolidElement.md
+      - name: SurfaceElement
+        href: net10-reference/OpenTD.RadCAD.FEModel.SurfaceElement.md
+  - name: OpenTD.RadCAD.FdSolid
+    href: net10-reference/OpenTD.RadCAD.FdSolid.md
+    items:
+    - name: Classes
+      items:
+      - name: AnalysisGroupSolidInfo
+        href: net10-reference/OpenTD.RadCAD.FdSolid.AnalysisGroupSolidInfo.md
+      - name: RcFdSolidData
+        href: net10-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.md
+      - name: SolidBrick
+        href: net10-reference/OpenTD.RadCAD.FdSolid.SolidBrick.md
+      - name: SolidCone
+        href: net10-reference/OpenTD.RadCAD.FdSolid.SolidCone.md
+      - name: SolidCylinder
+        href: net10-reference/OpenTD.RadCAD.FdSolid.SolidCylinder.md
+      - name: SolidEllipsoid
+        href: net10-reference/OpenTD.RadCAD.FdSolid.SolidEllipsoid.md
+      - name: SolidSphere
+        href: net10-reference/OpenTD.RadCAD.FdSolid.SolidSphere.md
+    - name: Enums
+      items:
+      - name: RcFdSolidData.Active
+        href: net10-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.Active.md
+      - name: RcFdSolidData.MliNodeTypes
+        href: net10-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.MliNodeTypes.md
+      - name: RcFdSolidData.NodePositionsType
+        href: net10-reference/OpenTD.RadCAD.FdSolid.RcFdSolidData.NodePositionsType.md
+  - name: OpenTD.Results
+    href: net10-reference/OpenTD.Results.md
+    items:
+    - name: Classes
+      items:
+      - name: Class1
+        href: net10-reference/OpenTD.Results.Class1.md
+  - name: OpenTD.Results.Dataset
+    href: net10-reference/OpenTD.Results.Dataset.md
+    items:
+    - name: Classes
+      items:
+      - name: AverageDataArray
+        href: net10-reference/OpenTD.Results.Dataset.AverageDataArray.md
+      - name: Browser
+        href: net10-reference/OpenTD.Results.Dataset.Browser.md
+      - name: CSR
+        href: net10-reference/OpenTD.Results.Dataset.CSR.md
+      - name: CompareAssertion
+        href: net10-reference/OpenTD.Results.Dataset.CompareAssertion.md
+      - name: CompareData
+        href: net10-reference/OpenTD.Results.Dataset.CompareData.md
+      - name: CompareSuite
+        href: net10-reference/OpenTD.Results.Dataset.CompareSuite.md
+      - name: Comparer
+        href: net10-reference/OpenTD.Results.Dataset.Comparer.md
+      - name: ConcatenatedDataset
+        href: net10-reference/OpenTD.Results.Dataset.ConcatenatedDataset.md
+      - name: ConductorHeat
+        href: net10-reference/OpenTD.Results.Dataset.ConductorHeat.md
+      - name: DataArray
+        href: net10-reference/OpenTD.Results.Dataset.DataArray.md
+      - name: DataArrayCollection
+        href: net10-reference/OpenTD.Results.Dataset.DataArrayCollection.md
+      - name: DataArrayEnumerator
+        href: net10-reference/OpenTD.Results.Dataset.DataArrayEnumerator.md
+      - name: DataItemIdentifier
+        href: net10-reference/OpenTD.Results.Dataset.DataItemIdentifier.md
+      - name: DataItemIdentifierCollection
+        href: net10-reference/OpenTD.Results.Dataset.DataItemIdentifierCollection.md
+      - name: DataSubtype
+        href: net10-reference/OpenTD.Results.Dataset.DataSubtype.md
+      - name: Dataset
+        href: net10-reference/OpenTD.Results.Dataset.Dataset.md
+      - name: DatasetFactory
+        href: net10-reference/OpenTD.Results.Dataset.DatasetFactory.md
+      - name: DatasetSlice
+        href: net10-reference/OpenTD.Results.Dataset.DatasetSlice.md
+      - name: DerivedDataArray
+        href: net10-reference/OpenTD.Results.Dataset.DerivedDataArray.md
+      - name: DerivedDataset
+        href: net10-reference/OpenTD.Results.Dataset.DerivedDataset.md
+      - name: FormulaDataArray
+        href: net10-reference/OpenTD.Results.Dataset.FormulaDataArray.md
+      - name: HeatratesBetween
+        href: net10-reference/OpenTD.Results.Dataset.HeatratesBetween.md
+      - name: ItemIdentifier
+        href: net10-reference/OpenTD.Results.Dataset.ItemIdentifier.md
+      - name: ItemIdentifierCollection
+        href: net10-reference/OpenTD.Results.Dataset.ItemIdentifierCollection.md
+      - name: MaxDataArray
+        href: net10-reference/OpenTD.Results.Dataset.MaxDataArray.md
+      - name: MinDataArray
+        href: net10-reference/OpenTD.Results.Dataset.MinDataArray.md
+      - name: NodeConductorHeatrates
+        href: net10-reference/OpenTD.Results.Dataset.NodeConductorHeatrates.md
+      - name: NodeHeatrates
+        href: net10-reference/OpenTD.Results.Dataset.NodeHeatrates.md
+      - name: NodeTieHeatrates
+        href: net10-reference/OpenTD.Results.Dataset.NodeTieHeatrates.md
+      - name: OneSubtypeDerivedDataArray
+        href: net10-reference/OpenTD.Results.Dataset.OneSubtypeDerivedDataArray.md
+      - name: PercentDifferenceCompareData
+        href: net10-reference/OpenTD.Results.Dataset.PercentDifferenceCompareData.md
+      - name: RadkDatabase
+        href: net10-reference/OpenTD.Results.Dataset.RadkDatabase.md
+      - name: SaveFile
+        href: net10-reference/OpenTD.Results.Dataset.SaveFile.md
+      - name: SaveXFile
+        href: net10-reference/OpenTD.Results.Dataset.SaveXFile.md
+      - name: SelectMaxDataArray
+        href: net10-reference/OpenTD.Results.Dataset.SelectMaxDataArray.md
+      - name: SelectMinDataArray
+        href: net10-reference/OpenTD.Results.Dataset.SelectMinDataArray.md
+      - name: SelectOneDataArray
+        href: net10-reference/OpenTD.Results.Dataset.SelectOneDataArray.md
+      - name: SimpleDataset
+        href: net10-reference/OpenTD.Results.Dataset.SimpleDataset.md
+      - name: SpreadsheetDataFile
+        href: net10-reference/OpenTD.Results.Dataset.SpreadsheetDataFile.md
+      - name: SumDataArray
+        href: net10-reference/OpenTD.Results.Dataset.SumDataArray.md
+      - name: TextTransientFile
+        href: net10-reference/OpenTD.Results.Dataset.TextTransientFile.md
+      - name: TieHeat
+        href: net10-reference/OpenTD.Results.Dataset.TieHeat.md
+      - name: UDFADescriptor
+        href: net10-reference/OpenTD.Results.Dataset.UDFADescriptor.md
+      - name: WeightedAverageDataArray
+        href: net10-reference/OpenTD.Results.Dataset.WeightedAverageDataArray.md
+    - name: Structs
+      items:
+      - name: Exceedance
+        href: net10-reference/OpenTD.Results.Dataset.Exceedance.md
+      - name: ExceedancePlot
+        href: net10-reference/OpenTD.Results.Dataset.ExceedancePlot.md
+      - name: FullStandardDataSubtype
+        href: net10-reference/OpenTD.Results.Dataset.FullStandardDataSubtype.md
+    - name: Interfaces
+      items:
+      - name: IBasicDataset
+        href: net10-reference/OpenTD.Results.Dataset.IBasicDataset.md
+      - name: IBrowser
+        href: net10-reference/OpenTD.Results.Dataset.IBrowser.md
+      - name: ICompareData
+        href: net10-reference/OpenTD.Results.Dataset.ICompareData.md
+      - name: IComparerInput
+        href: net10-reference/OpenTD.Results.Dataset.IComparerInput.md
+      - name: IComparerOutput
+        href: net10-reference/OpenTD.Results.Dataset.IComparerOutput.md
+      - name: IDataset
+        href: net10-reference/OpenTD.Results.Dataset.IDataset.md
+      - name: ISimpleDataset
+        href: net10-reference/OpenTD.Results.Dataset.ISimpleDataset.md
+    - name: Enums
+      items:
+      - name: ArrayIntegerNames
+        href: net10-reference/OpenTD.Results.Dataset.ArrayIntegerNames.md
+      - name: DataSubtype.ValueTypes
+        href: net10-reference/OpenTD.Results.Dataset.DataSubtype.ValueTypes.md
+      - name: DataTypeFamilies
+        href: net10-reference/OpenTD.Results.Dataset.DataTypeFamilies.md
+      - name: DataTypes
+        href: net10-reference/OpenTD.Results.Dataset.DataTypes.md
+      - name: FluidConstituents
+        href: net10-reference/OpenTD.Results.Dataset.FluidConstituents.md
+      - name: IntegerNames
+        href: net10-reference/OpenTD.Results.Dataset.IntegerNames.md
+      - name: ItemIdentifier.Types
+        href: net10-reference/OpenTD.Results.Dataset.ItemIdentifier.Types.md
+      - name: StandardDataSubtypes
+        href: net10-reference/OpenTD.Results.Dataset.StandardDataSubtypes.md
+      - name: UDFAType
+        href: net10-reference/OpenTD.Results.Dataset.UDFAType.md
+  - name: OpenTD.Results.Dataset.Topology
+    href: net10-reference/OpenTD.Results.Dataset.Topology.md
+    items:
+    - name: Classes
+      items:
+      - name: DatasetTopology
+        href: net10-reference/OpenTD.Results.Dataset.Topology.DatasetTopology.md
+      - name: IFaceInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IFaceInfo.md
+      - name: ObjectInfoBase
+        href: net10-reference/OpenTD.Results.Dataset.Topology.ObjectInfoBase.md
+      - name: PathInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.PathInfo.md
+      - name: SindaName
+        href: net10-reference/OpenTD.Results.Dataset.Topology.SindaName.md
+    - name: Interfaces
+      items:
+      - name: IConductorInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IConductorInfo.md
+      - name: IDatasetTopology
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IDatasetTopology.md
+      - name: IFTieInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IFTieInfo.md
+      - name: IIFaceInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IIFaceInfo.md
+      - name: ILumpInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.ILumpInfo.md
+      - name: INodeInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.INodeInfo.md
+      - name: IObjectInfoBase
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IObjectInfoBase.md
+      - name: IPathInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IPathInfo.md
+      - name: ITieInfo
+        href: net10-reference/OpenTD.Results.Dataset.Topology.ITieInfo.md
+    - name: Enums
+      items:
+      - name: FTieType
+        href: net10-reference/OpenTD.Results.Dataset.Topology.FTieType.md
+      - name: IFaceType
+        href: net10-reference/OpenTD.Results.Dataset.Topology.IFaceType.md
+      - name: LumpType
+        href: net10-reference/OpenTD.Results.Dataset.Topology.LumpType.md
+      - name: NodeType
+        href: net10-reference/OpenTD.Results.Dataset.Topology.NodeType.md
+      - name: PathType
+        href: net10-reference/OpenTD.Results.Dataset.Topology.PathType.md
+      - name: TieType
+        href: net10-reference/OpenTD.Results.Dataset.Topology.TieType.md
+  - name: OpenTD.Results.Plot
+    href: net10-reference/OpenTD.Results.Plot.md
+    items:
+    - name: Classes
+      items:
+      - name: Axis
+        href: net10-reference/OpenTD.Results.Plot.Axis.md
+      - name: AxisStyle
+        href: net10-reference/OpenTD.Results.Plot.AxisStyle.md
+      - name: DefaultStyles
+        href: net10-reference/OpenTD.Results.Plot.DefaultStyles.md
+      - name: Grid
+        href: net10-reference/OpenTD.Results.Plot.Grid.md
+      - name: Legend
+        href: net10-reference/OpenTD.Results.Plot.Legend.md
+      - name: LegendStyle
+        href: net10-reference/OpenTD.Results.Plot.LegendStyle.md
+      - name: Plot2d
+        href: net10-reference/OpenTD.Results.Plot.Plot2d.md
+      - name: Plot2dStyle
+        href: net10-reference/OpenTD.Results.Plot.Plot2dStyle.md
+      - name: Series2d
+        href: net10-reference/OpenTD.Results.Plot.Series2d.md
+      - name: Series2dCollection
+        href: net10-reference/OpenTD.Results.Plot.Series2dCollection.md
+      - name: Series2dStyle
+        href: net10-reference/OpenTD.Results.Plot.Series2dStyle.md
+      - name: SimplePlot
+        href: net10-reference/OpenTD.Results.Plot.SimplePlot.md
+    - name: Enums
+      items:
+      - name: Axis.Positions
+        href: net10-reference/OpenTD.Results.Plot.Axis.Positions.md
+      - name: PlotColorPalette
+        href: net10-reference/OpenTD.Results.Plot.PlotColorPalette.md
+      - name: PlotDashStyle
+        href: net10-reference/OpenTD.Results.Plot.PlotDashStyle.md
+      - name: PlotDocking
+        href: net10-reference/OpenTD.Results.Plot.PlotDocking.md
+      - name: PlotLegendItemOrder
+        href: net10-reference/OpenTD.Results.Plot.PlotLegendItemOrder.md
+      - name: PlotLegendTableStyle
+        href: net10-reference/OpenTD.Results.Plot.PlotLegendTableStyle.md
+      - name: PlotMarkerStyle
+        href: net10-reference/OpenTD.Results.Plot.PlotMarkerStyle.md
+      - name: PlotTextOrientation
+        href: net10-reference/OpenTD.Results.Plot.PlotTextOrientation.md
+  - name: OpenTD.Results.Plot.Internal
+    href: net10-reference/OpenTD.Results.Plot.Internal.md
+    items:
+    - name: Classes
+      items:
+      - name: SimplePlotDialog
+        href: net10-reference/OpenTD.Results.Plot.Internal.SimplePlotDialog.md
+  - name: OpenTD.Results.Utility
+    href: net10-reference/OpenTD.Results.Utility.md
+    items:
+    - name: Classes
+      items:
+      - name: BinaryFileReader<T>
+        href: net10-reference/OpenTD.Results.Utility.BinaryFileReader-1.md
+  - name: OpenTD.UserInterface
+    href: net10-reference/OpenTD.UserInterface.md
+    items:
+    - name: Classes
+      items:
+      - name: StandardOutput
+        href: net10-reference/OpenTD.UserInterface.StandardOutput.md
+      - name: WriteEventArgs
+        href: net10-reference/OpenTD.UserInterface.WriteEventArgs.md
+  - name: OpenTD.UserInterface.Forms
+    href: net10-reference/OpenTD.UserInterface.Forms.md
+    items:
+    - name: Classes
+      items:
+      - name: OutputBox
+        href: net10-reference/OpenTD.UserInterface.Forms.OutputBox.md
+      - name: OutputDialog
+        href: net10-reference/OpenTD.UserInterface.Forms.OutputDialog.md
+  - name: OpenTD.UserPreferences
+    href: net10-reference/OpenTD.UserPreferences.md
+    items:
+    - name: Classes
+      items:
+      - name: Acceleration
+        href: net10-reference/OpenTD.UserPreferences.Acceleration.md
+      - name: AdvancedPreferences
+        href: net10-reference/OpenTD.UserPreferences.AdvancedPreferences.md
+      - name: CalculationsPreferences
+        href: net10-reference/OpenTD.UserPreferences.CalculationsPreferences.md
+      - name: GraphicsResolutionPreferences
+        href: net10-reference/OpenTD.UserPreferences.GraphicsResolutionPreferences.md
+      - name: GraphicsSizePreferences
+        href: net10-reference/OpenTD.UserPreferences.GraphicsSizePreferences.md
+      - name: GraphicsTextPreferences
+        href: net10-reference/OpenTD.UserPreferences.GraphicsTextPreferences.md
+      - name: GraphicsVisibilityPreferences
+        href: net10-reference/OpenTD.UserPreferences.GraphicsVisibilityPreferences.md
+      - name: SindaPreferences
+        href: net10-reference/OpenTD.UserPreferences.SindaPreferences.md
+      - name: UnitsPreferences
+        href: net10-reference/OpenTD.UserPreferences.UnitsPreferences.md
+      - name: UserPreferences
+        href: net10-reference/OpenTD.UserPreferences.UserPreferences.md
+  - name: OpenTD.Utility
+    href: net10-reference/OpenTD.Utility.md
+    items:
+    - name: Classes
+      items:
+      - name: DoubleUtility
+        href: net10-reference/OpenTD.Utility.DoubleUtility.md
+      - name: FileUtility
+        href: net10-reference/OpenTD.Utility.FileUtility.md
+      - name: FileWatcher
+        href: net10-reference/OpenTD.Utility.FileWatcher.md
+      - name: ListUtility
+        href: net10-reference/OpenTD.Utility.ListUtility.md
+      - name: ObjectMapper
+        href: net10-reference/OpenTD.Utility.ObjectMapper.md
+      - name: PropertyMap
+        href: net10-reference/OpenTD.Utility.PropertyMap.md
+      - name: StringExtensions
+        href: net10-reference/OpenTD.Utility.StringExtensions.md
+      - name: StringUtility
+        href: net10-reference/OpenTD.Utility.StringUtility.md
+      - name: UniqueItemList<T>
+        href: net10-reference/OpenTD.Utility.UniqueItemList-1.md
+    - name: Structs
+      items:
+      - name: RootedPathname
+        href: net10-reference/OpenTD.Utility.RootedPathname.md
