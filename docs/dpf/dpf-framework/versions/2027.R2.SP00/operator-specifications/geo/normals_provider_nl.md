@@ -4,13 +4,17 @@ plugin: core
 license: None
 ---
 
-# geo:normals provider nl (nodes, faces, or elements)
+# geo:normals provider nl (deprecated)
 
 **Version: 0.0.0**
 
 ## Description
 
-Computes the normals on nodes/faces/elements based on integration points (more accurate for non-linear elements) on a skin mesh.
+
+DEPRECATED: Use normals_provider instead.
+Compatibility entry point for normals_provider.
+Computes nodal, face, elemental, and elemental-nodal normals using integration points on a skin mesh.
+
 
 ## Inputs
 

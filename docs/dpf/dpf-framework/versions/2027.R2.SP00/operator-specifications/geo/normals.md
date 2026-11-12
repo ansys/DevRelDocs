@@ -10,7 +10,10 @@ license: None
 
 ## Description
 
-compute the normals at the given nodes or element scoping based on the given mesh (first version, the element normal is only handled on the shell elements)
+
+Computes normals on skin, face, or shell meshes using the enhanced normals implementation.
+Supports nodal, face, elemental, and elemental-nodal locations, including quadratic elements.
+
 
 ## Inputs
 
@@ -22,7 +25,8 @@ Each parameter is detailed in the sections that follow the table.
 |------------|------|--------|------------------|
 | <strong>0</strong> | [mesh](#input_0) |  |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |
 | <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>3</strong> | [field](#input_3) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>2</strong> | [field](#input_2) |  |[`field`](../../core-concepts/dpf-types.md#field) |
+| <strong>9</strong> | [requested_location](#input_9) |  |[`string`](../../core-concepts/dpf-types.md#standard-types) |
 
 
 <a id="input_0"></a>
@@ -31,7 +35,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Skin, face, or shell mesh region. If omitted, the mesh is taken from the field input.
 
 <a id="input_1"></a>
 ### mesh_scoping (Pin 1)
@@ -39,15 +43,23 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
+Optional scoping. If omitted with a field input, the field scoping is used.
 
-
-<a id="input_3"></a>
-### field (Pin 3)
+<a id="input_2"></a>
+### field (Pin 2)
 
 - **Required:** No
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
+If mesh pin 0 is not connected, the field support supplies mesh and scoping unless pin 1 is connected.
 
+<a id="input_9"></a>
+### requested_location (Pin 9)
+
+- **Required:** No
+- **Expected type(s):** [`string`](../../core-concepts/dpf-types.md#standard-types)
+
+Selects output location when scoping is omitted or is Elemental or ElementalNodal. Defaults to Elemental for element meshes and Faces for face-only meshes.
 
 
 ## Outputs
@@ -113,7 +125,8 @@ Each example shows how to instantiate the operator, connect the required inputs,
 ansys::dpf::Operator op("normals_provider"); // operator instantiation
 op.connect(0, my_mesh);
 op.connect(1, my_mesh_scoping);
-op.connect(3, my_field);
+op.connect(2, my_field);
+op.connect(9, my_requested_location);
 ansys::dpf::Field my_field = op.getOutput<ansys::dpf::Field>(0);
 ```
 </details>
@@ -128,6 +141,7 @@ op = dpf.operators.geo.normals() # operator instantiation
 op.inputs.mesh.connect(my_mesh)
 op.inputs.mesh_scoping.connect(my_mesh_scoping)
 op.inputs.field.connect(my_field)
+op.inputs.requested_location.connect(my_requested_location)
 my_field = op.outputs.field()
 ```
 </details>
@@ -143,6 +157,7 @@ op = dpf.operators.geo.normals() # operator instantiation
 op.inputs.mesh.Connect(my_mesh)
 op.inputs.mesh_scoping.Connect(my_mesh_scoping)
 op.inputs.field.Connect(my_field)
+op.inputs.requested_location.Connect(my_requested_location)
 my_field = op.outputs.field.GetData()
 ```
 </details>

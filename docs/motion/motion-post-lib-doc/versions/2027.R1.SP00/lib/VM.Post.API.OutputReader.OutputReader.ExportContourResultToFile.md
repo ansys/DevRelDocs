@@ -1,4 +1,6 @@
 # Method ExportContourResultToFile
+<div align="right"><a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Post_API_OutputReader_OutputReader_ExportContourResultToFile_System_String_System_IO_FileMode_System_Collections_Generic_IList_System_Int32__System_String_VM_Models_ContourMappingType_System_String_VM_Models_AnalysisResultType_VM_Models_FileFormatType_"></a>
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
@@ -54,15 +56,18 @@ Specifies the output file format. `TXT` writes the text table and `BINARY` write
 
 ```python
 # Build the output file path.
-# PATH : path to the folder where exported files are written
-# RFR_CONTOUR_OUTPUT_FILENAME : output filename for contour data
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# RFR_CONTOUR_OUTPUT_FILENAME : output filename for contour data (e.g., ExportContourResultToFile.txt)
+# The path of the exported contour result file.
 output_path = os.path.join(PATH, RFR_CONTOUR_OUTPUT_FILENAME)
 
 # Get the state list.
 state_ids = output_reader.GetStateIDArray()
 
 # Export contour data for one body.
+# The name of the target finite-element body.
 entity_name = "FEBody_01"
+# The characteristic/component path of the result.
 characteristic_name = "Top Stress/X"
 output_reader.ExportContourResultToFile(
     output_path,
@@ -136,19 +141,23 @@ Specifies the output file format. `TXT` writes the text table and `BINARY` write
 
 ```python
 # Build the output file path.
-# PATH : path to the folder where exported files are written
-# RFR_CONTOUR_OUTPUT_FILENAME : output filename for contour data
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# RFR_CONTOUR_OUTPUT_FILENAME : output filename for contour data (e.g., ExportContourResultToFile.txt)
+# The path of the exported contour result file.
 output_path = os.path.join(PATH, RFR_CONTOUR_OUTPUT_FILENAME)
 
 # Get the state list.
 state_ids = output_reader.GetStateIDArray()
 
 # Build the entity name list.
+# The name of the target finite-element body.
 entity_name = "FEBody_01"
+# The full names of the entities whose surfaces generate the sound pressure.
 body_names = List[str]()
 body_names.Add(entity_name)
 
 # Export contour data for multiple bodies.
+# The characteristic/component path of the result.
 characteristic_name = "Top Stress/X"
 output_reader.ExportContourResultToFile(
     output_path,
@@ -173,5 +182,3 @@ This method exports contour results to a specified file path.
 <Note>
 An invalid state ID, entity name, mapping type, result path, or output path can cause export to fail.
 </Note>
-
-<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportContourResultToFile.md">Download this page as Markdown</a>

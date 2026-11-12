@@ -1,4 +1,6 @@
 # Get Curve Data
+<div align="right"><a href="/document/result-file-reader/feature/rfr_get_curve_data.md" download="rfr_get_curve_data.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers curve-data operations provided by [`OutputReader`](../../../lib/VM.Post.API.OutputReader.OutputReader.md), including reading curve data and building new points from supplied curve arrays.
 
 The resulting curve data stays available in memory for further curve processing.
@@ -10,5 +12,3 @@ Read curve data with `GetCurves(PlotParameters)`. [`Target`](../../../lib/VM.Mod
 
 ## Interpolating
 Build a new set of points from X and Y arrays with [`InterpolationAkimaSpline(double[], double[], int, int, double, double)`](../../../lib/VM.Post.API.OutputReader.OutputReader.InterpolationAkimaSpline.md). The result includes [`InterpolationErrorType`](../../../lib/VM.Models.Post.InterpolationErrorType.md) together with the new X and Y arrays. Adjacent duplicate X values are removed before interpolation runs.
-
-<a href="/document/result-file-reader/feature/rfr_get_curve_data.md" download="rfr_get_curve_data.md">Download this page as Markdown</a>

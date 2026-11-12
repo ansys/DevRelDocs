@@ -4,7 +4,11 @@ uid: Ans.DataProcessing.operators.geo.normals_provider_nl
 
 # *class* normals_provider_nl(mesh: object = None, mesh_scoping: object = None, requested_location: object = None, config: OperatorConfig = None)
 
-Computes the normals on nodes/faces/elements based on integration points (more accurate for non-linear elements) on a skin mesh.
+DEPRECATED: Use normals_provider instead.
+
+Compatibility entry point for normals_provider.
+
+Computes nodal, face, elemental, and elemental-nodal normals using integration points on a skin mesh.
 
 available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping) (optional), `requested_location` (string) (optional)
 

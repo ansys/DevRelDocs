@@ -1,4 +1,5 @@
 # Introduction
+<div align="right"><a href="/index.md" download="index.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
 
 The Ansys Motion Standalone Postprocessor C# Library provides scripting and automation interfaces for Ansys Motion Standalone Postprocessor workflows. The library is divided into two APIs with different execution models.
 
@@ -25,5 +26,3 @@ The **API Reference** documents the public classes, interfaces, methods, and pro
 ## Downloads
 
 Click [Postprocessor API Resources](Resources.zip) and download the available resources, including API modules, result files, and example scripts.
-
-<a href="/index.md" download="index.md">Download this page as Markdown</a>

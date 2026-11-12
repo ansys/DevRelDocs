@@ -1,4 +1,6 @@
 # Method CreateLineDataSeries
+<div align="right"><a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel_CreateLineDataSeries_System_String_System_String_System_String_System_String_System_String_"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
@@ -45,24 +47,35 @@ Created [`IOperationsLineDataSeriesAxisViewModel`](VM.Operations.Post.Interfaces
 ```python
 # Get the page and create a chart to hold the curve.
 page = application_handler.GetActivePage()
+# The name of the new chart view.
 chart_name = "Chart"
+# The chart view created on the page.
 chart = page.CreateChart(chart_name)
 
 # Add a curve to the chart from the result file.
+# The characteristic/component paths of the curves to add, in "Characteristic/Component" format.
 curve_paths = List[str]()
+# The characteristic/component path of the curve to add, in "Characteristic/Component" format.
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
+# The name of the target entity.
 entity_name = "Crank"
+# The parameters that specify the target and curve paths of the plot.
 parameters = PlotParameters()
 parameters.Paths = curve_paths
 parameters.Target = entity_name
-# RESULT_FILE_PATH : .dfr result file path
+# RESULT_FILE_PATH : .dfr result file path (e.g., D:\PostprocessorAPI\Results\Tutorial_ModalFlex.dfr)
+# The curves added to the chart view.
 curves = chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Create axis data for the curve from the selected result target.
+# The name of the characteristic.
 characteristic_name = "Displacement"
+# The name of the component.
 component_name = "Y"
+# The name of the new coordinate system.
 coordinate_system_name = "Inertia"
+# The line data series created from the result file.
 line_data_series = curves[0].CreateLineDataSeries(RESULT_FILE_PATH, entity_name, characteristic_name, component_name, coordinate_system_name)
 ```
 
@@ -75,7 +88,6 @@ The returned axis data can be assigned to [`SourceX`](VM.Operations.Post.Interfa
 Creates source-axis data through an obsolete overload with separate parent and child target names.
 
 ```csharp
-[Obsolete("This method is considered outdated and its use is discouraged.", true)]
 IOperationsLineDataSeriesAxisViewModel CreateLineDataSeries(string filepath, string parent, string fullTarget, string subTarget, string characteristic, string component, string csys)
 ```
 
@@ -118,5 +130,3 @@ Created [`IOperationsLineDataSeriesAxisViewModel`](VM.Operations.Post.Interfaces
 ### Remarks
 
 This method is obsolete. Use `CreateLineDataSeries(string, string, string, string, string)` instead.
-
-<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md" download="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.CreateLineDataSeries.md">Download this page as Markdown</a>

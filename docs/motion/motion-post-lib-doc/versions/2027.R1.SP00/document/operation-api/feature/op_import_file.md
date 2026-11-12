@@ -1,17 +1,19 @@
 # Import File
+<div align="right"><a href="/document/operation-api/feature/op_import_file.md" download="op_import_file.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers importing a result file with [`ApplicationHandler`](../../../lib/VM.API.Post.Operations.ApplicationHandler.md) and adding values from a numeric file as curve data to [`IOperationsChartViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.md).
 
 ## Analysis Result
 Use `ApplicationHandler` to import a result file. For more information, see [Operation API Getting Started](../getting-started/getting_started_operation_api_using_py.md#api-entry-point).
 
-A `.dfr` result file contains simulation analysis results. Use [`AddDocument(IList<string>)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddDocument.md) to import one or more result files.
+A .dfr result file contains simulation analysis results. Use [`AddDocument(IList<string>)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddDocument.md) to import one or more result files.
 
 When the imported result file is the only open result file and no view exists yet, [`AddDocument(IList<string>)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddDocument.md) also creates an [`IPage`](../../../lib/VM.Operations.Post.Interfaces.IPage.md) that contains an animation [`IView`](../../../lib/VM.Operations.Post.Interfaces.IView.md) of the result. Both are active after the import. For more information about the page, see [Manage Page](op_manage_page.md).
 
 Later, call [`GetDocument(string)`](../../../lib/VM.API.Post.Operations.ApplicationHandler.GetDocument.md) with the same file path to retrieve the open [`IOperationDocument`](../../../lib/VM.ViewModels.Post.Interfaces.IOperationDocument.md).
 Retrieve [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md) from the returned `IOperationDocument` with [`GetAnalysisResultViewModel(AnalysisResultType)`](../../../lib/VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md) or [`GetAnalysisResultViewModel(Guid)`](../../../lib/VM.ViewModels.Post.Interfaces.IOperationDocument.GetAnalysisResultViewModel.md).
 
-For a dynamic analysis result, select `Dynamics` from [`AnalysisResultType`](../../../lib/VM.Models.AnalysisResultType.md) to use [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md). For an eigenvalue analysis result, select `Eigenvalue` to use [`IOperationsEigenValueAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
+For a dynamic analysis result, select Dynamics from [`AnalysisResultType`](../../../lib/VM.Models.AnalysisResultType.md) to use [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md). For an eigenvalue analysis result, select Eigenvalue to use [`IOperationsEigenValueAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
 
 Use the returned `IAnalysisResultViewModel` to create an animation or chart view, see [Manage View](op_manage_view.md).
 
@@ -24,15 +26,13 @@ Use [`ImportNumeric(string, List<INumericParameter>)`](../../../lib/VM.Operation
 
 The input file can be in any of the following formats:
 
-- `*.txt`
-- `*.csv`
-- `*.out`
-- `*.rsp`
+- *.txt
+- *.csv
+- *.out
+- *.rsp
 
 After the import, the resulting curve data is available for:
 
-- Get and manage the imported curve data, see [Manage a Curve](op_manage_curve.md).
-- Transform the imported curve data, see [Postprocess a Curve](op_postprocess_curve.md).
-- Configure the imported curve data, see [Curve Properties](op_curve_properties.md).
-
-<a href="/document/operation-api/feature/op_import_file.md" download="op_import_file.md">Download this page as Markdown</a>
+- [Manage a Curve](op_manage_curve.md)
+- [Postprocess a Curve](op_postprocess_curve.md)
+- [Curve Properties](op_curve_properties.md)

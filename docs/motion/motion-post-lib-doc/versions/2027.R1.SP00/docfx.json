@@ -1,14 +1,14 @@
 {
-    "build":  {
-                  "globalMetadata":  {
-                                         "title":  "Motion Standalone Postprocessor C# library 2027 R1",
-                                         "summary":  "Motion Standalone Postprocessor C# library 2027 R1",
-                                         "version":  "2027 R1",
-                                         "product":  "Motion",
-                                         "programming language":  "C#",
-                                         "product collection":  "Structures",
-                                         "physics":  "Structures",
-                                         "pdf":  true
-                                     }
-              }
+  "build": {
+    "globalMetadata": {
+      "title": "Motion Standalone Postprocessor C# library 2027 R1",
+      "summary": "Motion Standalone Postprocessor C# library 2027 R1",
+      "version": "2027 R1",
+      "product": "Motion",
+      "programming language": "C#",
+      "product collection": "Structures",
+      "physics": "Structures",
+      "pdf": true
+    }
+  }
 }

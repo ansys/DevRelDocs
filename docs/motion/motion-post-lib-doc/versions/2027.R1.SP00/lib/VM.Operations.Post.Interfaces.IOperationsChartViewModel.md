@@ -1,4 +1,6 @@
 # Interface IOperationsChartViewModel
+<div align="right"><a href="/lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsChartViewModel.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Operations_Post_Interfaces_IOperationsChartViewModel"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
@@ -58,5 +60,3 @@ Time(sec)   Value
 Each row is trimmed, and every run of spaces or tabs is read as a single column break, so the row is handled like the comma-separated `.csv` row. The first row is a header unless it already holds numbers, and each later row holds one sample.
 
 A `.rsp` file must be a binary RPC III file, so it cannot be read as a text table. The file stores one named channel for each data column, and each channel holds the ordered sample values used as the X or Y source selected by `targets`.
-
-<a href="/lib/VM.Operations.Post.Interfaces.IOperationsChartViewModel.md" download="VM.Operations.Post.Interfaces.IOperationsChartViewModel.md">Download this page as Markdown</a>

@@ -1,4 +1,6 @@
 # Get Vector Data
+<div align="right"><a href="/document/result-file-reader/feature/rfr_get_vector_data.md" download="rfr_get_vector_data.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers vector-data operations provided by [`OutputReader`](../../../lib/VM.Post.API.OutputReader.OutputReader.md), including creating vector definitions, reading vector values, and exporting vector results.
 
 The resulting vector data can be processed in memory or saved for use outside `OutputReader`.
@@ -12,6 +14,4 @@ Use a selected characteristic path to read vector data with [`GetVector(string, 
 Read vector data with `GetVector(string, string)`, or pick a different analysis result with `GetVector(string, string, AnalysisResultType)`. The returned dictionary contains the vector data for the requested target and path.
 
 ## Exporting
-Export already-created vector definitions with [`ExportVectorDisplayToFile(string, int[], IEnumerable<object>, bool, bool, bool, AnalysisResultType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md). Export straight from a target and path instead with [`ExportVectorDisplayToFile(string, int[], string, string, bool, bool, bool, AnalysisResultType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md), without creating a vector definition first. Either overload accepts the state IDs obtained from `GetStateIDArray()`, see [Read Result Information](rfr_read_result_information.md).
-
-<a href="/document/result-file-reader/feature/rfr_get_vector_data.md" download="rfr_get_vector_data.md">Download this page as Markdown</a>
+Export already-created vector definitions with [`ExportVectorDisplayToFile(string, int[], IEnumerable<object>, bool, bool, bool, AnalysisResultType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md). Export straight from a target and path instead with [`ExportVectorDisplayToFile(string, int[], string, string, bool, bool, bool, AnalysisResultType)`](../../../lib/VM.Post.API.OutputReader.OutputReader.ExportVectorDisplayToFile.md), without creating a vector definition first. Either overload accepts the state IDs obtained from [`GetStateIDArray()`](../../../lib/VM.Post.API.OutputReader.OutputReader.GetStateIDArray.md), see [Read Result Information](rfr_read_result_information.md).

@@ -1,4 +1,5 @@
 # Overview
+<div align="right"><a href="/document/operation-api/overview/overview_operation_api.md" download="overview_operation_api.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
 
 The Operation API provides an in-process Python interface for automating operations in the running Ansys Motion Standalone Postprocessor. Its entry point exposes operations for loading result documents, organizing pages and views, configuring animation and chart data, and running supported analyses.
 
@@ -27,5 +28,3 @@ For downloadable API modules, result files, and example scripts, see [Introducti
 | [Manage Expression](../feature/op_manage_expression.md) | Create, get, and remove expressions for a dynamic analysis result. |
 | [Manage an Analysis Result](../feature/op_manage_analysis_result.md) | Read contour and curve metadata, read result state, and create contours. |
 | [Run an Analysis](../feature/op_run_analysis.md) | Run fatigue and sound-pressure analysis operations. |
-
-<a href="/document/operation-api/overview/overview_operation_api.md" download="overview_operation_api.md">Download this page as Markdown</a>

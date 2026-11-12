@@ -1,4 +1,6 @@
 # Manage a Curve
+<div align="right"><a href="/document/operation-api/feature/op_manage_curve.md" download="op_manage_curve.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers adding, finding, removing, and exporting curve data in [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md). A curve added here can be used as input to a curve operation, see [Postprocess a Curve](op_postprocess_curve.md), and its look can be set through [Curve Properties](op_curve_properties.md).
 
 ## Creating
@@ -20,5 +22,3 @@ Remove a curve with [`Remove(string)`](../../../lib/VM.Operations.Post.Interface
 
 ## Exporting
 Export curve data to a chosen path with [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md). The exported data can then be used outside the chart.
-
-<a href="/document/operation-api/feature/op_manage_curve.md" download="op_manage_curve.md">Download this page as Markdown</a>

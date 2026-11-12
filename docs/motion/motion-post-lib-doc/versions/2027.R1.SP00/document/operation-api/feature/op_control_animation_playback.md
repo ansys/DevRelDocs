@@ -1,4 +1,6 @@
 # Control Animation Playback
+<div align="right"><a href="/document/operation-api/feature/op_control_animation_playback.md" download="op_control_animation_playback.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers loading frames with [`IOperationsDynamicAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md) or [`IOperationsEigenValueAnalysisResultViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md), and playing, recording, stopping, and choosing a frame with [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md). The loaded frames give the animation view something to show and give recording something to capture.
 
 ## Loading
@@ -27,5 +29,3 @@ Stop playback with [`StopAnimation()`](../../../lib/VM.Operations.Post.Interface
 
 ## Managing the Current Frame
 Move to a specific loaded frame with [`MoveToAnimationFrame(int)`](../../../lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.MoveToAnimationFrame.md), for either a dynamic or an eigenvalue result. The animation view then shows that frame.
-
-<a href="/document/operation-api/feature/op_control_animation_playback.md" download="op_control_animation_playback.md">Download this page as Markdown</a>

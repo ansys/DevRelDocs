@@ -1,4 +1,6 @@
 # Constructor PostprocessorRemotingUtil
+<div align="right"><a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.-ctor.md" download="VM.Windows.Post.PostprocessorRemotingUtil.-ctor.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Windows_Post_PostprocessorRemotingUtil__ctor_System_Version_System_String_"></a>
 
 Namespace: [VM.Windows.Post](VM.Windows.Post.md)  
@@ -51,5 +53,3 @@ The Postprocessor version used to build the remoting endpoint and launch argumen
  ArgumentNullException
 
 Thrown when <code class="paramref">version</code> is <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/null">null</a>.
-
-<a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.-ctor.md" download="VM.Windows.Post.PostprocessorRemotingUtil.-ctor.md">Download this page as Markdown</a>

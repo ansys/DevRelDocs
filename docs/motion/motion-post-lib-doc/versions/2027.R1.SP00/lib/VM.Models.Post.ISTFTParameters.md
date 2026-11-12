@@ -1,4 +1,6 @@
 # Interface ISTFTParameters
+<div align="right"><a href="/lib/VM.Models.Post.ISTFTParameters.md" download="VM.Models.Post.ISTFTParameters.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Models_Post_ISTFTParameters"></a>
 
 Namespace: [VM.Models.Post](VM.Models.Post.md)  
@@ -57,5 +59,3 @@ Gets or sets the start of the time range taken from the source signal for the ST
  [TimeSlice](VM.Models.Post.ISTFTParameters.TimeSlice.md\#VM\_Models\_Post\_ISTFTParameters\_TimeSlice)
 
 Gets or sets the time length of one STFT window. It sets how much of the source signal each window covers.
-
-<a href="/lib/VM.Models.Post.ISTFTParameters.md" download="VM.Models.Post.ISTFTParameters.md">Download this page as Markdown</a>

@@ -1,4 +1,6 @@
 # Class PlotParameters
+<div align="right"><a href="/lib/VM.Models.OutputReader.PlotParameters.md" download="VM.Models.OutputReader.PlotParameters.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Models_OutputReader_PlotParameters"></a>
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
@@ -22,7 +24,7 @@ Set a coordinate-system marker object to read the selected paths relative to tha
 
 Gets or sets the characteristic and component paths to read from [`Target`](VM.Models.OutputReader.PlotParameters.Target.md).
 
-Each value combines a characteristic and component with a slash, such as <code>Displacement/Magnitude</code>.
+Each value combines a characteristic and component with a slash, such as `Displacement/Magnitude`.
 
  [PlotDataType](VM.Models.OutputReader.PlotParameters.PlotDataType.md\#VM\_Models\_OutputReader\_PlotParameters\_PlotDataType)
 
@@ -34,6 +36,4 @@ Gets or sets the result data source used to read curve values.
 
 Gets or sets the full name of the entity whose curve data is read.
 
-The value identifies an entity available in the opened result document, such as <code>Crank</code> or a body component path such as <code>FEBody_01/Node/1</code>.
-
-<a href="/lib/VM.Models.OutputReader.PlotParameters.md" download="VM.Models.OutputReader.PlotParameters.md">Download this page as Markdown</a>
+The value identifies an entity available in the opened result document, such as `Crank` or a body component path such as `FEBody_01/Node/1`.

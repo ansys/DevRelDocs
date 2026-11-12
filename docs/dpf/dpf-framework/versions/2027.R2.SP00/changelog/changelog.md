@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-10-22).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-02).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,9 +8,11 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
-| femutils | [1 item](#Features_femutils) |[1 item](#Fixes_femutils) |
-| mapdl | [1 item](#Features_mapdl) | |
-| mesh |  |[1 item](#Fixes_mesh) |
+| femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
+| mapdl | [1 item](#Features_mapdl) |[1 item](#Fixes_mapdl) |
+| mesh |  |[2 items](#Fixes_mesh) |
+| misc |  |[1 item](#Fixes_misc) |
+| native |  |[1 item](#Fixes_native) |
 
 
 ## femutils
@@ -24,6 +26,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Unify normals provider behavior:
+  > 
+  >
+  > Use enhanced normal calculations behind the canonical normals operator. Keep the previous operator name for existing scripts. The canonical operator supports the same output locations and element types as the enhanced implementation.
+  >
+  > 
+  >
+  > 
 
 - Fix cyclic expansion for reaction forces when high low bounds are constrained:
   > Fix cyclic expansion for reaction forces when high low bounds are constrained
@@ -39,14 +50,51 @@ The following table shows which components have updates in each category.
   >
   > 
 
+### <a id="Fixes_mapdl"></a> Fixes
+
+- Fix ASEC beam section Geometry issue:
+  > 
+  >
+  > 
 ## mesh
 
 ### <a id="Fixes_mesh"></a> Fixes
+
+- Unify normals provider behavior:
+  > 
+  >
+  > Use enhanced normal calculations behind the canonical normals operator. Keep the previous operator name for existing scripts. The canonical operator supports the same output locations and element types as the enhanced implementation.
+  >
+  > 
+  >
+  > 
 
 - Use pin 1 for level-set union in combine_levelset:
   > 
   >
   > The combined field now uses both inputs and keeps the lower value at each matching location.
+  >
+  > 
+  >
+  > 
+## misc
+
+### <a id="Fixes_misc"></a> Fixes
+
+- Remove agent paths from generated API directory names:
+  > 
+  >
+  > Normalize generated C++ API directory names so they stay stable across different build environments.
+  >
+  > 
+  >
+  > 
+## native
+
+### <a id="Fixes_native"></a> Fixes
+
+- Fix accumulate operator for specific context, extend make_unit capabilities:
+  > - Fix for accumulate operator: entities with elementary data were not treated properly, provoking crashes.
   >
   > 
   >
@@ -920,9 +968,16 @@ The following table shows which components have updates in each category.
   > 0.0.4: Fix exception short-circuit data race during parallel execution.
 
 
+- [extend_to_mid_nodes](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/extend_to_mid_nodes.md)
+
+  > 0.1.0: Expose an optional elemental scoping for nodal extension.
+
+
 - [extend_to_mid_nodes_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/extend_to_mid_nodes_fc.md)
 
   > 0.0.1: Fix exception type preservation during parallel execution.
+
+  > 0.1.0: Accept labeled elemental scopings to restrict nodal extension without extracting meshes.
 
 
 - [force_summation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/averaging/force_summation.md)
@@ -1198,6 +1253,8 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.1.0: Use the enhanced normals implementation and expose the requested location input.
+
 
 - [normals_provider_nl](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/geo/normals_provider_nl.md)
 
@@ -1206,6 +1263,10 @@ The following table shows which components have updates in each category.
   > 1.0.0: Fixed reference coordinate-system on which normals are calculated.
 
   > 1.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 1.0.2: Document normals_provider_nl as a compatibility entry point.
+
+  > 1.0.3: Deprecate normals_provider_nl in favor of normals_provider.
 
 
 - [rotate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/geo/rotate_fc.md)
@@ -1487,6 +1548,8 @@ The following table shows which components have updates in each category.
 - [accumulate](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/math/accumulate.md)
 
   > 0.0.1: Improve operator description with weighted sum formula. Improve pin 2 and output pin descriptions.
+
+  > 0.0.2: Correct accumumation formula when input contains several elementary data by entity.
 
 
 - [accumulate_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/math/accumulate_fc.md)
@@ -3031,6 +3094,11 @@ Upgraded documentation
 - [strain_from_voigt_fc](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/strain_from_voigt_fc.md)
 
   > 0.0.1: If empty fields container is provided, returns the same empty fields container.
+
+
+- [unitary_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/unitary_field.md)
+
+  > 0.1.0: Add support of fields with shell layers
 
 
 

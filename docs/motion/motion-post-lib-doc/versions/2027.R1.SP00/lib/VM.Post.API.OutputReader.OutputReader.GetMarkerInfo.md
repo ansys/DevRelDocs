@@ -1,4 +1,6 @@
 # Method GetMarkerInfo
+<div align="right"><a href="/lib/VM.Post.API.OutputReader.OutputReader.GetMarkerInfo.md" download="VM.Post.API.OutputReader.OutputReader.GetMarkerInfo.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Post_API_OutputReader_OutputReader_GetMarkerInfo_System_String_"></a>
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
@@ -28,7 +30,9 @@ List of value arrays for each result state, or `null` when `name` does not ident
 
 ```python
 # Read marker values across the result states.
+# The path of the marker.
 marker_name = "Crank/CM"
+# The marker values for each result state.
 marker_info = output_reader.GetMarkerInfo(marker_name)
 ```
 
@@ -39,5 +43,3 @@ Each state array contains position, orientation, velocity, angular velocity, acc
 <Note>
 If `name` does not identify a [`GeneralMarker`](VM.Models.Post.GeneralMarker.md) or `ResultMarker`, this method returns `null`.
 </Note>
-
-<a href="/lib/VM.Post.API.OutputReader.OutputReader.GetMarkerInfo.md" download="VM.Post.API.OutputReader.OutputReader.GetMarkerInfo.md">Download this page as Markdown</a>
