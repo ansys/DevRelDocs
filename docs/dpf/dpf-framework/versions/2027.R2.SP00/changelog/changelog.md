@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-06).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-11).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,7 +9,9 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
+| framework | [1 item](#Features_framework) | |
 | mapdl | [2 items](#Features_mapdl) |[2 items](#Fixes_mapdl) |
+| mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
 | native |  |[1 item](#Fixes_native) |
@@ -43,6 +45,14 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## framework
+### <a id="Features_framework"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Kernel and CLayers:
+  > 
+  >
+  > 
+
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
@@ -107,6 +117,14 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## mechanial
+### <a id="Features_mechanial"></a> Features
+
+- Add one operator to estimate the memory used per time set:
+  > 
+  >
+  > 
+
 ## mesh
 
 ### <a id="Fixes_mesh"></a> Fixes
@@ -2537,6 +2555,8 @@ Upgraded documentation
 
   > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
 
+  > 2.1.0: Support cyclic expansion of strain and kinetic energy results in static structural analysis when no nonzero harmonic indices are present.
+
 
 - [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/magnetic_field.md)
 
@@ -2721,6 +2741,8 @@ Upgraded documentation
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
   > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
+
+  > 2.1.0: Support cyclic expansion of strain and kinetic energy results in static structural analysis when no nonzero harmonic indices are present.
 
 
 - [stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/stress.md)
