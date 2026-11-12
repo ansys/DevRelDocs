@@ -1,0 +1,139 @@
+# Class Convert
+<a id="VM_Managed_Utility_Convert"></a>
+
+Namespace: [VM.Managed.Utility](VM.Managed.Utility.md)  
+Assembly: VM.dll  
+
+This class is to represent the special convert.
+
+```csharp
+public static class Convert
+```
+
+#### Inheritance
+
+object ← 
+[Convert](VM.Managed.Utility.Convert.md)
+
+#### Extension Methods
+
+[LinkPropertyItemCache.GetLinkProperties\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkProperties\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkPropertiesAndValues\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkPropertiesAndValues\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_), 
+[LinkPropertyItemCache.GetLinkedObjects<T\>\(object, LinkPropertyType\)](VM.Models.Pre.Cache.LinkPropertyItemCache.md\#VM\_Models\_Pre\_Cache\_LinkPropertyItemCache\_GetLinkedObjects\_\_1\_System\_Object\_VM\_Models\_Pre\_LinkPropertyType\_)
+
+## Properties
+
+### <a id="VM_Managed_Utility_Convert_DToR"></a> DToR
+
+Gets the Degree to Radius.
+
+```csharp
+public static double DToR { get; }
+```
+
+#### Property Value
+
+ double
+
+### <a id="VM_Managed_Utility_Convert_RToD"></a> RToD
+
+Gets the Radius to Degree.
+
+```csharp
+public static double RToD { get; }
+```
+
+#### Property Value
+
+ double
+
+### <a id="VM_Managed_Utility_Convert_SignificantFigure"></a> SignificantFigure
+
+Gets the significant figure.
+
+```csharp
+public static int SignificantFigure { get; set; }
+```
+
+#### Property Value
+
+ int
+
+## Methods
+
+### <a id="VM_Managed_Utility_Convert_GetContrastColor_System_Drawing_Color_"></a> GetContrastColor\(Color\)
+
+```csharp
+public static Color GetContrastColor(Color baseColor)
+```
+
+#### Parameters
+
+`baseColor` Color
+
+#### Returns
+
+ Color
+
+### <a id="VM_Managed_Utility_Convert_ToString_System_Double_"></a> ToString\(double\)
+
+Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+
+```csharp
+public static string ToString(double dVal)
+```
+
+#### Parameters
+
+`dVal` double
+
+The val.
+
+#### Returns
+
+ string
+
+A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+
+### <a id="VM_Managed_Utility_Convert_ToString_VM_Vector_"></a> ToString\(Vector\)
+
+Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+
+```csharp
+public static string ToString(Vector vec)
+```
+
+#### Parameters
+
+`vec` [Vector](VM.Vector.md)
+
+#### Returns
+
+ string
+
+A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+
+### <a id="VM_Managed_Utility_Convert_ToString_System_Double_System_Double_"></a> ToString\(double, double\)
+
+Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+
+```csharp
+public static string ToString(double dVal, double dConvertFactor)
+```
+
+#### Parameters
+
+`dVal` double
+
+The val.
+
+`dConvertFactor` double
+
+The convert factor.
+
+#### Returns
+
+ string
+
+A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
+
