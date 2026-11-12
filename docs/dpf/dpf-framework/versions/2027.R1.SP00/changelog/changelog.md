@@ -20,7 +20,7 @@ The following table shows the number of entries for each component and category.
 | hgp |  | [16 items](#Features_hgp) | [13 items](#Fixes_hgp) |  |
 | livepost |  | [1 item](#Features_livepost) |  |  |
 | lsdyna |  | [6 items](#Features_lsdyna) |  |  |
-| mapdl | [3 items](#Changes_mapdl) | [23 items](#Features_mapdl) | [80 items](#Fixes_mapdl) | [7 items](#Performance_mapdl) |
+| mapdl | [3 items](#Changes_mapdl) | [23 items](#Features_mapdl) | [81 items](#Fixes_mapdl) | [7 items](#Performance_mapdl) |
 | math |  | [5 items](#Features_math) | [3 items](#Fixes_math) | [1 item](#Performance_math) |
 | mechanical |  | [2 items](#Features_mechanical) | [7 items](#Fixes_mechanical) |  |
 | mesh |  | [6 items](#Features_mesh) | [5 items](#Fixes_mesh) |  |
@@ -1595,6 +1595,9 @@ The following table shows the number of entries for each component and category.
   >
 
 ### <a id="Fixes_mapdl"></a> Fixes
+
+- Correct geometry data for ASEC beam sections:
+  > The MAPDL result reader now reports the expected geometry values for ASEC beam sections.
 
 - Fix cyclic expansion for Nodal Integrated quantities:
   > Cyclic expansion now includes contributions from adjacent sectors for shared nodes and from center nodes within the selected bounds when computing nodal integrated quantities.
