@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-02).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,10 +9,14 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
-| mapdl | [1 item](#Features_mapdl) |[1 item](#Fixes_mapdl) |
+| framework | [1 item](#Features_framework) |[1 item](#Fixes_framework) |
+| lsdyna |  |[1 item](#Fixes_lsdyna) |
+| mapdl | [2 items](#Features_mapdl) |[2 items](#Fixes_mapdl) |
+| mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
-| misc |  |[1 item](#Fixes_misc) |
+| misc |  |[2 items](#Fixes_misc) |
 | native |  |[1 item](#Fixes_native) |
+| prime |  |[1 item](#Fixes_prime) |
 
 
 ## femutils
@@ -42,8 +46,77 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## framework
+### <a id="Features_framework"></a> Features
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Kernel and CLayers:
+  > 
+  >
+  > 
+
+### <a id="Fixes_framework"></a> Fixes
+
+- Ignore invalid scoping erase indices:
+  > 
+  >
+  > Scoping erase now ignores negative indices and indices outside the valid range while preserving valid erase behavior.
+  >
+  > 
+  >
+  > 
+## lsdyna
+
+### <a id="Fixes_lsdyna"></a> Fixes
+
+- Fix bug with sleout history vars (#296):
+  > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Allowing to not read mesh when passing as input:
+  > Allowing to not read mesh when passing as input.
+  >
+  > When the mesh is incomplete in terms of MAPDL definitions (missing needed property fields: mapdl_element_type_id, section, ...) we get them from the RST file.
+  >
+  > 
+  >
+  > ### Added Unit Tests:
+  >
+  > TEST(FilteringOperators, NodalFilteringWithPassingMesh)
+  >
+  > TEST(FilteringOperators, NodalFilteringWithPassingMeshComposite)
+  >
+  > TEST(FilteringOperators, ElementalFilteringWithPassingMesh)
+  >
+  > TEST(FilteringOperators, ElementalFilteringWithPassingMeshComposite)
+  >
+  > TEST(FilteringOperators, RotationNodalFilteringWithPassingMesh)
+  >
+  > 
+  >
+  > ### Pipelines:
+  >
+  > https://ado.internal.synopsys.com/tfs/ANSYS_Development/DPF/_build/results?buildId=13420342&view=results
+  >
+  > 
+  >
+  > ### Precommit: Ongoing
+  >
+  > DPF:GetElementsResulDPF:GetElementsResultsByScoping,DPF:GetElementsResultsByScoping
+  >
+  > 
+  >
+  > ![image.png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image.png)
+  >
+  > 
+  >
+  > ![image (2).png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image%20%282%29.png)
+  >
+  > 
+  >
+  > ![image (3).png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image%20%283%29.png)
+  >
+  > 
 
 - Complete usage of ScopingIterators and eliminate GetIds calls in mapdlOperators:
   > 
@@ -52,10 +125,23 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Fix rst lazy result info provider:
+  > 
+  >
+  > 
+
 - Fix ASEC beam section Geometry issue:
   > 
   >
   > 
+## mechanial
+### <a id="Features_mechanial"></a> Features
+
+- Add one operator to estimate the memory used per time set:
+  > 
+  >
+  > 
+
 ## mesh
 
 ### <a id="Fixes_mesh"></a> Fixes
@@ -81,6 +167,9 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_misc"></a> Fixes
 
+- Normalize Doxygen directory paths:
+  > 
+
 - Remove agent paths from generated API directory names:
   > 
   >
@@ -96,6 +185,14 @@ The following table shows which components have updates in each category.
 - Fix accumulate operator for specific context, extend make_unit capabilities:
   > - Fix for accumulate operator: entities with elementary data were not treated properly, provoking crashes.
   >
+  > 
+  >
+  > 
+## prime
+
+### <a id="Fixes_prime"></a> Fixes
+
+- Fix Unit tests:
   > 
   >
   > 
@@ -2478,6 +2575,8 @@ Upgraded documentation
 
   > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
 
+  > 2.1.0: Support cyclic expansion of strain and kinetic energy results in static structural analysis when no nonzero harmonic indices are present.
+
 
 - [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/magnetic_field.md)
 
@@ -2662,6 +2761,8 @@ Upgraded documentation
   > 1.0.0: This operator had previously the bool_rotate_to_global pin exposed and set as True while rotations to global were not performed and results were output in the Solution Coordinate System.
 
   > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
+
+  > 2.1.0: Support cyclic expansion of strain and kinetic energy results in static structural analysis when no nonzero harmonic indices are present.
 
 
 - [stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/stress.md)
