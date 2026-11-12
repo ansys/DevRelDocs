@@ -1,4 +1,6 @@
 # Class ApplicationHandler
+<div align="right"><a href="/lib/VM.API.Post.Operations.ApplicationHandler.md" download="VM.API.Post.Operations.ApplicationHandler.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_API_Post_Operations_ApplicationHandler"></a>
 
 Namespace: [VM.API.Post.Operations](VM.API.Post.Operations.md)  
@@ -111,5 +113,3 @@ Closes an open document by its file path.
  [RemoveView\(string\)](VM.API.Post.Operations.ApplicationHandler.RemoveView.md\#VM\_API\_Post\_Operations\_ApplicationHandler\_RemoveView\_System\_String\_)
 
 Removes a view by its name.
-
-<a href="/lib/VM.API.Post.Operations.ApplicationHandler.md" download="VM.API.Post.Operations.ApplicationHandler.md">Download this page as Markdown</a>

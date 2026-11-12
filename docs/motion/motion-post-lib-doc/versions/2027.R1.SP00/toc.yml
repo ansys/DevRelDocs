@@ -50,8 +50,6 @@
           href: document/operation-api/feature/op_curve_properties.md
   - name: Example
     items:
-    - name: Run Postprocessor
-      href: document/operation-api/example/example_run_postprocessor_for_operation_api.md
     - name: View
       href: document/operation-api/example/example_view_for_operation_api.md
     - name: Analysis
@@ -64,6 +62,8 @@
       href: document/operation-api/example/example_Import_for_operation_api.md
     - name: Export
       href: document/operation-api/example/example_export_for_operation_api.md
+    - name: Run Postprocessor
+      href: document/operation-api/example/example_run_postprocessor_for_operation_api.md
   - name: Changelog
     href: document/operation-api/changelog/changelog_operation_api.md
 - name: Result File Reader API

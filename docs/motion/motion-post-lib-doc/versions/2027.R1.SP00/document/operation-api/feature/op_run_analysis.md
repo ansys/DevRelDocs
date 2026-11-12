@@ -1,8 +1,10 @@
 # Run an Analysis
+<div align="right"><a href="/document/operation-api/feature/op_run_analysis.md" download="op_run_analysis.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers running a fatigue analysis with [`DurabilityAnalysis`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.md) and calculating sound pressure with [`IOperationsAnimation`](../../../lib/VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 ## Fatigue
-Run a fatigue analysis with [`RunFatigueAnalysis(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md). This operation writes the fatigue analysis files and then updates the fatigue result that belongs to `ResultDocumentViewModel` of [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md).
+Run a fatigue analysis with [`RunFatigueAnalysis(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md). This operation writes the fatigue analysis files and then updates the fatigue result that belongs to ResultDocumentViewModel of [`IAnalysisResultViewModel`](../../../lib/VM.ViewModels.Post.IAnalysisResultViewModel.md).
 
 <Danger>
 The active view returned by [`GetActiveView()`](../../../lib/VM.Operations.Post.Interfaces.IPage.GetActiveView.md) must be `IOperationsAnimation` before calling this method. Otherwise, the fatigue operation cannot run.
@@ -25,5 +27,3 @@ Calculate sound pressure data with [`CreateSoundPressure(IList<string>, IList<st
 <Danger>
 The supplied body and coordinate system names must identify entities that already exist. If a name cannot be matched, no sound pressure data is created.
 </Danger>
-
-<a href="/document/operation-api/feature/op_run_analysis.md" download="op_run_analysis.md">Download this page as Markdown</a>

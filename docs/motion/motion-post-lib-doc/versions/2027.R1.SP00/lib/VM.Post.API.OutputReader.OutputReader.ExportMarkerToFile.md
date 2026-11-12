@@ -1,4 +1,6 @@
 # Method ExportMarkerToFile
+<div align="right"><a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportMarkerToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportMarkerToFile.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Post_API_OutputReader_OutputReader_ExportMarkerToFile_System_String_System_Int32___VM_Models_Post_IResultMarker___"></a>
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
@@ -78,15 +80,18 @@ Specifies the [`IResultMarker`](VM.Models.Post.IResultMarker.md) objects to expo
 
 ```python
 # Build the output file path.
-# PATH : path to the folder where exported files are written
-# RFR_MARKER_OUTPUT_FILENAME : output filename for marker values
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# RFR_MARKER_OUTPUT_FILENAME : output filename for marker values (e.g., marker_values.txt)
+# The path of the exported marker file.
 output_path = os.path.join(PATH, RFR_MARKER_OUTPUT_FILENAME)
 
 # Get the state list.
 state_ids = output_reader.GetStateIDArray()
 
 # Collect the marker entities to export.
+# The markers to export.
 markers = []
+# The marker entities of the result file.
 marker_entities = output_reader.GetEntities(EntityType.Marker)
 for marker_entity in marker_entities:
     markers.append(IResultMarker(marker_entity))
@@ -101,5 +106,3 @@ output_reader.ExportMarkerToFile(output_path, state_ids, markers)
 <Danger>
 The supplied markers must be [`IResultMarker`](VM.Models.Post.IResultMarker.md) objects. A [`GeneralMarker`](VM.Models.Post.GeneralMarker.md) created by [CreateCoordinateSystem\(string, string\)](VM.Post.API.OutputReader.OutputReader.CreateCoordinateSystem.md) is not compatible with this parameter.
 </Danger>
-
-<a href="/lib/VM.Post.API.OutputReader.OutputReader.ExportMarkerToFile.md" download="VM.Post.API.OutputReader.OutputReader.ExportMarkerToFile.md">Download this page as Markdown</a>

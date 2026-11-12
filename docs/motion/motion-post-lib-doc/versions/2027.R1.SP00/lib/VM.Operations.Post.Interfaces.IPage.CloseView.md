@@ -1,4 +1,6 @@
 # Method CloseView
+<div align="right"><a href="/lib/VM.Operations.Post.Interfaces.IPage.CloseView.md" download="VM.Operations.Post.Interfaces.IPage.CloseView.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Operations_Post_Interfaces_IPage_CloseView_VM_Operations_Post_Interfaces_IView_"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
@@ -22,9 +24,13 @@ void CloseView(IView view)
 
 ```python
 # Get the page and create a chart view.
+# The name of the page.
 page_name = "Page"
+# The page with the specified name.
 page = application_handler.GetPage(page_name)
+# The name of the new chart view.
 chart_name = "ChartByView"
+# The chart view created on the page.
 view = page.CreateChart(chart_name)
 
 # Close the view by passing the view object.
@@ -59,12 +65,17 @@ Index of the `IView` to close.
 
 ```python
 # Get the page and create a chart view.
+# The name of the page.
 page_name = "Page"
+# The page with the specified name.
 page = application_handler.GetPage(page_name)
+# The name of the new chart view.
 chart_name = "ChartByIndex"
+# The chart view created on the page.
 view = page.CreateChart(chart_name)
 
 # Close the view by its index.
+# The index of the view.
 view_index = view.Index
 page.CloseView(view_index)
 ```
@@ -97,12 +108,17 @@ void CloseView(string name)
 
 ```python
 # Get the page and create a chart view.
+# The name of the page.
 page_name = "Page"
+# The page with the specified name.
 page = application_handler.GetPage(page_name)
+# The name of the new chart view.
 chart_name = "ChartByName"
+# The chart view created on the page.
 view = page.CreateChart(chart_name)
 
 # Close the view by its name.
+# The full name of the view.
 view_name = view.FullName
 page.CloseView(view_name)
 ```
@@ -116,5 +132,3 @@ The matching `IView` is removed with [`IPage`](VM.Operations.Post.Interfaces.IPa
  ArgumentException
 
 Thrown when `name` is `null` or empty.
-
-<a href="/lib/VM.Operations.Post.Interfaces.IPage.CloseView.md" download="VM.Operations.Post.Interfaces.IPage.CloseView.md">Download this page as Markdown</a>

@@ -1,4 +1,6 @@
 # Method ExportAllCurves
+<div align="right"><a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_ExportAllCurves_System_String_"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
@@ -55,28 +57,32 @@ The file path where the curves will be saved. A `.csv` path writes a comma-separ
 ### Examples
 
 ```python
-# Get the result document.
-# RESULT_FILE_PATH : .dfr result file path
-document = application_handler.GetDocument(RESULT_FILE_PATH)
-
 # Create the chart view.
 page = application_handler.GetActivePage()
+# The name of the new chart view.
 chart_name = "Chart"
+# The chart view created on the page.
 chart = page.CreateChart(chart_name)
 
 # Add curves to the chart.
+# The characteristic/component paths of the curves to add, in "Characteristic/Component" format.
 curve_paths = List[str]()
+# The characteristic/component path of the curve to add, in "Characteristic/Component" format.
 curve_path = "Displacement/Magnitude"
 curve_paths.Add(curve_path)
+# The name of the target entity.
 entity_name = "Crank"
+# The parameters that specify the target and curve paths of the plot.
 parameters = PlotParameters()
 parameters.Paths = curve_paths
 parameters.Target = entity_name
+# RESULT_FILE_PATH : .dfr result file path (e.g., D:\PostprocessorAPI\Results\Tutorial_ModalFlex.dfr)
 chart.AddCurves(RESULT_FILE_PATH, parameters)
 
 # Export all curves to a file.
-# PATH : path to the folder where exported files are written
-# CURVE_EXPORT_FILENAME : output filename for exported curve data
+# PATH : path to the folder where exported files are written (e.g., D:\PostprocessorAPI\Output)
+# CURVE_EXPORT_FILENAME : output filename for exported curve data (e.g., all_curves.csv)
+# The path of the exported curve data file.
 output_path = Path.Combine(PATH, CURVE_EXPORT_FILENAME)
 chart.ExportAllCurves(output_path)
 ```
@@ -87,5 +93,3 @@ This method exports all curves contained in the chart without displaying a file 
 It accepts a file path as a parameter and saves the curves directly to that location. 
 This method is recommended for use with the OperationAPI, especially for repetitive tasks or scenarios 
 requiring automation.
-
-<a href="/lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md" download="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md">Download this page as Markdown</a>

@@ -1,4 +1,6 @@
 # Postprocess a Curve
+<div align="right"><a href="/document/operation-api/feature/op_postprocess_curve.md" download="op_postprocess_curve.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 This feature covers creating new curve data with [`IOperationsLine2DViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md) from curves already in [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md). Each new curve stays in the chart, so it can be found or exported like any other curve, see [Manage a Curve](op_manage_curve.md), and its look can be set through [Curve Properties](op_curve_properties.md).
 
 ## Simple Math
@@ -35,5 +37,3 @@ Create a frequency-domain curve with [`CreateFFT(IEnumerable<string>, FFTType, F
 
 ## STFT
 Create a short-time frequency result with [`CreateSTFT(ISTFTParameters, IList<string>)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSTFT.md) or [`CreateSTFT(ISTFTParameters, IEnumerable<IOperationsLineDataSeriesViewModelBase>)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.CreateSTFT.md).
-
-<a href="/document/operation-api/feature/op_postprocess_curve.md" download="op_postprocess_curve.md">Download this page as Markdown</a>

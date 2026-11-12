@@ -1,4 +1,6 @@
 # Class FatigueParameter
+<div align="right"><a href="/lib/VM.Operations.Post.FatigueParameter.md" download="VM.Operations.Post.FatigueParameter.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Operations_Post_FatigueParameter"></a>
 
 Namespace: [VM.Operations.Post](VM.Operations.Post.md)  
@@ -7,7 +9,6 @@ Assembly: VM.Operations.Post.dll
 Represents the obsolete per-body fatigue parameter model.
 
 ```csharp
-[Obsolete("This property is considered outdated and its use is discouraged. It may be removed in future versions, so it is advisable to use the Targets property of the FEBody class instead.", true)]
 public class FatigueParameter
 ```
 
@@ -52,5 +53,3 @@ Gets or sets the legacy fatigue scale factor applied by the legacy analysis path
  [StressStrainCombinationType](VM.Operations.Post.FatigueParameter.StressStrainCombinationType.md\#VM\_Operations\_Post\_FatigueParameter\_StressStrainCombinationType)
 
 Gets or sets the legacy stress or strain combination selected from [`StressStrainCombinationType`](VM.Operations.Post.FatigueParameter.StressStrainCombinationType.md) for the legacy analysis path.
-
-<a href="/lib/VM.Operations.Post.FatigueParameter.md" download="VM.Operations.Post.FatigueParameter.md">Download this page as Markdown</a>

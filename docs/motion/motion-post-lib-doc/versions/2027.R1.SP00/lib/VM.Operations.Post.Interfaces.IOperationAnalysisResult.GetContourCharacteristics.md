@@ -1,4 +1,6 @@
 # Method GetContourCharacteristics
+<div align="right"><a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Operations_Post_Interfaces_IOperationAnalysisResult_GetContourCharacteristics_System_String_VM_Models_ContourMappingType_"></a>
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
@@ -32,15 +34,19 @@ Full names of supported characteristics, or an empty collection when `entityName
 
 ```python
 # Get the dynamic analysis result.
-# RESULT_FILE_PATH : .dfr result file path
+# RESULT_FILE_PATH : .dfr result file path (e.g., D:\PostprocessorAPI\Results\Tutorial_ModalFlex.dfr)
+# The document opened from the result file.
 document = application_handler.GetDocument(RESULT_FILE_PATH)
+# The type of the analysis result to retrieve.
 analysis_result_type = AnalysisResultType.Dynamics
+# The analysis result of the document.
 analysis_result = document.GetAnalysisResultViewModel(analysis_result_type)
 
 # Find a contour target and its available characteristics.
+# The type of the contour mapping.
 contour_mapping_type = ContourMappingType.FENode
+# The name of the target finite-element body.
 entity_name = "FEBody_01"
+# The characteristics available for the contour of the entity.
 characteristics = analysis_result.GetContourCharacteristics(entity_name, contour_mapping_type)
 ```
-
-<a href="/lib/VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md" download="VM.Operations.Post.Interfaces.IOperationAnalysisResult.GetContourCharacteristics.md">Download this page as Markdown</a>

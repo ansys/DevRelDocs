@@ -1,4 +1,6 @@
 # Method ImportScriptFile
+<div align="right"><a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md" download="VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
+
 <a id="VM_Windows_Post_PostprocessorRemotingUtil_ImportScriptFile_System_String_"></a>
 
 Namespace: [VM.Windows.Post](VM.Windows.Post.md)  
@@ -27,5 +29,3 @@ The full path of the Python script file to run.
 <Danger>
 The method returns before the call completes. Call `Wait()` on the returned task, or read its `Result`, to wait for the result. Wait for [RunPostprocessor\(string\)](VM.Windows.Post.PostprocessorRemotingUtil.RunPostprocessor.md) in the same way before this call.
 </Danger>
-
-<a href="/lib/VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md" download="VM.Windows.Post.PostprocessorRemotingUtil.ImportScriptFile.md">Download this page as Markdown</a>

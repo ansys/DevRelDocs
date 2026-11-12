@@ -1,4 +1,5 @@
 # Operation API
+<div align="right"><a href="/document/operation-api/changelog/changelog_operation_api.md" download="changelog_operation_api.md" title="Download this page as Markdown" aria-label="Download this page as Markdown"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="11" fill="none" stroke="currentColor"/><path transform="translate(4.8 4.8) scale(0.6)" fill="currentColor" d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg></a></div>
 
 This page lists the changes in 2027 R1.
 
@@ -29,17 +30,17 @@ This page lists the changes in 2027 R1.
   - [`IView`](../../../lib/VM.Operations.Post.Interfaces.IView.md) now inherits [`IHasGuid`](../../../lib/VM.Models.Post.IHasGuid.md).
   - [`Index`](../../../lib/VM.Operations.Post.Interfaces.IView.Index.md) replaces the former integer ID property.
   - The view GUID is provided by [`ID`](../../../lib/VM.Models.Post.IHasGuid.ID.md).
-- Changed the parameter name from `id` to `index` for:
+- Changed the parameter name from id to index for:
   - [`CloseView(int)`](../../../lib/VM.Operations.Post.Interfaces.IPage.CloseView.md)
   - [`GetView(int)`](../../../lib/VM.Operations.Post.Interfaces.IPage.GetView.md)
 - Renamed the [`ShellDirectionType`](../../../lib/VM.Models.Post.ShellDirectionType.md) enumeration members:
-  - `TOP` to `Top`
-  - `BOTTOM` to `Bottom`
-- Removed properties from the `IOperationMaterial` interface:
-  - `N`
-  - `K`
-- Replaced the `MaterialSequence` property on [`IFEProperty`](../../../lib/VM.Models.Post.IFEProperty.md) with [`FatigueMaterial`](../../../lib/VM.Models.Post.IFEProperty.FatigueMaterial.md), which exposes the fatigue material as a `FatigueMaterial` object instead of an integer sequence.
-- Renamed the `ExportAllCurves` method of [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md) to [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md).
+  - TOP to Top
+  - BOTTOM to Bottom
+- Removed properties from the IOperationMaterial interface:
+  - N
+  - K
+- Replaced the MaterialSequence property on [`IFEProperty`](../../../lib/VM.Models.Post.IFEProperty.md) with [`FatigueMaterial`](../../../lib/VM.Models.Post.IFEProperty.FatigueMaterial.md), which exposes the fatigue material as a FatigueMaterial object instead of an integer sequence.
+- Renamed the ExportAllCurves method of [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md) to [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md).
 
 ## Deprecated
 - Deprecated [`AddPlotView()`](../../../lib/VM.API.Post.Operations.ApplicationHandler.AddPlotView.md). Use [`CreateChart(string)`](../../../lib/VM.Operations.Post.Interfaces.IPage.CreateChart.md) instead.
@@ -59,7 +60,5 @@ This page lists the changes in 2027 R1.
 - Deprecated [`RunFatigueAnalysisAndGenerateContours(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysisAndGenerateContours.md). Use [`RunFatigueAnalysis(IDurabilityAnalysisParameter)`](../../../lib/VM.API.Post.Operations.DurabilityAnalysis.RunFatigueAnalysis.md) together with the contour APIs instead.
 
 ## Removed
-- Removed the `ExportAllDataSeries` method from [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md). Use [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md) instead.
-- Removed the `ExportAllDataSeries` method from [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md). Use [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md) instead.
-
-<a href="/document/operation-api/changelog/changelog_operation_api.md" download="changelog_operation_api.md">Download this page as Markdown</a>
+- Removed the ExportAllDataSeries method from [`IOperationsLine2DViewModelBase`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md). Use [`ExportAllCurves(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves.md) instead.
+- Removed the ExportAllDataSeries method from [`IOperationsHeatMapBaseViewModel`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md). Use [`ExportHeatMapData(string)`](../../../lib/VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.ExportHeatMapData.md) instead.
