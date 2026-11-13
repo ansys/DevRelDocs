@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-11).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-12).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,12 +9,13 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
-| framework | [1 item](#Features_framework) | |
+| framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
+| lsdyna |  |[1 item](#Fixes_lsdyna) |
 | mapdl | [2 items](#Features_mapdl) |[2 items](#Fixes_mapdl) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
-| native |  |[1 item](#Fixes_native) |
+| native | [1 item](#Features_native) |[1 item](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
 
 
@@ -48,11 +49,32 @@ The following table shows which components have updates in each category.
 ## framework
 ### <a id="Features_framework"></a> Features
 
+- Fixing issues with large distributed files and multiple bodies:
+  > Improve performance when processing scopings and composite results, especially for largely fragmented files and many scopings. The scoping::intersect operator now supports computing selected outputs and intersecting multiple scopings.
+  >
+  > 
+
 - Complete usage of ScopingIterators and eliminate GetIds calls in Kernel and CLayers:
   > 
   >
   > 
 
+### <a id="Fixes_framework"></a> Fixes
+
+- Ignore invalid scoping erase indices:
+  > 
+  >
+  > Scoping erase now ignores negative indices and indices outside the valid range while preserving valid erase behavior.
+  >
+  > 
+  >
+  > 
+## lsdyna
+
+### <a id="Fixes_lsdyna"></a> Fixes
+
+- Fix bug with sleout history vars (#296):
+  > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
 
@@ -159,6 +181,12 @@ The following table shows which components have updates in each category.
   >
   > 
 ## native
+### <a id="Features_native"></a> Features
+
+- Fixing issues with large distributed files and multiple bodies:
+  > Improve performance when processing scopings and composite results, especially for largely fragmented files and many scopings. The scoping::intersect operator now supports computing selected outputs and intersecting multiple scopings.
+  >
+  > 
 
 ### <a id="Fixes_native"></a> Fixes
 
