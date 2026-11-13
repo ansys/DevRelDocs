@@ -1,0 +1,249 @@
+# Example 06 - Python
+
+```py
+import clr, os, winreg
+from itertools import islice
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+class PythonStandaloneApplication(object):
+    class LicenseException(Exception):
+        pass
+    class ConnectionException(Exception):
+        pass
+    class InitializationException(Exception):
+        pass
+    class SystemNotPresentException(Exception):
+        pass
+
+    def __init__(self, path=None):
+        # determine location of ZOSAPI_NetHelper.dll & add as reference
+        aKey = winreg.OpenKey(winreg.ConnectRegistry(None, winreg.HKEY_CURRENT_USER), r"Software\Zemax", 0, winreg.KEY_READ)
+        zemaxData = winreg.QueryValueEx(aKey, 'ZemaxRoot')
+        NetHelper = os.path.join(os.sep, zemaxData[0], r'ZOS-API\Libraries\ZOSAPI_NetHelper.dll')
+        winreg.CloseKey(aKey)
+        clr.AddReference(NetHelper)
+        import ZOSAPI_NetHelper
+        
+        # Find the installed version of OpticStudio
+        if path is None:
+            isInitialized = ZOSAPI_NetHelper.ZOSAPI_Initializer.Initialize()
+        else:
+            # Note -- uncomment the following line to use a custom initialization path
+            isInitialized = ZOSAPI_NetHelper.ZOSAPI_Initializer.Initialize(path)
+        
+        # determine the ZOS root directory
+        if isInitialized:
+            dir = ZOSAPI_NetHelper.ZOSAPI_Initializer.GetZemaxDirectory()
+        else:
+            raise PythonStandaloneApplication.InitializationException("Unable to locate Zemax OpticStudio.  Try using a hard-coded path.")
+
+        # add ZOS-API referencecs
+        clr.AddReference(os.path.join(os.sep, dir, "ZOSAPI.dll"))
+        clr.AddReference(os.path.join(os.sep, dir, "ZOSAPI_Interfaces.dll"))
+        import ZOSAPI
+
+        # create a reference to the API namespace
+        self.ZOSAPI = ZOSAPI
+
+        # create a reference to the API namespace
+        self.ZOSAPI = ZOSAPI
+
+        # Create the initial connection class
+        self.TheConnection = ZOSAPI.ZOSAPI_Connection()
+
+        if self.TheConnection is None:
+            raise PythonStandaloneApplication.ConnectionException("Unable to initialize .NET connection to ZOSAPI")
+
+        self.TheApplication = self.TheConnection.CreateNewApplication()
+        if self.TheApplication is None:
+            raise PythonStandaloneApplication.InitializationException("Unable to acquire ZOSAPI application")
+
+        if self.TheApplication.IsValidLicenseForAPI == False:
+            raise PythonStandaloneApplication.LicenseException("License is not valid for ZOSAPI use")
+
+        self.TheSystem = self.TheApplication.PrimarySystem
+        if self.TheSystem is None:
+            raise PythonStandaloneApplication.SystemNotPresentException("Unable to acquire Primary system")
+
+    def __del__(self):
+        if self.TheApplication is not None:
+            self.TheApplication.CloseApplication()
+            self.TheApplication = None
+        
+        self.TheConnection = None
+    
+    def OpenFile(self, filepath, saveIfNeeded):
+        if self.TheSystem is None:
+            raise PythonStandaloneApplication.SystemNotPresentException("Unable to acquire Primary system")
+        self.TheSystem.LoadFile(filepath, saveIfNeeded)
+
+    def CloseFile(self, save):
+        if self.TheSystem is None:
+            raise PythonStandaloneApplication.SystemNotPresentException("Unable to acquire Primary system")
+        self.TheSystem.Close(save)
+
+    def SamplesDir(self):
+        if self.TheApplication is None:
+            raise PythonStandaloneApplication.InitializationException("Unable to acquire ZOSAPI application")
+
+        return self.TheApplication.SamplesDir
+
+    def ExampleConstants(self):
+        if self.TheApplication.LicenseStatus == self.ZOSAPI.LicenseStatusType.PremiumEdition:
+            return "Premium"
+        elif self.TheApplication.LicenseStatus == self.ZOSAPI.LicenseStatusTypeProfessionalEdition:
+            return "Professional"
+        elif self.TheApplication.LicenseStatus == self.ZOSAPI.LicenseStatusTypeStandardEdition:
+            return "Standard"
+        else:
+            return "Invalid"
+    
+    def reshape(self, data, x, y, transpose = False):
+        """Converts a System.Double[,] to a 2D list for plotting or post processing
+        
+        Parameters
+        ----------
+        data      : System.Double[,] data directly from ZOS-API 
+        x         : x width of new 2D list [use var.GetLength(0) for dimension]
+        y         : y width of new 2D list [use var.GetLength(1) for dimension]
+        transpose : transposes data; needed for some multi-dimensional line series data
+        
+        Returns
+        -------
+        res       : 2D list; can be directly used with Matplotlib or converted to
+                    a numpy array using numpy.asarray(res)
+        """
+        if type(data) is not list:
+            data = list(data)
+        var_lst = [y] * x;
+        it = iter(data)
+        res = [list(islice(it, i)) for i in var_lst]
+        if transpose:
+            return self.transpose(res);
+        return res
+    
+    def transpose(self, data):
+        """Transposes a 2D list (Python3.x or greater).  
+        
+        Useful for converting mutli-dimensional line series (i.e. FFT PSF)
+        
+        Parameters
+        ----------
+        data      : Python native list (if using System.Data[,] object reshape first)    
+        
+        Returns
+        -------
+        res       : transposed 2D list
+        """
+        if type(data) is not list:
+            data = list(data)
+        return list(map(list, zip(*data)))
+
+if __name__ == '__main__':
+    zos = PythonStandaloneApplication()
+    
+    # load local variables
+    ZOSAPI = zos.ZOSAPI
+    TheApplication = zos.TheApplication
+    TheSystem = zos.TheSystem
+    
+    # creates a new API directory
+    if not os.path.exists(TheApplication.SamplesDir + "\\API\\Python"):
+        os.makedirs(TheApplication.SamplesDir + "\\API\\Python")
+    
+    #! [e06s01_py]
+    # Create new non-sequential file
+    TheSystem = TheApplication.CreateNewSystem(ZOSAPI.SystemType.NonSequential)
+    TheNCE = TheSystem.NCE
+    #! [e06s01_py]
+    
+    #! [e06s02_py]
+    # inserts objects and changes type
+    TheNCE.InsertNewObjectAt(2)
+    o1 = TheNCE.GetObjectAt(1)
+    o2 = TheNCE.GetObjectAt(2)
+    o1.ChangeType(o1.GetObjectTypeSettings(ZOSAPI.Editors.NCE.ObjectType.SourcePoint))
+    o2.ChangeType(o2.GetObjectTypeSettings(ZOSAPI.Editors.NCE.ObjectType.DetectorRectangle))
+    #! [e06s02_py]
+    
+    #! [e06s03_py]
+    # modify object's cell values in the NCE
+    o1.ObjectData.NumberOfAnalysisRays = 1e6
+    o1.ObjectData.NumberOfLayoutRays = 10
+    o1.ObjectData.ConeAngle = 2.5
+
+    o2.ZPosition = 1
+    o2.ObjectData.XHalfWidth = 0.1
+    o2.ObjectData.YHalfWidth = 0.1
+    o2.ObjectData.NumberXPixels = 100
+    o2.ObjectData.NumberYPixels = 100
+    #! [e06s03_py]
+    
+    #! [e06s04_py]
+    # Setup and run the ray trace
+    NSCRayTrace = TheSystem.Tools.OpenNSCRayTrace()
+    NSCRayTrace.SplitNSCRays = False
+    NSCRayTrace.ScatterNSCRays = True
+    NSCRayTrace.UsePolarization = False
+    NSCRayTrace.IgnoreErrors = True
+    NSCRayTrace.SaveRays = False
+    NSCRayTrace.ClearDetectors(0)
+
+    NSCRayTrace.RunAndWaitForCompletion()
+    NSCRayTrace.Close()
+    #! [e06s04_py]
+    
+    plt.rcParams["figure.figsize"] = (12, 4)
+    plt.set_cmap('jet')
+    plt.subplot(1, 2, 1)
+    det = 2
+
+    #! [e06s05_py]
+    # extracts the irradiance data from detector
+    rawData = TheSystem.NCE.GetAllDetectorDataSafe(det, 1)
+    data = zos.reshape(rawData, rawData.GetLength(0), rawData.GetLength(1))
+    #data = (np.asarray(tuple(rawData))).reshape(rawData.GetLength(0), rawData.GetLength(1));
+    irradiance = np.flipud(data);
+    plt.imshow(irradiance)
+    #! [e06s05_py]
+    
+    # irradiance plot formatting
+    plt.colorbar()
+    plt.title('Incoherent Irradiance')
+    plt.xticks([])
+    plt.yticks([])
+
+    plt.subplot(1, 2, 2)
+
+    #! [e06s06_py]
+    # Calculates phase data from Er & Ei
+    rawData = TheSystem.NCE.GetAllCoherentDataSafe(det, ZOSAPI.Editors.NCE.DetectorDataType.Real);
+    real = zos.reshape(rawData, rawData.GetLength(0), rawData.GetLength(1))
+    #real = (np.asarray(tuple(rawData))).reshape(rawData.GetLength(0), rawData.GetLength(1));
+    rawData = TheSystem.NCE.GetAllCoherentDataSafe(det, ZOSAPI.Editors.NCE.DetectorDataType.Imaginary);
+    imag = zos.reshape(rawData, rawData.GetLength(0), rawData.GetLength(1))
+    #imag = (np.asarray(tuple(rawData))).reshape(rawData.GetLength(0), rawData.GetLength(1));
+    
+    phase = np.flipud(np.arctan2(imag, real) * 180 / np.pi)
+    plt.imshow(phase)
+    #! [e06s06_py]
+
+    # phase plot formatting
+    plt.colorbar()
+    plt.title('Phase')
+    plt.xticks([])
+    plt.yticks([])
+    
+    TheSystem.SaveAs(TheApplication.SamplesDir + '\\API\\Python\\e06_nsc_phase.zos')
+    
+    # This will clean up the connection to OpticStudio.
+    # Note that it closes down the server instance of OpticStudio, so you for maximum performance do not do
+    # this until you need to.
+    del zos
+    zos = None
+    
+    # place plt.show() after clean up to release OpticStudio from memory
+    plt.show()
+```
