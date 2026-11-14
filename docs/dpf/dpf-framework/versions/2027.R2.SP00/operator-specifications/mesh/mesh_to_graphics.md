@@ -10,7 +10,11 @@ license: None
 
 ## Description
 
-Generate tessellation for input mesh
+
+Converts a shell mesh into graphics-ready coordinates, normals, and connectivity.
+By default, each element receives separate nodes and element-node normals.
+When `node_normals` is true, the output uses mesh nodes and connectivity with averaged normals at mesh nodes.
+
 
 ## Inputs
 
@@ -31,7 +35,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+Optional scoping used to restrict the mesh before generating outputs. If omitted, the full input mesh is used.
 
 <a id="input_2"></a>
 ### node_normals (Pin 2)
@@ -39,7 +43,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-average element normals for node normals (default no, use element normals for node normals)
+Whether to use averaged normals at mesh nodes. Defaults to false; when false, normals are generated for each element node.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -47,7 +51,7 @@ average element normals for node normals (default no, use element normals for no
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Shell mesh to convert into graphics-ready coordinates, normals, and connectivity.
 
 
 ## Outputs
@@ -68,21 +72,21 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-node coordinates
+Coordinates. By default, duplicated per element at elemental-nodal location; otherwise, nodal coordinates.
 
 <a id="output_1"></a>
 ### normals (Pin 1)
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-node normals
+Normals. By default, one normal per element node; with node_normals=true, averaged normals at mesh nodes.
 
 <a id="output_2"></a>
 ### connectivity (Pin 2)
 
 - **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
 
-
+Connectivity for output elements; links generated nodes by default and original mesh nodes when node_normals is true.
 
 
 ## Configurations

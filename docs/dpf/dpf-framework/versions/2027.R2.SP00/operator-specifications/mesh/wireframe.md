@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Take a mesh and extracts its sharp edges, using pin 1 value as a threshold angle.
+
+Extracts a wireframe mesh containing sharp edges from an input mesh.
+An edge between adjacent surface facets is included when its
+[dihedral angle](https://en.wikipedia.org/wiki/Dihedral_angle) is greater than the threshold in radians.
+Shell-element border edges and beam-element edges are also included, regardless of the threshold.
+When element_restriction is provided, it limits the surface facets considered for dihedral and shell-border
+extraction. Beam elements are included regardless of this scoping.
+
 
 ## Inputs
 
@@ -31,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Input mesh from which surface, shell-border, and beam edges are extracted.
 
 <a id="input_1"></a>
 ### threshold (Pin 1)
@@ -39,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-angle threshold in radian that will trigger an edge detection.
+Dihedral-angle threshold in radians. A surface edge is included when the angle between adjacent surface normals is greater than this value. Shell-border and beam edges are included regardless of this threshold.
 
 <a id="input_2"></a>
 ### element_restriction (Pin 2)
@@ -47,7 +54,7 @@ angle threshold in radian that will trigger an edge detection.
 - **Required:** No
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-Restrict the list of elements that must be treated when extractiong edges. Can be used to exclude unwanted bodies or unwanted elements like contact or surface load elements.
+Optional elemental scoping that limits surface facets used for dihedral and shell-border edge extraction. If omitted, all eligible surface facets are considered. Beam elements are included regardless of this scoping.
 
 
 ## Outputs
@@ -66,7 +73,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+New wireframe mesh containing line elements for extracted edges and only nodes used by those edges. It can be empty when no edges are selected. Node coordinates and original node identifiers are retained.
 
 
 ## Configurations

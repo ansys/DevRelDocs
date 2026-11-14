@@ -10,7 +10,13 @@ license: None
 
 ## Description
 
-Computes the level set for a plane using coordinates.
+
+Computes the signed distance from each coordinate to a plane defined by an origin and a normal vector.
+For coordinate $\mathbf{x}$, plane origin $\mathbf{x}_0$, and nonzero normal $\mathbf{n}$, the result is
+$\frac{\mathbf{n}\cdot(\mathbf{x}-\mathbf{x}_0)}{\|\mathbf{n}\|}$. Positive and negative values identify
+opposite sides of the plane, and zero identifies points on the plane. The coordinates input accepts either
+a coordinate field or a meshed region; for a meshed region, its coordinate field is used.
+
 
 ## Inputs
 
@@ -31,7 +37,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A coordinate field or meshed region providing 3D coordinates. If a meshed region is provided, its coordinate field is used.
 
 <a id="input_1"></a>
 ### normal (Pin 1)
@@ -39,7 +45,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-An overall 3D vector that gives the normal direction of the plane.
+An overall 3D, nonzero vector with one entity that defines the plane normal.
 
 <a id="input_2"></a>
 ### origin (Pin 2)
@@ -47,7 +53,7 @@ An overall 3D vector that gives the normal direction of the plane.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-An overall 3d vector that gives a point of the plane.
+An overall 3D vector with one entity that defines a point on the plane.
 
 
 ## Outputs
@@ -66,7 +72,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A field containing one signed-distance value for each coordinate entity. It uses the coordinate input's scoping, location, unit, and support.
 
 
 ## Configurations

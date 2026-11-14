@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Take a mesh and a scoping (elemental or nodal) and create a new mesh that contains this selection only.
+
+Extracts a submesh from an input mesh using an elemental or nodal scoping.
+A positive extension expands the scoping through mesh connectivity before extraction, once per requested layer.
+When extension is omitted or non-positive, the supplied scoping is used without expansion.
+For an elemental scoping, output contains selected elements and their nodes.
+For a nodal scoping, output contains selected nodes.
+Mesh property fields and named selections are restricted to the extracted mesh.
+
 
 ## Inputs
 
@@ -31,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Input mesh from which to extract a submesh.
 
 <a id="input_1"></a>
 ### mesh_scoping (Pin 1)
@@ -39,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+Elemental or nodal scoping identifying the mesh entities to extract.
 
 <a id="input_2"></a>
 ### extension (Pin 2)
@@ -47,7 +54,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`int32`](../../core-concepts/dpf-types.md#standard-types)
 
-Number of extension layer
+Optional mesh-connectivity expansion count. Defaults to 0; non-positive values do not expand the scoping.
 
 
 ## Outputs
@@ -66,7 +73,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Extracted submesh containing selected elements and their nodes, or selected nodes for a nodal scoping.
 
 
 ## Configurations

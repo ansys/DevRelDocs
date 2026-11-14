@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-12).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-14).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -405,7 +405,15 @@ The following table shows which components have updates in each category.
 #### mesh
 
 - [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/edge_decimation.md):
-  > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
+  > 
+  > Reduces a wireframe mesh by removing interior nodes whose two incident edges are nearly collinear.
+  > A node is removed only when it has two incident edges with non-zero lengths and their deviation from a straight
+  > line is strictly less than the angular threshold.
+  > Nodes with more than two incident mesh connections, endpoints, and corners at or above the threshold are not
+  > candidates for removal.
+  > Only supported line and edge elements are converted to output edges; other element types do not produce output
+  > elements.
+  > 
 
 - [mesh_set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_set_attribute.md):
   > Uses the MeshedRegion APIs to modify it.
@@ -1563,6 +1571,8 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Update the operator and pin descriptions.
 
+  > 0.0.2: Clarify the workflow description, support requirements, filter-radius behavior, and output form.
+
 
 - [scoping_on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/scoping_on_coordinates.md)
 
@@ -2026,10 +2036,14 @@ Upgraded documentation
 
   > 1.0.0: Use both input fields to compute the binary union.
 
+  > 1.0.1: Document binary-union inputs, output, and entity-wise minimum behavior.
+
 
 - [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/exclude_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Document field usage and output behavior.
 
 
 - [from_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/from_scoping.md)
@@ -2072,10 +2086,14 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Document plane level-set inputs, output, and signed-distance behavior.
+
 
 - [make_sphere_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/make_sphere_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Document sphere-level-set inputs, formula, output behavior, and pin documentation.
 
 
 - [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_extraction.md)
@@ -2085,6 +2103,8 @@ Upgraded documentation
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
   > 2.0.0: Internal refactoring to use transpose and mesh::by_scoping operator.
+
+  > 2.0.1: Document scoping expansion, pin behaviour, and extracted mesh contents.
 
 
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_provider.md)
@@ -2100,12 +2120,16 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Clarify mesh, normal-mode, and output documentation.
+
 
 - [mesh_to_graphics_edges](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_to_graphics_edges.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
+
+  > 0.0.3: Clarify supported elements, optional inputs, edge connectivity, and mid-node handling.
 
 
 - [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_to_pyvista.md)
@@ -2162,6 +2186,11 @@ Upgraded documentation
   > 0.1.0: Improvement in the performance by implementing scoping_build_index_tables operator.
 
 
+- [stl_export](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/stl_export.md)
+
+  > 0.1.0: Expose the optional binary_format input and document STL format selection and mesh export behavior.
+
+
 - [wireframe](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/wireframe.md)
 
   > 0.1.0: Addition of optional element_restriction pin.
@@ -2169,6 +2198,8 @@ Upgraded documentation
   > 0.1.1: Operator now supports shell and beam elements.
 
   > 0.1.2: Internal refactoring to use Scoping Iterators.
+
+  > 0.1.3: Clarified dihedral threshold, elemental restriction, and wireframe output documentation.
 
 
 
@@ -2926,6 +2957,12 @@ Upgraded documentation
 
   > 0.0.4: Reduce memory footprint and increase performance.
 
+  > 0.1.0: Add optional input pin 2 to compute only the intersection, only the difference or both.
+
+  > 0.1.1: Performance improvement when scopingA's id lookup is already built and scopingB is smaller: iterate on scopingB instead of scopingA.
+
+  > 0.2.0: Accept scopings containers to intersect many scopings at once. Add output pin 2 with the scopingB scopings intersecting nothing.
+
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/scoping/on_property.md)
 
@@ -3169,6 +3206,8 @@ Upgraded documentation
 - [merge_meshes_containers](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/merge_meshes_containers.md)
 
   > 0.0.1: Skip merge for identical meshes based on hash comparison.
+
+  > 0.0.2: Performance improvement: meshes sharing a label space are merged in a single pass instead of two by two.
 
 
 - [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/merge_scopings.md)

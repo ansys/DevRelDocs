@@ -10,7 +10,10 @@ license: None
 
 ## Description
 
-Takes two level sets and excludes the second one from the first.
+
+Returns a copy of the first level-set field.
+The second input currently has no effect on the output.
+
 
 ## Inputs
 
@@ -30,7 +33,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A level-set field copied to the output. Its values, scoping, and field definition provide the output content.
 
 <a id="input_1"></a>
 ### fieldB (Pin 1)
@@ -38,7 +41,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A second level-set field. It currently has no effect on the output.
 
 
 ## Outputs
@@ -57,7 +60,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A copy of fieldA with the same values, scoping, and field definition. The second input does not affect the result.
 
 
 ## Configurations

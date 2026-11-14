@@ -10,7 +10,15 @@ license: None
 
 ## Description
 
-Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
+
+Reduces a wireframe mesh by removing interior nodes whose two incident edges are nearly collinear.
+A node is removed only when it has two incident edges with non-zero lengths and their deviation from a straight
+line is strictly less than the angular threshold.
+Nodes with more than two incident mesh connections, endpoints, and corners at or above the threshold are not
+candidates for removal.
+Only supported line and edge elements are converted to output edges; other element types do not produce output
+elements.
+
 
 ## Inputs
 
@@ -30,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Input mesh containing line or edge elements to decimate. Supported line and edge element variants are converted to edge connections; other element types do not produce output elements.
 
 <a id="input_1"></a>
 ### angular_limit_in_radian (Pin 1)
@@ -38,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-angle threshold in radian that will trigger an edge removal.
+Required angular threshold in radians. An interior node is removed when the deviation from straightness between its two incident edges is strictly less than this value. Non-positive values disable decimation.
 
 
 ## Outputs
@@ -57,7 +65,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Decimated wireframe mesh containing retained connectivity as 2-node line elements. Unsupported input elements and nodes not used by retained edges are omitted. Node coordinates, original node identifiers, and the mesh unit are retained; the output can be empty.
 
 
 ## Configurations
