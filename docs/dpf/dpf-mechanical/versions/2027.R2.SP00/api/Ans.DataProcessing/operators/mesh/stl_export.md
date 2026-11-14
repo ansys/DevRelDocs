@@ -2,11 +2,13 @@
 uid: Ans.DataProcessing.operators.mesh.stl_export
 ---
 
-# *class* stl_export(mesh: object = None, file_path: object = None, config: OperatorConfig = None)
+# *class* stl_export(mesh: object = None, file_path: object = None, binary_format: object = None, config: OperatorConfig = None)
 
-export a mesh into a stl file.
+Exports the surface of a mesh to an STL file.
 
-available inputs: `mesh` (MeshedRegion), `file_path` (string)
+By default, the file is written in ASCII format; set `binary_format` to true to write a binary STL file.
+
+available inputs: `mesh` (MeshedRegion), `file_path` (string), `binary_format` (bool) (optional)
 
 available outputs: `data_sources` (DataSources)
 
@@ -16,6 +18,7 @@ available outputs: `data_sources` (DataSources)
 
 * **mesh**
 * **file_path**
+* **binary_format**
 * **config**
 
 **Example:**
@@ -23,22 +26,34 @@ available outputs: `data_sources` (DataSources)
 ```python
 op = stl_export()
 
-op = stl_export(mesh=my_mesh,file_path=my_file_path)
+op = stl_export(mesh=my_mesh,file_path=my_file_path,binary_format=my_binary_format)
 ```
 
 ## Inputs
 
 ### mesh
 
+Mesh whose surface is exported to the STL file.
+
 **Type:** *LinkableInput*
 
 ### file_path
+
+Path of the STL file to write.
+
+**Type:** *LinkableInput*
+
+### binary_format
+
+Whether to write a binary STL file. If omitted or false, the file is written in ASCII format.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### data_sources
+
+Data sources referencing the generated STL file.
 
 **Type:** *LinkableOutput*
 

@@ -4,7 +4,11 @@ uid: Ans.DataProcessing.operators.mesh.combine_levelset
 
 # *class* combine_levelset(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-Takes two level sets and computes their binary union.
+Computes the binary union of two signed level-set fields using the entity-wise (component-wise) minimum, also known as
+
+the [pointwise minimum](https://en.wikipedia.org/wiki/Minimum).
+
+For corresponding values, the output is $\min(fieldA[i], fieldB[i])$.
 
 available inputs: `fieldA` (Field), `fieldB` (Field)
 
@@ -30,15 +34,21 @@ op = combine_levelset(fieldA=my_fieldA,fieldB=my_fieldB)
 
 ### fieldA
 
+A field containing level-set values. The output is copied from this field and uses its scoping and field definition.
+
 **Type:** *LinkableInput*
 
 ### fieldB
+
+A second level-set field whose values are combined entity-wise with fieldA values to compute the binary union.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### field
+
+A field containing the entity-wise minimum of corresponding fieldA and fieldB values. It uses fieldA's scoping and field definition.
 
 **Type:** *LinkableOutput*
 
