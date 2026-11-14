@@ -1,0 +1,30 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Rocky Solver SDK 2027 R1",
+      "summary": "C++ and Python SDK reference for developing Rocky solver modules, including setup, hooks, examples, and API types.",
+      "version": "2027 R1",
+      "product": "Rocky",
+      "programming language": "C++",
+      "product collection": "Fluids",
+      "physics": "Fluids"
+    },
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "toc.yml"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "compound-list.js"
+        ]
+      }
+    ],
+    "dest": "_site"
+  }
+}
