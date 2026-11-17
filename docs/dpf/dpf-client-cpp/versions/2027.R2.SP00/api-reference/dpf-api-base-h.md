@@ -70,6 +70,7 @@
 ## Includes
 
 * <array>
+* <cstdint>
 * <exception>
 * <initializer_list>
 * <unordered_map>
@@ -100,32 +101,35 @@ click 1 "dpf__api__base_8h.md#dpf__api__base_8h"
 1 --> 12
 1 --> 13
 1 --> 14
+1 --> 15
 
 2["array"]
 
-13["complex"]
+14["complex"]
 
-12["cstring"]
+3["cstdint"]
 
-3["exception"]
+13["cstring"]
 
-4["initializer_list"]
+4["exception"]
 
-11["iostream"]
+5["initializer_list"]
 
-9["map"]
+12["iostream"]
 
-10["set"]
+10["map"]
 
-6["stdexcept"]
+11["set"]
 
-7["string"]
+7["stdexcept"]
 
-14["tchar.h"]
+8["string"]
 
-5["unordered_map"]
+15["tchar.h"]
 
-8["vector"]
+6["unordered_map"]
+
+9["vector"]
 
 ```
 
