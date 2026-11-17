@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-14).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-16).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -10,12 +10,13 @@ The following table shows which components have updates in each category.
 |-----------|----------|----------|
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
+| hgp |  |[1 item](#Fixes_hgp) |
 | lsdyna |  |[1 item](#Fixes_lsdyna) |
-| mapdl | [2 items](#Features_mapdl) |[2 items](#Fixes_mapdl) |
+| mapdl | [2 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
-| native | [1 item](#Features_native) |[1 item](#Fixes_native) |
+| native | [1 item](#Features_native) |[2 items](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
 
 
@@ -66,6 +67,14 @@ The following table shows which components have updates in each category.
   >
   > Scoping erase now ignores negative indices and indices outside the valid range while preserving valid erase behavior.
   >
+  > 
+  >
+  > 
+## hgp
+
+### <a id="Fixes_hgp"></a> Fixes
+
+- Fixing issue with GCC 13.3:
   > 
   >
   > 
@@ -130,6 +139,15 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Handle all operators provider for models without reaction force:
+  > 
+  >
+  > The all_reactions_provider operator no longer fails when the model contains no reaction forces. It now returns an empty fields container in that case instead of producing an error.
+  >
+  > 
+  >
+  > 
+
 - Fix rst lazy result info provider:
   > 
   >
@@ -189,6 +207,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_native"></a> Fixes
+
+- Handle all operators provider for models without reaction force:
+  > 
+  >
+  > The all_reactions_provider operator no longer fails when the model contains no reaction forces. It now returns an empty fields container in that case instead of producing an error.
+  >
+  > 
+  >
+  > 
 
 - Fix accumulate operator for specific context, extend make_unit capabilities:
   > - Fix for accumulate operator: entities with elementary data were not treated properly, provoking crashes.
