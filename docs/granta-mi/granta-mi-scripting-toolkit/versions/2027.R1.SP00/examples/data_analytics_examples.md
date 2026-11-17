@@ -5,5 +5,5 @@
 These examples show how to use MI Scripting Toolkit to perform some common data analytics tasks, including statistical roll-ups and
 generation of plots. All examples use the MI Training database, available from the Ansys Download Center.
 
-Download all the notebooks and the example files
-[`here`](../_downloads/d5ad58d2e91c3c1c397cfb0975ae9956/example_files_data_analytics.zip).
+Download all the notebooks and the example files [`here`](https://github.com/ansys/DevRelPublic/raw/main/Downloads/Scripting-Toolkit/2027R1/example_files_data_analytics.zip).
+

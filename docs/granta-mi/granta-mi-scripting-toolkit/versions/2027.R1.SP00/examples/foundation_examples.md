@@ -9,5 +9,5 @@ examples use the MI Training database, available from the Ansys Download Center.
 Always consult your ACE representative before using the Foundation API. See [Foundation API](../user_guide/package_overview.md#foundation-api) for more
 information.
 
-Download all the notebooks and example files [`here`](../_downloads/2ce2c8ddd79fd15140bfaec6db0efef2/example_files_foundation.zip), or
+Download all the notebooks and example files [`here`](https://github.com/ansys/DevRelPublic/raw/main/Downloads/Scripting-Toolkit/2027R1/example_files_foundation.zip), or
 access individual notebooks via the links in the navigation bar on the left.
