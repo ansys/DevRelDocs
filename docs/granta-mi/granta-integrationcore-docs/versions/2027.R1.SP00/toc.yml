@@ -1,0 +1,36 @@
+items:
+- name: Introduction
+  href: index.md
+- name: User guide
+  href: user-guide.md
+  items:
+  - name: System requirements
+    href: sysreqs.md
+  - name: Creating a server-based integration
+    href: plugin-server-based.md
+  - name: Creating a desktop-based integration
+    href: plugin-desktop-based.md
+  - name: Adding a Host Configuration to Granta MI
+    href: host-configuration.md
+  - name: Style guide
+    href: style.md
+- name: Examples
+  href: examples.md
+  items:
+  - name: Server-based plugin - Material Logger
+    href: example-server-material-logger.md
+  - name: Desktop-based plugin - C#
+    href: example-desktop-csharp.md
+  - name: Desktop-based plugin - Python
+    href: example-desktop-python.md
+- name: API reference
+  href: api.md
+  items:
+  - name: MI Integration Service
+    href: ../integration-service-api/integration_service.swagger.json
+  - name: Server Plugin
+    topicUid: Ansys.GrantaMI.IntegrationCore.ServerPlugin.V1
+- name: Changelog
+  href: changelog.md
+- name: Copyright and trademark information
+  href: copyright.md

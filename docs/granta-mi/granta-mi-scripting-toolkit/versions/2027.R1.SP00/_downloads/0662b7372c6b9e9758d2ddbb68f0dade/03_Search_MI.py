@@ -1,0 +1,188 @@
+# # Search Granta MI
+# Use the three available search methods to search for records.
+
+# All three methods can be performed at either the Session, Database, or Table levels:
+#
+# * Simple text search
+# * Record name search
+# * Criteria search
+
+# ## Connect to MI
+
+import ansys.grantami.core as mpy
+
+mi = mpy.SessionBuilder("http://my.server.name/mi_servicelayer").with_autologon()
+db = mi.get_db(db_key="MI_Training")
+db.unit_system = "UK Imperial"
+material_universe = db.get_table("MaterialUniverse")
+
+# ## Simple text search
+# Search for records which contain the string anywhere in the record.
+
+normalized_material_records = material_universe.search_for_records_by_text("Normalized")
+normalized_material_records
+
+# ## Record name search
+# Search for records by name. Only exact matches to the long or short name of a record are returned.
+
+sodium_barium_glass_records = material_universe.search_for_records_by_name("Soda barium glass")
+sodium_barium_glass_records
+
+# ## Criteria searches
+# Search criteria are constructed from **AttributeDefinition** objects using the `search_criterion()` method.
+#
+# This search type is typically used in 7 different scenarios:
+#
+# * Text searches
+# * Numeric searches
+# * Date searches
+# * Boolean searches
+# * Tabular searches
+# * Searching for the presence of any value
+# * Combining search criteria
+#
+
+# ### Text searches
+# In these examples, the criteria are that the attribute *Base* in the *MaterialUniverse* table:
+#
+# * Contains iron (`contains=`)
+# * Does not contain iron (`does_not_contain=`)
+# * Contains one of three specified metals (`contains_any=`)
+# * Contains all three specified metals (`contains_all=`)
+
+base_attribute = material_universe.attributes["Base"]
+
+# All materials that contain Iron:
+
+base_contains_iron = base_attribute.search_criterion(contains="Fe (Iron)")
+iron_records = material_universe.search_for_records_where([base_contains_iron])
+iron_records
+
+# All materials that **do not** contain Iron:
+
+base_does_not_contain_iron = base_attribute.search_criterion(does_not_contain="Fe (Iron)")
+iron_free_records = material_universe.search_for_records_where([base_does_not_contain_iron])
+iron_free_records[:5]
+
+# All materials that contain **one of** Iron, Aluminum **or** Titanium:
+
+base_contains_any_metal = base_attribute.search_criterion(contains_any=["Fe (Iron)", "Al (Aluminum)", "Ti (Titanium)"])
+base_any_metal_records = material_universe.search_for_records_where([base_contains_any_metal])
+base_any_metal_records
+
+# All materials that contain Iron, Aluminum **and** Titanium:
+
+base_contains_all_metals = base_attribute.search_criterion(contains_all=["Fe (Iron)", "Al (Aluminum)", "Ti (Titanium)"])
+base_all_metals_records = material_universe.search_for_records_where([base_contains_all_metals])
+base_all_metals_records
+
+# ### Numeric searches
+# In this example, the criteria are that the attribute *Yield Strength, L* in the *Design Data* table is either greater
+# than or less than 145 ksi.
+
+design_data = db.get_table("Design Data")
+yield_strength_l_attribute = design_data.attributes["Yield Strength, L"]
+
+# Materials with a *Yield Strength* **less than** 145 ksi:
+
+yield_strength_l_attribute.unit
+low_yield_strength = yield_strength_l_attribute.search_criterion(less_than=145.0)
+low_yield_strength_records = design_data.search_for_records_where([low_yield_strength])
+low_yield_strength_records
+
+# Materials with a *Yield Strength* **greater than** 145 ksi:
+
+high_yield_strength = yield_strength_l_attribute.search_criterion(greater_than=145.0)
+high_yield_strength_records = design_data.search_for_records_where([high_yield_strength])
+high_yield_strength_records
+
+# ### Date searches
+# In this example, the search is for records in the *Legislation and Lists* table with an *Effective Date* between 1970
+# and 2000.
+
+legislations = db.get_table("Legislations and Lists")
+effective_date_attribute = legislations.attributes["Effective date"]
+
+import datetime
+start_date = datetime.date(1970, 1, 1)
+end_date = datetime.date(2000, 1, 1)
+effective_date_1970_2000 = effective_date_attribute.search_criterion(between_dates=(start_date, end_date))
+legislations_1970_2000 = legislations.search_for_records_where([effective_date_1970_2000])
+legislations_1970_2000
+
+# ### Boolean searches
+# Search for records with a certain Boolean value. In this example, the search is for all materials where RoHS compliant
+# grades are available.
+
+RoHS_grades_attribute = material_universe.attributes["RoHS (EU) compliant grades?"]
+
+RoHS_grades_true = RoHS_grades_attribute.search_criterion(contains=True)
+materials_with_rohs_grades = material_universe.search_for_records_where([RoHS_grades_true])
+materials_with_rohs_grades[:5]
+
+# ### Combining criteria
+# The `search_for_records_where` method takes a list of criteria, allowing criteria to be combined as long as they
+# relate to attributes in the same table.
+
+metals_with_rohs_grades = material_universe.search_for_records_where([base_contains_any_metal, RoHS_grades_true])
+metals_with_rohs_grades
+
+# ### Searching for the existence of data
+# We can also define criteria that search for records which have *any* value for the specified attribute, with no
+# restriction on the data.
+
+restricted_substances = db.get_table("Restricted Substances")
+SVHC_criterion = restricted_substances.attributes["SVHC criterion"]
+
+svhc_exists = SVHC_criterion.search_criterion(exists=True)
+svhc_materials = restricted_substances.search_for_records_where([svhc_exists])
+svhc_materials
+
+# ### Searching for tabular data
+# Searching tabular data works in exactly the same way as searching attributes, except the criteria require an
+# additional argument to specify the applicable column. This example finds all records in the *MaterialUniverse* table
+# that contain at least one tabular row, and where both the following are true:
+#
+# * The 'Substance name' column contains the text value 'Alkanes'
+# * The 'Amount' column contains a value greater than 10.0 % (the criterion value is defined in the current unit system)
+
+declaration = material_universe.attributes["Restricted substances that may be associated with this material"]
+
+substance_contains_alkanes = declaration.search_criterion(contains="Alkanes", in_column="Substance name")
+amount_gt_10 = declaration.search_criterion(greater_than=10.0, in_column="Amount")
+
+affected_materials = material_universe.search_for_records_where([substance_contains_alkanes, amount_gt_10])
+affected_materials
+
+# Print the results of the tabular search.
+
+print(f"{'Record Name':^55.55} | {'Short Name':^55.55}")
+print("-" * 113)
+for r in affected_materials:
+    print(f"{r.name:^55.55} | {r.short_name:^55.55}")
+
+# ### Searching with pseudo-attributes
+# Some pseudo-attributes (also known as record properties) can be used as search criteria, they behave as ordinary
+# attributes and permit the same criteria to be used. This example
+# searches for tensile test results for **MTS** samples (High Alloy Steels) that were created during September 2023.
+
+tensile_test_table = db.get_table("Tensile Test Data")
+
+name_criterion = mpy.SearchCriterion(mpy.RecordProperties.name, "CONTAINS", "MTS")
+
+start_datetime = datetime.datetime(year=2023, month=9, day=1, hour=0, minute=0, second=0)
+end_datetime = datetime.datetime(year=2023, month=10, day=1, hour=0, minute=0, second=0)
+created_criterion = mpy.SearchCriterion(mpy.RecordProperties.created_on, "BETWEEN", (start_datetime, end_datetime))
+
+created_records = tensile_test_table.search_for_records_where([name_criterion, created_criterion])
+
+print(f"{len(created_records)} records found. Displaying first 5...")
+print()
+print(f"{'Record Name':^55.55} | {'Created Date':^55.55}")
+print("-" * 113)
+for r in created_records[:5]:
+    created_on = r.created_on.strftime("%Y/%m/%d %H:%M:%S")
+    print(f"{r.name:^55.55} | {created_on:^55.55}")
+
+# Pseudo-attributes are not table specific and can be used in database criteria searches via
+# ``Database.search_for_records_where()``. In this case, search results can include records from multiple tables.
