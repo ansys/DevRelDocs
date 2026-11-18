@@ -152,7 +152,7 @@
 - name: Release notes
   href: release_notes/index.md
   items:
-  - name: What's new in 5.0
+  - name: What's new in 5.1
     href: release_notes/whats_new.md
   - name: Enhancements and bug fixes
     href: release_notes/bug_fixes_and_enhancements.md
