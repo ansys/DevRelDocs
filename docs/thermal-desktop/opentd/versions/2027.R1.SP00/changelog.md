@@ -4,10 +4,11 @@
 
 ### Notes
 
+- A significant bug has been released in OpenTD. It will be fixed in Service Pack 1. This bug affects the communication between client and server for Node.MassVol, Heatload.Value, Heater.Value, Contactor.ContactCond, Contactor.TecValue, PID.GP, PID.GI, PID.GD, PID.DT, and PID.DTSS. Calling Update() on any of the objects (such as a Node or Heater) through OpenTD for any reason will result in a 0 for these settings in Thermal Desktop. To workaround this bug, set the expression value instead. For example, setting an expression for Node.MassVolExp will override the value of Node.MassVol. There is no workaround for using OpenTD to get these values from Thermal Desktop.
 - OpenTD is now .NET 10. 
 - The OpenTD version assembly version is 27.1.0.0.
 - Because .NET Core does not install dlls to the GAC, an OpenTD NuGet package is included in the Thermal Desktop installation directory that contains all necessary dlls.
-- The .NET 4 and .NET 8 versions are no longer supported.
+- OpenTD .NET 4 and .NET 8 versions are no longer supported.
 
 ### New Features
 

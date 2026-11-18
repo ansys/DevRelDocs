@@ -23,23 +23,21 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 % possible, although the way MATLAB handles .NET enums is awkward and
 % MATLAB does not support implicit constructors.
 
-% To get started with OpenTD, read "Getting Started with OpenTD.pdf",
-% which can be found in your TD v241 installation directory under "Manual".
-% The Getting Started guide explains the fundamental concepts of OpenTD,
-% using several C# examples. We've ported one of those examples to MATLAB
-% below.
-
 %% The "Create and Run a Case" example ported to MATLAB
 % See "Getting Started with OpenTD.pdf" in your TD v241 installation
 % directory under "Manual" for an explanation of this script.
 
-% Note: Please contact us at crtech.support@ansys.com if you think there are
+% Note: Please contact us at if you think there are
 % better ways to use OpenTD with MATLAB, especially with regard to .NET
 % enums and implicit constructors. For examples of awkward code, see how a
 % node is set to be a boundary node and how the InitialTemp of a node is
 % set -- in the script below vs. in the original C#.
 
-openTD = NET.addAssembly('OpenTD');
+% You must first unzip the OpenTD NuGet package that in the Thermal Desktop
+% installation directory. 
+
+e = dotnetenv("core")
+openTD = NET.addAssembly('C:\pathToUnzippedNuGet\OpenTD.dll');
 import OpenTD.*;
 td = ThermalDesktop;
 td.Connect();
