@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-16).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-17).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -10,6 +10,7 @@ The following table shows which components have updates in each category.
 |-----------|----------|----------|
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
+| grpc |  |[1 item](#Fixes_grpc) |
 | hgp |  |[1 item](#Fixes_hgp) |
 | lsdyna |  |[1 item](#Fixes_lsdyna) |
 | mapdl | [2 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
@@ -68,6 +69,22 @@ The following table shows which components have updates in each category.
   > Scoping erase now ignores negative indices and indices outside the valid range while preserving valid erase behavior.
   >
   > 
+  >
+  > 
+## grpc
+
+### <a id="Fixes_grpc"></a> Fixes
+
+- Shutdown deadlock:
+  > This PR fixes a hang of the DPF gRPC server during shutdown. If a client sent an operator or workflow evaluation request while the server was shutting down, the call never returned and the server process never exited. Now:
+  >
+  > 
+  >
+  > - requests already accepted by the server still complete
+  >
+  > - new requests received during shutdown fail immediately with an UNAVAILABLE error ("The DPF server <address> is shutting down.")
+  >
+  > - the server process always exits
   >
   > 
 ## hgp
