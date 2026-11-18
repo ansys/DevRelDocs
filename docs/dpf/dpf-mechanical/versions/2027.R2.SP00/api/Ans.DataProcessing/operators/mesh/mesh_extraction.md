@@ -4,7 +4,17 @@ uid: Ans.DataProcessing.operators.mesh.mesh_extraction
 
 # *class* mesh_extraction(mesh: object = None, mesh_scoping: object = None, extension: object = None, config: OperatorConfig = None)
 
-Take a mesh and a scoping (elemental or nodal) and create a new mesh that contains this selection only.
+Extracts a submesh from an input mesh using an elemental or nodal scoping.
+
+A positive extension expands the scoping through mesh connectivity before extraction, once per requested layer.
+
+When extension is omitted or non-positive, the supplied scoping is used without expansion.
+
+For an elemental scoping, output contains selected elements and their nodes.
+
+For a nodal scoping, output contains selected nodes.
+
+Mesh property fields and named selections are restricted to the extracted mesh.
 
 available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping), `extension` (Int32) (optional)
 
@@ -31,21 +41,27 @@ op = mesh_extraction(mesh=my_mesh,mesh_scoping=my_mesh_scoping,extension=my_exte
 
 ### mesh
 
+Input mesh from which to extract a submesh.
+
 **Type:** *LinkableInput*
 
 ### mesh_scoping
+
+Elemental or nodal scoping identifying the mesh entities to extract.
 
 **Type:** *LinkableInput*
 
 ### extension
 
-Number of extension layer
+Optional mesh-connectivity expansion count. Defaults to 0; non-positive values do not expand the scoping.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### meshed_region
+
+Extracted submesh containing selected elements and their nodes, or selected nodes for a nodal scoping.
 
 **Type:** *LinkableOutput*
 

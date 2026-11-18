@@ -4,7 +4,9 @@ uid: Ans.DataProcessing.operators.mesh.exclude_levelset
 
 # *class* exclude_levelset(fieldA: object = None, fieldB: object = None, config: OperatorConfig = None)
 
-Takes two level sets and excludes the second one from the first.
+Returns a copy of the first level-set field.
+
+The second input currently has no effect on the output.
 
 available inputs: `fieldA` (Field), `fieldB` (Field)
 
@@ -30,15 +32,21 @@ op = exclude_levelset(fieldA=my_fieldA,fieldB=my_fieldB)
 
 ### fieldA
 
+A level-set field copied to the output. Its values, scoping, and field definition provide the output content.
+
 **Type:** *LinkableInput*
 
 ### fieldB
+
+A second level-set field. It currently has no effect on the output.
 
 **Type:** *LinkableInput*
 
 ## Outputs
 
 ### field
+
+A copy of fieldA with the same values, scoping, and field definition. The second input does not affect the result.
 
 **Type:** *LinkableOutput*
 
