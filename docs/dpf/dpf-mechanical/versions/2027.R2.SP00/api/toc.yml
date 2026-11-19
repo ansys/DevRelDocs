@@ -1047,6 +1047,10 @@
       href: Ans.DataProcessing/operators/result/enclosure_number.md
     - name: enf_rotation_by_euler_nodes
       href: Ans.DataProcessing/operators/result/enf_rotation_by_euler_nodes.md
+    - name: enforced_force
+      href: Ans.DataProcessing/operators/result/enforced_force.md
+    - name: enforced_moment
+      href: Ans.DataProcessing/operators/result/enforced_moment.md
     - name: enthalpy
       href: Ans.DataProcessing/operators/result/enthalpy.md
     - name: entropy

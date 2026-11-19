@@ -136,6 +136,8 @@ uid: Ans.DataProcessing.operators.result
 | [emitted_radiation_heat_flux](Ans_DataProcessing_operators_result_emitted_radiation_heat_flux.md) | emitted_radiation_heat_flux() |
 | [enclosure_number](Ans_DataProcessing_operators_result_enclosure_number.md) | enclosure_number() |
 | [enf_rotation_by_euler_nodes](Ans_DataProcessing_operators_result_enf_rotation_by_euler_nodes.md) | read Euler angles on elements from the result file and rotate the fields in the fieldsContainer.   ///available inputs: fields_container (FieldsContainer) (optional), streams_container (StreamsContainer, Stream) (optional), data_sources (DataSources) |
+| [enforced_force](Ans_DataProcessing_operators_result_enforced_force.md) | enforced_force() |
+| [enforced_moment](Ans_DataProcessing_operators_result_enforced_moment.md) | enforced_moment() |
 | [enthalpy](Ans_DataProcessing_operators_result_enthalpy.md) | enthalpy() |
 | [entropy](Ans_DataProcessing_operators_result_entropy.md) | entropy() |
 | [epsilon](Ans_DataProcessing_operators_result_epsilon.md) | epsilon() |
