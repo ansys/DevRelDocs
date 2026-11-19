@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-17).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,19 +8,37 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
+| cs |  |[1 item](#Fixes_cs) |
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[1 item](#Fixes_framework) |
+| framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc |  |[1 item](#Fixes_grpc) |
-| hgp |  |[1 item](#Fixes_hgp) |
+| hgp |  |[2 items](#Fixes_hgp) |
 | lsdyna |  |[1 item](#Fixes_lsdyna) |
-| mapdl | [2 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
+| mapdl | [3 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
-| native | [1 item](#Features_native) |[2 items](#Fixes_native) |
+| native | [1 item](#Features_native) |[3 items](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
+| pythonplugin |  |[1 item](#Fixes_pythonplugin) |
 
 
+## cs
+
+### <a id="Fixes_cs"></a> Fixes
+
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
@@ -63,6 +81,19 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_framework"></a> Fixes
 
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
+
 - Ignore invalid scoping erase indices:
   > 
   >
@@ -91,6 +122,19 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_hgp"></a> Fixes
 
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
+
 - Fixing issue with GCC 13.3:
   > 
   >
@@ -103,6 +147,13 @@ The following table shows which components have updates in each category.
   > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add new function/wrapper to read enforced motion force/moment vector from .mode file:
+  > In mode_data operator, add two new output pins which read enforced motion data (enforced motion groups info and enforced motion force vector) when present in the file.
+  >
+  > 
+  >
+  > 
 
 - Allowing to not read mesh when passing as input:
   > Allowing to not read mesh when passing as input.
@@ -225,6 +276,11 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Data race when using "producer_consumer_for_each":
+  > 
+  >
+  > 
+
 - Handle all operators provider for models without reaction force:
   > 
   >
@@ -245,6 +301,22 @@ The following table shows which components have updates in each category.
 ### <a id="Fixes_prime"></a> Fixes
 
 - Fix Unit tests:
+  > 
+  >
+  > 
+## pythonplugin
+
+### <a id="Fixes_pythonplugin"></a> Fixes
+
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
   > 
   >
   > 
@@ -686,6 +758,12 @@ The following table shows which components have updates in each category.
 
 - [enclosure_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/enclosure_number.md):
   > Read/compute enclosure number by calling the readers defined by the datasources.
+
+- [enforced_force](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/enforced_force.md):
+  > Read/compute enforced motion force vector due to a unit acceleration by calling the readers defined by the datasources.
+
+- [enforced_moment](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/enforced_moment.md):
+  > Read/compute enforced motion moment vector due to a unit acceleration by calling the readers defined by the datasources.
 
 - [film_coefficient](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/film_coefficient.md):
   > Read/compute film coefficient by calling the readers defined by the datasources.

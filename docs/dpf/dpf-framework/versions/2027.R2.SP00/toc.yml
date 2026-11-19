@@ -837,6 +837,10 @@
       href: operator-specifications/result/emitted_radiation_heat_flux.md
     - name: enclosure number
       href: operator-specifications/result/enclosure_number.md
+    - name: enforced force
+      href: operator-specifications/result/enforced_force.md
+    - name: enforced moment
+      href: operator-specifications/result/enforced_moment.md
     - name: enthalpy
       href: operator-specifications/result/enthalpy.md
     - name: entropy
