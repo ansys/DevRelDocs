@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-02).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-18).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,13 +8,37 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
+| cs |  |[1 item](#Fixes_cs) |
 | femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
-| mapdl | [1 item](#Features_mapdl) |[1 item](#Fixes_mapdl) |
+| framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
+| grpc |  |[1 item](#Fixes_grpc) |
+| hgp |  |[2 items](#Fixes_hgp) |
+| lsdyna |  |[1 item](#Fixes_lsdyna) |
+| mapdl | [3 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
+| mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
-| native |  |[1 item](#Fixes_native) |
+| native | [1 item](#Features_native) |[3 items](#Fixes_native) |
+| prime |  |[1 item](#Fixes_prime) |
+| pythonplugin |  |[1 item](#Fixes_pythonplugin) |
 
 
+## cs
+
+### <a id="Fixes_cs"></a> Fixes
+
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
 ## femutils
 ### <a id="Features_femutils"></a> Features
 
@@ -42,8 +66,139 @@ The following table shows which components have updates in each category.
   > 
   >
   > 
+## framework
+### <a id="Features_framework"></a> Features
+
+- Fixing issues with large distributed files and multiple bodies:
+  > Improve performance when processing scopings and composite results, especially for largely fragmented files and many scopings. The scoping::intersect operator now supports computing selected outputs and intersecting multiple scopings.
+  >
+  > 
+
+- Complete usage of ScopingIterators and eliminate GetIds calls in Kernel and CLayers:
+  > 
+  >
+  > 
+
+### <a id="Fixes_framework"></a> Fixes
+
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
+
+- Ignore invalid scoping erase indices:
+  > 
+  >
+  > Scoping erase now ignores negative indices and indices outside the valid range while preserving valid erase behavior.
+  >
+  > 
+  >
+  > 
+## grpc
+
+### <a id="Fixes_grpc"></a> Fixes
+
+- Shutdown deadlock:
+  > This PR fixes a hang of the DPF gRPC server during shutdown. If a client sent an operator or workflow evaluation request while the server was shutting down, the call never returned and the server process never exited. Now:
+  >
+  > 
+  >
+  > - requests already accepted by the server still complete
+  >
+  > - new requests received during shutdown fail immediately with an UNAVAILABLE error ("The DPF server <address> is shutting down.")
+  >
+  > - the server process always exits
+  >
+  > 
+## hgp
+
+### <a id="Fixes_hgp"></a> Fixes
+
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
+
+- Fixing issue with GCC 13.3:
+  > 
+  >
+  > 
+## lsdyna
+
+### <a id="Fixes_lsdyna"></a> Fixes
+
+- Fix bug with sleout history vars (#296):
+  > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add new function/wrapper to read enforced motion force/moment vector from .mode file:
+  > In mode_data operator, add two new output pins which read enforced motion data (enforced motion groups info and enforced motion force vector) when present in the file.
+  >
+  > 
+  >
+  > 
+
+- Allowing to not read mesh when passing as input:
+  > Allowing to not read mesh when passing as input.
+  >
+  > When the mesh is incomplete in terms of MAPDL definitions (missing needed property fields: mapdl_element_type_id, section, ...) we get them from the RST file.
+  >
+  > 
+  >
+  > ### Added Unit Tests:
+  >
+  > TEST(FilteringOperators, NodalFilteringWithPassingMesh)
+  >
+  > TEST(FilteringOperators, NodalFilteringWithPassingMeshComposite)
+  >
+  > TEST(FilteringOperators, ElementalFilteringWithPassingMesh)
+  >
+  > TEST(FilteringOperators, ElementalFilteringWithPassingMeshComposite)
+  >
+  > TEST(FilteringOperators, RotationNodalFilteringWithPassingMesh)
+  >
+  > 
+  >
+  > ### Pipelines:
+  >
+  > https://ado.internal.synopsys.com/tfs/ANSYS_Development/DPF/_build/results?buildId=13420342&view=results
+  >
+  > 
+  >
+  > ### Precommit: Ongoing
+  >
+  > DPF:GetElementsResulDPF:GetElementsResultsByScoping,DPF:GetElementsResultsByScoping
+  >
+  > 
+  >
+  > ![image.png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image.png)
+  >
+  > 
+  >
+  > ![image (2).png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image%20%282%29.png)
+  >
+  > 
+  >
+  > ![image (3).png](https://ado.internal.synopsys.com/tfs/ANSYS_Development/b301e85b-3c3f-4e72-a514-819567f03273/_apis/git/repositories/afc6e22d-7e53-494a-a3dc-bf5c96dcf45e/pullRequests/738919/attachments/image%20%283%29.png)
+  >
+  > 
 
 - Complete usage of ScopingIterators and eliminate GetIds calls in mapdlOperators:
   > 
@@ -52,10 +207,32 @@ The following table shows which components have updates in each category.
 
 ### <a id="Fixes_mapdl"></a> Fixes
 
+- Handle all operators provider for models without reaction force:
+  > 
+  >
+  > The all_reactions_provider operator no longer fails when the model contains no reaction forces. It now returns an empty fields container in that case instead of producing an error.
+  >
+  > 
+  >
+  > 
+
+- Fix rst lazy result info provider:
+  > 
+  >
+  > 
+
 - Fix ASEC beam section Geometry issue:
   > 
   >
   > 
+## mechanial
+### <a id="Features_mechanial"></a> Features
+
+- Add one operator to estimate the memory used per time set:
+  > 
+  >
+  > 
+
 ## mesh
 
 ### <a id="Fixes_mesh"></a> Fixes
@@ -90,11 +267,55 @@ The following table shows which components have updates in each category.
   >
   > 
 ## native
+### <a id="Features_native"></a> Features
+
+- Fixing issues with large distributed files and multiple bodies:
+  > Improve performance when processing scopings and composite results, especially for largely fragmented files and many scopings. The scoping::intersect operator now supports computing selected outputs and intersecting multiple scopings.
+  >
+  > 
 
 ### <a id="Fixes_native"></a> Fixes
 
+- Data race when using "producer_consumer_for_each":
+  > 
+  >
+  > 
+
+- Handle all operators provider for models without reaction force:
+  > 
+  >
+  > The all_reactions_provider operator no longer fails when the model contains no reaction forces. It now returns an empty fields container in that case instead of producing an error.
+  >
+  > 
+  >
+  > 
+
 - Fix accumulate operator for specific context, extend make_unit capabilities:
   > - Fix for accumulate operator: entities with elementary data were not treated properly, provoking crashes.
+  >
+  > 
+  >
+  > 
+## prime
+
+### <a id="Fixes_prime"></a> Fixes
+
+- Fix Unit tests:
+  > 
+  >
+  > 
+## pythonplugin
+
+### <a id="Fixes_pythonplugin"></a> Fixes
+
+- Unify plugin load failure handling:
+  > 
+  >
+  > Plugin load failures preserve original causes and common plugin context for native C++ and Python plugins.
+  >
+  > Binary, dependency, entry point, and registration failures identify the failing phase.
+  >
+  > Existing native return codes and client error return contracts remain compatible.
   >
   > 
   >
@@ -300,7 +521,15 @@ The following table shows which components have updates in each category.
 #### mesh
 
 - [edge_decimation](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/edge_decimation.md):
-  > Takes a wireframe mesh (line elements) and reduces its node and edge count by collapsing interior nodes whose two incident edges deviate from straight by less than the given angular threshold. Branch nodes and sharp corners are preserved.
+  > 
+  > Reduces a wireframe mesh by removing interior nodes whose two incident edges are nearly collinear.
+  > A node is removed only when it has two incident edges with non-zero lengths and their deviation from a straight
+  > line is strictly less than the angular threshold.
+  > Nodes with more than two incident mesh connections, endpoints, and corners at or above the threshold are not
+  > candidates for removal.
+  > Only supported line and edge elements are converted to output edges; other element types do not produce output
+  > elements.
+  > 
 
 - [mesh_set_attribute](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_set_attribute.md):
   > Uses the MeshedRegion APIs to modify it.
@@ -529,6 +758,12 @@ The following table shows which components have updates in each category.
 
 - [enclosure_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/enclosure_number.md):
   > Read/compute enclosure number by calling the readers defined by the datasources.
+
+- [enforced_force](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/enforced_force.md):
+  > Read/compute enforced motion force vector due to a unit acceleration by calling the readers defined by the datasources.
+
+- [enforced_moment](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/enforced_moment.md):
+  > Read/compute enforced motion moment vector due to a unit acceleration by calling the readers defined by the datasources.
 
 - [film_coefficient](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/film_coefficient.md):
   > Read/compute film coefficient by calling the readers defined by the datasources.
@@ -1458,6 +1693,8 @@ The following table shows which components have updates in each category.
 
   > 0.0.1: Update the operator and pin descriptions.
 
+  > 0.0.2: Clarify the workflow description, support requirements, filter-radius behavior, and output form.
+
 
 - [scoping_on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/scoping_on_coordinates.md)
 
@@ -1921,10 +2158,14 @@ Upgraded documentation
 
   > 1.0.0: Use both input fields to compute the binary union.
 
+  > 1.0.1: Document binary-union inputs, output, and entity-wise minimum behavior.
+
 
 - [exclude_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/exclude_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Document field usage and output behavior.
 
 
 - [from_scoping](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/from_scoping.md)
@@ -1967,10 +2208,14 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Document plane level-set inputs, output, and signed-distance behavior.
+
 
 - [make_sphere_levelset](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/make_sphere_levelset.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
+
+  > 0.0.2: Document sphere-level-set inputs, formula, output behavior, and pin documentation.
 
 
 - [mesh_extraction](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_extraction.md)
@@ -1980,6 +2225,8 @@ Upgraded documentation
   > 1.0.1: Internal refactoring to use Scoping Iterators.
 
   > 2.0.0: Internal refactoring to use transpose and mesh::by_scoping operator.
+
+  > 2.0.1: Document scoping expansion, pin behaviour, and extracted mesh contents.
 
 
 - [mesh_provider](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_provider.md)
@@ -1995,12 +2242,16 @@ Upgraded documentation
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
+  > 0.0.2: Clarify mesh, normal-mode, and output documentation.
+
 
 - [mesh_to_graphics_edges](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_to_graphics_edges.md)
 
   > 0.0.1: Internal refactoring to use Scoping Iterators.
 
   > 0.0.2: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
+
+  > 0.0.3: Clarify supported elements, optional inputs, edge connectivity, and mid-node handling.
 
 
 - [mesh_to_pyvista](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/mesh_to_pyvista.md)
@@ -2057,6 +2308,11 @@ Upgraded documentation
   > 0.1.0: Improvement in the performance by implementing scoping_build_index_tables operator.
 
 
+- [stl_export](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/stl_export.md)
+
+  > 0.1.0: Expose the optional binary_format input and document STL format selection and mesh export behavior.
+
+
 - [wireframe](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/wireframe.md)
 
   > 0.1.0: Addition of optional element_restriction pin.
@@ -2064,6 +2320,8 @@ Upgraded documentation
   > 0.1.1: Operator now supports shell and beam elements.
 
   > 0.1.2: Internal refactoring to use Scoping Iterators.
+
+  > 0.1.3: Clarified dihedral threshold, elemental restriction, and wireframe output documentation.
 
 
 
@@ -2478,6 +2736,8 @@ Upgraded documentation
 
   > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
 
+  > 2.1.0: Support cyclic expansion of strain and kinetic energy results in static structural analysis when no nonzero harmonic indices are present.
+
 
 - [magnetic_field](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/magnetic_field.md)
 
@@ -2663,6 +2923,8 @@ Upgraded documentation
 
   > 2.0.0: In the case of a Modal analysis computation of cyclic expanded kinetic and strain energies from Element Nodal Forces and DOFs, rotation contributions were not accounted for.
 
+  > 2.1.0: Support cyclic expansion of strain and kinetic energy results in static structural analysis when no nonzero harmonic indices are present.
+
 
 - [stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/stress.md)
 
@@ -2816,6 +3078,12 @@ Upgraded documentation
   > 0.0.3: Improve membership-check performance.
 
   > 0.0.4: Reduce memory footprint and increase performance.
+
+  > 0.1.0: Add optional input pin 2 to compute only the intersection, only the difference or both.
+
+  > 0.1.1: Performance improvement when scopingA's id lookup is already built and scopingB is smaller: iterate on scopingB instead of scopingA.
+
+  > 0.2.0: Accept scopings containers to intersect many scopings at once. Add output pin 2 with the scopingB scopings intersecting nothing.
 
 
 - [on_property](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/scoping/on_property.md)
@@ -3060,6 +3328,8 @@ Upgraded documentation
 - [merge_meshes_containers](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/merge_meshes_containers.md)
 
   > 0.0.1: Skip merge for identical meshes based on hash comparison.
+
+  > 0.0.2: Performance improvement: meshes sharing a label space are merged in a single pass instead of two by two.
 
 
 - [merge_scopings](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/utility/merge_scopings.md)

@@ -10,9 +10,14 @@ license: None
 
 ## Description
 
-Generates a workflow that can map field results from a source support to a target support using RBF (Radial Basis Function) interpolation. The workflow exposes 'source', 'optional_target_support', and 'target' pins that can be used to perform mapping operations.
 
-**Filter radius**: Uses an automatic value if not specified and the source support provides access to a mesh region. If no mesh is accessible from the source support, the filter radius must be provided explicitly via pin 2.
+Generates a workflow for mapping field or fields-container results from a source support to a target support using
+[radial basis function](https://en.wikipedia.org/wiki/Radial_basis_function) (RBF) interpolation.
+The workflow exposes `source`, `optional_target_support`, and `target` pins for the mapping operation.
+
+If `filter_radius` is omitted and the source support is or carries a mesh region, the radius is derived from the source
+mesh. If no mesh can be obtained from the source support, `filter_radius` must be provided explicitly.
+
 
 ## Inputs
 
@@ -34,7 +39,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-Source support from which to map results. Can be a mesh region or a field containing 3D coordinates (vector field with 3 components). If a field is provided, its coordinate data is used directly for RBF construction. If the field has an associated mesh support, it will be used for automatic filter radius calculation.
+Source support from which to map results. Provide a mesh region or a one-dimensional vector field with three components containing 3D coordinates. If a field is provided, its coordinate data is used directly for RBF construction. If the field has an associated mesh support, that mesh is used to derive the automatic filter radius.
 
 <a id="input_1"></a>
 ### output_support (Pin 1)
@@ -42,7 +47,7 @@ Source support from which to map results. Can be a mesh region or a field contai
 - **Required:** No
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-Target support to which results will be mapped. Can be a mesh region or a field containing 3D target coordinates (vector field with 3 components). If a field is provided, its coordinate data is used directly as target locations. If a mesh region is provided, its coordinates are extracted and a mesh support is attached to the output. The output workflow always exposes an 'optional_target_support' input pin. When this pin is provided, it acts as the default for that exposed pin, so the workflow can execute without further input; when omitted, 'optional_target_support' must be connected before the workflow is executed.
+Target support to which results will be mapped. Provide a mesh region or a one-dimensional vector field with three components containing 3D target coordinates. If a field is provided, its coordinate data is used directly as target locations. If a mesh region is provided, its coordinates are extracted and a mesh support is attached to the output. The output workflow exposes an `optional_target_support` input pin. When this pin is provided, it is used as the default target support; when omitted, the exposed pin must be supplied before the workflow runs.
 
 <a id="input_2"></a>
 ### filter_radius (Pin 2)
@@ -50,7 +55,7 @@ Target support to which results will be mapped. Can be a mesh region or a field 
 - **Required:** No
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Radius size for the RBF filter. If not provided and the source support (pin 0) is or carries a mesh region, automatically calculated from the source mesh tetrahedra as the average tetrahedron volume divided by 2. If no mesh is accessible from pin 0, this pin must be supplied explicitly.
+Radius used by the RBF filter. If omitted and the source support is or carries a mesh region, the value is derived from the source mesh. If no mesh is accessible from the source support, this pin must be supplied explicitly. An explicitly supplied value takes precedence over the mesh-derived value.
 
 <a id="input_3"></a>
 ### influence_box (Pin 3)
@@ -77,7 +82,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`workflow`](../../core-concepts/dpf-types.md#workflow)
 
-Workflow configured for mapping operations. Exposes input pins 'source' (field to map), 'optional_target_support' (target coordinates), and output pin 'target' (mapped result).
+Workflow configured for mapping operations. Exposes `source` as a field or fields container to map. Exposes `optional_target_support` as the target coordinates or mesh support. Exposes `target` as the corresponding mapped field or fields container.
 
 
 ## Configurations

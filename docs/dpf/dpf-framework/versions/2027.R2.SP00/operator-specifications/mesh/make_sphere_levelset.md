@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Computes the level set for a sphere using coordinates.
+
+Computes a scalar value for each coordinate relative to a sphere.
+For coordinate $\mathbf{x}$, sphere center $\mathbf{x}_0$, and radius $r$, the value is
+$\sqrt{\|\mathbf{x}-\mathbf{x}_0\|^2-r^2}$.
+Values are zero on the sphere surface. For coordinates inside the sphere, the square-root argument is negative
+and the output value is NaN. The coordinates input accepts either a coordinate field or a meshed region; for a
+meshed region, its coordinate field is used.
+
 
 ## Inputs
 
@@ -31,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A coordinate field or meshed region providing 3D coordinates. If a meshed region is provided, its coordinate field is used.
 
 <a id="input_1"></a>
 ### origin (Pin 1)
@@ -39,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-An overall 3d vector that gives a point of the plane.
+An overall 3-component vector with one entity defining the sphere center.
 
 <a id="input_2"></a>
 ### radius (Pin 2)
@@ -47,7 +54,7 @@ An overall 3d vector that gives a point of the plane.
 - **Required:** Yes
 - **Expected type(s):** [`double`](../../core-concepts/dpf-types.md#standard-types)
 
-Sphere radius.
+A scalar sphere radius. The implementation squares this value, so its sign does not affect the result.
 
 
 ## Outputs
@@ -66,7 +73,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A scalar field with one value for each coordinate entity. It uses the coordinate input's scoping and unit and is supported by the coordinate field or mesh.
 
 
 ## Configurations

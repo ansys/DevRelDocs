@@ -10,7 +10,14 @@ license: None
 
 ## Description
 
-Generate edges of surface elements for input mesh
+
+Generates edge connectivity for triangular and quadrilateral shell or surface elements in a mesh.
+The output contains input mesh node coordinates and edge connectivity for each element.
+Connectivity stores each edge as a pair of node IDs.
+For 6-node triangles and 8-node quadrilaterals, `include_mid_nodes` controls whether mid-side nodes are included.
+It defaults to `true`; when `false`, only corner nodes are used.
+The mesh can be restricted with `mesh_scoping` before connectivity is generated.
+
 
 ## Inputs
 
@@ -31,7 +38,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
 
-
+Optional scoping used to restrict the input mesh before edge connectivity is generated. If omitted, the full input mesh is used.
 
 <a id="input_6"></a>
 ### include_mid_nodes (Pin 6)
@@ -39,7 +46,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** No
 - **Expected type(s):** [`bool`](../../core-concepts/dpf-types.md#standard-types)
 
-
+Optional flag controlling whether mid-side nodes are included for second-order elements. Defaults to true; when false, only corner nodes are used.
 
 <a id="input_7"></a>
 ### mesh (Pin 7)
@@ -47,7 +54,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region)
 
-
+Surface mesh containing triangular or quadrilateral shell or surface elements with 3, 4, 6, or 8 nodes.
 
 
 ## Outputs
@@ -67,14 +74,14 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-node coordinates
+Node coordinates from the input mesh.
 
 <a id="output_2"></a>
 ### connectivity (Pin 2)
 
 - **Expected type(s):** [`property_field`](../../core-concepts/dpf-types.md#property-field)
 
-
+Edge connectivity for each input element, stored as consecutive node-ID pairs. Second-order element connectivity includes mid-side nodes when include_mid_nodes is true.
 
 
 ## Configurations

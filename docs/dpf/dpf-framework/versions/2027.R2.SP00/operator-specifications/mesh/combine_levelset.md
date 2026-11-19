@@ -10,7 +10,11 @@ license: None
 
 ## Description
 
-Takes two level sets and computes their binary union.
+
+Computes the binary union of two signed level-set fields using the entity-wise (component-wise) minimum, also known as
+the [pointwise minimum](https://en.wikipedia.org/wiki/Minimum).
+For corresponding values, the output is $\min(fieldA[i], fieldB[i])$.
+
 
 ## Inputs
 
@@ -30,7 +34,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A field containing level-set values. The output is copied from this field and uses its scoping and field definition.
 
 <a id="input_1"></a>
 ### fieldB (Pin 1)
@@ -38,7 +42,7 @@ Each parameter is detailed in the sections that follow the table.
 - **Required:** Yes
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A second level-set field whose values are combined entity-wise with fieldA values to compute the binary union.
 
 
 ## Outputs
@@ -57,7 +61,7 @@ Each output is detailed in the sections that follow the table.
 
 - **Expected type(s):** [`field`](../../core-concepts/dpf-types.md#field)
 
-
+A field containing the entity-wise minimum of corresponding fieldA and fieldB values. It uses fieldA's scoping and field definition.
 
 
 ## Configurations
