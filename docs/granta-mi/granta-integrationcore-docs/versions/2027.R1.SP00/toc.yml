@@ -10,7 +10,7 @@ items:
     href: plugin-server-based.md
   - name: Creating a desktop-based integration
     href: plugin-desktop-based.md
-  - name: Adding a Host Configuration to Granta MI
+  - name: Configuring your host integration
     href: host-configuration.md
   - name: Style guide
     href: style.md

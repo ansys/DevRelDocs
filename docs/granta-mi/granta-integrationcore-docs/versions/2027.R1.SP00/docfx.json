@@ -1,0 +1,76 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Ansys.GrantaMI.IntegrationCore.ServerPlugin.dll"
+          ],
+          "src": "devkit-nuget"
+        }
+      ],
+      "dest": "devkit-api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**",
+          "devkit-api/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.yml"
+        ],
+        "src": "devkit-api",
+        "dest": "devkit-api"
+      },
+      {
+        "files": [
+          "**/*.swagger.json"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "resources/**",
+          "docs/example-scripts/**",
+          "docs/images/**",
+          "docs/resources/**",
+		  "docs/data/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "doc_type": "user_guide",
+      "title": "Granta MI Integration Development Kit",
+      "version": "2027 R1",
+      "summary": "Documentation for developing custom MI Materials Gateway integrations.",
+      "product": "Granta MI",
+      "physics": "Connect",
+      "programming language": "C#, Python",
+      "_appName": "Granta MI Integration Development Kit",
+      "_appTitle": "Granta MI Integration Development Kit",
+      "_appLogoPath": "docs/images/logo.png",
+      "_disableContribution": true,
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}

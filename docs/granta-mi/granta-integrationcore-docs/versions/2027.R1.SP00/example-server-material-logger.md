@@ -20,13 +20,79 @@ The example code can be found on the Granta MI installation CD `extras`, in the 
 
 `MaterialLoggerPluginFactory` implements `IPluginFactory` to create `MaterialLoggerPlugin` instances. The `settings` value passed to `Create` is used as the log file path. If not provided, it defaults to `materials.log` in the application base directory.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/ServerHost/MaterialLoggerSamplePlugin.DirectLib/MaterialLoggerPlugin/MaterialLoggerPluginFactory.cs#MaterialLoggerPluginFactory)]
+```csharp
+public sealed class MaterialLoggerPluginFactory
+    : PluginFactoryBase<MaterialLoggerSettings, MaterialLoggerPlugin>
+{
+    /// <summary>
+    /// Creates a new <see cref="MaterialLoggerPlugin"/> for the specified host and settings.
+    /// </summary>
+    /// <remarks>The host deserializes settings JSON into <see cref="MaterialLoggerSettings"/> before calling this method.
+    /// When <see cref="MaterialLoggerSettings.LogFilePath"/> is blank, the plugin logs to
+    /// <c>materials.log</c> in the application base directory.</remarks>
+    /// <param name="host">Host context provided by the Integration Service.</param>
+    /// <param name="settings">Deserialized plugin settings from MI Settings.</param>
+    /// <returns>A configured <see cref="MaterialLoggerPlugin"/> instance.</returns>
+    protected override MaterialLoggerPlugin Create(
+        IPluginHostContext host,
+        MaterialLoggerSettings settings)
+    {
+        // Host deserializes settings JSON; default to materials.log in the application base directory when LogFilePath is blank.
+        var logFilePath = string.IsNullOrWhiteSpace(settings.LogFilePath)
+            ? Path.Combine(AppContext.BaseDirectory, "materials.log")
+            : settings.LogFilePath;
+
+        var logger = host.CreateLogger("MaterialLogger");
+        return new MaterialLoggerPlugin(host.HostId, logFilePath, logger);
+    }
+}
+```
 
 ### MaterialLoggerPlugin
 
 `MaterialLoggerPlugin` implements `IPlugin`. Each call to `AddMaterials` appends a line per material to the log file, and returns a `MaterialStatus` result for each material.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/ServerHost/MaterialLoggerSamplePlugin.DirectLib/MaterialLoggerPlugin/MaterialLoggerPlugin.cs#MaterialLoggerPlugin)]
+```csharp
+public sealed class MaterialLoggerPlugin(
+    string hostId,
+    string logFilePath,
+    IPluginLog log) : IPlugin
+{
+    /// <inheritdoc />
+    public void Dispose()
+    {
+    }
+
+    /// <summary>
+    /// Appends a log entry for each material and returns a created status for each item.
+    /// </summary>
+    /// <param name="materials">Materials received from the Integration Service.</param>
+    /// <param name="cancellationToken">Token used to cancel the operation.</param>
+    /// <returns>A status entry for each input material.</returns>
+    public async Task<MaterialStatus[]> AddMaterials(
+        MaterialData[] materials,
+        CancellationToken cancellationToken = default)
+    {
+        var results = new MaterialStatus[materials.Length];
+
+        for (var i = 0; i < materials.Length; i++)
+        {
+            cancellationToken.ThrowIfCancellationRequested();
+
+            var m = materials[i];
+            var logEntry =
+                $"[{DateTime.UtcNow:O}] Host={hostId} | Name={m.Name} | Id={m.Id} | DB={m.DatabaseKey} | Table={m.TableName} | Units={m.Units} | Format={m.Format} | Description={m.Description}";
+
+            await File.AppendAllTextAsync(logFilePath, logEntry + Environment.NewLine, cancellationToken);
+            log.LogInformation($"Logged material {m.Name} ({m.Id})");
+
+            results[i] = new MaterialStatus(m.Name, m.Id, HttpStatusCode.Created);
+        }
+
+        return results;
+    }
+}
+```
 
 ## Plugin configuration
 
@@ -35,7 +101,7 @@ The `settings` JSON object specified for the plugin in the Host Configuration is
 | Settings value | Behavior |
 |---|---|
 | `{"LogFilePath": null}` | Logs to `materials.log` in the application base directory |
-| `{"LogFilePath": "C:\MaterialLoggerPlugin\materials.log"}` | Logs to the specified file |
+| `{"LogFilePath": "C:\\MaterialLoggerPlugin\\materials.log"}` | Logs to the specified file |
 
 ## Build
 
@@ -55,7 +121,7 @@ dotnet publish .\MaterialLoggerPlugin.sln
 
    * Host integration type: Server
    * Integration DLL: `MaterialLoggerPlugin.dll`
-   * Runtime settings: `{"LogFilePath": "C:\MaterialLoggerPlugin\materials.log"}` - Create the folder `C:\MaterialLoggerPlugin` if it does not exist.
+   * Runtime settings: `{"LogFilePath": "C:\\MaterialLoggerPlugin\\materials.log"}` - Create the folder `C:\MaterialLoggerPlugin` if it does not exist.
    * Authentication type: None selected
 
 This registers the plugin with the name `Logger`, and configures the plugin to write the log file to the `C:\MaterialLoggerPlugin\materials.log` file.

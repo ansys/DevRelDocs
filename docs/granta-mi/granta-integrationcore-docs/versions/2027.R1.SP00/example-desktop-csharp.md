@@ -22,33 +22,121 @@ The example code can be found in the Granta MI installation CD `extras`, in the 
 
 `CommandLineOptions` derives the URLs the plugin needs based on the MI Service Layer address (`-a`) and optional Host ID (`-i`) supplied on the command line. If `-i` is omitted, the `hostId` parameter is not included in the URL. The Host ID lets the host application identify itself to MI Materials Gateway, so that application behavior can be tailored for that specific host.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/CommandLineOptions.cs#IntegrationServiceApiBase)]
+```csharp
+/// <summary>
+/// Base URL for the MI Integration Service API, derived from <see cref="ServiceLayerAddress"/>,
+/// for example <c>https://my_server_name/mi_servicelayer/Proxy/v1.svc/integration-service/api/v1/</c>.
+/// </summary>
+public Uri IntegrationServiceApiBase =>
+    new($"{ServiceLayerAddress!.TrimEnd('/')}/Proxy/v1.svc/integration-service/api/v1/");
+```
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/CommandLineOptions.cs#BuildGatewayUrl)]
+```csharp
+/// <summary>
+/// Builds the Granta MI Gateway web page URL for the given session id, for example
+/// <c>https://my_server_name/grantami/gateway/?webMode=true&amp;gisSessionId=&lt;uid&gt;</c>.
+/// </summary>
+public Uri BuildGatewayUrl(Guid sessionId)
+{
+    var serviceLayerHost = new Uri(ServiceLayerAddress!).GetLeftPart(UriPartial.Authority);
+    var hostIdParameter = string.IsNullOrWhiteSpace(HostId) ? "" : $"&hostId={Uri.EscapeDataString(HostId)}";
+    return new Uri($"{serviceLayerHost}/grantami/gateway/?webMode=true&gisSessionId={sessionId}{hostIdParameter}");
+}
+```
 
 ### Authentication
 
 `AuthHandlerFactory` builds an `HttpMessageHandler` configured for the requested authentication mode: Windows Authentication (the default), HTTP Basic (`-u`/`-p`), or OIDC (`-o`). For OIDC, the token acquisition must be implemented based on the configured identity provider.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/Auth/AuthHandlerFactory.cs#Create)]
+```csharp
+public static HttpMessageHandler Create(CommandLineOptions options)
+{
+    if (options.UseOidc)
+    {
+        return new OidcAuthHandler(new HttpClientHandler());
+    }
+
+    return options.UseBasic ? CreateBasicHandler(options.User!, options.Password!) : CreateIwaHandler();
+}
+```
 
 ### Creating an MI Integration Service session
 
 `IntegrationServiceClient.CreateSessionAsync` creates a new session by calling `POST /sessions`. The plugin then builds the MI Materials Gateway URL for that session, and opens it in the user's default browser.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/IntegrationServiceClient.cs#CreateSessionAsync)]
+```csharp
+/// <summary>
+/// Creates a new MI Integration Service session. Corresponds to <c>POST /sessions</c>.
+/// </summary>
+public async Task<Session> CreateSessionAsync(SessionRequest request, CancellationToken cancellationToken)
+{
+    using var content = new StringContent(
+        JsonSerializer.Serialize(request, JsonOptions), Encoding.UTF8, "application/json");
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/Program.cs#CreateSessionAndOpenBrowser)]
+    using var response = await httpClient.PostAsync("sessions", content, cancellationToken);
+    await ThrowIfUnsuccessfulAsync(response, cancellationToken);
+
+    var session = await response.Content.ReadFromJsonAsync<Session>(JsonOptions, cancellationToken);
+    return session ?? throw new InvalidOperationException("Session response body was empty.");
+}
+```
+
+```csharp
+Console.WriteLine($"Creating session on {options.ServiceLayerAddress} ...");
+session = await integrationServiceClient.CreateSessionAsync(
+    new SessionRequest(options.SessionName), cts.Token);
+Console.WriteLine($"Session created: id={session.Id}, expiresAt={session.ExpiresAt:u}");
+
+var gatewayUrl = options.BuildGatewayUrl(session.Id);
+Console.WriteLine($"Opening browser at: {gatewayUrl}");
+OpenBrowser(gatewayUrl);
+```
 
 ### Receiving materials data
 
 `IntegrationServiceClient.StreamSessionDataAsync` opens an SSE connection to the session's data endpoint, and yields each `SequencedData` item as it is pushed into the session by MI Materials Gateway.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/IntegrationServiceClient.cs#StreamSessionDataAsync)]
+```csharp
+/// <summary>
+/// Streams session data pushed into the session via SSE. Corresponds to
+/// <c>GET /sessions/{uid}/data/sse</c>. The returned sequence completes when the connection
+/// is closed or <paramref name="cancellationToken"/> is triggered.
+/// </summary>
+public async IAsyncEnumerable<SequencedData> StreamSessionDataAsync(
+    Guid sessionId,
+    [System.Runtime.CompilerServices.EnumeratorCancellation] CancellationToken cancellationToken)
+{
+    using var request = new HttpRequestMessage(HttpMethod.Get, $"sessions/{sessionId}/data/sse");
+    request.Headers.Accept.Add(new MediaTypeWithQualityHeaderValue("text/event-stream"));
+
+    using var response = await httpClient.SendAsync(
+        request, HttpCompletionOption.ResponseHeadersRead, cancellationToken);
+    await ThrowIfUnsuccessfulAsync(response, cancellationToken);
+
+    await using var stream = await response.Content.ReadAsStreamAsync(cancellationToken);
+
+    await foreach (var sseItem in SseParser.Create<SequencedData?>(stream, ParseSequencedData).EnumerateAsync(cancellationToken))
+    {
+        if (sseItem.Data is not null)
+        {
+            yield return sseItem.Data;
+        }
+    }
+}
+```
 
 The application loops over this stream, and for each item received, prints the data to the console. For an actual implementation, the plugin would instead write the materials data into the host application using the appropriate host application API.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/Program.cs#ReceiveMaterialsData)]
+```csharp
+Console.WriteLine("Listening for material selections (Ctrl+C to stop and clean up)...");
+await foreach (var data in integrationServiceClient.StreamSessionDataAsync(session.Id, cts.Token))
+{
+    // This line is where the 'integration' happens
+    // In this example the application simply prints the received data to the console.
+    // In a real integration the data would instead be passed into the application.
+    Console.WriteLine($"[{DateTimeOffset.Now:HH:mm:ss}] Received data (sid={data.Id}): {data.Value}");
+}
+```
 
 This example always starts a new SSE stream from the beginning of the session; it does not implement reconnect-by-sequence-id (using the `?id=` query parameter) to resume a stream after a dropped connection. A production integration that needs to survive network interruptions should implement this.
 
@@ -56,7 +144,23 @@ This example always starts a new SSE stream from the beginning of the session; i
 
 The session should be deleted once the plugin no longer needs it. This example deletes the session in a `finally` block, so that this happens both on normal completion and when the user presses Ctrl+C.
 
-[!code-csharp[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSampleCSharp/Program.cs#CleanUpSession)]
+```csharp
+if (session is not null)
+{
+    Console.WriteLine("Deleting session...");
+    try
+    {
+        // Use a fresh token: the linked cancellation token may already be cancelled.
+        using var cleanupCts = new CancellationTokenSource(TimeSpan.FromSeconds(10));
+        await integrationServiceClient.DeleteSessionAsync(session.Id, cleanupCts.Token);
+        Console.WriteLine("Session deleted.");
+    }
+    catch (Exception ex)
+    {
+        Console.Error.WriteLine($"Warning: failed to delete session {session.Id}: {ex.Message}");
+    }
+}
+```
 
 ## Build
 

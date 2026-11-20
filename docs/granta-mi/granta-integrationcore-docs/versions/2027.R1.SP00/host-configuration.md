@@ -9,7 +9,7 @@ For both integration types, host configurations are created in MI Settings. See 
 
 ### Host identity
 
-Both server and desktop integrations must specifiy a `Host ID` and `Host Name`. This Host ID is included in the MI Materials Gateway URL to load the Gateway application in the correct context for the specified host. The `Host Name` is displayed in MI Materials Gateway when loaded with that `Host ID`.
+Server integrations must specify a `Host ID` and `Host Name`. Desktop integrations only need to specify them if they use a host configuration. This Host ID is included in the MI Materials Gateway URL to load the Gateway application in the correct context for the specified host. The `Host Name` is displayed in MI Materials Gateway when loaded with that `Host ID`.
 
 ### MI Materials Gateway default configuration
 

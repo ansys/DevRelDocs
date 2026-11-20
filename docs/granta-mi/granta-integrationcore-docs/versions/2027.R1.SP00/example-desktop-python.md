@@ -33,19 +33,96 @@ The script uses constants near the top of `main.py` to define the integration an
 
 `build_session` returns a `requests.Session` configured for the selected `AUTH_MODE`: Windows Integrated Authentication (via `requests_negotiate_sspi`), HTTP Basic (prompting for credentials at the console), or OIDC. For OIDC, the token acquisition must be implemented based on the configured identity provider.
 
-[!code-python[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSamplePython/main.py#BuildSession)]
+```python
+session = requests.Session()
+
+if AUTH_MODE == "windows":
+    from requests_negotiate_sspi import HttpNegotiateAuth
+
+    session.auth = HttpNegotiateAuth()
+elif AUTH_MODE == "basic":
+    username = input("Username: ")
+    password = getpass.getpass("Password: ")
+    domain = input("Domain (optional): ")
+    session.auth = HTTPBasicAuth(f"{domain}\\{username}" if domain else username, password)
+elif AUTH_MODE == "oidc":
+    session.headers["Authorization"] = f"Bearer {get_oidc_token()}"
+else:
+    raise ValueError(f"Unsupported AUTH_MODE: {AUTH_MODE!r}. Use 'windows', 'basic' or 'oidc'.")
+
+return session
+```
 
 ### Requesting an MI Materials Gateway session
 
 The script creates a new session by calling `POST /sessions`, then builds the MI Materials Gateway URL for that session and opens it in the user's default browser. If `HOST_ID` has been set, it is included in the URL as the `hostId` parameter. This lets the host application identify itself to MI Materials Gateway, so that application behavior can be tailored for that specific host.
 
-[!code-python[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSamplePython/main.py#CreateSessionAndOpenBrowser)]
+```python
+# Create a session on the MI Integration Service and stash the session ID.
+print(f"Creating session on {SERVER} ...")
+response = session.post(
+    f"{API_BASE}/sessions",
+    json={"name": SESSION_NAME, "settings": {"pollSeconds": POLL_SECONDS}},
+)
+raise_for_status(response)
+body = response.json()
+session_id = body["id"]
+print(f"Session created: id={session_id}, expiresAt={body['expiresAt']}")
+
+# Use the session ID to construct the MI Gateway URL and open it in the user's default browser.
+server_root = SERVER.rstrip("/").removesuffix("/mi_servicelayer")
+host_id_parameter = f"&hostId={quote(HOST_ID)}" if HOST_ID else ""
+gateway_url = f"{server_root}/grantami/gateway/?webMode=true&gisSessionId={session_id}{host_id_parameter}"
+print(f"Opening browser at: {gateway_url}")
+webbrowser.open(gateway_url)
+```
 
 ### Receiving materials data
 
 The script long-polls `GET /sessions/{uid}/data`, which blocks server-side for up to `POLL_SECONDS` before returning either the next item pushed into the session, or a `204 No Content` if nothing has arrived yet, in which case the script simply polls again. Polling is performed on a background thread so that the script remains responsive to Ctrl+C while waiting.
 
-[!code-python[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSamplePython/main.py#ReceiveMaterialsData)]
+```python
+# Wait for the user to select a material. This is done in a separate thread to ensure
+# the script remains responsive for Ctrl+C interrupts.
+print("Listening for material selections (Ctrl+C to stop and clean up)...")
+next_id = None
+while True:
+    params = {"id": next_id} if next_id is not None else {}
+    result: dict = {}  # Contains the result of the poll request, either a response or an error.
+
+    def do_poll(params=params, result=result):
+        try:
+            result["response"] = session.get(
+                f"{API_BASE}/sessions/{session_id}/data",
+                params=params,
+                timeout=POLL_TIMEOUT_SECONDS,
+            )
+        except requests.RequestException as ex:
+            result["error"] = ex
+
+    poll_thread = threading.Thread(target=do_poll, daemon=True)
+    poll_thread.start()
+    while poll_thread.is_alive():
+        poll_thread.join(timeout=1)
+
+    if "error" in result:
+        raise result["error"]
+    response = result["response"]
+
+    if response.status_code == requests.codes.no_content:
+        # Timed out waiting for data - just poll again.
+        continue
+
+    raise_for_status(response)
+
+    data = response.json()
+    # This line is where the 'integration' happens.
+    # In this example the application simply prints the received data to the console.
+    # In a real integration the data would instead be passed into the application.
+    timestamp = datetime.now(timezone.utc).astimezone().strftime("%H:%M:%S")
+    print(f"[{timestamp}] Received data (sid={data['id']}): {data['value']}")
+    next_id = data["id"] + 1
+```
 
 For each item received, the script prints the data to the console. For an actual implementation, the plugin would instead write the materials data into the host application using the appropriate host application API.
 
@@ -55,7 +132,18 @@ This example always starts polling from the lowest data sequence ID currently av
 
 The session should be deleted once the plugin no longer needs it. This example deletes the session in a `finally` block, so that this happens both on normal completion and when the user presses Ctrl+C.
 
-[!code-python[](~/../granta-integration-service/devkit/examples/OnPrem/Desktop/DesktopIntegrationSamplePython/main.py#CleanUpSession)]
+```python
+finally:
+    if session_id is not None:
+        print("Deleting session...")
+        try:
+            response = session.delete(f"{API_BASE}/sessions/{session_id}")
+            if response.status_code != requests.codes.not_found:
+                raise_for_status(response)
+            print("Session deleted.")
+        except requests.RequestException as ex:
+            print(f"Warning: failed to delete session {session_id}: {ex}", file=sys.stderr)
+```
 
 ## Set up
 
