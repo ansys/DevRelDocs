@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-18).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-19).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -9,12 +9,12 @@ The following table shows which components have updates in each category.
 | Component | Features | Fixes | 
 |-----------|----------|----------|
 | cs |  |[1 item](#Fixes_cs) |
-| femutils | [1 item](#Features_femutils) |[2 items](#Fixes_femutils) |
+| femutils | [1 item](#Features_femutils) |[3 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc |  |[1 item](#Fixes_grpc) |
 | hgp |  |[2 items](#Fixes_hgp) |
 | lsdyna |  |[1 item](#Fixes_lsdyna) |
-| mapdl | [3 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
+| mapdl | [4 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
@@ -50,6 +50,15 @@ The following table shows which components have updates in each category.
   > 
 
 ### <a id="Fixes_femutils"></a> Fixes
+
+- Initialize 2D reduced-coordinate outputs:
+  > 
+  >
+  > Set unused reduced coordinate components to zero for 2D elements, making output deterministic.
+  >
+  > 
+  >
+  > 
 
 - Unify normals provider behavior:
   > 
@@ -147,6 +156,11 @@ The following table shows which components have updates in each category.
   > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Add membrane stress and bending stress in source operator:
+  > 
+  >
+  > 
 
 - Add new function/wrapper to read enforced motion force/moment vector from .mode file:
   > In mode_data operator, add two new output pins which read enforced motion data (enforced motion groups info and enforced motion force vector) when present in the file.
