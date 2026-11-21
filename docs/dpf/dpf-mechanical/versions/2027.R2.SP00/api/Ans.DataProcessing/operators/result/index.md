@@ -136,6 +136,8 @@ uid: Ans.DataProcessing.operators.result
 | [emitted_radiation_heat_flux](Ans_DataProcessing_operators_result_emitted_radiation_heat_flux.md) | emitted_radiation_heat_flux() |
 | [enclosure_number](Ans_DataProcessing_operators_result_enclosure_number.md) | enclosure_number() |
 | [enf_rotation_by_euler_nodes](Ans_DataProcessing_operators_result_enf_rotation_by_euler_nodes.md) | read Euler angles on elements from the result file and rotate the fields in the fieldsContainer.   ///available inputs: fields_container (FieldsContainer) (optional), streams_container (StreamsContainer, Stream) (optional), data_sources (DataSources) |
+| [enforced_force](Ans_DataProcessing_operators_result_enforced_force.md) | enforced_force() |
+| [enforced_moment](Ans_DataProcessing_operators_result_enforced_moment.md) | enforced_moment() |
 | [enthalpy](Ans_DataProcessing_operators_result_enthalpy.md) | enthalpy() |
 | [entropy](Ans_DataProcessing_operators_result_entropy.md) | entropy() |
 | [epsilon](Ans_DataProcessing_operators_result_epsilon.md) | epsilon() |
@@ -328,6 +330,32 @@ uid: Ans.DataProcessing.operators.result
 | [rms_velocity](Ans_DataProcessing_operators_result_rms_velocity.md) | rms_velocity() |
 | [rom_data_provider](Ans_DataProcessing_operators_result_rom_data_provider.md) | Set the required data for the invariant terms computation (reduced matrices, lumped mass matrix, modes ...)   ///available inputs: rom_type (bool), reduced_stiff_matrix (FieldsContainer), reduced_damping_matrix (FieldsContainer), reduced_mass_matrix (FieldsContainer), data_sources (DataSources), reduced_rhs_vector (FieldsContainer), lumped_mass_matrix (FieldsContainer), mode_shapes (FieldsContainer) |
 | [run](Ans_DataProcessing_operators_result_run.md) | Solve in mapdl a dat/inp file and returns a datasources with the rst file.   ///available inputs: mapdl_exe_path (string) (optional), working_dir (string) (optional), number_of_processes (Int32) (optional), number_of_threads (Int32) (optional), data_sources (DataSources), server_mode (bool) (optional) |
+| [shell_bending_stress](Ans_DataProcessing_operators_result_shell_bending_stress.md) | shell_bending_stress() |
+| [shell_bending_stress_X](Ans_DataProcessing_operators_result_shell_bending_stress_X.md) | shell_bending_stress_X() |
+| [shell_bending_stress_XY](Ans_DataProcessing_operators_result_shell_bending_stress_XY.md) | shell_bending_stress_XY() |
+| [shell_bending_stress_XZ](Ans_DataProcessing_operators_result_shell_bending_stress_XZ.md) | shell_bending_stress_XZ() |
+| [shell_bending_stress_Y](Ans_DataProcessing_operators_result_shell_bending_stress_Y.md) | shell_bending_stress_Y() |
+| [shell_bending_stress_YZ](Ans_DataProcessing_operators_result_shell_bending_stress_YZ.md) | shell_bending_stress_YZ() |
+| [shell_bending_stress_Z](Ans_DataProcessing_operators_result_shell_bending_stress_Z.md) | shell_bending_stress_Z() |
+| [shell_bending_stress_eqv](Ans_DataProcessing_operators_result_shell_bending_stress_eqv.md) | shell_bending_stress_eqv() |
+| [shell_bending_stress_intensity](Ans_DataProcessing_operators_result_shell_bending_stress_intensity.md) | shell_bending_stress_intensity() |
+| [shell_bending_stress_max_shear](Ans_DataProcessing_operators_result_shell_bending_stress_max_shear.md) | shell_bending_stress_max_shear() |
+| [shell_bending_stress_principal_1](Ans_DataProcessing_operators_result_shell_bending_stress_principal_1.md) | shell_bending_stress_principal_1() |
+| [shell_bending_stress_principal_2](Ans_DataProcessing_operators_result_shell_bending_stress_principal_2.md) | shell_bending_stress_principal_2() |
+| [shell_bending_stress_principal_3](Ans_DataProcessing_operators_result_shell_bending_stress_principal_3.md) | shell_bending_stress_principal_3() |
+| [shell_membrane_stress](Ans_DataProcessing_operators_result_shell_membrane_stress.md) | shell_membrane_stress() |
+| [shell_membrane_stress_X](Ans_DataProcessing_operators_result_shell_membrane_stress_X.md) | shell_membrane_stress_X() |
+| [shell_membrane_stress_XY](Ans_DataProcessing_operators_result_shell_membrane_stress_XY.md) | shell_membrane_stress_XY() |
+| [shell_membrane_stress_XZ](Ans_DataProcessing_operators_result_shell_membrane_stress_XZ.md) | shell_membrane_stress_XZ() |
+| [shell_membrane_stress_Y](Ans_DataProcessing_operators_result_shell_membrane_stress_Y.md) | shell_membrane_stress_Y() |
+| [shell_membrane_stress_YZ](Ans_DataProcessing_operators_result_shell_membrane_stress_YZ.md) | shell_membrane_stress_YZ() |
+| [shell_membrane_stress_Z](Ans_DataProcessing_operators_result_shell_membrane_stress_Z.md) | shell_membrane_stress_Z() |
+| [shell_membrane_stress_eqv](Ans_DataProcessing_operators_result_shell_membrane_stress_eqv.md) | shell_membrane_stress_eqv() |
+| [shell_membrane_stress_intensity](Ans_DataProcessing_operators_result_shell_membrane_stress_intensity.md) | shell_membrane_stress_intensity() |
+| [shell_membrane_stress_max_shear](Ans_DataProcessing_operators_result_shell_membrane_stress_max_shear.md) | shell_membrane_stress_max_shear() |
+| [shell_membrane_stress_principal_1](Ans_DataProcessing_operators_result_shell_membrane_stress_principal_1.md) | shell_membrane_stress_principal_1() |
+| [shell_membrane_stress_principal_2](Ans_DataProcessing_operators_result_shell_membrane_stress_principal_2.md) | shell_membrane_stress_principal_2() |
+| [shell_membrane_stress_principal_3](Ans_DataProcessing_operators_result_shell_membrane_stress_principal_3.md) | shell_membrane_stress_principal_3() |
 | [smisc](Ans_DataProcessing_operators_result_smisc.md) | smisc() |
 | [specific_heat](Ans_DataProcessing_operators_result_specific_heat.md) | specific_heat() |
 | [spectrum_data](Ans_DataProcessing_operators_result_spectrum_data.md) | Read spectral data from the result files contained in the streams or data sources.   ///available inputs: streams (StreamsContainer) (optional), data_sources (DataSources) |
