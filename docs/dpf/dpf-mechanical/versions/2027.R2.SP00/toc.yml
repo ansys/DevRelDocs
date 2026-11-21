@@ -1461,6 +1461,58 @@
         href: api/Ans.DataProcessing/operators/result/rom_data_provider.md
       - name: run
         href: api/Ans.DataProcessing/operators/result/run.md
+      - name: shell_bending_stress
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress.md
+      - name: shell_bending_stress_X
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_X.md
+      - name: shell_bending_stress_XY
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_XY.md
+      - name: shell_bending_stress_XZ
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_XZ.md
+      - name: shell_bending_stress_Y
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_Y.md
+      - name: shell_bending_stress_YZ
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_YZ.md
+      - name: shell_bending_stress_Z
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_Z.md
+      - name: shell_bending_stress_eqv
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_eqv.md
+      - name: shell_bending_stress_intensity
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_intensity.md
+      - name: shell_bending_stress_max_shear
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_max_shear.md
+      - name: shell_bending_stress_principal_1
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_principal_1.md
+      - name: shell_bending_stress_principal_2
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_principal_2.md
+      - name: shell_bending_stress_principal_3
+        href: api/Ans.DataProcessing/operators/result/shell_bending_stress_principal_3.md
+      - name: shell_membrane_stress
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress.md
+      - name: shell_membrane_stress_X
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_X.md
+      - name: shell_membrane_stress_XY
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_XY.md
+      - name: shell_membrane_stress_XZ
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_XZ.md
+      - name: shell_membrane_stress_Y
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_Y.md
+      - name: shell_membrane_stress_YZ
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_YZ.md
+      - name: shell_membrane_stress_Z
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_Z.md
+      - name: shell_membrane_stress_eqv
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_eqv.md
+      - name: shell_membrane_stress_intensity
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_intensity.md
+      - name: shell_membrane_stress_max_shear
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_max_shear.md
+      - name: shell_membrane_stress_principal_1
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_principal_1.md
+      - name: shell_membrane_stress_principal_2
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_principal_2.md
+      - name: shell_membrane_stress_principal_3
+        href: api/Ans.DataProcessing/operators/result/shell_membrane_stress_principal_3.md
       - name: smisc
         href: api/Ans.DataProcessing/operators/result/smisc.md
       - name: specific_heat
