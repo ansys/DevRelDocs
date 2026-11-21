@@ -1195,6 +1195,58 @@
       href: operator-specifications/result/rms_temperature.md
     - name: rms velocity
       href: operator-specifications/result/rms_velocity.md
+    - name: shell bending stress
+      href: operator-specifications/result/shell_bending_stress.md
+    - name: shell bending stress eqv
+      href: operator-specifications/result/shell_bending_stress_eqv.md
+    - name: shell bending stress intensity
+      href: operator-specifications/result/shell_bending_stress_intensity.md
+    - name: shell bending stress max shear
+      href: operator-specifications/result/shell_bending_stress_max_shear.md
+    - name: shell bending stress principal 1
+      href: operator-specifications/result/shell_bending_stress_principal_1.md
+    - name: shell bending stress principal 2
+      href: operator-specifications/result/shell_bending_stress_principal_2.md
+    - name: shell bending stress principal 3
+      href: operator-specifications/result/shell_bending_stress_principal_3.md
+    - name: shell bending stress X
+      href: operator-specifications/result/shell_bending_stress_X.md
+    - name: shell bending stress XY
+      href: operator-specifications/result/shell_bending_stress_XY.md
+    - name: shell bending stress XZ
+      href: operator-specifications/result/shell_bending_stress_XZ.md
+    - name: shell bending stress Y
+      href: operator-specifications/result/shell_bending_stress_Y.md
+    - name: shell bending stress YZ
+      href: operator-specifications/result/shell_bending_stress_YZ.md
+    - name: shell bending stress Z
+      href: operator-specifications/result/shell_bending_stress_Z.md
+    - name: shell membrane stress
+      href: operator-specifications/result/shell_membrane_stress.md
+    - name: shell membrane stress eqv
+      href: operator-specifications/result/shell_membrane_stress_eqv.md
+    - name: shell membrane stress intensity
+      href: operator-specifications/result/shell_membrane_stress_intensity.md
+    - name: shell membrane stress max shear
+      href: operator-specifications/result/shell_membrane_stress_max_shear.md
+    - name: shell membrane stress principal 1
+      href: operator-specifications/result/shell_membrane_stress_principal_1.md
+    - name: shell membrane stress principal 2
+      href: operator-specifications/result/shell_membrane_stress_principal_2.md
+    - name: shell membrane stress principal 3
+      href: operator-specifications/result/shell_membrane_stress_principal_3.md
+    - name: shell membrane stress X
+      href: operator-specifications/result/shell_membrane_stress_X.md
+    - name: shell membrane stress XY
+      href: operator-specifications/result/shell_membrane_stress_XY.md
+    - name: shell membrane stress XZ
+      href: operator-specifications/result/shell_membrane_stress_XZ.md
+    - name: shell membrane stress Y
+      href: operator-specifications/result/shell_membrane_stress_Y.md
+    - name: shell membrane stress YZ
+      href: operator-specifications/result/shell_membrane_stress_YZ.md
+    - name: shell membrane stress Z
+      href: operator-specifications/result/shell_membrane_stress_Z.md
     - name: smisc
       href: operator-specifications/result/smisc.md
     - name: specific heat

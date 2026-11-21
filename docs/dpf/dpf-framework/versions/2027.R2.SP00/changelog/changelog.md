@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-19).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-20).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -13,7 +13,7 @@ The following table shows which components have updates in each category.
 | framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc |  |[1 item](#Fixes_grpc) |
 | hgp |  |[2 items](#Fixes_hgp) |
-| lsdyna |  |[1 item](#Fixes_lsdyna) |
+| lsdyna | [1 item](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
 | mapdl | [4 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh |  |[2 items](#Fixes_mesh) |
@@ -149,6 +149,10 @@ The following table shows which components have updates in each category.
   >
   > 
 ## lsdyna
+### <a id="Features_lsdyna"></a> Features
+
+- Support binout traleh branch (#274):
+  > 
 
 ### <a id="Fixes_lsdyna"></a> Fixes
 
@@ -920,6 +924,96 @@ The following table shows which components have updates in each category.
 - [reynolds_number](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/reynolds_number.md):
   > Read/compute reynolds number by calling the readers defined by the datasources.
 
+- [shell_bending_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress.md):
+  > Read/compute shell bending stress by calling the readers defined by the datasources.
+
+- [shell_bending_stress_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_X.md):
+  > Read/compute shell bending stress XX normal component (00 component) by calling the readers defined by the datasources.
+
+- [shell_bending_stress_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_XY.md):
+  > Read/compute shell bending stress XY shear component (01 component) by calling the readers defined by the datasources.
+
+- [shell_bending_stress_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_XZ.md):
+  > Read/compute shell bending stress XZ shear component (02 component) by calling the readers defined by the datasources.
+
+- [shell_bending_stress_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_Y.md):
+  > Read/compute shell bending stress YY normal component (11 component) by calling the readers defined by the datasources.
+
+- [shell_bending_stress_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_YZ.md):
+  > Read/compute shell bending stress YZ shear component (12 component) by calling the readers defined by the datasources.
+
+- [shell_bending_stress_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_Z.md):
+  > Read/compute shell bending stress ZZ normal component (22 component) by calling the readers defined by the datasources.
+
+- [shell_bending_stress_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_eqv.md):
+  > Reads/computes shell bending stress, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_bending_stress_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_intensity.md):
+  > Reads/computes shell bending stress, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_bending_stress_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_max_shear.md):
+  > Reads/computes shell bending stress, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_bending_stress_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_principal_1.md):
+  > Read/compute shell bending stress 1st principal component, average on nodes by default if no target location is given, and compute the eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_bending_stress_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_principal_2.md):
+  > Read/compute shell bending stress 2nd principal component, average on nodes by default if no target location is given, and compute the eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_bending_stress_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_bending_stress_principal_3.md):
+  > Read/compute shell bending stress 3rd principal component, average on nodes by default if no target location is given, and compute the eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_membrane_stress](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress.md):
+  > Read/compute shell membrane stress by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_X](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_X.md):
+  > Read/compute shell membrane stress XX normal component (00 component) by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_XY](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_XY.md):
+  > Read/compute shell membrane stress XY shear component (01 component) by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_XZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_XZ.md):
+  > Read/compute shell membrane stress XZ shear component (02 component) by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_Y](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_Y.md):
+  > Read/compute shell membrane stress YY normal component (11 component) by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_YZ](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_YZ.md):
+  > Read/compute shell membrane stress YZ shear component (12 component) by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_Z](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_Z.md):
+  > Read/compute shell membrane stress ZZ normal component (22 component) by calling the readers defined by the datasources.
+
+- [shell_membrane_stress_eqv](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_eqv.md):
+  > Reads/computes shell membrane stress, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_membrane_stress_intensity](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_intensity.md):
+  > Reads/computes shell membrane stress, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_membrane_stress_max_shear](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_max_shear.md):
+  > Reads/computes shell membrane stress, average it on nodes (by default) and computes its invariants.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_membrane_stress_principal_1](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_principal_1.md):
+  > Read/compute shell membrane stress 1st principal component, average on nodes by default if no target location is given, and compute the eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_membrane_stress_principal_2](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_principal_2.md):
+  > Read/compute shell membrane stress 2nd principal component, average on nodes by default if no target location is given, and compute the eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
+- [shell_membrane_stress_principal_3](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/shell_membrane_stress_principal_3.md):
+  > Read/compute shell membrane stress 3rd principal component, average on nodes by default if no target location is given, and compute the eigen values.
+  > This operation is independent of the coordinate system unless averaging across elements is requested, in which case a rotation to the global coordinate system is performed.
+
 - [squared_l2norm_pressure](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/result/squared_l2norm_pressure.md):
   > Read/compute Square of the L2 norm of pressure over element volume by calling the readers defined by the datasources.
 
@@ -1663,6 +1757,8 @@ The following table shows which components have updates in each category.
   > 0.3.0: Tolerance used when searching elements by the coordinates of the query points.
 
   > 1.0.0: Improve element selection at boundaries using distance-based ranking of candidate elements.
+
+  > 1.0.1: Set unused reduced-coordinate components to zero for 2D elements.
 
 
 - [on_coordinates](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mapping/on_coordinates.md)
