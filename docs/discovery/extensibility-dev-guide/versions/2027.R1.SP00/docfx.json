@@ -1,0 +1,12 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Discovery extensibility and add-ins 2027 R1",
+      "summary": "Learn how to create Discovery add-ins with the .NET extensibility API, customize the user interface, and work with the geometry API.",
+      "version": "2027 R1",
+      "product": "Discovery",
+      "programming language": "C#",
+      "physics": "3D Design"
+    }
+  }
+}
