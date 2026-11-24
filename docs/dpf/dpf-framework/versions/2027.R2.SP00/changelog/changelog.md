@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-20).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-23).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -8,6 +8,7 @@ The following table shows which components have updates in each category.
 
 | Component | Features | Fixes | 
 |-----------|----------|----------|
+| compression |  |[1 item](#Fixes_compression) |
 | cs |  |[1 item](#Fixes_cs) |
 | femutils | [1 item](#Features_femutils) |[3 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
@@ -16,13 +17,25 @@ The following table shows which components have updates in each category.
 | lsdyna | [1 item](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
 | mapdl | [4 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | mechanial | [1 item](#Features_mechanial) | |
-| mesh |  |[2 items](#Fixes_mesh) |
+| mesh | [1 item](#Features_mesh) |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
 | native | [1 item](#Features_native) |[3 items](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
 | pythonplugin |  |[1 item](#Fixes_pythonplugin) |
 
 
+## compression
+
+### <a id="Fixes_compression"></a> Fixes
+
+- SVD fails for FC with one time step:
+  > The operator "svd_operator" doesn't work for fields containers containing a single time step.
+  >
+  > This was due to a segmentation fault.
+  >
+  > 
+  >
+  > 
 ## cs
 
 ### <a id="Fixes_cs"></a> Fixes
@@ -252,6 +265,14 @@ The following table shows which components have updates in each category.
   > 
 
 ## mesh
+### <a id="Features_mesh"></a> Features
+
+- Adapt Skin algorithm from RX:
+  > The new meshed skin sector operator implementation that is on median 5× faster single-threaded and uses about 3× less peak memory than version the current develop on the benchmark models. Shells now stay shells in the skin, and faces that are internal at non-conforming interfaces (a triangle on half of a quad, or a quad covered by two triangles) are no longer included. Existing input and output pins are unchanged and no behavior regressions observed.
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_mesh"></a> Fixes
 
@@ -1422,6 +1443,8 @@ The following table shows which components have updates in each category.
 
   > 0.1.0: The pin 1 can now be passed as a double.
 
+  > 0.1.1: The fail for inputs with a single time step has been fixed.
+
 
 - [kmeans_clustering](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/compression/kmeans_clustering.md)
 
@@ -2402,6 +2425,12 @@ Upgraded documentation
   > 1.0.1: Added support for Surface3, Surface4, Surface6, and Surface8 elements.
 
   > 1.0.2: Reverted memory improvements.
+
+  > 2.0.0: New skin extraction matching whole element faces by their distinct corner nodes. Non-conforming and degenerate faces are handled consistently, nodes of faces rejected by the nodal scoping are not output, and elemental properties are also set on duplicated shells. Shell elements keep their shell type in the skin.
+
+  > 3.0.0: A solid face with 3 distinct corners (a triangle, or a degenerate face with a repeated corner) lying on half of a quad face of another solid element is interior, and the quad face stays in the skin. A quad face covered by two such faces sharing one of its diagonals is interior, as are those faces.
+
+  > 3.1.0: Performance improvement: faster skin extraction with a lower peak memory usage.
 
 
 - [split_fields](https://ansys-a.devportal.io/docs/dpf-framework-2027-r2/operator-specifications/mesh/split_fields.md)
