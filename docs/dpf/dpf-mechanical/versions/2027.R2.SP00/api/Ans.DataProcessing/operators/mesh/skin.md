@@ -4,7 +4,7 @@ uid: Ans.DataProcessing.operators.mesh.skin
 
 # *class* skin(mesh: object = None, mesh_scoping: object = None, duplicate_shell: object = None, add_beam_point: object = None, config: OperatorConfig = None)
 
-Extracts a skin of the mesh in a new meshed region. The material ID of initial elements are propagated to their facets.
+Extracts a skin of the mesh in a new meshed region. The material ID of initial elements are propagated to their facets. Currently supports only 2^29 elements.
 
 available inputs: `mesh` (MeshedRegion), `mesh_scoping` (Scoping) (optional), `duplicate_shell` (bool) (optional), `add_beam_point` (bool) (optional)
 
