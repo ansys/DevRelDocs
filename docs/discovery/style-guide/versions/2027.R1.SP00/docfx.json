@@ -1,0 +1,12 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Discovery style guide 2027 R1",
+      "summary": "Guidance for Discovery interface colors, themes, typography, and icons.",
+      "version": "2027 R1",
+      "product": "Discovery",
+      "programming language": "C#",
+      "physics": "3D Design"
+    }
+  }
+}
