@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-23).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-24).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -13,9 +13,11 @@ The following table shows which components have updates in each category.
 | femutils | [1 item](#Features_femutils) |[3 items](#Fixes_femutils) |
 | framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc |  |[1 item](#Fixes_grpc) |
+| hdf5 | [1 item](#Features_hdf5) | |
 | hgp |  |[2 items](#Fixes_hgp) |
 | lsdyna | [1 item](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
 | mapdl | [4 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
+| math |  |[1 item](#Fixes_math) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh | [1 item](#Features_mesh) |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
@@ -140,6 +142,14 @@ The following table shows which components have updates in each category.
   > - the server process always exits
   >
   > 
+## hdf5
+### <a id="Features_hdf5"></a> Features
+
+- Unify HDF5 result label filtering and improve body-splitting tests:
+  > Unifies HDF5 result filtering across labels and generates body-splitting test data through workflows.
+  >
+  > 
+
 ## hgp
 
 ### <a id="Fixes_hgp"></a> Fixes
@@ -253,6 +263,16 @@ The following table shows which components have updates in each category.
   > 
 
 - Fix ASEC beam section Geometry issue:
+  > 
+  >
+  > 
+## math
+
+### <a id="Fixes_math"></a> Fixes
+
+- Avoid unit change for temperatures in time_freq_increment:
+  > The operator time_freq_increment was modifying the unit for temperature fields.
+  >
   > 
   >
   > 
