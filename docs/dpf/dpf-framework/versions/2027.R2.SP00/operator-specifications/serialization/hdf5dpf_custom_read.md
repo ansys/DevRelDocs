@@ -21,7 +21,7 @@ Each parameter is detailed in the sections that follow the table.
 | Pin number | Name | Status | Expected type(s) |
 |------------|------|--------|------------------|
 | <strong>0</strong> | [time_scoping](#input_0) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
-| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping) |
+| <strong>1</strong> | [mesh_scoping](#input_1) |  |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |
 | <strong>3</strong> | [streams](#input_3) |  |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |
 | <strong>4</strong> | [data_sources](#input_4) |  |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |
 | <strong>24</strong> | [meta_data](#input_24) |  |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) |
@@ -40,9 +40,9 @@ Each parameter is detailed in the sections that follow the table.
 ### mesh_scoping (Pin 1)
 
 - **Required:** No
-- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping)
+- **Expected type(s):** [`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container)
 
-
+Entities to read. A scoping whose location is a label of the stored fields container (for example "mat") selects the fields with these label values; a labelled scopings container scopes each stored field with its compatible scopings. Any label combination that exists as label in the stored fields container can be used.
 
 <a id="input_3"></a>
 ### streams (Pin 3)

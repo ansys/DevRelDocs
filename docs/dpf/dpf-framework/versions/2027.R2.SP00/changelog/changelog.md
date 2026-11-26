@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-24).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-25).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -10,18 +10,18 @@ The following table shows which components have updates in each category.
 |-----------|----------|----------|
 | compression |  |[1 item](#Fixes_compression) |
 | cs |  |[1 item](#Fixes_cs) |
-| femutils | [1 item](#Features_femutils) |[3 items](#Fixes_femutils) |
-| framework | [2 items](#Features_framework) |[2 items](#Fixes_framework) |
+| femutils | [2 items](#Features_femutils) |[3 items](#Fixes_femutils) |
+| framework | [4 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc |  |[1 item](#Fixes_grpc) |
-| hdf5 | [1 item](#Features_hdf5) | |
+| hdf5 | [2 items](#Features_hdf5) | |
 | hgp |  |[2 items](#Fixes_hgp) |
 | lsdyna | [1 item](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
-| mapdl | [4 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
+| mapdl | [5 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | math |  |[1 item](#Fixes_math) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh | [1 item](#Features_mesh) |[2 items](#Fixes_mesh) |
 | misc |  |[1 item](#Fixes_misc) |
-| native | [1 item](#Features_native) |[3 items](#Fixes_native) |
+| native | [2 items](#Features_native) |[3 items](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
 | pythonplugin |  |[1 item](#Fixes_pythonplugin) |
 
@@ -56,6 +56,27 @@ The following table shows which components have updates in each category.
   > 
 ## femutils
 ### <a id="Features_femutils"></a> Features
+
+- Handle ply and shell position layouts per entity in field operations:
+  > 
+  >
+  > Fields mixing shell elements with different ply counts or shell positions (e.g. Top/Bottom shells next to one-layer shells or solids) now describe the ply and position layout of each entity. Operators use it instead of the field's single shell layer value.
+  >
+  > - change_shell_layers keeps, per element and ply, the positions shared with the requested layer; elements with none are removed. Elements with interfaces shared between plies cannot be split and raise an error, even in permissive mode. Fields where every element has the same single-ply layout behave as before.
+  >
+  > - merge, sum, average, maximum and scalar product (merge::field, merge::fields_container, dot...) combine values ply by ply and position by position. A field without layout description is described by its shell layer, so it can be combined with fields that have one (e.g. element volume x density). An error is raised when inputs describe an element with different layouts, or when uniform shell fields with different shell layers (e.g. Top and Bottom) share an element.
+  >
+  > - Merging no longer silently drops values of an element that does not fit the output, also when the operator is reevaluated with reordered inputs.
+  >
+  > - rescope with a default value keeps the layout; elements created from the default are layer independent.
+  >
+  > - The layout is preserved in H5 DPF files.
+  >
+  > - MAPDL reader: elements with the same shell layer type but different ply counts are heterogeneous; results stored once per element (volume, energy) are described as one non-layered value, so ElementalMass works on mixed shell/solid models.
+  >
+  > 
+  >
+  > 
 
 - Expose nodal and elemental scopings for CElementalNodalToNodalElementalFC:
   > Elemental nodal to nodal elemental conversion operators can now output the nodal and elemental scopings of each resulting field.
@@ -92,6 +113,32 @@ The following table shows which components have updates in each category.
   > 
 ## framework
 ### <a id="Features_framework"></a> Features
+
+- Initial implementation of CScopingByRange:
+  > 
+  >
+  > 
+
+- Handle ply and shell position layouts per entity in field operations:
+  > 
+  >
+  > Fields mixing shell elements with different ply counts or shell positions (e.g. Top/Bottom shells next to one-layer shells or solids) now describe the ply and position layout of each entity. Operators use it instead of the field's single shell layer value.
+  >
+  > - change_shell_layers keeps, per element and ply, the positions shared with the requested layer; elements with none are removed. Elements with interfaces shared between plies cannot be split and raise an error, even in permissive mode. Fields where every element has the same single-ply layout behave as before.
+  >
+  > - merge, sum, average, maximum and scalar product (merge::field, merge::fields_container, dot...) combine values ply by ply and position by position. A field without layout description is described by its shell layer, so it can be combined with fields that have one (e.g. element volume x density). An error is raised when inputs describe an element with different layouts, or when uniform shell fields with different shell layers (e.g. Top and Bottom) share an element.
+  >
+  > - Merging no longer silently drops values of an element that does not fit the output, also when the operator is reevaluated with reordered inputs.
+  >
+  > - rescope with a default value keeps the layout; elements created from the default are layer independent.
+  >
+  > - The layout is preserved in H5 DPF files.
+  >
+  > - MAPDL reader: elements with the same shell layer type but different ply counts are heterogeneous; results stored once per element (volume, energy) are described as one non-layered value, so ElementalMass works on mixed shell/solid models.
+  >
+  > 
+  >
+  > 
 
 - Fixing issues with large distributed files and multiple bodies:
   > Improve performance when processing scopings and composite results, especially for largely fragmented files and many scopings. The scoping::intersect operator now supports computing selected outputs and intersecting multiple scopings.
@@ -145,6 +192,27 @@ The following table shows which components have updates in each category.
 ## hdf5
 ### <a id="Features_hdf5"></a> Features
 
+- Handle ply and shell position layouts per entity in field operations:
+  > 
+  >
+  > Fields mixing shell elements with different ply counts or shell positions (e.g. Top/Bottom shells next to one-layer shells or solids) now describe the ply and position layout of each entity. Operators use it instead of the field's single shell layer value.
+  >
+  > - change_shell_layers keeps, per element and ply, the positions shared with the requested layer; elements with none are removed. Elements with interfaces shared between plies cannot be split and raise an error, even in permissive mode. Fields where every element has the same single-ply layout behave as before.
+  >
+  > - merge, sum, average, maximum and scalar product (merge::field, merge::fields_container, dot...) combine values ply by ply and position by position. A field without layout description is described by its shell layer, so it can be combined with fields that have one (e.g. element volume x density). An error is raised when inputs describe an element with different layouts, or when uniform shell fields with different shell layers (e.g. Top and Bottom) share an element.
+  >
+  > - Merging no longer silently drops values of an element that does not fit the output, also when the operator is reevaluated with reordered inputs.
+  >
+  > - rescope with a default value keeps the layout; elements created from the default are layer independent.
+  >
+  > - The layout is preserved in H5 DPF files.
+  >
+  > - MAPDL reader: elements with the same shell layer type but different ply counts are heterogeneous; results stored once per element (volume, energy) are described as one non-layered value, so ElementalMass works on mixed shell/solid models.
+  >
+  > 
+  >
+  > 
+
 - Unify HDF5 result label filtering and improve body-splitting tests:
   > Unifies HDF5 result filtering across labels and generates body-splitting test data through workflows.
   >
@@ -183,6 +251,27 @@ The following table shows which components have updates in each category.
   > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Handle ply and shell position layouts per entity in field operations:
+  > 
+  >
+  > Fields mixing shell elements with different ply counts or shell positions (e.g. Top/Bottom shells next to one-layer shells or solids) now describe the ply and position layout of each entity. Operators use it instead of the field's single shell layer value.
+  >
+  > - change_shell_layers keeps, per element and ply, the positions shared with the requested layer; elements with none are removed. Elements with interfaces shared between plies cannot be split and raise an error, even in permissive mode. Fields where every element has the same single-ply layout behave as before.
+  >
+  > - merge, sum, average, maximum and scalar product (merge::field, merge::fields_container, dot...) combine values ply by ply and position by position. A field without layout description is described by its shell layer, so it can be combined with fields that have one (e.g. element volume x density). An error is raised when inputs describe an element with different layouts, or when uniform shell fields with different shell layers (e.g. Top and Bottom) share an element.
+  >
+  > - Merging no longer silently drops values of an element that does not fit the output, also when the operator is reevaluated with reordered inputs.
+  >
+  > - rescope with a default value keeps the layout; elements created from the default are layer independent.
+  >
+  > - The layout is preserved in H5 DPF files.
+  >
+  > - MAPDL reader: elements with the same shell layer type but different ply counts are heterogeneous; results stored once per element (volume, energy) are described as one non-layered value, so ElementalMass works on mixed shell/solid models.
+  >
+  > 
+  >
+  > 
 
 - Add membrane stress and bending stress in source operator:
   > 
@@ -327,6 +416,27 @@ The following table shows which components have updates in each category.
   > 
 ## native
 ### <a id="Features_native"></a> Features
+
+- Handle ply and shell position layouts per entity in field operations:
+  > 
+  >
+  > Fields mixing shell elements with different ply counts or shell positions (e.g. Top/Bottom shells next to one-layer shells or solids) now describe the ply and position layout of each entity. Operators use it instead of the field's single shell layer value.
+  >
+  > - change_shell_layers keeps, per element and ply, the positions shared with the requested layer; elements with none are removed. Elements with interfaces shared between plies cannot be split and raise an error, even in permissive mode. Fields where every element has the same single-ply layout behave as before.
+  >
+  > - merge, sum, average, maximum and scalar product (merge::field, merge::fields_container, dot...) combine values ply by ply and position by position. A field without layout description is described by its shell layer, so it can be combined with fields that have one (e.g. element volume x density). An error is raised when inputs describe an element with different layouts, or when uniform shell fields with different shell layers (e.g. Top and Bottom) share an element.
+  >
+  > - Merging no longer silently drops values of an element that does not fit the output, also when the operator is reevaluated with reordered inputs.
+  >
+  > - rescope with a default value keeps the layout; elements created from the default are layer independent.
+  >
+  > - The layout is preserved in H5 DPF files.
+  >
+  > - MAPDL reader: elements with the same shell layer type but different ply counts are heterogeneous; results stored once per element (volume, energy) are described as one non-layered value, so ElementalMass works on mixed shell/solid models.
+  >
+  > 
+  >
+  > 
 
 - Fixing issues with large distributed files and multiple bodies:
   > Improve performance when processing scopings and composite results, especially for largely fragmented files and many scopings. The scoping::intersect operator now supports computing selected outputs and intersecting multiple scopings.
