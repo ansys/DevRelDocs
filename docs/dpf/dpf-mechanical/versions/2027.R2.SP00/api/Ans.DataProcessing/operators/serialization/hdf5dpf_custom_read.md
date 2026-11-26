@@ -6,7 +6,7 @@ uid: Ans.DataProcessing.operators.serialization.hdf5dpf_custom_read
 
 Extract a custom result from an hdf5dpf file. This operator is deprecated, please use the 'custom' operator instead.
 
-available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping) (optional), `streams` (StreamsContainer) (optional), `data_sources` (DataSources) (optional), `meta_data` (DataTree) (optional), `result_name` (Any)
+available inputs: `time_scoping` (Scoping) (optional), `mesh_scoping` (Scoping, ScopingsContainer) (optional), `streams` (StreamsContainer) (optional), `data_sources` (DataSources) (optional), `meta_data` (DataTree) (optional), `result_name` (Any)
 
 available outputs: `field_or_fields_container` (FieldsContainer ,Field)
 
@@ -37,6 +37,8 @@ op = hdf5dpf_custom_read(time_scoping=my_time_scoping,mesh_scoping=my_mesh_scopi
 **Type:** *LinkableInput*
 
 ### mesh_scoping
+
+Entities to read. A scoping whose location is a label of the stored fields container (for example "mat") selects the fields with these label values; a labelled scopings container scopes each stored field with its compatible scopings. Any label combination that exists as label in the stored fields container can be used.
 
 **Type:** *LinkableInput*
 
