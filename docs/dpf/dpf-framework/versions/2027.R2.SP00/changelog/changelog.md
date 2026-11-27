@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-25).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-26).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -11,12 +11,12 @@ The following table shows which components have updates in each category.
 | compression |  |[1 item](#Fixes_compression) |
 | cs |  |[1 item](#Fixes_cs) |
 | femutils | [2 items](#Features_femutils) |[3 items](#Fixes_femutils) |
-| framework | [4 items](#Features_framework) |[2 items](#Fixes_framework) |
+| framework | [5 items](#Features_framework) |[2 items](#Fixes_framework) |
 | grpc |  |[1 item](#Fixes_grpc) |
 | hdf5 | [2 items](#Features_hdf5) | |
-| hgp |  |[2 items](#Fixes_hgp) |
+| hgp | [1 item](#Features_hgp) |[2 items](#Fixes_hgp) |
 | lsdyna | [1 item](#Features_lsdyna) |[1 item](#Fixes_lsdyna) |
-| mapdl | [5 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
+| mapdl | [6 items](#Features_mapdl) |[3 items](#Fixes_mapdl) |
 | math |  |[1 item](#Fixes_math) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh | [1 item](#Features_mesh) |[2 items](#Fixes_mesh) |
@@ -24,6 +24,7 @@ The following table shows which components have updates in each category.
 | native | [2 items](#Features_native) |[3 items](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
 | pythonplugin |  |[1 item](#Fixes_pythonplugin) |
+| workflows |  |[1 item](#Fixes_workflows) |
 
 
 ## compression
@@ -113,6 +114,15 @@ The following table shows which components have updates in each category.
   > 
 ## framework
 ### <a id="Features_framework"></a> Features
+
+- Preserve named workflow failure context:
+  > 
+  >
+  > Workflow errors now include the original operator error, named workflow, and input or output pin involved in error propagation. Connected and nested workflow execution preserves the error type, message, and ordered workflow context.
+  >
+  > 
+  >
+  > 
 
 - Initial implementation of CScopingByRange:
   > 
@@ -219,6 +229,16 @@ The following table shows which components have updates in each category.
   > 
 
 ## hgp
+### <a id="Features_hgp"></a> Features
+
+- Preserve named workflow failure context:
+  > 
+  >
+  > Workflow errors now include the original operator error, named workflow, and input or output pin involved in error propagation. Connected and nested workflow execution preserves the error type, message, and ordered workflow context.
+  >
+  > 
+  >
+  > 
 
 ### <a id="Fixes_hgp"></a> Fixes
 
@@ -251,6 +271,9 @@ The following table shows which components have updates in each category.
   > 
 ## mapdl
 ### <a id="Features_mapdl"></a> Features
+
+- Make mapdl::run compatible with Linux, plus multiple fixes:
+  > 
 
 - Handle ply and shell position layouts per entity in field operations:
   > 
@@ -485,6 +508,16 @@ The following table shows which components have updates in each category.
   > Binary, dependency, entry point, and registration failures identify the failing phase.
   >
   > Existing native return codes and client error return contracts remain compatible.
+  >
+  > 
+  >
+  > 
+## workflows
+
+### <a id="Fixes_workflows"></a> Fixes
+
+- Order of quantization deltas workflow is not in the good range:
+  > When compressing a fields container of one time step with quantization_deltas_compression, the optimization fails because the range of the "order" variable is wrongly set.
   >
   > 
   >
