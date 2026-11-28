@@ -1,6 +1,6 @@
 # Changelog
 
-Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-26).
+Changes since the last released version for DPF 27.2.pre0 (as of 2026-11-27).
 
 This changelog is organized by category, with sections for different types of updates (new features, bug fixes, changes, performance improvements).
 
@@ -20,7 +20,7 @@ The following table shows which components have updates in each category.
 | math |  |[1 item](#Fixes_math) |
 | mechanial | [1 item](#Features_mechanial) | |
 | mesh | [1 item](#Features_mesh) |[2 items](#Fixes_mesh) |
-| misc |  |[1 item](#Fixes_misc) |
+| misc |  |[2 items](#Fixes_misc) |
 | native | [2 items](#Features_native) |[3 items](#Fixes_native) |
 | prime |  |[1 item](#Fixes_prime) |
 | pythonplugin |  |[1 item](#Fixes_pythonplugin) |
@@ -428,6 +428,11 @@ The following table shows which components have updates in each category.
 ## misc
 
 ### <a id="Fixes_misc"></a> Fixes
+
+- Add ElementUtilities support to C++ NuGet packages:
+  > 
+  >
+  > 
 
 - Remove agent paths from generated API directory names:
   > 
